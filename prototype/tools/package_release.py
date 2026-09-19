@@ -16,6 +16,32 @@ for name in allowed:
   target.write_text(data,encoding='utf-8',newline='\n')
  else:shutil.copyfile(p,target)
 shutil.copyfile(base/rel['pdf_filename'],public/rel['pdf_filename'])
+# Prefix rule covers this PDF and future cp2e release downloads without wildcards.
+robots='# Keep release downloads out of compliant crawlers; HTML pages remain crawlable.\nUser-agent: *\nDisallow: /cp2e-\n'
+(public/'robots.txt').write_text(robots,encoding='utf-8',newline='\n')
+from urllib.robotparser import RobotFileParser
+robot_policy=RobotFileParser();robot_policy.parse(robots.splitlines())
+assert not robot_policy.can_fetch('ExampleCrawler',rel['public_origin']+'/'+rel['pdf_filename'])
+assert robot_policy.can_fetch('ExampleCrawler',rel['public_origin']+'/sections/gravitation/')
+(base/'UPLOAD-INSTRUCTIONS.txt').write_text(
+ 'Introduction to Physics — '+rel['release_id']+'\n\n'
+ 'Extract '+rel['site_archive_filename']+' directly into the webroot for intro.coaphys.xyz.\n'
+ 'Alternatively, extract locally and upload all extracted files and folders, keeping their structure.\n'
+ 'index.html and robots.txt must be directly in the webroot, not inside a release folder.\n'
+ 'The ZIP itself and this instruction file do not need to be uploaded.\n\n'
+ 'This is a static site: no PHP, build tools, database, URL rewrites, or custom .htaccess are required.\n'
+ 'Standard Apache DirectoryIndex index.html and PDF MIME handling are sufficient.\n'
+ 'Download PDF in the navigation, including on the home page, links to '+rel['pdf_filename']+'.\n\n'
+ 'After uploading, check:\n'
+ '  '+rel['public_origin']+'/\n'
+ '  '+rel['public_origin']+'/contents/\n'
+ '  '+rel['public_origin']+'/robots.txt\n'
+ '  '+rel['public_origin']+'/'+rel['pdf_filename']+'\n'
+ 'Open a chapter, follow a section link, and check an equation and image.\n\n'
+ 'robots.txt asks all compliant crawlers to avoid root paths beginning /cp2e-, including release PDFs.\n'
+ 'It leaves the HTML textbook crawlable. It is not access control: bots can ignore it, and readers\n'
+ 'can still download the PDF. Enforced bandwidth limits require hosting/CDN controls.\n',
+ encoding='utf-8',newline='\n')
 (public/'release.json').write_text(json.dumps({'release_id':rel['release_id'],'title':rel['title'],'status':rel['status'],'numbering':rel['public_numbering_label'],'numbering_creates_separate_release':False},indent=2)+'\n',encoding='utf-8',newline='\n')
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.ids=[];self.links=[]

@@ -65,3 +65,9 @@ Chapter contents also link to the existing collected exercise views; exercises r
 Validation: 158 public HTML pages checked at 1280px and 390px; 2,919 local links resolved; all 141 sections covered by the site map; all 15 chapter entry links and self-links verified. Home (desktop/mobile) and chapter-entry layouts were visually inspected. Source fidelity checks passed. The PDF and staging `book.html` are byte-for-byte unchanged; PDF SHA-256: `623f81eec12541d15b4384a180aabb9d79cc18f16096929e1b192115c27972a6`.
 
 For website-only updates, run the HTML build, package, and browser audit commands above, omitting PDF rendering. The static ZIP and artifact checksums have been refreshed for this navigation update.
+
+## Apache upload package
+
+The static ZIP can be extracted directly into the subdomain webroot: `index.html`, `robots.txt`, and `cp2e-ver1.0.pdf` are at the archive root. The home page and all public page navigation link to the PDF. No PHP, rewrites, or custom Apache configuration are required with standard index.html directory handling. Generated `UPLOAD-INSTRUCTIONS.txt` beside the ZIP describes upload and live smoke checks; it is not included in the public tree.
+
+The generated robots.txt disallows root paths beginning `/cp2e-` for all compliant crawlers, covering current and future release downloads while leaving HTML crawlable. This is advisory, not an enforced bandwidth restriction. The upload ZIP passed CRC and every packaged file's manifest checksum; 158 pages and 2,919 local links validated. PDF bytes remain unchanged.
