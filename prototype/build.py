@@ -12,6 +12,7 @@ assert PROFILE in ('cnx','course')
 FULL='--all' in sys.argv
 RELEASE='--release' in sys.argv
 release=json.loads((ROOT/'metadata/release.json').read_text(encoding='utf-8'))
+if RELEASE and release.get('artifacts_frozen'):raise SystemExit('Release artifacts are frozen. Use a development build or prepare a new release ID; do not overwrite 1.0.')
 OUT=(ROOT/'output/releases'/release['release_id']/'site') if RELEASE else P/'dist'/(PROFILE+'-full' if FULL else PROFILE)
 if RELEASE:assert FULL and PROFILE==release['default_numbering_profile']
 IDS=['m67034','m67530','m71410','m67122','m67807','m42709']

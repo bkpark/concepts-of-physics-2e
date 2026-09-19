@@ -1,5 +1,7 @@
 # cp2e-ver1.0 release-candidate pass
 
+> Historical assessment, superseded for release status by [the final archival record](release-cp2e-ver1.0.md). Version 1.0 is published and its original artifacts are frozen.
+
 The visible title is **Introduction to Physics**. `cp2e-ver1.0` identifies the content release in filenames and metadata, not a separate numbering edition. A future change of numbering presentation does not change section URLs or create a separate edition automatically.
 
 ## Outputs
@@ -11,7 +13,7 @@ Under `output/releases/cp2e-ver1.0/`:
 - `public/`: the same publishable file tree.
 - `artifact-manifest.json` and `SHA256SUMS.txt`: artifact and source checksums.
 
-The status is **release-candidate**, not a published GitHub release. No remote repository, final release tag, or deployment was created.
+At the time of this candidate assessment, no GitHub release, final tag, or deployment existed. Those steps are now complete; see the final archival record.
 
 ## Changes in this pass
 

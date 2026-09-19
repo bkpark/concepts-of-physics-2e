@@ -4,6 +4,7 @@ const fs=require('fs'),path=require('path'),http=require('http'),crypto=require(
 const root=path.resolve(__dirname,'../..');
 const release=JSON.parse(fs.readFileSync(path.join(root,'metadata/release.json'),'utf8'));
 const releasing=process.argv.includes('--release');
+if(releasing&&release.artifacts_frozen)throw Error('Release artifacts are frozen. Use a development build or prepare a new release ID.');
 if(releasing){const lock=JSON.parse(fs.readFileSync(path.join(root,'metadata/render-environment.lock.json'),'utf8'));for(const f of lock.files)if(crypto.createHash('sha256').update(fs.readFileSync(f.path)).digest('hex')!==f.sha256)throw Error('Changed locked dependency: '+f.path);if(process.version!==lock.node_version||require('playwright/package.json').version!==lock.playwright_version)throw Error('Renderer runtime version differs from lock');console.log('Locked renderer and fonts verified.');}
 const dist=releasing?path.join(root,'output/releases',release.release_id,'site'):path.join(root,'prototype/dist/course-full');
 const output=releasing?path.join(root,'output/releases',release.release_id):path.join(root,'output/pdf');fs.mkdirSync(output,{recursive:true});

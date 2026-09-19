@@ -21,7 +21,7 @@ Start with [the maintained-source guide](maintained/README.md) and
 [release/build instructions](docs/release-candidate-cp2e-ver1.0.md).
 The [recovery assessment](docs/recovery-assessment.md) records the original inventory.
 Earlier milestone documents describe the project at their respective stages;
-release metadata finalization remains a separate bookkeeping step.
+the [final 1.0 archival record](docs/release-cp2e-ver1.0.md) is authoritative for publication status.
 
 ## Preservation
 
@@ -87,3 +87,7 @@ Updates are reviewed against the last unambiguous CC BY 4.0 College Physics 2e
 source snapshot found in the public Git history: `f98d7a792138a6133fe7267d17e70aa04e9ccbed`
 (February 4, 2026). See [snapshot evidence and relativity findings](docs/upstream-cc-by-reference.md).
 Do not import NC- or SA-restricted material or use a floating upstream branch.
+
+## Archived releases
+
+[cp2e-ver1.0](https://github.com/bkpark/concepts-of-physics-2e/releases/tag/cp2e-ver1.0) preserves the original PDF, webroot ZIP, checksums, and source history. See the [1.1 plan](docs/next-release-1.1.md) for subsequent work.

@@ -4,6 +4,7 @@ import json,hashlib,shutil,zipfile,html
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 root=Path(__file__).resolve().parents[2];rel=json.loads((root/'metadata/release.json').read_text(encoding='utf-8'))
+if rel.get('artifacts_frozen'):raise SystemExit('Release artifacts are frozen. Prepare a new release ID before packaging.')
 base=root/'output/releases'/rel['release_id'];src=base/'site';public=base/'public';public.mkdir(exist_ok=True)
 allowed=['index.html','style.css','copy-math.js']
 allowed += [p.relative_to(src).as_posix() for folder in ('sections','exercises','media','source','contents') for p in (src/folder).rglob('*') if p.is_file()]
@@ -64,7 +65,7 @@ for p,parser in pages.items():
   assert target.is_file(),(p,link)
   if u.fragment and target.suffix=='.html':assert unquote(u.fragment) in pages[target].ids,(p,link)
   checked+=1
-manifest={'release_id':rel['release_id'],'title':rel['title'],'status':'release-candidate','publication_ready':False,'numbering_profile':rel['default_numbering_profile'],'numbering_policy':rel['numbering_policy'],'pdf_sha256':hashlib.sha256((base/rel['pdf_filename']).read_bytes()).hexdigest(),'renderer_lock_sha256':hashlib.sha256((root/'metadata/render-environment.lock.json').read_bytes()).hexdigest(),'source_sha256':json.loads((src/'build-manifest.json').read_text(encoding='utf-8'))['source_sha256'],'static_pages':len(pages),'local_links_checked':checked,'files':{p.relative_to(public).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(public.rglob('*')) if p.is_file()}}
+manifest={'release_id':rel['release_id'],'title':rel['title'],'status':rel['status'],'publication_ready':rel['publication_ready'],'numbering_profile':rel['default_numbering_profile'],'numbering_policy':rel['numbering_policy'],'pdf_sha256':hashlib.sha256((base/rel['pdf_filename']).read_bytes()).hexdigest(),'renderer_lock_sha256':hashlib.sha256((root/'metadata/render-environment.lock.json').read_bytes()).hexdigest(),'source_sha256':json.loads((src/'build-manifest.json').read_text(encoding='utf-8'))['source_sha256'],'static_pages':len(pages),'local_links_checked':checked,'files':{p.relative_to(public).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(public.rglob('*')) if p.is_file()}}
 (base/'artifact-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')
 with zipfile.ZipFile(base/rel['site_archive_filename'],'w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted(public.rglob('*')):
