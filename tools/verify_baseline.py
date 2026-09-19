@@ -57,6 +57,15 @@ for item in lock['external_archives']:
             failures.append('Archive bytes differ from original Git tree: ' + item['relative_path'])
         else:
             print('Verified archive contents against Git tree: ' + item['relative_path'])
+reference = lock.get('historical_pdf_reference')
+if reference:
+    path = ROOT / reference['local_relative_path']
+    if not path.exists():
+        print('Historical PDF not present here; retrieve the separately preserved reference.')
+    elif hashlib.sha256(path.read_bytes()).hexdigest() != reference['sha256']:
+        failures.append('Historical PDF checksum mismatch')
+    else:
+        print('Verified historical CNX PDF checksum.')
 if failures:
     raise SystemExit('\n'.join(failures))
 print(f"Verified {len(lock['baseline_files_sha256'])} unchanged source files and both pinned Git tags.")

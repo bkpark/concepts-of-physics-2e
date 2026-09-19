@@ -4,6 +4,13 @@ Assessment date: 2026-09-19 UTC. Scope: recovery, inventory, evidence, and rever
 setup only. No conversion of textbook prose or equations, no publication, and no
 remote GitHub changes have been performed.
 
+**Subsequent evidence update:** the user supplied the historical 12.1 PDF after this
+initial assessment. It has been preserved and hashed; all 141 module IDs match its
+attribution section, which also supplies 114 direct ancestry records. See
+[the PDF reference update](cnx-pdf-reference.md). Statements below about unavailable
+PDF/version/attribution evidence describe the initial assessment; the update supersedes
+those limitations where specified. Full source-to-PDF fidelity remains unverified.
+
 ## 1. Identity and preservation
 
 The repository contains three book branches. Its default `main` is **Concepts of

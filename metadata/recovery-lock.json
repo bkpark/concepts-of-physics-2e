@@ -7,7 +7,7 @@
   "collection_uuid": "58fbacb7-693d-4d0a-80dc-21e7c33abd8f",
   "legacy_identifier_user_supplied": "WPust2k9@12.1",
   "uuid_first_six_bytes_base64url": "WPust2k9",
-  "version_12_1_status": "user-supplied; not independently attested by recovered metadata; archive endpoint timed out",
+  "version_12_1_status": "Historical 12.1 PDF supplied by user; prints legacy col25183/1.12; all 141 module IDs match; exact source text/math equivalence not yet verified",
   "snapshots": [
     {
       "tag": "recovered/cnx-import-2022-06-23",
@@ -1013,5 +1013,16 @@
     "sha256": "5cca3dc1360415035b6387172ea9b934e19e3c22632a842a48cf6a196416f097",
     "license_declared": "CC-BY-NC-SA-4.0",
     "scope": "collection only; no upstream module snapshot yet"
+  },
+  "historical_pdf_reference": {
+    "sha256": "9f1fd756b7892eca543f1b57c4fae433fa9509361e3beb51d3c306eb3deb6120",
+    "bytes": 110861820,
+    "pages": 671,
+    "user_provenance": "User identifies this as version 12.1 downloaded before CNX shutdown.",
+    "printed_collection_url": "https://legacy.cnx.org/content/col25183/1.12",
+    "printed_structure_revision_date": "2019/10/14",
+    "printed_pdf_generation": "2019/11/01 14:46:23",
+    "local_relative_path": "../references/introduction-to-physics-12.1.pdf",
+    "evidence_path": "references/cnx-12.1-pdf-evidence.json"
   }
 }

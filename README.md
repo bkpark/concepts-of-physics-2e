@@ -24,9 +24,12 @@ The default historical `main` branch contains a different book. Work here is on
 as the maintained book's starting point. A future maintained `main` must be created
 deliberately from this work, preserving the historical refs.
 
-The export confirms the title and collection `col25183`; **12.1 is not independently
-verified** in recovered metadata. The user-supplied `WPust2k9@12.1` is recorded with
-that qualification. Do not relabel the import as a verified 12.1 archive yet.
+The user has now supplied the historical **12.1 PDF**, preserved unchanged alongside
+the repository. It prints collection `col25183/1.12` and a generation date of
+2019-11-01. Its attribution section identifies all 141 recovered module IDs and
+provides 114 direct ancestry records. See [the PDF evidence update](docs/cnx-pdf-reference.md).
+The PDF is the historical rendering reference; exact source-text and MathML agreement
+between it and the Git import still requires comparison.
 
 ## Reproduce the audit
 
