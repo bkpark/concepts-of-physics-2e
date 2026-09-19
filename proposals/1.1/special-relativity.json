@@ -5,51 +5,43 @@
   "items": [
     {
       "id": "SR01",
-      "classification": "Physics correction and explanation",
+      "classification": "Verbatim upstream update",
       "module": "m42531",
       "source_sha256": "c7a9988cd0d4ebba885ac5641439d8e550c444de64e5466d84502cb5ceef9771",
-      "title": "Distinguish emission events from reception events",
-      "reason": "The current A paragraph incorrectly states simultaneous reception at A. Upstream fixes the result but retains confusing frame wording and an imprecise summary definition. This proposal preserves the train, lamps, figure, actors, and outcome while making the frame reasoning explicit.",
+      "title": "Incorporate the upstream simultaneity update",
+      "reason": "Replace two paragraphs with exact wording from the pinned CC BY upstream and remove the intervening paragraph, as upstream did. No additional prose editing.",
       "changes": [
-        {
-          "source_id": "import-auto-id2533168",
-          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2533168\">Consider how we measure elapsed time. If we use a stopwatch, for example, how do we know when to start and stop the watch? One method is to use the arrival of light from the event, such as observing a light turning green to start a drag race. The timing will be more accurate if some sort of electronic detection is used, avoiding human reaction times and other complications.</ns0:para>",
-          "after_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2533168\">Light can tell us when an event happens, but it takes time to reach us. Receiving light from two events at the same time does not, by itself, mean that the events happened at the same time. To compare the times of distant events, we must account for the travel time of each light signal in the reference frame we are using.</para>"
-        },
         {
           "source_id": "import-auto-id2988234",
           "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <ns0:link target-id=\"import-auto-id3164999\" />.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus observer B measures the flashes to be simultaneous.</ns0:para>",
-          "after_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Consider two flash lamps fixed at opposite ends of a rail car, with observer A at its midpoint. The car moves to the right at constant velocity relative to observer B, who stands beside the track. In B’s reference frame, the lamps emit their flashes simultaneously, just as A passes B. At these two emission events, B is equally far from the two lamps in his frame. The light travels equal distances to B at the same speed, so B receives the flashes together and concludes that the emissions were simultaneous in his frame. (See <link target-id=\"import-auto-id3164999\"/>.)</para>"
+          "after_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <ns0:link target-id=\"import-auto-id3164999\" />.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that in B’s frame, both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus, observer B measures the flashes to be simultaneous.  Since in B’s frame, A is moving to the right, B will measure the light from the right bulb and arrive at observer A before the light from the left bulb arrives at observer A.</ns0:para>",
+          "action": "replace"
         },
         {
           "source_id": "import-auto-id2693622",
           "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2693622\">Now consider what observer B sees happen to observer A.  Observer B views light from the right reaching observer A before light from the left, because she has moved toward that flash lamp, lessening the distance the light must travel and reducing the time it takes to get to her. Light travels at speed <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mi>c</ns1:mi></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{c} {}</ns1:annotation></ns1:semantics></ns1:math> relative to both observers, but observer B remains equidistant between the points where the flashes were emitted, while A gets closer to the emission point on the right. From observer B’s point of view, then, there is a time interval between the arrival of the flashes to observer A. Observer B measures the flashes to arrive simultaneously relative to him but not relative to A. </ns0:para>",
-          "after_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2693622\">In B’s frame, A moves toward the light coming from the right and away from the light coming from the left. The right-hand flash therefore reaches A first. This difference is not caused by different speeds of light: both signals travel at the same speed. Both observers agree that the right-hand flash reaches A before the left-hand flash.</para>"
+          "after_xml": null,
+          "action": "remove-paragraph-retain-anchor",
+          "reason": "Upstream folds this explanation into the preceding paragraph. Preserve its public anchor if applied."
         },
         {
           "source_id": "eip-745",
           "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider what observer A sees happening. She sees the light from the right at the same time that she sees the light from the left. Since both lamps are the same distance from her in her reference frame, from her perspective, the flashes occurred at the same time. Here a relative velocity between observers affects whether two events are observed to be simultaneous. <ns0:emphasis effect=\"italics\"><ns0:emphasis effect=\"italics\">Simultaneity is not absolute</ns0:emphasis></ns0:emphasis></ns0:para>",
-          "after_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider A’s reference frame. In this frame, A and both lamps are at rest, and A is equally far from the two lamps. Light from either lamp travels the same distance to A at the same speed. Since the right-hand flash reaches A first, A concludes that the right-hand lamp emitted its flash first. Thus the two emissions are simultaneous in B’s frame but not in A’s frame. <emphasis effect=\"italics\">Simultaneity is not absolute.</emphasis></para>"
-        },
-        {
-          "source_id": "import-auto-id2998902",
-          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2998902\">This illustrates the power of clear thinking. We might have guessed incorrectly that if light is emitted simultaneously, then two observers halfway between the sources would see the flashes simultaneously. But careful analysis shows this not to be the case. Einstein was brilliant at this type of <ns0:emphasis effect=\"italics\"><ns0:emphasis effect=\"italics\">thought experiment</ns0:emphasis></ns0:emphasis> (in German, “Gedankenexperiment”). He very carefully considered how an observation is made and disregarded what might seem obvious. The validity of thought experiments, of course, is determined by actual observation. The genius of Einstein is evidenced by the fact that experiments have repeatedly confirmed his theory of relativity.</ns0:para>\n    ",
-          "after_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2998902\">This illustrates the power of clear thinking. Being midway between the lamps at one instant does not guarantee that a moving observer will receive the flashes together. We must distinguish when the light is emitted from when it arrives, and specify the reference frame used to compare distant events. Einstein was brilliant at this type of <emphasis effect=\"italics\">thought experiment</emphasis> (in German, “Gedankenexperiment”). He very carefully considered how an observation is made and disregarded what might seem obvious. The validity of <emphasis effect=\"italics\">thought experiment</emphasis>s, of course, is determined by actual observation. The genius of Einstein is evidenced by the fact that experiments have repeatedly confirmed his theory of relativity.</para>"
-        },
-        {
-          "source_id": "import-auto-id2906479",
-          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2906479\">In summary: Two events are defined to be simultaneous if an observer measures them as occurring at the same time (such as by receiving light from the events). Two events are not necessarily simultaneous to all observers.</ns0:para>\n    ",
-          "after_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2906479\">In summary: Two events are simultaneous in a particular reference frame if they occur at the same time according to synchronized clocks in that frame. Comparing the arrival of light signals gives the same result only after their travel times are taken into account. Events at different places can be simultaneous in one frame and not in another.</para>"
+          "after_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb.  Since in her frame, the flashes are not emitted at the same time, they also do not arrive at the same time. Here, a relative velocity between observers affects whether two events are observed to be simultaneous. <ns0:emphasis effect=\"italics\">Simultaneity is not absolute.</ns0:emphasis>. Note, however, that both A and B agree on the order of the flashes arriving at A’s location.</ns0:para>",
+          "action": "replace"
         }
       ],
-      "figure": {
-        "id": "import-auto-id3164999",
-        "media_id": "import-auto-id2000224",
-        "proposed_caption": "The two panels show successive stages in B’s reference frame. The lamps emit simultaneously in that frame. As the rail car moves to the right, A receives light from the right-hand lamp first. Both observers agree on this order of arrival at A; they disagree about whether the two emissions were simultaneous.",
-        "proposed_alt": "Two panels show a rail car moving right past observer B beside the track. Observer A sits at the midpoint between lamps fixed at opposite ends of the car. In the upper panel, A is abreast of B and both lamps flash. In the lower panel, the car has moved right and the right-hand flash reaches A while the left-hand flash is still traveling toward A. These are successive views in B’s frame.",
-        "image_change": false
-      },
-      "decision": null
+      "decision": null,
+      "unchanged": [
+        "Introductory paragraph",
+        "Thought-experiment paragraph",
+        "Summary paragraph",
+        "Figure artwork, caption, and image description"
+      ],
+      "upstream_wording_notes": [
+        "The upstream wording contains “and arrive” and a doubled period after “Simultaneity is not absolute.” These are reproduced without editorial cleanup.",
+        "The broader rewrite previously proposed is withdrawn; see Git commit 2ad02f9 for that superseded proposal."
+      ]
     },
     {
       "id": "SR02",

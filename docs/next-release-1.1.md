@@ -18,3 +18,7 @@ Before producing release artifacts, deliberately prepare metadata/release.json f
 - Follow up separately on special relativity versus acceleration, MathML structural differences, and exercise/solution changes. The chapter is inventoried, not certified exhaustively correct.
 - Reproduce with `python tools/review_relativity.py`; it reads the checksummed upstream archive and writes only reports and a development preview.
 - Request an up-to-date MyOpenMath export for this project when starting the exercise pilot; no export is needed for this physics review.
+
+## Editorial scope
+
+At the author's request, prefer direct upstream updates with minimal prose changes. Extensive rewriting is author-led. SR01 now replaces two paragraphs with verbatim pinned upstream XML and removes the paragraph upstream folded into the first replacement; retain its public anchor if applied. Other prose and figure caption/description are unchanged. Two apparent upstream typos are flagged for review, not silently fixed. The expanded rewrite in commit `2ad02f9` is withdrawn. This remains a proposal, not an applied textbook change.

@@ -5,8 +5,6 @@
   ],
   "status": "awaiting author review; no content applied",
   "proposal_xml_parses": true,
-  "SR01_paragraph_ids_and_internal_links_preserved": true,
-  "SR01_independent_light_path_and_Lorentz_checks_passed": true,
   "all_141_module_hashes_still_match_1_0": true,
   "published_pdf_and_zip_unchanged": true,
   "browser_widths_checked": [
@@ -15,5 +13,9 @@
   ],
   "browser_root_overflow": false,
   "broken_review_images": 0,
-  "image_review": "22 byte-identical references; Einstein portrait is same photo at lower upstream resolution; retain local image"
+  "image_review": "22 byte-identical references; Einstein portrait is same photo at lower upstream resolution; retain local image",
+  "SR01_replacement_XML_matches_checksummed_upstream_exactly": true,
+  "SR01_removal_matches_upstream": true,
+  "SR01_removed_paragraph_anchor_retention_required_on_application": true,
+  "SR01_scope": "Two verbatim upstream paragraphs; one upstream paragraph removal. Other prose, caption and alt text unchanged."
 }
