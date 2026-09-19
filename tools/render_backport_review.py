@@ -15,13 +15,13 @@ def render(xml):
         return body
     return visit(ET.fromstring('<wrapper xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">'+xml+'</wrapper>'))
 style='<style>body{font:18px/1.65 Georgia;max-width:1100px;margin:auto;padding:24px;color:#20343c}a{color:#12647b;overflow-wrap:anywhere}section{margin:3em 0;border-top:1px solid #bbb;padding-top:1em}.columns{display:grid;grid-template-columns:1fr 1fr;gap:24px}.box{min-width:0;background:#f3f6f6;padding:16px;overflow:auto}img{max-width:100%;height:auto}.notice{background:#edf4f6;padding:18px}h1,h2{line-height:1.3}@media(max-width:700px){.columns{display:block}.box{margin:1em 0}}</style>'
-page='<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>1.1 backport review</title>'+style+'<h1>1.1 backport: opening chapters</h1><p class="notice">Two decisions below are pending. Thirteen other opening-chapter corrections have been applied and are listed afterward. The full-book backport is not complete. Published 1.0 is unchanged.</p><p><a href="#BR01">BR01: kilogram wording</a> · <a href="#BR02">BR02: exercise diagram</a> · <a href="#applied">Applied corrections</a></p>'
+page='<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>1.1 backport review</title>'+style+'<h1>1.1 backport: opening chapters</h1><p class="notice">BR01 is applied; BR02 remains pending. Thirteen other opening-chapter corrections have been applied and are listed afterward. The full-book backport is not complete. Published 1.0 is unchanged.</p><p><a href="#BR01">BR01: kilogram wording</a> · <a href="#BR02">BR02: exercise diagram</a> · <a href="#applied">Applied corrections</a></p>'
 data=load('proposals/1.1/opening-review.json')
 for item in data['items']:
     page+='<section id="'+item['id']+'"><h2>'+item['id']+' — '+html.escape(item['title'])+'</h2><p>'+html.escape(item['reason'])+'</p>'
     if item['id']=='BR01':
         page+='<ul>'+''.join('<li><del>'+html.escape(a)+'</del> → <ins>'+html.escape(b)+'</ins></li>' for a,b in item['substitutions'])+'</ul>'
-        page+='<div class="columns"><div class="box"><h3>Current</h3>'+render(item['before_xml'])+'</div><div class="box"><h3>Proposed: only three substitutions</h3>'+render(item['after_xml'])+'</div></div>'
+        page+='<div class="columns"><div class="box"><h3>Before BR01</h3>'+render(item['before_xml'])+'</div><div class="box"><h3>Applied for 1.1</h3>'+render(item['after_xml'])+'</div></div>'
     else:
         for label,path,name in [('Local figure',item['local_image'],'path-local.jpg'),('Pinned CC BY upstream figure',item['upstream_image'],'path-upstream.jpg')]:
             shutil.copyfile(ROOT/path,OUT/name)

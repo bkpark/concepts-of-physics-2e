@@ -1,0 +1,46 @@
+{
+  "id": "BR01",
+  "status": "applied-author-directed",
+  "authorization": "Author requested minimal wording updates so the adopted 2019 definition no longer sounds pending from the vantage point of 2026.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67032",
+  "source_object": "import-auto-id3204634",
+  "source_path": "maintained/modules/m67032/index.cnxml",
+  "source_sha256": "410b49d2da1c04a6bfc105729ca719e8181cc72315d7f1ef33c69fe4404d4aa2",
+  "after_sha256": "2da04f0dcb55a6d2721f1a451f0eed46e14da38b8dbbe90a7a43f737e23ea36d",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Apply three upstream past-tense corrections; describe the current definition as in effect since May 2019; correct approving body to CGPM. Preserve paragraph structure and all author MathML.",
+  "factual_verification": {
+    "url": "https://www.bipm.org/en/-/resolution-cgpm-26-1",
+    "facts": "26th CGPM adopted the definition in 2018, effective 20 May 2019. Verification only; no external prose or artwork imported."
+  },
+  "before": "<para id=\"import-auto-id3204634\">The SI unit for mass is the <term id=\"import-auto-id1989656\">kilogram</term> (abbreviated kg); it is currently defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris. Exact replicas of the standard kilogram are also kept at the United States’ National Institute of Standards and Technology, or NIST, located in Gaithersburg, Maryland outside of Washington D.C., and at other locations around the world. The determination of all other masses can be ultimately traced to a comparison with the standard mass. At the November 2018 meeting of the International Committee for Weights and Measures, a proposed re-definition of kilogram was approved. This proposal (effective May 2019) re-defines the kilogram by precisely fixing the numerical value of Planck's constant (<m:math><m:ci>h</m:ci></m:math>) to be exactly <m:math><m:apply><m:times/><m:cn>6.62607015</m:cn><m:apply><m:power/><m:cn>10</m:cn><m:cn>-34</m:cn></m:apply><m:csymbol>kg</m:csymbol><m:apply><m:power/><m:csymbol>m</m:csymbol><m:cn>2</m:cn></m:apply><m:apply><m:power/><m:csymbol>s</m:csymbol><m:cn>-1</m:cn></m:apply></m:apply></m:math>. This is similar to definition of the meter by fixing the speed of light (<m:math><m:ci>c</m:ci></m:math>), and we will see the importance of this re-definition in a later unit on quantum mechanics.</para>",
+  "after": "<para id=\"import-auto-id3204634\">The SI unit for mass is the <term id=\"import-auto-id1989656\">kilogram</term> (abbreviated kg); it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris. Exact replicas of the previously defined kilogram are also kept at the United States’ National Institute of Standards and Technology, or NIST, located in Gaithersburg, Maryland outside of Washington D.C., and at other locations around the world. The determination of all other masses could be ultimately traced to a comparison with the standard mass. At the November 2018 meeting of the General Conference on Weights and Measures, a re-definition of the kilogram was approved. This definition, in effect since May 2019, fixes the numerical value of Planck's constant (<m:math><m:ci>h</m:ci></m:math>) to be exactly <m:math><m:apply><m:times/><m:cn>6.62607015</m:cn><m:apply><m:power/><m:cn>10</m:cn><m:cn>-34</m:cn></m:apply><m:csymbol>kg</m:csymbol><m:apply><m:power/><m:csymbol>m</m:csymbol><m:cn>2</m:cn></m:apply><m:apply><m:power/><m:csymbol>s</m:csymbol><m:cn>-1</m:cn></m:apply></m:apply></m:math>. This is similar to definition of the meter by fixing the speed of light (<m:math><m:ci>c</m:ci></m:math>), and we will see the importance of this re-definition in a later unit on quantum mechanics.</para>",
+  "substitutions": [
+    [
+      "it is currently defined",
+      "it was previously defined"
+    ],
+    [
+      "replicas of the standard kilogram",
+      "replicas of the previously defined kilogram"
+    ],
+    [
+      "masses can be ultimately traced",
+      "masses could be ultimately traced"
+    ],
+    [
+      "International Committee for Weights and Measures",
+      "General Conference on Weights and Measures"
+    ],
+    [
+      "a proposed re-definition of kilogram was approved",
+      "a re-definition of the kilogram was approved"
+    ],
+    [
+      "This proposal (effective May 2019) re-defines the kilogram by precisely fixing",
+      "This definition, in effect since May 2019, fixes"
+    ]
+  ]
+}
