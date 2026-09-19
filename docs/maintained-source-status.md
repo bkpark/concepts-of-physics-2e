@@ -1,5 +1,7 @@
 # Maintained source and native MathML milestone
 
+Latest milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.
+
 The project now has one editable source under `maintained/`, separate from the
 historical baseline and upstream reference snapshots. The four author-approved
 repairs are applied there. Their original proposals remain archived under

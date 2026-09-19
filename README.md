@@ -1,5 +1,7 @@
 # Introduction to Physics
 
+Latest milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.
+
 Recovery and publishing project. Intended maintained GitHub repository name:
 `concepts-of-physics-2e`. The book title remains **Introduction to Physics**.
 

@@ -1,5 +1,7 @@
 # Six-module fidelity prototype
 
+Latest milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.
+
 This is an experiment, not a student edition or the final publishing system.
 It reads the maintained CNXML, including the four approved repairs. Both profiles use the same
 frozen slug manifest, source modules, and object anchors. The sample contains

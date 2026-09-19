@@ -34,6 +34,12 @@ def math_node(e):
                 out+=M('mo','×' if numeric else '&#x2062;')+v
             return M('mrow',out)
         return M('mrow',M('mo',operators[op]).join(vals))
+    if tag=='cn' and attrs=={'type':'e-notation'}:
+        # MathML 3 chapter 4: significand <sep/> decimal exponent.
+        if len(e)!=1 or local(e[0])!='sep' or len(e[0]):raise UnsupportedMath('Malformed e-notation')
+        significand=(e.text or '').strip();exponent=(e[0].tail or '').strip()
+        if not significand or not re.fullmatch(r'[+\-−]?\d+',exponent):raise UnsupportedMath('Malformed e-notation exponent')
+        return M('mrow',M('mn',esc(significand))+M('mo','×')+M('msup',M('mn','10')+M('mn',esc(exponent))))
     if tag in ('ci','cn','csymbol'):
         if set(attrs)-{'type'} or (attrs.get('type') and not(tag=='ci' and attrs['type']=='vector')):
             raise UnsupportedMath('Unsupported content-token attributes '+str(attrs))

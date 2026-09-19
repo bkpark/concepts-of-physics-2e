@@ -1,5 +1,5 @@
-"""Six-module fidelity experiment; canonical XML is never written.
-Run: python prototype/build.py [cnx|course]
+"""Maintained-source fidelity build; canonical XML is never written.
+Run: python prototype/build.py [cnx|course] [--all]
 """
 from pathlib import Path
 import collections, copy, hashlib, html, json, re, shutil, sys
@@ -7,9 +7,10 @@ import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 P=ROOT/'prototype'
-PROFILE=sys.argv[1] if len(sys.argv)>1 else 'cnx'
+PROFILE=sys.argv[1] if len(sys.argv)>1 else 'course'
 assert PROFILE in ('cnx','course')
-OUT=P/'dist'/PROFILE
+FULL='--all' in sys.argv
+OUT=P/'dist'/(PROFILE+'-full' if FULL else PROFILE)
 IDS=['m67034','m67530','m71410','m67122','m67807','m42709']
 NS={'c':'http://cnx.rice.edu/cnxml','m':'http://www.w3.org/1998/Math/MathML','md':'http://cnx.rice.edu/mdml'}
 esc=lambda s:html.escape(str(s),quote=True)
@@ -17,12 +18,12 @@ local=lambda e:e.tag.rsplit('}',1)[-1]
 text=lambda e:''.join(e.itertext()).strip() if e is not None else ''
 def load(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def dump(path,data):path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
-sections=load('reports/sections.json')
-registry={s['module_id']:s for s in sections}
+from collection import read_sections
 identities=load('maintained/sections.json')['sections']
-for identity in identities:
-    registry[identity['id'].split(':')[1]]['candidate_slug']=identity['slug']
-    registry[identity['id'].split(':')[1]]['source']=identity['source']
+sections=read_sections(ROOT,identities)
+registry={s['module_id']:s for s in sections}
+if FULL:IDS=list(registry)
+SCOPE=f'{len(IDS)}-module review build'
 attributions={a['module_id']:a for a in load('references/cnx-12.1-module-attributions.json')['modules']}
 roots={s['module_id']:ET.parse(ROOT/s['source']).getroot() for s in sections}
 parents={mid:{child:parent for parent in r.iter() for child in parent} for mid,r in roots.items()}
@@ -38,7 +39,7 @@ from mathml import UnsupportedMath
 from native_math import native_math
 
 class Renderer:
-    def __init__(self,mid,book=False):self.mid=mid;self.book=book;self.math_index=0
+    def __init__(self,mid,book=False,projection=False):self.mid=mid;self.book=book;self.projection=projection;self.math_index=0
     def content(self,e):return esc(e.text or '')+''.join(self.render(x)+esc(x.tail or '') for x in e)
     def render(self,e,depth=2):
         tag=local(e); mid=self.mid; ident=e.get('id'); aid=f' id="{anchor(mid,ident)}"' if ident else ''
@@ -46,20 +47,20 @@ class Renderer:
         if e.tag.startswith('{'+NS['m']+'}'):
             if tag!='math':raise ValueError('Top level MathML child outside math: '+tag)
             self.math_index+=1; key=f'{mid}-math-{self.math_index:04d}'
-            if not self.book:
+            if not self.book and not self.projection:
                 parent=e
                 while not parent.get('id') and parent in parents[mid]:parent=parents[mid][parent]
                 snapshot=copy.deepcopy(e);snapshot.tail=None
                 math_sources.append({'key':key,'module':mid,'xml':ET.tostring(snapshot,encoding='unicode'),'source_object':parent.get('id')})
             try:
                 result,native_changes=native_math(e)
-                if not self.book and native_changes:adaptations.append({'kind':'native-mathml','key':key,'changes':native_changes})
+                if not self.book and not self.projection and native_changes:adaptations.append({'kind':'native-mathml','key':key,'changes':native_changes})
             except UnsupportedMath as ex:
-                if not self.book:issues.append({'kind':'unresolved-math','module':mid,'key':key,'detail':str(ex)})
+                if not self.book and not self.projection:issues.append({'kind':'unresolved-math','module':mid,'key':key,'detail':str(ex)})
                 return f'<span class="math-issue" data-math-key="{key}">[Expression needs review: {key}]</span>'
-            if not self.book and any(local(x) in ('apply','ci','cn','csymbol') for x in e.iter()):
+            if not self.book and not self.projection and any(local(x) in ('apply','ci','cn','csymbol') for x in e.iter()):
                 adaptations.append({'kind':'content-mathml','key':key,'policy':'Presentation adapter; bold vectors, symbolic juxtaposition, grouped composite powers; visual review required'})
-            if not self.book and any(local(x)=='mtr' and any(local(y)!='mtd' for y in x) for x in e.iter()):
+            if not self.book and not self.projection and any(local(x)=='mtr' and any(local(y)!='mtd' for y in x) for x in e.iter()):
                 adaptations.append({'kind':'math-table-cell-wrapper','key':key})
             return f'<span data-math-key="{key}">{result}</span>'
         if tag in ('metadata','label','colspec'):return ''
@@ -69,11 +70,11 @@ class Renderer:
             body=self.content(e) or (f'{obj.get("kind","reference").title()} {obj.get("label") or ""}'.strip())
             if url:return f'<a href="{esc(url)}">{body}</a>'
             if doc not in IDS or (target and not obj):
-                if not self.book:issues.append({'kind':'reference-outside-prototype' if doc not in IDS else 'source-reference-unresolved','module':mid,'document':doc,'target':target})
-                reason='outside preview' if doc not in IDS else 'source target unresolved'
+                if not self.book and not self.projection:issues.append({'kind':('reference-outside-book' if FULL else 'reference-outside-prototype') if doc not in IDS else 'source-reference-unresolved','module':mid,'document':doc,'target':target})
+                reason=('outside recovered book' if FULL else 'outside preview') if doc not in IDS else 'source target unresolved'
                 return f'<span class="unavailable" title="{esc(reason)}">{body} [{reason}]</span>'
             frag=anchor(doc,target) if target else doc
-            href='#'+frag if self.book or doc==mid else '../'+registry[doc]['candidate_slug']+'/index.html#'+frag
+            href='#'+frag if self.book or (doc==mid and not self.projection) else ('../../sections/' if self.projection else '../')+registry[doc]['candidate_slug']+'/index.html#'+frag
             return f'<a href="{href}">{body}</a>'
         if tag=='image':
             src=(ROOT/registry[mid]['source']).parent/e.get('src'); dest=OUT/'media'/src.name;dest.parent.mkdir(parents=True,exist_ok=True)
@@ -88,7 +89,8 @@ class Renderer:
         if tag=='figure':
             cap=e.find('c:caption',NS); body=esc(e.text or '')+''.join(self.render(x)+esc(x.tail or '') for x in e if local(x)!='caption')
             caption=self.content(cap) if cap is not None else ''
-            return f'<figure{aid}>{body}<figcaption><b>Figure {esc(label or "(unnumbered)")}. </b>{caption}</figcaption></figure>'
+            capid=f' id="{anchor(mid,cap.get("id"))}"' if cap is not None and cap.get('id') else ''
+            return f'<figure{aid}>{body}<figcaption{capid}><b>Figure {esc(label or "(unnumbered)")}. </b>{caption}</figcaption></figure>'
         if tag=='equation':return f'<div class="equation"{aid}><div>{self.content(e)}</div><span class="eq-label">{("("+esc(label)+")") if label else ""}</span></div>'
         if tag in ('example','exercise','note'):
             heading=(tag.title()+' '+str(label)) if label else (tag.title() if tag!='note' else '')
@@ -100,8 +102,18 @@ class Renderer:
             extra=f' type="{style}"' if ordered and style else ''
             return f'<{htag}{aid}{extra}>{self.content(e)}</{htag}>'
         if tag=='emphasis':return f'<{"em" if e.get("effect")=="italics" else "strong"}{aid}>{self.content(e)}</'+('em' if e.get('effect')=='italics' else 'strong')+'>'
+        if tag=='iframe':
+            url=e.get('src','')
+            if not self.book and not self.projection:issues.append({'kind':'external-media','module':mid,'url':url,'detail':'Linked resource; not embedded or archived for offline use'})
+            return f'<p class="external-media"{aid}>External interactive/video: <a href="{esc(url)}">{esc(url)}</a></p>'
         if tag=='entry':
             attr=''
+            if e.get('namest'):
+                group=parents[mid].get(e)
+                while group is not None and local(group)!='tgroup':group=parents[mid].get(group)
+                columns={x.get('colname'):int(x.get('colnum',i+1)) for i,x in enumerate(group.findall('c:colspec',NS))}
+                attr+=' colspan="'+str(columns[e.get('nameend')]-columns[e.get('namest')]+1)+'"'
+            if e.get('align') in ('left','right','center'):attr+=' style="text-align:'+e.get('align')+'"'
             if e.get('morerows'):attr+=' rowspan="'+str(int(e.get('morerows'))+1)+'"'
             return f'<td{aid}{attr}>{self.content(e)}</td>'
         if tag=='table':
@@ -119,7 +131,7 @@ class Renderer:
         htag=tags[tag]; cls=f' class="{tag}"'
         return f'<{htag}{aid}{cls}>{self.content(e)}</{htag}>'
     def module(self):
-        mid=self.mid;r=roots[mid];label=(cnx if PROFILE=='cnx' else course)[mid]
+        mid=self.mid;r=roots[mid];label=(cnx if PROFILE=='cnx' else course).get(mid,'Unnumbered' if mid=='m67030' else 'Label pending')
         abstract=r.find('c:metadata/md:abstract',NS)
         learning=f'<aside class="objectives"><h2>Learning objectives</h2>{self.content(abstract)}</aside>' if abstract is not None and text(abstract) else ''
         a=attributions[mid]
@@ -129,7 +141,7 @@ class Renderer:
         return f'<article id="{mid}"><header><p class="eyebrow">{esc(PROFILE.upper())} · {esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
 
 def page(title,body,prefix=''):
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav><a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a></nav><div class="prototype-notice">Six-module preview. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav><a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a></nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
 
 OUT.mkdir(parents=True,exist_ok=True);shutil.copyfile(P/'style.css',OUT/'style.css');shutil.copyfile(P/'copy-math.js',OUT/'copy-math.js')
 book=[]
@@ -139,11 +151,33 @@ for mid in IDS:
     target=OUT/'sections'/registry[mid]['candidate_slug'];target.mkdir(parents=True,exist_ok=True)
     body=Renderer(mid).module();(target/'index.html').write_text(page(registry[mid]['title'],body,'../../'),encoding='utf-8',newline='\n')
     book.append(Renderer(mid,True).module())
-intro='<header><p class="eyebrow">Recovery / rendering experiment</p><h1>Introduction to Physics</h1><p>Six complete modules from the maintained source, including four approved repairs.</p></header><ol>'+''.join('<li><a href="sections/'+registry[m]['candidate_slug']+'/index.html">'+esc(registry[m]['title'])+'</a></li>' for m in IDS)+'</ol>'
+
+exercise_manifest=[]
+if FULL and PROFILE=='course':
+    for view in load('maintained/exercise-views.json')['views']:
+        body='<h1>'+esc(view['label']+': '+view['title'])+'</h1><p>Generated from the maintained sections. Section links and source-object identities remain canonical. Labels are provisional.</p>'
+        blocks=[]
+        for category,title in [('conceptual-questions','Conceptual Questions'),('problems-exercises','Problems & Exercises')]:
+            body+='<h2>'+title+'</h2>'
+            for mid in IDS:
+                if course.get(mid,'').split('.')[0]!=view['chapter_label']:continue
+                for e in roots[mid].iter():
+                    if local(e)!='section' or category not in e.get('class','').split():continue
+                    source_url='../../sections/'+registry[mid]['candidate_slug']+'/index.html#'+anchor(mid,e.get('id'))
+                    renderer=Renderer(mid,projection=True)
+                    before=list(roots[mid].iter());renderer.math_index=sum(x.tag=='{'+NS['m']+'}math' for x in before[:before.index(e)])
+                    body+='<h3><a href="'+source_url+'">'+esc(course[mid]+': '+registry[mid]['title'])+'</a></h3>'+renderer.render(e)
+                    blocks.append({'module':mid,'source_id':e.get('id'),'category':category,'exercise_ids':[x.get('id') for x in e.iter() if local(x)=='exercise']})
+        target=OUT/'exercises'/view['slug'];target.mkdir(parents=True,exist_ok=True)
+        (target/'index.html').write_text(page(view['title'],body,'../../'),encoding='utf-8',newline='\n')
+        exercise_manifest.append({**view,'blocks':blocks})
+    dump(OUT/'exercise-views.json',exercise_manifest)
+intro='<header><p class="eyebrow">Recovery / rendering experiment</p><h1>Introduction to Physics</h1><p>'+esc(str(len(IDS)))+' complete modules from the maintained source, including four approved repairs.</p></header><ol>'+''.join('<li><a href="sections/'+registry[m]['candidate_slug']+'/index.html">'+esc(registry[m]['title'])+'</a></li>' for m in IDS)+'</ol>'
+if exercise_manifest:intro+='<h2>Chapter exercise views</h2><ul>'+''.join('<li><a href="exercises/'+v['slug']+'/index.html">'+esc(v['label']+': '+v['title'])+'</a></li>' for v in exercise_manifest)+'</ul>'
 intro+='<p>Historical source remains unchanged. Math source XML and issue logs are included beside the build. The other numbering profile uses exactly the same section paths and anchors.</p>'
 intro+='<p><a href="review.html">Review flagged expressions and references</a> · <a href="book.html">Complete printable sample</a></p>'
 (OUT/'index.html').write_text(page('Introduction to Physics — prototype',intro),encoding='utf-8',newline='\n')
-(OUT/'book.html').write_text(page('Introduction to Physics — sample', '<div class="cover"><h1>Introduction to Physics</h1><h2>Fidelity prototype</h2><p>Six selected modules · '+PROFILE+' profile</p><p>Provisional object numbering. Not a student edition.</p><p>Adaptation by Andrew Park; underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits are retained.</p></div>'+''.join(book)),encoding='utf-8',newline='\n')
+(OUT/'book.html').write_text(page('Introduction to Physics — sample', '<div class="cover"><h1>Introduction to Physics</h1><h2>Fidelity prototype</h2><p>'+esc(str(len(IDS)))+' modules · '+PROFILE+' profile</p><p>Provisional object numbering. Not a student edition.</p><p>Adaptation by Andrew Park; underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits are retained.</p></div>'+''.join(book)),encoding='utf-8',newline='\n')
 dump(OUT/'object-labels.json',{m+'#'+ident:obj for (m,ident),obj in objects.items() if m in IDS});dump(OUT/'math-source.json',math_sources);dump(OUT/'issues.json',issues);dump(OUT/'adaptations.json',adaptations)
 review='<h1>Fidelity review</h1><p>The maintained source includes approved repairs R1–R4. Any remaining findings are listed below.</p>'
 for item in issues:
@@ -154,5 +188,5 @@ for item in issues:
     review+='</section>'
 (OUT/'review.html').write_text(page('Fidelity review',review),encoding='utf-8',newline='\n')
 dump(OUT/'identity-registry.json',{m:{'slug':registry[m]['candidate_slug'],'anchors':[anchor(m,e.get('id')) for e in roots[m].iter() if e.get('id')]} for m in IDS})
-dump(OUT/'build-manifest.json',{'profile':PROFILE,'renderer':'native-mathml','source_layer':'maintained','approved_repairs':['R1','R2','R3','R4'],'modules':IDS,'math_expressions':len(math_sources),'issues':len(issues),'source_sha256':{m:hashlib.sha256((ROOT/registry[m]['source']).read_bytes()).hexdigest() for m in IDS},'object_numbering_status':'CNX summary exclusion and chapter body/backmatter order implemented; broader object numbering verification pending','section_labels':{m:(cnx if PROFILE=='cnx' else course)[m] for m in IDS}})
+dump(OUT/'build-manifest.json',{'profile':PROFILE,'renderer':'native-mathml','source_layer':'maintained','approved_repairs':['R1','R2','R3','R4'],'modules':IDS,'math_expressions':len(math_sources),'issues':len(issues),'source_sha256':{m:hashlib.sha256((ROOT/registry[m]['source']).read_bytes()).hexdigest() for m in IDS},'object_numbering_status':'Course section labels and chapter exercise counters implemented; reference fixtures are partial and equation-label visibility remains provisional','section_labels':{m:(cnx if PROFILE=='cnx' else course).get(m) for m in IDS}})
 print(json.dumps({'profile':PROFILE,'math':len(math_sources),'issues':dict(collections.Counter(x['kind'] for x in issues)),'adaptations':len(adaptations)}))

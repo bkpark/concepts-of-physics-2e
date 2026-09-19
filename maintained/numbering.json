@@ -3,9 +3,17 @@
   "status": "CNX counter rules checked on selected historical examples; full-book and course exercise verification pending",
   "cnx": {
     "scope": "chapter",
-    "unnumbered_equation_ancestor_classes": ["section-summary"],
-    "relocated_ancestor_classes": ["conceptual-questions", "problems-exercises"],
-    "relocated_exercise_types": ["conceptual-questions", "problems-exercises"],
+    "unnumbered_equation_ancestor_classes": [
+      "section-summary"
+    ],
+    "relocated_ancestor_classes": [
+      "conceptual-questions",
+      "problems-exercises"
+    ],
+    "relocated_exercise_types": [
+      "conceptual-questions",
+      "problems-exercises"
+    ],
     "backmatter_after_body": true,
     "exercise_prefix": false,
     "inline_exercise_prefix": true,
@@ -14,17 +22,28 @@
   "course": {
     "scope": "section",
     "unnumbered_equation_ancestor_classes": [],
-    "relocated_ancestor_classes": [],
-    "relocated_exercise_types": [],
-    "backmatter_after_body": false,
+    "relocated_ancestor_classes": [
+      "conceptual-questions",
+      "problems-exercises"
+    ],
+    "relocated_exercise_types": [
+      "conceptual-questions",
+      "problems-exercises"
+    ],
+    "backmatter_after_body": true,
     "exercise_prefix": true,
     "inline_exercise_prefix": true,
-    "separate_exercise_counters": false
+    "separate_exercise_counters": false,
+    "chapter_exercise_views": true
   },
-  "overrides": {"cnx": {}, "course": {}},
+  "overrides": {
+    "cnx": {},
+    "course": {}
+  },
   "evidence": [
     "Historical PDF page 42: first m67034 displayed equation 2.23; repeated section-summary equations must not advance counters.",
     "Historical PDF page 237: m67122 ideal gas equation 9.1; preceding m52364 contains four summary equations that are not numbered.",
-    "Historical PDF page 41: kayak figure 2.23; m52314 problems-exercises figure follows the chapter body, not its source-file position."
+    "Historical PDF page 41: kayak figure 2.23; m52314 problems-exercises figure follows the chapter body, not its source-file position.",
+    "Course PDF page 327: chapter conceptual questions numbered continuously, Ideal Gas Law questions 5 and 6; exercise figures labeled 8.E.1. Separate problem counter checked on page 331."
   ]
 }

@@ -8,14 +8,15 @@ directories remain the immutable historical baseline.
 - `media/`: editable media; inherited references remain valid.
 - `collections/introduction-to-physics.collection.xml`: inherited book hierarchy.
 - `sections.json`: authoritative stable section IDs and frozen slugs used by the build.
+- `exercise-views.json`: frozen identities for generated chapter exercise views.
 - `numbering.json`: profile-specific object numbering rules, independent of identity.
 - `initialization.json`: baseline commit, author-approved R1–R4 repairs, and the
   author-submitted OpenStax erratum 30172. This is an initialization record,
   not a file to regenerate after later edits.
 
-All 141 modules are present. The current renderer still builds only the six
-fidelity-test modules; the remaining content has been copied, not fully rendered
-or validated for publishing. The original CNXML remains the canonical authoring
+All 141 modules are present. The renderer supports the full corpus with `--all`; full
+course HTML is audited, with explicit unresolved findings. It is not yet a
+publication-ready edition. The original CNXML remains the canonical authoring
 format until a separately justified migration is selected.
 
 The initial source differs from the historical corpus only in three XML files,

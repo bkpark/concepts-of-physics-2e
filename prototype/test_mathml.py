@@ -9,7 +9,11 @@ class MathTests(unittest.TestCase):
     def test_missing_exponent_is_never_guessed(self):
         with self.assertRaises(UnsupportedMath):self.render('<apply><power/><ci>n</ci></apply>')
     def test_scientific_notation_not_silently_flattened(self):
-        with self.assertRaises(UnsupportedMath):self.render('<cn type="e-notation">1.2<sep/>3</cn>')
+        for exponent in ('3','-3','0'):
+            r=ET.fromstring(self.render(f'<cn type="e-notation">1.2<sep/>{exponent}</cn>'))
+            self.assertEqual(r[0].text,'1.2')
+            self.assertEqual((r[2].tag,r[2][0].text,r[2][1].text),('msup','10',exponent))
+        with self.assertRaises(UnsupportedMath):self.render('<cn type="e-notation">1.2</cn>')
     def test_additive_factor_keeps_grouping(self):
         out=self.render('<apply><times/><ci>a</ci><apply><plus/><ci>b</ci><ci>c</ci></apply></apply>')
         r=ET.fromstring(out);self.assertIn('(b+c)',''.join(r.itertext()))
