@@ -1,0 +1,20 @@
+{
+  "id": "U3-46",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52381",
+  "source_object": "import-auto-id1855377",
+  "source_path": "maintained/modules/m52381/index.cnxml",
+  "source_sha256": "3104c05d4257b11371532a31dbafce372bdca17988fa6b5e37f1416dab682b26",
+  "after_sha256": "1c265487a5e2987d0c149f1d10b55d7787d465a826199b0f6536597ec29210c1",
+  "before": "<media id=\"import-auto-id1855377\" alt=\"\">\n                    <image mime-type=\"image/jpg\" src=\"../../media/Figure_19_01_06a.jpg\" width=\"350\"/>\n                </media>",
+  "after": "<media id=\"import-auto-id1855377\" alt=\"Charging by friction: neutral amber and cloth (a) are rubbed together (b). Electrons transfer from cloth to amber, making amber negatively charged and cloth positively charged (c).\">\n                    <image mime-type=\"image/jpg\" src=\"../../media/Figure_19_01_06a.jpg\" width=\"350\"/>\n                </media>",
+  "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42300"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream accessibility addition checked against local image; photo descriptions minimally adapted to neutral wording"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "U3-23",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "fs-id1168951439006",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "a1b1016a8916ec70ccee3a8db26eadf4e81829492be929742fce92c3c762c237",
+  "after_sha256": "8595a6bcf768f57aba95921e60f67b71de97f6d9f382877ebaf93f03b30a1b8d",
+  "before": "<meaning id=\"fs-id1168951439006\">loop of wire in a magnetic field; when current is passed through the loops, the magnetic field exerts force on the loops, which rotates a shaft; electrical energy is converted to mechanical work in the process</meaning>",
+  "after": "<meaning id=\"fs-id1168951439006\">loop of wire in a magnetic field; when current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft; electrical energy is converted to mechanical work in the process</meaning>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

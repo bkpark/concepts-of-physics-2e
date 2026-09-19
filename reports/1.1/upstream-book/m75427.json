@@ -2,17 +2,17 @@
   "module": "m75427",
   "title": "Electric Potential and Potential Energy",
   "slug": "electric-potential-and-potential-energy",
-  "local_sha256": "70392817ec91c21939d4760026572f67432b7fbc876c705e027318dbe5bb0920",
+  "local_sha256": "1cc10ec0c88a4a926e62bb7c7cf0fc35a5ccb5c5f25bde107c961bed91c4729e",
   "upstream_modules": [
     "m42324"
   ],
   "counts": {
     "prose": 7,
+    "accessibility": 1,
     "references": 1,
     "math-token-change": 1,
     "math-markup-change": 83,
-    "math-structure": 1,
-    "media": 1
+    "math-structure": 1
   },
   "changes": [
     {
@@ -21,13 +21,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id1319050",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Gravitational potential energy and electric potential energy are quite analogous. Potential energy accounts for work done by a conservative force and gives added insight regarding energy and energy transformation without the necessity of dealing with the force directly. It is much more common, for example, to use the concept of voltage (related to electric potential energy) than to deal with the electric field (related to Coulomb force) directly.",
       "upstream": "Gravitational potential energy and electric potential energy are quite analogous. Potential energy accounts for work done by a conservative force and gives added insight regarding energy and energy transformation without the necessity of dealing with the force directly. It is much more common, for example, to use the concept of voltage (related to electric potential energy) than to deal with the Coulomb force directly.",
       "local_html": "Gravitational potential energy and electric potential energy are quite analogous. Potential energy accounts for work done by a conservative force and gives added insight regarding energy and energy transformation without the necessity of dealing with the force directly. It is much more common, for example, to use the concept of voltage (related to electric potential energy) than to deal with the electric field (related to Coulomb force) directly. ",
       "upstream_html": "Gravitational potential energy and electric potential energy are quite analogous. Potential energy accounts for work done by a conservative force and gives added insight regarding energy and energy transformation without the necessity of dealing with the force directly. It is much more common, for example, to use the concept of voltage (related to electric potential energy) than to deal with the Coulomb force directly. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-4f302e5fa4b21ab2",
@@ -35,13 +36,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id1501691",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Electric potential is the electric potential energy per unit charge.",
       "upstream": "This is the electric potential energy per unit charge.",
       "local_html": "Electric potential is the electric potential energy per unit charge.",
       "upstream_html": "This is the electric potential energy per unit charge.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-2e3cf53150163e22",
@@ -49,13 +51,27 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id1727053",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The electrostatic or Coulomb force is conservative, which means that the work done on [MATH] is independent of the path taken. This is exactly analogous to the gravitational force in the absence of dissipative forces such as friction. When a force is conservative, it is possible to define a potential energy associated with the force, and it is usually easier to deal with the potential energy (because it depends only on position) than to calculate the work done directly from force ( [MATH] , where d is displacement and F is the force).",
       "upstream": "The electrostatic or Coulomb force is conservative, which means that the work done on [MATH] is independent of the path taken. This is exactly analogous to the gravitational force in the absence of dissipative forces such as friction. When a force is conservative, it is possible to define a potential energy associated with the force, and it is usually easier to deal with the potential energy (because it depends only on position) than to calculate the work directly.",
       "local_html": "The electrostatic or Coulomb force is conservative, which means that the work done on <em><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math></em> is independent of the path taken. This is exactly analogous to the gravitational force in the absence of dissipative forces such as friction. When a force is conservative, it is possible to define a potential energy associated with the force, and it is usually easier to deal with the potential energy (because it depends only on position) than to calculate the work done directly from force (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>W</mi><mo>=</mo><mrow><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mo>⋅</mo><mi mathvariant=\"normal\" style=\"font-weight:700\">d</mi></mrow></mrow></math>, where d is displacement and F is the force).",
       "upstream_html": "The electrostatic or Coulomb force is conservative, which means that the work done on <em><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math></em> is independent of the path taken. This is exactly analogous to the gravitational force in the absence of dissipative forces such as friction. When a force is conservative, it is possible to define a potential energy associated with the force, and it is usually easier to deal with the potential energy (because it depends only on position) than to calculate the work directly.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
+    },
+    {
+      "id": "UP-fadbbde61655183b",
+      "kind": "accessibility",
+      "local_module": "m75427",
+      "upstream_module": "m42324",
+      "source_id": "import-auto-id1935736",
+      "status": "retain-approved-adaptation",
+      "local": "A charge plus q moves from a positive to a negative sheet of charge. The decrease in electric potential energy equals the increase in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.",
+      "upstream": "A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.",
+      "exercise_context": false,
+      "credit_review_required": false,
+      "disposition_reason": "Verified description of the retained image; use neutral wording or corrected energy-sign explanation instead of upstream wording."
     },
     {
       "id": "UP-1ddca08ff690344a",
@@ -63,13 +79,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id1951305",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful X-rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by [MATH] we can think of the joule as a coulomb-volt.",
       "upstream": "The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful x rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by [MATH] we can think of the joule as a coulomb-volt.",
       "local_html": "The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful X-rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. <span class=\"muted\">[reference]</span> shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>ΔPE</mtext><mo>=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">q</mi><mn>Δ</mn><mi>V</mi></mrow><mo>,</mo></mrow></mrow></mrow></math> we can think of the joule as a coulomb-volt.",
       "upstream_html": "The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful x rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. <span class=\"muted\">[reference]</span> shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>ΔPE</mtext><mo>=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">q</mi><mn>Δ</mn><mi>V</mi></mrow><mo>,</mo></mrow></mrow></math> we can think of the joule as a coulomb-volt.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-55d0f00c4b4e8f48",
@@ -77,13 +94,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id2560073",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Note that both the charge and the initial voltage are negative, as in . We know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns.",
       "upstream": "Note that both the charge and the initial voltage are negative, as in . From the discussions in Electric Charge and Electric Field, we know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. Those higher voltages produce electron speeds so great that relativistic effects must be taken into account. That is why a low voltage is considered (accurately) in this example.",
       "local_html": "Note that both the charge and the initial voltage are negative, as in <span class=\"muted\">[reference]</span>. We know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. ",
       "upstream_html": "Note that both the charge and the initial voltage are negative, as in <span class=\"muted\">[reference]</span>. From the discussions in Electric Charge and Electric Field, we know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. Those higher voltages produce electron speeds so great that relativistic effects must be taken into account. That is why a low voltage is considered (accurately) in this example. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-01e576a9cbffa055",
@@ -91,7 +109,7 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id2560073",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "fs-id1493012"
@@ -106,7 +124,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-ef7a0807b383616d",
@@ -114,13 +133,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id2581684",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The electron volt (eV) is the most common energy unit for submicroscopic processes. This will be particularly noticeable in the chapters on modern physics. Energy is so important to so many subjects that there is a tendency to define a special energy unit for each major topic. There are, for example, calories for food energy, and kilowatt-hours for electrical energy.",
       "upstream": "The electron volt (eV) is the most common energy unit for submicroscopic processes. This will be particularly noticeable in the chapters on modern physics. Energy is so important to so many subjects that there is a tendency to define a special energy unit for each major topic. There are, for example, calories for food energy, kilowatt-hours for electrical energy, and therms for natural gas energy.",
       "local_html": "The electron volt (eV) is the most common energy unit for submicroscopic processes. This will be particularly noticeable in the chapters on modern physics. Energy is so important to so many subjects that there is a tendency to define a special energy unit for each major topic. There are, for example, calories for food energy, and kilowatt-hours for electrical energy.",
       "upstream_html": "The electron volt (eV) is the most common energy unit for submicroscopic processes. This will be particularly noticeable in the chapters on modern physics. Energy is so important to so many subjects that there is a tendency to define a special energy unit for each major topic. There are, for example, calories for food energy, kilowatt-hours for electrical energy, and therms for natural gas energy.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-472e5c84183ec422",
@@ -128,13 +148,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "import-auto-id2657982",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce X-rays. Non-relativistically, what would be the maximum speed of these electrons?",
       "upstream": "An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce x rays. Non-relativistically, what would be the maximum speed of these electrons?",
       "local_html": "An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce X-rays.  Non-relativistically, what would be the maximum speed of these electrons?  ",
       "upstream_html": "An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce x rays.  Non-relativistically, what would be the maximum speed of these electrons?  ",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-8f2f5dd6cdf37cb3",
@@ -142,11 +163,12 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "eip-17@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>V</mi><mo stretchy=\"false\"> = </mo><mfrac><mtext>PE</mtext><mi>q</mi></mfrac></mrow><mtext>,</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>V</mi><mo stretchy=\"false\"> = </mo><mfrac><mtext>PE</mtext><mi>q</mi></mfrac></mrow><mtext>.</mtext></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-88ed2bb409387df2",
@@ -388,11 +410,12 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "eip-998@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mtext>1 eV</mtext></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>1.60</mn><mo>×</mo><msup><mtext>10</mtext><mtext>–19</mtext></msup><mspace width=\"0.25em\" /><mtext> C</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mn>1 V</mn><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mn>1.60</mn><mi>×</mi><msup><mtext>10</mtext><mtext>–19</mtext></msup><mspace width=\"0.25em\" /><mtext>C</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>1 J/C</mn></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mrow></mrow></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mn>1.60</mn><mo>×</mo><msup><mtext>10</mtext><mtext>–19</mtext></msup><mspace width=\"0.25em\" /><mtext> J.</mtext></mrow></mtd></mtr></mtable></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mtext>1 eV</mtext></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mo stretchy=\"true\">(</mo><mrow><mn>1.60</mn><mo>×</mo><msup><mtext>10</mtext><mtext>–19</mtext></msup><mspace width=\"0.25em\" /><mtext> C</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mn>1 V</mn><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo></mtd></mtr><mtr><mtd /><mtd><mrow><mo stretchy=\"true\">(</mo><mrow><mn>1.60</mn><mi>×</mi><msup><mtext>10</mtext><mtext>–19</mtext></msup><mspace width=\"0.25em\" /><mtext>C</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>1 J/C</mn></mrow><mo stretchy=\"true\">)</mo></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mn>1.60</mn><mo>×</mo><msup><mtext>10</mtext><mtext>–19</mtext></msup><mspace width=\"0.25em\" /><mtext> J.</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     },
     {
       "id": "UP-207b862b15dcaad7",
@@ -1232,32 +1255,14 @@
       "local_module": "m75427",
       "upstream_module": "m42324",
       "source_id": "m42324",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "import-auto-id1727053@2"
       ],
       "upstream": [],
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-519091da32a12adb",
-      "kind": "media",
-      "local_module": "m75427",
-      "upstream_module": "m42324",
-      "source_id": "import-auto-id1935736",
-      "status": "unreviewed-difference",
-      "local": {
-        "path": "../../media/Figure_20_01_01a.jpg",
-        "sha256": "8b0b4116c5932f02e8bf543c2e710bfb7da021ffe8a8089db79c5b72f82ff2ea"
-      },
-      "upstream": {
-        "path": "../../media/Figure_20_01_01a.jpg",
-        "sha256": "174339de88189cd5fdca9a25e6aaf8714cfc6d8f479ba0e694e1aab927eeb9c1"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": false,
+      "disposition_reason": "Correct ΔPE=-ΔKE figure signs. Retain combined potential/energy explanation, local links, electron-volt definition, and existing nonrelativistic-example scope. Additional therms, relativistic aside and x-ray spelling are optional editorial changes."
     }
   ]
 }

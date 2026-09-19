@@ -1,0 +1,20 @@
+{
+  "id": "U3-16",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52381",
+  "source_object": "eip-477",
+  "source_path": "maintained/modules/m52381/index.cnxml",
+  "source_sha256": "d610da37e41a01740984916369e60d78b2080945a8fd27abf3e0d540dab0bc44",
+  "after_sha256": "115fa4be0a5f1cc8b9b7044e2d369bf5b11aa210fdeff755ed550dc4896fa4c3",
+  "before": "<para id=\"eip-477\">Many of the characteristics of static electricity can be explored by rubbing things together. Rubbing creates the spark you get from walking across a wool carpet, for example. Static cling generated in a clothes dryer and the attraction of straw to recently polished amber also result from rubbing. Similarly, lightning results from air movements under certain weather conditions. You can also rub a balloon on your hair, and the static electricity created can then make the balloon cling to a wall. We also have to be cautious of static electricity, especially in dry climates.  When we pump gasoline, we are warned to discharge ourselves (after sliding across the seat) on a metal surface before grabbing the gas nozzle.  Attendants in hospital operating rooms must wear booties with aluminum foil on the bottoms to avoid creating sparks which may ignite the oxygen being used.</para>",
+  "after": "<para id=\"eip-477\">Many of the characteristics of static electricity can be explored by rubbing things together. Rubbing creates the spark you get from walking across a wool carpet, for example. Static cling generated in a clothes dryer and the attraction of straw to recently polished amber also result from rubbing. Similarly, lightning results from air movements under certain weather conditions. You can also rub a balloon on your hair, and the static electricity created can then make the balloon cling to a wall. We also have to be cautious of static electricity, especially in dry climates.  When we pump gasoline, we are warned to discharge ourselves (after sliding across the seat) on a metal surface before grabbing the gas nozzle.  Attendants in hospital operating rooms must wear booties with a conductive strip of aluminum foil on the bottoms to avoid creating sparks which may ignite flammable anesthesia gases combined with the oxygen being used.</para>",
+  "reason": "Correct the claim that oxygen itself ignites, and specify the conducting strip on the footwear.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42300"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

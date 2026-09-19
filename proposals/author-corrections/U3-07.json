@@ -1,0 +1,20 @@
+{
+  "id": "U3-07",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67622",
+  "source_object": "eip-168",
+  "source_path": "maintained/modules/m67622/index.cnxml",
+  "source_sha256": "2798242eb7e796c19526eba778d6d336839bb024349d0d6e36f65b095e4fe03a",
+  "after_sha256": "3e86d09cad920b089c43c00370f195e5668f950f3b15f416456ec0bb0f183e96",
+  "before": "<equation id=\"eip-168\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle=\"italic\">T</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>0.500 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>900 J/kgºC</m:mtext></m:mrow></m:mfenced><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>60.0ºC</m:mtext></m:mrow></m:mfenced>\n                        <m:msup>\n                          <m:mtext>= 27.0 × 10</m:mtext>\n                              <m:mn>4</m:mn>   </m:msup>\n<m:mtext>J = 27.0 kJ.</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-168\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle=\"italic\">T</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>0.500 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>900 J/(kg⋅ºC)</m:mtext></m:mrow></m:mfenced><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>60.0ºC</m:mtext></m:mrow></m:mfenced>\n                        <m:msup>\n                          <m:mtext>= 27.0 × 10</m:mtext>\n                              <m:mn>3</m:mn>   </m:msup>\n<m:mtext>J = 27.0 kJ.</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation>",
+  "reason": "Make specific-heat units J/(kg·°C) unambiguous. Also correct 27.0 × 10⁴ J to 27.0 × 10³ J = 27.0 kJ; 0.500 × 900 × 60.0 = 27000. This exponent error remains upstream.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42224"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

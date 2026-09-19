@@ -19,13 +19,14 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "fs-id1169737907449",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "a process which occurs in only one direction in nature; a process that cannot be exactly reversed",
       "upstream": "any process that depends on path direction",
       "local_html": "a process which occurs in only one direction in nature; a process that cannot be exactly reversed",
       "upstream_html": "any process that depends on path direction",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Path dependence does not define irreversibility. Preserve local irreversible-process definition."
     },
     {
       "id": "UP-b284b5e53420335a",
@@ -33,13 +34,14 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169738025939",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "Cyclical processes are processes that return to their original state at the end of every cycle.",
       "upstream": "Irreversible processes depend on path and do not return to their original state. Cyclical processes are processes that return to their original state at the end of every cycle.",
       "local_html": "Cyclical processes are processes that return to their original state at the end of every cycle.",
       "upstream_html": "Irreversible processes depend on path and do not return to their original state. Cyclical processes are processes that return to their original state at the end of every cycle.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Reject claim that irreversible processes cannot return a system to its original state: irreversible cycles can return the system, with changes to the surroundings."
     },
     {
       "id": "UP-7b10c2814f6ba8db",
@@ -47,13 +49,14 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169738147207",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Here are some examples of irreversible processes seen in day-to-day life: a glass breaking, heat transferring from a hot object to a cold object, conversion of kinetic energy into thermal energy, and a puff of gas expanding from a corner of a vacuum chamber into the entire chamber. If you saw a video of glass un-breaking, or two objects in thermal contact where one gets hotter and the other gets colder, or a hot stationary object spontaneously cooling off and moving in some direction, or a gas in a chamber \"regrouping\" into a corner, you would say this is a video run backwards. This is because you intuitively recognize these are examples of irreversible process, and these processes in nature only take place in the forward direction, not reverse (See ).",
       "upstream": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an irreversible process is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See .)",
       "local_html": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Here are some examples of irreversible processes seen in day-to-day life: a glass breaking, heat transferring from a hot object to a cold object, conversion of kinetic energy into thermal energy, and a puff of gas expanding from a corner of a vacuum chamber into the entire chamber. If you saw a video of glass un-breaking, or two objects in thermal contact where one gets hotter and the other gets colder, or a hot stationary object spontaneously cooling off and moving in some direction, or a gas in a chamber &quot;regrouping&quot; into a corner, you would say this is a video run backwards. This is because you intuitively recognize these are examples of irreversible process, and these processes in nature only take place in the forward direction, not reverse (See <span class=\"muted\">[reference]</span>).",
       "upstream_html": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an irreversible process is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See <span class=\"muted\">[reference]</span>.)",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-54bfb394a091905a",
@@ -61,13 +64,14 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169738234744",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state. These expressions describe the direction of irreversible processes that occur in nature.",
       "upstream": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state.",
       "local_html": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state. These expressions describe the direction of irreversible processes that occur in nature.",
       "upstream_html": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-ac0a06cdb4d3c2e3",
@@ -114,11 +118,12 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "eip-36@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi>U</mi><mo stretchy=\"false\">=</mo><mrow><mi>Q</mi><mo stretchy=\"false\">−</mo><mi>W</mi></mrow></mrow></mrow><mtext>,</mtext><mrow /></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><msub><mi>E</mi><mtext>int</mtext></msub><mo stretchy=\"false\">=</mo><mrow><mi>Q</mi><mo stretchy=\"false\">−</mo><mi>W</mi></mrow></mrow></mrow><mtext>,</mtext><mrow /></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-26fc4f74ddd375be",
@@ -152,11 +157,12 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "eip-607@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mtext fontstyle=\"italic\" style=\";font-style:italic\">Eff</mtext></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><mfrac><mrow><mn>1</mn><mtext>.</mtext><mrow><mtext>02</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext>J</mtext></mrow><mrow><mn>2</mn><mtext>.</mtext><mrow><mtext>50</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext>J</mtext></mrow></mfrac></mrow></mrow><mrow /></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow /><mn>0</mn><mtext>.</mtext><mtext>408</mtext><mtext>, or </mtext><mtext>40</mtext><mtext>.</mtext><mn>8%</mn><mtext /><mrow /></mrow></mtd></mtr></mtable><mrow /></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mtext fontstyle=\"italic\" style=\";font-style:italic\">Eff</mtext></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><mfrac><mrow><mn>1</mn><mtext>.</mtext><mrow><mtext>02</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext>J</mtext></mrow><mrow><mn>2</mn><mtext>.</mtext><mrow><mtext>50</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext>J</mtext></mrow></mfrac></mrow></mrow><mrow /></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mtext>0.408, or 40.8%</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-02df575bc1bb58c5",
@@ -515,11 +521,12 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169736629320@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi>U</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>Δ</mn><msub><mi>E</mi><mtext>int</mtext></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-37a133682f5b45e3",
@@ -579,11 +586,12 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169736677795@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>U</mi></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi>E</mi><mtext>int</mtext></msub></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-e93f2f43094fc8c5",
@@ -591,11 +599,12 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169736677795@5",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi>U</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><msub><mi>E</mi><mtext>int</mtext></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     },
     {
       "id": "UP-1b565fb645706f77",
@@ -928,7 +937,7 @@
       "local_module": "m67127",
       "upstream_module": "m42234",
       "source_id": "import-auto-id1169738182567",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_16_03_05.jpg",
         "sha256": "f3965e36efabd9f47425743f2f96a62d0fa7473ace71e980ae146f4828651ffe"
@@ -939,7 +948,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Preserve author’s irreversible-process examples and definition. Reject upstream definition of irreversibility simply as path dependence, which would misclassify reversible paths; preserve U notation and cycle diagram."
     }
   ]
 }

@@ -8,23 +8,24 @@
     "m67030"
   ],
   "counts": {
-    "prose": 621,
-    "accessibility": 23,
-    "media": 54,
-    "math-markup-change": 6455,
+    "prose": 605,
+    "accessibility": 21,
+    "media": 50,
+    "math-markup-change": 6459,
     "references": 132,
-    "math-token-change": 570,
+    "math-token-change": 560,
     "math-structure": 60
   },
   "disposition_counts": {
-    "retained-adaptation-or-deferred-editorial-change": 596,
-    "retain-local-representation": 6413,
-    "retain-approved-adaptation": 30,
-    "unreviewed-difference": 862,
-    "retain-local-upstream-regression": 9,
-    "awaiting-author-structural-decision": 5
+    "retained-adaptation-or-deferred-editorial-change": 923,
+    "retain-local-representation": 6411,
+    "retain-approved-adaptation": 56,
+    "unreviewed-difference": 462,
+    "retain-local-upstream-regression": 21,
+    "deferred-by-author-to-broader-revision": 5,
+    "held-for-author-review": 9
   },
-  "exercise_context_differences": 1097,
+  "exercise_context_differences": 1095,
   "status": "Partial review: fingerprinted dispositions are recorded; unreviewed differences remain. Full backport is not complete.",
   "limitations": [
     "Two-way comparison cannot distinguish every author adaptation from an upstream correction.",
@@ -438,13 +439,13 @@
       "module": "m67037",
       "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
       "slug": "conservative-forces-potential-energy-and-conservation-of-energy",
-      "local_sha256": "fdc2d5038dab74e8d84447bfea8f8f6aced18153198e6198430f648a82ff857f",
+      "local_sha256": "3489e90be609f927c15e5bad372f74784fbf6d687e5cfe59b95bed6cc67510c9",
       "upstream_modules": [
         "m42149",
         "m42151"
       ],
       "counts": {
-        "prose": 10,
+        "prose": 11,
         "math-token-change": 9,
         "math-markup-change": 16,
         "math-structure": 2
@@ -907,12 +908,12 @@
       "module": "m52364",
       "title": "Temperature",
       "slug": "temperature",
-      "local_sha256": "4d14f31718729c8466cf53cee3a1843545ca941fd0330606d4ef5b844ab60786",
+      "local_sha256": "5e9e1b952e0205535a3463c23a572890cf4a1d1298073235cb3eb8ecbc8bfd92",
       "upstream_modules": [
         "m42214"
       ],
       "counts": {
-        "prose": 8,
+        "prose": 6,
         "references": 3,
         "math-markup-change": 41
       }
@@ -921,12 +922,12 @@
       "module": "m67122",
       "title": "The Ideal Gas Law",
       "slug": "the-ideal-gas-law",
-      "local_sha256": "7d02f5e37afd631d11e8f05da80c8f7916f23abe233470bff78dc93f3b6c93be",
+      "local_sha256": "768ec783714763e0525fba666f7e2b62d2e47b23fe9dda64281a2a6609e63702",
       "upstream_modules": [
         "m42216"
       ],
       "counts": {
-        "prose": 8,
+        "prose": 6,
         "references": 2,
         "accessibility": 1,
         "math-markup-change": 96,
@@ -966,14 +967,14 @@
       "module": "m67622",
       "title": "Temperature Change and Heat Capacity",
       "slug": "temperature-change-and-heat-capacity",
-      "local_sha256": "2798242eb7e796c19526eba778d6d336839bb024349d0d6e36f65b095e4fe03a",
+      "local_sha256": "cec769a77be68a3481dd9f808b0d29df14dd85d1d6fcd1f8b24dda5289871f20",
       "upstream_modules": [
         "m42224"
       ],
       "counts": {
         "prose": 1,
-        "math-token-change": 7,
-        "math-markup-change": 60,
+        "math-token-change": 3,
+        "math-markup-change": 59,
         "math-structure": 1
       }
     },
@@ -981,15 +982,14 @@
       "module": "m67124",
       "title": "Phase Change and Latent Heat",
       "slug": "phase-change-and-latent-heat",
-      "local_sha256": "8b37fc7ee1820afa150aa1191c8913d0cc0dd57f9d0db7132e9babf22ce593d5",
+      "local_sha256": "300094836fd4c9df6946d517e991309edd606fcaffd13d28df2575bdd7798d37",
       "upstream_modules": [
         "m42225"
       ],
       "counts": {
         "accessibility": 1,
-        "prose": 1,
         "math-markup-change": 69,
-        "math-token-change": 3,
+        "math-token-change": 2,
         "media": 1
       }
     },
@@ -1046,12 +1046,11 @@
       "module": "m42235",
       "title": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
       "slug": "carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated",
-      "local_sha256": "b7a1a6e7b4b4b5af9a2ad0b6282531d1cd9b2e95eddff7ff25c9bb1cec7b180f",
+      "local_sha256": "54dcd3dc97a36f6f5292d043d5a6f38f87025cf2918fe94fb2fcc5be11ef3e40",
       "upstream_modules": [
         "m42235"
       ],
       "counts": {
-        "prose": 1,
         "math-markup-change": 64
       }
     },
@@ -1110,14 +1109,13 @@
       "module": "m52381",
       "title": "Static Electricity and Charge: Conservation of Charge",
       "slug": "static-electricity-and-charge-conservation-of-charge",
-      "local_sha256": "d610da37e41a01740984916369e60d78b2080945a8fd27abf3e0d540dab0bc44",
+      "local_sha256": "1c265487a5e2987d0c149f1d10b55d7787d465a826199b0f6536597ec29210c1",
       "upstream_modules": [
         "m42300"
       ],
       "counts": {
-        "prose": 3,
+        "prose": 1,
         "references": 1,
-        "accessibility": 1,
         "math-markup-change": 23
       }
     },
@@ -1164,24 +1162,24 @@
       "module": "m75427",
       "title": "Electric Potential and Potential Energy",
       "slug": "electric-potential-and-potential-energy",
-      "local_sha256": "70392817ec91c21939d4760026572f67432b7fbc876c705e027318dbe5bb0920",
+      "local_sha256": "1cc10ec0c88a4a926e62bb7c7cf0fc35a5ccb5c5f25bde107c961bed91c4729e",
       "upstream_modules": [
         "m42324"
       ],
       "counts": {
         "prose": 7,
+        "accessibility": 1,
         "references": 1,
         "math-token-change": 1,
         "math-markup-change": 83,
-        "math-structure": 1,
-        "media": 1
+        "math-structure": 1
       }
     },
     {
       "module": "m75428",
       "title": "Conductors and Applications of Electrostatics",
       "slug": "conductors-and-applications-of-electrostatics",
-      "local_sha256": "fe5fe593ecd81f7904874bdabe688adf2b4be4c787f72bc1e2a27d75407eef26",
+      "local_sha256": "ae09ab4c31999063f003199436ecc68e8b7005334b4d2c442084e3d2df371850",
       "upstream_modules": [
         "m42317",
         "m42329"
@@ -1189,8 +1187,7 @@
       "counts": {
         "prose": 9,
         "references": 1,
-        "math-markup-change": 24,
-        "math-token-change": 1
+        "math-markup-change": 25
       }
     },
     {
@@ -1223,12 +1220,12 @@
       "module": "m52402",
       "title": "Electric Power and Energy",
       "slug": "electric-power-and-energy",
-      "local_sha256": "4f618224fb78e530665f4637dbb46b78ceb7701b03bd4717542b9fd8101d8686",
+      "local_sha256": "0c14aaf065037d4f5c35402b4c005028ffbdb62756b699e6b12bd67e2ab71343",
       "upstream_modules": [
         "m42714"
       ],
       "counts": {
-        "prose": 7,
+        "prose": 6,
         "references": 1,
         "math-markup-change": 67,
         "math-structure": 1
@@ -1252,15 +1249,14 @@
       "module": "m52406",
       "title": "Electric Hazards and the Human Body",
       "slug": "electric-hazards-and-the-human-body",
-      "local_sha256": "12877d7df7f07ae8b152cb45f3e4fd0349b114fd3067d59da1012279d121ebea",
+      "local_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
       "upstream_modules": [
         "m42350"
       ],
       "counts": {
         "prose": 8,
         "references": 2,
-        "math-markup-change": 39,
-        "math-token-change": 1
+        "math-markup-change": 40
       }
     },
     {
@@ -1277,14 +1273,12 @@
       "module": "m52412",
       "title": "Magnets",
       "slug": "magnets",
-      "local_sha256": "74fd9fa034b389765755faf8b1c9caac3fe9623c7fd68c12b5c4b573aa2d1016",
+      "local_sha256": "82e230d98dc9d3df72a77f96b59f2d84fbbbc8e4b8985ebfa191829a8ce7f479",
       "upstream_modules": [
         "m42366"
       ],
       "counts": {
-        "prose": 1,
-        "accessibility": 1,
-        "media": 1
+        "prose": 1
       }
     },
     {
@@ -1307,20 +1301,18 @@
       "upstream_modules": [
         "m42370"
       ],
-      "counts": {
-        "media": 1
-      }
+      "counts": {}
     },
     {
       "module": "m52414",
       "title": "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
       "slug": "magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field",
-      "local_sha256": "0086c11659ef667d6158a8668248403bdaffdeee85d7c07c670dbead308b6ab1",
+      "local_sha256": "17dd55bdb982ffe8c0b9f0d5d4d137b2e0e671b22b69288d264e0a0dd574f83c",
       "upstream_modules": [
         "m42372"
       ],
       "counts": {
-        "prose": 10,
+        "prose": 9,
         "math-markup-change": 25,
         "math-token-change": 9,
         "math-structure": 1,
@@ -1348,12 +1340,12 @@
       "module": "m52417",
       "title": "Motors and Meters",
       "slug": "motors-and-meters",
-      "local_sha256": "7bc88962c1be8667ec30c76024a40c2469fc6233b1b1a37917f107054d7bdc95",
+      "local_sha256": "6fcdffa1efd1f4cc3925898a6414f8add0e1823739d447079d3b643441dd56e5",
       "upstream_modules": [
         "m42380"
       ],
       "counts": {
-        "prose": 8,
+        "prose": 2,
         "references": 1,
         "math-markup-change": 13,
         "math-token-change": 2,
@@ -1364,22 +1356,21 @@
       "module": "m52420",
       "title": "Magnetic Fields Produced by Currents: Ampere’s Law",
       "slug": "magnetic-fields-produced-by-currents-amperes-law",
-      "local_sha256": "13bc4e57bf13b9c22ab5ea01a93fa12616a599d6b5ba4929de31fafeefa08f49",
+      "local_sha256": "e2ca4c5606c1a65000cd4f8d59162209aec3f753dd40b11052c0ded36cfc417c",
       "upstream_modules": [
         "m42382"
       ],
       "counts": {
         "references": 2,
         "prose": 1,
-        "math-markup-change": 49,
-        "math-token-change": 1
+        "math-markup-change": 50
       }
     },
     {
       "module": "m70743",
       "title": "Induced Voltage and Magnetic Flux",
       "slug": "induced-voltage-and-magnetic-flux",
-      "local_sha256": "1b0ac08178d313dfdc2fbb6b70e53c8571b27b120725090fcfaeebd300db49ff",
+      "local_sha256": "4f1d68c1c17270fc9423b4ccb62b27ea90b5b543a8c203da5a1bc44ebc86f659",
       "upstream_modules": [
         "m42390"
       ],
@@ -1396,15 +1387,14 @@
       "module": "m70744",
       "title": "Faraday’s Law of Induction: Lenz’s Law",
       "slug": "faradays-law-of-induction-lenzs-law",
-      "local_sha256": "5a2d59faf7de22a8f099de4913697705b8cb2e007adcfd68011d718ae0bb15ae",
+      "local_sha256": "525f7bffcc48b62bb5f276be249e742dbc6138a7c75565e5872b0edcf93b61c4",
       "upstream_modules": [
         "m42392"
       ],
       "counts": {
         "prose": 10,
         "math-token-change": 3,
-        "math-markup-change": 14,
-        "media": 1
+        "math-markup-change": 14
       }
     },
     {
@@ -1428,7 +1418,7 @@
       "module": "m67131",
       "title": "Alternating Current versus Direct Current",
       "slug": "alternating-current-versus-direct-current",
-      "local_sha256": "5df6716e404cd15ffca74900defa73ae82e25c6f839dc32273e22e669ba19f07",
+      "local_sha256": "49ef8930258ff4444db25d50f5aceb1b44d4e3965cef334e9e1c6895fdebb3a6",
       "upstream_modules": [
         "m42348"
       ],
@@ -1444,7 +1434,7 @@
       "module": "m67031",
       "title": "Introduction to Light",
       "slug": "introduction-to-light",
-      "local_sha256": "50922bc8ac55aba4248b11a76d32868c6ed9ffa13d9807c5bdbd1ff0e25c2b2b",
+      "local_sha256": "671fb2b99d3d878f9d8e3358d2ee8a0f92be5fc40aacda0b9c6e853f1e47ccdb",
       "upstream_modules": [
         "m42449"
       ],
@@ -1499,12 +1489,12 @@
       "module": "m67133",
       "title": "The Electromagnetic Spectrum: Application Notes",
       "slug": "the-electromagnetic-spectrum-application-notes",
-      "local_sha256": "34a1a446dced9c0de63af5584c53bbd20daf57e13a6018dd578a12e319bc86e3",
+      "local_sha256": "9ab441774db045cc4186a488e600e261c5ee86ea232de692ad1af8c007e45993",
       "upstream_modules": [
         "m42444"
       ],
       "counts": {
-        "prose": 13,
+        "prose": 12,
         "references": 2,
         "math-markup-change": 45,
         "math-structure": 1,
@@ -1528,14 +1518,14 @@
       "module": "m52454",
       "title": "Refraction",
       "slug": "refraction",
-      "local_sha256": "4cb5e62fdefd1d28000cfc6200471a188b307f25b3c0dc10ebe8cb0a54b90ed9",
+      "local_sha256": "b87b156f032c7b2e3e43830aedc7a4ee9b04f4a3bc9a455fbbf32acc8c395b9b",
       "upstream_modules": [
         "m42459"
       ],
       "counts": {
         "prose": 1,
-        "math-markup-change": 40,
-        "math-token-change": 5,
+        "math-markup-change": 41,
+        "math-token-change": 4,
         "math-structure": 1
       }
     },
@@ -1557,16 +1547,15 @@
       "module": "m67134",
       "title": "Image Formation by Lenses",
       "slug": "image-formation-by-lenses",
-      "local_sha256": "730f8acab6d7c9cb80c07c7fa6ba0381f6d59ec166f17893e504bf5f57bee2c1",
+      "local_sha256": "8eb60e8ed1bf96460aaad972e5cf1dccce822733cc2d6ed614d6bd8605e6a9a6",
       "upstream_modules": [
         "m42470"
       ],
       "counts": {
-        "accessibility": 1,
         "prose": 6,
         "references": 2,
-        "math-markup-change": 101,
-        "math-token-change": 3
+        "math-markup-change": 102,
+        "math-token-change": 2
       }
     },
     {

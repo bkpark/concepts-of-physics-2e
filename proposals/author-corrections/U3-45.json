@@ -1,0 +1,20 @@
+{
+  "id": "U3-45",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52412",
+  "source_object": "import-auto-id1645429",
+  "source_path": "maintained/modules/m52412/index.cnxml",
+  "source_sha256": "74fd9fa034b389765755faf8b1c9caac3fe9623c7fd68c12b5c4b573aa2d1016",
+  "after_sha256": "82e230d98dc9d3df72a77f96b59f2d84fbbbc8e4b8985ebfa191829a8ce7f479",
+  "before": "<media id=\"import-auto-id1645429\" alt=\"A globe of the Earth with a bar magnet inside it. The south pole of the bar magnet inside the globe is at the north magnetic pole and is near, but not exactly on, the north geographic pole. The north pole of the bar magnet inside the globe is near the south geographic pole. Another bar magnet hangs beside the globe. The north pole of this magnet is pointing toward the north pole of the globe (or the south pole of the magnet inside the globe).\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_01_02a.jpg\" width=\"250\"/>\n      </media>",
+  "after": "<media id=\"import-auto-id1645429\" alt=\"A globe of the Earth with a bar magnet inside it. The south pole of the bar magnet inside the globe is at the south magnetic pole and is near, but not exactly on, the north geographic pole. The north pole of the bar magnet inside the globe is near the south geographic pole. Another bar magnet hangs beside the globe. The north pole of this magnet is pointing toward the north pole of the globe (or the south pole of the magnet inside the globe).\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_01_02a.jpg\" width=\"250\"/>\n      </media>",
+  "reason": "Synchronize alternative text with the corrected south-polarity label in the diagram.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42366"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

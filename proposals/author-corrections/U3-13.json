@@ -1,0 +1,20 @@
+{
+  "id": "U3-13",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67124",
+  "source_object": "eip-649",
+  "source_path": "maintained/modules/m67124/index.cnxml",
+  "source_sha256": "8b37fc7ee1820afa150aa1191c8913d0cc0dd57f9d0db7132e9babf22ce593d5",
+  "after_sha256": "f58425de0367394094d3c371388bfd9987e770c6afcd9b6db83332ed5641b603",
+  "before": "<equation id=\"eip-649\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub></m:mrow></m:mfenced><m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>W</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>25 </m:mtext><m:mtext> kg + 0</m:mtext><m:mtext>.</m:mtext><m:mtext>018 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>4186 K/</m:mtext><m:mo stretchy=\"false\">(</m:mo><m:mrow><m:mtext>kg</m:mtext><m:mo stretchy=\"false\">⋅º</m:mo></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mfenced><m:mtext>=1122 J/º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ left (m rSub { size 8{\"ice\"} } +m rSub { size 8{\"soda\"} }  right )c rSub { size 8{W} } = left (0 \".\" \"25\"\" kg+0\" \".\" \"018 kg\" right ) left (\"4186 K/\" \\( \"kg\" cdot °C right )\"=1122 J/\"°C} {}</m:annotation></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-649\"><m:math><m:mrow><m:mrow><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub></m:mrow></m:mfenced><m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>W</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mn>0.25</m:mn><m:mspace width=\"0.2em\"/><m:mtext> kg +</m:mtext><m:mtext>0.018 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>4186 J/(kg⋅ºC)</m:mtext></m:mrow></m:mfenced><m:mtext>=1122 J/º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation>",
+  "reason": "Correct K to J in specific heat and close both parentheses in the soda-and-ice heat-capacity calculation; adopt the repaired upstream equation.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42225"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

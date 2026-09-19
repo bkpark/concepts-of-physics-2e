@@ -2,7 +2,7 @@
   "module": "m75428",
   "title": "Conductors and Applications of Electrostatics",
   "slug": "conductors-and-applications-of-electrostatics",
-  "local_sha256": "fe5fe593ecd81f7904874bdabe688adf2b4be4c787f72bc1e2a27d75407eef26",
+  "local_sha256": "ae09ab4c31999063f003199436ecc68e8b7005334b4d2c442084e3d2df371850",
   "upstream_modules": [
     "m42317",
     "m42329"
@@ -10,8 +10,7 @@
   "counts": {
     "prose": 9,
     "references": 1,
-    "math-markup-change": 24,
-    "math-token-change": 1
+    "math-markup-change": 25
   },
   "changes": [
     {
@@ -20,13 +19,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2578321",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible (see , which shows a Van de Graaff generator). Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
       "upstream": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible. (See .) Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
       "local_html": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible (see <span class=\"muted\">[reference]</span>, which shows a Van de Graaff generator). Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
       "upstream_html": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible. (See <span class=\"muted\">[reference]</span>.) Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-e2cc7870b7283159",
@@ -34,13 +34,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2594161@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.",
       "upstream": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).",
       "local_html": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.",
       "upstream_html": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-cf66743e6ad069bc",
@@ -48,13 +49,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2622896",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Suppose a woman carries an excess charge. To maintain her charged status can she be standing on ground wearing just any pair of shoes? How would you discharge her? What are the consequences if she simply walks away?",
       "upstream": "Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are the consequences if they simply walk away?",
       "local_html": "Suppose a woman carries an excess charge. To maintain her charged status can she be standing on ground wearing just any pair of shoes? How would you discharge her? What are the consequences if she simply walks away?",
       "upstream_html": "Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are the consequences if they simply walk away?",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-a03721017743891e",
@@ -62,13 +64,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2662934",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "How can a very uniform electric field be created? Consider a system of two metal plates with opposite charges on them, as shown in . The properties of conductors in electrostatic equilibrium indicate that the electric field between the plates will be uniform in strength and direction. Except near the edges (which can be ignored when plates are close to each other), the excess charges distribute themselves uniformly, producing field lines that are uniformly spaced (hence uniform in strength) and perpendicular to the surfaces (hence uniform in direction, since the plates are flat).",
       "upstream": "How can a very uniform electric field be created? Consider a system of two metal plates with opposite charges on them, as shown in . The properties of conductors in electrostatic equilibrium indicate that the electric field between the plates will be uniform in strength and direction. Except near the edges, the excess charges distribute themselves uniformly, producing field lines that are uniformly spaced (hence uniform in strength) and perpendicular to the surfaces (hence uniform in direction, since the plates are flat). The edge effects are less important when the plates are close together.",
       "local_html": "How can a very uniform electric field be created? Consider a system of two metal plates with opposite charges on them, as shown in <span class=\"muted\">[reference]</span>. The properties of conductors in electrostatic equilibrium indicate that the electric field between the plates will be uniform in strength and direction. Except near the edges (which can be ignored when plates are close to each other), the excess charges distribute themselves uniformly, producing field lines that are uniformly spaced (hence uniform in strength) and perpendicular to the surfaces (hence uniform in direction, since the plates are flat).",
       "upstream_html": "How can a very uniform electric field be created? Consider a system of two metal plates with opposite charges on them, as shown in <span class=\"muted\">[reference]</span>. The properties of conductors in electrostatic equilibrium indicate that the electric field between the plates will be uniform in strength and direction. Except near the edges, the excess charges distribute themselves uniformly, producing field lines that are uniformly spaced (hence uniform in strength) and perpendicular to the surfaces (hence uniform in direction, since the plates are flat). The edge effects are less important when the plates are close together.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-1b722dfd6b6e1051",
@@ -76,13 +79,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2970817",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "shows the effect of an electric field on free charges in a conductor. The free charges move until the field is perpendicular to the conductor’s surface. There can be no component of the field parallel to the surface in electrostatic equilibrium, since, if there were, it would produce further movement of charge.",
       "upstream": "shows the effect of an electric field on free charges in a conductor. The free charges move until the field is perpendicular to the conductor’s surface. There can be no component of the field parallel to the surface in electrostatic equilibrium, since, if there were, it would produce further movement of charge. A positive free charge is shown, but free charges can be either positive or negative and are, in fact, negative in metals. The motion of a positive charge is equivalent to the motion of a negative charge in the opposite direction.",
       "local_html": "<span class=\"muted\">[reference]</span> shows the effect of an electric field on free charges in a conductor. The free charges move until the field is perpendicular to the conductor’s surface. There can be no component of the field parallel to the surface in electrostatic equilibrium, since, if there were, it would produce further movement of charge.",
       "upstream_html": "<span class=\"muted\">[reference]</span> shows the effect of an electric field on free charges in a conductor. The free charges move until the field is perpendicular to the conductor’s surface. There can be no component of the field parallel to the surface in electrostatic equilibrium, since, if there were, it would produce further movement of charge. A positive free charge is shown, but free charges can be either positive or negative and are, in fact, negative in metals. The motion of a positive charge is equivalent to the motion of a negative charge in the opposite direction.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-57bde4b472194894",
@@ -90,13 +94,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3175345",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "So far we have considered excess charges on a smooth, symmetrical conductor surface. What happens if a conductor has sharp corners or is pointed? Excess charges on a nonuniform conductor become concentrated at the sharpest points. Additionally, excess charge may move on or off the conductor at the sharpest points. To see how and why this happens, consider the charged conductor in . The electrostatic repulsion of like charges is most effective in moving them apart on the flattest surface, and so they become least concentrated there. The same effect is produced on a conductor by an externally applied electric field, as seen in (c). Since the field lines must be perpendicular to the surface, more of them are concentrated on the most curved parts.",
       "upstream": "So far we have considered excess charges on a smooth, symmetrical conductor surface. What happens if a conductor has sharp corners or is pointed? Excess charges on a nonuniform conductor become concentrated at the sharpest points. Additionally, excess charge may move on or off the conductor at the sharpest points.",
       "local_html": "So far we have considered excess charges on a smooth, symmetrical conductor surface. What happens if a conductor has sharp corners or is pointed? Excess charges on a nonuniform conductor become concentrated at the sharpest points. Additionally, excess charge may move on or off the conductor at the sharpest points. To see how and why this happens, consider the charged conductor in <span class=\"muted\">[reference]</span>. The electrostatic repulsion of like charges is most effective in moving them apart on the flattest surface, and so they become least concentrated there. The same effect is produced on a conductor by an externally applied electric field, as seen in <span class=\"muted\">[reference]</span> (c). Since the field lines must be perpendicular to the surface, more of them are concentrated on the most curved parts.",
       "upstream_html": "So far we have considered excess charges on a smooth, symmetrical conductor surface. What happens if a conductor has sharp corners or is pointed? Excess charges on a nonuniform conductor become concentrated at the sharpest points. Additionally, excess charge may move on or off the conductor at the sharpest points.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-96f0b6db2f72eaf6",
@@ -104,7 +109,7 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3175345",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id2398984"
@@ -115,7 +120,8 @@
       ],
       "upstream": [],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-a7f1069c6d51283f",
@@ -123,13 +129,14 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3230544@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "When an electric field [MATH] is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( [MATH] ) exerts a force ( [MATH] ) on the free charge [MATH] , which moves the charge until [MATH] . (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium. A positive free charge is shown in the figure for the example, but the result holds similarly for a negative free charge.",
       "upstream": "When an electric field [MATH] is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( [MATH] ) exerts a force ( [MATH] ) on the free charge [MATH] , which moves the charge until [MATH] . (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.",
       "local_html": "When an electric field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext></mrow><mrow /></mrow></mrow></math> is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>) exerts a force (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>) on the free charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>, which moves the charge until <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>. (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium. A positive free charge is shown in the figure for the example, but the result holds similarly for a negative free charge.",
       "upstream_html": "When an electric field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext></mrow></mrow></math> is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>) exerts a force (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>) on the free charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>, which moves the charge until <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>. (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-1418c58f6c4ca4c3",
@@ -197,16 +204,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-1fa15cd61340be21",
-      "kind": "math-token-change",
+      "id": "UP-d9b0f97bcec6a6cf",
+      "kind": "math-markup-change",
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1409968@4",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-f8de229c1d08941b",
@@ -461,13 +469,14 @@
       "local_module": "m75428",
       "upstream_module": "m42329",
       "source_id": "fs-id2403320",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "the study of electricity in electrostatic equilibrium",
       "upstream": "the study of electric forces that are static or slow-moving",
       "local_html": "the study of electricity in electrostatic equilibrium",
       "upstream_html": "the study of electric forces that are static or slow-moving",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     },
     {
       "id": "UP-eab8f666daebc151",
@@ -475,13 +484,14 @@
       "local_module": "m75428",
       "upstream_module": "m42329",
       "source_id": "import-auto-id3110040",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Below are additional applications of electrostatics, the study of electricity in electrostatic equilibrium, many of them using conductors for their properties just discussed above.",
       "upstream": "The study of electrostatics has proven useful in many areas. This module covers just a few of the many applications of electrostatics.",
       "local_html": "Below are additional applications of electrostatics, the study of electricity in electrostatic equilibrium, many of them using conductors for their properties just discussed above.",
       "upstream_html": "The study of electrostatics has proven useful in many areas. This module covers just a few of the many applications of electrostatics.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct contradictory q_b=q_c assignment to q_b=q_d. Preserve explicit electrostatic equilibrium, existing edge-effect qualification, positive-test-charge explanation and combined applications. Added tangential-force explanation is a broader elaboration."
     }
   ]
 }

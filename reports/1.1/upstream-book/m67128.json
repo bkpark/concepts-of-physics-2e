@@ -18,13 +18,14 @@
       "local_module": "m67128",
       "upstream_module": "m42237",
       "source_id": "import-auto-id1169737786532",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "Entropy is also associated with the tendency toward disorder in an isolated system.",
       "upstream": "Entropy is also associated with the tendency toward disorder in a closed system.",
       "local_html": "Entropy is also associated with the tendency toward disorder in an <em>isolated</em> system.",
       "upstream_html": "Entropy is also associated with the tendency toward disorder in a closed system.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain isolated system; a closed system can exchange heat and need not have nondecreasing entropy."
     },
     {
       "id": "UP-23664b32c4f18702",
@@ -32,13 +33,14 @@
       "local_module": "m67128",
       "upstream_module": "m42237",
       "source_id": "import-auto-id1169737940509",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "Change of entropy is zero in a reversible process; it increases in an irreversible process.",
       "upstream": "Entropy is zero in a reversible process; it increases in an irreversible process.",
       "local_html": "Change of entropy is zero in a reversible process; it increases in an irreversible process.",
       "upstream_html": "Entropy is zero in a reversible process; it increases in an irreversible process.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Entropy CHANGE is zero for the described reversible case, not entropy itself."
     },
     {
       "id": "UP-f1bc5d031a615f42",
@@ -670,11 +672,12 @@
       "local_module": "m67128",
       "upstream_module": "m42237",
       "source_id": "import-auto-id1169738208667@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>S</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>s</mi></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain capital S as used for entropy throughout this book."
     },
     {
       "id": "UP-3a260b67d40516e6",
@@ -682,11 +685,12 @@
       "local_module": "m67128",
       "upstream_module": "m42237",
       "source_id": "import-auto-id1169738208667@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>U</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>E</mi><mtext>int</mtext></msub></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain isolated-system restriction, change in entropy rather than entropy equal to zero, capital S, and U. Reject upstream weakened/corrupted alternatives. Preserve omitted sections and exercises."
     },
     {
       "id": "UP-809f36d0f30dc48b",

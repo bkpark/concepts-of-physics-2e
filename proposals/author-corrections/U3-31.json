@@ -1,0 +1,20 @@
+{
+  "id": "U3-31",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m70743",
+  "source_object": "import-auto-id1169738208118",
+  "source_path": "maintained/modules/m70743/index.cnxml",
+  "source_sha256": "1b0ac08178d313dfdc2fbb6b70e53c8571b27b120725090fcfaeebd300db49ff",
+  "after_sha256": "4f1d68c1c17270fc9423b4ccb62b27ea90b5b543a8c203da5a1bc44ebc86f659",
+  "before": "<figure id=\"import-auto-id1169738208118\"><media id=\"import-auto-id1169738146915\" alt=\"The picture shows Faraday’s apparatus for demonstrating that a magnetic field can produce a current. It consists of a cylinder shaped battery. The positive end of the battery is connected to an open switch. There is a ring shaped iron core consisting of a set of coils one on the top and another at the bottom. The other end of the switch is connected to one end of the top coil. The other end of the top coil is connected back to the battery. Both the ends of the bottom coil are shown connected across a galvanometer box which shows a null deflection.\">\n            <image mime-type=\"image/jpg\" src=\"../../media/Figure_24_01_01.jpg\" width=\"400\"/>\n        </media>\n            \n        <caption>Faraday’s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces an voltage and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open. </caption></figure>",
+  "after": "<figure id=\"import-auto-id1169738208118\"><media id=\"import-auto-id1169738146915\" alt=\"The picture shows Faraday’s apparatus for demonstrating that a magnetic field can produce a current. It consists of a cylinder shaped battery. The positive end of the battery is connected to an open switch. There is a ring shaped iron core consisting of a set of coils one on the top and another at the bottom. The other end of the switch is connected to one end of the top coil. The other end of the top coil is connected back to the battery. Both the ends of the bottom coil are shown connected across a galvanometer box which shows a null deflection.\">\n            <image mime-type=\"image/jpg\" src=\"../../media/Figure_24_01_01.jpg\" width=\"400\"/>\n        </media>\n            \n        <caption>Faraday’s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces a voltage and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open. </caption></figure>",
+  "reason": "Repair the article while preserving the adapted voltage terminology.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42390"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Local grammatical repair exposed by upstream emf comparison"
+}

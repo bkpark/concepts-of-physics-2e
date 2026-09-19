@@ -1,0 +1,20 @@
+{
+  "id": "U3-24",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "import-auto-id1546668",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "8595a6bcf768f57aba95921e60f67b71de97f6d9f382877ebaf93f03b30a1b8d",
+  "after_sha256": "fdb5bd4067518476c4d2b4b809f1a20f5dc517167c177ed7d8090359084f0d68",
+  "before": "<para id=\"import-auto-id1546668\"><term id=\"import-auto-id2189091\">Motors</term> are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts force on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See <link target-id=\"import-auto-id1615457\"/>.)</para>",
+  "after": "<para id=\"import-auto-id1546668\"><term id=\"import-auto-id2189091\">Motors</term> are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See <link target-id=\"import-auto-id1615457\"/>.)</para>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

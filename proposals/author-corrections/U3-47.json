@@ -1,0 +1,20 @@
+{
+  "id": "U3-47",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67122",
+  "source_object": "import-auto-id2600697",
+  "source_path": "maintained/modules/m67122/index.cnxml",
+  "source_sha256": "a6a12cd409c40c04d55ac829559d9faeed5b1cfd79a590c67a685cb01009d0ce",
+  "after_sha256": "768ec783714763e0525fba666f7e2b62d2e47b23fe9dda64281a2a6609e63702",
+  "before": "<media id=\"import-auto-id2600697\" alt=\"\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_14_03_00.jpg\" width=\"200\"/>\n      </media>",
+  "after": "<media id=\"import-auto-id2600697\" alt=\"A yellow hot-air balloon decorated with a face and sunglasses floats in the sky.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_14_03_00.jpg\" width=\"200\"/>\n      </media>",
+  "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42216"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream accessibility addition checked against local image; photo descriptions minimally adapted to neutral wording"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "U3-19",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52402",
+  "source_object": "import-auto-id2667004",
+  "source_path": "maintained/modules/m52402/index.cnxml",
+  "source_sha256": "4f618224fb78e530665f4637dbb46b78ceb7701b03bd4717542b9fd8101d8686",
+  "after_sha256": "0c14aaf065037d4f5c35402b4c005028ffbdb62756b699e6b12bd67e2ab71343",
+  "before": "<para id=\"import-auto-id2667004\">The total cost will be $7.20 for 1000 hours (about one-half year at 5 hours per day).</para>",
+  "after": "<para id=\"import-auto-id2667004\">The total cost, including the cost of the bulb, will be $7.45 for 1000 hours (about one-half year at 5 hours per day).</para>",
+  "reason": "Include the stated $0.25 bulb cost: $7.20 electricity + $0.25 = $7.45.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42714"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

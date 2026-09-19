@@ -1,0 +1,20 @@
+{
+  "id": "U3-48",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67031",
+  "source_object": "import-auto-id3087674",
+  "source_path": "maintained/modules/m67031/index.cnxml",
+  "source_sha256": "50922bc8ac55aba4248b11a76d32868c6ed9ffa13d9807c5bdbd1ff0e25c2b2b",
+  "after_sha256": "671fb2b99d3d878f9d8e3358d2ee8a0f92be5fc40aacda0b9c6e853f1e47ccdb",
+  "before": "<media id=\"import-auto-id3087674\" alt=\"\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure 26_00_01.jpg\" width=\"300\"/>\n      </media>",
+  "after": "<media id=\"import-auto-id3087674\" alt=\"A double rainbow arches over a coastal city with palm trees and buildings along the waterfront.\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure 26_00_01.jpg\" width=\"300\"/>\n      </media>",
+  "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42449"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream accessibility addition checked against local image; photo descriptions minimally adapted to neutral wording"
+}

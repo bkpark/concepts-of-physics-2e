@@ -1,0 +1,20 @@
+{
+  "id": "U3-10",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67622",
+  "source_object": "eip-456",
+  "source_path": "maintained/modules/m67622/index.cnxml",
+  "source_sha256": "a023ca6b3b488161c7e06cea01bd8fb42a36fe1972d734df2caa7351d1ef62b2",
+  "after_sha256": "bcaf7b9cb086b43456e06c6a23f9e64a4de3acc5257959e123113c8dbe5a5c1c",
+  "before": "<equation id=\"eip-456\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle=\"italic\">T</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfrac><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow>\n\n<m:mn>7</m:mn><m:mtext>.35</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\"/><m:mtext>J</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>100 kg</m:mtext></m:mrow></m:mfenced><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>800 J/kgºC</m:mtext></m:mrow></m:mfenced></m:mrow></m:mfrac></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mtext>9.2 ºC.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-456\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle=\"italic\">T</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfrac><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow>\n\n<m:mn>7</m:mn><m:mtext>.35</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\"/><m:mtext>J</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>100 kg</m:mtext></m:mrow></m:mfenced><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>800 J/(kg⋅ºC)</m:mtext></m:mrow></m:mfenced></m:mrow></m:mfrac></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mtext>9.2 ºC.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation>",
+  "reason": "Make specific-heat units J/(kg·°C) unambiguous. Retain the correct 7.35 × 10⁵ J; reject upstream’s 10⁶ regression.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42224"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

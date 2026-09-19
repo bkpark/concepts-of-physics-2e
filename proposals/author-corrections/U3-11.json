@@ -1,0 +1,20 @@
+{
+  "id": "U3-11",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67622",
+  "source_object": "import-auto-id1379925",
+  "source_path": "maintained/modules/m67622/index.cnxml",
+  "source_sha256": "bcaf7b9cb086b43456e06c6a23f9e64a4de3acc5257959e123113c8dbe5a5c1c",
+  "after_sha256": "f22f9434d4a5526c1b2869160f9d573aa60e1c89aa090f8d82c53ddb834dc9ff",
+  "before": "<para id=\"import-auto-id1379925\">where <m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math> is the mass of the brake material. Insert the values <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>100 kg</m:mtext></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:apply><m:eq/><m:ci>c</m:ci><m:mrow><m:cn>800</m:cn><m:mspace width=\"1ex\"/> <m:cn>J/kg·ºC</m:cn></m:mrow></m:apply></m:math> to find</para>",
+  "after": "<para id=\"import-auto-id1379925\">where <m:math><m:mrow><m:mi>m</m:mi></m:mrow></m:math> is the mass of the brake material. Insert the values <m:math><m:mrow><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>100 kg</m:mtext></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mtext>800 J/(kg⋅ºC)</m:mtext></m:mrow></m:mrow></m:math> to find</para>",
+  "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42224"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

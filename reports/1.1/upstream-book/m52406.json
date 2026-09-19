@@ -2,15 +2,14 @@
   "module": "m52406",
   "title": "Electric Hazards and the Human Body",
   "slug": "electric-hazards-and-the-human-body",
-  "local_sha256": "12877d7df7f07ae8b152cb45f3e4fd0349b114fd3067d59da1012279d121ebea",
+  "local_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
   "upstream_modules": [
     "m42350"
   ],
   "counts": {
     "prose": 8,
     "references": 2,
-    "math-markup-change": 39,
-    "math-token-change": 1
+    "math-markup-change": 40
   },
   "changes": [
     {
@@ -19,13 +18,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "eip-id2618301",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Consider a person working in an environment where electric currents might pass through her body. Construct a problem in which you calculate the resistance of insulation needed to protect the person from harm. Among the things to be considered are the voltage to which the person might be exposed, likely body resistance (dry, wet, …), and acceptable currents (safe but sensed, safe and unfelt, …).",
       "upstream": "Consider a person working in an environment where electric currents might pass through their body. Construct a problem in which you calculate the resistance of insulation needed to protect the person from harm. Among the things to be considered are the voltage to which the person might be exposed, likely body resistance (dry, wet, …), and acceptable currents (safe but sensed, safe and unfelt, …).",
       "local_html": "Consider a person working in an environment where electric currents might pass through her body. Construct a problem in which you calculate the resistance of insulation needed to protect the person from harm. Among the things to be considered are the voltage to which the person might be exposed, likely body resistance (dry, wet, …), and acceptable currents (safe but sensed, safe and unfelt, …).",
       "upstream_html": "Consider a person working in an environment where electric currents might pass through their body. Construct a problem in which you calculate the resistance of insulation needed to protect the person from harm. Among the things to be considered are the voltage to which the person might be exposed, likely body resistance (dry, wet, …), and acceptable currents (safe but sensed, safe and unfelt, …).",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-d57f4ab4b370ca52",
@@ -33,13 +33,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1417224",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Using an ohmmeter, a student measures the resistance between various points on his body. He finds that the resistance between two points on the same finger is about the same as the resistance between two points on opposite hands—both are several hundred thousand ohms. Furthermore, the resistance decreases when more skin is brought into contact with the probes of the ohmmeter. Finally, there is a dramatic drop in resistance (to a few thousand ohms) when the skin is wet. Explain these observations and their implications regarding skin and internal resistance of the human body.",
       "upstream": "Using an ohmmeter, a student measures the resistance between various points on his body. They find that the resistance between two points on the same finger is about the same as the resistance between two points on opposite hands—both are several hundred thousand ohms. Furthermore, the resistance decreases when more skin is brought into contact with the probes of the ohmmeter. Finally, there is a dramatic drop in resistance (to a few thousand ohms) when the skin is wet. Explain these observations and their implications regarding skin and internal resistance of the human body.",
       "local_html": "Using an ohmmeter, a student measures the resistance between various points on his body. He finds that the resistance between two points on the same finger is about the same as the resistance between two points on opposite hands—both are several hundred thousand ohms. Furthermore, the resistance decreases when more skin is brought into contact with the probes of the ohmmeter. Finally, there is a dramatic drop in resistance (to a few thousand ohms) when the skin is wet. Explain these observations and their implications regarding skin and internal resistance of the human body.",
       "upstream_html": "Using an ohmmeter, a student measures the resistance between various points on his body. They find that the resistance between two points on the same finger is about the same as the resistance between two points on opposite hands—both are several hundred thousand ohms. Furthermore, the resistance decreases when more skin is brought into contact with the probes of the ohmmeter. Finally, there is a dramatic drop in resistance (to a few thousand ohms) when the skin is wet. Explain these observations and their implications regarding skin and internal resistance of the human body.",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-51a76f1032724289",
@@ -47,13 +48,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1859777",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Before working on a power transmission line, linemen will touch the line with the back of the hand as a final check that the voltage is zero. Why the back of the hand?",
       "upstream": "Before working on a power transmission line, experts will touch the line with the back of the hand as a final check that the voltage is zero. Why the back of the hand?",
       "local_html": "Before working on a power transmission line, linemen will touch the line with the back of the hand as a final check that the voltage is zero. Why the back of the hand?",
       "upstream_html": "Before working on a power transmission line, experts will touch the line with the back of the hand as a final check that the voltage is zero. Why the back of the hand?",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-d510814ef7233fa9",
@@ -61,13 +63,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1889204",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "(b) 960 A",
       "upstream": "(b) 880 A",
       "local_html": "(b) 960 A",
       "upstream_html": "(b) 880 A",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-2cfb57ce95222d7e",
@@ -75,13 +78,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1926340",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC ( [MATH] ), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See .)",
       "upstream": "Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC ( [MATH] ), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See .) Electrical safety devices and techniques are discussed in detail in Electrical Safety: Systems and Devices.",
       "local_html": "Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. <span class=\"muted\">[reference]</span> presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>f</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See <span class=\"muted\">[reference]</span>.) ",
       "upstream_html": "Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. <span class=\"muted\">[reference]</span> presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>f</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See <span class=\"muted\">[reference]</span>.) Electrical safety devices and techniques are discussed in detail in Electrical Safety: Systems and Devices.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-b4486d24266101a4",
@@ -89,7 +93,7 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1926340",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id3190768"
@@ -110,7 +114,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-23ffbdf927f16466",
@@ -118,13 +123,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1932937",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "(a) How much power is dissipated in a short circuit of 240-V AC through a resistance of [MATH] ? (b) What current flows?",
       "upstream": "(a) How much power is dissipated in a short circuit of 220-V AC through a resistance of [MATH] ? (b) What current flows?",
       "local_html": "(a) How much power is dissipated in a short circuit of 240-V AC through a resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>0</mn><mtext>.</mtext><mtext>250</mtext><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math>? (b) What current flows?",
       "upstream_html": "(a) How much power is dissipated in a short circuit of 220-V AC through a resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>0</mn><mtext>.</mtext><mtext>250</mtext><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow></mrow></math>? (b) What current flows?",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-e28848fdfa559277",
@@ -132,13 +138,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id2669723",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "There are two known hazards of electricity—thermal and shock. A thermal hazard is one where excessive electric power causes undesired thermal effects, such as starting a fire in the wall of a house. A shock hazard occurs when electric current passes through a person. Shocks range in severity from painful, but otherwise harmless, to heart-stopping lethality. This section considers these hazards and the various factors affecting them in a quantitative manner.",
       "upstream": "There are two known hazards of electricity—thermal and shock. A thermal hazard is one where excessive electric power causes undesired thermal effects, such as starting a fire in the wall of a house. A shock hazard occurs when electric current passes through a person. Shocks range in severity from painful, but otherwise harmless, to heart-stopping lethality. This section considers these hazards and the various factors affecting them in a quantitative manner. Electrical Safety: Systems and Devices will consider systems and devices for preventing electrical hazards.",
       "local_html": "There are two known hazards of electricity—thermal and shock. A thermal hazard is one where excessive electric power causes undesired thermal effects, such as starting a fire in the wall of a house. A shock hazard occurs when electric current passes through a person. Shocks range in severity from painful, but otherwise harmless, to heart-stopping lethality. This section considers these hazards and the various factors affecting them in a quantitative manner. ",
       "upstream_html": "There are two known hazards of electricity—thermal and shock. A thermal hazard is one where excessive electric power causes undesired thermal effects, such as starting a fire in the wall of a house. A shock hazard occurs when electric current passes through a person. Shocks range in severity from painful, but otherwise harmless, to heart-stopping lethality. This section considers these hazards and the various factors affecting them in a quantitative manner. Electrical Safety: Systems and Devices will consider systems and devices for preventing electrical hazards.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-a537a40b2c7d866a",
@@ -146,7 +153,7 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id2669723",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -154,7 +161,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-1e0c4e8d5bb3fbb1",
@@ -162,13 +170,14 @@
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id3418480",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "(a) 230 kW",
       "upstream": "(a) 194 kW",
       "local_html": "(a) 230 kW",
       "upstream_html": "(a) 194 kW",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references."
     },
     {
       "id": "UP-d3a584a2e7681e75",
@@ -249,16 +258,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-7446917720216850",
-      "kind": "math-token-change",
+      "id": "UP-914fcefd943cd270",
+      "kind": "math-markup-change",
       "local_module": "m52406",
       "upstream_module": "m42350",
       "source_id": "import-auto-id1908394@2",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>4000 k</mtext><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>4500</mtext><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>4500</mtext><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct wet-contact resistance to 4500 Ω to match existing 26.7 mA solution. Preserve 240-V problem with its consistent 230 kW/960 A solutions, rather than changing a valid numerical scenario to 220 V. Do not restore omitted safety-section references. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-909249412745f9ca",

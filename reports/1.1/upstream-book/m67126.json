@@ -21,13 +21,14 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "eip-122",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "(Note that the pressure involved in this work that we’ve called [MATH] is the pressure of the gas inside the tank. If we call the pressure outside the tank [MATH] , an expanding gas would be working against the external pressure; the work done would therefore be [MATH] (isobaric process). There are some—especially chemists—who use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics. This definition reverses the sign conventions for work, and results in a statement of the first law that becomes [MATH] . In this textbook, we will use the physics convention of using work done by the system on the surrounding, not the other way around.)",
       "upstream": "(Note that the pressure involved in this work that we’ve called [MATH] is the pressure of the gas inside the tank. If we call the pressure outside the tank [MATH] , an expanding gas would be working against the external pressure; the work done would therefore be [MATH] (isobaric process). Many texts use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics. This definition reverses the sign conventions for work, and results in a statement of the first law that becomes [MATH] .)",
       "local_html": "(Note that the pressure involved in this work that we’ve called    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle><mrow><mrow><mi>\nP\n         </mi></mrow></mrow></mstyle><mrow /></mrow></mrow></math> is the pressure of the gas <em>inside</em> the tank.  If we call the pressure outside the tank     <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle><mrow><mrow><msub><mi>\nP\n          </mi><mrow><mstyle><mrow><mrow><mtext>\next\n              </mtext></mrow></mrow></mstyle></mrow></msub></mrow></mrow></mstyle><mrow /></mrow></mrow></math>, an expanding gas would be working <em>against</em> the external pressure; the work done would therefore be    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle><mrow><mrow><mrow><mi>\nW\n          </mi><mo stretchy=\"false\">\n=\n          </mo><mrow><mo stretchy=\"false\">\n−\n           </mo><msub><mi>\nP\n            </mi><mrow><mstyle><mrow><mrow><mtext>\next\n                </mtext></mrow></mrow></mstyle></mrow></msub></mrow></mrow><mtext>\nΔ\n         </mtext><mi mathvariant=\"italic\">\nV\n         </mi></mrow></mrow></mstyle><mrow /></mrow></mrow></math>  (isobaric process). There are some—especially chemists—who use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics.  This definition reverses the sign conventions for work, and results in a statement of the first law that becomes  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle><mrow><mrow><mrow><mtext>Δ</mtext><mi mathvariant=\"italic\">\nU\n          </mi><mo stretchy=\"false\">\n=\n          </mo><mrow><mi>\nQ\n           </mi><mo stretchy=\"false\">\n+\n           </mo><mi>\nW\n           </mi></mrow></mrow></mrow></mrow></mstyle><mrow /></mrow></mrow></math>. In this textbook, we will use the <em>physics</em> convention of using work done by the system on the surrounding, not the other way around.)",
       "upstream_html": "(Note that the pressure involved in this work that we’ve called    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mstyle><mrow><mrow><mi>\nP\n         </mi></mrow></mrow></mstyle><mrow /></mrow></math> is the pressure of the gas <em>inside</em> the tank.  If we call the pressure outside the tank     <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mstyle><mrow><mrow><msub><mi>\nP\n          </mi><mrow><mstyle><mrow><mrow><mtext>\next\n              </mtext></mrow></mrow></mstyle></mrow></msub></mrow></mrow></mstyle></mrow></math>, an expanding gas would be working <em>against</em> the external pressure; the work done would therefore be    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mstyle><mrow><mrow><mrow><mi>\nW\n          </mi><mo stretchy=\"false\">\n=\n          </mo><mrow><mo stretchy=\"false\">\n−\n           </mo><msub><mi>\nP\n            </mi><mrow><mstyle><mrow><mrow><mtext>\next\n                </mtext></mrow></mrow></mstyle></mrow></msub></mrow></mrow><mtext>\nΔ\n         </mtext><mi mathvariant=\"italic\">\nV\n         </mi></mrow></mrow></mstyle><mrow /></mrow></math>  (isobaric process). Many texts use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics.  This definition reverses the sign conventions for work, and results in a statement of the first law that becomes  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mstyle><mrow><mtext>Δ</mtext><msub><mi>E</mi><mtext>int</mtext></msub><mo stretchy=\"false\">=</mo><mrow><mi>Q</mi><mo stretchy=\"false\">+</mo><mi>W</mi></mrow></mrow></mstyle></mrow></math>.)",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-0920346cb3911f99",
@@ -35,11 +36,12 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "fs-id1169737705526",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.",
       "upstream": "Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta E sub int sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta E sub int sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-2f7ee45dd35a5923",
@@ -47,11 +49,12 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169736581897",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The figure shows a schematic representation of a heat engine. The heat engine is represented by a circle. The heat entering the system is shown as Q sub in, represented as a bold arrow toward the circle, and the heat coming out of the heat engine is shown as Q sub out, represented by a narrower bold arrow leaving the circle. The work labeled as W is shown to leave the heat engine as represented by another bold arrow leaving the circle. At the center of the circle are two equations. First, the change in internal energy of the system, delta U, equals zero. Consequently, W equals Q sub in minus Q sub out.",
       "upstream": "The figure shows a schematic representation of a heat engine. The heat engine is represented by a circle. The heat entering the system is shown as Q sub in, represented as a bold arrow toward the circle, and the heat coming out of the heat engine is shown as Q sub out, represented by a narrower bold arrow leaving the circle. The work labeled as W is shown to leave the heat engine as represented by another bold arrow leaving the circle. At the center of the circle are two equations. First, the change in internal energy of the system, delta E sub int, equals zero. Consequently, W equals Q sub in minus Q sub out.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-3768a34aad901d87",
@@ -59,13 +62,14 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169736629145",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "See the symbols as shown in . Now force is pressure times area ( [MATH] ), and so",
       "upstream": "See the symbols as shown in . Now [MATH] , and so",
       "local_html": "See the symbols as shown in <span class=\"muted\">[reference]</span>. Now force is pressure times area (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>F</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>PA</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow></math>), and so",
       "upstream_html": "See the symbols as shown in <span class=\"muted\">[reference]</span>. Now <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>F</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>PA</mtext></mrow></mstyle></mrow></mrow></mrow></math>, and so",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-5c5c180ccd41d904",
@@ -73,13 +77,14 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169737781930@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics (and other laws of thermodynamics we will discuss later).",
       "upstream": "Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics. It is impossible to devise a system where [MATH] , that is, in which no heat transfer occurs to the environment.",
       "local_html": "Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics (and other laws of thermodynamics we will discuss later).",
       "upstream_html": "Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics. It is impossible to devise a system where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>Q</mi><mrow><mtext>out</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>, that is, in which no heat transfer occurs to the environment.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-1ec791dc4cdda2d9",
@@ -87,13 +92,14 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169737794212",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Note that if [MATH] is positive, then [MATH] is positive, meaning that positive work is done by the gas on the outside world.",
       "upstream": "Note that if [MATH] is positive, then [MATH] is positive, meaning that work is done by the gas on the outside world.",
       "local_html": "Note that if <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi>V</mi></mrow><mrow /></mrow></mrow></math> is positive, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>W</mi></mrow><mrow /></mrow></mrow></math> is positive, meaning that positive work is done by the gas on the outside world.",
       "upstream_html": "Note that if <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi>V</mi></mrow></mrow></math> is positive, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>W</mi></mrow></mrow></math> is positive, meaning that work is done <em>by</em> the gas on the outside world.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-9c37f048ce165bf4",
@@ -101,11 +107,12 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169737895034",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.",
       "upstream": "Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta E sub int sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta E sub int sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-50648fa66f0436d5",
@@ -113,13 +120,14 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169737979358",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The illustrations above show one of the ways in which heat transfer does work. Fuel combustion produces heat transfer to a gas in a cylinder, increasing the pressure of the gas and thereby the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Heat transfer to the gas cylinder results in work being done. To repeat this process, the piston needs to be returned to its starting point. Heat transfer now occurs from the gas to the surroundings so that its pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance. Variations of this process are employed daily in hundreds of millions of heat engines. Here, we consider some of the thermodynamic processes on which heat engines are based.",
       "upstream": "The illustrations above show one of the ways in which heat transfer does work. Fuel combustion produces heat transfer to a gas in a cylinder, increasing the pressure of the gas and thereby the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Heat transfer to the gas cylinder results in work being done. To repeat this process, the piston needs to be returned to its starting point. Heat transfer now occurs from the gas to the surroundings so that its pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance. Variations of this process are employed daily in hundreds of millions of heat engines. We will examine heat engines in detail in the next section. In this section, we consider some of the simpler underlying processes on which heat engines are based.",
       "local_html": "The illustrations above show one of the ways in which heat transfer does work. Fuel combustion produces heat transfer to a gas in a cylinder, increasing the pressure of the gas and thereby the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Heat transfer to the gas cylinder results in work being done. To repeat this process, the piston needs to be returned to its starting point. Heat transfer now occurs from the gas to the surroundings so that its pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance. Variations of this process are employed daily in hundreds of millions of heat engines. Here, we consider some of the thermodynamic processes on which heat engines are based.",
       "upstream_html": "The illustrations above show one of the ways in which heat transfer does work. Fuel combustion produces heat transfer to a gas in a cylinder, increasing the pressure of the gas and thereby the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Heat transfer to the gas cylinder results in work being done. To repeat this process, the piston needs to be returned to its starting point. Heat transfer now occurs from the gas to the surroundings so that its pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance. Variations of this process are employed daily in hundreds of millions of heat engines. We will examine heat engines in detail in the next section. In this section, we consider some of the simpler underlying processes on which heat engines are based.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-f97e1facdef529d2",
@@ -127,13 +135,14 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169738219750",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "This is the key lesson from the above derivation: a gas expanding under pressure does work on its surrounding, and unless additional energy is added through heat transfer, the internal energy of the gas decreases. We will examine the experimental results that come about as a consequence of this fact later.",
       "upstream": "It is not surprising that [MATH] , since we have already noted in our treatment of fluids that pressure is a type of potential energy per unit volume and that pressure in fact has units of energy divided by volume. We also noted in our discussion of the ideal gas law that [MATH] has units of energy. In this case, some of the energy associated with pressure becomes work.",
       "local_html": "This is the key lesson from the above derivation: <em>a gas expanding under pressure does work on its surrounding, and unless additional energy is added through heat transfer, the internal energy of the gas decreases</em>. We will examine the experimental results that come about as a consequence of this fact later.",
       "upstream_html": "It is not surprising that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>W</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">P</mi><mn>Δ</mn><mi>V</mi></mrow></mrow></mrow></math>, since we have already noted in our treatment of fluids that pressure is a type of potential energy per unit volume and that pressure in fact has units of energy divided by volume. We also noted in our discussion of the ideal gas law that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>PV</mtext></mrow></mstyle></mrow><mrow /></mrow></math> has units of energy. In this case, some of the energy associated with pressure becomes work.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-3d5b2443d0dd3dda",
@@ -180,11 +189,12 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "eip-122@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle><mrow><mrow><mrow><mtext>Δ</mtext><mi mathvariant=\"italic\">\nU\n          </mi><mo stretchy=\"false\">\n=\n          </mo><mrow><mi>\nQ\n           </mi><mo stretchy=\"false\">\n+\n           </mo><mi>\nW\n           </mi></mrow></mrow></mrow></mrow></mstyle><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mstyle><mrow><mtext>Δ</mtext><msub><mi>E</mi><mtext>int</mtext></msub><mo stretchy=\"false\">=</mo><mrow><mi>Q</mi><mo stretchy=\"false\">+</mo><mi>W</mi></mrow></mrow></mstyle></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-1d7bf79f791c8364",
@@ -192,11 +202,12 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "fs-id1169736619217@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>W</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>Fd.</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>W</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>Fd</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-688d0ea418e160cd",
@@ -282,11 +293,12 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169736634079@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi>U</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><msub><mi>E</mi><mtext>int</mtext></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-610d204f7a5a33f1",
@@ -450,7 +462,7 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "m42233",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id1169737781930@1",
@@ -458,7 +470,8 @@
         "import-auto-id1169738219750@2"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-c59328149e9ded8a",
@@ -466,7 +479,7 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "fs-id1169737705526",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_16_02_09a.jpg",
         "sha256": "b54605c9fcb83206bc1bf728983fcd15a36cfb8f632745702e4a36a67a22c5aa"
@@ -477,7 +490,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": true,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-0e29ec78176871b1",
@@ -485,7 +499,7 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169736581897",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_16_02_02a.jpg",
         "sha256": "f417582a7bc67e5806c48f0daa8e60ec3aeb8e43241bfa5953719782869cedda"
@@ -496,7 +510,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     },
     {
       "id": "UP-2ad6934b4725e6e3",
@@ -504,7 +519,7 @@
       "local_module": "m67126",
       "upstream_module": "m42233",
       "source_id": "import-auto-id1169737895034",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_16_02_03a.jpg",
         "sha256": "bbb71b3a2ac9fa5badaea5c99da5d8357912bff27c059b6c0f7fe80c6c8131f0"
@@ -515,7 +530,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Preserve U, work-by-system convention, and conceptual explanation without restoring omitted PV diagrams, monatomic-gas derivations or full exercises. Retain the caption’s reference to other thermodynamic laws rather than import an absolute no-zero-heat-loss assertion without conditions."
     }
   ]
 }

@@ -2,12 +2,12 @@
   "module": "m67133",
   "title": "The Electromagnetic Spectrum: Application Notes",
   "slug": "the-electromagnetic-spectrum-application-notes",
-  "local_sha256": "34a1a446dced9c0de63af5584c53bbd20daf57e13a6018dd578a12e319bc86e3",
+  "local_sha256": "9ab441774db045cc4186a488e600e261c5ee86ea232de692ad1af8c007e45993",
   "upstream_modules": [
     "m42444"
   ],
   "counts": {
-    "prose": 13,
+    "prose": 12,
     "references": 2,
     "math-markup-change": 45,
     "math-structure": 1,
@@ -20,27 +20,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "fs-id1169737906318",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from 0.74 μm to 300 μm",
       "upstream": "a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from [MATH] to [MATH]",
       "local_html": " a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from 0.74 μm to 300 μm",
       "upstream_html": " a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>0</mn><mtext>.</mtext><mtext>74</mtext><mspace width=\"0.25em\" /><mi fontstyle=\"italic\" style=\";font-style:italic\">μm</mi></mrow></mrow></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>300</mtext><mspace width=\"0.25em\" /><mi fontstyle=\"italic\" style=\";font-style:italic\">μm</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-9bf8c83b6a59027f",
-      "kind": "prose",
-      "local_module": "m67133",
-      "upstream_module": "m42444",
-      "source_id": "import-auto-id1169737726837",
-      "status": "unreviewed-difference",
-      "local": "The relatively constant temperature of the Earth is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by [MATH] and [MATH] in the atmosphere and then radiated back to Earth or into outer space. This radiation back to Earth is known as the greenhouse effect, and it maintains the surface temperature of the Earth about [MATH] higher than it would be if there is no absorption. Some scientists think that the increased concentration of [MATH] and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures.",
-      "upstream": "The relatively constant temperature of the Earth is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by [MATH] and [MATH] in the atmosphere and then radiated back to Earth or into outer space. This radiation back to Earth is known as the greenhouse effect, and it maintains the surface temperature of the Earth about [MATH] higher than it would be if there is no absorption. The increased concentration of [MATH] and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures.",
-      "local_html": "The relatively constant temperature of the Earth is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>CO</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext>H</mtext><mrow><mn>2</mn></mrow></msub><mtext>O</mtext></mrow></mrow><mrow /></mrow></mrow></math> in the atmosphere and then radiated back to Earth or into outer space. This radiation back to Earth is known as the greenhouse effect, and it maintains the surface temperature of the Earth about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>40º</mtext><mtext>C</mtext></mrow></mrow><mrow /></mrow></mrow></math> higher than it would be if there is no absorption. Some scientists think that the increased concentration of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>CO</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math> and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures. ",
-      "upstream_html": "The relatively constant temperature of the Earth is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext>CO</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>H</mtext><mrow><mn>2</mn></mrow></msub><mtext>O</mtext></mrow></mrow></mrow></math> in the atmosphere and then radiated back to Earth or into outer space. This radiation back to Earth is known as the greenhouse effect, and it maintains the surface temperature of the Earth about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>40º</mtext><mtext>C</mtext></mrow></mrow></mrow></math> higher than it would be if there is no absorption. The increased concentration of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext>CO</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math> and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures. ",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-9fd361307ddf35fc",
@@ -48,13 +35,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737813036@caption",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": "This map of ozone concentration over Antarctica in October 2011 shows severe depletion suspected to be caused by CFCs. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)",
       "upstream": "This map of ozone concentration over Antarctica in September 2020 shows severe depletion suspected to be caused by CFCs. In 2020, ozone depletion was significantly worse than in 2019, but better than in the early 2000s. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Earth Observatory)",
       "local_html": "This map of ozone concentration over Antarctica in October 2011 shows severe depletion suspected to be caused by CFCs. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)",
       "upstream_html": "This map of ozone concentration over Antarctica in September 2020 shows severe depletion suspected to be caused by CFCs. In 2020, ozone depletion was significantly worse than in 2019, but better than in the early 2000s. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Earth Observatory)",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "See U3-H03: keep figure, caption and prose coordinated; no 2020 update imported."
     },
     {
       "id": "UP-16f06034d23bd17e",
@@ -62,13 +50,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737821880",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "One reason why we are sometimes asked to switch off our mobile phones (operating in the range of 1.9 GHz) on airplanes and in hospitals is that important communications or medical equipment often uses similar radio frequencies and their operation can be affected by frequencies used in the communication devices.",
       "upstream": "One reason why we are sometimes asked to switch off our mobile phones (operating in the range of 1.9 GHz) or put them into a noncommunicative mode on airplanes and in hospitals is that important communications or medical equipment often uses similar radio frequencies and their operation can be affected by frequencies used in the communication devices.",
       "local_html": "One reason why we are sometimes asked to switch off our mobile phones (operating in the range of 1.9 GHz) on airplanes and in hospitals is that important communications or medical equipment often uses similar radio frequencies and their operation can be affected by frequencies used in the communication devices.",
       "upstream_html": "One reason why we are sometimes asked to switch off our mobile phones (operating in the range of 1.9 GHz) or put them into a noncommunicative mode on airplanes and in hospitals is that important communications or medical equipment often uses similar radio frequencies and their operation can be affected by frequencies used in the communication devices.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-936c9e915ff3508d",
@@ -76,13 +65,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737830998",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The use of X-ray technology in medicine is called radiology—an established and relatively cheap tool in comparison to more sophisticated technologies. Consequently, X-rays are widely available and used extensively in medical diagnostics. During World War I, mobile X-ray units, advocated by Madame Marie Curie, were used to diagnose soldiers.",
       "upstream": "The use of X-ray technology in medicine is called radiology—an established and relatively cheap tool in comparison to more sophisticated technologies. Consequently, X-rays are widely available and used extensively in medical diagnostics. During World War I, mobile X-ray units, advocated by Marie Curie, were used to diagnose soldiers.",
       "local_html": "The use of X-ray technology in medicine is called radiology—an established and relatively cheap tool in comparison to more sophisticated technologies. Consequently, X-rays are widely available and used extensively in medical diagnostics. During World War I, mobile X-ray units, advocated by Madame Marie Curie, were used to diagnose soldiers.",
       "upstream_html": "The use of X-ray technology in medicine is called radiology—an established and relatively cheap tool in comparison to more sophisticated technologies. Consequently, X-rays are widely available and used extensively in medical diagnostics. During World War I, mobile X-ray units, advocated by Marie Curie, were used to diagnose soldiers.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-fbe93b4024a70149",
@@ -90,13 +80,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737871846",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": "International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is India. But the protocol seems to be working, as there are signs of an ozone recovery. (See .)",
       "upstream": "International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was the largest and longest-lasting on record, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See .)",
       "local_html": "International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is India. But the protocol seems to be working, as there are signs of an ozone recovery. (See <span class=\"muted\">[reference]</span>.)",
       "upstream_html": "International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was the largest and longest-lasting on record, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See <span class=\"muted\">[reference]</span>.)",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "See U3-H03. Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-40af5d0cb42303ad",
@@ -104,13 +95,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737911436",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "As described above, there are two methods by which X-rays are created—both are submicroscopic processes and can be caused by high-voltage discharges. While the low-frequency end of the X-ray range overlaps with the ultraviolet, X-rays extend to much higher frequencies (and energies).",
       "upstream": "As described in Things Great and Small, there are two methods by which X-rays are created—both are submicroscopic processes and can be caused by high-voltage discharges. While the low-frequency end of the X-ray range overlaps with the ultraviolet, X-rays extend to much higher frequencies (and energies).",
       "local_html": "As described above, there are two methods by which X-rays are created—both are submicroscopic processes and can be caused by high-voltage discharges. While the low-frequency end of the X-ray range overlaps with the ultraviolet, X-rays extend to much higher frequencies (and energies). ",
       "upstream_html": "As described in Things Great and Small, there are two methods by which X-rays are created—both are submicroscopic processes and can be caused by high-voltage discharges. While the low-frequency end of the X-ray range overlaps with the ultraviolet, X-rays extend to much higher frequencies (and energies). ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-d68bbc6533ebb0cd",
@@ -118,7 +110,7 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737911436",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -126,7 +118,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-ab790b6f605a78d8",
@@ -134,13 +127,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738010282",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": "There is an ongoing controversy regarding potential health hazards associated with exposure to these electromagnetic fields ( [MATH] -fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But demographic data are either inconclusive or simply do not support the hazard theory. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to [MATH] -fields.",
       "upstream": "There was a concern regarding potential health hazards associated with exposure to these electromagnetic fields ( [MATH] -fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But these power lines produce non-ionizing radiation, which government environmental organizations, medical researchers, and cancer organizations indicate are not risk factors for illness. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to [MATH] -fields.",
       "local_html": "There is an ongoing controversy regarding potential health hazards associated with exposure to these electromagnetic fields (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>E</mi></mrow><mrow /></mrow></mrow></math>-fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But demographic data are either inconclusive or simply do not support the hazard theory. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>E</mi></mrow><mrow /></mrow></mrow></math>-fields.",
       "upstream_html": "There was a concern regarding potential health hazards associated with exposure to these electromagnetic fields (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>E</mi></mrow></mrow></math>-fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But these power lines produce non-ionizing radiation, which government environmental organizations, medical researchers, and cancer organizations indicate are not risk factors for illness. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>E</mi></mrow></mrow></math>-fields.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "See U3-H04. Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-9d84e55f0cc94ab5",
@@ -148,13 +142,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738052786",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "A final note on star gazing. The entire electromagnetic spectrum is used by researchers for investigating stars, space, and time. As noted earlier, Penzias and Wilson detected microwaves to identify the background radiation originating from the Big Bang. Radio telescopes such as the Arecibo Radio Telescope in Puerto Rico and Parkes Observatory in Australia were designed to detect radio waves.",
       "upstream": "The entire electromagnetic spectrum is used by researchers for investigating stars, space, and time. Arthur B. C. Walker was a pioneer in X-ray and ultraviolet observations, and designed specialized telescopes and instruments to observe the Sun’s atmosphere and corona. His developments significantly advanced our understanding of stars, and some of his developments are currently in use in space telescopes as well as in microchip manufacturing. As noted earlier, Penzias and Wilson detected microwaves to identify the background radiation originating from the Big Bang. Radio telescopes such as the Arecibo Radio Telescope in Puerto Rico and Parkes Observatory in Australia were designed to detect radio waves.",
       "local_html": "A final note on star gazing. The entire electromagnetic spectrum is used by researchers for investigating stars, space, and time. As noted earlier, Penzias and Wilson detected microwaves to identify the background radiation originating from the Big Bang. Radio telescopes such as the Arecibo Radio Telescope in Puerto Rico and Parkes Observatory in Australia were designed to detect radio waves. ",
       "upstream_html": "The entire electromagnetic spectrum is used by researchers for investigating stars, space, and time. Arthur B. C. Walker was a pioneer in X-ray and ultraviolet observations, and designed specialized telescopes and instruments to observe the Sun’s atmosphere and corona. His developments significantly advanced our understanding of stars, and some of his developments are currently in use in space telescopes as well as in microchip manufacturing. As noted earlier, Penzias and Wilson detected microwaves to identify the background radiation originating from the Big Bang. Radio telescopes such as the Arecibo Radio Telescope in Puerto Rico and Parkes Observatory in Australia were designed to detect radio waves. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-2c8027c2e3410e6f",
@@ -162,13 +157,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738089193",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "In this module, we look at the properties of different types of electromagnetic waves. Again, shows the electromagnetic spectrum. The characteristics of the various types of electromagnetic waves you will read about below are related to their frequencies and wavelengths.",
       "upstream": "shows how the various types of electromagnetic waves are categorized according to their wavelengths and frequencies—that is, it shows the electromagnetic spectrum. Many of the characteristics of the various types of electromagnetic waves are related to their frequencies and wavelengths, as we shall see.",
       "local_html": "In this module, we look at the properties of different types of electromagnetic waves. Again, <span class=\"muted\">[reference]</span> shows the electromagnetic spectrum. The characteristics of the various types of electromagnetic waves you will read about below are related to their frequencies and wavelengths.",
       "upstream_html": "<span class=\"muted\">[reference]</span> shows how the various types of electromagnetic waves are categorized according to their wavelengths and frequencies—that is, it shows the electromagnetic spectrum. Many of the characteristics of the various types of electromagnetic waves are related to their frequencies and wavelengths, as we shall see. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-9418f813d52ff87e",
@@ -176,13 +172,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738092272",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Astronomers and astrophysicists collect signals from outer space using electromagnetic waves. A common problem for astrophysicists is the “pollution” from electromagnetic radiation pervading our surroundings from communication systems in general. Even everyday gadgets like our car keys having the facility to lock car doors remotely and being able to turn TVs on and off using remotes involve radio-wave frequencies. In order to prevent interference between all these electromagnetic signals, strict regulations are drawn up for different organizations to utilize different radio frequency bands.",
       "upstream": "Astronomers and astrophysicists collect signals from outer space using electromagnetic waves. A common problem for astrophysicists is the “pollution” from electromagnetic radiation pervading our surroundings from communication systems in general. Even everyday gadgets like our car keyless entry devices and remote starters and being able to turn TVs on and off using remotes involve radio-wave frequencies. In order to prevent interference between all these electromagnetic signals, strict regulations are drawn up for different organizations to utilize different radio frequency bands.",
       "local_html": "Astronomers and astrophysicists collect signals from outer space using electromagnetic waves. A common problem for astrophysicists is the “pollution” from electromagnetic radiation pervading our surroundings from communication systems in general. Even everyday gadgets like our car keys having the facility to lock car doors remotely and being able to turn TVs on and off using remotes involve radio-wave frequencies. In order to prevent interference between all these electromagnetic signals, strict regulations are drawn up for different organizations to utilize different radio frequency bands. ",
       "upstream_html": "Astronomers and astrophysicists collect signals from outer space using electromagnetic waves. A common problem for astrophysicists is the “pollution” from electromagnetic radiation pervading our surroundings from communication systems in general. Even everyday gadgets like our car keyless entry devices and remote starters and being able to turn TVs on and off using remotes involve radio-wave frequencies. In order to prevent interference between all these electromagnetic signals, strict regulations are drawn up for different organizations to utilize different radio frequency bands. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-fd78f671657df7d0",
@@ -190,13 +187,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738145792",
-      "status": "unreviewed-difference",
-      "local": "The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the [MATH] -ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000.).",
+      "status": "retain-approved-adaptation",
+      "local": "The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the [MATH] -ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000).",
       "upstream": "The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the [MATH] -ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000). The James Webb Space Telescope, launched in late 2021, observes in a lower-frequency portion of the spectrum compared to Hubble. The JWST observes in long-wavelength visible light (red) through infrared, enabling it to detect objects that are further away, older, and fainter than previous telescopes could detect.",
-      "local_html": "The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math>-ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000.).",
+      "local_html": "The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math>-ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000).",
       "upstream_html": "The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>γ</mi></mrow></mrow></math>-ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000). The James Webb Space Telescope, launched in late 2021, observes in a lower-frequency portion of the spectrum compared to Hubble. The JWST observes in long-wavelength visible light (red) through infrared, enabling it to detect objects that are further away, older, and fainter than previous telescopes could detect.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-418451e10246ef63",
@@ -204,13 +202,14 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738250812",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The wavelengths found in the preceding example are representative of AM, FM, and cell phones, and account for some of the differences in how they are broadcast and how well they travel. The most efficient length for a linear antenna, such as discussed in \"Production of Electromagnetic Waves\", is [MATH] , half the wavelength of the electromagnetic wave. Thus a very large antenna is needed to efficiently broadcast typical AM radio with its carrier wavelengths on the order of hundreds of meters.",
       "upstream": "The wavelengths found in the preceding example are representative of AM, FM, and cell phones, and account for some of the differences in how they are broadcast and how well they travel. The most efficient length for a linear antenna, such as discussed in Production of Electromagnetic Waves, is [MATH] , half the wavelength of the electromagnetic wave. Thus a very large antenna is needed to efficiently broadcast typical AM radio with its carrier wavelengths on the order of hundreds of meters.",
       "local_html": "The wavelengths found in the preceding example are representative of AM, FM, and cell phones, and account for some of the differences in how they are broadcast and how well they travel. The most efficient length for a linear antenna, such as discussed in &quot;Production of Electromagnetic Waves&quot;, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>λ</mi><mo stretchy=\"false\">/</mo><mn>2</mn></mrow></mrow><mrow /></mrow></mrow></math>, half the wavelength of the electromagnetic wave. Thus a very large antenna is needed to efficiently broadcast typical AM radio with its carrier wavelengths on the order of hundreds of meters. ",
       "upstream_html": "The wavelengths found in the preceding example are representative of AM, FM, and cell phones, and account for some of the differences in how they are broadcast and how well they travel. The most efficient length for a linear antenna, such as discussed in Production of Electromagnetic Waves, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi><mo stretchy=\"false\">/</mo><mn>2</mn></mrow></mrow></mrow></math>, half the wavelength of the electromagnetic wave. Thus a very large antenna is needed to efficiently broadcast typical AM radio with its carrier wavelengths on the order of hundreds of meters. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-7938d3c3c299fb56",
@@ -218,7 +217,7 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169738250812",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -226,7 +225,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-2381be85ab2aca79",
@@ -819,14 +819,15 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "m42444",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "fs-id1169737906318@1",
         "fs-id1169737906318@2"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Remove outdated greenhouse-science hedge and duplicated punctuation. Hold ozone/CFC and health-risk replacements because upstream text is itself problematic and a current treatment needs author-led wording. Historical profiles, JWST coverage and changing device examples are broader additions."
     },
     {
       "id": "UP-b5ac95cf7241e19c",
@@ -834,7 +835,7 @@
       "local_module": "m67133",
       "upstream_module": "m42444",
       "source_id": "import-auto-id1169737812667",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": {
         "path": "../../media/Figure 25_03_12a.jpg",
         "sha256": "fe27fc74a270e4889f90d3d809132ee4f77cb73f1fa7aeacb7323eabf188efe4"
@@ -845,7 +846,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "See U3-H03: keep figure, caption and prose coordinated; no 2020 update imported."
     }
   ]
 }

@@ -2,14 +2,14 @@
   "module": "m52454",
   "title": "Refraction",
   "slug": "refraction",
-  "local_sha256": "4cb5e62fdefd1d28000cfc6200471a188b307f25b3c0dc10ebe8cb0a54b90ed9",
+  "local_sha256": "b87b156f032c7b2e3e43830aedc7a4ee9b04f4a3bc9a455fbbf32acc8c395b9b",
   "upstream_modules": [
     "m42459"
   ],
   "counts": {
     "prose": 1,
-    "math-markup-change": 40,
-    "math-token-change": 5,
+    "math-markup-change": 41,
+    "math-token-change": 4,
     "math-structure": 1
   },
   "changes": [
@@ -19,13 +19,14 @@
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "import-auto-id1163675081125",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle.",
       "upstream": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle. The exact mathematical relationship is the law of refraction, or “Snell’s Law,” which is stated in equation form as",
       "local_html": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle.",
       "upstream_html": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle. The exact mathematical relationship is the law of refraction, or “Snell’s Law,” which is stated in equation form as",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations."
     },
     {
       "id": "UP-eee33547305cbffb",
@@ -137,23 +138,25 @@
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "eip-69@3",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>20ºC</mn></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0ºC</mn></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
-      "id": "UP-b235d95bfb2793f6",
-      "kind": "math-token-change",
+      "id": "UP-335e6302565516af",
+      "kind": "math-markup-change",
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "eip-69@4",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>20ºC</mn></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>0ºC</mn></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0ºC</mn></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-937045710860a2a3",
@@ -161,11 +164,12 @@
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "eip-705@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mtext>.</mtext><mrow><mtext>9972458</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mrow><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3</mn></mrow><mtext>.</mtext><mrow><mtext>00</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s,</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mtext>.</mtext><mrow><mtext>99792458</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mrow><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3</mn></mrow><mtext>.</mtext><mrow><mtext>00</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s,</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2.99792458</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mrow><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3.00</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext>m/s,</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-dd2ccc43da4a4f57",
@@ -225,11 +229,12 @@
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "eip-id2221336@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mtext>.</mtext><mrow><mtext>9972458</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup><mspace width=\"0.25em\" /></mrow><mrow><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3</mn></mrow><mtext>.</mtext><mrow><mtext>00</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mtext>.</mtext><mrow><mtext>99792458</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup><mspace width=\"0.25em\" /></mrow><mrow><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3</mn></mrow><mtext>.</mtext><mrow><mtext>00</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2.99792458</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup><mspace width=\"0.25em\" /></mrow><mrow><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3.00</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-f58b3a3a68aa16a2",
@@ -302,11 +307,12 @@
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "import-auto-id1163675086606@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mtext>.</mtext><mrow><mtext>9972458</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3</mn></mrow><mtext>.</mtext><mrow><mtext>00</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext></mrow><mo>.</mo></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mtext>.</mtext><mrow><mtext>99792458</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3</mn></mrow><mtext>.</mtext><mrow><mtext>00</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext></mrow><mo>.</mo></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mn>2.99792458</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext><mo stretchy=\"false\">≈</mo><mn>3.00</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>8</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> m/s</mtext></mrow><mo>.</mo></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-b911ab6644e7045c",
@@ -613,13 +619,14 @@
       "local_module": "m52454",
       "upstream_module": "m42459",
       "source_id": "m42459",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "fs-id954984@1"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct exact c value in all three occurrences and ice temperature to 0 °C. Preserve 20 °C label for other solids, qualitative refraction and omitted Snell-law derivations."
     }
   ]
 }

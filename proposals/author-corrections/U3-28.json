@@ -1,0 +1,20 @@
+{
+  "id": "U3-28",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "import-auto-id2852936",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "f93d3beb110e43ca7b02a056ccbb68f5bc397a986bff56dd9b62e3968313f3f0",
+  "after_sha256": "1807af3dd627067f6f23dfc98362b01aa9045693af22ad2366cc723cf837ee94",
+  "before": "<para id=\"import-auto-id2852936\">As the coil rotates, the force decreases to zero at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>. The force then <emphasis effect=\"italics\">reverses</emphasis> its direction once the coil rotates past <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>. \n\nThis means that, unless we do something, the coil will oscillate back and forth about equilibrium at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>. To get the coil to continue rotating in the same direction, we can reverse the current as it passes through <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math> with automatic switches called <emphasis effect=\"italics\">brushes</emphasis>. (See <link target-id=\"import-fig03\"/>.)</para>",
+  "after": "<para id=\"import-auto-id2852936\">As the coil rotates, the torque decreases to zero at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>. The torque then <emphasis effect=\"italics\">reverses</emphasis> its direction once the coil rotates past <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>. \n\nThis means that, unless we do something, the coil will oscillate back and forth about equilibrium at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>. To get the coil to continue rotating in the same direction, we can reverse the current as it passes through <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math> with automatic switches called <emphasis effect=\"italics\">brushes</emphasis>. (See <link target-id=\"import-fig03\"/>.)</para>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

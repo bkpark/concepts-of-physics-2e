@@ -6,28 +6,6 @@
   "upstream_modules": [
     "m42370"
   ],
-  "counts": {
-    "media": 1
-  },
-  "changes": [
-    {
-      "id": "UP-e9cec106e707fc28",
-      "kind": "media",
-      "local_module": "m52413",
-      "upstream_module": "m42370",
-      "source_id": "import-auto-id1751385",
-      "status": "unreviewed-difference",
-      "local": {
-        "path": "../../media/Figure_23_03_02a.jpg",
-        "sha256": "98e8c8d9c60aa09ce65827ae9be0c648a17e7100c3565116ad43d832fa13e7bd"
-      },
-      "upstream": {
-        "path": "../../media/Figure_23_03_02a-5e0d.jpg",
-        "sha256": "157acd0a1206f2beb0e9c9fafd41d086949a7056db9b137d4bbcba3a8136a838"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true
-    }
-  ]
+  "counts": {},
+  "changes": []
 }

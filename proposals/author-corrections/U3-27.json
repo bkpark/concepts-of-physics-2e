@@ -1,0 +1,20 @@
+{
+  "id": "U3-27",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "import-auto-id2028294",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "db57a91c3ca62012165f43718d34946276be631714a9ea6b7489140f1d336a08",
+  "after_sha256": "f93d3beb110e43ca7b02a056ccbb68f5bc397a986bff56dd9b62e3968313f3f0",
+  "before": "<figure id=\"import-auto-id2028294\"><media id=\"import-auto-id1503070\" alt=\"Diagram of a meter showing a current-carrying loop between two poles of a magnet. The torque on the magnet is clockwise. The top of the loop is connected to a spring and to a pointer that points to a scale as the loop rotates.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_08_04a.jpg\" width=\"350\"/>\n      </media>\n      \n    <caption>Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{B} {}</m:annotation></m:semantics></m:math> perpendicular to the loop constant, so that the force does not depend on <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ} {}</m:annotation></m:semantics></m:math> and the deflection against the return spring is proportional only to the current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{I} {}</m:annotation></m:semantics></m:math>.</caption></figure>",
+  "after": "<figure id=\"import-auto-id2028294\"><media id=\"import-auto-id1503070\" alt=\"Diagram of a meter showing a current-carrying loop between two poles of a magnet. The torque on the magnet is clockwise. The top of the loop is connected to a spring and to a pointer that points to a scale as the loop rotates.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_08_04a.jpg\" width=\"350\"/>\n      </media>\n      \n    <caption>Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{B} {}</m:annotation></m:semantics></m:math> perpendicular to the loop constant, so that the torque does not depend on <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ} {}</m:annotation></m:semantics></m:math> and the deflection against the return spring is proportional only to the current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{I} {}</m:annotation></m:semantics></m:math>.</caption></figure>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

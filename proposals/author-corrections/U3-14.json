@@ -1,0 +1,20 @@
+{
+  "id": "U3-14",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67124",
+  "source_object": "import-auto-id3309056",
+  "source_path": "maintained/modules/m67124/index.cnxml",
+  "source_sha256": "f58425de0367394094d3c371388bfd9987e770c6afcd9b6db83332ed5641b603",
+  "after_sha256": "300094836fd4c9df6946d517e991309edd606fcaffd13d28df2575bdd7798d37",
+  "before": "<figure id=\"import-auto-id3309056\"><media id=\"import-auto-id2392876\" alt=\"The figure shows condensed water droplets on a glass of iced tea.\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure_15_03_04a.jpg\" width=\"286\"/>\n      </media>\n      \n    <caption>Condensation forms on this glass of iced tea because the temperature of the nearby air is reduced to below the dew point. The air cannot hold as much water as it did at room temperature, and so water condenses. Energy is released when the water condenses, speeding the melting of the ice in the glass. (credit: Jenny Downing)</caption></figure>",
+  "after": "<figure id=\"import-auto-id3309056\"><media id=\"import-auto-id2392876\" alt=\"The figure shows condensed water droplets on a glass of iced tea.\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure_15_03_04a.jpg\" width=\"286\"/>\n      </media>\n      \n    <caption>Condensation forms on this glass of iced tea because the temperature of the nearby air is reduced to below the dew point. The rate at which water molecules join together exceeds the rate at which they separate, and so water condenses. Energy is released when the water condenses, speeding the melting of the ice in the glass. (credit: Jenny Downing)</caption></figure>",
+  "reason": "Replace the misleading air-holding-water explanation with the upstream condensation-rate explanation.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42225"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

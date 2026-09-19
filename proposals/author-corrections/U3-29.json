@@ -1,0 +1,20 @@
+{
+  "id": "U3-29",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "import-fig03",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "1807af3dd627067f6f23dfc98362b01aa9045693af22ad2366cc723cf837ee94",
+  "after_sha256": "6fcdffa1efd1f4cc3925898a6414f8add0e1823739d447079d3b643441dd56e5",
+  "before": "<figure id=\"import-fig03\"><media id=\"import-auto-id1503117\" alt=\"The diagram shows a current-carrying loop between the north and south poles of a magnet at two different times. The north pole is to the left and the south pole is to the right. The magnetic field runs from the north pole to the right to the south pole. Figure a shows the current running through the loop. It runs up on the left side, and down on the right side. The force on the left side is into the page. The force on the right side is out of the page. The torque is clockwise when viewed from above. Figure b shows the loop when it is oriented perpendicular to the magnet. In both diagrams, the bottom of each side of the loop is connected to a half-cylinder that is next to a rectangular brush that is then connected to the rest of the circuit.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_08_03a.jpg\" width=\"400\"/>\n      </media>\n    \n    <caption>(a) As the momentum of the coil carries it through <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>, the brushes reverse the current to keep the motion clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the motion.</caption></figure>",
+  "after": "<figure id=\"import-fig03\"><media id=\"import-auto-id1503117\" alt=\"The diagram shows a current-carrying loop between the north and south poles of a magnet at two different times. The north pole is to the left and the south pole is to the right. The magnetic field runs from the north pole to the right to the south pole. Figure a shows the current running through the loop. It runs up on the left side, and down on the right side. The force on the left side is into the page. The force on the right side is out of the page. The torque is clockwise when viewed from above. Figure b shows the loop when it is oriented perpendicular to the magnet. In both diagrams, the bottom of each side of the loop is connected to a half-cylinder that is next to a rectangular brush that is then connected to the rest of the circuit.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_08_03a.jpg\" width=\"400\"/>\n      </media>\n    \n    <caption>(a) As the angular momentum of the coil carries it through <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{θ=0} {}</m:annotation></m:semantics></m:math>, the brushes reverse the current to keep the torque clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the clockwise torque.</caption></figure>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

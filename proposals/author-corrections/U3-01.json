@@ -1,0 +1,20 @@
+{
+  "id": "U3-01",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52364",
+  "source_object": "eip-958",
+  "source_path": "maintained/modules/m52364/index.cnxml",
+  "source_sha256": "4d14f31718729c8466cf53cee3a1843545ca941fd0330606d4ef5b844ab60786",
+  "after_sha256": "5bad2fc34c063deafb3f4c717d8e9bf4503d5ac5089c718eb75fca14bf5dad7f",
+  "before": "<para id=\"eip-958\">Thermometers actually take their <emphasis effect=\"italics\"><emphasis effect=\"italics\">own</emphasis></emphasis> temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in <emphasis effect=\"italics\"><emphasis effect=\"italics\">thermal contact</emphasis></emphasis> (meaning heat transfer can occur between them) will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in <term id=\"import-auto-id1988995\">thermal equilibrium</term>, and no further changes will occur. The systems interact and change because their temperatures differ, and the changes stop once their temperatures are the same. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers <emphasis effect=\"italics\"><emphasis effect=\"italics\">does</emphasis></emphasis> represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy.</para>",
+  "after": "<para id=\"eip-958\">Thermometers actually take their <emphasis effect=\"italics\"><emphasis effect=\"italics\">own</emphasis></emphasis> temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in <emphasis effect=\"italics\"><emphasis effect=\"italics\">thermal contact</emphasis></emphasis> (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in <term id=\"import-auto-id1988995\">thermal equilibrium</term>, and no further heat flow or changes in temperature will occur. The systems interact and change because their temperatures differ, and the changes stop once their temperatures are the same. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers <emphasis effect=\"italics\"><emphasis effect=\"italics\">does</emphasis></emphasis> represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.</para>",
+  "reason": "Qualify thermal equilibration by isolation from the environment, specify the changes that cease, and define internal thermal equilibrium.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42214"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

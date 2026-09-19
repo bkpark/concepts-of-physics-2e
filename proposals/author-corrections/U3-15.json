@@ -1,0 +1,20 @@
+{
+  "id": "U3-15",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42235",
+  "source_object": "import-auto-id1169736649071",
+  "source_path": "maintained/modules/m42235/index.cnxml",
+  "source_sha256": "b7a1a6e7b4b4b5af9a2ad0b6282531d1cd9b2e95eddff7ff25c9bb1cec7b180f",
+  "after_sha256": "54dcd3dc97a36f6f5292d043d5a6f38f87025cf2918fe94fb2fcc5be11ef3e40",
+  "before": "<para id=\"import-auto-id1169736649071\">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{T rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{T rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot efficiency—an actual efficiency of about 0.7 of this maximum is usually the best that can be accomplished. But the ideal Carnot engine, like the drinking bird above, while a fascinating novelty, has zero power. This makes it unrealistic for any applications.</para>",
+  "after": "<para id=\"import-auto-id1169736649071\">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{T rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{T rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot efficiency. But the ideal Carnot engine, like the drinking bird above, while a fascinating novelty, has zero power. This makes it unrealistic for any applications.</para>",
+  "reason": "Remove the unsupported universal claim that actual engines are limited to roughly 70% of Carnot efficiency.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42235"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

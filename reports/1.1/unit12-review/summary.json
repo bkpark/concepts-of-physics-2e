@@ -63,10 +63,10 @@
     "retained-adaptation-or-deferred-editorial-change": 513,
     "retain-approved-adaptation": 27,
     "retain-local-upstream-regression": 7,
-    "awaiting-author-structural-decision": 5
+    "deferred-by-author-to-broader-revision": 5
   },
   "unmatched_objects": 466,
-  "status": "Units 1–2 comparison pass complete with a held plasma-coverage decision. No book/chapter restructuring performed. Not a claim of exhaustive independent physics revalidation.",
+  "status": "Units 1–2 comparison pass complete with plasma coverage deferred by the author to broader revision. No book/chapter restructuring performed. Not a claim of exhaustive independent physics revalidation.",
   "limitations": [
     "Two-way comparison with the pinned CC BY snapshot cannot attribute every difference to a particular upstream release.",
     "Omitted upstream coverage is assessed for applicability, not imported or independently re-solved.",
@@ -122,12 +122,25 @@
     "m71594": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately.",
     "m71595": "Retain author change-in-angular-momentum and precession wording; upstream drops change in one passage and incorrectly substitutes torque for angular momentum in another.",
     "m67047": "Retain a unified statics-and-dynamics fluid introduction and current swimmer image; upstream splits the topics into different chapters.",
-    "m71614": "Retain current solids/liquids/gases coverage pending the explicit author decision on upstream plasma expansion; do not import its related prose and figure piecemeal.",
+    "m71614": "Retain current solids/liquids/gases coverage; the author deferred upstream plasma expansion to broader revision; do not import its related prose and figure piecemeal.",
     "m71613": "Retain density table values and unit headers. Upstream splits each header across separate math nodes, shifting all later math ordinals; row-by-row values are unchanged.",
     "m71615": "Retain local pressure coverage; millibar exponent correction is recorded separately.",
     "m71623": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content.",
     "m71624": "Retain repaired density reference and omitted extra table links; avoid upstream caption typo hydrostatis. Adopt steel subscript s while rejecting upstream’s erroneous change of g to w.",
     "m71625": "Retain continuity and flow-rate coverage and adapted exercise organization.",
     "m71626": "Retain the local Bernoulli energy question and repaired flow-rate example reference; upstream asks a different conceptual question."
-  }
+  },
+  "author_review": {
+    "status": "approved",
+    "date": "2026-09-19",
+    "scope": "All displayed Units 1–2 corrections, including the final conservative-force definition and scoped position-dependence heuristic.",
+    "remaining_required_decisions": [],
+    "deferred": [
+      "Plasma: decide during broader revision whether to add coverage or only a sentence identifying the distinct phase and explaining its omission.",
+      "Bridge/catenary explanation: broader author-led clarification; no change applied."
+    ]
+  },
+  "followup_records": [
+    "proposals/author-corrections/U12-33-followup.json"
+  ]
 }

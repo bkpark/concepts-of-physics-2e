@@ -1,0 +1,21 @@
+{
+  "id": "U3-18",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m75428",
+  "source_object": "import-auto-id1409968",
+  "source_path": "maintained/modules/m75428/index.cnxml",
+  "source_sha256": "fe5fe593ecd81f7904874bdabe688adf2b4be4c787f72bc1e2a27d75407eef26",
+  "after_sha256": "ae09ab4c31999063f003199436ecc68e8b7005334b4d2c442084e3d2df371850",
+  "before": "<para id=\"import-auto-id1409968\">(a) What is the direction of the total Coulomb force on <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q} {}</m:annotation></m:semantics></m:math> in <link target-id=\"import-auto-id3009601\"/> if <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q} {}</m:annotation></m:semantics></m:math> is negative, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q rSub { size 8{a} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and both are negative, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q rSub { size 8{b} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?</para>",
+  "after": "<para id=\"import-auto-id1409968\">(a) What is the direction of the total Coulomb force on <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q} {}</m:annotation></m:semantics></m:math> in <link target-id=\"import-auto-id3009601\"/> if <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q} {}</m:annotation></m:semantics></m:math> is negative, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q rSub { size 8{a} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and both are negative, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{q rSub { size 8{b} } =q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?</para>",
+  "reason": "Correct the positive pair to q_b = q_d, avoiding the contradictory assignment of both signs to q_c.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42317",
+    "m42329"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

@@ -2,12 +2,12 @@
   "module": "m67122",
   "title": "The Ideal Gas Law",
   "slug": "the-ideal-gas-law",
-  "local_sha256": "7d02f5e37afd631d11e8f05da80c8f7916f23abe233470bff78dc93f3b6c93be",
+  "local_sha256": "768ec783714763e0525fba666f7e2b62d2e47b23fe9dda64281a2a6609e63702",
   "upstream_modules": [
     "m42216"
   ],
   "counts": {
-    "prose": 8,
+    "prose": 6,
     "references": 2,
     "accessibility": 1,
     "math-markup-change": 96,
@@ -22,27 +22,14 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id1149559",
-      "status": "unreviewed-difference",
-      "local": "At room temperatures, collisions between atoms and molecules can be ignored. In this case, the gas is called an ideal gas, in which case the relationship between the pressure, volume, and temperature is given by the equation of state called the ideal gas law.",
+      "status": "retain-approved-adaptation",
+      "local": "In many common circumstances, including, for example, room temperature air, the gas particles have negligible volume and do not interact with each other, aside from perfectly elastic collisions. In such cases, the gas is called an ideal gas, in which case the relationship between the pressure, volume, and temperature is given by the equation of state called the ideal gas law.",
       "upstream": "In many common circumstances, including, for example, room temperature air, the gas particles have negligible volume and do not interact with each other, aside from perfectly elastic collisions. In such cases, the gas is called an ideal gas, and the relationship between the pressure, volume, and temperature is given by the equation called the ideal gas law. An equation such as the ideal gas law, which relates behavior of a physical system in terms of its thermodynamic properties, is called an equation of state.",
-      "local_html": "At room temperatures, collisions between atoms and molecules can be ignored. In this case, the gas is called an ideal gas, in which case the relationship between the pressure, volume, and temperature is given by the equation of state called the ideal gas law.",
+      "local_html": "In many common circumstances, including, for example, room temperature air, the gas particles have negligible volume and do not interact with each other, aside from perfectly elastic collisions. In such cases, the gas is called an ideal gas, in which case the relationship between the pressure, volume, and temperature is given by the equation of state called the ideal gas law.",
       "upstream_html": "In many common circumstances, including, for example, room temperature air, the gas particles have negligible volume and do not interact with each other, aside from perfectly elastic collisions. In such cases, the gas is called an ideal gas, and the relationship between the pressure, volume, and temperature is given by the equation called the ideal gas law. An equation such as the ideal gas law, which relates behavior of a physical system in terms of its thermodynamic properties, is called an equation of state.",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-c892271d53990e4e",
-      "kind": "prose",
-      "local_module": "m67122",
-      "upstream_module": "m42216",
-      "source_id": "import-auto-id1563742@caption",
-      "status": "unreviewed-difference",
-      "local": "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)",
-      "upstream": "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward that is larger than its weight. (credit: Kevin Poh, Flickr)",
-      "local_html": "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)",
-      "upstream_html": "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward that is larger than its weight. (credit: Kevin Poh, Flickr)",
-      "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-a696cb49063d89a8",
@@ -50,27 +37,14 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2386026",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": "Large helium-filled balloons are used to lift scientific equipment to high altitudes. (a) What is the pressure inside such a balloon if it starts out at sea level with a temperature of [MATH] and rises to an altitude where its volume is twenty times the original volume and its temperature is [MATH] ? (b) What is the gauge pressure? (Assume atmospheric pressure is constant.)",
       "upstream": "To test a balloon, it is placed in a lab and filled with helium. The temperature of the helium is [MATH] and the pressure is 1.00 atmosphere. The pressure in the lab is maintained. Assume the membrane of the balloon provides a negligible inward pressure, so it is not considered significant. (a) What is the pressure inside the balloon if the helium is replaced with helium that is at [MATH] ? and the balloon is filled until it has a volume of 20.0 times its original volume? (b) What is the gauge pressure? (Assume the pressure in the lab remains at 1.00 atmosphere during the experiment.)",
       "local_html": "Large helium-filled balloons are used to lift scientific equipment to high altitudes. (a) What is the pressure inside such a balloon if it starts out at sea level with a temperature of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>10</mtext><mtext>.</mtext><mn>0</mn><mtext>º</mtext><mtext>C</mtext></mrow></mrow><mrow /></mrow></mrow></math> and rises to an altitude where its volume is twenty times the original volume and its temperature is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">–</mo><mtext>50</mtext></mrow><mtext>.</mtext><mn>0</mn><mtext>º</mtext><mtext>C</mtext></mrow></mrow><mrow /></mrow></mrow></math>? (b) What is the gauge pressure? (Assume atmospheric pressure is constant.) ",
       "upstream_html": "To test a balloon, it is placed in a lab and filled with helium. The temperature of the helium is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>10</mtext><mtext>.</mtext><mn>0</mn><mtext>º</mtext><mtext>C</mtext></mrow></mrow></mrow></math> and the pressure is 1.00 atmosphere. The pressure in the lab is maintained. Assume the membrane of the balloon provides a negligible inward pressure, so it is not considered significant. (a) What is the pressure inside the balloon if the helium is replaced with helium that is at <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">–</mo><mtext>50</mtext></mrow><mtext>.</mtext><mn>0</mn><mtext>º</mtext><mtext>C</mtext></mrow></mrow></mrow></math>? and the balloon is filled until it has a volume of 20.0 times its original volume? (b)  What is the gauge pressure? (Assume the pressure in the lab remains at 1.00 atmosphere during the experiment.) ",
       "exercise_context": true,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-54be49b7ecddef17",
-      "kind": "prose",
-      "local_module": "m67122",
-      "upstream_module": "m42216",
-      "source_id": "import-auto-id2409403",
-      "status": "unreviewed-difference",
-      "local": "In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, [MATH] , and oxygen, [MATH] , are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas because the term can also be applied to monatomic gases, such as helium.)",
-      "upstream": "In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, [MATH] , and oxygen, [MATH] , are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas, but note that this discussion also applies to monatomic gases, such as helium.)",
-      "local_html": "In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>N</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>, and oxygen, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>O</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>, are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas because the term can also be applied to monatomic gases, such as helium.)",
-      "upstream_html": "In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext>N</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math>, and oxygen, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext>O</mtext><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math>, are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas, but note that this discussion also applies to monatomic gases, such as helium.)",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "See U3-H02. Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-ce7487b2fb958264",
@@ -78,13 +52,14 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2596139",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Gases are easily compressed. Gases expand and contract very rapidly with temperature changes. In addition, you will note that most gases expand at the same rate, or have the same [MATH] . This raises the question as to why gases should all act in nearly the same way, when liquids and solids have widely varying expansion rates.",
       "upstream": "Gases are easily compressed. We can see evidence of this in , where you will note that gases have the largest coefficients of volume expansion. The large coefficients mean that gases expand and contract very rapidly with temperature changes. In addition, you will note that most gases expand at the same rate, or have the same [MATH] . This raises the question as to why gases should all act in nearly the same way, when liquids and solids have widely varying expansion rates.",
       "local_html": "Gases are easily compressed. Gases expand and contract very rapidly with temperature changes. In addition, you will note that most gases expand at the <em>same</em> rate, or have the same <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>β</mi></mrow><mrow /></mrow></mrow></math>. This raises the question as to why gases should all act in nearly the same way, when liquids and solids have widely varying expansion rates.",
       "upstream_html": "Gases are easily compressed. We can see evidence of this in <span class=\"muted\">[reference]</span>, where you will note that gases have the <em>largest</em> coefficients of volume expansion. The large coefficients mean that gases expand and contract very rapidly with temperature changes. In addition, you will note that most gases expand at the <em>same</em> rate, or have the same <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>β</mi></mrow></mrow></math>. This raises the question as to why gases should all act in nearly the same way, when liquids and solids have widely varying expansion rates.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-e1548ec7b0e7a35f",
@@ -92,7 +67,7 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2596139",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -101,7 +76,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-751b30795a5a352f",
@@ -109,11 +85,12 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2600697",
-      "status": "unreviewed-difference",
-      "local": "",
+      "status": "retain-approved-adaptation",
+      "local": "A yellow hot-air balloon decorated with a face and sunglasses floats in the sky.",
       "upstream": "Floating high with style! A vibrant yellow hot air balloon, adorned with a cool face and sunglasses, glides across the sky.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Verified description of the retained image; use neutral wording or corrected energy-sign explanation instead of upstream wording."
     },
     {
       "id": "UP-f0a920478a6f023f",
@@ -121,13 +98,14 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2677390",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Calculate the number of molecules in a cubic meter of gas at standard temperature and pressure (STP), which is defined to be [MATH] and atmospheric pressure.",
       "upstream": "Calculate the number of molecules in a cubic meter of air at standard temperature and pressure (STP), which is defined to be [MATH] and atmospheric pressure.",
       "local_html": "Calculate the number of molecules in a cubic meter of gas at standard temperature and pressure (STP), which is defined to be <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>0</mn><mtext>º</mtext><mtext>C</mtext></mrow></mrow><mrow /></mrow></mrow></math> and atmospheric pressure.",
       "upstream_html": "Calculate the number of molecules in a cubic meter of air at standard temperature and pressure (STP), which is defined to be <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>0</mn><mtext>º</mtext><mtext>C</mtext></mrow></mrow></mrow></math> and atmospheric pressure.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-31bf5927e62b0b34",
@@ -135,7 +113,7 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2677616",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "fs-id1667893"
@@ -147,7 +125,8 @@
         }
       ],
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-2e416cbc3b8852e0",
@@ -155,13 +134,14 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2919471",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "How many molecules are in a typical object, such as gas in a tire or water in a drink? We can use the ideal gas law to give us an idea of how large [MATH] typically is.",
       "upstream": "How many molecules are in a typical object, such as air in a tire? We can use the ideal gas law to give us an idea of how large [MATH] typically is.",
       "local_html": "How many molecules are in a typical object, such as gas in a tire or water in a drink? We can use the ideal gas law to give us an idea of how large <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>N</mi></mrow><mrow /></mrow></mrow></math> typically is.",
       "upstream_html": "How many molecules are in a typical object, such as air in a tire? We can use the ideal gas law to give us an idea of how large <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>N</mi></mrow></mrow></math> typically is.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-35d83ca3914ad2b4",
@@ -169,13 +149,14 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id3224684",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The calculated number, [MATH] , is certainly very large. You might say that the volume of a cubic meter is also large ( [MATH] ), but even in a small volume of [MATH] , which is about size of a thimble ( [MATH] ), a gas at STP has [MATH] molecules in it (still a very large number). Once again, note that [MATH] is the same for all types or mixtures of gases.",
       "upstream": "This number is undeniably large, considering that a gas is mostly empty space. [MATH] is huge, even in small volumes. For example, [MATH] of a gas at STP has [MATH] molecules in it. Once again, note that [MATH] is the same for all types or mixtures of gases.",
       "local_html": "The calculated number, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>2.68</mn><mo>×</mo><msup><mn>10</mn><mn>25</mn></msup></math>, is certainly very large. You might say that the volume of a cubic meter is also large (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>1</mn><msup><mo>m</mo><mn>3</mn></msup></mrow><mo>=</mo><mrow><mn>1000</mn><mo>L</mo></mrow></mrow></math>), but even in a small volume of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><msup><mo>cm</mo><mn>3</mn></msup></mrow></math>, which is about size of a thimble (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>1</mn><msup><mo>cm</mo><mn>3</mn></msup></mrow><mo>=</mo><mrow><msup><mn>10</mn><mn>−6</mn></msup><msup><mo>m</mo><mn>3</mn></msup></mrow></mrow></math>), a gas at STP has <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>2</mn><mtext>.</mtext><mtext>68</mtext><mo>×</mo><msup><mtext>10</mtext><mrow><mtext>19</mtext></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math> molecules in it (still a very large number). Once again, note that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>N</mi></mrow><mrow /></mrow></mrow></math> is the same for all types or mixtures of gases.",
       "upstream_html": "This number is undeniably large, considering that a gas is mostly empty space. <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>N</mi></mrow></mrow></math> is huge, even in small volumes. For example, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mspace width=\"0.25em\" /><msup><mtext> cm</mtext><mrow><mn>3</mn></mrow></msup></mrow></mrow></mrow></math> of a gas at STP has <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>2</mn><mtext>.</mtext><mtext>68</mtext><mo>×</mo><msup><mtext>10</mtext><mrow><mtext>19</mtext></mrow></msup></mrow></mrow></mrow></math> molecules in it. Once again, note that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>N</mi></mrow></mrow></math> is the same for all types or mixtures of gases.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-b34649f5257fe9e2",
@@ -690,11 +671,12 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2387502@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable><mtr><mtd><mrow><mrow><mrow><mrow><msub><mi>T</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>18</mtext><mtext>.</mtext><mrow><mn>0</mn><mo stretchy=\"false\">+</mo><mtext>273</mtext></mrow></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mtext> K</mtext><mo stretchy=\"false\">=</mo><mtext>291 K</mtext></mrow></mrow></mrow><mrow /></mrow></mtd></mtr><mtr><mtd><mrow><mrow><msub><mi>T</mi><mrow><mtext>f</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>35</mtext><mtext>.</mtext><mrow><mn>0</mn><mo stretchy=\"false\">+</mo><mtext>273</mtext></mrow></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mtext> K</mtext><mo stretchy=\"false\">=</mo><mtext>308 K</mtext></mrow><mrow /></mrow></mtd></mtr></mtable><mrow /></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable><mtr><mtd><mrow><mrow><mrow><msub><mi>T</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>18</mtext><mtext>.</mtext><mrow><mn>0</mn><mo stretchy=\"false\">+</mo><mtext>273</mtext></mrow></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mtext> K</mtext><mo stretchy=\"false\">=</mo><mtext>291 K</mtext></mrow></mrow></mrow></mtd></mtr><mtr><mtd><mrow><msub><mi>T</mi><mrow><mtext>f</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>35</mtext><mtext>.</mtext><mrow><mn>0</mn><mo stretchy=\"false\">+</mo><mtext>273</mtext></mrow></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mtext> K</mtext><mo stretchy=\"false\">=</mo><mtext>308 K</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-8a460a586bb52ceb",
@@ -1261,11 +1243,12 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id3224684@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>2.68</mn><mo>×</mo><msup><mn>10</mn><mn>25</mn></msup></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>N</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-3bd789844609c734",
@@ -1273,11 +1256,12 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id3224684@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>1</mn><msup><mo>m</mo><mn>3</mn></msup></mrow><mo>=</mo><mrow><mn>1000</mn><mo>L</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mspace width=\"0.25em\" /><msup><mtext> cm</mtext><mrow><mn>3</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-7d3422b174091bf3",
@@ -1285,11 +1269,12 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id3224684@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><msup><mo>cm</mo><mn>3</mn></msup></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>2</mn><mtext>.</mtext><mtext>68</mtext><mo>×</mo><msup><mtext>10</mtext><mrow><mtext>19</mtext></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-a6d1c9ca935ee5db",
@@ -1297,11 +1282,12 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id3224684@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>1</mn><msup><mo>cm</mo><mn>3</mn></msup></mrow><mo>=</mo><mrow><msup><mn>10</mn><mn>−6</mn></msup><msup><mo>m</mo><mn>3</mn></msup></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>N</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-21943222d3b73aea",
@@ -1478,14 +1464,15 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "m42216",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "import-auto-id3224684@5",
         "import-auto-id3224684@6"
       ],
       "upstream": [],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     },
     {
       "id": "UP-24d38aa122b03d00",
@@ -1493,7 +1480,7 @@
       "local_module": "m67122",
       "upstream_module": "m42216",
       "source_id": "import-auto-id2600397",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_14_03_01.jpg",
         "sha256": "c0c6bb4157c5b4f69dc33b5ea6815353528166971339c6f2f2add7599563d80a"
@@ -1504,7 +1491,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Correct ideal-gas assumptions and monatomic terminology. Preserve PV=NkT, explicit volume conversions, gas-type-independent STP calculation, and omission of moles. Hold the inconsistent balloon exercise. The revised dot distribution is not a physics correction."
     }
   ]
 }

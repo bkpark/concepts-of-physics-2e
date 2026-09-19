@@ -1,0 +1,20 @@
+{
+  "id": "U3-25",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "import-auto-id1615457",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "fdb5bd4067518476c4d2b4b809f1a20f5dc517167c177ed7d8090359084f0d68",
+  "after_sha256": "57522680f1e1dd5ad78187259ca9629c1b91b86b84c55dfd6d36103b9093d910",
+  "before": "<figure id=\"import-auto-id1615457\"><media id=\"import-auto-id2489628\" alt=\"Diagram showing a current-carrying loop of width w and length l between the north and south poles of a magnet. The north pole is to the left and the south pole is to the right of the loop. The magnetic field B runs from the north pole across the loop to the south pole. The loop is shown at an instant, while rotating clockwise. The current runs up the left side of the loop, across the top, and down the right side. There is a force F oriented into the page on the left side of the loop and a force F oriented out of the page on the right side of the loop. The torque on the loop is clockwise as viewed from above.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_08_01a.jpg\" width=\"330\"/>\n      </media>\n      \n    <caption>Force on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise rotation as viewed from above.</caption></figure>",
+  "after": "<figure id=\"import-auto-id1615457\"><media id=\"import-auto-id2489628\" alt=\"Diagram showing a current-carrying loop of width w and length l between the north and south poles of a magnet. The north pole is to the left and the south pole is to the right of the loop. The magnetic field B runs from the north pole across the loop to the south pole. The loop is shown at an instant, while rotating clockwise. The current runs up the left side of the loop, across the top, and down the right side. There is a force F oriented into the page on the left side of the loop and a force F oriented out of the page on the right side of the loop. The torque on the loop is clockwise as viewed from above.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_23_08_01a.jpg\" width=\"330\"/>\n      </media>\n      \n    <caption>Torque on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise torque as viewed from above.</caption></figure>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

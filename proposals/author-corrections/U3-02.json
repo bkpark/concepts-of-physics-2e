@@ -1,0 +1,20 @@
+{
+  "id": "U3-02",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52364",
+  "source_object": "eip-706",
+  "source_path": "maintained/modules/m52364/index.cnxml",
+  "source_sha256": "5bad2fc34c063deafb3f4c717d8e9bf4503d5ac5089c718eb75fca14bf5dad7f",
+  "after_sha256": "bb9b49c4e06f24a3b5b5dcc2e1680e8051489716cf61ee5e7be6c7bced25d554",
+  "before": "<para id=\"eip-706\">Does the temperature of a body depend on its size?\n  </para>",
+  "after": "<para id=\"eip-706\">Does the temperature of a body in internal thermal equilibrium depend on its size?\n  </para>",
+  "reason": "Specify internal thermal equilibrium in the temperature-versus-size question.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42214"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

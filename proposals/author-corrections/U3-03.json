@@ -1,0 +1,20 @@
+{
+  "id": "U3-03",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52364",
+  "source_object": "import-auto-id1961445",
+  "source_path": "maintained/modules/m52364/index.cnxml",
+  "source_sha256": "bb9b49c4e06f24a3b5b5dcc2e1680e8051489716cf61ee5e7be6c7bced25d554",
+  "after_sha256": "5e9e1b952e0205535a3463c23a572890cf4a1d1298073235cb3eb8ecbc8bfd92",
+  "before": "<para id=\"import-auto-id1961445\">What is absolute zero? Absolute zero is the temperature at which all molecular motion has ceased. The concept of absolute zero arises from the behavior of gases. <link target-id=\"import-auto-id1961524\"/> shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>273</m:mtext><m:mtext>.</m:mtext><m:mtext>15</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{–\"273\" \".\" \"15\"°C} {}</m:annotation></m:semantics></m:math>. This extrapolation implies that there is a lowest temperature. This temperature is called <emphasis effect=\"italics\">absolute zero</emphasis>. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>273</m:mtext><m:mtext>.</m:mtext><m:mtext>15</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{–\"273\" \".\" \"15\"°C} {}</m:annotation></m:semantics></m:math> or 0 K. </para>",
+  "after": "<para id=\"import-auto-id1961445\">What is absolute zero? The concept of absolute zero arises from the behavior of gases. <link target-id=\"import-auto-id1961524\"/> shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>273</m:mtext><m:mtext>.</m:mtext><m:mtext>15</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{–\"273\" \".\" \"15\"°C} {}</m:annotation></m:semantics></m:math>. This extrapolation suggests that there is a lowest temperature. Other thermodynamic relationships lead to the same conclusion. This lowest temperature is called <emphasis effect=\"italics\">absolute zero</emphasis>. At absolute zero, molecular motion is at the minimum energy possible. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>273</m:mtext><m:mtext>.</m:mtext><m:mtext>15</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{–\"273\" \".\" \"15\"°C} {}</m:annotation></m:semantics></m:math> or 0 K. </para>",
+  "reason": "Replace the claim that all molecular motion ceases at absolute zero with the upstream minimum-energy statement; retain existing MathML.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42214"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

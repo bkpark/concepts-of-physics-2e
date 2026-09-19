@@ -2,7 +2,7 @@
   "module": "m67131",
   "title": "Alternating Current versus Direct Current",
   "slug": "alternating-current-versus-direct-current",
-  "local_sha256": "5df6716e404cd15ffca74900defa73ae82e25c6f839dc32273e22e669ba19f07",
+  "local_sha256": "49ef8930258ff4444db25d50f5aceb1b44d4e3965cef334e9e1c6895fdebb3a6",
   "upstream_modules": [
     "m42348"
   ],
@@ -20,13 +20,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "fs-id1949561",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "voltage that fluctuates sinusoidally with time.",
       "upstream": "voltage that fluctuates sinusoidally with time, expressed as V = V0 sin 2πft, where V is the voltage at time t, V0 is the peak voltage, and f is the frequency in hertz",
       "local_html": " voltage that fluctuates sinusoidally with time.",
       "upstream_html": " voltage that fluctuates sinusoidally with time, expressed as <em>V = V</em>0 sin 2<em>πft</em>, where <em>V</em> is the voltage at time <em>t, V</em>0 is the peak voltage, and <em>f</em> is the frequency in hertz",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-47f17f15f41f2ab4",
@@ -34,13 +35,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "fs-id1949569",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "current that fluctuates sinusoidally with time.",
       "upstream": "current that fluctuates sinusoidally with time, expressed as I = I0 sin 2πft, where I is the current at time t, I0 is the peak current, and f is the frequency in hertz",
       "local_html": " current that fluctuates sinusoidally with time.",
       "upstream_html": " current that fluctuates sinusoidally with time, expressed as <em>I = I</em>0 sin 2<em>πft</em>, where <em>I</em> is the current at time <em>t, I</em>0 is the peak current, and <em>f</em> is the frequency in hertz",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-5f931d647317a495",
@@ -48,13 +50,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id1219206@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "AC power as a function of time.",
       "upstream": "AC power as a function of time. Since the voltage and current are in phase here, their product is non-negative and fluctuates between zero and [MATH] . Average power is [MATH] .",
       "local_html": "AC power as a function of time. ",
       "upstream_html": "AC power as a function of time. Since the voltage and current are in phase here, their product is non-negative and fluctuates between zero and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>I</mi><mrow><mn>0</mn></mrow></msub><msub><mi>V</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow></mrow></math>. Average power is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mrow><mn>1</mn><mo stretchy=\"false\">/</mo><mn>2</mn></mrow><mo stretchy=\"false\">)</mo><msub><mi>I</mi><mrow><mn>0</mn></mrow></msub><msub><mi>V</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow></mrow></math>.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-f6129e5f1a7034a4",
@@ -62,13 +65,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id1476995",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "It is standard practice to quote [MATH] , [MATH] , and [MATH] rather than the peak values. For example, most household electricity is 120 V AC, which means that [MATH] is 120 V. The common 10-A circuit breaker will interrupt a sustained [MATH] greater than 10 A. Your 1.0-kW microwave oven consumes [MATH] , and so on. You can think of these rms and average values as the equivalent DC values for a simple resistive circuit.",
       "upstream": "as stated above. It is standard practice to quote [MATH] , [MATH] , and [MATH] rather than the peak values. For example, most household electricity is 120 V AC, which means that [MATH] is 120 V. The common 10-A circuit breaker will interrupt a sustained [MATH] greater than 10 A. Your 1.0-kW microwave oven consumes [MATH] , and so on. You can think of these rms and average values as the equivalent DC values for a simple resistive circuit.",
       "local_html": "It is standard practice to quote <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>I</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>V</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>P</mi><mrow><mtext>ave</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> rather than the peak values. For example, most household electricity is 120 V AC, which means that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>V</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math><em></em> is 120 V. The common 10-A circuit breaker will interrupt a sustained <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>I</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math><em></em> greater than 10 A. Your 1.0-kW microwave oven consumes <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>P</mi><mrow><mtext>ave</mtext></mrow></msub><mo stretchy=\"false\">=</mo></mrow><mtext>1.0 kW</mtext></mrow></mrow><mrow /></mrow></mrow></math>, and so on. You can think of these rms and average values as the equivalent DC values for a simple resistive circuit.",
       "upstream_html": "as stated above. It is standard practice to quote <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>I</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>V</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></math>, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>P</mi><mrow><mtext>ave</mtext></mrow></msub></mrow><mrow /></mrow></math> rather than the peak values. For example, most household electricity is 120 V AC, which means that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>V</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></math> is 120 V. The common 10-A circuit breaker will interrupt a sustained <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>I</mi><mrow><mtext>rms</mtext></mrow></msub></mrow><mrow /></mrow></math> greater than 10 A. Your 1.0-kW microwave oven consumes <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>P</mi><mrow><mtext>ave</mtext></mrow></msub><mo stretchy=\"false\">=</mo></mrow><mtext>1.0 kW</mtext></mrow></mrow></mrow></math>, and so on. You can think of these rms and average values as the equivalent DC values for a simple resistive circuit.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-f9362c87b252e75b",
@@ -76,13 +80,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id1500293",
-      "status": "unreviewed-difference",
-      "local": "What is the average current through a 500-W room heater that operates on 120-V AC power?",
+      "status": "retain-approved-adaptation",
+      "local": "What is the rms current through a 500-W room heater that operates on 120-V AC power?",
       "upstream": "What is the peak current through a 500-W room heater that operates on 120-V AC power?",
-      "local_html": "What is the average current through a 500-W room heater that operates on 120-V AC power?",
+      "local_html": "What is the rms current through a 500-W room heater that operates on 120-V AC power?",
       "upstream_html": "What is the peak current through a 500-W room heater that operates on 120-V AC power?",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-eadb8fcf9df68d4f",
@@ -90,13 +95,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id1541234",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "What is the average power consumption of a 120-V AC microwave oven that draws 10.0 A?",
       "upstream": "What is the peak power consumption of a 120-V AC microwave oven that draws 10.0 A?",
       "local_html": "What is the average power consumption of a 120-V AC microwave oven that draws 10.0 A?",
       "upstream_html": "What is the peak power consumption of a 120-V AC microwave oven that draws 10.0 A?",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-3ec6170cddbcf926",
@@ -104,13 +110,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2642878",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "shows a schematic of a simple circuit with an AC voltage source. The voltage between the terminals fluctuates as shown. For this example, the voltage and current are said to be in phase, as seen in (b).",
       "upstream": "shows a schematic of a simple circuit with an AC voltage source. The voltage between the terminals fluctuates as shown, with the AC voltage given by",
       "local_html": "<span class=\"muted\">[reference]</span> shows a schematic of a simple circuit with an AC voltage source. The voltage between the terminals fluctuates as shown. For this example, the voltage and current are said to be in phase, as seen in <span class=\"muted\">[reference]</span>(b).",
       "upstream_html": "<span class=\"muted\">[reference]</span> shows a schematic of a simple circuit with an AC voltage source. The voltage between the terminals fluctuates as shown, with the AC voltage given by",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-a0c5eb25e15328d1",
@@ -118,7 +125,7 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2642878",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id2808768"
@@ -133,7 +140,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-4ba2881fd71db62e",
@@ -141,13 +149,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2674296",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Most large power-distribution systems are AC. Moreover, the power is transmitted at much higher voltages than the 120-V AC (240 V in most parts of the world) we use in homes and on the job. Economies of scale make it cheaper to build a few very large electric power-generation plants than to build numerous small ones. This necessitates sending power long distances, and it is obviously important that energy losses en route be minimized. High voltages can be transmitted with much smaller power losses than low voltages, as we shall show below. (See .) For safety reasons, the voltage at the user is reduced to familiar values. The crucial factor is that AC voltages can be increased and decreased efficiently with transformers (which uses electromagnetic induction to produce time-varying voltages), while it is more difficult to change DC voltages without power losses. So AC is used in most large power distribution systems.",
       "upstream": "Most large power-distribution systems are AC. Moreover, the power is transmitted at much higher voltages than the 120-V AC (240 V in most parts of the world) we use in homes and on the job. Economies of scale make it cheaper to build a few very large electric power-generation plants than to build numerous small ones. This necessitates sending power long distances, and it is obviously important that energy losses en route be minimized. High voltages can be transmitted with much smaller power losses than low voltages, as we shall see. (See .) For safety reasons, the voltage at the user is reduced to familiar values. The crucial factor is that it is much easier to increase and decrease AC voltages than DC, so AC is used in most large power distribution systems.",
       "local_html": "Most large power-distribution systems are AC. Moreover, the power is transmitted at much higher voltages than the 120-V AC (240 V in most parts of the world) we use in homes and on the job. Economies of scale make it cheaper to build a few very large electric power-generation plants than to build numerous small ones. This necessitates sending power long distances, and it is obviously important that energy losses en route be minimized. High voltages can be transmitted with much smaller power losses than low voltages, as we shall show below. (See <span class=\"muted\">[reference]</span>.) For safety reasons, the voltage at the user is reduced to familiar values. The crucial factor is that AC voltages can be increased and decreased efficiently with transformers (which uses electromagnetic induction to produce time-varying voltages), while it is more difficult to change DC voltages without power losses. So AC is used in most large power distribution systems.",
       "upstream_html": "Most large power-distribution systems are AC. Moreover, the power is transmitted at much higher voltages than the 120-V AC (240 V in most parts of the world) we use in homes and on the job. Economies of scale make it cheaper to build a few very large electric power-generation plants than to build numerous small ones. This necessitates sending power long distances, and it is obviously important that energy losses en route be minimized. High voltages can be transmitted with much smaller power losses than low voltages, as we shall see. (See <span class=\"muted\">[reference]</span>.) For safety reasons, the voltage at the user is reduced to familiar values. The crucial factor is that it is much easier to increase and decrease AC voltages than DC, so AC is used in most large power distribution systems.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-b3a9d615b4c5bf8a",
@@ -155,13 +164,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2734949",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "We are most often concerned with average power rather than its fluctuations—that 60-W light bulb in your desk lamp has an average power consumption of 60 W, for example. As illustrated in . One common way to express an average is \"root-mean-square,\" or \"rms.\" For example, rms voltage of an AC voltage source is found by first squaring the voltage (\"square\"), taking an average of this value over one period of oscillation (\"mean\"), and taking the square root (\"root\").",
       "upstream": "We are most often concerned with average power rather than its fluctuations—that 60-W light bulb in your desk lamp has an average power consumption of 60 W, for example. As illustrated in , the average power [MATH] is",
       "local_html": "We are most often concerned with average power rather than its fluctuations—that 60-W light bulb in your desk lamp has an average power consumption of 60 W, for example. As illustrated in <span class=\"muted\">[reference]</span>. One common way to express an average is &quot;root-mean-square,&quot; or &quot;rms.&quot; For example, rms voltage of an AC voltage source is found by first squaring the voltage (&quot;square&quot;), taking an average of this value over one period of oscillation (&quot;mean&quot;), and taking the square root (&quot;root&quot;).",
       "upstream_html": "We are most often concerned with average power rather than its fluctuations—that 60-W light bulb in your desk lamp has an average power consumption of 60 W, for example. As illustrated in <span class=\"muted\">[reference]</span>, the average power <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>P</mi><mrow><mtext>ave</mtext></mrow></msub></mrow><mrow /></mrow></math> is",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-ae3a5d038278f137",
@@ -169,13 +179,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2735185@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers to 330,000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)",
       "upstream": "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330,000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)",
       "local_html": "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers to 330,000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)",
       "upstream_html": "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330,000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-db083397f52c6039",
@@ -183,13 +194,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2769583",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Current in the resistor alternates back and forth just like the driving voltage, since [MATH] . If the resistor is a fluorescent light bulb, for example, it brightens and dims 120 times per second as the current repeatedly goes through zero. A 120-Hz flicker is too rapid for your eyes to detect, but if you wave your hand back and forth between your face and a fluorescent light, you will see a stroboscopic effect evidencing AC. The fact that the light output fluctuates means that the power is fluctuating. The power supplied is [MATH] .",
       "upstream": "Current in the resistor alternates back and forth just like the driving voltage, since [MATH] . If the resistor is a fluorescent light bulb, for example, it brightens and dims 120 times per second as the current repeatedly goes through zero. A 120-Hz flicker is too rapid for your eyes to detect, but if you wave your hand back and forth between your face and a fluorescent light, you will see a stroboscopic effect evidencing AC. The fact that the light output fluctuates means that the power is fluctuating. The power supplied is [MATH] . Using the expressions for [MATH] and [MATH] above, we see that the time dependence of power is [MATH] , as shown in .",
       "local_html": "Current in the resistor alternates back and forth just like the driving voltage, since <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>I</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>V/R</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow></math>. If the resistor is a fluorescent light bulb, for example, it brightens and dims 120 times per second as the current repeatedly goes through zero. A 120-Hz flicker is too rapid for your eyes to detect, but if you wave your hand back and forth between your face and a fluorescent light, you will see a stroboscopic effect evidencing AC. The fact that the light output fluctuates means that the power is fluctuating. The power supplied is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>IV</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow></math>.",
       "upstream_html": "Current in the resistor alternates back and forth just like the driving voltage, since <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>V/R</mtext></mrow></mstyle></mrow></mrow></mrow></math>. If the resistor is a fluorescent light bulb, for example, it brightens and dims 120 times per second as the current repeatedly goes through zero. A 120-Hz flicker is too rapid for your eyes to detect, but if you wave your hand back and forth between your face and a fluorescent light, you will see a stroboscopic effect evidencing AC. The fact that the light output fluctuates means that the power is fluctuating. The power supplied is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>IV</mtext></mrow></mstyle></mrow></mrow></mrow></math>. Using the expressions for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>V</mi></mrow></mrow></math> above, we see that the time dependence of power is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><msub><mi>I</mi><mrow><mn>0</mn></mrow></msub></mrow><msub><mi>V</mi><mrow><mn>0</mn></mrow></msub><mspace width=\"0.30em\" /><msup><mtext>sin</mtext><mrow><mn>2</mn></mrow></msup><mspace width=\"0.30em\" /><mtext> 2</mtext><mi>π</mi><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>ft</mtext></mrow></mstyle></mrow></mrow></mrow></math>, as shown in <span class=\"muted\">[reference]</span>.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-fa09bd2f8f059815",
@@ -197,7 +209,7 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2769583",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -205,7 +217,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-dce78cd196b9223e",
@@ -213,13 +226,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2769857",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Nichrome wire is used in some radiative heaters. Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC.",
       "upstream": "Nichrome wire is used in some radiative heaters. (a) Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. (b) What length of Nichrome wire, having a cross-sectional area of [MATH] , is needed if the operating temperature is [MATH] ? (c) What power will it draw when first switched on?",
       "local_html": "Nichrome wire is used in some radiative heaters. Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. ",
       "upstream_html": "Nichrome wire is used in some radiative heaters. (a) Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. (b) What length of Nichrome wire, having a cross-sectional area of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>5.00</mn><msup><mtext> mm</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>, is needed if the operating temperature is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>500º C</mtext></mrow></mrow></mrow></math>? (c) What power will it draw when first switched on?",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-0c400b50aa1ca686",
@@ -227,13 +241,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2808768@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The potential difference [MATH] between the terminals of an AC voltage source fluctuates as shown.",
       "upstream": "The potential difference [MATH] between the terminals of an AC voltage source fluctuates as shown. The mathematical expression for [MATH] is given by [MATH] .",
       "local_html": "The potential difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>V</mi></mrow></mrow></math> between the terminals of an AC voltage source fluctuates as shown.      ",
       "upstream_html": "The potential difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>V</mi></mrow></math> between the terminals of an AC voltage source fluctuates as shown. The mathematical expression for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>V</mi></mrow></math> is given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>V</mi><mo stretchy=\"false\">=</mo><msub><mi>V</mi><mrow><mn>0</mn></mrow></msub></mrow><mspace width=\"0.20em\" /><mtext>sin</mtext><mspace width=\"0.20em\" /><mtext> 2 </mtext><mi>π</mi><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>ft</mtext></mrow></mstyle></mrow></mrow></mrow></math>.\n      ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-498c85642d23745c",
@@ -241,13 +256,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id2909761",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "1.20 kW",
       "upstream": "2.40 kW",
       "local_html": "1.20 kW ",
       "upstream_html": "2.40 kW ",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-e868fa246d100ca6",
@@ -255,13 +271,14 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id989224",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Most of the examples in electric circuits, and particularly those utilizing batteries, have constant voltage sources. Once the current is established, it is thus also a constant. Direct current (DC) is the flow of electric charge in only one direction. It is the steady state of a constant-voltage circuit. Many well-known applications, however, use a time-varying voltage source. Alternating current (AC) is the flow of electric charge that periodically reverses direction. If the source varies periodically, particularly sinusoidally, the circuit is known as an alternating current circuit. Examples include the commercial and residential power that serves so many of our needs. shows graphs of voltage and current versus time for typical DC and AC power. The AC voltages and frequencies commonly used in homes and businesses vary around the world. The AC voltages range from 100 V to 240 V; the frequencies range from 50 Hz to 60 Hz.",
       "upstream": "Most of the examples dealt with so far, and particularly those utilizing batteries, have constant voltage sources. Once the current is established, it is thus also a constant. Direct current (DC) is the flow of electric charge in only one direction. It is the steady state of a constant-voltage circuit. Most well-known applications, however, use a time-varying voltage source. Alternating current (AC) is the flow of electric charge that periodically reverses direction. If the source varies periodically, particularly sinusoidally, the circuit is known as an alternating current circuit. Examples include the commercial and residential power that serves so many of our needs. shows graphs of voltage and current versus time for typical DC and AC power. The AC voltages and frequencies commonly used in homes and businesses vary around the world.",
       "local_html": "Most of the examples in electric circuits, and particularly those utilizing batteries, have constant voltage sources. Once the current is established, it is thus also a constant. Direct current (DC) is the flow of electric charge in only one direction. It is the steady state of a constant-voltage circuit. Many well-known applications, however, use a time-varying voltage source. Alternating current (AC) is the flow of electric charge that periodically reverses direction. If the source varies periodically, particularly sinusoidally, the circuit is known as an alternating current circuit. Examples include the commercial and residential power that serves so many of our needs. <span class=\"muted\">[reference]</span> shows graphs of voltage and current versus time for typical DC and AC power. The AC voltages and frequencies commonly used in homes and businesses vary around the world. The AC voltages range from 100 V to 240 V; the frequencies range from 50 Hz to 60 Hz.",
       "upstream_html": "Most of the examples dealt with so far, and particularly those utilizing batteries, have constant voltage sources. Once the current is established, it is thus also a constant. Direct current (DC) is the flow of electric charge in only one direction. It is the steady state of a constant-voltage circuit. Most well-known applications, however, use a time-varying voltage source. Alternating current (AC) is the flow of electric charge that periodically reverses direction. If the source varies periodically, particularly sinusoidally, the circuit is known as an alternating current circuit. Examples include the commercial and residential power that serves so many of our needs. <span class=\"muted\">[reference]</span> shows graphs of voltage and current versus time for typical DC and AC power. The AC voltages and frequencies commonly used in homes and businesses vary around the world.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-c2dfe62e8d32b704",
@@ -672,7 +689,7 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "m42348",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id1219206@1",
@@ -687,7 +704,8 @@
         "import-auto-id2808768@3"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     },
     {
       "id": "UP-0b86435d38853f0e",
@@ -695,7 +713,7 @@
       "local_module": "m67131",
       "upstream_module": "m42348",
       "source_id": "import-auto-id3139463",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_21_05_01.jpg",
         "sha256": "e30eefafa1b46becd7d5201645b3a954a7af4fe4c526de26a8b03c36b11219b3"
@@ -706,7 +724,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Clarify rms current in the heater question. Preserve average-power microwave question with its consistent 1.20-kW answer, omission of peak/sinusoidal derivations and expanded Nichrome exercise. Graph replacement changes size/layout rather than represented physics."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "U3-38",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52454",
+  "source_object": "import-auto-id1163675086606",
+  "source_path": "maintained/modules/m52454/index.cnxml",
+  "source_sha256": "d78124f1bae0809eabce71cfd58fa1cfbdedaa70aa7a1fd572ae7f6c49b645d9",
+  "after_sha256": "15f8466b0b2c609db7c19605036f8791122fbec4a5b788b138671a9ee36b334e",
+  "before": "<item id=\"import-auto-id1163675086606\">The speed of light in vacuum <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>9972458</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width=\"0.25em\"/><m:mtext> m/s</m:mtext><m:mo stretchy=\"false\">≈</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mtext> m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{c=2 \".\" \"9972458\" times \"10\" rSup { size 8{8} } \" m/s\" approx 3 \".\" \"00\" times \"10\" rSup { size 8{8} } \" m/s\"} {}</m:annotation></m:semantics></m:math></item>",
+  "after": "<item id=\"import-auto-id1163675086606\">The speed of light in vacuum <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>99792458</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width=\"0.25em\"/><m:mtext> m/s</m:mtext><m:mo stretchy=\"false\">≈</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mtext> m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{c=2 \".\" \"99792458\" times \"10\" rSup { size 8{8} } \" m/s\" approx 3 \".\" \"00\" times \"10\" rSup { size 8{8} } \" m/s\"} {}</m:annotation></m:semantics></m:math></item>",
+  "reason": "Correct the exact vacuum speed of light to 2.99792458 × 10⁸ m/s; retain the rounded 3.00 × 10⁸ value.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42459"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

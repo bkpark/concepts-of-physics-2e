@@ -1,0 +1,20 @@
+{
+  "id": "U3-32",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m70744",
+  "source_object": "import-auto-id1169737820517",
+  "source_path": "maintained/modules/m70744/index.cnxml",
+  "source_sha256": "5a2d59faf7de22a8f099de4913697705b8cb2e007adcfd68011d718ae0bb15ae",
+  "after_sha256": "525f7bffcc48b62bb5f276be249e742dbc6138a7c75565e5872b0edcf93b61c4",
+  "before": "<para id=\"import-auto-id1169737820517\">A particle accelerator sends high-velocity charged particles down an evacuated pipe. Explain how a coil of wire wrapped around the pipe could detect the passage of individual particles. Sketch a graph of the voltage output of the coil as a single particle passes through it.</para>",
+  "after": "<para id=\"import-auto-id1169737820517\">A particle accelerator sends high-velocity charged particles down an evacuated pipe. Could a coil of wire wrapped around the pipe detect the passage of individual particles via an induced voltage? If so, sketch a graph of the voltage output of the coil as a single particle passes through it. If not, determine what orientation of the coil would allow detection of the particle and explain why this orientation is needed.</para>",
+  "reason": "Do not assume a coil wrapped around the beam can detect a particle: ask whether detection is possible and, if needed, how to orient the coil. Retain voltage terminology.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42392"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "U3-17",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52381",
+  "source_object": "import-auto-id1954395",
+  "source_path": "maintained/modules/m52381/index.cnxml",
+  "source_sha256": "115fa4be0a5f1cc8b9b7044e2d369bf5b11aa210fdeff755ed550dc4896fa4c3",
+  "after_sha256": "3104c05d4257b11371532a31dbafce372bdca17988fa6b5e37f1416dab682b26",
+  "before": "<figure id=\"import-auto-id1954395\"><media id=\"import-auto-id1125347\" alt=\"A girl is touching a Van de Graaff generator with her hair standing up. A magnified view of her single hair is shown which is filled with electrons and protons.\">\n            <image mime-type=\"image/jpg\" src=\"../../media/Figure_19_01_04a.jpg\" width=\"250\"/>\n        </media>\n            \n            <caption>When this person touches a Van de Graaff generator, she receives an excess of positive charge, causing her hair to stand on end. The charges in one hair are shown. An artist’s conception of an electron and a proton illustrate the particles carrying the negative and positive charges. We cannot really see these particles with visible light because they are so small (the electron seems to be an infinitesimal point), but we know a great deal about their measurable properties, such as the charges they carry.</caption></figure>",
+  "after": "<figure id=\"import-auto-id1954395\"><media id=\"import-auto-id1125347\" alt=\"A girl is touching a Van de Graaff generator with her hair standing up. A magnified view of her single hair is shown which is filled with electrons and protons.\">\n            <image mime-type=\"image/jpg\" src=\"../../media/Figure_19_01_04a.jpg\" width=\"250\"/>\n        </media>\n            \n            <caption>When this person touches a Van de Graaff generator, some electrons are attracted to the generator, resulting in an excess of positive charge, causing her hair to stand on end. The charges in one hair are shown. An artist’s conception of an electron and a proton illustrate the particles carrying the negative and positive charges. We cannot really see these particles with visible light because they are so small (the electron seems to be an infinitesimal point), but we know a great deal about their measurable properties, such as the charges they carry.</caption></figure>",
+  "reason": "Explain positive charging by removal of electrons rather than receipt of positive charge.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42300"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

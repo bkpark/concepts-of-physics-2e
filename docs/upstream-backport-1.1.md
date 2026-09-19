@@ -4,8 +4,12 @@ The author authorized backporting **all applicable OpenStax College Physics corr
 
 ## Current state
 
+- Unit 3 comparison pass: 49 sections, 50 applied correction records in batch 05, and six held author-review items. Review at http://127.0.0.1:8765/review-1.1/unit3-review/ . Holds concern the incubator example, helium-balloon exercise, ozone/CFC update, power-line health wording, generator-current arrows, and the broad electron-transition claim. None of these held changes is applied. The packet includes per-section rationales, fingerprinted shared-object dispositions and 369 unmatched-content boundaries; absent exercises are not independently re-solved.
+- Units 1–2 are author-approved, including the scoped conservative-force heuristic. Plasma remains optional future coverage, potentially only a sentence explaining its omission.
+
+
 - The requested Units 1–2 comparison pass now covers 55 sections: the remaining Kinematics differences, all Dynamics, and all five Unit 2 chapters. Batch 04 records 35 scoped corrections, including MathML/numerical repairs, minimal physics wording corrections, three exact pinned media imports, and three verified alt descriptions. See `proposals/1.1/upstream-batch-04.json` and `reports/1.1/unit12-review/`.
-- All shared-object differences in those units have fingerprinted dispositions, with five linked differences held as one author decision: adding plasma to the fluids overview. The 466 upstream-only objects/changed wrappers have explicit coverage dispositions. This is a comparison/applicability pass, not independent revalidation of every exercise or a claim that all author-added material is error-free.
+- All shared-object differences in those units have fingerprinted dispositions, with plasma explicitly deferred by the author to broader revision. The 466 upstream-only objects/changed wrappers have explicit coverage dispositions. This is a comparison/applicability pass, not independent revalidation of every exercise or a claim that all author-added material is error-free.
 - The batch review is at http://127.0.0.1:8765/review-1.1/unit12-review/ . No chapter/section structure, stable IDs, slugs, numbering profiles, or exercise organization changed. The development website is rebuilt; the frozen 1.0 outputs are unchanged. Release PDF/layout verification follows the full-book backport.
 
 - SR01 and SR02 are applied, with the two approved SR01 typo fixes.

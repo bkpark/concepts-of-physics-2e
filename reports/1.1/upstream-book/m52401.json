@@ -18,13 +18,14 @@
       "local_module": "m52401",
       "upstream_module": "m42344",
       "source_id": "fs-id3177792",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "an empirical relation stating that the current I is proportional to the potential difference V. It is often written as I = V/R, where R is the resistance",
       "upstream": "an empirical relation stating that the current I is proportional to the potential difference V, ∝ V; it is often written as I = V/R, where R is the resistance",
       "local_html": "an empirical relation stating that the current <em>I</em> is proportional to the potential difference <em>V</em>. It is often written as <em>I = V/R</em>, where <em>R</em> is the resistance",
       "upstream_html": "an empirical relation stating that the current <em>I</em> is proportional to the potential difference <em>V</em>, <em>∝ V</em>; it is often written as <em>I = V/R</em>, where <em>R</em> is the resistance",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain grammatical local Ohm-law definition; upstream inserts a proportionality sign without its left-hand quantity."
     },
     {
       "id": "UP-26dc6c92c9932cdb",
@@ -32,13 +33,14 @@
       "local_module": "m52401",
       "upstream_module": "m42344",
       "source_id": "import-auto-id1170614062915",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "This is a relatively small resistance, but it is larger than the cold resistance of the headlight. Resistance usually increases with temperature, and so the bulb has a lower resistance when it is first switched on and will draw considerably more current during its brief warm-up period.",
       "upstream": "This is a relatively small resistance, but it is larger than the cold resistance of the headlight. As we shall see in Resistance and Resistivity, resistance usually increases with temperature, and so the bulb has a lower resistance when it is first switched on and will draw considerably more current during its brief warm-up period.",
       "local_html": "This is a relatively small resistance, but it is larger than the cold resistance of the headlight. Resistance usually increases with temperature, and so the bulb has a lower resistance when it is first switched on and will draw considerably more current during its brief warm-up period.",
       "upstream_html": "This is a relatively small resistance, but it is larger than the cold resistance of the headlight. As we shall see in Resistance and Resistivity, resistance usually increases with temperature, and so the bulb has a lower resistance when it is first switched on and will draw considerably more current during its brief warm-up period.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve resistance definition and local omitted-resistivity-section references. Do not import malformed proportionality wording that lacks I before the proportionality sign."
     },
     {
       "id": "UP-521baec308e7af60",
@@ -46,7 +48,7 @@
       "local_module": "m52401",
       "upstream_module": "m42344",
       "source_id": "import-auto-id1170614062915",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -54,7 +56,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve resistance definition and local omitted-resistivity-section references. Do not import malformed proportionality wording that lacks I before the proportionality sign. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-5cd45bc7f9c3d6b8",
@@ -62,13 +65,14 @@
       "local_module": "m52401",
       "upstream_module": "m42344",
       "source_id": "import-auto-id1170614062922",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of [MATH] or more. A dry person may have a hand-to-foot resistance of [MATH] , whereas the resistance of the human heart is about [MATH] . A meter-long piece of large-diameter copper wire may have a resistance of [MATH] , and superconductors have no resistance at all (they are non-ohmic). Resistance is related to the shape of an object and the material of which it is composed.",
       "upstream": "Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of [MATH] or more. A dry person may have a hand-to-foot resistance of [MATH] , whereas the resistance of the human heart is about [MATH] . A meter-long piece of large-diameter copper wire may have a resistance of [MATH] , and superconductors have no resistance at all (they are non-ohmic). Resistance is related to the shape of an object and the material of which it is composed, as will be seen in Resistance and Resistivity.",
       "local_html": "Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mtext>12</mtext></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math> or more. A dry person may have a hand-to-foot resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math>, whereas the resistance of the human heart is about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math>. A meter-long piece of large-diameter copper wire may have a resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>5</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow><mrow /></mrow></mrow></math>, and superconductors have no resistance at all (they are non-ohmic). Resistance is related to the shape of an object and the material of which it is composed.",
       "upstream_html": "Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mtext>12</mtext></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow></mrow></math> or more. A dry person may have a hand-to-foot resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow></mrow></math>, whereas the resistance of the human heart is about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow></mrow></math>. A meter-long piece of large-diameter copper wire may have a resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>5</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mo stretchy=\"false\">Ω</mo></mrow></mrow></mrow></math>, and superconductors have no resistance at all (they are non-ohmic). Resistance is related to the shape of an object and the material of which it is composed, as will be seen in Resistance and Resistivity.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve resistance definition and local omitted-resistivity-section references. Do not import malformed proportionality wording that lacks I before the proportionality sign."
     },
     {
       "id": "UP-402004e22bb0fd64",
@@ -76,7 +80,7 @@
       "local_module": "m52401",
       "upstream_module": "m42344",
       "source_id": "import-auto-id1170614062922",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -84,7 +88,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve resistance definition and local omitted-resistivity-section references. Do not import malformed proportionality wording that lacks I before the proportionality sign. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-072ef2792ae26eea",

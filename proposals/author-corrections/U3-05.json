@@ -1,0 +1,20 @@
+{
+  "id": "U3-05",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67122",
+  "source_object": "import-auto-id2409403",
+  "source_path": "maintained/modules/m67122/index.cnxml",
+  "source_sha256": "e597532dbce07e60b3b5b1a849855f782353488bef4fe4985cff1e918fc1dc70",
+  "after_sha256": "6bf3ef71295a1b6ba03257c5025dbd1f8aaf06de315e41220b521c5154615993",
+  "before": "<para id=\"import-auto-id2409403\">In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{N rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and oxygen, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>O</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{O rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas because the term can also be applied to monatomic gases, such as helium.)</para>",
+  "after": "<para id=\"import-auto-id2409403\">In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{N rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and oxygen, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>O</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{O rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas, but note that this discussion also applies to monatomic gases, such as helium.)</para>",
+  "reason": "Clarify that the discussion applies to monatomic gases without calling their atoms molecules.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42216"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

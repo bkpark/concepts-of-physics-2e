@@ -2,15 +2,14 @@
   "module": "m52420",
   "title": "Magnetic Fields Produced by Currents: Ampere’s Law",
   "slug": "magnetic-fields-produced-by-currents-amperes-law",
-  "local_sha256": "13bc4e57bf13b9c22ab5ea01a93fa12616a599d6b5ba4929de31fafeefa08f49",
+  "local_sha256": "e2ca4c5606c1a65000cd4f8d59162209aec3f753dd40b11052c0ded36cfc417c",
   "upstream_modules": [
     "m42382"
   ],
   "counts": {
     "references": 2,
     "prose": 1,
-    "math-markup-change": 49,
-    "math-token-change": 1
+    "math-markup-change": 50
   },
   "changes": [
     {
@@ -19,7 +18,7 @@
       "local_module": "m52420",
       "upstream_module": "m42382",
       "source_id": "import-auto-id1166991830004",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -27,7 +26,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Repair n^-1 to n for turn density; preserve adapted references and spelling. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-6878b3e7ea9b18b9",
@@ -35,13 +35,14 @@
       "local_module": "m52420",
       "upstream_module": "m42382",
       "source_id": "import-auto-id1166991833939",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The magnetic field near a current-carrying loop of wire is shown in . Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in \"Magnetic Fields and Magnetic Field Lines\" are needed for more detail. There is a simple formula for the magnetic field strength at the center of a circular loop. It is",
       "upstream": "The magnetic field near a current-carrying loop of wire is shown in . Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in Magnetic Fields and Magnetic Field Lines are needed for more detail. There is a simple formula for the magnetic field strength at the center of a circular loop. It is",
       "local_html": "The magnetic field near a current-carrying loop of wire is shown in <span class=\"muted\">[reference]</span>. Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in &quot;Magnetic Fields and Magnetic Field Lines&quot; are needed for more detail. There is a simple formula for the magnetic field strength at the center of a circular loop. It is",
       "upstream_html": "The magnetic field near a current-carrying loop of wire is shown in <span class=\"muted\">[reference]</span>. Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in Magnetic Fields and Magnetic Field Lines are needed for more detail. There is a simple formula for the magnetic field strength at the center of a circular loop. It is",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Repair n^-1 to n for turn density; preserve adapted references and spelling."
     },
     {
       "id": "UP-19d3d06cc9f8a468",
@@ -49,7 +50,7 @@
       "local_module": "m52420",
       "upstream_module": "m42382",
       "source_id": "import-auto-id1166991833939",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id1166991829247"
@@ -64,7 +65,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Repair n^-1 to n for turn density; preserve adapted references and spelling. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-596bb56399fb1779",
@@ -106,16 +108,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-3a9dc38ee6907a07",
-      "kind": "math-token-change",
+      "id": "UP-723b2e9015dc4e50",
+      "kind": "math-markup-change",
       "local_module": "m52420",
       "upstream_module": "m42382",
       "source_id": "eip-509@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mrow><msup><mi>n</mi><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy=\"false\">=</mo><mfrac><mi>N</mi><mi>l</mi></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mtext>2000</mtext><mrow><mn>2.00 m</mn></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mtext>1000</mtext></mrow><mspace width=\"0.25em\" /><mrow><msup><mtext> m</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy=\"false\">=</mo><mtext>10</mtext></mrow><mspace width=\"0.25em\" /><msup><mtext> cm</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mtext>.</mtext></mrow></mrow></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mi>n</mi><mo stretchy=\"false\">=</mo><mfrac><mi>N</mi><mi>l</mi></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mtext>2000</mtext><mrow><mn>2.00 m</mn></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mtext>1000</mtext></mrow><mspace width=\"0.25em\" /><mrow><msup><mtext> m</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy=\"false\">=</mo><mtext>10</mtext></mrow><mspace width=\"0.25em\" /><msup><mtext> cm</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mtext>.</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mi>n</mi><mo stretchy=\"false\">=</mo><mfrac><mi>N</mi><mi>l</mi></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mtext>2000</mtext><mrow><mn>2.00 m</mn></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mtext>1000</mtext></mrow><mspace width=\"0.25em\" /><mrow><msup><mtext> m</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy=\"false\">=</mo><mtext>10</mtext></mrow><mspace width=\"0.25em\" /><msup><mtext> cm</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></msup><mtext>.</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Repair n^-1 to n for turn density; preserve adapted references and spelling. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-0860e83bcea02489",

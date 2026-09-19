@@ -1,0 +1,20 @@
+{
+  "id": "U3-33",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67131",
+  "source_object": "import-auto-id1500293",
+  "source_path": "maintained/modules/m67131/index.cnxml",
+  "source_sha256": "5df6716e404cd15ffca74900defa73ae82e25c6f839dc32273e22e669ba19f07",
+  "after_sha256": "49ef8930258ff4444db25d50f5aceb1b44d4e3965cef334e9e1c6895fdebb3a6",
+  "before": "<para id=\"import-auto-id1500293\">What is the average current through a 500-W room heater that operates on 120-V AC power?</para>",
+  "after": "<para id=\"import-auto-id1500293\">What is the rms current through a 500-W room heater that operates on 120-V AC power?</para>",
+  "reason": "Ask for rms current rather than an ambiguous average current. This retains the adapted rms treatment instead of restoring upstream peak-current coverage; 500/120 = 4.17 A rms.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42348"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Minimal local correction prompted by upstream repair; preserve adapted rms coverage"
+}

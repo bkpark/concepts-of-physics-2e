@@ -2,14 +2,14 @@
   "module": "m67622",
   "title": "Temperature Change and Heat Capacity",
   "slug": "temperature-change-and-heat-capacity",
-  "local_sha256": "2798242eb7e796c19526eba778d6d336839bb024349d0d6e36f65b095e4fe03a",
+  "local_sha256": "cec769a77be68a3481dd9f808b0d29df14dd85d1d6fcd1f8b24dda5289871f20",
   "upstream_modules": [
     "m42224"
   ],
   "counts": {
     "prose": 1,
-    "math-token-change": 7,
-    "math-markup-change": 60,
+    "math-token-change": 3,
+    "math-markup-change": 59,
     "math-structure": 1
   },
   "changes": [
@@ -19,13 +19,14 @@
       "local_module": "m67622",
       "upstream_module": "m42224",
       "source_id": "import-auto-id2000830",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The same idea underlies the recent hybrid technology of cars, where mechanical energy (gravitational potential energy) is converted by the brakes into electrical energy (battery).",
       "upstream": "This same idea underlies the recent hybrid technology of cars, where mechanical energy (gravitational potential energy) is converted by the brakes into electrical energy (battery).",
       "local_html": "The same idea underlies the recent hybrid technology of cars, where mechanical energy (gravitational potential energy) is converted by the brakes into electrical energy (battery).",
       "upstream_html": "This same idea underlies the recent hybrid technology of cars, where mechanical energy (gravitational potential energy) is converted by the brakes into electrical energy (battery).",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply explicit denominator grouping for specific heat and correct the shared 27.0 × 10⁴ typo to 27.0 × 10³. Retain 7.35 × 10⁵ J: upstream 10⁶ would give 91.875 °C rather than 9.2 °C. Retain 0.10 and local exercise selection."
     },
     {
       "id": "UP-95a119bdbab33f1c",
@@ -33,23 +34,12 @@
       "local_module": "m67622",
       "upstream_module": "m42224",
       "source_id": "eip-168@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>Q</mi><mrow><mtext>Al</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>m</mi><mrow><mtext>Al</mtext></mrow></msub></mrow><msub><mi>c</mi><mrow><mtext>Al</mtext></mrow></msub><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.500 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>900 J/kgºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>60.0ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><msup><mtext>= 27.0 × 10</mtext><mn>4</mn></msup><mtext>J = 27.0 kJ.</mtext></mrow></mrow></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>Q</mi><mrow><mtext>Al</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>m</mi><mrow><mtext>Al</mtext></mrow></msub></mrow><msub><mi>c</mi><mrow><mtext>Al</mtext></mrow></msub><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.500 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>900 J/(kg⋅ºC)</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>60.0ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><msup><mtext>= 27.0 × 10</mtext><mn>3</mn></msup><mtext>J = 27.0 kJ.</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>Q</mi><mrow><mtext>Al</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>m</mi><mrow><mtext>Al</mtext></mrow></msub></mrow><msub><mi>c</mi><mrow><mtext>Al</mtext></mrow></msub><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.500 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>900 J/(kg⋅ºC)</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>60.0ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><msup><mtext>= 27.0 × 10</mtext><mn>4</mn></msup><mtext>J = 27.0 kJ.</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-0693d5145989ded8",
-      "kind": "math-token-change",
-      "local_module": "m67622",
-      "upstream_module": "m42224",
-      "source_id": "eip-191@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>Q</mi><mrow><mn>w</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>m</mi><mrow><mn>w</mn></mrow></msub></mrow><msub><mi>c</mi><mrow><mn>w</mn></mrow></msub><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>250</mtext><mi /><mspace width=\"0.25em\" /><mtext>kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>4186</mtext><mspace width=\"0.25em\" /><mtext>J/kg</mtext><mtext>ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>60.0</mtext><mtext>ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mtext>62</mtext></mrow><mn>.8 kJ.</mn></mrow></mrow><mrow /></mrow></mrow></math>",
-      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>Q</mi><mrow><mn>w</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>m</mi><mrow><mn>w</mn></mrow></msub></mrow><msub><mi>c</mi><mrow><mn>w</mn></mrow></msub><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0.250</mn><mspace width=\"0.25em\" /><mtext>kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>4186</mtext><mspace width=\"0.25em\" /><mtext>J/(kg⋅ºC)</mtext><mtext /></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>60.0</mtext><mtext>ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo></mrow><mn>62.8 kJ.</mn></mrow></mrow></mrow></math>",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply explicit denominator grouping for specific heat and correct the shared 27.0 × 10⁴ typo to 27.0 × 10³. Retain 7.35 × 10⁵ J: upstream 10⁶ would give 91.875 °C rather than 9.2 °C. Retain 0.10 and local exercise selection. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-a254ece878a393f9",
@@ -91,16 +81,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-27e57095dbcf6c1c",
-      "kind": "math-token-change",
+      "id": "UP-7eac93c16da2cf65",
+      "kind": "math-markup-change",
       "local_module": "m67622",
       "upstream_module": "m42224",
       "source_id": "eip-274@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><msub><mi>T</mi><mtext>f</mtext></msub></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mfrac><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.500 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>900 J/kgºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>150ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mtext>+</mtext><mrow><mo stretchy=\"true\">(</mo><mtext>0.250 kg</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>4186 J/kgºC</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>20.0ºC</mtext><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mtext>0.500 kg</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mtext>900 J/kgºC</mtext><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">+</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.250 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>4186 J/kgºC</mtext><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mfrac><mrow><mtext>88430 J</mtext></mrow><mrow><mtext>1496.5 J/ºC</mtext></mrow></mfrac></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mtext>59</mtext><mtext>.1ºC.</mtext></mtd></mtr></mtable></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><msub><mi>T</mi><mtext>f</mtext></msub></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mfrac><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.500 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>900 J/(kg⋅ºC)</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>150ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mtext>+</mtext><mrow><mo stretchy=\"true\">(</mo><mtext>0.250 kg</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>4186 J/(kg⋅ºC)</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>20.0ºC</mtext><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mtext>0.500 kg</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mtext>900 J/(kg⋅ºC)</mtext><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">+</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.250 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>4186 J/(kg⋅ºC)</mtext><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mfrac><mrow><mtext>88430 J</mtext></mrow><mrow><mtext>1496.5 J/ºC</mtext></mrow></mfrac></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mtext>59</mtext><mtext>.1ºC.</mtext></mtd></mtr></mtable></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><msub><mi>T</mi><mtext>f</mtext></msub></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mfrac><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.500 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>900 J/(kg⋅ºC)</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>150ºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mtext>+</mtext><mrow><mo stretchy=\"true\">(</mo><mtext>0.250 kg</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>4186 J/(kg⋅ºC)</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>20.0ºC</mtext><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mtext>0.500 kg</mtext><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mtext>900 J/(kg⋅ºC)</mtext><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">+</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>0.250 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mtext>4186 J/(kg⋅ºC)</mtext><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mfrac><mrow><mtext>88430 J</mtext></mrow><mrow><mtext>1496.5 J/ºC</mtext></mrow></mfrac></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mtext>59</mtext><mtext>.1ºC.</mtext></mtd></mtr></mtable></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply explicit denominator grouping for specific heat and correct the shared 27.0 × 10⁴ typo to 27.0 × 10³. Retain 7.35 × 10⁵ J: upstream 10⁶ would give 91.875 °C rather than 9.2 °C. Retain 0.10 and local exercise selection. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-12db721ff3895c17",
@@ -121,11 +112,12 @@
       "local_module": "m67622",
       "upstream_module": "m42224",
       "source_id": "eip-456@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>7</mn><mtext>.35</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup><mspace width=\"0.25em\" /><mtext>J</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>100 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>800 J/kgºC</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mtext>9.2 ºC.</mtext></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-local-upstream-regression",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>7</mn><mtext>.35</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup><mspace width=\"0.25em\" /><mtext>J</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>100 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>800 J/(kg⋅ºC)</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mtext>9.2 ºC.</mtext></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">T</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>7.35</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>6</mn></mrow></msup><mspace width=\"0.25em\" /><mtext>J</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>100 kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>800 J/(kg⋅ºC)</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mtext>9.2ºC.</mtext></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain 7.35 × 10^5 J. Dividing by (100 kg)(800 J/(kg °C)) gives 9.1875 °C; upstream 10^6 would give 91.875 °C."
     },
     {
       "id": "UP-24cf4f11343fcafb",
@@ -321,44 +313,6 @@
       "exercise_context": true,
       "credit_review_required": false,
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
-    },
-    {
-      "id": "UP-7586ace1a535af9e",
-      "kind": "math-markup-change",
-      "local_module": "m67622",
-      "upstream_module": "m42224",
-      "source_id": "import-auto-id1379925@1",
-      "status": "retain-local-representation",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math>",
-      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math>",
-      "exercise_context": false,
-      "credit_review_required": false,
-      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
-    },
-    {
-      "id": "UP-0cbf21ca6e780feb",
-      "kind": "math-markup-change",
-      "local_module": "m67622",
-      "upstream_module": "m42224",
-      "source_id": "import-auto-id1379925@2",
-      "status": "retain-local-representation",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>m</mi><mo>=</mo><mtext>100 kg</mtext></mrow></mrow></mrow></math>",
-      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi><mo>=</mo><mtext>100 kg</mtext></mrow></mrow></math>",
-      "exercise_context": false,
-      "credit_review_required": false,
-      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
-    },
-    {
-      "id": "UP-4f0e1e093f8ac89a",
-      "kind": "math-token-change",
-      "local_module": "m67622",
-      "upstream_module": "m42224",
-      "source_id": "import-auto-id1379925@3",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mrow><mn>800</mn><mspace width=\"1ex\" /><mn>J/kg·ºC</mn></mrow></mrow></math>",
-      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mtext>800 J/(kg⋅ºC)</mtext></mrow></mrow></math>",
-      "exercise_context": false,
-      "credit_review_required": false
     },
     {
       "id": "UP-5af35e4e17664060",
@@ -647,28 +601,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-a95f6c3edc1dafab",
-      "kind": "math-token-change",
-      "local_module": "m67622",
-      "upstream_module": "m42224",
-      "source_id": "import-auto-id2931864@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>800 J/kg</mtext><mo stretchy=\"false\">⋅</mo><mtext>ºC</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
-      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>800 J/(kg⋅ºC)</mtext></mrow></mrow></mrow></math>",
-      "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
       "id": "UP-4dfb324eac143cf0",
       "kind": "math-token-change",
       "local_module": "m67622",
       "upstream_module": "m42224",
       "source_id": "import-auto-id3036480@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>Q</mi><mo>=</mo><mrow><mn>(0.10)</mn><mo>⁢</mo><mrow><mi>M</mi><mi>g</mi><mi>h</mi></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Q</mi><mo>=</mo><mn>0.1</mn><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>Mgh</mtext></mrow></mstyle></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply explicit denominator grouping for specific heat and correct the shared 27.0 × 10⁴ typo to 27.0 × 10³. Retain 7.35 × 10⁵ J: upstream 10⁶ would give 91.875 °C rather than 9.2 °C. Retain 0.10 and local exercise selection."
     },
     {
       "id": "UP-02c5b45b9a8100c0",
@@ -897,14 +840,15 @@
       "local_module": "m67622",
       "upstream_module": "m42224",
       "source_id": "m42224",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id1921148@1",
         "import-auto-id1921148@2"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply explicit denominator grouping for specific heat and correct the shared 27.0 × 10⁴ typo to 27.0 × 10³. Retain 7.35 × 10⁵ J: upstream 10⁶ would give 91.875 °C rather than 9.2 °C. Retain 0.10 and local exercise selection."
     }
   ]
 }

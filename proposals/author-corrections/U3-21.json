@@ -1,0 +1,20 @@
+{
+  "id": "U3-21",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52414",
+  "source_object": "import-auto-id2620248",
+  "source_path": "maintained/modules/m52414/index.cnxml",
+  "source_sha256": "0086c11659ef667d6158a8668248403bdaffdeee85d7c07c670dbead308b6ab1",
+  "after_sha256": "17dd55bdb982ffe8c0b9f0d5d4d137b2e0e671b22b69288d264e0a0dd574f83c",
+  "before": "<para id=\"import-auto-id2620248\">(a) Aircraft sometimes acquire small static charges. Suppose a supersonic jet has a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mtext>-μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{0 \".\" \"500\"\"-μC\"} {}</m:annotation></m:semantics></m:math> charge and flies due west at a speed of 660 m/s over the Earth’s south magnetic pole, where the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext>-T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{8 \".\" \"00\" times \"10\" rSup { size 8{ - 5} } \"-T\"} {}</m:annotation></m:semantics></m:math> magnetic field points straight up. What are the direction and the magnitude of the magnetic force on the plane? (b) Discuss whether the value obtained in part (a) implies this is a significant or negligible effect.</para>",
+  "after": "<para id=\"import-auto-id2620248\">(a) Aircraft sometimes acquire small static charges. Suppose a supersonic jet has a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mtext>-μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{0 \".\" \"500\"\"-μC\"} {}</m:annotation></m:semantics></m:math> charge and flies due west at a speed of 660 m/s over the Earth’s magnetic south pole (near Earth's geographic north pole), where the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext>-T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{8 \".\" \"00\" times \"10\" rSup { size 8{ - 5} } \"-T\"} {}</m:annotation></m:semantics></m:math> magnetic field points straight down. What are the direction and the magnitude of the magnetic force on the plane? (b) Discuss whether the value obtained in part (a) implies this is a significant or negligible effect.</para>",
+  "reason": "Clarify physical south magnetic polarity near geographic north and correct the field direction to downward. The positive westbound charge experiences a southward force of 2.64 × 10⁻⁸ N.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42372"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

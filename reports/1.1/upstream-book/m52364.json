@@ -2,12 +2,12 @@
   "module": "m52364",
   "title": "Temperature",
   "slug": "temperature",
-  "local_sha256": "4d14f31718729c8466cf53cee3a1843545ca941fd0330606d4ef5b844ab60786",
+  "local_sha256": "5e9e1b952e0205535a3463c23a572890cf4a1d1298073235cb3eb8ecbc8bfd92",
   "upstream_modules": [
     "m42214"
   ],
   "counts": {
-    "prose": 8,
+    "prose": 6,
     "references": 3,
     "math-markup-change": 41
   },
@@ -18,27 +18,14 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "eip-665",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "No, the system can be divided into smaller parts each of which is at the same temperature. We say that the temperature is an intensive quantity. Intensive quantities are independent of size.",
       "upstream": "No, the system can be divided into smaller parts. Since no heat is flowing, each part is in equilibrium with the adjacent part, and according to the zeroth law, this means all parts are in equilibrium with each other and are at the same temperature. Quantities that are independent of size are called intensive quantities. Temperature is an intensive quantity.",
       "local_html": "No, the system can be divided into smaller parts each of which is at the same temperature. We say that the temperature is an <em>intensive</em> quantity. Intensive quantities are independent of size.",
       "upstream_html": "No, the system can be divided into smaller parts. Since no heat is flowing, each part is in equilibrium with the adjacent part, and according to the zeroth law, this means all parts are in equilibrium with each other and are at the same temperature. Quantities that are independent of size are called intensive quantities. Temperature is an intensive quantity.",
       "exercise_context": true,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-ff393d9f07316a15",
-      "kind": "prose",
-      "local_module": "m52364",
-      "upstream_module": "m42214",
-      "source_id": "eip-706",
-      "status": "unreviewed-difference",
-      "local": "Does the temperature of a body depend on its size?",
-      "upstream": "Does the temperature of a body in internal thermal equilibrium depend on its size?",
-      "local_html": "Does the temperature of a body depend on its size?\n  ",
-      "upstream_html": "Does the temperature of a body in internal thermal equilibrium depend on its size?\n  ",
-      "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes."
     },
     {
       "id": "UP-04a246f252d52326",
@@ -46,13 +33,14 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "eip-958",
-      "status": "unreviewed-difference",
-      "local": "Thermometers actually take their own temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in thermal contact (meaning heat transfer can occur between them) will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further changes will occur. The systems interact and change because their temperatures differ, and the changes stop once their temperatures are the same. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers does represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy.",
+      "status": "retain-approved-adaptation",
+      "local": "Thermometers actually take their own temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in thermal contact (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further heat flow or changes in temperature will occur. The systems interact and change because their temperatures differ, and the changes stop once their temperatures are the same. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers does represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.",
       "upstream": "Thermometers actually take their own temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in thermal contact (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further heat flow or changes in temperature will occur. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers does represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.",
-      "local_html": "Thermometers actually take their <em><em>own</em></em> temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in <em><em>thermal contact</em></em> (meaning heat transfer can occur between them) will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further changes will occur. The systems interact and change because their temperatures differ, and the changes stop once their temperatures are the same. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers <em><em>does</em></em> represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy.",
+      "local_html": "Thermometers actually take their <em><em>own</em></em> temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in <em><em>thermal contact</em></em> (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further heat flow or changes in temperature will occur. The systems interact and change because their temperatures differ, and the changes stop once their temperatures are the same. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers <em><em>does</em></em> represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.",
       "upstream_html": "Thermometers actually take their <em>own</em> temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in <em>thermal contact</em> (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further heat flow or changes in temperature will occur. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers <em>does</em> represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes. Scoped correction applied; residual differences preserve local representation/context."
     },
     {
       "id": "UP-a64a56548a6cb5f9",
@@ -60,13 +48,14 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1186672",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Another factor that affects our perception of temperature is humidity. Most people feel much hotter on hot, humid days than on hot, dry days. This is because on humid days, sweat does not evaporate from the skin as efficiently as it does on dry days. It is the evaporation of sweat (or water from a sprinkler or pool) that cools us off.",
       "upstream": "Another factor that affects our perception of temperature is humidity. Most people feel much hotter on hot, humid days than on hot, dry days. This is because on humid days, sweat does not evaporate from the skin and in our lungs as efficiently as it does on dry days. It is the evaporation of sweat (or water from a sprinkler or pool) as well as water in the lungs that cools us off.",
       "local_html": "Another factor that affects our perception of temperature is humidity. Most people feel much hotter on hot, humid days than on hot, dry days. This is because on humid days, sweat does not evaporate from the skin as efficiently as it does on dry days. It is the evaporation of sweat (or water from a sprinkler or pool) that cools us off. ",
       "upstream_html": "Another factor that affects our perception of temperature is humidity. Most people feel much hotter on hot, humid days than on hot, dry days. This is because on humid days, sweat does not evaporate from the skin and in our lungs as efficiently as it does on dry days. It is the evaporation of sweat (or water from a sprinkler or pool) as well as water in the lungs that cools us off. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes."
     },
     {
       "id": "UP-164f2cccaf7f32ea",
@@ -74,13 +63,14 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1579487",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "On a cold winter morning, the wood on a porch feels warmer than the metal of your bike. The wood and bicycle are in thermal equilibrium with the outside air, and are thus the same temperature. They feel different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does. This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.",
       "upstream": "On a cold winter morning, a wooden bench feels warmer than a metal bench. Both benches are in thermal equilibrium with the outside air, and are thus the same temperature. They feel different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in Conduction). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.",
       "local_html": "On a cold winter morning, the wood on a porch feels warmer than the metal of your bike. The wood and bicycle are in thermal equilibrium with the outside air, and are thus the same temperature. They <em><em>feel</em></em> different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does. This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone. ",
       "upstream_html": "On a cold winter morning, a wooden bench feels warmer than a metal bench. Both benches are in thermal equilibrium with the outside air, and are thus the same temperature. They <em>feel</em> different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in Conduction). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes."
     },
     {
       "id": "UP-f6452e97f1c6aaf0",
@@ -88,7 +78,7 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1579487",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -96,21 +86,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-d9760d5f5d784b3c",
-      "kind": "prose",
-      "local_module": "m52364",
-      "upstream_module": "m42214",
-      "source_id": "import-auto-id1961445",
-      "status": "unreviewed-difference",
-      "local": "What is absolute zero? Absolute zero is the temperature at which all molecular motion has ceased. The concept of absolute zero arises from the behavior of gases. shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, [MATH] . This extrapolation implies that there is a lowest temperature. This temperature is called absolute zero. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is [MATH] or 0 K.",
-      "upstream": "What is absolute zero? The concept of absolute zero arises from the behavior of gases. shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, [MATH] . This extrapolation suggests that there is a lowest temperature. Other thermodynamic relationships lead to the same conclusion. This lowest temperature is called absolute zero. At absolute zero, molecular motion is at the minimum energy possible. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is [MATH] or 0 K.",
-      "local_html": "What is absolute zero? Absolute zero is the temperature at which all molecular motion has ceased. The concept of absolute zero arises from the behavior of gases. <span class=\"muted\">[reference]</span> shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>–</mi><mtext>273</mtext><mtext>.</mtext><mtext>15</mtext><mtext>º</mtext><mtext>C</mtext></mrow></mrow><mrow /></mrow></mrow></math>. This extrapolation implies that there is a lowest temperature. This temperature is called <em>absolute zero</em>. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>–</mi><mtext>273</mtext><mtext>.</mtext><mtext>15</mtext><mtext>º</mtext><mtext>C</mtext></mrow></mrow><mrow /></mrow></mrow></math> or 0 K. ",
-      "upstream_html": "What is absolute zero? The concept of absolute zero arises from the behavior of gases. <span class=\"muted\">[reference]</span> shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>–</mi><mtext>273</mtext><mtext>.</mtext><mtext>15</mtext><mtext>º</mtext><mtext>C</mtext></mrow></mrow></mrow></math>. This extrapolation suggests that there is a lowest temperature. Other thermodynamic relationships lead to the same conclusion. This lowest temperature is called <em>absolute zero</em>. At absolute zero, molecular motion is at the minimum energy possible. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>–</mi><mtext>273</mtext><mtext>.</mtext><mtext>15</mtext><mtext>º</mtext><mtext>C</mtext></mrow></mrow></mrow></math> or 0 K. ",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-c28eb56083216f18",
@@ -118,13 +95,14 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1969030",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": "This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the zeroth law because it comes logically before the first and second laws. An example of this law in action is seen in babies in incubators: babies in incubators normally have very few clothes on, so to an observer they look as if they may not be warm enough. However, the temperature of the air, the cot, and the baby is the same, because they are in thermal equilibrium, which is accomplished by maintaining air temperature to keep the baby comfortable.",
       "upstream": "This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the zeroth law because it comes logically before the first and second laws (discussed in Thermodynamics). Suppose, for example, a cold metal block and a hot metal block are both placed on a metal plate at room temperature. Eventually the cold block and the plate will be in thermal equilibrium. In addition, the hot block and the plate will be in thermal equilibrium. By the zeroth law, we can conclude that the cold block and the hot block are also in thermal equilibrium. Similarly, two thermometers placed in thermal contact, one with one block and the second with the other block, will also be in thermal equilibrium and therefore read the same temperature. This establishes temperature as a meaningful concept.",
       "local_html": "This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the <em>zeroth law</em> because it comes logically before the first and second laws. An example of this law in action is seen in babies in incubators: babies in incubators normally have very few clothes on, so to an observer they look as if they may not be warm enough. However, the temperature of the air, the cot, and the baby is the same, because they are in thermal equilibrium, which is accomplished by maintaining air temperature to keep the baby comfortable.",
       "upstream_html": "This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the <em>zeroth law</em> because it comes logically before the first and second laws (discussed in Thermodynamics). Suppose, for example, a cold metal block and a hot metal block are both placed on a metal plate at room temperature. Eventually the cold block and the plate will be in thermal equilibrium. In addition, the hot block and the plate will be in thermal equilibrium. By the zeroth law, we can conclude that the cold block and the hot block are also in thermal equilibrium. Similarly, two thermometers placed in thermal contact, one with one block and the second with the other block, will also be in thermal equilibrium and therefore read the same temperature. This establishes temperature as a meaningful concept.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "See U3-H01. Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes."
     },
     {
       "id": "UP-8a8b3f36ab38e1a2",
@@ -132,7 +110,7 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1969030",
-      "status": "unreviewed-difference",
+      "status": "held-for-author-review",
       "local": [],
       "upstream": [
         {
@@ -140,7 +118,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "See U3-H01. Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-07736e048757e5fe",
@@ -148,13 +127,14 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1971844",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The relationships between the three common temperature scales is shown in .",
       "upstream": "The relationships between the three common temperature scales is shown in . Temperatures on these scales can be converted using the equations in .",
       "local_html": "The relationships between the three common temperature scales is shown in <span class=\"muted\">[reference]</span>.",
       "upstream_html": "The relationships between the three common temperature scales is shown in <span class=\"muted\">[reference]</span>. Temperatures on these scales can be converted using the equations in <span class=\"muted\">[reference]</span>.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes."
     },
     {
       "id": "UP-23427ded9fd52e3f",
@@ -162,7 +142,7 @@
       "local_module": "m52364",
       "upstream_module": "m42214",
       "source_id": "import-auto-id1971844",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id1453008"
@@ -177,7 +157,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-1886a13b56e11cd4",

@@ -2,14 +2,12 @@
   "module": "m52412",
   "title": "Magnets",
   "slug": "magnets",
-  "local_sha256": "74fd9fa034b389765755faf8b1c9caac3fe9623c7fd68c12b5c4b573aa2d1016",
+  "local_sha256": "82e230d98dc9d3df72a77f96b59f2d84fbbbc8e4b8985ebfa191829a8ce7f479",
   "upstream_modules": [
     "m42366"
   ],
   "counts": {
-    "prose": 1,
-    "accessibility": 1,
-    "media": 1
+    "prose": 1
   },
   "changes": [
     {
@@ -18,44 +16,14 @@
       "local_module": "m52412",
       "upstream_module": "m42366",
       "source_id": "eip-id1847606",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The Earth acts like a very large bar magnet with its south-seeking pole near the geographic North Pole. That is why the north pole of your compass is attracted toward the geographic north pole of the Earth—because the magnetic pole that is near the geographic North Pole is actually a south magnetic pole! Confusion arises because the geographic term “North Pole” has come to be used (incorrectly) for the magnetic pole that is near the North Pole. Thus, “North magnetic pole” is actually a misnomer—it should be called the South magnetic pole.",
       "upstream": "Earth acts like a very large bar magnet with its south-seeking pole near the geographic North Pole. That is why the north pole of your compass is attracted toward the geographic north pole of Earth—because the magnetic pole that is near the geographic North Pole is actually a south magnetic pole! Confusion arises because the geographic term “North Pole” has come to be used (incorrectly) for the magnetic pole that is near the North Pole. Thus, “north magnetic pole” is actually a misnomer—it should be called the south magnetic pole.",
       "local_html": "The Earth acts like a very large bar magnet with its south-seeking pole near the geographic North Pole. That is why the north pole of your compass is attracted toward the geographic north pole of the Earth—because the magnetic pole that is near the geographic North Pole is actually a south magnetic pole! Confusion arises because the geographic term “North Pole” has come to be used (incorrectly) for the magnetic pole that is near the North Pole. Thus, “North magnetic pole” is actually a misnomer—it should be called the South magnetic pole.",
       "upstream_html": "Earth acts like a very large bar magnet with its south-seeking pole near the geographic North Pole. That is why the north pole of your compass is attracted toward the geographic north pole of Earth—because the magnetic pole that is near the geographic North Pole is actually a south magnetic pole! Confusion arises because the geographic term “North Pole” has come to be used (incorrectly) for the magnetic pole that is near the North Pole. Thus, “north magnetic pole” is actually a misnomer—it should be called the south magnetic pole.",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-d6680f40f7289348",
-      "kind": "accessibility",
-      "local_module": "m52412",
-      "upstream_module": "m42366",
-      "source_id": "import-auto-id1645429",
-      "status": "unreviewed-difference",
-      "local": "A globe of the Earth with a bar magnet inside it. The south pole of the bar magnet inside the globe is at the north magnetic pole and is near, but not exactly on, the north geographic pole. The north pole of the bar magnet inside the globe is near the south geographic pole. Another bar magnet hangs beside the globe. The north pole of this magnet is pointing toward the north pole of the globe (or the south pole of the magnet inside the globe).",
-      "upstream": "A globe of the Earth with a bar magnet inside it. The south pole of the bar magnet inside the globe is at the south magnetic pole and is near, but not exactly on, the north geographic pole. The north pole of the bar magnet inside the globe is near the south geographic pole. Another bar magnet hangs beside the globe. The north pole of this magnet is pointing toward the north pole of the globe (or the south pole of the magnet inside the globe).",
-      "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-37a63fd6ca772158",
-      "kind": "media",
-      "local_module": "m52412",
-      "upstream_module": "m42366",
-      "source_id": "import-auto-id1645429",
-      "status": "unreviewed-difference",
-      "local": {
-        "path": "../../media/Figure_23_01_02a.jpg",
-        "sha256": "c17ce033c89367e7b0ca4848eb101f87c7523fa133dd8fa3a40f182e43e3ea60"
-      },
-      "upstream": {
-        "path": "../../media/Figure_23_01_02a.jpg",
-        "sha256": "ab14bda8d6d0a8dd5ea9f0456ba8eb96cf4cd5a9c1f8b169fb0ed7f28b6f3d65"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": false,
+      "disposition_reason": "Apply physical south-polarity label and synchronized alternative text; retain existing terminology explanation."
     }
   ]
 }

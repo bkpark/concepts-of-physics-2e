@@ -1,0 +1,20 @@
+{
+  "id": "U3-40",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67134",
+  "source_object": "eip-302",
+  "source_path": "maintained/modules/m67134/index.cnxml",
+  "source_sha256": "730f8acab6d7c9cb80c07c7fa6ba0381f6d59ec166f17893e504bf5f57bee2c1",
+  "after_sha256": "21a1c2a5593b129220cac3c9bf6c17254312e13d5d8acd5d7073c9be3bfbcc7a",
+  "before": "<equation id=\"eip-302\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mfrac><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 cm</m:mn></m:mrow><m:mrow><m:mtext>7</m:mtext><m:mtext>.</m:mtext><m:mn>5 cm</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{m= -  {  {d rSub { size 8{i} } }  over  {d rSub { size 8{o} } } } = -  {  { - \"30\" \".\" 0`\"cm\"}  over  {\"7\" \".\" 5`\"cm\"} } =4 \".\" \"00\"} {}</m:annotation></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-302\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mfrac><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 cm</m:mn></m:mrow><m:mrow><m:mtext>7</m:mtext><m:mtext>.</m:mtext><m:mn>50 cm</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{m= -  {  {d rSub { size 8{i} } }  over  {d rSub { size 8{o} } } } = -  {  { - \"30\" \".\" 0`\"cm\"}  over  {\"7\" \".\" 5`\"cm\"} } =4 \".\" \"00\"} {}</m:annotation></m:semantics></m:math></equation>",
+  "reason": "Retain all three significant figures of the given 7.50-cm object distance in the magnification calculation.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42470"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "U3-08",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67622",
+  "source_object": "eip-191",
+  "source_path": "maintained/modules/m67622/index.cnxml",
+  "source_sha256": "3e86d09cad920b089c43c00370f195e5668f950f3b15f416456ec0bb0f183e96",
+  "after_sha256": "93a638d204cf9dc8c24f28cf57f06cc647c20eca534ad85b99c2664240f92cc7",
+  "before": "<equation id=\"eip-191\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle=\"italic\">T</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi/><m:mspace width=\"0.25em\"/><m:mtext>kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>4186</m:mtext><m:mspace width=\"0.25em\"/><m:mtext>J/kg</m:mtext><m:mtext>ºC</m:mtext></m:mrow></m:mfenced><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>60.0</m:mtext><m:mtext>ºC</m:mtext></m:mrow></m:mfenced><m:mo stretchy=\"false\">=</m:mo><m:mtext>62</m:mtext></m:mrow><m:mn>.8 kJ.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-191\"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle=\"italic\">T</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mn>0.250</m:mn><m:mspace width=\"0.25em\"/><m:mtext>kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>4186</m:mtext><m:mspace width=\"0.25em\"/><m:mtext>J/(kg⋅ºC)</m:mtext><m:mtext></m:mtext></m:mrow></m:mfenced><m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mtext>60.0</m:mtext><m:mtext>ºC</m:mtext></m:mrow></m:mfenced><m:mo stretchy=\"false\">=</m:mo></m:mrow><m:mn>62.8 kJ.</m:mn></m:mrow></m:mrow></m:mrow></m:math></equation>",
+  "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42224"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

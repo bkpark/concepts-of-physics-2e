@@ -1,0 +1,20 @@
+{
+  "id": "U3-35",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67133",
+  "source_object": "import-auto-id1169738145792",
+  "source_path": "maintained/modules/m67133/index.cnxml",
+  "source_sha256": "c1572c456adc4f447381500f63f20184a4f7e66141661094aa3e32ea25395a85",
+  "after_sha256": "9ab441774db045cc4186a488e600e261c5ee86ea232de692ad1af8c007e45993",
+  "before": "<para id=\"import-auto-id1169738145792\">The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{g} {}</m:annotation></m:semantics></m:math>-ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000.).</para>",
+  "after": "<para id=\"import-auto-id1169738145792\">The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as well as visible light. In the X-ray region, there is the Chandra X-ray Observatory (launched in 1999), and in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{g} {}</m:annotation></m:semantics></m:math>-ray region, there is the new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the Compton Gamma Ray Observatory, 1991–2000).</para>",
+  "reason": "Fix duplicated terminal punctuation in the Compton observatory dates; defer the added JWST paragraph.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42444"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

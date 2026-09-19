@@ -1,0 +1,20 @@
+{
+  "id": "U3-50",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m75427",
+  "source_object": "import-auto-id1935736",
+  "source_path": "maintained/modules/m75427/index.cnxml",
+  "source_sha256": "70392817ec91c21939d4760026572f67432b7fbc876c705e027318dbe5bb0920",
+  "after_sha256": "1cc10ec0c88a4a926e62bb7c7cf0fc35a5ccb5c5f25bde107c961bed91c4729e",
+  "before": "<media id=\"import-auto-id1935736\" alt=\"A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_20_01_01a.jpg\" width=\"200\"/>\n      </media>",
+  "after": "<media id=\"import-auto-id1935736\" alt=\"A charge plus q moves from a positive to a negative sheet of charge. The decrease in electric potential energy equals the increase in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_20_01_01a.jpg\" width=\"200\"/>\n      </media>",
+  "reason": "Synchronize the figure description with the corrected energy signs: the decrease in potential energy equals the increase in kinetic energy.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42324"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Local accessibility consistency repair required by the pinned upstream figure correction"
+}

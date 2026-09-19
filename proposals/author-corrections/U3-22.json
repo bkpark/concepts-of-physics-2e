@@ -1,0 +1,20 @@
+{
+  "id": "U3-22",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52417",
+  "source_object": "fs-id1168951430590",
+  "source_path": "maintained/modules/m52417/index.cnxml",
+  "source_sha256": "7bc88962c1be8667ec30c76024a40c2469fc6233b1b1a37917f107054d7bdc95",
+  "after_sha256": "a1b1016a8916ec70ccee3a8db26eadf4e81829492be929742fce92c3c762c237",
+  "before": "<meaning id=\"fs-id1168951430590\">common application of magnetic force on a current-carrying loop that is very similar in construction to a motor; by design, the force is proportional to  <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> and not  <m:math><m:semantics><m:mrow><m:mi>θ</m:mi></m:mrow></m:semantics></m:math>, so the needle deflection is proportional to the current</meaning>",
+  "after": "<meaning id=\"fs-id1168951430590\">common application of magnetic torque on a current-carrying loop that is very similar in construction to a motor; by design, the torque is proportional to  <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> and not  <m:math><m:semantics><m:mrow><m:mi>θ</m:mi></m:mrow></m:semantics></m:math>, so the needle deflection is proportional to the current</meaning>",
+  "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

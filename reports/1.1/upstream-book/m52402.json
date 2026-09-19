@@ -2,12 +2,12 @@
   "module": "m52402",
   "title": "Electric Power and Energy",
   "slug": "electric-power-and-energy",
-  "local_sha256": "4f618224fb78e530665f4637dbb46b78ceb7701b03bd4717542b9fd8101d8686",
+  "local_sha256": "0c14aaf065037d4f5c35402b4c005028ffbdb62756b699e6b12bd67e2ab71343",
   "upstream_modules": [
     "m42714"
   ],
   "counts": {
-    "prose": 7,
+    "prose": 6,
     "references": 1,
     "math-markup-change": 67,
     "math-structure": 1
@@ -19,13 +19,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id1355852",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Strategy",
       "upstream": "Strategy for (a)",
       "local_html": "<em>Strategy</em>\n    ",
       "upstream_html": "\n      Strategy for (a)\n    ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     },
     {
       "id": "UP-4ada579b8baf34d9",
@@ -33,13 +34,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id1816698",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "For the headlight, we know voltage and current, so we can use [MATH] to find the power.",
       "upstream": "For the hot headlight, we know voltage and current, so we can use [MATH] to find the power. For the cold headlight, we know the voltage and resistance, so we can use [MATH] to find the power.",
       "local_html": "For the headlight, we know voltage and current, so we can use <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>IV</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow></math> to find the power. ",
       "upstream_html": "For the hot headlight, we know voltage and current, so we can use <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>IV</mtext></mrow></mstyle></mrow></mrow></mrow></math> to find the power. For the cold headlight, we know the voltage and resistance, so we can use <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mrow><msup><mi>V</mi><mrow><mn>2</mn></mrow></msup><mo stretchy=\"false\">/</mo><mi>R</mi></mrow></mrow></mrow></mrow></math> to find the power.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     },
     {
       "id": "UP-701ea42c44b00f10",
@@ -47,13 +49,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id1958513",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The 30 W dissipated by the hot headlight is typical.",
       "upstream": "The 30 W dissipated by the hot headlight is typical. But the 411 W when cold is surprisingly higher. The initial power quickly decreases as the bulb’s temperature increases and its resistance increases.",
       "local_html": "The 30 W dissipated by the hot headlight is typical.",
       "upstream_html": "The 30 W dissipated by the hot headlight is typical. But the 411 W when cold is surprisingly higher. The initial power quickly decreases as the bulb’s temperature increases and its resistance increases.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     },
     {
       "id": "UP-d20072b47b4b68a0",
@@ -61,13 +64,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id2578137",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Solution",
       "upstream": "Solution for (a)",
       "local_html": "<em>Solution</em>\n    ",
       "upstream_html": "\n      Solution for (a)\n    ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     },
     {
       "id": "UP-30fcc55e68e4ff4a",
@@ -75,13 +79,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id2590834",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Consider the example given in \"Ohm’s Law: Resistance and Simple Circuits.\" Then find the power dissipated by the car headlight.",
       "upstream": "(a) Consider the examples given in Ohm’s Law: Resistance and Simple Circuits and Resistance and Resistivity. Then find the power dissipated by the car headlight in these examples, both when it is hot and when it is cold. (b) What current does it draw when cold?",
       "local_html": "Consider the example given in &quot;Ohm’s Law: Resistance and Simple Circuits.&quot; Then find the power dissipated by the car headlight.",
       "upstream_html": "(a) Consider the examples given in Ohm’s Law: Resistance and Simple Circuits and Resistance and Resistivity. Then find the power dissipated by the car headlight in these examples, both when it is hot and when it is cold. (b) What current does it draw when cold?",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     },
     {
       "id": "UP-60590595579c14fb",
@@ -89,7 +94,7 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id2590834",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -100,21 +105,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-f2871ea7cf35d571",
-      "kind": "prose",
-      "local_module": "m52402",
-      "upstream_module": "m42714",
-      "source_id": "import-auto-id2667004",
-      "status": "unreviewed-difference",
-      "local": "The total cost will be $7.20 for 1000 hours (about one-half year at 5 hours per day).",
-      "upstream": "The total cost, including the cost of the bulb, will be $7.45 for 1000 hours (about one-half year at 5 hours per day).",
-      "local_html": "The total cost will be $7.20 for 1000 hours (about one-half year at 5 hours per day).",
-      "upstream_html": "The total cost, including the cost of the bulb, will be $7.45 for 1000 hours (about one-half year at 5 hours per day).",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-ac3f5a10bc274960",
@@ -122,13 +114,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "import-auto-id3245974",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Discussion",
       "upstream": "Discussion for (a)",
       "local_html": "<em>Discussion</em>\n    ",
       "upstream_html": "\n      Discussion for (a)\n    ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     },
     {
       "id": "UP-648c14c62a7bebf8",
@@ -1007,13 +1000,14 @@
       "local_module": "m52402",
       "upstream_module": "m42714",
       "source_id": "m42714",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id1816698@2"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Include bulb purchase cost in total. Retain the hot-headlight example; cold-filament resistance belongs to the omitted resistivity section, and restoring its multi-part example would expand coverage."
     }
   ]
 }

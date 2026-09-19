@@ -18,13 +18,14 @@
       "local_module": "m42356",
       "upstream_module": "m42356",
       "source_id": "fs-id1904415",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "No. Not every resistor network can be reduced to series and parallel combinations. These more general networks can be analyzed using Kirchhoff’s rules, which are beyond the scope of this textbook.",
       "upstream": "No, there are many ways to connect resistors that are not combinations of series and parallel, including loops and junctions. In such cases Kirchhoff’s rules, to be introduced in Kirchhoff’s Rules, will allow you to analyze the circuit.",
       "local_html": "No. Not every resistor network can be reduced to series and parallel combinations. These more general networks can be analyzed using Kirchhoff’s rules, which are beyond the scope of this textbook.\n",
       "upstream_html": "No, there are many ways to connect resistors that are not combinations of series and parallel, including loops and junctions. In such cases Kirchhoff’s rules, to be introduced in Kirchhoff’s Rules, will allow you to analyze the circuit.\n",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain previously author-approved Kirchhoff wording and local MathML. Equivalent greater-than/grouping markup is not a content correction."
     },
     {
       "id": "UP-02464c35f4e8bfc0",
@@ -32,7 +33,7 @@
       "local_module": "m42356",
       "upstream_module": "m42356",
       "source_id": "fs-id1904415",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -40,7 +41,8 @@
         }
       ],
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain previously author-approved Kirchhoff wording and local MathML. Equivalent greater-than/grouping markup is not a content correction. Preserve local document identities and author-approved reference repairs."
     },
     {
       "id": "UP-6485a8a80a29b61d",
@@ -2076,11 +2078,12 @@
       "local_module": "m42356",
       "upstream_module": "m42356",
       "source_id": "import-auto-id3018314@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable><mtr><mtd><mrow><mrow><mrow><msub><mi>R</mi><mrow><mtext>s</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">+</mo><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></mrow><mrow /></mrow></mtd></mtr><mtr><mtd><mrow><mo stretchy=\"false\">⇒</mo><msub><mi>R</mi><mrow><mtext>s</mtext></mrow></msub><mspace width=\"0.25em\" /><mi>≈</mi><mspace width=\"0.25em\" /><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mrow><mo stretchy=\"true\">(</mo><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mtext>&gt;&gt;</mtext><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"true\">)</mo></mrow><mrow /></mrow></mtd></mtr></mtable><mrow /></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable><mtr><mtd><mrow><mrow><msub><mi>R</mi><mrow><mtext>s</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">+</mo><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></mrow><mrow /></mtd></mtr><mtr><mtd><mo stretchy=\"false\">⇒</mo><msub><mi>R</mi><mrow><mtext>s</mtext></mrow></msub><mspace width=\"0.25em\" /><mi>≈</mi><mspace width=\"0.25em\" /><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mrow><mo stretchy=\"true\">(</mo><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mtext>&gt;&gt;</mtext><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"true\">)</mo></mrow><mrow /></mtd></mtr></mtable><mrow /></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain previously author-approved Kirchhoff wording and local MathML. Equivalent greater-than/grouping markup is not a content correction."
     },
     {
       "id": "UP-4977131c0d63b8b4",
@@ -2530,11 +2533,12 @@
       "local_module": "m42356",
       "upstream_module": "m42356",
       "source_id": "import-auto-id3398124@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable><mtr><mtd><mrow><mrow><mrow><mrow><msub><mi>R</mi><mrow><mn>p</mn></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">+</mo><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow></mfrac></mrow><mi>≈</mi><mfrac><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub></mfrac></mrow></mrow><mo>=</mo><msub><mi> R</mi><mrow><mn>2</mn></mrow></msub><mrow><mo stretchy=\"true\">(</mo><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mtext>&gt;&gt;</mtext><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"true\">)</mo></mrow><mtext>.</mtext><mrow /></mrow></mtd></mtr></mtable><mrow /></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable><mtr><mtd><mrow><mrow><mrow><msub><mi>R</mi><mrow><mn>p</mn></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">+</mo><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow></mfrac></mrow><mi>≈</mi><mfrac><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub></mfrac></mrow></mrow><mo>=</mo><msub><mi> R</mi><mrow><mn>2</mn></mrow></msub><mrow><mo stretchy=\"true\">(</mo><mrow><msub><mi>R</mi><mrow><mn>1</mn></mrow></msub><mtext>&gt;&gt;</mtext><msub><mi>R</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"true\">)</mo></mrow><mtext>.</mtext></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain previously author-approved Kirchhoff wording and local MathML. Equivalent greater-than/grouping markup is not a content correction."
     },
     {
       "id": "UP-32525dbf5a2e6b5b",

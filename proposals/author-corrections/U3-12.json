@@ -1,0 +1,20 @@
+{
+  "id": "U3-12",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67622",
+  "source_object": "import-auto-id2931864",
+  "source_path": "maintained/modules/m67622/index.cnxml",
+  "source_sha256": "f22f9434d4a5526c1b2869160f9d573aa60e1c89aa090f8d82c53ddb834dc9ff",
+  "after_sha256": "cec769a77be68a3481dd9f808b0d29df14dd85d1d6fcd1f8b24dda5289871f20",
+  "before": "<para id=\"import-auto-id2931864\">Calculate the temperature increase of 100 kg of brake material with an average specific heat of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>800 J/kg</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:mtext>ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> if the material retains 10% of the energy from a 10,000-kg truck descending 75.0 m (in vertical displacement) at a constant speed.</para>",
+  "after": "<para id=\"import-auto-id2931864\">Calculate the temperature increase of 100 kg of brake material with an average specific heat of <m:math><m:mrow><m:mrow><m:mrow><m:mtext>800 J/(kg⋅ºC)</m:mtext></m:mrow></m:mrow></m:mrow></m:math> if the material retains 10% of the energy from a 10,000-kg truck descending 75.0 m (in vertical displacement) at a constant speed.</para>",
+  "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42224"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

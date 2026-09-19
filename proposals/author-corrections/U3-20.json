@@ -1,0 +1,20 @@
+{
+  "id": "U3-20",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52406",
+  "source_object": "import-auto-id1908394",
+  "source_path": "maintained/modules/m52406/index.cnxml",
+  "source_sha256": "12877d7df7f07ae8b152cb45f3e4fd0349b114fd3067d59da1012279d121ebea",
+  "after_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
+  "before": "<para id=\"import-auto-id1908394\">Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>300 k</m:mtext><m:mo stretchy=\"false\">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"300\"\" k\" %OMEGA } {}</m:annotation></m:semantics></m:math>; (b) if she is standing barefoot on wet grass and has a resistance of only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>4000 k</m:mtext><m:mo stretchy=\"false\">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"4000\"\" k\" %OMEGA } {}</m:annotation></m:semantics></m:math>.</para>",
+  "after": "<para id=\"import-auto-id1908394\">Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>300 k</m:mtext><m:mo stretchy=\"false\">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"300\"\" k\" %OMEGA } {}</m:annotation></m:semantics></m:math>; (b) if she is standing barefoot on wet grass and has a resistance of only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>4500</m:mtext><m:mo stretchy=\"false\">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"4500\" %OMEGA } {}</m:annotation></m:semantics></m:math>.</para>",
+  "reason": "Correct wet-contact resistance to 4500 Ω, consistent with the existing answer 120/4500 = 26.7 mA.",
+  "authorization": "Author requested applicable CC BY Unit 3 backports as a review batch, with minimal prose and structural changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42350"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

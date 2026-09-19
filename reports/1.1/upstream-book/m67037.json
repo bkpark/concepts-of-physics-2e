@@ -2,13 +2,13 @@
   "module": "m67037",
   "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
   "slug": "conservative-forces-potential-energy-and-conservation-of-energy",
-  "local_sha256": "fdc2d5038dab74e8d84447bfea8f8f6aced18153198e6198430f648a82ff857f",
+  "local_sha256": "3489e90be609f927c15e5bad372f74784fbf6d687e5cfe59b95bed6cc67510c9",
   "upstream_modules": [
     "m42149",
     "m42151"
   ],
   "counts": {
-    "prose": 10,
+    "prose": 11,
     "math-token-change": 9,
     "math-markup-change": 16,
     "math-structure": 2
@@ -58,6 +58,21 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
+    },
+    {
+      "id": "UP-9bb91eeb5bb72151",
+      "kind": "prose",
+      "local_module": "m67037",
+      "upstream_module": "m42149",
+      "source_id": "import-auto-id1532141",
+      "status": "retain-approved-adaptation",
+      "local": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. For the forces considered in this textbook, dependence on position alone is a useful clue that a force is conservative. Gravity and ideal spring forces are examples. Friction, by contrast, also depends on the direction of relative motion or its tendency, so position alone does not determine the frictional force. We can define a potential energy [MATH] for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is conservative. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
+      "upstream": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. We can define a potential energy [MATH] for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is conservative. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
+      "local_html": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. For the forces considered in this textbook, dependence on position alone is a useful clue that a force is conservative. Gravity and ideal spring forces are examples. Friction, by contrast, also depends on the direction of relative motion or its tendency, so position alone does not determine the frictional force. We can define a potential energy <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mtext>PE</mtext><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></mrow></math> for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is <em>conservative</em>. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
+      "upstream_html": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. We can define a potential energy <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mtext>PE</mtext><mo stretchy=\"false\">)</mo></mrow></mrow></mrow></math> for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is <em>conservative</em>. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
+      "exercise_context": false,
+      "credit_review_required": false,
+      "disposition_reason": "Author approved scoped position-dependence heuristic on 2026-09-19 while retaining path independence as the definition."
     },
     {
       "id": "UP-2c07209104011f3f",

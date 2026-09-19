@@ -2,29 +2,14 @@
   "module": "m42235",
   "title": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
   "slug": "carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated",
-  "local_sha256": "b7a1a6e7b4b4b5af9a2ad0b6282531d1cd9b2e95eddff7ff25c9bb1cec7b180f",
+  "local_sha256": "54dcd3dc97a36f6f5292d043d5a6f38f87025cf2918fe94fb2fcc5be11ef3e40",
   "upstream_modules": [
     "m42235"
   ],
   "counts": {
-    "prose": 1,
     "math-markup-change": 64
   },
   "changes": [
-    {
-      "id": "UP-e5feb6a841cf9bde",
-      "kind": "prose",
-      "local_module": "m42235",
-      "upstream_module": "m42235",
-      "source_id": "import-auto-id1169736649071",
-      "status": "unreviewed-difference",
-      "local": "where [MATH] and [MATH] are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot efficiency—an actual efficiency of about 0.7 of this maximum is usually the best that can be accomplished. But the ideal Carnot engine, like the drinking bird above, while a fascinating novelty, has zero power. This makes it unrealistic for any applications.",
-      "upstream": "where [MATH] and [MATH] are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot efficiency. But the ideal Carnot engine, like the drinking bird above, while a fascinating novelty, has zero power. This makes it unrealistic for any applications.",
-      "local_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>T</mi><mrow><mtext>h</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>T</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot efficiency—an actual efficiency of about 0.7 of this maximum is usually the best that can be accomplished. But the ideal Carnot engine, like the drinking bird above, while a fascinating novelty, has zero power. This makes it unrealistic for any applications.",
-      "upstream_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>T</mi><mrow><mtext>h</mtext></mrow></msub></mrow><mrow /></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>T</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math> are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot efficiency. But the ideal Carnot engine, like the drinking bird above, while a fascinating novelty, has zero power. This makes it unrealistic for any applications.",
-      "exercise_context": false,
-      "credit_review_required": false
-    },
     {
       "id": "UP-3c0b230e228b1e57",
       "kind": "math-markup-change",

@@ -1,0 +1,358 @@
+{
+  "id": "upstream-batch-05",
+  "target_release": "cp2e-ver1.1",
+  "scope": "Unit 3",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "changes": [
+    {
+      "id": "U3-01",
+      "module": "m52364",
+      "source_id": "eip-958",
+      "reason": "Qualify thermal equilibration by isolation from the environment, specify the changes that cease, and define internal thermal equilibrium.",
+      "record": "proposals/author-corrections/U3-01.json"
+    },
+    {
+      "id": "U3-02",
+      "module": "m52364",
+      "source_id": "eip-706",
+      "reason": "Specify internal thermal equilibrium in the temperature-versus-size question.",
+      "record": "proposals/author-corrections/U3-02.json"
+    },
+    {
+      "id": "U3-03",
+      "module": "m52364",
+      "source_id": "import-auto-id1961445",
+      "reason": "Replace the claim that all molecular motion ceases at absolute zero with the upstream minimum-energy statement; retain existing MathML.",
+      "record": "proposals/author-corrections/U3-03.json"
+    },
+    {
+      "id": "U3-04",
+      "module": "m67122",
+      "source_id": "import-auto-id1149559",
+      "reason": "Correct ideal-gas assumptions: negligible particle volume and interactions except elastic collisions. Preserve the existing equation-of-state introduction.",
+      "record": "proposals/author-corrections/U3-04.json"
+    },
+    {
+      "id": "U3-05",
+      "module": "m67122",
+      "source_id": "import-auto-id2409403",
+      "reason": "Clarify that the discussion applies to monatomic gases without calling their atoms molecules.",
+      "record": "proposals/author-corrections/U3-05.json"
+    },
+    {
+      "id": "U3-06",
+      "module": "m67122",
+      "source_id": "import-auto-id1563742",
+      "reason": "Specify that the upward buoyant force exceeds the balloon weight.",
+      "record": "proposals/author-corrections/U3-06.json"
+    },
+    {
+      "id": "U3-07",
+      "module": "m67622",
+      "source_id": "eip-168",
+      "reason": "Make specific-heat units J/(kg·°C) unambiguous. Also correct 27.0 × 10⁴ J to 27.0 × 10³ J = 27.0 kJ; 0.500 × 900 × 60.0 = 27000. This exponent error remains upstream.",
+      "record": "proposals/author-corrections/U3-07.json"
+    },
+    {
+      "id": "U3-08",
+      "module": "m67622",
+      "source_id": "eip-191",
+      "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+      "record": "proposals/author-corrections/U3-08.json"
+    },
+    {
+      "id": "U3-09",
+      "module": "m67622",
+      "source_id": "eip-274",
+      "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+      "record": "proposals/author-corrections/U3-09.json"
+    },
+    {
+      "id": "U3-10",
+      "module": "m67622",
+      "source_id": "eip-456",
+      "reason": "Make specific-heat units J/(kg·°C) unambiguous. Retain the correct 7.35 × 10⁵ J; reject upstream’s 10⁶ regression.",
+      "record": "proposals/author-corrections/U3-10.json"
+    },
+    {
+      "id": "U3-11",
+      "module": "m67622",
+      "source_id": "import-auto-id1379925",
+      "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+      "record": "proposals/author-corrections/U3-11.json"
+    },
+    {
+      "id": "U3-12",
+      "module": "m67622",
+      "source_id": "import-auto-id2931864",
+      "reason": "Make specific-heat units J/(kg·°C) unambiguous.",
+      "record": "proposals/author-corrections/U3-12.json"
+    },
+    {
+      "id": "U3-13",
+      "module": "m67124",
+      "source_id": "eip-649",
+      "reason": "Correct K to J in specific heat and close both parentheses in the soda-and-ice heat-capacity calculation; adopt the repaired upstream equation.",
+      "record": "proposals/author-corrections/U3-13.json"
+    },
+    {
+      "id": "U3-14",
+      "module": "m67124",
+      "source_id": "import-auto-id3309056",
+      "reason": "Replace the misleading air-holding-water explanation with the upstream condensation-rate explanation.",
+      "record": "proposals/author-corrections/U3-14.json"
+    },
+    {
+      "id": "U3-15",
+      "module": "m42235",
+      "source_id": "import-auto-id1169736649071",
+      "reason": "Remove the unsupported universal claim that actual engines are limited to roughly 70% of Carnot efficiency.",
+      "record": "proposals/author-corrections/U3-15.json"
+    },
+    {
+      "id": "U3-16",
+      "module": "m52381",
+      "source_id": "eip-477",
+      "reason": "Correct the claim that oxygen itself ignites, and specify the conducting strip on the footwear.",
+      "record": "proposals/author-corrections/U3-16.json"
+    },
+    {
+      "id": "U3-17",
+      "module": "m52381",
+      "source_id": "import-auto-id1954395",
+      "reason": "Explain positive charging by removal of electrons rather than receipt of positive charge.",
+      "record": "proposals/author-corrections/U3-17.json"
+    },
+    {
+      "id": "U3-18",
+      "module": "m75428",
+      "source_id": "import-auto-id1409968",
+      "reason": "Correct the positive pair to q_b = q_d, avoiding the contradictory assignment of both signs to q_c.",
+      "record": "proposals/author-corrections/U3-18.json"
+    },
+    {
+      "id": "U3-19",
+      "module": "m52402",
+      "source_id": "import-auto-id2667004",
+      "reason": "Include the stated $0.25 bulb cost: $7.20 electricity + $0.25 = $7.45.",
+      "record": "proposals/author-corrections/U3-19.json"
+    },
+    {
+      "id": "U3-20",
+      "module": "m52406",
+      "source_id": "import-auto-id1908394",
+      "reason": "Correct wet-contact resistance to 4500 Ω, consistent with the existing answer 120/4500 = 26.7 mA.",
+      "record": "proposals/author-corrections/U3-20.json"
+    },
+    {
+      "id": "U3-21",
+      "module": "m52414",
+      "source_id": "import-auto-id2620248",
+      "reason": "Clarify physical south magnetic polarity near geographic north and correct the field direction to downward. The positive westbound charge experiences a southward force of 2.64 × 10⁻⁸ N.",
+      "record": "proposals/author-corrections/U3-21.json"
+    },
+    {
+      "id": "U3-22",
+      "module": "m52417",
+      "source_id": "fs-id1168951430590",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-22.json"
+    },
+    {
+      "id": "U3-23",
+      "module": "m52417",
+      "source_id": "fs-id1168951439006",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-23.json"
+    },
+    {
+      "id": "U3-24",
+      "module": "m52417",
+      "source_id": "import-auto-id1546668",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-24.json"
+    },
+    {
+      "id": "U3-25",
+      "module": "m52417",
+      "source_id": "import-auto-id1615457",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-25.json"
+    },
+    {
+      "id": "U3-26",
+      "module": "m52417",
+      "source_id": "import-auto-id1942860",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-26.json"
+    },
+    {
+      "id": "U3-27",
+      "module": "m52417",
+      "source_id": "import-auto-id2028294",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-27.json"
+    },
+    {
+      "id": "U3-28",
+      "module": "m52417",
+      "source_id": "import-auto-id2852936",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-28.json"
+    },
+    {
+      "id": "U3-29",
+      "module": "m52417",
+      "source_id": "import-fig03",
+      "reason": "Use torque (and angular momentum where appropriate) for the rotational effect on the motor or meter coil; retain the nontrigonometric treatment.",
+      "record": "proposals/author-corrections/U3-29.json"
+    },
+    {
+      "id": "U3-30",
+      "module": "m52420",
+      "source_id": "eip-509",
+      "reason": "Correct n⁻¹ to n for turns per unit length: 2000/2.00 m = 1000 m⁻¹.",
+      "record": "proposals/author-corrections/U3-30.json"
+    },
+    {
+      "id": "U3-31",
+      "module": "m70743",
+      "source_id": "import-auto-id1169738208118",
+      "reason": "Repair the article while preserving the adapted voltage terminology.",
+      "record": "proposals/author-corrections/U3-31.json"
+    },
+    {
+      "id": "U3-32",
+      "module": "m70744",
+      "source_id": "import-auto-id1169737820517",
+      "reason": "Do not assume a coil wrapped around the beam can detect a particle: ask whether detection is possible and, if needed, how to orient the coil. Retain voltage terminology.",
+      "record": "proposals/author-corrections/U3-32.json"
+    },
+    {
+      "id": "U3-33",
+      "module": "m67131",
+      "source_id": "import-auto-id1500293",
+      "reason": "Ask for rms current rather than an ambiguous average current. This retains the adapted rms treatment instead of restoring upstream peak-current coverage; 500/120 = 4.17 A rms.",
+      "record": "proposals/author-corrections/U3-33.json"
+    },
+    {
+      "id": "U3-34",
+      "module": "m67133",
+      "source_id": "import-auto-id1169737726837",
+      "reason": "Remove the outdated suggestion that only some scientists consider increased greenhouse-gas concentration a cause of warming.",
+      "record": "proposals/author-corrections/U3-34.json"
+    },
+    {
+      "id": "U3-35",
+      "module": "m67133",
+      "source_id": "import-auto-id1169738145792",
+      "reason": "Fix duplicated terminal punctuation in the Compton observatory dates; defer the added JWST paragraph.",
+      "record": "proposals/author-corrections/U3-35.json"
+    },
+    {
+      "id": "U3-36",
+      "module": "m52454",
+      "source_id": "eip-705",
+      "reason": "Correct the exact vacuum speed of light to 2.99792458 × 10⁸ m/s; retain the rounded 3.00 × 10⁸ value.",
+      "record": "proposals/author-corrections/U3-36.json"
+    },
+    {
+      "id": "U3-37",
+      "module": "m52454",
+      "source_id": "eip-id2221336",
+      "reason": "Correct the exact vacuum speed of light to 2.99792458 × 10⁸ m/s; retain the rounded 3.00 × 10⁸ value.",
+      "record": "proposals/author-corrections/U3-37.json"
+    },
+    {
+      "id": "U3-38",
+      "module": "m52454",
+      "source_id": "import-auto-id1163675086606",
+      "reason": "Correct the exact vacuum speed of light to 2.99792458 × 10⁸ m/s; retain the rounded 3.00 × 10⁸ value.",
+      "record": "proposals/author-corrections/U3-38.json"
+    },
+    {
+      "id": "U3-39",
+      "module": "m52454",
+      "source_id": "eip-69",
+      "reason": "Correct the ice entry to 0 °C. Preserve the 20 °C heading for other solids rather than adopting upstream’s broader heading change.",
+      "record": "proposals/author-corrections/U3-39.json"
+    },
+    {
+      "id": "U3-40",
+      "module": "m67134",
+      "source_id": "eip-302",
+      "reason": "Retain all three significant figures of the given 7.50-cm object distance in the magnification calculation.",
+      "record": "proposals/author-corrections/U3-40.json"
+    },
+    {
+      "id": "U3-41",
+      "module": "m75427",
+      "source_id": "import-auto-id1935736",
+      "reason": "Correct both energy labels to ΔPE = −ΔKE for conversion of potential to kinetic energy.",
+      "record": "proposals/author-corrections/U3-41.json"
+    },
+    {
+      "id": "U3-42",
+      "module": "m52412",
+      "source_id": "import-auto-id1645429",
+      "reason": "Label the pole near geographic north by its physical south magnetic polarity, consistent with the section explanation.",
+      "record": "proposals/author-corrections/U3-42.json"
+    },
+    {
+      "id": "U3-43",
+      "module": "m52413",
+      "source_id": "import-auto-id1751385",
+      "reason": "Correct the circular field-arrow direction around the upward conventional current, consistent with the right-hand rule.",
+      "record": "proposals/author-corrections/U3-43.json"
+    },
+    {
+      "id": "U3-44",
+      "module": "m70744",
+      "source_id": "import-auto-id1169738116402",
+      "reason": "Correct the right-hand illustration in panel (b) to match the rightward induced field; retain Lenz-law directions.",
+      "record": "proposals/author-corrections/U3-44.json"
+    },
+    {
+      "id": "U3-45",
+      "module": "m52412",
+      "source_id": "import-auto-id1645429",
+      "reason": "Synchronize alternative text with the corrected south-polarity label in the diagram.",
+      "record": "proposals/author-corrections/U3-45.json"
+    },
+    {
+      "id": "U3-46",
+      "module": "m52381",
+      "source_id": "import-auto-id1855377",
+      "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+      "record": "proposals/author-corrections/U3-46.json"
+    },
+    {
+      "id": "U3-47",
+      "module": "m67122",
+      "source_id": "import-auto-id2600697",
+      "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+      "record": "proposals/author-corrections/U3-47.json"
+    },
+    {
+      "id": "U3-48",
+      "module": "m67031",
+      "source_id": "import-auto-id3087674",
+      "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+      "record": "proposals/author-corrections/U3-48.json"
+    },
+    {
+      "id": "U3-49",
+      "module": "m67134",
+      "source_id": "import-auto-id1362599",
+      "reason": "Fill missing alternative text after visual verification against the retained image; use neutral wording for photographs.",
+      "record": "proposals/author-corrections/U3-49.json"
+    },
+    {
+      "id": "U3-50",
+      "module": "m75427",
+      "source_id": "import-auto-id1935736",
+      "reason": "Synchronize the figure description with the corrected energy signs: the decrease in potential energy equals the increase in kinetic energy.",
+      "record": "proposals/author-corrections/U3-50.json"
+    }
+  ]
+}
