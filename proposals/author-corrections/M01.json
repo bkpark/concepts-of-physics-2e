@@ -1,6 +1,6 @@
 {
   "id": "M01",
-  "status": "preview-awaiting-author-confirmation",
+  "status": "applied-author-directed",
   "module": "m67804",
   "source_object": "eip-691",
   "source_path": "maintained/modules/m67804/index.cnxml",
@@ -9,6 +9,8 @@
   "interpretation": "Two relations joined by literal prose: Δp approximately equals p, where p = h/λ with an inline slash (AsciiMath //). Retain the terminal period and existing equation identity/number.",
   "before": "<m:math><m:apply><m:mo stretchy=\"false\">≈</m:mo><m:mrow><m:ci>Δ</m:ci><m:ci>p</m:ci></m:mrow><m:apply><m:eq/><m:ci>p</m:ci><m:apply><m:divide/><m:ci>h</m:ci><m:ci>λ</m:ci></m:apply></m:apply></m:apply><m:mo>.</m:mo></m:math>",
   "after": "<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi mathvariant=\"normal\">Δ</m:mi><m:mi>p</m:mi><m:mo>≈</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mspace width=\"0.3em\"/><m:mtext>where</m:mtext><m:mspace width=\"0.3em\"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mo stretchy=\"false\">/</m:mo><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math>",
-  "policy": "Not applied. Historical source remains immutable; this proposal targets only the maintained source after confirmation.",
-  "preview_note": "Preview only — not yet applied. “Where” is included literally; h/λ uses an inline slash."
+  "policy": "Applied to maintained source only; historical source and exact before fragment remain preserved.",
+  "change_kind": "replace-math",
+  "after_sha256": "0bb3c04f445a073b77d105f3c3e0e279f6b32b566e3a786c04b15022493e9bb6",
+  "reason": "Apply the author-approved MathML correction from the supplied AsciiMath expression. Two relations joined by literal prose: Δp approximately equals p, where p = h/λ with an inline slash (AsciiMath //). Retain the terminal period and existing equation identity/number."
 }
