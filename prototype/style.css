@@ -2,3 +2,6 @@
 .attribution{font:12px/1.5 Arial,sans-serif;color:#52656d;border-top:1px solid #bdcccc;margin-top:30px;padding-top:12px}@media print{.attribution{font-size:8pt}}
 
 math{font-family:"Cambria Math",math} mtd{padding:2px 4px} mtable[columnalign="left"] mtd{text-align:left} .math-copy-toolbar{padding:10px 5%;font:14px Arial,sans-serif;background:#e8f0ef;display:flex;align-items:center;gap:15px} .math-copy-toolbar button{padding:8px 12px;background:#16576b;color:white;border:0;border-radius:3px;cursor:pointer} math:focus-visible{outline:2px solid #468a96} @media print{.math-copy-toolbar{display:none} math:focus{outline:none}}
+
+/* Release-candidate accessibility and narrow-screen layout. */
+th{border:1px solid #bdcccc;padding:6px 10px;vertical-align:top;font-weight:normal;text-align:left}a{overflow-wrap:anywhere}@media print{th{font-size:8.5pt;padding:4px 8px}}@media(max-width:650px){.math-copy-toolbar{flex-wrap:wrap}.external-media{overflow-wrap:anywhere}[data-math-key]{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}}

@@ -1,5 +1,7 @@
 # Maintained-source rendering prototype
 
+Versioned release-candidate workflow: see `docs/release-candidate-cp2e-ver1.0.md`.
+
 Full course-numbered PDF: see `docs/full-book-pdf.md` for generation, exercise placement, and layout verification.
 
 Previous HTML milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.

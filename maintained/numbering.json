@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "CNX counter rules checked on selected historical examples; full-book and course exercise verification pending",
+  "status": "Release candidate: selected CNX/course object fixtures and 803 exercise-reference mappings checked; four deferred exercise-alignment exception groups documented",
   "cnx": {
     "scope": "chapter",
     "unnumbered_equation_ancestor_classes": [
@@ -34,7 +34,27 @@
     "exercise_prefix": true,
     "inline_exercise_prefix": true,
     "separate_exercise_counters": false,
-    "chapter_exercise_views": true
+    "chapter_exercise_views": true,
+    "relocated_section_titles": {
+      "Conceptual Questions": "conceptual-questions",
+      "Problems & Exercises": "problems-exercises"
+    },
+    "continuous_exercise_chapters": [
+      "1",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "exercise_type_aliases": {
+      "problem-exercises": "problems-exercises"
+    },
+    "exercise_paragraphs": [
+      "m67123#fs-id3224510",
+      "m67123#fs-id2862863"
+    ]
   },
   "overrides": {
     "cnx": {},
@@ -44,6 +64,9 @@
     "Historical PDF page 42: first m67034 displayed equation 2.23; repeated section-summary equations must not advance counters.",
     "Historical PDF page 237: m67122 ideal gas equation 9.1; preceding m52364 contains four summary equations that are not numbered.",
     "Historical PDF page 41: kayak figure 2.23; m52314 problems-exercises figure follows the chapter body, not its source-file position.",
-    "Course PDF page 327: chapter conceptual questions numbered continuously, Ideal Gas Law questions 5 and 6; exercise figures labeled 8.E.1. Separate problem counter checked on page 331."
+    "Course PDF page 327: chapter conceptual questions numbered continuously, Ideal Gas Law questions 5 and 6; exercise figures labeled 8.E.1. Separate problem counter checked on page 331.",
+    "Release-candidate comparison: July 7 reference PDF problems continue conceptual counters in chapters 1 (page 72), 9 (398), 10 (449), 11 (520), 12 (557), 13 (601), 14 (690). Chapter 8 restarts on page 331. Three unclassified Conceptual Questions source blocks contain eight questions retained in reference order.",
+    "Recovered modules including m52381 and m76603 use the singular problem-exercises type inside plural problems-exercises sections; normalize only presentation category so chapter counters follow source order.",
+    "Course reference PDF page 327 numbers the two standalone m67123 conceptual-question paragraphs 11 and 12. They receive exercise display labels without changing their preserved paragraph XML."
   ]
 }

@@ -66,7 +66,7 @@ for p in audit['pages']:
     assert p['renderedMath']+len(p['unresolved'])==p['mathWrappers']
 views=json.loads((P/'dist/course-full/exercise-views.json').read_text(encoding='utf-8'))
 projected=[b['module']+'#'+ident for v in views for b in v['blocks'] for ident in b['exercise_ids']]
-assert len(projected)==len(set(projected))==944
+assert len(projected)==len(set(projected))==952
 labels=json.loads((P/'dist/course-full/object-labels.json').read_text(encoding='utf-8'))
 assert labels['m67123#import-auto-id2589627']['label']=='8.E.1'
 assert (P/'dist/course-full/identity-registry.json').read_bytes()==(P/'dist/cnx-full/identity-registry.json').read_bytes()

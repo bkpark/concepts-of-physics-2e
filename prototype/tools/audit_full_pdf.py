@@ -1,7 +1,7 @@
 from pathlib import Path
-import pdfplumber,json,hashlib
+import pdfplumber,json,hashlib,sys
 from pypdf import PdfReader
-p=Path('output/pdf/introduction-to-physics-course.pdf');out=Path('prototype/qa/course-full-pdf.json')
+p=Path(sys.argv[1]) if len(sys.argv)>1 else Path('output/pdf/introduction-to-physics-course.pdf');out=Path('prototype/qa/course-full-pdf.json')
 rows=[];fonts=set();mathchars=0
 with pdfplumber.open(p) as pdf:
  for n,page in enumerate(pdf.pages,1):
@@ -22,7 +22,7 @@ for n,page in enumerate(reader.pages,1):
     if dest not in names:bad_links.append([n,str(dest)])
    elif dest[0].idnum not in page_ids:bad_links.append([n,str(dest)])
   elif action.get('/S')=='/URI':external+=1
-report={'internal_links':internal,'external_links':external,'broken_pdf_links':bad_links,'tagged':bool(reader.trailer['/Root'].get('/StructTreeRoot')),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'pages':len(rows),'math_chars':mathchars,'fonts':sorted(fonts),'page_audit':rows}
+report={'pdf_path':p.as_posix(),'internal_links':internal,'external_links':external,'broken_pdf_links':bad_links,'tagged':bool(reader.trailer['/Root'].get('/StructTreeRoot')),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'pages':len(rows),'math_chars':mathchars,'fonts':sorted(fonts),'page_audit':rows}
 out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({'pages':len(rows),'outside_pages':[r['page'] for r in rows if r['outside']],'sparse':[r['page'] for r in rows if r['chars']<100]},ensure_ascii=True))
 

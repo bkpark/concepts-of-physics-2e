@@ -1,6 +1,12 @@
 {
-  "browser": "153.0.8010.50",
-  "playwright": "1.62.1",
+  "release_id": "cp2e-ver1.0",
+  "title": "Introduction to Physics",
+  "status": "release-candidate",
+  "publication_ready": false,
+  "numbering_profile": "course",
+  "numbering_policy": "Numbering is presentation metadata within this release. Switching numbering profiles does not create a separate edition/release or change canonical section URLs.",
+  "pdf_sha256": "623f81eec12541d15b4384a180aabb9d79cc18f16096929e1b192115c27972a6",
+  "renderer_lock_sha256": "65bfbfde6893f75579828d05f31766b4175a5e4e971dd91b4b66b3bd5aaccd5b",
   "source_sha256": {
     "m67030": "41a5f500d7b26194cfbba2697814f7f682de5e501ef016a5c36578907c733d92",
     "m52309": "287f2246508a1eab3830f248629c949b364126bd992b64e87bb4c866831f9be7",
@@ -144,24 +150,6 @@
     "m78798": "4c8ff224e2092e0de399484be6cb051788c9bef01c34c26acc62243e27365762",
     "m42709": "cbce27000e57bd2803bf00f93bae85f180be2396b497d9c336e4f49048880bec"
   },
-  "external": [],
-  "errors": [],
-  "audit": {
-    "inline_exercises": 41,
-    "chapter_end_exercises": 954,
-    "modules": 141,
-    "moved_blocks": 156,
-    "math": 7391,
-    "images": 563,
-    "final_math": 7391,
-    "final_images": 563,
-    "lost": [],
-    "duplicates": [],
-    "brokenLinks": []
-  },
-  "layout": {
-    "brokenImages": [],
-    "overflow": [],
-    "placeholders": 0
-  }
+  "static_pages": 157,
+  "local_links_checked": 2450
 }

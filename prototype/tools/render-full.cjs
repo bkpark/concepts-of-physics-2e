@@ -1,8 +1,12 @@
 // Full course PDF, derived from the canonical HTML; source XML is never edited.
 const {chromium}=require('playwright');
 const fs=require('fs'),path=require('path'),http=require('http'),crypto=require('crypto');
-const root=path.resolve(__dirname,'../..'),dist=path.join(root,'prototype/dist/course-full');
-const output=path.join(root,'output/pdf');fs.mkdirSync(output,{recursive:true});
+const root=path.resolve(__dirname,'../..');
+const release=JSON.parse(fs.readFileSync(path.join(root,'metadata/release.json'),'utf8'));
+const releasing=process.argv.includes('--release');
+if(releasing){const lock=JSON.parse(fs.readFileSync(path.join(root,'metadata/render-environment.lock.json'),'utf8'));for(const f of lock.files)if(crypto.createHash('sha256').update(fs.readFileSync(f.path)).digest('hex')!==f.sha256)throw Error('Changed locked dependency: '+f.path);if(process.version!==lock.node_version||require('playwright/package.json').version!==lock.playwright_version)throw Error('Renderer runtime version differs from lock');console.log('Locked renderer and fonts verified.');}
+const dist=releasing?path.join(root,'output/releases',release.release_id,'site'):path.join(root,'prototype/dist/course-full');
+const output=releasing?path.join(root,'output/releases',release.release_id):path.join(root,'output/pdf');fs.mkdirSync(output,{recursive:true});
 const qa=path.join(root,'prototype/qa');
 const server=http.createServer((req,res)=>{const f=path.resolve(dist,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));if(!f.startsWith(dist+path.sep)||!fs.existsSync(f)){res.writeHead(404).end();return;}const types={'.html':'text/html','.css':'text/css','.js':'text/javascript','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml'};res.setHeader('Content-Type',types[path.extname(f)]||'application/octet-stream');fs.createReadStream(f).pipe(res);});
 (async()=>{
@@ -47,7 +51,7 @@ const server=http.createServer((req,res)=>{const f=path.resolve(dist,'.'+decodeU
  const lost=initialIds.filter(x=>!finalIds.includes(x));if(lost.length)throw Error('Lost anchors '+lost);
  const duplicates=finalIds.filter((x,i,a)=>a.indexOf(x)!==i);
  const brokenLinks=[...main.querySelectorAll('a[href^="#"]')].filter(a=>!document.getElementById(decodeURIComponent(a.hash.slice(1)))).map(a=>a.getAttribute('href'));
- const inlineExercises=articles.reduce((n,a)=>n+a.querySelectorAll('.exercise').length,0);const endExercises=main.querySelectorAll('.chapter-exercises .exercise').length;if(inlineExercises!==41||endExercises!==952)throw Error('Exercise placement mismatch');
+ const inlineExercises=articles.reduce((n,a)=>n+a.querySelectorAll('.exercise').length,0);const endExercises=main.querySelectorAll('.chapter-exercises .exercise').length;if(inlineExercises!==41||endExercises!==954)throw Error('Exercise placement mismatch');
  return {inline_exercises:inlineExercises,chapter_end_exercises:endExercises,modules:articles.length,moved_blocks:moved.length,math:initialMath,images:initialImages,final_math:main.querySelectorAll('math').length,final_images:main.querySelectorAll('img').length,lost,duplicates,brokenLinks};
  },{views,manifest});
  await page.addStyleTag({content:`@media print { .contents ol{list-style:none;padding:0;columns:2;column-gap:24px;font-size:9pt;line-height:1.25}.contents li{break-inside:avoid;margin:0 0 3px}.chapter-exercises > h2{margin-top:18px}.chapter-exercises .exercise{margin:14px 0;padding-top:8px}.attribution{margin-top:5px;padding-top:5px}.credit-block{break-inside:avoid;margin-bottom:16px}.book-attributions h2{font-size:11pt}.print-keep{break-inside:avoid}caption{break-after:avoid}h1,h2,h3{break-inside:avoid}.para{orphans:3;widows:3}math[display=block]{max-width:100%} .equation{overflow:visible} }`});
@@ -57,8 +61,8 @@ const server=http.createServer((req,res)=>{const f=path.resolve(dist,'.'+decodeU
  const html=await page.content();fs.writeFileSync(path.join(dist,'print-full.html'),html);
  console.log(JSON.stringify({audit,layout}));
  if(audit.duplicates.length||audit.brokenLinks.length||audit.math!==audit.final_math||audit.images!==audit.final_images||layout.brokenImages.length||layout.placeholders||errors.length)throw Error('Preprint validation failed');
- if(!process.argv.includes('--check'))await page.pdf({path:path.join(output,'introduction-to-physics-course.pdf'),format:'Letter',preferCSSPageSize:true,printBackground:true,displayHeaderFooter:true,headerTemplate:'<div></div>',footerTemplate:'<div style="font-size:8px;width:100%;text-align:center;color:#54656c">Introduction to Physics · <span class="pageNumber"></span> / <span class="totalPages"></span></div>',tagged:true,outline:true,timeout:240000});
+ if(!process.argv.includes('--check'))await page.pdf({path:path.join(output,releasing?release.pdf_filename:'introduction-to-physics-course.pdf'),format:'Letter',preferCSSPageSize:true,printBackground:true,displayHeaderFooter:true,headerTemplate:'<div></div>',footerTemplate:'<div style="font-size:8px;width:100%;text-align:center;color:#54656c">Introduction to Physics · <span class="pageNumber"></span> / <span class="totalPages"></span></div>',tagged:true,outline:true,timeout:240000});
  fs.writeFileSync(path.join(qa,'course-full-print.json'),JSON.stringify({browser:browser.version(),playwright:require('playwright/package.json').version,source_sha256:manifest.source_sha256,external,errors,audit,layout},null,2)+'\n');
- console.log(process.argv.includes('--check')?'Preprint checks passed; existing PDF unchanged.':'Created output/pdf/introduction-to-physics-course.pdf');
+ console.log(process.argv.includes('--check')?'Preprint checks passed; existing PDF unchanged.':'Created '+path.join(output,releasing?release.pdf_filename:'introduction-to-physics-course.pdf'));
  }finally{await browser.close();server.close();}
 })().catch(e=>{console.error(e);server.close();process.exitCode=1;});

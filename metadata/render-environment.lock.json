@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "platform": "Windows",
+  "chrome_version": "153.0.8010.50",
+  "playwright_version": "1.62.1",
+  "node_version": "v24.19.0",
+  "files": [
+    {
+      "path": "C:\\Windows\\Fonts\\cambria.ttc",
+      "sha256": "84e70ccc1664482f4a960442c7a166c91a1b2cf98ff88c33cb73f79403f66d7b"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\georgia.ttf",
+      "sha256": "38dffcaf1fac89492f7c56c600a14daf36ae42f7c21985cd4134ae113124a58f"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\georgiab.ttf",
+      "sha256": "72a6cd94fab6c179392075d3fb361e269cdddfad41bb7ab385fa22a37e49a900"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\georgiai.ttf",
+      "sha256": "d3e4bad27651d120ac8f2cea42cf4b4f077264fb243f66b3caffcfd35465f49b"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\georgiaz.ttf",
+      "sha256": "3f9e512f82eaf6f1b7869b82013fb79f6eaf1a41e75a0e7b96f31f35b1022ae4"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arial.ttf",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\ariali.ttf",
+      "sha256": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\times.ttf",
+      "sha256": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "sha256": "be70c6ef3a171b4619a61f9488d9b8f3b337edca318877f77d9ab488de444195"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\153.0.8010.50\\chrome.dll",
+      "sha256": "d0001cf1bfb97eb6365a8ed0fecc06d1aa48aedc291e43ad219082ef94196d0d"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\153.0.8010.50\\icudtl.dat",
+      "sha256": "a3c6d7824935e87fed17e94c2d84b7683ef360ebc5c4ea92e2ca70f361bc9314"
+    }
+  ],
+  "policy": "Verify installed renderer and font files before release builds; these platform fonts are not redistributed. Byte-identical PDF output is not claimed: browser metadata/timestamps are not normalized."
+}
