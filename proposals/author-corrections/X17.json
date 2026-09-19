@@ -1,0 +1,24 @@
+{
+  "id": "X17",
+  "covered_review_ids": [
+    "X17",
+    "X18"
+  ],
+  "status": "preview-awaiting-author-confirmation",
+  "change_kind": "replace-prose",
+  "module": "m42671",
+  "source_object": "import-auto-id1169738114234",
+  "source_path": "maintained/modules/m42671/index.cnxml",
+  "source_sha256": "0d3a105bb1613188dfc3e2708f3531c27ad83a406a46110864036ef986e52b29",
+  "before": "<para id=\"import-auto-id1169738114234\">Why is it that particles called gluons are listed as the carrier particles for the strong nuclear force when, in <link document=\"m42669\">The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited</link>, we saw that pions apparently carry that force? The answer is that pions are exchanged but they have a substructure and, as we explore it, we find that the strong force is actually related to the indirectly observed but more fundamental <term id=\"import-auto-id1169738037481\">gluons</term>. In fact, all the carrier particles are thought to be fundamental in the sense that they have no substructure. Another similarity among carrier particles is that they are all bosons (first mentioned in <link document=\"m42609\">Patterns in Spectra Reveal More Quantization</link>), having integral intrinsic spins.</para>",
+  "after": "<para id=\"import-auto-id1169738114234\">The pion-exchange model describes the nuclear force between protons and neutrons. Pions are composite particles made of quarks and antiquarks, whereas <term id=\"import-auto-id1169738037481\">gluons</term> are fundamental carriers of the strong interaction between quarks. The force between protons and neutrons is a residual effect of this interaction and can be modeled by pion exchange. Gluons and the other known fundamental force carriers have no known substructure. They are bosons, particles with integer spin quantum numbers.</para>",
+  "replacement_text": "The pion-exchange model describes the nuclear force between protons and neutrons. Pions are composite particles made of quarks and antiquarks, whereas gluons are fundamental carriers of the strong interaction between quarks. The force between protons and neutrons is a residual effect of this interaction and can be modeled by pion exchange. Gluons and the other known fundamental force carriers have no known substructure. They are bosons, particles with integer spin quantum numbers.",
+  "reason": "One self-contained paragraph addresses both missing references. Distinguish the residual nuclear-force model from the fundamental quark interaction, and introduce bosons without assuming a removed section. Preserve the gluons term ID. Apply this shared paragraph replacement only once.",
+  "evidence": [
+    "https://www.energy.gov/science/doe-explainsthe-strong-force",
+    "https://www.jlab.org/research/pion_form",
+    "https://www.jlab.org/highlights/archive/phys.html",
+    "https://atlas.cern/updates/briefing/scalar-boson"
+  ],
+  "policy": "Proposed only; no source changes for X17 or X18 until wording is approved."
+}

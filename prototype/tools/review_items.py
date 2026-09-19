@@ -22,6 +22,7 @@ for kind,findings in [('M',maths),('X',refs)]:
   change_path=ROOT/'proposals/author-corrections'/f'{code}.json'
   if kind=='X' and change_path.exists():
    change=json.loads(change_path.read_text(encoding='utf-8'))
+   if change.get('proposal_ref'):change=json.loads((ROOT/change['proposal_ref']).read_text(encoding='utf-8'))
    if change['status']=='applied-author-directed':
     applied=change
     if applied.get('change_kind')!='replace-prose':item={**item,'document':applied['target_document'],'target':applied['target_id']}
