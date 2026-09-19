@@ -1,0 +1,75 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Centripetal Acceleration</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67035</md:content-id>
+  <md:title>Centripetal Acceleration</md:title>
+  <md:abstract><list>
+<item>Explain what centripetal acceleration is.</item>
+<item>Use the formula for centripetal acceleration in simple situations.</item>
+</list></md:abstract>
+  <md:uuid>c7cb418b-47e3-47aa-8375-790ae0e40235</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3008127">We defined acceleration as a change in velocity, either in its magnitude or in its direction, or both. When an object moves along a circular path, the direction of its velocity changes constantly, so there is always an associated acceleration, even if the speed of the object is constant. You experience this acceleration yourself when you turn a corner in your car. What you notice is a sideways acceleration because you and the car are changing direction. The sharper the curve and the greater your speed, the more noticeable this acceleration will become. In this section we briefly examine the direction and magnitude of that acceleration.</para><para id="import-auto-id2422195"><link target-id="import-auto-id1561888"/> shows an object moving in a circular path at constant speed, called <term>uniform circular motion</term>. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the <term id="import-auto-id3108952">centripetal acceleration</term>(<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>); centripetal means “toward the center” or “center seeking.” </para><figure id="import-auto-id1561888"><media id="import-auto-id2595332" alt="The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundry. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_02_01a.jpg" width="250"/>
+      </media>
+        
+    <caption>The directions of the velocity of an object at two different points are shown, and the change in velocity <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext mathvariant="bold">v</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv} {}</m:annotation></m:semantics></m:math> is seen to point directly toward the center of curvature. (See small inset.) Because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">a</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mtext mathvariant="bold">v</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> {a rSub { {c} } =Δv/Δt} {}</m:annotation></m:semantics></m:math>, the acceleration is also toward the center; <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">a</m:mtext><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is called centripetal acceleration. (For small time differences, <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δθ} {}</m:annotation></m:semantics></m:math> is very small, and the arc length <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δs} {}</m:annotation></m:semantics></m:math> is approximately equal to the chord length <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δr} {}</m:annotation></m:semantics></m:math>.)</caption></figure><para id="import-auto-id723408">The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? If we use the geometry shown in <link target-id="import-auto-id1561888"/> along with some kinematics equations, we can obtain (detailed derivation skipped)</para><equation id="eip-684"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } ","} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2429569">which is the acceleration of an object in a circle of radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. Verify for yourself that <m:math><m:semantics><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } }</m:annotation></m:semantics></m:math> has unit of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m/s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, as expected for acceleration.</para><para id="eip-428">We see in <link target-id="eip-684"/> that centripetal acceleration is greater at high speeds and in sharp curves (smaller radius), as you have noticed when driving a car. But it is a bit surprising that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is proportional to speed squared, implying, for example, that it is four times as hard to take a curve at 100 km/h than at 50 km/h. A sharp corner has a small radius, so that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is greater for tighter turns, as you have probably noticed.</para><section id="fs-id2588123" class="section-summary"><title>Section Summary</title><list id="fs-id2407037"><item id="import-auto-id1963039">Centripetal acceleration <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is the acceleration experienced while in uniform circular motion. It always points toward the center of rotation. It is perpendicular to the linear velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and has the magnitude
+    <equation id="eip-440"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      
+                        <m:mrow>
+                          <m:mtext>c</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msup>
+                      <m:mi>r</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mi/>
+                </m:mrow>
+              </m:mrow>    
+            <m:mrow/>
+<m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } }</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation></item>
+    <item id="import-auto-id2624755">The unit of centripetal acceleration is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m/s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>
+</list></section><section id="fs-id2654169" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="eip-805"><problem id="eip-765">
+  <para id="eip-591">
+    Give examples of centripetal acceleration from everyday experience.
+  </para>
+</problem></exercise><exercise id="eip-479"><problem id="eip-72">
+  <para id="eip-826">A satellite in a circular orbit around the Earth is undergoing a centripetal acceleration. Explain how this description is consistent with the description that the satellite in free-fall.</para></problem></exercise><exercise id="fs-id1348631"><problem id="fs-id1386165">
+
+    <para id="import-auto-id1367961">Can centripetal acceleration change the speed of circular motion? Explain.</para>
+    </problem></exercise>
+    </section>
+    </content>
+    <glossary>
+        <definition id="import-auto-id2577991"><term>centripetal acceleration</term> <meaning id="fs-id1549236">the acceleration of an object moving in a circle, directed toward the center</meaning></definition>
+            <definition id="import-auto-id2603595"><term>ultracentrifuge</term> <meaning id="fs-id1587970">a centrifuge optimized for spinning a rotor at very high speeds</meaning></definition>
+<definition id="fs-idm321336624"><term>uniform circular motion</term> <meaning id="fs-idm693296896">an object moving in a circular path at constant speed</meaning></definition>
+    </glossary>
+</document>

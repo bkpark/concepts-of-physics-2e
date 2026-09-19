@@ -1,0 +1,450 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rotational Kinetic Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67046</md:content-id>
+  <md:title>Rotational Kinetic Energy</md:title>
+  <md:abstract><list>
+<item>Guess the equation for rotational kinetic energy by analogy.</item>
+<item>Calculate rotational kinetic energy.</item>
+</list></md:abstract>
+  <md:uuid>3ad01c2b-a825-4ca9-9841-5e25a0ba5a3d</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3035380">In this module, we will learn about work and energy associated with rotational motion. <link target-id="import-auto-id3229349"/> shows a worker using an electric grindstone propelled by a motor. Sparks are flying, and noise and vibration are created as layers of steel are pared from the pole. The stone continues to turn even after the motor is turned off, but it is eventually brought to a stop by friction. Clearly, the motor had to work to get the stone spinning. This work went into heat, light, sound, vibration, and considerable <term id="import-auto-id2669979">rotational kinetic energy</term>.</para>
+<figure id="import-auto-id3229349"><media id="import-auto-id2630228" alt="The figure shows a mechanic cutting metal with a metal grinder. The sparks are emerging from the point of contact and jumping off tangentially from the cutter.">
+          <image mime-type="image/png" src="../../media/Figure_11_04_01a.jpg" width="250"/>
+        </media>
+        
+      <caption>The motor works in spinning the grindstone, giving it rotational kinetic energy. That energy is then converted to heat, light, sound, and vibration. (credit: U.S. Navy photo by Mass Communication Specialist Seaman Zachary David Bell)</caption></figure>
+<para id="eip-912">Instead of deriving the formula for rotational kinetic energy by calculating the work done by torque on a rotating object, we can simply guess the correct formula by analogy. We know the kinetic energy in linear, or translational motion, <m:math display="inline"><m:apply><m:eq/><m:ci>KE</m:ci><m:mrow><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply><m:ci>m</m:ci><m:apply><m:power/><m:ci>v</m:ci><m:cn>2</m:cn></m:apply></m:mrow></m:apply></m:math>. We can find the rotational version of kinetic energy by replacing mass <m:math display="inline"><m:ci>m</m:ci></m:math> with rotational version of mass, rotational inertia <m:math display="inline"><m:ci>I</m:ci></m:math>, and by replacing speed <m:math display="inline"><m:ci>v</m:ci></m:math> with rotational speed <m:math display="inline"><m:ci>ω</m:ci></m:math>. Rotational speed is measured in units of radians per second. With these replacements, we get the formula for rotational kinetic energy,</para><equation id="eip-682"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>KE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mtext>rot</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mi fontstyle="italic">Iω</m:mi>
+                    
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"rot"} } = {  {1}  over  {2} } Iω rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1434731">Rotational kinetic energy has important effects. Flywheels, for example, can be used to store large amounts of rotational kinetic energy in a vehicle, as seen in <link target-id="import-auto-id1614457"/>.</para><figure id="import-auto-id1614457"><media id="import-auto-id1817378" alt="The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_04_03a.jpg" width="250"/>
+      </media>
+      
+    <caption>Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "rot"} } } {}</m:annotation></m:semantics></m:math>. It can also convert translational kinetic energy, when the bus stops, into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "rot"} } } {}</m:annotation></m:semantics></m:math>. The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.</caption></figure><para id="import-auto-id3162150">Helicopter pilots are quite familiar with rotational kinetic energy. They know, for example, that a point of no return will be reached if they allow their blades to slow below a critical angular velocity during flight. The blades lose lift, and it is impossible to immediately get the blades spinning fast enough to regain it. Rotational kinetic energy must be supplied to the blades to get them to rotate faster, and enough energy cannot be supplied in time to avoid a crash. Because of weight limitations, helicopter engines are too small to supply both the energy needed for lift and to replenish the rotational kinetic energy of the blades once they have slowed down. The rotational kinetic energy is put into them before takeoff and must not be allowed to drop below this crucial level. One possible way to avoid a crash is to use the gravitational potential energy of the helicopter to replenish the rotational kinetic energy of the blades by losing altitude and aligning the blades so that the helicopter is spun up in the descent. Of course, if the helicopter’s altitude is too low, then there is insufficient time for the blade to regain lift before reaching the ground.</para>
+   
+  <example id="fs-id3173123">
+    <title>Calculating Helicopter Energies</title>
+    <para id="import-auto-id1362546">A typical small rescue helicopter, similar to the one in <link target-id="import-auto-id2420248"/>, has four blades, each is 4.00 m long and has a mass of 50.0 kg. The blades can be approximated as thin rods that rotate about one end of an axis perpendicular to their length. The helicopter has a total loaded mass of 1000 kg. (a) Calculate the rotational kinetic energy in the blades when they rotate at 300 rpm. (b) Calculate the translational kinetic energy of the helicopter when it flies at 20.0 m/s, and compare it with the rotational energy in the blades. (c) To what height could the helicopter be raised if all of the rotational kinetic energy could be used to lift it?</para><para id="import-auto-id1389334"><emphasis>Strategy</emphasis></para>
+      <para id="fs-id1519185">Rotational and translational kinetic energies can be calculated from their definitions. The last part of the problem relates to the idea that energy can change form, in this case from rotational kinetic energy to gravitational potential energy.</para>
+   
+      <para id="import-auto-id3430265"><emphasis>Solution for (a)</emphasis></para>
+      <para id="fs-id1569357">The rotational kinetic energy is </para><equation id="eip-327"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msup><m:mi fontstyle="italic">Iω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"rot"} } = {  {1}  over  {2} } Iω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1426438">We must convert the angular velocity to radians per second and calculate the moment of inertia before we can find <m:math><m:semantics><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mtext>rot</m:mtext></m:msub></m:mrow></m:semantics></m:math>. The angular velocity <m:math><m:semantics><m:mrow><m:mi>ω</m:mi></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> is</para><equation id="eip-583"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mrow><m:mtext>300 rev</m:mtext></m:mrow><m:mrow><m:mtext>1.00 min</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⋅</m:mo><m:mfrac><m:mrow><m:mtext>2π rad</m:mtext></m:mrow><m:mtext>1 rev</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mfrac><m:mrow><m:mtext>1.00 min</m:mtext></m:mrow><m:mrow><m:mtext>60.0 s</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>31.4</m:mtext><m:mfrac><m:mtext>rad</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω= {  {"300"" rev"}  over  {1 "." "00 min"} }  cdot  {  {2π" rad"}  over  {"1 rev"} }  cdot  {  {1 "." "00"" min"}  over  {"60" "." 0" s"} } ="31" "." 4 {  {"rad"}  over  {s} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2598986">The moment of inertia of one blade will be that of a thin rod rotated about its end, <m:math><m:apply><m:eq/><m:msub><m:ci>I</m:ci><m:ci>rod</m:ci></m:msub><m:mrow><m:apply><m:divide/><m:cn>1</m:cn><m:cn>3</m:cn></m:apply><m:ci>M</m:ci><m:apply><m:power/><m:ci>ℓ</m:ci><m:ci>2</m:ci></m:apply></m:mrow></m:apply></m:math>. The total <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> is four times this moment of inertia, because there are four blades. Thus,</para><equation id="eip-897"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi fontstyle="italic">Mℓ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>50.0 kg</m:mtext></m:mrow></m:mfenced><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mtext>4.00 m</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>1067 kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I=4 {  {Mℓ rSup { size 8{2} } }  over  {3} } =4 times  {  { left ("50" "." 0" kg" right ) left (4 "." "00"" m" right ) rSup { size 8{2} } }  over  {3} } ="1067"" kg" cdot m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2673012">Entering <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> into the expression for rotational kinetic energy gives</para>
+    <equation id="eip-913"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msub>
+                              <m:mtext>KE</m:mtext>
+                                  <m:mtext>rot</m:mtext>
+                            </m:msub></m:mtd><m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                            <m:mn>0.5</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                              <m:mtext>1067 kg</m:mtext>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:msup>
+                                  <m:mtext>m</m:mtext>
+                                      <m:mn>2</m:mn>
+                                </m:msup>
+                       
+                            <m:mo stretchy="false">)</m:mo>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                                <m:mtext>31.4 rad/s</m:mtext>
+                            </m:mfenced>
+                                <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+              <m:mtd>    <m:mrow>
+                    <m:mrow>
+                   </m:mrow>
+
+                      <m:mn>5.26</m:mn>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                            <m:mn>5</m:mn>
+                      </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"KE" rSub { size 8{"rot"} } =0 "." 5 left ("1067"" kg" cdot m rSup { size 8{2} }  right ) left ("31" "." 4" rad/s" right ) rSup { size 8{2} } }  {} # 
+"         "=5 "." "26" times "10" rSup { size 8{5} } " J" {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2616110"><emphasis>Solution for (b)</emphasis></para>
+      <para id="fs-id3063092">Entering the given values of mass and velocity into formula for translational kinetic energy, we obtain</para><equation id="eip-2"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mtext>trans</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mrow><m:msup><m:mi mathvariant="italic">mv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mn>0.5</m:mn></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>1000 kg</m:mtext></m:mrow></m:mfenced><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mtext>20.0 m/s</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"trans"} } = {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } =0 "." 5 left ("1000"" kg" right ) left ("20" "." 0" m/s" right ) rSup { size 8{2} } =2 "." "00" times "10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1587080">To compare kinetic energies, we take the ratio of translational kinetic energy to rotational kinetic energy. This ratio is</para>
+    <equation id="eip-973"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>26</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0.380</m:mn></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2 "." "00" times "10" rSup { size 8{5} } " J"}  over  {5 "." "26" times "10" rSup { size 8{5} } " J"} } =0 "." "380"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1848503"><emphasis>Solution for (c)</emphasis></para>
+      <para id="fs-id2407243">At the maximum height, all rotational kinetic energy will have been converted to gravitational energy. To find this height, we equate those two energies:</para>
+    <equation id="eip-487"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mtext>KE</m:mtext>
+                    
+                      <m:mrow>
+                        <m:mtext>rot</m:mtext>
+                      </m:mrow>
+                    
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mtext>PE</m:mtext>
+                    
+                      <m:mrow>
+                        <m:mtext>grav</m:mtext>
+                      </m:mrow>
+                    
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"rot"} } ="PE" rSub { size 8{"grav"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id3148882">or</para>
+    <equation id="eip-154"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi fontstyle="italic">Iω</m:mi>
+                      
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mgh</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } Iω rSup { size 8{2} } = ital "mgh"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1920250">We now solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> and substitute known values into the resulting equation</para>
+    <equation id="eip-232"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>h</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
+                              <m:mi fontstyle="italic">Iω</m:mi>
+                              </m:mrow>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              
+                            </m:msup>
+                          </m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>mg</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5.26</m:mn>
+                            <m:mo stretchy="false">×</m:mo>                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+                              
+                                  <m:mn>5</m:mn>
+                            </m:msup>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mtext> J</m:mtext>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>1000 kg</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>9.80</m:mn><m:mspace width="0.25em"/>
+                              <m:msup>
+                                <m:mtext> m/s</m:mtext>
+                                
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>                  </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>53.7 m</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{h= {  { { size 8{1} } wideslash { size 8{2} } Iω rSup { size 8{2} } }  over  { ital "mg"} } = {  {5 "." "26" times "10" rSup { size 8{5} } " J"}  over  { left ("1000"" kg" right ) left (9 "." "80"" m/s" rSup { size 8{2} }  right )} } ="53" "." 7" m"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id3068968"><emphasis>Discussion</emphasis></para>
+      <para id="fs-id2449340">The ratio of translational energy to rotational kinetic energy is only 0.380. This ratio tells us that most of the kinetic energy of the helicopter is in its spinning blades—something you probably would not suspect. The 53.7 m height to which the helicopter could be raised with the rotational kinetic energy is also impressive, again emphasizing the amount of rotational kinetic energy in the blades.</para></example>
+    
+  
+    <figure id="import-auto-id2420248"><media id="import-auto-id2930076" alt="The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_04_05a.jpg" height="300"/>
+      </media>
+      
+    <caption>The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50,000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)</caption></figure><section id="fs-id2616556">
+    <title>How Thick Is the Soup? Or Why Don’t All Objects Roll Downhill at the Same Rate?</title>
+    <para id="import-auto-id1970058">One of the quality controls in a tomato soup factory consists of rolling filled cans down a ramp. If they roll too fast, the soup is too thin. Why should cans of identical size and mass roll down an incline at different rates? And why should the thickest soup roll the slowest?</para>
+    <para id="import-auto-id2969200">The easiest way to answer these questions is to consider energy. Suppose each can starts down the ramp from rest. Each can starting from rest means each starts with the same gravitational potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mrow><m:mtext>grav</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PE" rSub { size 8{ ital "grav"} } } {}</m:annotation></m:semantics></m:math>, which is converted entirely to <m:math><m:semantics><m:mrow><m:mtext>KE</m:mtext></m:mrow></m:semantics></m:math>, provided each rolls without slipping. <m:math><m:semantics><m:mrow><m:mtext>KE</m:mtext></m:mrow></m:semantics></m:math>, however, can take the form of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>trans</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "trans"} } } {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "rot"} } } {}</m:annotation></m:semantics></m:math>, and total <m:math><m:semantics><m:mrow><m:mtext>KE</m:mtext></m:mrow></m:semantics></m:math> is the sum of the two. If a can rolls down a ramp, it puts part of its energy into rotation, leaving less for translation. Thus, the can goes slower than it would if it slid down. Furthermore, the thin soup does not rotate, whereas the thick soup does, because it sticks to the can. The thick soup thus puts more of the can’s original gravitational potential energy into rotation than the thin soup, and the can rolls more slowly, as seen in <link target-id="import-auto-id3105621"/>.</para><figure id="import-auto-id3105621"><media id="import-auto-id3026629" alt="The figure shows a flat surface inclined at a height of h from the surface level, with three cans of soup of different densities numbered as one, two, and three rolling along it.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_04_06a.jpg" width="300"/>
+      </media>
+      
+    <caption>Three cans of soup with identical masses race down an incline. The first can has a low friction coating and does not roll but just slides down the incline. It wins because it converts its entire PE into translational KE. The second and third cans both roll down the incline without slipping. The second can contains thin soup and comes in second because part of its initial PE goes into rotating the can (but not the thin soup). The third can contains thick soup. It comes in third because the soup rotates along with the can, taking even more of the initial PE for rotational KE, leaving less for translational KE.</caption></figure><para id="import-auto-id2679189">Assuming no losses due to friction, there is only one force doing work—gravity. Therefore the total work done is the change in kinetic energy. As the cans start moving, the potential energy is changing into kinetic energy. Conservation of energy gives</para><equation id="eip-138"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{i} } ="KE" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3018171">More specifically,</para>
+    <equation id="eip-449"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mtext>PE</m:mtext>
+                    
+                      <m:mrow>
+                        <m:mtext>grav</m:mtext>
+                      </m:mrow>
+                    
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>KE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mtext>trans</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mtext>KE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mtext>rot</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{"grav"} } ="KE" rSub { size 8{"trans"} } +"KE" rSub { size 8{"rot"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1431966">or</para>
+    <equation id="eip-210"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mtext>mv</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msup><m:mi fontstyle="italic">Iω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } + {  {1}  over  {2} } Iω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1868893">So, the initial <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"} {}</m:annotation></m:semantics></m:math> is divided between translational kinetic energy and rotational kinetic energy; and the greater <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> is, the less energy goes into translation. If the can slides down without friction, then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω=0} {}</m:annotation></m:semantics></m:math> and all the energy goes into translation; thus, the can goes faster.</para>
+    
+    <note id="fs-id2398409"><label/><title>Take-Home Experiment</title>
+    
+    <para id="import-auto-id3246662">Locate several cans each containing a different type of food (for example, canned soup with different kinds of soup). First, predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. A good contrast can be obtained between a thick soup concentrate (for example, condensed cream of mushroom) and a thin soup (for example, chicken noodle soup). If you feel adventurous, try other foods, such as canned corn or peas; try predicting how these would compare to, for example, condensed cream of mushroom can in the race down an inclined plane.</para></note><example id="fs-id3073422">
+    <title>Calculating the Speed of a Cylinder Rolling Down an Incline</title>
+    <para id="import-auto-id1818016">Calculate the final speed of a solid cylinder that rolls down a 2.00-m-high incline. The cylinder starts from rest, has a mass of 0.750 kg, and has a radius of 4.00 cm.</para><para id="import-auto-id1429770"><emphasis>Strategy</emphasis></para>
+      <para id="fs-id2445196">We can solve for the final velocity using conservation of energy, but we must first express rotational quantities in terms of translational quantities to end up with <m:math><m:semantics><m:mrow><m:mi>v</m:mi></m:mrow></m:semantics></m:math> as the only unknown.</para><para id="import-auto-id2052619"><emphasis>Solution</emphasis></para>
+      <para id="fs-id3158522">Conservation of energy for this situation is written as described above:</para>
+    <equation id="eip-454"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mgh</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi mathvariant="italic">mv</m:mi>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mi fontstyle="italic">Iω</m:mi>
+                    
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } + {  {1}  over  {2} } Iω rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id3385654">Before we can solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> , we must look up an expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> for a solid disk: <m:math><m:apply><m:eq/><m:msub><m:ci>I</m:ci><m:ci>disk</m:ci></m:msub><m:mrow><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply><m:ci>M</m:ci><m:apply><m:power/><m:ci>ℓ</m:ci><m:cn>2</m:cn></m:apply></m:mrow></m:apply></m:math>. Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω=v/R} {}</m:annotation></m:semantics></m:math> into the expression. These substitutions yield</para><equation id="eip-97"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mrow><m:msup><m:mi mathvariant="italic">mv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:msup><m:mi mathvariant="italic">mR</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mfenced></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } + {  {1}  over  {2} }  left ( {  {1}  over  {2} }  ital "mR" rSup { size 8{2} }  right ) left ( {  {v rSup { size 8{2} } }  over  {R rSup { size 8{2} } } }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1951682">Interestingly, the cylinder’s radius <m:math><m:semantics><m:mrow><m:mi>R</m:mi></m:mrow></m:semantics></m:math> and mass <m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math> cancel, yielding</para><equation id="eip-798"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "gh"= {  {1}  over  {2} } v rSup { size 8{2} } + {  {1}  over  {4} } v rSup { size 8{2} } = {  {3}  over  {4} } v rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2956864">Solving algebraically, the equation for the final velocity <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>v</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation>
+        </m:semantics>
+      </m:math> gives</para><equation id="eip-320"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>4</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= left ( {  {4 ital "gh"}  over  {3} }  right ) rSup { size 8{1/2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2618589">Substituting known values into the resulting expression yields</para>
+    <equation id="eip-191"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="[" close="]"><m:mfrac><m:mrow><m:mn>4</m:mn><m:mfenced open="(" close=")"><m:mrow><m:mn>9.80</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>2.00 m</m:mtext></m:mrow></m:mfenced></m:mrow><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo></m:mrow><m:mtext>5.11 m/s</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= left [ {  {4 left (9 "." "80"" m/s" rSup { size 8{2} }  right ) left (2 "." "00"" m" right )}  over  {3} }  right ] rSup { size 8{1/2} } =5 "." "11"" m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1362701"><emphasis>Discussion</emphasis></para>
+      <para id="fs-id3007358">Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> cancel, the result <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfenced><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= left ( {  {4}  over  {3} }  ital "gh" right ) rSup { size 8{1/2} } } {}</m:annotation></m:semantics></m:math> is valid for any solid cylinder, implying that all solid cylinders will roll down an incline at the same rate independent of their masses and sizes. (Rolling cylinders down inclines is what Galileo actually did to show that objects fall at the same rate independent of mass.) Note that if the cylinder slid without friction down the incline without rolling, then the entire gravitational potential energy would go into translational kinetic energy. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mtext>mv</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 1/2 \)  ital "mv" rSup { size 8{2} } `= ital "mgh"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= \( 2 ital "gh" \)  rSup { size 8{1/2} } } {}</m:annotation></m:semantics></m:math>, which is 22% greater than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 4 ital "gh"/3 \)  rSup { size 8{1/2} } } {}</m:annotation></m:semantics></m:math>. That is, the cylinder would go faster at the bottom.</para></example>
+
+  
+    <exercise id="fs-id2931518" type="check-understanding">
+      <label/>
+<title>Check Your Understanding</title>
+    
+    <problem id="fs-id1613668">
+<para id="import-auto-id3043952"><title>Analogy of Rotational and Translational Kinetic Energy</title>Is rotational kinetic energy completely analogous to translational kinetic energy? What, if any, are their differences? Give an example of each type of kinetic energy.</para></problem>
+<solution id="fs-id1412799">
+    <para id="import-auto-id3081539">Yes, rotational and translational kinetic energy are exact analogs. They both are the energy of motion involved with the coordinated (non-random) movement of mass relative to some reference frame. The only difference between rotational and translational kinetic energy is that translational is straight line motion while rotational is not. An example of both kinetic and translational kinetic energy is found in a bike tire while being ridden down a bike path. The rotational motion of the tire means it has rotational kinetic energy while the movement of the bike along the path means the tire also has translational kinetic energy. If you were to lift the front wheel of the bike and spin it while the bike is stationary, then the wheel would have only rotational kinetic energy relative to the Earth.</para>
+</solution>
+      </exercise>
+  </section>
+    
+    <section id="fs-id3176558" class="section-summary"><title>Section Summary</title><list id="fs-id1917137"><item id="import-auto-id1360816">The rotational kinetic energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "rot"} } } {}</m:annotation></m:semantics></m:math> for an object with a moment of inertia <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> and an angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> is given by
+<equation id="eip-595"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msup><m:mi fontstyle="italic">Iω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"rot"} } = {  {1}  over  {2} } Iω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id1972580">Helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades.</item>
+    <item id="import-auto-id3224025">Work and energy in rotational motion are completely analogous to work and energy in translational motion.</item></list></section><section id="fs-id1578001" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+    <exercise id="fs-id3026004" type="conceptual-questions"><problem id="fs-id3025680">
+    <para id="import-auto-id3012901">Describe the energy transformations involved when a yo-yo is thrown downward and then climbs back up its string to be caught in the user’s hand.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1428194" type="conceptual-questions"><problem id="fs-id1995300">
+<para id="import-auto-id1413725">What energy transformations are involved when a dragster engine is revved, its clutch let out rapidly, its tires spun, and it starts to accelerate forward? Describe the source and transformation of energy at each step.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2640555" type="conceptual-questions"><problem id="fs-id3192098">
+    
+      <para id="eip-id2695457">The Earth has more rotational kinetic energy now than did the cloud of gas and dust from which it formed. Where did this energy come from?</para>
+    <figure id="import-auto-id2615448"><media id="import-auto-id3045924" alt="The figure shows a closed view of a red planet in the sky, with a sun like object seen at the far right and the planet shown here being surrounded by circles of gas and dust.">
+        <image mime-type="image/png" src="../../media/Figure_11_04_07a.jpg" width="250"/>
+      </media>
+      
+    <caption>An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)</caption></figure>
+</problem>
+</exercise></section>
+  
+    </content>
+  <glossary>
+    <definition id="import-auto-id1771451"><term>rotational kinetic energy</term> <meaning id="fs-id2383989">the kinetic energy due to the rotation of an object. This is part of its total kinetic energy</meaning></definition>
+  </glossary>
+</document>

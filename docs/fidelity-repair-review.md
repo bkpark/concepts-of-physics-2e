@@ -1,5 +1,9 @@
 # Four fidelity repair proposals
 
+**Update:** The author approved all four proposals. They are now applied only in
+`maintained/`; see [current status](maintained-source-status.md). The remainder
+of this document records the proposal-stage evidence.
+
 These proposals are prepared and tested, but not applied to historical or
 maintained textbook source. The review page is `/repair-review/` on the local
 prototype server. It shows proposed equations in native MathML.

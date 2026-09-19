@@ -1,0 +1,268 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Gravitational Potential Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71414</md:content-id>
+  <md:title>Gravitational Potential Energy</md:title>
+  <md:abstract><list>
+<item>Explain gravitational potential energy in terms of work done against gravity.</item> 
+<item>Show that the gravitational potential energy of an object near surface of Earth is given by product of its mass, height, and gravitational acceleration.</item>
+<item>Show how knowledge of the potential energy as a function of position can be used to simplify calculations and explain physical phenomena.</item>
+</list></md:abstract>
+  <md:uuid>f09795f6-42dd-49ab-a788-8e4a44009114</md:uuid>
+</metadata>
+
+<content>
+    <section id="fs-id1833407"><title>Work Done Against Gravity</title>
+    <para id="eip-350">Consider lifting a weight (of, say, 5 kg, which weighs about 50 N) from the floor to a table surface at a height of 1 meter from the floor. In lifting this weight, you have done work, both in the usual sense (if you do this lifting of weight over and over, you will eventually get tired) and in the scientific sense we defined in the earlier section (<m:math><m:apply><m:eq/><m:ci>W</m:ci><m:apply><m:times/><m:ci>F</m:ci><m:ci>d</m:ci></m:apply></m:apply></m:math>, and you applied an upward force as you displaced the weight upward by 1 meter). One thing is different in this scenario, however. Earlier, in describing work-kinetic energy theorem, we said that net work done on an object changes the kinetic energy of the object (<m:math><m:apply><m:eq/><m:ci>ΔKE</m:ci><m:msub><m:ci>W</m:ci><m:mtext>net</m:mtext></m:msub></m:apply></m:math>). But in this case, if you imagine lifting the weight very slowly up to the height of the table, you will find that the kinetic energy of the weight does not change. It starts at zero and remains at zero throughout this very slow motion. What is going on here?</para><para id="eip-476">The key difference is that, for this weight, there are now two forces acting on it as it is being lifted. The gravitational force pulls downward, while the force you apply is directed upward. If you are lifting the weight very slowly, then its acceleration is very close to zero, so the net force on it is zero (<m:math><m:apply><m:eq/><m:msub><m:ci>F</m:ci><m:mtext>net</m:mtext></m:msub><m:cn>0</m:cn></m:apply></m:math>), which means the <emphasis effect="italics">net work</emphasis> done on the weight is also zero (<m:math><m:apply><m:eq/><m:msub><m:ci>W</m:ci><m:mtext>net</m:mtext></m:msub><m:apply><m:times/><m:msub><m:ci>F</m:ci><m:mtext>net</m:mtext></m:msub><m:ci>d</m:ci></m:apply></m:apply></m:math>; the applied upward force does positive work, while the downward gravitational force does negative work).</para><para id="eip-591">While this is a correct description (the negative work done by the gravity cancels out the positive work done by the applied force), this description misses something. Specifically, you can see that this weight that has been lifted by 1 meter <emphasis effect="italics">does</emphasis> have more energy than a weight that was resting on the floor. This is how you can see it: if you let go of the weight (after removing the table), as the weight originally at 1-meter height reaches the floor, it gains a substantial kinetic energy as it continues to be pulled by gravity. Rather than saying that this kinetic energy simply appeared as the weight fell through the 1-meter height, we opt for the description that this weight already had this energy, when it was at rest at the 1-meter height, just in a form that was not kinetic energy. We call this energy associated with the height of objects the <term>gravitational potential energy</term>, <m:math><m:msub><m:ci>PE</m:ci><m:ci>g</m:ci></m:msub></m:math>. And in this example, the energy originally came from the work done by the applied force—rather than considering positive work done by the applied force to be cancelled out by the negative work done by the gravity, we say that this positive work done is <emphasis effect="italics">stored</emphasis> as positive <m:math><m:msub><m:ci>PE</m:ci><m:ci>g</m:ci></m:msub></m:math>.</para><para id="eip-985">This phenomenon of potential energy turns out to be quite general and goes beyond the gravitational force. There are other forces in nature where negative work done by these forces turns into positive potential energy. We call these forces <term>conservative forces</term>, which will be the subject of the next section. For the purpose of this section, following is the quick derivation of formula for <m:math><m:msub><m:ci>PE</m:ci><m:ci>g</m:ci></m:msub></m:math> (everything in terms of symbols now). In lifting the weight of mass <m:math><m:ci>m</m:ci></m:math> through a height <m:math><m:ci>h</m:ci></m:math> slowly, you have to apply a force equal to its weight, <m:math><m:apply><m:times/><m:ci>m</m:ci><m:ci>g</m:ci></m:apply></m:math>. So the work done is <m:math><m:apply><m:eq/><m:ci>W</m:ci><m:apply><m:times/><m:ci>F</m:ci><m:ci>d</m:ci></m:apply><m:apply><m:times/><m:ci>m</m:ci><m:ci>g</m:ci><m:ci>h</m:ci></m:apply></m:apply></m:math>, and since it's this work done that is stored as gravitational potential energy, the gravitational potential energy must be:</para><equation id="eip-40"><m:math><m:apply><m:eq/><m:msub><m:ci>PE</m:ci><m:ci>g</m:ci></m:msub><m:apply><m:times/><m:ci>m</m:ci><m:ci>g</m:ci><m:ci>h</m:ci></m:apply></m:apply><m:mtext>.</m:mtext></m:math></equation></section>
+    <section id="fs-id1804087"><title>Converting Between Potential Energy and Kinetic Energy</title>
+    <para id="import-auto-id2690190">Gravitational potential energy may be converted to other forms of energy, such as kinetic energy. If we release the mass, gravitational force will do an amount of work equal to <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"} {}</m:annotation></m:semantics></m:math> on it, thereby increasing its kinetic energy by that same amount (by the work-energy theorem). We will find it more useful to consider just the conversion of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"} {}</m:annotation></m:semantics></m:math> without explicitly considering the intermediate step of work. (See <link target-id="fs-id2895434"/>.) This shortcut makes it is easier to solve problems using energy (if possible) rather than explicitly using forces.</para><figure id="import-auto-id1697782"><media id="import-auto-id2005349" alt="(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.">
+        <image mime-type="image/jpg" src="../../media/Figure_08_03_01a.jpg" width="350"/>
+      </media>
+      
+    <caption>(a) The work done to lift the weight is stored in the mass-Earth system as gravitational potential energy. (b) As the weight moves downward, this gravitational potential energy is transferred to the cuckoo clock.</caption></figure><para id="import-auto-id1467683">More precisely, we define the <emphasis effect="italics">change</emphasis> in gravitational potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> to be</para>
+    <equation id="eip-306"><m:math display="block"><m:mi mathvariant="normal">Δ</m:mi><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi><m:mi mathvariant="normal">i</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mspace width=".1667em"/><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi mathvariant="normal">Δ</m:mi><m:mi>h</m:mi></m:math></equation><para id="import-auto-id1980996">Note that 
+
+<m:math display="inline"><m:mi mathvariant="normal">Δ</m:mi><m:mi>h</m:mi></m:math>
+
+is positive when the final height is greater than the initial height, and vice versa. For example, if a 0.500-kg mass hung from a cuckoo clock is raised 1.00 m, then its change in gravitational potential energy is </para><equation id="fs-id1729924"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mtext fontstyle="italic">mgΔh</m:mtext></m:mtd>
+<m:mtd>                          <m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                            <m:mtext>0.500 kg</m:mtext>
+                        </m:mfenced>
+                  
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:msup>
+                             <m:mrow>
+                               <m:mtext>9.80</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext>
+                             </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mfenced>
+                     
+                        <m:mfenced open="(" close=")">
+                            <m:mtext>1.00 m</m:mtext>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>4.90 kg</m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:msup>
+                        <m:mn>m</m:mn>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mtext>/s</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mtext> = 4.90 J.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1369902">Note that the units of gravitational potential energy turn out to be joules, the same as for work and other forms of energy. As the clock runs, the mass is lowered. We can think of the mass as gradually giving up its 4.90 J of gravitational potential energy, <emphasis effect="italics">without directly considering the force of gravity that does the work</emphasis>.</para></section>
+    <section id="fs-id1332926"><title>Using Potential Energy to Simplify Calculations</title>
+    <para id="import-auto-id1838774">The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } = ital "mgh"} {}</m:annotation></m:semantics></m:math> applies for any path that has a change in height of <m:math><m:semantics><m:mrow><m:mrow><m:mi>Δh</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>, not just when the mass is lifted straight up. (See <link target-id="import-auto-id1556510"/>.) It is much easier to calculate <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"} {}</m:annotation></m:semantics></m:math> (a simple multiplication) than it is to calculate the work done along a complicated path. The idea of gravitational potential energy has the double advantage that it is very broadly applicable and it makes calculations easier. From now on, we will consider that any change in vertical position <m:math><m:semantics><m:mrow><m:mrow><m:mi>Δh</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> of a mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is accompanied by a change in gravitational potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mgh"} {}</m:annotation></m:semantics></m:math>, and we will avoid the equivalent but more difficult task of calculating work done by or against the gravitational force.</para><figure id="import-auto-id1556510"><media id="import-auto-id2693833" alt="There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.">
+        <image mime-type="image/jpg" src="../../media/Figure_08_03_02a.jpg" width="175"/>
+      </media>
+      
+    <caption>The change in gravitational potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δ"PE" rSub { size 8{g} }  \) } {}</m:annotation></m:semantics></m:math> between points A and B is independent of the path. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } = ital "mgh"} {}</m:annotation></m:semantics></m:math> for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.</caption></figure><example id="fs-id2491449"><title>The Force to Stop Falling</title>
+    <para id="import-auto-id2407890">A 60.0-kg person jumps onto the floor from a height of 3.00 m. If he lands stiffly (with his knee joints compressing by 0.500 cm), calculate the force on the knee joints.</para><para id="import-auto-id1333083"><emphasis>Strategy</emphasis> </para>
+    <para id="import-auto-id2749977">This person’s energy is brought to zero in this situation by the work done on him by the floor as he stops. The initial <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> is transformed into <m:math><m:semantics><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"} {}</m:annotation></m:semantics></m:math> as he falls. The work done by the floor reduces this kinetic energy to zero. </para><para id="import-auto-id1445944"><emphasis>Solution</emphasis></para>
+    <para id="import-auto-id1583020">The work done on the person by the floor as he stops is given by</para>
+    <equation id="eip-955"><m:math><m:mstyle displaystyle="true"><m:mi>W</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mo>,</m:mo></m:mstyle></m:math>
+</equation><para id="import-auto-id2789210">with a minus sign because the displacement while stopping and the force from floor are in opposite directions. The floor removes energy from the system, so it does negative work. </para><para id="eip-535">The kinetic energy the person has upon reaching the floor is the amount of potential energy lost by falling through height <m:math><m:semantics><m:mrow><m:mrow><m:mi>Δh</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>:</para><equation id="fs-id1449860"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>Δ</m:mtext></m:mrow></m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"= - Δ"PE" rSub { size 8{g} } = -  ital "mgΔh"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2496602">The distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> that the person’s knees bend is much smaller than the height <m:math><m:semantics><m:mrow><m:mrow><m:mi>Δh</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> of the fall, so the additional change in gravitational potential energy during the knee bend is ignored. </para><para id="eip-283">The work <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> done by the floor on the person stops the person and brings the person’s kinetic energy to zero:</para><equation id="eip-418"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>KE</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= - "KE"= ital "mgΔh"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1997664">Combining this equation with the expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> gives </para><equation id="fs-id2124284"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  ital "Fd"= ital "mgΔh"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1400348">Recalling that <m:math><m:semantics><m:mrow><m:mrow><m:mi>Δh</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is negative because the person fell <emphasis effect="italics">down</emphasis>, the force on the knee joints is given by </para><equation id="eip-118"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>F</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>mgΔh</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mi>d</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>60.0 kg</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>9.80 m</m:mtext>
+                              <m:msup>
+                                <m:mtext>/s</m:mtext>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>00 m</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mtext>00</m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>53</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              <m:mspace width="0.25em"/>
+                <m:mn>N.</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F= -  {  { ital "mgh"}  over  {d} } = -  {  { left ("60" "." 0" kg" right ) left (9 "." "80"" m/s" rSup { size 8{2} }  right ) left ( - 3 "." "00"`m right )}  over  {5 "." "00" times "10" rSup { size 8{ - 3} } " m"} } =3 "." "53" times "10" rSup { size 8{5} } `N "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1143579"><emphasis>Discussion</emphasis> </para>
+    <para id="import-auto-id1515219">Such a large force (500 times more than the person’s weight) over the short impact time is enough to break bones. A much better way to cushion the shock is by bending the legs or rolling on the ground, increasing the time over which the force acts. A bending motion of 0.5 m this way yields a force 100 times smaller than in the example. A kangaroo's hopping shows this method in action. The kangaroo is the only large animal to use hopping for locomotion, but the shock in hopping is cushioned by the bending of its hind legs in each jump.(See <link target-id="fs-id1503032"/>.)</para></example>
+    <figure id="fs-id1503032"><media id="fs-id1697100" alt="A hopping kangaroo is shown landing on the ground in one photograph and in the air just after taking another jump in the second photograph.">
+<image mime-type="image/jpg" src="../../media/Figure_08_03_03.jpg" height="300"/>
+                </media>
+       
+              
+     
+      
+    <caption>The work done by the ground upon the kangaroo reduces its kinetic energy to zero as it lands. However, by applying the force of the ground on the hind legs over a longer distance, the impact on the bones is reduced. (credit: Chris Samuel, Flickr)</caption></figure><example id="fs-id2895434"><title>Finding the Speed of a Roller Coaster from its Height</title><para id="import-auto-id1547593">(a) What is the final speed of the roller coaster shown in <link target-id="import-auto-id1349448"/> if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible? (b) What is its final speed (again assuming negligible friction) if its initial speed is 5.00 m/s?</para><figure id="import-auto-id1349448"><media id="import-auto-id1892950" alt="A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster’s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.">
+        <image mime-type="image/jpg" src="../../media/Figure_08_03_04a.jpg" height="200"/>
+      </media>
+      
+    <caption>The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system’s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> is converted to <m:math><m:semantics><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1848019"><emphasis>Strategy</emphasis> </para>
+    <para id="import-auto-id1521922">The roller coaster loses potential energy as it goes downhill. We neglect friction, so that the remaining force exerted by the track is the normal force, which is perpendicular to the direction of motion and does no work. The net work on the roller coaster is then done by gravity alone. The <emphasis effect="italics">loss</emphasis> of gravitational potential energy from moving <emphasis effect="italics">downward</emphasis> through a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> equals the <emphasis effect="italics">gain</emphasis> in kinetic energy. This can be written in equation form as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>Δ</m:mtext></m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>Δ</m:mtext></m:mrow><m:mtext>KE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - Δ"PE" rSub { size 8{g} } =Δ"KE"} {}</m:annotation></m:semantics></m:math>. Using the equations for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"} {}</m:annotation></m:semantics></m:math>, we can solve for the final speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, which is the desired quantity.</para><para id="import-auto-id2009732"><emphasis>Solution for (a)</emphasis> </para>
+    <equation id="fs-id1349094"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>Δ</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>PE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mtext>g</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>Δ</m:mtext>
+                  </m:mrow>
+                  <m:mtext>KE</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - Δ"PE" rSub { size 8{g} } =Δ"KE"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    <para id="import-auto-id1848851">becomes</para>
+    <equation id="eip-579"><m:math display="block"><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mspace width=".1667em"/><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi><m:mi mathvariant="normal">i</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:math></equation><para id="eip-733">Noting that the initial speed is zero, and using the formula for gravitational potential energy, we have</para><equation id="eip-745"><m:math display="block"><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:math></equation><para id="eip-475">Taking the initial height as zero gives</para><equation id="eip-237"><m:math display="block"><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:math></equation><para id="import-auto-id2085682">Solving for the final speed, we find that mass cancels and that</para><equation id="eip-895"><m:math display="block"><m:msub><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mspace width=".1667em"/><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub></m:msqrt></m:math></equation><para id="import-auto-id1337974">Substituting known values,</para>
+    <equation id="eip-230"><m:math display="block"><m:msub><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mspace width=".1667em"/><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mo mathvariant="normal">/</m:mo></m:mrow><m:msup><m:mi mathvariant="normal">s</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mn mathvariant="normal">2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>20.0</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:msqrt><m:mo>=</m:mo><m:mn>19.8</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mo mathvariant="normal">/</m:mo></m:mrow><m:mi mathvariant="normal">s</m:mi></m:mrow></m:math></equation><para id="eip-848">Please note that the height used above was negative. This is because we chose the initial height to be our reference level for gravitational potential energy. Our final height is 20 meters <emphasis effect="italics">below</emphasis> that reference level. </para><para id="import-auto-id949808"><emphasis>Solution for (b)</emphasis> </para>
+    <para id="import-auto-id2821869">Again <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo></m:mrow><m:mrow><m:msub><m:mtext>ΔPE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi/></m:mrow><m:mtext>ΔKE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - Δ"PE" rSub { size 8{g} } =Δ"KE"} {}</m:annotation></m:semantics></m:math>.  Thus,</para><equation id="eip-90"><m:math display="block"><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mspace width=".1667em"/><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">P</m:mi><m:mi mathvariant="normal">E</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">g</m:mi><m:mi mathvariant="normal">i</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:math></equation><para id="import-auto-id1985822">Taking the initial height as zero leads to</para><equation id="eip-484"><m:math display="block"><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:math>
+</equation><para id="eip-361">Rearranging gives</para><equation id="eip-578"><m:math display="block"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:math></equation><para id="import-auto-id1554938">This means that the final kinetic energy is the sum of the initial kinetic energy and the gravitational potential energy. Mass again cancels, and</para>
+    <equation id="eip-436"><m:math display="block"><m:msub><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:msqrt></m:math></equation><para id="import-auto-id2124254">Now, substituting known values gives</para><equation id="eip-388"><m:math display="block"><m:msub><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">f</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msubsup><m:mi>v</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">i</m:mi></m:mrow><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msubsup></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mo mathvariant="normal">/</m:mo></m:mrow><m:msup><m:mi mathvariant="normal">s</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mn mathvariant="normal">2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>20.0</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.00</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mo mathvariant="normal">/</m:mo></m:mrow><m:mi mathvariant="normal">s</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow class="MJX-TeXAtom-ORD"><m:mn>2</m:mn></m:mrow></m:msup></m:msqrt><m:mo>=</m:mo><m:mn>20.4</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mo mathvariant="normal">/</m:mo></m:mrow><m:mi mathvariant="normal">s</m:mi></m:mrow><m:mo>.</m:mo></m:math></equation><para id="import-auto-id1747146"><emphasis>Discussion and Implications</emphasis> </para>
+    <para id="import-auto-id1040332">First, note that mass cancels. This is quite consistent with observations that all objects fall at the same rate if friction is negligible. Second, only the speed of the roller coaster is considered; there is no information about its direction at any point. This reveals another general truth. When friction is negligible, the speed of a falling body depends only on its initial speed and height, and not on its mass or the path taken. For example, the roller coaster will have the same final speed whether it falls 20.0 m straight down or takes a more complicated path like the one in the figure. Third, and perhaps unexpectedly, the final speed in part (b) is greater than in part (a), but by far less than 5.00 m/s. Finally, note that speed can be found at <emphasis effect="italics">any</emphasis> height along the way by simply using the appropriate value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> at the point of interest.</para></example><para id="import-auto-id1645227">We have seen that work done by or against the gravitational force depends only on the starting and ending points, and not on the path between, allowing us to define the simplifying concept of gravitational potential energy. We can do the same thing for a few other forces, and we will see that this leads to a formal definition of the law of conservation of energy.</para></section>   
+<section id="fs-id1683344" class="section-summary">
+<title>Section Summary</title><list id="fs-id2406525"><item id="import-auto-id2742012">Work done against gravity in lifting an object becomes potential energy of the object-Earth system.</item>
+    <item id="import-auto-id2449367">The change in gravitational potential energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math>, is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>ΔPE</m:mtext><m:mrow><m:mn>g</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgΔh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } = ital "mgh"} {}</m:annotation></m:semantics></m:math>, with <m:math><m:semantics><m:mrow><m:mrow><m:mi>Δh</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> being the change in height and <m:math><m:semantics><m:mrow><m:mrow><m:mn>g</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> the acceleration due to gravity. </item>
+    <item id="import-auto-id2746176">The gravitational potential energy of an object near Earth’s surface is due to its position in the mass-Earth system. Only differences in gravitational potential energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>ΔPE</m:mtext><m:mrow><m:mn>g</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math>, have physical significance.</item>
+    <item id="import-auto-id1527618">As an object descends without friction, its gravitational potential energy changes into kinetic energy corresponding to increasing speed, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔKE</m:mtext><m:mtext>= −</m:mtext><m:msub><m:mtext>ΔPE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D"KE""=-"D"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math>.</item>
+</list></section><section id="fs-id2011989" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1415865" type="conceptual-questions"><problem id="fs-id1753129">
+    <para id="import-auto-id2111705">In <link target-id="fs-id2895434"/>, we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s <emphasis effect="italics">uphill</emphasis> instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that it had the same final speed. Explain in terms of conservation of energy. </para></problem></exercise>
+<exercise id="fs-id1759147" type="conceptual-questions"><problem id="fs-id2183193">
+    <para id="import-auto-id1844102">Does the work you do on a book when you lift it onto a shelf depend on the path taken? On the time taken? On the height of the shelf? On the mass of the book? </para>
+</problem></exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1672281"><term>gravitational potential energy</term><meaning id="fs-id1239787">energy associated with height of objects on the Earth</meaning></definition>
+</glossary>
+</document>

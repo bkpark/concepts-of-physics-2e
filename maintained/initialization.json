@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "book_title": "Introduction to Physics",
+  "baseline_commit": "e2b8ec04bd22d78da0e97826b9705a3f0cc6eba5",
+  "policy": "Edit maintained/ only. Historical modules/, media/, collections/ remain immutable. This initialization ledger records the approved starting changes; later edits belong in Git history.",
+  "approved_repairs": [
+    {
+      "id": "R1",
+      "module": "m67807",
+      "source_object": "eip-53",
+      "classification": "equation correction",
+      "reason": "Insert exponent 2 on both n_f and n_i. Preserve the existing coefficient and notation.",
+      "decision": "approved by author in conversation: Corrections as made look good.",
+      "maintained_path": "maintained/modules/m67807/index.cnxml",
+      "before_sha256": "3d847ff6824d7aefc0d40e5791a9291f6695f6c8c168622e8dfcf3c7740e6e46",
+      "after_sha256": "2eedb50ddff4244fb838aa54add4889328250e4be414bf3c58754f7621ab4902"
+    },
+    {
+      "id": "R2",
+      "module": "m67807",
+      "source_object": "import-auto-id3143059",
+      "classification": "markup-only repair",
+      "reason": "Remove the trailing msup containing only empty mrows. No visible symbol, coefficient, or exponent changes.",
+      "decision": "approved by author in conversation: Corrections as made look good.",
+      "maintained_path": "maintained/modules/m67807/index.cnxml",
+      "before_sha256": "2eedb50ddff4244fb838aa54add4889328250e4be414bf3c58754f7621ab4902",
+      "after_sha256": "a90970acc5a50ad3e6e0c9a85d5f5b03d8f0b90d3f3a66af841ac8e6b47a9ab0"
+    },
+    {
+      "id": "R3",
+      "module": "m42709",
+      "source_object": "import-auto-id1688908",
+      "classification": "notation correction",
+      "reason": "Display A at upper left, Z at lower left, and N at lower right of X. Preserve the original annotation.",
+      "decision": "approved by author in conversation: Corrections as made look good.",
+      "maintained_path": "maintained/modules/m42709/index.cnxml",
+      "before_sha256": "97bb097acd457ec4cb51c3db4afaa9ea7041cd1a6390a60e939c77fa5af0c63e",
+      "after_sha256": "cbce27000e57bd2803bf00f93bae85f180be2396b497d9c336e4f49048880bec"
+    },
+    {
+      "id": "R4",
+      "module": "m67122",
+      "source_object": "import-auto-id2677616",
+      "classification": "cross-reference repair",
+      "reason": "Point to the retained tire-pressure worked example, which explicitly states the same absolute pressure and gauge-pressure comparison. Do not restore the omitted moles example.",
+      "decision": "approved by author in conversation: Corrections as made look good.",
+      "maintained_path": "maintained/modules/m67122/index.cnxml",
+      "before_sha256": "c1261545adfecaf6c1c5c4caa891728e8ca06d89f719ce38433a1f00f6c40503",
+      "after_sha256": "7d02f5e37afd631d11e8f05da80c8f7916f23abe233470bff78dc93f3b6c93be"
+    }
+  ],
+  "upstream_errata": [
+    {
+      "repair_id": "R3",
+      "url": "https://openstax.org/errata/30172",
+      "status": "submitted by author; reported in conversation; OpenStax disposition not verified"
+    }
+  ]
+}

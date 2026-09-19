@@ -1,0 +1,292 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The First Law of Thermodynamics and Heat Engine Processes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67126</md:content-id>
+  <md:title>The First Law of Thermodynamics and Heat Engine Processes</md:title>
+  <md:abstract><list>
+<item>Describe the processes of a simple heat engine.</item>
+<item>Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic.</item>
+<item>Explain the relationship between work done by a gas and change in its volume.</item>
+</list></md:abstract>
+  <md:uuid>8aac4dcb-3d64-4ec5-866c-acbd5de20196</md:uuid>
+</metadata>
+
+<content>
+    
+    <figure id="import-auto-id1169738145359"><media id="import-auto-id1169737869776" alt="An old photo of a steam turbine at a turbine production plant. People are shown working on the turbine.">
+        <image mime-type="image/png" src="../../media/Figure_16_02_01a.jpg" width="400"/>
+      </media>
+ <caption>Beginning with the Industrial Revolution, humans have harnessed power through the use of the first law of thermodynamics, before we even understood it completely. This photo, of a steam engine at the Turbinia Works, dates from 1911, a mere 61 years after the first explicit statement of the first law of thermodynamics by Rudolph Clausius. (credit: public domain; author unknown)</caption></figure><para id="import-auto-id1169737715853">One of the most important things we can do with heat transfer is to use it to do work for us. Such a device is called a <term id="import-auto-id1169738183063">heat engine</term>. Car engines and steam turbines that generate electricity are examples of heat engines. <link target-id="import-auto-id1169737781930"/> shows schematically how the first law of thermodynamics applies to the typical heat engine.</para>
+   
+  
+    <figure id="import-auto-id1169737781930"><media id="import-auto-id1169736581897" alt="The figure shows a schematic representation of a heat engine. The heat engine is represented by a circle. The heat entering the system is shown as Q sub in, represented as a bold arrow toward the circle, and the heat coming out of the heat engine is shown as Q sub out, represented by a narrower bold arrow leaving the circle. The work labeled as W is shown to leave the heat engine as represented by another bold arrow leaving the circle. At the center of the circle are two equations. First, the change in internal energy of the system, delta U, equals zero. Consequently, W equals Q sub in minus Q sub out.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_02a.jpg" width="200"/>
+      </media>
+ 
+    <caption>Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics (and other laws of thermodynamics we will discuss later).</caption></figure><figure id="import-auto-id1169737757532"><media id="import-auto-id1169737895034" alt="Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_03a.jpg" width="200"/>
+      </media>
+    
+    <caption>(a) Heat transfer to the gas in a cylinder increases the internal energy of the gas, creating higher pressure and temperature. (b) The force exerted on the movable cylinder does work as the gas expands. Gas pressure and temperature decrease when it expands, indicating that the gas’s internal energy has been decreased by doing work. (c) Heat transfer to the environment further reduces pressure in the gas so that the piston can be more easily returned to its starting position.</caption></figure><para id="import-auto-id1169737979358">The illustrations above show one of the ways in which heat transfer does work. Fuel combustion produces heat transfer to a gas in a cylinder, increasing the pressure of the gas and thereby the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Heat transfer to the gas cylinder results in work being done. To repeat this process, the piston needs to be returned to its starting point. Heat transfer now occurs from the gas to the surroundings so that its pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance. Variations of this process are employed daily in hundreds of millions of heat engines. Here, we consider some of the thermodynamic processes on which heat engines are based.</para><section id="fs-id1169738074443">
+  <title>Work Done by a Gas</title><para id="import-auto-id1169737795645">A process by which a gas does work on a piston at constant pressure is called an <term id="import-auto-id1169737786623">isobaric process</term>. Since the pressure is constant, the force exerted is constant and the work done is given as</para><equation id="fs-id1169738204673"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{PΔV} {}</m:annotation></m:semantics></m:math></equation>
+ 
+    
+    <figure id="import-auto-id1169738117758"><media id="import-auto-id1169738009329" alt="The diagram shows an isobaric expansion of a gas filled cylinder held vertically. V is the volume of gas in the cylinder. A is the area of cross section of the cylinder. The cylinder has a movable piston with a rod attached to it at the top of the cylinder. A heat Q sub in is shown to enter the cylinder from below. A force F equals P times A is shown to act upward from the bottom of the cylinder. The piston is shown to have been displaced by a vertical distance d upward. The volume displaced is given by delta V equals A times d. The work output shown as W sub out is equal to F times d, which is also equal to P times A times d, which in turn equals P times delta V.">
+        <image mime-type="image/png" src="../../media/Figure_16_02_04a.jpg" width="200"/>
+      </media>
+ <caption>An isobaric expansion of a gas requires heat transfer to keep the pressure constant. Since pressure is constant, the work done is <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{PΔV} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="eip-69">Recall from mechanics that work done by a force <m:math><m:ci>F</m:ci></m:math> on an object undergoing displacement <m:math><m:ci>d</m:ci></m:math> is</para><equation id="fs-id1169736619217"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>W</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Fd.</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd".} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169736629145">See the symbols as shown in <link target-id="import-auto-id1169738117758"/>. Now force is pressure times area (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "PA"} {}</m:annotation></m:semantics></m:math>), and so</para><equation id="fs-id1169738176429"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PAd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "PAd"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738200039">Because the volume of a cylinder is its cross-sectional area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> times its length <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>, we see that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ad</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ad"=ΔV} {}</m:annotation></m:semantics></m:math>, the change in volume; thus,</para>
+    <equation id="fs-id1169737994453"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow><m:mtext> (isobaric process).</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737794212">Note that if <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔV} {}</m:annotation></m:semantics></m:math> is positive, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is positive, meaning that positive work is done by the gas on the outside world.</para><para id="eip-122">(Note that the pressure involved in this work that we’ve called    <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mi>
+P
+         </m:mi>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{P} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> is the pressure of the gas <emphasis effect="italics">inside</emphasis> the tank.  If we call the pressure outside the tank     <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mi>
+P
+          </m:mi>
+          <m:mrow>
+           <m:mstyle>
+            <m:mrow>
+             <m:mrow>
+              <m:mtext>
+ext
+              </m:mtext>
+             </m:mrow>
+            </m:mrow>
+           </m:mstyle>
+          </m:mrow>
+         </m:msub>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{P rSub { size 8{"ext"} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>, an expanding gas would be working <emphasis effect="italics">against</emphasis> the external pressure; the work done would therefore be    <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mi>
+W
+          </m:mi>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mo stretchy="false">
+−
+           </m:mo>
+           <m:msub>
+            <m:mi>
+P
+            </m:mi>
+            <m:mrow>
+             <m:mstyle>
+              <m:mrow>
+               <m:mrow>
+                <m:mtext>
+ext
+                </m:mtext>
+               </m:mrow>
+              </m:mrow>
+             </m:mstyle>
+            </m:mrow>
+           </m:msub>
+          </m:mrow>
+         </m:mrow>
+         <m:mtext>
+Δ
+         </m:mtext>
+         <m:mi mathvariant="italic">
+V
+         </m:mi>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{W= - P rSub { size 8{"ext"} } ΔV} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>  (isobaric process). There are some—especially chemists—who use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics.  This definition reverses the sign conventions for work, and results in a statement of the first law that becomes  <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+<m:mtext>Δ</m:mtext>
+          <m:mi mathvariant="italic">
+U
+          </m:mi>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mi>
+Q
+           </m:mi>
+           <m:mo stretchy="false">
++
+           </m:mo>
+           <m:mi>
+W
+           </m:mi>
+          </m:mrow>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{ΔU=Q+W} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>. In this textbook, we will use the <emphasis effect="italics">physics</emphasis> convention of using work done by the system on the surrounding, not the other way around.)</para><para id="import-auto-id1169738219750">This is the key lesson from the above derivation: <emphasis effect="italics">a gas expanding under pressure does work on its surrounding, and unless additional energy is added through heat transfer, the internal energy of the gas decreases</emphasis>. We will examine the experimental results that come about as a consequence of this fact later.</para></section>
+  
+   <section id="eip-413"><title>Thermodynamic Processes</title><para id="eip-474">We introduced the <term>isobaric process</term> above in discussing work done by a gas. Isobaric process is an example of a <term id="thermodynamic_process">thermodynamic process</term>. A thermodynamic process describes a change that happens to a gas, which results in change in its pressure (<m:math><m:ci>P</m:ci></m:math>), volume (<m:math><m:ci>V</m:ci></m:math>), and/or temperature (<m:math><m:ci>T</m:ci></m:math>). An isobaric process is a thermodynamic process that takes place under constant pressure (so the volume and temperature of the gas may change in an isobaric process).</para><para id="eip-291">There are three more named thermodynamic processes. These processes are given special names because, like the isobaric process, they occur under some restrictions, which gives them their special properties, as described briefly below. These three additional named thermodynamic processes are: isochoric, isothermal, and adiabatic processes.</para><para id="eip-503">An <term id="isochoric">isochoric process</term> is a thermodynamic process in which no change in volume takes place. Because the work done by a gas is proportional to the change in volume, in an isochoric process, no work is done by (or on) the gas. Instead, in an isochoric process, a heat transfer takes place, and the energy from the heat transfer goes into increasing (or decreasing) the internal energy of the gas, increasing (or decreasing) its temperature.</para><para id="eip-763">An <term id="isothermal">isothermal process</term> is a thermodynamic process in which no change in temperature takes place. A gas expanding isothermally, for example, does work on the surrounding, but its internal energy (as represented by the temperature) does not change, because enough heat flows in to balance out the energy expended in doing work. This is consistent with the first law of thermodynamics (<m:math><m:apply><m:eq/><m:cn>0</m:cn><m:mrow><m:ci>Δ</m:ci><m:ci>U</m:ci></m:mrow><m:apply><m:minus/><m:ci>Q</m:ci><m:ci>W</m:ci></m:apply></m:apply></m:math>, because <m:math><m:apply><m:eq/><m:ci>Q</m:ci><m:ci>W</m:ci></m:apply></m:math>). An isothermal process occurs if a thermodynamic process in a gas occurs slowly enough so that the gas remains in thermal equilibrium with the surrounding at all times.</para><para id="eip-137">The adiabatic process is, in some sense, the opposite of an isothermal process. In an <term id="adiabatic">adiabatic process</term>, no heat transfer takes place (that is, <m:math><m:apply><m:eq/><m:ci>Q</m:ci><m:cn>0</m:cn></m:apply></m:math>). This may happen because the gas is well-insulated from the surrounding. It may also happen because the process occurs so quickly that no significant heat transfer can take place. In an adiabatic expansion, for example, the internal energy of the gas decreases, because of the work done by the gas in expansion. This is perhaps the clearest experimental evidence one can observe that it takes work for a gas to expand under pressure.</para>
+
+<para id="eip-419"><link target-id="import-auto-id1169736581959"/> illustrates these three processes on a plot of pressure and volume (a <m:math><m:ci>P</m:ci><m:ci>V</m:ci></m:math> diagram). In an isothermal process, as the gas expands, the pressure decreases. This can be predicted from the ideal gas law (<m:math><m:apply><m:eq/><m:mrow><m:ci>P</m:ci><m:ci>V</m:ci></m:mrow><m:mrow><m:ci>N</m:ci><m:ci>k</m:ci><m:ci>T</m:ci></m:mrow></m:apply></m:math>). Since the temperature is constant, if volume increases, the pressure must decrease, to keep <m:math><m:ci>P</m:ci><m:ci>V</m:ci></m:math> constant. You can also see that in an adiabatic process, the pressure decreases with expanding volume more steeply than an isothermal process, because in an adiabatic process, the temperature is not constant, but it decreases. So with increasing <m:math><m:ci>V</m:ci></m:math>, the pressure decrease even more rapidly, so that <m:math><m:ci>P</m:ci><m:ci>V</m:ci></m:math> actually decreases (for decreasing temperature).</para><figure id="import-auto-id1169736581959"><media id="import-auto-id1169737805498" alt="Part a of the figure shows a graph for pressure versus volume. The pressure is along the y axis and the volume is along the x axis. There are two curves. The first curve begins at point A and falls smoothly downward to point B. The graph is shown for an isothermal process. The second curve also begins at point A but falls below the first curve and ends at point C vertically below point B. This graph is shown for an adiabatic process. A line joins point B and C to meet on the X axis. Also a line is drawn from point A to meet the X axis. The area under both the curves is shaded. The graph in figure b is similar to the graph in figure a. Only the directions of the curves are changed. The graph begins from A and moves downward to point B. Then from point B the curve drops vertically downward to C. From point C the graph has a smooth rise back to point A. All directions represented using arrows.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_08a.jpg" width="200"/>
+      </media>
+    
+    <caption>(a) The upper curve is an isothermal process (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT=0} {}</m:annotation></m:semantics></m:math>), whereas the lower curve is an adiabatic process (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0} {}</m:annotation></m:semantics></m:math>). Both start from the same point A, but the isothermal process does more work than the adiabatic because heat transfer into the gas takes place to keep its temperature constant. This keeps the pressure higher all along the isothermal path than along the adiabatic path, producing more work. The adiabatic path thus ends up with a lower pressure and temperature at point C, even though the final volume is the same as for the isothermal process. (b) The cycle ABCA produces a net work output.</caption></figure>
+
+</section><section id="fs-id1169738250571">
+    <title>Reversible Processes</title>
+ <para id="import-auto-id1169737770282">Both isothermal and adiabatic processes such as shown in <link target-id="import-auto-id1169736581959"/> are reversible in principle. A <term id="import-auto-id1169738250360">reversible process</term> is one in which both the system and its environment can return to exactly the states they were in by following the reverse path. The reverse isothermal and adiabatic paths are BA and CA, respectively. Real macroscopic processes are never exactly reversible. In the previous examples, our system is a gas (like that in <link target-id="import-auto-id1169738117758"/>), and its environment is the piston, cylinder, and the rest of the universe. If there are any energy-dissipating mechanisms, such as friction or turbulence, then heat transfer to the environment occurs for either direction of the piston. So, for example, if the path BA is followed and there is friction, then the gas will be returned to its original state but the environment will not—it will have been heated in both directions. Reversibility requires the direction of heat transfer to reverse for the reverse path. Since dissipative mechanisms cannot be completely eliminated, real processes cannot be reversible.</para><para id="import-auto-id1169738005781">There must be reasons that real macroscopic processes cannot be reversible. We can imagine them going in reverse. For example, heat transfer occurs spontaneously from hot to cold and never spontaneously the reverse. Yet it would not violate the first law of thermodynamics for this to happen. In fact, all spontaneous processes, such as bubbles bursting, never go in reverse. There is a second thermodynamic law that forbids them from going in reverse. When we study this law, we will learn something about nature and also find that such a law limits the efficiency of heat engines. We will find that heat engines with the greatest possible theoretical efficiency would have to use reversible processes, and even they cannot convert all heat transfer into doing work. <link target-id="import-auto-id1169738075975"/> summarizes the simpler thermodynamic processes and their definitions.</para>
+    
+    
+  
+    <table id="import-auto-id1169738075975" summary="The table shows a summary of simple thermodynamic processes. There are two columns. The first column represents various thermodynamic process and the second column has an explanation for each."><title>Summary of Simple Thermodynamic Processes</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/><tbody>
+
+           <row><entry>Isobaric</entry>
+            <entry>Constant pressure <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+
+           <row><entry>Isochoric</entry>
+            <entry>Constant volume <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=0} {}</m:annotation></m:semantics></m:math></entry>
+          </row><row>
+            <entry>Isothermal</entry>
+            <entry>Constant temperature <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=W} {}</m:annotation></m:semantics></m:math></entry>
+          </row><row>
+            <entry>Adiabatic</entry>
+            <entry>No heat transfer <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0} {}</m:annotation></m:semantics></m:math></entry>
+          </row></tbody>    
+
+
+
+</tgroup>
+</table></section>  
+    
+    <section id="fs-id1169737779631" class="section-summary"><title>Section Summary</title><list id="fs-id1169738077844"><item id="import-auto-id1169736609278">One of the important implications of the first law of thermodynamics is that machines can be harnessed to do work that humans previously did by hand or by external energy supplies such as running water or the heat of the Sun. A machine that uses heat transfer to do work is known as a heat engine.</item>
+    <item id="import-auto-id1169737050912">There are several simple processes, used by heat engines, that flow from the first law of thermodynamics. Among them are the isobaric, isochoric, isothermal and adiabatic processes.</item>
+    <item id="import-auto-id1169737846866">These processes differ from one another based on how they affect pressure, volume, temperature, and heat transfer.</item>
+    <item id="import-auto-id1169737988065">If the work done is performed on the outside environment, work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) will be a positive value. If the work done is done to the heat engine system, work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) will be a negative value.</item>
+    <item id="import-auto-id1169737787905">Some thermodynamic processes, including isothermal and adiabatic processes, are reversible in theory; that is, both the thermodynamic system and the environment can be returned to their initial states. However, because of loss of energy owing to the second law of thermodynamics, complete reversibility does not work in practice.</item>
+    </list></section><section id="fs-id1169737995034" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      <exercise id="fs-id1169737813337" type="conceptual-questions">
+      <problem id="fs-id1169737813341">
+    <para id="import-auto-id1169737998461">A great deal of effort, time, and money has been spent in the quest for the so-called perpetual-motion machine, which is defined as a hypothetical machine that operates or produces useful work indefinitely and/or a hypothetical machine that produces more work or energy than it consumes. Explain, in terms of heat engines and the first law of thermodynamics, why or why not such a machine is likely to be constructed.</para>
+      </problem></exercise>
+      
+      <exercise id="fs-id1169737777774" type="conceptual-questions">
+        <problem id="fs-id1169737777777">
+    <para id="import-auto-id1169736656618">One method of converting heat transfer into doing work is for heat transfer into a gas to take place, which expands, doing work on a piston, as shown in the figure below. (a) Is the heat transfer converted directly to work in an isobaric process, or does it go through another form first? Explain your answer. (b) What about in an isothermal process? (c) What about in an adiabatic process (where heat transfer occurred prior to the adiabatic process)?</para>
+ 
+          
+<figure id="fs-id1169737705524"><media id="fs-id1169737705526" alt="Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.">
+  <image mime-type="image/jpg" src="../../media/Figure_16_02_09a.jpg" width="200"/>
+</media>  
+</figure></problem>
+      </exercise>
+      
+      <exercise id="fs-id1169738164305" type="conceptual-questions">
+        <problem id="fs-id1169738164308">
+    <para id="import-auto-id1169737814781">Would the previous question make any sense for an isochoric process? Explain your answer.</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169738243863" type="conceptual-questions">
+        <problem id="fs-id1169738257427">
+    <para id="import-auto-id1169736634079">We ordinarily say that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU=0} {}</m:annotation></m:semantics></m:math> for an isothermal process. Does this assume no phase change takes place? Explain your answer.</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169737927114" type="conceptual-questions">
+        <problem id="fs-id1169737980092">
+    <para id="import-auto-id1169736675911">The temperature of a rapidly expanding gas decreases. Explain why in terms of the first law of thermodynamics. (Hint: Consider whether the gas does work and whether heat transfer occurs rapidly into the gas through conduction.)</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169737980711" type="conceptual-questions">
+        <problem id="fs-id1169737980715">
+    <para id="import-auto-id1169738106264">A real process may be nearly adiabatic if it occurs over a very short time. How does the short time span help the process to be adiabatic?</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169737826122" type="conceptual-questions">
+        <problem id="fs-id1169738218730">
+    <para id="import-auto-id1169738073552">It is unlikely that a process can be isothermal unless it is a very slow process. Explain why. Is the same true for isobaric and isochoric processes? Explain your answer.</para>
+    </problem></exercise>
+    </section>
+  
+    </content>
+  <glossary>
+    <definition id="import-auto-id1169738105624"><term>heat engine</term> <meaning id="fs-id1169737003437">a machine that uses heat transfer to do work</meaning></definition>
+    <definition id="import-auto-id1169737939642"><term>isobaric process</term> <meaning id="fs-id1169737003447">constant-pressure process in which a gas does work</meaning></definition>
+    <definition id="import-auto-id1169737939644"><term>isochoric process</term> <meaning id="fs-id1169738037322"> a constant-volume process</meaning></definition>
+    <definition id="import-auto-id1169738137014"><term>isothermal process</term> <meaning id="fs-id1169738037331">a constant-temperature process</meaning></definition>
+    <definition id="import-auto-id1169738137016"><term>adiabatic process</term> <meaning id="fs-id1169737757629">a process in which no heat transfer takes place</meaning></definition>
+    <definition id="import-auto-id1169737882835"><term>reversible process</term> <meaning id="fs-id1169737757639">a process in which both the heat engine system and the external environment theoretically can be returned to their original states</meaning></definition>
+  </glossary>
+</document>

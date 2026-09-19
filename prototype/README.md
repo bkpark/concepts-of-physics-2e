@@ -1,7 +1,7 @@
 # Six-module fidelity prototype
 
 This is an experiment, not a student edition or the final publishing system.
-It reads the preserved CNXML without modifying it. Both profiles use the same
+It reads the maintained CNXML, including the four approved repairs. Both profiles use the same
 frozen slug manifest, source modules, and object anchors. The sample contains
 constant acceleration, Newton's second law, gravitation, the ideal gas law,
 the Bohr model, and the glossary of symbols.
@@ -11,11 +11,12 @@ From the repository root, with Python 3.10+:
 ```powershell
 python prototype/build.py cnx
 python prototype/build.py course
-python -m unittest discover -s prototype -p test_mathml.py
+python -m unittest discover -s prototype -p 'test*.py'
 ```
 
-The builder uses only the Python standard library. MathJax 3.2.2 is vendored
-with its license and SHA-256 manifest; the website does not need a CDN.
+The builder uses only the Python standard library. Native MathML is used for
+current output; the vendored MathJax 3.2.2 is retained as historical prototype
+evidence but is not loaded by current pages. The website does not need a CDN.
 Serve the result with any ordinary static web server, for example:
 
 ```powershell
@@ -35,7 +36,9 @@ $env:NODE_PATH='C:/Users/a/.cache/codex-runtimes/codex-primary-runtime/dependenc
 # Optional on other machines: set PROTOTYPE_CHROME to the Chrome executable.
 node prototype/tools/render.cjs
 python prototype/validate.py
+python prototype/check_numbering.py
 python tools/verify_baseline.py
+python tools/verify_maintained_initialization.py
 python prototype/tools/package.py
 ```
 
@@ -51,7 +54,10 @@ Chrome and operating-system fonts are not packaged or pinned, and PDF metadata
 can vary. Production needs a locked renderer/font environment and broader
 pagination, accessibility, and fidelity tests.
 
-See `docs/fidelity-prototype-report.md` for findings, limitations, and next steps.
+See `docs/maintained-source-status.md` for current findings and next steps.
+`docs/fidelity-prototype-report.md` records the original SVG prototype stage.
 
-The separate native MathML selection experiment is documented in
-`docs/native-math-selection-test.md`. It leaves these SVG builds unchanged.
+The initial native MathML selection experiment is documented in
+`docs/native-math-selection-test.md`; native rendering has now been extended to
+both complete six-section builds. New PDF filenames begin with
+`introduction-to-physics-maintained-`; earlier prototype PDFs are historical samples.

@@ -1,0 +1,779 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The Ideal Gas Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67122</md:content-id>
+  <md:title>The Ideal Gas Law</md:title>
+  <md:abstract><list>
+<item>State and explain the ideal gas law using Boltzmann's constant</item>
+<item>Use the ideal gas law to calculate pressure change, temperature change, volume change, or the number of molecules in a given volume.</item>
+</list></md:abstract>
+  <md:uuid>ba581d7e-f7fa-4ffd-bb4e-aaadc4e97253</md:uuid>
+</metadata>
+
+<content>
+    <figure id="import-auto-id1563742">
+      <media id="import-auto-id2600697" alt="">
+        <image mime-type="image/jpg" src="../../media/Figure_14_03_00.jpg" width="200"/>
+      </media>
+       <caption>The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)</caption>
+    </figure>
+    <para id="import-auto-id2409403">In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and oxygen, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>O</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{O rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, are composed of two or more atoms. We will primarily use the term “molecule” in discussing a gas because the term can also be applied to monatomic gases, such as helium.)</para><para id="import-auto-id2596139">Gases are easily compressed. Gases expand and contract very rapidly with temperature changes. In addition, you will note that most gases expand at the <emphasis effect="italics">same</emphasis> rate, or have the same <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation></m:semantics></m:math>. This raises the question as to why gases should all act in nearly the same way, when liquids and solids have widely varying expansion rates.</para><para id="import-auto-id1590402">The answer lies in the large separation of atoms and molecules in gases, compared to their sizes, as illustrated in <link target-id="import-auto-id2233613"/>. Because atoms and molecules have large separations, forces between them can be ignored, except when they collide with each other during collisions. The motion of atoms and molecules (at temperatures well above the boiling temperature) is fast, such that the gas occupies all of the accessible volume and the expansion of gases is rapid. In contrast, in liquids and solids, atoms and molecules are closer together and are quite sensitive to the forces between them.</para><figure id="import-auto-id2233613">
+      <media id="import-auto-id2600397" alt="Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.">
+        <image mime-type="image/jpg" src="../../media/Figure_14_03_01.jpg" width="250"/>
+      </media>
+      <caption>Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.</caption>
+    </figure>
+    <para id="import-auto-id1856142">To get some idea of how pressure, temperature, and volume of a gas are related to one another, consider what happens when you pump air into an initially deflated tire. The tire’s volume first increases in direct proportion to the amount of air injected, without much increase in the tire pressure. Once the tire has expanded to nearly its full size, the walls limit volume expansion. If we continue to pump air into it, the pressure increases. The pressure will further increase when the car is driven and the tires move. Most manufacturers specify optimal tire pressure for cold tires. (See <link target-id="import-auto-id2102337"/>.)</para><figure id="import-auto-id2102337"><media id="import-auto-id1498134" alt="The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.">
+        <image mime-type="image/jpg" src="../../media/Figure_14_03_02.jpg" width="500"/>
+      </media>
+      
+    <caption>(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.</caption></figure><para id="import-auto-id1149559">At room temperatures, collisions between atoms and molecules can be ignored. In this case, the gas is called an ideal gas, in which case the relationship between the pressure, volume, and temperature is given by the equation of state called the ideal gas law.</para>
+    <note id="fs-id2683246"><label/><title>Ideal Gas Law</title>
+    
+    <para id="import-auto-id1652885">The <term id="import-auto-id1530949">ideal gas law</term> states that</para>
+    <equation id="import-auto-id2374115"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "NkT"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id921222">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the absolute pressure of a gas, <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the volume it occupies, <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is the number of atoms and molecules in the gas, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is its absolute temperature. The constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> is called the <term id="import-auto-id1634900">Boltzmann constant</term> in honor of Austrian physicist Ludwig Boltzmann (1844–1906) and has the value</para>
+    <equation id="import-auto-id1586104"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>38</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext> J</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>K</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=1 "." "38" times "10" rSup { size 8{ - "23"} } " J"/K} {}</m:annotation></m:semantics></m:math></equation></note><para id="import-auto-id2238750">The ideal gas law can be derived from basic principles, but was originally deduced from experimental measurements of Charles’ law (that volume occupied by a gas is proportional to temperature at a fixed pressure) and from Boyle’s law (that for a fixed temperature, the product <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> is a constant). In the ideal gas model, the volume occupied by its atoms and molecules is a negligible fraction of <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math>. The ideal gas law describes the behavior of real gases under most conditions. (Note, for example, that <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is the total number of atoms and molecules, independent of the type of gas.)</para>
+    <para id="import-auto-id2248763">Let us see how the ideal gas law is consistent with the behavior of filling the tire when it is pumped slowly and the temperature is constant. At first, the pressure <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is essentially equal to atmospheric pressure, and the volume <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> increases in direct proportion to the number of atoms and molecules <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> put into the tire. Once the volume of the tire is constant, the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "NkT"} {}</m:annotation></m:semantics></m:math> predicts that the pressure should increase in proportion to <emphasis effect="italics">the number N of atoms and molecules</emphasis>. </para>
+    <example id="fs-id1667893">
+    <title>Calculating Pressure Changes Due to Temperature Changes: Tire Pressure</title>
+    <para id="import-auto-id3224621">Suppose your bicycle tire is fully inflated, with an absolute pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> Pa</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "00" times "10" rSup { size 8{5} } " Pa"} {}</m:annotation></m:semantics></m:math> (a gauge pressure of just under <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>lb/in</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." 0`"lb/in" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>) at a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." 0°C} {}</m:annotation></m:semantics></m:math>. What is the pressure after its temperature has risen to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." 0°C} {}</m:annotation></m:semantics></m:math>? Assume that there are no appreciable leaks or changes in volume.</para><para id="import-auto-id2194007">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2631292">The pressure in the tire is changing only because of changes in temperature. First we need to identify what we know and what we want to know, and then identify an equation to solve for the unknown.</para>
+    <para id="import-auto-id1084477">We know the initial pressure <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn><m:mtext>.00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> Pa</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, the initial temperature 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>18</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and the final temperature 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>35</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>0ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. We must find the final pressure 
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math>. How can we use the equation 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">PV</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext fontstyle="italic">NkT</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>? At first, it may seem that not enough information is given, because the volume 
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:semantics></m:math> and number of atoms 
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:semantics></m:math> are not specified. What we can do is use the equation twice: 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mtext fontstyle="italic">NkT</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mtext fontstyle="italic">NkT</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. If we divide 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:semantics></m:math> by 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:semantics></m:math> we can come up with an equation that allows us to solve for 
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. </para><equation id="import-auto-id2084395"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+                      <m:mrow>
+                        <m:mtext>f</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mrow>
+                        <m:mtext>f</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>N</m:mi>
+                      <m:mrow>
+                        <m:mtext>f</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext fontstyle="italic">kT</m:mtext>
+                          <m:mrow>
+                            <m:mtext>f</m:mtext>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>N</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext fontstyle="italic">kT</m:mtext>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1585921">Since the volume is constant, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> are the same and they cancel out. The same is true for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math>, which is a constant. Therefore,</para>
+    <equation id="import-auto-id1807145">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+                      <m:mrow>
+                        <m:mtext>f</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mtext>f</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {P rSub { size 8{f} } }  over  {P rSub { size 8{0} } } } = {  {T rSub { size 8{f} } }  over  {T rSub { size 8{0} } } }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2084638">We can then rearrange this to solve for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math>:</para>
+    <equation id="import-auto-id2084642">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>P</m:mi>
+                    <m:mrow>
+                      <m:mtext>f</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>P</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mfrac>
+                  <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mrow>
+                      <m:mtext>f</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                  <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mfrac>
+                <m:mi>,</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{f} } =P rSub { size 8{0} }  {  {T rSub { size 8{f} } }  over  {T rSub { size 8{0} } } } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2798629">where the temperature must be in units of kelvins, because <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> are absolute temperatures.</para>
+    <para id="import-auto-id2673782">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2387499">1. Convert temperatures from Celsius to Kelvin.</para>
+    <equation id="import-auto-id2387502">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>18</m:mtext>
+                              <m:mtext>.</m:mtext>
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mtext>273</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mtext> K</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>291 K</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+                        <m:mrow>
+                          <m:mtext>f</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mtext>35</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>273</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfenced>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mtext> K</m:mtext>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>308 K</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{T rSub { size 8{0} } = left ("18" "." 0+"273" right )" K"="291 K"}  {} # 
+T rSub { size 8{f} } = left ("35" "." 0+"273" right )" K"="308 K" {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2677636">2. Substitute the known values into the equation.</para>
+    <equation id="import-auto-id2677638"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>P</m:mi>
+                    <m:mrow>
+                      <m:mtext>f</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>P</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mtext>f</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>00</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext> Pa</m:mtext>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mfrac>
+                      <m:mtext>308 K</m:mtext>
+                      <m:mtext>291 K</m:mtext>
+                    </m:mfrac>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>41</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+                <m:mspace width="0.25em"/>
+                <m:mtext>Pa</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{f} } =P rSub { size 8{0} }  {  {T rSub { size 8{f} } }  over  {T rSub { size 8{0} } } } =7 "." "00" times "10" rSup { size 8{5} } " Pa" left ( {  {"308 K"}  over  {"291 K"} }  right )=7 "." "41" times "10" rSup { size 8{5} } `"Pa"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2919467">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2919469">The final temperature is about 6% greater than the original temperature, so the final pressure is about 6% greater as well. Note that <emphasis effect="italics"><emphasis effect="italics">absolute</emphasis></emphasis> pressure and <emphasis effect="italics"><emphasis effect="italics">absolute</emphasis></emphasis> temperature must be used in the ideal gas law.</para>
+    </example>
+    <note id="fs-id1387947"><label/>
+    <title>Making Connections: Take-Home Experiment—Refrigerating a Balloon</title>
+    <para id="import-auto-id3224623">Inflate a balloon at room temperature. Leave the inflated balloon in the refrigerator overnight. What happens to the balloon, and why? </para>
+    </note>
+    <example id="fs-id1843505">
+    <title>Calculating the Number of Molecules in a Cubic Meter of Gas</title>
+    <para id="import-auto-id2919471">How many molecules are in a typical object, such as gas in a tire or water in a drink? We can use the ideal gas law to give us an idea of how large <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> typically is.</para>
+    <para id="import-auto-id2677390">Calculate the number of molecules in a cubic meter of gas at standard temperature and pressure (STP), which is defined to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math> and atmospheric pressure.</para>
+    <para id="import-auto-id2919757">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2717709">Because pressure, volume, and temperature are all specified, we can use the ideal gas law <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "NkT"} {}</m:annotation></m:semantics></m:math>, to find <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2409089">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2409092">1. Identify the knowns.</para>
+    <equation id="import-auto-id2409094"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                          <m:mi>T</m:mi>
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                          <m:mn>0</m:mn>
+                     
+                        <m:mtext>º</m:mtext>
+                        <m:mrow>
+                          <m:mtext>C</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>273 K</m:mtext></m:mrow>
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                          <m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                          <m:mn>1</m:mn>
+                 
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>01</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow><m:mspace width="0.25em"/>
+                        <m:mtext> Pa</m:mtext>
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                      <m:mi>V</m:mi>
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      <m:mn>1</m:mn>
+                  
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>00</m:mtext><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> m</m:mtext>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+              
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                
+                      <m:mi>k</m:mi>
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      <m:mn>1</m:mn>
+                 
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mtext>38</m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>23</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow><m:mspace width="0.25em"/>
+                    <m:mtext> J/K</m:mtext>
+            
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3224551">2. Identify the unknown: number of molecules, <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id3218613">3. Rearrange the ideal gas law to solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>.</para>
+    <equation id="import-auto-id3224643">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>PV</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>NkT</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>N</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>PV</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>kT</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ ital "PV"= ital "NkT"}  {} # 
+ size 12{N= {  { ital "PV"}  over  { ital "kT"} } }  {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2743296">4. Substitute the known values into the equation and solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>. </para>
+    <equation id="import-auto-id2887530"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>N</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>PV</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>kT</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mrow>
+                              <m:mtext>01</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mrow>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow><m:mspace width="0.25em"/>
+                            <m:mtext> Pa</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>00 m</m:mtext>
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mrow>
+                              <m:mtext>38</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>23</m:mtext>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow><m:mspace width="0.25em"/>
+                            <m:mtext> J/K</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mfenced open="(" close=")">
+                          <m:mtext>273 K</m:mtext>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>68</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mtext>25</m:mtext>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+                <m:mspace width="0.25em"/>
+                <m:mtext>molecules</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N= {  { ital "PV"}  over  { ital "kT"} } = {  { left (1 "." "01" times "10" rSup { size 8{5} } " Pa" right ) left (1 "." "00 m" rSup { size 8{3} }  right )}  over  { left (1 "." "38" times "10" rSup { size 8{ - "23"} } " J/K" right ) left ("273 K" right )} } =2 "." "68" times "10" rSup { size 8{"25"} } `"molecules"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2583233">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id3224684">The calculated number, <m:math><m:cn>2.68</m:cn><m:mo>×</m:mo><m:msup><m:cn>10</m:cn><m:cn>25</m:cn></m:msup></m:math>, is certainly very large. You might say that the volume of a cubic meter is also large (<m:math><m:apply><m:eq/><m:mrow><m:cn>1</m:cn><m:msup><m:mo>m</m:mo><m:cn>3</m:cn></m:msup></m:mrow> <m:mrow><m:cn>1000</m:cn><m:mo>L</m:mo></m:mrow></m:apply></m:math>), but even in a small volume of <m:math><m:mrow><m:cn>1</m:cn><m:msup><m:mo>cm</m:mo><m:cn>3</m:cn></m:msup></m:mrow></m:math>, which is about size of a thimble (<m:math><m:apply><m:eq/><m:mrow><m:cn>1</m:cn><m:msup><m:mo>cm</m:mo><m:cn>3</m:cn></m:msup></m:mrow><m:mrow><m:msup><m:cn>10</m:cn><m:cn>−6</m:cn></m:msup><m:msup><m:mo>m</m:mo><m:cn>3</m:cn></m:msup></m:mrow></m:apply></m:math>), a gas at STP has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>68</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>19</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "68"´"10" rSup { size 8{"19"} } } {}</m:annotation></m:semantics></m:math> molecules in it (still a very large number). Once again, note that <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is the same for all types or mixtures of gases.</para></example>
+<section id="fs-id1698840" class="section-summary"><title>Section Summary</title><list id="fs-id2398625"><item id="import-auto-id739591">The ideal gas law relates the pressure and volume of a gas to the number of gas molecules and the temperature of the gas.</item>
+    <item id="import-auto-id739594">The ideal gas law can be written in terms of the number of molecules of gas:
+    <equation id="import-auto-id739597"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "NkT"} {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is pressure, <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is volume, <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is temperature, <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is number of molecules, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> is the Boltzmann constant
+    <equation id="import-auto-id2564573"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>38</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>23</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=1 "." "38" times "10" rSup { size 8{–"38"} } " J/K"} {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id2883325">The ideal gas law is generally valid at temperatures well above the boiling temperature.</item>
+    </list></section><section id="fs-id2719827" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id2799079" type="conceptual-questions"><problem id="fs-id2799080">
+    <para id="import-auto-id2236451">Under what circumstances would you expect a gas to behave significantly differently than predicted by the ideal gas law?</para>
+    </problem></exercise>
+    <exercise id="fs-id2378151" type="conceptual-questions"><problem id="fs-id2378152">
+    <para id="import-auto-id2236458">A constant-volume gas thermometer contains a fixed amount of gas. What property of the gas is measured to indicate its temperature?</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id2682273" type="problems-exercises" class="problems-exercises">
+<title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2682279" type="problems-exercises"><problem id="fs-id2682280"><para id="import-auto-id2236470">The gauge pressure in your car tires is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50"´"10" rSup { size 8{5} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> at a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." 0°C} {}</m:annotation></m:semantics></m:math> when you drive it onto a ferry boat to Alaska. What is their gauge pressure later, when their temperature has dropped to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>40</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "40" "." 0°C} {}</m:annotation></m:semantics></m:math>?</para></problem>
+<solution id="fs-id2684234">    
+<para id="import-auto-id2677607">1.62 atm</para>
+</solution>
+</exercise>
+    <exercise id="fs-id2798567" type="problems-exercises"><problem id="fs-id2798568">    <para id="import-auto-id2677616">Convert an absolute pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "00" times "10" rSup { size 8{5} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> to gauge pressure in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>lb/in</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"lb/in" rSup { size 8{2} }  "." } {}</m:annotation></m:semantics></m:math> (This value was stated to be just less than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>0 lb/in</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." "0 lb/in" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> in <link target-id="fs-id1667893"/>. Is it?) </para></problem></exercise>
+    <exercise id="fs-id2804147" type="problems-exercises"><problem id="fs-id2804148">    <para id="import-auto-id2681625">Suppose a gas-filled incandescent light bulb is manufactured so that the gas inside the bulb is at atmospheric pressure when the bulb has a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math>. (a) Find the gauge pressure inside such a bulb when it is hot, assuming its average temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60" "." 0°C} {}</m:annotation></m:semantics></m:math> (an approximation) and neglecting any change in volume due to thermal expansion or gas leaks. (b) The actual final pressure for the light bulb will be less than calculated in part (a) because the glass bulb will expand. What will the actual final pressure be, taking this into account? Is this a negligible difference?</para>
+    </problem>
+<solution id="fs-id2736663">
+    <para id="import-auto-id2386001">(a) 0.136 atm </para>
+    <para id="import-auto-id2386017">(b) 0.135 atm. The difference between this value and the value from part (a) is negligible.</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2687223" type="problems-exercises"><problem id="fs-id2687224">    <para id="import-auto-id2386026">Large helium-filled balloons are used to lift scientific equipment to high altitudes. (a) What is the pressure inside such a balloon if it starts out at sea level with a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°C} {}</m:annotation></m:semantics></m:math> and rises to an altitude where its volume is twenty times the original volume and its temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>50</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "50" "." 0°C} {}</m:annotation></m:semantics></m:math>? (b) What is the gauge pressure? (Assume atmospheric pressure is constant.) </para></problem></exercise>
+    <exercise id="fs-id2094656" type="problems-exercises"><problem id="fs-id2094657">    <para id="import-auto-id2637302">In the text, it was shown that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">/</m:mo><m:mi>V</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>68</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>25</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N/V=2 "." "68" times "10" rSup { size 8{"25"} } `m rSup { size 8{ - 3} } } {}</m:annotation></m:semantics></m:math>  for gas at STP. (a) Show that this quantity is equivalent to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">/</m:mo><m:mi>V</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>68</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>19</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N/V=2 "." "68" times "10" rSup { size 8{"19"} } `"cm" rSup { size 8{ - 3} } ,} {}</m:annotation></m:semantics></m:math>  as stated. (b) About how many atoms are there in one <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>μm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"μm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> (a cubic micrometer) at STP? (c) What does your answer to part (b) imply about the separation of atoms and molecules? </para></problem></exercise>
+    <exercise id="fs-id2932069" type="problems-exercises"><problem id="fs-id2932070">    <para id="import-auto-id3184957">An airplane passenger has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"" cm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> of air in his stomach just before the plane takes off from a sea-level airport. What volume will the air have at cruising altitude if cabin pressure drops to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>?</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50"´"10" rSup { size 8{4} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para></problem></exercise>
+    <exercise id="fs-id1908858" type="problems-exercises"><problem id="fs-id1908859">    <para id="import-auto-id2597680">An expensive vacuum system can achieve a pressure as low as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"´"10" rSup { size 8{ +- 7} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20"°C} {}</m:annotation></m:semantics></m:math>. How many atoms are there in a cubic centimeter at this pressure and temperature? </para></problem></exercise>
+    <exercise id="fs-id2328150" type="problems-exercises"><problem id="fs-id2328151">    <para id="import-auto-id3227463">The number density of gas atoms at a certain location in the space above our planet is about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>11</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" times "10" rSup { size 8{"11"} } `m rSup { size 8{ - 3} } ,} {}</m:annotation></m:semantics></m:math> and the pressure is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>75</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "75"´"10" rSup { size 8{ +- "10"} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> in this space. What is the temperature there?</para></problem>
+<solution id="fs-id2631515">
+    <para id="eip-id3084073">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mtext>73</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mn>9</m:mn>
+                <m:mtext>º</m:mtext>
+                <m:mtext>C</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - "73" "." 9°C} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise><exercise id="fs-id1804845" type="problems-exercises"><problem id="fs-id1804846">    <para id="import-auto-id2688601">A bicycle tire has a pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "00"´"10" rSup { size 8{5} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> at a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." 0°C} {}</m:annotation></m:semantics></m:math> and contains 2.00 L of gas. What will its pressure be if you let out an amount of air that has a volume of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"" cm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> at atmospheric pressure? Assume tire temperature and volume remain constant. </para></problem></exercise>
+    <exercise id="fs-id2889733" type="problems-exercises"><problem id="fs-id2409195">    <para id="import-auto-id2698879">A high-pressure gas cylinder contains 50.0 L of toxic gas at a pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "40"´"10" rSup { size 8{7} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0°C} {}</m:annotation></m:semantics></m:math>. Its valve leaks after the cylinder is dropped. The cylinder is cooled to dry ice temperature <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>–</m:mi><m:mtext>78</m:mtext><m:mtext>.</m:mtext><m:mn>5</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( –"78" "." 5°C \) } {}</m:annotation></m:semantics></m:math> to reduce the leak rate and pressure so that it can be safely repaired. (a) What is the final pressure in the tank, assuming a negligible amount of gas leaks while being cooled and that there is no phase change? (b) What is the final pressure if one-tenth of the gas escapes? (c) To what temperature must the tank be cooled to reduce the pressure to 1.00 atm (assuming the gas does not change phase and that there is no leakage during cooling)? (d) Does cooling the tank appear to be a practical solution? </para></problem>
+<solution id="fs-id1695248">
+    <para id="import-auto-id2887240">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>14</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "14" times "10" rSup { size 8{7} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2385013">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>23</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "23" times "10" rSup { size 8{7} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2692716">(c) 2.16 K</para>
+    <para id="import-auto-id2385055">(d) No. The final temperature needed is much too low to be easily achieved for a large object.</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1544154" type="problems-exercises"><problem id="fs-id1544155">
+<para id="import-auto-id2681482">(a) What is the gauge pressure in a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0°C} {}</m:annotation></m:semantics></m:math> car tire containing 3.60 mol of gas in a 30.0 L volume? (b) What will its gauge pressure be if you add 1.00 L of gas originally at atmospheric pressure and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0°C} {}</m:annotation></m:semantics></m:math>? Assume the temperature returns to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0°C} {}</m:annotation></m:semantics></m:math> and the volume remains constant. </para>
+    </problem></exercise>
+    </section>
+  </content>
+<glossary>
+    <definition id="import-auto-id2744320"><term>ideal gas law</term><meaning id="fs-id2084747">the physical law that relates the pressure and volume of a gas to the number of gas molecules or number of moles of gas and the temperature of the gas</meaning></definition>
+    <definition id="import-auto-id2744329"><term>Boltzmann constant</term><meaning id="fs-id2699740"><m:math>
+ <m:semantics>
+   <m:mi>k</m:mi>
+ </m:semantics>
+</m:math> , a physical constant that relates energy to temperature; <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>k</m:mi>
+   <m:mo>=</m:mo>
+
+    <m:mtext>1.38</m:mtext>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>–23</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>J/K</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></meaning></definition>
+    </glossary>
+</document>

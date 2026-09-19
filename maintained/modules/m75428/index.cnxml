@@ -1,0 +1,246 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Conductors and Applications of Electrostatics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m75428</md:content-id>
+  <md:title>Conductors and Applications of Electrostatics</md:title>
+  <md:abstract><list>
+<item>List the three properties of a conductor in electrostatic equilibrium.</item>
+<item>Explain why the electric field is zero inside a conductor in electrostatic equilibrium.</item>
+<item>Describe how a lightning rod works.</item>
+<item>Name several real-world applications of the study of electrostatics.</item>
+</list></md:abstract>
+  <md:uuid>9fa56613-d72d-4195-a066-49cd27ee4d85</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3081522"><term id="import-auto-id2422804">Conductors</term> contain <term id="import-auto-id1576423">free charges</term> that move easily. When excess charge is placed on a conductor or the conductor is put into a static electric field, charges in the conductor quickly respond to reach a steady state called <term id="import-auto-id2056158">electrostatic equilibrium</term>.</para>
+    <para id="import-auto-id2970817"><link target-id="import-auto-id3230544"/> shows the effect of an electric field on free charges in a conductor. The free charges move until the field is perpendicular to the conductor’s surface. There can be no component of the field parallel to the surface in electrostatic equilibrium, since, if there were, it would produce further movement of charge.</para><figure id="import-auto-id3230544"><media id="import-auto-id2402594" alt="In part a, an electric field E exists at some angle with the horizontal applied on a conductor. One component of this field E parallel is along x axis represented by a vector arrow and other E perpendicular, is along y axis represented by a vector arrow. Charge inside the conductor moves along x axis so the force acting on it is F parallel, which is equal to q multiplied by E parallel. In part b, a charge is shown inside the conductor and electric field is represented by a vector arrow pointing upward starting from the surface of the conductor.">
+          <image mime-type="image/jpg" src="../../media/Figure_19_07_02a.jpg" width="200"/>
+        </media>
+        
+      <caption>When an electric field <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math>) exerts a force (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math>) on the free charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>, which moves the charge until <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } =0} {}</m:annotation></m:semantics></m:math>. (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium. A positive free charge is shown in the figure for the example, but the result holds similarly for a negative free charge.</caption></figure><para id="import-auto-id1420106">A conductor placed in an <term id="import-auto-id1487262">electric field</term> will be <term id="import-auto-id1561098">polarized</term>. <link target-id="import-auto-id2453144"/> shows the result of placing a neutral conductor in an originally uniform electric field. The field becomes stronger near the conductor but entirely disappears inside it.</para>
+  
+  
+    <figure id="import-auto-id2453144"><media id="import-auto-id1986389" alt="A spherical conductor is placed in the external electric field. The field lines are shown running from left to right. The field lines enter and leave the conductor at right angles. Negative charges accumulate on the left surface of the conductor and positive charges accumulate on the right surface of the conductor.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_03a.jpg" width="200"/>
+      </media>
+      
+    <caption>This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.</caption></figure><note id="fs-id2660798"><label/><title>Misconception Alert: Electric Field inside a Conductor</title>
+    
+    <para id="import-auto-id2589598">Excess charges placed on a spherical conductor repel and move until they are evenly distributed, as shown in <link target-id="import-auto-id2594136"/>. Excess charge is forced to the surface until the field inside the conductor is zero. Outside the conductor, the field is exactly the same as if the conductor were replaced by a point charge at its center equal to the excess charge.</para>
+    
+      
+    <figure id="import-auto-id2594136"><media id="import-auto-id2661903" alt="A positively charged sphere is shown and positive charges are distributed all over the surface. Electric field lines emanate from the sphere in the space shown by the vector arrow pointing outward.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_04a.jpg" width="200"/>
+      </media>
+      
+    <caption>The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.</caption></figure></note><note id="fs-id3032178"><label/>
+    <title>Properties of a Conductor in Electrostatic Equilibrium</title>
+<list id="fs-id2394081" list-type="enumerated" number-style="arabic"><item id="import-auto-id1577562">The electric field is zero inside a conductor.</item>
+    <item id="import-auto-id1575688">Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.</item>
+    <item id="import-auto-id1236511">Any excess charge resides entirely on the surface or surfaces of a conductor.</item>
+</list>
+    </note>
+  
+    <para id="import-auto-id1446943">The properties of a conductor are consistent with the situations already discussed and can be used to analyze any conductor in electrostatic equilibrium. This can lead to some interesting new insights, such as described below.</para>
+    <para id="import-auto-id2662934">How can a very uniform electric field be created? Consider a system of two metal plates with opposite charges on them, as shown in <link target-id="import-auto-id2594161"/>. The properties of conductors in electrostatic equilibrium indicate that the electric field between the plates will be uniform in strength and direction. Except near the edges (which can be ignored when plates are close to each other), the excess charges distribute themselves uniformly, producing field lines that are uniformly spaced (hence uniform in strength) and perpendicular to the surfaces (hence uniform in direction, since the plates are flat).</para><figure id="import-auto-id2594161"><media id="import-auto-id1842860" alt="Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_05a.jpg" width="300"/>
+      </media>
+      
+    <caption>Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.</caption></figure><para id="eip-956">In fact, this is a particular example of electric circuit elements called <term>capacitors</term>. This particular example is called a <term>parallel-plate capacitor</term> and can be used to analyze properties of capacitors in general, such as how many charges can be stored using two nearby conductors set at a certain electric potential difference (voltage) apart. Capacitors find wide use in electric circuits alongside the resistors and inductors that you will learn about later.</para><section id="fs-id2669757"><title>Electric Fields on Uneven Surfaces</title><para id="import-auto-id3175345">So far we have considered excess charges on a smooth, symmetrical conductor surface. What happens if a conductor has sharp corners or is pointed? Excess charges on a nonuniform conductor become concentrated at the sharpest points. Additionally, excess charge may move on or off the conductor at the sharpest points. To see how and why this happens, consider the charged conductor in <link target-id="import-auto-id2398984"/>. The electrostatic repulsion of like charges is most effective in moving them apart on the flattest surface, and so they become least concentrated there. The same effect is produced on a conductor by an externally applied electric field, as seen in <link target-id="import-auto-id2398984"/> (c). Since the field lines must be perpendicular to the surface, more of them are concentrated on the most curved parts.</para>
+    
+    
+      <figure id="import-auto-id2398984"><media id="import-auto-id2617779" alt="In part a, a conductor is shown with the unsymmetrical shape. The identical pair of charges at opposite ends on the conductor have similar components of forces represented by arrows. In part b, the unsymmetrical object has positive charge on its surface. The electric field lines are shown emerging perpendicular from the surface of the conductor represented by vector arrow. In part c, the field lines in and around the conductor running from left to right is shown. The left surface of the conductor has negative charge and the right surface has positive charge. The field lines enter and leave the conductor at right angles.">
+          <image mime-type="image/jpg" src="../../media/Figure_19_07_07a.jpg" width="350"/>
+        </media>
+        
+      <caption>Excess charge on a nonuniform conductor becomes most concentrated at the location of greatest curvature. (a) The forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surface are different. It is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math> that moves the charges apart once they have reached the surface. (b) <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math> is smallest at the more pointed end, the charges are left closer together, producing the electric field shown. (c) An uncharged conductor in an originally uniform electric field is polarized, with the most concentrated charge at its most pointed end.</caption></figure></section><section id="fs-id2058024">
+        <title>Applications of Conductors</title>
+    <para id="import-auto-id3450035">On a very sharply curved surface, such as shown in <link target-id="import-auto-id2677542"/>, the charges are so concentrated at the point that the resulting electric field can be great enough to remove them from the surface. This can be useful.</para>
+    <para id="import-auto-id2399976">Lightning rods work best when they are most pointed. The large charges created in storm clouds induce an opposite charge on a building that can result in a lightning bolt hitting the building. The induced charge is bled away continually by a lightning rod, preventing the more dramatic lightning strike.</para>
+    <para id="import-auto-id2578321">Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible (see <link target-id="import-auto-id1993313"/>, which shows a Van de Graaff generator). Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.</para><para id="import-auto-id3119606">Another device that makes use of some of these principles is a <term id="import-auto-id1934114">Faraday cage</term>. This is a metal shield that encloses a volume. All electrical charges will reside on the outside surface of this shield, and there will be no electrical field inside. A Faraday cage is used to prohibit stray electrical fields in the environment from interfering with sensitive measurements, such as the electrical signals inside a nerve cell.</para><para id="import-auto-id3079151">During electrical storms if you are driving a car, it is best to stay inside the car as its metal body acts as a Faraday cage with zero electrical field inside. If in the vicinity of a lightning strike, its effect is felt on the outside of the car and the inside is unaffected, provided you remain totally inside. This is also true if an active (“hot”) electrical wire was broken (in a storm or an accident) and fell on your car.</para>
+   
+  
+    <figure id="import-auto-id2677542"><media id="import-auto-id3138839" alt="A cone shaped positively charged conductor is shown where most of the positive charges are accumulated at the tip. The field lines represented by arrows emerge at right angles from the surface of the conductor in outward direction. The density of field lines is greater at the tip of the cone than at other surfaces.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_08a.jpg" width="200"/>
+      </media>
+      
+    <caption>A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.</caption></figure><figure id="import-auto-id1993313"><media id="import-auto-id1398675" alt="In part a, a lightning rod is shown on the roof of a house. In part b, a person is touching the metal sphere of the Van De Graaff and his hair is standing up.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_09a.jpg" width="350"/>
+      </media>
+      
+    <caption>(a) A lightning rod is pointed to facilitate the transfer of charge. (credit: Romaine, Wikimedia Commons) (b) This Van de Graaff generator has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated. The mutual repulsion of like charges is evident in the person’s hair while touching the metal sphere. (credit: Jon ‘ShakataGaNai’ Davis/Wikimedia Commons).</caption></figure></section>
+
+    <para id="import-auto-id3110040">Below are additional applications of <term id="import-auto-id1430118">electrostatics</term>, the study of electricity in electrostatic equilibrium, many of them using conductors for their properties just discussed above.</para><section id="fs-id1579239">
+        <title>The Van de Graaff Generator</title>
+    <para id="import-auto-id1596430"><term id="import-auto-id1999240">Van de Graaff generators</term> (or Van de Graaffs) are not only spectacular devices used to demonstrate high voltage due to static electricity—they are also used for serious research. The first was built by Robert Van de Graaff in 1931 (based on original suggestions by Lord Kelvin) for use in nuclear physics research. <link target-id="import-auto-id1570982"/> shows a schematic of a large research version. Van de Graaffs utilize both smooth and pointed surfaces, and conductors and insulators to generate large static charges and, hence, large voltages.</para>
+    <para id="import-auto-id2444819">A very large excess charge can be deposited on the sphere, because it moves quickly to the outer surface. Practical limits arise because the large electric fields polarize and eventually ionize surrounding materials, creating free charges that neutralize excess charge or allow it to escape. Nevertheless, voltages of 15 million volts are well within practical limits.</para>
+ 
+        
+    <figure id="import-auto-id1570982"><media id="import-auto-id1911228" alt="Schematic of Van de Graaff generator is shown. The parts of the generators shown include a conductor, insulator, nonconductive belt, ion source, and experimental area.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_08_02.jpg" width="225"/>
+      </media>
+      
+    <caption>Schematic of Van de Graaff generator. A battery (A) supplies excess positive charge to a pointed conductor, the points of which spray the charge onto a moving insulating belt near the bottom. The pointed conductor (B) on top in the large sphere picks up the charge. (The induced electric field at the points is so large that it removes the charge from the belt.) This can be done because the charge does not remain inside the conducting sphere but moves to its outside surface. An ion source inside the sphere produces positive ions, which are accelerated away from the positive sphere to high velocities.</caption></figure><note id="fs-id2406446"><label/><title>Take-Home Experiment: Electrostatics and Humidity</title>
+    
+    <para id="import-auto-id1413148">Rub a comb through your hair and use it to lift pieces of paper. It may help to tear the pieces of paper rather than cut them neatly. Repeat the exercise in your bathroom after you have had a long shower and the air in the bathroom is moist. Is it easier to get electrostatic effects in dry or moist air? Why would torn paper be more attractive to the comb than cut paper? Explain your observations.</para></note></section>
+  
+  <section id="fs-id3028107">
+    <title>Xerography</title>
+    <para id="import-auto-id3354654">Most copy machines use an electrostatic process called <term id="import-auto-id1447175">xerography</term>—a word coined from the Greek words <emphasis effect="italics">xeros</emphasis> for dry and <emphasis effect="italics">graphos</emphasis> for writing. The heart of the process is shown in simplified form in <link target-id="import-auto-id2971225"/>.</para><para id="import-auto-id2660872">A selenium-coated aluminum drum is sprayed with positive charge from points on a device called a corotron. Selenium is a substance with an interesting property—it is a <term id="import-auto-id1485993">photoconductor</term>. That is, selenium is an insulator when in the dark and a conductor when exposed to light.</para>
+    <para id="import-auto-id3085573">In the first stage of the xerography process, the conducting aluminum drum is <term id="import-auto-id3104753">grounded</term> so that a negative charge is induced under the thin layer of uniformly positively charged selenium. In the second stage, the surface of the drum is exposed to the image of whatever is to be copied. Where the image is light, the selenium becomes conducting, and the positive charge is neutralized. In dark areas, the positive charge remains, and so the image has been transferred to the drum.</para>
+    <para id="import-auto-id2589708">The third stage takes a dry black powder, called toner, and sprays it with a negative charge so that it will be attracted to the positive regions of the drum. Next, a blank piece of paper is given a greater positive charge than on the drum so that it will pull the toner from the drum. Finally, the paper and electrostatically held toner are passed through heated pressure rollers, which melt and permanently adhere the toner within the fibers of the paper.</para>
+ 
+    
+    <figure id="import-auto-id2971225"><media id="import-auto-id2392471" alt="Four stages of xerography are shown. A positively charged aluminum drum is shown which is grounded. In second stage image is being transferred to it, creating positive image. In third stage, negatively charged toner is attached with the drum and in fourth stage, toner is pulled by the paper which is highly charged.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_08_03a.jpg" width="450"/>
+      </media>
+      
+    <caption>Xerography is a dry copying process based on electrostatics. The major steps in the process are the charging of the photoconducting drum, transfer of an image creating a positive charge duplicate, attraction of toner to the charged parts of the drum, and transfer of toner to the paper. Not shown are heat treatment of the paper and cleansing of the drum for the next copy.</caption></figure></section>
+  
+  <section id="fs-id3173200">
+    <title>Laser Printers</title>
+    <para id="import-auto-id1023224"><term id="import-auto-id3258401">Laser printers</term> use the xerographic process to make high-quality images on paper, employing a laser to produce an image on the photoconducting drum as shown in <link target-id="import-auto-id1449778"/>. In its most common application, the laser printer receives output from a computer, and it can achieve high-quality output because of the precision with which laser light can be controlled. Many laser printers do significant information processing, such as making sophisticated letters or fonts, and may contain a computer more powerful than the one giving them the raw data to be printed.</para>
+    
+    
+    <figure id="import-auto-id1449778"><media id="import-auto-id2672092" alt="A laser printer mechanism is shown. Laser beam produced from a computer, laser, or optics is incident on the drum containing some image.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_08_04a.jpg" width="450"/>
+      </media>
+      
+    <caption>In a laser printer, a laser beam is scanned across a photoconducting drum, leaving a positive charge image. The other steps for charging the drum and transferring the image to paper are the same as in xerography. Laser light can be very precisely controlled, enabling laser printers to produce high-quality images.</caption></figure></section>
+  
+  <section id="fs-id3090754">
+    <title>Ink Jet Printers and Electrostatic Painting</title>
+    <para id="import-auto-id3184811">The <term id="import-auto-id1859971">ink jet printer</term>, commonly used to print computer-generated text and graphics, also employs electrostatics. A nozzle makes a fine spray of tiny ink droplets, which are then given an electrostatic charge. (See <link target-id="import-auto-id2680305"/>.)</para>
+    <para id="import-auto-id3026125">Once charged, the droplets can be directed, using pairs of charged plates, with great precision to form letters and images on paper. Ink jet printers can produce color images by using a black jet and three other jets with primary colors, usually cyan, magenta, and yellow, much as a color television produces color. (This is more difficult with xerography, requiring multiple drums and toners.)</para>
+    
+    
+    <figure id="import-auto-id2680305"><media id="import-auto-id1922676" alt="An ink-jet printer mechanism is shown. Ink is projected from ink nozzle and passes through the charging electrodes moving through deflection plate and finally imprinting on paper.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_08_05a.jpg" width="350"/>
+      </media>
+      
+    <caption>The nozzle of an ink-jet printer produces small ink droplets, which are sprayed with electrostatic charge. Various computer-driven devices are then used to direct the droplets to the correct positions on a page.</caption></figure><para id="import-auto-id2969220">Electrostatic painting employs electrostatic charge to spray paint onto odd-shaped surfaces. Mutual repulsion of like charges causes the paint to fly away from its source. Surface tension forms drops, which are then attracted by unlike charges to the surface to be painted. Electrostatic painting can reach those hard-to-get at places, applying an even coat in a controlled manner. If the object is a conductor, the electric field is perpendicular to the surface, tending to bring the drops in perpendicularly. Corners and points on conductors will receive extra paint. Felt can similarly be applied.</para>
+  </section>
+  
+  <section id="fs-id2660797">
+    <title>Smoke Precipitators and Electrostatic Air Cleaning </title>
+    <para id="import-auto-id2674210">Another important application of electrostatics is found in air cleaners, both large and small. The electrostatic part of the process places excess (usually positive) charge on smoke, dust, pollen, and other particles in the air and then passes the air through an oppositely charged grid that attracts and retains the charged particles. (See <link target-id="import-auto-id1427148"/>.)</para>
+    <para id="import-auto-id1586636">Large <term id="import-auto-id1386574">electrostatic precipitators</term> are used industrially to remove over 99% of the particles from stack gas emissions associated with the burning of coal and oil. Home precipitators, often in conjunction with the home heating and air conditioning system, are very effective in removing polluting particles, irritants, and allergens.</para>
+
+    
+       <figure id="import-auto-id1427148"><media id="import-auto-id3292795" alt="(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant.[alt]Schematic of an electrostatic precipitator is shown. Four filters are shown one after another. Air passes through initial filter, then through positively charged grid, then through the third grid which is negatively charged and finally through the final grid. The number of particles is shown decreasing as air passes through various filters.">
+          <image mime-type="image/jpg" src="../../media/Figure_19_08_06a.jpg" width="675"/>
+        </media>
+        
+      <caption>(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant. (credit: Cmdalgleish, Wikimedia Commons)</caption></figure></section>
+<section id="eip-625" class="section-summary"><title>Section Summary</title><list id="eip-id2291441"><item>The electrical forces around a conductor will cause free charges to move around inside the conductor until static equilibrium is reached.</item>
+<item>Any excess charge will collect along the surface of a conductor.</item>
+<item>Conductors with sharp corners or points will collect more charge at those points.</item>
+<item>A lightning rod is a conductor with sharply pointed ends that collect excess charge on the building caused by an electrical storm and allow it to dissipate back into the air.</item>
+<item>A Faraday cage acts like a shield around an object, preventing electric charge from penetrating inside.</item>
+<item>In addition to research using equipment such as a Van de Graaff generator, many practical applications of electrostatics exist, including photocopiers, laser printers, ink-jet printers and electrostatic air filters.</item>
+    </list></section>
+
+<section id="fs-id3007123" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+    <exercise id="fs-id3201948" type="conceptual-questions"><problem id="fs-id2383370">
+<para id="import-auto-id2661187">Is the object in <link target-id="fs-id1586840"/> a conductor or an insulator? Justify your answer.</para><figure id="fs-id1586840"><media id="fs-id3223938" alt="External field lines entering the object from one end and emerging from another are shown by lines.">
+          <image mime-type="" src="../../media/Figure_19_07_11a.jpg" width="250"/>
+        </media>
+      </figure></problem></exercise>
+      
+    <exercise id="fs-id2671695" type="conceptual-questions">
+      <problem id="fs-id2597811">
+    <para id="import-auto-id1398255">If the electric field lines in the figure above were perpendicular to the object, would it necessarily be a conductor? Explain.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3088694" type="conceptual-questions">
+      <problem id="fs-id3286331">
+    <para id="import-auto-id3290879">The discussion of the electric field between two parallel conducting plates, in this module states that edge effects are less important if the plates are close together. What does close mean? That is, is the actual plate separation crucial, or is the ratio of plate separation to plate area crucial?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1871378" type="conceptual-questions">
+      <problem id="fs-id2423523">
+    <para id="import-auto-id3209961">Would the self-created electric field at the end of a pointed conductor, such as a lightning rod, remove positive or negative charge from the conductor? Would the same sign charge be removed from a neutral pointed conductor by the application of a similar externally created electric field? (The answers to both questions have implications for charge transfer utilizing points.)</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1487810" type="conceptual-questions">
+      <problem id="fs-id1921676">
+    <para id="import-auto-id3177821">Why is a golfer with a metal club over her shoulder vulnerable to lightning in an open fairway? Would she be any safer under a tree?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3228630" type="conceptual-questions">
+      <problem id="fs-id2950288">
+    <para id="import-auto-id2382867">Can the belt of a Van de Graaff accelerator be a conductor? Explain.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3286362" type="conceptual-questions">
+      <problem id="fs-id1404645">
+    <para id="import-auto-id2032586">Are you relatively safe from lightning inside an automobile? Give two reasons.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2400128" type="conceptual-questions">
+      <problem id="fs-id2600945">
+    <para id="import-auto-id3246280">Discuss pros and cons of a lightning rod being grounded versus simply being attached to a building.</para>
+    </problem></exercise>
+      
+      <exercise id="fs-id3408279" type="conceptual-questions">
+        <problem id="fs-id3399676">
+    <para id="import-auto-id3105551">Using the symmetry of the arrangement, show that the net Coulomb force on the charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> at the center of the square below (<link target-id="import-auto-id3009601"/>) is zero if the charges on the four corners are exactly equal.</para></problem></exercise>
+      
+    
+    <figure id="import-auto-id3009601"><media id="import-auto-id1843715" alt="Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_12a.jpg" width="200"/>
+      </media>
+      
+    <caption>Four point charges <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> lie on the corners of a square and <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> is located at its center.</caption></figure><exercise id="fs-id2678000" type="conceptual-questions">
+      <problem id="fs-id3025281">
+    <para id="import-auto-id1381531">(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in <link target-id="import-auto-id3009601"/> is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } =q rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math></para></problem></exercise>
+      
+    <exercise id="fs-id3397088" type="conceptual-questions">
+      <problem id="fs-id3260336">
+    <para id="import-auto-id1409968">(a) What is the direction of the total Coulomb force on <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id3009601"/> if <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> is negative, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and both are negative, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?</para></problem></exercise>
+
+    <exercise id="fs-id1368317" type="conceptual-questions">
+      <problem id="fs-id1448423">
+    <para id="import-auto-id1974605">Considering <link target-id="import-auto-id3009601"/>, suppose that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>. First show that <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> from the center of the square.</para>
+    </problem></exercise>
+    <exercise id="fs-id1383011" type="conceptual-questions"><problem id="fs-id2421998">
+    <para id="import-auto-id2583169">If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =0} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id3009601"/>, under what conditions will there be no net Coulomb force on <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis>?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2384303" type="conceptual-questions">
+      <problem id="fs-id3149722">
+    <para id="import-auto-id1926213">In regions of low humidity, one develops a special “grip” when opening car doors, or touching metal door knobs. This involves placing as much of the hand on the device as possible, not just the ends of one’s fingers. Discuss the induced charge and explain why this is done.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1985635" type="conceptual-questions">
+      <problem id="fs-id3077069">
+    <para id="import-auto-id2929998">Tollbooth stations on roadways and bridges usually have a piece of wire stuck in the pavement before them that will touch a car as it approaches. Why is this done?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2603645" type="conceptual-questions">
+      <problem id="fs-id1616719">
+    <para id="import-auto-id2622896">Suppose a woman carries an excess charge. To maintain her charged status can she be standing on ground wearing just any pair of shoes? How would you discharge her? What are the consequences if she simply walks away?</para>
+    </problem></exercise>
+    </section>
+
+</content>
+  <glossary>
+    <definition id="import-auto-id694467"><term>conductor</term> <meaning id="fs-id3026046">an object with properties that allow charges to move about freely within it</meaning></definition>
+    <definition id="import-auto-id2689037"><term>free charge</term> <meaning id="fs-id3162269">an electrical charge (either positive or negative) which can move about separately from its base molecule</meaning></definition>
+    <definition id="import-auto-id3081941"><term>electrostatic equilibrium</term> <meaning id="fs-id3088821">an electrostatically balanced state in which all free electrical charges have stopped moving about</meaning></definition>
+    <definition id="import-auto-id1828027"><term>polarized</term> <meaning id="fs-id2453098">a state in which the positive and negative charges within an object have collected in separate locations</meaning></definition>
+    <definition id="import-auto-id1864432"><term>Faraday cage</term> <meaning id="fs-id3257638">a metal shield which prevents electric charge from penetrating its surface</meaning></definition>
+    <definition id="fs-idm366906704"><term>capacitor</term> <meaning id="fs-idm1303739168">an arrangement of conductors designed to store charge using voltage difference</meaning></definition>
+    <definition id="fs-idm1286392672"><term>parallel-plate capacitor</term> <meaning id="fs-idm1156631184">an example of capacitor using arrangement of two parallel conducting plates placed near each other</meaning></definition>
+    <definition id="import-auto-id1868551"><term>Van de Graaff generator</term> <meaning id="fs-id2671037">a machine that produces a large amount of excess charge, used for experiments with high voltage</meaning></definition>
+    <definition id="import-auto-id3234461"><term>electrostatics</term> <meaning id="fs-id2403320">the study of electricity in electrostatic equilibrium</meaning></definition>
+    <definition id="import-auto-id3144951"><term>photoconductor</term> <meaning id="fs-id3127706">a substance that is an insulator until it is exposed to light, when it becomes a conductor</meaning></definition>
+    <definition id="import-auto-id2446545"><term>xerography</term> <meaning id="fs-id2668569">a dry copying process based on electrostatics</meaning></definition>
+    <definition id="import-auto-id1921271"><term>grounded</term> <meaning id="fs-id1921407">connected to the ground with a conductor, so that charge flows freely to and from the Earth to the grounded object</meaning></definition>
+    <definition id="import-auto-id2441505"><term>laser printer</term> <meaning id="fs-id3042788">uses a laser to create a photoconductive image on a drum, which attracts dry ink particles that are then rolled onto a sheet of paper to print a high-quality copy of the image</meaning></definition>
+    <definition id="import-auto-id3009329"><term>ink-jet printer</term> <meaning id="fs-id3146452">small ink droplets sprayed with an electric charge are controlled by electrostatic plates to create images on paper</meaning></definition>
+    <definition id="import-auto-id1381701"><term>electrostatic precipitators</term> <meaning id="fs-id2590925">filters that apply charges to particles in the air, then attract those charges to a filter, removing them from the airstream</meaning></definition>
+  </glossary>
+</document>

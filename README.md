@@ -3,12 +3,16 @@
 Recovery and publishing project. Intended maintained GitHub repository name:
 `concepts-of-physics-2e`. The book title remains **Introduction to Physics**.
 
-Start with [the recovery assessment](docs/recovery-assessment.md).
+Start with [the maintained-source guide](maintained/README.md) and
+[current build status](docs/maintained-source-status.md). The original
+[recovery assessment](docs/recovery-assessment.md) remains the historical inventory.
 
 This is phase one, not a completed publishing system. The 959 recovered files are
 unchanged from the earliest available Introduction to Physics import. Metadata files
 ending in `.proposed.json` are reviewable drafts, not deployed URLs or verified
-numbering rules. No remote repository has been created or modified.
+numbering rules. The separate `maintained/` layer now includes the four approved
+repairs and is the editable source used by the six-section build. No remote
+repository has been created or modified.
 
 ## Preservation
 

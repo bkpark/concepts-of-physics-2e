@@ -1,0 +1,387 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Spring Potential Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67045</md:content-id>
+  <md:title>Spring Potential Energy</md:title>
+  <md:abstract><list>
+<item>Explain the work done in deforming a spring.</item>
+<item>Describe the potential energy stored in a deformed spring.</item>
+</list></md:abstract>
+  <md:uuid>dd42a364-ab76-4245-a9f6-6fb7be063493</md:uuid>
+</metadata>
+
+<content>
+    
+    <para id="eip-935">Hooke's Law, <m:math display="display"><m:apply><m:eq/><m:ci>F</m:ci><m:apply><m:minus/><m:mrow><m:ci>k</m:ci><m:ci>x</m:ci></m:mrow></m:apply></m:apply></m:math>, describes force exerted by a spring being deformed. Here, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math></emphasis> is the restoring force, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis> is the displacement from equilibrium or <term id="import-auto-id1586474">deformation</term>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> is a constant related to the difficulty in deforming the system. The minus sign indicates the restoring force is in the direction opposite to the displacement.</para>
+
+<para id="import-auto-id1272491">In order to produce a deformation, work must be done. That is, a force must be exerted through a distance, whether you pluck a guitar string or compress a car spring. If the only result is deformation, and no work goes into thermal, sound, or kinetic energy, then all the work is initially stored in the deformed object as some form of potential energy. The potential energy stored in a spring is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>el</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{"el"} } = {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Here, we generalize the idea to elastic potential energy for a deformation of any system that can be described by Hooke’s law. Hence,</para><equation id="import-auto-id2618382"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mtext>el</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" size 8{"el"}= {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>
+    </equation><para id="import-auto-id2400014">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>el</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{"el"} } } {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id3353690">elastic potential energy</term> stored in any deformed system that obeys Hooke’s law and has a displacement <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis> from equilibrium and a force constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2057112">It is possible to find the work done in deforming a system in order to find the energy stored. This work is performed by an applied force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>. The applied force is exactly opposite to the restoring force (action-reaction), and so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mrow><m:mtext>app</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "app"} } = ital "kx"} {}</m:annotation></m:semantics></m:math>. <link target-id="import-auto-id3210430"/> shows a graph of the applied force versus deformation <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> for a system that can be described by Hooke’s law. Work done on the system is force multiplied by distance, which equals the area under the curve or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 1/2 \)  ital "kx" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math><sup/>(Method A in the figure). Another way to determine the work is to note that the force increases linearly from 0 to <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "kx"} {}</m:annotation></m:semantics></m:math></emphasis>, so that the average force is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 1/2 \)  ital "kx"} {}</m:annotation></m:semantics></m:math>, the distance moved is <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, and thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mrow><m:mtext>app</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">]</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=F rSub { size 8{ ital "app"} }  "." d= \[  \( 1/2 \)  ital "kx" \]  \( x \) = \( 1/2 \)  ital "kx" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (Method B in the figure).</para><figure id="import-auto-id3210430"><media id="import-auto-id2449250" alt="The graph here represents applied force, given along y-axis, versus deformation or displacement, given along x axis. The slope is linear slanting and the slope area is covered between x axis and the slope, given by F is equal to k multiplied by x, where k is constant and x is displacement. The force applied along y-axis is given by half of k multiplied by x. Along with the graph, two methods are provided to calculate weight, W. The first method gives the solution by multiplying half of b multiplied by h, whereas in the second we can get the solution by multiplying f with x.">
+        <image mime-type="image/jpg" src="../../media/Figure_17_01_05a.jpg" width="475"/>
+      </media>
+      
+    <caption>A graph of applied force versus distance for the deformation of a system that can be described by Hooke’s law is displayed. The work done on the system equals the area under the graph or the area of the triangle, which is half its base multiplied by its height, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mi>kx</m:mi></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= \( 1/2 \)  ital "kx" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id1848636">
+    <title>Calculating Stored Energy: A Tranquilizer Gun Spring</title>
+    <para id="import-auto-id3397825">We can use a toy gun’s spring mechanism to ask and answer two simple questions: (a) How much energy is stored in the spring of a tranquilizer gun that has a force constant of 50.0 N/m and is compressed 0.150 m? (b) If you neglect friction and the mass of the spring, at what speed will a 2.00-g projectile be ejected from the gun?</para><figure id="import-auto-id1401468"><media id="import-auto-id2588311" alt="The figure a shows an artistic impression of a tranquilizer gun, which shows the inside of it revealing the gun spring and a panel just below it, in the outside area, attached to the spring. This stage shows the gun before it is cocked, and the spring is uncompressed covering the entire inside area. The figure b shows the gun with the spring in the compressed mode. The spring has been compressed to a distance x, where x distance shows the vacant area inside the gun through which the spring has been compressed. The panel is also moving along the spring. And a bullet of mass m is shown at the front of the compressed spring. The spring here has elastic potential energy, represented by P E sub e l. The figure c is the third stage of the above two stages of the gun. The spring here is released from the compressed stage releasing the bullet in the outer forward direction with velocity V and the spring’s potential energy is converted into kinetic energy, represented here by K E.">
+        <image mime-type="image/jpg" src="../../media/Figure_17_01_06a.jpg" width="250"/>
+      </media>
+    <caption>(a) In this image of the gun, the spring is uncompressed before being cocked. (b) The spring has been compressed a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, and the projectile is in place. (c) When released, the spring converts elastic potential energy <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>el</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{"el"} } } {}</m:annotation></m:semantics></m:math> into kinetic energy.</caption></figure><para id="import-auto-id2678399"><emphasis>Strategy for a</emphasis></para>
+      <para id="import-auto-id2678398">(a): <emphasis effect="italics"/>The energy stored in the spring can be found directly from elastic potential energy equation, because <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> are given.</para>
+    <para id="import-auto-id3192231">
+      <emphasis>Solution for a</emphasis>
+    </para>
+    <para id="import-auto-id3387722">Entering the given values for <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> yields</para><equation id="import-auto-id1562251"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+
+<m:mtd>
+                         <m:msub>
+                          <m:mtext>PE</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>el</m:mtext>
+                              </m:mrow>
+                         </m:msub>                    
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                          <m:mrow>
+                           
+                              <m:mrow>
+                                <m:msup> <m:mstyle fontstyle="italic">
+                                  <m:mi>kx</m:mi>
+                                        </m:mstyle>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  
+                                </m:msup>
+                              </m:mrow>
+                      
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>50</m:mtext>
+                              <m:mtext>.</m:mtext>
+                              <m:mn>0</m:mn>
+                              <m:mspace width="0.25em"/>
+                              <m:mtext> N/m</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mtext>150</m:mtext><m:mspace width="0.25em"/>
+                                  <m:mtext> m</m:mtext>
+                                </m:mrow>
+                              </m:mfenced>
+                              
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>563</m:mtext>
+                          <m:mrow>
+                            <m:mspace width="0.25em"/>
+                            <m:mtext>N</m:mtext>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext>m</m:mtext>
+                          </m:mrow>
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+</m:mtd>
+<m:mtd>
+                    <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                    <m:mn>0</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>563</m:mtext>
+                    <m:mspace width="0.25em"/>
+                    <m:mtext>J</m:mtext>
+                    <m:mrow/>
+               
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"PE" size 8{"el"}= {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } = {  {1}  over  {2} }  left ("50" "." 0" N/m" right ) left (0 "." "150"" m" right ) rSup { size 8{2} } =0 "." "563"N cdot M}  {} # 
+=0 "." "563"J {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id3385432"><emphasis>Strategy for b</emphasis></para>
+      <para id="import-auto-id3385433">Because there is no friction, the potential energy is converted entirely into kinetic energy. The expression for kinetic energy can be solved for the projectile’s speed.</para>
+    <para id="import-auto-id1844846">
+      <emphasis>Solution for b</emphasis>
+    </para>
+    <list id="fs-id1396978" list-type="enumerated" number-style="arabic"><item id="import-auto-id2052495">Identify known quantities: 
+    <equation id="fs-id1555820"><m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mtext>
+KE
+        </m:mtext>
+        <m:mtext>
+f
+        </m:mtext>
+       </m:msub>
+       <m:mo stretchy="false">
+=
+       </m:mo>
+       <m:msub>
+        <m:mtext>
+PE
+        </m:mtext>
+        <m:mtext>
+el
+        </m:mtext>
+       </m:msub><m:mspace width="0.25em"/>
+<m:mo>or</m:mo><m:mspace width="0.25em"/>
+      </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+KE_f = PE_el
+     </m:annotation>
+    </m:semantics>
+      <m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mi mathvariant="italic">mv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mrow><m:msup><m:mi mathvariant="italic">kx</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mi>el</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>563</m:mtext><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1/2 ital "mv" rSup { size 8{2} } = \( 1/2 \)  ital "kx" rSup { size 8{2} } = ital "PE" rSub { size 8{e1} } =0 "." "563"J} {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id1525431">Solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>:
+    <equation id="import-auto-id3358674"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mfenced open="[" close="]">
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+<m:msub>
+                                <m:mtext>PE</m:mtext>
+                                
+                                  <m:mrow>
+                                    <m:mtext>el</m:mtext>
+                                  </m:mrow>
+</m:msub>
+                                
+                              </m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mfrac>
+                          </m:mfenced>
+                          
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">/</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="[" close="]">
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mtext>563</m:mtext>
+<m:mspace width="0.25em"/>
+                                  <m:mtext> J</m:mtext>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>002</m:mtext>
+<m:mspace width="0.25em"/>
+                              <m:mtext> kg</m:mtext>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mfenced>
+                        
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">/</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>23</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>7</m:mn>
+                  <m:mi/>
+                  <m:msup>
+                    <m:mfenced open="(" close=")">
+
+                      <m:mtext>J/kg</m:mtext>
+                    </m:mfenced>
+                    
+                     <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">/</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                    
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v= left [ {  {2"PE" size 8{"el"}}  over  {m} }  right ] rSup { size 8{1/2} } = left [ {  {2 left (0 "." "563"" J" right )}  over  {0 "." "002"" kg"} }  right ] rSup { size 8{1/2} } ="23" "." 7`` left ("J/kg" right ) rSup { size 8{ {  {1}  over  {2} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation></item>
+<item>Convert units: <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mn>
+23.7 
+      </m:mn>
+      <m:mrow>
+<m:mspace width="0.25em"/>
+       <m:mtext>
+ m
+       </m:mtext>
+       <m:mo stretchy="false">
+/
+       </m:mo>
+       <m:mtext>
+s
+       </m:mtext>
+      </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+23.7 m/s
+     </m:annotation>
+    </m:semantics>
+   </m:math></item>
+    </list>
+    <para id="import-auto-id2655090"><emphasis>Discussion</emphasis></para>
+      <para id="import-auto-id2655091">(a) and (b): This projectile speed is impressive for a tranquilizer gun (more than 80 km/h). The numbers in this problem seem reasonable. The force needed to compress the spring is small enough for an adult to manage, and the energy imparted to the dart is small enough to limit the damage it might do. Yet, the speed of the dart is great enough for it to travel an acceptable distance.</para>
+    </example>
+
+<exercise id="fs-id3294333" type="check-understanding"><label/><title>Check your Understanding</title>
+    
+    <problem id="fs-id993913"><para id="import-auto-id3229344">Envision holding the end of a ruler with one hand and deforming it with the other. When you let go, you can see the oscillations of the ruler. In what way could you modify this simple experiment to increase the rigidity of the system?</para></problem>
+<solution id="fs-id2487325" print-placement="here"><label/><title>Answer</title>
+    <para id="import-auto-id2654676">You could hold the ruler at its midpoint so that the part of the ruler that oscillates is half as long as in the original experiment.</para></solution>
+</exercise>
+<exercise id="fs-id1917668" type="check-understanding"><label/><title>Check your Understanding</title>
+<problem id="fs-id3149977"><para id="import-auto-id2452824">If you apply a deforming force on an object and let it come to equilibrium, what happened to the work you did on the system?</para></problem>
+<solution id="fs-id2405987" print-placement="here"><label/><title>Answer</title>
+    <para id="import-auto-id3292612">It was stored in the object as potential energy.</para></solution>
+    </exercise>
+
+<section id="fs-id1389298" class="section-summary"><title>Section Summary</title><list id="fs-id2688679"><item id="import-auto-id1574958">Hooke’s law describes force exerted by a spring being deformed,
+    <equation id="import-auto-id3385046"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= -  ital "kx"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1823260">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is the restoring force, <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is the displacement from equilibrium or deformation, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> is the force constant of the system. </para>
+        </item>
+        <item id="import-auto-id3385759">Elastic potential energy <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>el</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{"el"} } } {}</m:annotation></m:semantics></m:math> stored in the deformation of a system that can be described by Hooke’s law is given by
+    <equation id="import-auto-id2409100"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                   
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>PE</m:mtext>
+                          
+                            <m:mrow>
+                                           
+                               <m:mtext>el</m:mtext>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+              
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                      <m:msup>
+                        <m:mtext mathvariant="italic">kx</m:mtext>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msup>
+                    </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "PE" rSub { size 8{e1} } = \( 1/2 \)  ital "kx" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics><m:mo>.</m:mo>
+      </m:math> 
+    </equation></item>
+      </list></section><section id="fs-id2056588" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+    <exercise id="fs-id2008703"><problem id="fs-id2017746">
+    <para id="import-auto-id1890041">Describe a system in which elastic potential energy is stored.</para></problem></exercise>
+    </section>
+    </content>
+  <glossary>
+    <definition id="import-auto-id3113251"><term>deformation</term> <meaning id="fs-id2980258">displacement from equilibrium</meaning></definition>
+    <definition id="import-auto-id3008156"><term>elastic potential energy</term> <meaning id="fs-id1848674"> potential energy stored as a result of deformation of an elastic object, such as the stretching of a spring</meaning></definition>
+  </glossary>
+</document>

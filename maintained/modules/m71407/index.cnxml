@@ -1,0 +1,289 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Time, Velocity, and Speed</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71407</md:content-id>
+  <md:title>Time, Velocity, and Speed</md:title>
+  <md:abstract><list>
+<item>Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.</item>
+<item>Calculate velocity and speed given initial position, initial time, final position, and final time.</item>
+<item>Interpret graphs of position vs. time and velocity vs. time.</item>
+</list></md:abstract>
+  <md:uuid>6a57041a-f82a-465b-9de6-69e105967c93</md:uuid>
+</metadata>
+
+<content>
+    <figure id="import-auto-id1690049"><media id="import-auto-id4016942" alt="Snails leaving slime trails as they race each other along a flat surface.">
+        <image mime-type="image/png" src="../../media/Picture 6.png" width="300"/>
+      </media>
+      
+    <caption>The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)</caption></figure><para id="import-auto-id2024731">There is more to motion than distance and displacement. Questions such as, “How long does a foot race take?” and “What was the runner’s speed?” cannot be answered without an understanding of other concepts. In this section we add definitions of time, velocity, and speed to expand our description of motion.</para>
+    <section id="fs-id1568419">
+<title>Time</title>
+    <para id="import-auto-id1644233">The most fundamental physical quantities are defined by how they are measured. This is the case with time. Every measurement of time involves measuring a change in some physical quantity. It may be a number on a digital clock, a heartbeat, or the position of the Sun in the sky. In physics, the definition of time is simple—<term id="import-auto-id2588516">time</term> is <emphasis effect="italics">change</emphasis>, or the interval over which change occurs. It is impossible to know that time has passed unless something changes. </para><para id="import-auto-id4131193">The amount of time or change is calibrated by comparison with a standard. The SI unit for time is the second, abbreviated s. We might, for example, observe that a certain pendulum makes one full swing every 0.75 s. We could then use the pendulum to measure time by counting its swings or, of course, by connecting the pendulum to a clock mechanism that registers time on a dial. This allows us to not only measure the amount of time, but also to determine a sequence of events.</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1771018">How does time relate to motion? We are usually interested in elapsed time for a particular motion, such as how long it takes an airplane passenger to get from his seat to the back of the plane. To find elapsed time, we note the time at the beginning and end of the motion and subtract the two. For example, a lecture may start at 11:00 <emphasis effect="smallcaps">A.M.</emphasis> and end at 11:50 <emphasis effect="smallcaps">A.M.</emphasis>, so that the elapsed time would be 50 min. <term id="import-auto-id4083152">Elapsed time</term> <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></emphasis> is the difference between the ending time and beginning time,</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1757927"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2577772">where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is the change in time or elapsed time, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the time at the end of the motion, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the time at the beginning of the motion. (As usual, the delta symbol, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ} {}</m:annotation></m:semantics></m:math>, means the change in the quantity that follows it.)</para></section>
+<section id="fs-id1850777">
+<title>Velocity</title>
+
+    <para id="import-auto-id1757608">Your notion of velocity is probably the same as its scientific definition. You know that if you have a large displacement in a small amount of time you have a large velocity, and that velocity has units of distance divided by time, such as miles per hour or kilometers per hour. </para>
+    <note xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id3597968"><label/><title>Average Velocity</title>
+    
+    <para id="import-auto-id3538220"><term id="import-auto-id2596035">Average velocity</term> is <emphasis effect="italics">displacement (change in position) divided by the time of travel</emphasis>,</para>
+    <equation id="import-auto-id4059844"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mover accent="true">
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="true">-</m:mo>
+                    </m:mover>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow>
+                      <m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>f</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>t</m:mi>
+                        <m:mrow>
+                          <m:mn>f</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>t</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi>,</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {Δt} } = {  {x rSub { size 8{f} }  - x rSub { size 8{0} } }  over  {t rSub { size 8{f} }  - t rSub { size 8{0} } } } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3602083">where <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math> is the <emphasis effect="italics">average</emphasis> (indicated by the bar over the <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>) velocity, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the change in position (or displacement), and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> are the final and beginning positions at times <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math>, respectively. </para></note><para id="import-auto-id4132060">Notice that this definition indicates that <emphasis effect="italics">velocity is a vector because displacement is a vector</emphasis>. It has both magnitude and direction. The SI unit for velocity is meters per second or m/s, but many other units, such as km/h, mi/h (also written as mph), and cm/s, are in common use. Suppose, for example, an airplane passenger took 5 seconds to move −4 m (the negative sign indicates that displacement is toward the back of the plane). His average velocity would be </para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4051374"><m:math display="block"><m:mrow class="MJX-TeXAtom-ORD"><m:mover accent="true"><m:mi>v</m:mi><m:mo accent="true" stretchy="false">¯</m:mo></m:mover></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi></m:mrow></m:mrow><m:mrow><m:mn>5</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">s</m:mi></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.8</m:mn><m:mspace width=".1667em"/><m:mrow class="MJX-TeXAtom-ORD"><m:mi mathvariant="normal">m</m:mi><m:mrow class="MJX-TeXAtom-ORD"><m:mo mathvariant="normal">/</m:mo></m:mrow><m:mi mathvariant="normal">s</m:mi></m:mrow><m:mo>.</m:mo></m:math></equation><para id="import-auto-id3586799">The minus sign indicates the average velocity is also toward the rear of the plane. </para>
+    <para id="import-auto-id4125081">The average velocity of an object does not tell us anything about what happens to it between the starting point and ending point, however. For example, we cannot tell from average velocity whether the airplane passenger stops momentarily or backs up before he goes to the back of the plane. To get more details, we must consider smaller segments of the trip over smaller time intervals. </para>
+    
+    <figure id="import-auto-id1782958"><media id="import-auto-id1782959" alt="Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger’s trip to the back of the plane.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_02_01.jpg" width="350"/>
+      </media>
+      
+    <caption>A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1411481">The smaller the time intervals considered in a motion, the more detailed the information. When we carry this process to its logical conclusion, we are left with an infinitesimally small interval. Over such an interval, the average velocity becomes the <emphasis effect="italics">instantaneous velocity</emphasis> <emphasis effect="italics"/>or the <emphasis effect="italics">velocity at a specific instant</emphasis>. A car’s speedometer, for example, shows the magnitude (but not the direction) of the instantaneous velocity of the car. (Police give tickets based on instantaneous velocity, but when calculating how long it will take to get from one place to another on a road trip, you need to use average velocity.) <term id="import-auto-id2579029">Instantaneous velocity</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the average velocity at a specific instant in time (or over an infinitesimally small time interval). </para><para id="import-auto-id4042507">Mathematically, finding instantaneous velocity, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, at a precise instant <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> can involve taking a limit, a calculus operation beyond the scope of this text. However, under many circumstances, we can find precise values for instantaneous velocity without calculus.</para>
+   </section>
+<section id="fs-id3597726">
+<title>Speed</title>
+    <para id="import-auto-id1753867">In everyday language, most people use the terms “speed” and “velocity” interchangeably. In physics, however, they do not have the same meaning and they are distinct concepts. One major difference is that speed has no direction. Thus <emphasis effect="italics">speed is a scalar</emphasis>. Just as we need to distinguish between instantaneous velocity and average velocity, we also need to distinguish between instantaneous speed and average speed. </para>
+    <para id="import-auto-id3539912"><term id="import-auto-id2004213">Instantaneous speed</term> is the magnitude of instantaneous velocity. For example, suppose the airplane passenger at one instant had an instantaneous velocity of −3.0 m/s (the minus meaning toward the rear of the plane). At that same time his instantaneous speed was 3.0 m/s. Or suppose that at one time during a shopping trip your instantaneous velocity is 40 km/h due north. Your instantaneous speed at that instant would be 40 km/h—the same magnitude but without a direction. Average speed, however, is very different from average velocity. <term id="import-auto-id2004216">Average speed</term> is the distance traveled divided by elapsed time. </para>
+    <para id="import-auto-id1752774">We have noted that distance traveled can be greater than displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is <emphasis effect="italics">not</emphasis> simply the magnitude of average velocity.</para>
+    <figure id="import-auto-id2593426"><media id="import-auto-id2593427" alt="A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_02_02.jpg" width="350"/>
+      </media>
+      
+    <caption>During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. </caption></figure><para id="import-auto-id1797764">Another way of visualizing the motion of an object is to use a graph. A plot of position or of velocity as a function of time can be very useful. For example, for this trip to the store, the position, velocity, and speed-vs.-time graphs are displayed in <link target-id="import-auto-id1806646"/>. (Note that these graphs depict a very simplified <term id="import-auto-id1510828">model</term> of the trip. We are assuming that speed is constant during the trip, which is unrealistic given that we’ll probably stop at the store. But for simplicity’s sake, we will model it with no stops or changes in speed. We are also assuming that the route between the store and the house is a perfectly straight line.)</para><figure id="import-auto-id1806646"><media id="import-auto-id1810795" alt="Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_02_03.jpg" width="300"/>
+      </media>
+      
+    <caption>Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. </caption></figure><note id="fs-id4030893"><label/>
+    <title>Making Connections: Take-Home Investigation—Getting a Sense of Speed</title>
+    <para id="import-auto-id4070666">If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:</para>
+    <list id="fs-id3522190">
+    <item id="import-auto-id4058974">calculate typical car speeds in meters per second</item>
+    <item id="import-auto-id4058977">estimate jogging and walking speed by timing yourself; convert the measurements into both m/s and mi/h</item>
+    <item id="import-auto-id4070923">determine the speed of an ant, snail, or falling leaf</item>
+    </list>
+    </note>
+    <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id4173641" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id1744684">
+    <para id="import-auto-id1988298">A commuter train travels from Baltimore to Washington, DC, and back in 1 hour and 45 minutes. The distance between the two stations is approximately 40 miles. What is (a) the average velocity of the train, and (b) the average speed of the train in m/s?</para></problem><solution id="fs-id1384034">
+    <para id="import-auto-id3584121">(a) The average velocity of the train is zero because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{f} } =x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>; the train ends up at the same place it starts.</para><para id="import-auto-id4131960">(b) The average speed of the train is calculated below. Note that the train travels 40 miles one way and 40 miles back, for a total distance of 80 miles.</para>
+    <equation id="import-auto-id4070756">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mtext>distance</m:mtext>
+                  <m:mtext>time</m:mtext>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mtext>80 miles</m:mtext>
+                  <m:mtext>105 minutes</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {"distance"}  over  {"time"} } = {  {"80 miles"}  over  {"105 minutes"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="import-auto-id1750086"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mtext>80 miles</m:mtext>
+                          <m:mtext>105 minutes</m:mtext>
+                        </m:mfrac>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mfrac>
+                          <m:mtext>5280 feet</m:mtext>
+                          <m:mtext>1 mile</m:mtext>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:mfrac>
+                        <m:mtext>1 meter</m:mtext>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>28 feet</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:mfrac>
+                      <m:mtext>1 minute</m:mtext>
+                      <m:mtext>60 seconds</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>20 m/s</m:mtext></m:mrow></m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></solution></exercise></section>
+    <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1345097" class="section-summary"><title>Section Summary</title><list id="fs-id3525421"><item id="import-auto-id4070541">Time is measured in terms of change, and its SI unit is the second (s). Elapsed time for an event is
+    <equation id="import-auto-id4146177"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=t rSub { size 8{f} }  - t rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> is the final time and <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the initial time. 
+</item>
+    <item id="import-auto-id1770783">Average velocity <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math> is defined as displacement divided by the travel time. In symbols, average velocity is
+    <equation id="import-auto-id4086565"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mover accent="true">
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="true">-</m:mo>
+                    </m:mover>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow>
+                      <m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mtext>f</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>t</m:mi>
+                        <m:mrow>
+                          <m:mtext>f</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>t</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {Δt} } = {  {x rSub { size 8{f} }  - x rSub { size 8{0} } }  over  {t rSub { size 8{f} }  - t rSub { size 8{0} } } }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id1795857">The SI unit for velocity is m/s. </item>
+    <item id="import-auto-id1795847">Velocity is a vector and thus has a direction. </item>
+    <item id="import-auto-id4097170">Instantaneous velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the velocity at a specific instant or the average velocity for an infinitesimal interval. </item>
+    <item id="import-auto-id4097153">Instantaneous speed is the magnitude of the instantaneous velocity.</item>
+    <item id="import-auto-id4097155">Instantaneous speed is a scalar quantity, as it has no direction specified.</item>
+    <item id="import-auto-id4097159">Average speed is the total distance traveled divided by the elapsed time. (Average speed is <emphasis effect="italics">not</emphasis> the magnitude of the average velocity.) Speed is a scalar quantity; it has no direction associated with it.</item>
+    </list></section><section id="fs-id3505230" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id4081795" type="conceptual-questions"><problem id="fs-id4057370">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1795862" fo:font-weight="normal">Give an example (but not one from the text) of a device used to measure time and identify what change in that device indicates a change in time. </para>
+    </problem></exercise>
+    <exercise id="fs-id4059976" type="conceptual-questions"><problem id="fs-id4059193">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4141384" fo:font-weight="normal">There is a distinction between average speed and the magnitude of average velocity. Give an example that illustrates the difference between these two quantities. </para>
+    </problem></exercise>
+    <exercise id="fs-id3539434" type="conceptual-questions"><problem id="fs-id1765012">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4102222" fo:font-weight="normal">Does a car’s odometer measure position or displacement? Does its speedometer measure speed or velocity? </para>
+    </problem></exercise>
+    <exercise id="fs-id4033346" type="conceptual-questions"><problem id="fs-id1181844">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4102237" fo:font-weight="normal">If you divide the total distance traveled on a car trip (as determined by the odometer) by the time for the trip, are you calculating the average speed or the magnitude of the average velocity? Under what circumstances are these two quantities the same? </para>
+    </problem></exercise>
+    <exercise id="fs-id1798382" type="conceptual-questions"><problem id="fs-id3586650">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4102252" fo:font-weight="normal">How are instantaneous velocity and instantaneous speed related to one another? How do they differ? </para>
+    </problem></exercise>
+    </section>
+    </content>
+<glossary>
+    <definition id="import-auto-id4070584"><term>average speed</term> <meaning id="fs-id4021070">distance traveled divided by time during which motion occurs</meaning></definition>
+    <definition id="import-auto-id4131758"><term>average velocity</term> <meaning id="fs-id1988303">displacement divided by time over which displacement occurs</meaning></definition>
+    <definition id="import-auto-id4070580"><term>instantaneous velocity</term> <meaning id="fs-id1346592">velocity at a specific instant, or the average velocity over an infinitesimal time interval</meaning></definition>
+    <definition id="import-auto-id4070582"><term>instantaneous speed</term> <meaning id="fs-id4128050">magnitude of the instantaneous velocity</meaning></definition>
+    <definition id="import-auto-id4071910"><term>time</term> <meaning id="fs-id1776599">change, or the interval over which change occurs</meaning></definition>
+    <definition id="import-auto-id4022105"><term>model</term> <meaning id="fs-id3601395">simplified description that contains only those elements necessary to describe the physics of a physical situation</meaning></definition>
+    <definition id="import-auto-id1585138"><term>elapsed time</term> <meaning id="fs-id1710312">the difference between the ending time and beginning time</meaning></definition>
+    </glossary>
+</document>

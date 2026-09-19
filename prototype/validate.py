@@ -31,7 +31,7 @@ for profile in ('cnx','course'):
             if u.fragment:assert u.fragment in pages[target].ids,f'Broken anchor: {href}'
     count=collections.Counter()
     for mid,entry in registry.items():
-        data=(ROOT/'modules'/mid/'index.cnxml').read_bytes()
+        data=(ROOT/'maintained/modules'/mid/'index.cnxml').read_bytes()
         assert data==(out/'source'/mid/'index.cnxml').read_bytes()
         source=ET.fromstring(data);p=pages[(out/'sections'/entry['slug']/'index.html').resolve()]
         ids=[mid+'--'+e.get('id').encode().hex() for e in source.iter() if e.get('id')]
@@ -59,10 +59,12 @@ for profile in ('cnx','course'):
 assert (P/'dist/cnx/identity-registry.json').read_bytes()==(P/'dist/course/identity-registry.json').read_bytes()
 audit=json.loads((P/'qa/browser-audit.json').read_text(encoding='utf-8'))
 assert not audit['external_requests']
+assert audit['renderer']=='native-mathml'
+for profile in ('cnx','course'):assert json.loads((P/'dist'/profile/'issues.json').read_text())==[]
 for page in audit['pages']:
     for key in ('errors','mathErrors','brokenImages','overflow','duplicateIds'):assert not page[key],(page,key,page[key])
     assert page['renderedMath']+len(page['unresolved'])==page['mathWrappers']
 assert len(audit['pages'])==12
-result={'coverage':stats,'profiles_share_identical_urls_and_anchors':True,'browser_modules_checked':12,'external_network_requests':0,'known_unresolved_math_per_profile':3,'publication_ready':False}
+result={'coverage':stats,'profiles_share_identical_urls_and_anchors':True,'browser_modules_checked':12,'external_network_requests':0,'known_unresolved_math_per_profile':0,'publication_ready':False}
 (P/'qa/validation.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(result,indent=2))

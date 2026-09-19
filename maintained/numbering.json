@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "CNX counter rules checked on selected historical examples; full-book and course exercise verification pending",
+  "cnx": {
+    "scope": "chapter",
+    "unnumbered_equation_ancestor_classes": ["section-summary"],
+    "relocated_ancestor_classes": ["conceptual-questions", "problems-exercises"],
+    "relocated_exercise_types": ["conceptual-questions", "problems-exercises"],
+    "backmatter_after_body": true,
+    "exercise_prefix": false,
+    "inline_exercise_prefix": true,
+    "separate_exercise_counters": true
+  },
+  "course": {
+    "scope": "section",
+    "unnumbered_equation_ancestor_classes": [],
+    "relocated_ancestor_classes": [],
+    "relocated_exercise_types": [],
+    "backmatter_after_body": false,
+    "exercise_prefix": true,
+    "inline_exercise_prefix": true,
+    "separate_exercise_counters": false
+  },
+  "overrides": {"cnx": {}, "course": {}},
+  "evidence": [
+    "Historical PDF page 42: first m67034 displayed equation 2.23; repeated section-summary equations must not advance counters.",
+    "Historical PDF page 237: m67122 ideal gas equation 9.1; preceding m52364 contains four summary equations that are not numbered.",
+    "Historical PDF page 41: kayak figure 2.23; m52314 problems-exercises figure follows the chapter body, not its source-file position."
+  ]
+}
