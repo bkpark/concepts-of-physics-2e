@@ -18,12 +18,16 @@ seen={}
 for kind,findings in [('M',maths),('X',refs)]:
  for number,item in enumerate(findings,1):
   code=kind+str(number).zfill(2);mid=item['module'];r=roots[mid];ps=parents[mid]
-  applied=None
+  applied=None;wording_proposal=None
   change_path=ROOT/'proposals/author-corrections'/f'{code}.json'
   if kind=='X' and change_path.exists():
-   applied=json.loads(change_path.read_text(encoding='utf-8'))
-   assert applied['status']=='applied-author-directed'
-   item={**item,'document':applied['target_document'],'target':applied['target_id']}
+   change=json.loads(change_path.read_text(encoding='utf-8'))
+   if change['status']=='applied-author-directed':
+    applied=change
+    item={**item,'document':applied['target_document'],'target':applied['target_id']}
+   else:
+    assert change['status']=='preview-awaiting-author-confirmation'
+    wording_proposal=change
   if kind=='M':e=list(r.iter('{http://www.w3.org/1998/Math/MathML}math'))[int(item['key'].rsplit('-',1)[1])-1]
   else:
    key=(mid,item['document'],item.get('target'));matches=[e for e in r.iter('{http://cnx.rice.edu/cnxml}link') if e.get('document',mid)==item['document'] and e.get('target-id')==item.get('target') and not e.get('url')]
@@ -59,10 +63,13 @@ for kind,findings in [('M',maths),('X',refs)]:
    if applied:
     body+='<p><strong>Applied:</strong> '+esc(applied['reason'])+'</p><div class="context">'+html+'</div>'
    else:body+='<p>Missing destination: <code>'+esc(destination)+'</code>. '+('The referenced module is outside the recovered book.' if item['kind']=='reference-outside-book' else 'The target ID is absent from this module.')+'</p><div class="context">'+html+'</div>'
+  if wording_proposal:
+   assert hashlib.sha256((ROOT/wording_proposal['source_path']).read_bytes()).hexdigest()==wording_proposal['source_sha256']
+   body+='<div id="'+code+'-proposal"><h3>Proposed wording — not applied</h3><div class="context">'+esc(wording_proposal['replacement_text'])+'</div><p>'+esc(wording_proposal['reason'])+'</p></div>'
   xml=b['ET'].tostring(e,encoding='unicode')
   body+='<details><summary>Technical source details</summary><p>'+esc(mid+' / '+str(source.get('id')))+'</p><pre>'+esc(xml)+'</pre></details></section>'
   items.append({'id':code,'kind':kind,'module':mid,'source_id':source.get('id'),'exercise_context':exercise is not None,'source_url':source_url,'body':body,'status':'applied' if applied else ('deferred' if code=='M03' else 'pending')})
-header='<h1>Expressions and cross-references for review</h1><p>Three expressions and the original 25 reference occurrences. X01 is corrected; 24 references remain unresolved. Some references repeat the same destination; each occurrence is shown separately. M01 and M02 have proposed corrections below; M03 is deferred. M01 and M02 remain unapplied previews; X01 is applied to the maintained source.</p><p><strong>Exercise cleanup is deferred.</strong> Exercise-related findings are labeled for context, not presented as requests for a broader revision. The initial publication target remains recovered CNX content with course numbering.</p><p>Reply using item IDs such as M01 or X07. There is no need to inspect the XML unless useful.</p>'
+header='<h1>Expressions and cross-references for review</h1><p>Three expressions and the original 25 reference occurrences. '+str(sum(i['status']=='applied' for i in items))+' references corrected; '+str(sum(i['kind'] in ('reference-outside-book','source-reference-unresolved') for i in b['issues']))+' remain unresolved. Some references repeat the same destination; each occurrence is shown separately. M01 and M02 have proposed corrections below; M03 is deferred. M01, M02, and X05 have unapplied proposals. Corrected references are marked Applied below.</p><p><strong>Exercise cleanup is deferred.</strong> Exercise-related findings are labeled for context, not presented as requests for a broader revision. The initial publication target remains recovered CNX content with course numbering.</p><p>Reply using item IDs such as M01 or X07. There is no need to inspect the XML unless useful.</p>'
 for prefix,title in [('M','Expressions'),('X','References')]:header+='<p>'+title+': '+ ' · '.join('<a href="#'+i['id']+'">'+i['id']+'</a>' for i in items if i['kind']==prefix)+'</p>'
 style='<style>.review-card{border-top:3px solid #38636d;margin-top:3rem;padding-top:1rem;scroll-margin-top:1rem}.context{padding:1rem;background:#f3f6f7}.proposal-math{font-size:1.2em;overflow-x:auto}.status{font-family:sans-serif;color:#52666d}summary{cursor:pointer;font-weight:bold;padding:1rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}img{max-width:100%;height:auto}code{overflow-wrap:anywhere}</style>'
 page=b['page']('Introduction to Physics: review items',header+''.join(i['body'] for i in items),'../').replace('</head>',style+'</head>')
