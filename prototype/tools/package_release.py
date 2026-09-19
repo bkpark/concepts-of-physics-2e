@@ -6,7 +6,7 @@ from urllib.parse import urlsplit,unquote
 root=Path(__file__).resolve().parents[2];rel=json.loads((root/'metadata/release.json').read_text(encoding='utf-8'))
 base=root/'output/releases'/rel['release_id'];src=base/'site';public=base/'public';public.mkdir(exist_ok=True)
 allowed=['index.html','style.css','copy-math.js']
-allowed += [p.relative_to(src).as_posix() for folder in ('sections','exercises','media','source') for p in (src/folder).rglob('*') if p.is_file()]
+allowed += [p.relative_to(src).as_posix() for folder in ('sections','exercises','media','source','contents') for p in (src/folder).rglob('*') if p.is_file()]
 for name in allowed:
  p=src/name;target=public/name;target.parent.mkdir(parents=True,exist_ok=True)
  if p.suffix=='.html':

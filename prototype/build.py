@@ -40,6 +40,9 @@ def anchor(mid,ident):return mid+'--'+ident.encode('utf-8').hex()
 from numbering import build_objects
 objects=build_objects(sections,roots,PROFILE,course,load('maintained/numbering.json'),anchor)
 
+from navigation import Navigation
+nav=Navigation([registry[m] for m in IDS],course if PROFILE=='course' else cnx,load('maintained/exercise-views.json')['views'] if FULL and PROFILE=='course' else [])
+
 from mathml import UnsupportedMath
 from native_math import native_math
 
@@ -155,13 +158,14 @@ class Renderer:
         credit='<footer class="attribution"><p>Historical attribution: '+esc(a['authors'])+'. Copyright: '+esc(a['copyright'])+'. <a href="'+esc(a['license'])+'">CC BY 4.0</a>. <a href="'+esc(a['url'])+'">Original module '+esc(mid)+' version '+esc(a['legacy_module_version'])+'</a>.</p>'
         if a.get('based_on_text'):credit+='<p>Based on: '+esc(a['based_on_text'])+'</p>'
         credit+='<p>This edition is adapted from CNX collection col25183, version 12.1. Attribution is transcribed from that edition.</p></footer>'
-        return f'<article id="{mid}"><header><p class="eyebrow">{esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
+        return f'<article id="{mid}"><header><p class="eyebrow">{esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{nav.section_navigation(mid) if FULL and not self.book else ""}{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
 
-def page(title,body,prefix=''):
+def page(title,body,prefix='',website=True):
+    site_links=('<a href="'+prefix+'index.html">Introduction to Physics · Home</a> · <a href="'+prefix+'contents/index.html">Full contents</a>') if FULL and website else ''
     if RELEASE:
         canonical=release['public_origin']+'/'
-        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation"><a href="'+prefix+'index.html">Introduction to Physics · Contents</a> · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav><a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a></nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
+        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
 
 OUT.mkdir(parents=True,exist_ok=True);shutil.copyfile(P/'style.css',OUT/'style.css');shutil.copyfile(P/'copy-math.js',OUT/'copy-math.js')
 book=[]
@@ -195,12 +199,15 @@ if FULL and PROFILE=='course':
         (target/'index.html').write_text(page(view['title'],body,'../../'),encoding='utf-8',newline='\n')
         exercise_manifest.append({**view,'blocks':blocks})
     dump(OUT/'exercise-views.json',exercise_manifest)
-intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction to Physics</h1>'+('<p>'+NUMBERING_NOTE+'</p>' if PROFILE=='course' else '')+'</header><ol>'+''.join('<li><a href="sections/'+registry[m]['candidate_slug']+'/index.html">'+esc(registry[m]['title'])+'</a></li>' for m in IDS)+'</ol>'
-if exercise_manifest:intro+='<h2>Chapter exercise views</h2><ul>'+''.join('<li><a href="exercises/'+v['slug']+'/index.html">'+esc(v['label']+': '+v['title'])+'</a></li>' for v in exercise_manifest)+'</ul>'
+intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction to Physics</h1>'+('<p>'+NUMBERING_NOTE+'</p>' if PROFILE=='course' else '')+'</header>'
+intro+=nav.overview() if FULL else '<ul>'+''.join('<li>'+nav.link(registry[m])+'</li>' for m in IDS)+'</ul>'
+if FULL:
+    contents=OUT/'contents';contents.mkdir(exist_ok=True)
+    (contents/'index.html').write_text(page('Full table of contents — Introduction to Physics','<h1>Full table of contents</h1>'+nav.overview(full=True,prefix='../'),'../'),encoding='utf-8',newline='\n')
 if not RELEASE:intro+='<p>Historical source remains unchanged. Math source XML and issue logs are included beside the build. The other numbering profile uses exactly the same section paths and anchors.</p>'
 if not RELEASE:intro+='<p><a href="review.html">Review flagged expressions and references</a> · <a href="book.html">Complete printable sample</a></p>'
 (OUT/'index.html').write_text(page('Introduction to Physics — prototype',intro),encoding='utf-8',newline='\n')
-(OUT/'book.html').write_text(page('Introduction to Physics — sample', '<div class="cover"><h1>Introduction to Physics</h1><h2>Fidelity prototype</h2><p>'+esc(str(len(IDS)))+' modules · '+PROFILE+' profile</p><p>Provisional object numbering. Not a student edition.</p><p>Adaptation by Andrew Park; underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits are retained.</p></div>'+''.join(book)),encoding='utf-8',newline='\n')
+(OUT/'book.html').write_text(page('Introduction to Physics — sample', '<div class="cover"><h1>Introduction to Physics</h1><h2>Fidelity prototype</h2><p>'+esc(str(len(IDS)))+' modules · '+PROFILE+' profile</p><p>Provisional object numbering. Not a student edition.</p><p>Adaptation by Andrew Park; underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits are retained.</p></div>'+''.join(book),website=False),encoding='utf-8',newline='\n')
 dump(OUT/'object-labels.json',{m+'#'+ident:obj for (m,ident),obj in objects.items() if m in IDS});dump(OUT/'math-source.json',math_sources);dump(OUT/'issues.json',issues);dump(OUT/'adaptations.json',adaptations)
 review='<h1>Fidelity review</h1><p>The maintained source includes approved repairs R1–R4. Any remaining findings are listed below.</p>'
 for item in issues:

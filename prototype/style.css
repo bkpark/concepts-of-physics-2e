@@ -5,3 +5,16 @@ math{font-family:"Cambria Math",math} mtd{padding:2px 4px} mtable[columnalign="l
 
 /* Release-candidate accessibility and narrow-screen layout. */
 th{border:1px solid #bdcccc;padding:6px 10px;vertical-align:top;font-weight:normal;text-align:left}a{overflow-wrap:anywhere}@media print{th{font-size:8.5pt;padding:4px 8px}}@media(max-width:650px){.math-copy-toolbar{flex-wrap:wrap}.external-media{overflow-wrap:anywhere}[data-math-key]{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}}
+@media screen {
+  .contents-unit { margin: 2rem 0; padding-top: .5rem; border-top: 2px solid #d7e2e5; }
+  .chapter-links, .section-links { list-style: none; padding-left: 0; }
+  .chapter-links > li { margin: .85rem 0; }
+  .chapter-link { font-weight: bold; font-size: 1.1em; }
+  .section-links > li { margin: .45rem 0; }
+  .chapter-links .section-links { padding-left: 1.2rem; }
+  .chapter-contents { background: #f0f5f6; border-left: 4px solid #287080; padding: 1rem 1.4rem; margin: 1.5rem 0 2rem; }
+  .chapter-contents h2 { margin-top: 0; }
+  .chapter-contents [aria-current="page"] { font-weight: bold; }
+  .chapter-exercises { border-top: 1px solid #ccdadd; padding-top: .5rem; }
+  .chapter-return { font-size: .9em; }
+}

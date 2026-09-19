@@ -55,3 +55,13 @@ node prototype/tools/audit-release.cjs --public
 ```
 
 `site/` is a staging directory with internal build files; publish `public/` or the ZIP contents, not `site/`. Source provenance and source file checksums are included in the artifact manifest. Versioned filenames remain independent of the active numbering profile.
+
+## Website chapter navigation
+
+The home page now groups 15 chapter links under the collection's four units and a getting-started group. Each chapter links directly to its first canonical section, which includes chapter contents and an intentional first-section self-link. Other chapter sections link back to that contents page. Preface and appendices remain directly accessible. The full hierarchical contents/site map is at `contents/index.html`; all existing section URLs and object anchors are unchanged.
+
+Chapter contents also link to the existing collected exercise views; exercises remain available in their original web sections. This does not change exercise content or the chapter-end arrangement in the PDF.
+
+Validation: 158 public HTML pages checked at 1280px and 390px; 2,919 local links resolved; all 141 sections covered by the site map; all 15 chapter entry links and self-links verified. Home (desktop/mobile) and chapter-entry layouts were visually inspected. Source fidelity checks passed. The PDF and staging `book.html` are byte-for-byte unchanged; PDF SHA-256: `623f81eec12541d15b4384a180aabb9d79cc18f16096929e1b192115c27972a6`.
+
+For website-only updates, run the HTML build, package, and browser audit commands above, omitting PDF rendering. The static ZIP and artifact checksums have been refreshed for this navigation update.

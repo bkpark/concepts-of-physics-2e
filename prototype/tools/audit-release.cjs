@@ -7,7 +7,7 @@ const server=http.createServer((req,res)=>{let f=path.resolve(site,'.'+decodeURI
 try{
  const metadata=path.join(root,'output/releases',rel.release_id,'site');
  const registry=JSON.parse(fs.readFileSync(path.join(metadata,'identity-registry.json'),'utf8')),views=JSON.parse(fs.readFileSync(path.join(metadata,'exercise-views.json'),'utf8'));
- const targets=['index.html',...Object.values(registry).map(v=>`sections/${v.slug}/index.html`),...views.map(v=>`exercises/${v.slug}/index.html`)];
+ const targets=['index.html','contents/index.html',...Object.values(registry).map(v=>`sections/${v.slug}/index.html`),...views.map(v=>`exercises/${v.slug}/index.html`)];
  const context=await browser.newContext({permissions:['clipboard-read','clipboard-write']});await context.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():(external.push(r.request().url()),r.abort()));
  for(const width of [1280,390]){
  const page=await context.newPage();await page.setViewportSize({width,height:900});
