@@ -52,3 +52,6 @@ can vary. Production needs a locked renderer/font environment and broader
 pagination, accessibility, and fidelity tests.
 
 See `docs/fidelity-prototype-report.md` for findings, limitations, and next steps.
+
+The separate native MathML selection experiment is documented in
+`docs/native-math-selection-test.md`. It leaves these SVG builds unchanged.

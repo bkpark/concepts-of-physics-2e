@@ -1,0 +1,56 @@
+{
+  "pdf_sha256": "c91fca964e062b22697b84ad66e27d391689e63c5c616127a3347efe66133533",
+  "pages": [
+    {
+      "page": 1,
+      "math_character_count": 35,
+      "text": "Native MathML selection test\nEight expressions from Introduction to Physics. Select symbols directly, or use the copy button for\nstructured MathML. This is an isolated rendering experiment, not a textbook revision.\nFraction, Greek delta, and overbar\nm67034-math-0018 · source object import-auto-id1782525\nΔ𝑥\n-\n𝑣 = .\nΔ𝑡\nSimultaneous subscript and superscript\nm67034-math-0097 · source object import-auto-id1659227\n2 2\n𝑣 = 𝑣 + 2𝑎 ( 𝑥 − 𝑥 ) (constant 𝑎).\n0 0",
+      "fonts": [
+        "AAAAAA+Georgia",
+        "BAAAAA+Arial-BoldMT",
+        "CAAAAA+ArialMT",
+        "DAAAAA+CambriaMath"
+      ]
+    },
+    {
+      "page": 2,
+      "math_character_count": 44,
+      "text": "Square root, powers, and units\nm67034-math-0107 · source object import-auto-id2177812\n𝑣 = 2.09 × 10 4 m2/s 2 = 145 m/s .\n√\nAligned rows and a stretching brace\nm67034-math-0012 · source object import-auto-id2563693\nΔ𝑡 = 𝑡\nΔ𝑥 = 𝑥 − 𝑥 }\n0\nΔ𝑣 = 𝑣 − 𝑣\n0",
+      "fonts": [
+        "BAAAAA+Arial-BoldMT",
+        "CAAAAA+ArialMT",
+        "DAAAAA+CambriaMath"
+      ]
+    },
+    {
+      "page": 3,
+      "math_character_count": 41,
+      "text": "Multiline temperature calculation\nm67122-math-0045 · source object import-auto-id2387502\n𝑇 = ( 18.0 + 273 ) K=291 K\n0\n𝑇 = ( 35.0 + 273 ) K=308 K\nf\nBold vector symbol\nm67530-math-0001 · source object import-auto-id1993910\nw",
+      "fonts": [
+        "BAAAAA+Arial-BoldMT",
+        "CAAAAA+ArialMT",
+        "DAAAAA+CambriaMath",
+        "EAAAAA+CambriaMath"
+      ]
+    },
+    {
+      "page": 4,
+      "math_character_count": 17,
+      "text": "Greek pi and a symbolic product\nm67807-math-0064 · source object eip-168\nℎ / 2 𝜋\nNested fraction inside a square root\nm42709-math-0020 · source object import-auto-id1688908\n𝛾 = 1 / √1 − 𝑣2 / 𝑐2",
+      "fonts": [
+        "BAAAAA+Arial-BoldMT",
+        "CAAAAA+ArialMT",
+        "DAAAAA+CambriaMath"
+      ]
+    }
+  ],
+  "math_characters": 137,
+  "missing_token_characters_after_nfkc": {},
+  "text_characters_have_bounding_boxes": true,
+  "limitations": [
+    "PDF clipboard interactions in Acrobat/Edge not tested",
+    "PDF extraction produces styled Unicode mathematical letters",
+    "Whole-equation plain text loses two-dimensional structure",
+    "NFKC here is diagnostic only; PDF characters are not rewritten"
+  ]
+}

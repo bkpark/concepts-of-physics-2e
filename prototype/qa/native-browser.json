@@ -1,0 +1,636 @@
+{
+  "browser": "153.0.8010.50",
+  "errors": [],
+  "samples": [
+    {
+      "key": "m67034-math-0018",
+      "symbol": {
+        "expected": "v",
+        "selection": "𝑣",
+        "clipboard": "v"
+      },
+      "token_tests": [
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "-",
+          "copied": "-",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "Δ",
+          "copied": "Δ",
+          "pass": true
+        },
+        {
+          "expected": "x",
+          "copied": "x",
+          "pass": true
+        },
+        {
+          "expected": "Δ",
+          "copied": "Δ",
+          "pass": true
+        },
+        {
+          "expected": "t",
+          "copied": "t",
+          "pass": true
+        },
+        {
+          "expected": ".",
+          "copied": ".",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "v\r\n-\r\n=\r\nΔ\r\nx\r\nΔ\r\nt\r\n.",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m67034-math-0097",
+      "symbol": {
+        "expected": "v",
+        "selection": "𝑣",
+        "clipboard": "v"
+      },
+      "token_tests": [
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "+",
+          "copied": "+",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "a",
+          "copied": "a",
+          "pass": true
+        },
+        {
+          "expected": "(",
+          "copied": "(",
+          "pass": true
+        },
+        {
+          "expected": "x",
+          "copied": "x",
+          "pass": true
+        },
+        {
+          "expected": "−",
+          "copied": "−",
+          "pass": true
+        },
+        {
+          "expected": "x",
+          "copied": "x",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": ")",
+          "copied": ")",
+          "pass": true
+        },
+        {
+          "expected": "(",
+          "copied": "(",
+          "pass": true
+        },
+        {
+          "expected": "constant",
+          "copied": "constant",
+          "pass": true
+        },
+        {
+          "expected": "a",
+          "copied": "a",
+          "pass": true
+        },
+        {
+          "expected": ")",
+          "copied": ")",
+          "pass": true
+        },
+        {
+          "expected": ".",
+          "copied": ".",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "v\r\n2\r\n=\r\nv\r\n0\r\n2\r\n+\r\n2\r\na\r\n(\r\nx\r\n−\r\nx\r\n0\r\n)\r\n(\r\nconstant\r\na\r\n)\r\n.",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m67034-math-0107",
+      "symbol": {
+        "expected": "v",
+        "selection": "𝑣",
+        "clipboard": "v"
+      },
+      "token_tests": [
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": ".",
+          "copied": ".",
+          "pass": true
+        },
+        {
+          "expected": "09",
+          "copied": "09",
+          "pass": true
+        },
+        {
+          "expected": "×",
+          "copied": "×",
+          "pass": true
+        },
+        {
+          "expected": "10",
+          "copied": "10",
+          "pass": true
+        },
+        {
+          "expected": "4",
+          "copied": "4",
+          "pass": true
+        },
+        {
+          "expected": "m",
+          "copied": "m",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "/s",
+          "copied": "/s",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "145 m/s",
+          "copied": "145 m/s",
+          "pass": true
+        },
+        {
+          "expected": ".",
+          "copied": ".",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "v\r\n=\r\n2\r\n.\r\n09\r\n×\r\n10\r\n4\r\nm\r\n2\r\n/s\r\n2\r\n=\r\n145 m/s\r\n.",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m67034-math-0012",
+      "symbol": {
+        "expected": "Δ",
+        "selection": "Δ",
+        "clipboard": "Δ"
+      },
+      "token_tests": [
+        {
+          "expected": "Δ",
+          "copied": "Δ",
+          "pass": true
+        },
+        {
+          "expected": "t",
+          "copied": "t",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "t",
+          "copied": "t",
+          "pass": true
+        },
+        {
+          "expected": "Δ",
+          "copied": "Δ",
+          "pass": true
+        },
+        {
+          "expected": "x",
+          "copied": "x",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "x",
+          "copied": "x",
+          "pass": true
+        },
+        {
+          "expected": "−",
+          "copied": "−",
+          "pass": true
+        },
+        {
+          "expected": "x",
+          "copied": "x",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": "Δ",
+          "copied": "Δ",
+          "pass": true
+        },
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "−",
+          "copied": "−",
+          "pass": true
+        },
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": "}",
+          "copied": "}",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "Δ\r\nt\r\n=\r\nt\r\nΔ\r\nx\r\n=\r\nx\r\n−\r\nx\r\n0\r\nΔ\r\nv\r\n=\r\nv\r\n−\r\nv\r\n0\r\n}",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m67122-math-0045",
+      "symbol": {
+        "expected": "T",
+        "selection": "𝑇",
+        "clipboard": "T"
+      },
+      "token_tests": [
+        {
+          "expected": "T",
+          "copied": "T",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "(",
+          "copied": "(",
+          "pass": true
+        },
+        {
+          "expected": "18",
+          "copied": "18",
+          "pass": true
+        },
+        {
+          "expected": ".",
+          "copied": ".",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": "+",
+          "copied": "+",
+          "pass": true
+        },
+        {
+          "expected": "273",
+          "copied": "273",
+          "pass": true
+        },
+        {
+          "expected": ")",
+          "copied": ")",
+          "pass": true
+        },
+        {
+          "expected": "K",
+          "copied": "K",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "291 K",
+          "copied": "291 K",
+          "pass": true
+        },
+        {
+          "expected": "T",
+          "copied": "T",
+          "pass": true
+        },
+        {
+          "expected": "f",
+          "copied": "f",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "(",
+          "copied": "(",
+          "pass": true
+        },
+        {
+          "expected": "35",
+          "copied": "35",
+          "pass": true
+        },
+        {
+          "expected": ".",
+          "copied": ".",
+          "pass": true
+        },
+        {
+          "expected": "0",
+          "copied": "0",
+          "pass": true
+        },
+        {
+          "expected": "+",
+          "copied": "+",
+          "pass": true
+        },
+        {
+          "expected": "273",
+          "copied": "273",
+          "pass": true
+        },
+        {
+          "expected": ")",
+          "copied": ")",
+          "pass": true
+        },
+        {
+          "expected": "K",
+          "copied": "K",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "308 K",
+          "copied": "308 K",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "T\r\n0\r\n=\r\n(\r\n18\r\n.\r\n0\r\n+\r\n273\r\n)\r\nK\r\n=\r\n291 K\r\nT\r\nf\r\n=\r\n(\r\n35\r\n.\r\n0\r\n+\r\n273\r\n)\r\nK\r\n=\r\n308 K",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m67530-math-0001",
+      "symbol": {
+        "expected": "w",
+        "selection": "w",
+        "clipboard": "w"
+      },
+      "token_tests": [
+        {
+          "expected": "w",
+          "copied": "w",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "w",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m67807-math-0064",
+      "symbol": {
+        "expected": "h",
+        "selection": "ℎ",
+        "clipboard": "h"
+      },
+      "token_tests": [
+        {
+          "expected": "h",
+          "copied": "h",
+          "pass": true
+        },
+        {
+          "expected": "/",
+          "copied": "/",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "π",
+          "copied": "π",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "h\r\n/\r\n2\r\n⁢\r\nπ",
+      "whole_mathml_clipboard_and_paste": true
+    },
+    {
+      "key": "m42709-math-0020",
+      "symbol": {
+        "expected": "γ",
+        "selection": "𝛾",
+        "clipboard": "γ"
+      },
+      "token_tests": [
+        {
+          "expected": "γ",
+          "copied": "γ",
+          "pass": true
+        },
+        {
+          "expected": "=",
+          "copied": "=",
+          "pass": true
+        },
+        {
+          "expected": "1",
+          "copied": "1",
+          "pass": true
+        },
+        {
+          "expected": "/",
+          "copied": "/",
+          "pass": true
+        },
+        {
+          "expected": "1",
+          "copied": "1",
+          "pass": true
+        },
+        {
+          "expected": "−",
+          "copied": "−",
+          "pass": true
+        },
+        {
+          "expected": "v",
+          "copied": "v",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        },
+        {
+          "expected": "/",
+          "copied": "/",
+          "pass": true
+        },
+        {
+          "expected": "c",
+          "copied": "c",
+          "pass": true
+        },
+        {
+          "expected": "2",
+          "copied": "2",
+          "pass": true
+        }
+      ],
+      "whole_selection_plain_text": "γ\r\n=\r\n1\r\n/\r\n1\r\n−\r\nv\r\n2\r\n/\r\nc\r\n2",
+      "whole_mathml_clipboard_and_paste": true
+    }
+  ],
+  "scope": "Chrome native HTML selection and system clipboard; PDF character extraction is checked separately",
+  "mouse_drag_vector": {
+    "selected": "w",
+    "copied": "w"
+  },
+  "layout": {
+    "nativeMathCount": 8,
+    "svgCount": 0,
+    "overflow": 0
+  },
+  "mobile": {
+    "pageOverflow": false,
+    "scrollableExpressions": 3
+  }
+}
