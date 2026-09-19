@@ -1,0 +1,18 @@
+{
+  "id": "X24",
+  "status": "applied-author-directed",
+  "change_kind": "replace-prose",
+  "module": "m42680",
+  "source_object": "import-auto-id1169737936593",
+  "source_path": "maintained/modules/m42680/index.cnxml",
+  "source_sha256": "d599bd882ea4be19952ad0802164fd3c755366f7835d298529f712b95f5c1c28",
+  "after_sha256": "f368a6f2e54b1dbd4472799ac3431fdf2786bcc6d5f2755a772321e11592f7bd",
+  "before": " (<link document=\"m42678\" target-id=\"import-auto-id1169737909561\"/> confirms the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mover accent=\"true\"><m:mi>d</m:mi><m:mo stretchy=\"true\">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{u { bar  {d}}} {}</m:annotation></m:semantics></m:math> composition for the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{π rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>.)",
+  "after": ".",
+  "reason": "Remove the parenthetical confirmation and its missing reference as directed by the author; end the remaining sentence with a period.",
+  "upstream_erratum": {
+    "url": "https://openstax.org/errata/30174",
+    "status": "submitted-by-author",
+    "note": "Author reported a remaining upstream typo; submission recorded without independently verifying its contents."
+  }
+}
