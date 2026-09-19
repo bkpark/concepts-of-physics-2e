@@ -19,13 +19,14 @@
       "local_module": "m71593",
       "upstream_module": "m42179",
       "source_id": "fs-id3080979",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "resistance to change of angular velocity; also called moment of inertia; for a point mass, [MATH]",
       "upstream": "resistance to change of rotation. The more rotational inertia an object has, the harder it is to rotate",
       "local_html": "resistance to change of angular velocity; also called moment of inertia; for a point mass, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>I</mi><mo stretchy=\"false\">=</mo><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mr</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream_html": "resistance to change of rotation. The more rotational inertia an object has, the harder it is to rotate",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain rotational-inertia terminology, local lever-arm explanation and conceptual formula discussion rather than upstream integration/torque derivation. Prior X01 figure reference remains correct."
     },
     {
       "id": "UP-599b33edfc61a78b",
@@ -33,13 +34,14 @@
       "local_module": "m71593",
       "upstream_module": "m42179",
       "source_id": "import-auto-id1927026",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Before we can consider the rotation of anything other than a point mass like the one in , we must extend the idea of rotational inertia to all types of objects. To expand our concept of rotational inertia, we define the moment of inertia [MATH] of an object to be the sum of [MATH] for all the point masses of which it is composed. That is, [MATH] . Here [MATH] is analogous to [MATH] in translational motion. Because of the distance [MATH] , the moment of inertia for any object depends on the chosen axis. Actually, calculating [MATH] is beyond the scope of this text except for one simple case—that of a hoop, which has all its mass at the same distance from its axis. A hoop’s moment of inertia around its axis is therefore [MATH] , where [MATH] is its total mass and [MATH] its radius. (We use [MATH] and [MATH] for an entire object to distinguish them from [MATH] and [MATH] for point masses.) shows a variety of formulas of rotational inertia for many different shapes (deriving these formulas require calculus). For our purposes, it is good enough for you to see that rotational inertia is proportional to mass, and that it's proportional to size of object squared. Note that [MATH] has units of mass multiplied by distance squared ( [MATH] ), as we might expect from its definition.",
       "upstream": "Before we can consider the rotation of anything other than a point mass like the one in , we must extend the idea of rotational inertia to all types of objects. To expand our concept of rotational inertia, we define the moment of inertia [MATH] of an object to be the sum of [MATH] for all the point masses of which it is composed. That is, [MATH] . Here [MATH] is analogous to [MATH] in translational motion. Because of the distance [MATH] , the moment of inertia for any object depends on the chosen axis. Actually, calculating [MATH] is beyond the scope of this text except for one simple case—that of a hoop, which has all its mass at the same distance from its axis. A hoop’s moment of inertia around its axis is therefore [MATH] , where [MATH] is its total mass and [MATH] its radius. (We use [MATH] and [MATH] for an entire object to distinguish them from [MATH] and [MATH] for point masses.) In all other cases, we must consult (note that the table is piece of artwork that has shapes as well as formulae) for formulas for [MATH] that have been derived from integration over the continuous body. Note that [MATH] has units of mass multiplied by distance squared ( [MATH] ), as we might expect from its definition.",
       "local_html": "Before we can consider the rotation of anything other than a point mass like the one in <span class=\"muted\">[reference]</span>, we must extend the idea of rotational inertia to all types of objects. To expand our concept of rotational inertia, we define the moment of inertia\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> of an object to be the sum of\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mr</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math> for all the point masses of which it is composed. That is,\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>I</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">∑</mo><mrow /></mrow></mrow><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mr</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow><mrow /></mrow></mrow></math>. Here\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> is analogous to\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>m</mi></mrow><mrow /></mrow></mrow></math> in translational motion. Because of the distance\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi><mrow /></mrow></mrow></math>, the moment of inertia for any object depends on the chosen axis. Actually, calculating\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> is beyond the scope of this text except for one simple case—that of a hoop, which has all its mass at the same distance from its axis. A hoop’s moment of inertia around its axis is therefore\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>MR</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>, where\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>M</mi></mrow><mrow /></mrow></mrow></math> is its total mass and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>R</mi></mrow><mrow /></mrow></mrow></math> its radius. (We use <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>M</mi></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>R</mi></mrow><mrow /></mrow></mrow></math> for an entire object to distinguish them from <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>m</mi></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>r</mi></mrow><mrow /></mrow></mrow></math> for point masses.) <span class=\"muted\">[reference]</span> shows a variety of formulas of rotational inertia for many different shapes (deriving these formulas require calculus). For our purposes, it is good enough for you to see that rotational inertia is proportional to mass, and that it&#x27;s proportional to size of object squared. Note that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> has units of mass multiplied by distance squared (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>kg</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>), as we might expect from its definition.",
       "upstream_html": "Before we can consider the rotation of anything other than a point mass like the one in <span class=\"muted\">[reference]</span>, we must extend the idea of rotational inertia to all types of objects. To expand our concept of rotational inertia, we define the moment of inertia\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> of an object to be the sum of\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mr</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math> for all the point masses of which it is composed. That is,\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>I</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">∑</mo><mrow /></mrow></mrow><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mr</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math>. Here\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> is analogous to\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math> in translational motion. Because of the distance\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>r</mi><mrow /></mrow></math>, the moment of inertia for any object depends on the chosen axis. Actually, calculating\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> is beyond the scope of this text except for one simple case—that of a hoop, which has all its mass at the same distance from its axis. A hoop’s moment of inertia around its axis is therefore\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>MR</mtext></mstyle><mrow><mn>2</mn></mrow></msup></mrow></mrow></math>, where\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>M</mi></mrow></mrow></math> is its total mass and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>R</mi></mrow></mrow></math> its radius. (We use <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>M</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>R</mi></mrow></mrow></math> for an entire object to distinguish them from <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi></mrow></mrow></math> for point masses.) In all other cases, we must consult <span class=\"muted\">[reference]</span> (note that the table is piece of artwork that has shapes as well as formulae) for formulas for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> that have been derived from integration over the continuous body. Note that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> has units of mass multiplied by distance squared (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>kg</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>), as we might expect from its definition.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain rotational-inertia terminology, local lever-arm explanation and conceptual formula discussion rather than upstream integration/torque derivation. Prior X01 figure reference remains correct."
     },
     {
       "id": "UP-68fc28278fbed86f",
@@ -47,13 +49,14 @@
       "local_module": "m71593",
       "upstream_module": "m42179",
       "source_id": "import-auto-id1940935",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The turning effectiveness of force is called torque. Intuitively, torque increases with a larger lever arm, or the perpendicular distance between the center of rotation and the point at which force is being applied (think of a see-saw; to balance the weight of a heavier child on one side with a lighter child on the other side, the lighter child needs to sit farther from the pivot point). So, torque is given by [MATH] . So, if we multiply both sides of the equation above by [MATH] , we get torque on the left-hand side. That is,",
       "upstream": "Recall that torque is the turning effectiveness of a force. In this case, because [MATH] is perpendicular to [MATH] , torque is simply [MATH] . So, if we multiply both sides of the equation above by [MATH] , we get torque on the left-hand side. That is,",
       "local_html": "The turning effectiveness of force is called torque. Intuitively, torque increases with a larger lever arm, or the perpendicular distance between the center of rotation and the point at which force is being applied (think of a see-saw; to balance the weight of a heavier child on one side with a lighter child on the other side, the lighter child needs to sit farther from the pivot point). So, torque is given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>τ</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">rF</mi></mrow></mrow><mrow /></mrow></mrow></math>. So, if we multiply both sides of the equation above by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>r</mi></mrow><mrow /></mrow></mrow></math>, we get torque on the left-hand side. That is,\n\n\n",
       "upstream_html": "Recall that torque is the turning effectiveness of a force. In this case, because <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext></mrow></mrow></math> is perpendicular to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi></mrow></mrow></math>, torque is simply <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>τ</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">Fr</mi></mrow></mrow></mrow></math>. So, if we multiply both sides of the equation above by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi></mrow></mrow></math>, we get torque on the left-hand side. That is,\n\n\n",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain rotational-inertia terminology, local lever-arm explanation and conceptual formula discussion rather than upstream integration/torque derivation. Prior X01 figure reference remains correct."
     },
     {
       "id": "UP-afe875f8601774db",
@@ -269,11 +272,12 @@
       "local_module": "m71593",
       "upstream_module": "m42179",
       "source_id": "import-auto-id1927026@16",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>kg</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain rotational-inertia terminology, local lever-arm explanation and conceptual formula discussion rather than upstream integration/torque derivation. Prior X01 figure reference remains correct. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-8aca0c1f85f23209",
@@ -385,11 +389,12 @@
       "local_module": "m71593",
       "upstream_module": "m42179",
       "source_id": "import-auto-id1940935@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>τ</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">rF</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain rotational-inertia terminology, local lever-arm explanation and conceptual formula discussion rather than upstream integration/torque derivation. Prior X01 figure reference remains correct. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-010d7ba66b0b7e91",
@@ -709,7 +714,7 @@
       "local_module": "m71593",
       "upstream_module": "m42179",
       "source_id": "m42179",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "fs-id3080979@1",
         "fs-id3113938@1",
@@ -724,7 +729,8 @@
         "import-auto-id1940935@4"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain rotational-inertia terminology, local lever-arm explanation and conceptual formula discussion rather than upstream integration/torque derivation. Prior X01 figure reference remains correct. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "U12-20",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71589",
+  "source_object": "import-auto-id3402524",
+  "source_path": "maintained/modules/m71589/index.cnxml",
+  "source_sha256": "9773cdfa6f40dc44b660789a4bc086cc629f6f086bd6fb462f94152b7deabc76",
+  "after_sha256": "4eed42237810b7b5c1511dd5cfe469976594371a8b29a2e2bd33c9bdef89f08c",
+  "before": "<para id=\"import-auto-id3402524\"><link target-id=\"import-auto-id3177545\"/> makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. This observation is analogous to the fact that the frequency of a simple harmonic motion is directly proportional to the stiffness of the oscillating object. The greater the density of a medium, the slower the speed of sound. This observation is analogous to the fact that the frequency of a simple harmonic motion is inversely proportional to the mass of the oscillating object. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.</para>",
+  "after": "<para id=\"import-auto-id3402524\"><link target-id=\"import-auto-id3177545\"/> makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. For materials that have similar rigidities, sound will travel faster through the one with the lower density because the sound energy is more easily transferred from particle to particle. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.</para>",
+  "reason": "Use the upstream replacement for two incorrect linear proportionality claims (oscillator frequency varies with square roots) and qualify the density comparison by similar rigidity.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42256"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

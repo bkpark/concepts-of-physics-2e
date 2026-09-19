@@ -2,12 +2,12 @@
   "module": "m71589",
   "title": "Speed of Sound, Frequency, and Wavelength",
   "slug": "speed-of-sound-frequency-and-wavelength",
-  "local_sha256": "9773cdfa6f40dc44b660789a4bc086cc629f6f086bd6fb462f94152b7deabc76",
+  "local_sha256": "4eed42237810b7b5c1511dd5cfe469976594371a8b29a2e2bd33c9bdef89f08c",
   "upstream_modules": [
     "m42256"
   ],
   "counts": {
-    "prose": 3,
+    "prose": 2,
     "math-markup-change": 38,
     "math-token-change": 3,
     "math-structure": 1
@@ -19,13 +19,14 @@
       "local_module": "m71589",
       "upstream_module": "m42256",
       "source_id": "import-auto-id1441562",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Earthquakes, essentially sound waves in Earth’s crust, are an interesting example of how the speed of sound depends on the rigidity of the medium. Earthquakes have both longitudinal and transverse components, and these travel at different speeds. The bulk modulus of granite is greater than its shear modulus. For that reason, the speed of longitudinal or pressure waves (P-waves) in earthquakes in granite is significantly higher than the speed of transverse or shear waves (S-waves). Both components of earthquakes travel slower in less rigid material, such as sediments. P-waves have speeds of 4 to 7 km/s, and S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in more rigid material. The P-wave gets progressively farther ahead of the S-wave as they travel through Earth’s crust. The time between the P- and S-waves is routinely used to determine the distance to their source, the epicenter of the earthquake.",
       "upstream": "Earthquakes, essentially sound waves in Earth’s crust, are an interesting example of how the speed of sound depends on the rigidity of the medium. Earthquakes have both longitudinal and transverse components, and these travel at different speeds. The bulk modulus of granite is greater than its shear modulus. For that reason, the speed of longitudinal or pressure waves (P-waves) in earthquakes in granite is significantly higher than the speed of transverse or shear waves (S-waves). Both components of earthquakes travel slower in less rigid material, such as sediments. P-waves have speeds of 4 to 7 km/s, and S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in more rigid material. The P-wave gets progressively farther ahead of the S-wave as they travel through Earth’s crust. The time between the P- and S-waves is routinely used to determine the distance to their source, the epicenter of the earthquake. The time and nature of these wave differences also provides the evidence for the nature of Earth's core. Through careful analysis of seismographic records of large earthquakes whose waves could be clearly detected around the world, Richard Dixon Oldham established that waves passing through the center of the Earth behaved as if they were moving through a different medium: a liquid. Later on, Inge Lehmann used more precise observations (partly based on a better coordinated network of seismographs she helped set up) to better define the nature of the core: that it was a solid inner core surrounded by a liquid outer core.",
       "local_html": "Earthquakes, essentially sound waves in Earth’s crust, are an interesting example of how the speed of sound depends on the rigidity of the medium. Earthquakes have both longitudinal and transverse components, and these travel at different speeds. The bulk modulus of granite is greater than its shear modulus. For that reason, the speed of longitudinal or pressure waves (P-waves) in earthquakes in granite is significantly higher than the speed of transverse or shear waves (S-waves). Both components of earthquakes travel slower in less rigid material, such as sediments. P-waves have speeds of 4 to 7 km/s, and S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in more rigid material. The P-wave gets progressively farther ahead of the S-wave as they travel through Earth’s crust. The time between the P- and S-waves is routinely used to determine the distance to their source, the epicenter of the earthquake.",
       "upstream_html": "Earthquakes, essentially sound waves in Earth’s crust, are an interesting example of how the speed of sound depends on the rigidity of the medium. Earthquakes have both longitudinal and transverse components, and these travel at different speeds. The bulk modulus of granite is greater than its shear modulus. For that reason, the speed of longitudinal or pressure waves (P-waves) in earthquakes in granite is significantly higher than the speed of transverse or shear waves (S-waves). Both components of earthquakes travel slower in less rigid material, such as sediments. P-waves have speeds of 4 to 7 km/s, and S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in more rigid material. The P-wave gets progressively farther ahead of the S-wave as they travel through Earth’s crust. The time between the P- and S-waves is routinely used to determine the distance to their source, the epicenter of the earthquake. The time and nature of these wave differences also provides the evidence for the nature of Earth&#x27;s core. Through careful analysis of seismographic records of large earthquakes whose waves could be clearly detected around the world, Richard Dixon Oldham established that waves passing through the center of the Earth behaved as if they were moving through a different medium: a liquid. Later on, Inge Lehmann used more precise observations (partly based on a better coordinated network of seismographs she helped set up) to better define the nature of the core: that it was a solid inner core surrounded by a liquid outer core.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain simplified gas-temperature dependence; do not restore microscopic rms-speed derivation or add historical seismology coverage. The incorrect stiffness/mass proportionalities are corrected separately."
     },
     {
       "id": "UP-d3f8906876418835",
@@ -33,27 +34,14 @@
       "local_module": "m71589",
       "upstream_module": "m42256",
       "source_id": "import-auto-id2447377",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "where the temperature (denoted as [MATH] ) is in units of kelvin. While not negligible, this is not a strong dependence. At [MATH] , the speed of sound is 331 m/s, whereas at [MATH] it is 343 m/s, less than a 4% increase. shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.",
       "upstream": "where [MATH] is the Boltzmann constant ( [MATH] ) and [MATH] is the mass of each (identical) particle in the gas. So, it is reasonable that the speed of sound in air and other gases should depend on the square root of temperature. While not negligible, this is not a strong dependence. At [MATH] , the speed of sound is 331 m/s, whereas at [MATH] it is 343 m/s, less than a 4% increase. shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.",
       "local_html": "where the temperature (denoted as  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi></mrow></math>) is in units of kelvin.\nWhile not negligible, this is not a strong dependence. At \n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtext>0ºC</mtext></mrow></math>, the speed of sound is 331 m/s, whereas at \n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtext>20.0ºC</mtext></mrow></math> it is 343 m/s, less than a 4% increase. <span class=\"muted\">[reference]</span> shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.",
       "upstream_html": "where  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>k</mi></math> is the Boltzmann constant (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1.38</mn><mo>×</mo><msup><mtext>10</mtext><mtext>−23</mtext></msup><mspace width=\"0.25em\" /><mtext>J/K</mtext></mrow></math>) and  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>m</mi></math> is the mass of each (identical) particle in the gas. So, it is reasonable that the speed of sound in air and other gases should depend on the square root of temperature. While not negligible, this is not a strong dependence. At\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mtext>0ºC</mtext></math>, the speed of sound is 331 m/s, whereas at\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mtext>20.0ºC</mtext></math> it is 343 m/s, less than a 4% increase. <span class=\"muted\">[reference]</span> shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-4c44caf85075d252",
-      "kind": "prose",
-      "local_module": "m71589",
-      "upstream_module": "m42256",
-      "source_id": "import-auto-id3402524",
-      "status": "unreviewed-difference",
-      "local": "makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. This observation is analogous to the fact that the frequency of a simple harmonic motion is directly proportional to the stiffness of the oscillating object. The greater the density of a medium, the slower the speed of sound. This observation is analogous to the fact that the frequency of a simple harmonic motion is inversely proportional to the mass of the oscillating object. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.",
-      "upstream": "makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. For materials that have similar rigidities, sound will travel faster through the one with the lower density because the sound energy is more easily transferred from particle to particle. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.",
-      "local_html": "<span class=\"muted\">[reference]</span> makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. This observation is analogous to the fact that the frequency of a simple harmonic motion is directly proportional to the stiffness of the oscillating object. The greater the density of a medium, the slower the speed of sound. This observation is analogous to the fact that the frequency of a simple harmonic motion is inversely proportional to the mass of the oscillating object. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.",
-      "upstream_html": "<span class=\"muted\">[reference]</span> makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. For materials that have similar rigidities, sound will travel faster through the one with the lower density because the sound energy is more easily transferred from particle to particle. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain simplified gas-temperature dependence; do not restore microscopic rms-speed derivation or add historical seismology coverage. The incorrect stiffness/mass proportionalities are corrected separately."
     },
     {
       "id": "UP-b586c685f371babd",
@@ -399,11 +387,12 @@
       "local_module": "m71589",
       "upstream_module": "m42256",
       "source_id": "import-auto-id2447377@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>k</mi></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain simplified gas-temperature dependence; do not restore microscopic rms-speed derivation or add historical seismology coverage. The incorrect stiffness/mass proportionalities are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-891aa2e4296af97d",
@@ -411,11 +400,12 @@
       "local_module": "m71589",
       "upstream_module": "m42256",
       "source_id": "import-auto-id2447377@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtext>0ºC</mtext></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1.38</mn><mo>×</mo><msup><mtext>10</mtext><mtext>−23</mtext></msup><mspace width=\"0.25em\" /><mtext>J/K</mtext></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain simplified gas-temperature dependence; do not restore microscopic rms-speed derivation or add historical seismology coverage. The incorrect stiffness/mass proportionalities are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-48ae1301f170adc7",
@@ -423,11 +413,12 @@
       "local_module": "m71589",
       "upstream_module": "m42256",
       "source_id": "import-auto-id2447377@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtext>20.0ºC</mtext></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>m</mi></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain simplified gas-temperature dependence; do not restore microscopic rms-speed derivation or add historical seismology coverage. The incorrect stiffness/mass proportionalities are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-72d3b83fe00a7581",
@@ -591,14 +582,15 @@
       "local_module": "m71589",
       "upstream_module": "m42256",
       "source_id": "m42256",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id2447377@4",
         "import-auto-id2447377@5"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain simplified gas-temperature dependence; do not restore microscopic rms-speed derivation or add historical seismology coverage. The incorrect stiffness/mass proportionalities are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     }
   ]
 }

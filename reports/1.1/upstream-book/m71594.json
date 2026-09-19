@@ -2,12 +2,11 @@
   "module": "m71594",
   "title": "Angular Momentum and Its Conservation",
   "slug": "angular-momentum-and-its-conservation",
-  "local_sha256": "252940c6c96ab25709a2a80b0f2de1ed666d87a286921d83e8c83527ebe55289",
+  "local_sha256": "0ea3b727d4e170c899ae899f40f993590d047fb76b3639a23545e6d4603c3480",
   "upstream_modules": [
     "m42182"
   ],
   "counts": {
-    "accessibility": 1,
     "prose": 2,
     "references": 1,
     "math-markup-change": 72,
@@ -15,30 +14,19 @@
   },
   "changes": [
     {
-      "id": "UP-b745aaa5ca8ba451",
-      "kind": "accessibility",
-      "local_module": "m71594",
-      "upstream_module": "m42182",
-      "source_id": "eip-id2890661",
-      "status": "unreviewed-difference",
-      "local": "",
-      "upstream": "A close-up view looking down the rifled barrel of a large artillery piece or cannon, showcasing the distinct spiral grooves inside its muzzle.",
-      "exercise_context": true,
-      "credit_review_required": false
-    },
-    {
       "id": "UP-c3f235c0e1d0ae74",
       "kind": "prose",
       "local_module": "m71594",
       "upstream_module": "m42182",
       "source_id": "fs-id1473631",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Substituting known information into the expression for [MATH] and converting [MATH] to radians per second gives",
       "upstream": "Substituting [MATH] rad for rev and approximating 1 day as 24 hours or [MATH] gives",
       "local_html": "Substituting known information into the expression for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>L</mi></mrow><mrow /></mrow></mrow></math> and converting <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi></mrow><mrow /></mrow></mrow></math> to radians per second gives",
       "upstream_html": "Substituting <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>π</mi></mrow></math> rad for rev and approximating 1 day as 24 hours or <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>8.64</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mspace width=\"0.2em\" /><mtext>s</mtext></mrow></math>  gives",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately."
     },
     {
       "id": "UP-02be0026d694d6c6",
@@ -46,7 +34,7 @@
       "local_module": "m71594",
       "upstream_module": "m42182",
       "source_id": "fs-id2436715",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "document": "m71593",
@@ -60,7 +48,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-f6b68b489bfdaeb8",
@@ -68,13 +57,14 @@
       "local_module": "m71594",
       "upstream_module": "m42182",
       "source_id": "import-auto-id3008692",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "shows a Lazy Susan food tray being rotated by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?",
       "upstream": "shows a rotating food tray, often called a lazy Susan, being turned by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?",
       "local_html": "<span class=\"muted\">[reference]</span> shows a Lazy Susan food tray being rotated by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?",
       "upstream_html": "<span class=\"muted\">[reference]</span> shows a rotating food tray, often called a lazy Susan, being turned by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately."
     },
     {
       "id": "UP-c1a5fc5bdf9f5add",
@@ -381,11 +371,12 @@
       "local_module": "m71594",
       "upstream_module": "m42182",
       "source_id": "eip-98@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>9</mn><mtext>.</mtext><mrow><mtext>75</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>2</mn></mrow></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> kg</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow><mtext>/s</mtext></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>500</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>4</mn><mtext>.</mtext><mtext>00</mtext><mi /><mspace width=\"0.25em\" /><mtext> kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>260</mtext><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mn>0</mn></mrow><mtext>.</mtext><mtext>721</mtext><mspace width=\"0.25em\" /><mtext> rad/s</mtext></mrow></mrow><mrow /><mo>.</mo></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>9</mn><mtext>.</mtext><mrow><mtext>75</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>2</mn></mrow></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> kg</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow><mtext>/s</mtext></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>500</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>4</mn><mtext>.</mtext><mtext>00</mtext><mi /><mspace width=\"0.25em\" /><mtext> kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><msup><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>260</mtext><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mn>0</mn></mrow><mtext>.</mtext><mtext>721</mtext><mspace width=\"0.25em\" /><mtext> rad/s</mtext></mrow></mrow><mrow /><mo>.</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>9</mn><mtext>.</mtext><mrow><mtext>75</mtext><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>2</mn></mrow></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> kg</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow><mtext>/s</mtext></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>500</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>4</mn><mtext>.</mtext><mtext>00</mtext><mi /><mspace width=\"0.25em\" /><mtext> kg</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0.260</mn><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><msup><mrow /><mn>2</mn></msup></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mn>0.721</mn></mrow><mspace width=\"0.25em\" /><mtext> rad/s</mtext></mrow></mrow><mrow /><mo>.</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-76cc7cad5590cc7c",
@@ -419,11 +410,12 @@
       "local_module": "m71594",
       "upstream_module": "m42182",
       "source_id": "fs-id1473631@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>L</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>π</mi></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-338e25df1a866bf4",
@@ -431,11 +423,12 @@
       "local_module": "m71594",
       "upstream_module": "m42182",
       "source_id": "fs-id1473631@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>8.64</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mspace width=\"0.2em\" /><mtext>s</mtext></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local unit-conversion explanation and repaired local cross-reference to rotational inertia. Radius-square correction and missing alt text are recorded separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-408bc4c70fe3c75b",

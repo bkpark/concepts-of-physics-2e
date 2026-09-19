@@ -2,13 +2,12 @@
   "module": "m71615",
   "title": "Pressure",
   "slug": "pressure",
-  "local_sha256": "a60572458961744a09e980718cdece0be0716e7cb27f084729e3a57ab61bfe43",
+  "local_sha256": "5918a03cf0e020fff6b197a727ac2a5de444044dbabb8affb946c2e4fe6d3a22",
   "upstream_modules": [
     "m42189"
   ],
   "counts": {
-    "math-markup-change": 18,
-    "math-token-change": 1
+    "math-markup-change": 19
   },
   "changes": [
     {
@@ -77,16 +76,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-43477bfe1afb30a8",
-      "kind": "math-token-change",
+      "id": "UP-f1f97e6cba587397",
+      "kind": "math-markup-change",
       "local_module": "m71615",
       "upstream_module": "m42189",
       "source_id": "eip-847@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>100 mb</mtext><mrow><mo stretchy=\"false\">=</mo><mrow><mn>1</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow></mrow><mspace width=\"0.25em\" /><mtext>Pa</mtext></mrow></mrow><mrow /><mo> .</mo></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>100 mb</mtext><mrow><mo stretchy=\"false\">=</mo><mrow><mn>1</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>4</mn></mrow></msup></mrow></mrow><mspace width=\"0.25em\" /><mtext>Pa</mtext></mrow></mrow><mrow /><mo> .</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>100 mb</mtext><mrow><mo stretchy=\"false\">=</mo><mrow><mn>1</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>4</mn></mrow></msup></mrow></mrow><mspace width=\"0.25em\" /><mtext>Pa</mtext></mrow></mrow><mrow /><mo> .</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local pressure coverage; millibar exponent correction is recorded separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-e51e19c617cf3e1f",

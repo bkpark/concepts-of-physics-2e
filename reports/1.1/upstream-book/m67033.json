@@ -665,11 +665,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412083@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>20 km/h</mtext></mrow></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>20.0 km/h</mtext></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the removal of deceleration terminology. 20 versus 20.0 km/h is a precision-display choice; the worked acceleration already uses 20.0. Remaining decimal-token differences do not change the calculation. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-fb25afaa348af008",
@@ -872,11 +873,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2581122@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><mn>0</mn><mo stretchy=\"false\">−</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mo stretchy=\"false\">−</mo><mtext>20 km/h</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mrow><mtext>=</mtext><mspace width=\"0.25\" /><mtext>+</mtext><mtext>20 km/h</mtext></mrow><mo>.</mo></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><mn>0</mn><mo stretchy=\"false\">−</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mo stretchy=\"false\">−</mo><mtext>20 km/h</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mrow><mtext>=</mtext><mspace width=\"0.25\" /><mtext>+</mtext><mtext>20.0 km/h</mtext></mrow><mo>.</mo></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the removal of deceleration terminology. 20 versus 20.0 km/h is a precision-display choice; the worked acceleration already uses 20.0. Remaining decimal-token differences do not change the calculation. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-e27735eace7c34a3",
@@ -897,11 +899,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2581171@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mrow><mo stretchy=\"false\">+</mo><mtext>20</mtext></mrow><mtext>.</mtext><mtext>0 km/h</mtext></mrow><mrow><mtext>10</mtext><mtext>.</mtext><mtext>0 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mn>m</mn></mrow><mrow><mn>1 km</mn></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mn>1 h</mn></mrow><mrow><mtext>3600 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mtext>=</mtext><mspace width=\"0.25em\" /><mtext>+</mtext><mn>0</mn><mtext>.556 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mo stretchy=\"false\">+</mo><mn>20.0</mn><mspace width=\"0.2em\" /><mtext>km/h</mtext></mrow><mrow><mn>10.0</mn><mspace width=\"0.2em\" /><mtext>s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mn>m</mn></mrow><mrow><mn>1 km</mn></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mn>1 h</mn></mrow><mrow><mtext>3600 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mtext>=</mtext><mspace width=\"0.25em\" /><mtext>+</mtext><mn>0.556</mn><mspace width=\"0.2em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the removal of deceleration terminology. 20 versus 20.0 km/h is a precision-display choice; the worked acceleration already uses 20.0. Remaining decimal-token differences do not change the calculation. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-d28e98c458700e24",
@@ -922,11 +925,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2585925@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mrow><mo stretchy=\"false\">+</mo><mtext>20</mtext></mrow><mtext>.0 km/h</mtext></mrow><mrow><mtext>10</mtext><mtext>.</mtext><mn>0 s</mn></mrow></mfrac></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mo stretchy=\"false\">+</mo><mn>20.0</mn><mspace width=\"0.2em\" /><mtext>km/h</mtext></mrow><mrow><mn>10.0</mn><mspace width=\"0.2em\" /><mtext>s</mtext></mrow></mfrac></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the removal of deceleration terminology. 20 versus 20.0 km/h is a precision-display choice; the worked acceleration already uses 20.0. Remaining decimal-token differences do not change the calculation. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-34078811ca69dcdb",

@@ -1,0 +1,20 @@
+{
+  "id": "U12-26",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71623",
+  "source_object": "import-auto-id3355342",
+  "source_path": "maintained/modules/m71623/index.cnxml",
+  "source_sha256": "6bc7076dea7fad666c597561726021295ab93de68198c84ba354e5b0683ed65e",
+  "after_sha256": "0c7a8401a7488e99422166db87efa3d98b78580f5b6aaeb75ca4cc25b8d1b73f",
+  "before": "<para id=\"import-auto-id3355342\">This value is the <term>pressure due to the weight of a fluid</term>. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mi fontstyle=\"italic\">ρgh</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{P=ρgh} {}</m:annotation></m:semantics></m:math> represents the pressure due to the weight of any fluid of <emphasis effect=\"italics\">average density</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ρ} {}</m:annotation></m:semantics></m:math> at any depth <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{h} {}</m:annotation></m:semantics></m:math> below its surface. For liquids, which are nearly incompressible, this equation holds to great depths.</para>",
+  "after": "<para id=\"import-auto-id3355342\">This value is the <term>pressure due to the weight of a fluid</term>. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mi fontstyle=\"italic\">ρgh</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{P=ρgh} {}</m:annotation></m:semantics></m:math> represents the pressure due to the weight of any fluid of <emphasis effect=\"italics\">average density</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ρ} {}</m:annotation></m:semantics></m:math> at any depth <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{h} {}</m:annotation></m:semantics></m:math> below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered.</para>",
+  "reason": "Add the upstream small-density-change qualification for applying the hydrostatic constant-density equation to a gas; omit the upstream-only figure reference.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42192"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

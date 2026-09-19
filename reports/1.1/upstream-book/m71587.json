@@ -2,14 +2,13 @@
   "module": "m71587",
   "title": "Waves",
   "slug": "waves",
-  "local_sha256": "fa62068b58bced5a74582a19375fc45a1d5e376ddb1dc87028982065587f1375",
+  "local_sha256": "5c6ade224004306c1fe5b406450fa889eb7eab735873279d0116e648e55552c1",
   "upstream_modules": [
     "m42248"
   ],
   "counts": {
-    "prose": 2,
-    "math-markup-change": 26,
-    "media": 2
+    "prose": 1,
+    "math-markup-change": 26
   },
   "changes": [
     {
@@ -18,27 +17,14 @@
       "local_module": "m71587",
       "upstream_module": "m42248",
       "source_id": "fs-id3101532",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "the speed at which the disturbance moves; also called wave speed, propagation velocity, or propagation speed",
       "upstream": "the speed at which the disturbance moves. Also called the propagation velocity or propagation speed",
       "local_html": "the speed at which the disturbance moves; also called wave speed, propagation velocity, or propagation speed",
       "upstream_html": "the speed at which the disturbance moves. Also called the propagation velocity or propagation speed",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-5414ca23b2202806",
-      "kind": "prose",
-      "local_module": "m71587",
-      "upstream_module": "m42248",
-      "source_id": "import-auto-id490321",
-      "status": "unreviewed-difference",
-      "local": "Many people think that water waves push water from one direction to another. In fact, the particles of water tend to stay in one location, save for moving up and down due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, what you feel is the energy of the wave, not a rush of water.",
-      "upstream": "Many people think that water waves push water from one direction to another. In fact, in water waves far from shore, the particles of water tend to stay in one location, save for moving in circles due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, far from the shore, what you feel is the energy of the wave, not a rush of water.",
-      "local_html": "Many people think that water waves push water from one direction to another. In fact, the particles of water tend to stay in one location, save for moving up and down due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, what you feel is the energy of the wave, not a rush of water.",
-      "upstream_html": "Many people think that water waves push water from one direction to another. In fact, in water waves far from shore, the particles of water tend to stay in one location, save for moving in circles due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, far from the shore, what you feel is the energy of the wave, not a rush of water.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain propagation-speed terminology. Deep-water particle motion and higher-resolution otherwise-equivalent diagrams are corrected separately."
     },
     {
       "id": "UP-7d55078114ade097",
@@ -377,44 +363,6 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
-    },
-    {
-      "id": "UP-3f1c74fe3317dc05",
-      "kind": "media",
-      "local_module": "m71587",
-      "upstream_module": "m42248",
-      "source_id": "import-auto-id1339459",
-      "status": "unreviewed-difference",
-      "local": {
-        "path": "../../media/Figure_17_09_04a.jpg",
-        "sha256": "007a6ad6da0b3cf180806166d57a53444d54109f692cdbcf87ff9ad2dd5f8a4e"
-      },
-      "upstream": {
-        "path": "../../media/Figure_17_09_04.jpg",
-        "sha256": "aaf2c4d1406a255a6f77f7686f993f8a9c7714580e162db07c3d006a9e07f7ab"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true
-    },
-    {
-      "id": "UP-47166f74d45bfce3",
-      "kind": "media",
-      "local_module": "m71587",
-      "upstream_module": "m42248",
-      "source_id": "import-auto-id1575292",
-      "status": "unreviewed-difference",
-      "local": {
-        "path": "../../media/Figure_17_09_03a.jpg",
-        "sha256": "5835f8aa8e3536a8a8ce3de3005b6c75a3437650a180eef12b5f0c728c99374f"
-      },
-      "upstream": {
-        "path": "../../media/Figure_17_09_03.jpg",
-        "sha256": "fe4d274d7ae8745ed89bdbe032fbf69f61ca659c39d436542bf30f9b78ceaa61"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true
     }
   ]
 }

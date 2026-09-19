@@ -2,13 +2,13 @@
   "module": "m67037",
   "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
   "slug": "conservative-forces-potential-energy-and-conservation-of-energy",
-  "local_sha256": "c1c6b400406660ff144298601f6554191effe8b951709285954bdd85b94cb02a",
+  "local_sha256": "fdc2d5038dab74e8d84447bfea8f8f6aced18153198e6198430f648a82ff857f",
   "upstream_modules": [
     "m42149",
     "m42151"
   ],
   "counts": {
-    "prose": 11,
+    "prose": 10,
     "math-token-change": 9,
     "math-markup-change": 16,
     "math-structure": 2
@@ -20,13 +20,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "fs-id1780282",
-      "status": "unreviewed-difference",
-      "local": "a force that is a function of position alone, with the result that the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken",
+      "status": "retain-approved-adaptation",
+      "local": "a force for which the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken",
       "upstream": "a force that does the same work for any given initial and final configuration, regardless of the path followed",
-      "local_html": "a force that is a function of position alone, with the result that the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken",
+      "local_html": "a force for which the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken",
       "upstream_html": "a force that does the same work for any given initial and final configuration, regardless of the path followed",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-cb7c0606955c6a8e",
@@ -34,13 +35,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id1410758",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "where [MATH] is the height (vertical position) and [MATH] is the potential energy of the spring. This general statement looks complex but becomes much simpler when we start considering specific situations. First, we must identify the initial and final conditions in a problem; then, we enter them into the last equation to solve for an unknown.",
       "upstream": "where [MATH] is the height (vertical position) and [MATH] is the compression of the spring. This general statement looks complex but becomes much simpler when we start considering specific situations. First, we must identify the initial and final conditions in a problem; then, we enter them into the last equation to solve for an unknown.",
       "local_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math> is the height (vertical position) and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi></mrow></msub></math> is the potential energy of the spring. \n\nThis general statement looks complex but becomes much simpler when we start considering specific situations. First, we must identify the initial and final conditions in a problem; then, we enter them into the last equation to solve for an unknown.",
       "upstream_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>h</mi></mrow></mrow></math> is the height (vertical position) and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>x</mi></mrow></mrow></math> is the compression of the spring. This general statement looks complex but becomes much simpler when we start considering specific situations. First, we must identify the initial and final conditions in a problem; then, we enter them into the last equation to solve for an unknown.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-3f48f298ca8e296d",
@@ -48,27 +50,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id1522337",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "This part of the problem is limited to conditions just before the car is released and just after it leaves the spring. Take the initial height to be zero, so that both [MATH] and [MATH] are zero. Furthermore, the initial speed [MATH] is zero and the final compression of the spring is zero, and so several terms in the conservation of mechanical energy equation are zero and it simplifies to",
       "upstream": "This part of the problem is limited to conditions just before the car is released and just after it leaves the spring. Take the initial height to be zero, so that both [MATH] and [MATH] are zero. Furthermore, the initial speed [MATH] is zero and the final compression of the spring [MATH] is zero, and so several terms in the conservation of mechanical energy equation are zero and it simplifies to",
       "local_html": "This part of the problem is limited to conditions just before the car is released and just after it leaves the spring. Take the initial height to be zero, so that both <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>h</mi><mrow><mtext>i</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>h</mi><mrow><mtext>f</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> are zero. Furthermore, the initial speed <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>i</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> is zero and the final compression of the spring is zero, and so several terms in the conservation of mechanical energy equation are zero and it simplifies to",
       "upstream_html": "This part of the problem is limited to conditions just before the car is released and just after it leaves the spring. Take the initial height to be zero, so that both <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>h</mi><mrow><mtext>i</mtext></mrow></msub></mrow><mrow /></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>h</mi><mrow><mtext>f</mtext></mrow></msub></mrow><mrow /></mrow></math> are zero. Furthermore, the initial speed <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>v</mi><mrow><mtext>i</mtext></mrow></msub></mrow><mrow /></mrow></math> is zero and the final compression of the spring <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>x</mi><mrow><mtext>f</mtext></mrow></msub></mrow><mrow /></mrow></math> is zero, and so several terms in the conservation of mechanical energy equation are zero and it simplifies to",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-9bb91eeb5bb72151",
-      "kind": "prose",
-      "local_module": "m67037",
-      "upstream_module": "m42149",
-      "source_id": "import-auto-id1532141",
-      "status": "unreviewed-difference",
-      "local": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. This happens if the force is a function of position alone and not time, velocity, or other parameters. We can define a potential energy [MATH] for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is conservative. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
-      "upstream": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. We can define a potential energy [MATH] for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is conservative. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
-      "local_html": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. This happens if the force is a function of position alone and not time, velocity, or other parameters. We can define a potential energy <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mtext>PE</mtext><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></mrow></math> for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is <em>conservative</em>. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
-      "upstream_html": "Work is done by a force, and some forces, such as weight, have special characteristics. A conservative force is one, like the gravitational force, for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. We can define a potential energy <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mtext>PE</mtext><mo stretchy=\"false\">)</mo></mrow></mrow></mrow></math> for any conservative force, just as we did for the gravitational force. For example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do work against its spring and store energy in it. (We treat these springs as ideal, in that we assume there is no friction and no production of thermal energy.) This stored energy is recoverable as work, and it is useful to think of it as potential energy contained in the spring. Indeed, the reason that the spring has this characteristic is that its force is <em>conservative</em>. That is, a conservative force results in stored or potential energy. Gravitational potential energy is one example, as is the energy stored in a spring. We will also see how conservative forces are related to the conservation of energy.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-2c07209104011f3f",
@@ -76,13 +65,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id1849020",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Consider an object in a system. If it gains any kinetic energy, this is a result of a net work done on the object, according to the work-kinetic energy theorem. If only conservative forces, such as the gravitational force or a spring force, do work in this system, then as kinetic energy increases with the net work done by the conservative forces, the system loses potential energy. That is, [MATH] . In other words,",
       "upstream": "Now, if the conservative force, such as the gravitational force or a spring force, does work, the system loses potential energy. That is, [MATH] . Therefore,",
       "local_html": "Consider an object in a system. If it gains any kinetic energy, this is a result of a net work done on the object, according to the work-kinetic energy theorem. If only conservative forces, such as the gravitational force or a spring force, do work in this system, then as kinetic energy increases with the net work done by the conservative forces, the system loses potential energy. That is, \n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi><mtext>ΔKE</mtext></mi><mo>=</mo><mi><msub><mi>W</mi><mi>c</mi></msub></mi><mo>=</mo><mrow><mo>(</mo><mrow><mo>−</mo><mrow><mo>(</mo><mi><mtext>ΔPE</mtext></mi><mo>)</mo></mrow></mrow><mo>)</mo></mrow></mrow></math>. In other words,",
       "upstream_html": "Now, if the conservative force, such as the gravitational force or a spring force, does work, the system loses potential energy. That is, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>W</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>Δ</mtext></mrow></mrow><mtext>PE</mtext></mrow></mrow></mrow></math>. Therefore,",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-ec0b3d4160df1369",
@@ -90,13 +80,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id1891830",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Change in potential energy comes from the work done against a conservative force. Or flipping this around, potential energy increases as a conservative force does a negative work. That is,",
       "upstream": "We can define a potential energy [MATH] for any conservative force. The work done against a conservative force to reach a final configuration depends on the configuration, not the path followed, and is the potential energy added.",
       "local_html": "Change in potential energy comes from the work done against a conservative force. Or flipping this around, potential energy increases as a conservative force does a negative work. That is,",
       "upstream_html": "We can define a potential energy <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mtext>PE</mtext><mo stretchy=\"false\">)</mo></mrow></mrow></mrow></math> for any conservative force. The work done against a conservative force to reach a final configuration depends on the configuration, not the path followed, and is the potential energy added.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-4e9463a3edeb3479",
@@ -104,13 +95,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id2652298",
-      "status": "unreviewed-difference",
-      "local": "A conservative force is a force that is a function of position alone, with the result that the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken.",
+      "status": "retain-approved-adaptation",
+      "local": "A conservative force is a force for which the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken.",
       "upstream": "A conservative force is one for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken.",
-      "local_html": "A conservative force is a force that is a function of position alone, with the result that the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken. ",
+      "local_html": "A conservative force is a force for which the work done by the force depends only on the starting and ending points of a motion and not on the particular path taken. ",
       "upstream_html": "A conservative force is one for which work done by or against it depends only on the starting and ending points of a motion and not on the path taken. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-4a3d044bb0342e4a",
@@ -118,13 +110,14 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id955724",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "A 0.100-kg toy car is propelled by a compressed spring, as shown in . The car follows a track that rises 0.180 m above the starting point. The compressed spring has a potential energy of 0.200 J. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.",
       "upstream": "A 0.100-kg toy car is propelled by a compressed spring, as shown in . The car follows a track that rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.",
       "local_html": "A 0.100-kg toy car is propelled by a compressed spring, as shown in <span class=\"muted\">[reference]</span>. The car follows a track that rises 0.180 m above the starting point. \n\nThe compressed spring has a potential energy of 0.200 J. \n\nAssuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.",
       "upstream_html": "A 0.100-kg toy car is propelled by a compressed spring, as shown in <span class=\"muted\">[reference]</span>. The car follows a track that rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-1e7a90e6c4a24c0f",
@@ -132,11 +125,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "eip-196@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>v</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow></msub><mo>=</mo><msqrt><mfrac><mrow><mn>2</mn><mspace width=\".1667em\" /><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi></mrow></msub></mrow><mi>m</mi></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>0.200</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">J</mi></mrow><mo stretchy=\"false\">)</mo></mrow><mrow><mn>0.100</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">k</mi><mi mathvariant=\"normal\">g</mi></mrow></mrow></mfrac></msqrt><mo>=</mo><mn>2.00</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">m</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo mathvariant=\"normal\">/</mo></mrow><mi mathvariant=\"normal\">s</mi></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><mrow><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt></mrow><msub><mi>x</mi><mrow><mn>i</mn></mrow></msub></mrow></mrow></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><msqrt><mfrac><mrow><mtext>250</mtext><mtext>.0 N/m</mtext></mrow><mrow><mtext>0.100 kg</mtext></mrow></mfrac></msqrt></mrow><mo stretchy=\"false\">(</mo><mtext>0.0400 m</mtext><mo stretchy=\"false\">)</mo></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mtext>2.00 m/s.</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-6156435e22e55357",
@@ -144,11 +138,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "eip-334@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>v</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow></msub><mo>=</mo><msqrt><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi></mrow></msub><mo>−</mo><mi>m</mi><mi>g</mi><msub><mi>h</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow></msub><mo stretchy=\"false\">)</mo></mrow><mi>m</mi></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mrow><mn>0.0472</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">J</mi></mrow></mrow><mrow><mn>0.100</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">k</mi><mi mathvariant=\"normal\">g</mi></mrow></mrow></mfrac></msqrt><mo>=</mo><mn>0.687</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">m</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo mathvariant=\"normal\">/</mo></mrow><mi mathvariant=\"normal\">s</mi></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><msqrt><mrow><mrow><mfrac><mrow><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">kx</mtext><mn>i</mn></msub><mrow><mn>2</mn></mrow></msup></mrow><mi>m</mi></mfrac><mo stretchy=\"false\">−</mo><mn>2</mn></mrow><mrow><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">gh</mtext><mn>f</mn></msub></mrow></mrow></msqrt></mrow></mrow></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><msqrt><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mtext>250.0 N/m</mtext></mrow><mrow><mtext>0.100 kg</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">(</mo><mtext>0.0400 m</mtext><mrow><msup><mo stretchy=\"false\">)</mo><mrow><mn>2</mn></mrow></msup><mo stretchy=\"false\">−</mo><mn>2</mn></mrow><mo stretchy=\"false\">(</mo><mtext>9.80</mtext><mspace width=\"0.25em\" /><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mtext>0.180 m</mtext><mo stretchy=\"false\">)</mo></mrow></msqrt></mrow></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mtext>0.687 m/s.</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-6ea5ee8b831babb6",
@@ -169,11 +164,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "eip-654@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msubsup><mi>v</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msubsup><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mrow><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">kx</mtext><mrow><mn>i</mn></mrow></msub><mn>2</mn></msup></mrow><mo stretchy=\"false\">=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">mv</mtext><mrow><mn>f</mn></mrow></msub><mrow><mn>2</mn></mrow></msup></mrow><mtext>.</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-2650508cdbc4bf04",
@@ -181,11 +177,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "eip-82@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msubsup><mi>v</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">i</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msubsup><mo>+</mo><mi>m</mi><mi>g</mi><msub><mi>h</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">i</mi></mrow></msub><mo>+</mo><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msubsup><mi>v</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msubsup><mo>+</mo><mi>m</mi><mi>g</mi><msub><mi>h</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow></msub><mo>+</mo><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">f</mi></mrow></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mrow><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">mv</mtext><mn>i</mn></msub><mrow><mn>2</mn></mrow></msup></mrow></mrow><mo stretchy=\"false\">+</mo><msub><mrow><mtext fontstyle=\"italic\" style=\";font-style:italic\">mgh</mtext></mrow><mrow><mn>i</mn></mrow></msub><mo stretchy=\"false\">+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">kx</mtext><mrow><mn>i</mn><mrow /></mrow></msub><mn>2</mn></msup></mrow><mo stretchy=\"false\">=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">mv</mtext><mrow><mn>f</mn></mrow></msub><mrow><mn>2</mn></mrow></msup></mrow><mo stretchy=\"false\">+</mo><msub><mrow><mtext fontstyle=\"italic\" style=\";font-style:italic\">mgh</mtext></mrow><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><msub><mtext fontstyle=\"italic\" style=\";font-style:italic\">kx</mtext><mrow><mn>f</mn></mrow></msub><mrow><mn>2</mn></mrow></msup></mrow></mrow><mo>,</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-8870052a42a4bf2d",
@@ -232,11 +229,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "fs-id1337667@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>KE </mtext><mo stretchy=\"false\">+</mo><mtext> PE</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext>PE</mtext><mrow><mn>s</mn></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mstyle><mrow><msup><mtext fontstyle=\"italic\" style=\";font-style:italic\">kx</mtext><mrow><mn>2</mn></mrow></msup></mrow></mstyle></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-471ed94eb6f24e43",
@@ -244,11 +242,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "fs-id1337667@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo>(</mo><mrow><mi><mtext>ΔKE</mtext></mi><mo>+</mo><mi><mtext>ΔPE</mtext></mi></mrow><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>k</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-be2dcda248aca0db",
@@ -256,11 +255,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "fs-id1617450@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msubsup><mi>v</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msubsup><mo>+</mo><mi>m</mi><mi>g</mi><msub><mi>h</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">f</mi></mrow></msub><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mrow><msubsup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>kx</mtext></mstyle><mrow><mtext>i</mtext></mrow><mrow><mn> 2</mn></mrow></msubsup></mrow><mo stretchy=\"false\">=</mo><mfrac><mn>1</mn><mn> 2</mn></mfrac></mrow><mrow><mrow><msubsup><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mv</mtext></mstyle><mrow><mtext>f</mtext></mrow><mrow><mtext> 2</mtext></mrow></msubsup></mrow><mo stretchy=\"false\">+</mo><mrow><msub><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mtext>mgh</mtext></mstyle><mrow><mtext>f</mtext></mrow></msub></mrow></mrow></mrow></mrow><mrow><mtext>.</mtext></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-3e3b9e90c1833284",
@@ -333,11 +333,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id1410758@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi></mrow></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>x</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-8a880d17b47abed2",
@@ -397,11 +398,12 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "import-auto-id1849020@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi><mtext>ΔKE</mtext></mi><mo>=</mo><mi><msub><mi>W</mi><mi>c</mi></msub></mi><mo>=</mo><mrow><mo>(</mo><mrow><mo>−</mo><mrow><mo>(</mo><mi><mtext>ΔPE</mtext></mi><mo>)</mo></mrow></mrow><mo>)</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>W</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>Δ</mtext></mrow></mrow><mtext>PE</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-14d690e1ca825030",
@@ -422,7 +424,7 @@
       "local_module": "m67037",
       "upstream_module": "m42149",
       "source_id": "m42149",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "fs-id1337667@5",
@@ -431,7 +433,8 @@
         "import-auto-id1891830@1"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-cfd593015dfdaa6a",
@@ -439,13 +442,14 @@
       "local_module": "m67037",
       "upstream_module": "m42151",
       "source_id": "import-auto-id1537867",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The law of conservation of energy states that the total energy, including the mechanical energy and other forms of energy, is constant in any process. Energy may change in form or be transferred from one system to another, but the total remains the same.",
       "upstream": "The law of conservation of energy states that the total energy is constant in any process. Energy may change in form or be transferred from one system to another, but the total remains the same.",
       "local_html": "The law of conservation of energy states that the total energy, including the mechanical energy and other forms of energy, is constant in any process. Energy may change in form or be transferred from one system to another, but the total remains the same.",
       "upstream_html": "The law of conservation of energy states that the total energy is constant in any process. Energy may change in form or be transferred from one system to another, but the total remains the same.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-9667356364e8f535",
@@ -453,13 +457,14 @@
       "local_module": "m67037",
       "upstream_module": "m42151",
       "source_id": "import-auto-id1989715",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Step 4. If you know that the total mechanical energy changes (usually there will be some hint of work done by non-conservative forces, energy input from other forms of energy, or even an explicit statement of how much work is done on the system, changing its total mechanical energy), then you can use the information given in the problem to say that, the change of total mechanical energy is due to these non-conservative forces: [MATH] . Make sure [MATH] does not include work done by conservative forces, since those are already accounted for in the potential energy.",
       "upstream": "Step 4. If you know the potential energy for only some of the forces, possibly because some of them are nonconservative and do not have a potential energy, or if there are other energies that are not easily treated in terms of force and work, then the conservation of energy law in its most general form must be used.",
       "local_html": "<em>Step 4.</em> If you know that the total mechanical energy changes (usually there will be some hint of work done by non-conservative forces, energy input from other forms of energy, or even an explicit statement of how much work is done on the system, changing its total mechanical energy), then you can use the information given in the problem to say that, the change of total mechanical energy is due to these non-conservative forces: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo>(</mo><mrow><mi><mtext>ΔKE</mtext></mi><mo>+</mo><mi><mtext>ΔPE</mtext></mi></mrow><mo>)</mo></mrow><mo>=</mo><msub><mi>W</mi><mi>nc</mi></msub></mrow></math>. Make sure <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi>W</mi><mi>nc</mi></msub></math> does not include work done by conservative forces, since those are already accounted for in the potential energy.",
       "upstream_html": "<em>Step 4.</em> If you know the potential energy for only some of the forces, possibly because some of them are nonconservative and do not have a potential energy, or if there are other energies that are not easily treated in terms of force and work, then the conservation of energy law in its most general form must be used. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-0a6b68a9c673e00b",
@@ -467,13 +472,14 @@
       "local_module": "m67037",
       "upstream_module": "m42151",
       "source_id": "import-auto-id2905674",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Step 3. If you know the potential energies for the forces that enter into the problem, then forces are all conservative, and you can apply conservation of mechanical energy simply in terms of potential and kinetic energy. Use [MATH] or [MATH] as starting point and use formulas for kinetic energy and potential energies.",
       "upstream": "Step 3. If you know the potential energies for the forces that enter into the problem, then forces are all conservative, and you can apply conservation of mechanical energy simply in terms of potential and kinetic energy. The equation expressing conservation of energy is",
       "local_html": "<em>Step 3.</em> If you know the potential energies for the forces that enter into the problem, then forces are all conservative, and you can apply conservation of mechanical energy simply in terms of potential and kinetic energy. Use <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mtext>KE</mtext><mrow><mtext>i</mtext></mrow></msub><mo stretchy=\"false\">+</mo><msub><mtext>PE</mtext><mrow><mtext>i</mtext></mrow></msub></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mtext>KE</mtext><mrow><mtext>f</mtext></mrow></msub><mo stretchy=\"false\">+</mo><msub><mtext>PE</mtext><mrow><mtext>f</mtext></mrow></msub></mrow><mo>.</mo></mrow></mrow><mrow /></mrow></mrow></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo>(</mo><mrow><mi><mtext>ΔKE</mtext></mi><mo>+</mo><mi><mtext>ΔPE</mtext></mi></mrow><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> as starting point and use formulas for kinetic energy and potential energies.",
       "upstream_html": "<em>Step 3.</em> If you know the potential energies for the forces that enter into the problem, then forces are all conservative, and you can apply conservation of mechanical energy simply in terms of potential and kinetic energy. The equation expressing conservation of energy is ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table."
     },
     {
       "id": "UP-81728c3847505751",
@@ -507,7 +513,7 @@
       "local_module": "m67037",
       "upstream_module": "m42151",
       "source_id": "m42151",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "import-auto-id1989715@1",
         "import-auto-id1989715@2",
@@ -516,7 +522,8 @@
       ],
       "upstream": [],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the combined energy section, local separation of spring-energy coverage and work by nonconservative forces. Path-independent-work wording is corrected separately. Do not restore the omitted OE/efficiency subsections or energy table. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     }
   ]
 }

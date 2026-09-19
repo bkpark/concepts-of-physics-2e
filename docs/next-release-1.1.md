@@ -4,7 +4,7 @@ Status: SR01 applied to maintained 1.1 source with two author-approved typo fixe
 
 The author subsequently authorized the full applicable CC BY upstream correction backport. Whole-book mapping and comparison are generated, and seven additional minimal corrections are applied. See `docs/upstream-backport-1.1.md` for the current scope, evidence, and remaining work; the full backport is not yet complete.
 
-The next review batch adds thirteen opening-chapter corrections and a fingerprinted disposition log. BR01 is applied with minimal timeline wording; BR02 is applied: position axis label and alt text corrected, with original paths and answers retained. Course chapters 0 and 1 have a first prose/reference/media pass; chapter 2 has begun. Remaining mathematical, structural and later-chapter review is still outstanding. There is no background process continuing this review between assistant turns.
+The next review batch adds thirteen opening-chapter corrections and a fingerprinted disposition log. BR01 is applied with minimal timeline wording; BR02 is applied: position axis label and alt text corrected, with original paths and answers retained. The Units 1–2 comparison pass now covers 55 sections, with 35 additional scoped corrections in batch 04. The coordinated plasma expansion is held for author review. Later-unit review and final release PDF/layout verification remain outstanding. There is no background process continuing this review between assistant turns.
 
 1. Review Special Relativity against the pinned CC BY snapshot, then systematically review all remaining chapters. Produce reports before edits.
 2. Revise chapter-end exercises for conceptual Physics 10, using author-supplied MyOpenMath exports as references after checking provenance.

@@ -1,0 +1,20 @@
+{
+  "id": "U12-06",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71409",
+  "source_object": "import-auto-id1165298838484",
+  "source_path": "maintained/modules/m71409/index.cnxml",
+  "source_sha256": "b26623f4767a7acd7e7f36c4d30d178d840f79895caf503562c207553fbd409d",
+  "after_sha256": "744ad3f842068ae598b0f4435916872398276168550511dba7f923e49fe21650",
+  "before": "<para id=\"import-auto-id1165298838484\">Friction is a force that opposes relative motion between systems in contact.</para>",
+  "after": "<para id=\"import-auto-id1165298838484\">Friction is a force that opposes relative motion between surfaces in contact.</para>",
+  "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42139"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

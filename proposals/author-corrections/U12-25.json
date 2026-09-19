@@ -1,0 +1,20 @@
+{
+  "id": "U12-25",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71624",
+  "source_object": "import-auto-id2441359",
+  "source_path": "maintained/modules/m71624/index.cnxml",
+  "source_sha256": "a1a115feb443031caef45e1d246c87a43b4d089e8021ae66c7d5c50dd6b9deb9",
+  "after_sha256": "72b81e22bf0c0608559f2c7d2b434de226671d2563c87c0a67a6fd6375fbfb29",
+  "before": "<para id=\"import-auto-id2441359\">The steel’s weight is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub><m:mrow><m:mi>g</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>80</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{m rSub { size 8{w} } g=9 \".\" \"80\"  times \"10\" rSup { size 8{7} } `N} {}</m:annotation></m:semantics></m:math>, which is much greater than the buoyant force, so the steel will remain submerged. Note that the buoyant force is rounded to two digits because the density of steel is given to only two digits.</para>",
+  "after": "<para id=\"import-auto-id2441359\">The steel’s weight is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mrow><m:mi>g</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>80</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{m rSub { size 8{w} } g=9 \".\" \"80\"  times \"10\" rSup { size 8{7} } `N} {}</m:annotation></m:semantics></m:math>, which is much greater than the buoyant force, so the steel will remain submerged. Note that the buoyant force is rounded to two digits because the density of steel is given to only two digits.</para>",
+  "reason": "Correct the steel-mass subscript from w to s. Retain multiplication by g: the upstream subscript correction is applicable, but its simultaneous g-to-w change is dimensionally wrong.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42196"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

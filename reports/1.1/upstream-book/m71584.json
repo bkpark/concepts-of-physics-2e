@@ -18,13 +18,14 @@
       "local_module": "m71584",
       "upstream_module": "m42241",
       "source_id": "import-auto-id3077931",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "Discussion",
       "upstream": "Discussion b",
       "local_html": "<em>Discussion </em>",
       "upstream_html": "Discussion b",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Do not import the stray b appended to the Discussion heading."
     },
     {
       "id": "UP-52442e9cf34ae0be",
@@ -123,11 +124,12 @@
       "local_module": "m71584",
       "upstream_module": "m42241",
       "source_id": "eip-880@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle mathsize=\"12pt\"><mrow><mrow><mi /><mrow><mtext>\n1 Hz\n          </mtext><mo stretchy=\"false\">\n=\n          </mo><mn>\n1\n          </mn></mrow><mi /><mrow><mfrac><mrow><mtext>\ncycle\n            </mtext></mrow><mrow><mtext>\nsec\n            </mtext></mrow></mfrac></mrow><mi /><mrow><mtext>\nor 1 Hz\n          </mtext><mo stretchy=\"false\">\n=\n          </mo><mrow><mfrac><mrow><mn>\n1\n             </mn></mrow><mrow><mtext>\ns\n             </mtext></mrow></mfrac></mrow></mrow></mrow></mrow></mstyle><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi /><mrow><mtext>\n1 Hz\n          </mtext><mo stretchy=\"false\">\n=\n          </mo><mn>\n1\n          </mn></mrow><mi /><mrow><mfrac><mrow><mtext>\ncycle\n            </mtext></mrow><mrow><mtext>\ns\n            </mtext></mrow></mfrac></mrow><mi /><mrow><mtext>\nor 1 Hz\n          </mtext><mo stretchy=\"false\">\n=\n          </mo><mrow><mfrac><mrow><mn>\n1\n             </mn></mrow><mrow><mtext>\ns\n             </mtext></mrow></mfrac></mrow></mrow></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain Discussion title (upstream adds a stray b); sec versus s is notation only. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-8e08da55a55a3ad4",

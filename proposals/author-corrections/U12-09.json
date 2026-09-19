@@ -1,0 +1,20 @@
+{
+  "id": "U12-09",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71409",
+  "source_object": "import-auto-id1165298642426",
+  "source_path": "maintained/modules/m71409/index.cnxml",
+  "source_sha256": "e5601dc3adbf695af86a498ca0c8ed814f92914c27bb4a8a44df68bec30c92b1",
+  "after_sha256": "c95be0b8a6549e8de7f2879399e695e52a67daba992d7347f33b685b03dfe4fc",
+  "before": "<para id=\"import-auto-id1165298642426\">One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two systems are in contact and moving relative to one another, then the friction between them is called <term id=\"import-auto-id1165296294917\">kinetic friction</term>. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, <term id=\"import-auto-id1165298806829\">static friction</term><emphasis effect=\"bold\"/> can act between them; the static friction is usually greater than the kinetic friction between the objects.</para>",
+  "after": "<para id=\"import-auto-id1165298642426\">One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called <term id=\"import-auto-id1165296294917\">kinetic friction</term>. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, <term id=\"import-auto-id1165298806829\">static friction</term><emphasis effect=\"bold\"/> can act between them; the static friction is usually greater than the kinetic friction between the surfaces.</para>",
+  "reason": "Apply the upstream surface-relative friction wording, retaining the grammatical phrase contact surface between systems.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42139"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

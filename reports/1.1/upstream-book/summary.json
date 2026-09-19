@@ -8,22 +8,23 @@
     "m67030"
   ],
   "counts": {
-    "prose": 630,
-    "accessibility": 26,
-    "media": 57,
-    "math-markup-change": 6446,
+    "prose": 621,
+    "accessibility": 23,
+    "media": 54,
+    "math-markup-change": 6455,
     "references": 132,
-    "math-token-change": 579,
+    "math-token-change": 570,
     "math-structure": 60
   },
   "disposition_counts": {
-    "retained-adaptation-or-deferred-editorial-change": 83,
+    "retained-adaptation-or-deferred-editorial-change": 596,
     "retain-local-representation": 6413,
-    "retain-approved-adaptation": 3,
-    "unreviewed-difference": 1429,
-    "retain-local-upstream-regression": 2
+    "retain-approved-adaptation": 30,
+    "unreviewed-difference": 862,
+    "retain-local-upstream-regression": 9,
+    "awaiting-author-structural-decision": 5
   },
-  "exercise_context_differences": 1098,
+  "exercise_context_differences": 1097,
   "status": "Partial review: fingerprinted dispositions are recorded; unreviewed differences remain. Full backport is not complete.",
   "limitations": [
     "Two-way comparison cannot distinguish every author adaptation from an upstream correction.",
@@ -265,15 +266,15 @@
       "module": "m67530",
       "title": "Newton's Second Law of Motion: Force and Acceleration",
       "slug": "newton-s-second-law-of-motion-force-and-acceleration",
-      "local_sha256": "7621c2f36141ce3e6dc617aba4ec20d052aa1f28f8ac5b9882cffdd59bb05062",
+      "local_sha256": "8b286284ec62c4c1a9062edae8efb765fd4c1dffd27154e26c1482ae43f13751",
       "upstream_modules": [
         "m42073"
       ],
       "counts": {
-        "prose": 23,
+        "prose": 24,
         "references": 1,
-        "math-markup-change": 37,
-        "math-token-change": 38,
+        "math-markup-change": 39,
+        "math-token-change": 36,
         "math-structure": 1,
         "media": 1
       }
@@ -296,13 +297,12 @@
       "module": "m68329",
       "title": "Normal Force and Tension",
       "slug": "normal-force-and-tension",
-      "local_sha256": "0f3f3ab1c9f5ef3e5c398715d0cdaf6bc80dca55cba709d4779bf9aef1adbc84",
+      "local_sha256": "c7e242c8e719148181becdce8e0ec72ca32eaa80378a3bcd59794bc163925f77",
       "upstream_modules": [
         "m42075"
       ],
       "counts": {
         "prose": 2,
-        "accessibility": 1,
         "math-markup-change": 7,
         "math-token-change": 12,
         "math-structure": 1,
@@ -329,12 +329,12 @@
       "module": "m71409",
       "title": "Friction",
       "slug": "friction",
-      "local_sha256": "a9b0d4389756628fd08125df9dd775d200bd3cbb764b9dc21bcaeeaf63687085",
+      "local_sha256": "c95be0b8a6549e8de7f2879399e695e52a67daba992d7347f33b685b03dfe4fc",
       "upstream_modules": [
         "m42139"
       ],
       "counts": {
-        "prose": 6,
+        "prose": 1,
         "accessibility": 1,
         "math-markup-change": 39
       }
@@ -343,15 +343,15 @@
       "module": "m71410",
       "title": "Newton’s Universal Law of Gravitation",
       "slug": "newtons-universal-law-of-gravitation",
-      "local_sha256": "ed587eb85f74350fe2a91b5d8a5beed49b8f33d4ba303cf5ff75f209273810b2",
+      "local_sha256": "a14861ac1be92e17b7e48dabc8147ac25426caf07ddcabe4294423e2e471de33",
       "upstream_modules": [
         "m42143"
       ],
       "counts": {
         "prose": 8,
         "accessibility": 1,
-        "math-markup-change": 26,
-        "math-token-change": 5,
+        "math-markup-change": 29,
+        "math-token-change": 2,
         "media": 2
       }
     },
@@ -422,12 +422,12 @@
       "module": "m71414",
       "title": "Gravitational Potential Energy",
       "slug": "gravitational-potential-energy",
-      "local_sha256": "a3e2e14ac18e41e3b8a0b7b4d5c3dcaced6256745221d5736ecf2e49d252eb14",
+      "local_sha256": "aa5e63b7385a06b76fc3393628a7fe2c6e1d7eca55dfcc05cfb01df8ae124655",
       "upstream_modules": [
         "m42148"
       ],
       "counts": {
-        "prose": 11,
+        "prose": 10,
         "references": 2,
         "math-token-change": 27,
         "math-markup-change": 24,
@@ -438,13 +438,13 @@
       "module": "m67037",
       "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
       "slug": "conservative-forces-potential-energy-and-conservation-of-energy",
-      "local_sha256": "c1c6b400406660ff144298601f6554191effe8b951709285954bdd85b94cb02a",
+      "local_sha256": "fdc2d5038dab74e8d84447bfea8f8f6aced18153198e6198430f648a82ff857f",
       "upstream_modules": [
         "m42149",
         "m42151"
       ],
       "counts": {
-        "prose": 11,
+        "prose": 10,
         "math-token-change": 9,
         "math-markup-change": 16,
         "math-structure": 2
@@ -593,14 +593,14 @@
       "module": "m71585",
       "title": "Simple Harmonic Motion: A Special Periodic Motion",
       "slug": "simple-harmonic-motion-a-special-periodic-motion",
-      "local_sha256": "d6910e5a31dc58390c5a9b6d6a2ca848a034f21175db05168f9ea48d84c3c3a6",
+      "local_sha256": "803f22184866011a8dfbde46b0a07b9d678f9c731f3a2d10e810eb8779b91df4",
       "upstream_modules": [
         "m42242"
       ],
       "counts": {
         "prose": 6,
-        "math-markup-change": 38,
-        "math-token-change": 4,
+        "math-markup-change": 40,
+        "math-token-change": 2,
         "math-structure": 1
       }
     },
@@ -621,29 +621,28 @@
       "module": "m71587",
       "title": "Waves",
       "slug": "waves",
-      "local_sha256": "fa62068b58bced5a74582a19375fc45a1d5e376ddb1dc87028982065587f1375",
+      "local_sha256": "5c6ade224004306c1fe5b406450fa889eb7eab735873279d0116e648e55552c1",
       "upstream_modules": [
         "m42248"
       ],
       "counts": {
-        "prose": 2,
-        "math-markup-change": 26,
-        "media": 2
+        "prose": 1,
+        "math-markup-change": 26
       }
     },
     {
       "module": "m71588",
       "title": "Wave Interference: Standing Waves and Beats",
       "slug": "wave-interference-standing-waves-and-beats",
-      "local_sha256": "7609f568952f144fb4dccee4672a8d4004ab978dd2e31f1807ab3133d1cc7650",
+      "local_sha256": "a22a7be74c9d04baaf5b01812ec2955ada9c8149cd7e52ec8a54bed4e279df40",
       "upstream_modules": [
         "m42249"
       ],
       "counts": {
         "prose": 9,
         "references": 1,
-        "math-markup-change": 14,
-        "math-token-change": 2,
+        "math-markup-change": 15,
+        "math-token-change": 1,
         "math-structure": 1,
         "media": 1
       }
@@ -658,20 +657,19 @@
       ],
       "counts": {
         "prose": 2,
-        "references": 1,
-        "media": 1
+        "references": 1
       }
     },
     {
       "module": "m71589",
       "title": "Speed of Sound, Frequency, and Wavelength",
       "slug": "speed-of-sound-frequency-and-wavelength",
-      "local_sha256": "9773cdfa6f40dc44b660789a4bc086cc629f6f086bd6fb462f94152b7deabc76",
+      "local_sha256": "4eed42237810b7b5c1511dd5cfe469976594371a8b29a2e2bd33c9bdef89f08c",
       "upstream_modules": [
         "m42256"
       ],
       "counts": {
-        "prose": 3,
+        "prose": 2,
         "math-markup-change": 38,
         "math-token-change": 3,
         "math-structure": 1
@@ -696,12 +694,11 @@
       "module": "m42176",
       "title": "Introduction to Rotational Motion and Angular Momentum",
       "slug": "introduction-to-rotational-motion-and-angular-momentum",
-      "local_sha256": "1d4be45b1e71c2f1f67f60d5d0beb2dfca07e619646e9ff7ef34423c138e68b1",
+      "local_sha256": "d8722f2fb6f5ed67dcc7f07fa7cfe178c0a271f1f237b1f8d7b183a98be9d6a3",
       "upstream_modules": [
         "m42176"
       ],
       "counts": {
-        "accessibility": 1,
         "prose": 1
       }
     },
@@ -740,12 +737,12 @@
       "module": "m67046",
       "title": "Rotational Kinetic Energy",
       "slug": "rotational-kinetic-energy",
-      "local_sha256": "febf420affdcc8e83495f3a252a272de8ec0a0c6acd5ecf1c542e38d9c08e0ff",
+      "local_sha256": "4aaf6709b64172f3dcc9da379973116053fc7ce09561b2f35ce5988bbdc17199",
       "upstream_modules": [
         "m42180"
       ],
       "counts": {
-        "prose": 6,
+        "prose": 5,
         "references": 3,
         "math-markup-change": 50,
         "math-token-change": 4,
@@ -756,12 +753,11 @@
       "module": "m71594",
       "title": "Angular Momentum and Its Conservation",
       "slug": "angular-momentum-and-its-conservation",
-      "local_sha256": "252940c6c96ab25709a2a80b0f2de1ed666d87a286921d83e8c83527ebe55289",
+      "local_sha256": "0ea3b727d4e170c899ae899f40f993590d047fb76b3639a23545e6d4603c3480",
       "upstream_modules": [
         "m42182"
       ],
       "counts": {
-        "accessibility": 1,
         "prose": 2,
         "references": 1,
         "math-markup-change": 72,
@@ -827,20 +823,19 @@
       "module": "m71615",
       "title": "Pressure",
       "slug": "pressure",
-      "local_sha256": "a60572458961744a09e980718cdece0be0716e7cb27f084729e3a57ab61bfe43",
+      "local_sha256": "5918a03cf0e020fff6b197a727ac2a5de444044dbabb8affb946c2e4fe6d3a22",
       "upstream_modules": [
         "m42189"
       ],
       "counts": {
-        "math-markup-change": 18,
-        "math-token-change": 1
+        "math-markup-change": 19
       }
     },
     {
       "module": "m71623",
       "title": "Pressure Due to the Weight of Fluid",
       "slug": "pressure-due-to-the-weight-of-fluid",
-      "local_sha256": "6bc7076dea7fad666c597561726021295ab93de68198c84ba354e5b0683ed65e",
+      "local_sha256": "0c7a8401a7488e99422166db87efa3d98b78580f5b6aaeb75ca4cc25b8d1b73f",
       "upstream_modules": [
         "m42192"
       ],
@@ -857,7 +852,7 @@
       "module": "m71624",
       "title": "Archimedes’ Principle",
       "slug": "archimedes-principle",
-      "local_sha256": "a1a115feb443031caef45e1d246c87a43b4d089e8021ae66c7d5c50dd6b9deb9",
+      "local_sha256": "72b81e22bf0c0608559f2c7d2b434de226671d2563c87c0a67a6fd6375fbfb29",
       "upstream_modules": [
         "m42196"
       ],

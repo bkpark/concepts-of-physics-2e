@@ -1,0 +1,20 @@
+{
+  "id": "U12-31",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42176",
+  "source_object": "import-auto-id1421023",
+  "source_path": "maintained/modules/m42176/index.cnxml",
+  "source_sha256": "1d4be45b1e71c2f1f67f60d5d0beb2dfca07e619646e9ff7ef34423c138e68b1",
+  "after_sha256": "d8722f2fb6f5ed67dcc7f07fa7cfe178c0a271f1f237b1f8d7b183a98be9d6a3",
+  "before": "<media id=\"import-auto-id1421023\" alt=\"\">\n                <image mime-type=\"image/png\" src=\"../../media/Figure_11_00_01a_D.jpg\"/>\n            </media>",
+  "after": "<media id=\"import-auto-id1421023\" alt=\"A large, dark tornado funnel extends from ominous storm clouds down to the ground, with a single tree silhouetted on the left against the dark horizon.\">\n                <image mime-type=\"image/png\" src=\"../../media/Figure_11_00_01a_D.jpg\"/>\n            </media>",
+  "reason": "Apply pinned upstream alt description after visual verification against the retained local photograph.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42176"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

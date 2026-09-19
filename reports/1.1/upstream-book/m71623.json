@@ -2,7 +2,7 @@
   "module": "m71623",
   "title": "Pressure Due to the Weight of Fluid",
   "slug": "pressure-due-to-the-weight-of-fluid",
-  "local_sha256": "6bc7076dea7fad666c597561726021295ab93de68198c84ba354e5b0683ed65e",
+  "local_sha256": "0c7a8401a7488e99422166db87efa3d98b78580f5b6aaeb75ca4cc25b8d1b73f",
   "upstream_modules": [
     "m42192"
   ],
@@ -21,13 +21,14 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "eip-341",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "What do you suppose is the total pressure at a depth of 10.3 m in a swimming pool? Does the atmospheric pressure on the water’s surface affect the pressure below? The answer is yes. This seems only logical, since both the water’s weight and the atmosphere’s weight must be supported. So the total pressure at a depth of 10.3 m is 2 atm—half from the water above and half from the air above.",
       "upstream": "What do you suppose is the total pressure at a depth of 10.3 m in a swimming pool? Does the atmospheric pressure on the water’s surface affect the pressure below? The answer is yes. This seems only logical, since both the water’s weight and the atmosphere’s weight must be supported. So the total pressure at a depth of 10.3 m is 2 atm—half from the water above and half from the air above. We shall see in Pascal’s Principle that fluid pressures always add in this way.",
       "local_html": "What do you suppose is the <em>total</em> pressure at a depth of 10.3 m in a swimming pool? Does the atmospheric pressure on the water’s surface affect the pressure below? The answer is yes. This seems only logical, since both the water’s weight and the atmosphere’s weight must be supported. So the <em>total</em> pressure at a depth of 10.3 m is 2 atm—half from the water above and half from the air above.",
       "upstream_html": "What do you suppose is the <em>total</em> pressure at a depth of 10.3 m in a swimming pool? Does the atmospheric pressure on the water’s surface affect the pressure below? The answer is yes. This seems only logical, since both the water’s weight and the atmosphere’s weight must be supported. So the <em>total</em> pressure at a depth of 10.3 m is 2 atm—half from the water above and half from the air above. We shall see in Pascal’s Principle that fluid pressures always add in this way.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content."
     },
     {
       "id": "UP-207e5437b2ccd5c9",
@@ -35,7 +36,7 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "eip-341",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -43,7 +44,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-c8a92847b37e296d",
@@ -51,13 +53,14 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "fs-id2928656",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "pressure at a depth below a fluid surface due to its weight; given by [MATH]",
       "upstream": "the weight of the fluid divided by the area supporting it",
       "local_html": "pressure at a depth below a fluid surface due to its weight; given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>=</mo><mrow><mi>ρ</mi><mo>⁢</mo><mi>g</mi><mo>⁢</mo><mi>h</mi></mrow></mrow></math>",
       "upstream_html": "the weight of the fluid divided by the area supporting it",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content."
     },
     {
       "id": "UP-b96a3d197d2fc23e",
@@ -65,7 +68,7 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id1004455",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "document": "m71613",
@@ -85,7 +88,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-cd7341ab323cbd44",
@@ -93,13 +97,14 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2397103",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "where [MATH] is the pressure, [MATH] is the density of the liquid, [MATH] is the acceleration due to gravity, and [MATH] is the height of the liquid.",
       "upstream": "where [MATH] is the pressure, [MATH] is the height of the liquid, [MATH] is the density of the liquid, and [MATH] is the acceleration due to gravity.",
       "local_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi></mrow><mrow /></mrow></mrow></math> is the pressure, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ρ</mi></mrow><mrow /></mrow></mrow></math> is the density of the liquid, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math> is the acceleration due to gravity, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math> is the height of the liquid.",
       "upstream_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>P</mi></mrow></mrow></math> is the pressure, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>h</mi></mrow></mrow></math> is the height of the liquid, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>ρ</mi></mrow></mrow></math> is the density of the liquid, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math> is the acceleration due to gravity.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content."
     },
     {
       "id": "UP-d0c0cae05f8b3ab8",
@@ -107,13 +112,14 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2449707",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Just 10.3 m of water creates the same pressure as 120 km of air (height of uppermost layers of atmosphere). Since water is nearly incompressible, we can neglect any change in its density over this depth.",
       "upstream": "Just 10.3 m of water creates the same pressure as 120 km of air. Since water is nearly incompressible, we can neglect any change in its density over this depth.",
       "local_html": "Just 10.3 m of water creates the same pressure as 120 km of air (height of uppermost layers of atmosphere). Since water is nearly incompressible, we can neglect any change in its density over this depth.",
       "upstream_html": "Just 10.3 m of water creates the same pressure as 120 km of air. Since water is nearly incompressible, we can neglect any change in its density over this depth.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content."
     },
     {
       "id": "UP-a27ed2a284ce9525",
@@ -121,7 +127,7 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2682623",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "document": "m71613",
@@ -135,7 +141,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-cac3273389710a38",
@@ -143,13 +150,14 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id3355342",
-      "status": "unreviewed-difference",
-      "local": "This value is the pressure due to the weight of a fluid. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation [MATH] represents the pressure due to the weight of any fluid of average density [MATH] at any depth [MATH] below its surface. For liquids, which are nearly incompressible, this equation holds to great depths.",
+      "status": "retain-approved-adaptation",
+      "local": "This value is the pressure due to the weight of a fluid. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation [MATH] represents the pressure due to the weight of any fluid of average density [MATH] at any depth [MATH] below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered.",
       "upstream": "This value is the pressure due to the weight of a fluid. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation [MATH] represents the pressure due to the weight of any fluid of average density [MATH] at any depth [MATH] below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered. illustrates this situation.",
-      "local_html": "This value is the pressure due to the weight of a fluid. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">ρgh</mi></mrow></mrow><mrow /></mrow></mrow></math> represents the pressure due to the weight of any fluid of <em>average density</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ρ</mi></mrow><mrow /></mrow></mrow></math> at any depth <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math> below its surface. For liquids, which are nearly incompressible, this equation holds to great depths.",
+      "local_html": "This value is the pressure due to the weight of a fluid. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">ρgh</mi></mrow></mrow><mrow /></mrow></mrow></math> represents the pressure due to the weight of any fluid of <em>average density</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ρ</mi></mrow><mrow /></mrow></mrow></math> at any depth <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math> below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered.",
       "upstream_html": "This value is the <em>pressure due to the weight of a fluid</em>. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">hρg</mi></mrow></mrow></mrow></math> represents the pressure due to the weight of any fluid of <em>average density</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>ρ</mi></mrow></mrow></math> at any depth <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>h</mi></mrow></mrow></math> below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered. <span class=\"muted\">[reference]</span> illustrates this situation.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-3714542155468f8d",
@@ -157,7 +165,7 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id3355342",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": [],
       "upstream": [
         {
@@ -165,7 +173,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-987269d05116bd73",
@@ -199,11 +208,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "eip-232@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">ρgh</mi></mrow></mrow><mrow /><mo>.</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">hρg</mi></mrow></mrow><mrow /><mo>.</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-86c45ab0c9c5405b",
@@ -211,11 +221,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "eip-260@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover><mi>P</mi><mo>¯</mo></mover><mo stretchy=\"false\">=</mo><mi>ρg</mi><mover><mi fontstyle=\"italic\" style=\";font-style:italic\">h</mi><mo>¯</mo></mover></mrow></mrow><mrow /><mo>.</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover><mi>P</mi><mo>¯</mo></mover><mo stretchy=\"false\">=</mo><mover><mi fontstyle=\"italic\" style=\";font-style:italic\">h</mi><mo>¯</mo></mover><mi>ρg</mi></mrow></mrow><mrow /><mo>.</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-0f6af9a25c28a373",
@@ -236,11 +247,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "eip-346@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mover accent=\"true\"><mi>P</mi><mo>¯</mo></mover></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mfrac><mtext>kg</mtext><msup><mtext>m</mtext><mrow><mn>3</mn></mrow></msup></mfrac></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>9.80</mn><mspace width=\"0.25em\" /><mfrac><mtext>m</mtext><msup><mtext>s</mtext><mrow><mn>2</mn></mrow></msup></mfrac></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"false\">(</mo></mrow><mtext>40.0 m</mtext><mo stretchy=\"false\">)</mo></mrow></mrow></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mn>3.92</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mrow><mfrac><mtext>N</mtext><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mfrac><mo stretchy=\"false\">=</mo><mtext>392 kPa.</mtext></mrow></mrow></mtd></mtr></mtable></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mover accent=\"true\"><mi>P</mi><mo>¯</mo></mover></mtd><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo></mrow><mtext>40.0 m</mtext><mo stretchy=\"false\">)</mo><mrow><mo stretchy=\"true\">(</mo><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mfrac><mtext>kg</mtext><msup><mtext>m</mtext><mrow><mn>3</mn></mrow></msup></mfrac></mrow><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mn>9.80</mn><mspace width=\"0.25em\" /><mfrac><mtext>m</mtext><msup><mtext>s</mtext><mrow><mn>2</mn></mrow></msup></mfrac></mrow><mo stretchy=\"true\">)</mo></mrow></mrow></mrow></mrow></mtd></mtr><mtr><mtd /><mtd><mo stretchy=\"false\">=</mo></mtd><mtd><mrow><mrow><mn>3.92</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mrow><mfrac><mtext>N</mtext><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mfrac><mo stretchy=\"false\">=</mo><mtext>392 kPa.</mtext></mrow></mrow></mtd></mtr></mtable></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-d001567ede905587",
@@ -339,11 +351,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "eip-992@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">ρgh</mi></mrow></mrow><mrow /><mo>,</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">hρg</mi></mrow></mrow><mrow /><mo>,</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-dcabcbe30e9f5418",
@@ -416,11 +429,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2397103@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ρ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>h</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-fea6b08ffac2e8f5",
@@ -428,11 +442,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2397103@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>ρ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-0b84ce0cb15a9c17",
@@ -440,11 +455,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2397103@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-4c03dbfbb3daca3a",
@@ -465,11 +481,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id2458707@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">ρgh</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">hρg</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-f6ba18ddf6e76840",
@@ -763,11 +780,12 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id3355342@1",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">ρgh</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>P</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">hρg</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-1c9867b6fd1e040d",
@@ -801,13 +819,14 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "m42192",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "fs-id2928656@1"
       ],
       "upstream": [],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-74232ea0dc740aca",
@@ -815,7 +834,7 @@
       "local_module": "m71623",
       "upstream_module": "m42192",
       "source_id": "import-auto-id3077267",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_12_04_02a.jpg",
         "sha256": "e002a04195fdc8a66bfecc5f75b96318b76ee7d6eea5dd88e7b1d8402ed4477a"
@@ -826,7 +845,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Retain ρgh multiplication order and corresponding symbol definitions, local density references and depth-pressure definition. Upstream mean-density example and Pascal reference were omitted. Preserve the higher-resolution dam figure; lower-resolution upstream version has the same content."
     }
   ]
 }

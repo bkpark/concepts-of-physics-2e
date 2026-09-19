@@ -2,12 +2,12 @@
   "module": "m67046",
   "title": "Rotational Kinetic Energy",
   "slug": "rotational-kinetic-energy",
-  "local_sha256": "febf420affdcc8e83495f3a252a272de8ec0a0c6acd5ecf1c542e38d9c08e0ff",
+  "local_sha256": "4aaf6709b64172f3dcc9da379973116053fc7ce09561b2f35ce5988bbdc17199",
   "upstream_modules": [
     "m42180"
   ],
   "counts": {
-    "prose": 6,
+    "prose": 5,
     "references": 3,
     "math-markup-change": 50,
     "math-token-change": 4,
@@ -20,13 +20,14 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "fs-id3063092",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Entering the given values of mass and velocity into formula for translational kinetic energy, we obtain",
       "upstream": "Translational kinetic energy was defined in Uniform Circular Motion and Gravitation. Entering the given values of mass and velocity, we obtain",
       "local_html": "Entering the given values of mass and velocity into formula for translational kinetic energy, we obtain",
       "upstream_html": "Translational kinetic energy was defined in Uniform Circular Motion and Gravitation. Entering the given values of mass and velocity, we obtain",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable."
     },
     {
       "id": "UP-0b2128e90d9ba175",
@@ -34,7 +35,7 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "fs-id3063092",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -42,7 +43,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-b8b5c375438c6688",
@@ -50,27 +52,14 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id1434731",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Rotational kinetic energy has important effects. Flywheels, for example, can be used to store large amounts of rotational kinetic energy in a vehicle, as seen in .",
       "upstream": "The expression for rotational kinetic energy is exactly analogous to translational kinetic energy, with [MATH] being analogous to [MATH] and [MATH] to [MATH] . Rotational kinetic energy has important effects. Flywheels, for example, can be used to store large amounts of rotational kinetic energy in a vehicle, as seen in .",
       "local_html": "Rotational kinetic energy has important effects. Flywheels, for example, can be used to store large amounts of rotational kinetic energy in a vehicle, as seen in <span class=\"muted\">[reference]</span>.",
       "upstream_html": "The expression for rotational kinetic energy is exactly analogous to translational kinetic energy, with <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> being analogous to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>ω</mi></mrow></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>. Rotational kinetic energy has important effects. Flywheels, for example, can be used to store large amounts of rotational kinetic energy in a vehicle, as seen in <span class=\"muted\">[reference]</span>.",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-411fbba2239b944c",
-      "kind": "prose",
-      "local_module": "m67046",
-      "upstream_module": "m42180",
-      "source_id": "import-auto-id1614457@caption",
-      "status": "unreviewed-difference",
-      "local": "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into [MATH] . It can also convert translational kinetic energy, when the bus stops, into [MATH] . The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.",
-      "upstream": "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into [MATH] . It can also convert translational kinetic energy, when the bus stops, into [MATH] . The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from slowing down due to friction.",
-      "local_html": "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext>KE</mtext><mrow><mrow><mtext>rot</mtext></mrow></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>. It can also convert translational kinetic energy, when the bus stops, into <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext>KE</mtext><mrow><mrow><mtext>rot</mtext></mrow></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>. The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.",
-      "upstream_html": "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>KE</mtext><mrow><mrow><mtext>rot</mtext></mrow></mrow></msub></mrow></mrow></mrow></math>. It can also convert translational kinetic energy, when the bus stops, into <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext>KE</mtext><mrow><mrow><mtext>rot</mtext></mrow></mrow></msub></mrow></mrow></mrow></math>. The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from slowing down due to friction.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable."
     },
     {
       "id": "UP-3569c0a20f1d446e",
@@ -78,13 +67,14 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id2598986",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The moment of inertia of one blade will be that of a thin rod rotated about its end, [MATH] . The total [MATH] is four times this moment of inertia, because there are four blades. Thus,",
       "upstream": "The moment of inertia of one blade will be that of a thin rod rotated about its end, found in . The total [MATH] is four times this moment of inertia, because there are four blades. Thus,",
       "local_html": "The moment of inertia of one blade will be that of a thin rod rotated about its end, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>I</mi><mi>rod</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>ℓ</mi><mi>2</mi></msup></mrow></mrow></math>. The total <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> is four times this moment of inertia, because there are four blades. Thus,",
       "upstream_html": "The moment of inertia of one blade will be that of a thin rod rotated about its end, found in <span class=\"muted\">[reference]</span>. The total <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> is four times this moment of inertia, because there are four blades. Thus,",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable."
     },
     {
       "id": "UP-118fca4c6c659abd",
@@ -92,7 +82,7 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id2598986",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -101,7 +91,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-30c460054b138025",
@@ -109,13 +100,14 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id3246662",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Locate several cans each containing a different type of food (for example, canned soup with different kinds of soup). First, predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. A good contrast can be obtained between a thick soup concentrate (for example, condensed cream of mushroom) and a thin soup (for example, chicken noodle soup). If you feel adventurous, try other foods, such as canned corn or peas; try predicting how these would compare to, for example, condensed cream of mushroom can in the race down an inclined plane.",
       "upstream": "Locate several cans each containing different types of food. First, predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. You could also do this experiment by collecting several empty cylindrical containers of the same size and filling them with different materials such as wet or dry sand.",
       "local_html": "Locate several cans each containing a different type of food (for example, canned soup with different kinds of soup). First, predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. A good contrast can be obtained between a thick soup concentrate (for example, condensed cream of mushroom) and a thin soup (for example, chicken noodle soup). If you feel adventurous, try other foods, such as canned corn or peas; try predicting how these would compare to, for example, condensed cream of mushroom can in the race down an inclined plane.",
       "upstream_html": "Locate several cans each containing different types of food. First, predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. You could also do this experiment by collecting several empty cylindrical containers of the same size and filling them with different materials such as wet or dry sand.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable."
     },
     {
       "id": "UP-9513dcbf8288bd8b",
@@ -123,13 +115,14 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id3385654",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": "Before we can solve for [MATH] , we must look up an expression for [MATH] for a solid disk: [MATH] . Because [MATH] and [MATH] are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship [MATH] into the expression. These substitutions yield",
       "upstream": "Before we can solve for [MATH] , we must get an expression for [MATH] from . Because [MATH] and [MATH] are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship [MATH] into the expression. These substitutions yield",
-      "local_html": "Before we can solve for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math> , we must look up an expression for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> for a solid disk: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>I</mi><mi>disk</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>ℓ</mi><mn>2</mn></msup></mrow></mrow></math>. Because <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi></mrow><mrow /></mrow></mrow></math> are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mrow><mi>v</mi><mo stretchy=\"false\">/</mo><mi>R</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math> into the expression. These substitutions yield",
+      "local_html": "Before we can solve for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math> , we must look up an expression for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math> for a solid disk: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>I</mi><mi>disk</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></mrow></math>. Because <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi></mrow><mrow /></mrow></mrow></math> are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mrow><mi>v</mi><mo stretchy=\"false\">/</mo><mi>R</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math> into the expression. These substitutions yield",
       "upstream_html": "Before we can solve for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math> , we must get an expression for <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> from <span class=\"muted\">[reference]</span>. Because <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>ω</mi></mrow></mrow></math> are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mrow><mi>v</mi><mo stretchy=\"false\">/</mo><mi>R</mi></mrow></mrow></mrow></mrow></math> into the expression. These substitutions yield",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-1b6349b31022b7d1",
@@ -137,7 +130,7 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id3385654",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": [],
       "upstream": [
         {
@@ -146,7 +139,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-7c3d354c1ea415fb",
@@ -661,11 +655,12 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id2598986@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>I</mi><mi>rod</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>ℓ</mi><mi>2</mi></msup></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-b08e9cbb944b2fb7",
@@ -816,11 +811,12 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id3385654@3",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>I</mi><mi>disk</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>ℓ</mi><mn>2</mn></msup></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>I</mi><mi>disk</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-ee6d4c17498034e5",
@@ -828,11 +824,12 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id3385654@4",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>ω</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-50c933c2ce9243c3",
@@ -840,11 +837,12 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "import-auto-id3385654@5",
-      "status": "unreviewed-difference",
+      "status": "retain-approved-adaptation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>ω</mi><mo stretchy=\"false\">=</mo><mrow><mi>v</mi><mo stretchy=\"false\">/</mo><mi>R</mi></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-e8a600a059e6e201",
@@ -852,7 +850,7 @@
       "local_module": "m67046",
       "upstream_module": "m42180",
       "source_id": "m42180",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "import-auto-id2598986@2",
         "import-auto-id3385654@6"
@@ -864,7 +862,8 @@
         "import-auto-id1434731@4"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit rod/disk inertia formulas, conceptual can-rolling activity and omission of rotational-work derivation; correct the local disk-radius symbol and bus caption separately. Upstream reference to Uniform Circular Motion for energy is inapplicable. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     }
   ]
 }

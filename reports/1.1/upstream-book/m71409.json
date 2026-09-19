@@ -2,85 +2,30 @@
   "module": "m71409",
   "title": "Friction",
   "slug": "friction",
-  "local_sha256": "a9b0d4389756628fd08125df9dd775d200bd3cbb764b9dc21bcaeeaf63687085",
+  "local_sha256": "c95be0b8a6549e8de7f2879399e695e52a67daba992d7347f33b685b03dfe4fc",
   "upstream_modules": [
     "m42139"
   ],
   "counts": {
-    "prose": 6,
+    "prose": 1,
     "accessibility": 1,
     "math-markup-change": 39
   },
   "changes": [
-    {
-      "id": "UP-63c6191b6bedbf11",
-      "kind": "prose",
-      "local_module": "m71409",
-      "upstream_module": "m42139",
-      "source_id": "import-auto-id1165298476574@caption",
-      "status": "unreviewed-difference",
-      "local": "Frictional forces, such as [MATH] , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.",
-      "upstream": "Frictional forces, such as [MATH] , always oppose motion or attempted motion between surfaces in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.",
-      "local_html": "Frictional forces, such as <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>f</mi></mrow><mrow /></mrow></mrow></math>, always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.",
-      "upstream_html": "Frictional forces, such as <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>f</mi></mrow></mrow></math>, always oppose motion or attempted motion between surfaces in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.",
-      "exercise_context": false,
-      "credit_review_required": false
-    },
     {
       "id": "UP-5c0e47fde8b7b939",
       "kind": "prose",
       "local_module": "m71409",
       "upstream_module": "m42139",
       "source_id": "import-auto-id1165298642426",
-      "status": "unreviewed-difference",
-      "local": "One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction can act between them; the static friction is usually greater than the kinetic friction between the objects.",
+      "status": "retain-approved-adaptation",
+      "local": "One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction can act between them; the static friction is usually greater than the kinetic friction between the surfaces.",
       "upstream": "One of the simpler characteristics of friction is that it is parallel to the contact surface between surfaces and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction can act between them; the static friction is usually greater than the kinetic friction between the surfaces.",
-      "local_html": "One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction<em></em> can act between them; the static friction is usually greater than the kinetic friction between the objects.",
+      "local_html": "One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction<em></em> can act between them; the static friction is usually greater than the kinetic friction between the surfaces.",
       "upstream_html": "One of the simpler characteristics of friction is that it is parallel to the contact surface between surfaces and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction<em></em> can act between them; the static friction is usually greater than the kinetic friction between the surfaces.",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-33b0ada86faebb01",
-      "kind": "prose",
-      "local_module": "m71409",
-      "upstream_module": "m42139",
-      "source_id": "import-auto-id1165298716875",
-      "status": "unreviewed-difference",
-      "local": "If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction.",
-      "upstream": "If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction.",
-      "local_html": "If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction.",
-      "upstream_html": "If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction.",
-      "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-e84a8f14ba02efff",
-      "kind": "prose",
-      "local_module": "m71409",
-      "upstream_module": "m42139",
-      "source_id": "import-auto-id1165298838484",
-      "status": "unreviewed-difference",
-      "local": "Friction is a force that opposes relative motion between systems in contact.",
-      "upstream": "Friction is a force that opposes relative motion between surfaces in contact.",
-      "local_html": "Friction is a force that opposes relative motion between systems in contact.",
-      "upstream_html": "Friction is a force that opposes relative motion between surfaces in contact.",
-      "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-6b0fea55c624c14d",
-      "kind": "prose",
-      "local_module": "m71409",
-      "upstream_module": "m42139",
-      "source_id": "import-auto-id1165298919534",
-      "status": "unreviewed-difference",
-      "local": "The equations given earlier include the dependence of friction on materials and the normal force. The direction of friction is always opposite that of motion, parallel to the surface between objects, and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight, [MATH] , perpendicular to the floor. If the coefficient of static friction is 0.45, you would have to exert a force parallel to the floor greater than [MATH] to move the crate. Once there is motion, friction is less and the coefficient of kinetic friction might be 0.30, so that a force of only 290 N ( [MATH] ) would keep it moving at a constant speed. If the floor is lubricated, both coefficients are considerably less than they would be without lubrication. Coefficient of friction is a unit less quantity with a magnitude usually between 0 and 1.0. The coefficient of the friction depends on the two surfaces that are in contact.",
-      "upstream": "The equations given earlier include the dependence of friction on materials and the normal force. The direction of friction is always opposite that of motion, parallel to the surface between objects, and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight, [MATH] , perpendicular to the floor. If the coefficient of static friction is 0.45, you would have to exert a force parallel to the floor greater than [MATH] to move the crate. Once there is motion, friction is less and the coefficient of kinetic friction might be 0.30, so that a force of only 290 N ( [MATH] ) would keep it moving at a constant speed. If the floor is lubricated, both coefficients are considerably less than they would be without lubrication. Coefficient of friction is a unitless quantity with a magnitude usually between 0 and 1.0. The coefficient of the friction depends on the two surfaces that are in contact.",
-      "local_html": "The equations given earlier <em></em>include the dependence of friction on materials and the normal force. The direction of friction is always opposite that of motion, parallel to the surface between objects, and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mi>W</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">mg</mi></mrow><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">(</mo></mrow><mtext>100 kg</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>9</mn><mtext>.</mtext><mtext>80</mtext><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">=</mo><mtext>980 N</mtext></mrow></mrow><mrow /></mrow></mrow></math>, perpendicular to the floor. If the coefficient of static friction is 0.45, you would have to exert a force parallel to the floor greater than \n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mrow><mtext>s</mtext><mo stretchy=\"false\">(</mo><mtext>max</mtext><mo stretchy=\"false\">)</mo></mrow></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>μ</mi><mrow><mtext>s</mtext></mrow></msub></mrow><mrow><mi>N</mi><mo stretchy=\"false\">=</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mn>0.45</mn><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"false\">(</mo><mtext>980</mtext></mrow><mrow><mspace width=\"0.25em\" /><mtext>N</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">=</mo><mtext>440</mtext></mrow><mspace width=\"0.25em\" /><mtext>N</mtext></mrow></mrow><mspace width=\"0.25em\" /><mrow /></mrow></mrow></math>to move the crate. Once there is motion, friction is less and the coefficient of kinetic friction might be 0.30, so that a force of only 290 N \n(<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mtext>k</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>μ</mi><mrow><mtext>k</mtext></mrow></msub></mrow><mrow><mi>N</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>30</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>980</mtext><mspace width=\"0.25em\" /><mtext>N</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mtext>290</mtext></mrow><mspace width=\"0.25em\" /><mtext>N</mtext></mrow></mrow><mrow /></mrow></mrow></math>)\n would keep it moving at a constant speed. If the floor is lubricated, both coefficients are considerably less than they would be without lubrication. Coefficient of friction is a unit less quantity with a magnitude usually between 0 and 1.0. The coefficient of the friction depends on the two surfaces that are in contact.",
-      "upstream_html": "The equations given earlier <em></em>include the dependence of friction on materials and the normal force. The direction of friction is always opposite that of motion, parallel to the surface between objects, and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>W</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">mg</mi></mrow><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">(</mo></mrow><mtext>100 kg</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>9</mn><mtext>.</mtext><mtext>80</mtext><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">=</mo><mtext>980 N</mtext></mrow></mrow></mrow></math>, perpendicular to the floor. If the coefficient of static friction is 0.45, you would have to exert a force parallel to the floor greater than\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mrow><mtext>s</mtext><mo stretchy=\"false\">(</mo><mtext>max</mtext><mo stretchy=\"false\">)</mo></mrow></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>μ</mi><mrow><mtext>s</mtext></mrow></msub></mrow><mrow><mi>N</mi><mo stretchy=\"false\">=</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mn>0.45</mn><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"false\">(</mo><mtext>980</mtext></mrow><mrow><mspace width=\"0.25em\" /><mtext>N</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">=</mo><mtext>440</mtext></mrow><mspace width=\"0.25em\" /><mtext>N</mtext></mrow></mrow><mspace width=\"0.25em\" /><mrow /></mrow></math>to move the crate. Once there is motion, friction is less and the coefficient of kinetic friction might be 0.30, so that a force of only 290 N\n(<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mtext>k</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>μ</mi><mrow><mtext>k</mtext></mrow></msub></mrow><mrow><mi>N</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mn>0</mn><mtext>.</mtext><mtext>30</mtext></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mrow><mtext>980</mtext><mspace width=\"0.25em\" /><mtext>N</mtext></mrow><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mtext>290</mtext></mrow><mspace width=\"0.25em\" /><mtext>N</mtext></mrow></mrow></mrow></math>)\n would keep it moving at a constant speed. If the floor is lubricated, both coefficients are considerably less than they would be without lubrication. Coefficient of friction is a unitless quantity with a magnitude usually between 0 and 1.0. The coefficient of the friction depends on the two surfaces that are in contact.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain local friction coverage and omitted slope trigonometry; applicable surface-relative wording and unitless typo are patched separately. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-c1a435a6829008bd",
@@ -94,20 +39,6 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Retain correct local X-rays alt text; pinned upstream introduces X-x rays."
-    },
-    {
-      "id": "UP-90d2676ab2269c9d",
-      "kind": "prose",
-      "local_module": "m71409",
-      "upstream_module": "m42139",
-      "source_id": "import-auto-id1165298998704",
-      "status": "unreviewed-difference",
-      "local": "Friction is a force that is around us all the time that opposes relative motion between systems in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.",
-      "upstream": "Friction is a force that is around us all the time that opposes relative motion between surfaces in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.",
-      "local_html": "Friction is a force that is around us all the time that opposes relative motion between systems in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.",
-      "upstream_html": "Friction is a force that is around us all the time that opposes relative motion between surfaces in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.",
-      "exercise_context": false,
-      "credit_review_required": false
     },
     {
       "id": "UP-68bb667766f87de2",

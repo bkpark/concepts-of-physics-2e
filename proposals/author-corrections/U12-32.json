@@ -1,0 +1,20 @@
+{
+  "id": "U12-32",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71594",
+  "source_object": "eip-id2890661",
+  "source_path": "maintained/modules/m71594/index.cnxml",
+  "source_sha256": "9d9c44646ed31dc625b3ec1a055c1ac0b9958ccdb759da151cd889f4cd13b159",
+  "after_sha256": "0ea3b727d4e170c899ae899f40f993590d047fb76b3639a23545e6d4603c3480",
+  "before": "<media id=\"eip-id2890661\" alt=\"\">\n    <image mime-type=\"image/jpeg\" src=\"../../media/Figure_11_05_06a.jpg\" width=\"250\"/>\n  </media>",
+  "after": "<media id=\"eip-id2890661\" alt=\"A close-up view looking down the rifled barrel of a large artillery piece or cannon, showcasing the distinct spiral grooves inside its muzzle.\">\n    <image mime-type=\"image/jpeg\" src=\"../../media/Figure_11_05_06a.jpg\" width=\"250\"/>\n  </media>",
+  "reason": "Apply pinned upstream alt description after visual verification against the retained local photograph.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42182"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

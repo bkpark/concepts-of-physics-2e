@@ -1,0 +1,20 @@
+{
+  "id": "U12-21",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67046",
+  "source_object": "import-auto-id1614457",
+  "source_path": "maintained/modules/m67046/index.cnxml",
+  "source_sha256": "febf420affdcc8e83495f3a252a272de8ec0a0c6acd5ecf1c542e38d9c08e0ff",
+  "after_sha256": "b733a433ab3ea2d248a098f2d959973410c51bff0ca0eb0c72ca8f4db1d157e0",
+  "before": "<figure id=\"import-auto-id1614457\"><media id=\"import-auto-id1817378\" alt=\"The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_11_04_03a.jpg\" width=\"250\"/>\n      </media>\n      \n    <caption>Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ ital \"KE\" rSub { size 8{ ital \"rot\"} } } {}</m:annotation></m:semantics></m:math>. It can also convert translational kinetic energy, when the bus stops, into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ ital \"KE\" rSub { size 8{ ital \"rot\"} } } {}</m:annotation></m:semantics></m:math>. The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.</caption></figure>",
+  "after": "<figure id=\"import-auto-id1614457\"><media id=\"import-auto-id1817378\" alt=\"The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_11_04_03a.jpg\" width=\"250\"/>\n      </media>\n      \n    <caption>Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ ital \"KE\" rSub { size 8{ ital \"rot\"} } } {}</m:annotation></m:semantics></m:math>. It can also convert translational kinetic energy, when the bus stops, into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ ital \"KE\" rSub { size 8{ ital \"rot\"} } } {}</m:annotation></m:semantics></m:math>. The flywheel’s energy can then be used to accelerate, to go up another hill, or to keep the bus from slowing down due to friction.</caption></figure>",
+  "reason": "Apply upstream caption repair: the flywheel keeps the bus from slowing down due to friction.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42180"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "U12-02",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67530",
+  "source_object": "import-auto-id1616012",
+  "source_path": "maintained/modules/m67530/index.cnxml",
+  "source_sha256": "8ce47878bfd70131bfb9370a97a338ad3f559d8a883230ee8eb87db599e6bdea",
+  "after_sha256": "8b286284ec62c4c1a9062edae8efb765fd4c1dffd27154e26c1482ae43f13751",
+  "before": "<para id=\"import-auto-id1616012\">The acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{g} {}</m:annotation></m:semantics></m:math><emphasis effect=\"italics\"/> varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.67</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1 \".\" \"67\"\" m/s\" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.</para>",
+  "after": "<para id=\"import-auto-id1616012\">The acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{g} {}</m:annotation></m:semantics></m:math><emphasis effect=\"italics\"/> varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.625</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1 \".\" \"67\"\" m/s\" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.6 N on the Moon.</para>",
+  "reason": "Use upstream lunar acceleration 1.625 m/s²; round the associated weight of a 1.0-kg mass consistently to 1.6 N.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42073"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

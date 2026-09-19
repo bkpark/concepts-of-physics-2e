@@ -1,0 +1,20 @@
+{
+  "id": "U12-07",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71409",
+  "source_object": "import-auto-id1165298998704",
+  "source_path": "maintained/modules/m71409/index.cnxml",
+  "source_sha256": "744ad3f842068ae598b0f4435916872398276168550511dba7f923e49fe21650",
+  "after_sha256": "0ed4850fccf37f86dd94ece33f4bc6dd8325ec4b0edd78c5c14bb03c0216bb7f",
+  "before": "<para id=\"import-auto-id1165298998704\"><term id=\"import-auto-id1165298484489\">Friction</term> is a force that is around us all the time that opposes relative motion between systems in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.</para>",
+  "after": "<para id=\"import-auto-id1165298998704\"><term id=\"import-auto-id1165298484489\">Friction</term> is a force that is around us all the time that opposes relative motion between surfaces in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.</para>",
+  "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42139"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

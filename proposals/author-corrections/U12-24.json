@@ -1,0 +1,20 @@
+{
+  "id": "U12-24",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71615",
+  "source_object": "eip-847",
+  "source_path": "maintained/modules/m71615/index.cnxml",
+  "source_sha256": "a60572458961744a09e980718cdece0be0716e7cb27f084729e3a57ab61bfe43",
+  "after_sha256": "5918a03cf0e020fff6b197a727ac2a5de444044dbabb8affb946c2e4fe6d3a22",
+  "before": "<equation id=\"eip-847\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100 mb</m:mtext><m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width=\"0.25em\"/><m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo> .</m:mo></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"100\"`\"mb\"=1 times \"10\" rSup { size 8{5} } `\"Pa\"} {}</m:annotation></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-847\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100 mb</m:mtext><m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width=\"0.25em\"/><m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo> .</m:mo></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"100\"`\"mb\"=1 times \"10\" rSup { size 8{5} } `\"Pa\"} {}</m:annotation></m:semantics></m:math></equation>",
+  "reason": "Correct 100 millibars to 10⁴ Pa, since one millibar is 100 Pa.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42189"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

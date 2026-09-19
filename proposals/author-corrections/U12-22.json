@@ -1,0 +1,20 @@
+{
+  "id": "U12-22",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67046",
+  "source_object": "import-auto-id3385654",
+  "source_path": "maintained/modules/m67046/index.cnxml",
+  "source_sha256": "b733a433ab3ea2d248a098f2d959973410c51bff0ca0eb0c72ca8f4db1d157e0",
+  "after_sha256": "4aaf6709b64172f3dcc9da379973116053fc7ce09561b2f35ce5988bbdc17199",
+  "before": "<para id=\"import-auto-id3385654\">Before we can solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{v} {}</m:annotation></m:semantics></m:math> , we must look up an expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{I} {}</m:annotation></m:semantics></m:math> for a solid disk: <m:math><m:apply><m:eq/><m:msub><m:ci>I</m:ci><m:ci>disk</m:ci></m:msub><m:mrow><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply><m:ci>M</m:ci><m:apply><m:power/><m:ci>ℓ</m:ci><m:cn>2</m:cn></m:apply></m:mrow></m:apply></m:math>. Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ω} {}</m:annotation></m:semantics></m:math> are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy=\"false\">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ω=v/R} {}</m:annotation></m:semantics></m:math> into the expression. These substitutions yield</para>",
+  "after": "<para id=\"import-auto-id3385654\">Before we can solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{v} {}</m:annotation></m:semantics></m:math> , we must look up an expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{I} {}</m:annotation></m:semantics></m:math> for a solid disk: <m:math><m:apply><m:eq/><m:msub><m:ci>I</m:ci><m:ci>disk</m:ci></m:msub><m:mrow><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply><m:ci>M</m:ci><m:apply><m:power/><m:ci>R</m:ci><m:cn>2</m:cn></m:apply></m:mrow></m:apply></m:math>. Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ω} {}</m:annotation></m:semantics></m:math> are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy=\"false\">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ω=v/R} {}</m:annotation></m:semantics></m:math> into the expression. These substitutions yield</para>",
+  "reason": "Use R, the disk radius used in the following derivation, in I_disk = MR²/2; the local explicit formula is retained instead of replacing it with an upstream cross-reference.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42180"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Local consistency repair identified during upstream comparison"
+}

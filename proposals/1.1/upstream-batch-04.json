@@ -1,0 +1,251 @@
+{
+  "target_release": "cp2e-ver1.1",
+  "scope": "Unit 1 and Unit 2 first correction batch; review dispositions and open items tracked separately.",
+  "changes": [
+    {
+      "id": "U12-01",
+      "module": "m67530",
+      "source_id": "import-auto-id1548723",
+      "reason": "Use upstream lunar acceleration 1.625 m/s²; round the associated weight of a 1.0-kg mass consistently to 1.6 N.",
+      "record": "proposals/author-corrections/U12-01.json"
+    },
+    {
+      "id": "U12-02",
+      "module": "m67530",
+      "source_id": "import-auto-id1616012",
+      "reason": "Use upstream lunar acceleration 1.625 m/s²; round the associated weight of a 1.0-kg mass consistently to 1.6 N.",
+      "record": "proposals/author-corrections/U12-02.json"
+    },
+    {
+      "id": "U12-03",
+      "module": "m68329",
+      "source_id": "import-auto-id2659946",
+      "reason": "Qualify the supporting force as normal only when perpendicular to the contact surface; preserve the local explanation of other forces and acceleration.",
+      "record": "proposals/author-corrections/U12-03.json"
+    },
+    {
+      "id": "U12-04",
+      "module": "m71409",
+      "source_id": "import-auto-id1165298476574",
+      "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+      "record": "proposals/author-corrections/U12-04.json"
+    },
+    {
+      "id": "U12-05",
+      "module": "m71409",
+      "source_id": "import-auto-id1165298716875",
+      "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+      "record": "proposals/author-corrections/U12-05.json"
+    },
+    {
+      "id": "U12-06",
+      "module": "m71409",
+      "source_id": "import-auto-id1165298838484",
+      "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+      "record": "proposals/author-corrections/U12-06.json"
+    },
+    {
+      "id": "U12-07",
+      "module": "m71409",
+      "source_id": "import-auto-id1165298998704",
+      "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+      "record": "proposals/author-corrections/U12-07.json"
+    },
+    {
+      "id": "U12-08",
+      "module": "m71409",
+      "source_id": "import-auto-id1165298919534",
+      "reason": "Use the upstream surface-relative description of friction or its unitless spelling correction.",
+      "record": "proposals/author-corrections/U12-08.json"
+    },
+    {
+      "id": "U12-09",
+      "module": "m71409",
+      "source_id": "import-auto-id1165298642426",
+      "reason": "Apply the upstream surface-relative friction wording, retaining the grammatical phrase contact surface between systems.",
+      "record": "proposals/author-corrections/U12-09.json"
+    },
+    {
+      "id": "U12-10",
+      "module": "m71410",
+      "source_id": "eip-939",
+      "reason": "Update the stated gravitational constant (and the associated force between two 1-kg masses) from 6.673 to the pinned upstream 6.674 × 10⁻¹¹. Retain lower-precision worked calculations.",
+      "record": "proposals/author-corrections/U12-10.json"
+    },
+    {
+      "id": "U12-11",
+      "module": "m71410",
+      "source_id": "import-auto-id2032016",
+      "reason": "Update the stated gravitational constant (and the associated force between two 1-kg masses) from 6.673 to the pinned upstream 6.674 × 10⁻¹¹. Retain lower-precision worked calculations.",
+      "record": "proposals/author-corrections/U12-11.json"
+    },
+    {
+      "id": "U12-12",
+      "module": "m71410",
+      "source_id": "import-auto-id2611373",
+      "reason": "Update the stated gravitational constant (and the associated force between two 1-kg masses) from 6.673 to the pinned upstream 6.674 × 10⁻¹¹. Retain lower-precision worked calculations.",
+      "record": "proposals/author-corrections/U12-12.json"
+    },
+    {
+      "id": "U12-13",
+      "module": "m71414",
+      "source_id": "fs-id1239787",
+      "reason": "Use the upstream gravitational-potential-energy definition without restricting it to height on Earth.",
+      "record": "proposals/author-corrections/U12-13.json"
+    },
+    {
+      "id": "U12-14",
+      "module": "m71585",
+      "source_id": "import-auto-id1447563",
+      "reason": "Use capital X for the maximum displacement (amplitude), consistent with the local notation and upstream correction.",
+      "record": "proposals/author-corrections/U12-14.json"
+    },
+    {
+      "id": "U12-15",
+      "module": "m71585",
+      "source_id": "import-auto-id3149771",
+      "reason": "Use capital X for the maximum displacement (amplitude), consistent with the local notation and upstream correction.",
+      "record": "proposals/author-corrections/U12-15.json"
+    },
+    {
+      "id": "U12-16",
+      "module": "m71585",
+      "source_id": "eip-465",
+      "reason": "Adopt the upstream repair to malformed reciprocal-second exponents, and correct the remaining transposition: sqrt(72.6)/(2π) = 1.3561/s, rounding to the unchanged 1.36 Hz. Only this defective equation is re-represented.",
+      "record": "proposals/author-corrections/U12-16.json"
+    },
+    {
+      "id": "U12-17",
+      "module": "m71587",
+      "source_id": "import-auto-id490321",
+      "reason": "Apply upstream deep-water qualification and circular water-particle motion, instead of purely up-and-down motion.",
+      "record": "proposals/author-corrections/U12-17.json"
+    },
+    {
+      "id": "U12-18",
+      "module": "m71588",
+      "source_id": "import-auto-id765484",
+      "reason": "Correct f₂ = v/λ₂ = v/L = 2f₁, and call this the first overtone (second harmonic). The local MathML and all other formulas are retained.",
+      "record": "proposals/author-corrections/U12-18.json"
+    },
+    {
+      "id": "U12-19",
+      "module": "m71588",
+      "source_id": "import-auto-id3045433",
+      "reason": "Use upstream caption naming the first and second overtones, matching the figure’s f₂ and f₃ modes.",
+      "record": "proposals/author-corrections/U12-19.json"
+    },
+    {
+      "id": "U12-20",
+      "module": "m71589",
+      "source_id": "import-auto-id3402524",
+      "reason": "Use the upstream replacement for two incorrect linear proportionality claims (oscillator frequency varies with square roots) and qualify the density comparison by similar rigidity.",
+      "record": "proposals/author-corrections/U12-20.json"
+    },
+    {
+      "id": "U12-21",
+      "module": "m67046",
+      "source_id": "import-auto-id1614457",
+      "reason": "Apply upstream caption repair: the flywheel keeps the bus from slowing down due to friction.",
+      "record": "proposals/author-corrections/U12-21.json"
+    },
+    {
+      "id": "U12-22",
+      "module": "m67046",
+      "source_id": "import-auto-id3385654",
+      "reason": "Use R, the disk radius used in the following derivation, in I_disk = MR²/2; the local explicit formula is retained instead of replacing it with an upstream cross-reference.",
+      "record": "proposals/author-corrections/U12-22.json"
+    },
+    {
+      "id": "U12-23",
+      "module": "m71594",
+      "source_id": "eip-98",
+      "reason": "Restore the missing square on radius in the moment-of-inertia denominator. 0.0975 / (0.5 × 4.00 × 0.260²) = 0.721 rad/s, matching the unchanged answer. Attach the exponent to its base rather than importing upstream’s empty-base exponent.",
+      "record": "proposals/author-corrections/U12-23.json"
+    },
+    {
+      "id": "U12-24",
+      "module": "m71615",
+      "source_id": "eip-847",
+      "reason": "Correct 100 millibars to 10⁴ Pa, since one millibar is 100 Pa.",
+      "record": "proposals/author-corrections/U12-24.json"
+    },
+    {
+      "id": "U12-25",
+      "module": "m71624",
+      "source_id": "import-auto-id2441359",
+      "reason": "Correct the steel-mass subscript from w to s. Retain multiplication by g: the upstream subscript correction is applicable, but its simultaneous g-to-w change is dimensionally wrong.",
+      "record": "proposals/author-corrections/U12-25.json"
+    },
+    {
+      "id": "U12-26",
+      "module": "m71623",
+      "source_id": "import-auto-id3355342",
+      "reason": "Add the upstream small-density-change qualification for applying the hydrostatic constant-density equation to a gas; omit the upstream-only figure reference.",
+      "record": "proposals/author-corrections/U12-26.json"
+    },
+    {
+      "id": "U12-27",
+      "module": "m71590",
+      "source_id": "import-auto-id2692701",
+      "reason": "Correct gauge-pressure graph centerline from atmospheric pressure to zero; exact pinned upstream diagram, with no separate third-party credit in the caption.",
+      "record": "proposals/author-corrections/U12-27.json"
+    },
+    {
+      "id": "U12-28",
+      "module": "m71587",
+      "source_id": "import-auto-id1339459",
+      "reason": "Use the higher-resolution pinned longitudinal-wave diagram (875×289 versus 400×132), with the same physical content; no separate third-party credit in the caption.",
+      "record": "proposals/author-corrections/U12-28.json"
+    },
+    {
+      "id": "U12-29",
+      "module": "m71587",
+      "source_id": "import-auto-id1575292",
+      "reason": "Use the higher-resolution pinned transverse-wave diagram (875×311 versus 400×142), with the same physical content; no separate third-party credit in the caption.",
+      "record": "proposals/author-corrections/U12-29.json"
+    },
+    {
+      "id": "U12-30",
+      "module": "m68329",
+      "source_id": "import-auto-id1545450",
+      "reason": "Apply pinned upstream alt description after visual verification against the retained local photograph.",
+      "record": "proposals/author-corrections/U12-30.json"
+    },
+    {
+      "id": "U12-31",
+      "module": "m42176",
+      "source_id": "import-auto-id1421023",
+      "reason": "Apply pinned upstream alt description after visual verification against the retained local photograph.",
+      "record": "proposals/author-corrections/U12-31.json"
+    },
+    {
+      "id": "U12-32",
+      "module": "m71594",
+      "source_id": "eip-id2890661",
+      "reason": "Apply pinned upstream alt description after visual verification against the retained local photograph.",
+      "record": "proposals/author-corrections/U12-32.json"
+    },
+    {
+      "id": "U12-33",
+      "module": "m67037",
+      "source_id": "fs-id1780282",
+      "reason": "Retain the path-independent-work definition of a conservative force; remove the claim that position dependence alone is sufficient (not true in more than one dimension). This matches the pinned upstream criterion without adding vector calculus.",
+      "record": "proposals/author-corrections/U12-33.json"
+    },
+    {
+      "id": "U12-34",
+      "module": "m67037",
+      "source_id": "import-auto-id2652298",
+      "reason": "Retain the path-independent-work definition of a conservative force; remove the claim that position dependence alone is sufficient (not true in more than one dimension). This matches the pinned upstream criterion without adding vector calculus.",
+      "record": "proposals/author-corrections/U12-34.json"
+    },
+    {
+      "id": "U12-35",
+      "module": "m67037",
+      "source_id": "import-auto-id1532141",
+      "reason": "Remove the same incorrect sufficient-condition sentence; retain the surrounding explanation of path independence and potential energy.",
+      "record": "proposals/author-corrections/U12-35.json"
+    }
+  ]
+}

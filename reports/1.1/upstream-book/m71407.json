@@ -329,11 +329,12 @@
       "local_module": "m71407",
       "upstream_module": "m42096",
       "source_id": "import-auto-id4051374@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow class=\"MJX-TeXAtom-ORD\"><mover accent=\"true\"><mi>v</mi><mo accent=\"true\" stretchy=\"false\">¯</mo></mover></mrow><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><mn>4</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">m</mi></mrow></mrow><mrow><mn>5</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">s</mi></mrow></mrow></mfrac><mo>=</mo><mo>−</mo><mn>0.8</mn><mspace width=\".1667em\" /><mrow class=\"MJX-TeXAtom-ORD\"><mi mathvariant=\"normal\">m</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo mathvariant=\"normal\">/</mo></mrow><mi mathvariant=\"normal\">s</mi></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow><mi>t</mi></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mo stretchy=\"false\">−</mo><mn>4</mn><mspace width=\"0.25em\" /><mtext>m</mtext></mrow><mrow><mn>5</mn><mspace width=\"0.25em\" /><mtext>s</mtext></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">−</mo><mtext>0.8 m/s.</mtext></mrow></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit elapsed-time Δt notation and the author’s average-velocity MathML; upstream t notation assumes initial time zero. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-97f18e348f877f70",
@@ -432,14 +433,15 @@
       "local_module": "m71407",
       "upstream_module": "m42096",
       "source_id": "m42096",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id3602083@8",
         "import-auto-id4070541@3"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit elapsed-time Δt notation and the author’s average-velocity MathML; upstream t notation assumes initial time zero. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     }
   ]
 }

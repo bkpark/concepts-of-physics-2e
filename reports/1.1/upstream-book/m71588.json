@@ -2,15 +2,15 @@
   "module": "m71588",
   "title": "Wave Interference: Standing Waves and Beats",
   "slug": "wave-interference-standing-waves-and-beats",
-  "local_sha256": "7609f568952f144fb4dccee4672a8d4004ab978dd2e31f1807ab3133d1cc7650",
+  "local_sha256": "a22a7be74c9d04baaf5b01812ec2955ada9c8149cd7e52ec8a54bed4e279df40",
   "upstream_modules": [
     "m42249"
   ],
   "counts": {
     "prose": 9,
     "references": 1,
-    "math-markup-change": 14,
-    "math-token-change": 2,
+    "math-markup-change": 15,
+    "math-token-change": 1,
     "math-structure": 1,
     "media": 1
   },
@@ -21,13 +21,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1420136",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Most waves do not look very simple. They look more like the waves in than like the simple water wave considered in \"Waves\". (Simple waves may be created by a simple harmonic oscillation, and thus have a sinusoidal shape). Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple.",
       "upstream": "Most waves do not look very simple. They look more like the waves in than like the simple water wave considered in Waves. (Simple waves may be created by a simple harmonic oscillation, and thus have a sinusoidal shape). Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple.",
       "local_html": "Most waves do not look very simple. They look more like the waves in <span class=\"muted\">[reference]</span> than like the simple water wave considered in &quot;Waves&quot;. (Simple waves may be created by a simple harmonic oscillation, and thus have a sinusoidal shape). Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple.",
       "upstream_html": "Most waves do not look very simple. They look more like the waves in <span class=\"muted\">[reference]</span> than like the simple water wave considered in Waves. (Simple waves may be created by a simple harmonic oscillation, and thus have a sinusoidal shape). Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-e4fee27c7dacf19c",
@@ -35,7 +36,7 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1420136",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id1386289"
@@ -50,7 +51,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-12caa0dc19f40f7f",
@@ -58,13 +60,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1588207",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "is the beat frequency. The resultant wave has the average frequency of the two superimposed waves, but it also fluctuates in overall amplitude at the beat frequency [MATH] . This result is valid for all types of waves. However, if it is a sound wave, providing the two frequencies are similar, then what we hear is an average frequency that gets louder and softer (or warbles) at the beat frequency.",
       "upstream": "is the beat frequency, and [MATH] is the average of [MATH] and [MATH] . These results mean that the resultant wave has twice the amplitude and the average frequency of the two superimposed waves, but it also fluctuates in overall amplitude at the beat frequency [MATH] . The first cosine term in the expression effectively causes the amplitude to go up and down. The second cosine term is the wave with frequency [MATH] . This result is valid for all types of waves. However, if it is a sound wave, providing the two frequencies are similar, then what we hear is an average frequency that gets louder and softer (or warbles) at the beat frequency.",
       "local_html": "is the beat frequency. \n\nThe resultant wave has the average frequency of the two superimposed waves, but it also fluctuates in overall amplitude at the beat frequency <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mtext>B</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>. \n\nThis result is valid for all types of waves. However, if it is a sound wave, providing the two frequencies are similar, then what we hear is an average frequency that gets louder and softer (or warbles) at the beat frequency.",
       "upstream_html": "is the beat frequency, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mtext>ave</mtext></mrow></msub></mrow><mrow /></mrow></math> is the average of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math>. These results mean that the resultant wave has twice the amplitude and the average frequency of the two superimposed waves, but it also fluctuates in overall amplitude at the beat frequency <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mtext>B</mtext></mrow></msub></mrow><mrow /></mrow></math>. The first cosine term in the expression effectively causes the amplitude to go up and down. The second cosine term is the wave with frequency <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mtext>ave</mtext></mrow></msub></mrow><mrow /></mrow></math>. This result is valid for all types of waves. However, if it is a sound wave, providing the two frequencies are similar, then what we hear is an average frequency that gets louder and softer (or warbles) at the beat frequency.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-5b5e52f845954be3",
@@ -72,13 +75,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1828289",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "A standing wave is one in which two waves superimpose to produce a wave that forms a standing pattern of nodes and antinodes, locations of no displacement and of maximum displacement.",
       "upstream": "A standing wave is one in which two waves superimpose to produce a wave that varies in amplitude but does not propagate.",
       "local_html": "A standing wave is one in which two waves superimpose to produce a wave that forms a standing pattern of nodes and antinodes, locations of no displacement and of maximum displacement.",
       "upstream_html": "A standing wave is one in which two waves superimpose to produce a wave that varies in amplitude but does not propagate.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-1b1bb589f6f0c65b",
@@ -86,13 +90,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1941066",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Constructive interference occurs when two waves are superimposed in phase (both disturbances in the same direction).",
       "upstream": "Constructive interference occurs when two identical waves are superimposed in phase.",
       "local_html": "Constructive interference occurs when two waves are superimposed in phase (both disturbances in the same direction).",
       "upstream_html": "Constructive interference occurs when two identical waves are superimposed in phase.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-1913c4b27c22e0af",
@@ -100,13 +105,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id2671315",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The wave resulting from the superposition of two similar-frequency waves has a frequency that is the average of the two. This wave fluctuates in amplitude, or beats, with a frequency called the beat frequency. We can determine the beat frequency by adding two waves together mathematically. The result,",
       "upstream": "The wave resulting from the superposition of two similar-frequency waves has a frequency that is the average of the two. This wave fluctuates in amplitude, or beats, with a frequency called the beat frequency. We can determine the beat frequency by adding two waves together mathematically. Note that a wave can be represented at one point in space as",
       "local_html": "The wave resulting from the superposition of two similar-frequency waves has a frequency that is the average of the two. This wave fluctuates in amplitude, or <em>beats</em>, with a frequency called the beat frequency. We can determine the beat frequency by adding two waves together mathematically. The result,",
       "upstream_html": "The wave resulting from the superposition of two similar-frequency waves has a frequency that is the average of the two. This wave fluctuates in amplitude, or <em>beats</em>, with a frequency called the beat frequency. We can determine the beat frequency by adding two waves together mathematically. Note that a wave can be represented at one point in space as",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-b6b60b1abcf0b847",
@@ -114,27 +120,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id3023110",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Standing waves form at specific resonance frequencies, with the lowest frequency being the fundamental frequency, and higher frequencies being called overtones or harmonics.",
       "upstream": "Waves on a string are resonant standing waves with a fundamental frequency and can occur at higher multiples of the fundamental, called overtones or harmonics.",
       "local_html": "Standing waves form at specific resonance frequencies, with the lowest frequency being the fundamental frequency, and higher frequencies being called overtones or harmonics.",
       "upstream_html": "Waves on a string are resonant standing waves with a fundamental frequency and can occur at higher multiples of the fundamental, called overtones or harmonics.",
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-1a40ad4f862ff2d2",
-      "kind": "prose",
-      "local_module": "m71588",
-      "upstream_module": "m42249",
-      "source_id": "import-auto-id3045433@caption",
-      "status": "unreviewed-difference",
-      "local": "First and second harmonic frequencies are shown.",
-      "upstream": "First and second overtones are shown.",
-      "local_html": "First and second harmonic frequencies are shown.",
-      "upstream_html": "First and second overtones are shown.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-9e6169cc0c69e305",
@@ -142,13 +135,14 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id3090369",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "How does destructive interference occur? What do you see in a destructive interference?",
       "upstream": "Speakers in stereo systems have two color-coded terminals to indicate how to hook up the wires. If the wires are reversed, the speaker moves in a direction opposite that of a properly connected speaker. Explain why it is important to have both speakers connected the same way.",
       "local_html": "How does destructive interference occur? What do you see in a destructive interference?",
       "upstream_html": "Speakers in stereo systems have two color-coded terminals to indicate how to hook up the wires. If the wires are reversed, the speaker moves in a direction opposite that of a properly connected speaker. Explain why it is important to have both speakers connected the same way.",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     },
     {
       "id": "UP-7db055713e652488",
@@ -156,13 +150,29 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id3358537",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Destructive interference occurs when two waves are superimposed exactly out of phase (two disturbances in opposite directions).",
       "upstream": "Destructive interference occurs when two identical waves are superimposed exactly out of phase.",
       "local_html": "Destructive interference occurs when two waves are superimposed exactly out of phase (two disturbances in opposite directions).",
       "upstream_html": "Destructive interference occurs when two identical waves are superimposed exactly out of phase.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
+    },
+    {
+      "id": "UP-8be20ecfd40aad56",
+      "kind": "prose",
+      "local_module": "m71588",
+      "upstream_module": "m42249",
+      "source_id": "import-auto-id765484",
+      "status": "retain-approved-adaptation",
+      "local": "The lowest frequency, called the fundamental frequency, is thus for the longest wavelength, which is seen to be [MATH] . Therefore, the fundamental frequency is [MATH] . In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in , the first overtone can easily be calculated since [MATH] . Thus, [MATH] . Similarly, [MATH] , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater [MATH] is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.",
+      "upstream": "The lowest frequency, called the fundamental frequency, is thus for the longest wavelength, which is seen to be [MATH] . Therefore, the fundamental frequency is [MATH] . In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in , the first harmonic can easily be calculated since [MATH] . Thus, [MATH] . Similarly, [MATH] , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater [MATH] is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.",
+      "local_html": "The lowest frequency, called the fundamental frequency, is thus for the longest wavelength, which is seen to be <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow><mrow /></mrow></mrow></math>. Therefore, the fundamental frequency is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math>. In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in <span class=\"muted\">[reference]</span>, the first overtone can easily be calculated since <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mi>L</mi></mrow></mrow><mrow /></mrow></mrow></math>. Thus, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mi>L</mi></mrow></mrow><mo stretchy=\"false\">=</mo><msub><mrow><mn>2</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>. Similarly, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>3</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mrow><mn>3</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>, and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math> is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.",
+      "upstream_html": "The lowest frequency, called the fundamental frequency, is thus for the longest wavelength, which is seen to be <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow></mrow></math>. Therefore, the fundamental frequency is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow></mrow></mrow></math>. In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in <span class=\"muted\">[reference]</span>, the first harmonic can easily be calculated since <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mi>L</mi></mrow></mrow></mrow></math>. Thus, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mi>L</mi></mrow></mrow><mo stretchy=\"false\">=</mo><msub><mrow><mn>2</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow></mrow></math>. Similarly, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>3</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mrow><mn>3</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow></mrow></math>, and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub></mrow><mrow /></mrow></math> is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.",
+      "exercise_context": false,
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-9dbaf1517d26517b",
@@ -235,11 +245,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1588207@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mtext>B</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mtext>ave</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-d7fe46258b8dd155",
@@ -333,16 +344,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-3f0ac15384e9f6e3",
-      "kind": "math-token-change",
+      "id": "UP-006683c9f4ccc222",
+      "kind": "math-markup-change",
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id765484@4",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow><mo stretchy=\"false\">=</mo><msub><mrow><mn>2</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mi>L</mi></mrow></mrow><mo stretchy=\"false\">=</mo><msub><mrow><mn>2</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mi>L</mi></mrow></mrow><mo stretchy=\"false\">=</mo><msub><mrow><mn>2</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-44f254e62acd3408",
@@ -376,7 +388,7 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "m42249",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id1588207@2",
@@ -385,7 +397,8 @@
         "import-auto-id1588207@5"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-1f85fada475d25ee",
@@ -393,7 +406,7 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id3294294",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_17_10_05a.jpg",
         "sha256": "a00bca2a64befd9f871a5afa7f6bc85891dca1c57c7417f255cffee0dcbbd766"
@@ -404,7 +417,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Retain concise beat explanation, nodes/antinodes definition and qualitative interference descriptions. The upstream trigonometric derivation is omitted coverage. The harmonic denominator and overtone terminology are corrected separately."
     }
   ]
 }

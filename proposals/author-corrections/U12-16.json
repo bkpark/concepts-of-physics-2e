@@ -1,0 +1,20 @@
+{
+  "id": "U12-16",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71585",
+  "source_object": "eip-465",
+  "source_path": "maintained/modules/m71585/index.cnxml",
+  "source_sha256": "8422864d0240a6e4771a47268ac6c0f2b7f43e2642e18d6041f6c623df542717",
+  "after_sha256": "803f22184866011a8dfbde46b0a07b9d678f9c731f3a2d10e810eb8779b91df4",
+  "before": "<equation id=\"eip-465\"><m:math>\n        <m:semantics>\n          <m:mrow>\n            \n              <m:mrow>\n                <m:mrow>\n                  <m:mfrac>\n                    <m:mn>1</m:mn>\n                    <m:mn>2π</m:mn>\n                  </m:mfrac>\n                  <m:mrow>\n                    <m:msqrt>\n                      <m:mrow>\n                        <m:mtext>72.</m:mtext>\n                        <m:mrow>\n                          <m:mn>6</m:mn>\n                          <m:mo stretchy=\"false\">/</m:mo>\n                          <m:msup>\n                            <m:mtext>s</m:mtext>\n                            \n                              <m:mrow>\n                                <m:mn>–2</m:mn>\n                              </m:mrow>\n                            \n                          </m:msup>\n                        </m:mrow>\n                      </m:mrow>\n                    </m:msqrt>\n                    <m:mo stretchy=\"false\">=</m:mo>\n</m:mrow>\n<m:mn>1</m:mn>\n                  \n                  <m:mtext>.</m:mtext>\n                  <m:mrow>\n<m:msup>\n                    <m:mrow>\n                      <m:mtext>3656</m:mtext>\n                      <m:mo stretchy=\"false\">/</m:mo>\n                      <m:mtext>s</m:mtext>\n                    </m:mrow>\n<m:mtext>–1</m:mtext>\n</m:msup>\n                    <m:mo stretchy=\"false\">≈</m:mo>\n\n</m:mrow>\n                    <m:mn>1</m:mn>\n                  \n                  <m:mtext>.</m:mtext>\n                  <m:mrow>\n<m:msup>\n                    <m:mrow>\n                      <m:mtext>36</m:mtext>\n                      <m:mo stretchy=\"false\">/</m:mo>\n                      <m:mtext>s</m:mtext>\n                    </m:mrow>\n<m:mtext>–1</m:mtext>\n</m:msup>\n                    <m:mo stretchy=\"false\">=</m:mo>\n</m:mrow>\n                  <m:mtext>1.36 Hz</m:mtext>\n                </m:mrow>\n              </m:mrow>\n            <m:mo>.</m:mo>\n            <m:mrow/>\n          </m:mrow>\n          <m:annotation encoding=\"StarMath 5.0\"> size 12{ {  {1}  over  {2π} }  sqrt {\"72\" \".\" 6/s rSup { size 8{2} } } =1 \".\" \"36\"/s=1 \".\" \"36 Hz\"} {}</m:annotation>\n        </m:semantics>\n      </m:math> \n    </equation>",
+  "after": "<equation id=\"eip-465\"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mn>72.6</m:mn><m:mo>/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1.3561</m:mn><m:mo>/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>1</m:mn></m:msup><m:mo>≈</m:mo><m:mn>1.36</m:mn><m:mo>/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>1.36</m:mn><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>",
+  "reason": "Adopt the upstream repair to malformed reciprocal-second exponents, and correct the remaining transposition: sqrt(72.6)/(2π) = 1.3561/s, rounding to the unchanged 1.36 Hz. Only this defective equation is re-represented.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42242"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

@@ -2,15 +2,15 @@
   "module": "m67530",
   "title": "Newton's Second Law of Motion: Force and Acceleration",
   "slug": "newton-s-second-law-of-motion-force-and-acceleration",
-  "local_sha256": "7621c2f36141ce3e6dc617aba4ec20d052aa1f28f8ac5b9882cffdd59bb05062",
+  "local_sha256": "8b286284ec62c4c1a9062edae8efb765fd4c1dffd27154e26c1482ae43f13751",
   "upstream_modules": [
     "m42073"
   ],
   "counts": {
-    "prose": 23,
+    "prose": 24,
     "references": 1,
-    "math-markup-change": 37,
-    "math-token-change": 38,
+    "math-markup-change": 39,
+    "math-token-change": 36,
     "math-structure": 1,
     "media": 1
   },
@@ -21,13 +21,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id1860470",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "the object or the group of objects under consideration",
       "upstream": "defined by the boundaries of an object or collection of objects being observed; all forces originating from outside of the system are considered external forces",
       "local_html": "the object or the group of objects under consideration",
       "upstream_html": "defined by the boundaries of an object or collection of objects being observed; all forces originating from outside of the system are considered external forces",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-0f8de2edcfd52f27",
@@ -35,13 +36,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id2407992@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust [MATH] . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force [MATH] on the system which balances out the weight force, [MATH] . The system here is the sled, its rockets, and rider, so none of the internal forces between these objects are considered. [MATH] represents the friction force (figure not drawn to scale).",
       "upstream": "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust [MATH] . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force [MATH] on the system that is equal in magnitude and opposite in direction to its weight, [MATH] . The system here is the sled, its rockets, and rider, so none of the forces between these objects are considered. The arrow representing friction ( [MATH] ) is drawn larger than scale.",
       "local_html": "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>T</mi></math>. As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>N</mi></math> on the system which balances out the weight force, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>w</mi></math>. The system here is the sled, its rockets, and rider, so none of the internal forces <em>between</em> these objects are considered. <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>f</mi></math> represents the friction force (figure not drawn to scale).",
       "upstream_html": "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">T</mtext></mrow></mrow></math>. As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">N</mtext></mrow></mrow></math> on the system that is equal in magnitude and opposite in direction to its weight, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>. The system here is the sled, its rockets, and rider, so none of the forces <em>between</em> these objects are considered. The arrow representing friction (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">f</mtext></mrow></mrow></math>) is drawn larger than scale.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-0ace93ac73777d53",
@@ -64,13 +66,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id3073048",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "the force due to gravity; [MATH] for objects on Earth",
       "upstream": "the force [MATH] due to gravity acting on an object of mass [MATH] ; defined mathematically as: [MATH] , where [MATH] is the magnitude and direction of the acceleration due to gravity",
       "local_html": "the force due to gravity; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>w</mi><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>g</mi></mrow></mrow></math> for objects on Earth",
       "upstream_html": "the force <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>due to gravity acting on an object of mass <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math>; defined mathematically as: <em><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">g</mtext></mrow></mrow></mrow></math></em>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">g</mtext></mrow></mrow></math> is the magnitude and direction of the acceleration due to gravity",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-7678d98feba6a326",
@@ -78,13 +81,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1405710",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Although these equations are really the same, the first gives more insight into what Newton’s second law means. The law is a cause and effect relationship among three quantities. That is, acceleration is caused by a net external force, not vice versa, as the second equation might mistakenly imply.",
       "upstream": "Although these last two equations are really the same, the first gives more insight into what Newton’s second law means. The law is a cause and effect relationship among three quantities that is not simply based on their definitions. The validity of the second law is completely based on experimental verification.",
       "local_html": "Although these equations are really the same, the first gives more insight into what Newton’s second law means. The law is a <em>cause and effect relationship</em> among three quantities. That is, acceleration is <em>caused</em> by a net external force, not vice versa, as the second equation might mistakenly imply.",
       "upstream_html": "Although these last two equations are really the same, the first gives more insight into what Newton’s second law means. The law is a <em>cause and effect relationship</em> among three quantities that is not simply based on their definitions. The validity of the second law is completely based on experimental verification.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-e89de0899602e957",
@@ -92,13 +96,29 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1435794",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "[MATH] is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and [MATH] is the force needed to accelerate a system of mass [MATH] at the rate of [MATH] . Putting these together,",
       "upstream": "[MATH] is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and is the force needed to accelerate a 1-kg system at the rate of [MATH] . That is, since [MATH] ,",
       "local_html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>F</mi><mi mathvariant=\"normal\">net</mi></msub><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>a</mi></mrow></mrow></math> is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>1</mn><mi mathvariant=\"normal\">N</mi></math> is the force needed to accelerate a system of mass <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>1</mn><mi mathvariant=\"normal\">kg</mi></math> at the rate of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>1</mn><msup><mi mathvariant=\"normal\">m/s</mi><mn>2</mn></msup></math>. Putting these together,",
       "upstream_html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math> is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and is the force needed to accelerate a 1-kg system at the rate of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>. That is, since <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>,",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
+    },
+    {
+      "id": "UP-04c19c44276d99bc",
+      "kind": "prose",
+      "local_module": "m67530",
+      "upstream_module": "m42073",
+      "source_id": "import-auto-id1616012",
+      "status": "retain-approved-adaptation",
+      "local": "The acceleration due to gravity [MATH] varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only [MATH] . A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.6 N on the Moon.",
+      "upstream": "The acceleration due to gravity [MATH] varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only [MATH] . A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.",
+      "local_html": "The acceleration due to gravity <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math><em></em> varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1.625</mn><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.6 N on the Moon.",
+      "upstream_html": "The acceleration due to gravity <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math> varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1.625</mn><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.",
+      "exercise_context": false,
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-7773c5c30ec35071",
@@ -106,13 +126,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1816128",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "It is important to be aware that weight and mass are very different physical quantities, although they are closely related. Mass is the quantity of matter (how much “stuff”) and does not vary, whereas weight is the gravitational force and does vary depending on gravity. It is tempting to equate the two, since most of our examples take place on Earth, where the weight of an object only varies a little with the location of the object. Furthermore, the terms mass and weight are used interchangeably in everyday language; for example, our medical records often show our “weight” in kilograms, but never in the correct units of newtons.",
       "upstream": "It is important to be aware that weight and mass are very different physical quantities, although they are closely related. Mass is the quantity of matter (how much “stuff”) and does not vary in classical physics, whereas weight is the gravitational force and does vary depending on gravity. It is tempting to equate the two, since most of our examples take place on Earth, where the weight of an object only varies a little with the location of the object. Furthermore, the terms mass and weight are used interchangeably in everyday language; for example, our medical records often show our “weight” in kilograms, but never in the correct units of newtons.",
       "local_html": "It is important to be aware that weight and mass are very different physical quantities, although they are closely related. Mass is the quantity of matter (how much “stuff”) and does not vary, whereas weight is the gravitational force and does vary depending on gravity. It is tempting to equate the two, since most of our examples take place on Earth, where the weight of an object only varies a little with the location of the object. Furthermore, the terms <em>mass</em> and <em>weight</em> are used interchangeably in everyday language; for example, our medical records often show our “weight” in kilograms, but never in the correct units of newtons.",
       "upstream_html": "It is important to be aware that weight and mass are very different physical quantities, although they are closely related. Mass is the quantity of matter (how much “stuff”) and does not vary in classical physics, whereas weight is the gravitational force and does vary depending on gravity. It is tempting to equate the two, since most of our examples take place on Earth, where the weight of an object only varies a little with the location of the object. Furthermore, the terms <em>mass</em> and <em>weight</em> are used interchangeably in everyday language; for example, our medical records often show our “weight” in kilograms, but never in the correct units of newtons.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-8dec6bb4deb94686",
@@ -120,13 +141,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1946082",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "where the symbol [MATH] means “proportional to,” and [MATH] is the net external force, the vector sum of all external forces. This proportionality states what we have said in words—acceleration is directly proportional to the net external force. Once the system of interest is chosen, it is important to identify the external forces, so that the internal forces can be ignored (again, as we will see later, they exactly cancel out, allowing for a tremendous simplification).",
       "upstream": "where the symbol [MATH] means “proportional to,” and [MATH] is the net external force. (The net external force is the vector sum of all external forces and can be determined graphically, using the head-to-tail method, or analytically, using components. The techniques are the same as for the addition of other vectors, and are covered in Two-Dimensional Kinematics.) This proportionality states what we have said in words—acceleration is directly proportional to the net external force. Once the system of interest is chosen, it is important to identify the external forces and ignore the internal ones. It is a tremendous simplification not to have to consider the numerous internal forces acting between objects within the system, such as muscular forces within the child’s body, let alone the myriad of forces between atoms in the objects, but by doing so, we can easily solve some very complex problems with only minimal error due to our simplification",
       "local_html": "where the symbol <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mo stretchy=\"false\">∝</mo></math> means “proportional to,” and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub></math> is the net external force, the vector sum of all external forces. This proportionality states what we have said in words—<em>acceleration is directly proportional to the net external force</em>. Once the system of interest is chosen, it is important to identify the external forces, so that the internal forces can be ignored (again, as we will see later, they exactly cancel out, allowing for a tremendous simplification).",
       "upstream_html": "where the symbol\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mo stretchy=\"false\">∝</mo></math>\n means “proportional to,” and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub></mrow><mrow /></mrow></math> is the net external force. (The net external force is the vector sum of all external forces and can be determined graphically, using the head-to-tail method, or analytically, using components. The techniques are the same as for the addition of other vectors, and are covered in Two-Dimensional Kinematics.) This proportionality states what we have said in words—<em>acceleration is directly proportional to the net external force</em>. Once the system of interest is chosen, it is important to identify the external forces and ignore the internal ones. It is a tremendous simplification not to have to consider the numerous internal forces acting between objects within the system, such as muscular forces within the child’s body, let alone the myriad of forces between atoms in the objects, but by doing so, we can easily solve some very complex problems with only minimal error due to our simplification",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-793b8b81f9d61216",
@@ -134,7 +156,7 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1946082",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -142,7 +164,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Keep local stable targets and omitted-reference choices; upstream document IDs are not local section identities."
     },
     {
       "id": "UP-dae7dcd582bca684",
@@ -150,13 +173,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2053300",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 [MATH] 's. (Recall that [MATH] , the acceleration due to gravity, is [MATH] . When we say that an acceleration is 45 [MATH] 's, it is [MATH] , which is approximately [MATH] .) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
       "upstream": "The numbers are quite large, so the result might surprise you. Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 [MATH] 's. (Recall that [MATH] , the acceleration due to gravity, is [MATH] . When we say that an acceleration is 45 [MATH] 's, it is [MATH] , which is approximately [MATH] .) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
       "local_html": "Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math>&#x27;s. (Recall that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math>, the acceleration due to gravity, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>9</mn><mtext>.</mtext><msup><mtext>80 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>. When we say that an acceleration is 45 <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math>&#x27;s, it is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>45</mtext><mi>×</mi><mn>9</mn><mtext>.</mtext><msup><mtext>80 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>, which is approximately <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>440 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></mrow></math>.) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
       "upstream_html": "The numbers are quite large, so the result might surprise you. Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>&#x27;s. (Recall that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>, the acceleration due to gravity, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>9</mn><mtext>.</mtext><msup><mtext>80 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>. When we say that an acceleration is 45 <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>&#x27;s, it is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>45</mtext><mi>×</mi><mn>9</mn><mtext>.</mtext><msup><mtext>80 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>, which is approximately <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mtext>440 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></math>.) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-6a3cc7297ed6182e",
@@ -164,13 +188,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2415381",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Newton’s second law of motion gives a relationship among acceleration, force, and mass. It can help us make predictions. Each of those physical quantities can be defined independently, so the second law tells us something basic and universal about nature. The next section introduces the third and final law of motion.",
       "upstream": "Newton’s second law of motion is more than a definition; it is a relationship among acceleration, force, and mass. It can help us make predictions. Each of those physical quantities can be defined independently, so the second law tells us something basic and universal about nature. The next section introduces the third and final law of motion.",
       "local_html": "Newton’s second law of motion gives a relationship among acceleration, force, and mass. It can help us make predictions. Each of those physical quantities can be defined independently, so the second law tells us something basic and universal about nature. The next section introduces the third and final law of motion.",
       "upstream_html": "Newton’s second law of motion is more than a definition; it is a relationship among acceleration, force, and mass. It can help us make predictions. Each of those physical quantities can be defined independently, so the second law tells us something basic and universal about nature. The next section introduces the third and final law of motion.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-fc258c74a4215025",
@@ -178,13 +203,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2441532",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The direction of the acceleration is the same direction as that of the net force, which is parallel to the ground. There is no information given in this example about the individual external forces acting on the system, but we can say something about their relative magnitudes. For example, the force exerted by the person pushing the mower forward must be greater than the friction opposing the motion (directed backward) to result in a forward net force, and the vertical forces must cancel if there is to be no acceleration in the vertical direction. The acceleration found is small enough to be reasonable for a person pushing a mower. When the person reaches the top speed, the acceleration will be zero (no change of velocity) and the force exerted by the person pushing the mower will be equal to the friction opposing the motion.",
       "upstream": "The direction of the acceleration is the same direction as that of the net force, which is parallel to the ground. There is no information given in this example about the individual external forces acting on the system, but we can say something about their relative magnitudes. For example, the force exerted by the person pushing the mower must be greater than the friction opposing the motion (since we know the mower moves forward), and the vertical forces must cancel if there is to be no acceleration in the vertical direction (the mower is moving only horizontally). The acceleration found is small enough to be reasonable for a person pushing a mower. Such an effort would not last too long because the person’s top speed would soon be reached.",
       "local_html": "The direction of the acceleration is the same direction as that of the net force, which is parallel to the ground. There is no information given in this example about the individual external forces acting on the system, but we can say something about their relative magnitudes. For example, the force exerted by the person pushing the mower forward must be greater than the friction opposing the motion (directed backward) to result in a forward net force, and the vertical forces must cancel if there is to be no acceleration in the vertical direction. The acceleration found is small enough to be reasonable for a person pushing a mower. When the person reaches the top speed, the acceleration will be zero (no change of velocity) and the force exerted by the person pushing the mower will be equal to the friction opposing the motion.",
       "upstream_html": "The direction of the acceleration is the same direction as that of the net force, which is parallel to the ground. There is no information given in this example about the individual external forces acting on the system, but we can say something about their relative magnitudes. For example, the force exerted by the person pushing the mower must be greater than the friction opposing the motion (since we know the mower moves forward), and the vertical forces must cancel if there is to be no acceleration in the vertical direction (the mower is moving only horizontally). The acceleration found is small enough to be reasonable for a person pushing a mower. Such an effort would not last too long because the person’s top speed would soon be reached.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-44ef802367de1249",
@@ -192,13 +218,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2598176",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight, [MATH] . Weight can be denoted as a vector [MATH] because it has a direction; down is, by definition, the direction of gravity, so [MATH] is directed downward. The magnitude of weight is denoted as [MATH] . Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration [MATH] . Using Galileo’s result and Newton’s second law, we can derive an equation for the magnitude of weight.",
       "upstream": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight [MATH] . Weight can be denoted as a vector [MATH] because it has a direction; down is, by definition, the direction of gravity, and hence weight is a downward force. The magnitude of weight is denoted as [MATH] . Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration [MATH] . Using Galileo’s result and Newton’s second law, we can derive an equation for weight.",
       "local_html": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>. Weight can be denoted as a vector <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math> because it has a direction; <em>down</em> is, by definition, the direction of gravity, so <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math> is directed downward. The magnitude of weight is denoted as <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>w</mi></math>. Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>g</mi></math>. Using Galileo’s result and Newton’s second law, we can derive an equation for the magnitude of weight.",
       "upstream_html": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>. Weight can be denoted as a vector <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math> because it has a direction; <em>down</em> is, by definition, the direction of gravity, and hence weight is a downward force. The magnitude of weight is denoted as <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>w</mi></mrow></mrow></math><em>. </em> Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>. Using Galileo’s result and Newton’s second law, we can derive an equation for weight.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-1c25622ce079970f",
@@ -206,13 +233,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2600596",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "with the vector notation indicating that the net external force is in the same direction as acceleration. When only the magnitude of force and acceleration are considered, this equation is simply (note the lack of vector notations)",
       "upstream": "When only the magnitude of force and acceleration are considered, this equation is simply",
       "local_html": "with the vector notation indicating that the net external force is in the same direction as acceleration. When only the magnitude of force and acceleration are considered, this equation is simply (note the lack of vector notations)",
       "upstream_html": "When only the magnitude of force and acceleration are considered, this equation is simply",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-bf3d072356e11e26",
@@ -220,13 +248,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2616884",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Now, hopefully it also seems reasonable that acceleration should be inversely proportional to the mass of the system. That is, if the system has more “stuff”, then for the same net external force applied, the acceleration is less. And indeed, as illustrated in , the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
       "upstream": "Now, it also seems reasonable that acceleration should be inversely proportional to the mass of the system. In other words, the larger the mass (the inertia), the smaller the acceleration produced by a given force. And indeed, as illustrated in , the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
       "local_html": "Now, hopefully it also seems reasonable that acceleration should be inversely proportional to the mass of the system. That is, if the system has more “stuff”, then for the same net external force applied, the acceleration is less. And indeed, as illustrated in <span class=\"muted\">[reference]</span>, the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
       "upstream_html": "Now, it also seems reasonable that acceleration should be inversely proportional to the mass of the system. In other words, the larger the mass (the inertia), the smaller the acceleration produced by a given force. And indeed, as illustrated in <span class=\"muted\">[reference]</span>, the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-8bc19d202b47abed",
@@ -234,13 +263,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2653491",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in . In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight [MATH] and the support of the ground [MATH] , and the horizontal force [MATH] represents the force of friction. These will be discussed in more detail in later sections. For now, we will say that friction is a force that opposes the motion past each other of objects that are touching. (b) shows how vectors representing the external forces add together to produce a net force, [MATH] .",
       "upstream": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in . In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight [MATH] and the support of the ground [MATH] , and the horizontal force [MATH] represents the force of friction. These will be discussed in more detail in later sections. For now, we will define friction as a force that opposes the motion past each other of objects that are touching. (b) shows how vectors representing the external forces add together to produce a net force, [MATH] .",
       "local_html": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in <span class=\"muted\">[reference]</span>. In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math> and the support of the ground <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">N</mi></math>, and the horizontal force <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">f</mi></math> represents the force of friction. These will be discussed in more detail in later sections. For now, we will say that friction is a force that opposes the motion past each other of objects that are touching. <span class=\"muted\">[reference]</span>(b) shows how vectors representing the external forces add together to produce a net force, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub></math>.",
       "upstream_html": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in <span class=\"muted\">[reference]</span>. In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>\n\n and the support of the ground\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">N</mtext></mrow></mrow></math>,\n\nand the horizontal force <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">f</mtext></mrow></mrow></math> represents the force of friction. These will be discussed in more detail in later sections. For now, we will define friction as a force that opposes the motion past each other of objects that are touching. <span class=\"muted\">[reference]</span>(b) shows how vectors representing the external forces add together to produce a net force,\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub></mrow><mrow /></mrow></math>.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-844d926eac99c74e",
@@ -248,13 +278,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2667164",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "Acceleration, [MATH] , is defined as a rate of change in velocity, resulting from a change in the magnitude and/or the direction of the velocity.",
       "upstream": "Acceleration, [MATH] , is defined as a change in velocity, meaning a change in its magnitude or direction, or both.",
       "local_html": "Acceleration, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi></math>, is defined as a rate of change in velocity, resulting from a change in the magnitude and/or the direction of the velocity.",
       "upstream_html": "Acceleration, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>, is defined as a change in velocity, meaning a change in its magnitude or direction, or both.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain acceleration as the rate of change of velocity; upstream omits rate of."
     },
     {
       "id": "UP-3eddb4cce700e227",
@@ -262,13 +293,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2674385",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust [MATH] , for the four-rocket propulsion system shown in . The sled’s initial acceleration is [MATH] the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
       "upstream": "Prior to space flights carrying astronauts, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust [MATH] , for the four-rocket propulsion system shown in . The sled’s initial acceleration is [MATH] the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
       "local_html": "Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>T</mi></math>, for the four-rocket propulsion system shown in <span class=\"muted\">[reference]</span>. The sled’s initial acceleration is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>49</mtext><mspace width=\"0.25em\" /><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mo>,</mo></mrow><mrow /></mrow></mrow></math> the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
       "upstream_html": "Prior to space flights carrying astronauts, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">T</mtext></mrow></mrow></math>, for the four-rocket propulsion system shown in <span class=\"muted\">[reference]</span>. The sled’s initial acceleration is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>49</mtext><mspace width=\"0.25em\" /><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mo>,</mo></mrow><mrow /></mrow></math> the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-c1d474b24975863b",
@@ -276,13 +308,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3028474",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "In equation form, Newton’s second law of motion is [MATH] , often written in the more familiar form: [MATH] .",
       "upstream": "In equation form, Newton’s second law of motion is [MATH] .",
       "local_html": "In equation form, Newton’s second law of motion is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi><mo>=</mo><mfrac><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub><mi>m</mi></mfrac></mrow></math>, often written in the more familiar form: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi></mrow></mrow></math>.",
       "upstream_html": "In equation form, Newton’s second law of motion is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mo stretchy=\"false\">=</mo><mfrac><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mi>m</mi></mfrac></mrow></mrow></mrow></math>.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-1237c0835e926917",
@@ -290,13 +323,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3033116",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system of interest. For example, in (a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at (a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) You must define the boundaries of the system before you can determine which forces are external. Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
       "upstream": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system (object or collection of objects) of interest. For example, in (a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at (a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) You must define the boundaries of the system before you can determine which forces are external. Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
       "local_html": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system of interest. For example, in <span class=\"muted\">[reference]</span>(a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at <span class=\"muted\">[reference]</span>(a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) <em>You must define the boundaries of the system before you can determine which forces are external</em>. Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
       "upstream_html": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system (object or collection of objects) of interest. For example, in <span class=\"muted\">[reference]</span>(a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at <span class=\"muted\">[reference]</span>(a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) <em>You must define the boundaries of the system before you can determine which forces are external</em>. Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-4c15b69ffca38fa3",
@@ -304,13 +338,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3103891",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "As it turns out, the acceleration of an object depends only on the net external force and the mass of the object. Combining the two proportionalities just given yields Newton's second law of motion.",
       "upstream": "It has been found that the acceleration of an object depends only on the net external force and the mass of the object. Combining the two proportionalities just given yields Newton's second law of motion.",
       "local_html": "As it turns out, the acceleration of an object depends only on the net external force and the mass of the object. Combining the two proportionalities just given yields Newton&#x27;s second law of motion.",
       "upstream_html": "It has been found that the acceleration of an object depends <em>only</em> on the net external force and the mass of the object. Combining the two proportionalities just given yields Newton&#x27;s second law of motion.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-e0bd59586d1d7735",
@@ -318,13 +353,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3228448",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object ( [MATH] ) multiplied by the acceleration due to gravity ( [MATH] ). Like any other force, weight is measured in terms of newtons (or pounds in English units). This interchangeable use is why you might have heard an expression such as, “1 kilogram is 2.2 pounds.” The correct statement is “1 kilogram mass weighs 2.2 pounds on Earth.”",
       "upstream": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object ( [MATH] ) multiplied by the acceleration due to gravity ( [MATH] ). Like any other force, weight is measured in terms of newtons (or pounds in English units).",
       "local_html": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>m</mi></mrow><mrow /></mrow></mrow></math>) multiplied by the acceleration due to gravity (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>g</mi></mrow><mrow /></mrow></mrow></math>). Like any other force, weight is measured in terms of newtons (or pounds in English units). This interchangeable use is why you might have heard an expression such as, “1 kilogram is 2.2 pounds.” The <em>correct</em> statement is “1 kilogram mass weighs 2.2 pounds on Earth.”",
       "upstream_html": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math>) multiplied by the acceleration due to gravity (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>). Like any other force, weight is measured in terms of newtons (or pounds in English units).",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-f6e285dde6e0dd0c",
@@ -332,13 +368,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3415541",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly. The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons (or pounds). In most countries, the measurement in newtons is divided by 9.80 to give a reading in mass units of kilograms. The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale, push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on Earth as on the Moon?",
       "upstream": "What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly. The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons (or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms. The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale, push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on Earth as on the Moon?",
       "local_html": "What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly. The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons (or pounds). In most countries, the measurement in newtons is divided by 9.80 to give a reading in mass units of kilograms. The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale, push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on Earth as on the Moon?",
       "upstream_html": "What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly. The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons (or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms. The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale, push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on Earth as on the Moon?",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-fac7e488d369d87c",
@@ -346,13 +383,14 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3451972",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "where [MATH] is the mass of the system. In fact, this is how we will define mass. That is, for an object B to have double the mass of an object A, the same net external force applied on object B produces half the acceleration it does on object A.",
       "upstream": "where [MATH] is the mass of the system. Experiments have shown that acceleration is exactly inversely proportional to mass, just as it is exactly linearly proportional to the net external force.",
       "local_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>m</mi></math> is the mass of the system. In fact, this is how we will <em>define</em> mass. That is, for an object B to have double the mass of an object A, the same net external force applied on object B produces half the acceleration it does on object A.",
       "upstream_html": "where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>m</mi></mrow></mrow></math> is the mass of the system. Experiments have shown that acceleration is exactly inversely proportional to mass, just as it is exactly linearly proportional to the net external force.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     },
     {
       "id": "UP-14c31080271be260",
@@ -373,11 +411,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1171442277241@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>1.04</mn><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> N</mtext></mrow><mn>4</mn></mfrac></mrow><mo stretchy=\"false\">=</mo><mn>2.6</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>4</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> N</mtext></mrow></mrow><mrow /></mrow></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>1.0</mn><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> N</mtext></mrow><mn>4</mn></mfrac></mrow><mo stretchy=\"false\">=</mo><mn>2.6</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>4</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> N</mtext></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Local 1.04×10⁵/4 = 2.6×10⁴ is arithmetically consistent; upstream prematurely replaces 1.04 with 1.0 while retaining 2.6."
     },
     {
       "id": "UP-ee606badcd35cf02",
@@ -385,11 +424,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1171442332762@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>w</mi><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>g</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">g</mtext></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-3830622bc991520b",
@@ -423,11 +463,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1450972@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi><mo stretchy=\"false\">∝</mo><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mrow><mi /><mo stretchy=\"false\">∝</mo><mi /></mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mi>,</mi></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-2835f396aacbc518",
@@ -448,11 +489,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1628753@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi><mo>=</mo><mfrac><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub><mi>m</mi></mfrac></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mo stretchy=\"false\">=</mo><mfrac><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mi>m</mi></mfrac></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-4d4eccb85a0b1e8f",
@@ -460,11 +502,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1631559@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-upstream-regression",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>4</mn><mi>T</mi><mo stretchy=\"false\">=</mo><mn>1.04</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> N</mtext></mrow></mrow><mrow /></mrow></mrow><mo>,</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>4</mn><mi>T</mi><mo stretchy=\"false\">=</mo><mn>1.0</mn></mrow><mrow><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mn>5</mn></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> N</mtext></mrow></mrow></mrow><mo>,</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain the unrounded 1.04×10⁵ N intermediate force used by the following division."
     },
     {
       "id": "UP-1a9a9ddaa5988b53",
@@ -472,11 +515,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1641404@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>F</mi><mi mathvariant=\"normal\">net</mi></msub><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>a</mi></mrow></mrow><mtext>.</mtext></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>F</mi><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>ma</mtext></mrow></mstyle></mrow></mrow><mo>.</mo><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-49ec749505df9379",
@@ -510,11 +554,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id1969451@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>a</mi><mo stretchy=\"false\">∝</mo><mfrac><mn>1</mn><mi>m</mi></mfrac></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mrow><mi /><mo stretchy=\"false\">∝</mo><mi /></mrow><mfrac><mn>1</mn><mi>m</mi></mfrac></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-3cbd84b4562d4b45",
@@ -587,11 +632,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "eip-id2606927@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi></mrow></mrow><mtext>,</mtext></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-e3646e0bc0b667d9",
@@ -599,11 +645,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id2407992@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>T</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">T</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-765e23948fe6e4bc",
@@ -611,11 +658,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id2407992@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>N</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">N</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-3ecaa610a0da4059",
@@ -623,11 +671,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id2407992@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-83730c489335c7ab",
@@ -635,11 +684,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id2407992@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>f</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">f</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-bfef40cce1057d73",
@@ -647,11 +697,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "fs-id3073048@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>w</mi><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>g</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-b9a28cac959ea9ad",
@@ -659,11 +710,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1435794@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>F</mi><mi mathvariant=\"normal\">net</mi></msub><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>a</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-4a9ead9114922761",
@@ -671,11 +723,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1435794@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>1</mn><mi mathvariant=\"normal\">N</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-d5672afc612c9cd7",
@@ -683,11 +736,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1435794@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mn>1</mn><mi mathvariant=\"normal\">kg</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-a8af30dd72d4ec97",
@@ -695,11 +749,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1487682@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-1151bce3bde2ea85",
@@ -720,23 +775,25 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1487682@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>g</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">g</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
-      "id": "UP-3091d62a59af0c51",
-      "kind": "math-token-change",
+      "id": "UP-04497c66daf526cd",
+      "kind": "math-markup-change",
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1548723@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1.67</mn><mspace width=\"0.25em\" /><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1.625</mn><mspace width=\"0.25em\" /><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1.625</mn><mspace width=\"0.25em\" /><msup><mtext> m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-e4e5c15bb7efa28d",
@@ -765,16 +822,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-54e8d7733c6c884a",
-      "kind": "math-token-change",
+      "id": "UP-7d5123d3d6bc9266",
+      "kind": "math-markup-change",
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1616012@2",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1.67</mn><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1.625</mn><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1.625</mn><mspace width=\"0.25em\" /><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations. The scoped correction is already applied; residual differences reflect preserved local representation or context."
     },
     {
       "id": "UP-1fa1417923ca5488",
@@ -808,11 +866,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1946082@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-a1f3fc36e23716ac",
@@ -820,11 +879,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1993910@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-25e901b3dc4304bd",
@@ -832,11 +892,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1993910@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">N</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">N</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-d306297c8e355bcf",
@@ -844,11 +905,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1993910@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">f</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">f</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-ab2bfe702b0f75da",
@@ -856,11 +918,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1993910@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-69d57a458e73a3ae",
@@ -868,11 +931,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1993910@5",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo>|</mo><mrow><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi><mi mathvariant=\"normal\">′</mi></mrow><mo>|</mo></mrow><mo>&gt;</mo><mrow><mo>|</mo><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi><mo>|</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a′</mtext><mo stretchy=\"false\">&gt;</mo><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-a08c9cf71c269a7a",
@@ -1036,11 +1100,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2598176@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-9f22026d71ded9ef",
@@ -1048,11 +1113,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2598176@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-570f65e03646bb47",
@@ -1060,11 +1126,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2598176@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>w</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-25f0dff92597cb3f",
@@ -1072,11 +1139,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2598176@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>g</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-684fc9db3aa0edf6",
@@ -1084,11 +1152,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2653491@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">w</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">w</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-be4672d3d4fa7304",
@@ -1096,11 +1165,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2653491@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">N</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">N</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-3995751a12ca6582",
@@ -1108,11 +1178,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2653491@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">f</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">f</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-440e5cae9f6bccbe",
@@ -1120,11 +1191,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2653491@4",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-928fe4aaf9d98f33",
@@ -1132,11 +1204,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2667164@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-195c15fdc87f79cc",
@@ -1183,11 +1256,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id2674385@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>T</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">T</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-7b8b76f608c70680",
@@ -1208,11 +1282,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3028474@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"normal\" style=\"font-weight:700\">a</mi><mo>=</mo><mfrac><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mi mathvariant=\"normal\">net</mi></msub><mi>m</mi></mfrac></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mo stretchy=\"false\">=</mo><mfrac><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mi>m</mi></mfrac></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-04bce33d9d80dd7a",
@@ -1220,11 +1295,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3069019@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi>F</mi><mi mathvariant=\"normal\">net</mi></msub></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-737af1d1a52a7f56",
@@ -1245,11 +1321,12 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id3069019@3",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>F</mi><mi mathvariant=\"normal\">net</mi></msub><mo>=</mo><mrow><mi>m</mi><mo>⁢</mo><mi>a</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>m</mi><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-bb6cc94762dded82",
@@ -1296,7 +1373,7 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "m42073",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         "import-auto-id1435794@4",
         "import-auto-id2598176@5",
@@ -1312,7 +1389,8 @@
         "fs-id3073048@4"
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements. Reviewed with the owning paragraph/equation: preserve local notation and grouping; ordinal-only comparisons are not independent equations."
     },
     {
       "id": "UP-0b034d1c34a8381e",
@@ -1320,7 +1398,7 @@
       "local_module": "m67530",
       "upstream_module": "m42073",
       "source_id": "import-auto-id1475015",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure 04_03_02.jpg",
         "sha256": "11276ba0e9fe1e9367b60a45c5181d7e9b8749fa388e996a579fbdb0e884ab10"
@@ -1331,7 +1409,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Retain explicit vector versus magnitude distinctions, consistent rocket arithmetic, rate-of-change definition of acceleration, and the author’s system/mass explanation. Expanded glossary prose and alternative explanations are editorial alternatives, not automatic replacements."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "U12-19",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71588",
+  "source_object": "import-auto-id3045433",
+  "source_path": "maintained/modules/m71588/index.cnxml",
+  "source_sha256": "e9be0d01df9cca8d5782fb608efe7392183dee04b8e1adc250d869bddff6de9f",
+  "after_sha256": "a22a7be74c9d04baaf5b01812ec2955ada9c8149cd7e52ec8a54bed4e279df40",
+  "before": "<figure id=\"import-auto-id3045433\"><media id=\"import-auto-id1995916\" alt=\"first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.\">\n          <image mime-type=\"image/jpg\" src=\"../../media/Figure_17_10_07a.jpg\" width=\"375\"/>\n        </media>\n        \n      <caption>First and second harmonic frequencies are shown.</caption></figure>",
+  "after": "<figure id=\"import-auto-id3045433\"><media id=\"import-auto-id1995916\" alt=\"first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.\">\n          <image mime-type=\"image/jpg\" src=\"../../media/Figure_17_10_07a.jpg\" width=\"375\"/>\n        </media>\n        \n      <caption>First and second overtones are shown.</caption></figure>",
+  "reason": "Use upstream caption naming the first and second overtones, matching the figure’s f₂ and f₃ modes.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42249"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

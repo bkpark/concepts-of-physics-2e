@@ -1,0 +1,20 @@
+{
+  "id": "U12-03",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68329",
+  "source_object": "import-auto-id2659946",
+  "source_path": "maintained/modules/m68329/index.cnxml",
+  "source_sha256": "0f3f3ab1c9f5ef3e5c398715d0cdaf6bc80dca55cba709d4779bf9aef1adbc84",
+  "after_sha256": "3abe860ee4668899164f0508679d54d9d2d036b97606b1991d174793c70a9a2c",
+  "before": "<para id=\"import-auto-id2659946\">We must conclude that whatever supports a load, be it animate or not, must supply an upward force equal to the weight of the load, as we assumed in a few of the previous examples. The force supporting a load is perpendicular to the surface of contact between the load and its support, and this force is called a <term id=\"import-auto-id1254224\">normal force</term><emphasis effect=\"bold\"/>, often indicated with symbol <m:math><m:ci>N</m:ci></m:math> (Please do not confuse this with the abbreviation for newton, the unit of force, N). The word <emphasis effect=\"italics\">normal</emphasis><emphasis effect=\"italics\"/> means perpendicular to a surface. The normal force is not always equal to the object's weight, if there are other forces acting on the object, or if the object is accelerating, so that the net force is not zero.</para>",
+  "after": "<para id=\"import-auto-id2659946\">We must conclude that whatever supports a load, be it animate or not, must supply an upward force equal to the weight of the load, as we assumed in a few of the previous examples. If the force supporting a load is perpendicular to the surface of contact between the load and its support, this force is called a <term id=\"import-auto-id1254224\">normal force</term><emphasis effect=\"bold\"/>, often indicated with symbol <m:math><m:ci>N</m:ci></m:math> (Please do not confuse this with the abbreviation for newton, the unit of force, N). The word <emphasis effect=\"italics\">normal</emphasis><emphasis effect=\"italics\"/> means perpendicular to a surface. The normal force is not always equal to the object's weight, if there are other forces acting on the object, or if the object is accelerating, so that the net force is not zero.</para>",
+  "reason": "Qualify the supporting force as normal only when perpendicular to the contact surface; preserve the local explanation of other forces and acceleration.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42075"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

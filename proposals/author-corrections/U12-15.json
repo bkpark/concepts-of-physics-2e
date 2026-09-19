@@ -1,0 +1,20 @@
+{
+  "id": "U12-15",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71585",
+  "source_object": "import-auto-id3149771",
+  "source_path": "maintained/modules/m71585/index.cnxml",
+  "source_sha256": "7a6938aaa6ae9cd52b94e63de856d1782d76a1e500ce60c77f5695085621112b",
+  "after_sha256": "8422864d0240a6e4771a47268ac6c0f2b7f43e2642e18d6041f6c623df542717",
+  "before": "<para id=\"import-auto-id3149771\">A babysitter is pushing a child on a swing. At the point where the swing reaches <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{x} {}</m:annotation></m:semantics></m:math>, where would the corresponding point on a wave of this motion be located?</para>",
+  "after": "<para id=\"import-auto-id3149771\">A babysitter is pushing a child on a swing. At the point where the swing reaches <m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{x} {}</m:annotation></m:semantics></m:math>, where would the corresponding point on a wave of this motion be located?</para>",
+  "reason": "Use capital X for the maximum displacement (amplitude), consistent with the local notation and upstream correction.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42242"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

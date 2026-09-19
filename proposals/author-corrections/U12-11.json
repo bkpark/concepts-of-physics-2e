@@ -1,0 +1,20 @@
+{
+  "id": "U12-11",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71410",
+  "source_object": "import-auto-id2032016",
+  "source_path": "maintained/modules/m71410/index.cnxml",
+  "source_sha256": "d5e86ff69d213423e3b49deacc72ae89975fc976a1bf2d9d5e4944d5dbfded57",
+  "after_sha256": "c91c005e3f9fc256fa5451feac4acbcf64a9d55dd6a2ce6325e1be9b3c9ffab7",
+  "before": "<para id=\"import-auto-id2032016\">where F is the magnitude of the gravitational force. <m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{G} {}</m:annotation></m:semantics></m:math> is the gravitational constant, given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>673</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>–11</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mi/><m:mrow><m:mtext>N</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>/kg</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{G=6 \".\" \"673\" times \"10\" rSup { size 8{\"-11\"} } `N cdot m rSup { size 8{2} } \"/kg\" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>",
+  "after": "<para id=\"import-auto-id2032016\">where F is the magnitude of the gravitational force. <m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{G} {}</m:annotation></m:semantics></m:math> is the gravitational constant, given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>674</m:mtext><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>–11</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mi/><m:mrow><m:mtext>N</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>/kg</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{G=6 \".\" \"674\" times \"10\" rSup { size 8{\"-11\"} } `N cdot m rSup { size 8{2} } \"/kg\" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>",
+  "reason": "Update the stated gravitational constant (and the associated force between two 1-kg masses) from 6.673 to the pinned upstream 6.674 × 10⁻¹¹. Retain lower-precision worked calculations.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42143"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "U12-17",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71587",
+  "source_object": "import-auto-id490321",
+  "source_path": "maintained/modules/m71587/index.cnxml",
+  "source_sha256": "fa62068b58bced5a74582a19375fc45a1d5e376ddb1dc87028982065587f1375",
+  "after_sha256": "5c6ade224004306c1fe5b406450fa889eb7eab735873279d0116e648e55552c1",
+  "before": "<para id=\"import-auto-id490321\">Many people think that water waves push water from one direction to another. In fact, the particles of water tend to stay in one location, save for moving up and down due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, what you feel is the energy of the wave, not a rush of water.</para>",
+  "after": "<para id=\"import-auto-id490321\">Many people think that water waves push water from one direction to another. In fact, in water waves far from shore, the particles of water tend to stay in one location, save for moving in circles due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, far from the shore, what you feel is the energy of the wave, not a rush of water.</para>",
+  "reason": "Apply upstream deep-water qualification and circular water-particle motion, instead of purely up-and-down motion.",
+  "authorization": "Author authorized applicable CC BY upstream correction backports across the remainder of Unit 1 and all of Unit 2, preserving adaptations and minimal prose.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42248"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream correction with local consistency checks"
+}
