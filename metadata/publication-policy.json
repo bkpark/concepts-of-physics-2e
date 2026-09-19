@@ -9,5 +9,8 @@
   "release_metadata": "metadata/release.json",
   "release_stage": "release-candidate",
   "known_exercise_numbering_exceptions": "reports/release-numbering-current.json",
-  "upstream_content_policy": "Do not incorporate or vendor CC BY-NC-SA content. Retain provenance links and factual identifiers only. Any future imported prose, MathML or media needs verified CC BY-compatible source-version provenance."
+  "upstream_content_policy": "Use only source versions compatible with CC BY 4.0. No NC or SA update sources or imports; check item-specific credits before incorporating prose, MathML or figures. Review changes before merging.",
+  "book_license": "CC-BY-4.0",
+  "upstream_update_reference": "metadata/upstream-cc-by-reference.json",
+  "historical_reference_copies_policy": "Author explicitly accepts prior NC/SA comparison copies remaining in Git history; do not rewrite history to purge them. They are not published textbook inputs."
 }

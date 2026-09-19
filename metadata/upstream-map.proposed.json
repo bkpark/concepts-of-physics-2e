@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "reference_commit": "fd1b25dfd5d8c6580c6e2b2b34a19e29cc69ada9",
-  "policy": "Historical attribution is evidence of direct legacy ancestry, not approval to merge. All College Physics 2e counterparts remain review candidates. Empty targets mean unresolved.",
+  "reference_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "policy": "Pinned CC BY 4.0 reference only. Historical ancestry and matching IDs are candidates, not content equivalence or approval to merge. Verify individual credits; exclude NC/SA material.",
   "mappings": [
     {
       "local_sections": [
@@ -5507,5 +5507,7 @@
         "pdf_sha256": "9f1fd756b7892eca543f1b57c4fae433fa9509361e3beb51d3c306eb3deb6120"
       }
     }
-  ]
+  ],
+  "previous_reference_commit": "fd1b25dfd5d8c6580c6e2b2b34a19e29cc69ada9",
+  "reference_manifest": "metadata/upstream-cc-by-reference.json"
 }

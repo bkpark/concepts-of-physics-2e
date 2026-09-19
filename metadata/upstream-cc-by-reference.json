@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "work": "College Physics 2e",
+  "repository": "https://github.com/openstax/osbooks-college-physics-bundle",
+  "commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "commit_date_utc": "2026-02-04T03:33:26Z",
+  "role": "Pinned CC BY 4.0 update reference; review required before incorporating changes",
+  "license": "CC-BY-4.0",
+  "verification": "LICENSE, README, collection declaration, and book preface agree. Immediate parent of the first repository LICENSE/README/preface NC-SA change. Latest unambiguous pre-change snapshot found in public repository history, not a separately identified PDF release.",
+  "license_change": {
+    "commit": "5182c46ee4854d84e3e35ea34e5ed0bef461b19b",
+    "date_utc": "2026-03-19T18:41:02Z",
+    "collection_metadata_followup": "9065107cf140924c253aae15e82f8f75cba401df",
+    "collection_metadata_followup_date_utc": "2026-04-23T15:34:53Z"
+  },
+  "evidence": [
+    {
+      "source_path": "LICENSE",
+      "local_path": "references/college-physics-2e-cc-by/LICENSE",
+      "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/f98d7a792138a6133fe7267d17e70aa04e9ccbed/LICENSE",
+      "sha256": "0ff174546cbe3dd1287da231f9796618ac2f6e6595b2d11f567b2c9790f64868"
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "references/college-physics-2e-cc-by/README.md",
+      "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/f98d7a792138a6133fe7267d17e70aa04e9ccbed/README.md",
+      "sha256": "05a6fb5935286e56ed152421c4f507df50e8c6bd2364c946040a91f1038362ff"
+    },
+    {
+      "source_path": "collections/college-physics-2e.collection.xml",
+      "local_path": "references/college-physics-2e-cc-by/collections/college-physics-2e.collection.xml",
+      "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/f98d7a792138a6133fe7267d17e70aa04e9ccbed/collections/college-physics-2e.collection.xml",
+      "sha256": "3d3cf2c93dddb3d55c61a1dcd09d6bae31e6ca7033b5e50081c818e28b4134b6"
+    },
+    {
+      "source_path": "modules/m42955/index.cnxml",
+      "local_path": "references/college-physics-2e-cc-by/modules/m42955/index.cnxml",
+      "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/f98d7a792138a6133fe7267d17e70aa04e9ccbed/modules/m42955/index.cnxml",
+      "sha256": "40583762c99c1469b2771d7f042f6ceaa3e75609d3ae2b0e391a2afd286e3253"
+    }
+  ],
+  "relativity_modules": [
+    {
+      "module_id": "m42525",
+      "title": "Introduction to Special Relativity",
+      "sha256": "12101416856bff341bc18d01f837cc7d83d4038f945e788687d58e1f9da8561d",
+      "recent_changes": [
+        {
+          "commit": "0ee2ad1adb6bb436caa9aa39c53a06d530f7c3b8",
+          "date": "2022-05-30T05:15:31Z",
+          "message": "git fetch"
+        },
+        {
+          "commit": "2a0fe59e6bbbbad740706f335fe87a665fc8a8f1",
+          "date": "2022-03-14T18:11:06Z",
+          "message": "single- and multiple-word redundant emphasis tags reduced"
+        },
+        {
+          "commit": "795290950ee5c8fb5a29a4960ce975f20e6a547d",
+          "date": "2021-11-04T20:19:22Z",
+          "message": "sync with archive cnx.org"
+        }
+      ]
+    },
+    {
+      "module_id": "m42528",
+      "title": "Einstein’s Postulates",
+      "sha256": "ae446ff2a34053fcc5b9bfeecbbb099563f4457cf378c1f0176c23621456b6c0",
+      "recent_changes": [
+        {
+          "commit": "43a80b1621232bce6e4e07cd9f1938501918a312",
+          "date": "2022-06-29T20:11:09Z",
+          "message": "removed aplos"
+        },
+        {
+          "commit": "5cef8b42f5a3e2702bb715444633441975fe5b19",
+          "date": "2022-06-17T15:03:44Z",
+          "message": "git fetch"
+        },
+        {
+          "commit": "c5539b5f86ee3268bb2b181ce2a0be603baa698f",
+          "date": "2022-05-10T22:28:53Z",
+          "message": "overline superscript revision, empty ending mrow deletion"
+        },
+        {
+          "commit": "597168d0f8ac442c79a61a8202db3257f5b0abe0",
+          "date": "2022-04-05T20:59:04Z",
+          "message": "Before migration"
+        },
+        {
+          "commit": "e5f5869204942c3752045eb555204e307c6a2cd0",
+          "date": "2022-03-15T04:11:09Z",
+          "message": "added remaining test prep for ap courses exercises to original flavor college physics content"
+        }
+      ]
+    },
+    {
+      "module_id": "m42531",
+      "title": "Simultaneity And Time Dilation",
+      "sha256": "adfdd5341307b9699a93f5dbe5fc0e02bf0f171954757eb42249d95a99d287af",
+      "recent_changes": [
+        {
+          "commit": "949cdcd94269aaee6a5bb042cd7fc56addda3591",
+          "date": "2023-09-17T02:30:07Z",
+          "message": "errata 22075"
+        },
+        {
+          "commit": "c5539b5f86ee3268bb2b181ce2a0be603baa698f",
+          "date": "2022-05-10T22:28:53Z",
+          "message": "overline superscript revision, empty ending mrow deletion"
+        },
+        {
+          "commit": "597168d0f8ac442c79a61a8202db3257f5b0abe0",
+          "date": "2022-04-05T20:59:04Z",
+          "message": "Before migration"
+        },
+        {
+          "commit": "e5f5869204942c3752045eb555204e307c6a2cd0",
+          "date": "2022-03-15T04:11:09Z",
+          "message": "added remaining test prep for ap courses exercises to original flavor college physics content"
+        },
+        {
+          "commit": "0af2b37751cbd73d7f7f070f6a003ffcb3e65e0b",
+          "date": "2022-03-14T21:48:54Z",
+          "message": "moved learning objectives from metadata summary to section with class"
+        }
+      ]
+    },
+    {
+      "module_id": "m42535",
+      "title": "Length Contraction",
+      "sha256": "eb2da508ac0884f8fa4a52f78011c6c00250b8631b86a2e06b10b3f95dd5e56b",
+      "recent_changes": [
+        {
+          "commit": "9c49e93637a03b5a20ce35f0bc990bf579caaec1",
+          "date": "2022-05-24T20:19:56Z",
+          "message": "More small MathML QA edits"
+        },
+        {
+          "commit": "a4ee09c2584a92420577fe6eec12e3f34a859251",
+          "date": "2022-05-24T14:54:24Z",
+          "message": "Small MathML Validation QA edits"
+        },
+        {
+          "commit": "c5539b5f86ee3268bb2b181ce2a0be603baa698f",
+          "date": "2022-05-10T22:28:53Z",
+          "message": "overline superscript revision, empty ending mrow deletion"
+        },
+        {
+          "commit": "a0893a959daf29db590e3497c2bfadee3b15c000",
+          "date": "2022-04-05T22:59:45Z",
+          "message": "mathml3 validation cleanup"
+        },
+        {
+          "commit": "597168d0f8ac442c79a61a8202db3257f5b0abe0",
+          "date": "2022-04-05T20:59:04Z",
+          "message": "Before migration"
+        }
+      ]
+    },
+    {
+      "module_id": "m42540",
+      "title": "Relativistic Addition of Velocities",
+      "sha256": "8ef49253b8789fb48c356f5dbd0b04a7b4e743d143c5624754db95cc058c2886",
+      "recent_changes": [
+        {
+          "commit": "a90746db7ed55a0bde59d89c813aac627bf05c92",
+          "date": "2022-05-25T14:34:16Z",
+          "message": "Line spacing for a solution"
+        },
+        {
+          "commit": "9c49e93637a03b5a20ce35f0bc990bf579caaec1",
+          "date": "2022-05-24T20:19:56Z",
+          "message": "More small MathML QA edits"
+        },
+        {
+          "commit": "a4ee09c2584a92420577fe6eec12e3f34a859251",
+          "date": "2022-05-24T14:54:24Z",
+          "message": "Small MathML Validation QA edits"
+        },
+        {
+          "commit": "c5539b5f86ee3268bb2b181ce2a0be603baa698f",
+          "date": "2022-05-10T22:28:53Z",
+          "message": "overline superscript revision, empty ending mrow deletion"
+        },
+        {
+          "commit": "12e04fc94f42cf90588aecccecbdbfe3983f914b",
+          "date": "2022-04-14T19:09:27Z",
+          "message": "errata ID 19462"
+        }
+      ]
+    },
+    {
+      "module_id": "m42542",
+      "title": "Relativistic Momentum",
+      "sha256": "c8dc39cbccca598c448e60e4071aa8bcb3f744a868c4cb308d21635ca760d01b",
+      "recent_changes": [
+        {
+          "commit": "3eec1f72f0455805b846181f0bb388a4340a816b",
+          "date": "2022-07-19T20:47:14Z",
+          "message": "intro link revision"
+        },
+        {
+          "commit": "c5539b5f86ee3268bb2b181ce2a0be603baa698f",
+          "date": "2022-05-10T22:28:53Z",
+          "message": "overline superscript revision, empty ending mrow deletion"
+        },
+        {
+          "commit": "597168d0f8ac442c79a61a8202db3257f5b0abe0",
+          "date": "2022-04-05T20:59:04Z",
+          "message": "Before migration"
+        },
+        {
+          "commit": "e5f5869204942c3752045eb555204e307c6a2cd0",
+          "date": "2022-03-15T04:11:09Z",
+          "message": "added remaining test prep for ap courses exercises to original flavor college physics content"
+        },
+        {
+          "commit": "0af2b37751cbd73d7f7f070f6a003ffcb3e65e0b",
+          "date": "2022-03-14T21:48:54Z",
+          "message": "moved learning objectives from metadata summary to section with class"
+        }
+      ]
+    },
+    {
+      "module_id": "m42546",
+      "title": "Relativistic Energy",
+      "sha256": "3cc10abd13c4eb7084c1eea076b4affe782817cf31ad9880afa56eca9e30dae9",
+      "recent_changes": [
+        {
+          "commit": "9919f752061d7e6f0c9a6b30ceca0ed199428ab7",
+          "date": "2022-12-14T21:11:07Z",
+          "message": "formatting"
+        },
+        {
+          "commit": "3eec1f72f0455805b846181f0bb388a4340a816b",
+          "date": "2022-07-19T20:47:14Z",
+          "message": "intro link revision"
+        },
+        {
+          "commit": "c25eba5f2b240ed75239bc479636380d58955911",
+          "date": "2022-07-07T15:37:53Z",
+          "message": "construct your own problem formatting"
+        },
+        {
+          "commit": "10906638805960f4c9ee21e7c7d07055ce703907",
+          "date": "2022-06-10T12:30:46Z",
+          "message": "git fetch"
+        },
+        {
+          "commit": "2fbda83848a83dbc5ed16345e8a0b61659a90eca",
+          "date": "2022-06-07T13:37:08Z",
+          "message": "git fetch"
+        }
+      ]
+    }
+  ],
+  "reuse_policy": "No automatic imports. Verify per-item credits and exceptions; exclude any NC, SA, ND or otherwise incompatible material. Preserve attribution and identify changes. Never fetch floating main as an update source.",
+  "archive": {
+    "url": "https://codeload.github.com/openstax/osbooks-college-physics-bundle/tar.gz/f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+    "local_path": "output/upstream/college-physics-2e-cc-by/f98d7a792138a6133fe7267d17e70aa04e9ccbed.tar.gz",
+    "bytes": 422332670,
+    "sha256": "62a1b3545388115220058b88edfd3a0b84fb5a2f651cb0a1c47052cb9dd80f2d",
+    "committed_to_git": false
+  },
+  "screening": {
+    "collection_modules_present": 283,
+    "explicit_restrictive_license_text_matches": [],
+    "scope": "Automated text screening only; individual image credits and external resources still require review."
+  }
+}

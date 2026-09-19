@@ -1,12 +1,12 @@
 """Enrich draft mappings with historical PDF evidence; never auto-approve matches."""
 from pathlib import Path
-import json
+import json, xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[2]
 path=ROOT/'metadata/upstream-map.proposed.json'
 data=json.loads(path.read_text(encoding='utf-8'))
 attribution=json.loads((ROOT/'references/cnx-12.1-module-attributions.json').read_text(encoding='utf-8'))
 records={r['module_id']:r for r in attribution['modules']}
-upstream=set(json.loads((ROOT/'references/college-physics-2e-identifiers.json').read_text(encoding='utf-8'))['module_ids'])
+upstream={e.get('document') for e in ET.parse(ROOT/'references/college-physics-2e-cc-by/collections/college-physics-2e.collection.xml').getroot().iter() if e.tag.endswith('}module')}
 for row in data['mappings']:
     if len(row['local_sections'])!=1:continue
     mid=row['local_sections'][0].split(':')[1]
@@ -20,7 +20,7 @@ for row in data['mappings']:
             evidence=f"Historical PDF page(s) {record['pdf_pages']} directly attributes legacy {parent['module_id']}/{parent['legacy_version']}; ID also occurs in pinned 2e collection. Later-version correspondence remains a candidate."
             if evidence not in row['evidence']:row['evidence'].append(evidence)
             row['status']='candidate'
-data['policy']='Historical attribution is evidence of direct legacy ancestry, not approval to merge. All College Physics 2e counterparts remain review candidates. Empty targets mean unresolved.'
+# Preserve the pinned reference and license policy recorded in the mapping manifest.
 path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print('Mappings with candidates:',sum(bool(r['upstream_sections']) for r in data['mappings']))
 print('Historical attribution records:',sum('historical_attribution' in r for r in data['mappings']))

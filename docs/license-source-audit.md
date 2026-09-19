@@ -50,3 +50,7 @@ Do not import CC BY-NC-SA content. Future comparison work may record provenance,
 identify factual corrections, and propose independently authored repairs; imported
 wording, MathML, or media requires verified CC BY-compatible source-version
 provenance. The 2e identifier mappings are review aids, not permission to reuse.
+
+The author subsequently confirmed that the removed NC/SA reference copies may remain
+in historical commits. Do not purge history. The update source is now the separately
+verified CC BY 4.0 snapshot documented in [the reference report](upstream-cc-by-reference.md).

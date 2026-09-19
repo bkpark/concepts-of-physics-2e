@@ -80,3 +80,10 @@ Its copied reference XML files have been removed from the current tree; only
 identifiers, provenance links, and checksums remain. They are not textbook build
 inputs. Future imports must have verified CC BY-compatible provenance. See
 [the license-source audit](docs/license-source-audit.md), including the Git-history limitation.
+
+## Upstream updates
+
+Updates are reviewed against the last unambiguous CC BY 4.0 College Physics 2e
+source snapshot found in the public Git history: `f98d7a792138a6133fe7267d17e70aa04e9ccbed`
+(February 4, 2026). See [snapshot evidence and relativity findings](docs/upstream-cc-by-reference.md).
+Do not import NC- or SA-restricted material or use a floating upstream branch.
