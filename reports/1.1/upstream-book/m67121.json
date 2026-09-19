@@ -1,0 +1,61 @@
+{
+  "module": "m67121",
+  "title": "Introduction to Thermal Physics",
+  "slug": "introduction-to-thermal-physics",
+  "local_sha256": "62a94454de9116fc42f35a4a6c06515299377683c5e452e0a9951b7bc34f3abe",
+  "upstream_modules": [
+    "m42213"
+  ],
+  "counts": {
+    "prose": 1,
+    "accessibility": 1,
+    "media": 1
+  },
+  "changes": [
+    {
+      "id": "UP-c23fd11d612c37d9",
+      "kind": "prose",
+      "local_module": "m67121",
+      "upstream_module": "m42213",
+      "source_id": "import-auto-id1328173",
+      "status": "unreviewed-difference",
+      "local": "Heat is something familiar to each of us. We feel the warmth of the summer Sun, the chill of a clear summer night, the heat of coffee after a winter stroll, and the cooling effect of our sweat. Heat transfer is maintained by temperature differences. Manifestations of heat transfer—the movement of heat energy from one place or material to another—are apparent throughout the universe. Heat from beneath Earth’s surface is brought to the surface in flows of incandescent lava. The Sun warms Earth’s surface and is the source of much of the energy we find on it. Rising levels of atmospheric carbon dioxide threaten to trap more of the Sun’s energy, perhaps fundamentally altering the ecosphere. In space, supernovas explode, briefly radiating more heat than an entire galaxy does.",
+      "upstream": "Heat is something familiar to each of us. We feel the warmth of the summer Sun, the chill of a clear summer night, the heat of coffee after a winter stroll, and the cooling effect of our sweat. Manifestations of heat transfer—the movement of heat energy from one place or material to another—are apparent throughout the universe. Heat from beneath Earth’s surface is brought to the surface in flows of incandescent lava. The Sun warms Earth’s surface and is the source of much of the energy we find on it. Rising levels of atmospheric carbon dioxide threaten to trap more of the Sun’s energy, perhaps fundamentally altering the ecosphere. In space, supernovas explode, briefly radiating more heat than an entire galaxy does.",
+      "local_html": "Heat is something familiar to each of us. We feel the warmth of the summer Sun, the chill of a clear summer night, the heat of coffee after a winter stroll, and the cooling effect of our sweat. Heat transfer is maintained by temperature differences. Manifestations of heat transfer—the movement of heat energy from one place or material to another—are apparent throughout the universe. Heat from beneath Earth’s surface is brought to the surface in flows of incandescent lava. The Sun warms Earth’s surface and is the source of much of the energy we find on it. Rising levels of atmospheric carbon dioxide threaten to trap more of the Sun’s energy, perhaps fundamentally altering the ecosphere. In space, supernovas explode, briefly radiating more heat than an entire galaxy does.",
+      "upstream_html": "Heat is something familiar to each of us. We feel the warmth of the summer Sun, the chill of a clear summer night, the heat of coffee after a winter stroll, and the cooling effect of our sweat. Manifestations of heat transfer—the movement of heat energy from one place or material to another—are apparent throughout the universe. Heat from beneath Earth’s surface is brought to the surface in flows of incandescent lava. The Sun warms Earth’s surface and is the source of much of the energy we find on it. Rising levels of atmospheric carbon dioxide threaten to trap more of the Sun’s energy, perhaps fundamentally altering the ecosphere. In space, supernovas explode, briefly radiating more heat than an entire galaxy does.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5990c1b11744b0c0",
+      "kind": "accessibility",
+      "local_module": "m67121",
+      "upstream_module": "m42213",
+      "source_id": "import-auto-id1426851",
+      "status": "unreviewed-difference",
+      "local": "Photograph of a welder wearing protective gloves and helmet, engaged in the task of welding.",
+      "upstream": "A person wearing a coverall and face mask attaches a rectangular panel to a wall.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-bb890175f8bc6c5c",
+      "kind": "media",
+      "local_module": "m67121",
+      "upstream_module": "m42213",
+      "source_id": "import-auto-id1426851",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure_14_00_01_D.jpg",
+        "sha256": "bca8f5130406385534231c8edf5d7ca73acf68f1bb3d15cfa251d0837d9e3f38"
+      },
+      "upstream": {
+        "path": "../../media/OSX_CP2e_Figure_14_00_01.jpg",
+        "sha256": "ed7335ea0e03396bedd89cf2684e2e1016bddb61859c70b88058436061ccca2c"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    }
+  ]
+}

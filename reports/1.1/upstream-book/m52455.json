@@ -1,0 +1,137 @@
+{
+  "module": "m52455",
+  "title": "Dispersion: The Rainbow and Prisms",
+  "slug": "dispersion-the-rainbow-and-prisms",
+  "local_sha256": "ae5f20a0965968ae723c8bda4fced11cb37591b202284b21f456db51ff01fb83",
+  "upstream_modules": [
+    "m42466"
+  ],
+  "counts": {
+    "prose": 2,
+    "references": 2,
+    "math-markup-change": 3
+  },
+  "changes": [
+    {
+      "id": "UP-1dbb15f48406887c",
+      "kind": "prose",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "eip-647",
+      "status": "unreviewed-difference",
+      "local": "Everyone enjoys the spectacle of a rainbow glimmering against a dark stormy sky. How does sunlight falling on clear drops of rain get broken into the rainbow of colors we see? The same process causes white light to be broken into colors by a clear glass prism or a diamond. (See .)",
+      "upstream": "Everyone enjoys the spectacle and surprise of rainbows. They’ve been hailed as symbols of hope and spirituality and are the subject of stories and myths across the world’s cultures. Just how does sunlight falling on water droplets cause the multicolored image we see, and what else does this phenomenon tell us about light, color, and radiation? Working in his native Persia (now Iran), Kamal al-Din Hasan ibn Ali ibn Hasan al-Farisi (1267–1319) designed a series of innovative experiments to answer this question and clarify the explanations of many earlier scientists. At that time, there were no microscopes to examine tiny drops of water similar to those in the atmosphere, so Farisi created an enormous drop of water. He filled a large glass vessel with water and placed it inside a camera obscura, in which he could carefully control the entry of light. Using a series of careful observations on the resulting multicolored spectra of light, he deduced and confirmed that the droplets split—or decompose—white light into the colors of the rainbow. Farisi’s contemporary, Theodoric of Freiberg (in Germany), performed similar experiments using other equipment. Both relied on the prior work of Ibn al-Haytham, often known as the founder of optics and among the first to formalize a scientific method.",
+      "local_html": "Everyone enjoys the spectacle of a rainbow glimmering against a dark stormy sky. How does sunlight falling on clear drops of rain get broken into the rainbow of colors we see? The same process causes white light to be broken into colors by a clear glass prism or a diamond. (See <span class=\"muted\">[reference]</span>.)",
+      "upstream_html": "Everyone enjoys the spectacle and surprise of rainbows. They’ve been hailed as symbols of hope and spirituality and are the subject of stories and myths across the world’s cultures. Just how does sunlight falling on water droplets cause the multicolored image we see, and what else does this phenomenon tell us about light, color, and radiation? Working in his native Persia (now Iran), Kamal al-Din Hasan ibn Ali ibn Hasan al-Farisi (1267–1319) designed a series of innovative experiments to answer this question and clarify the explanations of many earlier scientists. At that time, there were no microscopes to examine tiny drops of water similar to those in the atmosphere, so Farisi created an enormous drop of water. He filled a large glass vessel with water and placed it inside a camera obscura, in which he could carefully control the entry of light. Using a series of careful observations on the resulting multicolored spectra of light, he deduced and confirmed that the droplets split—or decompose—white light into the colors of the rainbow. Farisi’s contemporary, Theodoric of Freiberg (in Germany), performed similar experiments using other equipment. Both relied on the prior work of Ibn al-Haytham, often known as the founder of optics and among the first to formalize a scientific method.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5844cc5f0e927115",
+      "kind": "references",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "eip-647",
+      "status": "unreviewed-difference",
+      "local": [
+        {
+          "target-id": "import-auto-id3204328"
+        }
+      ],
+      "upstream": [],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-e0a5037dd6eff6e9",
+      "kind": "prose",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "import-auto-id2723783",
+      "status": "unreviewed-difference",
+      "local": "Refraction is responsible for dispersion in rainbows and many other situations. The angle of refraction depends on the index of refraction. We know that the index of refraction [MATH] depends on the medium. But for a given medium, [MATH] also depends on wavelength. (See . Note that, for a given medium, [MATH] increases as wavelength decreases and is greatest for violet light. Thus violet light is bent more than red light, as shown for a prism in (b), and the light is dispersed into the same sequence of wavelengths as seen in and .",
+      "upstream": "Refraction is responsible for dispersion in rainbows and many other situations. The angle of refraction depends on the index of refraction, as we saw in The Law of Refraction. We know that the index of refraction [MATH] depends on the medium. But for a given medium, [MATH] also depends on wavelength. (See . Note that, for a given medium, [MATH] increases as wavelength decreases and is greatest for violet light. Thus violet light is bent more than red light, as shown for a prism in (b), and the light is dispersed into the same sequence of wavelengths as seen in and .",
+      "local_html": "Refraction is responsible for dispersion in rainbows and many other situations. The angle of refraction depends on the index of refraction. We know that the index of refraction <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math> depends on the medium. But for a given medium, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math> also depends on wavelength. (See <span class=\"muted\">[reference]</span>. Note that, for a given medium, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math> increases as wavelength decreases and is greatest for violet light. Thus violet light is bent more than red light, as shown for a prism in <span class=\"muted\">[reference]</span>(b), and the light is dispersed into the same sequence of wavelengths as seen in <span class=\"muted\">[reference]</span> and <span class=\"muted\">[reference]</span>.",
+      "upstream_html": "Refraction is responsible for dispersion in rainbows and many other situations. The angle of refraction depends on the index of refraction, as we saw in The Law of Refraction. We know that the index of refraction <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math> depends on the medium. But for a given medium, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math> also depends on wavelength. (See <span class=\"muted\">[reference]</span>. Note that, for a given medium, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math> increases as wavelength decreases and is greatest for violet light. Thus violet light is bent more than red light, as shown for a prism in <span class=\"muted\">[reference]</span>(b), and the light is dispersed into the same sequence of wavelengths as seen in <span class=\"muted\">[reference]</span> and <span class=\"muted\">[reference]</span>.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-48ab45f823de3336",
+      "kind": "references",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "import-auto-id2723783",
+      "status": "unreviewed-difference",
+      "local": [
+        {
+          "target-id": "import-auto-id2720898"
+        },
+        {
+          "target-id": "import-auto-id2600469"
+        },
+        {
+          "target-id": "import-auto-id3204328"
+        },
+        {
+          "target-id": "import-auto-id2723044"
+        }
+      ],
+      "upstream": [
+        {
+          "document": "m42459"
+        },
+        {
+          "target-id": "import-auto-id2720898"
+        },
+        {
+          "target-id": "import-auto-id2600469"
+        },
+        {
+          "target-id": "import-auto-id3204328"
+        },
+        {
+          "target-id": "import-auto-id2723044"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-89f2aa54d8f7ee9e",
+      "kind": "math-markup-change",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "import-auto-id2723783@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5cd04ca0eaff7578",
+      "kind": "math-markup-change",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "import-auto-id2723783@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-14294e4e69dab055",
+      "kind": "math-markup-change",
+      "local_module": "m52455",
+      "upstream_module": "m42466",
+      "source_id": "import-auto-id2723783@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

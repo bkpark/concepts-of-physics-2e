@@ -1,0 +1,38 @@
+{
+  "id": "UP-40714ecd1e5a386a",
+  "status": "applied-author-directed",
+  "authorization": "Standing author instruction to backport all applicable CC BY upstream corrections; minimal exact upstream changes only.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71585",
+  "source_object": "import-auto-id2962769",
+  "source_path": "maintained/modules/m71585/index.cnxml",
+  "source_sha256": "baab9d2c5c7dc693a46d0899aa24468af0a0588b2e19f9b37ba4b0b39596ad52",
+  "after_sha256": "d6910e5a31dc58390c5a9b6d6a2ca848a034f21175db05168f9ea48d84c3c3a6",
+  "upstream_module": "m42242",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "f44afd50cf9b2198fb13ed1fb836b75b8c9157c5cfb1a43933184003745744a9",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Close an unmatched quotation mark.",
+  "before": "<para id=\"import-auto-id2962769\">If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in <link target-id=\"import-auto-id1352637\"/>. Similarly, <link target-id=\"import-auto-id1177267\"/> shows an object bouncing on a spring as it leaves a wavelike \"trace of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.</para>",
+  "after": "<para id=\"import-auto-id2962769\">If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in <link target-id=\"import-auto-id1352637\"/>. Similarly, <link target-id=\"import-auto-id1177267\"/> shows an object bouncing on a spring as it leaves a wavelike \"trace\" of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.</para>",
+  "substitutions": [
+    [
+      "\"trace of its position",
+      "\"trace\" of its position"
+    ]
+  ],
+  "original_candidate": {
+    "id": "UP-40714ecd1e5a386a",
+    "kind": "prose",
+    "local_module": "m71585",
+    "upstream_module": "m42242",
+    "source_id": "import-auto-id2962769",
+    "status": "unreviewed-difference",
+    "local": "If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in . Similarly, shows an object bouncing on a spring as it leaves a wavelike \"trace of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.",
+    "upstream": "If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in . Similarly, shows an object bouncing on a spring as it leaves a wavelike \"trace\" of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.",
+    "local_html": "If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in <span class=\"muted\">[reference]</span>. Similarly, <span class=\"muted\">[reference]</span> shows an object bouncing on a spring as it leaves a wavelike &quot;trace of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.",
+    "upstream_html": "If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in <span class=\"muted\">[reference]</span>. Similarly, <span class=\"muted\">[reference]</span> shows an object bouncing on a spring as it leaves a wavelike &quot;trace&quot; of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.",
+    "exercise_context": false,
+    "credit_review_required": false
+  }
+}

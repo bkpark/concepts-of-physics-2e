@@ -1,0 +1,38 @@
+{
+  "id": "UP-31d755d3e04d9c8d",
+  "status": "applied-author-directed",
+  "authorization": "Standing author instruction to backport all applicable CC BY upstream corrections; minimal exact upstream changes only.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m76584",
+  "source_object": "import-auto-id2382456",
+  "source_path": "maintained/modules/m76584/index.cnxml",
+  "source_sha256": "e7837450ce55865fb70f479d9f94c48c85e68d817301d0e7d0c72ded3de531e8",
+  "after_sha256": "d56c879845fa69dd9a60ad85a396f097e7b99f34a36f4b567ebf06de4f733658",
+  "upstream_module": "m42623",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "e497f1fe6aa2b1f3eb6a3e0f76dbd07bd4db9793c6c97df3a049606575d172dc",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Correct the radioactive element used in luminous paint; no new material or figure imported.",
+  "before": "<para id=\"import-auto-id2382456\">The discovery and study of nuclear radioactivity quickly revealed evidence of revolutionary new physics. In addition, uses for nuclear radiation also emerged quickly—for example, people such as Ernest Rutherford used it to determine the size of the nucleus and devices were painted with radon-doped paint to make them glow in the dark (see <link target-id=\"import-auto-id3209830\"/>). We therefore begin our study of nuclear physics with the discovery and basic features of nuclear radioactivity.</para>",
+  "after": "<para id=\"import-auto-id2382456\">The discovery and study of nuclear radioactivity quickly revealed evidence of revolutionary new physics. In addition, uses for nuclear radiation also emerged quickly—for example, people such as Ernest Rutherford used it to determine the size of the nucleus and devices were painted with radium-doped paint to make them glow in the dark (see <link target-id=\"import-auto-id3209830\"/>). We therefore begin our study of nuclear physics with the discovery and basic features of nuclear radioactivity.</para>",
+  "substitutions": [
+    [
+      "radon-doped",
+      "radium-doped"
+    ]
+  ],
+  "original_candidate": {
+    "id": "UP-31d755d3e04d9c8d",
+    "kind": "prose",
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "source_id": "import-auto-id2382456",
+    "status": "unreviewed-difference",
+    "local": "The discovery and study of nuclear radioactivity quickly revealed evidence of revolutionary new physics. In addition, uses for nuclear radiation also emerged quickly—for example, people such as Ernest Rutherford used it to determine the size of the nucleus and devices were painted with radon-doped paint to make them glow in the dark (see ). We therefore begin our study of nuclear physics with the discovery and basic features of nuclear radioactivity.",
+    "upstream": "The discovery and study of nuclear radioactivity quickly revealed evidence of revolutionary new physics. In addition, uses for nuclear radiation also emerged quickly—for example, people such as Ernest Rutherford used it to determine the size of the nucleus and devices were painted with radium-doped paint to make them glow in the dark (see ). We therefore begin our study of nuclear physics with the discovery and basic features of nuclear radioactivity.",
+    "local_html": "The discovery and study of nuclear radioactivity quickly revealed evidence of revolutionary new physics. In addition, uses for nuclear radiation also emerged quickly—for example, people such as Ernest Rutherford used it to determine the size of the nucleus and devices were painted with radon-doped paint to make them glow in the dark (see <span class=\"muted\">[reference]</span>). We therefore begin our study of nuclear physics with the discovery and basic features of nuclear radioactivity.",
+    "upstream_html": "The discovery and study of nuclear radioactivity quickly revealed evidence of revolutionary new physics. In addition, uses for nuclear radiation also emerged quickly—for example, people such as Ernest Rutherford used it to determine the size of the nucleus and devices were painted with radium-doped paint to make them glow in the dark (see <span class=\"muted\">[reference]</span>). We therefore begin our study of nuclear physics with the discovery and basic features of nuclear radioactivity.",
+    "exercise_context": false,
+    "credit_review_required": false
+  }
+}

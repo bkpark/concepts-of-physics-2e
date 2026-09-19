@@ -1,0 +1,38 @@
+{
+  "id": "UP-385194d5bb2ba273",
+  "status": "applied-author-directed",
+  "authorization": "Standing author instruction to backport all applicable CC BY upstream corrections; minimal exact upstream changes only.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71407",
+  "source_object": "import-auto-id1752774",
+  "source_path": "maintained/modules/m71407/index.cnxml",
+  "source_sha256": "02492dbdee98976673690a697854cf64d7dbde102720036da75ef0f4c0868bb0",
+  "after_sha256": "e75a6b221c41cdb5a6e0ee24897ea6dd761350f99c825af43fca4751432b212e",
+  "upstream_module": "m42096",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "90008884320246bf8e6ae0de83df704ec31982be63c96e22663f1d0fe6a48282",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Clarify scalar distance comparison with displacement magnitude, exactly as upstream.",
+  "before": "<para id=\"import-auto-id1752774\">We have noted that distance traveled can be greater than displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is <emphasis effect=\"italics\">not</emphasis> simply the magnitude of average velocity.</para>",
+  "after": "<para id=\"import-auto-id1752774\">We have noted that distance traveled can be greater than the magnitude of displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is <emphasis effect=\"italics\">not</emphasis> simply the magnitude of average velocity.</para>",
+  "substitutions": [
+    [
+      "greater than displacement",
+      "greater than the magnitude of displacement"
+    ]
+  ],
+  "original_candidate": {
+    "id": "UP-385194d5bb2ba273",
+    "kind": "prose",
+    "local_module": "m71407",
+    "upstream_module": "m42096",
+    "source_id": "import-auto-id1752774",
+    "status": "unreviewed-difference",
+    "local": "We have noted that distance traveled can be greater than displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is not simply the magnitude of average velocity.",
+    "upstream": "We have noted that distance traveled can be greater than the magnitude of displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is not simply the magnitude of average velocity.",
+    "local_html": "We have noted that distance traveled can be greater than displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is <em>not</em> simply the magnitude of average velocity.",
+    "upstream_html": "We have noted that distance traveled can be greater than the magnitude of displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is <em>not</em> simply the magnitude of average velocity.",
+    "exercise_context": false,
+    "credit_review_required": false
+  }
+}

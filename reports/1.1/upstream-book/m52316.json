@@ -1,0 +1,137 @@
+{
+  "module": "m52316",
+  "title": "Vectors, Scalars, and Coordinate Systems",
+  "slug": "vectors-scalars-and-coordinate-systems",
+  "local_sha256": "bb8a17e22a489ca3b2dd09323997f6aa6f469c9fc959684f2c0185811b3b75c8",
+  "upstream_modules": [
+    "m42124"
+  ],
+  "counts": {
+    "prose": 1,
+    "math-markup-change": 9
+  },
+  "changes": [
+    {
+      "id": "UP-4c264f6ef6910654",
+      "kind": "prose",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1731331",
+      "status": "unreviewed-difference",
+      "local": "A person’s speed can stay the same as he or she rounds a corner and changes direction. Given this information, is speed a scalar or a vector quantity? Explain.",
+      "upstream": "A person’s speed can stay the same as they round a corner and changes direction. Given this information, is speed a scalar or a vector quantity? Explain.",
+      "local_html": "A person’s speed can stay the same as he or she rounds a corner and changes direction. Given this information, is speed a scalar or a vector quantity? Explain.",
+      "upstream_html": "A person’s speed can stay the same as they round a corner and changes direction. Given this information, is speed a scalar or a vector quantity? Explain.",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b881f650b23703a6",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1354682@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>20ºC</mtext></mrow></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>20ºC</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3d1a3ee3c7e58607",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1354682@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mtext>20ºC</mtext></mrow></mrow></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mtext>20ºC</mtext></mrow></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-049348bf1770bf0d",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1611951@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mn>5ºC</mn></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mn>5ºC</mn></mrow></mrow></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-872a66ff76c4e87b",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1730117@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo></mrow><mrow><mtext mathvariant=\"italic\">10</mtext></mrow><mspace width=\"0.25em\" /><mrow><mi>m</mi><mo stretchy=\"false\">/</mo><mi>s</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo></mrow><mrow><mtext mathvariant=\"italic\">10</mtext></mrow><mspace width=\"0.25em\" /><mrow><mi>m</mi><mo stretchy=\"false\">/</mo><mi>s</mi></mrow></mrow></mrow><mrow /></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3c36caef23363c3d",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1758074@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">+</mo><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">+</mo><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-76b2057a163861cb",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1758074@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">−</mo><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">−</mo><mo stretchy=\"false\">)</mo></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-86dbbe4a81743415",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id1778274@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>x</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>x</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-607b176bf60cd9bc",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id952090@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">+</mo><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">+</mo><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-66ce90fe950e3341",
+      "kind": "math-markup-change",
+      "local_module": "m52316",
+      "upstream_module": "m42124",
+      "source_id": "import-auto-id952090@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">−</mo><mo stretchy=\"false\">)</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">−</mo><mo stretchy=\"false\">)</mo></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "module": "m42525",
+  "title": "Introduction to Special Relativity",
+  "slug": "introduction-to-special-relativity",
+  "local_sha256": "1707d80695624a7ccf6134d51b04f1c02c6758b69daf9529a6cb21eded218177",
+  "upstream_modules": [
+    "m42525"
+  ],
+  "counts": {
+    "accessibility": 1,
+    "media": 2
+  },
+  "changes": [
+    {
+      "id": "UP-591762fa9ffff137",
+      "kind": "accessibility",
+      "local_module": "m42525",
+      "upstream_module": "m42525",
+      "source_id": "fs-id3083852",
+      "status": "unreviewed-difference",
+      "local": "Night sky with bright Orion Nebula cluster in the center amongst the group of stars.",
+      "upstream": "A shark floats on a net in a containment unit with two people in wet suits nearby. A tracking device is attached to the dorsal fin of the shark.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-dd807892679c9902",
+      "kind": "media",
+      "local_module": "m42525",
+      "upstream_module": "m42525",
+      "source_id": "fs-id1959437",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure_29_00_02a.jpg",
+        "sha256": "32de4c96e5c2d69640c2c6d65c2ebb5cbe059968bf1f45dc411e9ab57207270d"
+      },
+      "upstream": {
+        "path": "../../media/Figure_29_00_02a.jpg",
+        "sha256": "9cd6789f00c9a8e496355de9f61c0b517f685f6d24d34af8aa2176b8114f4765"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    },
+    {
+      "id": "UP-d5799581911758cb",
+      "kind": "media",
+      "local_module": "m42525",
+      "upstream_module": "m42525",
+      "source_id": "fs-id3083852",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure_29_00_01a_D.jpg",
+        "sha256": "f5b465050cdfd379eaa3e6d73a357f19a4fdb681e6ad21c2f48119ce833ef45b"
+      },
+      "upstream": {
+        "path": "../../media/OSX_CP2e_Figure_29_00_01.jpg",
+        "sha256": "3e0753c1d004fe61c37833fc87db4b43b87b3d2fbd4f1de25d4afac82cf94ad6"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    }
+  ]
+}

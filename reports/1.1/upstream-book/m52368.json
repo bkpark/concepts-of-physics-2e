@@ -1,0 +1,250 @@
+{
+  "module": "m52368",
+  "title": "Heat",
+  "slug": "heat",
+  "local_sha256": "d4865d1e5af570cc04c15aee1079245057565e9c92538ef3cec7044dab59b8ca",
+  "upstream_modules": [
+    "m42223"
+  ],
+  "counts": {
+    "prose": 3,
+    "references": 2,
+    "math-markup-change": 12,
+    "math-token-change": 1
+  },
+  "changes": [
+    {
+      "id": "UP-0fd3002bf192f0b7",
+      "kind": "prose",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2436704",
+      "status": "unreviewed-difference",
+      "local": "We have defined work as force times distance and learned that work done on an object changes its kinetic energy. We have also seen that temperature is proportional to the (average) kinetic energy of atoms and molecules. We say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of heat: Heat is the spontaneous transfer of energy due to a temperature difference.",
+      "upstream": "In Work, Energy, and Energy Resources, we defined work as force times distance and learned that work done on an object changes its kinetic energy. We also saw in Temperature, Kinetic Theory, and the Gas Laws that temperature is proportional to the (average) kinetic energy of atoms and molecules. We say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of heat: Heat is the spontaneous transfer of energy due to a temperature difference.",
+      "local_html": "We have defined work as force times distance and learned that work done on an object changes its kinetic energy. \n\nWe have also seen that temperature is proportional to the (average) kinetic energy of atoms and molecules. \n\nWe say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of heat: Heat is the spontaneous transfer of energy due to a temperature difference. ",
+      "upstream_html": "In Work, Energy, and Energy Resources, we defined work as force times distance and learned that work done on an object changes its kinetic energy. We also saw in  Temperature, Kinetic Theory, and the Gas Laws that temperature is proportional to the (average) kinetic energy of atoms and molecules. We say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of heat: Heat is the spontaneous transfer of energy due to a temperature difference. ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8fad3a1c4f808492",
+      "kind": "references",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2436704",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        {
+          "document": "m42146"
+        },
+        {
+          "document": "m42214"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5121e463bdbd1abf",
+      "kind": "prose",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2444862",
+      "status": "unreviewed-difference",
+      "local": "Heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.",
+      "upstream": "As noted in Temperature, Kinetic Theory, and the Gas Laws, heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.",
+      "local_html": "Heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.",
+      "upstream_html": "As noted in Temperature, Kinetic Theory, and the Gas Laws, heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-cd6740905caf2d0f",
+      "kind": "references",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2444862",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        {
+          "document": "m42214"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3e66687d4a6021fe",
+      "kind": "prose",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2672011",
+      "status": "unreviewed-difference",
+      "local": "We consider this equation as the conversion between two different units of energy.",
+      "upstream": "We consider this equation as the conversion between two different units of energy, defining the 15 °C calorie. A slightly different but frequently seen conversion, 4184 J/kcal, uses the properties of water at 1 °C instead. This is known as the thermochemical calorie.",
+      "local_html": "We consider this equation as the conversion between two different units of energy.",
+      "upstream_html": "We consider this equation as the conversion between two different units of energy, defining the 15 °C calorie. A slightly different but frequently seen conversion, 4184 J/kcal, uses the properties of water at 1 °C instead. This is known as the thermochemical calorie.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d3eae352fb2c684e",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "fs-id3127474@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mspace width=\"0.25em\" /><mn>1</mn><mi /><mspace width=\"0.25em\" /><mtext>kilocalorie</mtext><mspace width=\"0.25em\" /><mtext>=</mtext><mspace width=\"0.25em\" /><mtext>1000</mtext><mi /><mspace width=\"0.25em\" /><mtext>calories</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mspace width=\"0.25em\" /><mn>1</mn><mi /><mspace width=\"0.25em\" /><mtext>kilocalorie</mtext><mspace width=\"0.25em\" /><mtext>=</mtext><mspace width=\"0.25em\" /><mtext>1000</mtext><mi /><mspace width=\"0.25em\" /><mtext>calories</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-0aea0ffb826f1410",
+      "kind": "math-token-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id1738243@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mtext>000</mtext><mi /><mrow><mspace width=\"0.25em\" /><mtext>kcal</mtext><mo stretchy=\"false\">=</mo><mtext>4186</mtext></mrow><mi /><mspace width=\"0.25em\" /><mtext>J</mtext><mtext>.</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1.000</mn><mspace width=\"0.25em\" /><mtext>kcal</mtext><mo stretchy=\"false\">=</mo><mn>4186</mn><mspace width=\"0.25em\" /><mtext>J.</mtext></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-cba3a3564db4f053",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2454069@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.00 kcal</mtext><mspace width=\"0.25em\" /><mo stretchy=\"false\">=</mo><mspace width=\"0.25em\" /><mtext>4186 J.</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mtext>.00 kcal</mtext><mspace width=\"0.25em\" /><mo stretchy=\"false\">=</mo><mspace width=\"0.25em\" /><mtext>4186 J.</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b43dd5c029325b87",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2674005@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.00ºC</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mtext>.00ºC</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-449e8a63ee69ca45",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2674005@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>14</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>14</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-58bc3b822af06688",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2674005@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>15</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>15</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-1eec06367cc9ff36",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2674005@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mtext>00ºC</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mtext>00ºC</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-1c2a1310a631d19e",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id2674005@5",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mspace width=\"0.25em\" /><mtext>kilocalorie</mtext><mspace width=\"0.25em\" /><mtext>=</mtext><mspace width=\"0.25em\" /><mtext>1000 calories</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mspace width=\"0.25em\" /><mtext>kilocalorie</mtext><mspace width=\"0.25em\" /><mtext>=</mtext><mspace width=\"0.25em\" /><mtext>1000 calories</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-202884169e0709f9",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id3062545@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>14</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>14</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-88ee0a8c69e61a77",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id3062545@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>15</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>15</mtext><mtext>.</mtext><mn>5ºC</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-920bf4e932b00cad",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id862880@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-6287bbad1a5061ed",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id862880@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>T</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>T</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-1c6c526b9e22272c",
+      "kind": "math-markup-change",
+      "local_module": "m52368",
+      "upstream_module": "m42223",
+      "source_id": "import-auto-id862880@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>T</mi><mo>′</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>T</mi><mo>′</mo></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

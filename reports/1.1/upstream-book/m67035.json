@@ -1,0 +1,318 @@
+{
+  "module": "m67035",
+  "title": "Centripetal Acceleration",
+  "slug": "centripetal-acceleration",
+  "local_sha256": "643fc5151bf3f30556c9599f1a0871487684acf0d1c7423ee1e4f203a308f964",
+  "upstream_modules": [
+    "m42084"
+  ],
+  "counts": {
+    "prose": 4,
+    "references": 1,
+    "math-token-change": 2,
+    "math-markup-change": 14,
+    "math-structure": 1,
+    "media": 1
+  },
+  "changes": [
+    {
+      "id": "UP-897aaa053ee0ad19",
+      "kind": "prose",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2422195",
+      "status": "unreviewed-difference",
+      "local": "shows an object moving in a circular path at constant speed, called uniform circular motion. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration( [MATH] ); centripetal means “toward the center” or “center seeking.”",
+      "upstream": "shows an object moving in a circular path at constant speed. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration( [MATH] ); centripetal means “toward the center” or “center seeking.”",
+      "local_html": "<span class=\"muted\">[reference]</span> shows an object moving in a circular path at constant speed, called uniform circular motion. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration(<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>); centripetal means “toward the center” or “center seeking.” ",
+      "upstream_html": "<span class=\"muted\">[reference]</span> shows an object moving in a circular path at constant speed. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration(<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math>); centripetal means “toward the center” or “center seeking.” ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2840f92302ff34e6",
+      "kind": "prose",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2429569",
+      "status": "unreviewed-difference",
+      "local": "which is the acceleration of an object in a circle of radius [MATH] at a speed [MATH] . Verify for yourself that [MATH] has unit of [MATH] , as expected for acceleration.",
+      "upstream": "which is the acceleration of an object in a circle of radius [MATH] at a speed [MATH] . So, centripetal acceleration is greater at high speeds and in sharp curves (smaller radius), as you have noticed when driving a car. But it is a bit surprising that [MATH] is proportional to speed squared, implying, for example, that it is four times as hard to take a curve at 100 km/h than at 50 km/h. A sharp corner has a small radius, so that [MATH] is greater for tighter turns, as you have probably noticed.",
+      "local_html": "which is the acceleration of an object in a circle of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>r</mi></mrow><mrow /></mrow></mrow></math> at a speed <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math>. Verify for yourself that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow></math> has unit of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>m</mtext><mo stretchy=\"false\">/</mo><msup><mtext>s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>, as expected for acceleration.",
+      "upstream_html": "which is the acceleration of an object in a circle of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi></mrow></mrow></math> at a speed <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>. So, centripetal acceleration is greater at high speeds and in sharp curves  (smaller radius), as you have noticed when driving a car. But it is a bit surprising that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math> is proportional to speed squared, implying, for example, that it is four times as hard to take a curve at 100 km/h than at 50 km/h. A sharp corner has a small radius, so that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math> is greater for tighter turns, as you have probably noticed.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-4f0752ab7ec7c5e5",
+      "kind": "prose",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id3008127",
+      "status": "unreviewed-difference",
+      "local": "We defined acceleration as a change in velocity, either in its magnitude or in its direction, or both. When an object moves along a circular path, the direction of its velocity changes constantly, so there is always an associated acceleration, even if the speed of the object is constant. You experience this acceleration yourself when you turn a corner in your car. What you notice is a sideways acceleration because you and the car are changing direction. The sharper the curve and the greater your speed, the more noticeable this acceleration will become. In this section we briefly examine the direction and magnitude of that acceleration.",
+      "upstream": "We know from kinematics that acceleration is a change in velocity, either in its magnitude or in its direction, or both. In uniform circular motion, the direction of the velocity changes constantly, so there is always an associated acceleration, even though the magnitude of the velocity might be constant. You experience this acceleration yourself when you turn a corner in your car. (If you hold the wheel steady during a turn and move at constant speed, you are in uniform circular motion.) What you notice is a sideways acceleration because you and the car are changing direction. The sharper the curve and the greater your speed, the more noticeable this acceleration will become. In this section we examine the direction and magnitude of that acceleration.",
+      "local_html": "We defined acceleration as a change in velocity, either in its magnitude or in its direction, or both. When an object moves along a circular path, the direction of its velocity changes constantly, so there is always an associated acceleration, even if the speed of the object is constant. You experience this acceleration yourself when you turn a corner in your car. What you notice is a sideways acceleration because you and the car are changing direction. The sharper the curve and the greater your speed, the more noticeable this acceleration will become. In this section we briefly examine the direction and magnitude of that acceleration.",
+      "upstream_html": "We know from kinematics that acceleration is a change in velocity, either in its magnitude or in its direction, or both. In uniform circular motion, the direction of the velocity changes constantly, so there is always an associated acceleration, even though the magnitude of the velocity might be constant. You experience this acceleration yourself when you turn a corner in your car. (If you hold the wheel steady during a turn and move at constant speed, you are in uniform circular motion.) What you notice is a sideways acceleration because you and the car are changing direction. The sharper the curve and the greater your speed, the more noticeable this acceleration will become. In this section we examine the direction and magnitude of that acceleration.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3891417702730a28",
+      "kind": "prose",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id723408",
+      "status": "unreviewed-difference",
+      "local": "The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? If we use the geometry shown in along with some kinematics equations, we can obtain (detailed derivation skipped)",
+      "upstream": "The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? Note that the triangle formed by the velocity vectors and the one formed by the radii [MATH] and [MATH] are similar. Both the triangles ABC and PQR are isosceles triangles (two equal sides). The two equal sides of the velocity vector triangle are the speeds [MATH] . Using the properties of two similar triangles, we obtain",
+      "local_html": "The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? If we use the geometry shown in <span class=\"muted\">[reference]</span> along with some kinematics equations, we can obtain (detailed derivation skipped)",
+      "upstream_html": "The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? Note that the triangle formed by the velocity vectors and the one formed by the radii <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">s</mi></mrow></mrow></math> are similar. Both the triangles ABC and PQR are isosceles triangles (two equal sides). The two equal sides of the velocity vector triangle are the speeds <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>v</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"false\">=</mo><mi>v</mi></mrow></mrow></mrow></math>. Using the properties of two similar triangles, we obtain",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3c04fdf7e371de94",
+      "kind": "references",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id723408",
+      "status": "unreviewed-difference",
+      "local": [
+        {
+          "target-id": "import-auto-id1561888"
+        }
+      ],
+      "upstream": [],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2ea0fe0e5365f2f2",
+      "kind": "math-token-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "eip-440@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mi>r</mi></mfrac></mrow><mi /></mrow></mrow><mrow /><mo>.</mo></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mi>r</mi></mfrac></mrow><mi /><mi>;</mi><mspace width=\"0.25em\" /><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msup><mi fontstyle=\"italic\" style=\";font-style:italic\">rω</mi><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow><mrow /><mo>.</mo></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3e33571f0be861de",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "eip-684@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mi>r</mi></mfrac></mrow></mrow><mtext>,</mtext><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mi>r</mi></mfrac></mrow></mrow><mtext>,</mtext><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3dafe62fe542d0b7",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1561888@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>Δ</mtext><mtext mathvariant=\"normal\" style=\"font-weight:700\">v</mtext></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>Δ</mtext><mtext mathvariant=\"normal\" style=\"font-weight:700\">v</mtext></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-cfcc132e61cc88ba",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1561888@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mtext>Δ</mtext><mtext mathvariant=\"normal\" style=\"font-weight:700\">v</mtext><mo stretchy=\"false\">/</mo><mtext>Δ</mtext><mi>t</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mrow><mtext>c</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mtext>Δ</mtext><mtext mathvariant=\"normal\" style=\"font-weight:700\">v</mtext><mo stretchy=\"false\">/</mo><mtext>Δ</mtext><mi>t</mi></mrow></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-f4e22d0dc11c1b72",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1561888@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mrow><mi>c</mi></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">a</mtext><mrow><mi>c</mi></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-c5ed8c8343756c45",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1561888@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">θ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">θ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8457dfb34167bd22",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1561888@5",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">s</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">s</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b0e3ee4fd55c849e",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1561888@6",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">r</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>Δ</mtext><mi fontstyle=\"italic\" style=\";font-style:italic\">r</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3daa0a2debb06737",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1963039@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5b4f91757925ed25",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id1963039@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-7a3217eac6074977",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2422195@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a4ed1a215ec77b3b",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2429569@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>r</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>r</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-21de5703c7dae9f7",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2429569@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b81f6a0ee88c3b08",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2429569@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-216b8474481ab13c",
+      "kind": "math-token-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2429569@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>m</mtext><mo stretchy=\"false\">/</mo><msup><mtext>s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>a</mi><mrow><mtext>c</mtext></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5846ef8dfd0caa83",
+      "kind": "math-markup-change",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2624755@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>m</mtext><mo stretchy=\"false\">/</mo><msup><mtext>s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>m</mtext><mo stretchy=\"false\">/</mo><msup><mtext>s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-ae11cc41eec63f72",
+      "kind": "math-structure",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "m42084",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        "import-auto-id723408@1",
+        "import-auto-id723408@2",
+        "import-auto-id723408@3"
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-876c4830a9a0f3d5",
+      "kind": "media",
+      "local_module": "m67035",
+      "upstream_module": "m42084",
+      "source_id": "import-auto-id2595332",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure_07_02_01a.jpg",
+        "sha256": "37bfd87c9eedba9ce6e2e77e479d8ebb53ad92932ed410f7bfcc8f9b2176db02"
+      },
+      "upstream": {
+        "path": "../../media/Figure_07_02_01a.jpg",
+        "sha256": "c1579b9e14a48dc4a63053b20a8bcd57795f7768c7f4cb70fa18dc9b644f67dd"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    }
+  ]
+}

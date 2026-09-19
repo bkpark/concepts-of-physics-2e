@@ -1,0 +1,315 @@
+{
+  "module": "m67250",
+  "title": "Blackbody Radiation",
+  "slug": "blackbody-radiation",
+  "local_sha256": "11e26d279454f858abfef73b99debfee5d720beb973eaacc6ab6a7da4e549b0e",
+  "upstream_modules": [
+    "m42554"
+  ],
+  "counts": {
+    "prose": 9,
+    "references": 2,
+    "math-markup-change": 8,
+    "math-token-change": 2,
+    "math-structure": 1
+  },
+  "changes": [
+    {
+      "id": "UP-62cbd6901cb9e2be",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "fs-id1290278",
+      "status": "unreviewed-difference",
+      "local": "first successful theoretical description of thermal radiation which used quantization of energy hypothesis",
+      "upstream": "the electromagnetic emission from atoms and molecules",
+      "local_html": "first successful theoretical description of thermal radiation which used quantization of energy hypothesis",
+      "upstream_html": "the electromagnetic emission from atoms and molecules",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-07e74c9228646eb3",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "fs-id1315765",
+      "status": "unreviewed-difference",
+      "local": "an ideal radiator, which emits thermal radiation ideally and absorbs all radiation incident on it at all wavelengths",
+      "upstream": "an ideal radiator, which can radiate equally well at all wavelengths",
+      "local_html": "an ideal radiator, which emits thermal radiation ideally and absorbs all radiation incident on it at all wavelengths",
+      "upstream_html": "an ideal radiator, which can radiate equally well at all wavelengths",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-72c3909cae4bc752",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "fs-id1324996",
+      "status": "unreviewed-difference",
+      "local": "a thermal radiation, usually modeled for a blackbody",
+      "upstream": "the electromagnetic radiation from a blackbody",
+      "local_html": "a thermal radiation, usually modeled for a blackbody",
+      "upstream_html": "the electromagnetic radiation from a blackbody",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-da54f37dcefec274",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1320924",
+      "status": "unreviewed-difference",
+      "local": "The first indication that energy is sometimes quantized came from blackbody radiation, which is the emission of EM radiation by an object that absorbs all radiation incident on it.",
+      "upstream": "The first indication that energy is sometimes quantized came from blackbody radiation, which is the emission of EM radiation by an object with an emissivity of 1.",
+      "local_html": "The first indication that energy is sometimes quantized came from blackbody radiation, which is the emission of EM radiation by an object that absorbs all radiation incident on it. ",
+      "upstream_html": "The first indication that energy is sometimes quantized came from blackbody radiation, which is the emission of EM radiation by an object with an emissivity of 1. ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-dc23549dca38cd4d",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1352686",
+      "status": "unreviewed-difference",
+      "local": "The history of quantum mechanics starts with the study of thermal physics. With the development of theory of electromagnetism and thermodynamics in the 18th century, physicists felt confident enough to attempt to develop a theory of blackbody radiation, which describes the EM spectrum radiated by a hot solid. It is called blackbody radiation, because an ideal radiator is jet black. It absorbs all radiation incident on it, and thus it can be at thermal equilibrium with the surrounding while emitting more radiation than a white object, which reflects radiation. So such a hypothetical object is called a blackbody. The first, classical attempt at theoretical description of this phenomenon was nothing short of a catastrophe. Experimentally observed spectrum showed less intensity of EM radiation at both the very short wavelength limit and the very long wavelength limit, but the classical theory prediction predicted ever-increasing intensity at shorter and shorter wavelengths. (See .)",
+      "upstream": "Where is the quantization of energy observed? Let us begin by considering the emission and absorption of electromagnetic (EM) radiation. The EM spectrum radiated by a hot solid is linked directly to the solid’s temperature. (See .) An ideal radiator is one that has an emissivity of 1 at all wavelengths and, thus, is jet black. Ideal radiators are therefore called blackbodies, and their EM radiation is called blackbody radiation. It was discussed that the total intensity of the radiation varies as [MATH] the fourth power of the absolute temperature of the body, and that the peak of the spectrum shifts to shorter wavelengths at higher temperatures. All of this seems quite continuous, but it was the curve of the spectrum of intensity versus wavelength that gave a clue that the energies of the atoms in the solid are quantized. In fact, providing a theoretical explanation for the experimentally measured shape of the spectrum was a mystery at the turn of the century. When this “ultraviolet catastrophe” was eventually solved, the answers led to new technologies such as computers and the sophisticated imaging techniques described in earlier chapters. Once again, physics as an enabling science changed the way we live.",
+      "local_html": "The history of quantum mechanics starts with the study of thermal physics. With the development of theory of electromagnetism and thermodynamics in the 18th century, physicists felt confident enough to attempt to develop a theory of blackbody radiation, which describes the EM spectrum radiated by a hot solid. It is called blackbody radiation, because an ideal radiator is jet black. It absorbs all radiation incident on it, and thus it can be at thermal equilibrium with the surrounding while emitting more radiation than a white object, which reflects radiation. So such a hypothetical object is called a blackbody. The first, classical attempt at theoretical description of this phenomenon was nothing short of a catastrophe. Experimentally observed spectrum showed less intensity of EM radiation at both the very short wavelength limit and the very long wavelength limit, but the classical theory prediction predicted ever-increasing intensity at shorter and shorter wavelengths. (See <span class=\"muted\">[reference]</span>.)",
+      "upstream_html": "Where is the quantization of energy observed? Let us begin by considering the emission and absorption of electromagnetic (EM) radiation. The EM spectrum radiated by a hot solid is linked directly to the solid’s temperature. (See <span class=\"muted\">[reference]</span>.) An ideal radiator is one that has an emissivity of 1 at all wavelengths and, thus, is jet black. Ideal radiators are therefore called blackbodies, and their EM radiation is called blackbody radiation. It was discussed that the total intensity of the radiation varies as <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mi>T</mi><mrow><mn>4</mn></mrow></msup><mn>,</mn></mrow><mrow /></mrow></math> the fourth power of the absolute temperature of the body, and that the peak of the spectrum shifts to shorter wavelengths at higher temperatures. All of this seems quite continuous, but it was the curve of the spectrum of intensity versus wavelength that gave a clue that the energies of the atoms in the solid are quantized. In fact, providing a theoretical explanation for the experimentally measured shape of the spectrum was a mystery at the turn of the century. When this “ultraviolet catastrophe” was eventually solved, the answers led to new technologies such as computers and the sophisticated imaging techniques described in earlier chapters. Once again, physics as an enabling science changed the way we live.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-991700f021e4e06d",
+      "kind": "references",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1352686",
+      "status": "unreviewed-difference",
+      "local": [
+        {
+          "target-id": "uv-catastrophe-fig"
+        }
+      ],
+      "upstream": [
+        {
+          "target-id": "import-auto-id1458382"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-9d935c2b062f5a3b",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1809104",
+      "status": "unreviewed-difference",
+      "local": "Planck derived the Planck Law by assuming that energy of oscillators is quantized and can change only by amount [MATH] , where [MATH] , Planck's constant is, [MATH]",
+      "upstream": "Planck recognized that the energy levels of the emitting atoms and molecules were quantized, with only the allowed values of [MATH] where [MATH] is any non-negative integer (0, 1, 2, 3, …).",
+      "local_html": "Planck derived the Planck Law by assuming that energy of oscillators is quantized and can change only by amount <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Δ</mi><mi>E</mi></mrow><mo>=</mo><mrow><mi>h</mi><mi>f</mi></mrow></mrow></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>h</mi></math>, Planck&#x27;s constant is, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>626</mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> J </mtext><mo stretchy=\"false\">⋅</mo><mtext> s</mtext></mrow><mo>.</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream_html": "Planck recognized that the energy levels of the emitting atoms and molecules were quantized, with only the allowed values of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>E</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mi>n</mi><mo stretchy=\"false\">+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>hf</mtext></mrow></mstyle><mtext>,</mtext></mrow></mrow></mrow></math> where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math> is any non-negative integer (0, 1, 2, 3, …).",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-39a7bb36445212e4",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1858390",
+      "status": "unreviewed-difference",
+      "local": "What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in the thermal oscillators?",
+      "upstream": "What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in its atoms and molecules?",
+      "local_html": "What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in the thermal oscillators?",
+      "upstream_html": "What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in its atoms and molecules?",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2f8cd0916aa4bd4a",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2182118",
+      "status": "unreviewed-difference",
+      "local": "Note that Planck’s constant [MATH] is a very small number. So for an infrared frequency of [MATH] being emitted by a blackbody, for example, the difference between energy levels is only [MATH] or about 0.4 eV. This 0.4 eV of energy is significant compared with typical atomic energies, which are on the order of an electron volt, or thermal energies, which are typically fractions of an electron volt. But on a macroscopic or classical scale, energies are typically on the order of joules. Even though the macroscopic energies are quantized, the quantum steps are too small to be noticed. This is an example of the correspondence principle. For a large object, quantum mechanics produces results indistinguishable from those of classical physics.",
+      "upstream": "Note that Planck’s constant [MATH] is a very small number. So for an infrared frequency of [MATH] being emitted by a blackbody, for example, the difference between energy levels is only [MATH] or about 0.4 eV. This 0.4 eV of energy is significant compared with typical atomic energies, which are on the order of an electron volt, or thermal energies, which are typically fractions of an electron volt. But on a macroscopic or classical scale, energies are typically on the order of joules. Even if macroscopic energies are quantized, the quantum steps are too small to be noticed. This is an example of the correspondence principle. For a large object, quantum mechanics produces results indistinguishable from those of classical physics.",
+      "local_html": "Note that Planck’s constant <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math> is a very small number. So for an infrared frequency of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mi /><mtext>Hz</mtext></mrow></mrow><mrow /></mrow></mrow></math> being emitted by a blackbody, for example, the difference between energy levels is only <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">E</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>hf</mtext></mrow></mstyle></mrow><mtext>= </mtext><mo stretchy=\"false\">(</mo><mn>6</mn><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J·s</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mtext> Hz</mtext><mo stretchy=\"false\">)</mo><mtext> = 6</mtext><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–20</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J,</mtext></mrow></mrow><mrow /></mrow></mrow></math> or about 0.4 eV. This 0.4 eV of energy is significant compared with typical atomic energies, which are on the order of an electron volt, or thermal energies, which are typically fractions of an electron volt. But on a macroscopic or classical scale, energies are typically on the order of joules. Even though the macroscopic energies are quantized, the quantum steps are too small to be noticed. This is an example of the correspondence principle. For a large object, quantum mechanics produces results indistinguishable from those of classical physics.",
+      "upstream_html": "Note that Planck’s constant <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>h</mi></mrow></mrow></math> is a very small number. So for an infrared frequency of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mi /><mtext>Hz</mtext></mrow></mrow></mrow></math> being emitted by a blackbody, for example, the difference between energy levels is only <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">E</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>hf</mtext></mrow></mstyle></mrow><mtext>= </mtext><mo stretchy=\"false\">(</mo><mn>6</mn><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J·s</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mtext> Hz</mtext><mo stretchy=\"false\">)</mo><mtext> = 6</mtext><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–20</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J,</mtext></mrow></mrow></mrow></math> or about 0.4 eV. This 0.4 eV of energy is significant compared with typical atomic energies, which are on the order of an electron volt, or thermal energies, which are typically fractions of an electron volt. But on a macroscopic or classical scale, energies are typically on the order of joules. Even if macroscopic energies are quantized, the quantum steps are too small to be noticed. This is an example of the correspondence principle. For a large object, quantum mechanics produces results indistinguishable from those of classical physics.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-cb8be3e7b3023a47",
+      "kind": "prose",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2907455",
+      "status": "unreviewed-difference",
+      "local": "The spectrum of blackbody radiation was extensively studied and well known. The German physicist Max Planck (1858–1947) first guessed a functional form of intensity dependence on the wavelength of EM radiation, which is now known as the Planck Law. The Planck Law was a good fit to the experimental results (shown in ), tapering off both at the long-wavelength and the short-wavelength limit, but it was only a phenomenological description that did not include a satisfying explanation of why it was so.",
+      "upstream": "The German physicist Max Planck (1858–1947) used the idea that atoms and molecules in a body act like oscillators to absorb and emit radiation. The energies of the oscillating atoms and molecules had to be quantized to correctly describe the shape of the blackbody spectrum. Planck deduced that the energy of an oscillator having a frequency [MATH] is given by",
+      "local_html": "The spectrum of blackbody radiation was extensively studied and well known. The German physicist Max Planck (1858–1947) first guessed a functional form of intensity dependence on the wavelength of EM radiation, which is now known as the Planck Law. The Planck Law was a good fit to the experimental results (shown in <span class=\"muted\">[reference]</span>), tapering off both at the long-wavelength and the short-wavelength limit, but it was only a phenomenological description that did not include a satisfying explanation of why it was so.\n",
+      "upstream_html": "The German physicist Max Planck (1858–1947) used the idea that atoms and molecules in a body act like oscillators to absorb and emit radiation. The energies of the oscillating atoms and molecules had to be quantized to correctly describe the shape of the blackbody spectrum. Planck deduced that the energy of an oscillator having a frequency <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>f</mi></mrow></mrow></math> is given by",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-401815e0e9c7640d",
+      "kind": "references",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2907455",
+      "status": "unreviewed-difference",
+      "local": [
+        {
+          "target-id": "uv-catastrophe-fig"
+        }
+      ],
+      "upstream": [],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-66778929aad6860c",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "eip-755@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>626</mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> J </mtext><mo stretchy=\"false\">⋅</mo><mtext> s</mtext></mrow><mo>.</mo></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>626</mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> J </mtext><mo stretchy=\"false\">⋅</mo><mtext> s</mtext></mrow><mo>.</mo></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-75555decfe38867d",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "fs-id1323775@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>626</mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> J </mtext><mo stretchy=\"false\">⋅</mo><mtext> s</mtext></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>626</mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mrow><mspace width=\"0.25em\" /><mtext> J </mtext><mo stretchy=\"false\">⋅</mo><mtext> s</mtext></mrow></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3a6862ffb01e6af0",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1479865@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-04a96f920545ae49",
+      "kind": "math-token-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1809104@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Δ</mi><mi>E</mi></mrow><mo>=</mo><mrow><mi>h</mi><mi>f</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>E</mi><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mrow><mi>n</mi><mo stretchy=\"false\">+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow><mo stretchy=\"true\">)</mo></mrow></mrow><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>hf</mtext></mrow></mstyle><mtext>,</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-af67273e5ce85d62",
+      "kind": "math-token-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id1809104@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>h</mi></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-25408d1c19e82178",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2182118@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>h</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-bf3f51a14d2b847f",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2182118@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mi /><mtext>Hz</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mi /><mtext>Hz</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-526d90521ceb092d",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2182118@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">E</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>hf</mtext></mrow></mstyle></mrow><mtext>= </mtext><mo stretchy=\"false\">(</mo><mn>6</mn><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J·s</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mtext> Hz</mtext><mo stretchy=\"false\">)</mo><mtext> = 6</mtext><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–20</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J,</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">E</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>hf</mtext></mrow></mstyle></mrow><mtext>= </mtext><mo stretchy=\"false\">(</mo><mn>6</mn><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–34</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J·s</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><msup><mtext>10</mtext><mrow><mtext>14</mtext></mrow></msup><mspace width=\"0.25em\" /><mtext> Hz</mtext><mo stretchy=\"false\">)</mo><mtext> = 6</mtext><mtext>.</mtext><mrow><mtext>63 </mtext><mo stretchy=\"false\">×</mo><msup><mtext> 10</mtext><mrow><mtext>–20</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> J,</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-657db0329e6aed5a",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2223128@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mrow><mn>7</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mtext>13</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> Hz.</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mrow><mn>7</mn><mo stretchy=\"false\">×</mo><msup><mtext>10</mtext><mrow><mtext>13</mtext></mrow></msup></mrow><mspace width=\"0.25em\" /><mtext> Hz.</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-6215b3a3ca1a0dd6",
+      "kind": "math-markup-change",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "import-auto-id2223128@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>n</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>n</mi></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3a1c88a7d13e80d1",
+      "kind": "math-structure",
+      "local_module": "m67250",
+      "upstream_module": "m42554",
+      "source_id": "m42554",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        "import-auto-id1352686@1",
+        "import-auto-id2907455@1"
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "UP-4fb9adb1b87b6cb1",
+  "status": "applied-author-directed",
+  "authorization": "Standing author instruction to backport all applicable CC BY upstream corrections; minimal exact upstream changes only.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71409",
+  "source_object": "import-auto-id1165298941006",
+  "source_path": "maintained/modules/m71409/index.cnxml",
+  "source_sha256": "f80858b4a21c6f9b1030dc0ece21837bf3e99bd16803e1cc4736bcb1f773925d",
+  "after_sha256": "a9b0d4389756628fd08125df9dd775d200bd3cbb764b9dc21bcaeeaf63687085",
+  "upstream_module": "m42139",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "97c1e37a96a224150481b8985f7878dbec8d905b6b30bb9e9bbdcd947f90d474",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Remove two typographical errors.",
+  "before": "<para id=\"import-auto-id1165298941006\">Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to mover freely over the skin.</para>",
+  "after": "<para id=\"import-auto-id1165298941006\">Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to move freely over the skin.</para>",
+  "substitutions": [
+    [
+      "serves to to lubricate",
+      "serves to lubricate"
+    ],
+    [
+      "to mover freely",
+      "to move freely"
+    ]
+  ],
+  "original_candidate": {
+    "id": "UP-4fb9adb1b87b6cb1",
+    "kind": "prose",
+    "local_module": "m71409",
+    "upstream_module": "m42139",
+    "source_id": "import-auto-id1165298941006",
+    "status": "unreviewed-difference",
+    "local": "Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to mover freely over the skin.",
+    "upstream": "Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to move freely over the skin.",
+    "local_html": "Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to mover freely over the skin.",
+    "upstream_html": "Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to move freely over the skin.",
+    "exercise_context": false,
+    "credit_review_required": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "module": "m52450",
+  "title": "Reflection",
+  "slug": "reflection",
+  "local_sha256": "d09f2a59009698e54040a46ed3362ff221e3f680d307df2f89c9a64334790306",
+  "upstream_modules": [
+    "m42456"
+  ],
+  "counts": {
+    "math-markup-change": 1,
+    "media": 1
+  },
+  "changes": [
+    {
+      "id": "UP-bd6e4d5b21f92de0",
+      "kind": "math-markup-change",
+      "local_module": "m52450",
+      "upstream_module": "m42456",
+      "source_id": "import-auto-id2543500@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>θ</mi><mrow><mtext>r</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>θ</mi><mrow><mtext>i</mtext></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>θ</mi><mrow><mtext>r</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>θ</mi><mrow><mtext>i</mtext></mrow></msub></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-72eea93ea62b6e94",
+      "kind": "media",
+      "local_module": "m52450",
+      "upstream_module": "m42456",
+      "source_id": "import-auto-id1946231",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure 26_02_06.jpg",
+        "sha256": "d435d22cdb71b47ea93eb238bae496ceb0b8a4d44047db0976aff93d33797a19"
+      },
+      "upstream": {
+        "path": "../../media/OSX_CP2e_Figure 26_02_06.jpg",
+        "sha256": "695e308b108263fc0f2595bf0040f0c0c82579b76696c05421dd60624d875787"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "module": "m71583",
+  "title": "Impulse",
+  "slug": "impulse",
+  "local_sha256": "8bd379ad23cc36390d7d18088094662499dd325086a18fcd55cf166abd35713d",
+  "upstream_modules": [
+    "m42159"
+  ],
+  "counts": {
+    "prose": 6,
+    "references": 1,
+    "math-token-change": 6,
+    "math-markup-change": 9,
+    "math-structure": 1
+  },
+  "changes": [
+    {
+      "id": "UP-c281482f408fad08",
+      "kind": "prose",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1133091",
+      "status": "unreviewed-difference",
+      "local": "For non-constant net external force, you need to use time-averaged net external force to calculate the impulse over the duration.",
+      "upstream": "Forces are usually not constant over a period of time.",
+      "local_html": "For non-constant net external force, you need to use time-averaged net external force to calculate the impulse over the duration.",
+      "upstream_html": "Forces are usually not constant over a period of time.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-588a755977ca4417",
+      "kind": "prose",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1165570",
+      "status": "unreviewed-difference",
+      "local": "The effect of a force on an object depends on how long it acts, as well as how great the force is. In previous examples, a very large force acting for a short time had a great effect on the momentum of the tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. For example, if the ball were thrown upward, the gravitational force (which is much smaller than the tennis racquet’s force) would eventually reverse the momentum of the ball. Quantitatively, the effect we are talking about is the change in momentum [MATH] .",
+      "upstream": "The effect of a force on an object depends on how long it acts, as well as how great the force is. In , a very large force acting for a short time had a great effect on the momentum of the tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. For example, if the ball were thrown upward, the gravitational force (which is much smaller than the tennis racquet’s force) would eventually reverse the momentum of the ball. Quantitatively, the effect we are talking about is the change in momentum [MATH] .",
+      "local_html": "The effect of a force on an object depends on how long it acts, as well as how great the force is. In previous examples, a very large force acting for a short time had a great effect on the momentum of the tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. For example, if the ball were thrown upward, the gravitational force (which is much smaller than the tennis racquet’s force) would eventually reverse the momentum of the ball. Quantitatively, the effect we are talking about is the change in momentum <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></math>. ",
+      "upstream_html": "The effect of a force on an object depends on how long it acts, as well as how great the force is. In <span class=\"muted\">[reference]</span>, a very large force acting for a short time had a great effect on the momentum of the tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. For example, if the ball were thrown upward, the gravitational force (which is much smaller than the tennis racquet’s force) would eventually reverse the momentum of the ball. Quantitatively, the effect we are talking about is the change in momentum <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mn mathvariant=\"normal\" style=\"font-weight:700\">p</mn></mrow></mrow></math>. ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-4d8406ca1429c59d",
+      "kind": "references",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1165570",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        {
+          "document": "m42156",
+          "target-id": "fs-id1523425"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-f57685e8675a2248",
+      "kind": "prose",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1179396",
+      "status": "unreviewed-difference",
+      "local": "Bones in a body will fracture if the force on them is too large. If you jump onto the floor from a table, the force on your legs can be immense if you land stiff-legged on a hard surface. Rolling on the ground after jumping from the table, or landing with a parachute, extends the time over which the force (on you from the ground) acts.",
+      "upstream": "Bones in a body will fracture if the force on them is too large. If you jump onto the floor from a table, the force on your legs can be immense if you land stiff-legged on a hard surface. Rolling on the ground after jumping from the table, on a soft mat, extends the time over which the force (on you from the ground) acts.",
+      "local_html": "Bones in a body will fracture if the force on them is too large. If you jump onto the floor from a table, the force on your legs can be immense if you land stiff-legged on a hard surface. Rolling on the ground after jumping from the table, or landing with a parachute, extends the time over which the force (on you from the ground) acts.  ",
+      "upstream_html": "Bones in a body will fracture if the force on them is too large. If you jump onto the floor from a table, the force on your legs can be immense if you land stiff-legged on a hard surface. Rolling on the ground after jumping from the table, on a soft mat, extends the time over which the force (on you from the ground) acts.  ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-682de393d4030d3f",
+      "kind": "prose",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1419457",
+      "status": "unreviewed-difference",
+      "local": "Impulse is force times duration, and the net impulse, equal to the net external force multiplied by duration, gives the change in momentum: [MATH]",
+      "upstream": "Impulse, or change in momentum, equals the average net external force multiplied by the time this force acts: [MATH]",
+      "local_html": "Impulse is force times duration, and the net impulse, equal to the net external force multiplied by duration, gives the change in momentum:\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></mrow><mo>=</mo><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></mrow><mtext>.</mtext></math>",
+      "upstream_html": "Impulse, or change in momentum, equals the average net external force multiplied by the time this force acts:\n\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mn mathvariant=\"normal\" style=\"font-weight:700\">p</mn></mrow><mo stretchy=\"false\">=</mo><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub></mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow><mo>.</mo><mrow /></mrow></math>\n    ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-9424fdabe1cbbf2b",
+      "kind": "prose",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1547031",
+      "status": "unreviewed-difference",
+      "local": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity [MATH] , force times duration, is given the name impulse. Net impulse on an object gives its change in momentum.",
+      "upstream": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity [MATH] is given the name impulse. Impulse is the same as the change in momentum.",
+      "local_html": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></math>, force times duration, is given the name impulse. Net impulse on an object gives its change in momentum.",
+      "upstream_html": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></mrow></math> is given the name impulse. Impulse is the same as the change in momentum.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-53ecb21434d9159b",
+      "kind": "prose",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1547349",
+      "status": "unreviewed-difference",
+      "local": "Change in momentum equals the average net external force multiplied by the time this force acts: [MATH] .",
+      "upstream": "Change in momentum equals the average net external force multiplied by the time this force acts.",
+      "local_html": "Change in momentum equals the average net external force multiplied by the time this force acts: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></mrow><mo>=</mo><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></mrow></math>.",
+      "upstream_html": "Change in momentum equals the average net external force multiplied by the time this force acts.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-0983c9afc83ef610",
+      "kind": "math-token-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "eip-144@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mn mathvariant=\"normal\" style=\"font-weight:700\">p</mn></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-ffbca6e1fd69f8d6",
+      "kind": "math-token-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "eip-75@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></mrow><mo>=</mo><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></mrow><mtext>,</mtext></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mn mathvariant=\"normal\" style=\"font-weight:700\">p</mn></mrow><mo stretchy=\"false\">=</mo><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub></mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow><mo>,</mo></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-591deadc265f73bd",
+      "kind": "math-token-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "eip-id1637629@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></mrow><mo>=</mo><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></mrow><mtext>.</mtext></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mn mathvariant=\"normal\" style=\"font-weight:700\">p</mn></mrow><mo stretchy=\"false\">=</mo><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub></mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow><mo>.</mo><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d6c37f929e6c6ae3",
+      "kind": "math-token-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1165570@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\" style=\"font-weight:700\">p</mi></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mn mathvariant=\"normal\" style=\"font-weight:700\">p</mn></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-76bb9d754e936d29",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1181092@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>x</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>x</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b583aa7db12cd9ae",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1181092@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>y</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>y</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-e875c8d25f877df5",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-4ed0afbfe6379b88",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>F</mi><mrow><mtext>eff</mtext></mrow></msub></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>F</mi><mrow><mtext>eff</mtext></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-480aff9389ff1603",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-0a99aa32d8fade16",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>t</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>t</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-526cdaf19cb9d664",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@5",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>F</mi><mrow><mtext>eff</mtext></mrow></msub></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>F</mi><mrow><mtext>eff</mtext></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-38bbc610e9ed29e2",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@6",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-60291b41d49ac058",
+      "kind": "math-markup-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1493349@7",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>t</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>t</mi><mrow><mn>2</mn></mrow></msub></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-eff936f971ccc202",
+      "kind": "math-token-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1547031@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-64a818f853cd5c24",
+      "kind": "math-token-change",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "import-auto-id1571434@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi mathvariant=\"normal\" style=\"font-weight:700\">F</mi><mtext>net</mtext></msub><mo>⁢</mo><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mn mathvariant=\"normal\" style=\"font-weight:700\">F</mn><mrow><mtext>net</mtext></mrow></msub><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8449105400e0ebe4",
+      "kind": "math-structure",
+      "local_module": "m71583",
+      "upstream_module": "m42159",
+      "source_id": "m42159",
+      "status": "unreviewed-difference",
+      "local": [
+        "import-auto-id1547349@1"
+      ],
+      "upstream": [],
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

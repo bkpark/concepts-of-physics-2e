@@ -1,0 +1,38 @@
+{
+  "id": "UP-26a04c91d084d279",
+  "status": "applied-author-directed",
+  "authorization": "Standing author instruction to backport all applicable CC BY upstream corrections; minimal exact upstream changes only.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42356",
+  "source_object": "import-auto-id2639621",
+  "source_path": "maintained/modules/m42356/index.cnxml",
+  "source_sha256": "b9929a222a4204b3c90093e76fd3d5b41ee7ac194a702c64078d3b4887c40b46",
+  "after_sha256": "e1c47ac474ca9580101fe00533fc768ade43b9bc308818e780ee8ab17c019c45",
+  "upstream_module": "m42356",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "a416ef5a59aec0df3287e42139dd6409fac826e63eb1ea3fa066a6bfdc31fc0d",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Clarify that the exercise asks for power in each resistor; retain question and solution values.",
+  "before": "<para id=\"import-auto-id2639621\">(a) Given a 48.0-V battery and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>24</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"24\" \".\" 0- %OMEGA } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>96</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"96\" \".\" 0- %OMEGA } {}</m:annotation></m:semantics></m:math> resistors, find the current and power for each when connected in series. (b) Repeat when the resistances are in parallel.</para>",
+  "after": "<para id=\"import-auto-id2639621\">(a) Given a 48.0-V battery and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>24</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"24\" \".\" 0- %OMEGA } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>96</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"96\" \".\" 0- %OMEGA } {}</m:annotation></m:semantics></m:math> resistors, find the current and power for each resistor when connected in series. (b) Repeat when the resistances are in parallel.</para>",
+  "substitutions": [
+    [
+      "power for each when",
+      "power for each resistor when"
+    ]
+  ],
+  "original_candidate": {
+    "id": "UP-26a04c91d084d279",
+    "kind": "prose",
+    "local_module": "m42356",
+    "upstream_module": "m42356",
+    "source_id": "import-auto-id2639621",
+    "status": "unreviewed-difference",
+    "local": "(a) Given a 48.0-V battery and [MATH] and [MATH] resistors, find the current and power for each when connected in series. (b) Repeat when the resistances are in parallel.",
+    "upstream": "(a) Given a 48.0-V battery and [MATH] and [MATH] resistors, find the current and power for each resistor when connected in series. (b) Repeat when the resistances are in parallel.",
+    "local_html": "(a) Given a 48.0-V battery and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>24</mtext><mtext>.</mtext><mrow><mn>0-Ω</mn></mrow></mrow></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>96</mtext><mtext>.</mtext><mrow><mn>0-Ω</mn></mrow></mrow></mrow><mrow /></mrow></mrow></math> resistors, find the current and power for each when connected in series. (b) Repeat when the resistances are in parallel.",
+    "upstream_html": "(a) Given a 48.0-V battery and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>24</mtext><mtext>.</mtext><mrow><mn>0-Ω</mn></mrow></mrow></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>96</mtext><mtext>.</mtext><mrow><mn>0-Ω</mn></mrow></mrow></mrow></mrow></math> resistors, find the current and power for each resistor when connected in series. (b) Repeat when the resistances are in parallel.",
+    "exercise_context": true,
+    "credit_review_required": false
+  }
+}

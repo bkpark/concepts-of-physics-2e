@@ -1,0 +1,38 @@
+{
+  "id": "UP-d5cc46d170d1e99b",
+  "status": "applied-author-directed",
+  "authorization": "Standing author instruction to backport all applicable CC BY upstream corrections; minimal exact upstream changes only.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52322",
+  "source_object": "import-auto-id2131141",
+  "source_path": "maintained/modules/m52322/index.cnxml",
+  "source_sha256": "f338231cdd8dab9759523011e0209ed58bfa7ca2e52d9f7ce622b6642ad9dead",
+  "after_sha256": "1525c72877708cb7931c1d33b6b715a238e4c252901724f47d8e2fd08b0cf760",
+  "upstream_module": "m42129",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "1eb5956c3fc5714f83fb60b00103b230265054605073ecc43a1027a908d0ba6b",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Correct Newton’s given name.",
+  "before": "<para id=\"import-auto-id2131141\">Issac Newton’s (1642–1727) laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance into the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. For many centuries natural philosophers had debated the nature of the universe based largely on certain rules of logic with great weight given to the thoughts of earlier classical philosophers such as Aristotle (384–322 BC). Among the many great thinkers who contributed to this change were Newton and Galileo.</para>",
+  "after": "<para id=\"import-auto-id2131141\">Isaac Newton’s (1642–1727) laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance into the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. For many centuries natural philosophers had debated the nature of the universe based largely on certain rules of logic with great weight given to the thoughts of earlier classical philosophers such as Aristotle (384–322 BC). Among the many great thinkers who contributed to this change were Newton and Galileo.</para>",
+  "substitutions": [
+    [
+      "Issac Newton",
+      "Isaac Newton"
+    ]
+  ],
+  "original_candidate": {
+    "id": "UP-d5cc46d170d1e99b",
+    "kind": "prose",
+    "local_module": "m52322",
+    "upstream_module": "m42129",
+    "source_id": "import-auto-id2131141",
+    "status": "unreviewed-difference",
+    "local": "Issac Newton’s (1642–1727) laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance into the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. For many centuries natural philosophers had debated the nature of the universe based largely on certain rules of logic with great weight given to the thoughts of earlier classical philosophers such as Aristotle (384–322 BC). Among the many great thinkers who contributed to this change were Newton and Galileo.",
+    "upstream": "Isaac Newton’s (1642–1727) laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance into the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. For many centuries natural philosophers had debated the nature of the universe based largely on certain rules of logic with great weight given to the thoughts of earlier classical philosophers such as Aristotle (384–322 BC). Among the many great thinkers who contributed to this change were Newton and Galileo.",
+    "local_html": "Issac Newton’s (1642–1727) laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance into the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. For many centuries natural philosophers had debated the nature of the universe based largely on certain rules of logic with great weight given to the thoughts of earlier classical philosophers such as Aristotle (384–322 BC). Among the many great thinkers who contributed to this change were Newton and Galileo.",
+    "upstream_html": "Isaac Newton’s (1642–1727) laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance into the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. For many centuries natural philosophers had debated the nature of the universe based largely on certain rules of logic with great weight given to the thoughts of earlier classical philosophers such as Aristotle (384–322 BC). Among the many great thinkers who contributed to this change were Newton and Galileo.",
+    "exercise_context": false,
+    "credit_review_required": false
+  }
+}

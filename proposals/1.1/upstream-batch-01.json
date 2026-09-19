@@ -1,0 +1,96 @@
+{
+  "status": "applied under standing author authorization",
+  "target_release": "cp2e-ver1.1",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "scope": "Seven minimal corrections; no MathML, images, IDs, cross-references, or exercise numbering changed.",
+  "changes": [
+    {
+      "id": "UP-d5cc46d170d1e99b",
+      "record": "proposals/author-corrections/UP-d5cc46d170d1e99b.json",
+      "reason": "Correct Newton’s given name.",
+      "substitutions": [
+        [
+          "Issac Newton",
+          "Isaac Newton"
+        ]
+      ],
+      "local_module": "m52322"
+    },
+    {
+      "id": "UP-31d755d3e04d9c8d",
+      "record": "proposals/author-corrections/UP-31d755d3e04d9c8d.json",
+      "reason": "Correct the radioactive element used in luminous paint; no new material or figure imported.",
+      "substitutions": [
+        [
+          "radon-doped",
+          "radium-doped"
+        ]
+      ],
+      "local_module": "m76584"
+    },
+    {
+      "id": "UP-adec6f39144d646f",
+      "record": "proposals/author-corrections/UP-adec6f39144d646f.json",
+      "reason": "Local example retains f=10.0 cm, do=7.50 cm, di=-30.0 cm and m=4.00; discussion now agrees.",
+      "substitutions": [
+        [
+          "by a factor of 3",
+          "by a factor of 4"
+        ]
+      ],
+      "local_module": "m67134"
+    },
+    {
+      "id": "UP-4fb9adb1b87b6cb1",
+      "record": "proposals/author-corrections/UP-4fb9adb1b87b6cb1.json",
+      "reason": "Remove two typographical errors.",
+      "substitutions": [
+        [
+          "serves to to lubricate",
+          "serves to lubricate"
+        ],
+        [
+          "to mover freely",
+          "to move freely"
+        ]
+      ],
+      "local_module": "m71409"
+    },
+    {
+      "id": "UP-40714ecd1e5a386a",
+      "record": "proposals/author-corrections/UP-40714ecd1e5a386a.json",
+      "reason": "Close an unmatched quotation mark.",
+      "substitutions": [
+        [
+          "\"trace of its position",
+          "\"trace\" of its position"
+        ]
+      ],
+      "local_module": "m71585"
+    },
+    {
+      "id": "UP-385194d5bb2ba273",
+      "record": "proposals/author-corrections/UP-385194d5bb2ba273.json",
+      "reason": "Clarify scalar distance comparison with displacement magnitude, exactly as upstream.",
+      "substitutions": [
+        [
+          "greater than displacement",
+          "greater than the magnitude of displacement"
+        ]
+      ],
+      "local_module": "m71407"
+    },
+    {
+      "id": "UP-26a04c91d084d279",
+      "record": "proposals/author-corrections/UP-26a04c91d084d279.json",
+      "reason": "Clarify that the exercise asks for power in each resistor; retain question and solution values.",
+      "substitutions": [
+        [
+          "power for each when",
+          "power for each resistor when"
+        ]
+      ],
+      "local_module": "m42356"
+    }
+  ]
+}

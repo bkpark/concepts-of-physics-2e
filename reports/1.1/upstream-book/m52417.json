@@ -1,0 +1,306 @@
+{
+  "module": "m52417",
+  "title": "Motors and Meters",
+  "slug": "motors-and-meters",
+  "local_sha256": "7bc88962c1be8667ec30c76024a40c2469fc6233b1b1a37917f107054d7bdc95",
+  "upstream_modules": [
+    "m42380"
+  ],
+  "counts": {
+    "prose": 5,
+    "references": 1,
+    "math-markup-change": 13,
+    "math-token-change": 2,
+    "math-structure": 1
+  },
+  "changes": [
+    {
+      "id": "UP-acfa24e11e2037cc",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "fs-id1168951430590",
+      "status": "unreviewed-difference",
+      "local": "common application of magnetic force on a current-carrying loop that is very similar in construction to a motor; by design, the force is proportional to [MATH] and not [MATH] , so the needle deflection is proportional to the current",
+      "upstream": "common application of magnetic torque on a current-carrying loop that is very similar in construction to a motor; by design, the torque is proportional to [MATH] and not [MATH] , so the needle deflection is proportional to the current",
+      "local_html": "common application of magnetic force on a current-carrying loop that is very similar in construction to a motor; by design, the force is proportional to  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> and not  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>, so the needle deflection is proportional to the current",
+      "upstream_html": "common application of magnetic torque on a current-carrying loop that is very similar in construction to a motor; by design, the torque is proportional to  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>I</mi></mrow></math> and not  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>θ</mi></mrow></math>, so the needle deflection is proportional to the current",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-c5318312cf5c37a1",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "fs-id1168951439006",
+      "status": "unreviewed-difference",
+      "local": "loop of wire in a magnetic field; when current is passed through the loops, the magnetic field exerts force on the loops, which rotates a shaft; electrical energy is converted to mechanical work in the process",
+      "upstream": "loop of wire in a magnetic field; when current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft; electrical energy is converted to mechanical work in the process",
+      "local_html": "loop of wire in a magnetic field; when current is passed through the loops, the magnetic field exerts force on the loops, which rotates a shaft; electrical energy is converted to mechanical work in the process",
+      "upstream_html": "loop of wire in a magnetic field; when current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft; electrical energy is converted to mechanical work in the process",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-c9c80de579754719",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1546668",
+      "status": "unreviewed-difference",
+      "local": "Motors are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts force on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See .)",
+      "upstream": "Motors are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See .)",
+      "local_html": "Motors are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts force on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See <span class=\"muted\">[reference]</span>.)",
+      "upstream_html": "Motors are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See <span class=\"muted\">[reference]</span>.)",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-10e31c80faac44c3",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1942860",
+      "status": "unreviewed-difference",
+      "local": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic force on a current-carrying loop. shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of [MATH] by making [MATH] perpendicular to the loop over a large angular range. A linear spring exerts a counter-force that balances the current-produced force. This makes the needle deflection proportional to [MATH] . If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area [MATH] , high magnetic field [MATH] , and low-resistance coils.",
+      "upstream": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic torque on a current-carrying loop. shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of [MATH] by making [MATH] perpendicular to the loop over a large angular range. Thus the torque is proportional to [MATH] and not [MATH] . A linear spring exerts a counter-torque that balances the current-produced torque. This makes the needle deflection proportional to [MATH] . If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area [MATH] , high magnetic field [MATH] , and low-resistance coils.",
+      "local_html": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic force on a current-carrying loop. <span class=\"muted\">[reference]</span> shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math> by making <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math> perpendicular to the loop over a large angular range.\n\nA linear spring exerts a counter-force that balances the current-produced force. This makes the needle deflection proportional to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>. If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>A</mi></mrow><mrow /></mrow></mrow></math>, high magnetic field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>, and low-resistance coils.",
+      "upstream_html": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic torque on a current-carrying loop. <span class=\"muted\">[reference]</span> shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math> by making <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math> perpendicular to the loop over a large angular range. Thus the torque is proportional to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> and not <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>. A linear spring exerts a counter-torque that balances the current-produced torque. This makes the needle deflection proportional to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>. If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>A</mi></mrow></mrow></math>, high magnetic field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>, and low-resistance coils.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-319b3bffe055f570",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2852936",
+      "status": "unreviewed-difference",
+      "local": "As the coil rotates, the force decreases to zero at [MATH] . The force then reverses its direction once the coil rotates past [MATH] . This means that, unless we do something, the coil will oscillate back and forth about equilibrium at [MATH] . To get the coil to continue rotating in the same direction, we can reverse the current as it passes through [MATH] with automatic switches called brushes. (See .)",
+      "upstream": "The torque found in the preceding example is the maximum. As the coil rotates, the torque decreases to zero at [MATH] . The torque then reverses its direction once the coil rotates past [MATH] . (See (d).) This means that, unless we do something, the coil will oscillate back and forth about equilibrium at [MATH] . To get the coil to continue rotating in the same direction, we can reverse the current as it passes through [MATH] with automatic switches called brushes. (See .)",
+      "local_html": "As the coil rotates, the force decreases to zero at <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>. The force then <em>reverses</em> its direction once the coil rotates past <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>. \n\nThis means that, unless we do something, the coil will oscillate back and forth about equilibrium at <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>. To get the coil to continue rotating in the same direction, we can reverse the current as it passes through <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math> with automatic switches called <em>brushes</em>. (See <span class=\"muted\">[reference]</span>.)",
+      "upstream_html": "The torque found in the preceding example is the maximum. As the coil rotates, the torque decreases to zero at <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>. The torque then <em>reverses</em> its direction once the coil rotates past <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>. (See <span class=\"muted\">[reference]</span>(d).) This means that, unless we do something, the coil will oscillate back and forth about equilibrium at <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>. To get the coil to continue rotating in the same direction, we can reverse the current as it passes through <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math> with automatic switches called <em>brushes</em>. (See <span class=\"muted\">[reference]</span>.)",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2984d73095b70293",
+      "kind": "references",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2852936",
+      "status": "unreviewed-difference",
+      "local": [
+        {
+          "target-id": "import-fig03"
+        }
+      ],
+      "upstream": [
+        {
+          "target-id": "import-auto-id2330568"
+        },
+        {
+          "target-id": "import-fig03"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-151301bc71586193",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "fs-id1168951430590@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>I</mi></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-715f3e2f1c5b5dfa",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "fs-id1168951430590@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>θ</mi></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b3c6332a7ebc6a0e",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1942860@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-70ba99352a23a234",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1942860@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-e3c5747935d51017",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1942860@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-fdd26b765891bd67",
+      "kind": "math-token-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1942860@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>A</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-240b8401e7ae0bbb",
+      "kind": "math-token-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1942860@5",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8b6deb101394fbb7",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2028294@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b5c1d31721ef8d9f",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2028294@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d52cba2c4af981f1",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2028294@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d73672239e8bed04",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2852936@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-ec490a22dca94c73",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2852936@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a58e94fa274f5976",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2852936@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-ee1e4c4db7d8216e",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2852936@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-45c2e2f4147deb69",
+      "kind": "math-markup-change",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-fig03@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d63382c75d3f507f",
+      "kind": "math-structure",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "m42380",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        "import-auto-id1942860@6",
+        "import-auto-id1942860@7"
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

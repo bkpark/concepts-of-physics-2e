@@ -1,0 +1,152 @@
+{
+  "module": "m52456",
+  "title": "Polarization",
+  "slug": "polarization",
+  "local_sha256": "0c09420e14779ce6b09dafb68786761abfc264e6e5528c6058917aaf39d43982",
+  "upstream_modules": [
+    "m42522"
+  ],
+  "counts": {
+    "prose": 1,
+    "accessibility": 1,
+    "math-markup-change": 6,
+    "math-structure": 1,
+    "media": 1
+  },
+  "changes": [
+    {
+      "id": "UP-9fc01a89eba8f0fb",
+      "kind": "prose",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169737790419",
+      "status": "unreviewed-difference",
+      "local": "Light can be polarized by passing it through a polarizing filter or other polarizing material. The intensity of polarized light after passing through a polarizing filter depends on the direction of polarization and the axis of the filter.",
+      "upstream": "Light can be polarized by passing it through a polarizing filter or other polarizing material. The intensity [MATH] of polarized light after passing through a polarizing filter is [MATH] where [MATH] is the original intensity and [MATH] is the angle between the direction of polarization and the axis of the filter.",
+      "local_html": "Light can be polarized by passing it through a polarizing filter or other polarizing material. \n\nThe intensity of polarized light after passing through a polarizing filter depends on the direction of polarization and the axis of the filter.",
+      "upstream_html": "Light can be polarized by passing it through a polarizing filter or other polarizing material. The intensity <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> of polarized light after passing through a polarizing filter is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>I</mi><mo stretchy=\"false\">=</mo><msub><mi>I</mi><mrow><mn>0</mn></mrow></msub></mrow><mspace width=\"0.25em\" /><msup><mtext>cos</mtext><mrow><mn>2</mn></mrow></msup><mspace width=\"0.25em\" /><mi>θ,</mi></mrow></mrow></mrow></math> where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>I</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow></math> is the original intensity and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math> is the angle between the direction of polarization and the axis of the filter.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2614dc064dd47a4b",
+      "kind": "accessibility",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169737965301",
+      "status": "unreviewed-difference",
+      "local": "The figure contains two schematics and one photograph. The first schematic shows a ray of initially unpolarized light going through a vertical polarizer, then an element labeled L C D no voltage ninety degree rotation, then finally a horizontal polarizer. The initially unpolarized light becomes vertically polarized after the vertical polarizer, then is rotated ninety degrees by the L C D element so that it is horizontally polarized, then it passes through the horizontal polarizer. The second schematic is the same except that the L C D element is labeled voltage on, no rotation. The light coming out of the L C D element is thus vertically polarized and does not pass through the horizontal polarizer. Finally, a photograph is shown of a laptop computer that is open so that you can see its screen, which is on and has some icons and windows visible.",
+      "upstream": "Figure a is an illustration of a ray of initially unpolarized light going through a vertical polarizer, then an element labeled L C D no voltage ninety degree rotation, and finally a horizontal polarizer. The initially unpolarized light becomes vertically polarized after the vertical polarizer, then is rotated ninety degrees by the L C D element so that it is horizontally polarized, then it passes through the horizontal polarizer. Figure b is the same except that the L C D element is labeled voltage on, no rotation. The light coming out of the L C D element is thus vertically polarized and does not pass through the horizontal polarizer, making the region at this location dark. Finally, in figure c, a photograph is shown of a laptop computer that is open so that you can see its screen, which is on and has some icons and windows visible.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-7edacfe539e57c90",
+      "kind": "math-markup-change",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169736623186@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mo stretchy=\"false\">/</mo><msup><mi>λ</mi><mrow><mn>4</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mo stretchy=\"false\">/</mo><msup><mi>λ</mi><mrow><mn>4</mn></mrow></msup></mrow></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-c21796fd8629f46d",
+      "kind": "math-markup-change",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169736623186@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-152971c36534961d",
+      "kind": "math-markup-change",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169736623186@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-1706493bc7b0b1a0",
+      "kind": "math-markup-change",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169737870410@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a5fb2b55f51c18f7",
+      "kind": "math-markup-change",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169737991602@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-c7fb1fdbf2f9b847",
+      "kind": "math-markup-change",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169738171661@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>E</mi><mspace width=\"0.25em\" /><mtext>cos</mtext><mspace width=\"0.25em\" /><mi>θ</mi></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>E</mi><mspace width=\"0.25em\" /><mtext>cos</mtext><mspace width=\"0.25em\" /><mi>θ</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a354d901227b500e",
+      "kind": "math-structure",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "m42522",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        "import-auto-id1169737790419@1",
+        "import-auto-id1169737790419@2",
+        "import-auto-id1169737790419@3",
+        "import-auto-id1169737790419@4"
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-bbd33ceb442110e5",
+      "kind": "media",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169737965301",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure_28_08_12a.jpg",
+        "sha256": "33312b84ae8b15938247d0b36335bf6b8248e164535ff219ff4f75fd5b59e411"
+      },
+      "upstream": {
+        "path": "../../media/OSX_CP2e_Figure_28_08_12.jpg",
+        "sha256": "d2468009c01c36e115e28e08e5308eced777aba0283fe5bf9e3b8a1cf4350b85"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    }
+  ]
+}

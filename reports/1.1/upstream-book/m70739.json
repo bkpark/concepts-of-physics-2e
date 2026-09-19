@@ -1,0 +1,187 @@
+{
+  "module": "m70739",
+  "title": "Electric Field Lines",
+  "slug": "electric-field-lines",
+  "local_sha256": "15a92fd3d6688c635dfe6e2cb815877e365e68c0d96f6e2e2ea80ac328073398",
+  "upstream_modules": [
+    "m42312"
+  ],
+  "counts": {
+    "prose": 2,
+    "math-markup-change": 12
+  },
+  "changes": [
+    {
+      "id": "UP-d0e324b8d827d2ce",
+      "kind": "prose",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id1977836",
+      "status": "unreviewed-difference",
+      "local": "In many situations, there are multiple charges. The total electric field created by multiple charges is the vector sum of the individual fields created by each charge.",
+      "upstream": "In many situations, there are multiple charges. The total electric field created by multiple charges is the vector sum of the individual fields created by each charge. The following example shows how to add electric field vectors.",
+      "local_html": "In many situations, there are multiple charges. The total electric field created by multiple charges is the vector sum of the individual fields created by each charge.",
+      "upstream_html": "In many situations, there are multiple charges. The total electric field created by multiple charges is the vector sum of the individual fields created by each charge. The following example shows how to add electric field vectors.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-23087e75b601f23a",
+      "kind": "prose",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3073177",
+      "status": "unreviewed-difference",
+      "local": "shows two pictorial representations of the same electric field created by a positive point charge [MATH] . (b) shows the standard representation using continuous lines. (a) shows numerous individual arrows with each arrow representing the force on a test charge [MATH] .",
+      "upstream": "shows two pictorial representations of the same electric field created by a positive point charge [MATH] . (b) shows the standard representation using continuous lines. (a) shows numerous individual arrows with each arrow representing the force on a test charge [MATH] . Field lines are essentially a map of infinitesimal force vectors.",
+      "local_html": "<span class=\"muted\">[reference]</span> shows two pictorial representations of the same electric field created by a positive point charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Q</mi></mrow><mrow /></mrow></mrow></math>. <span class=\"muted\">[reference]</span> (b) shows the standard representation using continuous lines. <span class=\"muted\">[reference]</span> (a) shows numerous individual arrows with each arrow representing the force on a test charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>.",
+      "upstream_html": "<span class=\"muted\">[reference]</span> shows two pictorial representations of the same electric field created by a positive point charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Q</mi></mrow></mrow></math>. <span class=\"muted\">[reference]</span> (b) shows the standard representation using continuous lines. <span class=\"muted\">[reference]</span> (a) shows numerous individual arrows with each arrow representing the force on a test charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>. Field lines are essentially a map of infinitesimal force vectors.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-67ab899ae600b63e",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "fs-id3121967@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Q</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Q</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a83b46db541e6b2f",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id2679405@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8cbc50f4ac5e3959",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id2679405@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b19b224dfa428992",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3009329@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo>+</mo><mi>q</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>+</mo><mi>q</mi></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-0a38f922c3167bf1",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3009329@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>–3.00</mn><mi>q</mi></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>–3.00</mn><mi>q</mi></mrow></math>",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-7c43f1916f8f5d22",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3073177@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Q</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Q</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8005b07b35d360c1",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3073177@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a8dbcc00587f38f8",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3285646@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-01daf069c1631028",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3285646@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-79d5a5e1e91097ee",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3424254@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8472b13c84ececba",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3424254@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>E</mi><mo stretchy=\"false\">=</mo><mrow><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mi>k</mi><mo>|</mo><mi>Q</mi><mo>|</mo></mrow></mstyle><mo stretchy=\"false\">/</mo><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>E</mi><mo stretchy=\"false\">=</mo><mrow><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mi>k</mi><mo>|</mo><mi>Q</mi><mo>|</mo></mrow></mstyle><mo stretchy=\"false\">/</mo><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-cc3d17567548247b",
+      "kind": "math-markup-change",
+      "local_module": "m70739",
+      "upstream_module": "m42312",
+      "source_id": "import-auto-id3424254@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

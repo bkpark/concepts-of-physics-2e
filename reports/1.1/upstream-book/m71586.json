@@ -1,0 +1,69 @@
+{
+  "module": "m71586",
+  "title": "Forced Oscillations and Resonance",
+  "slug": "forced-oscillations-and-resonance",
+  "local_sha256": "b4007c16f3b8bbe969934a7413327b3cb5d8d188089a76f2310b03f8a6fae7d4",
+  "upstream_modules": [
+    "m42247"
+  ],
+  "counts": {
+    "prose": 3,
+    "math-markup-change": 1
+  },
+  "changes": [
+    {
+      "id": "UP-be5b2c1359df094f",
+      "kind": "prose",
+      "local_module": "m71586",
+      "upstream_module": "m42247",
+      "source_id": "fs-id3173271",
+      "status": "unreviewed-difference",
+      "local": "the frequency at which a simple harmonic oscillator oscillates if it is set in motion without a driving force",
+      "upstream": "the frequency at which a system would oscillate if there were no driving and no damping forces",
+      "local_html": "the frequency at which a simple harmonic oscillator oscillates if it is set in motion without a driving force",
+      "upstream_html": "the frequency at which a system would oscillate if there were no driving and no damping forces",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a863757a978d47a7",
+      "kind": "prose",
+      "local_module": "m71586",
+      "upstream_module": "m42247",
+      "source_id": "import-auto-id1486612",
+      "status": "unreviewed-difference",
+      "local": "Give additional examples of resonance phenomenon from everyday life.",
+      "upstream": "Why are soldiers in general ordered to “route step” (walk out of step) across a bridge?",
+      "local_html": "Give additional examples of resonance phenomenon from everyday life.",
+      "upstream_html": "Why are soldiers in general ordered to “route step” (walk out of step) across a bridge?",
+      "exercise_context": true,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-3f6137fcc69f4227",
+      "kind": "prose",
+      "local_module": "m71586",
+      "upstream_module": "m42247",
+      "source_id": "import-auto-id2459187",
+      "status": "unreviewed-difference",
+      "local": "Sit in front of a piano sometime and sing a loud brief note at it with the dampers off its strings. It will sing the same note back at you—the strings, having the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. Your voice and a piano’s strings is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate but oscillate best at their natural frequency. In this section, we shall briefly explore applying a periodic driving force acting on a simple harmonic oscillator. The driving force puts energy into the system at a certain frequency, not necessarily the same as the natural frequency of the system. The natural frequency is the frequency at which a simple harmonic oscillator oscillates, if there is no damping force, and other than an initial kick to get the motion started, there is no driving force. A damping force is a frictional force (friction, air resistance, and other forces that lead to decrease in mechanical energy) which converts the mechanical energy of the oscillatory motion into thermal energy.",
+      "upstream": "Sit in front of a piano sometime and sing a loud brief note at it with the dampers off its strings. It will sing the same note back at you—the strings, having the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. Your voice and a piano’s strings is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate but oscillate best at their natural frequency. In this section, we shall briefly explore applying a periodic driving force acting on a simple harmonic oscillator. The driving force puts energy into the system at a certain frequency, not necessarily the same as the natural frequency of the system. The natural frequency is the frequency at which a system would oscillate if there were no driving and no damping force.",
+      "local_html": "Sit in front of a piano sometime and sing a loud brief note at it with the dampers off its strings. It will sing the same note back at you—the strings, having the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. Your voice and a piano’s strings is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate but oscillate best at their natural frequency. In this section, we shall briefly explore applying a <em>periodic driving force</em> acting on a simple harmonic oscillator. The driving force puts energy into the system at a certain frequency, not necessarily the same as the natural frequency of the system. The natural frequency is the frequency at which a simple harmonic oscillator oscillates, if there is no damping force, and other than an initial kick to get the motion started, there is no driving force. A damping force is a frictional force (friction, air resistance, and other forces that lead to decrease in mechanical energy) which converts the mechanical energy of the oscillatory motion into thermal energy.",
+      "upstream_html": "Sit in front of a piano sometime and sing a loud brief note at it with the dampers off its strings. It will sing the same note back at you—the strings, having the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. Your voice and a piano’s strings is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate but oscillate best at their natural frequency. In this section, we shall briefly explore applying a <em>periodic driving force</em> acting on a simple harmonic oscillator. The driving force puts energy into the system at a certain frequency, not necessarily the same as the natural frequency of the system. The natural frequency is the frequency at which a system would oscillate if there were no driving and no damping force.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-7f8dc72e001cd8de",
+      "kind": "math-markup-change",
+      "local_module": "m71586",
+      "upstream_module": "m42247",
+      "source_id": "import-auto-id1386289@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

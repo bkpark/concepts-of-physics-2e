@@ -1,0 +1,81 @@
+{
+  "module": "m52322",
+  "title": "Introduction to Dynamics: Newton’s Laws of Motion",
+  "slug": "introduction-to-dynamics-newtons-laws-of-motion",
+  "local_sha256": "1525c72877708cb7931c1d33b6b715a238e4c252901724f47d8e2fd08b0cf760",
+  "upstream_modules": [
+    "m42129"
+  ],
+  "counts": {
+    "prose": 1,
+    "references": 1,
+    "math-markup-change": 1,
+    "media": 1
+  },
+  "changes": [
+    {
+      "id": "UP-8e0c61540d5751f1",
+      "kind": "prose",
+      "local_module": "m52322",
+      "upstream_module": "m42129",
+      "source_id": "import-auto-id1672878",
+      "status": "unreviewed-difference",
+      "local": "It was not until the advent of modern physics early in the 20th century that it was discovered that Newton’s laws of motion produce a good approximation to motion only when the objects are moving at speeds much, much less than the speed of light and when those objects are larger than the size of most molecules (about [MATH] in diameter). These constraints define the realm of classical mechanics. At the beginning of the 20th century, Albert Einstein (1879–1955) developed the theory of relativity and, along with many other scientists, developed quantum theory. This theory does not have the constraints present in classical physics. All of the situations we consider in this chapter are in the realm of classical physics.",
+      "upstream": "It was not until the advent of modern physics early in the 20th century that it was discovered that Newton’s laws of motion produce a good approximation to motion only when the objects are moving at speeds much, much less than the speed of light and when those objects are larger than the size of most molecules (about [MATH] in diameter). These constraints define the realm of classical mechanics, as discussed in Introduction to the Nature of Science and Physics. At the beginning of the 20th century, Albert Einstein (1879–1955) developed the theory of relativity and, along with many other scientists, developed quantum theory. This theory does not have the constraints present in classical physics. All of the situations we consider in this chapter, and all those preceding the introduction of relativity in Special Relativity, are in the realm of classical physics.",
+      "local_html": "It was not until the advent of modern physics early in the 20th century that it was discovered that Newton’s laws of motion produce a good approximation to motion only when the objects are moving at speeds much, much less than the speed of light and when those objects are larger than the size of most molecules (about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>9</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow></mrow></mrow></mrow></math> in diameter). \n\nThese constraints define the realm of classical mechanics. At the beginning of the 20th century, Albert Einstein (1879–1955) developed the theory of relativity and, along with many other scientists, developed quantum theory. This theory does not have the constraints present in classical physics. All of the situations we consider in this chapter are in the realm of classical physics. ",
+      "upstream_html": "It was not until the advent of modern physics early in the 20th century that it was discovered that Newton’s laws of motion produce a good approximation to motion only when the objects are moving at speeds much, much less than the speed of light and when those objects are larger than the size of most molecules (about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>9</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow></mrow></mrow></math> in diameter). These constraints define the realm of classical mechanics, as discussed in Introduction to the Nature of Science and Physics. At the beginning of the 20th century, Albert Einstein (1879–1955) developed the theory of relativity and, along with many other scientists, developed quantum theory. This theory does not have the constraints present in classical physics. All of the situations we consider in this chapter, and all those preceding the introduction of relativity in Special Relativity, are in the realm of classical physics. ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-73d898c825743c6b",
+      "kind": "references",
+      "local_module": "m52322",
+      "upstream_module": "m42129",
+      "source_id": "import-auto-id1672878",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        {
+          "document": "m42119"
+        },
+        {
+          "document": "m42528"
+        }
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-70e7ed6bac238f0c",
+      "kind": "math-markup-change",
+      "local_module": "m52322",
+      "upstream_module": "m42129",
+      "source_id": "import-auto-id1672878@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>9</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow></mrow></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>9</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a6d94c8bcafd4917",
+      "kind": "media",
+      "local_module": "m52322",
+      "upstream_module": "m42129",
+      "source_id": "import-auto-id1662414",
+      "status": "unreviewed-difference",
+      "local": {
+        "path": "../../media/Figure_04_00_01.jpg",
+        "sha256": "a0742b032b21cc1d6a890379b75de2b09593fb2c388edebd0c2fab15d0963603"
+      },
+      "upstream": {
+        "path": "../../media/Figure_04_00_01-eeb3.jpg",
+        "sha256": "c5d3e0066b75bf247a2dc86b29b1a6223729ed1d1a3e2b34c5dc195cebf1b135"
+      },
+      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
+      "exercise_context": false,
+      "credit_review_required": true
+    }
+  ]
+}

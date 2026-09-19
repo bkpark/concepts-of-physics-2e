@@ -1,0 +1,263 @@
+{
+  "module": "m67132",
+  "title": "The Electromagnetic Spectrum: an Overview",
+  "slug": "the-electromagnetic-spectrum-an-overview",
+  "local_sha256": "af7ac8c6a536aa722dded51c7e6de173039cfc1b00d1850a8dcb1b73cc402667",
+  "upstream_modules": [
+    "m42444"
+  ],
+  "counts": {
+    "prose": 2,
+    "math-markup-change": 17,
+    "math-structure": 1
+  },
+  "changes": [
+    {
+      "id": "UP-e5b61045d950e2db",
+      "kind": "prose",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "fs-id1169737906318",
+      "status": "unreviewed-difference",
+      "local": "a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from 0.74 μm to 300 μm",
+      "upstream": "a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from [MATH] to [MATH]",
+      "local_html": " a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from 0.74 μm to 300 μm",
+      "upstream_html": " a region of the electromagnetic spectrum with a frequency range that extends from just below the red region of the visible light spectrum up to the microwave region, or from <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>0</mn><mtext>.</mtext><mtext>74</mtext><mspace width=\"0.25em\" /><mi fontstyle=\"italic\" style=\";font-style:italic\">μm</mi></mrow></mrow></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>300</mtext><mspace width=\"0.25em\" /><mi fontstyle=\"italic\" style=\";font-style:italic\">μm</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5a1fd313335fdf78",
+      "kind": "prose",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169737813356",
+      "status": "unreviewed-difference",
+      "local": "In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in . Note that the vast majority of the different types of electromagnetic waves originate from atomic and/or molecular electron transitions—that is, from electrons changing their energy levels within atoms or molecules.",
+      "upstream": "In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in .",
+      "local_html": "In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in <span class=\"muted\">[reference]</span>. Note that the vast majority of the different types of electromagnetic waves originate from  atomic and/or molecular electron transitions—that is, from electrons changing their energy levels within atoms or molecules. \t",
+      "upstream_html": "In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in <span class=\"muted\">[reference]</span>.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d032f503e9d1d81a",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "eip-387@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /><mo>.</mo></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /><mo>.</mo></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-7d64518613b8dd92",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "eip-696@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /><mo>,</mo></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>c</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /><mo>,</mo></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-d2728e62252f37e9",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "fs-id1169737786553@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>γ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5604e1d22a2da6f5",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "fs-id2226314@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>γ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-492cb6c06c1eeb90",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "fs-id2226314@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>γ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-0c59ca0811c92941",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "fs-id2226314@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>γ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2eba19ee53258036",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738145031@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>c</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>c</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-1b7c02f73428962b",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738145031@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-73f58ddc74cea46a",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738145031@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub></mrow><mrow /></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-611ec5004b7a0f4a",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738145031@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>f</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>f</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-b04d37991380a000",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738145031@5",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-5be597241929ee56",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738145031@6",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>c</mi></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi>c</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-1f99d5ab1eecdb33",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738164493@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-2ab591dbbd660875",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738164493@2",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>f</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>f</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-8982ce71a2b8cb34",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738164493@3",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-acb4695e78adb8d9",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738164493@4",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>c</mi></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>c</mi></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-9c7dea8aaa5f008b",
+      "kind": "math-markup-change",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "import-auto-id1169738223600@1",
+      "status": "unreviewed-difference",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /></mrow></mrow></math>",
+      "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>W</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow></mrow></math>",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-254d978d0c7ffe77",
+      "kind": "math-structure",
+      "local_module": "m67132",
+      "upstream_module": "m42444",
+      "source_id": "m42444",
+      "status": "unreviewed-difference",
+      "local": [],
+      "upstream": [
+        "fs-id1169737906318@1",
+        "fs-id1169737906318@2"
+      ],
+      "exercise_context": false,
+      "credit_review_required": false
+    }
+  ]
+}

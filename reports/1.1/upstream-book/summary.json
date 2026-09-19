@@ -1,0 +1,2086 @@
+{
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "archive_sha256": "62a1b3545388115220058b88edfd3a0b84fb5a2f651cb0a1c47052cb9dd80f2d",
+  "upstream_collection_modules": 283,
+  "local_sections": 141,
+  "mapped_sections": 140,
+  "unmapped_sections": [
+    "m67030"
+  ],
+  "counts": {
+    "prose": 584,
+    "accessibility": 27,
+    "media": 58,
+    "math-markup-change": 6446,
+    "references": 132,
+    "math-token-change": 579,
+    "math-structure": 60
+  },
+  "exercise_context_differences": 1098,
+  "status": "Inventory only; differences are not yet classified as applicable corrections.",
+  "limitations": [
+    "Two-way comparison cannot distinguish every author adaptation from an upstream correction.",
+    "ID changes and additions/removals require structural review; shared-ID matching does not cover them completely.",
+    "Math markup changes have identical token lists but can still change layout or grouping; token changes can also be only formatting.",
+    "Individual image/source credit compatibility must be checked before incorporation."
+  ],
+  "sections": [
+    {
+      "module": "m67030",
+      "title": "Preface",
+      "slug": "preface",
+      "local_sha256": "41a5f500d7b26194cfbba2697814f7f682de5e501ef016a5c36578907c733d92",
+      "upstream_modules": [],
+      "counts": {}
+    },
+    {
+      "module": "m52309",
+      "title": "Science and the Realm of Physics, Physical Quantities, and Units",
+      "slug": "science-and-the-realm-of-physics-physical-quantities-and-units",
+      "local_sha256": "287f2246508a1eab3830f248629c949b364126bd992b64e87bb4c866831f9be7",
+      "upstream_modules": [
+        "m42119"
+      ],
+      "counts": {
+        "prose": 3,
+        "accessibility": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52310",
+      "title": "Physics: An Introduction",
+      "slug": "physics-an-introduction",
+      "local_sha256": "72544e4e730b62adbe3fbf296e1ba61cb9820f483f75d7dd0a495e7349735433",
+      "upstream_modules": [
+        "m42092"
+      ],
+      "counts": {
+        "prose": 4,
+        "accessibility": 2,
+        "math-markup-change": 1,
+        "media": 2
+      }
+    },
+    {
+      "module": "m67032",
+      "title": "Physical Quantities and Units",
+      "slug": "physical-quantities-and-units",
+      "local_sha256": "e054a7eb0e2bcba664ac48b1cf86c550ca5a3e79dfbd40536130e4fcf79b32e5",
+      "upstream_modules": [
+        "m42091"
+      ],
+      "counts": {
+        "prose": 8,
+        "references": 1,
+        "math-markup-change": 42,
+        "math-token-change": 10,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m52313",
+      "title": "Introduction to One-Dimensional Kinematics",
+      "slug": "introduction-to-one-dimensional-kinematics",
+      "local_sha256": "40c6351f0c5885cf9fd285ea0c9084cda958c93b7f477828573227d094c52725",
+      "upstream_modules": [
+        "m42122"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 1
+      }
+    },
+    {
+      "module": "m52314",
+      "title": "Displacement",
+      "slug": "displacement",
+      "local_sha256": "98e7d78ecebf0365af0019f70f4bbe304b18b35778fe6d830035c85cfdc8b8ae",
+      "upstream_modules": [
+        "m42033"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "prose": 2,
+        "references": 1,
+        "math-markup-change": 28,
+        "math-token-change": 1,
+        "media": 2
+      }
+    },
+    {
+      "module": "m52316",
+      "title": "Vectors, Scalars, and Coordinate Systems",
+      "slug": "vectors-scalars-and-coordinate-systems",
+      "local_sha256": "bb8a17e22a489ca3b2dd09323997f6aa6f469c9fc959684f2c0185811b3b75c8",
+      "upstream_modules": [
+        "m42124"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 9
+      }
+    },
+    {
+      "module": "m71407",
+      "title": "Time, Velocity, and Speed",
+      "slug": "time-velocity-and-speed",
+      "local_sha256": "e75a6b221c41cdb5a6e0ee24897ea6dd761350f99c825af43fca4751432b212e",
+      "upstream_modules": [
+        "m42096"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 1,
+        "accessibility": 1,
+        "math-markup-change": 26,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67033",
+      "title": "Acceleration",
+      "slug": "acceleration",
+      "local_sha256": "15f7440c9ec8330085cb7ed9546cf10fc4f8bf9bfbf0de6d73cc9212a121e5dc",
+      "upstream_modules": [
+        "m42100"
+      ],
+      "counts": {
+        "prose": 11,
+        "references": 4,
+        "math-markup-change": 78,
+        "math-token-change": 4
+      }
+    },
+    {
+      "module": "m67034",
+      "title": "Motion Equations for Constant Acceleration in One Dimension",
+      "slug": "motion-equations-for-constant-acceleration-in-one-dimension",
+      "local_sha256": "0f4446f224937c30381307bb7342dfc368565bfa172ce58990c7bda4bbcc1e71",
+      "upstream_modules": [
+        "m42099"
+      ],
+      "counts": {
+        "prose": 10,
+        "references": 1,
+        "math-markup-change": 159,
+        "math-token-change": 2,
+        "media": 1
+      }
+    },
+    {
+      "module": "m68876",
+      "title": "Falling Objects",
+      "slug": "falling-objects",
+      "local_sha256": "b0d149e3e9d6ee07522768bba5fafdc194a0a65373ae5d074cb92eee3b1e664e",
+      "upstream_modules": [
+        "m42102"
+      ],
+      "counts": {
+        "prose": 4,
+        "math-markup-change": 125,
+        "math-token-change": 7,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67038",
+      "title": "Projectile Motion",
+      "slug": "projectile-motion",
+      "local_sha256": "bdb3aed54551da4e396508cb32df3ddb2968a68cf1a4d87d5c85a3fb34193814",
+      "upstream_modules": [
+        "m42042"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 2,
+        "math-markup-change": 24,
+        "math-token-change": 6,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67035",
+      "title": "Centripetal Acceleration",
+      "slug": "centripetal-acceleration",
+      "local_sha256": "643fc5151bf3f30556c9599f1a0871487684acf0d1c7423ee1e4f203a308f964",
+      "upstream_modules": [
+        "m42084"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 1,
+        "math-token-change": 2,
+        "math-markup-change": 14,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52322",
+      "title": "Introduction to Dynamics: Newton’s Laws of Motion",
+      "slug": "introduction-to-dynamics-newtons-laws-of-motion",
+      "local_sha256": "1525c72877708cb7931c1d33b6b715a238e4c252901724f47d8e2fd08b0cf760",
+      "upstream_modules": [
+        "m42129"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m78923",
+      "title": "Development of Force Concept",
+      "slug": "development-of-force-concept",
+      "local_sha256": "a34988823ee09e2bf69ff0202933061cf97bea2f3a8e1787e882c6dfadd15454",
+      "upstream_modules": [
+        "m42069"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 2,
+        "math-markup-change": 5
+      }
+    },
+    {
+      "module": "m52325",
+      "title": "Newton’s First Law of Motion: Inertia",
+      "slug": "newtons-first-law-of-motion-inertia",
+      "local_sha256": "153c29c409a4a0fc101f2f68cc40cb43e74778358f0f65bdd908cebfc16d26c8",
+      "upstream_modules": [
+        "m42130"
+      ],
+      "counts": {}
+    },
+    {
+      "module": "m67530",
+      "title": "Newton's Second Law of Motion: Force and Acceleration",
+      "slug": "newton-s-second-law-of-motion-force-and-acceleration",
+      "local_sha256": "7ddc816cae0033b6da190cea71fe6071b58bd86bc04a1a263cf6bdca278a5866",
+      "upstream_modules": [
+        "m42073"
+      ],
+      "counts": {
+        "prose": 24,
+        "references": 1,
+        "math-markup-change": 37,
+        "math-token-change": 38,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m68330",
+      "title": "Newton’s Third Law of Motion: Symmetry in Forces",
+      "slug": "newtons-third-law-of-motion-symmetry-in-forces",
+      "local_sha256": "75f2c28c4972c5e7ce6b0e680bd6b6492c27b1f9b01b65cb59e0c803b7880c3a",
+      "upstream_modules": [
+        "m42074"
+      ],
+      "counts": {
+        "prose": 7,
+        "math-markup-change": 22,
+        "math-token-change": 26
+      }
+    },
+    {
+      "module": "m68329",
+      "title": "Normal Force and Tension",
+      "slug": "normal-force-and-tension",
+      "local_sha256": "0f3f3ab1c9f5ef3e5c398715d0cdaf6bc80dca55cba709d4779bf9aef1adbc84",
+      "upstream_modules": [
+        "m42075"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "prose": 1,
+        "math-markup-change": 7,
+        "math-token-change": 12,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67044",
+      "title": "Spring Force: Hooke’s Law",
+      "slug": "spring-force-hookes-law",
+      "local_sha256": "166cc995545bf178b5e51518aa8c12d4965c4bde9ece1eff1e3887014c01e264",
+      "upstream_modules": [
+        "m42240"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 1,
+        "math-markup-change": 27,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71409",
+      "title": "Friction",
+      "slug": "friction",
+      "local_sha256": "a9b0d4389756628fd08125df9dd775d200bd3cbb764b9dc21bcaeeaf63687085",
+      "upstream_modules": [
+        "m42139"
+      ],
+      "counts": {
+        "prose": 5,
+        "accessibility": 1,
+        "math-markup-change": 39
+      }
+    },
+    {
+      "module": "m71410",
+      "title": "Newton’s Universal Law of Gravitation",
+      "slug": "newtons-universal-law-of-gravitation",
+      "local_sha256": "ed587eb85f74350fe2a91b5d8a5beed49b8f33d4ba303cf5ff75f209273810b2",
+      "upstream_modules": [
+        "m42143"
+      ],
+      "counts": {
+        "prose": 7,
+        "accessibility": 1,
+        "math-markup-change": 26,
+        "math-token-change": 5,
+        "media": 2
+      }
+    },
+    {
+      "module": "m67036",
+      "title": "Centripetal Force",
+      "slug": "centripetal-force",
+      "local_sha256": "811247965384560c390265d92d9173ff200896c131b39600772ab990789c2a66",
+      "upstream_modules": [
+        "m42086"
+      ],
+      "counts": {
+        "prose": 7,
+        "math-markup-change": 26,
+        "math-token-change": 13,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52337",
+      "title": "Introduction to Work and Energy",
+      "slug": "introduction-to-work-and-energy",
+      "local_sha256": "e603505f90e0c654c03afcbec169989e0ff3d20a6921b9d9b5b7994ed4fbac80",
+      "upstream_modules": [
+        "m42145"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67539",
+      "title": "Work: The Scientific Definition",
+      "slug": "work-the-scientific-definition",
+      "local_sha256": "fc866874caeeb35c279a0c994a9d27ab2a6c089fb54cf46bb7b7678d5ac4df4d",
+      "upstream_modules": [
+        "m42146"
+      ],
+      "counts": {
+        "prose": 8,
+        "references": 4,
+        "math-token-change": 8,
+        "math-markup-change": 9,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m71411",
+      "title": "Kinetic Energy and the Work-Energy Theorem",
+      "slug": "kinetic-energy-and-the-work-energy-theorem",
+      "local_sha256": "5114b248c5a2cdfa11a911b946ca8a2877a497c75ff7de7ea1e7373f06729c64",
+      "upstream_modules": [
+        "m42147"
+      ],
+      "counts": {
+        "prose": 13,
+        "references": 4,
+        "math-markup-change": 56,
+        "math-token-change": 8,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71414",
+      "title": "Gravitational Potential Energy",
+      "slug": "gravitational-potential-energy",
+      "local_sha256": "a3e2e14ac18e41e3b8a0b7b4d5c3dcaced6256745221d5736ecf2e49d252eb14",
+      "upstream_modules": [
+        "m42148"
+      ],
+      "counts": {
+        "prose": 11,
+        "references": 2,
+        "math-token-change": 27,
+        "math-markup-change": 24,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67037",
+      "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
+      "slug": "conservative-forces-potential-energy-and-conservation-of-energy",
+      "local_sha256": "c1c6b400406660ff144298601f6554191effe8b951709285954bdd85b94cb02a",
+      "upstream_modules": [
+        "m42149",
+        "m42151"
+      ],
+      "counts": {
+        "prose": 11,
+        "math-token-change": 9,
+        "math-markup-change": 16,
+        "math-structure": 2
+      }
+    },
+    {
+      "module": "m67045",
+      "title": "Spring Potential Energy",
+      "slug": "spring-potential-energy",
+      "local_sha256": "178f6a0a12607cb34457456a0853d8fa3864e94667a26c5b82b0964a6ea03047",
+      "upstream_modules": [
+        "m42240"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 29,
+        "math-token-change": 2,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71415",
+      "title": "Power",
+      "slug": "power",
+      "local_sha256": "6a48df4b8546b0100741b0198151ee74535c963433bfd7f7eca56b623d2dc068",
+      "upstream_modules": [
+        "m42152"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 56,
+        "media": 1
+      }
+    },
+    {
+      "module": "m42155",
+      "title": "Introduction to Linear Momentum and Collisions",
+      "slug": "introduction-to-linear-momentum-and-collisions",
+      "local_sha256": "1e5c3b622a4e6e2047f4e4022fb72500329ceb4fd86414df59926551a522cf2d",
+      "upstream_modules": [
+        "m42155"
+      ],
+      "counts": {}
+    },
+    {
+      "module": "m71582",
+      "title": "Linear Momentum and Force",
+      "slug": "linear-momentum-and-force",
+      "local_sha256": "e5eae0b7d56b7d7ab7a463498c8ca4345f5164bb646a6c898eeca098c45af1a9",
+      "upstream_modules": [
+        "m42156"
+      ],
+      "counts": {
+        "prose": 4,
+        "math-markup-change": 14,
+        "math-token-change": 23,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m71583",
+      "title": "Impulse",
+      "slug": "impulse",
+      "local_sha256": "8bd379ad23cc36390d7d18088094662499dd325086a18fcd55cf166abd35713d",
+      "upstream_modules": [
+        "m42159"
+      ],
+      "counts": {
+        "prose": 6,
+        "references": 1,
+        "math-token-change": 6,
+        "math-markup-change": 9,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67039",
+      "title": "Conservation of Momentum",
+      "slug": "conservation-of-momentum",
+      "local_sha256": "5d6f8459144896dd005ab8270a7b3d71824e1c6d40fa229c875a9c8f4b39f22f",
+      "upstream_modules": [
+        "m42162"
+      ],
+      "counts": {
+        "prose": 9,
+        "references": 1,
+        "math-markup-change": 23,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67042",
+      "title": "Elastic Collisions in One Dimension",
+      "slug": "elastic-collisions-in-one-dimension",
+      "local_sha256": "32bae5120e544aa1af66bb740bab9e8c770a63490312c835db001dd2b87f2f1b",
+      "upstream_modules": [
+        "m42163"
+      ],
+      "counts": {
+        "prose": 7,
+        "math-markup-change": 22
+      }
+    },
+    {
+      "module": "m67043",
+      "title": "Inelastic Collisions in One Dimension",
+      "slug": "inelastic-collisions-in-one-dimension",
+      "local_sha256": "3c3fe973f73b8fcce4d3accafd69320c8a8c9bc3af82b55187c671f89259c8fb",
+      "upstream_modules": [
+        "m42164"
+      ],
+      "counts": {
+        "prose": 16,
+        "math-markup-change": 28
+      }
+    },
+    {
+      "module": "m52431",
+      "title": "Introduction to Oscillatory Motion and Waves",
+      "slug": "introduction-to-oscillatory-motion-and-waves",
+      "local_sha256": "374990ed90fe6e97effef5460e5820bdc48cde40b09f5677f61cfe6fbba0929f",
+      "upstream_modules": [
+        "m42239"
+      ],
+      "counts": {
+        "prose": 1
+      }
+    },
+    {
+      "module": "m71584",
+      "title": "Period and Frequency in Oscillations",
+      "slug": "period-and-frequency-in-oscillations",
+      "local_sha256": "258e0df8563ce925fabd5621590c4e24557cce83a25156dd862c30c8e41ec2cc",
+      "upstream_modules": [
+        "m42241"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 20,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m71585",
+      "title": "Simple Harmonic Motion: A Special Periodic Motion",
+      "slug": "simple-harmonic-motion-a-special-periodic-motion",
+      "local_sha256": "d6910e5a31dc58390c5a9b6d6a2ca848a034f21175db05168f9ea48d84c3c3a6",
+      "upstream_modules": [
+        "m42242"
+      ],
+      "counts": {
+        "prose": 6,
+        "math-markup-change": 38,
+        "math-token-change": 4,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m71586",
+      "title": "Forced Oscillations and Resonance",
+      "slug": "forced-oscillations-and-resonance",
+      "local_sha256": "b4007c16f3b8bbe969934a7413327b3cb5d8d188089a76f2310b03f8a6fae7d4",
+      "upstream_modules": [
+        "m42247"
+      ],
+      "counts": {
+        "prose": 3,
+        "math-markup-change": 1
+      }
+    },
+    {
+      "module": "m71587",
+      "title": "Waves",
+      "slug": "waves",
+      "local_sha256": "fa62068b58bced5a74582a19375fc45a1d5e376ddb1dc87028982065587f1375",
+      "upstream_modules": [
+        "m42248"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 26,
+        "media": 2
+      }
+    },
+    {
+      "module": "m71588",
+      "title": "Wave Interference: Standing Waves and Beats",
+      "slug": "wave-interference-standing-waves-and-beats",
+      "local_sha256": "7609f568952f144fb4dccee4672a8d4004ab978dd2e31f1807ab3133d1cc7650",
+      "upstream_modules": [
+        "m42249"
+      ],
+      "counts": {
+        "prose": 8,
+        "references": 1,
+        "math-markup-change": 14,
+        "math-token-change": 2,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71590",
+      "title": "Sound",
+      "slug": "sound",
+      "local_sha256": "3ca2394d517f4db212fd0c9c312fa1898b837843423d7508c71a35b9f83fd938",
+      "upstream_modules": [
+        "m42255"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71589",
+      "title": "Speed of Sound, Frequency, and Wavelength",
+      "slug": "speed-of-sound-frequency-and-wavelength",
+      "local_sha256": "9773cdfa6f40dc44b660789a4bc086cc629f6f086bd6fb462f94152b7deabc76",
+      "upstream_modules": [
+        "m42256"
+      ],
+      "counts": {
+        "prose": 3,
+        "math-markup-change": 38,
+        "math-token-change": 3,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67819",
+      "title": "Doppler Effect and Sonic Booms",
+      "slug": "doppler-effect-and-sonic-booms",
+      "local_sha256": "7c21bf38b0e75d38492d75beb903dca8dcefdec69adc003d722fa78d244eae79",
+      "upstream_modules": [
+        "m42712"
+      ],
+      "counts": {
+        "prose": 7,
+        "math-token-change": 2,
+        "math-markup-change": 11,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m42176",
+      "title": "Introduction to Rotational Motion and Angular Momentum",
+      "slug": "introduction-to-rotational-motion-and-angular-momentum",
+      "local_sha256": "1d4be45b1e71c2f1f67f60d5d0beb2dfca07e619646e9ff7ef34423c138e68b1",
+      "upstream_modules": [
+        "m42176"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "prose": 1
+      }
+    },
+    {
+      "module": "m71592",
+      "title": "Angular Acceleration",
+      "slug": "angular-acceleration",
+      "local_sha256": "7d446b6503a4d3409aab39487172092c8c304fea429e83eb644bc614179729e5",
+      "upstream_modules": [
+        "m42177"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 2,
+        "math-markup-change": 66,
+        "math-token-change": 2,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m71593",
+      "title": "Dynamics of Rotational Motion: Rotational Inertia",
+      "slug": "dynamics-of-rotational-motion-rotational-inertia",
+      "local_sha256": "c4d2ba3eb0e7fc9420566b08c0f84afbde05f557e554b78bf0ebe73f8eb01190",
+      "upstream_modules": [
+        "m42179"
+      ],
+      "counts": {
+        "prose": 3,
+        "math-markup-change": 48,
+        "math-token-change": 2,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67046",
+      "title": "Rotational Kinetic Energy",
+      "slug": "rotational-kinetic-energy",
+      "local_sha256": "febf420affdcc8e83495f3a252a272de8ec0a0c6acd5ecf1c542e38d9c08e0ff",
+      "upstream_modules": [
+        "m42180"
+      ],
+      "counts": {
+        "prose": 5,
+        "references": 3,
+        "math-markup-change": 50,
+        "math-token-change": 4,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m71594",
+      "title": "Angular Momentum and Its Conservation",
+      "slug": "angular-momentum-and-its-conservation",
+      "local_sha256": "252940c6c96ab25709a2a80b0f2de1ed666d87a286921d83e8c83527ebe55289",
+      "upstream_modules": [
+        "m42182"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "prose": 2,
+        "references": 1,
+        "math-markup-change": 72,
+        "math-token-change": 3
+      }
+    },
+    {
+      "module": "m71595",
+      "title": "Gyroscopic Effects: Vector Aspects of Angular Momentum",
+      "slug": "gyroscopic-effects-vector-aspects-of-angular-momentum",
+      "local_sha256": "74e6a217552c3675a6cbb040fede256247ceb53fb2c9414aefb47a54e614ba0c",
+      "upstream_modules": [
+        "m42184"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 32
+      }
+    },
+    {
+      "module": "m67047",
+      "title": "Introduction to Fluids",
+      "slug": "introduction-to-fluids",
+      "local_sha256": "6d5c770ec9293cfb4e9f77851bc5c216f1e9f35f238e3bc2a83ba5e7bf8adb2c",
+      "upstream_modules": [
+        "m42185"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71614",
+      "title": "What Is a Fluid?",
+      "slug": "what-is-a-fluid",
+      "local_sha256": "dab4637b715eb28f1fb88b2659b406cdfebc95a2d60cf8f0184b997d2c45b5d1",
+      "upstream_modules": [
+        "m42186"
+      ],
+      "counts": {
+        "prose": 3,
+        "references": 2,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71613",
+      "title": "Density",
+      "slug": "density",
+      "local_sha256": "861d3ea2b231bbb53645d7dd8a5d7ff858bb5956bb1192f1711e93d578aa57a6",
+      "upstream_modules": [
+        "m42187"
+      ],
+      "counts": {
+        "math-markup-change": 33,
+        "math-token-change": 14,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m71615",
+      "title": "Pressure",
+      "slug": "pressure",
+      "local_sha256": "a60572458961744a09e980718cdece0be0716e7cb27f084729e3a57ab61bfe43",
+      "upstream_modules": [
+        "m42189"
+      ],
+      "counts": {
+        "math-markup-change": 18,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m71623",
+      "title": "Pressure Due to the Weight of Fluid",
+      "slug": "pressure-due-to-the-weight-of-fluid",
+      "local_sha256": "6bc7076dea7fad666c597561726021295ab93de68198c84ba354e5b0683ed65e",
+      "upstream_modules": [
+        "m42192"
+      ],
+      "counts": {
+        "prose": 5,
+        "references": 4,
+        "math-markup-change": 40,
+        "math-token-change": 9,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m71624",
+      "title": "Archimedes’ Principle",
+      "slug": "archimedes-principle",
+      "local_sha256": "a1a115feb443031caef45e1d246c87a43b4d089e8021ae66c7d5c50dd6b9deb9",
+      "upstream_modules": [
+        "m42196"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 2,
+        "math-markup-change": 48,
+        "math-token-change": 2
+      }
+    },
+    {
+      "module": "m71625",
+      "title": "Flow Rate and Its Relation to Velocity",
+      "slug": "flow-rate-and-its-relation-to-velocity",
+      "local_sha256": "3dd656393ec63b98dbba6709015f029fcb426ca5ac152c063f55f67474650c5d",
+      "upstream_modules": [
+        "m42205"
+      ],
+      "counts": {
+        "math-markup-change": 71
+      }
+    },
+    {
+      "module": "m71626",
+      "title": "Bernoulli’s Equation",
+      "slug": "bernoullis-equation",
+      "local_sha256": "659c3f6ac18287d83b9375b521e1d59d0792db67c0d954b75b7d75c5aa0056d5",
+      "upstream_modules": [
+        "m42206"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 73
+      }
+    },
+    {
+      "module": "m67121",
+      "title": "Introduction to Thermal Physics",
+      "slug": "introduction-to-thermal-physics",
+      "local_sha256": "62a94454de9116fc42f35a4a6c06515299377683c5e452e0a9951b7bc34f3abe",
+      "upstream_modules": [
+        "m42213"
+      ],
+      "counts": {
+        "prose": 1,
+        "accessibility": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52364",
+      "title": "Temperature",
+      "slug": "temperature",
+      "local_sha256": "4d14f31718729c8466cf53cee3a1843545ca941fd0330606d4ef5b844ab60786",
+      "upstream_modules": [
+        "m42214"
+      ],
+      "counts": {
+        "prose": 8,
+        "references": 3,
+        "math-markup-change": 41
+      }
+    },
+    {
+      "module": "m67122",
+      "title": "The Ideal Gas Law",
+      "slug": "the-ideal-gas-law",
+      "local_sha256": "7d02f5e37afd631d11e8f05da80c8f7916f23abe233470bff78dc93f3b6c93be",
+      "upstream_modules": [
+        "m42216"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 2,
+        "accessibility": 1,
+        "math-markup-change": 96,
+        "math-token-change": 4,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52368",
+      "title": "Heat",
+      "slug": "heat",
+      "local_sha256": "d4865d1e5af570cc04c15aee1079245057565e9c92538ef3cec7044dab59b8ca",
+      "upstream_modules": [
+        "m42223"
+      ],
+      "counts": {
+        "prose": 3,
+        "references": 2,
+        "math-markup-change": 12,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m67123",
+      "title": "Heat Transfer Methods",
+      "slug": "heat-transfer-methods",
+      "local_sha256": "ca8f8792d911621b468277f5fd9841d1f9f063001ca23095f2811da5375a99fb",
+      "upstream_modules": [
+        "m42226"
+      ],
+      "counts": {
+        "prose": 1
+      }
+    },
+    {
+      "module": "m67622",
+      "title": "Temperature Change and Heat Capacity",
+      "slug": "temperature-change-and-heat-capacity",
+      "local_sha256": "2798242eb7e796c19526eba778d6d336839bb024349d0d6e36f65b095e4fe03a",
+      "upstream_modules": [
+        "m42224"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-token-change": 7,
+        "math-markup-change": 60,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67124",
+      "title": "Phase Change and Latent Heat",
+      "slug": "phase-change-and-latent-heat",
+      "local_sha256": "8b37fc7ee1820afa150aa1191c8913d0cc0dd57f9d0db7132e9babf22ce593d5",
+      "upstream_modules": [
+        "m42225"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "math-markup-change": 69,
+        "math-token-change": 3,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67125",
+      "title": "The First Law of Thermodynamics",
+      "slug": "the-first-law-of-thermodynamics",
+      "local_sha256": "17e58558a51f71b92f5466755a09e04f2d89647f208b4ead11e3bc5d665da195",
+      "upstream_modules": [
+        "m42232"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "prose": 1,
+        "references": 1,
+        "math-token-change": 21,
+        "math-markup-change": 22,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67126",
+      "title": "The First Law of Thermodynamics and Heat Engine Processes",
+      "slug": "the-first-law-of-thermodynamics-and-heat-engine-processes",
+      "local_sha256": "c93168fb7c1fe1abb04e308100e17dfbc4b486ee0677b503fad5fabdec0b474d",
+      "upstream_modules": [
+        "m42233"
+      ],
+      "counts": {
+        "prose": 5,
+        "accessibility": 3,
+        "math-markup-change": 21,
+        "math-token-change": 3,
+        "math-structure": 1,
+        "media": 3
+      }
+    },
+    {
+      "module": "m67127",
+      "title": "Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+      "slug": "introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency",
+      "local_sha256": "4819102a39a5d5d15676a625b7da12c465369734da7602f75854b36c1434d7d3",
+      "upstream_modules": [
+        "m42234"
+      ],
+      "counts": {
+        "prose": 4,
+        "math-markup-change": 61,
+        "math-token-change": 5,
+        "media": 1
+      }
+    },
+    {
+      "module": "m42235",
+      "title": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+      "slug": "carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated",
+      "local_sha256": "b7a1a6e7b4b4b5af9a2ad0b6282531d1cd9b2e95eddff7ff25c9bb1cec7b180f",
+      "upstream_modules": [
+        "m42235"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 64
+      }
+    },
+    {
+      "module": "m42236",
+      "title": "Applications of Thermodynamics: Heat Pumps and Refrigerators",
+      "slug": "applications-of-thermodynamics-heat-pumps-and-refrigerators",
+      "local_sha256": "a929c24195c3e547838f236ab61177c470aad87692d23be39da156dd28a89511",
+      "upstream_modules": [
+        "m42236"
+      ],
+      "counts": {
+        "math-markup-change": 114
+      }
+    },
+    {
+      "module": "m67128",
+      "title": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+      "slug": "entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy",
+      "local_sha256": "0cc4d399011a86b02cd8edc3b7c319f21e585ee878f49fa1b1a071653df5afe5",
+      "upstream_modules": [
+        "m42237"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 51,
+        "math-token-change": 2
+      }
+    },
+    {
+      "module": "m42238",
+      "title": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+      "slug": "statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation",
+      "local_sha256": "13ced0f7f7e13f110e34dead4ee98a843c4c11a4be9274f811587f45962b13c9",
+      "upstream_modules": [
+        "m42238"
+      ],
+      "counts": {
+        "math-markup-change": 55,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m67129",
+      "title": "Introduction to Electricity",
+      "slug": "introduction-to-electricity",
+      "local_sha256": "06539380e1aa67dd9605161aae6de84bb692008d1d710539735d345fcfd841b1",
+      "upstream_modules": [
+        "m42299"
+      ],
+      "counts": {
+        "prose": 2
+      }
+    },
+    {
+      "module": "m52381",
+      "title": "Static Electricity and Charge: Conservation of Charge",
+      "slug": "static-electricity-and-charge-conservation-of-charge",
+      "local_sha256": "d610da37e41a01740984916369e60d78b2080945a8fd27abf3e0d540dab0bc44",
+      "upstream_modules": [
+        "m42300"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 1,
+        "accessibility": 1,
+        "math-markup-change": 23
+      }
+    },
+    {
+      "module": "m52384",
+      "title": "Coulomb’s Law",
+      "slug": "coulombs-law",
+      "local_sha256": "7929e01bc621b3d96ce57a23e22435f110c1f59d02e7d4fa17f6500dba560db9",
+      "upstream_modules": [
+        "m42308"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 39
+      }
+    },
+    {
+      "module": "m52385",
+      "title": "Electric Field: Concept of a Field Revisited",
+      "slug": "electric-field-concept-of-a-field-revisited",
+      "local_sha256": "0ad4a757a6f204ebedb909faefbd2f9b12e88c332fc3c2baddc41c742e5e061e",
+      "upstream_modules": [
+        "m42310"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 77
+      }
+    },
+    {
+      "module": "m70739",
+      "title": "Electric Field Lines",
+      "slug": "electric-field-lines",
+      "local_sha256": "15a92fd3d6688c635dfe6e2cb815877e365e68c0d96f6e2e2ea80ac328073398",
+      "upstream_modules": [
+        "m42312"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 12
+      }
+    },
+    {
+      "module": "m75427",
+      "title": "Electric Potential and Potential Energy",
+      "slug": "electric-potential-and-potential-energy",
+      "local_sha256": "70392817ec91c21939d4760026572f67432b7fbc876c705e027318dbe5bb0920",
+      "upstream_modules": [
+        "m42324"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 1,
+        "math-token-change": 1,
+        "math-markup-change": 83,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m75428",
+      "title": "Conductors and Applications of Electrostatics",
+      "slug": "conductors-and-applications-of-electrostatics",
+      "local_sha256": "fe5fe593ecd81f7904874bdabe688adf2b4be4c787f72bc1e2a27d75407eef26",
+      "upstream_modules": [
+        "m42317",
+        "m42329"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 1,
+        "math-markup-change": 24,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m67130",
+      "title": "Current",
+      "slug": "current",
+      "local_sha256": "3218679bb66f535021d0fd3af42b5f2d381779e28af0f7fcf219d159c6e38cea",
+      "upstream_modules": [
+        "m42341"
+      ],
+      "counts": {
+        "math-markup-change": 36
+      }
+    },
+    {
+      "module": "m52401",
+      "title": "Ohm’s Law: Resistance and Simple Circuits",
+      "slug": "ohms-law-resistance-and-simple-circuits",
+      "local_sha256": "130b4901233f414fb5feafe00dbb301f80cec2a34abe1906fe12d137b898405c",
+      "upstream_modules": [
+        "m42344"
+      ],
+      "counts": {
+        "prose": 3,
+        "references": 2,
+        "math-markup-change": 46
+      }
+    },
+    {
+      "module": "m52402",
+      "title": "Electric Power and Energy",
+      "slug": "electric-power-and-energy",
+      "local_sha256": "4f618224fb78e530665f4637dbb46b78ceb7701b03bd4717542b9fd8101d8686",
+      "upstream_modules": [
+        "m42714"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 1,
+        "math-markup-change": 67,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m42356",
+      "title": "Resistors in Series and Parallel",
+      "slug": "resistors-in-series-and-parallel",
+      "local_sha256": "e1c47ac474ca9580101fe00533fc768ade43b9bc308818e780ee8ab17c019c45",
+      "upstream_modules": [
+        "m42356"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 202
+      }
+    },
+    {
+      "module": "m52406",
+      "title": "Electric Hazards and the Human Body",
+      "slug": "electric-hazards-and-the-human-body",
+      "local_sha256": "12877d7df7f07ae8b152cb45f3e4fd0349b114fd3067d59da1012279d121ebea",
+      "upstream_modules": [
+        "m42350"
+      ],
+      "counts": {
+        "prose": 8,
+        "references": 2,
+        "math-markup-change": 39,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m52408",
+      "title": "Introduction to Magnetism",
+      "slug": "introduction-to-magnetism",
+      "local_sha256": "0aae47e282cd27561bf12b9f8a7d1023662888446f2fab00954ad71eb281c79b",
+      "upstream_modules": [
+        "m42365"
+      ],
+      "counts": {}
+    },
+    {
+      "module": "m52412",
+      "title": "Magnets",
+      "slug": "magnets",
+      "local_sha256": "74fd9fa034b389765755faf8b1c9caac3fe9623c7fd68c12b5c4b573aa2d1016",
+      "upstream_modules": [
+        "m42366"
+      ],
+      "counts": {
+        "prose": 1,
+        "accessibility": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52410",
+      "title": "Ferromagnets and Electromagnets",
+      "slug": "ferromagnets-and-electromagnets",
+      "local_sha256": "942ed9446e0f43fcbc534e25867c3bd8e2a8b8df07148c96990407b4a37462bb",
+      "upstream_modules": [
+        "m42368"
+      ],
+      "counts": {
+        "math-markup-change": 1
+      }
+    },
+    {
+      "module": "m52413",
+      "title": "Magnetic Fields and Magnetic Field Lines",
+      "slug": "magnetic-fields-and-magnetic-field-lines",
+      "local_sha256": "68d9570be84f0619df2cc66123ac40f57685abde2baa6537506025fcd61a762b",
+      "upstream_modules": [
+        "m42370"
+      ],
+      "counts": {
+        "media": 1
+      }
+    },
+    {
+      "module": "m52414",
+      "title": "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+      "slug": "magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field",
+      "local_sha256": "0086c11659ef667d6158a8668248403bdaffdeee85d7c07c670dbead308b6ab1",
+      "upstream_modules": [
+        "m42372"
+      ],
+      "counts": {
+        "prose": 9,
+        "math-markup-change": 25,
+        "math-token-change": 9,
+        "math-structure": 1,
+        "media": 4
+      }
+    },
+    {
+      "module": "m52416",
+      "title": "Magnetic Force on a Current-Carrying Conductor",
+      "slug": "magnetic-force-on-a-current-carrying-conductor",
+      "local_sha256": "e21132a3a4d96ba9e5b847fe42e25ca8c77d2a0c60655b1b9470fb0099bbf495",
+      "upstream_modules": [
+        "m42398"
+      ],
+      "counts": {
+        "prose": 10,
+        "references": 1,
+        "math-token-change": 9,
+        "math-markup-change": 21,
+        "math-structure": 1,
+        "media": 4
+      }
+    },
+    {
+      "module": "m52417",
+      "title": "Motors and Meters",
+      "slug": "motors-and-meters",
+      "local_sha256": "7bc88962c1be8667ec30c76024a40c2469fc6233b1b1a37917f107054d7bdc95",
+      "upstream_modules": [
+        "m42380"
+      ],
+      "counts": {
+        "prose": 5,
+        "references": 1,
+        "math-markup-change": 13,
+        "math-token-change": 2,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m52420",
+      "title": "Magnetic Fields Produced by Currents: Ampere’s Law",
+      "slug": "magnetic-fields-produced-by-currents-amperes-law",
+      "local_sha256": "13bc4e57bf13b9c22ab5ea01a93fa12616a599d6b5ba4929de31fafeefa08f49",
+      "upstream_modules": [
+        "m42382"
+      ],
+      "counts": {
+        "references": 2,
+        "prose": 1,
+        "math-markup-change": 49,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m70743",
+      "title": "Induced Voltage and Magnetic Flux",
+      "slug": "induced-voltage-and-magnetic-flux",
+      "local_sha256": "1b0ac08178d313dfdc2fbb6b70e53c8571b27b120725090fcfaeebd300db49ff",
+      "upstream_modules": [
+        "m42390"
+      ],
+      "counts": {
+        "prose": 12,
+        "references": 1,
+        "math-token-change": 7,
+        "math-markup-change": 20,
+        "math-structure": 1,
+        "media": 2
+      }
+    },
+    {
+      "module": "m70744",
+      "title": "Faraday’s Law of Induction: Lenz’s Law",
+      "slug": "faradays-law-of-induction-lenzs-law",
+      "local_sha256": "5a2d59faf7de22a8f099de4913697705b8cb2e007adcfd68011d718ae0bb15ae",
+      "upstream_modules": [
+        "m42392"
+      ],
+      "counts": {
+        "prose": 10,
+        "math-token-change": 3,
+        "math-markup-change": 14,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52427",
+      "title": "Transformers",
+      "slug": "transformers",
+      "local_sha256": "7cd551b3ed132558fc504a8d292e415e4ae7e3ee21bf5c39c95e675d25e758f8",
+      "upstream_modules": [
+        "m42414"
+      ],
+      "counts": {
+        "prose": 6,
+        "references": 1,
+        "math-markup-change": 40,
+        "math-token-change": 2,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67131",
+      "title": "Alternating Current versus Direct Current",
+      "slug": "alternating-current-versus-direct-current",
+      "local_sha256": "5df6716e404cd15ffca74900defa73ae82e25c6f839dc32273e22e669ba19f07",
+      "upstream_modules": [
+        "m42348"
+      ],
+      "counts": {
+        "prose": 12,
+        "references": 2,
+        "math-markup-change": 31,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67031",
+      "title": "Introduction to Light",
+      "slug": "introduction-to-light",
+      "local_sha256": "50922bc8ac55aba4248b11a76d32868c6ed9ffa13d9807c5bdbd1ff0e25c2b2b",
+      "upstream_modules": [
+        "m42449"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 1,
+        "accessibility": 1
+      }
+    },
+    {
+      "module": "m52443",
+      "title": "Maxwell’s Equations: Electromagnetic Waves Predicted and Observed",
+      "slug": "maxwells-equations-electromagnetic-waves-predicted-and-observed",
+      "local_sha256": "0c774ad79944b6ad621f7ae891a845feb297db54ca555aac36a4085593309767",
+      "upstream_modules": [
+        "m42437"
+      ],
+      "counts": {
+        "prose": 10,
+        "math-markup-change": 2,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m75429",
+      "title": "Production and Properties of Electromagnetic Waves",
+      "slug": "production-and-properties-of-electromagnetic-waves",
+      "local_sha256": "e750659b54a629388202d13d0533b340c44abeb03126e96c15b2cef0e50ffde3",
+      "upstream_modules": [
+        "m42440"
+      ],
+      "counts": {
+        "math-markup-change": 17
+      }
+    },
+    {
+      "module": "m67132",
+      "title": "The Electromagnetic Spectrum: an Overview",
+      "slug": "the-electromagnetic-spectrum-an-overview",
+      "local_sha256": "af7ac8c6a536aa722dded51c7e6de173039cfc1b00d1850a8dcb1b73cc402667",
+      "upstream_modules": [
+        "m42444"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 17,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67133",
+      "title": "The Electromagnetic Spectrum: Application Notes",
+      "slug": "the-electromagnetic-spectrum-application-notes",
+      "local_sha256": "34a1a446dced9c0de63af5584c53bbd20daf57e13a6018dd578a12e319bc86e3",
+      "upstream_modules": [
+        "m42444"
+      ],
+      "counts": {
+        "prose": 12,
+        "references": 2,
+        "math-markup-change": 45,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52450",
+      "title": "Reflection",
+      "slug": "reflection",
+      "local_sha256": "d09f2a59009698e54040a46ed3362ff221e3f680d307df2f89c9a64334790306",
+      "upstream_modules": [
+        "m42456"
+      ],
+      "counts": {
+        "math-markup-change": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52454",
+      "title": "Refraction",
+      "slug": "refraction",
+      "local_sha256": "4cb5e62fdefd1d28000cfc6200471a188b307f25b3c0dc10ebe8cb0a54b90ed9",
+      "upstream_modules": [
+        "m42459"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 40,
+        "math-token-change": 5,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m52455",
+      "title": "Dispersion: The Rainbow and Prisms",
+      "slug": "dispersion-the-rainbow-and-prisms",
+      "local_sha256": "ae5f20a0965968ae723c8bda4fced11cb37591b202284b21f456db51ff01fb83",
+      "upstream_modules": [
+        "m42466"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 2,
+        "math-markup-change": 3
+      }
+    },
+    {
+      "module": "m67134",
+      "title": "Image Formation by Lenses",
+      "slug": "image-formation-by-lenses",
+      "local_sha256": "730f8acab6d7c9cb80c07c7fa6ba0381f6d59ec166f17893e504bf5f57bee2c1",
+      "upstream_modules": [
+        "m42470"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "prose": 6,
+        "references": 2,
+        "math-markup-change": 101,
+        "math-token-change": 3
+      }
+    },
+    {
+      "module": "m67135",
+      "title": "Image Formation by Mirrors",
+      "slug": "image-formation-by-mirrors",
+      "local_sha256": "24cadd403fcf804bde822aac15a7762611b1394f0fe0f1c0a67ad99d38a90f35",
+      "upstream_modules": [
+        "m42474"
+      ],
+      "counts": {
+        "prose": 5,
+        "references": 1,
+        "math-markup-change": 61,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m52456",
+      "title": "Polarization",
+      "slug": "polarization",
+      "local_sha256": "0c09420e14779ce6b09dafb68786761abfc264e6e5528c6058917aaf39d43982",
+      "upstream_modules": [
+        "m42522"
+      ],
+      "counts": {
+        "prose": 1,
+        "accessibility": 1,
+        "math-markup-change": 6,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67139",
+      "title": "Introduction to Quantum Mechanics",
+      "slug": "introduction-to-quantum-mechanics",
+      "local_sha256": "6de5f213f026aefd623ca0cb658700b8ed5823765ed52aa9b64fe16ee771bc6f",
+      "upstream_modules": [
+        "m42550"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67250",
+      "title": "Blackbody Radiation",
+      "slug": "blackbody-radiation",
+      "local_sha256": "11e26d279454f858abfef73b99debfee5d720beb973eaacc6ab6a7da4e549b0e",
+      "upstream_modules": [
+        "m42554"
+      ],
+      "counts": {
+        "prose": 9,
+        "references": 2,
+        "math-markup-change": 8,
+        "math-token-change": 2,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67251",
+      "title": "The Photoelectric Effect",
+      "slug": "the-photoelectric-effect",
+      "local_sha256": "275b9e72b05a0b53f5fb537b7db45515463607dc87704a2e6420a938679e31fc",
+      "upstream_modules": [
+        "m42558"
+      ],
+      "counts": {
+        "prose": 11,
+        "references": 3,
+        "math-markup-change": 35,
+        "math-token-change": 3,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67803",
+      "title": "The Wave Nature of Matter",
+      "slug": "the-wave-nature-of-matter",
+      "local_sha256": "c9f85db2f0bdcebfa7e0a614e3328e819d3e4ae9fd4b9d6ca1543e2a1d015c4b",
+      "upstream_modules": [
+        "m42576"
+      ],
+      "counts": {
+        "prose": 5,
+        "math-markup-change": 28,
+        "math-token-change": 5,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67804",
+      "title": "Uncertainty Principle",
+      "slug": "uncertainty-principle",
+      "local_sha256": "0bb3c04f445a073b77d105f3c3e0e279f6b32b566e3a786c04b15022493e9bb6",
+      "upstream_modules": [
+        "m42579"
+      ],
+      "counts": {
+        "prose": 9,
+        "references": 6,
+        "math-markup-change": 43,
+        "math-token-change": 3,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m67805",
+      "title": "Discovery of the Atomic Nucleus",
+      "slug": "discovery-of-the-atomic-nucleus",
+      "local_sha256": "1e9d0720e3df1a31ec5860a14369132dcacb6a0803c188fe2be06d9fd45363c6",
+      "upstream_modules": [
+        "m42592"
+      ],
+      "counts": {
+        "prose": 10,
+        "references": 1,
+        "math-markup-change": 39,
+        "math-token-change": 5,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67807",
+      "title": "Bohr’s Theory of the Hydrogen Atom",
+      "slug": "bohrs-theory-of-the-hydrogen-atom",
+      "local_sha256": "a90970acc5a50ad3e6e0c9a85d5f5b03d8f0b90d3f3a66af841ac8e6b47a9ab0",
+      "upstream_modules": [
+        "m42596"
+      ],
+      "counts": {
+        "prose": 7,
+        "references": 2,
+        "math-markup-change": 72,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m67808",
+      "title": "The Wave Nature of Matter Causes Quantization",
+      "slug": "the-wave-nature-of-matter-causes-quantization",
+      "local_sha256": "3ab8bbf10b2c25fa5132ab204029ddaf1a10368fff91832aaff36bfe97cfdb41",
+      "upstream_modules": [
+        "m42606"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 20
+      }
+    },
+    {
+      "module": "m42525",
+      "title": "Introduction to Special Relativity",
+      "slug": "introduction-to-special-relativity",
+      "local_sha256": "1707d80695624a7ccf6134d51b04f1c02c6758b69daf9529a6cb21eded218177",
+      "upstream_modules": [
+        "m42525"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "media": 2
+      }
+    },
+    {
+      "module": "m42528",
+      "title": "Einstein’s Postulates",
+      "slug": "einsteins-postulates",
+      "local_sha256": "636e5a5450567cb5bdb506c518697a5afee39302df1545db681bd346e9b753f5",
+      "upstream_modules": [
+        "m42528"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 17
+      }
+    },
+    {
+      "module": "m42531",
+      "title": "Simultaneity And Time Dilation",
+      "slug": "simultaneity-and-time-dilation",
+      "local_sha256": "6bbcd07e832c31d672732c998ea0e88eb55b3cbc675809d8c1231557c64b3960",
+      "upstream_modules": [
+        "m42531"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 1,
+        "math-markup-change": 118,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m42535",
+      "title": "Length Contraction",
+      "slug": "length-contraction",
+      "local_sha256": "591599256c7e440b47fbb4080aa6376b7ed32d153e44902e51310fbebd8df8b7",
+      "upstream_modules": [
+        "m42535"
+      ],
+      "counts": {
+        "math-markup-change": 69
+      }
+    },
+    {
+      "module": "m42540",
+      "title": "Relativistic Addition of Velocities",
+      "slug": "relativistic-addition-of-velocities",
+      "local_sha256": "1ce65979b51275647e2c211ac56dbe0973898b6d1a8b220ee0dac28208df277f",
+      "upstream_modules": [
+        "m42540"
+      ],
+      "counts": {
+        "math-token-change": 19,
+        "math-markup-change": 113,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m42542",
+      "title": "Relativistic Momentum",
+      "slug": "relativistic-momentum",
+      "local_sha256": "47988592df9be157852f373bf4319141d4a010e2868eefa246134a81b9f8ed22",
+      "upstream_modules": [
+        "m42542"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 54
+      }
+    },
+    {
+      "module": "m42546",
+      "title": "Relativistic Energy",
+      "slug": "relativistic-energy",
+      "local_sha256": "810f885eb6945b371f036c6d8c92470f772e66f49d3cc693b93946afe0da4ed0",
+      "upstream_modules": [
+        "m42546"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 4,
+        "math-markup-change": 190,
+        "math-token-change": 1
+      }
+    },
+    {
+      "module": "m68325",
+      "title": "Introduction to Nuclear and Particle Physics",
+      "slug": "introduction-to-nuclear-and-particle-physics",
+      "local_sha256": "da29656531b9c4b9fada47a4d1f06dc02121d0e91c369abacfd932b5a4c1a0e8",
+      "upstream_modules": [
+        "m42667"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m76584",
+      "title": "Nuclear Radioactivity",
+      "slug": "nuclear-radioactivity",
+      "local_sha256": "d56c879845fa69dd9a60ad85a396f097e7b99f34a36f4b567ebf06de4f733658",
+      "upstream_modules": [
+        "m42623"
+      ],
+      "counts": {
+        "prose": 15,
+        "accessibility": 1,
+        "math-markup-change": 88,
+        "math-token-change": 9,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m42627",
+      "title": "Radiation Detection and Detectors",
+      "slug": "radiation-detection-and-detectors",
+      "local_sha256": "20c21c5d75852d3bc327b1601126f7293dcd10f5e4548a1c6ff9e0bd4992ec0c",
+      "upstream_modules": [
+        "m42627"
+      ],
+      "counts": {
+        "prose": 1,
+        "math-markup-change": 7
+      }
+    },
+    {
+      "module": "m52466",
+      "title": "Substructure of the Nucleus",
+      "slug": "substructure-of-the-nucleus",
+      "local_sha256": "d9eed7f7049a98c6ea6df26e3565807533e6d973fdfd67377a3c101597f0a23d",
+      "upstream_modules": [
+        "m42631"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 3,
+        "math-markup-change": 170,
+        "math-token-change": 2,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m76603",
+      "title": "Nuclear Decay and Conservation Laws",
+      "slug": "nuclear-decay-and-conservation-laws",
+      "local_sha256": "003a62b0581c665a64837b5479ddc227cbfe6d22573f588f53bbcb91fa96c867",
+      "upstream_modules": [
+        "m42633"
+      ],
+      "counts": {
+        "accessibility": 1,
+        "references": 7,
+        "prose": 3,
+        "math-markup-change": 282,
+        "math-token-change": 2,
+        "media": 1
+      }
+    },
+    {
+      "module": "m52471",
+      "title": "Half-Life and Activity",
+      "slug": "half-life-and-activity",
+      "local_sha256": "095d396a14d8b75134912b26e5f85d2a4a1ce5f3bdb5a53fea939c768bcd21d0",
+      "upstream_modules": [
+        "m42636"
+      ],
+      "counts": {
+        "prose": 5,
+        "references": 5,
+        "math-markup-change": 222,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m42649",
+      "title": "Medical Imaging and Diagnostics",
+      "slug": "medical-imaging-and-diagnostics",
+      "local_sha256": "0a0cef8406bab4dd24062ff54fa087263139f2b035c6384d49dac506ec5291f4",
+      "upstream_modules": [
+        "m42649"
+      ],
+      "counts": {
+        "prose": 1,
+        "references": 1,
+        "math-markup-change": 77
+      }
+    },
+    {
+      "module": "m68327",
+      "title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "local_sha256": "0954859fae083b8b65283fc94099745b50160fc823bf3f591116577d60da9934",
+      "upstream_modules": [
+        "m42652"
+      ],
+      "counts": {
+        "prose": 13,
+        "accessibility": 2,
+        "math-markup-change": 64,
+        "math-token-change": 2
+      }
+    },
+    {
+      "module": "m52480",
+      "title": "Fusion",
+      "slug": "fusion",
+      "local_sha256": "5f69d345f7d9a1af551326324c3574dd8f6bc909747c1db1514bc1d0b38e20c4",
+      "upstream_modules": [
+        "m42659"
+      ],
+      "counts": {
+        "prose": 3,
+        "references": 2,
+        "math-markup-change": 101,
+        "math-token-change": 2,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m52479",
+      "title": "Fission",
+      "slug": "fission",
+      "local_sha256": "fb964701064de4e1c9e47affd019b2f685260d05ff47730b2565ef8951999415",
+      "upstream_modules": [
+        "m42662"
+      ],
+      "counts": {
+        "prose": 2,
+        "references": 2,
+        "math-markup-change": 118,
+        "math-token-change": 1,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m42665",
+      "title": "Nuclear Weapons",
+      "slug": "nuclear-weapons",
+      "local_sha256": "33ccec5dddd43563adba2e3a1e2ea0d56e9e7b6e21aebc38d9a264cffeb2db45",
+      "upstream_modules": [
+        "m42665"
+      ],
+      "counts": {
+        "prose": 2,
+        "math-markup-change": 29
+      }
+    },
+    {
+      "module": "m42671",
+      "title": "The Four Basic Forces",
+      "slug": "the-four-basic-forces",
+      "local_sha256": "4e51417ca34b221169931070c6adce0f21443d74e341d231c3f5d4e02d14e74b",
+      "upstream_modules": [
+        "m42671"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 4,
+        "math-markup-change": 18
+      }
+    },
+    {
+      "module": "m42674",
+      "title": "Particles, Patterns, and Conservation Laws",
+      "slug": "particles-patterns-and-conservation-laws",
+      "local_sha256": "109114fdf2450a6e4191362e1032c2d40d6438a20e313b7ac36b4a8658b05382",
+      "upstream_modules": [
+        "m42674"
+      ],
+      "counts": {
+        "prose": 4,
+        "references": 2,
+        "math-markup-change": 182
+      }
+    },
+    {
+      "module": "m42680",
+      "title": "GUTs: The Unification of Forces",
+      "slug": "guts-the-unification-of-forces",
+      "local_sha256": "7f52de36c25db4bb44ad4e8d28cdaab9ad4a5a112f45832716955bb669e0e5a1",
+      "upstream_modules": [
+        "m42680"
+      ],
+      "counts": {
+        "prose": 3,
+        "references": 3,
+        "math-markup-change": 64,
+        "math-token-change": 3,
+        "math-structure": 1,
+        "media": 1
+      }
+    },
+    {
+      "module": "m42699",
+      "title": "Atomic Masses",
+      "slug": "atomic-masses",
+      "local_sha256": "df36add0e21ba188f5d68cafc50b44cdb39b84335b9c500cf0e534c891a69153",
+      "upstream_modules": [
+        "m42699"
+      ],
+      "counts": {
+        "math-markup-change": 238
+      }
+    },
+    {
+      "module": "m42702",
+      "title": "Selected Radioactive Isotopes",
+      "slug": "selected-radioactive-isotopes",
+      "local_sha256": "4085653710398a1d6125ada31c1b11c7794f7920a1ac0e4c69e6adda6fbd8217",
+      "upstream_modules": [
+        "m42702"
+      ],
+      "counts": {
+        "math-markup-change": 112
+      }
+    },
+    {
+      "module": "m78798",
+      "title": "Useful Information",
+      "slug": "useful-information",
+      "local_sha256": "4c8ff224e2092e0de399484be6cb051788c9bef01c34c26acc62243e27365762",
+      "upstream_modules": [
+        "m42720"
+      ],
+      "counts": {
+        "math-markup-change": 135,
+        "math-token-change": 41,
+        "math-structure": 1
+      }
+    },
+    {
+      "module": "m42709",
+      "title": "Glossary of Key Symbols and Notation",
+      "slug": "glossary-of-key-symbols-and-notation",
+      "local_sha256": "cbce27000e57bd2803bf00f93bae85f180be2396b497d9c336e4f49048880bec",
+      "upstream_modules": [
+        "m42709"
+      ],
+      "counts": {
+        "math-markup-change": 231,
+        "math-token-change": 123,
+        "math-structure": 1
+      }
+    }
+  ]
+}
