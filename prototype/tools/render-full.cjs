@@ -34,7 +34,7 @@ const server=http.createServer((req,res)=>{const f=path.resolve(dist,'.'+decodeU
   }
   const last=articles.filter(a=>String(manifest.section_labels[a.id]).split('.')[0]===v.chapter_label).at(-1);if(!last)throw Error('No chapter for '+v.id);last.after(group);
  }
- const cover=document.querySelector('.cover');cover.innerHTML='<h1>Introduction to Physics</h1><h2>Andrew Park</h2><p>Complete course-numbered review edition</p><p>Recovered CNX 12.1 content with author-approved corrections</p><p>Underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits and section attributions are retained.</p><p>External videos and simulations require internet access.</p>';
+ const cover=document.querySelector('.cover');cover.innerHTML='<h1>Introduction to Physics</h1><h2>Andrew Park</h2><p>Lecture-aligned numbering (July 2026)</p><p>Underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits and section attributions are retained.</p><p>This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.</p><p>External videos and simulations require internet access.</p>';
  const credits=document.createElement('article');credits.id='attributions';credits.className='book-attributions';credits.innerHTML='<h1>Attribution and licenses</h1>';
  for(const a of articles){const f=a.querySelector('.attribution');const block=document.createElement('section');block.className='credit-block';const h=document.createElement('h2');h.textContent=(manifest.section_labels[a.id]?manifest.section_labels[a.id]+' ':'')+a.querySelector('h1').textContent;block.append(h,f);credits.append(block);}
  main.append(credits);
@@ -43,7 +43,6 @@ const server=http.createServer((req,res)=>{const f=path.resolve(dist,'.'+decodeU
  for(const a of main.querySelectorAll(':scope > article')){const li=document.createElement('li'),link=document.createElement('a');link.href='#'+a.id;link.textContent=(manifest.section_labels[a.id]?manifest.section_labels[a.id]+' ':'')+a.querySelector('h1').textContent;li.append(link);ol.append(li);}
  toc.append(ol);cover.after(toc);
  document.title='Introduction to Physics';
- for(const f of main.querySelectorAll('.attribution p:last-child'))if(f.textContent.startsWith('Derived rendering:'))f.textContent='Derived from preserved CNX 12.1 source, with author-approved corrections and course numbering. Original attribution is transcribed from the historical PDF.';
  const finalIds=[...main.querySelectorAll('[id]')].map(e=>e.id);
  const lost=initialIds.filter(x=>!finalIds.includes(x));if(lost.length)throw Error('Lost anchors '+lost);
  const duplicates=finalIds.filter((x,i,a)=>a.indexOf(x)!==i);

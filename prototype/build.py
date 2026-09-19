@@ -24,6 +24,8 @@ sections=read_sections(ROOT,identities)
 registry={s['module_id']:s for s in sections}
 if FULL:IDS=list(registry)
 SCOPE=f'{len(IDS)}-module review build'
+PUBLIC_NUMBERING='Lecture-aligned numbering (July 2026)' if PROFILE=='course' else 'CNX numbering'
+NUMBERING_NOTE='This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.'
 attributions={a['module_id']:a for a in load('references/cnx-12.1-module-attributions.json')['modules']}
 roots={s['module_id']:ET.parse(ROOT/s['source']).getroot() for s in sections}
 parents={mid:{child:parent for parent in r.iter() for child in parent} for mid,r in roots.items()}
@@ -137,8 +139,8 @@ class Renderer:
         a=attributions[mid]
         credit='<footer class="attribution"><p>Historical attribution: '+esc(a['authors'])+'. Copyright: '+esc(a['copyright'])+'. <a href="'+esc(a['license'])+'">CC BY 4.0</a>. <a href="'+esc(a['url'])+'">Original module '+esc(mid)+' version '+esc(a['legacy_module_version'])+'</a>.</p>'
         if a.get('based_on_text'):credit+='<p>Based on: '+esc(a['based_on_text'])+'</p>'
-        credit+='<p>Derived rendering: CNXML adapted to HTML; object numbering is provisional and malformed expressions are flagged. Four author-approved repairs are applied in the maintained source; historical files remain unchanged. Attribution transcribed from the historical PDF.</p></footer>'
-        return f'<article id="{mid}"><header><p class="eyebrow">{esc(PROFILE.upper())} · {esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
+        credit+='<p>This edition is adapted from CNX collection col25183, version 12.1. Attribution is transcribed from that edition.</p></footer>'
+        return f'<article id="{mid}"><header><p class="eyebrow">{esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
 
 def page(title,body,prefix=''):
     return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav><a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a></nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
@@ -172,7 +174,7 @@ if FULL and PROFILE=='course':
         (target/'index.html').write_text(page(view['title'],body,'../../'),encoding='utf-8',newline='\n')
         exercise_manifest.append({**view,'blocks':blocks})
     dump(OUT/'exercise-views.json',exercise_manifest)
-intro='<header><p class="eyebrow">Recovery / rendering experiment</p><h1>Introduction to Physics</h1><p>'+esc(str(len(IDS)))+' complete modules from the maintained source, including four approved repairs.</p></header><ol>'+''.join('<li><a href="sections/'+registry[m]['candidate_slug']+'/index.html">'+esc(registry[m]['title'])+'</a></li>' for m in IDS)+'</ol>'
+intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction to Physics</h1>'+('<p>'+NUMBERING_NOTE+'</p>' if PROFILE=='course' else '')+'</header><ol>'+''.join('<li><a href="sections/'+registry[m]['candidate_slug']+'/index.html">'+esc(registry[m]['title'])+'</a></li>' for m in IDS)+'</ol>'
 if exercise_manifest:intro+='<h2>Chapter exercise views</h2><ul>'+''.join('<li><a href="exercises/'+v['slug']+'/index.html">'+esc(v['label']+': '+v['title'])+'</a></li>' for v in exercise_manifest)+'</ul>'
 intro+='<p>Historical source remains unchanged. Math source XML and issue logs are included beside the build. The other numbering profile uses exactly the same section paths and anchors.</p>'
 intro+='<p><a href="review.html">Review flagged expressions and references</a> · <a href="book.html">Complete printable sample</a></p>'

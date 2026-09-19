@@ -1,6 +1,6 @@
 # Full course-numbered PDF review build
 
-The complete PDF is `output/pdf/introduction-to-physics-course.pdf` (1,151 Letter pages, approximately 141 MB). This supersedes the six-module PDF samples. It is a review edition, not a claim of completed publication certification.
+The complete PDF is `output/pdf/introduction-to-physics-course.pdf` (1,149 Letter pages, approximately 141 MB). This supersedes the six-module PDF samples. It is a review edition, not a claim of completed publication certification.
 
 ## Assembly and preservation
 
@@ -34,7 +34,7 @@ Generated PDF and temporary raster files are excluded through this checkout's `.
 ## Validation
 
 - Complete DOM inventory comparison before/after exercise relocation; zero lost or duplicated anchors, broken internal links, missing images, unresolved expressions, or print-width overflow.
-- Complete PDF character-position scan across all 1,151 pages; zero body text characters outside the checked margins.
+- Complete PDF character-position scan across all 1,149 pages; zero body text characters outside the checked margins.
 - All 1,027 PDF internal link annotations resolve. There are 293 external link annotations (including attribution links); their remote availability is not guaranteed.
 - 53,393 mathematical-font characters are present in the PDF text layer. PDF tagging and outline are present; this is not a PDF/UA certification or a new end-user clipboard test.
 - Poppler visual review of 54 selected pages in the penultimate layout and 13 focused pages in the delivered revision, including the revised exercise order, dense table, corrected M01/M02 equations, contents, and credits. This is visual sampling, not manual proofreading of every page.
@@ -47,3 +47,13 @@ Machine-readable records: `prototype/qa/course-full-print.json`, `course-full-pd
 The layout is deliberately a spacious one-column review edition. Section starts can leave white space at the previous page's end, and inherited exercise/appendix labels remain provisional where historical numbering evidence was incomplete. The eight formerly unclassified conceptual questions retain their existing labels to avoid cascading renumbering during the deferred exercise revision. Website exercise projections are unchanged by this PDF-only placement step.
 
 Chrome 153.0.8010.50 and Windows Cambria Math were used. Font/renderer packaging and timestamp control are still required for byte-reproducible releases. Tagged output does not establish accessibility compliance. Three external media resources still need internet access. Browser/OS font behavior, comprehensive object numbering review, and final publication packaging remain separate work.
+
+## Public-facing terminology
+
+The public label is **Lecture-aligned numbering (July 2026)**. `course` remains an internal build identifier and generated filename component. Section headings display their section number without the COURSE prefix.
+
+The edition note reads:
+
+> This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF. It matches the numbering called “new LibreTexts chapter and section numbers” in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.
+
+The dates describe the numbering reference, not the content revision date. The September 17 change is recorded from the author's account. Approval/repair workflow language stays in the editorial ledger and internal review tools, not the cover or reader-facing credits. The local HTML preview still carries its prototype banner until publication packaging is complete.
