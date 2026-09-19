@@ -27,6 +27,9 @@ for profile in ('course-full',):
             u=urlsplit(href)
             if u.scheme or u.netloc:continue
             target=(f.parent/unquote(u.path)).resolve() if u.path else f
+            if target.suffix.lower() in ('.png','.jpg','.svg','.pdf'):
+                assert target.is_file(),f'Missing linked asset: {target}'
+                continue
             assert target in pages,f'Broken page link: {f} -> {href}'
             if u.fragment:assert u.fragment in pages[target].ids,f'Broken anchor: {href}'
     count=collections.Counter()

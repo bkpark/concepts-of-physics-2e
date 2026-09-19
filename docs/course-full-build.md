@@ -88,3 +88,15 @@ Next: prepare evidence-backed proposals for the three expressions and unresolved
 references; settle course equation display rules; assemble chapter-end exercise
 placement and test full-book PDF pagination. Pin the renderer and redistributable
 fonts before calling the build reproducible for publication.
+
+## Author review page and revised exercise scope
+
+Run `python prototype/tools/review_items.py` after a full build to generate
+`course-full/review-items/index.html`. It contains M01–M03 and X01–X25, context,
+exact section links, and unchanged archived PDF page images for the expressions.
+Requires Poppler pdftoppm and the checksum-pinned 12.1 reference PDF.
+
+Exercise editorial shortcomings are explicitly deferred until after the initial
+CNX-content/course-numbered publication. Later work may backport course questions.
+Exercise-related findings remain visible but are labeled as deferred context,
+not requests to complete the broader exercise revision now.
