@@ -1,0 +1,14 @@
+{
+  "id": "X07",
+  "status": "applied-author-directed",
+  "change_kind": "replace-prose",
+  "module": "m75429",
+  "source_object": "fs-id1171242343847",
+  "source_path": "maintained/modules/m75429/index.cnxml",
+  "source_sha256": "02f1d67183e22f4f5c01617c0182f2d28d4e7093f63183aaab4f4f7bd90a489d",
+  "after_sha256": "e750659b54a629388202d13d0533b340c44abeb03126e96c15b2cef0e50ffde3",
+  "before": "<para id=\"fs-id1171242343847\">As electromagnetic waves are received, as described above, the forces exerted on the charged particles (see <link document=\"m58496\" target-id=\"fs-id1171242369180\"/> for diagrams) do work on the particles and increase its energy. The energy that sunlight carries is a familiar part of every warm sunny day. A much less familiar feature of electromagnetic radiation is the extremely weak pressure that electromagnetic radiation produces by exerting a force in the direction of the wave. This force occurs because electromagnetic waves contain and transport momentum.</para>",
+  "after": "<para id=\"fs-id1171242343847\">As electromagnetic waves are received, as described above, the forces exerted on the charged particles do work on the particles and increase its energy. The energy that sunlight carries is a familiar part of every warm sunny day. A much less familiar feature of electromagnetic radiation is the extremely weak pressure that electromagnetic radiation produces by exerting a force in the direction of the wave. This force occurs because electromagnetic waves contain and transport momentum.</para>",
+  "reason": "Remove the author-identified parenthetical reference. Preserve the remaining paragraph verbatim.",
+  "policy": "Applied only to maintained source; historical source untouched."
+}

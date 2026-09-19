@@ -1,0 +1,14 @@
+{
+  "id": "X06",
+  "status": "applied-author-directed",
+  "change_kind": "replace-prose",
+  "module": "m52427",
+  "source_object": "import-auto-id1169738043256",
+  "source_path": "maintained/modules/m52427/index.cnxml",
+  "source_sha256": "15bd89c60561bb0be5bd73c62b9442ea172bad354ebd721866f1a78fe002b48b",
+  "after_sha256": "7cd551b3ed132558fc504a8d292e415e4ae7e3ee21bf5c39c95e675d25e758f8",
+  "before": "<para id=\"import-auto-id1169738043256\">A plug-in transformer, like that in <link target-id=\"import-auto-id1169737992146\"/>, supplies 9.00 V to a video game system. (a) How many turns are in its secondary coil, if its input voltage is 120 V and the primary coil has 400 turns? (b) What is its input current when its output is 1.30 A?</para>",
+  "after": "<para id=\"import-auto-id1169738043256\">A plug-in transformer supplies 9.00 V to a video game system. (a) How many turns are in its secondary coil, if its input voltage is 120 V and the primary coil has 400 turns? (b) What is its input current when its output is 1.30 A?</para>",
+  "reason": "Remove the author-identified missing-reference phrase. Preserve the exercise and all numerical values.",
+  "policy": "Applied only to maintained source; historical source untouched."
+}
