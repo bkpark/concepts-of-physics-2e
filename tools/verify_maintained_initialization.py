@@ -1,4 +1,4 @@
-"""Recovery-stage check: maintained corpus differs only by the four approved repairs."""
+"""Check maintained corpus against initialization and the ordered approved editorial ledger."""
 from pathlib import Path
 import hashlib,json
 ROOT=Path(__file__).resolve().parents[1]
@@ -9,6 +9,19 @@ for r in manifest['repairs']:
     assert hashlib.sha256(original).hexdigest()==r['source_file_sha256']
     before=expected.get(p,original);old=r['before'].encode();assert before.count(old)==1
     expected[p]=before.replace(old,r['after'].encode(),1)
+applied=0
+ledger=ROOT/'maintained/editorial-changes.json'
+if ledger.exists():
+    for path in json.loads(ledger.read_text(encoding='utf-8'))['changes']:
+        change=json.loads((ROOT/path).read_text(encoding='utf-8'))
+        assert change['status']=='applied-author-directed'
+        rel=Path(change['source_path']).relative_to('maintained').as_posix()
+        current=expected.get(rel,(ROOT/rel).read_bytes())
+        assert hashlib.sha256(current).hexdigest()==change['source_sha256']
+        old=change['before'].encode('utf-8');assert current.count(old)==1
+        expected[rel]=current.replace(old,change['after'].encode('utf-8'),1)
+        assert hashlib.sha256(expected[rel]).hexdigest()==change['after_sha256']
+        applied+=1
 count=0
 for folder in ('modules','media','collections'):
     original_files={p.relative_to(ROOT) for p in (ROOT/folder).rglob('*') if p.is_file()}
@@ -17,4 +30,4 @@ for folder in ('modules','media','collections'):
     for rel in original_files:
         assert (ROOT/'maintained'/rel).read_bytes()==expected.get(rel.as_posix(),(ROOT/rel).read_bytes()),rel
         count+=1
-print(f'Verified {count} maintained content files: only the four approved repairs differ from baseline.')
+print(f'Verified {count} maintained content files: four initialization repairs plus {applied} approved editorial change(s).')

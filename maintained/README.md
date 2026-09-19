@@ -48,3 +48,7 @@ computed at build time.
 
 Licensing and author/figure credits are inherited unchanged. Upstream 2e files
 under `references/` remain comparison evidence, not incorporated content.
+
+Approved post-initialization corrections are recorded in `editorial-changes.json`.
+The existing verification command now replays that ordered ledger after the four
+initial repairs. X01 updates a module destination while retaining the figure ID.
