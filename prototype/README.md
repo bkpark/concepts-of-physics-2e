@@ -1,6 +1,8 @@
-# Six-module fidelity prototype
+# Maintained-source rendering prototype
 
-Latest milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.
+Full course-numbered PDF: see `docs/full-book-pdf.md` for generation, exercise placement, and layout verification.
+
+Previous HTML milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.
 
 This is an experiment, not a student edition or the final publishing system.
 It reads the maintained CNXML, including the four approved repairs. Both profiles use the same
