@@ -1,0 +1,39 @@
+--- a/modules/m42709/index.cnxml
++++ b/modules/m42709/index.cnxml
+@@ -6127,33 +6127,15 @@
+           </row>
+           <row>
+             <entry>
+-              <m:math display="block">
++              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+         <m:semantics>
+-          <m:mrow>
+-            <m:mrow>
+-              <m:mrow>
+-                 <m:msup>
+-                  <m:mtext/>
+-                  <m:mrow>
+-                    <m:mi>Z</m:mi>
+-                  </m:mrow>
+-<m:msub>
+-                  <m:mrow>
+-                    <m:mi>A</m:mi>
+-                  </m:mrow>
+-               </m:msub>
+-</m:msup>
+-                <m:msub>
++          <m:mrow><m:msubsup><m:mrow /><m:mi>Z</m:mi><m:mi>A</m:mi></m:msubsup><m:msub>
+                   <m:mi>X</m:mi>
+                   <m:mrow>
+                     <m:mi>N</m:mi>
+                   </m:mrow>
+                 </m:msub>
+-              </m:mrow>
+-            </m:mrow>
+-            <m:mrow/>
+-          </m:mrow>
+-          <m:annotation encoding="StarMath 5.0"> size 12{"" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } } {}</m:annotation>
++              </m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } } {}</m:annotation>
+         </m:semantics>
+       </m:math>
+     

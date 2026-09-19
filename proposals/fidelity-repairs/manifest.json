@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "policy": "Review proposals only. No historical or maintained source edits have been applied. Apply to a maintained layer only after recording the editorial decision.",
+  "repairs": [
+    {
+      "id": "R1",
+      "title": "Restore the two missing squares in the Rydberg equation",
+      "status": "proposed-not-applied",
+      "classification": "equation correction",
+      "module": "m67807",
+      "source_path": "modules/m67807/index.cnxml",
+      "source_file_sha256": "3d847ff6824d7aefc0d40e5791a9291f6695f6c8c168622e8dfcf3c7740e6e46",
+      "source_math_ordinal": 65,
+      "source_object": "eip-53",
+      "before_fragment_sha256": "1339ec8d755d0313d1df09b23e62e07a100cdd8b0a47340b44b8eb54b933f054",
+      "before": "<m:math><m:apply><m:eq/>\n  <m:apply><m:divide/><m:cn>1</m:cn><m:ci>λ</m:ci></m:apply>\n  <m:apply><m:times/>\n     <m:apply><m:divide/>\n        <m:apply><m:times/><m:cn>2</m:cn><m:apply><m:power/><m:ci>π</m:ci><m:cn>2</m:cn></m:apply><m:ci>m</m:ci><m:apply><m:power/><m:ci>k</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:power/><m:ci>e</m:ci><m:cn>4</m:cn></m:apply></m:apply>\n        <m:apply><m:times/><m:apply><m:power/><m:ci>h</m:ci><m:cn>3</m:cn></m:apply><m:ci>c</m:ci></m:apply>\n     </m:apply>\n     <m:mfenced><m:apply><m:minus/>\n        <m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:msub><m:ci>n</m:ci><m:ci>f</m:ci></m:msub></m:apply></m:apply>\n        <m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:msub><m:ci>n</m:ci><m:ci>i</m:ci></m:msub></m:apply></m:apply>\n     </m:apply></m:mfenced>\n  </m:apply>\n</m:apply><m:mo>,</m:mo></m:math>",
+      "after": "<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:apply><m:eq />\n  <m:apply><m:divide /><m:cn>1</m:cn><m:ci>λ</m:ci></m:apply>\n  <m:apply><m:times />\n     <m:apply><m:divide />\n        <m:apply><m:times /><m:cn>2</m:cn><m:apply><m:power /><m:ci>π</m:ci><m:cn>2</m:cn></m:apply><m:ci>m</m:ci><m:apply><m:power /><m:ci>k</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:power /><m:ci>e</m:ci><m:cn>4</m:cn></m:apply></m:apply>\n        <m:apply><m:times /><m:apply><m:power /><m:ci>h</m:ci><m:cn>3</m:cn></m:apply><m:ci>c</m:ci></m:apply>\n     </m:apply>\n     <m:mfenced><m:apply><m:minus />\n        <m:apply><m:divide /><m:cn>1</m:cn><m:apply><m:power /><m:msub><m:ci>n</m:ci><m:ci>f</m:ci></m:msub><m:cn>2</m:cn></m:apply></m:apply>\n        <m:apply><m:divide /><m:cn>1</m:cn><m:apply><m:power /><m:msub><m:ci>n</m:ci><m:ci>i</m:ci></m:msub><m:cn>2</m:cn></m:apply></m:apply>\n     </m:apply></m:mfenced>\n  </m:apply>\n</m:apply><m:mo>,</m:mo></m:math>",
+      "reason": "Insert exponent 2 on both n_f and n_i. Preserve the existing coefficient and notation.",
+      "evidence": [
+        "Local m67807 eip-237 already has both squares; eip-854 and eip-59 state the same squared dependence.",
+        "Historical PDF page 476, printed 470, equation 13.36 omits both squares; this is a correction to the historical displayed equation.",
+        "OpenStax College Physics 2e 30.3 confirms the squared dependence."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Remove an empty, malformed superscript",
+      "status": "proposed-not-applied",
+      "classification": "markup-only repair",
+      "module": "m67807",
+      "source_path": "modules/m67807/index.cnxml",
+      "source_file_sha256": "3d847ff6824d7aefc0d40e5791a9291f6695f6c8c168622e8dfcf3c7740e6e46",
+      "source_math_ordinal": 91,
+      "source_object": "import-auto-id3143059",
+      "before_fragment_sha256": "a653cedb2675c4037760f064fdc2d584df881d4299a97363839abd884fe698b4",
+      "before": "<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>B</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mfrac><m:msup><m:mi>h</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:msup><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msub><m:mi>m</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mrow><m:msubsup><m:mtext fontstyle=\"italic\">kq</m:mtext><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow/></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>",
+      "after": "<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>B</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mfrac><m:msup><m:mi>h</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:msup><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msub><m:mi>m</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mrow><m:msubsup><m:mtext fontstyle=\"italic\">kq</m:mtext><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow /></m:mrow></m:mrow></m:mrow></m:semantics></m:math>",
+      "reason": "Remove the trailing msup containing only empty mrows. No visible symbol, coefficient, or exponent changes.",
+      "evidence": [
+        "Historical PDF page 484, printed 478, exercise 46 displays the Bohr-radius formula.",
+        "Later local source replaces this invalid msup with an empty mrow.",
+        "Pinned upstream m42596 omits the empty branch."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Restore the nuclide notation",
+      "status": "proposed-not-applied",
+      "classification": "notation correction",
+      "module": "m42709",
+      "source_path": "modules/m42709/index.cnxml",
+      "source_file_sha256": "97bb097acd457ec4cb51c3db4afaa9ea7041cd1a6390a60e939c77fa5af0c63e",
+      "source_math_ordinal": 345,
+      "source_object": "import-auto-id1688908",
+      "before_fragment_sha256": "336df3355f517321c961599a3860bd1cfaf5a0345d1a867a75c9695420fa609e",
+      "before": "<m:math display=\"block\">\n        <m:semantics>\n          <m:mrow>\n            <m:mrow>\n              <m:mrow>\n                 <m:msup>\n                  <m:mtext/>\n                  <m:mrow>\n                    <m:mi>Z</m:mi>\n                  </m:mrow>\n<m:msub>\n                  <m:mrow>\n                    <m:mi>A</m:mi>\n                  </m:mrow>\n               </m:msub>\n</m:msup>\n                <m:msub>\n                  <m:mi>X</m:mi>\n                  <m:mrow>\n                    <m:mi>N</m:mi>\n                  </m:mrow>\n                </m:msub>\n              </m:mrow>\n            </m:mrow>\n            <m:mrow/>\n          </m:mrow>\n          <m:annotation encoding=\"StarMath 5.0\"> size 12{\"\" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } } {}</m:annotation>\n        </m:semantics>\n      </m:math>",
+      "after": "<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n        <m:semantics>\n          <m:mrow><m:msubsup><m:mrow /><m:mi>Z</m:mi><m:mi>A</m:mi></m:msubsup><m:msub>\n                  <m:mi>X</m:mi>\n                  <m:mrow>\n                    <m:mi>N</m:mi>\n                  </m:mrow>\n                </m:msub>\n              </m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"\" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } } {}</m:annotation>\n        </m:semantics>\n      </m:math>",
+      "reason": "Display A at upper left, Z at lower left, and N at lower right of X. Preserve the original annotation.",
+      "evidence": [
+        "The original StarMath annotation explicitly says lSub Z and lSup A.",
+        "Local m76603 import-auto-id3033441 uses Z below A in the same notation.",
+        "Historical PDF page 644, printed 638, omits A and places Z above the baseline.",
+        "Later local source and pinned upstream glossary reverse A/Z; neither is a safe repair source.",
+        "OpenStax College Physics 2e chapter 31 summary agrees with the original annotation."
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Retarget the tire-pressure exercise reference",
+      "status": "proposed-not-applied",
+      "classification": "cross-reference repair",
+      "module": "m67122",
+      "source_path": "modules/m67122/index.cnxml",
+      "source_file_sha256": "c1261545adfecaf6c1c5c4caa891728e8ca06d89f719ce38433a1f00f6c40503",
+      "source_object": "import-auto-id2677616",
+      "before_fragment_sha256": "47d704573147853e8f1820a34bab26993ea3d74cfb45c1c630dcae66e12ee1e1",
+      "before": "<link target-id=\"fs-id1444855\"/>",
+      "after": "<link target-id=\"fs-id1667893\"/>",
+      "reason": "Point to the retained tire-pressure worked example, which explicitly states the same absolute pressure and gauge-pressure comparison. Do not restore the omitted moles example.",
+      "evidence": [
+        "Historical PDF page 290, printed 284, exercise 10 already prints ??? at this reference.",
+        "The retained example is fs-id1667893, historical Example 9.1, PDF page 237 (printed 231).",
+        "Pinned upstream m42216 fs-id1444855 is Calculating Number of Moles: Gas in a Bike Tire, absent from the local module."
+      ]
+    }
+  ]
+}

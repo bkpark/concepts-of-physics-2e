@@ -1,0 +1,28 @@
+--- a/modules/m67807/index.cnxml
++++ b/modules/m67807/index.cnxml
+@@ -163,16 +163,16 @@
+          <m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:msub><m:ci>n</m:ci><m:ci>f</m:ci></m:msub><m:cn>2</m:cn></m:apply></m:apply>
+          <m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:msub><m:ci>n</m:ci><m:ci>i</m:ci></m:msub><m:cn>2</m:cn></m:apply></m:apply></m:apply></m:mfenced>
+    </m:apply>
+-</m:apply></m:math></equation><para id="eip-168">Frequency <m:math><m:ci>f</m:ci></m:math> is equal to <m:math><m:mrow><m:ci>c</m:ci><m:mo>/</m:mo><m:ci>λ</m:ci></m:mrow></m:math>. Plugging this in and solving for <m:math><m:mrow><m:cn>1</m:cn><m:mo>/</m:mo><m:ci>λ</m:ci></m:mrow></m:math> while also replacing all instances of <m:math><m:ci>ℏ</m:ci></m:math> with <m:math><m:mrow><m:ci>h</m:ci><m:mo>/</m:mo><m:apply><m:times/><m:cn>2</m:cn><m:ci>π</m:ci></m:apply></m:mrow></m:math>, we get,</para><equation id="eip-53"><m:math><m:apply><m:eq/>
+-  <m:apply><m:divide/><m:cn>1</m:cn><m:ci>λ</m:ci></m:apply>
+-  <m:apply><m:times/>
+-     <m:apply><m:divide/>
+-        <m:apply><m:times/><m:cn>2</m:cn><m:apply><m:power/><m:ci>π</m:ci><m:cn>2</m:cn></m:apply><m:ci>m</m:ci><m:apply><m:power/><m:ci>k</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:power/><m:ci>e</m:ci><m:cn>4</m:cn></m:apply></m:apply>
+-        <m:apply><m:times/><m:apply><m:power/><m:ci>h</m:ci><m:cn>3</m:cn></m:apply><m:ci>c</m:ci></m:apply>
++</m:apply></m:math></equation><para id="eip-168">Frequency <m:math><m:ci>f</m:ci></m:math> is equal to <m:math><m:mrow><m:ci>c</m:ci><m:mo>/</m:mo><m:ci>λ</m:ci></m:mrow></m:math>. Plugging this in and solving for <m:math><m:mrow><m:cn>1</m:cn><m:mo>/</m:mo><m:ci>λ</m:ci></m:mrow></m:math> while also replacing all instances of <m:math><m:ci>ℏ</m:ci></m:math> with <m:math><m:mrow><m:ci>h</m:ci><m:mo>/</m:mo><m:apply><m:times/><m:cn>2</m:cn><m:ci>π</m:ci></m:apply></m:mrow></m:math>, we get,</para><equation id="eip-53"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:apply><m:eq />
++  <m:apply><m:divide /><m:cn>1</m:cn><m:ci>λ</m:ci></m:apply>
++  <m:apply><m:times />
++     <m:apply><m:divide />
++        <m:apply><m:times /><m:cn>2</m:cn><m:apply><m:power /><m:ci>π</m:ci><m:cn>2</m:cn></m:apply><m:ci>m</m:ci><m:apply><m:power /><m:ci>k</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:power /><m:ci>e</m:ci><m:cn>4</m:cn></m:apply></m:apply>
++        <m:apply><m:times /><m:apply><m:power /><m:ci>h</m:ci><m:cn>3</m:cn></m:apply><m:ci>c</m:ci></m:apply>
+      </m:apply>
+-     <m:mfenced><m:apply><m:minus/>
+-        <m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:msub><m:ci>n</m:ci><m:ci>f</m:ci></m:msub></m:apply></m:apply>
+-        <m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:msub><m:ci>n</m:ci><m:ci>i</m:ci></m:msub></m:apply></m:apply>
++     <m:mfenced><m:apply><m:minus />
++        <m:apply><m:divide /><m:cn>1</m:cn><m:apply><m:power /><m:msub><m:ci>n</m:ci><m:ci>f</m:ci></m:msub><m:cn>2</m:cn></m:apply></m:apply>
++        <m:apply><m:divide /><m:cn>1</m:cn><m:apply><m:power /><m:msub><m:ci>n</m:ci><m:ci>i</m:ci></m:msub><m:cn>2</m:cn></m:apply></m:apply>
+      </m:apply></m:mfenced>
+   </m:apply>
+ </m:apply><m:mo>,</m:mo></m:math></equation><para id="eip-701">which yields an analytical expression for the Rydberg constant,</para><equation id="eip-631"><m:math><m:apply><m:eq/><m:ci>R</m:ci>
