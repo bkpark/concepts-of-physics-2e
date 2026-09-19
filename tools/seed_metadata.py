@@ -1,6 +1,6 @@
 """One-time, reviewable phase-one metadata seed. Refuses to overwrite manifests.
 
-Run after inventory.py. Reads the pinned upstream collection and extracted PDF TOC.
+Run after inventory.py. Reads the upstream identifier manifest and extracted PDF TOC.
 These are proposals/evidence, not a publishing configuration.
 """
 from pathlib import Path
@@ -40,7 +40,7 @@ def main():
     files = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', BASE], cwd=ROOT, text=True).splitlines()
     archives = ['recovered-all-refs.bundle', 'introduction-cnx-import-e2b8ec0.tar', 'introduction-branch-tip-4a86614.tar']
     pdf = ROOT.parent / 'references/course-numbering-2026-07-07.pdf'
-    upstream = ROOT / 'references/college-physics-2e.collection.xml'
+    upstream = read('references/college-physics-2e-identifiers.json')
     upstream_commit = 'fd1b25dfd5d8c6580c6e2b2b34a19e29cc69ada9'
     write('recovery-lock.json', {
         'schema_version': 1, 'book_title': 'Introduction to Physics',
@@ -64,8 +64,8 @@ def main():
             'role': 'User-designated course numbering authority, not replacement textbook prose'},
         'upstream_reference': {'repository': 'https://github.com/openstax/osbooks-college-physics-bundle',
             'commit': upstream_commit, 'file': 'collections/college-physics-2e.collection.xml',
-            'local_path': 'references/college-physics-2e.collection.xml', 'sha256': sha(upstream),
-            'license_declared': 'CC-BY-NC-SA-4.0', 'scope': 'collection only; no upstream module snapshot yet'}
+            'identifier_manifest': 'references/college-physics-2e-identifiers.json', 'sha256': upstream['source_sha256'],
+            'license_declared': 'CC-BY-NC-SA-4.0', 'scope': 'Identifiers and provenance only; no upstream content copies'}
     })
     write('sections.proposed.json', {'schema_version': 1, 'status': 'draft-unpublished',
         'url_policy': '/sections/{frozen-slug}/',
@@ -73,8 +73,7 @@ def main():
                       'title': s['title'], 'source': s['source'],
                       'provenance': {'cnx_module_id': s['module_id'], 'cnx_uuid': s['uuid'], 'recovery_commit': BASE}}
                      for s in sections]})
-    up = ET.parse(upstream).getroot()
-    upstream_ids = {e.get('document') for e in up.findall('.//col:module', NS)}
+    upstream_ids = set(upstream['module_ids'])
     write('upstream-map.proposed.json', {'schema_version': 1,
         'reference_commit': upstream_commit,
         'policy': 'Candidates are not confirmed derivations or permission to merge. Empty targets mean unresolved, not no counterpart.',

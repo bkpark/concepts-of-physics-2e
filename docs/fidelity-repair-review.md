@@ -1,5 +1,7 @@
 # Four fidelity repair proposals
 
+> Later update: copied College Physics 2e reference XML has been removed from the current tree. See [license-source audit](license-source-audit.md); the snapshot descriptions below record the earlier investigation.
+
 **Update:** The author approved all four proposals. They are now applied only in
 `maintained/`; see [current status](maintained-source-status.md). The remainder
 of this document records the proposal-stage evidence.

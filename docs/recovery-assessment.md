@@ -1,5 +1,7 @@
 # Recovery assessment: Introduction to Physics
 
+> Later update: copied College Physics 2e reference XML has been removed from the current tree. See [license-source audit](license-source-audit.md); the snapshot descriptions below record the earlier investigation.
+
 Assessment date: 2026-09-19 UTC. Scope: recovery, inventory, evidence, and reversible
 setup only. No conversion of textbook prose or equations, no publication, and no
 remote GitHub changes have been performed.

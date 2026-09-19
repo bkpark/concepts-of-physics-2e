@@ -1,12 +1,12 @@
 """Enrich draft mappings with historical PDF evidence; never auto-approve matches."""
 from pathlib import Path
-import json, xml.etree.ElementTree as ET
+import json
 ROOT=Path(__file__).resolve().parents[2]
 path=ROOT/'metadata/upstream-map.proposed.json'
 data=json.loads(path.read_text(encoding='utf-8'))
 attribution=json.loads((ROOT/'references/cnx-12.1-module-attributions.json').read_text(encoding='utf-8'))
 records={r['module_id']:r for r in attribution['modules']}
-upstream={e.get('document') for e in ET.parse(ROOT/'references/college-physics-2e.collection.xml').getroot().iter() if e.tag.endswith('}module')}
+upstream=set(json.loads((ROOT/'references/college-physics-2e-identifiers.json').read_text(encoding='utf-8'))['module_ids'])
 for row in data['mappings']:
     if len(row['local_sections'])!=1:continue
     mid=row['local_sections'][0].split(':')[1]

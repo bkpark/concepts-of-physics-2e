@@ -75,5 +75,8 @@ The recovered collection declares CC BY 4.0. Preserve all recovered attribution 
 figure credits. Its preface identifies Andrew Park's adaptation, Bobby Bailey's prior
 adaptation, James Rittenbach's momentum contribution, and OpenStax College Physics.
 The later branch's single `authors` attribute is incomplete evidence of authorship.
-The upstream reference collection has its own CC BY-NC-SA 4.0 declaration; it is a
-comparison reference, not incorporated textbook content. See the recovery assessment and release notes for attribution evidence and limits.
+The later OpenStax College Physics 2e reference declares CC BY-NC-SA 4.0.
+Its copied reference XML files have been removed from the current tree; only
+identifiers, provenance links, and checksums remain. They are not textbook build
+inputs. Future imports must have verified CC BY-compatible provenance. See
+[the license-source audit](docs/license-source-audit.md), including the Git-history limitation.
