@@ -23,7 +23,7 @@ for n,page in enumerate(reader.pages,1):
    elif dest[0].idnum not in page_ids:bad_links.append([n,str(dest)])
   elif action.get('/S')=='/URI':external+=1
 report={'internal_links':internal,'external_links':external,'broken_pdf_links':bad_links,'tagged':bool(reader.trailer['/Root'].get('/StructTreeRoot')),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'pages':len(rows),'math_chars':mathchars,'fonts':sorted(fonts),'page_audit':rows}
-out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({'pages':len(rows),'outside_pages':[r['page'] for r in rows if r['outside']],'sparse':[r['page'] for r in rows if r['chars']<100]},ensure_ascii=True))
 
 assert not bad_links,bad_links
