@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import subprocess
+import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
 lock = json.loads((ROOT / 'metadata/recovery-lock.json').read_text(encoding='utf-8'))
@@ -38,6 +39,24 @@ for item in lock['external_archives']:
         print('External archive not present here (check portable backup): ' + item['relative_path'])
     elif hashlib.sha256(path.read_bytes()).hexdigest() != item['sha256']:
         failures.append('Archive checksum mismatch: ' + item['relative_path'])
+    elif item.get('git_commit'):
+        archive_tree = subprocess.check_output(['git', 'ls-tree', '-r', '-z', item['git_commit']], cwd=ROOT)
+        expected_blobs = {}
+        for entry in archive_tree.split(b'\0'):
+            if entry:
+                info, name = entry.split(b'\t', 1)
+                expected_blobs[name.decode('utf-8')] = info.split()[2].decode('ascii')
+        actual_blobs = {}
+        with tarfile.open(path) as archive:
+            for member in archive.getmembers():
+                if member.isfile():
+                    data = archive.extractfile(member).read()
+                    actual_blobs[member.name] = hashlib.sha1(
+                        b'blob ' + str(len(data)).encode('ascii') + b'\0' + data).hexdigest()
+        if actual_blobs != expected_blobs:
+            failures.append('Archive bytes differ from original Git tree: ' + item['relative_path'])
+        else:
+            print('Verified archive contents against Git tree: ' + item['relative_path'])
 if failures:
     raise SystemExit('\n'.join(failures))
 print(f"Verified {len(lock['baseline_files_sha256'])} unchanged source files and both pinned Git tags.")

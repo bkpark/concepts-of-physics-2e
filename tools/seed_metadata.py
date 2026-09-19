@@ -55,7 +55,9 @@ def main():
             {'tag': 'recovered/introduction-branch-2022-09-29', 'commit': '4a8661442d4612738ff388f7f1be7c5deabd1b68',
              'role': 'branch tip; contains later MathML and attribution changes'}],
         'baseline_files_sha256': {n: sha(ROOT / n) for n in files},
-        'external_archives': [{'relative_path': '../' + n, 'sha256': sha(ROOT.parent / n)} for n in archives],
+        'external_archives': [{'relative_path': '../' + n, 'sha256': sha(ROOT.parent / n),
+            'git_commit': {'introduction-cnx-import-e2b8ec0.tar': BASE,
+                'introduction-branch-tip-4a86614.tar': '4a8661442d4612738ff388f7f1be7c5deabd1b68'}.get(n)} for n in archives],
         'course_numbering_reference': {
             'url': 'https://coaphys.xyz/wordpress/wp-content/uploads/2026/07/Introduction-to-Physics-Park-PHYS-10-2026-07-07.pdf',
             'local_relative_path': '../references/course-numbering-2026-07-07.pdf', 'sha256': sha(pdf), 'pages': 744,

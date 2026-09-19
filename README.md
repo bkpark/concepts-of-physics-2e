@@ -41,6 +41,9 @@ python tools/inventory.py
 Disable automatic line-ending conversion before checking out historical files on
 Windows. The verifier compares raw working bytes to the original Git blob IDs as well
 as SHA-256 checksums; a normalized checkout must not be mistaken for an exact copy.
+The maintained branch adds `.gitattributes` to disable automatic line-ending conversion.
+When exporting a historical tag that predates that file, use
+`git -c core.autocrlf=false archive` to keep archive members byte-identical too.
 The verifier checks original bytes and preservation tags. The inventory command regenerates
 `reports/*.json` from the working source without changing it. Reports diagnose known
 issues; a successful run does not certify publication readiness or validate all MathML.

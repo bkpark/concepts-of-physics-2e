@@ -31,7 +31,7 @@ def slug(title):
     return re.sub(r'[^a-z0-9]+', '-', value).strip('-')
 
 def dump(name, data):
-    (OUT / name).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (OUT / name).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
 
 def main():
     OUT.mkdir(exist_ok=True)
