@@ -1,0 +1,51 @@
+[
+  {
+    "module": "m42531",
+    "element": "msub",
+    "expected": 2,
+    "actual": 3,
+    "xml": "<ns0:msub xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mn>Δ</ns0:mn><ns0:mi fontstyle=\"italic\">t</ns0:mi><ns0:mrow><ns0:mn>0</ns0:mn></ns0:mrow></ns0:msub>"
+  },
+  {
+    "module": "m42674",
+    "element": "msub",
+    "expected": 2,
+    "actual": 1,
+    "xml": "<ns0:msub xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mi>τ</ns0:mi>\n                              </ns0:msub>\n                              "
+  },
+  {
+    "module": "m42674",
+    "element": "msub",
+    "expected": 2,
+    "actual": 1,
+    "xml": "<ns0:msub xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mi>μ</ns0:mi>\n                              </ns0:msub>\n                              "
+  },
+  {
+    "module": "m42674",
+    "element": "msub",
+    "expected": 2,
+    "actual": 1,
+    "xml": "<ns0:msub xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mi>μ</ns0:mi>\n                              </ns0:msub>\n                              "
+  },
+  {
+    "module": "m42709",
+    "element": "msup",
+    "expected": 2,
+    "actual": 3,
+    "xml": "<ns0:msup xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                  <ns0:mtext />\n                  <ns0:mrow>\n                    <ns0:mi>Z</ns0:mi>\n                  </ns0:mrow>\n<ns0:msub>\n                  <ns0:mrow>\n                    <ns0:mi>A</ns0:mi>\n                  </ns0:mrow>\n               </ns0:msub>\n</ns0:msup>\n                "
+  },
+  {
+    "module": "m42709",
+    "element": "msub",
+    "expected": 2,
+    "actual": 1,
+    "xml": "<ns0:msub xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                  <ns0:mrow>\n                    <ns0:mi>A</ns0:mi>\n                  </ns0:mrow>\n               </ns0:msub>\n"
+  },
+  {
+    "module": "m67807",
+    "element": "msup",
+    "expected": 2,
+    "actual": 1,
+    "xml": "<ns0:msup xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mrow /></ns0:mrow></ns0:msup>"
+  }
+]

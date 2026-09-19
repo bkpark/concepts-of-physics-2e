@@ -1,0 +1,627 @@
+{
+  "baseline_commit": "e2b8ec04bd22d78da0e97826b9705a3f0cc6eba5",
+  "collection_metadata": [
+    {
+      "element": "content-id",
+      "text": "col25183",
+      "attributes": {}
+    },
+    {
+      "element": "title",
+      "text": "Introduction to Physics",
+      "attributes": {}
+    },
+    {
+      "element": "license",
+      "text": "Creative Commons Attribution License 4.0",
+      "attributes": {
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "element": "language",
+      "text": "en",
+      "attributes": {}
+    },
+    {
+      "element": "uuid",
+      "text": "58fbacb7-693d-4d0a-80dc-21e7c33abd8f",
+      "attributes": {}
+    },
+    {
+      "element": "slug",
+      "text": "introduction-to-physics",
+      "attributes": {}
+    }
+  ],
+  "module_files": 141,
+  "module_occurrences": 141,
+  "unique_book_modules": 141,
+  "missing_book_modules": [],
+  "unused_modules": [],
+  "xml_parse_errors": [],
+  "groups": [
+    {
+      "title": "Introduction",
+      "parents": []
+    },
+    {
+      "title": "Unit 1: Mechanics I - Motion and Forces",
+      "parents": []
+    },
+    {
+      "title": "Kinematics",
+      "parents": [
+        "Unit 1: Mechanics I - Motion and Forces"
+      ]
+    },
+    {
+      "title": "Dynamics",
+      "parents": [
+        "Unit 1: Mechanics I - Motion and Forces"
+      ]
+    },
+    {
+      "title": "Unit 2: Mechanics II - Energy and Momentum, Oscillations and Waves, Rotation, and Fluids",
+      "parents": []
+    },
+    {
+      "title": "Work and Energy",
+      "parents": [
+        "Unit 2: Mechanics II - Energy and Momentum, Oscillations and Waves, Rotation, and Fluids"
+      ]
+    },
+    {
+      "title": "Impulse and Momentum",
+      "parents": [
+        "Unit 2: Mechanics II - Energy and Momentum, Oscillations and Waves, Rotation, and Fluids"
+      ]
+    },
+    {
+      "title": "Oscillations and Waves",
+      "parents": [
+        "Unit 2: Mechanics II - Energy and Momentum, Oscillations and Waves, Rotation, and Fluids"
+      ]
+    },
+    {
+      "title": "Rotation",
+      "parents": [
+        "Unit 2: Mechanics II - Energy and Momentum, Oscillations and Waves, Rotation, and Fluids"
+      ]
+    },
+    {
+      "title": "Fluids",
+      "parents": [
+        "Unit 2: Mechanics II - Energy and Momentum, Oscillations and Waves, Rotation, and Fluids"
+      ]
+    },
+    {
+      "title": "Unit 3: Classical Physics - Thermodynamics, Electricity and Magnetism, and Light",
+      "parents": []
+    },
+    {
+      "title": "Thermal Physics",
+      "parents": [
+        "Unit 3: Classical Physics - Thermodynamics, Electricity and Magnetism, and Light"
+      ]
+    },
+    {
+      "title": "Electricity",
+      "parents": [
+        "Unit 3: Classical Physics - Thermodynamics, Electricity and Magnetism, and Light"
+      ]
+    },
+    {
+      "title": "Magnetism",
+      "parents": [
+        "Unit 3: Classical Physics - Thermodynamics, Electricity and Magnetism, and Light"
+      ]
+    },
+    {
+      "title": "Light",
+      "parents": [
+        "Unit 3: Classical Physics - Thermodynamics, Electricity and Magnetism, and Light"
+      ]
+    },
+    {
+      "title": "Unit 4: Modern Physics - Quantum Mechanics, Special Relativity, and Nuclear and Particle Physics",
+      "parents": []
+    },
+    {
+      "title": "Quantum Mechanics",
+      "parents": [
+        "Unit 4: Modern Physics - Quantum Mechanics, Special Relativity, and Nuclear and Particle Physics"
+      ]
+    },
+    {
+      "title": "Special Relativity",
+      "parents": [
+        "Unit 4: Modern Physics - Quantum Mechanics, Special Relativity, and Nuclear and Particle Physics"
+      ]
+    },
+    {
+      "title": "Nuclear and Particle Physics",
+      "parents": [
+        "Unit 4: Modern Physics - Quantum Mechanics, Special Relativity, and Nuclear and Particle Physics"
+      ]
+    }
+  ],
+  "duplicate_titles": {},
+  "slug_collisions": {},
+  "cnxml_elements": {
+    "document": 141,
+    "title": 1087,
+    "metadata": 141,
+    "content": 141,
+    "figure": 564,
+    "media": 566,
+    "image": 563,
+    "caption": 537,
+    "para": 4748,
+    "iframe": 3,
+    "link": 835,
+    "list": 292,
+    "item": 992,
+    "term": 1080,
+    "note": 185,
+    "label": 248,
+    "equation": 1011,
+    "emphasis": 1312,
+    "example": 125,
+    "section": 467,
+    "exercise": 993,
+    "problem": 993,
+    "solution": 264,
+    "glossary": 120,
+    "definition": 539,
+    "meaning": 539,
+    "sub": 21,
+    "table": 42,
+    "tgroup": 42,
+    "colspec": 166,
+    "thead": 35,
+    "row": 1037,
+    "entry": 4140,
+    "tbody": 42,
+    "newline": 13,
+    "footnote": 20,
+    "sup": 41,
+    "div": 7,
+    "span": 2
+  },
+  "mathml_elements": {
+    "math": 7394,
+    "semantics": 6822,
+    "mtext": 10485,
+    "mrow": 35524,
+    "msub": 2794,
+    "mi": 8707,
+    "annotation": 5587,
+    "mstyle": 523,
+    "mo": 7712,
+    "mfrac": 1136,
+    "mn": 6654,
+    "mtable": 133,
+    "mtr": 330,
+    "mtd": 874,
+    "mspace": 1369,
+    "mfenced": 400,
+    "msup": 2883,
+    "mmultiscripts": 13,
+    "mprescripts": 13,
+    "none": 6,
+    "msqrt": 87,
+    "msubsup": 166,
+    "mover": 174,
+    "ci": 647,
+    "apply": 303,
+    "times": 84,
+    "cn": 188,
+    "power": 43,
+    "csymbol": 71,
+    "menclose": 2,
+    "eq": 111,
+    "minus": 12,
+    "plus": 4,
+    "divide": 34,
+    "gt": 3,
+    "lt": 2,
+    "abs": 2,
+    "mpadded": 4,
+    "approx": 1,
+    "scalarproduct": 5,
+    "vectorproduct": 1,
+    "sep": 28
+  },
+  "classification_attributes": {
+    "document@class": {
+      "introduction": 15,
+      "appendix": 3
+    },
+    "figure@class": {
+      "splash": 15
+    },
+    "emphasis@effect": {
+      "italics": 764,
+      "bold": 66,
+      "smallcaps": 2
+    },
+    "section@class": {
+      "section-summary": 120,
+      "conceptual-questions": 108,
+      "problems-exercises": 45
+    },
+    "section@type": {
+      "conceptual-questions": 103,
+      "problems-exercises": 45,
+      "section-summary": 3
+    },
+    "exercise@type": {
+      "conceptual-questions": 484,
+      "problems-exercises": 356,
+      "check-understanding": 37,
+      "problem-exercises": 93
+    },
+    "list@number-style": {
+      "arabic": 39,
+      "lower-alpha": 3
+    },
+    "math@display": {
+      "block": 648,
+      "display": 2,
+      "inline": 18
+    },
+    "problem@type": {
+      "check-understanding": 2,
+      "problems-exercises": 11
+    },
+    "list@class": {
+      "stepwise": 1
+    },
+    "note@class": {
+      "interactive": 1
+    },
+    "solution@type": {
+      "problems-exercises": 22,
+      "conceptual-questions": 4
+    },
+    "content@class": {
+      "appendix": 3
+    },
+    "mrow@class": {
+      "MJX-TeXAtom-ORD": 237
+    },
+    "ci@type": {
+      "vector": 129
+    },
+    "equation@class": {
+      "unnumbered": 12
+    },
+    "mi@class": {
+      "MJX-tex-mathit": 10
+    },
+    "term@class": {
+      "no-emphasis": 2
+    },
+    "cn@type": {
+      "e-notation": 28
+    }
+  },
+  "metadata_elements": {
+    "content-id": 141,
+    "title": 141,
+    "abstract": 141,
+    "uuid": 141
+  },
+  "duplicate_ids": [],
+  "objects_without_ids": [],
+  "media_without_alt": [
+    {
+      "module": "m42176",
+      "id": "import-auto-id1421023"
+    },
+    {
+      "module": "m42627",
+      "id": "fs-id1992725"
+    },
+    {
+      "module": "m52381",
+      "id": "import-auto-id1855377"
+    },
+    {
+      "module": "m67031",
+      "id": "import-auto-id3087674"
+    },
+    {
+      "module": "m67122",
+      "id": "import-auto-id2600697"
+    },
+    {
+      "module": "m67134",
+      "id": "import-auto-id1362599"
+    },
+    {
+      "module": "m71594",
+      "id": "eip-id2890661"
+    }
+  ],
+  "fixed_arity_mathml_findings": 7,
+  "math_with_content_elements": 384,
+  "modules_with_content_math": 36,
+  "references_by_status": {
+    "resolved": 806,
+    "module-absent": 24,
+    "url-not-checked": 3,
+    "target-absent": 2
+  },
+  "asset_references_by_status": {
+    "present": 563,
+    "external": 3
+  },
+  "media_files": 813,
+  "media_bytes": 185245224,
+  "media_extensions": {
+    ".jar": 16,
+    ".svg": 1,
+    ".jpg": 775,
+    ".png": 8,
+    ".wmf": 9,
+    ".0772281025": 1,
+    ".0514417194": 1,
+    ".9235469388": 1,
+    ".9168646549": 1
+  },
+  "unreferenced_media": [
+    "media/alpha-decay_en.jar",
+    "media/ch01mod01.jpg",
+    "media/ch02mod4.jpg",
+    "media/ch03mod01.jpg",
+    "media/ch03mod04.jpg",
+    "media/ch04mod04.jpg",
+    "media/ch04mod05.jpg",
+    "media/ch06mod01.jpg",
+    "media/ch06mod02.jpg",
+    "media/ch07mod01.jpg",
+    "media/ch07mod03.jpg",
+    "media/ch08mod04.jpg",
+    "media/ch09mod04.jpg",
+    "media/ch11mod04.jpg",
+    "media/ch12mod01.jpg",
+    "media/ch12mod03.jpg",
+    "media/ch12mod07.jpg",
+    "media/ch14mod06.jpg",
+    "media/ch15mod01.jpg",
+    "media/ch16mod06.jpg",
+    "media/ch17mod09.jpg",
+    "media/ch17mod10.jpg",
+    "media/ch19mod01.jpg",
+    "media/ch19mod04.jpg",
+    "media/ch19mod05.jpg",
+    "media/ch21mod02.jpg",
+    "media/ch21mod05.jpg",
+    "media/ch23mod03.jpg",
+    "media/ch23mod09.jpg",
+    "media/ch24mod02.jpg",
+    "media/ch25mod02.jpg",
+    "media/ch25mod03.jpg",
+    "media/ch26mod05.jpg",
+    "media/ch30mod01.jpg",
+    "media/ch30mod02.jpg",
+    "media/ch30mod05.jpg",
+    "media/ch31mod02.jpg",
+    "media/ch32mod01.jpg",
+    "media/ch32mod02.jpg",
+    "media/ch32mod05.jpg",
+    "media/ch32mod06.jpg",
+    "media/ch33mod01.jpg",
+    "media/collision-lab_en.jar",
+    "media/EnergySkatePark.jpg",
+    "media/Figure 04_01_01.jpg",
+    "media/Figure 04_01_01a.jpg",
+    "media/Figure 25_02_04a.jpg",
+    "media/Figure 25_02_05a.jpg",
+    "media/Figure 25_02_06a.jpg",
+    "media/Figure 25_03_17a.jpg",
+    "media/Figure 26_02_08.jpg",
+    "media/Figure 26_02_09.jpg",
+    "media/Figure 26_03_04.jpg",
+    "media/Figure 26_03_05.jpg",
+    "media/Figure 26_05_06.jpg",
+    "media/Figure 30_01_01a.jpg",
+    "media/Figure 30_01_03a.jpg",
+    "media/Figure 30_06_03a.jpg",
+    "media/Figure_01_00_01a.jpg",
+    "media/Figure_01_01_01_a.jpg",
+    "media/Figure_01_01_02_a.jpg",
+    "media/Figure_01_01_03.jpg",
+    "media/Figure_01_01_04.jpg",
+    "media/Figure_01_01_05.jpg",
+    "media/Figure_01_01_06.jpg",
+    "media/Figure_01_01_07.jpg",
+    "media/Figure_01_01_08.jpg",
+    "media/Figure_01_01_09.jpg",
+    "media/Figure_01_01_10.jpg",
+    "media/Figure_01_01_11_a.jpg",
+    "media/Figure_01_01_12.jpg",
+    "media/Figure_01_01_13.jpg",
+    "media/Figure_01_02_04a.jpg",
+    "media/Figure_01_02_05a.jpg",
+    "media/Figure_02_00_01.jpg",
+    "media/Figure_02_04_00b.jpg",
+    "media/Figure_02_04_03a.jpg",
+    "media/Figure_02_07_05.jpg",
+    "media/Figure_03_04_01.jpg",
+    "media/Figure_03_04_03a.jpg",
+    "media/Figure_03_04_04a.jpg",
+    "media/Figure_04_03_05.jpg",
+    "media/Figure_04_03_06.jpg",
+    "media/Figure_04_03_07.jpg",
+    "media/Figure_04_05_02.jpg",
+    "media/Figure_04_05_03.jpg",
+    "media/Figure_04_05_06.jpg",
+    "media/Figure_04_05_07.jpg",
+    "media/Figure_04_05_08.jpg",
+    "media/Figure_04_05_10.jpg",
+    "media/Figure_04_05_11.jpg",
+    "media/Figure_04_05_14.jpg",
+    "media/Figure_06_01_03a.jpg",
+    "media/Figure_06_01_06a.jpg",
+    "media/Figure_06_01_07a.jpg",
+    "media/Figure_07_02_02a.jpg",
+    "media/Figure_07_02_03a.jpg",
+    "media/Figure_07_03_08a.jpg",
+    "media/Figure_07_03_09a.jpg",
+    "media/Figure_07_03_10a.jpg",
+    "media/Figure_07_05_04a.jpg",
+    "media/Figure_07_05_08a.jpg",
+    "media/Figure_08_00_01 copy.jpg",
+    "media/Figure_08_00_01.jpg",
+    "media/Figure_08_00_01a.jpg",
+    "media/Figure_08_01_02a.jpg",
+    "media/Figure_08_01_03a.jpg",
+    "media/Figure_08_01_04a.jpg",
+    "media/Figure_08_02_01.jpg",
+    "media/Figure_08_02_01a.jpg",
+    "media/Figure_08_02_02a.jpg",
+    "media/Figure_08_02_04a.jpg",
+    "media/Figure_08_03_05a.jpg",
+    "media/Figure_08_03_06a.jpg",
+    "media/Figure_08_03_07a.jpg",
+    "media/Figure_08_04_01a.jpg",
+    "media/Figure_08_04_02a.jpg",
+    "media/Figure_08_07_04a.jpg",
+    "media/Figure_09_01_01a.jpg",
+    "media/Figure_09_03_04a.jpg",
+    "media/Figure_11_00_01a.jpg",
+    "media/Figure_11_03_03a.jpg",
+    "media/Figure_11_03_05a.jpg",
+    "media/Figure_11_04_02a.jpg",
+    "media/Figure_11_04_04a.jpg",
+    "media/Figure_11_05_02a.jpg",
+    "media/Figure_11_05_03a.jpg",
+    "media/Figure_11_07_05a.jpg",
+    "media/Figure_11_07_06a.jpg",
+    "media/Figure_13_01_04a.jpg",
+    "media/Figure_13_02_03a.jpg",
+    "media/Figure_13_02_07a.jpg",
+    "media/Figure_14_00_01.jpg",
+    "media/Figure_14_03_03.jpg",
+    "media/Figure_15_02_03.jpg",
+    "media/Figure_16_01_03b.jpg",
+    "media/Figure_16_01_04a.jpg",
+    "media/Figure_16_02_05a.jpg",
+    "media/Figure_16_02_06abc.jpg",
+    "media/Figure_16_02_07a.jpg",
+    "media/Figure_16_02_10a.jpg",
+    "media/Figure_16_02_11a.jpg",
+    "media/Figure_16_06_04.jpg",
+    "media/Figure_16_06_07.jpg",
+    "media/Figure_17_02_02a.jpg",
+    "media/Figure_17_02_03a.jpg",
+    "media/Figure_17_09_06a.jpg",
+    "media/Figure_19_05_04a.jpg",
+    "media/Figure_19_05_07a.jpg",
+    "media/Figure_19_08_07a.jpg",
+    "media/Figure_19_08_08a.jpg",
+    "media/Figure_19_08_10a.jpg",
+    "media/Figure_19_08_11a.jpg",
+    "media/Figure_19_08_12a.jpg",
+    "media/Figure_21_01_04a.jpg",
+    "media/Figure_21_01_05a.jpg",
+    "media/Figure_21_01_06a.jpg",
+    "media/Figure_21_01_07a.jpg",
+    "media/Figure_21_01_08a.jpg",
+    "media/Figure_21_04_04a.jpg",
+    "media/Figure_21_04_05a.jpg",
+    "media/Figure_21_04_06_REVISED.jpg",
+    "media/Figure_21_04_06a.jpg",
+    "media/Figure_21_05_02.jpg",
+    "media/Figure_23_00_01a.jpg",
+    "media/Figure_23_04_01a.jpg",
+    "media/Figure_23_04_02a.jpg",
+    "media/Figure_23_07_02a.jpg",
+    "media/Figure_23_07_08a.jpg",
+    "media/Figure_23_08_02a.jpg",
+    "media/Figure_24_01_04-mod-2.jpg",
+    "media/Figure_24_01_04.jpg",
+    "media/Figure_24_01_06.jpg",
+    "media/Figure_24_02_04.jpg",
+    "media/Figure_24_02_05.jpg",
+    "media/Figure_24_07_04.jpg",
+    "media/Figure_29_02_01a.jpg",
+    "media/Figure_29_02_03a.jpg",
+    "media/Figure_29_04_02a.jpg",
+    "media/Figure_31_02_03a1.jpg",
+    "media/Figure_31_02_03b1.jpg",
+    "media/Figure_31_03_06a.jpg",
+    "media/Figure_32_02_03a.jpg",
+    "media/Figure_33_01_03.jpg",
+    "media/Figure_33_01_06.jpg",
+    "media/Figure_33_02_01.jpg",
+    "media/Figure_33_02_02.jpg",
+    "media/Figure_33_02_03.jpg",
+    "media/Figure_34_02_03.jpg",
+    "media/graphics1.png",
+    "media/graphics1.wmf",
+    "media/graphics11.jpg",
+    "media/graphics13.wmf",
+    "media/graphics14.wmf",
+    "media/graphics2-25a7.jpg",
+    "media/graphics2-4f66.jpg",
+    "media/graphics2-77f1.jpg",
+    "media/graphics2.wmf",
+    "media/graphics3-1943.jpg",
+    "media/graphics3-20b0.jpg",
+    "media/graphics3-6f40.jpg",
+    "media/graphics3-bf30.jpg",
+    "media/graphics3.wmf",
+    "media/graphics4-1a59.jpg",
+    "media/graphics4-2201.wmf",
+    "media/graphics4-280c.jpg",
+    "media/graphics4-2945.wmf",
+    "media/graphics4-3168.jpg",
+    "media/graphics5-2201.wmf",
+    "media/graphics5-2e3f.wmf",
+    "media/graphics5.jpg",
+    "media/graphics6-360d.jpg",
+    "media/graphics6-594e.jpg",
+    "media/graphics7-8ce3.jpg",
+    "media/graphics7-fa18.jpg",
+    "media/graphics8.jpg",
+    "media/graphics8.png",
+    "media/graphics9.jpg",
+    "media/gravity-and-orbits_en.jar",
+    "media/hydrogen-atom_en.jar",
+    "media/ladybug-motion-2d_en.jar",
+    "media/MagnetsAndElectroMagnets.jpg",
+    "media/mass-spring-lab_en.jar",
+    "media/mri_en.jar",
+    "media/my-solar-system_en.jar",
+    "media/PhET_Icon.png",
+    "media/photoelectric_en.jar",
+    "media/Picture 1.png",
+    "media/Picture 17.jpg",
+    "media/Picture 18.jpg",
+    "media/Picture 19.jpg",
+    "media/Picture 211.jpg",
+    "media/Picture 33.jpg",
+    "media/Picture 34.jpg",
+    "media/Picture 35.jpg",
+    "media/Picture 55.jpg",
+    "media/Picture 6.jpg",
+    "media/Picture 66.png",
+    "media/projectile-motion_en.jar",
+    "media/quantum-wave-interference_en.jar",
+    "media/radioactive-dating-game_en.jar",
+    "media/reversible-reactions_en.jar",
+    "media/rotation_en.jar",
+    "media/rutherford-scattering_en.jar",
+    "media/states-of-matter_en.jar",
+    "media/unifiedfile.2012-03-20.0772281025",
+    "media/unifiedfile.2012-04-09.0514417194",
+    "media/unifiedfile.2012-04-09.9235469388",
+    "media/unifiedfile.2012-04-28.9168646549",
+    "media/unnumbered_art_p44.jpg",
+    "media/work-mod-3.jpg"
+  ]
+}
