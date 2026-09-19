@@ -3,9 +3,8 @@
     "SR01",
     "SR02"
   ],
-  "status": "awaiting author review; no content applied",
+  "status": "SR01 applied for 1.1 with two approved typo fixes; SR02 awaiting review",
   "proposal_xml_parses": true,
-  "all_141_module_hashes_still_match_1_0": true,
   "published_pdf_and_zip_unchanged": true,
   "browser_widths_checked": [
     1280,
@@ -14,8 +13,11 @@
   "browser_root_overflow": false,
   "broken_review_images": 0,
   "image_review": "22 byte-identical references; Einstein portrait is same photo at lower upstream resolution; retain local image",
-  "SR01_replacement_XML_matches_checksummed_upstream_exactly": true,
   "SR01_removal_matches_upstream": true,
-  "SR01_removed_paragraph_anchor_retention_required_on_application": true,
-  "SR01_scope": "Two verbatim upstream paragraphs; one upstream paragraph removal. Other prose, caption and alt text unchanged."
+  "SR01_scope": "Two upstream paragraph replacements plus two approved typo fixes; one paragraph removed with its anchor preserved. Other prose, captions and image descriptions unchanged.",
+  "SR01_replacements_match_upstream_except_two_approved_typos": true,
+  "SR01_all_existing_IDs_preserved": true,
+  "only_changed_content_file_since_1_0": "maintained/modules/m42531/index.cnxml",
+  "maintained_ledger_verified_content_files": 955,
+  "immutable_baseline_verified_files": 959
 }

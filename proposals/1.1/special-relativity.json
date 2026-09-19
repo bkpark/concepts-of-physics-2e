@@ -1,21 +1,22 @@
 {
   "target_release": "cp2e-ver1.1",
-  "status": "proposal-only; not applied",
+  "status": "SR01 applied for 1.1; SR02 awaiting review",
   "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
   "items": [
     {
       "id": "SR01",
-      "classification": "Verbatim upstream update",
+      "classification": "Upstream update with two author-approved typo fixes",
       "module": "m42531",
       "source_sha256": "c7a9988cd0d4ebba885ac5641439d8e550c444de64e5466d84502cb5ceef9771",
       "title": "Incorporate the upstream simultaneity update",
-      "reason": "Replace two paragraphs with exact wording from the pinned CC BY upstream and remove the intervening paragraph, as upstream did. No additional prose editing.",
+      "reason": "Apply the pinned upstream change, removing only the stray and and doubled period. Further prose revisions are deferred.",
       "changes": [
         {
           "source_id": "import-auto-id2988234",
           "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <ns0:link target-id=\"import-auto-id3164999\" />.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus observer B measures the flashes to be simultaneous.</ns0:para>",
-          "after_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <ns0:link target-id=\"import-auto-id3164999\" />.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that in B’s frame, both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus, observer B measures the flashes to be simultaneous.  Since in B’s frame, A is moving to the right, B will measure the light from the right bulb and arrive at observer A before the light from the left bulb arrives at observer A.</ns0:para>",
-          "action": "replace"
+          "after_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <ns0:link target-id=\"import-auto-id3164999\" />.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that in B’s frame, both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus, observer B measures the flashes to be simultaneous.  Since in B’s frame, A is moving to the right, B will measure the light from the right bulb arrive at observer A before the light from the left bulb arrives at observer A.</ns0:para>",
+          "action": "replace",
+          "upstream_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2988234\">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <ns0:link target-id=\"import-auto-id3164999\" />.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that in B’s frame, both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus, observer B measures the flashes to be simultaneous.  Since in B’s frame, A is moving to the right, B will measure the light from the right bulb and arrive at observer A before the light from the left bulb arrives at observer A.</ns0:para>"
         },
         {
           "source_id": "import-auto-id2693622",
@@ -27,11 +28,12 @@
         {
           "source_id": "eip-745",
           "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider what observer A sees happening. She sees the light from the right at the same time that she sees the light from the left. Since both lamps are the same distance from her in her reference frame, from her perspective, the flashes occurred at the same time. Here a relative velocity between observers affects whether two events are observed to be simultaneous. <ns0:emphasis effect=\"italics\"><ns0:emphasis effect=\"italics\">Simultaneity is not absolute</ns0:emphasis></ns0:emphasis></ns0:para>",
-          "after_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb.  Since in her frame, the flashes are not emitted at the same time, they also do not arrive at the same time. Here, a relative velocity between observers affects whether two events are observed to be simultaneous. <ns0:emphasis effect=\"italics\">Simultaneity is not absolute.</ns0:emphasis>. Note, however, that both A and B agree on the order of the flashes arriving at A’s location.</ns0:para>",
-          "action": "replace"
+          "after_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb.  Since in her frame, the flashes are not emitted at the same time, they also do not arrive at the same time. Here, a relative velocity between observers affects whether two events are observed to be simultaneous. <ns0:emphasis effect=\"italics\">Simultaneity is not absolute.</ns0:emphasis> Note, however, that both A and B agree on the order of the flashes arriving at A’s location.</ns0:para>",
+          "action": "replace",
+          "upstream_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-745\">Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb.  Since in her frame, the flashes are not emitted at the same time, they also do not arrive at the same time. Here, a relative velocity between observers affects whether two events are observed to be simultaneous. <ns0:emphasis effect=\"italics\">Simultaneity is not absolute.</ns0:emphasis>. Note, however, that both A and B agree on the order of the flashes arriving at A’s location.</ns0:para>"
         }
       ],
-      "decision": null,
+      "decision": "applied-author-directed",
       "unchanged": [
         "Introductory paragraph",
         "Thought-experiment paragraph",
@@ -39,9 +41,10 @@
         "Figure artwork, caption, and image description"
       ],
       "upstream_wording_notes": [
-        "The upstream wording contains “and arrive” and a doubled period after “Simultaneity is not absolute.” These are reproduced without editorial cleanup.",
-        "The broader rewrite previously proposed is withdrawn; see Git commit 2ad02f9 for that superseded proposal."
-      ]
+        "Removed and from and arrive; removed doubled period. All other upstream wording retained.",
+        "Broader prose revision deferred by author; earlier expanded rewrite withdrawn."
+      ],
+      "after_sha256": "6bbcd07e832c31d672732c998ea0e88eb55b3cbc675809d8c1231557c64b3960"
     },
     {
       "id": "SR02",

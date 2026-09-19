@@ -1,6 +1,6 @@
 # cp2e-ver1.1 planning
 
-Status: Special Relativity comparison and SR01/SR02 proposals are ready for author review; no textbook content changes approved or merged for 1.1 yet.
+Status: SR01 applied to maintained 1.1 source with two author-approved typo fixes. SR02 awaits review. Published 1.0 remains unchanged.
 
 1. Review Special Relativity against the pinned CC BY snapshot, then systematically review all remaining chapters. Produce reports before edits.
 2. Revise chapter-end exercises for conceptual Physics 10, using author-supplied MyOpenMath exports as references after checking provenance.
@@ -21,4 +21,4 @@ Before producing release artifacts, deliberately prepare metadata/release.json f
 
 ## Editorial scope
 
-At the author's request, prefer direct upstream updates with minimal prose changes. Extensive rewriting is author-led. SR01 now replaces two paragraphs with verbatim pinned upstream XML and removes the paragraph upstream folded into the first replacement; retain its public anchor if applied. Other prose and figure caption/description are unchanged. Two apparent upstream typos are flagged for review, not silently fixed. The expanded rewrite in commit `2ad02f9` is withdrawn. This remains a proposal, not an applied textbook change.
+At the author's request, prefer direct upstream updates with minimal prose changes. Extensive rewriting is author-led. SR01 now replaces two paragraphs with verbatim pinned upstream XML and removes the paragraph upstream folded into the first replacement; retain its public anchor. Other prose and figure caption/description are unchanged. The author approved removing “and” from “and arrive” and the doubled period; those two fixes are applied. The expanded rewrite in commit `2ad02f9` is withdrawn. SR01 is applied and recorded in the ordered editorial ledger. All other awkward wording is deferred to a later, broader author-led revision.

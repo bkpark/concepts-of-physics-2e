@@ -1,6 +1,6 @@
 """Read-only 1.1 comparison against the pinned CC BY snapshot; never edits content."""
 from pathlib import Path
-import collections, difflib, hashlib, html, json, shutil, sys, tarfile
+import collections, difflib, hashlib, html, json, shutil, subprocess, sys, tarfile
 import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -35,7 +35,8 @@ prefix='osbooks-college-physics-bundle-'+ref['commit']+'/'
 rows=[]
 with tarfile.open(archive) as tar:
     for info in ref['relativity_modules']:
-        mid=info['module_id'];source=ROOT/sections[mid]['source'];a_bytes=source.read_bytes()
+        mid=info['module_id'];source=ROOT/sections[mid]['source']
+        a_bytes=subprocess.check_output(['git','show','cp2e-ver1.0:'+sections[mid]['source']],cwd=ROOT)
         b_bytes=tar.extractfile(prefix+'modules/'+mid+'/index.cnxml').read();assert sha(b_bytes)==info['sha256']
         a=ET.fromstring(a_bytes);b=ET.fromstring(b_bytes)
         aa={e.get('id'):e for e in a.iter() if e.get('id')};bb={e.get('id'):e for e in b.iter() if e.get('id')}
@@ -47,8 +48,10 @@ with tarfile.open(archive) as tar:
                     assert ident not in bb and change['after_xml'] is None
                 else:
                     expected = ET.fromstring(ET.tostring(bb[ident], encoding='unicode').strip())
-                    actual = ET.fromstring(change['after_xml'])
+                    actual = ET.fromstring(change.get('upstream_xml',change['after_xml']))
                     assert ET.tostring(actual) == ET.tostring(expected), ident
+                    if 'upstream_xml' in change:
+                        assert change['after_xml'] == change['upstream_xml'].replace('bulb and arrive','bulb arrive').replace('</ns0:emphasis>. Note','</ns0:emphasis> Note')
         changes=[]
         for ident,e in aa.items():
             if ident in bb and local(e) in ('para','caption','title','problem','solution','meaning') and norm(e,True)!=norm(bb[ident],True):
@@ -71,17 +74,17 @@ with tarfile.open(archive) as tar:
         rows.append({'module':mid,'title':info['title'],'local_sha256':sha(a_bytes),'upstream_sha256':sha(b_bytes),'url':live(mid,sections[mid]['slug']),
           'prose_changes_math_masked':changes,'local_only_ids':sorted(aa.keys()-bb.keys()),'upstream_only_ids':sorted(bb.keys()-aa.keys()),
           'math':{'local':len(am),'upstream':len(bm),'matched_by_owner_and_ordinal':len(common),'token_differences':math_changes,'local_unmatched':sorted(am.keys()-bm.keys()),'upstream_unmatched':sorted(bm.keys()-am.keys()),'rendered_equal':sum(am[k]['rendered']==bm[k]['rendered'] for k in common)},'images':images,'link_changes':links})
-report={'target_release':'cp2e-ver1.1','status':'comparison and proposals only; no content applied','upstream_commit':ref['commit'],'upstream_license':ref['license'],'scope':'All seven sections inventoried. Math token comparison is a triage aid, not proof of mathematical equivalence; nested structural changes can shift matching. Exercises inventoried but pedagogical revision deferred.','sections':rows}
+report={'target_release':'cp2e-ver1.1','status':'1.0 baseline comparison; SR01 applied for 1.1; SR02 awaiting review','upstream_commit':ref['commit'],'upstream_license':ref['license'],'scope':'All seven sections inventoried. Math token comparison is a triage aid, not proof of mathematical equivalence; nested structural changes can shift matching. Exercises inventoried but pedagogical revision deferred.','sections':rows}
 (OUT/'comparison.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 esc=html.escape
 page='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>1.1 review: Special Relativity</title><style>
 body{font:18px/1.65 Georgia,serif;color:#20343c;max-width:1040px;margin:auto;padding:24px}h1,h2,h3{line-height:1.25}a{color:#12647b;overflow-wrap:anywhere}nav,.notice,aside{background:#edf4f6;padding:18px}section{margin:3rem 0;border-top:2px solid #d6e0e4;padding-top:1rem}.columns{display:grid;grid-template-columns:1fr 1fr;gap:24px}.box{border:1px solid #ccd8dc;padding:18px;min-width:0}summary{cursor:pointer;font-weight:bold}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}img{max-width:100%}table{width:100%;border-collapse:collapse}td,th{text-align:left;border-bottom:1px solid #ccd8dc;padding:8px}math{max-width:100%}.math{overflow-x:auto;padding:12px}li{margin:.5rem 0}.muted{font-size:.9em;color:#50656e}@media(max-width:700px){.columns{display:block}.box{margin:1rem 0}body{padding:16px}table{font-size:14px}}
-</style><h1>Special Relativity: review for 1.1</h1><p class="notice"><b>Proposals only.</b> The live textbook, maintained XML, published PDF, and frozen 1.0 release are unchanged. Comparison source: OpenStax College Physics 2e, CC BY 4.0, February 4, 2026.</p><nav><a href="#SR01">SR01 · Simultaneity</a> · <a href="#SR02">SR02 · Earth is not a star</a> · <a href="#followup">Further review</a> · <a href="#inventory">Seven-section inventory</a></nav>'''
-item=proposal['items'][0];mid=item['module'];assert sha((ROOT/sections[mid]['source']).read_bytes())==item['source_sha256']
-page+='<section id="SR01"><h2>SR01 — Upstream-only simultaneity update</h2><p>This version incorporates the pinned upstream update without additional prose editing: two paragraph replacements and removal of the intervening paragraph, whose explanation upstream folded into the first replacement. The introduction, thought-experiment paragraph, summary, figure caption, and image description remain unchanged.</p><p>The broader rewrite is withdrawn. The columns below show only the affected paragraphs, in their original order.</p><p><a href="'+live(mid,sections[mid]['slug'],'fs-id3155062')+'">Read the current textbook passage in context</a></p>'
+</style><h1>Special Relativity: review for 1.1</h1><p class="notice"><b>SR01 applied to the maintained 1.1 source; SR02 awaiting review.</b> The live textbook, published PDF, and frozen 1.0 release are unchanged. The inventory compares the frozen 1.0 baseline against upstream. Comparison source: OpenStax College Physics 2e, CC BY 4.0, February 4, 2026.</p><nav><a href="#SR01">SR01 · Simultaneity</a> · <a href="#SR02">SR02 · Earth is not a star</a> · <a href="#followup">Further review</a> · <a href="#inventory">Seven-section inventory</a></nav>'''
+item=proposal['items'][0];mid=item['module'];assert sha((ROOT/sections[mid]['source']).read_bytes())==item.get('after_sha256',item['source_sha256'])
+page+='<section id="SR01"><h2>SR01 — Upstream-only simultaneity update</h2><p>This version incorporates the pinned upstream update with only two approved typo fixes: two paragraph replacements and removal of the intervening paragraph, whose explanation upstream folded into the first replacement. The introduction, thought-experiment paragraph, summary, figure caption, and image description remain unchanged.</p><p>The broader rewrite is withdrawn. The columns below show only the affected paragraphs, in their original order.</p><p><a href="'+live(mid,sections[mid]['slug'],'fs-id3155062')+'">Read the current textbook passage in context</a></p>'
 
 def review_markup(xml):
-    if xml is None:return '<p class="muted">[Paragraph removed in upstream; explanation folded into the preceding paragraph. Its existing link anchor will be retained if applied.]</p>'
+    if xml is None:return '<p class="muted">[Paragraph removed in upstream; explanation folded into the preceding paragraph. Its existing link anchor is retained in the maintained source.]</p>'
     def render(e):
         if e.tag==M+'math':return native_math(e)[0]
         if e.tag==C+'link':return '<a href="'+live('m42531',sections['m42531']['slug'],e.get('target-id'))+'">Figure 13.3.2</a>'
@@ -90,8 +93,9 @@ def review_markup(xml):
         if e.tag==C+'emphasis':return '<em>'+body+'</em>'
         return body
     return render(ET.fromstring(xml))
-page+='<div class="columns"><div class="box"><h3>Current 1.0 wording</h3>'+''.join(review_markup(x['before_xml']) for x in item['changes'])+'</div><div class="box"><h3>Proposed 1.1: verbatim upstream wording</h3>'+''.join(review_markup(x['after_xml']) for x in item['changes'])+'</div></div>'
-page+='<p class="notice"><b>Upstream wording retained verbatim:</b> this includes the apparent typo “and arrive” and the doubled period after “Simultaneity is not absolute.” No additional cleanup is included in this proposal.</p><p>The existing figure artwork, caption, and image description are unchanged. No textbook changes have been applied.</p></section>'
+page+='<div class="columns"><div class="box"><h3>Current 1.0 wording</h3>'+''.join(review_markup(x['before_xml']) for x in item['changes'])+'</div><div class="box"><h3>Applied for 1.1: upstream plus two typo fixes</h3>'+''.join(review_markup(x['after_xml']) for x in item['changes'])+'</div></div>'
+page+='<p class="notice"><b>Applied:</b> removed “and” from “and arrive” and the extra period after “Simultaneity is not absolute.” All other upstream wording is retained; broader prose revision is deferred.</p><p>The existing figure artwork, caption, and image description are unchanged. <a href="../../course-full/sections/simultaneity-and-time-dilation/index.html">Read the updated development section</a>.</p></section>'
+
 item=proposal['items'][1];page+='<section id="SR02"><h2>SR02 — Earth is not a star</h2><p>In the Alpha Centauri example’s strategy paragraph, change <q>'+esc(item['before'])+'</q> to <q>'+esc(item['after'])+'</q>. This is the upstream’s small wording correction; values, equations and reasoning stay the same.</p><p><a href="'+live(item['module'],sections[item['module']]['slug'],item['source_id'])+'">Read this sentence in context</a></p></section>'
 page+='''<section id="followup"><h2>Further review and differences to preserve</h2><ul>
 <li><b>Special relativity and acceleration:</b> both sources contain the overstatement that special relativity applies only to unaccelerated motion. The twin-paradox explanation also suggests general relativity is needed. This is a separate conceptual issue, not a correction supplied by the pinned upstream. Flag for author-led wording review; no replacement is proposed or applied here. Background verification: <a href="https://www.einstein-online.info/en/spotlight/twinsroad/">Einstein Online’s special-relativistic explanation</a> (reference link only; no wording or artwork imported).</li>
@@ -111,7 +115,7 @@ for row in rows:
     for x in row['math']['token_differences']:
         page+='<h3>'+esc(x['key'])+'</h3><div class="columns"><div class="box math">'+x['local']+'</div><div class="box math">'+x['upstream']+'</div></div>'
     page+='</details><details><summary>IDs, links and media audit</summary><pre>'+esc(json.dumps({k:row[k] for k in ('local_only_ids','upstream_only_ids','images','link_changes')},ensure_ascii=False,indent=2))+'</pre></details></section>'
-page+='<footer><p>Comparison excerpts: OpenStax College Physics 2e, Rice University, CC BY 4.0, pinned commit <a href="'+ref['repository']+'/tree/'+ref['commit']+'">'+ref['commit']+'</a>. Current textbook: Introduction to Physics, CC BY 4.0; original credits retained in the published text. SR01 uses verbatim wording from the pinned upstream; SR02 is also an upstream correction. No additional prose rewrite is proposed.</p><p><a href="comparison.json">Machine-readable comparison</a></p></footer></html>'
+page+='<footer><p>Comparison excerpts: OpenStax College Physics 2e, Rice University, CC BY 4.0, pinned commit <a href="'+ref['repository']+'/tree/'+ref['commit']+'">'+ref['commit']+'</a>. Current textbook: Introduction to Physics, CC BY 4.0; original credits retained in the published text. SR01 uses wording from the pinned upstream with two approved typo fixes; SR02 is also an upstream correction. No additional prose rewrite is proposed.</p><p><a href="comparison.json">Machine-readable comparison</a></p></footer></html>'
 (OUT/'index.html').write_text(page,encoding='utf-8',newline='\n')
 shutil.copyfile(ROOT/'maintained/media/Figure_29_02_02a.jpg',OUT/'train-flashes.jpg')
 preview=ROOT/'prototype/dist/review-1.1/special-relativity';shutil.copytree(OUT,preview,dirs_exist_ok=True)
