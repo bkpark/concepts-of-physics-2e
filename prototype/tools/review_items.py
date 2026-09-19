@@ -38,11 +38,15 @@ for kind,findings in [('M',maths),('X',refs)]:
   if kind=='M':
    page,location,explanation=evidence[number-1]
    body+='<p>'+esc(explanation)+'</p><h3>Current build context</h3><div class="context">'+html+'</div>'
-   if code=='M01' and (ROOT/'proposals/author-corrections/M01.json').exists():
-    proposal=json.loads((ROOT/'proposals/author-corrections/M01.json').read_text(encoding='utf-8'))
-    assert hashlib.sha256((ROOT/proposal['source_path']).read_bytes()).hexdigest()==proposal['source_sha256']
-    math,_=b['native_math'](b['ET'].fromstring(proposal['after']))
-    body+='<div id="M01-proposal"><h3>Proposed rendering from your AsciiMath</h3><p>Preview only — not yet applied. The word “where” is included literally; the fraction is stacked.</p><div class="context" style="font-size:1.4em">'+math+'</div></div>'
+   proposal_path=ROOT/'proposals/author-corrections'/f'{code}.json'
+   if proposal_path.exists():
+    proposal=json.loads(proposal_path.read_text(encoding='utf-8'))
+    if proposal['status']=='deferred-by-author':
+     body+='<p class="status"><strong>Deferred by author.</strong> Source unchanged. Only this expression has a review placeholder; it does not prevent the surrounding content from rendering.</p>'
+    else:
+     assert hashlib.sha256((ROOT/proposal['source_path']).read_bytes()).hexdigest()==proposal['source_sha256']
+     math,_=b['native_math'](b['ET'].fromstring(proposal['after']))
+     body+='<div id="'+code+'-proposal"><h3>Proposed rendering from your AsciiMath</h3><p>'+esc(proposal['preview_note'])+'</p><div class="context proposal-math">'+math+'</div></div>'
    body+=f'<details><summary>View original CNX PDF: {esc(location)} (PDF page {page})</summary><p>This is the unchanged archived rendering, not a proposed correction.</p><a href="../review-assets/math-{number}.png"><img src="../review-assets/math-{number}.png" alt="Archived CNX PDF page {page}; {esc(location)}"></a></details>'
   else:
    destination=item['document']+('#'+item['target'] if item.get('target') else '')
@@ -50,9 +54,9 @@ for kind,findings in [('M',maths),('X',refs)]:
   xml=b['ET'].tostring(e,encoding='unicode')
   body+='<details><summary>Technical source details</summary><p>'+esc(mid+' / '+str(source.get('id')))+'</p><pre>'+esc(xml)+'</pre></details></section>'
   items.append({'id':code,'kind':kind,'module':mid,'source_id':source.get('id'),'exercise_context':exercise is not None,'source_url':source_url,'body':body})
-header='<h1>Expressions and cross-references for review</h1><p>Three expressions and 25 unresolved reference occurrences. Some references repeat the same destination; each occurrence is shown separately. No new repairs are applied here.</p><p><strong>Exercise cleanup is deferred.</strong> Exercise-related findings are labeled for context, not presented as requests for a broader revision. The initial publication target remains recovered CNX content with course numbering.</p><p>Reply using item IDs such as M01 or X07. There is no need to inspect the XML unless useful.</p>'
+header='<h1>Expressions and cross-references for review</h1><p>Three expressions and 25 unresolved reference occurrences. Some references repeat the same destination; each occurrence is shown separately. M01 and M02 have proposed corrections below; M03 is deferred. No new repairs are applied here.</p><p><strong>Exercise cleanup is deferred.</strong> Exercise-related findings are labeled for context, not presented as requests for a broader revision. The initial publication target remains recovered CNX content with course numbering.</p><p>Reply using item IDs such as M01 or X07. There is no need to inspect the XML unless useful.</p>'
 for prefix,title in [('M','Expressions'),('X','References')]:header+='<p>'+title+': '+ ' · '.join('<a href="#'+i['id']+'">'+i['id']+'</a>' for i in items if i['kind']==prefix)+'</p>'
-style='<style>.review-card{border-top:3px solid #38636d;margin-top:3rem;padding-top:1rem;scroll-margin-top:1rem}.context{padding:1rem;background:#f3f6f7}.status{font-family:sans-serif;color:#52666d}summary{cursor:pointer;font-weight:bold;padding:1rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}img{max-width:100%;height:auto}code{overflow-wrap:anywhere}</style>'
+style='<style>.review-card{border-top:3px solid #38636d;margin-top:3rem;padding-top:1rem;scroll-margin-top:1rem}.context{padding:1rem;background:#f3f6f7}.proposal-math{font-size:1.2em;overflow-x:auto}.status{font-family:sans-serif;color:#52666d}summary{cursor:pointer;font-weight:bold;padding:1rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}img{max-width:100%;height:auto}code{overflow-wrap:anywhere}</style>'
 page=b['page']('Introduction to Physics: review items',header+''.join(i['body'] for i in items),'../').replace('</head>',style+'</head>')
 (target/'index.html').write_text(page,encoding='utf-8',newline='\n')
 manifest=[{k:v for k,v in i.items() if k!='body'} for i in items]
