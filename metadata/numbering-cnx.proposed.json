@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "profile": "cnx-recovered",
-  "status": "hierarchy-only; historical display labels not yet verified",
+  "status": "Six sample section labels checked against historical PDF; remaining labels and object counter rules unverified",
   "collection": "collections/introduction-to-physics.collection.xml",
   "ordered_sections": [
     {
@@ -76,7 +76,12 @@
         "Unit 1: Mechanics I - Motion and Forces",
         "Kinematics"
       ],
-      "display_label": null
+      "display_label": "2.5",
+      "evidence": {
+        "reference": "historical_pdf_reference",
+        "pdf_page": 41,
+        "status": "sample body heading checked"
+      }
     },
     {
       "section_id": "cnx:m68876",
@@ -132,7 +137,12 @@
         "Unit 1: Mechanics I - Motion and Forces",
         "Dynamics"
       ],
-      "display_label": null
+      "display_label": "3.3",
+      "evidence": {
+        "reference": "historical_pdf_reference",
+        "pdf_page": 70,
+        "status": "sample body heading checked"
+      }
     },
     {
       "section_id": "cnx:m68330",
@@ -172,7 +182,12 @@
         "Unit 1: Mechanics I - Motion and Forces",
         "Dynamics"
       ],
-      "display_label": null
+      "display_label": "3.8",
+      "evidence": {
+        "reference": "historical_pdf_reference",
+        "pdf_page": 91,
+        "status": "sample body heading checked"
+      }
     },
     {
       "section_id": "cnx:m67036",
@@ -492,7 +507,12 @@
         "Unit 3: Classical Physics - Thermodynamics, Electricity and Magnetism, and Light",
         "Thermal Physics"
       ],
-      "display_label": null
+      "display_label": "9.2",
+      "evidence": {
+        "reference": "historical_pdf_reference",
+        "pdf_page": 236,
+        "status": "sample body heading checked"
+      }
     },
     {
       "section_id": "cnx:m52368",
@@ -916,7 +936,12 @@
         "Unit 4: Modern Physics - Quantum Mechanics, Special Relativity, and Nuclear and Particle Physics",
         "Quantum Mechanics"
       ],
-      "display_label": null
+      "display_label": "13.6",
+      "evidence": {
+        "reference": "historical_pdf_reference",
+        "pdf_page": 472,
+        "status": "sample body heading checked"
+      }
     },
     {
       "section_id": "cnx:m67808",
@@ -1112,7 +1137,12 @@
     {
       "section_id": "cnx:m42709",
       "groups": [],
-      "display_label": null
+      "display_label": "D",
+      "evidence": {
+        "reference": "historical_pdf_reference",
+        "pdf_page": 635,
+        "status": "sample body heading checked"
+      }
     }
   ],
   "object_numbering": {

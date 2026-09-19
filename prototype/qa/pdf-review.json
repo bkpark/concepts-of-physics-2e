@@ -1,0 +1,26 @@
+{
+  "scope": "contact-sheet review of every page in both samples, with selected enlarged pages; not exhaustive equation verification",
+  "profiles": {
+    "cnx": {
+      "pages": 76,
+      "sha256": "709c324d53999004a0628ea820d378446a05ca38d5cd201d7d9e66a0dc5e35d1",
+      "contact_sheets_reviewed": 7
+    },
+    "course": {
+      "pages": 76,
+      "sha256": "e9628a388d58c6ff1b9f8a5135790a4eb48d785b1ffa910233e57439f2d77944",
+      "contact_sheets_reviewed": 7
+    }
+  },
+  "enlarged_checks": [
+    "cnx page 19: wagon/vector caption",
+    "cnx page 55: equation review marker and energy diagram",
+    "course page 43: ideal gas equations and worked example"
+  ],
+  "known_limitations": [
+    "3 unresolved expressions per profile",
+    "provisional object numbering",
+    "pagination is a reflow; sparse section ends remain",
+    "accessibility and full mathematical fidelity not certified"
+  ]
+}

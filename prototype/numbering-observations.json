@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "sample evidence; not a complete numbering specification",
+  "section_labels": [
+    {"module": "m67034", "cnx": "2.5", "cnx_pdf_page": 41, "course": "1.6", "course_pdf_page": 51},
+    {"module": "m67530", "cnx": "3.3", "cnx_pdf_page": 70, "course": "2.4", "course_pdf_page": 80},
+    {"module": "m71410", "cnx": "3.8", "cnx_pdf_page": 91, "course": "2.9", "course_pdf_page": 105},
+    {"module": "m67122", "cnx": "9.2", "cnx_pdf_page": 236, "course": "8.3", "course_pdf_page": 273},
+    {"module": "m67807", "cnx": "13.6", "cnx_pdf_page": 472, "course": "12.7", "course_pdf_page": 547},
+    {"module": "m42709", "cnx": "D", "cnx_pdf_page": 635, "course": "18", "course_pdf_page": 722}
+  ],
+  "object_observations": [
+    {"module": "m67034", "object": "opening kayak figure", "cnx": "Figure 2.23", "course": "Figure 1.6.1", "cnx_pdf_page": 41, "course_pdf_page": 51},
+    {"module": "m67034", "object": "jogger worked example", "cnx": "Example 2.8", "course": "Example 1.6.1", "cnx_pdf_page": 42, "course_pdf_page": 52},
+    {"module": "m67034", "object": "jogger figure", "cnx": "Figure 2.24", "course": "Figure 1.6.2", "cnx_pdf_page": 42, "course_pdf_page": 52},
+    {"module": "m67034", "object": "first displayed equation", "cnx": "(2.23)", "course": null, "cnx_pdf_page": 42, "course_pdf_page": 51, "note": "No visible equation label on inspected course page; null is not a claim about every equation."},
+    {"module": "m67530", "object": "wagon figure", "cnx": "Figure 3.4", "cnx_pdf_page": 71},
+    {"module": "m67122", "object": "opening balloon figure", "cnx": "Figure 9.10", "cnx_pdf_page": 236},
+    {"module": "m67122", "object": "ideal gas law equation", "cnx": "(9.1)", "cnx_pdf_page": 237},
+    {"module": "m67807", "object": "Bohr model table", "cnx": "Table 13.1", "cnx_pdf_page": 475}
+  ],
+  "findings": [
+    "CNX sample figures/examples use chapter-based counters; course samples use section-based counters.",
+    "The simple full-source counter experiment misnumbers the opening kinematics figure as 2.24 rather than 2.23, and its first equation as 2.27 rather than 2.23.",
+    "The simple full-source counter gives the ideal gas equation 9.5 rather than historical 9.1. Exact reset/exclusion rules need further evidence.",
+    "Course exercise pages are separate chapter views; this prototype deliberately leaves each canonical exercise in its source module. Exercise numbering is not validated.",
+    "PDF text extraction loses some visible course figure/example labels. Visual inspection is necessary."
+  ]
+}
