@@ -1,20 +1,27 @@
 # Introduction to Physics
 
-Latest milestone: see `docs/course-full-build.md` (repository root) for the full course-first HTML build and remaining publication blockers.
+[Read the textbook](https://intro.coaphys.xyz/) · [Download cp2e-ver1.0 PDF](https://intro.coaphys.xyz/cp2e-ver1.0.pdf) · [Full contents](https://intro.coaphys.xyz/contents/)
 
-Recovery and publishing project. Intended maintained GitHub repository name:
-`concepts-of-physics-2e`. The book title remains **Introduction to Physics**.
+Maintained publishing source for **Introduction to Physics**, recovered from CNX
+collection **col25183**, legacy identifier **WPust2k9@12.1**. The repository name
+`concepts-of-physics-2e` is not the textbook title.
+
+This repository is a fork of
+[cnx-user-books/cnxbook-concepts-of-physics](https://github.com/cnx-user-books/cnxbook-concepts-of-physics).
+The recovered Introduction to Physics source is preserved alongside the maintained
+source, with original module identifiers and provenance retained for comparison.
+
+The complete PDF and static website are generated from `maintained/`. The published
+`cp2e-ver1.0` uses **Lecture-aligned numbering (July 2026)**, matching the recorded
+lectures for Physics 10 at College of Alameda. Stable section URLs and object IDs
+are independent of displayed numbering. Exercise revision is deferred; known
+numbering limitations are documented in the release assessment.
 
 Start with [the maintained-source guide](maintained/README.md) and
-[current build status](docs/maintained-source-status.md). The original
-[recovery assessment](docs/recovery-assessment.md) remains the historical inventory.
-
-This is phase one, not a completed publishing system. The 959 recovered files are
-unchanged from the earliest available Introduction to Physics import. Metadata files
-ending in `.proposed.json` are reviewable drafts, not deployed URLs or verified
-numbering rules. The separate `maintained/` layer now includes the four approved
-repairs and is the editable source used by the six-section build. No remote
-repository has been created or modified.
+[release/build instructions](docs/release-candidate-cp2e-ver1.0.md).
+The [recovery assessment](docs/recovery-assessment.md) records the original inventory.
+Earlier milestone documents describe the project at their respective stages;
+release metadata finalization remains a separate bookkeeping step.
 
 ## Preservation
 
@@ -25,10 +32,10 @@ repository has been created or modified.
   above this project. The sibling `recovered.git` mirror preserves original remote refs.
 - The original remote is named `recovered`; its local push URL is disabled.
 
-The default historical `main` branch contains a different book. Work here is on
-`recovery-assessment`, based on the correct import. Do not use the historical `main`
-as the maintained book's starting point. A future maintained `main` must be created
-deliberately from this work, preserving the historical refs.
+The inherited historical `main` branch contains a different book. The `maintained`
+branch contains this publishing project, developed locally on `recovery-assessment`
+from the correct import. Do not use historical `main` as this book's starting point.
+The historical branches and preservation tags are retained without rewriting them.
 
 The user has now supplied the historical **12.1 PDF**, preserved unchanged alongside
 the repository. It prints collection `col25183/1.12` and a generation date of
@@ -69,5 +76,4 @@ figure credits. Its preface identifies Andrew Park's adaptation, Bobby Bailey's 
 adaptation, James Rittenbach's momentum contribution, and OpenStax College Physics.
 The later branch's single `authors` attribute is incomplete evidence of authorship.
 The upstream reference collection has its own CC BY-NC-SA 4.0 declaration; it is a
-comparison reference, not incorporated textbook content. See the assessment for the
-attribution and licensing work still required before publication.
+comparison reference, not incorporated textbook content. See the recovery assessment and release notes for attribution evidence and limits.
