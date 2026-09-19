@@ -161,7 +161,7 @@ for row in rows:
             page+='<div class="box"><h3>'+label+'</h3>'+body+'</div>'
         page+='</div></article>'
         if ch['kind']=='math-markup-change': page+='</details>'
-    (OUT/(mid+'.html')).write_text(page+'</html>',encoding='utf-8',newline='\n')
+    (OUT/(mid+'.html')).write_text('\n'.join(line.rstrip() for line in (page+'</html>').splitlines())+'\n',encoding='utf-8',newline='\n')
 (OUT/'index.html').write_text(index+'</table><p><a href="summary.json">Summary and coverage limits</a></p></html>',encoding='utf-8',newline='\n')
 batch=load('proposals/1.1/upstream-batch-01.json')
 page=head('Applied upstream corrections: batch 1')+'<p><a href="index.html">Whole-book review index</a></p>'+source+'<p>Applied for 1.1 under the author’s instruction to backport applicable CC BY upstream corrections. Only the listed wording changes were made; local MathML, media, links, IDs, and numbering are preserved.</p>'
