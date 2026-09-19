@@ -1,0 +1,13 @@
+{
+  "id": "M01",
+  "status": "preview-awaiting-author-confirmation",
+  "module": "m67804",
+  "source_object": "eip-691",
+  "source_path": "maintained/modules/m67804/index.cnxml",
+  "source_sha256": "b0e26506ad569ebdecb198bbc16a2f09d0dfcf7348de0c5517ec31f5086e4670",
+  "author_input": "Delta p approx p, where p = h//lambda",
+  "interpretation": "Two relations joined by literal prose: Delta p approximately equals p, where p equals h divided by lambda. Stacked fraction; retain terminal period and existing equation ID/number.",
+  "before": "<m:math><m:apply><m:mo stretchy=\"false\">≈</m:mo><m:mrow><m:ci>Δ</m:ci><m:ci>p</m:ci></m:mrow><m:apply><m:eq/><m:ci>p</m:ci><m:apply><m:divide/><m:ci>h</m:ci><m:ci>λ</m:ci></m:apply></m:apply></m:apply><m:mo>.</m:mo></m:math>",
+  "after": "<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi mathvariant=\"normal\">Δ</m:mi><m:mi>p</m:mi><m:mo>≈</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mspace width=\"0.3em\"/><m:mtext>where</m:mtext><m:mspace width=\"0.3em\"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>",
+  "policy": "Not applied. Historical source remains immutable; this proposal targets only the maintained source after confirmation."
+}

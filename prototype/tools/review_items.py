@@ -38,6 +38,11 @@ for kind,findings in [('M',maths),('X',refs)]:
   if kind=='M':
    page,location,explanation=evidence[number-1]
    body+='<p>'+esc(explanation)+'</p><h3>Current build context</h3><div class="context">'+html+'</div>'
+   if code=='M01' and (ROOT/'proposals/author-corrections/M01.json').exists():
+    proposal=json.loads((ROOT/'proposals/author-corrections/M01.json').read_text(encoding='utf-8'))
+    assert hashlib.sha256((ROOT/proposal['source_path']).read_bytes()).hexdigest()==proposal['source_sha256']
+    math,_=b['native_math'](b['ET'].fromstring(proposal['after']))
+    body+='<div id="M01-proposal"><h3>Proposed rendering from your AsciiMath</h3><p>Preview only — not yet applied. The word “where” is included literally; the fraction is stacked.</p><div class="context" style="font-size:1.4em">'+math+'</div></div>'
    body+=f'<details><summary>View original CNX PDF: {esc(location)} (PDF page {page})</summary><p>This is the unchanged archived rendering, not a proposed correction.</p><a href="../review-assets/math-{number}.png"><img src="../review-assets/math-{number}.png" alt="Archived CNX PDF page {page}; {esc(location)}"></a></details>'
   else:
    destination=item['document']+('#'+item['target'] if item.get('target') else '')
