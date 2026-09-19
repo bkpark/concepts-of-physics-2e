@@ -1,6 +1,6 @@
 # cp2e-ver1.1 planning
 
-Status: SR01 applied to maintained 1.1 source with two author-approved typo fixes. SR02 awaits review. Published 1.0 remains unchanged.
+Status: SR01 applied to maintained 1.1 source with two author-approved typo fixes. SR02’s upstream stars-to-bodies wording is also applied; the example title is unchanged. Published 1.0 remains unchanged.
 
 1. Review Special Relativity against the pinned CC BY snapshot, then systematically review all remaining chapters. Produce reports before edits.
 2. Revise chapter-end exercises for conceptual Physics 10, using author-supplied MyOpenMath exports as references after checking provenance.

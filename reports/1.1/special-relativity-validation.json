@@ -3,7 +3,7 @@
     "SR01",
     "SR02"
   ],
-  "status": "SR01 applied for 1.1 with two approved typo fixes; SR02 awaiting review",
+  "status": "SR01 and SR02 applied for 1.1",
   "proposal_xml_parses": true,
   "published_pdf_and_zip_unchanged": true,
   "browser_widths_checked": [
@@ -17,7 +17,12 @@
   "SR01_scope": "Two upstream paragraph replacements plus two approved typo fixes; one paragraph removed with its anchor preserved. Other prose, captions and image descriptions unchanged.",
   "SR01_replacements_match_upstream_except_two_approved_typos": true,
   "SR01_all_existing_IDs_preserved": true,
-  "only_changed_content_file_since_1_0": "maintained/modules/m42531/index.cnxml",
   "maintained_ledger_verified_content_files": 955,
-  "immutable_baseline_verified_files": 959
+  "immutable_baseline_verified_files": 959,
+  "changed_content_files_since_1_0": [
+    "maintained/modules/m42531/index.cnxml",
+    "maintained/modules/m42535/index.cnxml"
+  ],
+  "SR02_matches_checksummed_CC_BY_upstream_phrase": true,
+  "SR02_only_change_is_stars_to_bodies": true
 }
