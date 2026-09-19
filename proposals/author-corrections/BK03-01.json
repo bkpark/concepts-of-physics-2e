@@ -1,0 +1,24 @@
+{
+  "id": "BK03-01",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52322",
+  "source_object": "import-auto-id2054696",
+  "source_path": "maintained/modules/m52322/index.cnxml",
+  "source_sha256": "1525c72877708cb7931c1d33b6b715a238e4c252901724f47d8e2fd08b0cf760",
+  "after_sha256": "bd261ef9c0c3b07b219cdd96e430ce5ac2dac1e095f61d39b65c1f8922a1f334",
+  "upstream_module": "m42129",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "1eb5956c3fc5714f83fb60b00103b230265054605073ecc43a1027a908d0ba6b",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Correct Newton’s name in the figure caption too; the earlier batch corrected the body paragraph.",
+  "before": "<figure id=\"import-auto-id2054696\"><media id=\"import-auto-id2638663\" alt=\"Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.\">\n                <image mime-type=\"image/jpg\" src=\"../../media/Figure_04_00_02.jpg\" height=\"250\"/>\n            </media>\n            \n <caption>Issac Newton’s monumental work, <emphasis effect=\"italics\">Philosophiae Naturalis Principia Mathematica</emphasis>, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Université de Strasbourg)</caption></figure>",
+  "after": "<figure id=\"import-auto-id2054696\"><media id=\"import-auto-id2638663\" alt=\"Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.\">\n                <image mime-type=\"image/jpg\" src=\"../../media/Figure_04_00_02.jpg\" height=\"250\"/>\n            </media>\n            \n <caption>Isaac Newton’s monumental work, <emphasis effect=\"italics\">Philosophiae Naturalis Principia Mathematica</emphasis>, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Université de Strasbourg)</caption></figure>",
+  "substitutions": [
+    [
+      "Issac Newton",
+      "Isaac Newton"
+    ]
+  ]
+}

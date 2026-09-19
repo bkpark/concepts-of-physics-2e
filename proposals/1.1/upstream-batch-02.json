@@ -1,0 +1,132 @@
+{
+  "status": "applied under standing author authorization",
+  "target_release": "cp2e-ver1.1",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "scope": "Ten opening-chapter corrections, including one atomic-size exponent and one checked graph-label replacement; no broader prose revision.",
+  "changes": [
+    {
+      "id": "BK02-01",
+      "record": "proposals/author-corrections/BK02-01.json",
+      "reason": "Remove duplicated word in existing cell-membrane caption; preserve image and credit.",
+      "substitutions": [
+        [
+          "of the the structure",
+          "of the structure"
+        ]
+      ],
+      "local_module": "m52310"
+    },
+    {
+      "id": "BK02-02",
+      "record": "proposals/author-corrections/BK02-02.json",
+      "reason": "Restore missing space after second.",
+      "substitutions": [
+        [
+          "second</term>(abbreviated",
+          "second</term> (abbreviated"
+        ]
+      ],
+      "local_module": "m67032"
+    },
+    {
+      "id": "BK02-03",
+      "record": "proposals/author-corrections/BK02-03.json",
+      "reason": "Use upstream qualification; four quantities do not cover all seven SI base quantities.",
+      "substitutions": [
+        [
+          "all physical quantities can be expressed",
+          "most physical quantities can be expressed"
+        ]
+      ],
+      "local_module": "m67032"
+    },
+    {
+      "id": "BK02-04",
+      "record": "proposals/author-corrections/BK02-04.json",
+      "reason": "Backport atomic-size estimate 10^-9 m to 10^-10 m, preserving the locally expanded order-of-magnitude explanation.",
+      "substitutions": [
+        [
+          "atomic diameter: 10^-9 m",
+          "atomic diameter: 10^-10 m"
+        ]
+      ],
+      "local_module": "m67032"
+    },
+    {
+      "id": "BK02-05",
+      "record": "proposals/author-corrections/BK02-05.json",
+      "reason": "Correct alt text to match existing graph: 12 km/h for 0.25 h reaches 3 km. Existing artwork visually verified.",
+      "substitutions": [
+        [
+          "6 kilometers",
+          "3 kilometers"
+        ]
+      ],
+      "local_module": "m71407"
+    },
+    {
+      "id": "BK02-06",
+      "record": "proposals/author-corrections/BK02-06.json",
+      "reason": "Correct the odometer question: it measures accumulated distance, not position.",
+      "substitutions": [
+        [
+          "measure position or displacement",
+          "measure distance traveled or displacement"
+        ]
+      ],
+      "local_module": "m71407"
+    },
+    {
+      "id": "BK02-07",
+      "record": "proposals/author-corrections/BK02-07.json",
+      "reason": "Speeding up depends on acceleration relative to velocity, not the velocity change; retain other author wording.",
+      "substitutions": [
+        [
+          "same sign as the change in velocity",
+          "same sign as the velocity"
+        ],
+        [
+          "opposite sign of the change in velocity",
+          "opposite sign as the velocity"
+        ]
+      ],
+      "local_module": "m67033"
+    },
+    {
+      "id": "BK02-08",
+      "record": "proposals/author-corrections/BK02-08.json",
+      "reason": "Rock reaches its apex at 13.0/9.80 = 1.3265... s; retain all problem data and equations.",
+      "substitutions": [
+        [
+          "at 1.5 s",
+          "at 1.33 s"
+        ]
+      ],
+      "local_module": "m68876"
+    },
+    {
+      "id": "BK02-09",
+      "record": "proposals/author-corrections/BK02-09.json",
+      "reason": "Correct astronaut name without restoring removed advanced projectile discussion.",
+      "substitutions": [
+        [
+          "Alan Shepherd",
+          "Alan Shepard"
+        ]
+      ],
+      "local_module": "m67038"
+    },
+    {
+      "id": "BK02-10",
+      "record": "proposals/author-corrections/BK02-10.json",
+      "reason": "Use corrected upstream graph labels: displacement Delta x and average velocity v-bar. Curve and physical relationship unchanged. Existing local filename and figure/media IDs retained.",
+      "substitutions": [
+        [
+          "Displacement x; average velocity v",
+          "Displacement Delta x; average velocity v-bar"
+        ]
+      ],
+      "local_module": "m67034"
+    }
+  ]
+}

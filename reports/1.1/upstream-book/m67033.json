@@ -2,30 +2,46 @@
   "module": "m67033",
   "title": "Acceleration",
   "slug": "acceleration",
-  "local_sha256": "15f7440c9ec8330085cb7ed9546cf10fc4f8bf9bfbf0de6d73cc9212a121e5dc",
+  "local_sha256": "ae2be618e70228622ca5035741f9a387f4ac0fe184db85f06602f684afd0e223",
   "upstream_modules": [
     "m42100"
   ],
   "counts": {
-    "prose": 11,
+    "prose": 13,
     "references": 4,
     "math-markup-change": 78,
     "math-token-change": 4
   },
   "changes": [
     {
+      "id": "UP-8007b40db74c3a43",
+      "kind": "prose",
+      "local_module": "m67033",
+      "upstream_module": "m42100",
+      "source_id": "import-auto-id1515319@caption",
+      "status": "retained-adaptation-or-deferred-editorial-change",
+      "local": "A subway train in Sao Paulo, Brazil, slows down as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)",
+      "upstream": "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)",
+      "local_html": "A subway train in Sao Paulo, Brazil, slows down as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)",
+      "upstream_html": "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)",
+      "exercise_context": false,
+      "credit_review_required": true,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
+    },
+    {
       "id": "UP-0139120c0d2bba62",
       "kind": "prose",
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2297808",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "4. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI units of meters and seconds.",
       "upstream": "4. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI units of meters and seconds. (See Physical Quantities and Units for more guidance.)",
       "local_html": "4. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI units of meters and seconds. ",
       "upstream_html": "4. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI units of meters and seconds. (See Physical Quantities and Units for more guidance.)",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-e53efecfe12b7b9c",
@@ -33,7 +49,7 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2297808",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -41,7 +57,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-5b43739644fbf697",
@@ -49,13 +66,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2297923",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The graphs of position, velocity, and acceleration vs. time for the trains in and are displayed in . (We have taken the velocity to remain constant from 20 to 40 s, after which the train slows down.)",
       "upstream": "The graphs of position, velocity, and acceleration vs. time for the trains in and are displayed in . (We have taken the velocity to remain constant from 20 to 40 s, after which the train decelerates.)",
       "local_html": "The graphs of position, velocity, and acceleration vs. time for the trains in <span class=\"muted\">[reference]</span> and <span class=\"muted\">[reference]</span> are displayed in <span class=\"muted\">[reference]</span>. (We have taken the velocity to remain constant from 20 to 40 s, after which the train slows down.)",
       "upstream_html": "The graphs of position, velocity, and acceleration vs. time for the trains in <span class=\"muted\">[reference]</span> and <span class=\"muted\">[reference]</span> are displayed in <span class=\"muted\">[reference]</span>. (We have taken the velocity to remain constant from 20 to 40 s, after which the train decelerates.)",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-50f56cb79d47ea23",
@@ -63,13 +81,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303193",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Instantaneous acceleration [MATH] , or the acceleration at a specific instant in time, is obtained by the same process as discussed for instantaneous velocity—that is, by considering an infinitesimally small interval of time. How do we find instantaneous acceleration using only algebra? The answer is that we choose an average acceleration that is representative of the motion. shows graphs of instantaneous acceleration versus time for two very different motions. In (a), the acceleration varies slightly and the average over the entire interval is nearly the same as the instantaneous acceleration at any time. In this case, we should treat this motion as if it had a constant acceleration equal to the average (in this case about [MATH] ). In (b), the acceleration varies drastically over time. In such situations it is best to consider smaller time intervals and choose an average acceleration for each. For example, we could consider motion over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with accelerations of [MATH] and [MATH] , respectively.",
       "upstream": "Instantaneous acceleration [MATH] , or the acceleration at a specific instant in time, is obtained by the same process as discussed for instantaneous velocity in Time, Velocity, and Speed—that is, by considering an infinitesimally small interval of time. How do we find instantaneous acceleration using only algebra? The answer is that we choose an average acceleration that is representative of the motion. shows graphs of instantaneous acceleration versus time for two very different motions. In (a), the acceleration varies slightly and the average over the entire interval is nearly the same as the instantaneous acceleration at any time. In this case, we should treat this motion as if it had a constant acceleration equal to the average (in this case about [MATH] ). In (b), the acceleration varies drastically over time. In such situations it is best to consider smaller time intervals and choose an average acceleration for each. For example, we could consider motion over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with accelerations of [MATH] and [MATH] , respectively.",
       "local_html": "Instantaneous acceleration <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>a</mi></mrow><mrow /></mrow></mrow></math>, or the <em>acceleration at a specific instant in time</em>, is obtained by the same process as discussed for instantaneous velocity—that is, by considering an infinitesimally small interval of time. How do we find instantaneous acceleration using only algebra? The answer is that we choose an average acceleration that is representative of the motion. <span class=\"muted\">[reference]</span> shows graphs of instantaneous acceleration versus time for two very different motions. In <span class=\"muted\">[reference]</span>(a), the acceleration varies slightly and the average over the entire interval is nearly the same as the instantaneous acceleration at any time. In this case, we should treat this motion as if it had a constant acceleration equal to the average (in this case about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mn>8 m</mn><mi /><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>). In <span class=\"muted\">[reference]</span>(b), the acceleration varies drastically over time. In such situations it is best to consider smaller time intervals and choose an average acceleration for each. For example, we could consider motion over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with accelerations of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">+</mo><mn>3</mn></mrow><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>–2</mtext><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math>, respectively.",
       "upstream_html": "Instantaneous acceleration <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>a</mi></mrow></mrow></math>, or the <em>acceleration at a specific instant in time</em>, is obtained by the same process as discussed for instantaneous velocity in Time, Velocity, and Speed—that is, by considering an infinitesimally small interval of time. How do we find instantaneous acceleration using only algebra? The answer is that we choose an average acceleration that is representative of the motion. <span class=\"muted\">[reference]</span> shows graphs of instantaneous acceleration versus time for two very different motions. In <span class=\"muted\">[reference]</span>(a), the acceleration varies slightly and the average over the entire interval is nearly the same as the instantaneous acceleration at any time. In this case, we should treat this motion as if it had a constant acceleration equal to the average (in this case about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mn>8 m</mn><mi /><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>). In <span class=\"muted\">[reference]</span>(b), the acceleration varies drastically over time. In such situations it is best to consider smaller time intervals and choose an average acceleration for each. For example, we could consider motion over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with accelerations of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">+</mo><mn>3</mn></mrow><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>–2</mtext><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>, respectively.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-3ae1abbd115c973f",
@@ -77,7 +96,7 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303193",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id2590846"
@@ -104,7 +123,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-b6db977b8a3cf5a9",
@@ -112,13 +132,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303628",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "In this case, the train is slowing down and its acceleration is negative because it is toward the left. As in the previous example, we must find the change in velocity and the change in time and then solve for acceleration.",
       "upstream": "In this case, the train is decelerating and its acceleration is negative because it is toward the left. As in the previous example, we must find the change in velocity and the change in time and then solve for acceleration.",
       "local_html": "In this case, the train is slowing down and its acceleration is negative because it is toward the left. As in the previous example, we must find the change in velocity and the change in time and then solve for acceleration.",
       "upstream_html": "In this case, the train is decelerating and its acceleration is negative because it is toward the left. As in the previous example, we must find the change in velocity and the change in time and then solve for acceleration.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-e249bc8914d319d7",
@@ -126,13 +147,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338703",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The plus sign means that acceleration is to the right. This is reasonable because the train initially has a negative velocity (to the left) in this problem and a positive acceleration opposes the motion (and so it is to the right).",
       "upstream": "The plus sign means that acceleration is to the right. This is reasonable because the train initially has a negative velocity (to the left) in this problem and a positive acceleration opposes the motion (and so it is to the right). Again, acceleration is in the same direction as the change in velocity, which is positive here. As in , this acceleration can be called a deceleration since it is in the direction opposite to the velocity.",
       "local_html": "The plus sign means that acceleration is to the right. This is reasonable because the train initially has a negative velocity (to the left) in this problem and a positive acceleration opposes the motion (and so it is to the right).",
       "upstream_html": "The plus sign means that acceleration is to the right. This is reasonable because the train initially has a negative velocity (to the left) in this problem and a positive acceleration opposes the motion (and so it is to the right). Again, acceleration is in the same direction as the <em>change</em> in velocity, which is positive here. As in <span class=\"muted\">[reference]</span>, this acceleration can be called a deceleration since it is in the direction opposite to the velocity.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-c2629ff6e3a257c9",
@@ -140,7 +162,7 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338703",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -148,7 +170,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-014026daf575f143",
@@ -156,13 +179,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338718",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "If we take east to be positive, then the airplane has negative acceleration, as it is accelerating toward the west. It is also slowing down: its acceleration is opposite in direction to its velocity.",
       "upstream": "If we take east to be positive, then the airplane has negative acceleration, as it is accelerating toward the west. It is also decelerating: its acceleration is opposite in direction to its velocity.",
       "local_html": "If we take east to be positive, then the airplane has negative acceleration, as it is accelerating toward the west. It is also slowing down: its acceleration is opposite in direction to its velocity.",
       "upstream_html": "If we take east to be positive, then the airplane has negative acceleration, as it is accelerating toward the west. It is also decelerating: its acceleration is opposite in direction to its velocity.",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-4045080d223330d1",
@@ -170,13 +194,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412185",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The minus sign indicates that acceleration is to the left. This sign is reasonable because the train initially has a positive velocity in this problem, and a negative acceleration would oppose the motion.",
       "upstream": "The minus sign indicates that acceleration is to the left. This sign is reasonable because the train initially has a positive velocity in this problem, and a negative acceleration would oppose the motion. Again, acceleration is in the same direction as the change in velocity, which is negative here. This acceleration can be called a deceleration because it has a direction opposite to the velocity.",
       "local_html": "The minus sign indicates that acceleration is to the left. This sign is reasonable because the train initially has a positive velocity in this problem, and a negative acceleration would oppose the motion.",
       "upstream_html": "The minus sign indicates that acceleration is to the left. This sign is reasonable because the train initially has a positive velocity in this problem, and a negative acceleration would oppose the motion. Again, acceleration is in the same direction as the <em>change</em> in velocity, which is negative here. This acceleration can be called a deceleration because it has a direction opposite to the velocity.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-2a257a586e0c22be",
@@ -184,13 +209,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412729",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "When an acceleration is in a direction opposite to that of the velocity of an object, the object slows down.",
       "upstream": "Deceleration is an acceleration with a direction opposite to that of the velocity.",
       "local_html": "When an acceleration is in a direction opposite to that of the velocity of an object, the object slows down.",
       "upstream_html": "Deceleration is an acceleration with a direction opposite to that of the velocity.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-bbe25733a8edb46c",
@@ -198,13 +224,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2562678",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "To answer this question, think about the definitions of distance and distance traveled, and how they are related to displacement. Distance between two positions is defined to be the magnitude of displacement, which was found in . Distance traveled is the total length of the path traveled between the two positions. In the case of the subway train shown in , the distance traveled is the same as the distance between the initial and final positions of the train.",
       "upstream": "To answer this question, think about the definitions of distance and distance traveled, and how they are related to displacement. Distance between two positions is defined to be the magnitude of displacement, which was found in . Distance traveled is the total length of the path traveled between the two positions. (See Displacement.) In the case of the subway train shown in , the distance traveled is the same as the distance between the initial and final positions of the train.",
       "local_html": "To answer this question, think about the definitions of distance and distance traveled, and how they are related to displacement. Distance between two positions is defined to be the magnitude of displacement, which was found in <span class=\"muted\">[reference]</span>. Distance traveled is the total length of the path traveled between the two positions. In the case of the subway train shown in <span class=\"muted\">[reference]</span>, the distance traveled is the same as the distance between the initial and final positions of the train.",
       "upstream_html": "To answer this question, think about the definitions of distance and distance traveled, and how they are related to displacement. Distance between two positions is defined to be the magnitude of displacement, which was found in <span class=\"muted\">[reference]</span>. Distance traveled is the total length of the path traveled between the two positions. (See Displacement.) In the case of the subway train shown in <span class=\"muted\">[reference]</span>, the distance traveled is the same as the distance between the initial and final positions of the train.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-353552f9e07a0952",
@@ -212,7 +239,7 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2562678",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "fs-id1744930"
@@ -233,21 +260,38 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
-      "id": "UP-49f270acbcdbcbc1",
+      "id": "UP-5be760b59ba0b904",
       "kind": "prose",
       "local_module": "m67033",
       "upstream_module": "m42100",
-      "source_id": "import-auto-id2585996",
-      "status": "unreviewed-difference",
-      "local": "Perhaps the most important thing to note about these examples is the signs of the answers. In our chosen coordinate system, plus means the quantity is to the right and minus means it is to the left. This is easy to imagine for displacement and velocity. But it is a little less obvious for acceleration. Most people interpret negative acceleration as the slowing of an object. This was not the case in , where a positive acceleration slowed a negative velocity. The crucial distinction was that the acceleration was in the opposite direction from the velocity. In fact, a negative acceleration will increase a negative velocity. For example, the train moving to the left in is sped up by an acceleration to the left. In that case, both [MATH] and [MATH] are negative. The plus and minus signs give the directions of the accelerations. If acceleration has the same sign as the change in velocity, the object is speeding up. If acceleration has the opposite sign of the change in velocity, the object is slowing down.",
-      "upstream": "Perhaps the most important thing to note about these examples is the signs of the answers. In our chosen coordinate system, plus means the quantity is to the right and minus means it is to the left. This is easy to imagine for displacement and velocity. But it is a little less obvious for acceleration. Most people interpret negative acceleration as the slowing of an object. This was not the case in , where a positive acceleration slowed a negative velocity. The crucial distinction was that the acceleration was in the opposite direction from the velocity. In fact, a negative acceleration will increase a negative velocity. For example, the train moving to the left in is sped up by an acceleration to the left. In that case, both [MATH] and [MATH] are negative. The plus and minus signs give the directions of the accelerations. If acceleration has the same sign as the velocity, the object is speeding up. If acceleration has the opposite sign as the velocity, the object is slowing down.",
-      "local_html": "Perhaps the most important thing to note about these examples is the signs of the answers. In our chosen coordinate system, plus means the quantity is to the right and minus means it is to the left. This is easy to imagine for displacement and velocity. But it is a little less obvious for acceleration. Most people interpret negative acceleration as the slowing of an object. This was not the case in <span class=\"muted\">[reference]</span>, where a positive acceleration slowed a negative velocity. The crucial distinction was that the acceleration was in the opposite direction from the velocity. In fact, a negative acceleration will <em>increase</em> a negative velocity. For example, the train moving to the left in <span class=\"muted\">[reference]</span> is sped up by an acceleration to the left. In that case, both <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>a</mi></mrow><mrow /></mrow></mrow></math> are negative. The plus and minus signs give the directions of the accelerations. If acceleration has the same sign as the change in velocity, the object is speeding up. If acceleration has the opposite sign of the change in velocity, the object is slowing down. ",
-      "upstream_html": "Perhaps the most important thing to note about these examples is the signs of the answers. In our chosen coordinate system, plus means the quantity is to the right and minus means it is to the left. This is easy to imagine for displacement and velocity. But it is a little less obvious for acceleration. Most people interpret negative acceleration as the slowing of an object. This was not the case in <span class=\"muted\">[reference]</span>, where a positive acceleration slowed a negative velocity. The crucial distinction was that the acceleration was in the opposite direction from the velocity. In fact, a negative acceleration will <em>increase</em> a negative velocity. For example, the train moving to the left in <span class=\"muted\">[reference]</span> is sped up by an acceleration to the left. In that case, both <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>a</mi></mrow></mrow></math> are negative. The plus and minus signs give the directions of the accelerations. If acceleration has the same sign as the velocity, the object is speeding up. If acceleration has the opposite sign as the velocity, the object is slowing down. ",
+      "source_id": "import-auto-id2596938@caption",
+      "status": "retained-adaptation-or-deferred-editorial-change",
+      "local": "(a) Position of the train over time. Notice that the train’s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate. (b) Velocity of the train over time. The train’s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train slows down at the end of the journey. (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.",
+      "upstream": "(a) Position of the train over time. Notice that the train’s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate. (b) Velocity of the train over time. The train’s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train decelerates at the end of the journey. (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.",
+      "local_html": "(a) Position of the train over time. Notice that the train’s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate. (b) Velocity of the train over time. The train’s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train slows down at the end of the journey. (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.",
+      "upstream_html": "(a) Position of the train over time. Notice that the train’s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate. (b) Velocity of the train over time. The train’s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train decelerates at the end of the journey. (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
+    },
+    {
+      "id": "UP-b50abe4dddfaf62c",
+      "kind": "prose",
+      "local_module": "m67033",
+      "upstream_module": "m42100",
+      "source_id": "import-auto-id3514068@caption",
+      "status": "retained-adaptation-or-deferred-editorial-change",
+      "local": "A plane slows down as it comes in for landing in St. Maarten. It is accelerating in a direction opposite to its velocity. (credit: Steve Conry, Flickr)",
+      "upstream": "A plane decelerates, or slows down, as it comes in for landing in St. Maarten. Its acceleration is opposite in direction to its velocity. (credit: Steve Conry, Flickr)",
+      "local_html": "A plane slows down as it comes in for landing in St. Maarten. It is accelerating in a direction opposite to its velocity. (credit: Steve Conry, Flickr)",
+      "upstream_html": "A plane decelerates, or slows down, as it comes in for landing in St. Maarten. Its acceleration is opposite in direction to its velocity. (credit: Steve Conry, Flickr)",
+      "exercise_context": false,
+      "credit_review_required": true,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-a3d202c915739bb0",
@@ -255,13 +299,14 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4075467",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Keep in mind that although acceleration is in the direction of the change in velocity, it is not always in the direction of motion. If acceleration is in a direction opposite to the direction of motion, the object slows down.",
       "upstream": "Keep in mind that although acceleration is in the direction of the change in velocity, it is not always in the direction of motion. When an object slows down, its acceleration is opposite to the direction of its motion. This is known as deceleration.",
       "local_html": "Keep in mind that although acceleration is in the direction of the <em>change</em> in velocity, it is not always in the direction of <em>motion</em>. If acceleration is in a direction opposite to the direction of motion, the object slows down.",
       "upstream_html": "Keep in mind that although acceleration is in the direction of the <em>change</em> in velocity, it is not always in the direction of <em>motion</em>. When an object slows down, its acceleration is opposite to the direction of its motion. This is known as deceleration. ",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Preserve the author’s slowing-down terminology rather than restoring deceleration throughout. Sign-comparison correction is applied separately. Upstream added references and wording changes do not require restoring omitted material."
     },
     {
       "id": "UP-0372450ad2d56eda",
@@ -269,11 +314,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1652039@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3419f8998acbaa6e",
@@ -281,11 +327,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1652039@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f0b5fb05c3558fde",
@@ -293,11 +340,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1652039@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>v</mi><mn>f</mn></msub><mrow><mrow /><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mrow><msub><mi>t</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>v</mi><mn>f</mn></msub><mrow><mrow /><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mrow><msub><mi>t</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-6cc5e20750910970",
@@ -305,11 +353,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1714914@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a96c8a257439d13e",
@@ -317,11 +366,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1763898@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-fe11204a9a6d6ffa",
@@ -329,11 +379,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1763898@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mtext>=</mtext><mspace width=\"0.20em\" /><mtext>+</mtext><mtext>30.0 km/h</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mtext>=</mtext><mspace width=\"0.20em\" /><mtext>+</mtext><mtext>30.0 km/h</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-9e9d130e104aeb37",
@@ -341,11 +392,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1763956@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mtext>30</mtext></mrow><mtext>.0 km/h</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mtext>30</mtext></mrow><mtext>.0 km/h</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5ad946c69687c178",
@@ -353,11 +405,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1763956@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0 km/h</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0 km/h</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c67691179cf7bd8b",
@@ -365,11 +418,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id1763956@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo></mrow><mtext>8.00 s</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo></mrow><mtext>8.00 s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-68452ab8460904a2",
@@ -377,11 +431,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2297812@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mo stretchy=\"false\">+</mo><mtext>30 km/h</mtext></mrow><mrow><mtext>20.0 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mtext>1 km</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mtext>1 h</mtext><mtext>3600 s</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mn>0</mn></mrow><mtext>.</mtext><msup><mtext>417 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mo stretchy=\"false\">+</mo><mtext>30 km/h</mtext></mrow><mrow><mtext>20.0 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mtext>1 km</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mtext>1 h</mtext><mtext>3600 s</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mn>0</mn></mrow><mtext>.</mtext><msup><mtext>417 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a86427d9cf429e88",
@@ -389,11 +444,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303193@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>a</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>a</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-304828813e568482",
@@ -401,11 +457,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303193@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mn>8 m</mn><mi /><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mtext>.</mtext><mn>8 m</mn><mi /><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-fd742d49ed13ba89",
@@ -413,11 +470,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303193@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">+</mo><mn>3</mn></mrow><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">+</mo><mn>3</mn></mrow><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-568d8e885ada8a3e",
@@ -425,11 +483,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2303193@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>–2</mtext><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>–2</mtext><mtext>.</mtext><mn>0 m</mn><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-be0f8bd46ff1a9b2",
@@ -437,11 +496,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2324678@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-df21e894cd442662",
@@ -449,11 +509,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2324678@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mtext>30</mtext></mrow><mtext>.</mtext><mtext>0 km/h</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mtext>30</mtext></mrow><mtext>.</mtext><mtext>0 km/h</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-44cdf8f1e43fbdcb",
@@ -461,11 +522,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2324678@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo><mtext>20</mtext></mrow><mtext>.</mtext><mtext>0 s</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo><mtext>20</mtext></mrow><mtext>.</mtext><mtext>0 s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c3ec36ef4d519d15",
@@ -473,11 +535,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338892@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e7cf1b50ffa7ff5a",
@@ -485,11 +548,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338892@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-eb251f4793eb4492",
@@ -497,11 +561,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338892@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo></mrow><mtext>1.5 km</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo></mrow><mtext>1.5 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-182d1cbb9ce79c8c",
@@ -509,11 +574,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338961@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi>x</mi><mo>′</mo></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mo stretchy=\"false\">−</mo><mtext>1.50 km</mtext></mrow><mrow><mtext>5.00 min</mtext></mrow></mfrac></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi>x</mi><mo>′</mo></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mo stretchy=\"false\">−</mo><mtext>1.50 km</mtext></mrow><mrow><mtext>5.00 min</mtext></mrow></mfrac></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3ab5672534338d86",
@@ -521,11 +587,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2338968@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi>x</mi><mo>′</mo></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow><mtext>.</mtext><mtext>50 km</mtext></mrow><mrow><mn>5</mn><mtext>.</mtext><mtext>00 min</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mtext>60 min</mtext></mrow><mrow><mn>1 h</mn></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>18</mtext></mrow></mrow><mtext>.0 km/h</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi>x</mi><mo>′</mo></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow><mtext>.</mtext><mtext>50 km</mtext></mrow><mrow><mn>5</mn><mtext>.</mtext><mtext>00 min</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mtext>60 min</mtext></mrow><mrow><mn>1 h</mn></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>18</mtext></mrow></mrow><mtext>.0 km/h</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1accdf6fd78980c8",
@@ -533,11 +600,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2400875@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>70 km</mtext><mo stretchy=\"false\">−</mo><mn>4</mn></mrow><mtext>.</mtext><mtext>70 km</mtext><mtext>=</mtext><mspace width=\"0.20em\" /><mtext>+</mtext><mn>2</mn><mtext>.</mtext><mtext>00 km</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mn>6</mn></mrow><mtext>.</mtext><mrow><mtext>70 km</mtext><mo stretchy=\"false\">−</mo><mn>4</mn></mrow><mtext>.</mtext><mtext>70 km</mtext><mtext>=</mtext><mspace width=\"0.20em\" /><mtext>+</mtext><mn>2</mn><mtext>.</mtext><mtext>00 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e7fe68b557444218",
@@ -545,11 +613,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2400983@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mspace width=\"0.15em\" /><mfrac><mrow><mrow><mo stretchy=\"false\">−</mo><mtext>15</mtext></mrow><mtext>.0 m/s </mtext></mrow><mrow><mn>1</mn><mtext>.80 s</mtext></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mn>8</mn></mrow></mrow><mtext>.33 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mo>.</mo></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mspace width=\"0.15em\" /><mfrac><mrow><mrow><mo stretchy=\"false\">−</mo><mtext>15</mtext></mrow><mtext>.0 m/s </mtext></mrow><mrow><mn>1</mn><mtext>.80 s</mtext></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mn>8</mn></mrow></mrow><mtext>.33 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mo>.</mo></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e473a3934ab2ca5e",
@@ -557,11 +626,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2401166@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c48b47d86c388c11",
@@ -569,11 +639,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2401166@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-352d159e8196632e",
@@ -581,11 +652,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2401166@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5b18c8f8147203a1",
@@ -605,11 +677,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412083@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0 km/h</mn></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0 km/h</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-47339914eeb6637f",
@@ -617,11 +690,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412083@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo><mtext>10</mtext></mrow><mtext>.</mtext><mn>0 s</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo><mtext>10</mtext></mrow><mtext>.</mtext><mn>0 s</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5b9ddf4375297588",
@@ -629,11 +703,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412112@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-113a1ad1a48cbfbb",
@@ -641,11 +716,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412171@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub><mo stretchy=\"false\">=</mo><mn>3</mn></mrow><mtext>.75 km</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub><mo stretchy=\"false\">=</mo><mn>3</mn></mrow><mtext>.75 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-23b110cb9e6c87b5",
@@ -653,11 +729,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412171@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub><mo stretchy=\"false\">=</mo></mrow><mtext>5.25 km</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub><mo stretchy=\"false\">=</mo></mrow><mtext>5.25 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-2e02ae79edf6ebb9",
@@ -665,11 +742,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412171@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo></mrow><mtext>5.00 min</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo></mrow><mtext>5.00 min</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-74b306ed439cbf7b",
@@ -677,11 +755,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412645@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5ba558f886806f84",
@@ -689,11 +768,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412659@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi>v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow><msub><mi>t</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow><mtext>.</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi>v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow><msub><mi>t</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow><mtext>.</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-67a9e1bbcce01da2",
@@ -701,11 +781,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412738@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-bca32275a5cf57fa",
@@ -713,11 +794,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412772@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>a</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>a</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-631232fbf8e92696",
@@ -725,11 +807,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412874@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mrow><mo stretchy=\"false\">−</mo><mtext>30</mtext></mrow><mtext>.</mtext><mtext>0 km/h</mtext></mrow><mrow><mn>8</mn><mtext>.</mtext><mtext>00 s</mtext></mrow></mfrac></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mrow><mo stretchy=\"false\">−</mo><mtext>30</mtext></mrow><mtext>.</mtext><mtext>0 km/h</mtext></mrow><mrow><mn>8</mn><mtext>.</mtext><mtext>00 s</mtext></mrow></mfrac></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3051a558a76c80ae",
@@ -737,11 +820,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412947@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mo stretchy=\"false\">+</mo><mtext>30.0 km/h</mtext></mrow><mrow><mtext>20</mtext><mtext>.</mtext><mn>0 s</mn></mrow></mfrac></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><mo stretchy=\"false\">+</mo><mtext>30.0 km/h</mtext></mrow><mrow><mtext>20</mtext><mtext>.</mtext><mn>0 s</mn></mrow></mfrac></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d79a2d379dcb6b7f",
@@ -749,11 +833,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2412972@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d0e126f125c83899",
@@ -761,11 +846,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2562743@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>8</mn><mtext>.33 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>8</mn><mtext>.33 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-ce694628eea212ff",
@@ -773,11 +859,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2562743@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>8</mn><mtext>.33 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>8</mn><mtext>.33 m</mtext><msup><mtext>/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-8673b4679c43b15d",
@@ -797,11 +884,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2581157@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-351f316d5a047ba4",
@@ -821,11 +909,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2585505@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>−1.5 km.</mtext></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtext>−1.5 km.</mtext></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d5fdac5123ae4f10",
@@ -845,11 +934,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2585996@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-96c7747df9809d4d",
@@ -857,11 +947,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2585996@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>a</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>a</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f9a966a2d1e4535d",
@@ -869,11 +960,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2586170@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e32b4366303354b7",
@@ -881,11 +973,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2586229@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mn>0</mn><mo stretchy=\"false\">−</mo><mtext>30</mtext></mrow><mtext>.</mtext><mrow><mtext>0 km/h</mtext><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>30</mtext></mrow></mrow><mtext>.0 km/h</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mn>0</mn><mo stretchy=\"false\">−</mo><mtext>30</mtext></mrow><mtext>.</mtext><mrow><mtext>0 km/h</mtext><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>30</mtext></mrow></mrow><mtext>.0 km/h</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-260ce529aedce33a",
@@ -893,11 +986,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2586235@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c026dcc49650b3ad",
@@ -905,11 +999,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2586235@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e92f3294fb8e0679",
@@ -917,11 +1012,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2586235@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-4b98dbf9debd7320",
@@ -929,11 +1025,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2589758@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo><mrow><mrow><mo stretchy=\"false\">=</mo><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub><mo stretchy=\"false\">−</mo><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mtext>3.75 km</mtext><mo stretchy=\"false\">−</mo><mtext>5.25 km</mtext><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">−</mo><mtext>1.50 km</mtext></mrow></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo><mrow><mrow><mo stretchy=\"false\">=</mo><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub><mo stretchy=\"false\">−</mo><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mtext>3.75 km</mtext><mo stretchy=\"false\">−</mo><mtext>5.25 km</mtext><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">−</mo><mtext>1.50 km</mtext></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1ca638885fc14865",
@@ -941,11 +1038,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>x</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>x</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-41d6b4c6018676aa",
@@ -953,11 +1051,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-4159754cd4eb9c95",
@@ -965,11 +1064,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f48a5bf0a2256711",
@@ -977,11 +1077,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3e2d488e0514dc00",
@@ -989,11 +1090,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@5",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e8a7aac1daafb027",
@@ -1001,11 +1103,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@6",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d28b61582be91426",
@@ -1013,11 +1116,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@7",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c4459c5b018c6134",
@@ -1025,11 +1129,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@8",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo>′</mo></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-28f288a283535542",
@@ -1037,11 +1142,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2590556@9",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow><mtext>.5 km</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo><mn>1</mn></mrow><mtext>.5 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f139ea1526eb2883",
@@ -1049,11 +1155,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id2596926@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mo stretchy=\"false\">−</mo><mtext>30.0 km/h</mtext></mrow><mrow><mtext>8.00 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mtext>1 km</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mtext>1 h</mtext><mtext>3600 s</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><msup><mtext>−1.04 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mtext>.</mtext></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><mo stretchy=\"false\">−</mo><mtext>30.0 km/h</mtext></mrow><mrow><mtext>8.00 s</mtext></mrow></mfrac><mo stretchy=\"true\">)</mo></mrow></mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mrow><msup><mtext>10</mtext><mrow><mn>3</mn></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow><mtext>1 km</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mrow><mrow><mo stretchy=\"true\">(</mo><mfrac><mtext>1 h</mtext><mtext>3600 s</mtext></mfrac><mo stretchy=\"true\">)</mo></mrow><mo stretchy=\"false\">=</mo><msup><mtext>−1.04 m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mtext>.</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-56a41da46ea3abf9",
@@ -1061,11 +1168,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id3541636@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-909c4738c8141143",
@@ -1073,11 +1181,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id3541636@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>v</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>v</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-36be8dde882e6667",
@@ -1085,11 +1194,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id3541636@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>t</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>t</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-af462d3aa9148d5c",
@@ -1097,11 +1207,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id3541636@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>a</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>a</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-9992a2490d990c37",
@@ -1109,11 +1220,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4040806@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>v</mi><mn>f</mn></msub><mrow><mrow /><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mrow><msub><mi>t</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow><mo>,</mo></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mover accent=\"true\"><mi>a</mi><mo stretchy=\"true\">-</mo></mover><mo stretchy=\"false\">=</mo><mfrac><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi></mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi></mrow></mfrac></mrow><mo stretchy=\"false\">=</mo><mfrac><mrow><msub><mi>v</mi><mn>f</mn></msub><mrow><mrow /><mo stretchy=\"false\">−</mo><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow><mrow><msub><mi>t</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow><mo>,</mo></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1c9f6945cda6e194",
@@ -1121,11 +1233,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4131827@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo></mrow><mtext>15.0 m/s</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mo stretchy=\"false\">−</mo></mrow><mtext>15.0 m/s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c2f19cbe18bcfb00",
@@ -1133,11 +1246,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4131827@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mo stretchy=\"false\">=</mo><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>15</mtext></mrow></mrow><mtext>.0 m/s</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">v</mi><mo stretchy=\"false\">=</mo><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub></mrow><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>15</mtext></mrow></mrow><mtext>.0 m/s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d6afb9bebd553809",
@@ -1145,11 +1259,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4162585@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mtext>m/s</mtext><mrow><mn>2</mn></mrow></msup></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c7b2ec499ebacca9",
@@ -1157,11 +1272,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180421@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e27d05bbd101fe68",
@@ -1169,11 +1285,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180421@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>15</mtext></mrow></mrow><mtext>.0 m/s</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>v</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">−</mo><mtext>15</mtext></mrow></mrow><mtext>.0 m/s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5325665ddd7e81f1",
@@ -1181,11 +1298,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180421@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo><mn>1</mn></mrow><mtext>.80 s</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">t</mi><mo stretchy=\"false\">=</mo><mn>1</mn></mrow><mtext>.80 s</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5e9a55d132e662ac",
@@ -1193,11 +1311,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180501@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi><mo stretchy=\"false\">=</mo><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1ee9e82a929c945d",
@@ -1205,11 +1324,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180511@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo></mrow><mtext>6.70 km</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>x</mi><mrow><mn>f</mn></mrow></msub><mo stretchy=\"false\">=</mo></mrow><mtext>6.70 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-74aa451254219a38",
@@ -1217,11 +1337,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180511@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo></mrow><mtext>4.70 km</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">=</mo></mrow><mtext>4.70 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-21c30b5cbdaa7964",
@@ -1229,11 +1350,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180511@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub><mo stretchy=\"false\">=</mo><mn>3</mn></mrow><mtext>.75 km</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>f</mn></msub><mo stretchy=\"false\">=</mo><mn>3</mn></mrow><mtext>.75 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-bad119ca86e39b8f",
@@ -1241,11 +1363,12 @@
       "local_module": "m67033",
       "upstream_module": "m42100",
       "source_id": "import-auto-id4180511@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub><mo stretchy=\"false\">=</mo><mn>5</mn></mrow><mtext>.25 km</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mrow><mi>x</mi><mo>′</mo></mrow><mn>0</mn></msub><mo stretchy=\"false\">=</mo><mn>5</mn></mrow><mtext>.25 km</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     }
   ]
 }

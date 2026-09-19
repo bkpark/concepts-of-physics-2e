@@ -1,0 +1,28 @@
+{
+  "id": "BK02-07",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport all applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67033",
+  "source_object": "import-auto-id2585996",
+  "source_path": "maintained/modules/m67033/index.cnxml",
+  "source_sha256": "15f7440c9ec8330085cb7ed9546cf10fc4f8bf9bfbf0de6d73cc9212a121e5dc",
+  "after_sha256": "ae2be618e70228622ca5035741f9a387f4ac0fe184db85f06602f684afd0e223",
+  "upstream_module": "m42100",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "c45772b21866097b12d94e3b7759b241109a03c8cbc6459ab02ac91879ca62ea",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Speeding up depends on acceleration relative to velocity, not the velocity change; retain other author wording.",
+  "before": "<para xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2585996\">Perhaps the most important thing to note about these examples is the signs of the answers. In our chosen coordinate system, plus means the quantity is to the right and minus means it is to the left. This is easy to imagine for displacement and velocity. But it is a little less obvious for acceleration. Most people interpret negative acceleration as the slowing of an object. This was not the case in <link target-id=\"fs-id4015260\"/>, where a positive acceleration slowed a negative velocity. The crucial distinction was that the acceleration was in the opposite direction from the velocity. In fact, a negative acceleration will <emphasis effect=\"italics\">increase</emphasis> a negative velocity. For example, the train moving to the left in <link target-id=\"import-auto-id2412190\"/> is sped up by an acceleration to the left. In that case, both <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{a} {}</m:annotation></m:semantics></m:math> are negative. The plus and minus signs give the directions of the accelerations. If acceleration has the same sign as the change in velocity, the object is speeding up. If acceleration has the opposite sign of the change in velocity, the object is slowing down. </para>",
+  "after": "<para xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2585996\">Perhaps the most important thing to note about these examples is the signs of the answers. In our chosen coordinate system, plus means the quantity is to the right and minus means it is to the left. This is easy to imagine for displacement and velocity. But it is a little less obvious for acceleration. Most people interpret negative acceleration as the slowing of an object. This was not the case in <link target-id=\"fs-id4015260\"/>, where a positive acceleration slowed a negative velocity. The crucial distinction was that the acceleration was in the opposite direction from the velocity. In fact, a negative acceleration will <emphasis effect=\"italics\">increase</emphasis> a negative velocity. For example, the train moving to the left in <link target-id=\"import-auto-id2412190\"/> is sped up by an acceleration to the left. In that case, both <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{a} {}</m:annotation></m:semantics></m:math> are negative. The plus and minus signs give the directions of the accelerations. If acceleration has the same sign as the velocity, the object is speeding up. If acceleration has the opposite sign as the velocity, the object is slowing down. </para>",
+  "substitutions": [
+    [
+      "same sign as the change in velocity",
+      "same sign as the velocity"
+    ],
+    [
+      "opposite sign of the change in velocity",
+      "opposite sign as the velocity"
+    ]
+  ]
+}

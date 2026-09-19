@@ -2,7 +2,7 @@
   "module": "m52322",
   "title": "Introduction to Dynamics: Newton’s Laws of Motion",
   "slug": "introduction-to-dynamics-newtons-laws-of-motion",
-  "local_sha256": "1525c72877708cb7931c1d33b6b715a238e4c252901724f47d8e2fd08b0cf760",
+  "local_sha256": "bd261ef9c0c3b07b219cdd96e430ce5ac2dac1e095f61d39b65c1f8922a1f334",
   "upstream_modules": [
     "m42129"
   ],
@@ -52,11 +52,12 @@
       "local_module": "m52322",
       "upstream_module": "m42129",
       "source_id": "import-auto-id1672878@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>9</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mrow><mo stretchy=\"false\">−</mo><mn>9</mn></mrow></mrow></msup><mspace width=\"0.25em\" /><mtext> m</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a6d94c8bcafd4917",

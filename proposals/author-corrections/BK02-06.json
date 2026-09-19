@@ -1,0 +1,24 @@
+{
+  "id": "BK02-06",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport all applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71407",
+  "source_object": "import-auto-id4102222",
+  "source_path": "maintained/modules/m71407/index.cnxml",
+  "source_sha256": "cd50080f06ccbeb12e295ada4cbbb1456df59c8f351953ac382860b3aa8d4cf0",
+  "after_sha256": "e75e4f038bc13a6c924d236dc7adf0e835bfb236736ba4c6a9a5029217ace861",
+  "upstream_module": "m42096",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "90008884320246bf8e6ae0de83df704ec31982be63c96e22663f1d0fe6a48282",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Correct the odometer question: it measures accumulated distance, not position.",
+  "before": "<para xmlns:fo=\"urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0\" id=\"import-auto-id4102222\" fo:font-weight=\"normal\">Does a car’s odometer measure position or displacement? Does its speedometer measure speed or velocity? </para>",
+  "after": "<para xmlns:fo=\"urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0\" id=\"import-auto-id4102222\" fo:font-weight=\"normal\">Does a car’s odometer measure distance traveled or displacement? Does its speedometer measure speed or velocity? </para>",
+  "substitutions": [
+    [
+      "measure position or displacement",
+      "measure distance traveled or displacement"
+    ]
+  ]
+}

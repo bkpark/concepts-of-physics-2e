@@ -1,0 +1,24 @@
+{
+  "id": "BK02-02",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport all applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67032",
+  "source_object": "import-auto-id1598785",
+  "source_path": "maintained/modules/m67032/index.cnxml",
+  "source_sha256": "e054a7eb0e2bcba664ac48b1cf86c550ca5a3e79dfbd40536130e4fcf79b32e5",
+  "after_sha256": "2867931cdeff05a5f34871dde429be46e3fe3281a4a3ee2b49dd6cc38d276395",
+  "upstream_module": "m42091",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "ade42742d65066250a2f88974a1b4196bdf58e1945efbbf390ed9b6385ce5165",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Restore missing space after second.",
+  "before": "<para id=\"import-auto-id1598785\">The SI unit for time, the <term id=\"import-auto-id2526901\">second</term>(abbreviated s), has a long history. For many years it was defined as 1/86,400 of a mean solar day. More recently, a new standard was adopted to gain greater accuracy and to define the second in terms of a non-varying, or constant, physical phenomenon (because the solar day is getting longer due to very gradual slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very steady way, and these vibrations can be readily observed and counted. In 1967 the second was redefined as the time required for 9,192,631,770 of these vibrations. (See <link target-id=\"import-auto-id2575847\"/>.) Accuracy in the fundamental units is essential, because all measurements are ultimately expressed in terms of fundamental units and can be no more accurate than are the fundamental units themselves.</para>",
+  "after": "<para id=\"import-auto-id1598785\">The SI unit for time, the <term id=\"import-auto-id2526901\">second</term> (abbreviated s), has a long history. For many years it was defined as 1/86,400 of a mean solar day. More recently, a new standard was adopted to gain greater accuracy and to define the second in terms of a non-varying, or constant, physical phenomenon (because the solar day is getting longer due to very gradual slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very steady way, and these vibrations can be readily observed and counted. In 1967 the second was redefined as the time required for 9,192,631,770 of these vibrations. (See <link target-id=\"import-auto-id2575847\"/>.) Accuracy in the fundamental units is essential, because all measurements are ultimately expressed in terms of fundamental units and can be no more accurate than are the fundamental units themselves.</para>",
+  "substitutions": [
+    [
+      "second</term>(abbreviated",
+      "second</term> (abbreviated"
+    ]
+  ]
+}

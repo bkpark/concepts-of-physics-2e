@@ -1,0 +1,44 @@
+{
+  "status": "applied under standing author authorization",
+  "target_release": "cp2e-ver1.1",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "scope": "Three checked dynamics corrections; no equations or media changed.",
+  "changes": [
+    {
+      "id": "BK03-01",
+      "record": "proposals/author-corrections/BK03-01.json",
+      "reason": "Correct Newton’s name in the figure caption too; the earlier batch corrected the body paragraph.",
+      "substitutions": [
+        [
+          "Issac Newton",
+          "Isaac Newton"
+        ]
+      ],
+      "local_module": "m52322"
+    },
+    {
+      "id": "BK03-02",
+      "record": "proposals/author-corrections/BK03-02.json",
+      "reason": "Backport the upstream location qualification for the discussion of changing weight.",
+      "substitutions": [
+        [
+          "leaves Earth.",
+          "leaves Earth’s surface."
+        ]
+      ],
+      "local_module": "m67530"
+    },
+    {
+      "id": "BK03-03",
+      "record": "proposals/author-corrections/BK03-03.json",
+      "reason": "Qualify g as the acceleration magnitude in the scalar weight derivation, preserving all equations.",
+      "substitutions": [
+        [
+          "that the acceleration of an object due to gravity",
+          "that the magnitude of the acceleration of an object due to gravity"
+        ]
+      ],
+      "local_module": "m67530"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 """Check maintained corpus against initialization and the ordered approved editorial ledger."""
 from pathlib import Path
-import hashlib,json
+import base64,hashlib,json
 ROOT=Path(__file__).resolve().parents[1]
 manifest=json.loads((ROOT/'proposals/fidelity-repairs/manifest.json').read_text(encoding='utf-8'))
 expected={}
@@ -18,8 +18,14 @@ if ledger.exists():
         rel=Path(change['source_path']).relative_to('maintained').as_posix()
         current=expected.get(rel,(ROOT/rel).read_bytes())
         assert hashlib.sha256(current).hexdigest()==change['source_sha256']
-        old=change['before'].encode('utf-8');assert current.count(old)==1
-        expected[rel]=current.replace(old,change['after'].encode('utf-8'),1)
+        if change.get('encoding')=='base64':
+            old=base64.b64decode(change['before'],validate=True)
+            new=base64.b64decode(change['after'],validate=True)
+            assert current==old
+            expected[rel]=new
+        else:
+            old=change['before'].encode('utf-8');assert current.count(old)==1
+            expected[rel]=current.replace(old,change['after'].encode('utf-8'),1)
         assert hashlib.sha256(expected[rel]).hexdigest()==change['after_sha256']
         applied+=1
 count=0

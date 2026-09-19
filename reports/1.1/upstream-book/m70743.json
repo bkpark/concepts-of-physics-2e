@@ -7,7 +7,7 @@
     "m42390"
   ],
   "counts": {
-    "prose": 12,
+    "prose": 16,
     "references": 1,
     "math-token-change": 7,
     "math-markup-change": 20,
@@ -123,6 +123,20 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-2887cd667d3de0cc",
+      "kind": "prose",
+      "local_module": "m70743",
+      "upstream_module": "m42390",
+      "source_id": "import-auto-id1169737818705@caption",
+      "status": "unreviewed-difference",
+      "local": "Rotation of a coil in a magnetic field produces a voltage. This is the basic construction of a generator, where work done to turn the coil is converted to electric energy. Note the generator is very similar in construction to a motor.",
+      "upstream": "Rotation of a coil in a magnetic field produces an emf. This is the basic construction of a generator, where work done to turn the coil is converted to electric energy. Note the generator is very similar in construction to a motor.",
+      "local_html": "Rotation of a coil in a magnetic field produces a voltage. This is the basic construction of a generator, where work done to turn the coil is converted to electric energy. Note the generator is very similar in construction to a motor.",
+      "upstream_html": "Rotation of a coil in a magnetic field produces an emf. This is the basic construction of a generator, where work done to turn the coil is converted to electric energy. Note the generator is very similar in construction to a motor.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-ca4d2666c4e5b97a",
       "kind": "prose",
       "local_module": "m70743",
@@ -133,6 +147,20 @@
       "upstream": "An experiment easily performed and often done in physics labs is illustrated in . An emf is induced in the coil when a bar magnet is pushed in and out of it. Emfs of opposite signs are produced by motion in opposite directions, and the emfs are also reversed by reversing poles. The same results are produced if the coil is moved rather than the magnet—it is the relative motion that is important. The faster the motion, the greater the emf, and there is no emf when the magnet is stationary relative to the coil.",
       "local_html": "An experiment easily performed and often done in physics labs is illustrated in <span class=\"muted\">[reference]</span>. A voltage is induced in the coil when a bar magnet is pushed in and out of it. Voltages of opposite signs are produced by motion in opposite directions, and the voltages are also reversed by reversing poles. The same results are produced if the coil is moved rather than the magnet—it is the relative motion that is important. The faster the motion, the greater the voltage, and there is no voltage when the magnet is stationary relative to the coil.",
       "upstream_html": "An experiment easily performed and often done in physics labs is illustrated in <span class=\"muted\">[reference]</span>. An emf is induced in the coil when a bar magnet is pushed in and out of it. Emfs of opposite signs are produced by motion in opposite directions, and the emfs are also reversed by reversing poles. The same results are produced if the coil is moved rather than the magnet—it is the relative motion that is important. The faster the motion, the greater the emf, and there is no emf when the magnet is stationary relative to the coil.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-a852a0eb8abaaede",
+      "kind": "prose",
+      "local_module": "m70743",
+      "upstream_module": "m42390",
+      "source_id": "import-auto-id1169737961842@caption",
+      "status": "unreviewed-difference",
+      "local": "Magnetic flux [MATH] is related to the magnetic field and the area [MATH] over which it exists. Only the portion of the magnetic field that is perpendicular to the area ( [MATH] ) contributes to the flux. The flux [MATH] is related to induction; any change in [MATH] induces a voltage.",
+      "upstream": "Magnetic flux [MATH] is related to the magnetic field and the area over which it exists. The flux [MATH] is related to induction; any change in [MATH] induces an emf.",
+      "local_html": "Magnetic flux <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow class=\"MJX-TeXAtom-ORD\"><mi class=\"MJX-tex-mathit\" mathvariant=\"italic\">Φ</mi></mrow></math> is related to the magnetic field and the area <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>A</mi></math> over which it exists. Only the portion of the magnetic field that is perpendicular to the area (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><msub><mi>B</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">⊥</mo></mrow></msub></math>) contributes to the flux. The flux <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow class=\"MJX-TeXAtom-ORD\"><mi class=\"MJX-tex-mathit\" mathvariant=\"italic\">Φ</mi></mrow><mo>=</mo><msub><mi>B</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">⊥</mo></mrow></msub><mi>A</mi></math> is related to induction; any change in <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow class=\"MJX-TeXAtom-ORD\"><mi class=\"MJX-tex-mathit\" mathvariant=\"italic\">Φ</mi></mrow></math> induces a voltage.",
+      "upstream_html": "Magnetic flux <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math> is related to the magnetic field and the area over which it exists. The flux <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>Φ</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>BA</mtext></mrow></mstyle></mrow><mspace width=\"0.25em\" /><mtext>cos</mtext><mspace width=\"0.25em\" /><mi>θ</mi></mrow></mrow></mrow></math> is related to induction; any change in <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math> induces an emf.",
       "exercise_context": false,
       "credit_review_required": false
     },
@@ -165,6 +193,20 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-71abd7a2263bc587",
+      "kind": "prose",
+      "local_module": "m70743",
+      "upstream_module": "m42390",
+      "source_id": "import-auto-id1169738076827@caption",
+      "status": "unreviewed-difference",
+      "local": "Movement of a magnet relative to a coil produces voltage as shown. The same voltages are produced if the coil is moved relative to the magnet. The greater the speed, the greater the magnitude of the voltage, and the voltage is zero when there is no motion.",
+      "upstream": "Movement of a magnet relative to a coil produces emfs as shown. The same emfs are produced if the coil is moved relative to the magnet. The greater the speed, the greater the magnitude of the emf, and the emf is zero when there is no motion.",
+      "local_html": "Movement of a magnet relative to a coil produces voltage as shown. The same voltages are produced if the coil is moved relative to the magnet. The greater the speed, the greater the magnitude of the voltage, and the voltage is zero when there is no motion.",
+      "upstream_html": "Movement of a magnet relative to a coil produces emfs as shown. The same emfs are produced if the coil is moved relative to the magnet. The greater the speed, the greater the magnitude of the emf, and the emf is zero when there is no motion.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-01e54b420088cb3b",
       "kind": "prose",
       "local_module": "m70743",
@@ -189,6 +231,20 @@
       "upstream": "The method of inducing an emf used in most electric generators is shown in . A coil is rotated in a magnetic field, producing an alternating current emf, which depends on rotation rate and other factors that will be explored in later sections. Note that the generator is remarkably similar in construction to a motor (another symmetry).",
       "local_html": "The method of inducing a voltage used in most electric generators is shown in <span class=\"muted\">[reference]</span>. A coil is rotated in a magnetic field, producing an alternating voltage (and current), which depends on rotation rate and other factors that will be explored in later sections. Note that the generator is remarkably similar in construction to a motor.",
       "upstream_html": "The method of inducing an emf used in most electric generators is shown in <span class=\"muted\">[reference]</span>. A coil is rotated in a magnetic field, producing an alternating current emf, which depends on rotation rate and other factors that will be explored in later sections. Note that the generator is remarkably similar in construction to a motor (another symmetry).",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-ba976bacb93d8a09",
+      "kind": "prose",
+      "local_module": "m70743",
+      "upstream_module": "m42390",
+      "source_id": "import-auto-id1169738208118@caption",
+      "status": "unreviewed-difference",
+      "local": "Faraday’s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces an voltage and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open.",
+      "upstream": "Faraday’s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces an emf and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open.",
+      "local_html": "Faraday’s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces an voltage and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open. ",
+      "upstream_html": "Faraday’s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces an emf and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open. ",
       "exercise_context": false,
       "credit_review_required": false
     },
@@ -248,11 +304,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "fs-id1169738072439@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>A</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>A</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1f5896b636b2ba82",
@@ -296,11 +353,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169736614770@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>A</mi></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>A</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1fa11ae84416a660",
@@ -308,11 +366,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737710626@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-b506311f911b856f",
@@ -320,11 +379,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737710626@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>A</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>A</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-93ed19245ea21875",
@@ -332,11 +392,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737710626@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>θ</mi></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>θ</mi></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-94b073d8ef56478b",
@@ -344,11 +405,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737710626@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-31cf57607dcaab9f",
@@ -356,11 +418,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737710626@5",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c98d49830b3cee09",
@@ -368,11 +431,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737710626@6",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>T</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>T</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e26a2764b4070baa",
@@ -380,11 +444,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737777500@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-ba15fa1363d47030",
@@ -392,11 +457,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169737777500@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>T</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>T</mtext><mo stretchy=\"false\">⋅</mo><msup><mtext>m</mtext><mrow><mn>2</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1afe5d7f444b0f11",
@@ -440,11 +506,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738074843@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-27f8b8312f681e8e",
@@ -452,11 +519,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738074843@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-6d2aaee92b4b2445",
@@ -464,11 +532,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738074843@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-6d8683c3254f3316",
@@ -476,11 +545,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738074843@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-4a34a7bdcf07b081",
@@ -488,11 +558,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738074843@5",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-9e25f03bdbbb78a1",
@@ -500,11 +571,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738074843@6",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-456e7f7aaf704ae7",
@@ -512,11 +584,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738117029@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e7851c81f85d74da",
@@ -524,11 +597,12 @@
       "local_module": "m70743",
       "upstream_module": "m42390",
       "source_id": "import-auto-id1169738250962@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>Φ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>Φ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-64840c50c71ca6b4",

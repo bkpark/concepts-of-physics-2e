@@ -7,7 +7,7 @@
     "m42522"
   ],
   "counts": {
-    "prose": 1,
+    "prose": 2,
     "accessibility": 1,
     "math-markup-change": 6,
     "math-structure": 1,
@@ -29,6 +29,20 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-f1574fccef9dd1ce",
+      "kind": "prose",
+      "local_module": "m52456",
+      "upstream_module": "m42522",
+      "source_id": "import-auto-id1169737870410@caption",
+      "status": "unreviewed-difference",
+      "local": "(a) Polarized light is rotated [MATH] by a liquid crystal and then passed by a polarizing filter that has its axis perpendicular to the original polarization direction. (b) When a voltage is applied to the liquid crystal, the polarized light is not rotated and is blocked by the filter, making the region dark in comparison with its surroundings. (c) LCDs can be made color specific, small, and fast enough to use in laptop computers and TVs. (credit: Jon Sullivan)",
+      "upstream": "(a) Polarized light is rotated [MATH] by a liquid crystal and then passed by a polarizing filter that has its axis perpendicular to the original polarization direction. (b) When a voltage is applied to the liquid crystal, the polarized light is not rotated and is blocked by the filter, making the region dark in comparison with its surroundings. (c) LCDs can be made color specific, small, and fast enough to use in computer monitor screens. (credit: Idaho National Laboratory)",
+      "local_html": "(a) Polarized light is rotated <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow><mrow /></mrow></mrow></math> by a liquid crystal and then passed by a polarizing filter that has its axis perpendicular to the original polarization direction. (b) When a voltage is applied to the liquid crystal, the polarized light is not rotated and is blocked by the filter, making the region dark in comparison with its surroundings. (c) LCDs can be made color specific, small, and fast enough to use in laptop computers and TVs. (credit: Jon Sullivan)",
+      "upstream_html": "(a) Polarized light is rotated <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow></mrow></math> by a liquid crystal and then passed by a polarizing filter that has its axis perpendicular to the original polarization direction. (b) When a voltage is applied to the liquid crystal, the polarized light is not rotated and is blocked by the filter, making the region dark in comparison with its surroundings. (c) LCDs can be made color specific, small, and fast enough to use in computer monitor screens. (credit: Idaho National Laboratory)",
+      "exercise_context": false,
+      "credit_review_required": true
+    },
+    {
       "id": "UP-2614dc064dd47a4b",
       "kind": "accessibility",
       "local_module": "m52456",
@@ -46,11 +60,12 @@
       "local_module": "m52456",
       "upstream_module": "m42522",
       "source_id": "import-auto-id1169736623186@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mn>1</mn><mo stretchy=\"false\">/</mo><msup><mi>λ</mi><mrow><mn>4</mn></mrow></msup></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>1</mn><mo stretchy=\"false\">/</mo><msup><mi>λ</mi><mrow><mn>4</mn></mrow></msup></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c21796fd8629f46d",
@@ -58,11 +73,12 @@
       "local_module": "m52456",
       "upstream_module": "m42522",
       "source_id": "import-auto-id1169736623186@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-152971c36534961d",
@@ -70,11 +86,12 @@
       "local_module": "m52456",
       "upstream_module": "m42522",
       "source_id": "import-auto-id1169736623186@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1706493bc7b0b1a0",
@@ -82,11 +99,12 @@
       "local_module": "m52456",
       "upstream_module": "m42522",
       "source_id": "import-auto-id1169737870410@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a5fb2b55f51c18f7",
@@ -94,11 +112,12 @@
       "local_module": "m52456",
       "upstream_module": "m42522",
       "source_id": "import-auto-id1169737991602@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>90º</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c7fb1fdbf2f9b847",
@@ -106,11 +125,12 @@
       "local_module": "m52456",
       "upstream_module": "m42522",
       "source_id": "import-auto-id1169738171661@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>E</mi><mspace width=\"0.25em\" /><mtext>cos</mtext><mspace width=\"0.25em\" /><mi>θ</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>E</mi><mspace width=\"0.25em\" /><mtext>cos</mtext><mspace width=\"0.25em\" /><mi>θ</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a354d901227b500e",

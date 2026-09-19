@@ -1,0 +1,24 @@
+{
+  "id": "BK03-03",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67530",
+  "source_object": "import-auto-id2447030",
+  "source_path": "maintained/modules/m67530/index.cnxml",
+  "source_sha256": "53c74c4741538b9b780ebdbeee543c3c42b17ecede6ef80778ce26174376b97b",
+  "after_sha256": "7621c2f36141ce3e6dc617aba4ec20d052aa1f28f8ac5b9882cffdd59bb05062",
+  "upstream_module": "m42073",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "c19c7900338f6142df551f86f4961a218530230286ea003457444abc89e69440",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Qualify g as the acceleration magnitude in the scalar weight derivation, preserving all equations.",
+  "before": "<para id=\"import-auto-id2447030\">Since the object experiences only the downward force of gravity, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mi>w</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{F rSub { size 8{\"net\"} } =w} {}</m:annotation></m:semantics></m:math>. We know that the acceleration of an object due to gravity is <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{a=g} {}</m:annotation></m:semantics></m:math>. Substituting these into Newton’s second law gives</para>",
+  "after": "<para id=\"import-auto-id2447030\">Since the object experiences only the downward force of gravity, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mi>w</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{F rSub { size 8{\"net\"} } =w} {}</m:annotation></m:semantics></m:math>. We know that the magnitude of the acceleration of an object due to gravity is <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{a=g} {}</m:annotation></m:semantics></m:math>. Substituting these into Newton’s second law gives</para>",
+  "substitutions": [
+    [
+      "that the acceleration of an object due to gravity",
+      "that the magnitude of the acceleration of an object due to gravity"
+    ]
+  ]
+}

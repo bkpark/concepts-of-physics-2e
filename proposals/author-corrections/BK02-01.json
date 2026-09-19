@@ -1,0 +1,24 @@
+{
+  "id": "BK02-01",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport all applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52310",
+  "source_object": "import-auto-id1622392",
+  "source_path": "maintained/modules/m52310/index.cnxml",
+  "source_sha256": "72544e4e730b62adbe3fbf296e1ba61cb9820f483f75d7dd0a495e7349735433",
+  "after_sha256": "b82fbbba420f77d723f51d4624ca867e687549da91ad8f3907137bfbdc840205",
+  "upstream_module": "m42092",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "cdac19fdbf80f8ef2b5a0c7ed0e2679ebe90d8ef916d1ec7d7d0906f181118fe",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Remove duplicated word in existing cell-membrane caption; preserve image and credit.",
+  "before": "<figure id=\"import-auto-id1622392\"><media id=\"import-auto-id2504948\" alt=\"A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.\">\n                    <image mime-type=\"image/png\" src=\"../../media/Figure_01_01_06_aa.jpg\" width=\"550\"/>\n                </media>\n                \n            <caption>An artist’s rendition of the the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)</caption></figure>",
+  "after": "<figure id=\"import-auto-id1622392\"><media id=\"import-auto-id2504948\" alt=\"A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.\">\n                    <image mime-type=\"image/png\" src=\"../../media/Figure_01_01_06_aa.jpg\" width=\"550\"/>\n                </media>\n                \n            <caption>An artist’s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)</caption></figure>",
+  "substitutions": [
+    [
+      "of the the structure",
+      "of the structure"
+    ]
+  ]
+}

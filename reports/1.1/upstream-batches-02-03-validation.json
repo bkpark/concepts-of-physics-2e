@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "scope": "upstream batches 02 and 03",
+  "checks": [
+    {
+      "id": "BK02-01",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-02",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-03",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-04",
+      "verified": "IDs, links, image references preserved; only authorized atomic exponent changes MathML"
+    },
+    {
+      "id": "BK02-05",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-06",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-07",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-08",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-09",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK02-10",
+      "verified": "Pinned image hash, exact binary ledger, existing path retained"
+    },
+    {
+      "id": "BK03-01",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK03-02",
+      "verified": "All MathML, IDs, links and image references preserved"
+    },
+    {
+      "id": "BK03-03",
+      "verified": "All MathML, IDs, links and image references preserved"
+    }
+  ],
+  "numerical_checks": {
+    "rock_apex_13_over_9_8": "1.33 s to three significant figures",
+    "graph_position_12_times_0_25": "3 km",
+    "local_path_C_distance": "8+2+3=13 m",
+    "local_path_C_displacement": "11-2=9 m"
+  }
+}

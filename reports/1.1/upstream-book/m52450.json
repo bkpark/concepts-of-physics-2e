@@ -17,11 +17,12 @@
       "local_module": "m52450",
       "upstream_module": "m42456",
       "source_id": "import-auto-id2543500@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>θ</mi><mrow><mtext>r</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>θ</mi><mrow><mtext>i</mtext></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>θ</mi><mrow><mtext>r</mtext></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>θ</mi><mrow><mtext>i</mtext></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-72eea93ea62b6e94",

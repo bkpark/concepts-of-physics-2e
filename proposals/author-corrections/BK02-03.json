@@ -1,0 +1,24 @@
+{
+  "id": "BK02-03",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport all applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67032",
+  "source_object": "import-auto-id2510075",
+  "source_path": "maintained/modules/m67032/index.cnxml",
+  "source_sha256": "2867931cdeff05a5f34871dde429be46e3fe3281a4a3ee2b49dd6cc38d276395",
+  "after_sha256": "d25d80bb25f82e9c3f2b56d9a7092b885e145ddda67e5ee59784960ff859cea3",
+  "upstream_module": "m42091",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "ade42742d65066250a2f88974a1b4196bdf58e1945efbbf390ed9b6385ce5165",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Use upstream qualification; four quantities do not cover all seven SI base quantities.",
+  "before": "<para id=\"import-auto-id2510075\">The range of objects and phenomena studied in physics is immense. From the incredibly short lifetime of a nucleus to the age of the Earth, from the tiny sizes of sub-nuclear particles to the vast distance to the edges of the known universe, from the force exerted by a jumping flea to the force between Earth and the Sun, there are enough factors of 10 to challenge the imagination of even the most experienced scientist. Giving numerical values for physical quantities and equations for physical principles allows us to understand nature much more deeply than does qualitative description alone. To comprehend these vast ranges, we must also have accepted units in which to express them. And we shall find that (even in the potentially mundane discussion of meters, kilograms, and seconds) a profound simplicity of nature appears—all physical quantities can be expressed as combinations of only four fundamental physical quantities: length, mass, time, and electric current.</para>",
+  "after": "<para id=\"import-auto-id2510075\">The range of objects and phenomena studied in physics is immense. From the incredibly short lifetime of a nucleus to the age of the Earth, from the tiny sizes of sub-nuclear particles to the vast distance to the edges of the known universe, from the force exerted by a jumping flea to the force between Earth and the Sun, there are enough factors of 10 to challenge the imagination of even the most experienced scientist. Giving numerical values for physical quantities and equations for physical principles allows us to understand nature much more deeply than does qualitative description alone. To comprehend these vast ranges, we must also have accepted units in which to express them. And we shall find that (even in the potentially mundane discussion of meters, kilograms, and seconds) a profound simplicity of nature appears—most physical quantities can be expressed as combinations of only four fundamental physical quantities: length, mass, time, and electric current.</para>",
+  "substitutions": [
+    [
+      "all physical quantities can be expressed",
+      "most physical quantities can be expressed"
+    ]
+  ]
+}

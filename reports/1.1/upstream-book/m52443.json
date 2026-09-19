@@ -7,7 +7,7 @@
     "m42437"
   ],
   "counts": {
-    "prose": 10,
+    "prose": 11,
     "math-markup-change": 2,
     "math-token-change": 1,
     "math-structure": 1
@@ -140,6 +140,20 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-7463477dd8e7805f",
+      "kind": "prose",
+      "local_module": "m52443",
+      "upstream_module": "m42437",
+      "source_id": "import-auto-id1169738181556@caption",
+      "status": "unreviewed-difference",
+      "local": "The apparatus used by Hertz in 1887 to generate and detect electromagnetic waves. An AC circuit connected to the first loop caused sparks across a gap in the wire loop and generated electromagnetic waves. Sparks across a gap in the second loop located across the laboratory gave evidence that the waves had been received.",
+      "upstream": "The apparatus used by Hertz in 1887 to generate and detect electromagnetic waves. An [MATH] circuit connected to the first loop caused sparks across a gap in the wire loop and generated electromagnetic waves. Sparks across a gap in the second loop located across the laboratory gave evidence that the waves had been received.",
+      "local_html": "The apparatus used by Hertz in 1887 to generate and detect electromagnetic waves. An AC circuit connected to the first loop caused sparks across a gap in the wire loop and generated electromagnetic waves. Sparks across a gap in the second loop located across the laboratory gave evidence that the waves had been received.\n               ",
+      "upstream_html": "The apparatus used by Hertz in 1887 to generate and detect electromagnetic waves. An <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>RLC</mtext></mrow></mstyle></mrow><mrow /></mrow></math> circuit connected to the first loop caused sparks across a gap in the wire loop and generated electromagnetic waves. Sparks across a gap in the second loop located across the laboratory gave evidence that the waves had been received.\n               ",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-37fa43cec2ec1041",
       "kind": "prose",
       "local_module": "m52443",
@@ -159,11 +173,12 @@
       "local_module": "m52443",
       "upstream_module": "m42437",
       "source_id": "import-auto-id1169738198969@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>υ</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>υ</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">fλ</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-00229eb101535bc1",
@@ -183,11 +198,12 @@
       "local_module": "m52443",
       "upstream_module": "m42437",
       "source_id": "import-auto-id1169738234772@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>c</mi></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c95610f5b22563fc",

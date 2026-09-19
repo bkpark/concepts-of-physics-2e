@@ -1,0 +1,24 @@
+{
+  "id": "BK03-02",
+  "status": "applied-author-directed",
+  "authorization": "Standing instruction to backport applicable CC BY upstream corrections with minimal edits.",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67530",
+  "source_object": "import-auto-id1616012",
+  "source_path": "maintained/modules/m67530/index.cnxml",
+  "source_sha256": "7ddc816cae0033b6da190cea71fe6071b58bd86bc04a1a263cf6bdca278a5866",
+  "after_sha256": "53c74c4741538b9b780ebdbeee543c3c42b17ecede6ef80778ce26174376b97b",
+  "upstream_module": "m42073",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_module_sha256": "c19c7900338f6142df551f86f4961a218530230286ea003457444abc89e69440",
+  "upstream_license": "CC-BY-4.0",
+  "reason": "Backport the upstream location qualification for the discussion of changing weight.",
+  "before": "<para id=\"import-auto-id1616012\">The acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{g} {}</m:annotation></m:semantics></m:math><emphasis effect=\"italics\"/> varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth. On the Moon, for example, the acceleration due to gravity is only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.67</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1 \".\" \"67\"\" m/s\" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.</para>",
+  "after": "<para id=\"import-auto-id1616012\">The acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{g} {}</m:annotation></m:semantics></m:math><emphasis effect=\"italics\"/> varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.67</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1 \".\" \"67\"\" m/s\" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.</para>",
+  "substitutions": [
+    [
+      "leaves Earth.",
+      "leaves Earth’s surface."
+    ]
+  ]
+}

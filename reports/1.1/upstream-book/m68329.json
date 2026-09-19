@@ -7,14 +7,28 @@
     "m42075"
   ],
   "counts": {
+    "prose": 2,
     "accessibility": 1,
-    "prose": 1,
     "math-markup-change": 7,
     "math-token-change": 12,
     "math-structure": 1,
     "media": 1
   },
   "changes": [
+    {
+      "id": "UP-bf33baa4e15fa8bf",
+      "kind": "prose",
+      "local_module": "m68329",
+      "upstream_module": "m42075",
+      "source_id": "import-auto-id1545449@caption",
+      "status": "unreviewed-difference",
+      "local": "Unless an infinite tension is exerted, any flexible connector—such as the chain at the bottom of the picture—will sag under its own weight, giving a characteristic curve when the weight is evenly distributed along the length, known as a catenary curve. Suspension bridges—such as the Golden Gate Bridge shown in this image—are essentially very heavy flexible connectors. The weight of the bridge is evenly distributed along the length of flexible connectors, usually cables, which take on the characteristic shape. (credit: Leaflet, Wikimedia Commons)",
+      "upstream": "Unless an infinite tension is exerted, any flexible connector—such as the chain at the bottom of the picture—will sag under its own weight, giving a characteristic curve when the weight is evenly distributed along the length. Suspension bridges—such as the Golden Gate Bridge shown in this image—are essentially very heavy flexible connectors. The weight of the bridge is evenly distributed along the length of flexible connectors, usually cables, which take on the characteristic shape. (credit: Leaflet, Wikimedia Commons)",
+      "local_html": "Unless an infinite tension is exerted, any flexible connector—such as the chain at the bottom of the picture—will sag under its own weight, giving a characteristic curve when the weight is evenly distributed along the length, known as a catenary curve. Suspension bridges—such as the Golden Gate Bridge shown in this image—are essentially very heavy flexible connectors. The weight of the bridge is evenly distributed along the length of flexible connectors, usually cables, which take on the characteristic shape. (credit: Leaflet, Wikimedia Commons)",
+      "upstream_html": "Unless an infinite tension is exerted, any flexible connector—such as the chain at the bottom of the picture—will sag under its own weight, giving a characteristic curve when the weight is evenly distributed along the length. Suspension bridges—such as the Golden Gate Bridge shown in this image—are essentially very heavy flexible connectors. The weight of the bridge is evenly distributed along the length of flexible connectors, usually cables, which take on the characteristic shape. (credit: Leaflet, Wikimedia Commons)",
+      "exercise_context": false,
+      "credit_review_required": true
+    },
     {
       "id": "UP-0fa83cc03a35863c",
       "kind": "accessibility",
@@ -47,11 +61,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "eip-id1166246@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-ad87d9ce0daaa714",
@@ -59,11 +74,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "eip-id1331551@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>N</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>N</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-4297ab95c31685b3",
@@ -71,11 +87,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "eip-id1640254@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mi>w</mi></mrow><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow></mrow><mrow /></mrow></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mi>w</mi></mrow><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-b5e565f72a901808",
@@ -83,11 +100,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "eip-id2489897@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">(</mo></mrow><mtext>5.00 kg</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>9</mn><mtext>.</mtext><msup><mtext>80 m/s</mtext><mrow><mn>2</mn></mrow></msup><mrow><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">=</mo></mrow><mtext>49.0 N</mtext></mrow></mrow><mrow /></mrow></mrow><mo>.</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><mi>T</mi><mo stretchy=\"false\">=</mo><mstyle fontstyle=\"italic\" style=\";font-style:italic\"><mrow><mtext>mg</mtext></mrow></mstyle></mrow><mo stretchy=\"false\">=</mo><mo stretchy=\"false\">(</mo></mrow><mtext>5.00 kg</mtext><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>9</mn><mtext>.</mtext><msup><mtext>80 m/s</mtext><mrow><mn>2</mn></mrow></msup><mrow><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">=</mo></mrow><mtext>49.0 N</mtext></mrow></mrow></mrow><mo>.</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-79552d326abae515",
@@ -95,11 +113,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "eip-id2555725@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>F</mi><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mi>T</mi><mo stretchy=\"false\">−</mo><mi>w</mi></mrow></mrow><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow><mo>,</mo></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>F</mi><mrow><mtext>net</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mi>T</mi><mo stretchy=\"false\">−</mo><mi>w</mi></mrow></mrow><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow><mo>,</mo></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c0164268c956d465",
@@ -119,11 +138,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "import-auto-id1309127@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>T</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>T</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-31713b4f2f76da05",
@@ -131,11 +151,12 @@
       "local_module": "m68329",
       "upstream_module": "m42075",
       "source_id": "import-auto-id1309127@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>w</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>w</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f52ac10060fa6fb4",

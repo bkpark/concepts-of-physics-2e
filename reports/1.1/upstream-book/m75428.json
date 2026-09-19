@@ -8,7 +8,7 @@
     "m42329"
   ],
   "counts": {
-    "prose": 7,
+    "prose": 9,
     "references": 1,
     "math-markup-change": 24,
     "math-token-change": 1
@@ -25,6 +25,20 @@
       "upstream": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible. (See .) Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
       "local_html": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible (see <span class=\"muted\">[reference]</span>, which shows a Van de Graaff generator). Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
       "upstream_html": "Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible. (See <span class=\"muted\">[reference]</span>.) Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-e2cc7870b7283159",
+      "kind": "prose",
+      "local_module": "m75428",
+      "upstream_module": "m42317",
+      "source_id": "import-auto-id2594161@caption",
+      "status": "unreviewed-difference",
+      "local": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.",
+      "upstream": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).",
+      "local_html": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.",
+      "upstream_html": "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).",
       "exercise_context": false,
       "credit_review_required": false
     },
@@ -104,16 +118,31 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-a7f1069c6d51283f",
+      "kind": "prose",
+      "local_module": "m75428",
+      "upstream_module": "m42317",
+      "source_id": "import-auto-id3230544@caption",
+      "status": "unreviewed-difference",
+      "local": "When an electric field [MATH] is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( [MATH] ) exerts a force ( [MATH] ) on the free charge [MATH] , which moves the charge until [MATH] . (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium. A positive free charge is shown in the figure for the example, but the result holds similarly for a negative free charge.",
+      "upstream": "When an electric field [MATH] is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( [MATH] ) exerts a force ( [MATH] ) on the free charge [MATH] , which moves the charge until [MATH] . (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.",
+      "local_html": "When an electric field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext></mrow><mrow /></mrow></mrow></math> is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>) exerts a force (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>) on the free charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>, which moves the charge until <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>. (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium. A positive free charge is shown in the figure for the example, but the result holds similarly for a negative free charge.",
+      "upstream_html": "When an electric field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext></mrow></mrow></math> is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>) exerts a force (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>) on the free charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>, which moves the charge until <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>. (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-1418c58f6c4ca4c3",
       "kind": "math-markup-change",
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1381531@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c77f03025e5a840a",
@@ -121,11 +150,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1381531@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3c79aee2b3410d21",
@@ -133,11 +163,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1409968@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-5cfcf864d0e8bbb6",
@@ -145,11 +176,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1409968@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c8ca602dd7b055e3",
@@ -157,11 +189,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1409968@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1fa15cd61340be21",
@@ -181,11 +214,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1974605@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f9935ba09ef8e80e",
@@ -193,11 +227,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1974605@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub><mo stretchy=\"false\">=</mo><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d31dbb8d267f5a0f",
@@ -205,11 +240,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1974605@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-c39a005ecd0e66c2",
@@ -217,11 +253,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id1974605@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-681c7641687a552d",
@@ -229,11 +266,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2398984@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-b1311018cab0441e",
@@ -241,11 +279,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2398984@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-2a7baec939695959",
@@ -253,11 +292,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2583169@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-9e683637cb1170dd",
@@ -265,11 +305,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id2583169@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a5026b9bad82e631",
@@ -277,11 +318,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3009601@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mi>a</mi></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-03af92c214cff93f",
@@ -289,11 +331,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3009601@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mi>b</mi></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3cb9e9921b558374",
@@ -301,11 +344,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3009601@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mi>c</mi></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-f2a2efde120d22ea",
@@ -313,11 +357,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3009601@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>q</mi><mrow><mi>d</mi></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-50ada939d6274b69",
@@ -325,11 +370,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3009601@5",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-2112d45afa36f5aa",
@@ -337,11 +383,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3105551@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-6cde2314f9e52ce1",
@@ -349,11 +396,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3230544@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-149442f565d15c37",
@@ -361,11 +409,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3230544@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">E</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-8f1c2e2bc6639727",
@@ -373,11 +422,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3230544@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-0a87d511e1a27d21",
@@ -385,11 +435,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3230544@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>q</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>q</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-4ca88c4b4288647f",
@@ -397,11 +448,12 @@
       "local_module": "m75428",
       "upstream_module": "m42317",
       "source_id": "import-auto-id3230544@5",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mtext mathvariant=\"normal\" style=\"font-weight:700\">F</mtext><mrow><mo stretchy=\"false\">∥</mo></mrow></msub><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-6f6aa376b50e1d69",

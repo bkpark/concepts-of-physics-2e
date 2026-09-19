@@ -7,7 +7,7 @@
     "m42249"
   ],
   "counts": {
-    "prose": 8,
+    "prose": 9,
     "references": 1,
     "math-markup-change": 14,
     "math-token-change": 2,
@@ -123,6 +123,20 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-1a40ad4f862ff2d2",
+      "kind": "prose",
+      "local_module": "m71588",
+      "upstream_module": "m42249",
+      "source_id": "import-auto-id3045433@caption",
+      "status": "unreviewed-difference",
+      "local": "First and second harmonic frequencies are shown.",
+      "upstream": "First and second overtones are shown.",
+      "local_html": "First and second harmonic frequencies are shown.",
+      "upstream_html": "First and second overtones are shown.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-9e6169cc0c69e305",
       "kind": "prose",
       "local_module": "m71588",
@@ -156,11 +170,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "eip-115@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>B</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">∣</mo><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"false\">∣</mo></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>B</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">∣</mo><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"false\">∣</mo></mrow></mrow></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e746a1df8c51b3e7",
@@ -168,11 +183,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1328917@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>256</mtext><mi /><mspace width=\"0.25em\" /><mtext>Hz</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>256</mtext><mi /><mspace width=\"0.25em\" /><mtext>Hz</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3047b40df530c3aa",
@@ -180,11 +196,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1328917@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>254</mtext></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>254</mtext></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-11c22924cccbc330",
@@ -192,11 +209,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1328917@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mtext>258</mtext><mspace width=\"0.25em\" /><mtext>Hz</mtext></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>258</mtext><mspace width=\"0.25em\" /><mtext>Hz</mtext></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-961d910cb92746d7",
@@ -204,11 +222,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1525260@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mtext>B</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">∣</mo><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"false\">∣</mo></mrow></mrow></mrow><mo>.</mo><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mtext>B</mtext></mrow></msub><mo stretchy=\"false\">=</mo><mrow><mo stretchy=\"false\">∣</mo><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">−</mo><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mo stretchy=\"false\">∣</mo></mrow></mrow></mrow><mo>.</mo><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-25daa1e28c35ef22",
@@ -228,11 +247,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1593914@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-ff49940ac4a91a00",
@@ -240,11 +260,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1593914@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-1377a724353b1269",
@@ -252,11 +273,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1917426@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-06d2264f3f00b673",
@@ -264,11 +286,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id1917426@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>λ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e15a7c4ef9b2d6ab",
@@ -276,11 +299,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id765484@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d684a1df0ceaa2e4",
@@ -288,11 +312,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id765484@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><msub><mi>λ</mi><mrow><mn>1</mn></mrow></msub></mrow></mrow><mo stretchy=\"false\">=</mo><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub><mo stretchy=\"false\">/</mo><mn>2</mn><mi /><mi>L</mi></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-bb4947d4404c74c4",
@@ -300,11 +325,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id765484@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mi>L</mi></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>λ</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"false\">=</mo><mi>L</mi></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-3f0ac15384e9f6e3",
@@ -324,11 +350,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id765484@5",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>3</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mrow><mn>3</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mn>3</mn></mrow></msub><mo stretchy=\"false\">=</mo><msub><mrow><mn>3</mn><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-4423b38d6f355eb9",
@@ -336,11 +363,12 @@
       "local_module": "m71588",
       "upstream_module": "m42249",
       "source_id": "import-auto-id765484@6",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msub><mi>v</mi><mrow><mtext>w</mtext></mrow></msub></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-b5165b9eb164c481",

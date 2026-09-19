@@ -65,6 +65,10 @@ for mid,u in up.items():
     for ident in u['ids']: owners[ident].add(mid)
 prior={s:m for m in load('metadata/upstream-map.proposed.json')['mappings'] for s in m['local_sections']}
 sections=load('maintained/sections.json')['sections']
+decision_path=ROOT/'proposals/1.1/backport-decisions.json'
+manual={x['id']:x for x in load('proposals/1.1/backport-decisions.json')['decisions']} if decision_path.exists() else {}
+math_path=ROOT/'reports/1.1/math-representation-decisions.json'
+math_decisions={x['id']:x for x in load('reports/1.1/math-representation-decisions.json')['decisions']} if math_path.exists() else {}
 mapping=[]; rows=[]; all_changes=[]
 for sec in sections:
     mid=sec['id'].split(':')[1]; b=(ROOT/sec['source']).read_bytes(); root=ET.fromstring(b); local=ids(root)
@@ -93,6 +97,11 @@ for sec in sections:
                             'status':'unreviewed-difference','local':before,'upstream':after,**extra})
         for ident in sorted(shared):
             a=local[ident]; z=u['ids'][ident]
+            # CNXML captions often have no ID of their own. Match through the figure.
+            if tag(a)=='figure':
+                ac=a.find(C+'caption'); zc=z.find(C+'caption')
+                if ac is not None and zc is not None and not ac.get('id') and norm(ac)!=norm(zc):
+                    add('prose',ident+'@caption',norm(ac),norm(zc),local_html=fragment(ac),upstream_html=fragment(zc))
             # Avoid duplicate parent records; tables, lists and paragraphs compare at leaves.
             prose={'para','caption','title','meaning','item','entry','label'}
             if tag(a) in prose and not any(tag(c) in prose for c in a.iter() if c is not a):
@@ -124,6 +133,13 @@ for sec in sections:
             ancestors.append(tag(e)+' '+e.get('class','')); e=parents.get(e)
         change['exercise_context']=any('exercise' in a or 'solution' in a or 'problem' in a for a in ancestors)
         change['credit_review_required']=change['kind']=='media' or bool(re.search(r'credit:|copyright|license|CC BY|noncommercial|share.?alike',str(change['upstream']),re.I))
+        fingerprint=sha(json.dumps({'local':change['local'],'upstream':change['upstream']},sort_keys=True,ensure_ascii=False).encode())
+        decision=manual.get(change['id'])
+        if decision and decision['fingerprint']==fingerprint:
+            change['status']=decision['status'];change['disposition_reason']=decision['reason']
+        decision=math_decisions.get(change['id'])
+        if decision and sha(change['local'].encode())==decision['local_render_sha256'] and sha(change['upstream'].encode())==decision['upstream_render_sha256']:
+            change['status']=decision['status'];change['disposition_reason']=decision['reason']
     counts=dict(collections.Counter(x['kind'] for x in changes))
     row={'module':mid,'title':sec['title'],'slug':sec['slug'],'local_sha256':sha(b),'upstream_modules':sorted(mapped),'counts':counts,'changes':changes}
     save(OUT/(mid+'.json'),row); rows.append(row); all_changes.extend(changes)
@@ -135,8 +151,9 @@ summary={'upstream_commit':ref['commit'],'archive_sha256':ref['archive']['sha256
          'local_sections':len(rows),'mapped_sections':sum(bool(r['upstream_modules']) for r in rows),
          'unmapped_sections':[r['module'] for r in rows if not r['upstream_modules']],
          'counts':dict(collections.Counter(c['kind'] for c in all_changes)),
+         'disposition_counts':dict(collections.Counter(c['status'] for c in all_changes)),
          'exercise_context_differences':sum(c['exercise_context'] for c in all_changes),
-         'status':'Inventory only; differences are not yet classified as applicable corrections.',
+         'status':'Partial review: fingerprinted dispositions are recorded; unreviewed differences remain. Full backport is not complete.',
          'limitations':['Two-way comparison cannot distinguish every author adaptation from an upstream correction.',
                        'ID changes and additions/removals require structural review; shared-ID matching does not cover them completely.',
                        'Math markup changes have identical token lists but can still change layout or grouping; token changes can also be only formatting.',
@@ -146,14 +163,14 @@ save(OUT/'summary.json',summary)
 style='<style>body{font:18px/1.6 Georgia;max-width:1100px;margin:auto;padding:24px;color:#20343c}a{color:#12647b;overflow-wrap:anywhere}article{border-top:1px solid #aaa;margin:2em 0;padding-top:1em}.columns{display:grid;grid-template-columns:1fr 1fr;gap:20px}.box{min-width:0;overflow:auto;padding:12px;background:#f4f6f6}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}.muted{color:#59666a}math{font-size:1.1em}table{border-collapse:collapse;width:100%}td,th{padding:8px;text-align:left;border-bottom:1px solid #ccc}@media(max-width:700px){.columns{display:block}}</style>'
 def head(title):return '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+html.escape(title)+'</title>'+style+'<h1>'+html.escape(title)+'</h1>'
 source='<p>Comparison source: <a href="'+ref['repository']+'/tree/'+ref['commit']+'">OpenStax College Physics 2e, pinned February 4, 2026 CC BY 4.0 snapshot</a>. Introduction to Physics retains its existing attribution. No content is imported by this report.</p>'
-index=head('1.1: whole-book upstream review')+'<p><b>Unreviewed differences, not a list of confirmed corrections.</b> SR01 and SR02 are already applied. Preserve author adaptations; defer broader rewriting. Exercise corrections remain in scope even though exercise redesign is deferred.</p>'+source+'<p><a href="applied.html">Applied corrections: first whole-book batch</a></p><p>'+str(summary['mapped_sections'])+' of '+str(len(rows))+' local sections have supported upstream correspondences. The remaining section is the local Preface. Math markup differences with identical token lists are listed separately from token changes; neither count is a count of mathematical errors.</p><table><tr><th>Section</th><th>Upstream</th><th>Differences by kind</th></tr>'
+index=head('1.1: whole-book upstream review')+'<p><b>Partial review, not a completed backport.</b> Each difference carries its current disposition. Preserve author adaptations; defer broader rewriting. Exercise corrections remain in scope even though exercise redesign is deferred.</p>'+source+'<p><a href="applied.html">First applied batch</a> · <a href="../backport-review/">Opening-chapter corrections and pending decisions</a></p><p>'+str(summary['mapped_sections'])+' of '+str(len(rows))+' local sections have supported upstream correspondences. The remaining section is the local Preface. Math markup differences with identical token lists are listed separately from token changes; neither count is a count of mathematical errors.</p><table><tr><th>Section</th><th>Upstream</th><th>Differences by kind</th></tr>'
 for row in rows:
     mid=row['module'];index+='<tr><td><a href="'+mid+'.html">'+html.escape(row['title'])+'</a></td><td>'+', '.join(row['upstream_modules'])+'</td><td>'+html.escape(str(row['counts']))+'</td></tr>'
     page=head(row['title'])+'<p><a href="index.html">Whole-book index</a> · <a href="'+mid+'.json">Machine-readable evidence</a> · <a href="https://intro.coaphys.xyz/sections/'+row['slug']+'/">Published 1.0 section</a></p>'+source
     page+='<p>Unreviewed differences. Neither column is automatically preferred. Math matches use owner ID and ordinal, which can shift after structural edits.</p>'
     for ch in row['changes']:
         if ch['kind']=='math-markup-change': page+='<details><summary>Math markup difference: '+html.escape(ch['source_id'])+' (same token list)</summary>'
-        page+='<article id="'+ch['id']+'"><h2>'+ch['id']+' · '+ch['kind']+'</h2><p>Source '+html.escape(ch['source_id'])+' · upstream '+ch['upstream_module']+(' · exercise/solution' if ch['exercise_context'] else '')+'</p><div class="columns">'
+        page+='<article id="'+ch['id']+'"><h2>'+ch['id']+' · '+ch['kind']+'</h2><p>Source '+html.escape(ch['source_id'])+' · upstream '+ch['upstream_module']+(' · exercise/solution' if ch['exercise_context'] else '')+'</p><p><b>'+html.escape(ch['status'])+'</b> '+html.escape(ch.get('disposition_reason',''))+'</p><div class="columns">'
         for side,label in [('local','Maintained text'),('upstream','Pinned upstream')]:
             if ch['kind']=='prose': body=ch[side+'_html']
             elif ch['kind'] in ('math-token-change','math-markup-change'):body=ch[side]

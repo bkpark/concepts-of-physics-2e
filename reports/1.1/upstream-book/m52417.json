@@ -7,7 +7,7 @@
     "m42380"
   ],
   "counts": {
-    "prose": 5,
+    "prose": 8,
     "references": 1,
     "math-markup-change": 13,
     "math-token-change": 2,
@@ -57,6 +57,20 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-d210895500ebeaa4",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id1615457@caption",
+      "status": "unreviewed-difference",
+      "local": "Force on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise rotation as viewed from above.",
+      "upstream": "Torque on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise torque as viewed from above.",
+      "local_html": "Force on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise rotation as viewed from above.",
+      "upstream_html": "Torque on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise torque as viewed from above.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-10e31c80faac44c3",
       "kind": "prose",
       "local_module": "m52417",
@@ -67,6 +81,20 @@
       "upstream": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic torque on a current-carrying loop. shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of [MATH] by making [MATH] perpendicular to the loop over a large angular range. Thus the torque is proportional to [MATH] and not [MATH] . A linear spring exerts a counter-torque that balances the current-produced torque. This makes the needle deflection proportional to [MATH] . If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area [MATH] , high magnetic field [MATH] , and low-resistance coils.",
       "local_html": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic force on a current-carrying loop. <span class=\"muted\">[reference]</span> shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math> by making <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math> perpendicular to the loop over a large angular range.\n\nA linear spring exerts a counter-force that balances the current-produced force. This makes the needle deflection proportional to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>. If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>A</mi></mrow><mrow /></mrow></mrow></math>, high magnetic field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>, and low-resistance coils.",
       "upstream_html": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic torque on a current-carrying loop. <span class=\"muted\">[reference]</span> shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math> by making <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math> perpendicular to the loop over a large angular range. Thus the torque is proportional to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math> and not <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>. A linear spring exerts a counter-torque that balances the current-produced torque. This makes the needle deflection proportional to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>. If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>A</mi></mrow></mrow></math>, high magnetic field <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>, and low-resistance coils.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
+      "id": "UP-77171976512b090a",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-auto-id2028294@caption",
+      "status": "unreviewed-difference",
+      "local": "Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of [MATH] perpendicular to the loop constant, so that the force does not depend on [MATH] and the deflection against the return spring is proportional only to the current [MATH] .",
+      "upstream": "Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of [MATH] perpendicular to the loop constant, so that the torque does not depend on [MATH] and the deflection against the return spring is proportional only to the current [MATH] .",
+      "local_html": "Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math> perpendicular to the loop constant, so that the force does not depend on <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math> and the deflection against the return spring is proportional only to the current <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>.",
+      "upstream_html": "Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math> perpendicular to the loop constant, so that the torque does not depend on <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math> and the deflection against the return spring is proportional only to the current <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>.",
       "exercise_context": false,
       "credit_review_required": false
     },
@@ -108,16 +136,31 @@
       "credit_review_required": false
     },
     {
+      "id": "UP-983ba7ae0b7ecefa",
+      "kind": "prose",
+      "local_module": "m52417",
+      "upstream_module": "m42380",
+      "source_id": "import-fig03@caption",
+      "status": "unreviewed-difference",
+      "local": "(a) As the momentum of the coil carries it through [MATH] , the brushes reverse the current to keep the motion clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the motion.",
+      "upstream": "(a) As the angular momentum of the coil carries it through [MATH] , the brushes reverse the current to keep the torque clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the clockwise torque.",
+      "local_html": "(a) As the momentum of the coil carries it through <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>, the brushes reverse the current to keep the motion clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the motion.",
+      "upstream_html": "(a) As the angular momentum of the coil carries it through <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>, the brushes reverse the current to keep the torque clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the clockwise torque.",
+      "exercise_context": false,
+      "credit_review_required": false
+    },
+    {
       "id": "UP-151301bc71586193",
       "kind": "math-markup-change",
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "fs-id1168951430590@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>I</mi></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-715f3e2f1c5b5dfa",
@@ -125,11 +168,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "fs-id1168951430590@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>θ</mi></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-b3c6332a7ebc6a0e",
@@ -137,11 +181,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id1942860@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-70ba99352a23a234",
@@ -149,11 +194,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id1942860@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-e3c5747935d51017",
@@ -161,11 +207,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id1942860@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-fdd26b765891bd67",
@@ -197,11 +244,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2028294@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>B</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>B</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-b5c1d31721ef8d9f",
@@ -209,11 +257,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2028294@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>θ</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d52cba2c4af981f1",
@@ -221,11 +270,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2028294@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>I</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>I</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d73672239e8bed04",
@@ -233,11 +283,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2852936@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-ec490a22dca94c73",
@@ -245,11 +296,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2852936@2",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-a58e94fa274f5976",
@@ -257,11 +309,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2852936@3",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-ee1e4c4db7d8216e",
@@ -269,11 +322,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-auto-id2852936@4",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-45c2e2f4147deb69",
@@ -281,11 +335,12 @@
       "local_module": "m52417",
       "upstream_module": "m42380",
       "source_id": "import-fig03@1",
-      "status": "unreviewed-difference",
+      "status": "retain-local-representation",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mn>0</mn></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
       "id": "UP-d63382c75d3f507f",
