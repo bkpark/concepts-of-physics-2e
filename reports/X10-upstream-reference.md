@@ -1,7 +1,8 @@
 # X10: incorrect chapter reference in Relativistic Momentum
 
-Checked the live OpenStax pages on 2026-09-19. No erratum submitted by this task;
-no X10 correction has been applied to the maintained book.
+Checked the live OpenStax pages on 2026-09-19. The author subsequently submitted [erratum 30173](https://openstax.org/errata/30173).
+Submission is recorded from the author’s report; OpenStax disposition is not independently verified.
+The author-approved local X10 correction is now applied to the maintained book.
 
 ## Evidence
 
