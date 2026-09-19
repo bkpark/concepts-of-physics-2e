@@ -1,0 +1,16 @@
+{
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52314",
+  "source_object": "import-auto-id2778378",
+  "authorization": "Author explicitly approved BR02 axis-label correction while retaining the original paths and answers.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_license": "CC-BY-4.0",
+  "id": "BR02-alt",
+  "source_path": "maintained/modules/m52314/index.cnxml",
+  "source_sha256": "98e7d78ecebf0365af0019f70f4bbe304b18b35778fe6d830035c85cfdc8b8ae",
+  "after_sha256": "afe93c92979dbcee56282bbf53d5bf7dcbebcdab69e98f2f0c99285198d98bbc",
+  "before": "displacement paths",
+  "after": "position paths",
+  "reason": "Match corrected position label in alt text while retaining the original endpoint description."
+}

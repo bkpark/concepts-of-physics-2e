@@ -1,6 +1,6 @@
 {
   "target_release": "cp2e-ver1.1",
-  "status": "BR01 applied; BR02 awaiting author decision",
+  "status": "BR01 and BR02 applied",
   "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
   "items": [
     {
@@ -46,10 +46,10 @@
       "module": "m52314",
       "source_id": "import-auto-id2778378",
       "title": "Displacement exercise figure: correct the axis without moving path C",
-      "reason": "The local axis says displacement x but depicts position x. Upstream fixes the axis and also moves C’s endpoint from 11 m to 10 m. Its pinned solution still uses 11 m, giving distance 13 m and displacement +9 m. Retain the local endpoint and solution. Decide whether to fix only the axis label now or defer that cosmetic repair to exercise revision. No figure change applied.",
+      "reason": "Applied the position axis label and matching alt text while retaining all original paths and answers. Path C still ends at 11 m; the upstream endpoint change is not adopted.",
       "local_image": "maintained/media/Figure_02_01Sol_01.jpg",
       "upstream_image": "tmp/chapter-1-media/Figure_02_01Sol_01.jpg",
-      "decision": null
+      "decision": "applied-author-directed"
     }
   ]
 }

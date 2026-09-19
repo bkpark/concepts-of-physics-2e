@@ -2,7 +2,7 @@
   "module": "m52314",
   "title": "Displacement",
   "slug": "displacement",
-  "local_sha256": "98e7d78ecebf0365af0019f70f4bbe304b18b35778fe6d830035c85cfdc8b8ae",
+  "local_sha256": "afe93c92979dbcee56282bbf53d5bf7dcbebcdab69e98f2f0c99285198d98bbc",
   "upstream_modules": [
     "m42033"
   ],
@@ -21,12 +21,12 @@
       "local_module": "m52314",
       "upstream_module": "m42033",
       "source_id": "import-auto-id2778378",
-      "status": "awaiting-author-decision",
-      "local": "An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.",
+      "status": "retain-approved-adaptation",
+      "local": "An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with position paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.",
       "upstream": "An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with position paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 10. Path D starts at 9, goes to 3, then turns around and stops at 5.",
       "exercise_context": true,
       "credit_review_required": false,
-      "disposition_reason": "BR02: retain local C endpoint and answer. Pinned upstream image ends at 10 m, but its solution calculates using 11 m. Axis-label-only repair is pending."
+      "disposition_reason": "BR02 applied: corrected position label and alt text, retained original path C endpoint and answers. Upstream endpoint change remains inconsistent with its solution."
     },
     {
       "id": "UP-32d43b15a649ce3c",
@@ -457,10 +457,10 @@
       "local_module": "m52314",
       "upstream_module": "m42033",
       "source_id": "import-auto-id2778378",
-      "status": "awaiting-author-decision",
+      "status": "retain-approved-adaptation",
       "local": {
         "path": "../../media/Figure_02_01Sol_01.jpg",
-        "sha256": "dc19af54866c04e74e7ce972ca4da2ecbaa963ec19c9313a54e4a1ddf7ecc807"
+        "sha256": "70c440c4a0ef538f033da13eb0a6dfd5d76851c64e53f17027ceead27842faa5"
       },
       "upstream": {
         "path": "../../media/Figure_02_01Sol_01.jpg",
@@ -469,7 +469,7 @@
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": true,
       "credit_review_required": true,
-      "disposition_reason": "BR02: retain local C endpoint and answer. Pinned upstream image ends at 10 m, but its solution calculates using 11 m. Axis-label-only repair is pending."
+      "disposition_reason": "BR02 applied: corrected position label and alt text, retained original path C endpoint and answers. Upstream endpoint change remains inconsistent with its solution."
     },
     {
       "id": "UP-e18f32baae2bbc7a",

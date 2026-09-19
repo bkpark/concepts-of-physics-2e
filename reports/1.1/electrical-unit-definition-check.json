@@ -1,0 +1,18 @@
+{
+  "scope": "All maintained module paragraphs, glossary definitions and list items mentioning ampere/coulomb; checked for obsolete operational SI definitions.",
+  "result": "No former parallel-wire ampere definition or obsolete coulomb realization found. No content changes needed.",
+  "relevant_passages": [
+    {
+      "module": "m67130",
+      "source_id": "import-auto-id3008166",
+      "finding": "Ampere is one coulomb per second; still correct."
+    },
+    {
+      "module": "m52381",
+      "source_id": "import-auto-id1779747",
+      "finding": "Names coulomb and calculates proton count using rounded elementary charge; no exact SI realization claimed."
+    }
+  ],
+  "verification_url": "https://www.bipm.org/en/-/resolution-cgpm-26-1",
+  "verification": "Effective 20 May 2019, fixed elementary charge 1.602176634e-19 C; C = A s. Facts checked only; no external prose imported."
+}
