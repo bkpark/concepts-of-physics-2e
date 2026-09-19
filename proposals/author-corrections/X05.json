@@ -1,13 +1,15 @@
 {
   "id": "X05",
-  "status": "preview-awaiting-author-confirmation",
+  "status": "applied-author-directed",
   "module": "m42356",
   "source_object": "fs-id1904415",
   "source_path": "maintained/modules/m42356/index.cnxml",
   "source_sha256": "a52a1f2f22143880fcb476eb94c10fbacff7a6fb47510940d2c7646ede3b0479",
   "before": "<para id=\"fs-id1904415\">No, there are many ways to connect resistors that are not combinations of series and parallel, including loops and junctions. In such cases Kirchhoff’s rules, to be introduced in <link document=\"m42359\">Kirchhoff’s Rules</link>, will allow you to analyze the circuit.\n</para>",
-  "after": "<para id=\"fs-id1904415\">No. Not every resistor network can be reduced to series and parallel combinations. Methods for analyzing these more general networks are beyond the scope of this textbook.\n</para>",
-  "replacement_text": "No. Not every resistor network can be reduced to series and parallel combinations. Methods for analyzing these more general networks are beyond the scope of this textbook.",
-  "reason": "Retain the answer to the existing Check Your Understanding question while removing the promise of a later Kirchhoff section. No new circuit-analysis coverage is introduced.",
-  "policy": "Wording suggestion only; not applied."
+  "after": "<para id=\"fs-id1904415\">No. Not every resistor network can be reduced to series and parallel combinations. These more general networks can be analyzed using Kirchhoff’s rules, which are beyond the scope of this textbook.\n</para>",
+  "replacement_text": "No. Not every resistor network can be reduced to series and parallel combinations. These more general networks can be analyzed using Kirchhoff’s rules, which are beyond the scope of this textbook.",
+  "reason": "Author approved retaining the name Kirchhoff’s rules and stating that the methods are beyond this textbook’s scope; remove the missing-section reference and omit the invitation to look them up.",
+  "policy": "Applied only to the maintained source; historical source remains untouched.",
+  "change_kind": "replace-prose",
+  "after_sha256": "b9929a222a4204b3c90093e76fd3d5b41ee7ac194a702c64078d3b4887c40b46"
 }
