@@ -68,7 +68,7 @@ limits = [
 ]
 summary = dict(date=packet['date'], sections=len(coverage), candidate_blocks=len(inventory),
                category_counts=dict(collections.Counter(c for i in inventory for c in i['categories'])),
-               review_items=len(items), proposed_corrections=sum(bool(i['proposed_xml']) for i in items),
+               review_items=len(items), proposed_corrections=sum(bool(i['proposed_xml']) and i['category'] != 'author-discussion' for i in items),
                author_discussion=sum(i['category']=='author-discussion' for i in items), limitations=limits,
                section_coverage=coverage)
 save(OUT / 'screening-inventory.json', inventory)
