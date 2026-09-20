@@ -2,31 +2,16 @@
   "module": "m76603",
   "title": "Nuclear Decay and Conservation Laws",
   "slug": "nuclear-decay-and-conservation-laws",
-  "local_sha256": "8819b07d0a37ee114fd5596c29cf8941f5fef5eebded172f12b8642a80190231",
+  "local_sha256": "0456b11e66b8578b17e35f8954706f2868b2e4f7fffd38255ed1803321f49db0",
   "upstream_modules": [
     "m42633"
   ],
   "counts": {
-    "accessibility": 1,
     "references": 7,
-    "prose": 4,
-    "math-markup-change": 284,
-    "media": 1
+    "prose": 2,
+    "math-markup-change": 284
   },
   "changes": [
-    {
-      "id": "UP-709fda23cb8d31cf",
-      "kind": "accessibility",
-      "local_module": "m76603",
-      "upstream_module": "m42633",
-      "source_id": "import-auto-id1117770",
-      "status": "retained-adaptation-or-deferred-editorial-change",
-      "local": "Photo of physicist Enrico Fermi.",
-      "upstream": "A photo of Enrico Fermi and a photo of Chien-Shiung Wu.",
-      "exercise_context": false,
-      "credit_review_required": false,
-      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
-    },
     {
       "id": "UP-e222ec5990206c81",
       "kind": "references",
@@ -129,21 +114,6 @@
       "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
-      "id": "UP-15a5858caae26a59",
-      "kind": "prose",
-      "local_module": "m76603",
-      "upstream_module": "m42633",
-      "source_id": "import-auto-id2672424@caption",
-      "status": "retained-adaptation-or-deferred-editorial-change",
-      "local": "Enrico Fermi was nearly unique among 20th-century physicists—he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs)",
-      "upstream": "(a) Enrico Fermi made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)",
-      "local_html": "Enrico Fermi was nearly unique among 20th-century physicists—he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs)",
-      "upstream_html": "(a) Enrico Fermi made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)",
-      "exercise_context": false,
-      "credit_review_required": true,
-      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
-    },
-    {
       "id": "UP-2248f4f4409f2b0a",
       "kind": "references",
       "local_module": "m76603",
@@ -196,21 +166,6 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
-    },
-    {
-      "id": "UP-01a1b96ba2e5b312",
-      "kind": "prose",
-      "local_module": "m76603",
-      "upstream_module": "m42633",
-      "source_id": "import-auto-id3037465",
-      "status": "retained-adaptation-or-deferred-editorial-change",
-      "local": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see ). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay.",
-      "upstream": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see ). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.",
-      "local_html": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see <span class=\"muted\">[reference]</span>). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay.",
-      "upstream_html": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see <span class=\"muted\">[reference]</span>). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.",
-      "exercise_context": false,
-      "credit_review_required": false,
-      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     },
     {
       "id": "UP-dc4103745e269036",
@@ -3903,26 +3858,6 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
-    },
-    {
-      "id": "UP-14d9bb02be4b26ac",
-      "kind": "media",
-      "local_module": "m76603",
-      "upstream_module": "m42633",
-      "source_id": "import-auto-id1117770",
-      "status": "retained-adaptation-or-deferred-editorial-change",
-      "local": {
-        "path": "../../media/Figure_32_04_03a.jpg",
-        "sha256": "e5a5721fcfbf20ec301bc72bb7836fd8c533a52780fca0326cdbc1764a6eada2"
-      },
-      "upstream": {
-        "path": "../../media/OSX_CP2e_Figure_32_04_03.jpg",
-        "sha256": "84581a81475925668474ea5992b3f88bf6a72587ef61ac691646180b37794ba1"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true,
-      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "U4-17",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m76603",
+  "source_object": "import-auto-id2672424",
+  "source_path": "maintained/modules/m76603/index.cnxml",
+  "source_sha256": "68f5f77a2b39b0d07ee6faead0b36c8ac67b35e462587554ba4032b12f108b1f",
+  "after_sha256": "0456b11e66b8578b17e35f8954706f2868b2e4f7fffd38255ed1803321f49db0",
+  "before": "<figure id=\"import-auto-id2672424\"><media id=\"import-auto-id1117770\" alt=\"Photo of physicist Enrico Fermi.\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure_32_04_03a.jpg\" width=\"200\"/>\n      </media>\n      \n    <caption>Enrico Fermi was nearly unique among 20th-century physicists—he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs)</caption></figure>",
+  "after": "<figure id=\"import-auto-id2672424\"><media id=\"import-auto-id1117770\" alt=\"A photo of Enrico Fermi and a photo of Chien-Shiung Wu.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_32_04_03a.jpg\" width=\"200\"/>\n      </media>\n\n    <caption>(a) Enrico Fermi made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)</caption></figure>",
+  "reason": "Use the upstream composite caption and alternative text; retain figure identity and correct the JPEG media type.",
+  "authorization": "Author explicitly approved U4-H05 including new upstream image and captions.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42633"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned upstream addition; Wu photo rights documented in reports/1.1/unit4-review/wu-image-provenance.json."
+}
