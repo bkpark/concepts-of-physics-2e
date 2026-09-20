@@ -1213,7 +1213,7 @@
       "source_path": "maintained/modules/m68327/index.cnxml",
       "source_sha256": "9c6beb31d7d5399116334a67137b8e275adb2e417c4782951eb25225e288b6cb",
       "title": "Radiation-risk calculation needs a coordinated revision",
-      "reason": "This is not a safe numbers-only patch. The adjoining text treats all effects as linear, assigns a fixed annual cancer-death risk for 30 years, calls 1 Sv the average survivor dose, asserts a universal genetic-risk fraction, and suggests low-dose linear extrapolation is probably an overestimate. RERF gives an LSS average around 0.14–0.2 Gy (not interchangeable with every dose quantity); WHO distinguishes tissue effects and cancer risk. Keep the dose-unit teaching, but author-review the risk explanation and any dependent examples together. The first draft below addresses only the earlier paragraph's final three sentences about the linear hypothesis and repair. Its preceding prose is unchanged context, not yet cleared by this review; the risk calculation and other connected claims remain pending.",
+      "reason": "This is not a safe numbers-only patch. The adjoining text treats all effects as linear, assigns a fixed annual cancer-death risk for 30 years, calls 1 Sv the average survivor dose, asserts a universal genetic-risk fraction, and suggests low-dose linear extrapolation is probably an overestimate. RERF gives an LSS average around 0.14–0.2 Gy (not interchangeable with every dose quantity); WHO distinguishes tissue effects and cancer risk. Keep the dose-unit teaching, but author-review the risk explanation and any dependent examples together. The first draft below addresses only the earlier paragraph's final three sentences about the linear hypothesis and repair. Its preceding prose is unchanged context, not yet cleared by this review; the risk calculation and other connected claims remain pending. A second draft below retains an explicit numerical scale (300 in 10^6 per rem) as a lifetime estimate, qualified to within an order of magnitude, rather than a constant annual risk multiplied by 30 years. The following calculation has not yet been revised to match.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1419266\">If a person receives a dose of 1 rem, his risk each year of dying from radiation-induced cancer is 10 in a million and that risk continues for about 30 years. The lifetime risk is thus 300 in a million, or 0.03 percent. Since about 20 percent of all worldwide deaths are from cancer, the increase due to a 1 rem exposure is impossible to detect demographically. But 100 rem (1 Sv), which was the dose received by the average Hiroshima and Nagasaki survivor, causes an additional 3 percent risk, which can be observed with statistical significance above the 20 percent natural incidence rate.</para>",
       "proposed_xml": null,
       "edits": [],
@@ -1247,6 +1247,18 @@
           "url": "https://www.nrc.gov/facilities-safety/radiation-protection/radiation-and-its-health-effects",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "EPA: radiogenic cancer risk models and population projections",
+          "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100BA2I.TXT",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "RERF: solid-cancer risk and persistence over a lifetime",
+          "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/late-en/cancrisk/",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
         }
       ],
       "related_passages": [
@@ -1262,9 +1274,22 @@
               "after": "This is called the <term id=\"import-auto-id1381282\">linear hypothesis</term>, or linear no-threshold model, and is used in radiation protection. The size of the cancer risk at very low doses remains uncertain. Cells can repair radiation damage, but some damage may remain or be repaired incorrectly."
             }
           ]
+        },
+        {
+          "title": "Lifetime-risk estimate with explicit numbers",
+          "source_id": "import-auto-id1403686",
+          "anchor": "import-auto-id1403686",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1403686\">There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the overall risk of a radiation-induced cancer death per year per rem of exposure is about 10 in a million, which can be written as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\" /><m:mtext>rem</m:mtext><m:mspace width=\"0.25em\" /><m:mtext>·</m:mtext><m:mspace width=\"0.25em\" /><m:mtext>yr</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1403686\">There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about <m:math><m:mn>300</m:mn></m:math> in <m:math><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup></m:math> per rem of whole-body exposure, within an order of magnitude. The risk depends on age at exposure and other factors.</para>",
+          "edits": [
+            {
+              "before": "Omitting many details, the overall risk of a radiation-induced cancer death per year per rem of exposure is about 10 in a million, which can be written as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\" /><m:mtext>rem</m:mtext><m:mspace width=\"0.25em\" /><m:mtext>·</m:mtext><m:mspace width=\"0.25em\" /><m:mtext>yr</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.",
+              "after": "Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about <m:math><m:mn>300</m:mn></m:math> in <m:math><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup></m:math> per rem of whole-body exposure, within an order of magnitude. The risk depends on age at exposure and other factors."
+            }
+          ]
         }
       ],
-      "revision_note": "Begin FC29 review with a narrowly scoped proposal for the last three sentences of the earlier linear-hypothesis paragraph. Replace the vague controversy label with the specific low-dose uncertainty, correct the little-self-repair implication, and remove the UV analogy. Cumulative risk alone establishes neither a straight-line dose response nor the absence of a threshold. Earlier sentences of this context paragraph and the main risk-calculation passage still require coordinated review; this is not a completed FC29 patch. No textbook edits applied."
+      "revision_note": "Begin FC29 review with a narrowly scoped proposal for the last three sentences of the earlier linear-hypothesis paragraph. Replace the vague controversy label with the specific low-dose uncertainty, correct the little-self-repair implication, and remove the UV analogy. Cumulative risk alone establishes neither a straight-line dose response nor the absence of a threshold. Earlier sentences of this context paragraph and the main risk-calculation passage still require coordinated review; this is not a completed FC29 patch. No textbook edits applied. Author requested visible numerals and an explicit order-of-magnitude qualification for the lifetime estimate. Added a separate comparison replacing the annual coefficient with 300 in 10^6 per rem over a lifetime. Preceding latency sentences remain unchanged context pending coordinated review; the following calculation paragraph still needs alignment. The lifetime coefficient is an illustrative rough estimate, not a universal individual prediction."
     },
     {
       "id": "FC30",

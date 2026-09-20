@@ -401,7 +401,7 @@ Use the conventional time–distance–shielding teaching order and reorder the 
 
 Biological Effects of Ionizing Radiation · proposed-not-applied
 
-This is not a safe numbers-only patch. The adjoining text treats all effects as linear, assigns a fixed annual cancer-death risk for 30 years, calls 1 Sv the average survivor dose, asserts a universal genetic-risk fraction, and suggests low-dose linear extrapolation is probably an overestimate. RERF gives an LSS average around 0.14–0.2 Gy (not interchangeable with every dose quantity); WHO distinguishes tissue effects and cancer risk. Keep the dose-unit teaching, but author-review the risk explanation and any dependent examples together. The first draft below addresses only the earlier paragraph's final three sentences about the linear hypothesis and repair. Its preceding prose is unchanged context, not yet cleared by this review; the risk calculation and other connected claims remain pending.
+This is not a safe numbers-only patch. The adjoining text treats all effects as linear, assigns a fixed annual cancer-death risk for 30 years, calls 1 Sv the average survivor dose, asserts a universal genetic-risk fraction, and suggests low-dose linear extrapolation is probably an overestimate. RERF gives an LSS average around 0.14–0.2 Gy (not interchangeable with every dose quantity); WHO distinguishes tissue effects and cancer risk. Keep the dose-unit teaching, but author-review the risk explanation and any dependent examples together. The first draft below addresses only the earlier paragraph's final three sentences about the linear hypothesis and repair. Its preceding prose is unchanged context, not yet cleared by this review; the risk calculation and other connected claims remain pending. A second draft below retains an explicit numerical scale (300 in 10^6 per rem) as a lifetime estimate, qualified to within an order of magnitude, rather than a constant annual risk multiplied by 30 years. The following calculation has not yet been revised to match.
 
 **Current:** If a person receives a dose of 1 rem, his risk each year of dying from radiation-induced cancer is 10 in a million and that risk continues for about 30 years. The lifetime risk is thus 300 in a million, or 0.03 percent. Since about 20 percent of all worldwide deaths are from cancer, the increase due to a 1 rem exposure is impossible to detect demographically. But 100 rem (1 Sv), which was the dose received by the average Hiroshima and Nagasaki survivor, causes an additional 3 percent risk, which can be observed with statistical significance above the 20 percent natural incidence rate.
 
@@ -411,11 +411,19 @@ This is not a safe numbers-only patch. The adjoining text treats all effects as 
 
 **Proposed:** The two known long-term effects of radiation are cancer and genetic defects. Both are directly attributable to the interference of radiation with cell reproduction. For high doses of radiation, the risk of cancer is reasonably well known from studies of exposed groups. Hiroshima and Nagasaki survivors and a smaller number of people exposed by their occupation, such as radium dial painters, have been fully documented. Chernobyl victims will be studied for many decades, with some data already available. For example, a significant increase in childhood thyroid cancer has been observed. The risk of a radiation-induced cancer for low and moderate doses is generally assumed to be proportional to the risk known for high doses. Under this assumption, any dose of radiation, no matter how small, involves a risk to human health. This is called the linear hypothesis, or linear no-threshold model, and is used in radiation protection. The size of the cancer risk at very low doses remains uncertain. Cells can repair radiation damage, but some damage may remain or be repaired incorrectly.
 
+### Lifetime-risk estimate with explicit numbers
+
+**Current:** There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the overall risk of a radiation-induced cancer death per year per rem of exposure is about 10 in a million, which can be written as 10/106rem·yr.
+
+**Proposed:** There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about 300 in 106 per rem of whole-body exposure, within an order of magnitude. The risk depends on age at exposure and other factors.
+
 - [RERF: LSS cohort context](https://www.rerf.or.jp/uploads/2021/06/RR8-20_e.pdf)
 - [RERF: offspring studies](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/)
 - [WHO: radiation health effects](https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects)
 - [EPA: radiation health effects and the linear no-threshold model](https://www.epa.gov/radiation/radiation-health-effects)
 - [NRC: cellular repair and radiation health effects](https://www.nrc.gov/facilities-safety/radiation-protection/radiation-and-its-health-effects)
+- [EPA: radiogenic cancer risk models and population projections](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100BA2I.TXT)
+- [RERF: solid-cancer risk and persistence over a lifetime](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/late-en/cancrisk/)
 
 ## FC30 — Thyroid uptake does not identify cancer as the hottest tissue
 
