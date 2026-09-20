@@ -448,7 +448,7 @@ Explain how radioactive iodine concentrates in the thyroid and how a gamma camer
 
 ## FC31 — Connect the bridge examples to damping
 
-Forced Oscillations and Resonance · proposed-not-applied
+Forced Oscillations and Resonance · approved-pending-application
 
 Connect the bridge discussion to the preceding shock-absorber example through damping. Retain Tacoma as an illustration of destructive oscillations and Millennium as the concrete example of reducing motion by adding damping. Remove the explanatory detour about more complicated mechanisms. Neither the paragraph nor the revised caption attributes the Tacoma collapse to a periodic force at resonance or claims damping alone would have prevented it. Existing photo, credit, and identifiers are retained. The caption retains its opening sentence and damping/amplitude conclusion, replacing the resonance claim and the unsupported account of damping decreasing as cables slipped over towers. WSDOT describes the motion as exceeding the bridge's ability to damp it out.
 
