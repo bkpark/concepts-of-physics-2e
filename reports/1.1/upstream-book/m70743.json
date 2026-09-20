@@ -2,17 +2,18 @@
   "module": "m70743",
   "title": "Induced Voltage and Magnetic Flux",
   "slug": "induced-voltage-and-magnetic-flux",
-  "local_sha256": "4f1d68c1c17270fc9423b4ccb62b27ea90b5b543a8c203da5a1bc44ebc86f659",
+  "local_sha256": "0c0f9f2ca12b65145917e1053d7da804245870ba01227a83dd5d2f96654993e3",
   "upstream_modules": [
     "m42390"
   ],
   "counts": {
     "prose": 16,
     "references": 1,
+    "accessibility": 1,
     "math-token-change": 7,
     "math-markup-change": 20,
     "math-structure": 1,
-    "media": 2
+    "media": 1
   },
   "changes": [
     {
@@ -218,6 +219,19 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Preserve voltage terminology, perpendicular-component flux representation and custom diagram. Correct an voltage typo. Hold upstream’s generator-current reversal until diagram geometry is reviewed, rather than importing it on authority alone."
+    },
+    {
+      "id": "UP-dacd23e9a75a241d",
+      "kind": "accessibility",
+      "local_module": "m70743",
+      "upstream_module": "m42390",
+      "source_id": "import-auto-id1169738105511",
+      "status": "retain-approved-adaptation",
+      "local": "The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. The axle may be mechanically rotated from outside to rotate the coil inside the magnetic field. Outer ends of the two brushes are connected to the galvanometer. Current flows upward on the left side of the coil and downward on the right side nearer the viewer; the galvanometer shows a deflection.",
+      "upstream": "The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. The axle may be mechanically rotated from outside to rotate the coil inside the magnetic field. Outer ends of the two brushes are connected to the galvanometer. A current is shown to flow in the coil in anti clockwise direction and the galvanometer shows a deflection.",
+      "exercise_context": false,
+      "credit_review_required": false,
+      "disposition_reason": "Author approved held-item resolution; retain local identifiers, representation, and synchronized figure description. See U3-H01, U3-H03 figure, or U3-H05 and records U3-51 through U3-55."
     },
     {
       "id": "UP-01e54b420088cb3b",
@@ -672,26 +686,6 @@
       "exercise_context": false,
       "credit_review_required": true,
       "disposition_reason": "Preserve voltage terminology, perpendicular-component flux representation and custom diagram. Correct an voltage typo. Hold upstream’s generator-current reversal until diagram geometry is reviewed, rather than importing it on authority alone."
-    },
-    {
-      "id": "UP-2d837429a883b1fd",
-      "kind": "media",
-      "local_module": "m70743",
-      "upstream_module": "m42390",
-      "source_id": "import-auto-id1169738105511",
-      "status": "held-for-author-review",
-      "local": {
-        "path": "../../media/Figure_24_01_03.jpg",
-        "sha256": "4cf84bf534267e6107cca48509fd5aacc6b2166cba4bd1892294de1ef8a2ddaa"
-      },
-      "upstream": {
-        "path": "../../media/Figure_24_01_03.jpg",
-        "sha256": "8124388a2c4d746aba357364287407224f76cf3cde0d4a3a636ebcc499969734"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true,
-      "disposition_reason": "See U3-H05. Preserve voltage terminology, perpendicular-component flux representation and custom diagram. Correct an voltage typo. Hold upstream’s generator-current reversal until diagram geometry is reviewed, rather than importing it on authority alone."
     }
   ]
 }

@@ -54,3 +54,15 @@ Reproduce current reports with `python tools/triage_upstream_math.py`, `python t
 8. After content review, regenerate and check both output formats, numbering and anchors. Do not overwrite the frozen 1.0 artifacts, tag or live website.
 
 The current generated inventory contains unreviewed differences, not thousands of confirmed errors. It separates prose, references, accessibility, media, MathML token changes, identical-token markup changes, and unmatched MathML structure. Counts can overlap within an object.
+
+
+### Unit 3 author decisions (September 19, 2026)
+
+- H01 applied: upstream metal-block example, omitting an unnecessary Thermodynamics aside; coverage is not missing.
+- H02 deferred by author to the exercise revision.
+- H03 figure applied from the pinned CC BY archive, with the 2020 caption, NASA credit and corrected color-scale alternative text. Paragraph also applied with author-approved limited factual adjustments: omit the undated country ranking and replace the incorrect 2020 record claim with “large and long-lasting.”
+- H04 prose applied with the author-approved limited qualification: studies have not established that power-line fields cause cancer, rather than upstream’s blanket absence-of-risk statement.
+- H05 upstream generator arrows applied, with synchronized alternative text.
+- H06 unchanged pending discussion; preserve the electron-transition explanation with a narrower claim rather than deleting it wholesale.
+
+Evidence for approved H03/H04 qualifications: [NASA 2020 ozone map and account](https://science.nasa.gov/earth/climate-change/ozone-layer/large-deep-antarctic-ozone-hole-in-2020-147465/), [NCI electromagnetic fields fact sheet](https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/electromagnetic-fields-fact-sheet). These sources support factual checking; prose backports and figure bytes come from the recorded CC BY snapshot.

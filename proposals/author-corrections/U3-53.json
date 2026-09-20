@@ -1,0 +1,20 @@
+{
+  "id": "U3-53",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67133",
+  "source_object": "import-auto-id1169737813036",
+  "source_path": "maintained/modules/m67133/index.cnxml",
+  "source_sha256": "9ab441774db045cc4186a488e600e261c5ee86ea232de692ad1af8c007e45993",
+  "after_sha256": "5813437aa3470fe5ff9e60c9eac1fd17b9089649c8d1d40616bfb9d67efaf76d",
+  "before": "<figure id=\"import-auto-id1169737813036\"><media id=\"import-auto-id1169737812667\" alt=\"The map shows the variation in concentration of ozone over Antarctica. The scale for the total ozone level is depicted below the graph in Dobson units. The values are marked in colors of spectrum with the lowest value is marked in violet and the maximum value in red. The Antarctica region is marked in violet showing lesser ozone concentration and more ultraviolet rays. The region around Antarctica is in green, showing slightly higher concentration of ozone.\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure 25_03_12a.jpg\" width=\"225\"/>\n      </media>\n        \n    <caption>This map of ozone concentration over Antarctica in October 2011 shows severe depletion suspected to be caused by CFCs. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)</caption></figure>",
+  "after": "<figure id=\"import-auto-id1169737813036\"><media id=\"import-auto-id1169737812667\" alt=\"Map of total ozone over Antarctica in September 2020. Red and orange indicate low ozone over Antarctica; blue indicates higher ozone in surrounding regions. The scale runs from 100 to 500 Dobson units.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure 25_03_12a.jpg\" width=\"225\"/>\n      </media>\n\n    <caption>This map of ozone concentration over Antarctica in September 2020 shows severe depletion suspected to be caused by CFCs. In 2020, ozone depletion was significantly worse than in 2019, but better than in the early 2000s. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Earth Observatory)</caption></figure>",
+  "reason": "U3-H03: synchronize the 2020 caption, NASA credit, image type and alternative text with the replacement map.",
+  "authorization": "Author explicitly approved U3-H01, H03 figure and related materials, and H05; deferred H02 to exercise revision. H03/H04 prose qualification pending separate review.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42444"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

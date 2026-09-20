@@ -1,0 +1,20 @@
+{
+  "id": "U3-51",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52364",
+  "source_object": "import-auto-id1969030",
+  "source_path": "maintained/modules/m52364/index.cnxml",
+  "source_sha256": "5e9e1b952e0205535a3463c23a572890cf4a1d1298073235cb3eb8ecbc8bfd92",
+  "after_sha256": "7d606286e8cc568193089e091768f4db60e3194f64c29a9d360e74d14ead453c",
+  "before": "<para id=\"import-auto-id1969030\">This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the <emphasis effect=\"italics\">zeroth law</emphasis> because it comes logically before the first and second laws. An example of this law in action is seen in babies in incubators: babies in incubators normally have very few clothes on, so to an observer they look as if they may not be warm enough. However, the temperature of the air, the cot, and the baby is the same, because they are in thermal equilibrium, which is accomplished by maintaining air temperature to keep the baby comfortable.</para>",
+  "after": "<para id=\"import-auto-id1969030\">This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the <emphasis effect=\"italics\">zeroth law</emphasis> because it comes logically before the first and second laws. Suppose, for example, a cold metal block and a hot metal block are both placed on a metal plate at room temperature. Eventually the cold block and the plate will be in thermal equilibrium. In addition, the hot block and the plate will be in thermal equilibrium. By the zeroth law, we can conclude that the cold block and the hot block are also in thermal equilibrium. Similarly, two thermometers placed in thermal contact, one with one block and the second with the other block, will also be in thermal equilibrium and therefore read the same temperature. This establishes temperature as a meaningful concept.</para>",
+  "reason": "U3-H01: adopt the metal-block example; omit the unnecessary Thermodynamics aside, not because coverage is missing.",
+  "authorization": "Author explicitly approved U3-H01, H03 figure and related materials, and H05; deferred H02 to exercise revision. H03/H04 prose qualification pending separate review.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42214"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

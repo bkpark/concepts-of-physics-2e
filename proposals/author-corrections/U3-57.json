@@ -1,0 +1,20 @@
+{
+  "id": "U3-57",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67133",
+  "source_object": "import-auto-id1169738010282",
+  "source_path": "maintained/modules/m67133/index.cnxml",
+  "source_sha256": "49106466d20372ffd39178d37472265e5e690f2ca60fd9333bca58e68bad128d",
+  "after_sha256": "33b82ac4780417cfd740eaeb423f348c8f066497c09e61074d426669c4a5c35b",
+  "before": "<para id=\"import-auto-id1169738010282\">There is an ongoing controversy regarding potential health hazards associated with exposure to these electromagnetic fields (<m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{E} {}</m:annotation></m:semantics></m:math>-fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But demographic data are either inconclusive or simply do not support the hazard theory. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to <m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{E} {}</m:annotation></m:semantics></m:math>-fields.</para>",
+  "after": "<para id=\"import-auto-id1169738010282\">There was a concern regarding potential health hazards associated with exposure to these electromagnetic fields (<m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{E} {}</m:annotation></m:semantics></m:math>-fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. Studies have not established that exposure to these fields from power lines causes cancer.</para>",
+  "reason": "U3-H04: adopt upstream opening with the author-approved causal statement instead of a blanket absence-of-risk assurance; preserve retained MathML.",
+  "authorization": "Author explicitly approved the limited factual adjustments proposed for H03 and H04 on September 19, 2026.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42444"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}

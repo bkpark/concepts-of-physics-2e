@@ -8,22 +8,23 @@
     "m67030"
   ],
   "counts": {
-    "prose": 605,
-    "accessibility": 21,
-    "media": 50,
-    "math-markup-change": 6459,
+    "prose": 604,
+    "accessibility": 23,
+    "media": 48,
+    "math-markup-change": 6458,
     "references": 132,
     "math-token-change": 560,
     "math-structure": 60
   },
   "disposition_counts": {
-    "retained-adaptation-or-deferred-editorial-change": 923,
-    "retain-local-representation": 6411,
-    "retain-approved-adaptation": 56,
+    "retained-adaptation-or-deferred-editorial-change": 922,
+    "retain-local-representation": 6410,
+    "retain-approved-adaptation": 63,
     "unreviewed-difference": 462,
     "retain-local-upstream-regression": 21,
     "deferred-by-author-to-broader-revision": 5,
-    "held-for-author-review": 9
+    "deferred-by-author-to-exercise-revision": 1,
+    "held-for-author-review": 1
   },
   "exercise_context_differences": 1095,
   "status": "Partial review: fingerprinted dispositions are recorded; unreviewed differences remain. Full backport is not complete.",
@@ -908,7 +909,7 @@
       "module": "m52364",
       "title": "Temperature",
       "slug": "temperature",
-      "local_sha256": "5e9e1b952e0205535a3463c23a572890cf4a1d1298073235cb3eb8ecbc8bfd92",
+      "local_sha256": "7d606286e8cc568193089e091768f4db60e3194f64c29a9d360e74d14ead453c",
       "upstream_modules": [
         "m42214"
       ],
@@ -1370,17 +1371,18 @@
       "module": "m70743",
       "title": "Induced Voltage and Magnetic Flux",
       "slug": "induced-voltage-and-magnetic-flux",
-      "local_sha256": "4f1d68c1c17270fc9423b4ccb62b27ea90b5b543a8c203da5a1bc44ebc86f659",
+      "local_sha256": "0c0f9f2ca12b65145917e1053d7da804245870ba01227a83dd5d2f96654993e3",
       "upstream_modules": [
         "m42390"
       ],
       "counts": {
         "prose": 16,
         "references": 1,
+        "accessibility": 1,
         "math-token-change": 7,
         "math-markup-change": 20,
         "math-structure": 1,
-        "media": 2
+        "media": 1
       }
     },
     {
@@ -1489,16 +1491,16 @@
       "module": "m67133",
       "title": "The Electromagnetic Spectrum: Application Notes",
       "slug": "the-electromagnetic-spectrum-application-notes",
-      "local_sha256": "9ab441774db045cc4186a488e600e261c5ee86ea232de692ad1af8c007e45993",
+      "local_sha256": "33b82ac4780417cfd740eaeb423f348c8f066497c09e61074d426669c4a5c35b",
       "upstream_modules": [
         "m42444"
       ],
       "counts": {
-        "prose": 12,
+        "prose": 11,
+        "accessibility": 1,
         "references": 2,
-        "math-markup-change": 45,
-        "math-structure": 1,
-        "media": 1
+        "math-markup-change": 44,
+        "math-structure": 1
       }
     },
     {

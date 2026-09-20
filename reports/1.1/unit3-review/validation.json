@@ -57,19 +57,33 @@
       "record": "U3-44",
       "exact_pinned_hash": "7af1efbc64d674d25670fb4a7f1fbeb00cd66d008e899116f529c8a44510dab7",
       "caption_has_separate_credit": false
+    },
+    {
+      "record": "U3-52",
+      "exact_pinned_hash": "821a1c283a88ea4a7fe0e5ad330964e8e75e48323dc89f4b1c0f2ee8505c78b6",
+      "caption_has_separate_credit": true
+    },
+    {
+      "record": "U3-54",
+      "exact_pinned_hash": "8124388a2c4d746aba357364287407224f76cf3cde0d4a3a636ebcc499969734",
+      "caption_has_separate_credit": false
     }
   ],
-  "held_items_unchanged": [
-    "U3-H01",
-    "U3-H02",
-    "U3-H03",
-    "U3-H04",
-    "U3-H05",
-    "U3-H06"
-  ],
   "baseline": "959 historical files, both tags, archive trees and historical PDF verified",
-  "maintained_ledger": "955 content files reconstructed, four initialization repairs plus 138 journaled corrections",
-  "unit3_applied_records": 50,
-  "development_build": "141 sections, 7390 mathematical expressions, only three previously known external-media notices",
-  "limits": "No release PDF generated; full-book backport and held author decisions remain incomplete."
+  "maintained_ledger": "955 content files reconstructed, four initialization repairs plus 145 journaled corrections",
+  "unit3_applied_records": 57,
+  "development_build": "141 sections, 7389 mathematical expressions; one E removed with superseded H04 sentence. Only three previously known external-media notices.",
+  "limits": "No release PDF generated; full-book backport and held author decisions remain incomplete.",
+  "review_item_statuses": {
+    "U3-H01": "applied-author-directed",
+    "U3-H02": "deferred-to-exercise-revision",
+    "U3-H03": "applied-author-directed",
+    "U3-H04": "applied-author-directed",
+    "U3-H05": "applied-author-directed",
+    "U3-H06": "held-for-author-review"
+  },
+  "unchanged_review_paragraphs": [
+    "U3-H02",
+    "U3-H06"
+  ]
 }

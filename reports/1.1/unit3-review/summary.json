@@ -52,8 +52,8 @@
     "m52456"
   ],
   "section_count": 49,
-  "applied_records": 50,
-  "held_items": 6,
+  "applied_records": 57,
+  "held_items": 1,
   "module_rationales": {
     "m67121": "Retain welder introduction and temperature-driven heat-transfer statement; NASA outgassing photo is a different introductory example.",
     "m52364": "Apply absolute-zero and equilibrium qualifications. Preserve existing temperature-scale scope and worked conversions. The incubator example is held for author review; incidental wood-versus-metal example wording and added lung discussion are broader editorial changes.",
@@ -107,16 +107,25 @@
   },
   "disposition_counts": {
     "retained-adaptation-or-deferred-editorial-change": 327,
-    "retain-approved-adaptation": 27,
-    "held-for-author-review": 9,
-    "retain-local-upstream-regression": 12
+    "retain-approved-adaptation": 33,
+    "deferred-by-author-to-exercise-revision": 1,
+    "retain-local-upstream-regression": 12,
+    "held-for-author-review": 4
   },
   "unmatched_boundary_count": 369,
-  "status": "Unit 3 comparison pass complete; six author-review holds remain. No held changes applied.",
+  "status": "Opening chapters and Units 1–3 partially reviewed. Unit 3 H01/H03/H04/H05 resolved, H02 deferred to exercise revision, H06 pending wording discussion. Remaining units not complete.",
   "limitations": [
     "This is a comparison/applicability pass, not independent re-solving of all exercises or validation of every original claim.",
     "Upstream-only content is checked against adapted coverage and relocation; absent exercises and AP questions are not restored or individually re-solved.",
     "Some upstream replacements are regressions; explicit exceptions are documented.",
     "Final PDF/layout verification follows the full-book backport. Published 1.0 is unchanged."
-  ]
+  ],
+  "review_item_statuses": {
+    "U3-H01": "applied-author-directed",
+    "U3-H02": "deferred-to-exercise-revision",
+    "U3-H03": "applied-author-directed",
+    "U3-H04": "applied-author-directed",
+    "U3-H05": "applied-author-directed",
+    "U3-H06": "held-for-author-review"
+  }
 }

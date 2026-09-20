@@ -1,0 +1,20 @@
+{
+  "id": "U3-55",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m70743",
+  "source_object": "import-auto-id1169738105511",
+  "source_path": "maintained/modules/m70743/index.cnxml",
+  "source_sha256": "4f1d68c1c17270fc9423b4ccb62b27ea90b5b543a8c203da5a1bc44ebc86f659",
+  "after_sha256": "0c0f9f2ca12b65145917e1053d7da804245870ba01227a83dd5d2f96654993e3",
+  "before": "<media id=\"import-auto-id1169738105511\" alt=\"The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. The axle may be mechanically rotated from outside to rotate the coil inside the magnetic field. Outer ends of the two brushes are connected to the galvanometer. A current is shown to flow in the coil in anti clockwise direction and the galvanometer shows a deflection.\">\n            <image mime-type=\"image/jpg\" src=\"../../media/Figure_24_01_03.jpg\" width=\"250\"/>\n        </media>",
+  "after": "<media id=\"import-auto-id1169738105511\" alt=\"The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. The axle may be mechanically rotated from outside to rotate the coil inside the magnetic field. Outer ends of the two brushes are connected to the galvanometer. Current flows upward on the left side of the coil and downward on the right side nearer the viewer; the galvanometer shows a deflection.\">\n            <image mime-type=\"image/jpg\" src=\"../../media/Figure_24_01_03.jpg\" width=\"250\"/>\n        </media>",
+  "reason": "U3-H05: describe the corrected current arrows without an ambiguous viewing direction.",
+  "authorization": "Author explicitly approved U3-H01, H03 figure and related materials, and H05; deferred H02 to exercise revision. H03/H04 prose qualification pending separate review.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42390"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction, applied minimally"
+}
