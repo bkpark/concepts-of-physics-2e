@@ -83,3 +83,5 @@ Applied U4-H05 as U4-15–U4-17: pinned CC BY Wu prose plus exact upstream compo
 Applied U4-H06 as U4-18: Yalow/Berson radioimmunoassay history with the approved competitive-binding and radioactive-tracer measurement correction.
 
 Unit 4 review closed: U4-19–U4-21 resolve reactor wording and historical corrections; U4-22 reconciles diagnostic doses with cited radiology references. No Unit 4 author holds remain. Full-book reconciliation and release verification remain separate.
+
+Final comparison reconciliation: all eleven m67032 flags resolved without content edits. Ten were shifted ordinal matches caused by an upstream omission; the structure flag comprises the retained powers-of-ten example and three expressions in approved BR01. Evidence: reports/1.1/m67032-reconciliation.json. All 140 mapped sections now have recorded decisions; local Preface is unmapped. This completes the scoped upstream comparison/backport pass, not the independent full-book content audit or release checks.

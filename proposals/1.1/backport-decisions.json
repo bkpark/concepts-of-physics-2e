@@ -1,5 +1,5 @@
 {
-  "scope": "All four units and appendices compared; Unit 4 author holds resolved. Exercise redesign and full-book final reconciliation/release verification remain.",
+  "scope": "All 140 mapped sections reviewed against pinned CC BY source; final m67032 math flags reconciled. Local Preface has no counterpart. Deliberately deferred work and release verification remain separate.",
   "decisions": [
     {
       "id": "UP-e7007087ba4c1d6d",
@@ -11832,6 +11832,94 @@
       "status": "retain-approved-adaptation",
       "reason": "Retain approved U4-18 correction: measure tracer radioactivity, not unbound antibodies.",
       "fingerprint": "b4f04bbd79a3942f168d1a0c9579aa13e7d9cf168369ce41e5afb82017fe75fe"
+    },
+    {
+      "id": "UP-32931390becf1514",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@10",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "bc141f1ce7940157db45ff96e5ba39642cf59864bf4a5728eaee16798a835d9a"
+    },
+    {
+      "id": "UP-c4763ccc533520fd",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@11",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "b31353f5a8f8c9294b9ef3a858467a64d58dbba0b48de377d7bf76ecf328c82b"
+    },
+    {
+      "id": "UP-88459779dc7d7031",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@2",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "950a8b98a7f3e6e682db02db17906feec3a4dc2bcce57bd17ba08bd4266d60dd"
+    },
+    {
+      "id": "UP-81a0bdb893a854b4",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@3",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "fda4d54453a9203ba1b1281354e76c7391e65d2e28b0bbcb5973264c3c02066b"
+    },
+    {
+      "id": "UP-29c9e98892835f08",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@4",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "d62bae600d1af3a0c08c6078cba7af849fa797f3c8351938a7cb330c7a7916b7"
+    },
+    {
+      "id": "UP-d97d8c71f721e821",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@5",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "e90ce33599e07b4a9f1d924f51f55beff1941cb0a261b00b015d193b51cac58f"
+    },
+    {
+      "id": "UP-33bd348a72e5ccaf",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@6",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "bb1c8a84e6f84d7d38765e877244ae5a9c6ef4f1444bd8f9ca5b20b112f84738"
+    },
+    {
+      "id": "UP-ecde91fd0e49f273",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@7",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "e82196de75361e82a1c5d38ddc70758b48fce111361d354443b514064239039c"
+    },
+    {
+      "id": "UP-62164683089761d9",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@8",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "ac3f1c752a8a9d278041e3b00aa535b08d65f0411baf633fcf10599a13a808b9"
+    },
+    {
+      "id": "UP-eeb8c30641306109",
+      "module": "m67032",
+      "source_id": "import-auto-id1577727@9",
+      "status": "retain-local-upstream-regression",
+      "reason": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "b76c617314ebcc6100a2b4219a4950e9d456d6ddf74d58fde3489481960348e7"
+    },
+    {
+      "id": "UP-b3584b7e486bee86",
+      "module": "m67032",
+      "source_id": "m42091",
+      "status": "retain-approved-adaptation",
+      "reason": "Retain local-only powers-of-ten example and three MathML expressions in the approved BR01 kilogram paragraph (h, exact Planck constant in SI units, c). All four unmatched expressions are accounted for; no missing upstream correction. Evidence: reports/1.1/m67032-reconciliation.json",
+      "fingerprint": "d228dc03a751534327553c65461187c18c855632a317a48b6ec570f2ee459222"
     }
   ]
 }

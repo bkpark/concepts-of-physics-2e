@@ -1,0 +1,83 @@
+{
+  "module": "m67032",
+  "title": "Physical Quantities and Units",
+  "upstream_module": "m42091",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "local_sha256": "2da04f0dcb55a6d2721f1a451f0eed46e14da38b8dbbe90a7a43f737e23ea36d",
+  "upstream_sha256": "ade42742d65066250a2f88974a1b4196bdf58e1945efbbf390ed9b6385ce5165",
+  "content_changed": false,
+  "matched_pairs": [
+    {
+      "local_ordinal": 1,
+      "upstream_ordinal": 1,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 3,
+      "upstream_ordinal": 2,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 4,
+      "upstream_ordinal": 3,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 5,
+      "upstream_ordinal": 4,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 6,
+      "upstream_ordinal": 5,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 7,
+      "upstream_ordinal": 6,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 8,
+      "upstream_ordinal": 7,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 9,
+      "upstream_ordinal": 8,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 10,
+      "upstream_ordinal": 9,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 11,
+      "upstream_ordinal": 10,
+      "structure_match": true
+    },
+    {
+      "local_ordinal": 12,
+      "upstream_ordinal": 11,
+      "structure_match": true
+    }
+  ],
+  "normalization": "Ignore math/semantics/mrow grouping and non-rendered annotations; preserve other element names, attributes, text, superscripts and child order.",
+  "local_only_example": "10^1, 10^2, 10^3 at local ordinal 2; pinned upstream sentence is truncated at this point.",
+  "kilogram_proof": "Current paragraph is byte-for-byte equal to approved BR01 after block; three local MathML objects absent from upstream are h, exact SI value, c.",
+  "resolved_flags": {
+    "UP-32931390becf1514": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-c4763ccc533520fd": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-88459779dc7d7031": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-81a0bdb893a854b4": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-29c9e98892835f08": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-d97d8c71f721e821": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-33bd348a72e5ccaf": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-ecde91fd0e49f273": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-62164683089761d9": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-eeb8c30641306109": "Ordinal mismatch, not a content correction: pinned upstream omits the local powers-of-ten example at ordinal 2. Local ordinals 3–12 match upstream 2–11 after ignoring only grouping/annotation wrappers. Retain the complete local explanation.",
+    "UP-b3584b7e486bee86": "Retain local-only powers-of-ten example and three MathML expressions in the approved BR01 kilogram paragraph (h, exact Planck constant in SI units, c). All four unmatched expressions are accounted for; no missing upstream correction."
+  },
+  "status": "All eleven flags reconciled; no content edits required."
+}
