@@ -609,7 +609,7 @@
     {
       "id": "FC18",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m67805",
       "section_title": "Discovery of the Atomic Nucleus",
       "slug": "discovery-of-the-atomic-nucleus",
@@ -641,12 +641,13 @@
           "use": "factual verification only; no source prose or media imported"
         }
       ],
-      "revision_note": "Author requested a short historical note about the 2019 definition. Revised wording is displayed for review, not yet applied."
+      "revision_note": "Author requested a short historical note about the 2019 definition. Revised wording is displayed for review, not yet applied.",
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC19",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m67034",
       "section_title": "Motion Equations for Constant Acceleration in One Dimension",
       "slug": "motion-equations-for-constant-acceleration-in-one-dimension",
@@ -671,12 +672,13 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC20",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m42627",
       "section_title": "Radiation Detection and Detectors",
       "slug": "radiation-detection-and-detectors",
@@ -701,12 +703,13 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC21",
       "category": "physics-consistency",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m71415",
       "section_title": "Power",
       "slug": "power",
@@ -724,12 +727,13 @@
           "after": "In practical devices, some energy is usually converted to thermal energy."
         }
       ],
-      "sources": []
+      "sources": [],
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC22",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m52471",
       "section_title": "Half-Life and Activity",
       "slug": "half-life-and-activity",
@@ -754,12 +758,13 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC23",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m42665",
       "section_title": "Nuclear Weapons",
       "slug": "nuclear-weapons",
@@ -784,12 +789,13 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC24",
       "category": "physics-consistency",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m76603",
       "section_title": "Nuclear Decay and Conservation Laws",
       "slug": "nuclear-decay-and-conservation-laws",
@@ -824,7 +830,8 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch."
     },
     {
       "id": "FC25",
@@ -861,8 +868,38 @@
           "url": "https://global.jaxa.jp/projects/sat/ikaros/topics.html",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "The Planetary Society: LightSail 2 mission success",
+          "url": "https://www.planetary.org/press-releases/lightsail-2-mission-success",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "The Planetary Society: LightSail program and mission duration",
+          "url": "https://www.planetary.org/sci-tech/lightsail",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NASA: ACS3 mission",
+          "url": "https://www.nasa.gov/mission/acs3/",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NASA: NanoSail-D orbital and attitude dynamics",
+          "url": "https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20140000644.pdf",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "followup_research": {
+        "question": "Have there been solar-sail demonstrations since IKAROS?",
+        "findings": "LightSail 2 demonstrated controlled orbit changes using sunlight in 2019 and operated until reentry in November 2022. NanoSail-D demonstrated deployment and deorbit capability in 2011; atmospheric drag was important. NASA ACS3 deployed its sail in 2024, a boom/deployment milestone that should not be conflated with a demonstrated controlled solar-propulsion result.",
+        "optional_addition": "In 2019, The Planetary Society’s LightSail 2 demonstrated controlled changes to its orbit around Earth using the pressure of sunlight.",
+        "status": "Research recorded; optional addition not incorporated into proposal or textbook."
+      }
     },
     {
       "id": "FC26",

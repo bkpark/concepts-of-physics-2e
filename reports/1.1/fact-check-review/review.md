@@ -214,7 +214,7 @@ The principal imaging photon is 140.5 keV, or 0.1405 MeV. Use 0.141 MeV at the e
 
 ## FC18 — Elementary charge is fixed in the SI
 
-Discovery of the Atomic Nucleus · proposed-not-applied
+Discovery of the Atomic Nucleus · approved-pending-application
 
 Revised at author request to explain the historical reason for exactness. The SI redefinition effective May 20, 2019 fixed the numerical value of elementary charge in coulombs to define the ampere; before that, it was experimentally determined. Electron and proton masses remain measured. The following three-significant-figure values remain unchanged.
 
@@ -227,7 +227,7 @@ Revised at author request to explain the historical reason for exactness. The SI
 
 ## FC19 — Space Shuttle Endeavour spelling
 
-Motion Equations for Constant Acceleration in One Dimension · proposed-not-applied
+Motion Equations for Constant Acceleration in One Dimension · approved-pending-application
 
 The vehicle’s proper name retains the u.
 
@@ -239,7 +239,7 @@ The vehicle’s proper name retains the u.
 
 ## FC20 — Retain film as a detector without a current market-share claim
 
-Radiation Detection and Detectors · proposed-not-applied
+Radiation Detection and Detectors · approved-pending-application
 
 Keep the film mechanism and illustration, but remove the assertion that film is still the most common detector. Digital imaging is established; no replacement market-share statistic is needed.
 
@@ -251,7 +251,7 @@ Keep the film mechanism and illustration, but remove the assertion that film is 
 
 ## FC21 — Avoid an absolute ban on lossless energy conversion
 
-Power · proposed-not-applied
+Power · approved-pending-application
 
 A frictionless falling body or ideal spring is already a counterexample in this book. Thermal losses in practical machines do not prohibit all complete energy conversions. This is an internal physics consistency check.
 
@@ -262,7 +262,7 @@ A frictionless falling body or ideal spring is already a counterexample in this 
 
 ## FC22 — Chernobyl caption: distinguish deaths and injuries
 
-Half-Life and Activity · proposed-not-applied
+Half-Life and Activity · approved-pending-application
 
 UNSCEAR reports 30 worker deaths within weeks, including 28 deaths from radiation sickness within three months. The original “more than 100” confuses severe exposure/injury with early deaths. Replace the unsupported definite future death count with the established thyroid-cancer effect.
 
@@ -274,7 +274,7 @@ UNSCEAR reports 30 worker deaths within weeks, including 28 deaths from radiatio
 
 ## FC23 — Fission attribution: experiment and interpretation
 
-Nuclear Weapons · proposed-not-applied
+Nuclear Weapons · approved-pending-application
 
 Hahn and Strassmann were chemists; Meitner and Frisch supplied the physical interpretation, not merely verification. Correct the name and roles while keeping the paragraph’s structure.
 
@@ -286,7 +286,7 @@ Hahn and Strassmann were chemists; Meitner and Frisch supplied the physical inte
 
 ## FC24 — Neutrino discovery: distinguish early evidence from confirmation
 
-Nuclear Decay and Conservation Laws · proposed-not-applied
+Nuclear Decay and Conservation Laws · approved-pending-application
 
 There was preliminary evidence in 1953, so a bare date substitution would lose a real distinction. Say first unambiguous detection in 1956. Separately remove the misleading short-interaction-time explanation; weak interaction strength, not speed alone, explains penetration.
 
@@ -308,6 +308,10 @@ JAXA reports reception in April–May 2015. Avoid calling a 2010 mission the lat
 **Proposed:** One demonstration of this concept is the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. JAXA reported receiving data from the spacecraft in April and May 2015. A scale model of the spacecraft is shown in .
 
 - [JAXA: IKAROS mission updates](https://global.jaxa.jp/projects/sat/ikaros/topics.html)
+- [The Planetary Society: LightSail 2 mission success](https://www.planetary.org/press-releases/lightsail-2-mission-success)
+- [The Planetary Society: LightSail program and mission duration](https://www.planetary.org/sci-tech/lightsail)
+- [NASA: ACS3 mission](https://www.nasa.gov/mission/acs3/)
+- [NASA: NanoSail-D orbital and attitude dynamics](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20140000644.pdf)
 
 ## FC26 — Higgs discovery and the surrounding unification explanation
 
