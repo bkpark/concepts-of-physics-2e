@@ -164,7 +164,7 @@ IPCC AR6 identifies human greenhouse-gas emissions as the cause of observed warm
 
 ## FC14 — Montreal Protocol: distinguish ratification from implementation
 
-The Electromagnetic Spectrum: Application Notes · proposed-not-applied
+The Electromagnetic Spectrum: Application Notes · approved-pending-application
 
 Reassessment after author question: universal ratification in 2009 does not make continued developing-country participation unnecessary. UNEP documents ongoing implementation and enforcement after ratification. The original sentence is defensible if participation means implementation, so the original classification as a confirmed factual error is withdrawn. Suggested optional clarification retains that point and repairs the confusing phrase worldwide production and elimination of CFCs. No change is applied.
 
