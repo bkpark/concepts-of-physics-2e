@@ -133,7 +133,7 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
 leads=load('proposals/1.1/fact-check-followups.json')
 page.append('<section id="limits"><h2>Coverage and limits</h2><ul>'+''.join('<li>'+esc(l)+'</li>' for l in limits)+'</ul><p>The screening inventory contains '+str(len(inventory))+' candidate blocks from 141 sections; category counts overlap. Most candidates are ordinary teaching statements, not suspected errors.</p><h3>Additional leads, not independently resolved</h3><ul>'+''.join('<li><strong>'+esc(x['topic'])+':</strong> '+esc(x['note'])+'</li>' for x in leads)+'</ul></section></body></html>')
 md+=['## Coverage and limits','']+['- '+l for l in limits]+['','## Additional leads, not independently resolved','']+['- **'+x['topic']+':** '+x['note'] for x in leads]
-(OUT/'index.html').write_text('\n'.join(page)+'\n',encoding='utf-8',newline='\n')
+(OUT/'index.html').write_text('\n'.join(line.rstrip() for line in '\n'.join(page).splitlines())+'\n',encoding='utf-8',newline='\n')
 (OUT/'review.md').write_text('\n'.join(md)+'\n',encoding='utf-8',newline='\n')
 dest=ROOT/'prototype/dist/review-1.1/fact-check-review';dest.mkdir(parents=True,exist_ok=True)
 for name in ('index.html','review.md'):shutil.copyfile(OUT/name,dest/name)
