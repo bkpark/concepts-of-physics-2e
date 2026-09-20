@@ -507,9 +507,17 @@ Review four connected paragraphs together. Correct project leadership and the ch
 
 Biological Effects of Ionizing Radiation · proposed-not-applied
 
-The picture can remain an illustration of an older practice, but the present-tense caption reads as advice. ADA’s 2024 recommendations no longer call for routine patient abdominal aprons/thyroid collars. This does not eliminate beam collimation, operator shielding or local legal requirements. Suggest identify the illustration as historical and update the faster-film sentence in the adjacent paragraph.
+The 2024 ADA guidance recommends discontinuing routine patient abdominal aprons and thyroid collars; it is a professional recommendation, not itself a legal prohibition. Identify the illustration as historical, retain the shielding and distance explanation, and update film wording to match the approved detector terminology elsewhere.
 
 **Current:** A lead apron is placed over the dental patient and shielding surrounds the X-ray tube to limit exposure to tissue other than the tissue that is being imaged. Fast films limit the time needed to obtain images, reducing exposure to the imaged tissue. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure.
+
+**Proposed:** In this historical illustration, a lead apron is placed over the dental patient and shielding surrounds the X-ray tube to limit exposure to tissue other than the tissue that is being imaged. More efficient detectors reduce the radiation exposure needed to obtain images. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure. Routine use of patient lead aprons is no longer recommended by the American Dental Association (2024).
+
+### Adjacent paragraph: detector wording
+
+**Current:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person. Doses from most medical diagnostics have decreased in recent years due to faster films that require less exposure time.
+
+**Proposed:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person. Diagnostic doses are generally low and have been further lowered with improved techniques and more efficient detectors.
 
 - [ADA: 2024 radiography safety recommendations](https://www.ada.org/about/press-releases/ada-releases-updated-recommendations-to-enhance-radiography-safety-in-dentistry)
 
