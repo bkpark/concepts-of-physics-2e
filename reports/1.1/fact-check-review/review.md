@@ -434,7 +434,7 @@ Keep the detectability explanation next to the 1 rem calculation. Replace the ol
 
 ## FC30 — Radioactive iodine as a tracer for thyroid imaging
 
-Medical Imaging and Diagnostics · proposed-not-applied
+Medical Imaging and Diagnostics · approved-pending-application
 
 Explain how radioactive iodine concentrates in the thyroid and how a gamma camera images its distribution, without unsupported cancer/hypothyroidism interpretations. The proposed column shows the full paragraph with both this iodine proposal and the already approved FC16 TlCl/potassium correction. FC16 remains a separate approved edit; it must not be applied twice. Other surrounding examples are unchanged context.
 
