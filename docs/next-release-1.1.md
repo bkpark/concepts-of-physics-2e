@@ -96,3 +96,14 @@ Applied U4-H06 as U4-18: Yalow/Berson radioimmunoassay history with the approved
 Unit 4 review closed: U4-19–U4-21 resolve reactor wording and historical corrections; U4-22 reconciles diagnostic doses with cited radiology references. No Unit 4 author holds remain. Full-book reconciliation and release verification remain separate.
 
 Final comparison reconciliation: all eleven m67032 flags resolved without content edits. Ten were shifted ordinal matches caused by an upstream omission; the structure flag comprises the retained powers-of-ten example and three expressions in approved BR01. Evidence: reports/1.1/m67032-reconciliation.json. All 140 mapped sections now have recorded decisions; local Preface is unmapped. This completes the scoped upstream comparison/backport pass, not the independent full-book content audit or release checks.
+
+
+## Focused fact-check cycle 1 applied (September 20, 2026)
+
+All 35 approved items (FC01–FC34 plus FC28b) are now applied to the maintained source for the 1.1 development preview, with individual records in the ordered editorial ledger. Overlapping edits (FC07/32, FC16/30, FC17/34, FC28b/33) are composed once each. FC27 moves the inertial-confinement paragraph and figure before the magnetic-confinement paragraph and figure while preserving IDs. Historical CNX source and published 1.0 are unchanged.
+
+Preview: http://127.0.0.1:8765/course-full/ . The original fact-check review preserves before/approved snapshots and links to the updated textbook. This is a development preview, not a release candidate or completed factual audit.
+
+When the author returns, start a separate cycle in this order: (1) remaining radiation/medical explanations and electrical-safety claims; (2) isotope/activity and background-dose tables, plus summary consistency; (3) conceptual physics qualifications; (4) historical and current-technology leads. Each lead in proposals/1.1/fact-check-followups.json needs a documented disposition. Significant factual issues remain in scope for 1.1; do not silently carry them into a broader stylistic deferral. Preserve the accepted conservative-force heuristic and the separate deferrals for plasma coverage and exercise revision. No new fact-check proposals have been started in this application session.
+
+Validation for cycle 1: 955 maintained files reconstruct from four initialization repairs plus 203 editorial records; 959 historical files and pinned tags verify unchanged. All 20 changed section pages pass MathML/image checks, all 35 review context anchors resolve, and the fusion paragraph/figure order is verified in the browser. Course build: 7385 math expressions, only three known external-media notices. No PDF or public deployment was produced in this preview update. Existing trailing whitespace in untouched portions of two changed CNXML lines was retained rather than normalized.

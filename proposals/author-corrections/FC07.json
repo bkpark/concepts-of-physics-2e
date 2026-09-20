@@ -1,0 +1,22 @@
+{
+  "id": "FC07",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42665",
+  "source_path": "maintained/modules/m42665/index.cnxml",
+  "source_sha256": "33ccec5dddd43563adba2e3a1e2ea0d56e9e7b6e21aebc38d9a264cffeb2db45",
+  "after_sha256": "6e275a6fb7295b78e94f102f26acbeadbd4e337c264b30f197ec24fca3fbbe1d",
+  "before": "physics",
+  "after": "chemistry",
+  "reason": "Seaborg’s Nobel Prize was in Chemistry",
+  "authorization": "Author approved corrections through FC13; pending the application batch.",
+  "sources": [
+    {
+      "title": "Nobel Prize in Chemistry 1951",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1951/summary/_/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

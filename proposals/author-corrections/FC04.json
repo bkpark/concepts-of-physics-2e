@@ -1,0 +1,22 @@
+{
+  "id": "FC04",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67804",
+  "source_path": "maintained/modules/m67804/index.cnxml",
+  "source_sha256": "99bb3717dfda3c9faa79a32c0291c6c60b5205429291e4ebfd4895fa35e8e7cb",
+  "after_sha256": "fcf71bb0945fb3ebc4877db3c2ee69a34d24104139ccebc509158ccacb942b95",
+  "before": " id=\"import-auto-id2608660\">It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a result of his work on quantum mechanics and the wave characteristics of all particles. (See <l",
+  "after": " id=\"import-auto-id2608660\">It was Werner Heisenberg who first stated this limit to knowledge in 1927 as a result of his work on quantum mechanics and the wave characteristics of all particles. (See <l",
+  "reason": "Heisenberg uncertainty principle: 1927",
+  "authorization": "Author approved FC01 through FC05 in review; pending the application batch.",
+  "sources": [
+    {
+      "title": "Nobel: quantised world, uncertainty",
+      "url": "https://educationalgames.nobelprize.org/educational/physics/quantised_world/final-3.html",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

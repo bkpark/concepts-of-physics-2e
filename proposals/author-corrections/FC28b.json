@@ -1,0 +1,28 @@
+{
+  "id": "FC28b",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "ec1e90a44cbae1088c76ced4da0f86271f856512c78b86cad8eb518166f86e30",
+  "after_sha256": "958f6357a5129d01f76bf2923562662b9a24785c6383bcb3072aac7df7c97bc8",
+  "before": ", we use <term id=\"import-auto-id3033475\">shielding</term>, increase the <emphasis>distance</emphasis> from a source, and limit the <emphasis>time of exposure</emphasis>.</para>\n    <para id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\"/> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the pers",
+  "after": " from external sources, we limit the <emphasis>time of exposure</emphasis>, increase the <emphasis>distance</emphasis> from a source, and use <term id=\"import-auto-id3033475\">shielding</term>.</para>\n    <para id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\"/> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiati",
+  "reason": "Present external-radiation protection as time, distance, shielding",
+  "authorization": "Author approved FC28b wording and the reordered explanatory sentences; pending the application batch. Discussion of practical priorities does not add a universal priority ranking to the textbook.",
+  "sources": [
+    {
+      "title": "CDC: radiation safety and time, distance, shielding",
+      "url": "https://www.cdc.gov/radiation-health/safety/index.html",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "NRC: minimize your exposure",
+      "url": "https://www.nrc.gov/facilities-safety/radiation-protection/how-the-nrc-protects-you/minimize-your-exposure",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

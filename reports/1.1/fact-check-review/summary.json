@@ -1,11 +1,11 @@
 {
   "date": "2026-09-19",
   "sections": 141,
-  "candidate_blocks": 452,
+  "candidate_blocks": 451,
   "category_counts": {
-    "history": 147,
+    "history": 150,
     "health-environment": 104,
-    "definitions-current": 236
+    "definitions-current": 234
   },
   "review_items": 35,
   "proposed_corrections": 25,
@@ -15,7 +15,7 @@
     "This packet follows up selected high-risk historical, medical/environmental, SI-definition and dated-current assertions. Unlisted passages are not certified correct.",
     "Exercises/solutions, a full numerical-table audit, figure-content inspection and recalculation of every example are outside this focused pass. Some worked-example prose appears among candidates.",
     "Confirmed factual problems, source discrepancies and passages needing coordinated changes are distinguished in the item notes. Additional screening leads are recorded separately, not silently treated as cleared.",
-    "All proposals are unapplied. Full XML snippets are review snapshots; later edits must preserve canonical byte structure and use the editorial ledger.",
+    "All 35 approved items were applied to the maintained 1.1 preview on 2026-09-20. Comparisons preserve the reviewed snapshots and may show only the scoped edit; the textbook context links show the combined result.",
     "External sources establish facts. No new external prose or images have been imported into the textbook; the CC BY baseline and license restrictions remain in force."
   ],
   "section_coverage": [
@@ -38,7 +38,7 @@
     {
       "module": "m52310",
       "title": "Physics: An Introduction",
-      "source_sha256": "b82fbbba420f77d723f51d4624ca867e687549da91ad8f3907137bfbdc840205",
+      "source_sha256": "67ecfb1a894d36b03ceab79e5cdc595028cac19f8d898ff8545e92f2630ccb81",
       "paragraphs_and_captions_screened": 38,
       "candidate_blocks": 10,
       "review_items": [
@@ -48,7 +48,7 @@
     {
       "module": "m67032",
       "title": "Physical Quantities and Units",
-      "source_sha256": "2da04f0dcb55a6d2721f1a451f0eed46e14da38b8dbbe90a7a43f737e23ea36d",
+      "source_sha256": "d5b4c4488606e65cbfa79a76d70808229e916cba9b18130a04931abf65d0ba39",
       "paragraphs_and_captions_screened": 44,
       "candidate_blocks": 8,
       "review_items": [
@@ -98,7 +98,7 @@
     {
       "module": "m67034",
       "title": "Motion Equations for Constant Acceleration in One Dimension",
-      "source_sha256": "0f4446f224937c30381307bb7342dfc368565bfa172ce58990c7bda4bbcc1e71",
+      "source_sha256": "7b0c8066aea33641e5cee67ac7627598430e95acf498eed9986bf55ac23699a7",
       "paragraphs_and_captions_screened": 102,
       "candidate_blocks": 6,
       "review_items": [
@@ -260,7 +260,7 @@
     {
       "module": "m71415",
       "title": "Power",
-      "source_sha256": "6a48df4b8546b0100741b0198151ee74535c963433bfd7f7eca56b623d2dc068",
+      "source_sha256": "13030755767e978e7540cac95025ce9dd347f0a08a894a2eca39e1fd273e7c5a",
       "paragraphs_and_captions_screened": 31,
       "candidate_blocks": 5,
       "review_items": [
@@ -343,7 +343,7 @@
     {
       "module": "m71586",
       "title": "Forced Oscillations and Resonance",
-      "source_sha256": "b4007c16f3b8bbe969934a7413327b3cb5d8d188089a76f2310b03f8a6fae7d4",
+      "source_sha256": "658b74878b4b024e56390232242712c56c8cf1a09b1bd81278adba1215d4ffd9",
       "paragraphs_and_captions_screened": 10,
       "candidate_blocks": 2,
       "review_items": [
@@ -825,7 +825,7 @@
     {
       "module": "m75429",
       "title": "Production and Properties of Electromagnetic Waves",
-      "source_sha256": "e750659b54a629388202d13d0533b340c44abeb03126e96c15b2cef0e50ffde3",
+      "source_sha256": "4282a9927cd62fa3f2bee6e0aa688b05e14c335d9b27e2a2503ca463520bb4c2",
       "paragraphs_and_captions_screened": 30,
       "candidate_blocks": 3,
       "review_items": [
@@ -843,7 +843,7 @@
     {
       "module": "m67133",
       "title": "The Electromagnetic Spectrum: Application Notes",
-      "source_sha256": "33b82ac4780417cfd740eaeb423f348c8f066497c09e61074d426669c4a5c35b",
+      "source_sha256": "15f2d652956543a0cb6c664ec3c800a1228339cad60a1b2a9542466224d99433",
       "paragraphs_and_captions_screened": 105,
       "candidate_blocks": 47,
       "review_items": [
@@ -927,7 +927,7 @@
     {
       "module": "m67803",
       "title": "The Wave Nature of Matter",
-      "source_sha256": "c9f85db2f0bdcebfa7e0a614e3328e819d3e4ae9fd4b9d6ca1543e2a1d015c4b",
+      "source_sha256": "51d1ccda67a76fc473700d1aff94dc9f4b30203fd0d1f68a2e0602b790f99b4c",
       "paragraphs_and_captions_screened": 24,
       "candidate_blocks": 4,
       "review_items": [
@@ -937,7 +937,7 @@
     {
       "module": "m67804",
       "title": "Uncertainty Principle",
-      "source_sha256": "99bb3717dfda3c9faa79a32c0291c6c60b5205429291e4ebfd4895fa35e8e7cb",
+      "source_sha256": "fcf71bb0945fb3ebc4877db3c2ee69a34d24104139ccebc509158ccacb942b95",
       "paragraphs_and_captions_screened": 31,
       "candidate_blocks": 4,
       "review_items": [
@@ -947,7 +947,7 @@
     {
       "module": "m67805",
       "title": "Discovery of the Atomic Nucleus",
-      "source_sha256": "1e9d0720e3df1a31ec5860a14369132dcacb6a0803c188fe2be06d9fd45363c6",
+      "source_sha256": "6b714d0811464613d0013b7fd5c576d069a858298d9412f88d2bb3f02c17ddb2",
       "paragraphs_and_captions_screened": 25,
       "candidate_blocks": 12,
       "review_items": [
@@ -1037,7 +1037,7 @@
     {
       "module": "m76584",
       "title": "Nuclear Radioactivity",
-      "source_sha256": "ca7f8a5515470950e5edf581a0b13905df43d8343bc6b7c3db949caeba53578c",
+      "source_sha256": "63ca48fae7d43c101fd405d8f1c7ee5db7c37d3efb5404be7598e8e4a66e24b1",
       "paragraphs_and_captions_screened": 19,
       "candidate_blocks": 10,
       "review_items": [
@@ -1048,7 +1048,7 @@
     {
       "module": "m42627",
       "title": "Radiation Detection and Detectors",
-      "source_sha256": "6af0e8186f62bb79b871e59b8011d4c2d049b3639c7649bf25d1a7002af99de3",
+      "source_sha256": "1691a80b4201ee22666b4e02b0ed87f8771ae9bc65503e12c68a2ea480680b24",
       "paragraphs_and_captions_screened": 10,
       "candidate_blocks": 2,
       "review_items": [
@@ -1066,7 +1066,7 @@
     {
       "module": "m76603",
       "title": "Nuclear Decay and Conservation Laws",
-      "source_sha256": "0456b11e66b8578b17e35f8954706f2868b2e4f7fffd38255ed1803321f49db0",
+      "source_sha256": "2db23567d2683b6240676ae5e33bb616de5c858f239942664f10d0d4e51b695e",
       "paragraphs_and_captions_screened": 55,
       "candidate_blocks": 5,
       "review_items": [
@@ -1076,7 +1076,7 @@
     {
       "module": "m52471",
       "title": "Half-Life and Activity",
-      "source_sha256": "2f3817306c226d0be6ac445d6093cad5a5e3b7967f846fe56334cf82b031279b",
+      "source_sha256": "00c3b9c778225834960c2b53e0312c98d2c6fd6af1f7e65715131bb0a819264d",
       "paragraphs_and_captions_screened": 71,
       "candidate_blocks": 11,
       "review_items": [
@@ -1088,7 +1088,7 @@
     {
       "module": "m42649",
       "title": "Medical Imaging and Diagnostics",
-      "source_sha256": "f8412a30f028a7d4f82cd9423e2c41d0aec58ced704144337ced6f280e610de9",
+      "source_sha256": "87923e4a4135a642a36711bca2add33ce328b9438d02c112583503b21ae19ad9",
       "paragraphs_and_captions_screened": 12,
       "candidate_blocks": 7,
       "review_items": [
@@ -1101,7 +1101,7 @@
     {
       "module": "m68327",
       "title": "Biological Effects of Ionizing Radiation",
-      "source_sha256": "9c6beb31d7d5399116334a67137b8e275adb2e417c4782951eb25225e288b6cb",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
       "paragraphs_and_captions_screened": 28,
       "candidate_blocks": 18,
       "review_items": [
@@ -1114,9 +1114,9 @@
     {
       "module": "m52480",
       "title": "Fusion",
-      "source_sha256": "5f69d345f7d9a1af551326324c3574dd8f6bc909747c1db1514bc1d0b38e20c4",
+      "source_sha256": "4effe8def16e970c9ca681788303bc97b4476a6a8e6015630d6c57a464bda5d4",
       "paragraphs_and_captions_screened": 37,
-      "candidate_blocks": 5,
+      "candidate_blocks": 3,
       "review_items": [
         "FC27"
       ]
@@ -1132,9 +1132,9 @@
     {
       "module": "m42665",
       "title": "Nuclear Weapons",
-      "source_sha256": "33ccec5dddd43563adba2e3a1e2ea0d56e9e7b6e21aebc38d9a264cffeb2db45",
+      "source_sha256": "270f6b005eb4c7524607a2745090b876871f7f8af036c84f4389018f1e662a3e",
       "paragraphs_and_captions_screened": 19,
-      "candidate_blocks": 9,
+      "candidate_blocks": 10,
       "review_items": [
         "FC07",
         "FC23",
@@ -1152,7 +1152,7 @@
     {
       "module": "m42674",
       "title": "Particles, Patterns, and Conservation Laws",
-      "source_sha256": "17c1c3b736b342b8383757a6db3fb4972483903c888f70abbbf7a7920211519f",
+      "source_sha256": "da015dab353046ed015e2d2562eba9ed66a9d256d430b5e7961e0dd555e9a895",
       "paragraphs_and_captions_screened": 30,
       "candidate_blocks": 9,
       "review_items": [
@@ -1163,7 +1163,7 @@
     {
       "module": "m42680",
       "title": "GUTs: The Unification of Forces",
-      "source_sha256": "7f52de36c25db4bb44ad4e8d28cdaab9ad4a5a112f45832716955bb669e0e5a1",
+      "source_sha256": "1717d155085607ae726c1052ceaa0fa72ceeb5c9156a679c2b74e3c5edbb84d6",
       "paragraphs_and_captions_screened": 19,
       "candidate_blocks": 4,
       "review_items": [

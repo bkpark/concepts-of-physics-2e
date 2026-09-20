@@ -1,0 +1,28 @@
+{
+  "id": "FC34",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42649",
+  "source_path": "maintained/modules/m42649/index.cnxml",
+  "source_sha256": "d3bd89334c765d788a505f4a1a036cd4c9ab6ba6833171ae63ef940da62d821b",
+  "after_sha256": "87923e4a4135a642a36711bca2add33ce328b9438d02c112583503b21ae19ad9",
+  "before": "And, although its half-life is short, it is easily and continuously produced on site. The basic process for production is neutron activation of molybdenum, which quickly \n\n<m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>  decays into \n\n<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mtext>99m</m:mtext></m:msup><m:mtext>Tc</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>",
+  "after": "On site, technetium-99m is commonly obtained from a generator containing molybdenum-99, which decays to technetium-99m",
+  "reason": "Technetium supply: generator versus on-site neutron activation",
+  "authorization": "Author approved FC34 on 2026-09-20 after clarification of the generator. Approval is for the displayed single-sentence generator replacement with the FC17 energy correction in the preview, not the optional two-sentence neutron-activation explanation offered in chat. Pending application; apply FC17 once.",
+  "sources": [
+    {
+      "title": "DailyMed: Tc-99m diagnostic label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59b3b7d5-ff69-4642-971e-99026d9dce89",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "DailyMed: Ultra-Technekow V4 generator, Mo-99 decay",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98947d99-5be5-461e-ad36-7425d3646389",
+      "checked": "2026-09-20",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

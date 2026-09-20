@@ -1,0 +1,34 @@
+{
+  "id": "FC30",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42649",
+  "source_path": "maintained/modules/m42649/index.cnxml",
+  "source_sha256": "57839fcc33e172b67730aae7137f1fc7f9f62f4a71f91456ae3d5ed2fc17ead4",
+  "after_sha256": "d3bd89334c765d788a505f4a1a036cd4c9ab6ba6833171ae63ef940da62d821b",
+  "before": "iodine to image the thyroid, since iodine is concentrated in that organ. The most active thyroid cells, including cancerous cells, concentrate the most iodine and, therefore, emit the most radiation. Conversely, hypothyroidism is indicated by lack of iodine uptake",
+  "after": "radioactive iodine to image the thyroid, since iodine is concentrated in that organ. Thyroid tissue that concentrates more radioactive iodine emits more radiation. A gamma camera detects this radiation to form an image showing how the iodine is distributed within the thyroid",
+  "reason": "Radioactive iodine as a tracer for thyroid imaging",
+  "authorization": "Author approved FC30 on 2026-09-20 as displayed in the combined preview with the previously approved FC16 TlCl correction. Apply FC30 iodine substitutions and FC16 thallium substitution once each in the later application batch; unchanged surrounding text is not an additional correction.",
+  "sources": [
+    {
+      "title": "American Thyroid Association: nodules and testing",
+      "url": "https://www.thyroid.org/thyroid-nodules/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "ATA: functioning nodules and cancer evaluation",
+      "url": "https://www.thyroid.org/patient-thyroid-information/ct-for-patients/vol-7-issue-6/vol-7-issue-6-p-3-4/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "ACR/RSNA RadiologyInfo: thyroid scan and uptake",
+      "url": "https://www.radiologyinfo.org/en/info/thyroiduptake",
+      "checked": "2026-09-20",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "FC03",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52471",
+  "source_path": "maintained/modules/m52471/index.cnxml",
+  "source_sha256": "ba0e3e4209a6ce11cf281e9755608a5d186f53bae4740e7abe76408335a9946f",
+  "after_sha256": "d36b0e1b898249bcc89ce049dc6e2bb002e646f708924d24354b6fe0715f4af6",
+  "before": "=</m:mo><m:mtext>100 microcuries </m:mtext></m:mrow><m:mspace width=\"0.25em\"/><m:mo stretchy=\"false\">(</m:mo><m:mi>μ</m:mi><m:mtext>Ci</m:mtext><m:mo stretchy=\"false\">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"1 MBq\"=\"10",
+  "after": "≈</m:mo><m:mtext>27.0 microcuries </m:mtext></m:mrow><m:mspace width=\"0.25em\"/><m:mo stretchy=\"false\">(</m:mo><m:mi>μ</m:mi><m:mtext>Ci</m:mtext><m:mo stretchy=\"false\">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"1 MBq\" approx \"27.",
+  "reason": "Correct the MBq-to-microcurie conversion",
+  "authorization": "Author approved FC01 through FC05 in review; pending the application batch.",
+  "sources": [
+    {
+      "title": "NIST: unit conversion factors",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "FC29",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "958f6357a5129d01f76bf2923562662b9a24785c6383bcb3072aac7df7c97bc8",
+  "after_sha256": "5ac3d056f15025a9f34a6d393f898968a5e6c9871e0e3585949027fec1148619",
+  "before": " and it may be prudent, but it<emphasis effect=\"italics\"> is </emphasis> controversial. There is some evidence that, unlike the immediate effects of radiation, the long-term effects are cumulative and there is little self-repair. This is analogous to the risk of skin cancer from UV exposure, which is known to be cumulative.</para>\n    <para id=\"import-auto-id1403686\">There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the overall risk of a radiation-induced cancer death per year per rem of exposure is about 10 in a million, which can be written as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\"/><m:mtext>rem</m:mtext><m:mspace width=\"0.25em\"/><m:mtext>·</m:mtext><m:mspace width=\"0.25em\"/><m:mtext>yr</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</para><para id=\"import-auto-id1419266\">If a person receives a dose of 1 rem, his risk each year of dying from radiation-induced cancer is 10 in a million and that risk continues for about 30 years. The lifetime risk is thus 300 in a million, or 0.03 percent. Since about 20 percent of all worldwide deaths are from cancer, the increase due to a 1 rem exposure is impossible to detect demographically. But 100 rem (1 Sv), which was the dose received by the average Hiroshima and Nagasaki survivor, causes an additional 3 percent risk, which can be observed with statistical significance above the 20 percent natural incidence rat",
+  "after": ", or linear no-threshold model, and is used in radiation protection. The size of the cancer risk at very low doses remains uncertain. Cells can repair radiation damage, but some damage may remain or be repaired incorrectly.</para>\n    <para id=\"import-auto-id1403686\">There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about <m:math><m:mn>300</m:mn></m:math> in <m:math><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup></m:math> per rem of whole-body exposure, within an order of magnitude.</para><para id=\"import-auto-id1419266\">If a person receives a whole-body dose of 1 rem, this estimate gives an additional lifetime risk of dying from radiation-induced cancer of about 300 in a million, or 0.03 percent. Since cancer is already a common cause of death, such a small increase is difficult to detect statistically. For Hiroshima and Nagasaki survivors within 2,500 m of the hypocenters, the reported average dose was about 0.2 Gy, roughly comparable to 20 rem of whole-body gamma exposure. Our linear estimate would give an additional lifetime risk of about 0.6 percent for that exposure. Both risk estimates are approximate, within an order of magnitude. The Radiation Effects Research Foundation’s <link url=\"https://doi.org/10.1667/RR2629.1\">Life Span Study</link> has detected increased cancer mortality among Hiroshima and Nagasaki survivors. For comparison, RERF gives a background lifetime cancer mortality risk of roughly 20 percent for unexposed peopl",
+  "reason": "Radiation-risk calculation needs a coordinated revision",
+  "authorization": "Author approved FC29 on 2026-09-20, including the two related earlier-paragraph substitutions and DOI link for the Life Span Study mortality report; pending application. Approval covers the explicit edits, not unchanged context or unresolved adjacent claims.",
+  "sources": [
+    {
+      "title": "RERF: LSS cohort context",
+      "url": "https://www.rerf.or.jp/uploads/2021/06/RR8-20_e.pdf",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "RERF: offspring studies",
+      "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "WHO: radiation health effects",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "EPA: radiation health effects and the linear no-threshold model",
+      "url": "https://www.epa.gov/radiation/radiation-health-effects",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "NRC: cellular repair and radiation health effects",
+      "url": "https://www.nrc.gov/facilities-safety/radiation-protection/radiation-and-its-health-effects",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "EPA: radiogenic cancer risk models and population projections",
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100BA2I.TXT",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "RERF: solid-cancer risk and persistence over a lifetime",
+      "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/late-en/cancrisk/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "RERF: dose estimation and gamma/neutron weighting",
+      "url": "https://www.rerf.or.jp/en/programs/general_research_e/raditiondose_e/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "RERF: radiation and health, baseline lifetime cancer mortality comparison",
+      "url": "https://www.rerf.or.jp/uploads/2017/09/basicg_e.pdf",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "RERF: sievert and radiation quality factors",
+      "url": "https://www.rerf.or.jp/en/glossary/sievert-en/",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "Ozasa et al. (2012): Life Span Study mortality report 14, 1950–2003",
+      "url": "https://www.rerf.or.jp/uploads/2017/07/rr1104_e.pdf",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "Ozasa et al. (2012): Life Span Study mortality report 14 — persistent DOI",
+      "url": "https://doi.org/10.1667/RR2629.1",
+      "checked": "2026-09-20",
+      "use": "Bibliographic identifier verified from the report; no source prose or media imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

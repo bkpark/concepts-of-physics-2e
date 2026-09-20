@@ -1,0 +1,22 @@
+{
+  "id": "FC01",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67032",
+  "source_path": "maintained/modules/m67032/index.cnxml",
+  "source_sha256": "2da04f0dcb55a6d2721f1a451f0eed46e14da38b8dbbe90a7a43f737e23ea36d",
+  "after_sha256": "d5b4c4488606e65cbfa79a76d70808229e916cba9b18130a04931abf65d0ba39",
+  "before": " The length of the meter will change if the speed of light is someday measured with greater accuracy.",
+  "after": "",
+  "reason": "The meter does not change when light-speed measurements improve",
+  "authorization": "Author approved FC01 through FC05 in review; pending the application batch.",
+  "sources": [
+    {
+      "title": "NIST: definitions of SI base units",
+      "url": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

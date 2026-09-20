@@ -1,0 +1,22 @@
+{
+  "id": "FC17",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42649",
+  "source_path": "maintained/modules/m42649/index.cnxml",
+  "source_sha256": "8ab5ce8c1835b43e3a65301d1b67b77e364e9518d5d6f71f2f3a00d42f4c85ee",
+  "after_sha256": "57839fcc33e172b67730aae7137f1fc7f9f62f4a71f91456ae3d5ed2fc17ead4",
+  "before": " advantages. One is that the decay of its metastable state produces a single, easily identified 0.142-MeV \n\n<m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics><",
+  "after": " advantages. One is that the decay of its metastable state produces a single, easily identified 0.141-MeV \n\n<m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics><",
+  "reason": "Technetium-99m gamma energy",
+  "authorization": "Author approved all changes through FC17; pending the application batch.",
+  "sources": [
+    {
+      "title": "DailyMed: technetium Tc-99m pentetate, physical characteristics",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59b3b7d5-ff69-4642-971e-99026d9dce89",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

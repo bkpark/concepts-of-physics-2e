@@ -1,0 +1,22 @@
+{
+  "id": "FC02",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52471",
+  "source_path": "maintained/modules/m52471/index.cnxml",
+  "source_sha256": "2f3817306c226d0be6ac445d6093cad5a5e3b7967f846fe56334cf82b031279b",
+  "after_sha256": "ba0e3e4209a6ce11cf281e9755608a5d186f53bae4740e7abe76408335a9946f",
+  "before": "solar neutrino",
+  "after": "neutrons produced by cosmic ray",
+  "reason": "Carbon-14 is produced by neutrons, not solar neutrinos",
+  "authorization": "Author approved FC01 through FC05 in review; pending the application batch.",
+  "sources": [
+    {
+      "title": "NOAA/GFDL: Radiocarbon",
+      "url": "https://www.gfdl.noaa.gov/bibliography/related_files/rmk0101.pdf",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

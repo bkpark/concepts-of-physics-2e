@@ -1,0 +1,22 @@
+{
+  "id": "FC12",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67133",
+  "source_path": "maintained/modules/m67133/index.cnxml",
+  "source_sha256": "33b82ac4780417cfd740eaeb423f348c8f066497c09e61074d426669c4a5c35b",
+  "after_sha256": "66ceadebe8ec145d35bed9a923322d306bd628f8679551b06a31a1d8092cad21",
+  "before": "intensity of the radio waves used in MRI presents little or no hazard to human health",
+  "after": "radio waves used in MRI can heat tissue, so exposure must be controlled to prevent burns",
+  "reason": "MRI radiofrequency energy can cause heating and burns",
+  "authorization": "Author approved corrections through FC13; pending the application batch.",
+  "sources": [
+    {
+      "title": "FDA: MRI benefits and risks",
+      "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/benefits-and-risks",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

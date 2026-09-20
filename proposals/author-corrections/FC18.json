@@ -1,0 +1,28 @@
+{
+  "id": "FC18",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67805",
+  "source_path": "maintained/modules/m67805/index.cnxml",
+  "source_sha256": "1e9d0720e3df1a31ec5860a14369132dcacb6a0803c188fe2be06d9fd45363c6",
+  "after_sha256": "6b714d0811464613d0013b7fd5c576d069a858298d9412f88d2bb3f02c17ddb2",
+  "before": "measured and known to very high precision",
+  "after": "known to very high precision. Before the SI redefinition that took effect in May 2019, the elementary charge was also measured. Its numerical value in coulombs is now fixed exactly to define the ampere, while electron and proton masses remain measured quantities",
+  "reason": "Elementary charge is fixed in the SI",
+  "authorization": "Author approved corrections through FC24, including the revised FC18 historical note; pending the application batch.",
+  "sources": [
+    {
+      "title": "NIST: definitions of SI base units",
+      "url": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "NIST: ampere introduction and May 20, 2019 redefinition",
+      "url": "https://www.nist.gov/si-redefinition/ampere-introduction",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

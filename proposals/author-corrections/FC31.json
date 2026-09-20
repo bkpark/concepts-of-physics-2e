@@ -1,0 +1,28 @@
+{
+  "id": "FC31",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m71586",
+  "source_path": "maintained/modules/m71586/index.cnxml",
+  "source_sha256": "b4007c16f3b8bbe969934a7413327b3cb5d8d188089a76f2310b03f8a6fae7d4",
+  "after_sha256": "658b74878b4b024e56390232242712c56c8cf1a09b1bd81278adba1215d4ffd9",
+  "before": "<link target-id=\"import-auto-id1908149\"/> shows a photograph of a famous example (the Tacoma Narrows Bridge) of the destructive effects of a driven harmonic oscillation. The Millennium Bridge in London was closed for a short period of time for the same reason while inspections were carried out.</para><para id=\"import-auto-id2679185\">In our bodies, the chest cavity is a clear example of a system at resonance. The diaphragm and chest wall drive the oscillations of the chest cavity which result in the lungs inflating and deflating. The system is critically damped and the muscular diaphragm oscillates at the resonant value for the system, making it highly efficient.</para><figure id=\"import-auto-id1908149\"><media id=\"import-auto-id3122775\" alt=\"The figure shows a black and white photo of the Tacoma Narrows Bridge, from the left side view. The middle of the bridge is shown here in an oscillating state due to heavy cross winds.\">\n                <image mime-type=\"image/png\" src=\"../../media/Figure_17_08_04a.jpg\" width=\"300\"/>\n            </media>\n            \n        <caption>In 1940, the Tacoma Narrows Bridge in Washington state collapsed. Heavy cross winds drove the bridge into oscillations at its resonant frequency. Damping decreased when support cables broke loose and started to slip over the towers",
+  "after": "Damping is also important in controlling bridge oscillations. <link target-id=\"import-auto-id1908149\" /> shows the Tacoma Narrows Bridge, which collapsed in 1940 after wind caused growing oscillations. The Millennium Bridge in London was closed after pedestrians caused excessive swaying and reopened after additional damping was installed to reduce the motion.</para><para id=\"import-auto-id2679185\">In our bodies, the chest cavity is a clear example of a system at resonance. The diaphragm and chest wall drive the oscillations of the chest cavity which result in the lungs inflating and deflating. The system is critically damped and the muscular diaphragm oscillates at the resonant value for the system, making it highly efficient.</para><figure id=\"import-auto-id1908149\"><media id=\"import-auto-id3122775\" alt=\"The figure shows a black and white photo of the Tacoma Narrows Bridge, from the left side view. The middle of the bridge is shown here in an oscillating state due to heavy cross winds.\">\n                <image mime-type=\"image/png\" src=\"../../media/Figure_17_08_04a.jpg\" width=\"300\"/>\n            </media>\n            \n        <caption>In 1940, the Tacoma Narrows Bridge in Washington state collapsed. Cross winds drove the bridge into twisting oscillations. Damping was insufficient to control the motion",
+  "reason": "Connect the bridge examples to damping",
+  "authorization": "Author approved FC31 on 2026-09-20 with the current damping-focused paragraph and minimally revised caption, following clarification of cable-band slippage versus cable damage during collapse. Pending application; retain existing image, credit, and identifiers.",
+  "sources": [
+    {
+      "title": "WSDOT: lessons from failure",
+      "url": "https://www.wsdot.wa.gov/TNBhistory/bridges-failure.htm",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "Arup Journal 2008 issue 3: Millennium Bridge remedial damping",
+      "url": "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-2008-issue-3.pdf",
+      "checked": "2026-09-20",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}

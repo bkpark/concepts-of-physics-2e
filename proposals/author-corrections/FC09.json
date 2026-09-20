@@ -1,0 +1,28 @@
+{
+  "id": "FC09",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42674",
+  "source_path": "maintained/modules/m42674/index.cnxml",
+  "source_sha256": "edbf797c2f7765c38600d64b50f8e18f843081975a3305fefcc76a3bddca6b81",
+  "after_sha256": "da015dab353046ed015e2d2562eba9ed66a9d256d430b5e7961e0dd555e9a895",
+  "before": "created in accelerator experiments in 1956",
+  "after": "observed in accelerator experiments in 1955 and 1956, respectively",
+  "reason": "Separate antiproton and antineutron discovery dates",
+  "authorization": "Author approved corrections through FC13; pending the application batch.",
+  "sources": [
+    {
+      "title": "CERN: discovery of the antiproton",
+      "url": "https://timeline.web.cern.ch/bevatron-discovers-antiproton",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    },
+    {
+      "title": "CERN Courier: antimatter history",
+      "url": "https://cds.cern.ch/record/2232492/files/vol55-issue7-p021-e.pdf",
+      "checked": "2026-09-19",
+      "use": "factual verification only; no source prose or media imported"
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check.json"
+}
