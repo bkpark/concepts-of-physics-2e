@@ -2,12 +2,12 @@
   "module": "m42649",
   "title": "Medical Imaging and Diagnostics",
   "slug": "medical-imaging-and-diagnostics",
-  "local_sha256": "0a0cef8406bab4dd24062ff54fa087263139f2b035c6384d49dac506ec5291f4",
+  "local_sha256": "f8412a30f028a7d4f82cd9423e2c41d0aec58ced704144337ced6f280e610de9",
   "upstream_modules": [
     "m42649"
   ],
   "counts": {
-    "prose": 1,
+    "prose": 2,
     "references": 1,
     "math-markup-change": 77
   },
@@ -43,6 +43,21 @@
       "exercise_context": false,
       "credit_review_required": false,
       "disposition_reason": "Retain the external MRI simulation fallback. Added radioimmunoassay/Yalow/Berson history is a broader expansion; do not import automatically. Preserve existing local destinations and prior author-approved reference repairs."
+    },
+    {
+      "id": "UP-582c0e4023fb32ae",
+      "kind": "prose",
+      "local_module": "m42649",
+      "upstream_module": "m42649",
+      "source_id": "para-00002",
+      "status": "retain-approved-adaptation",
+      "local": "Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a radioactively labeled sample is prepared and mixed with the unlabeled substance being measured. A known quantity of antibodies is then introduced. By measuring the radioactivity in the bound or unbound fraction after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.",
+      "upstream": "Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a sample containing a radioactive isotope is prepared. A known quantity of antibodies is then introduced. By measuring the amount of \"unbound\" antibodies after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.",
+      "local_html": "Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a radioactively labeled sample is prepared and mixed with the unlabeled substance being measured. A known quantity of antibodies is then introduced. By measuring the radioactivity in the bound or unbound fraction after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.",
+      "upstream_html": "Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a sample containing a radioactive isotope is prepared. A known quantity of antibodies is then introduced. By measuring the amount of &quot;unbound&quot; antibodies after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.",
+      "exercise_context": false,
+      "credit_review_required": false,
+      "disposition_reason": "Retain approved U4-18 correction: measure tracer radioactivity, not unbound antibodies."
     },
     {
       "id": "UP-7294cfae45680bd7",
