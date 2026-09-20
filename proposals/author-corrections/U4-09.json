@@ -1,0 +1,15 @@
+{
+  "id": "U4-09",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67251",
+  "source_object": "eip-428",
+  "source_path": "maintained/modules/m67251/index.cnxml",
+  "source_sha256": "275b9e72b05a0b53f5fb537b7db45515463607dc87704a2e6420a938679e31fc",
+  "after_sha256": "ccf83a31fe518b16a5bc9c262fd7ab5f7c44603a35f6515752719ba26e47d9af",
+  "before": "<equation id=\"eip-428\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mstyle fontstyle=\"italic\"><m:mrow><m:mtext>hf</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mtext> – BE </m:mtext><m:mo stretchy=\"false\">=</m:mo><m:mtext> 2</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>96 eV – 2</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>71 eV </m:mtext><m:mo stretchy=\"false\">=</m:mo><m:mtext> 0</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>246 eV</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"KE\" rSub { size 8{e} } = ital \"hf\"\" – BE \"=\" 2\" \".\" \"96 eV – 2\" \".\" \"71 eV \"=\" 0\" \".\" \"246 eV\"} {}</m:annotation></m:semantics></m:math></equation>",
+  "after": "<equation id=\"eip-428\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:mstyle fontstyle=\"italic\"><m:mrow><m:mtext>hf</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mtext> – BE </m:mtext><m:mo stretchy=\"false\">=</m:mo><m:mtext> 2</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>96 eV – 2</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>71 eV </m:mtext><m:mo stretchy=\"false\">=</m:mo><m:mtext> 0</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>25 eV</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"KE\" rSub { size 8{e} } = ital \"hf\"\" – BE \"=\" 2\" \".\" \"96 eV – 2\" \".\" \"71 eV \"=\" 0\" \".\" \"25 eV\"} {}</m:annotation></m:semantics></m:math></equation>",
+  "reason": "Round the photoelectron kinetic energy consistently to hundredths: 2.96 - 2.71 = 0.25 eV; synchronize StarMath annotation.",
+  "authorization": "Author approved correcting the stopping-potential units and requested consistent rounding to hundredths; a minimally shortened Discussion is being proposed separately.",
+  "basis": "Local author-approved correction to an error shared with pinned upstream; retain displayed input values."
+}
