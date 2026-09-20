@@ -113,6 +113,8 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
         if i['edits']:
             page.append('<details class="edits"><summary>Exact proposed substitutions</summary><ul>'+''.join('<li><del>'+esc(e['before'])+'</del> → <ins>'+esc(e['after'] or '[delete]')+'</ins></li>' for e in i['edits'])+'</ul></details>')
         page.append('<div class="cols"><div class="box"><h3>Current 1.1 draft</h3>'+render(i['before_xml'],i['module'])+'</div><div class="box"><h3>'+('Proposed — not applied' if i['proposed_xml'] else 'Decision needed')+'</h3>'+ (render(i['proposed_xml'],i['module']) if i['proposed_xml'] else '<p>'+esc(i['reason'])+'</p>')+'</div></div>')
+        if i.get('structural_proposal'):
+            page.append('<p class="notice"><strong>Proposed order change:</strong> '+esc(i['structural_proposal']['description'])+'</p>')
         for passage in i.get('related_passages', []):
             page.append('<h3>'+esc(passage['title'])+'</h3><p><a href="'+esc(link(i['module'],passage['anchor']))+'">View this passage in the current textbook</a></p>')
             page.append('<div class="cols"><div class="box"><h3>Current 1.1 draft</h3>'+render(passage['before_xml'],i['module'])+'</div><div class="box"><h3>Proposed — not applied</h3>'+render(passage['proposed_xml'],i['module'])+'</div></div>')
@@ -120,6 +122,7 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
         page.append('<ul>'+''.join('<li><a href="'+esc(s['url'])+'">'+esc(s['title'])+'</a></li>' for s in i['sources'])+'</ul></section>')
         md+=['## '+i['id']+' — '+i['title'],'',i['section_title']+' · '+i['status'],'',i['reason'],'','**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(i['before_xml']))),'']
         if i['proposed_xml']:md+=['**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(i['proposed_xml']))),'']
+        if i.get('structural_proposal'):md+=['**Proposed order change:** '+i['structural_proposal']['description'], '']
         for passage in i.get('related_passages', []):
             md += ['### '+passage['title'], '',
                    '**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['before_xml']))).strip(), '',
