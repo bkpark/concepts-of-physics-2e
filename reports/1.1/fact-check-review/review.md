@@ -415,7 +415,7 @@ This is not a safe numbers-only patch. The adjoining text treats all effects as 
 
 **Current:** There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the overall risk of a radiation-induced cancer death per year per rem of exposure is about 10 in a million, which can be written as 10/106rem·yr.
 
-**Proposed:** There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about 300 in 106 per rem of whole-body exposure, within an order of magnitude. The risk depends on age at exposure and other factors.
+**Proposed:** There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about 300 in 106 per rem of whole-body exposure, within an order of magnitude.
 
 - [RERF: LSS cohort context](https://www.rerf.or.jp/uploads/2021/06/RR8-20_e.pdf)
 - [RERF: offspring studies](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/)
