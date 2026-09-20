@@ -529,6 +529,8 @@ The text blurs production of the parent isotope and extraction of Tc-99m at the 
 
 **Current:** Note that lists many diagnostic uses for 99mTc, where “m” stands for a metastable state of the technetium nucleus. Perhaps 80 percent of all radiopharmaceutical procedures employ 99mTc because of its many advantages. One is that the decay of its metastable state produces a single, easily identified 0.142-MeV γ ray. Additionally, the radiation dose to the patient is limited by the short 6.0-h half-life of 99mTc. And, although its half-life is short, it is easily and continuously produced on site. The basic process for production is neutron activation of molybdenum, which quickly β decays into 99mTc. Technetium-99m can be attached to many compounds to allow the imaging of the skeleton, heart, lungs, kidneys, etc.
 
+**Proposed:** Note that lists many diagnostic uses for 99mTc, where “m” stands for a metastable state of the technetium nucleus. Perhaps 80 percent of all radiopharmaceutical procedures employ 99mTc because of its many advantages. One is that the decay of its metastable state produces a single, easily identified 0.141-MeV γ ray. Additionally, the radiation dose to the patient is limited by the short 6.0-h half-life of 99mTc. On site, technetium-99m is commonly obtained from a generator containing molybdenum-99, which decays to technetium-99m. Technetium-99m can be attached to many compounds to allow the imaging of the skeleton, heart, lungs, kidneys, etc.
+
 - [DailyMed: Tc-99m diagnostic label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59b3b7d5-ff69-4642-971e-99026d9dce89)
 - [DailyMed: Ultra-Technekow V4 generator, Mo-99 decay](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98947d99-5be5-461e-ad36-7425d3646389)
 
