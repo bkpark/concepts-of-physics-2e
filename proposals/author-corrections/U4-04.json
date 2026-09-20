@@ -1,0 +1,20 @@
+{
+  "id": "U4-04",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m76603",
+  "source_object": "import-auto-id3163016",
+  "source_path": "maintained/modules/m76603/index.cnxml",
+  "source_sha256": "5388bb98e63a0d72929eefef9b1a75e6ad9967942706f5ae819814d2cf3167c3",
+  "after_sha256": "8819b07d0a37ee114fd5596c29cf8941f5fef5eebded172f12b8642a80190231",
+  "before": "<para id=\"import-auto-id3163016\">All forms of beta decay occur because the parent nuclide is unstable and lies outside the region of stability in the chart of nuclides. Those nuclides that have relatively more neutrons than those in the region of stability will <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decay to produce a daughter with fewer neutrons, producing a daughter nearer the region of stability. Similarly, those nuclides having relatively more protons than those in the region of stability will <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decay or undergo electron capture to produce a daughter with fewer protons, nearer the region of stability.</para>",
+  "after": "<para id=\"import-auto-id3163016\">All forms of beta decay occur because the parent nuclide is unstable and lies outside the region of stability in the chart of nuclides. Those nuclides that have relatively more neutrons than those in the region of stability will <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decay to produce a daughter with fewer neutrons, producing a daughter nearer the region of stability. Similarly, those nuclides having relatively more protons than those in the region of stability will <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β rSup { size 8{ + {}} } } {}</m:annotation></m:semantics></m:math> decay or undergo electron capture to produce a daughter with fewer protons, nearer the region of stability.</para>",
+  "reason": "Correct the proton-rich beta-decay sign to beta-plus; keep neutron-rich beta-minus unchanged.",
+  "authorization": "Author requested a Unit 4 backport review with applicable CC BY corrections applied minimally and substantive changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42633"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction"
+}

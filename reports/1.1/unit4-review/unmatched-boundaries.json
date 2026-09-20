@@ -1,0 +1,2243 @@
+[
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Explain Max Planck’s contribution to the development of quantum mechanics. Explain why atomic spectra indicate quantization.",
+    "sha256": "dad3664d33cdbe647f51db134de36b725f410d98be3415104b280a245aac15b5",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1889484",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Energy is quantized in some systems, meaning that the system can have only certain energies and not a continuum of energies, unlike the classical case. This would be like having only certain speeds at which a car can travel because its kinetic energy can have only certain values. We also find that some forms of energy transfer take place with discrete lumps of energy. While most of us are familiar with the quantization of matter into lumps called atoms, molecules, and the like, we are less aware that energy, too, can be quantized. Some of the earliest clues about the necessity of quantum mechanics over classical physics came from the quantization of energy.",
+    "sha256": "a90e89fd6ac3535f27e483036497a04c6eaa9436c0709f686a31d9b6455e9f33",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1458382",
+    "tag": "figure",
+    "shared_descendants": 0,
+    "text": "Graphs of blackbody radiation (from an ideal radiator) at three different radiator temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the peak of the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shape of the spectrum cannot be described with classical physics.",
+    "sha256": "9730bb6112c1fa4044b6f67e0cc924ff64037db9f4ab17618747140eda78564a",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "eip-301",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "E=n+12hf.",
+    "sha256": "dd74b77227011773c1b3eb48ac05d07acc03358aec5b1c3afacbf256a83e49a6",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1751018",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Here n is any nonnegative integer (0, 1, 2, 3, …). The symbol h stands for Planck’s constant, given by",
+    "sha256": "6c707a1f6c963dd536580f957ecf321c1286ce49b149f749f99c821c99810c99",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id2219008",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "The equation E=n+12hf means that an oscillator having a frequency f (emitting and absorbing EM radiation of frequency f) can have its energy increase or decrease only in discrete steps of size",
+    "sha256": "dd738cc5b571916f95e9fd7cea4d53e4788b4914ba30280b2623d43b50946e49",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "eip-302",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "ΔE=hf.",
+    "sha256": "ca0731d70c720924cd5c530dd153653d8ca6fe9988d3c92270c3a09337b1bb39",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67030",
+      "m67134"
+    ],
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1639233",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "It might be helpful to mention some macroscopic analogies of this quantization of energy phenomena. This is like a pendulum that has a characteristic oscillation frequency but can swing with only certain amplitudes. Quantization of energy also resembles a standing wave on a string that allows only particular harmonics described by integers. It is also similar to going up and down a hill using discrete stair steps rather than being able to move up and down a continuous slope. Your potential energy takes on discrete values as you move from step to step.",
+    "sha256": "868fb51e5ed187e2ab2b8cbb61795c6ac9b8873da7db3519e8d406066eb1e837",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1451886",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Using the quantization of oscillators, Planck was able to correctly describe the experimentally known shape of the blackbody spectrum. This was the first indication that energy is sometimes quantized on a small scale and earned him the Nobel Prize in Physics in 1918. Although Planck’s theory comes from observations of a macroscopic object, its analysis is based on atoms and molecules. It was such a revolutionary departure from classical physics that Planck himself was reluctant to accept his own idea that energy states are not continuous. The general acceptance of Planck’s energy quantization was greatly enhanced by Einstein’s explanation of the photoelectric effect (discussed in the next section), which took energy quantization a step further. Planck was fully involved in the development of both early quantum mechanics and relativity. He quickly embraced Einstein’s special relativity, published in 1905, and in 1906 Planck was the first to suggest the correct formula for relativistic momentum, p=γmu.",
+    "sha256": "97ee359f495d9002bf1534ea495204e23b5d59ca386096879b4ca518729b04cf",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "fs-id1273466",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Atomic Spectra Now let us turn our attention to the emission and absorption of EM radiation by gases. The Sun is the most common example of a body containing gases emitting an EM spectrum that includes visible light. We also see examples in neon signs and candle flames. Studies of emissions of hot gases began more than two centuries ago, and it was soon recognized that these emission spectra contained huge amounts of information. The type of gas and its temperature, for example, could be determined. We now know that these EM emissions come from electrons transitioning between energy levels in individual atoms and molecules; thus, they are called atomic spectra. Atomic spectra remain an important analytical tool today. shows an example of an emission spectrum obtained by passing an electric discharge through a material. One of the most important characteristics of these spectra is that they are discrete. By this we mean that only certain wavelengths, and hence frequencies, are emitted. This is called a line spectrum. If frequency and energy are associated as ΔE=hf, the energies of the electrons in the emitting atoms and molecules are quantized. This is discussed in more detail later in this chapter. Emission spectrum of oxygen. When an electrical discharge is passed through a substance, its atoms and molecules absorb energy, which is reemitted as EM radiation. The discrete nature of these emissions implies that the energy states of the atoms and molecules are quantized. Such atomic spectra were used as analytical tools for many decades before it was understood why they are quantized. (credit: Teravolt, Wikimedia Commons)It was a major puzzle that atomic spectra are quantized. Some of the best minds of 19th-century science failed to explain why this might be. Not until the second decade of the 20th century did an answer based on quantum mechanics begin to emerge. Again a macroscopic or classical body of gas was involved in the studies, but the effect, as we shall see, is due to individual atoms and molecules.",
+    "sha256": "20a64913c50c80c4b9e36c40730fce7a504107e662840da53643a791b01b0627",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "eip-521",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Models of the Hydrogen Atom How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results. Click to view content.",
+    "sha256": "d20caf9a7af588e563e25d7c011fe47244f7ddfb9d1c59031e1e4cbd1cf384db",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "fs-id1502181",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses The visible spectrum of sunlight shows a range of colors from red to violet. This spectrum has numerous dark lines spread throughout it. Noting that the surface of the Sun is much cooler than the interior, so that the surface is comparable to a cool gas through which light passes, which of the following statements correctly explains the dark lines? The cooler, denser surface material scatters certain wavelengths of light, forming dark lines. The atoms at the surface absorb certain wavelengths of light, causing the dark lines at those wavelengths. The atoms in the Sun’s interior emit light of specific wavelength, so that parts of the spectrum are dark. The atoms at the surface are excited by the high interior temperatures, so that the dark lines are merely wavelengths at which those atoms don’t emit energy. (b) A log in a fireplace burns for nearly an hour, at which point it consists mostly of small, hot embers. These embers glow a bright orange and whitish-yellow color. Describe the characteristics of the energy of this system, both in terms of energy transfer and the quantum behavior of blackbodies.",
+    "sha256": "9e9fe308966aaee85b45aea700bc1a40e1f6e8381f1b7f17dead299ad293892a",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1561986",
+    "tag": "item",
+    "shared_descendants": 0,
+    "text": "h is Planck’s constant, whose value is h=6.626× 10–34 J ⋅ s.",
+    "sha256": "f25435088130d965d3d7376dd9c1863b14490a207bb8b2901edd212fba182357",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id2319049",
+    "tag": "item",
+    "shared_descendants": 0,
+    "text": "Thus, the oscillatory absorption and emission energies of atoms and molecules in a blackbody could increase or decrease only in steps of size ΔE=hf where f is the frequency of the oscillatory nature of the absorption and emission of EM radiation.",
+    "sha256": "d76b5014cddde021ff0cc7dc104d03fe567cb2f17173a6bfee0f5d03674f882b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1295259",
+    "tag": "item",
+    "shared_descendants": 0,
+    "text": "Another indication of energy levels being quantized in atoms and molecules comes from the lines in atomic spectra, which are the EM emissions of individual atoms and molecules.",
+    "sha256": "803d84f349a47bff5bc0445cb6f39e4df7d1d503bb89d863a14ce952b0cb8015",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "fs-id977492",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "If Planck’s constant were large, say 1034 times greater than it is, we would observe macroscopic entities to be quantized. Describe the motions of a child’s swing under such circumstances.",
+    "sha256": "68507380bfbf35eea00c94cf58f6179c9ade45b530507b6c154739808611a6fc",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "fs-id1254818",
+    "tag": "solution",
+    "shared_descendants": 0,
+    "text": "(a) 2.21×1034 J(b) 2.26×1034 (c) No",
+    "sha256": "4cdc41adf15f63ca0d977640bef6d7b1d0401b79968b59bf2ad256e15a1e494d",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67250",
+    "upstream_module": "m42554",
+    "id": "import-auto-id1931942",
+    "tag": "definition",
+    "shared_descendants": 1,
+    "text": "atomic spectra the electromagnetic emission from atoms and molecules",
+    "sha256": "9a905d7a64bce3ea73c9c68843ffa4e749ce64f09b0385b54eaa42eb06ad44ac",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored blackbody history, ultraviolet-catastrophe figure, absorption definition and oscillator energy-step treatment. Upstream oscillator zero-point energy is not a reason to replace the adapted Planck explanation. Atomic spectra coverage appears later locally. Added analogies/AP material are outside this backport."
+  },
+  {
+    "local_module": "m67251",
+    "upstream_module": "m42558",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Describe a typical photoelectric-effect experiment. Determine the maximum kinetic energy of photoelectrons ejected by photons of one energy or wavelength, when given the maximum kinetic energy of photoelectrons for a different photon energy or wavelength.",
+    "sha256": "e20712f5f743c632437661a07eca2dd931e711693806b1029c6deb738ab9f6e7",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored apparatus explanation, maximum-energy emphasis, monochromatic-light and frequency-threshold qualifications, schematic reference and work-function definition. Upstream extended explanation is not an incremental correction and includes the same eV-versus-V and violet-versus-UV mistakes noted for later author review."
+  },
+  {
+    "local_module": "m67251",
+    "upstream_module": "m42558",
+    "id": "import-auto-id1643323",
+    "tag": "item",
+    "shared_descendants": 1,
+    "text": "The kinetic energy of an ejected electron equals the photon energy minus the binding energy of the electron in the specific material. An individual photon can give all of its energy to an electron. The photon’s energy is partly used to break the electron away from the material. The remainder goes into the ejected electron’s kinetic energy. In equation form, this is given by KEe=hf−BE, where KEe is the maximum kinetic energy of the ejected electron, hf is the photon’s energy, and BE is the binding energy of the electron to the particular material. (BE is sometimes called the work function of the material.) This equation, due to Einstein in 1905, explains the properties of the photoelectric effect quantitatively. An individual photon of EM radiation (it does not come any other way) interacts with an individual electron, supplying enough energy, BE, to break it away, with the remainder going to kinetic energy. The binding energy is BE =hf0, where f0 is the threshold frequency for the particular material. shows a graph of maximum KEe versus the frequency of incident EM radiation falling on a particular material.",
+    "sha256": "c35afa7cbb3935386ad1747e7db5b49e4bd5b5954b0fd0bab427aabb01a46040",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored apparatus explanation, maximum-energy emphasis, monochromatic-light and frequency-threshold qualifications, schematic reference and work-function definition. Upstream extended explanation is not an incremental correction and includes the same eV-versus-V and violet-versus-UV mistakes noted for later author review."
+  },
+  {
+    "local_module": "m67251",
+    "upstream_module": "m42558",
+    "id": "eip-25",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Photoelectric Effect See how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics. Click to view content.",
+    "sha256": "706b6d92cdc87afd4960d3c57aa679eeacdcb4594bfc0d1a502fdbb187d8e537",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m42238",
+      "m52427",
+      "m67804",
+      "m71592",
+      "m75427",
+      "m76603"
+    ],
+    "reason": "Preserve the authored apparatus explanation, maximum-energy emphasis, monochromatic-light and frequency-threshold qualifications, schematic reference and work-function definition. Upstream extended explanation is not an incremental correction and includes the same eV-versus-V and violet-versus-UV mistakes noted for later author review."
+  },
+  {
+    "local_module": "m67251",
+    "upstream_module": "m42558",
+    "id": "fs-id2668732",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A metal exposed to a beam of light with a wavelength equal to or shorter than a specific wavelength emits electrons. What property of light, as described in the quantum explanation of blackbody radiation, accounts for this photoelectric process? The energy of light increases as its speed increases. The energy of light increases as its intensity increases. The energy of light increases as its frequency increases. The energy of light increases as its wavelength increases. (c) During his experiments that confirmed the existence of electromagnetic waves, Heinrich Hertz used a spark across a gap between two electrodes to provide the rapidly changing electric current that produced electromagnetic waves. He noticed, however, that production of the spark required a lower voltage in a well-lighted laboratory than when the room was dark. Describe how this curious event can be explained in terms of the quantum interpretation of the photoelectric effect.",
+    "sha256": "38f1c3ad6358a1601c33e19fe9d50e0150d7e51d6a1970e55c6c5e00f2f06295",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Preserve the authored apparatus explanation, maximum-energy emphasis, monochromatic-light and frequency-threshold qualifications, schematic reference and work-function definition. Upstream extended explanation is not an incremental correction and includes the same eV-versus-V and violet-versus-UV mistakes noted for later author review."
+  },
+  {
+    "local_module": "m67251",
+    "upstream_module": "m42558",
+    "id": "fs-id1284461",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "What is the maximum velocity of electrons ejected from a material by 80-nm photons, if they are bound to the material by 4.73 eV? 1.95 × 10 6 m/s",
+    "sha256": "938acbfcc1dad00947db42eee91bb5021ccd98c53c4cff5d99187b0a43cc2fa1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored apparatus explanation, maximum-energy emphasis, monochromatic-light and frequency-threshold qualifications, schematic reference and work-function definition. Upstream extended explanation is not an incremental correction and includes the same eV-versus-V and violet-versus-UV mistakes noted for later author review."
+  },
+  {
+    "local_module": "m67251",
+    "upstream_module": "m42558",
+    "id": "fs-id1436349",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 420-nm photons. Once ejected, how long does it take these electrons to travel 2.50 cm to a detection device?",
+    "sha256": "d471ffea974a079ad395f9cb1ea88b32f1585d75fc2e300543c45045baafde1f",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the authored apparatus explanation, maximum-energy emphasis, monochromatic-light and frequency-threshold qualifications, schematic reference and work-function definition. Upstream extended explanation is not an incremental correction and includes the same eV-versus-V and violet-versus-UV mistakes noted for later author review."
+  },
+  {
+    "local_module": "m67803",
+    "upstream_module": "m42576",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Describe the Davisson-Germer experiment, and explain how it provides evidence for the wave nature of electrons.",
+    "sha256": "6d1d3b1352a0fc0e9c4c34d0946907bdf0efcdaf7017d4b29cdc4008b6addace",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain the local de Broglie derivation and links to uncertainty and Bohr. The 54 eV calculation gives 8.659e-18 J from stated inputs; reject upstream 86.4e-18 J (factor ten error). Local 8.66e-18 J is consistent; 54.05 eV has excess precision, deferred with exercise polish."
+  },
+  {
+    "local_module": "m67803",
+    "upstream_module": "m42576",
+    "id": "fs-id1477161",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Making Connections: A Submicroscopic Diffraction Grating The wave nature of matter allows it to exhibit all the characteristics of other, more familiar, waves. Diffraction gratings, for example, produce diffraction patterns for light that depend on grating spacing and the wavelength of the light. This effect, as with most wave phenomena, is most pronounced when the wave interacts with objects having a size similar to its wavelength. For gratings, this is the spacing between multiple slits.) When electrons interact with a system having a spacing similar to the electron wavelength, they show the same types of interference patterns as light does for diffraction gratings, as shown at top left in . Atoms are spaced at regular intervals in a crystal as parallel planes, as shown in the bottom part of . The spacings between these planes act like the openings in a diffraction grating. At certain incident angles, the paths of electrons scattering from successive planes differ by one wavelength and, thus, interfere constructively. At other angles, the path length differences are not an integral wavelength, and there is partial to total destructive interference. This type of scattering from a large crystal with well-defined lattice planes can produce dramatic interference patterns. It is called Bragg reflection, for the father-and-son team who first explored and analyzed it in some detail. The expanded view also shows the path-length differences and indicates how these depend on incident angle θ in a manner similar to the diffraction patterns for x rays reflecting from a crystal. The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.Let us take the spacing between parallel planes of atoms in the crystal to be d. As mentioned, if the path length difference (PLD) for the electrons is a whole number of wavelengths, there will be constructive interference—that is, PLD=nλ (n= 1, 2, 3,…). Because AB=BC= dsinθ, we have constructive interference when nλ=2dsinθ. This relationship is called the Bragg equation and applies not only to electrons but also to x rays.The wavelength of matter is a submicroscopic characteristic that explains a macroscopic phenomenon such as Bragg reflection. Similarly, the wavelength of light is a submicroscopic characteristic that explains the macroscopic phenomenon of diffraction patterns.",
+    "sha256": "0cebf310fb937efa3d6fef09997b2983fadc8e596eba59ea5257d11a55672e19",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain the local de Broglie derivation and links to uncertainty and Bohr. The 54 eV calculation gives 8.659e-18 J from stated inputs; reject upstream 86.4e-18 J (factor ten error). Local 8.66e-18 J is consistent; 54.05 eV has excess precision, deferred with exercise polish."
+  },
+  {
+    "local_module": "m67803",
+    "upstream_module": "m42576",
+    "id": "fs-id1395141",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses The least massive particle known to exist is the electron neutrino. Though scientists once believed that it had no mass, like the photon, they have now determined that this particle has an extremely low mass, equivalent to a few electron volts. Assuming a mass of 2.2 eV/c2 (or 3.9 × 10–36 kg) and a speed of 4.4 × 106 m/s, which of the following values equals the neutrino’s de Broglie wavelength? 3.8 × 10–5 m 4.7 × 10–7 m 1.7 × 10–10 m 8.9 × 10–14 m (a) Using the definition of the de Broglie wavelength, explain how wavelike properties of matter increase with a decrease in mass or decrease in speed. Use as examples an electron (mass = 9.11 × 10–31 kg) with a speed of 5.0 × 106 m/s and a proton (mass = 1.67 × 10–27 kg) with a speed of 8.0 × 106 m/s. In a Davisson-Germer type of experiment, a crystal with a parallel-plane separation (d) of 9.1 × 10–2 nm produces constructive interference with an electron beam at an angle of θ = 50°. Which of the following is the maximum de Broglie wavelength for these electrons? 0.07nm 0.09 nm 0.14 nm 0.21 nm (c) In a Davisson-Germer experiment, electrons with a speed of 6.5 × 106 m/s exhibit third-order (n = 3) constructive interference for a crystal with unknown plane separation, d. Given an angle of incidence of θ = 45°, compute the value for d. Compare the de Broglie wavelength to electromagnetic radiation with the same wavelength. (Recall that the mass of the electron is 9.11 × 10–31 kg.)",
+    "sha256": "729aa0d51b9df35b7a5ae7b510ef2baea3b5d4b75e31a857c42732f8b09e2d52",
+    "status": "outside-adapted-scope-ap",
+    "local_locations": [
+      "m71587"
+    ],
+    "reason": "Retain the local de Broglie derivation and links to uncertainty and Bohr. The 54 eV calculation gives 8.659e-18 J from stated inputs; reject upstream 86.4e-18 J (factor ten error). Local 8.66e-18 J is consistent; 54.05 eV has excess precision, deferred with exercise polish."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Use both versions of Heisenberg’s uncertainty principle in calculations. Explain the implications of Heisenberg’s uncertainty principle for measurements.",
+    "sha256": "f5becdefa23faae40bda879720fef6c22720f8e369af0e75e7001a29c4f95e4e",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "import-auto-id2631949",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Both patterns build up statistically as individual particles fall on the detector. This can be observed for photons or electrons—for now, let us concentrate on electrons. You might imagine that the electrons are interfering with one another as any waves do. To test this, you can lower the intensity until there is never more than one electron between the slits and the screen. The same interference pattern builds up! This implies that a particle’s probability distribution spans both slits, and the particles actually interfere with themselves. Does this also mean that the electron goes through both slits? An electron is a basic unit of matter that is not divisible. But it is a fair question, and so we should look to see if the electron traverses one slit or the other, or both. One possibility is to have coils around the slits that detect charges moving through them. What is observed is that an electron always goes through one slit or the other; it does not split to go through both. But there is a catch. If you determine that the electron went through one of the slits, you no longer get a double slit pattern—instead, you get single slit interference. There is no escape by using another method of determining which slit the electron went through. Knowing the particle went through one slit forces a single-slit pattern. If you do not observe which slit the electron goes through, you obtain a double-slit pattern.",
+    "sha256": "4a7bf4b9cc3103a67f219d5d92eea3051d782a09791d4a0a168bcd50bd3f3808",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "uncertainty in position",
+    "sha256": "ddbbc09e62d65fa33aa8c1149bcd8acd5d5dd9f80a23112015fd3ec9eb33100b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "fs-id2734146",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Heisenberg Uncertainty for Energy and Time There is another form of Heisenberg’s uncertainty principle for simultaneous measurements of energy and time. In equation form,ΔEΔt≥h4π,where ΔE is the uncertainty in energy and Δt is the uncertainty in time. This means that within a time interval Δt, it is not possible to measure energy precisely—there will be an uncertainty ΔE in the measurement. In order to measure energy more precisely (to make ΔE smaller), we must increase Δt. This time interval may be the amount of time we take to make the measurement, or it could be the amount of time a particular state exists, as in the next . Heisenberg Uncertainty Principle for Energy and Time for an Atom An atom in an excited state temporarily stores energy. If the lifetime of this excited state is measured to be 1.0×10−10s, what is the minimum uncertainty in the energy of the state in eV?Strategy The minimum uncertainty in energy ΔE is found by using the equals sign in ΔEΔt≥h/4π and corresponds to a reasonable choice for the uncertainty in time. The largest the uncertainty in time can be is the full lifetime of the excited state, or Δt=1.0×10−10s.Solution Solving the uncertainty principle for ΔE and substituting known values gives Δ E = h 4πΔt = 6 . 63 × 10 –34 J ⋅ s 4π ( 1.0×10 –10 s ) = 5 . 3 × 10 –25 J. Now converting to eV yields Δ E = (5.3 × 10 –25 J) ( 1 eV 1 . 6 × 10 –19 J ) = 3 . 3 × 10 –6 eV . Discussion The lifetime of 10−10s is typical of excited states in atoms—on human time scales, they quickly emit their stored energy. An uncertainty in energy of only a few millionths of an eV results. This uncertainty is small compared with typical excitation energies in atoms, which are on the order of 1 eV. So here the uncertainty principle limits the accuracy with which we can measure the lifetime and energy of such states, but not very significantly. The uncertainty principle for energy and time can be of great significance if the lifetime of a system is very short. Then Δt is very small, and ΔE is consequently very large. Some nuclei and exotic particles have extremely short lifetimes (as small as 10−25s), causing uncertainties in energy as great as many GeV (109eV). Stored energy appears as increased rest mass, and so this means that there is significant uncertainty in the rest mass of short-lived particles. When measured repeatedly, a spread of masses or decay energies are obtained. The spread is ΔE. You might ask whether this uncertainty in energy could be avoided by not measuring the lifetime. The answer is no. Nature knows the lifetime, and so its brevity affects the energy of the particle. This is so well established experimentally that the uncertainty in decay energy is used to calculate the lifetime of short-lived states. Some nuclei and particles are so short-lived that it is difficult to measure their lifetime. But if their decay energy can be measured, its spread is ΔE, and this is used in the uncertainty principle (ΔEΔt≥h/4π) to calculate the lifetime Δt.There is another consequence of the uncertainty principle for energy and time. If energy is uncertain by ΔE, then conservation of energy can be violated by ΔE for a time Δt. Neither the physicist nor nature can tell that conservation of energy has been violated, if the violation is temporary and smaller than the uncertainty in energy. While this sounds innocuous enough, we shall see in later chapters that it allows the temporary creation of matter from nothing and has implications for how nature transmits forces over very small distances.Finally, note that in the discussion of particles and waves, we have stated that individual measurements produce precise or particle-like results. A definite position is determined each time we observe an electron, for example. But repeated measurements produce a spread in values consistent with wave characteristics. The great theoretical physicist Richard Feynman (1918–1988) commented, “What there are, are particles.” When you observe enough of them, they distribute themselves as you would expect for a wave phenomenon. However, what there are as they travel we cannot tell because, when we do try to measure, we affect the traveling.",
+    "sha256": "d9e9e0095fce251154bb5666c965b152e64f550b06d693e558563deb8a7b5b29",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "import-auto-id1665223",
+    "tag": "item",
+    "shared_descendants": 0,
+    "text": "For energy and time, the uncertainty principle is ΔEΔt≥h4π where ΔE is the uncertainty in energy and Δt is the uncertainty in time.",
+    "sha256": "1584d41b53b393eebb92e3eee25900c2dbe723bb7bd61840e1c122252d259d93",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "fs-id2019572",
+    "tag": "definition",
+    "shared_descendants": 0,
+    "text": "uncertainty in energy lack of precision or lack of knowledge of precise results in measurements of energy",
+    "sha256": "0059d67b9a55f8781bf3370dd18c540ba2b48f220fa32b4350d069a7c9a1f67c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67804",
+    "upstream_module": "m42579",
+    "id": "fs-id1539801",
+    "tag": "definition",
+    "shared_descendants": 0,
+    "text": "uncertainty in time lack of precision or lack of knowledge of precise results in measurements of time",
+    "sha256": "1d3cfa9cec2485105584c29273e05248fa5f1552262d5a5e7af0bab92259c539",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Describe how electrons were discovered. Explain the Millikan oil drop experiment. Describe Rutherford’s gold foil experiment. Describe Rutherford’s planetary model of the atom.",
+    "sha256": "2dd6df9173cd8899aa249b625af955a5ac67a311a0741dfb8683ec6b4c2fc6e4",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "fs-id2928467",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Charges and Electromagnetic Forces In previous discussions, we have noted that positive charge is associated with nuclei and negative charge with electrons. We have also covered many aspects of the electric and magnetic forces that affect charges. We will now explore the discovery of the electron and nucleus as substructures of the atom and examine their contributions to the properties of atoms.",
+    "sha256": "73a98cd01ee20b5f4187934e2aee073fdb43fa1387d89bcedd401e0cf3c63bdd",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id3055503",
+    "tag": "para",
+    "shared_descendants": 1,
+    "text": "Gas discharge tubes today are most commonly called cathode-ray tubes, because the rays originate at the cathode. Crookes showed that the electrons carry momentum (they can make a small paddle wheel rotate). He also found that their normally straight path is bent by a magnet in the direction expected for a negative charge moving away from the cathode. These were the first direct indications of electrons and their charge.",
+    "sha256": "15485168864203ab2f5369095092351e0e8152aebcd8b25c1ac40e7c41c3f4d6",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-967",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "F=qeE.",
+    "sha256": "376b5c3fd9fcc4fbba6a2e600549270341bcbee2df8bfbba57e9d7f6a291cc31",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67036"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id3175732",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "But the vertical deflection is also related to the electron’s mass, since the electron’s acceleration is",
+    "sha256": "bcb29e5ea1e78956ab1cf208976e216c5f82c2aeddbe71498dc02b5a61b4daa8",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-474",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "a = F m e .",
+    "sha256": "61efe2b9e16cfa6867ee944816d321e817dd17b54c32cdcf6028fb3b09ff9538",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67126",
+      "m70739"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1022777",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "The value of F is not known, since qe was not yet known. Substituting the expression for electric force into the expression for acceleration yields",
+    "sha256": "a78e5c99ff9c1d634df46e95ea7427a0be010b2987b20a33b0a4f144f9f0e325",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52480"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-665",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "a = F m e = q e E m e .",
+    "sha256": "8dfd7ed268b03f39b6e982e1d2cacbd15e762327e402e1438b2d71655bc1e3a8",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52364",
+      "m76603"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id2397675",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Gathering terms, we have",
+    "sha256": "e2ed9190659bcbc46edb3ef8bbdfb0f0ab862df551fc22cb04c06532710fc73b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-770",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "q e m e = a E .",
+    "sha256": "ce3ccc39e73c0d09c8222cd813d03e24cec93919d9c2c7c6887748389b076923",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m76603"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id2952945",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "The deflection is analyzed to get a, and E is determined from the applied voltage and distance between the plates; thus, qeme can be determined. With the velocity known, another measurement of qeme can be obtained by bending the beam of electrons with the magnetic field. Since Fmag=qevB=mea, we have qe/me=a/vB. Consistent results are obtained using magnetic deflection.",
+    "sha256": "86cc46bef755973d390a39590368380eb58a4b97bbb3af36bbc5f52a756c6ca6",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1849553",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Thomson attempted to measure the charge of individual electrons, but his method could determine its charge only to the order of magnitude expected.",
+    "sha256": "01fbf2a450ab56c0d6cf8cc4a24d2a656cc5d4efe4bf7c05e9b09fce603e122f",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1471686",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Since Faraday’s experiments with electroplating in the 1830s, it had been known that about 100,000 C per mole was needed to plate singly ionized ions. Dividing this by the number of ions per mole (that is, by Avogadro’s number), which was approximately known, the charge per ion was calculated to be about 1.6×10−19 C, close to the actual value.",
+    "sha256": "8c27dd8fb478eb986a4e998f368e6c4605e5f94c1b161c3e0f23bb99b449d86e",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1815128",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "An American physicist, Robert Millikan (1868–1953) (see ), decided to improve upon Thomson’s experiment for measuring qe and was eventually forced to try another approach, which is now a classic experiment performed by students. The Millikan oil drop experiment is shown in .",
+    "sha256": "0e3db12b791c207724a9a655afc0c0cf775c376c3c292857720982e6baa09fae",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1379919",
+    "tag": "figure",
+    "shared_descendants": 0,
+    "text": "Robert Millikan (credit: Unknown Author, via Wikimedia Commons)",
+    "sha256": "eee51f65d4c8325ac1979286548e1ce044a72e721766e2825a522d00548a12c2",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "fs-id2010482",
+    "tag": "figure",
+    "shared_descendants": 0,
+    "text": "The Millikan oil drop experiment produced the first accurate direct measurement of the charge on electrons, one of the most fundamental constants in nature. Fine drops of oil become charged when sprayed. Their movement is observed between metal plates with a potential applied to oppose the gravitational force. The balance of gravitational and electric forces allows the calculation of the charge on a drop. The charge is found to be quantized in units of −1.6 × 10 −19 C , thus determining directly the charge of the excess and missing electrons on the oil drops.",
+    "sha256": "a704379d42e080a43d09c4dad046a8d85e544da0dda7ad534ae58ab2a53f1457",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1514307",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "In the Millikan oil drop experiment, fine drops of oil are sprayed from an atomizer. Some of these are charged by the process and can then be suspended between metal plates by a voltage between the plates. In this situation, the weight of the drop is balanced by the electric force:",
+    "sha256": "348d9a5826b518e1704c9643790d5c9af38d9384078bce8cad700a9d0813d796",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-53",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "m drop g = q e E",
+    "sha256": "bf5a8a0691ae8ab26f77bc29ff3fa3860488749b0108cb427ebaff01e521445b",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67807",
+      "m75427"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1365989",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "The electric field is produced by the applied voltage, hence, E=V/d, and V is adjusted to just balance the drop’s weight. The drops can be seen as points of reflected light using a microscope, but they are too small to directly measure their size and mass. The mass of the drop is determined by observing how fast it falls when the voltage is turned off. Since air resistance is very significant for these submicroscopic drops, the more massive drops fall faster than the less massive, and sophisticated sedimentation calculations can reveal their mass. Oil is used rather than water, because it does not readily evaporate, and so mass is nearly constant. Once the mass of the drop is known, the charge of the electron is given by rearranging the previous equation:",
+    "sha256": "cab15b5ef5bbc79f3c5519a7f8c7b146fb4979d88c2f4e163aef0f5f284cfa03",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-406",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "q = m drop g E = m drop gd V ,",
+    "sha256": "b02f79104a80364cd1830cceb511d24821a43b7477fbb2ec57c07c36049e21ab",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m42356",
+      "m52454",
+      "m75429"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1817142",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "where d is the separation of the plates and V is the voltage that holds the drop motionless. (The same drop can be observed for several hours to see that it really is motionless.) By 1913 Millikan had measured the charge of the electron qe to an accuracy of 1%, and he improved this by a factor of 10 within a few years to a value of −1.60×10−19 C. He also observed that all charges were multiples of the basic electron charge and that sudden changes could occur in which electrons were added or removed from the drops. For this very fundamental direct measurement of qe and for his studies of the photoelectric effect, Millikan was awarded the 1923 Nobel Prize in Physics.",
+    "sha256": "65f1f1a65c87d978c58260413c832603f730c8eaacfe5f3eb48f379e4d9261e5",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id2438454",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "With the charge of the electron known and the charge-to-mass ratio known, the electron’s mass can be calculated. It is",
+    "sha256": "0e258023a4339b072a400d913c0c10410edc4a3689f78f4a6b5249b82b47513c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-515",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "m = q e q e m e .",
+    "sha256": "43a6b2f67604e1c5aba293b3a31efc1e59317318af6813fef9f317dd865e1c23",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52471"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id1911248",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Substituting known values yields",
+    "sha256": "5fb91fb18ff434e7b01a7cc7e1a2da7b5f090f4b0bc8efce184d6c934cbcdd74",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-848",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "m e = − 1.60 × 10 − 19 C − 1 . 76 × 10 11 C/kg",
+    "sha256": "26fcd6890c6b87e4d9ca4a42fe1caaef97549f6438a0bd5cc07d0f45d2c15236",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67128",
+      "m71414"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id2397476",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "or",
+    "sha256": "afc9bd7d241a2336b94631f751affc85ee2551be273716fe928bde44d0f77e3c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id2398000",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "where the round-off errors have been corrected. The mass of the electron has been verified in many subsequent experiments and is now known to an accuracy of better than one part in one million. It is an incredibly small mass and remains the smallest known mass of any particle that has mass. (Some particles, such as photons, are massless and cannot be brought to rest, but travel at the speed of light.) A similar calculation gives the masses of other particles, including the proton. To three digits, the mass of the proton is now known to be",
+    "sha256": "4eecc066db7b7dbf8d17daf76401bcd2a2892938ec5f3a6ef9a200b88d74eac3",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-375",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "mp=1.67×10−27 kg (proton’s mass),",
+    "sha256": "211976ddd9df390cb5c40ee213a1b54f390cd66d245ecbf2aa623c89b6cecd2c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "import-auto-id2448294",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Another important characteristic of quantum mechanics was also beginning to emerge. All electrons are identical to one another. The charge and mass of electrons are not average values; rather, they are unique values that all electrons have. This is true of other fundamental entities at the submicroscopic level. All protons are identical to one another, and so on.",
+    "sha256": "2cb4d98e349fcc11db4cbbbd27d7b859036c90b01be2396ff652a0e632df04f1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "eip-660",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Rutherford Scattering How did Rutherford figure out the structure of the atom without being able to see it? Simulate the famous experiment in which he disproved the Plum Pudding model of the atom by observing alpha particles bouncing off atoms and determining that they must have a small core.",
+    "sha256": "58695176487836101a7ec01273afb01b8fd2ee1711c99d8acd2b1ef4cd5fb68b",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52471"
+    ],
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67805",
+    "upstream_module": "m42592",
+    "id": "fs-id2621875",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses In an experiment, three microscopic latex spheres are sprayed into a chamber and become charged with +3e, +5e, and −3e, respectively. Later, all three spheres collide simultaneously and then separate. Which of the following are possible values for the final charges on the spheres? Select two answers. +4e, −4e, +5e −4e, +4.5e, +4.5e +5e, −8e, +7e +6e, +6e, −7e (a), (d) In Millikan’s oil drop experiment, he experimented with various voltage differences between two plates to determine what voltage was necessary to hold a drop motionless. He deduced that the charge on the oil drop could be found by setting the gravitational force on the drop (pointing downward) equal to the electric force (pointing upward): m drop g=qE , where m drop is the mass of the oil drop, g is the gravitational acceleration (9.8 m/s2), q is the net charge of the oil drop, and E is the electric field between the plates. Millikan deduced that the charge on an electron, e, is 1.6 × 10−19 C. For a system of oil drops of equal mass (1.0 × 10−15 kilograms), describe what value or values of the electric field would hold the drops motionless.",
+    "sha256": "171eac8096aa3039282c90dc8680e439b61f9235cfeb06e24fb62ff501af41fa",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Retain electron-cloud and Coulomb-scattering explanation, charge-to-mass conceptual treatment, and omission of Millikan derivation. Do not restore upstream electron-only scattering claim or smallest-mass claim. An empty MathML object shifts ordinal comparisons but carries no missing physical quantity."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Describe the mysteries of atomic spectra. Explain Bohr’s theory of the hydrogen atom. Explain Bohr’s planetary model of the atom. Illustrate energy state using the energy-level diagram. Describe the triumphs and limits of Bohr’s theory.",
+    "sha256": "82f8803eeda017a077e23607fdeb55621dee4b940e4d18ee846e219f36071248",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1868289",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "The observed hydrogen-spectrum wavelengths can be calculated using the following formula:",
+    "sha256": "f1ae9737c49cee0f0fac4f53d0a4d5814a7975bf35c432217e111947d5c13fa8",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "fs-id1890364",
+    "tag": "example",
+    "shared_descendants": 0,
+    "text": "Calculating Wave Interference of a Hydrogen Line What is the distance between the slits of a grating that produces a first-order maximum for the second Balmer line at an angle of 15º? Strategy and Concept For an Integrated Concept problem, we must first identify the physical principles involved. In this example, we need to know (a) the wavelength of light as well as (b) conditions for an interference maximum for the pattern from a double slit. Part (a) deals with a topic of the present chapter, while part (b) considers the wave interference material of Wave Optics. Solution for (a) Hydrogen spectrum wavelength. The Balmer series requires that nf=2. The first line in the series is taken to be for ni=3, and so the second would have ni=4.The calculation is a straightforward application of the wavelength equation. Entering the determined values for nf and ni yields 1 λ = R 1 n f 2 − 1 n i 2 = 1.097 × 10 7 m –1 1 2 2 − 1 4 2 = 2.057 × 10 6 m –1 . Inverting to find λ gives λ = 1 2.057 × 10 6 m –1 = 486 × 10 − 9 m = 486 nm. Discussion for (a) This is indeed the experimentally observed wavelength, corresponding to the second (blue-green) line in the Balmer series. More impressive is the fact that the same simple recipe predicts all of the hydrogen spectrum lines, including new ones observed in subsequent experiments. What is nature telling us? Solution for (b) Double-slit interference (Wave Optics). To obtain constructive interference for a double slit, the path length difference from two slits must be an integral multiple of the wavelength. This condition was expressed by the equationdsinθ=mλ,where d is the distance between slits and θ is the angle from the original direction of the beam. The number m is the order of the interference; m=1 in this example. Solving for d and entering known values yieldsd=1486 nmsin 15º=1.88×10−6 m. Discussion for (b) This number is similar to those used in the interference examples of Introduction to Quantum Physics (and is close to the spacing between slits in commonly used diffraction glasses).",
+    "sha256": "01bcac2fc3d9109f7a3cf2a387645091102eda39c3f576f208a0e32e2c0af957",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-434",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "ΔE=hf=Ei−Ef.",
+    "sha256": "0ff9363db67cf1aa59fdf2effc83d01001d437e79381c22c3377e4fef42361bc",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52471"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id3126422",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Here, ΔE is the change in energy between the initial and final orbits, and hf is the energy of the absorbed or emitted photon. It is quite logical (that is, expected from our everyday experience) that energy is involved in changing orbits. A blast of energy is required for the space shuttle, for example, to climb to a higher orbit. What is not expected is that atomic orbits should be quantized. This is not observed for satellites or planets, which can have any orbit given the proper energy. (See .)",
+    "sha256": "f26d34f677cad69188ccdd3f4da065d406abaf773eddf6bd07a1d1fa2f7ab629",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67124"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id3146487",
+    "tag": "para",
+    "shared_descendants": 1,
+    "text": "shows an energy-level diagram, a convenient way to display energy states. In the present discussion, we take these to be the allowed energy levels of the electron. Energy is plotted vertically with the lowest or ground state at the bottom and with excited states above. Given the energies of the lines in an atomic spectrum, it is possible (although sometimes very difficult) to determine the energy levels of an atom. Energy-level diagrams are used for many systems, including molecules and nuclei. A theory of the atom or any other system must predict its energies based on the physics of the system.",
+    "sha256": "0461a77bae0d515e502ffda9759f90485a99eca05a5f70bd0da494fc0bf4d238",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67530"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id2421773",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Bohr was clever enough to find a way to calculate the electron orbital energies in hydrogen. This was an important first step that has been improved upon, but it is well worth repeating here, because it does correctly describe many characteristics of hydrogen. Assuming circular orbits, Bohr proposed that the angular momentum L of an electron in its orbit is quantized, that is, it has only specific, discrete values. The value for L is given by the formula",
+    "sha256": "86b3736c0b4470209f9b042b8cb375a2daa04542aeec720da545c0778a06525f",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-935",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "L=mevrn=nh2πn=1, 2, 3,…,",
+    "sha256": "a2318b0d28f7c6bc8c9d9a4302851613a5fc07a6a9924d72a1d5dd2172af8d08",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67045"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1997798",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "where L is the angular momentum, me is the electron’s mass, rn is the radius of the n th orbit, and h is Planck’s constant. Note that angular momentum is L=Iω. For a small object at a radius r, I=mr2 and ω=v/r, so that L=mr2v/r=mvr. Quantization says that this value of mvr can only be equal to h/2,2h/2,3h/2, etc. At the time, Bohr himself did not know why angular momentum should be quantized, but using this assumption he was able to calculate the energies in the hydrogen spectrum, something no one else had done at the time.",
+    "sha256": "ad2d6f0c167d0808c9f86fbe86ff645e6fe3d66522ad8e499fd9dedc036f39b4",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1339459",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "From Bohr’s assumptions, we will now derive a number of important properties of the hydrogen atom from the classical physics we have covered in the text. We start by noting the centripetal force causing the electron to follow a circular path is supplied by the Coulomb force. To be more general, we note that this analysis is valid for any single-electron atom. So, if a nucleus has Z protons (Z=1 for hydrogen, 2 for helium, etc.) and only one electron, that atom is called a hydrogen-like atom. The spectra of hydrogen-like ions are similar to hydrogen, but shifted to higher energy by the greater attractive force between the electron and nucleus. The magnitude of the centripetal force is mev2/rn, while the Coulomb force is kZqeqe/rn2. The tacit assumption here is that the nucleus is more massive than the stationary electron, and the electron orbits about it. This is consistent with the planetary model of the atom. Equating these,",
+    "sha256": "37007f5ce2e0be21dcacf919918b9185776efa8d82f28d1d8422115c22ced6a5",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m71587"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-419",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "kZqe2rn2=mev2rn(Coulomb = centripetal).",
+    "sha256": "e50b87d4e970a14f97c1d23112ce5b6a007f2f2adf3bfe3aba67230c3c918bea",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67126"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id2600755",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Angular momentum quantization is stated in an earlier equation. We solve that equation for v, substitute it into the above, and rearrange the expression to obtain the radius of the orbit. This yields:",
+    "sha256": "4a327b3e152584daf4487ac4b8399993faee1d653cac29cbc2a8ba262a660df9",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52402"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-988",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "rn=n2ZaB, for allowed orbits n=1,2,3,…,",
+    "sha256": "ac865f3ddbcecb1c261e41a02db10b2b792f55136c1d6ef28bf7750418cb8e46",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1414203",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "where aB is defined to be the Bohr radius, since for the lowest orbit n=1 and for hydrogen Z=1, r1=aB. It is left for this chapter’s Problems and Exercises to show that the Bohr radius is",
+    "sha256": "d95c2ff004710c23dbe33de88ffb1307a1ba46ea33b74d9b7cfee75a7e62b730",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-932",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "aB=h24π2mekqe2=0.529×10−10 m.",
+    "sha256": "ed72630bf8e05e0b2e972a2ee444832dbdc898654c5a65d8299e5ad566281c24",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1571972",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "These last two equations can be used to calculate the radii of the allowed (quantized) electron orbits in any hydrogen-like atom. It is impressive that the formula gives the correct size of hydrogen, which is measured experimentally to be very close to the Bohr radius. The earlier equation also tells us that the orbital radius is proportional to n2, as illustrated in .",
+    "sha256": "853d0222b8e1acd0b7a90c99bd2d5290a8a4f97cfb5ab3c0ec4f52393a4e782d",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id3047640",
+    "tag": "figure",
+    "shared_descendants": 0,
+    "text": "The allowed electron orbits in hydrogen have the radii shown. These radii were first calculated by Bohr and are given by the equation rn=n2ZaB. The lowest orbit has the experimentally verified diameter of a hydrogen atom.",
+    "sha256": "4a1d5b3a059986176111c5ca63b33d89b13d77ca717031981807c8ad0532b77f",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1890331",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "To get the electron orbital energies, we start by noting that the electron energy is the sum of its kinetic and potential energy:",
+    "sha256": "6ad2c0b5b067f6c215fa509e2ccb9d5ed93435becc1808f7b68a6ff859a14aa8",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-109",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "En= KE + PE.",
+    "sha256": "58bc1e3d2d3f17f5fa75561c13220f0bf1fd5048ba595c658f11fd1b34c279f3",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67036"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1383388",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Kinetic energy is the familiar KE=1/2mev2, assuming the electron is not moving at relativistic speeds. Potential energy for the electron is electrical, or PE=qeV, where V is the potential due to the nucleus, which looks like a point charge. The nucleus has a positive charge Zqe ; thus, V = kZq e / r n , recalling an earlier equation for the potential due to a point charge. Since the electron’s charge is negative, we see that PE=−kZqe/rn. Entering the expressions for KE and PE, we find",
+    "sha256": "3be770e0ceaa949a550aac7bc5e0b110199e53cceb5ba03c6307c93b8e1a904d",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-900",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "En=12mev2−kZqe2rn.",
+    "sha256": "e07adfb7d37303319687e0454d53c09e77eaf5aa927ec8cabe8784035ac8ae91",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67042"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id3091428",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Now we substitute rn and v from earlier equations into the above expression for energy. Algebraic manipulation yields",
+    "sha256": "c3e7dd4c57f2fabda3d5e71f2b97bb410090be7d98f57aae1718d47a4c49b7d5",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-673",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "E n = − Z 2 n 2 E 0 ( n = 1, 2, 3, ... )",
+    "sha256": "395a9841f5a1d631632bbbdb72f6af248919d84069901d84a8e50b5df389b533",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52414"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id2449749",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "for the orbital energies of hydrogen-like atoms. Here, E0 is the ground-state energy n=1 for hydrogen Z=1 and is given by",
+    "sha256": "e7c3e0afdfa7ca3fb43e627fdb629c4de930fd92f4a91700a067d30b2964e1ef",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-586",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "E0=2π2qe4mek2h2=13.6 eV.",
+    "sha256": "241716fe1410c6a8422f9e7b82f445ea1d3975e4b264892ceba13dd097ac08f4",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67803"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-885",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "En=−13.6 eVn2 (n=1, 2, 3, ...).",
+    "sha256": "70803e6c48cee07f755a0a069f1033cd0ff92a7eadcca2319703ed4e583b22e2",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52427"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1842364",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Electron total energies are negative, since the electron is bound to the nucleus, analogous to being in a hole without enough kinetic energy to escape. As n approaches infinity, the total energy becomes zero. This corresponds to a free electron with no kinetic energy, since rn gets very large for large n, and the electric potential energy thus becomes zero. Thus, 13.6 eV is needed to ionize hydrogen (to go from –13.6 eV to 0, or unbound), an experimentally verified number. Given more energy, the electron becomes unbound with some kinetic energy. For example, giving 15.0 eV to an electron in the ground state of hydrogen strips it from the atom and leaves it with 1.4 eV of kinetic energy.",
+    "sha256": "b9f8c44934185ff1f14e2c67cbb08388b1259c02079b81cc6c6807603034914a",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1817773",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Finally, let us consider the energy of a photon emitted in a downward transition, given by the equation to be",
+    "sha256": "54378d5c4f6209ecf513cb1bcadaea383c1cb15ec9e7a130e7b3b0bf7d884e94",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-693",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "ΔE=hf=Ei−Ef.",
+    "sha256": "8e5c545b1aad9fdd0b038fe7f4e80d35a85bdcd3d6d863c68f49759abc8879f2",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52471"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id1599455",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Substituting En=(–13.6 eV/n2), we see that",
+    "sha256": "db72ed0dc2842cf9c573b413aff7ea29f7ec113126befda4a9fdae61fa55d81e",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-742",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "hf=13.6 eV1nf2−1ni2.",
+    "sha256": "a873a982c4b42ff11e274864732bebe63acde2b799cc9ac0427f516d8e652580",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m42540"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id2655448",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Dividing both sides of this equation by hc gives an expression for 1/λ:",
+    "sha256": "5535aa49d779d1702eee7c581b21b51cf1379d7c70ec2a3ffaa3579dca67d716",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-49",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "hfhc=fc=1λ=13.6 eVhc1nf2−1ni2.",
+    "sha256": "f00017d00042471b10b32bc55a9e0a8ce7da2a0fbfe5f7b46fa0c8f7108b8152",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m71623"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id2681666",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "It can be shown that",
+    "sha256": "ebd689382cc013e287b7b99d66358713f43efd49495bdf7864cb3c338a6468ba",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-369",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "13.6 eV hc = 13.6 eV 1.602 × 10 −19 J/eV 6.626 × 10 −34 J·s 2.998 × 10 8 m/s = 1.097 × 10 7 m –1 = R",
+    "sha256": "2264575c29e945d49d0d4c54812831fe17e51216c16b5055ffad56861858e5f8",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "import-auto-id2584368",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "is the Rydberg constant. Thus, we have used Bohr’s assumptions to derive the formula first proposed by Balmer years earlier as a recipe to fit experimental data.",
+    "sha256": "d73206603a79ab5ad637ba7654eea17408658ffad5ba9a5cdaffd13fff1a650b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-363",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "1 λ = R 1 n f 2 − 1 n i 2",
+    "sha256": "895942003fb7ce91c38b4c4f227ec8abddb11aad21685ba593061f468699e661",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m71592"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-812",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Models of the Hydrogen Atom How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results. Click to view content.",
+    "sha256": "1ea97ab8c1e0a504cce8eb76a7fe8b6098650c641c5800e3b5cdb85f14e75951",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52480"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "fs-id1301060",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A hypothetical one-electron atom in its highest excited state can only emit photons of energy 2E, 3E, and 5E before reaching the ground state. Which of the following represents the complete set of energy levels for this atom? 0, 3E, 5E 0, 2E, 3E 0, 2E, 3E, 5E 0, 5E, 8E, 10E (a) The Lyman series of photons each have an energy capable of exciting the electron of a hydrogen atom from the ground state (energy level 1) to energy levels 2, 3, 4, etc. The wavelengths of the first five photons in this series are 121.6 nm, 102.6 nm, 97.3 nm, 95.0 nm, and 93.8 nm. The ground state energy of hydrogen is −13.6 eV. Based on the wavelengths of the Lyman series, calculate the energies of the first five excited states above ground level for a hydrogen atom to the nearest 0.1 eV. The ground state of a certain type of atom has energy –E0. What is the wavelength of a photon with enough energy to ionize an atom in the ground state and give the ejected electron a kinetic energy of 2E0? hc 3 E 0 hc 2 E 0 hc E 0 2hc E 0 (a) An electron in a hydrogen atom is initially in energy level 2 (E2 = -3.4 eV). (a) What frequency of photon must be absorbed by the atom in order for the electron to transition to energy level 3 (E3 = -1.5 eV)? (b) What frequency of photon must be emitted by the atom in order for the electron to transition to energy level 1 (E1 = -13.6 eV)?",
+    "sha256": "4fb6417807fd7b0dcd725287ef34b302eb49df17e6a3a593580e8618f2e2852b",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-6",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "rn=n2ZaB (allowed orbits n=1, 2, 3, ...),",
+    "sha256": "d3a2fdbf6329f9e20e099a4adc6662beece1e082f2c1c13db2d768e67aa6daef",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67804"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-897",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "a B = h 2 4π 2 m e kq e 2 = 0.529 × 10 − 10 m .",
+    "sha256": "a87a86aca35ad2b52cf4fbb5745808814f8ca5c14e97515cf0e75559956239b1",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67046"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-114",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "En=−Z2n2E0n=1, 2, 3 ...,",
+    "sha256": "d17af95d838a21b822bde76b0c020e65b60ef4d29049554edce498377ee6336c",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m42356"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-920",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "E 0 = 2π 2 q e 4 m e k 2 h 2 = 13.6 eV.",
+    "sha256": "0ff7957ff7e61b3bef585eef968883b007ab1edef2a13a75f21394d45932edfd",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67807",
+    "upstream_module": "m42596",
+    "id": "eip-547",
+    "tag": "equation",
+    "shared_descendants": 0,
+    "text": "E n = − 13.6 eV n 2 n = 1, 2, 3 ... .",
+    "sha256": "bea7b75441acb05eeead005964f869f2948da901cd9383b1086e2d891114886f",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52416"
+    ],
+    "reason": "Preserve the rewritten Bohr/Rydberg derivation and local equation identities; upstream-only derivation blocks are alternate organization, not missing local coverage. Retain frequency (not upstream wavelength) in the photon-energy statement. Do not import omitted trigonometric grating example or AP exercises."
+  },
+  {
+    "local_module": "m67808",
+    "upstream_module": "m42606",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Explain Bohr’s model of atom. Define and describe quantization of angular momentum. Calculate the angular momentum for an orbit of atom. Define and describe the wave-like properties of matter.",
+    "sha256": "c9905625fcc735b8b239860f2d50bdb0ab1b4017c50da987836aa2ad0b8f1c5c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the adapted introductory bridge. No applicable shared correction; added simulation and AP questions remain outside adapted coverage."
+  },
+  {
+    "local_module": "m67808",
+    "upstream_module": "m42606",
+    "id": "eip-0",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Quantum Wave Interference When do photons, electrons, and atoms behave like particles and when do they behave like waves? Watch waves spread out and interfere as they pass through a double slit, then get detected on a screen as tiny dots. Use quantum detectors to explore how measurements change the waves and the patterns they produce on the screen. Click to view content.",
+    "sha256": "dd815348a449c31ef9f38787a5f631d868f20d6d949f362cb6aac30d6b5d13e1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the adapted introductory bridge. No applicable shared correction; added simulation and AP questions remain outside adapted coverage."
+  },
+  {
+    "local_module": "m67808",
+    "upstream_module": "m42606",
+    "id": "sect-00002",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses This figure shows graphical representations of the wave functions of two particles, X and Y, that are moving in the positive x-direction. The maximum amplitude of particle X’s wave function is A0. Which particle has a greater probability of being located at position x0 at this instant, and why? Particle X, because the wave function of particle X spends more time passing through x0 than the wave function of particle Y. Particle X, because the wave function of particle X has a longer wavelength than the wave function of particle Y. Particle Y, because the wave function of particle Y is narrower than the wave function of particle X. Particle Y, because the wave function of particle Y has a greater amplitude near x0 than the wave function of particle X. In , explain qualitatively the difference in the wave functions of particle X and particle Y. Which particle is more likely to be found at a larger distance from the coordinate x0 and why? Which particle is more likely be found exactly at x0 and why? For an electron with a de Broglie wavelength λ, which of the following orbital circumferences within the atom would be disallowed? Select two answers. 0.5 λ λ 1.5 λ 2 λ We have discovered that an electron’s orbit must contain an integer number of de Broglie wavelengths. Explain why, under ordinary conditions, this makes it impossible for electrons to spiral in to merge with the positively charged nucleus.",
+    "sha256": "d4cb0d7a21406f9859dd5b2fae270dfce536fb3a8654691e9417cfcfb88bb747",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Preserve the adapted introductory bridge. No applicable shared correction; added simulation and AP questions remain outside adapted coverage."
+  },
+  {
+    "local_module": "m42525",
+    "upstream_module": "m42525",
+    "id": "para-00001",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Relativity does not only apply to far-reaching and (as yet) unrealized activities like human interstellar travel. It affects everyday life in the form of communication, global trade, and even medicine. For example, Global Positioning Systems, which drive everything from airplane navigation to smart phone maps, rely on signals captured by multiple orbiting satellites and highly accurate measurements of time. Every signal passing between satellites, towers, and devices must be precisely measured and account for the relativistic effect of curved space and time dilation (discussed below). Variations in Earth’s landscape, its non-spherical shape, and the effects of gravity must also be considered in order to obtain accurate measurements. One of the most important contributors to these systems was Gladys West, a computer scientist and mathematician working at the Naval Proving Ground, where GPS and related technologies were advanced. West had previously developed altimeter models and managed the world’s first satellite-based ocean mapping project (Seastat). She then developed and programmed the algorithms capable of calculating positions and Earth’s shape to sufficient precisions to enable the existence of GPS. In these calculations, she accounted for the impacts of relativity and other complex principles related to it.",
+    "sha256": "4f7a4c70afb0db3dcd1e5a26344c02a467263467cc8204544d2de596ccffaebc",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain existing nebula introduction and higher-resolution Einstein portrait. Shark/GPS introductory replacement and added everyday-technology paragraph are broader editorial changes, previously deferred in relativity review."
+  },
+  {
+    "local_module": "m42528",
+    "upstream_module": "m42528",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: State and explain both of Einstein’s postulates. Explain what an inertial frame of reference is. Describe one way the speed of light can be changed.",
+    "sha256": "26150db5873b09fe34deceafc14cef7b773be5e72106f2abb85ea50ded46e8f2",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain author-approved Refraction destination and local terminology; added learning objectives/term IDs/AP question do not require structural changes."
+  },
+  {
+    "local_module": "m42528",
+    "upstream_module": "m42528",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "relativity",
+    "sha256": "42a24118f4dd38e8d60242eab71dd5328dcfa6bbfd1c7cd2cdc53c4e3b5f5a1c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain author-approved Refraction destination and local terminology; added learning objectives/term IDs/AP question do not require structural changes."
+  },
+  {
+    "local_module": "m42528",
+    "upstream_module": "m42528",
+    "id": "term-00002",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "special relativity.",
+    "sha256": "18a5ba3f0e9bfdba45616dc6f0d80d62393f849c8c17f4ec939bbd88ad90e4f7",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain author-approved Refraction destination and local terminology; added learning objectives/term IDs/AP question do not require structural changes."
+  },
+  {
+    "local_module": "m42528",
+    "upstream_module": "m42528",
+    "id": "term-00003",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "first postulate of special relativity",
+    "sha256": "f25a867c126a7349b87e95a9e1917be5713ab031ed0a7a27ac12a23e4706b915",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain author-approved Refraction destination and local terminology; added learning objectives/term IDs/AP question do not require structural changes."
+  },
+  {
+    "local_module": "m42528",
+    "upstream_module": "m42528",
+    "id": "term-00004",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "second postulate of special relativity",
+    "sha256": "22ca2b21dc9d0820335a4eabdde65e323b8e3835bbf6d0357de4cbba4430da6e",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain author-approved Refraction destination and local terminology; added learning objectives/term IDs/AP question do not require structural changes."
+  },
+  {
+    "local_module": "m42528",
+    "upstream_module": "m42528",
+    "id": "fs-id2843249",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses Which of the following statements describes the Michelson-Morley experiment? The speed of light is independent of the motion of the source relative to the observer. The speed of light is different in different frames of reference. The speed of light changes with changes in the observer. The speed of light is dependent on the motion of the source. (a)",
+    "sha256": "6f028a630268c9a4aa61674a4317534e728547d7f83a70779723cda3b36473ee",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Retain author-approved Refraction destination and local terminology; added learning objectives/term IDs/AP question do not require structural changes."
+  },
+  {
+    "local_module": "m42531",
+    "upstream_module": "m42531",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Describe simultaneity. Describe time dilation. Calculate γ. Compare proper time and the observer’s measured time. Explain why the twin paradox is a false paradox.",
+    "sha256": "631697132156c8a44f117a84b6564f52b789d189138fe8c89e453eb62a368f6c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve SR01 corrections, M02 proper-time notation and equation, and X09 spacetime sentence. Do not restore duplicated punctuation, stray and, or removed general-relativity cross-reference. Broader twin-paradox explanation remains for author revision."
+  },
+  {
+    "local_module": "m42535",
+    "upstream_module": "m42535",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Describe proper length. Calculate length contraction. Explain why we don’t notice these effects at everyday scales.",
+    "sha256": "50836005fdde32ac2695b20306b697304160570e45c42239f344c6923242c7d7",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Same length-contraction calculation and results; upstream flattens the aligned equation into one row. Keep local layout."
+  },
+  {
+    "local_module": "m42540",
+    "upstream_module": "m42540",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Calculate relativistic velocity addition. Explain when relativistic velocity addition should be used instead of classical addition of velocities. Calculate relativistic Doppler shift.",
+    "sha256": "8e6aaefc8a737322baf6fb76ce231c5704290f17e990b35d6d1a5dadd7e5a634",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Velocity-addition token differences split composite identifiers or change prime glyphs; numerical values, signs, denominators and conclusions agree. Retain aligned calculations and separate identified Doppler equation; its relocation causes ordinal offsets in glossary math comparisons."
+  },
+  {
+    "local_module": "m42540",
+    "upstream_module": "m42540",
+    "id": "fs-id2402576",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses What happens when velocities comparable to the speed of light are involved in an observation? Newton’s second law of motion, F=ma , governs the motion of the object. Newton’s second law of motion, F=ma , no longer governs the dynamics of the object. Such velocities cannot be determined mathematically. None of the above How is the relativistic Doppler effect different from the classical Doppler effect? The relativistic Doppler effect takes into account the special relativity concept of time dilation and also does not require a medium of propagation to be used as a point of reference (light does not require a medium for propagation).",
+    "sha256": "4604668c4f8176c6f16f312c123e35faf2af3c5dd44351f4098d473ba2521747",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Velocity-addition token differences split composite identifiers or change prime glyphs; numerical values, signs, denominators and conclusions agree. Retain aligned calculations and separate identified Doppler equation; its relocation causes ordinal offsets in glossary math comparisons."
+  },
+  {
+    "local_module": "m42540",
+    "upstream_module": "m42540",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "relativistic Doppler effects",
+    "sha256": "ad26c8c86dd684973fc82578ac6b719ad87cfd52a71b9bf593fdca4d318c8398",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Velocity-addition token differences split composite identifiers or change prime glyphs; numerical values, signs, denominators and conclusions agree. Retain aligned calculations and separate identified Doppler equation; its relocation causes ordinal offsets in glossary math comparisons."
+  },
+  {
+    "local_module": "m42542",
+    "upstream_module": "m42542",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Calculate relativistic momentum. Explain why the only mass it makes sense to talk about is rest mass.",
+    "sha256": "0f76b81b78bfb46de0d7102850f1375572d0da6ae6c1ef8ab942b4f136a40b07",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the corrected Impulse and Momentum link (X10) and existing conservation qualification; upstream target remains wrong."
+  },
+  {
+    "local_module": "m42542",
+    "upstream_module": "m42542",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "rest mass",
+    "sha256": "1df27c539f712a0df7878d71b7296c985e0def76a2d4a945944c18ef390e98db",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve the corrected Impulse and Momentum link (X10) and existing conservation qualification; upstream target remains wrong."
+  },
+  {
+    "local_module": "m42546",
+    "upstream_module": "m42546",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Compute total energy of a relativistic object. Compute the kinetic energy of a relativistic object. Describe rest energy, and explain how it can be converted to other forms. Explain why massive particles cannot reach C.",
+    "sha256": "77e6ca28beff545503f1ab04fdb243f58cca4cb339cdcdcd05981a33857d98d1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain M02-era equation formatting and author-approved nuclear chapter destination/external energy-table links. No additional shared physics correction. Added critical-thinking/AP questions remain outside the adapted selection."
+  },
+  {
+    "local_module": "m42546",
+    "upstream_module": "m42546",
+    "id": "fs-id2173268",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A mass of 50 g is completely converted into energy. What is the energy that will be obtained when such a conversion takes place? Show that relativistic kinetic energy becomes the same as classical kinetic energy when v=c . Relativistic kinetic energy is given as KE rel =(γ−1)m c 2 where γ= 1 1− v 2 c 2 Classical kinetic energy is given as KE class = 1 2 m v 2 At low velocities v=0 , a binomial expansion and subsequent approximation of γ gives: γ=1+ 1 v 2 2 c 2 or γ−1= 1 v 2 2 c 2 Substituting γ−1 in the expression for KE rel gives KE rel =[ 1 v 2 2 c 2 ]m c 2 = 1 2 m v 2 = KE class Hence, relativistic kinetic energy becomes classical kinetic energy when v≪c . The relativistic energy of a particle in terms of momentum is given by: E= p 2 c 2 + m 0 2 c 4 E= p 2 c 2 + m 0 4 c 4 E= p 2 c 2 + m 0 2 c 2 E= p 2 c 4 + m 0 2 c 2",
+    "sha256": "536a4f9329771eaad3063c8d00167ba878933af203d75e755f8c527ee8047128",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Retain M02-era equation formatting and author-approved nuclear chapter destination/external energy-table links. No additional shared physics correction. Added critical-thinking/AP questions remain outside the adapted selection."
+  },
+  {
+    "local_module": "m42546",
+    "upstream_module": "m42546",
+    "id": "exer-00001",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Critical Thinking A space rock with a length of 1,000.0 m is moving through space at exactly 0.6 c. (a) If the space rock is moving toward an observer, what is the contracted length observed? (b) If the space rock is moving away from the observer, what is the contracted length observed? (c) Can the object reach the speed of light? (d) If the object were to stop in the observer’s reference frame, would it be observed to have proper length? (a) L=1000.0 1− (0.6c) 2 c 2 =800.00 m (b) L=1000.0 1− (0.6c) 2 c 2 =800.00 m (c) No. (d) Yes.",
+    "sha256": "361d0ce59759ec8d76950928125586a6e3829c8285cbc8daccce6fef57f7fdb4",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain M02-era equation formatting and author-approved nuclear chapter destination/external energy-table links. No additional shared physics correction. Added critical-thinking/AP questions remain outside the adapted selection."
+  },
+  {
+    "local_module": "m68325",
+    "upstream_module": "m42667",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to:",
+    "sha256": "c945abed6e23cdd4000e51b79a24507b9ce2389de91cd3f74887da91212da32c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain combined nuclear-and-particle introduction with local length-scale overview rather than restoring a separate particle-physics chapter introduction."
+  },
+  {
+    "local_module": "m68325",
+    "upstream_module": "m42667",
+    "id": "import-auto-id1169737896009",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "Particle physics",
+    "sha256": "758221802452bc61439df2a842709cd4848ccfafaf03fd56fa19738977414c87",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain combined nuclear-and-particle introduction with local length-scale overview rather than restoring a separate particle-physics chapter introduction."
+  },
+  {
+    "local_module": "m68325",
+    "upstream_module": "m42667",
+    "id": "import-auto-id1169737910080",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "This chapter covers the basics of particle physics as we know it today. An amazing convergence of topics is evolving in particle physics. We find that some particles are intimately related to forces, and that nature on the smallest scale may have its greatest influence on the large-scale character of the universe. It is an adventure exceeding the best science fiction because it is not only fantastic, it is real.",
+    "sha256": "9f6524150b5d24042b2fa08467bee99756484b0bbf9b07d315177c0b31792a42",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain combined nuclear-and-particle introduction with local length-scale overview rather than restoring a separate particle-physics chapter introduction."
+  },
+  {
+    "local_module": "m68325",
+    "upstream_module": "m42667",
+    "id": "import-auto-id1169737793828",
+    "tag": "definition",
+    "shared_descendants": 0,
+    "text": "particle physics the study of and the quest for those truly fundamental particles having no substructure",
+    "sha256": "5c4511a830bc5f52bc4ae6b18c1f95bc04aaeda2c1a2a0db1a024ab829d7fa95",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain combined nuclear-and-particle introduction with local length-scale overview rather than restoring a separate particle-physics chapter introduction."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Explain nuclear radiation. Explain the types of radiation—alpha emission, beta emission, and gamma emission. Explain the ionization of radiation in an atom. Define the range of radiation.",
+    "sha256": "b07621951018022799821b15c0bc6ff715a79a28d770681ff5674467cfd4c027",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "radioactivity",
+    "sha256": "f6d64df3102337b7afbb43dcc2a0de76eb628dd438da5269122fe3ec129ae0d2",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "term-00002",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "nuclear radiation",
+    "sha256": "7a3e91675e50cc341cedc3ac8aca3adbb5232f1548d8bfb9da3eea3be83ff5c4",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "term-00003",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "decay",
+    "sha256": "197608b15d018de65ad0754b421ee01223a14e475a5ce36f4f3135b2d2ccf317",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "term-00004",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "radioactive",
+    "sha256": "844292dcc6dc766cf07c781a8cea20eca46ab931b3f146459e407042f595fab1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "fs-id3139051",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Collisions Conservation of energy and momentum often results in energy transfer to a less massive object in a collision. This was discussed in detail in Work, Energy, and Energy Resources, for example.",
+    "sha256": "c35d181138d41c10308b879af5d04bcb6402fbcbe492393747ff9946dfa4c08d",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "eip-749",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Beta Decay Build an atom out of protons, neutrons, and electrons, and see how the element, charge, and mass change. Then play a game to test your ideas! Click to view content.",
+    "sha256": "0cad2b95d2227e78e503582aa36c6ddf1e3c5ba5fde75544a10b5d3b46a2726c",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67135"
+    ],
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m76584",
+    "upstream_module": "m42623",
+    "id": "fs-id1895643",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A nucleus is observed to emit a γ ray with a frequency of 6.3× 10 19 Hz. What must happen to the nucleus as a consequence? The nucleus must gain 0.26 MeV. The nucleus must also emit an α particle of energy 0.26 MeV in the opposite direction. The nucleus must lose 0.26 MeV. The nucleus must also emit a β particle of energy 0.26 MeV in the opposite direction. (c) A uranium nucleus emits an α particle. Assuming charge is conserved, the resulting nucleus must be thorium plutonium radium curium",
+    "sha256": "1c3f1955443016721225fb9e320613ed7cbdd7cb73b4e95461c2742caa91b4f9",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Correct the mismatched dosimeter photograph with the pinned upstream replacement, caption, credit and alt text. Preserve X-ray spelling, adapted Curie history, range/charge qualification and omission of extra impulse derivation. Most math offsets come from the removed classical kinetic-energy formula."
+  },
+  {
+    "local_module": "m42627",
+    "upstream_module": "m42627",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Explain the working principle of a Geiger tube. Define and discuss radiation detectors.",
+    "sha256": "96fc82c6c4ad59d9376d9c2a44ea2630a0582fd0525fbc3b9796d271748bae83",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply the short ion-pair clarification. Retain the existing radiation-detector scope; do not add unrelated simulation wrapper."
+  },
+  {
+    "local_module": "m42627",
+    "upstream_module": "m42627",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "scintillators",
+    "sha256": "7a9e803b54fa5aa1ac499e19ce5a19575b6cff48c277200e7ffb47c6dd92e91b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply the short ion-pair clarification. Retain the existing radiation-detector scope; do not add unrelated simulation wrapper."
+  },
+  {
+    "local_module": "m42627",
+    "upstream_module": "m42627",
+    "id": "para-00002",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Click to view content.",
+    "sha256": "5a4c0d9441a017afd31625badd36aebb3d533374d741b3a4abd6e0d24c01d7f6",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply the short ion-pair clarification. Retain the existing radiation-detector scope; do not add unrelated simulation wrapper."
+  },
+  {
+    "local_module": "m52466",
+    "upstream_module": "m42631",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define and discuss the nucleus in an atom. Define atomic number. Define and discuss isotopes. Calculate the density of the nucleus. Explain nuclear force.",
+    "sha256": "419d9c9e0c672f2fe5c00de8f26659eb25464aa2866c9d2580c8569a30639a50",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain conceptual force-distance discussion without reinstating trigonometry, existing nucleus notation and omission of redundant cross-references. The mass-table MeV/c² change is stacked versus inline fraction, not different units."
+  },
+  {
+    "local_module": "m52466",
+    "upstream_module": "m42631",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "atomic mass",
+    "sha256": "83de0567a75f89b308dcf5ce5652e2182e73bcb19c0203b1ae52a979f79741db",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain conceptual force-distance discussion without reinstating trigonometry, existing nucleus notation and omission of redundant cross-references. The mass-table MeV/c² change is stacked versus inline fraction, not different units."
+  },
+  {
+    "local_module": "m52466",
+    "upstream_module": "m42631",
+    "id": "fs-id1271220",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A typical carbon nucleus contains 6 neutrons and 6 protons. The 6 protons are all positively charged and in very close proximity, with separations on the order of 10-15 meters, which should result in an enormous repulsive force. What prevents the nucleus from dismantling itself due to the repulsion of the electric force? The attractive nature of the strong nuclear force overpowers the electric force. The weak nuclear force barely offsets the electric force. Magnetic forces generated by the orbiting electrons create a stable minimum in which the nuclear charged particles reside. The attractive electric force of the surrounding electrons is equal in all directions and cancels out, leaving no net electric force. (a)",
+    "sha256": "e239270833a47320cbe25f16cedcc0be4ff75ac03a1673f2dc5c5eb33816ad3d",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Retain conceptual force-distance discussion without reinstating trigonometry, existing nucleus notation and omission of redundant cross-references. The mass-table MeV/c² change is stacked versus inline fraction, not different units."
+  },
+  {
+    "local_module": "m52466",
+    "upstream_module": "m42631",
+    "id": "eip-171",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "(a) What is the kinetic energy in MeV of a β ray that is traveling at 0.998c? This gives some idea of how energetic a β ray must be to travel at nearly the same speed as a γ ray. (b) What is the velocity of the γ ray relative to the β ray?",
+    "sha256": "16ea13c711969989262c0392ae6bdd9c4dfe617f083d2c67de03385c13475d46",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m71410"
+    ],
+    "reason": "Retain conceptual force-distance discussion without reinstating trigonometry, existing nucleus notation and omission of redundant cross-references. The mass-table MeV/c² change is stacked versus inline fraction, not different units."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define and discuss nuclear decay. State the conservation laws. Explain parent and daughter nucleus. Calculate the energy emitted during nuclear decay.",
+    "sha256": "8c3ba786fbfcf1ee2d2c5f017a4193800a038d21003f899041134ec0781e819c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "decay",
+    "sha256": "90616247459f09ebcd418898444cc27a3c456a6cd5772b3bcee1b4e89b7f06bb",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00002",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "alpha decay",
+    "sha256": "f0dfc740d1822099f79bdf529ec130506c244c1d6b191d7913070a6eee422288",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00003",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "decay equation",
+    "sha256": "270faab6b19c739d94017419557a2d835d47d0d7f5201352c67b6bb020079c4b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00004",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "beta decay",
+    "sha256": "2dfa22b29da3b7498b90c9fde247ade9c1058d482fd29438374a8384403ed9ff",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00005",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "positron",
+    "sha256": "d739ff5fbcef41772061b51acf0bdc3dd69303c8c8081c48ecbe1cc1be750eac",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00006",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "Electron capture",
+    "sha256": "aefb8999c5b56bf3d6e2b531f8e05c7cbf89c02112dda0ca93b42697fb04a7b7",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "term-00007",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "Gamma decay",
+    "sha256": "7fcd1d80d65a583004b5985c1b0cc42ab935f9d888b4fc45437eb8505009916b",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m76603",
+    "upstream_module": "m42633",
+    "id": "fs-id1554259",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A nucleus in an excited state undergoes γ decay, losing 1.33 MeV when emitting a γ ray. In order to conserve energy in the reaction, what frequency must the γ ray have? 95 241 Am is commonly used in smoke detectors because its α decay process provides a useful tool for detecting the presence of smoke particles. When 95 241 Am undergoes α decay, what is the resulting nucleus? If 95 241 Am were to undergo β decay, what would be the resulting nucleus? Explain each answer. When 95 241 Am undergoes α decay, it loses 2 neutrons and 2 protons. The resulting nucleus is therefore 93 237 Np . For β decay, the nucleus releases a negative charge. In order for charge to be conserved overall, the nucleus must gain a positive charge, increasing its atomic number by 1, resulting in 96 241 Cm. A 6 14 C nucleus undergoes a decay process, and the resulting nucleus is 7 14 N . What is the value of the charge released by the original nucleus? +1 0 -1 -2 Explain why the overall charge of the nucleus is increased by +1 during the β decay process. During this process, the nucleus emits a particle with -1 charge. In order for the overall charge of the system to remain constant, the charge of the nucleus must therefore increase by +1. Identify the missing particle based upon conservation principles: N 7 14 + H 2 4 e→X+ O 8 17 H 1 2 H 1 1 C 6 12 C 6 12 B 4 8 e Are the following reactions possible? For each, explain why or why not. U 92 238 → R 88 234 a+ H 2 4 e R 88 223 a→ P 82 209 b+ C 6 14 C 6 14 → N 7 14 + e − + v ¯ e M 12 24 g→ N 11 23 a+ e + + v e No. Nucleon number is conserved (238 = 234 + 4), but the atomic number or charge is NOT conserved (92 ≠ 88+2). Yes. Nucleon number is conserved (223 = 209 + 14), and atomic number is conserved (88 = 82 + 6). Yes. Nucleon number is conserved (14 = 14), and charge is conserved if the electron’s charge is properly counted (6 = 7 + (-1)). No. Nucleon number is not conserved (24 ≠ 23). The positron released counts as a charge to conserve charge, but it doesn’t count as a nucleon.",
+    "sha256": "7f8dc88c74ec39d6795bceea13144e9b826136e2ebbd6aef7b96492c65534887",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define half-life. Define dating. Calculate age of old objects by radioactive dating.",
+    "sha256": "eed4a3303c476d8622e15551b0388184d214750bce17264dfb795121a98f095e",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "eip-495",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Alpha DecayWatch alpha particles escape from a polonium nucleus, causing radioactive alpha decay. See how random decay times relate to the half life. Click to view content.",
+    "sha256": "c4d64ffcde74e4c8f51e808a485d5bddd9996dfeffd3ef8ff86f7f9cd05d64b9",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52480",
+      "m76603"
+    ],
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "fs-id1888162",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A radioactive sample has N atoms initially. After 3 half-lives have elapsed, how many atoms remain? N/3 N/6 N/8 N/27 When P 84 215 o decays, the product is P 82 211 b. The half-life of this decay process is 1.78 ms. If the initial sample contains 3.4 x 1017 parent nuclei, how many are remaining after 35 ms have elapsed? What kind of decay process is this (alpha, beta, or gamma)? This must be alpha decay since 4 nucleons (2 positive charges) are lost from the parent nucleus. The number remaining is found from: N( t )= N 0 e( −0.693t t 1 2 )=3.4× 10 17 e( −( 0.693 )( 0.035 ) 0.00173 ) N( t )=4.1× 10 11 nuclei",
+    "sha256": "b95dc5fd6fb87cae9f2dd14b990948e8b6872788926c9334884aee63248bc52f",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "eip-575",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Construct Your Own Problem Consider the generation of electricity by a radioactive isotope in a space probe, such as described in . Construct a problem in which you calculate the mass of a radioactive isotope you need in order to supply power for a long space flight. Among the things to consider are the isotope chosen, its half-life and decay energy, the power needs of the probe and the length of the flight.",
+    "sha256": "70c62833f0ef1b825d1d4040c08ab29be9daba08203719c6f9f10792782978ea",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52384",
+      "m71589"
+    ],
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "eip-528",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Unreasonable Results A nuclear physicist finds 1.0 μg of 236 U in a piece of uranium ore and assumes it is primordial since its half-life is 2.3 × 10 7 y . (a) Calculate the amount of 236 U that would had to have been on Earth when it formed 4.5 × 10 9 y ago for 1.0 μg to be left today. (b) What is unreasonable about this result? (c) What assumption is responsible?",
+    "sha256": "bcec990de0485caf75d83ce04bb2862f58a1746c4a1d580cf8b13085c765bf59",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "eip-751",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Unreasonable Results (a) Repeat but include the 0.0055% natural abundance of 234 U with its 2.45 × 10 5 y half-life. (b) What is unreasonable about this result? (c) What assumption is responsible? (d) Where does the 234 U come from if it is not primordial?",
+    "sha256": "16f8e7acb1011df750f41d30503be1d563fee8b0b5dc79e7a680ba68bc73d25d",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52454",
+      "m52466"
+    ],
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m52471",
+    "upstream_module": "m42636",
+    "id": "eip-68",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Unreasonable Results The manufacturer of a smoke alarm decides that the smallest current of α radiation he can detect is 1.00 μA . (a) Find the activity in curies of an α emitter that produces a 1.00 μA current of α particles. (b) What is unreasonable about this result? (c) What assumption is responsible? (a) 84.5 Ci(b) An extremely large activity, many orders of magnitude greater than permitted for home use. (c) The assumption of 1.00 μA is unreasonably large. Other methods can detect much smaller decay rates.",
+    "sha256": "76f6f1f874dd01b08310f76ce32acf294dac9fa53255244c0e8509565e6ce267",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Hold reactor-safety sentence for author review. Retain adapted half-life explanation without restoring deleted exponential elaboration/exercises. Same 70 kg result; math difference only punctuation grouping. Omitted appendix links do not indicate missing exercises."
+  },
+  {
+    "local_module": "m42649",
+    "upstream_module": "m42649",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Explain the working principle behind an anger camera. Describe the SPECT and PET imaging techniques.",
+    "sha256": "01be02a15d6b4a449ef65281a427d6039d61009e895161c283004667002d35ac",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain the external MRI simulation fallback. Added radioimmunoassay/Yalow/Berson history is a broader expansion; do not import automatically."
+  },
+  {
+    "local_module": "m42649",
+    "upstream_module": "m42649",
+    "id": "para-00002",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a sample containing a radioactive isotope is prepared. A known quantity of antibodies is then introduced. By measuring the amount of \"unbound\" antibodies after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.",
+    "sha256": "3df6d55bdfceb7c0597c64dd804ccdb775902137e4b4fb6637257c472001599a",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain the external MRI simulation fallback. Added radioimmunoassay/Yalow/Berson history is a broader expansion; do not import automatically."
+  },
+  {
+    "local_module": "m42649",
+    "upstream_module": "m42649",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "radiopharmaceutical",
+    "sha256": "af8df3443488e6763e17eff561b0d7f1d8d3dbf0adb96ce919c17604659d19cc",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain the external MRI simulation fallback. Added radioimmunoassay/Yalow/Berson history is a broader expansion; do not import automatically."
+  },
+  {
+    "local_module": "m42649",
+    "upstream_module": "m42649",
+    "id": "para-00003",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "Click to view content.",
+    "sha256": "1015174ca0102bf4cc35913ebb550dce77ca42904f9640ef548677a33ebae3a5",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain the external MRI simulation fallback. Added radioimmunoassay/Yalow/Berson history is a broader expansion; do not import automatically."
+  },
+  {
+    "local_module": "m68327",
+    "upstream_module": "m42652",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define various units of radiation. Describe RBE.",
+    "sha256": "2709b7ad9b5ff5ff0d3badcfee8c98f267de851d352d42239622b6174d044212",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply direct programmed-cell-death wording. Retain additional-risk qualification, shielding-type caveat and activity explanation. Preserve yr and X-ray conventions. Shared historical dose estimates and risk claims have not been newly validated; later author read-through should assess them."
+  },
+  {
+    "local_module": "m68327",
+    "upstream_module": "m42652",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "gray (Gy)",
+    "sha256": "a7383b82bcc05373158b790a7c0a0ec0f9c769e8165653c5e77ec30e32866aa7",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply direct programmed-cell-death wording. Retain additional-risk qualification, shielding-type caveat and activity explanation. Preserve yr and X-ray conventions. Shared historical dose estimates and risk claims have not been newly validated; later author read-through should assess them."
+  },
+  {
+    "local_module": "m68327",
+    "upstream_module": "m42652",
+    "id": "import-auto-id3163642",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "A high level of activity doesn’t mean much if a person is far away from the source. The activity R of a source depends upon the quantity of material (kg) as well as the half-life. A short half-life will produce many more disintegrations per second. Recall that R=0.693Nt1/2. Also, the activity decreases exponentially, which is seen in the equation R=R0e−λt.",
+    "sha256": "f1f1332b444b07bc7314aa417e2d761f4188beb03feb41ded31f8070e023d228",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply direct programmed-cell-death wording. Retain additional-risk qualification, shielding-type caveat and activity explanation. Preserve yr and X-ray conventions. Shared historical dose estimates and risk claims have not been newly validated; later author read-through should assess them."
+  },
+  {
+    "local_module": "m68327",
+    "upstream_module": "m42652",
+    "id": "fs-id1860442",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Problem-Solving Strategy You need to follow certain steps for dose calculations, which are Step 1. Examine the situation to determine that a person is exposed to ionizing radiation. Step 2. Identify exactly what needs to be determined in the problem (identify the unknowns). The most straightforward problems ask for a dose calculation. Step 3. Make a list of what is given or can be inferred from the problem as stated (identify the knowns). Look for information on the type of radiation, the energy per event, the activity, and the mass of tissue affected. Step 4. For dose calculations, you need to determine the energy deposited. This may take one or more steps, depending on the given information. Step 5. Divide the deposited energy by the mass of the affected tissue. Use units of joules for energy and kilograms for mass. To calculate the dose in Gy, use the definition that 1 Gy = 1 J/kg.Step 6. To calculate the dose in mSv, determine the RBE (QF) of the radiation. Recall that 1 mSv=1 mGy×RBE(or1 rem=1 rad×RBE).Step 7. Check the answer to see if it is reasonable: Does it make sense? The dose should be consistent with the numbers given in the text for diagnostic, occupational, and therapeutic exposures. Dose from Inhaled Plutonium Calculate the dose in rem/y for the lungs of a weapons plant employee who inhales and retains an activity of 1.00 μCi of 239Pu in an accident. The mass of affected lung tissue is 2.00 kg, the plutonium decays by emission of a 5.23-MeV α particle, and you may assume the higher value of the RBE for α s from . Strategy Dose in rem is defined by 1 rad=0.01 J/kg and rem=rad×RBE. The energy deposited is divided by the mass of tissue affected and then multiplied by the RBE. The latter two quantities are given, and so the main task in this example will be to find the energy deposited in one year. Since the activity of the source is given, we can calculate the number of decays, multiply by the energy per decay, and convert MeV to joules to get the total energy. Solution The activity R=1.00μCi = 3.70×104Bq=3.70×104 decays/s. So, the number of decays per year is obtained by multiplying by the number of seconds in a year:3.70×104decays/s3.16×107s=1.17×1012decays.Thus, the ionizing energy deposited per year is E=1.17×1012decays5.23MeV/decay×1.60×10−13JMeV=0.978J.Dividing by the mass of the affected tissue gives Emass=0.978J2.00kg=0.489 J/kg.One Gray is 1.00 J/kg, and so the dose in Gy is dose in Gy= 0.489 J/kg1.00(J/kg)/Gy=0.489 Gy.Now, the dose in Sv is dose in Sv = Gy × RBE =0.489 Gy20=9.8 Sv. Discussion First note that the dose is given to two digits, because the RBE is (at best) known only to two digits. By any standard, this yearly radiation dose is high and will have a devastating effect on the health of the worker. Worse yet, plutonium has a long radioactive half-life and is not readily eliminated by the body, and so it will remain in the lungs. Being an α emitter makes the effects 10 to 20 times worse than the same ionization produced by β s, γ rays, or x-rays. An activity of 1.00μCi is created by only 16μg of 239Pu (left as an end-of-chapter problem to verify), partly justifying claims that plutonium is the most toxic substance known. Its actual hazard depends on how likely it is to be spread out among a large population and then ingested. The Chernobyl disaster’s deadly legacy, for example, has nothing to do with the plutonium it put into the environment.",
+    "sha256": "fbe295318988dfc1792f18481dcade90a10eccbdd3f6bfad5991fba18e51d99f",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Apply direct programmed-cell-death wording. Retain additional-risk qualification, shielding-type caveat and activity explanation. Preserve yr and X-ray conventions. Shared historical dose estimates and risk claims have not been newly validated; later author read-through should assess them."
+  },
+  {
+    "local_module": "m68327",
+    "upstream_module": "m42652",
+    "id": "eip-189",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Alpha Decay Watch alpha particles escape from a polonium nucleus, causing radioactive alpha decay. See how random decay times relate to the half life. Click to view content.",
+    "sha256": "1f993e421af3e5ca98eb2eac93d2722a327181d59c668b97aa2e46e6a21923a9",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m67251"
+    ],
+    "reason": "Apply direct programmed-cell-death wording. Retain additional-risk qualification, shielding-type caveat and activity explanation. Preserve yr and X-ray conventions. Shared historical dose estimates and risk claims have not been newly validated; later author read-through should assess them."
+  },
+  {
+    "local_module": "m68327",
+    "upstream_module": "m42652",
+    "id": "fs-id1462299",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses A patient receives A rad of radiation as part of her treatment and absorbs E J of energy. The RBE of the radiation particles is R. If the RBE is increased to 1.5R, what will be the energy absorbed by the patient? 1.5E J E J 0.75E J 0.67E J (b) If a 90-kg person is exposed to 50 mrem of alpha particles (with RBE of 16), calculate the dosage (in rad) received by the person. What is the amount of energy absorbed by the person?",
+    "sha256": "d38a328e722728e514e50a4c65de3374f0b60f70b1957d1a515bc0229985322c",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Apply direct programmed-cell-death wording. Retain additional-risk qualification, shielding-type caveat and activity explanation. Preserve yr and X-ray conventions. Shared historical dose estimates and risk claims have not been newly validated; later author read-through should assess them."
+  },
+  {
+    "local_module": "m52480",
+    "upstream_module": "m42659",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define nuclear fusion. Discuss processes to achieve practical fusion energy generation.",
+    "sha256": "9e74b25a5e617e4a5b9b9273e5eab591e4602ef396e6e6ff1383325bbf179e28",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Keep earlier M03 exercise-part removal; do not restore its malformed carbon-cycle question. Retain 17.59 MeV reaction, 3.37e14 J and 10.7 MW example results; upstream only regroups punctuation. No restoration of missing Frontiers section."
+  },
+  {
+    "local_module": "m52480",
+    "upstream_module": "m42659",
+    "id": "fs-id2332917",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses This figure shows a graph of the potential energy between two light nuclei as a function of the distance between them. Fusion can occur between the nuclei if the distance is large so that kinetic energy is low. large so that potential energy is low. small so that nuclear attractive force can overcome Coulombs repulsion. small so that nuclear attractive force cannot overcome Coulombs repulsion. (c) In a nuclear fusion reaction, 2 g of hydrogen is converted into 1.985 g of helium. What is the energy released? 4.5 × 103 J 4.5 × 106 J 1.35 × 1012 J 1.35 × 1015 J When deuterium and tritium nuclei fuse to produce helium, what else is produced? positron proton α-particle neutron (d) Suppose two deuterium nuclei are fused to produce helium. Write the equation for the fusion reaction. Calculate the difference between the masses of reactants and products. Using the result calculated in (b), find the energy produced in the fusion reaction. Assume that the mass of deuterium is 2.014102 u, the mass of helium is 4.002603 u and 1 u = 1.66 × 10-27 kg.",
+    "sha256": "c91b1b1939e8133fa15778c4e404429791f2e1c3a277ee6f7ffa16274af14bb8",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Keep earlier M03 exercise-part removal; do not restore its malformed carbon-cycle question. Retain 17.59 MeV reaction, 3.37e14 J and 10.7 MW example results; upstream only regroups punctuation. No restoration of missing Frontiers section."
+  },
+  {
+    "local_module": "m52479",
+    "upstream_module": "m42662",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define nuclear fission. Discuss how fission fuel reacts and describe what it produces. Describe controlled and uncontrolled chain reactions.",
+    "sha256": "7c0f6f3ff0d36c10e94b4d5921d578d4dfa04ff26847b86a99ccf93e1ac0ee71",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Retain adapted fusion reference wording and selected exercise scope. Upstream fission-energy equation differs only in punctuation grouping; no changed physical value."
+  },
+  {
+    "local_module": "m52479",
+    "upstream_module": "m42662",
+    "id": "eip-272",
+    "tag": "note",
+    "shared_descendants": 0,
+    "text": "Nuclear Fission Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Control energy production in a nuclear reactor! Click to view content.",
+    "sha256": "0e90cd11aa968b444c13979d351309f8b04ef5f31c8b33dd9e1c2f305a8da0df",
+    "status": "represented-in-other-local-section",
+    "local_locations": [
+      "m52384",
+      "m67807",
+      "m71592"
+    ],
+    "reason": "Retain adapted fusion reference wording and selected exercise scope. Upstream fission-energy equation differs only in punctuation grouping; no changed physical value."
+  },
+  {
+    "local_module": "m52479",
+    "upstream_module": "m42662",
+    "id": "fs-id1688893",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses Which of the following statements about nuclear fission is true? No new elements can be produced in a fission reaction. Energy released in fission reactions is generally less than that from fusion reactions. In a fission reaction, two light nuclei are combined into a heavier one. Fission reactions can be explained on the basis of the conservation of mass-energy. (d) What is the energy obtained when 10 g of mass is converted to energy with an efficiency of 70%? 3.93 × 1027 MeV 3.93 × 1030 MeV 5.23 × 1027 MeV 5.23 × 1030 MeV In a neutron-induced fission reaction of 239Pu, which of the following is produced along with 96Sr and four neutrons? 56 139 Ba 56 140 Ba 54 139 Xe 54 140 Xe (b) When 235U is bombarded with one neutron, the following fission reaction occurs: 92 235 U + n → 56 141 Ba + y 92 Kr + xn . Find the values for x and y. Assuming that the mass of 235U is 235.04 u, the mass of 141Ba is 140.91 u, the mass of 92Kr is 91.93 u, and the mass of n is 1.01 u, a student calculates the energy released in the fission reaction as 2.689 × 10−8, but forgets to write the unit. Find the correct unit and convert the answer to MeV.",
+    "sha256": "ec59c315eec6ddc097cb649dcd690f1dc94a924b78c9a51a7315dd9071c0f036",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Retain adapted fusion reference wording and selected exercise scope. Upstream fission-energy equation differs only in punctuation grouping; no changed physical value."
+  },
+  {
+    "local_module": "m42665",
+    "upstream_module": "m42665",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Discuss different types of fission and thermonuclear bombs. Explain the ill effects of nuclear explosion.",
+    "sha256": "62413e647102fb6d280050993d45feb3a5e3c9906a4aa140b0add9cda58c9a42",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Soviets versus USSR is optional wording, not a numerical or physics correction. Added positron geometry question is outside the adapted exercise selection; preserve present coverage."
+  },
+  {
+    "local_module": "m42665",
+    "upstream_module": "m42665",
+    "id": "exer-00001",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Critical Thinking A spherical target in a body is being targeted with β + radiation. The target is centered at (0.00, 2.00, 3.00) on a grid that is in centimeters. The target has a radius of 0.500 centimeters. (a) What two points on the x-axis are at the extremes of where the positrons annihilate the electrons? (b) What two points on the y-axis are at the extremes of where the positrons annihilate the electrons? (c) What can be said about the directions of the pair of gamma rays that result from the annihilations? (d) Can the use of β + give information in three dimensions? (a) (−0.500,2.00,3.00) and (0.500,2.00,3.00) (b) (0.000,1.50,3.00) and (0.000,2.50,3.00) (c) They travel in opposite directions along the same line. (d) Yes.",
+    "sha256": "882bd414c31912e6db1d1543e7387812e484003ed5e620d0f494c11b883d97f1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Soviets versus USSR is optional wording, not a numerical or physics correction. Added positron geometry question is outside the adapted exercise selection; preserve present coverage."
+  },
+  {
+    "local_module": "m42671",
+    "upstream_module": "m42671",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: State the four basic forces. Explain the Feynman diagram for the exchange of a virtual photon between two positive charges. Define QED. Describe the Feynman diagram for the exchange of a between a proton and a neutron.",
+    "sha256": "549f767158586a4bce5a11e7147fbbae193f2a0043946f245f00b4b734ba5afc",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve author-approved X15–X19 repairs, including the residual nuclear-force/pion explanation, boson definition and deleted dangling references."
+  },
+  {
+    "local_module": "m42671",
+    "upstream_module": "m42671",
+    "id": "fs-id2150385",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses Two intact (not ionized) hydrogen atoms are 10 cm apart. Which of the following are true? Gravity, though very weak, is acting between them. The neutral charge means the electromagnetic force between them can be ignored. The range is too long for the strong force to be involved. All of the above. (d) Explain why we only need to concern ourselves with gravitational force to describe the orbit of the Earth around the Sun. Consider four forces: the gravitational force between the Earth and the Sun; the electrostatic force between the Earth and the Sun; the gravitational force between the proton and electron in a hydrogen atom, and the electrostatic force between the proton and electron in a hydrogen atom. What is the proper ordering of the magnitude of these forces, from greatest to least? gravity, Earth-Sun; electrostatic, Earth-Sun; gravity, hydrogen; electrostatic, hydrogen electrostatic, Earth-Sun; gravity, Earth-Sun; electrostatic, hydrogen; gravity, hydrogen gravity, Earth-Sun; gravity, hydrogen; electrostatic, hydrogen; electrostatic, Earth-Sun gravity, Earth-Sun; electrostatic, hydrogen; gravity, hydrogen; electrostatic, Earth-Sun (d) Deep within a nucleon, which is the stronger force between two quarks, gravity or the weak force? Why do you think so? Consider the Earth-Moon system. If we were to place equal charges on the Earth and the Moon, how large would they need to be for the electrostatic repulsion to counteract the gravitational attraction? 5.1×1013 C 5.7×1013 C 6.7×1013 C 3.3×1027 C (b) What is the strength of the magnetic field created by the orbiting Moon, at the center of the orbit, in the system in the previous problem? (Treat the charge going around in orbit as a current loop.) How does this compare with the strength of the Earth's intrinsic magnetic field? An atomic nucleus consists of positively charged protons and neutral neutrons, so the electrostatic repulsion should destroy it by making the protons fly apart. This doesn't happen because: The strong force is ~100 times stronger than electromagnetism. The weak force generates massive particles that hold it together. Electromagnetism is sometimes attractive. Gravity is always attractive. (a) The atomic number of an atom is the number of protons in that atom's nucleus. Make a prediction as to what happens to electromagnetic repulsion as the atomic number gets larger. Then, make a further prediction about what this implies about the number of neutrons in heavy nuclei.",
+    "sha256": "0906bd4d8aa1f0ab96b81fc7ef75e1d556580b578f875f9abb6b1cb46a235bb1",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Preserve author-approved X15–X19 repairs, including the residual nuclear-force/pion explanation, boson definition and deleted dangling references."
+  },
+  {
+    "local_module": "m42674",
+    "upstream_module": "m42674",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: Define matter and antimatter. Outline the differences between hadrons and leptons. State the differences between mesons and baryons.",
+    "sha256": "21c313fc5de958c8d9748da1a10d63e83f76d3190acdc975d11f64ff7db8262c",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve author-approved X20/X21 and local (b) numbering after omitted lepton-conservation part. Upstream equation table flattens rows but does not correct the tau-decay content; potential shared sign issues are listed for later exercise review, not silently imported."
+  },
+  {
+    "local_module": "m42674",
+    "upstream_module": "m42674",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "Conservation of total",
+    "sha256": "a51a4137b3717023e25e2e3967a6e7759601dd2c311913780f09648a9fe70e9d",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve author-approved X20/X21 and local (b) numbering after omitted lepton-conservation part. Upstream equation table flattens rows but does not correct the tau-decay content; potential shared sign issues are listed for later exercise review, not silently imported."
+  },
+  {
+    "local_module": "m42674",
+    "upstream_module": "m42674",
+    "id": "fs-id2834348",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Test Prep for AP Courses When a π- decays, the products may include: A positron. A muon. A proton. All of the above. (b) Notice in that the neutron has a half-life of 882 seconds. This is only for a free neutron, not bound with other neutrons and protons in a nucleus. Given the other particles in the table, and using both their charge and masses, what do you think the most likely decay products for a neutron are? Justify your answer.",
+    "sha256": "758de97ef1c601924f83907b7b33f918d99423c0d980ec9a176807ad09ef648e",
+    "status": "outside-adapted-scope-ap",
+    "reason": "Preserve author-approved X20/X21 and local (b) numbering after omitted lepton-conservation part. Upstream equation table flattens rows but does not correct the tau-decay content; potential shared sign issues are listed for later exercise review, not silently imported."
+  },
+  {
+    "local_module": "m42674",
+    "upstream_module": "m42674",
+    "id": "import-auto-id1169737753683",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "(b) Verify that charge and lepton family numbers are conserved.",
+    "sha256": "e94f7655ffb49c0cfe41b263b624017e7b6f0d1790ddab7411eec88f2a771399",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve author-approved X20/X21 and local (b) numbering after omitted lepton-conservation part. Upstream equation table flattens rows but does not correct the tau-decay content; potential shared sign issues are listed for later exercise review, not silently imported."
+  },
+  {
+    "local_module": "m42674",
+    "upstream_module": "m42674",
+    "id": "eip-id6767649",
+    "tag": "para",
+    "shared_descendants": 0,
+    "text": "(b) Q = 1, Q′ = 1 + 0 + 0 = 1. L τ = − 1; L′τ = − 1; Lμ = 0; L′μ = − 1 + 1 = 0",
+    "sha256": "bfb6357572de10a1e6aeaa174dac10e7c1a3d2cb432fe2510831b4f6b4e98f51",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve author-approved X20/X21 and local (b) numbering after omitted lepton-conservation part. Upstream equation table flattens rows but does not correct the tau-decay content; potential shared sign issues are listed for later exercise review, not silently imported."
+  },
+  {
+    "local_module": "m42680",
+    "upstream_module": "m42680",
+    "id": "sect-00001",
+    "tag": "section",
+    "shared_descendants": 0,
+    "text": "Learning Objectives By the end of this section, you will be able to: State the grand unified theory. Explain the electroweak theory. Define gluons. Describe the principle of quantum chromodynamics. Define the standard model.",
+    "sha256": "8af640a53ac329609c82924845106b1a11fa9406cfaa4b3ed2431280cef787a1",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve X22–X25 repairs and positive-pion quark content. Removed parenthetical causes shifted math ordinals. Cosmic-ray artwork is visually the same diagram at lower resolution, so retain local image."
+  },
+  {
+    "local_module": "m42680",
+    "upstream_module": "m42680",
+    "id": "term-00001",
+    "tag": "term",
+    "shared_descendants": 0,
+    "text": "Higgs boson",
+    "sha256": "022c1b39c3a1207408f5aced2d2c90ab8c3520d41b0a92c5b021d19d996a7061",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve X22–X25 repairs and positive-pion quark content. Removed parenthetical causes shifted math ordinals. Cosmic-ray artwork is visually the same diagram at lower resolution, so retain local image."
+  },
+  {
+    "local_module": "m42680",
+    "upstream_module": "m42680",
+    "id": "exer-23557",
+    "tag": "exercise",
+    "shared_descendants": 0,
+    "text": "Critical Thinking (a) How much mass is converted to energy when a proton and antiproton annihilate each other? (b) How much energy is produced in the conversion above? (c) If energy were to produce a proton-antiproton pair, how much energy would this take? (d) What characteristic other than one being antimatter is different for a proton and an antiproton? (a) 2(1.67× 10 −27 kg)=3.34× 10 −27 kg (b) 3.34× 10 −27 (3.00× 10 8 ) 2 joules=3.01× 10 −10 joules (c) 3.01× 10 −10 joules (d) The proton has a positive charge, and the antiproton has a negative charge.",
+    "sha256": "34b365e451f2ee5c2b6db63d2543b53334a69b9f7da90f5202a948d6b647e030",
+    "status": "retained-adapted-coverage-or-representation",
+    "reason": "Preserve X22–X25 repairs and positive-pion quark content. Removed parenthetical causes shifted math ordinals. Cosmic-ray artwork is visually the same diagram at lower resolution, so retain local image."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "U4-08",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m76584",
+  "source_object": "import-auto-id1900612",
+  "source_path": "maintained/modules/m76584/index.cnxml",
+  "source_sha256": "d56c879845fa69dd9a60ad85a396f097e7b99f34a36f4b567ebf06de4f733658",
+  "after_sha256": "d5a7b27664af2220317c690c67d5dda5c0f048117609e530e968f6bfc7c97d10",
+  "before": "<figure id=\"import-auto-id1900612\"><media id=\"import-auto-id1871385\" alt=\"Image shows a person’s hand holding a cylindrical object placed near a small piece of radioactive material. A dial indicator is connected to the cylindrical radiation detector.\">\n        <image mime-type=\"image/png\" src=\"../../media/Figure_32_01_03a.jpg\" width=\"250\"/>\n      </media>\n      \n    <caption>These dosimeters (literally, dose meters) are personal radiation monitors that detect the amount of radiation by the discharge of a rechargeable internal capacitor. The amount of discharge is related to the amount of ionizing radiation encountered, a measurement of dose. One dosimeter is shown in the charger. Its scale is read through an eyepiece on the top. (credit: L. Chang, Wikimedia Commons)</caption></figure>",
+  "after": "<figure id=\"import-auto-id1900612\"><media id=\"import-auto-id1871385\" alt=\"(a) A photo of a dosimeter in the palm of a hand. (b) A photo of a Roentgen scale from 0 to 200.\">\n        <image mime-type=\"image/jpg\" src=\"../../media/Figure_32_01_03a.jpg\" width=\"250\"/>\n      </media>\n\n    <caption>(a) Early electroscope-style dosimeters (literally, dose meters) such as the Civil Defense Bendix pocket dosimeter shown here came into use in the mid-1950s as personal radiation monitors that detect the amount of radiation. (b) The dosimeter is initially reset by charging it at high voltage using a charger. The person using this dosimeter would carry it in their pocket and occasionally point it toward a light and look through the lens on the end to see the fine line of the electroscope superimposed on a Roentgen scale. As radiation passes through the dosimeter (and the wearer!), it discharges the dosimeter and the indicator on the scale moves up. (credit: Gary B. Swift)</caption></figure>",
+  "reason": "Synchronize dosimeter caption, credit and alternative text with the replacement photographs; correct JPEG media type.",
+  "authorization": "Author requested a Unit 4 backport review with applicable CC BY corrections applied minimally and substantive changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42623"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction"
+}

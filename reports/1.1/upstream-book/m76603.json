@@ -2,7 +2,7 @@
   "module": "m76603",
   "title": "Nuclear Decay and Conservation Laws",
   "slug": "nuclear-decay-and-conservation-laws",
-  "local_sha256": "003a62b0581c665a64837b5479ddc227cbfe6d22573f588f53bbcb91fa96c867",
+  "local_sha256": "8819b07d0a37ee114fd5596c29cf8941f5fef5eebded172f12b8642a80190231",
   "upstream_modules": [
     "m42633"
   ],
@@ -10,8 +10,7 @@
     "accessibility": 1,
     "references": 7,
     "prose": 4,
-    "math-markup-change": 282,
-    "math-token-change": 2,
+    "math-markup-change": 284,
     "media": 1
   },
   "changes": [
@@ -21,11 +20,12 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id1117770",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Photo of physicist Enrico Fermi.",
       "upstream": "A photo of Enrico Fermi and a photo of Chien-Shiung Wu.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     },
     {
       "id": "UP-e222ec5990206c81",
@@ -33,7 +33,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id1374042",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -41,7 +41,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-23811341f869d08d",
@@ -49,13 +50,14 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id1856748",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The energy released in this [MATH] decay is in the [MATH] range, about [MATH] times as great as typical chemical reaction energies, consistent with many previous discussions. Most of this energy becomes kinetic energy of the [MATH] particle (or [MATH] nucleus), which moves away at high speed. The energy carried away by the recoil of the [MATH] nucleus is much smaller in order to conserve momentum. The [MATH] nucleus can be left in an excited state to later emit photons ( [MATH] rays). This decay is spontaneous and releases energy, because the products have less mass than the parent nucleus. The question of why the products have less mass will be discussed in \"Binding Energy.\" Note that the masses given in Appendix A are atomic masses of neutral atoms, including their electrons. The mass of the electrons is the same before and after [MATH] decay, and so their masses subtract out when finding [MATH] . In this case, there are 94 electrons before and after the decay.",
       "upstream": "The energy released in this [MATH] decay is in the [MATH] range, about [MATH] times as great as typical chemical reaction energies, consistent with many previous discussions. Most of this energy becomes kinetic energy of the [MATH] particle (or [MATH] nucleus), which moves away at high speed. The energy carried away by the recoil of the [MATH] nucleus is much smaller in order to conserve momentum. The [MATH] nucleus can be left in an excited state to later emit photons ( [MATH] rays). This decay is spontaneous and releases energy, because the products have less mass than the parent nucleus. The question of why the products have less mass will be discussed in Binding Energy. Note that the masses given in Appendix A are atomic masses of neutral atoms, including their electrons. The mass of the electrons is the same before and after [MATH] decay, and so their masses subtract out when finding [MATH] . In this case, there are 94 electrons before and after the decay.",
       "local_html": "The energy released in this <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>α</mi></mrow><mrow /></mrow></mrow></math> decay is in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtext>MeV</mtext></mrow><mrow /></mrow></mrow></math> range, about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mtext>10</mtext><mrow><mn>6</mn></mrow></msup></mrow><mrow /></mrow></mrow></math> times as great as typical chemical reaction energies, consistent with many previous discussions. Most of this energy becomes kinetic energy of the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>α</mi></mrow><mrow /></mrow></mrow></math> particle (or <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mrow /><mn>4</mn></msup><mtext>He</mtext></mrow></mrow><mrow /></mrow></mrow></math> nucleus), which moves away at high speed. The energy carried away by the recoil of the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mrow /><mtext>235</mtext></msup><mtext>U</mtext></mrow></mrow><mrow /></mrow></mrow></math> nucleus is much smaller in order to conserve momentum. The <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mrow /><mtext>235</mtext></msup><mtext>U</mtext></mrow></mrow><mrow /></mrow></mrow></math> nucleus can be left in an excited state to later emit photons (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>γ</mi></mrow><mrow /></mrow></mrow></math> rays). This decay is spontaneous and releases energy, because the products have less mass than the parent nucleus. The question of why the products have less mass will be discussed in &quot;Binding Energy.&quot; Note that the masses given in Appendix A are atomic masses of neutral atoms, including their electrons. The mass of the electrons is the same before and after <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>α</mi></mrow></mrow></mrow></math> decay, and so their masses subtract out when finding <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">m</mi></mrow></mrow></mrow></math>. In this case, there are 94 electrons before and after the decay.",
       "upstream_html": "The energy released in this <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>α</mi></mrow></mrow></math> decay is in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mtext>MeV</mtext></mrow><mrow /></mrow></math> range, about <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mtext>10</mtext><mrow><mn>6</mn></mrow></msup></mrow><mrow /></mrow></math> times as great as typical chemical reaction energies, consistent with many previous discussions. Most of this energy becomes kinetic energy of the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>α</mi></mrow></mrow></math> particle (or <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mrow /><mn>4</mn></msup><mtext>He</mtext></mrow></mrow></mrow></math> nucleus), which moves away at high speed. The energy carried away by the recoil of the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mrow /><mtext>235</mtext></msup><mtext>U</mtext></mrow></mrow></mrow></math> nucleus is much smaller in order to conserve momentum. The <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mrow /><mtext>235</mtext></msup><mtext>U</mtext></mrow></mrow></mrow></math> nucleus can be left in an excited state to later emit photons (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>γ</mi></mrow></mrow></math> rays). This decay is spontaneous and releases energy, because the products have less mass than the parent nucleus. The question of why the products have less mass will be discussed in Binding Energy. Note that the masses given in Appendix A are atomic masses of neutral atoms, including their electrons. The mass of the electrons is the same before and after <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>α</mi></mrow></mrow></math> decay, and so their masses subtract out when finding <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">m</mi></mrow></mrow></math>. In this case, there are 94 electrons before and after the decay.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     },
     {
       "id": "UP-115e33c306185a08",
@@ -63,7 +65,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id1856748",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -74,7 +76,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-dc2829585d52f33a",
@@ -82,13 +85,14 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id2639290",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "It is instructive to examine conservation laws related to [MATH] decay. You can see from the equation [MATH] that total charge is conserved. Linear and angular momentum are conserved, too. Although conserved angular momentum is not of great consequence in this type of decay, conservation of linear momentum has interesting consequences. If the nucleus is at rest when it decays, its momentum is zero. In that case, the fragments must fly in opposite directions with equal-magnitude momenta so that total momentum remains zero. This results in the [MATH] particle carrying away most of the energy, as a bullet from a heavy rifle carries away most of the energy of the powder burned to shoot it. Total mass–energy is also conserved: the energy produced in the decay comes from conversion of a fraction of the original mass. The general relationship is",
       "upstream": "It is instructive to examine conservation laws related to [MATH] decay. You can see from the equation [MATH] that total charge is conserved. Linear and angular momentum are conserved, too. Although conserved angular momentum is not of great consequence in this type of decay, conservation of linear momentum has interesting consequences. If the nucleus is at rest when it decays, its momentum is zero. In that case, the fragments must fly in opposite directions with equal-magnitude momenta so that total momentum remains zero. This results in the [MATH] particle carrying away most of the energy, as a bullet from a heavy rifle carries away most of the energy of the powder burned to shoot it. Total mass–energy is also conserved: the energy produced in the decay comes from conversion of a fraction of the original mass. As discussed in Atomic Physics, the general relationship is",
       "local_html": "It is instructive to examine conservation laws related to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>α</mi></mrow><mrow /></mrow></mrow></math> decay. You can see from the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msubsup><mrow /><mi>Z</mi><mi>A</mi></msubsup><msub><mtext>X</mtext><mrow><mi>N</mi></mrow></msub><mo stretchy=\"false\">→</mo><msubsup><mrow /><mrow><mi>Z</mi><mo stretchy=\"false\">−</mo><mn>2</mn></mrow><mrow><mi>A</mi><mo stretchy=\"false\">−</mo><mn>4</mn></mrow></msubsup><mrow><msub><mtext>Y</mtext><mrow><mi>N</mi><mo stretchy=\"false\">−</mo><mn>2</mn></mrow></msub><mo stretchy=\"false\">+</mo><msubsup><mrow /><mn>2</mn><mn>4</mn></msubsup></mrow><msub><mtext>He</mtext><mn>2</mn></msub></mrow></mrow></mrow></mrow></math>  that total charge is conserved. Linear and angular momentum are conserved, too. Although conserved angular momentum is not of great consequence in this type of decay, conservation of linear momentum has interesting consequences. If the nucleus is at rest when it decays, its momentum is zero. In that case, the fragments must fly in opposite directions with equal-magnitude momenta so that total momentum remains zero. This results in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>α</mi></mrow><mrow /></mrow></mrow></math><em></em> particle carrying away most of the energy, as a bullet from a heavy rifle carries away most of the energy of the powder burned to shoot it. Total mass–energy is also conserved: the energy produced in the decay comes from conversion of a fraction of the original mass. The general relationship is",
       "upstream_html": "It is instructive to examine conservation laws related to <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>α</mi></mrow></mrow></math> decay. You can see from the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msubsup><mrow /><mi>Z</mi><mi>A</mi></msubsup><msub><mtext>X</mtext><mrow><mi>N</mi></mrow></msub><mo stretchy=\"false\">→</mo><msubsup><mrow /><mrow><mi>Z</mi><mo stretchy=\"false\">−</mo><mn>2</mn></mrow><mrow><mi>A</mi><mo stretchy=\"false\">−</mo><mn>4</mn></mrow></msubsup><mrow><msub><mtext>Y</mtext><mrow><mi>N</mi><mo stretchy=\"false\">−</mo><mn>2</mn></mrow></msub><mo stretchy=\"false\">+</mo><msubsup><mrow /><mn>2</mn><mn>4</mn></msubsup></mrow><msub><mtext>He</mtext><mn>2</mn></msub></mrow></mrow></mrow></math>  that total charge is conserved. Linear and angular momentum are conserved, too. Although conserved angular momentum is not of great consequence in this type of decay, conservation of linear momentum has interesting consequences. If the nucleus is at rest when it decays, its momentum is zero. In that case, the fragments must fly in opposite directions with equal-magnitude momenta so that total momentum remains zero. This results in the <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>α</mi></mrow></mrow></math> particle carrying away most of the energy, as a bullet from a heavy rifle carries away most of the energy of the powder burned to shoot it. Total mass–energy is also conserved: the energy produced in the decay comes from conversion of a fraction of the original mass. As discussed in Atomic Physics, the general relationship is",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     },
     {
       "id": "UP-dccb4a93d86912f4",
@@ -96,7 +100,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id2639290",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -104,7 +108,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-191196a33a2f5d35",
@@ -112,7 +117,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id2661877",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -120,7 +125,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-15a5858caae26a59",
@@ -128,13 +134,14 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id2672424@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Enrico Fermi was nearly unique among 20th-century physicists—he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs)",
       "upstream": "(a) Enrico Fermi made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)",
       "local_html": "Enrico Fermi was nearly unique among 20th-century physicists—he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs)",
       "upstream_html": "(a) Enrico Fermi made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     },
     {
       "id": "UP-2248f4f4409f2b0a",
@@ -142,7 +149,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id2684784",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -150,7 +157,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-c4cd5def68469955",
@@ -158,7 +166,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id2684991",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -169,7 +177,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-124e7bf3e1889a4b",
@@ -177,7 +186,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id3007716",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -185,7 +194,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-01a1b96ba2e5b312",
@@ -193,13 +203,14 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id3037465",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see ). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay.",
       "upstream": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see ). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.",
       "local_html": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see <span class=\"muted\">[reference]</span>). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay.",
       "upstream_html": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see <span class=\"muted\">[reference]</span>). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     },
     {
       "id": "UP-dc4103745e269036",
@@ -436,16 +447,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-bf92998a876c7946",
-      "kind": "math-token-change",
+      "id": "UP-f493ff530677e5d8",
+      "kind": "math-markup-change",
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "eip-653@1",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mrow /><mtext>238</mtext></msup><mtext>U</mtext><mo stretchy=\"false\">→</mo><msup><mrow /><mtext>234</mtext></msup><msubsup><mtext>Th</mtext><mtext>92</mtext><mtext>234</mtext></msubsup><mo stretchy=\"false\">+</mo><msup><mrow /><mn>4</mn></msup></mrow><mtext>He</mtext></mrow></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><msup><mrow /><mtext>238</mtext></msup><mtext>U</mtext><mo stretchy=\"false\">→</mo><msup><mrow /><mtext>234</mtext></msup><mtext>Th</mtext><mo stretchy=\"false\">+</mo><msup><mrow /><mn>4</mn></msup></mrow><mtext>He</mtext></mrow></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mrow /><mtext>238</mtext></msup><mtext>U</mtext><mo stretchy=\"false\">→</mo><msup><mrow /><mtext>234</mtext></msup><mtext>Th</mtext><mo stretchy=\"false\">+</mo><msup><mrow /><mn>4</mn></msup></mrow><mtext>He</mtext></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Applied U4 thorium/beta-sign correction; remaining MathML wrappers preserve local source representation."
     },
     {
       "id": "UP-d0ed05637fbde0d5",
@@ -3126,16 +3138,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-52200a46a742b150",
-      "kind": "math-token-change",
+      "id": "UP-7d570c27bcbabbc0",
+      "kind": "math-markup-change",
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id3163016@2",
-      "status": "unreviewed-difference",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mi>β</mi><mrow><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></mrow></msup></mrow><mrow /></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><msup><mi>β</mi><mrow><mrow><mo stretchy=\"false\">+</mo><mrow /></mrow></mrow></msup></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><msup><mi>β</mi><mrow><mrow><mo stretchy=\"false\">+</mo><mrow /></mrow></mrow></msup></mrow><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Applied U4 thorium/beta-sign correction; remaining MathML wrappers preserve local source representation."
     },
     {
       "id": "UP-3a78e27fb43502d7",
@@ -3897,7 +3910,7 @@
       "local_module": "m76603",
       "upstream_module": "m42633",
       "source_id": "import-auto-id1117770",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": {
         "path": "../../media/Figure_32_04_03a.jpg",
         "sha256": "e5a5721fcfbf20ec301bc72bb7836fd8c533a52780fca0326cdbc1764a6eada2"
@@ -3908,7 +3921,8 @@
       },
       "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Apply corrected thorium equation and proton-rich beta-plus sign. Preserve earlier nucleus-notation repairs and selected coverage. Added Chien-Shiung Wu history and composite portrait are deferred broader historical expansion, not a required decay correction."
     }
   ]
 }

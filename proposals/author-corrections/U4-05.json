@@ -1,0 +1,20 @@
+{
+  "id": "U4-05",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42627",
+  "source_object": "import-auto-id2056101",
+  "source_path": "maintained/modules/m42627/index.cnxml",
+  "source_sha256": "20c21c5d75852d3bc327b1601126f7293dcd10f5e4548a1c6ff9e0bd4992ec0c",
+  "after_sha256": "6af0e8186f62bb79b871e59b8011d4c2d049b3639c7649bf25d1a7002af99de3",
+  "before": "<para id=\"import-auto-id2056101\">Another very common <term id=\"import-auto-id2017624\">radiation detector</term> is the <term id=\"import-auto-id3177120\">Geiger tube</term>. The clicking and buzzing sound we hear in dramatizations and documentaries, as well as in our own physics labs, is usually an audio output of events detected by a Geiger counter. These relatively inexpensive radiation detectors are based on the simple and sturdy Geiger tube, shown schematically in <link target-id=\"import-auto-id3027822\"/>(b). A conducting cylinder with a wire along its axis is filled with an insulating gas so that a voltage applied between the cylinder and wire produces almost no current. Ionizing radiation passing through the tube produces free ion pairs that are attracted to the wire and cylinder, forming a current that is detected as a count. The word count implies that there is no information on energy, charge, or type of radiation with a simple Geiger counter. They do not detect every particle, since some radiation can pass through without producing enough ionization to be detected. However, Geiger counters are very useful in producing a prompt output that reveals the existence and relative intensity of ionizing radiation.</para>",
+  "after": "<para id=\"import-auto-id2056101\">Another very common <term id=\"import-auto-id2017624\">radiation detector</term> is the <term id=\"import-auto-id3177120\">Geiger tube</term>. The clicking and buzzing sound we hear in dramatizations and documentaries, as well as in our own physics labs, is usually an audio output of events detected by a Geiger counter. These relatively inexpensive radiation detectors are based on the simple and sturdy Geiger tube, shown schematically in <link target-id=\"import-auto-id3027822\"/>(b). A conducting cylinder with a wire along its axis is filled with an insulating gas so that a voltage applied between the cylinder and wire produces almost no current. Ionizing radiation passing through the tube produces free ion pairs (each pair consisting of one positively charged particle and one negatively charged particle) that are attracted to the wire and cylinder, forming a current that is detected as a count. The word count implies that there is no information on energy, charge, or type of radiation with a simple Geiger counter. They do not detect every particle, since some radiation can pass through without producing enough ionization to be detected. However, Geiger counters are very useful in producing a prompt output that reveals the existence and relative intensity of ionizing radiation.</para>",
+  "reason": "Clarify that an ion pair contains one positive and one negative charged particle, using upstream wording.",
+  "authorization": "Author requested a Unit 4 backport review with applicable CC BY corrections applied minimally and substantive changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42627"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction"
+}

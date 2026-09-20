@@ -1,0 +1,64 @@
+{
+  "id": "upstream-batch-06",
+  "target_release": "cp2e-ver1.1",
+  "scope": "Unit 4 and four supporting appendices",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "changes": [
+    {
+      "id": "U4-01",
+      "module": "m67804",
+      "source_id": "fs-id1428943",
+      "reason": "Correct protons to photons in the double-slit caption, matching the discussion and alternative text.",
+      "record": "proposals/author-corrections/U4-01.json"
+    },
+    {
+      "id": "U4-02",
+      "module": "m67804",
+      "source_id": "fs-id2355756",
+      "reason": "Correct the diagram label from Protons to Photons, using exact pinned upstream image bytes.",
+      "record": "proposals/author-corrections/U4-02.json"
+    },
+    {
+      "id": "U4-03",
+      "module": "m76603",
+      "source_id": "eip-653",
+      "reason": "Repair the uranium-238 alpha-decay equation: remove duplicated thorium scripts and incorrect atomic number 92; retain the mass-number-only notation used upstream.",
+      "record": "proposals/author-corrections/U4-03.json"
+    },
+    {
+      "id": "U4-04",
+      "module": "m76603",
+      "source_id": "import-auto-id3163016",
+      "reason": "Correct the proton-rich beta-decay sign to beta-plus; keep neutron-rich beta-minus unchanged.",
+      "record": "proposals/author-corrections/U4-04.json"
+    },
+    {
+      "id": "U4-05",
+      "module": "m42627",
+      "source_id": "import-auto-id2056101",
+      "reason": "Clarify that an ion pair contains one positive and one negative charged particle, using upstream wording.",
+      "record": "proposals/author-corrections/U4-05.json"
+    },
+    {
+      "id": "U4-06",
+      "module": "m68327",
+      "source_id": "import-auto-id3398798",
+      "reason": "Use the direct upstream description of programmed cell death.",
+      "record": "proposals/author-corrections/U4-06.json"
+    },
+    {
+      "id": "U4-07",
+      "module": "m76584",
+      "source_id": "import-auto-id1871385",
+      "reason": "Replace the mismatched radiation-detector photograph with the upstream pocket dosimeter and scale photographs; credit Gary B. Swift under the pinned CC BY source.",
+      "record": "proposals/author-corrections/U4-07.json"
+    },
+    {
+      "id": "U4-08",
+      "module": "m76584",
+      "source_id": "import-auto-id1900612",
+      "reason": "Synchronize dosimeter caption, credit and alternative text with the replacement photographs; correct JPEG media type.",
+      "record": "proposals/author-corrections/U4-08.json"
+    }
+  ]
+}

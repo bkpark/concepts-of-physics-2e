@@ -8,22 +8,23 @@
     "m67030"
   ],
   "counts": {
-    "prose": 604,
-    "accessibility": 23,
-    "media": 48,
-    "math-markup-change": 6458,
+    "prose": 600,
+    "accessibility": 22,
+    "media": 46,
+    "math-markup-change": 6460,
     "references": 132,
-    "math-token-change": 560,
+    "math-token-change": 558,
     "math-structure": 60
   },
   "disposition_counts": {
-    "retained-adaptation-or-deferred-editorial-change": 922,
+    "retained-adaptation-or-deferred-editorial-change": 1362,
     "retain-local-representation": 6410,
-    "retain-approved-adaptation": 64,
-    "unreviewed-difference": 462,
-    "retain-local-upstream-regression": 21,
+    "retain-approved-adaptation": 66,
+    "unreviewed-difference": 11,
+    "retain-local-upstream-regression": 22,
     "deferred-by-author-to-broader-revision": 5,
-    "deferred-by-author-to-exercise-revision": 1
+    "deferred-by-author-to-exercise-revision": 1,
+    "held-for-author-review": 1
   },
   "exercise_context_differences": 1095,
   "status": "Partial review: fingerprinted dispositions are recorded; unreviewed differences remain. Full backport is not complete.",
@@ -1656,17 +1657,16 @@
       "module": "m67804",
       "title": "Uncertainty Principle",
       "slug": "uncertainty-principle",
-      "local_sha256": "0bb3c04f445a073b77d105f3c3e0e279f6b32b566e3a786c04b15022493e9bb6",
+      "local_sha256": "99bb3717dfda3c9faa79a32c0291c6c60b5205429291e4ebfd4895fa35e8e7cb",
       "upstream_modules": [
         "m42579"
       ],
       "counts": {
-        "prose": 11,
+        "prose": 10,
         "references": 6,
         "math-markup-change": 43,
         "math-token-change": 3,
-        "math-structure": 1,
-        "media": 1
+        "math-structure": 1
       }
     },
     {
@@ -1828,29 +1828,26 @@
       "module": "m76584",
       "title": "Nuclear Radioactivity",
       "slug": "nuclear-radioactivity",
-      "local_sha256": "d56c879845fa69dd9a60ad85a396f097e7b99f34a36f4b567ebf06de4f733658",
+      "local_sha256": "d5a7b27664af2220317c690c67d5dda5c0f048117609e530e968f6bfc7c97d10",
       "upstream_modules": [
         "m42623"
       ],
       "counts": {
-        "prose": 17,
-        "accessibility": 1,
+        "prose": 16,
         "math-markup-change": 88,
         "math-token-change": 9,
-        "math-structure": 1,
-        "media": 1
+        "math-structure": 1
       }
     },
     {
       "module": "m42627",
       "title": "Radiation Detection and Detectors",
       "slug": "radiation-detection-and-detectors",
-      "local_sha256": "20c21c5d75852d3bc327b1601126f7293dcd10f5e4548a1c6ff9e0bd4992ec0c",
+      "local_sha256": "6af0e8186f62bb79b871e59b8011d4c2d049b3639c7649bf25d1a7002af99de3",
       "upstream_modules": [
         "m42627"
       ],
       "counts": {
-        "prose": 1,
         "math-markup-change": 7
       }
     },
@@ -1874,7 +1871,7 @@
       "module": "m76603",
       "title": "Nuclear Decay and Conservation Laws",
       "slug": "nuclear-decay-and-conservation-laws",
-      "local_sha256": "003a62b0581c665a64837b5479ddc227cbfe6d22573f588f53bbcb91fa96c867",
+      "local_sha256": "8819b07d0a37ee114fd5596c29cf8941f5fef5eebded172f12b8642a80190231",
       "upstream_modules": [
         "m42633"
       ],
@@ -1882,8 +1879,7 @@
         "accessibility": 1,
         "references": 7,
         "prose": 4,
-        "math-markup-change": 282,
-        "math-token-change": 2,
+        "math-markup-change": 284,
         "media": 1
       }
     },
@@ -1921,12 +1917,12 @@
       "module": "m68327",
       "title": "Biological Effects of Ionizing Radiation",
       "slug": "biological-effects-of-ionizing-radiation",
-      "local_sha256": "0954859fae083b8b65283fc94099745b50160fc823bf3f591116577d60da9934",
+      "local_sha256": "b8085467519084894c36c85ae0bb064bf11d5e3e2c91ef7396908cc60a045286",
       "upstream_modules": [
         "m42652"
       ],
       "counts": {
-        "prose": 15,
+        "prose": 14,
         "accessibility": 2,
         "math-markup-change": 64,
         "math-token-change": 2

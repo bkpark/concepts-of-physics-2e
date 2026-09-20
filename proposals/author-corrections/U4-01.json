@@ -1,0 +1,20 @@
+{
+  "id": "U4-01",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67804",
+  "source_object": "fs-id1428943",
+  "source_path": "maintained/modules/m67804/index.cnxml",
+  "source_sha256": "0bb3c04f445a073b77d105f3c3e0e279f6b32b566e3a786c04b15022493e9bb6",
+  "after_sha256": "99bb3717dfda3c9faa79a32c0291c6c60b5205429291e4ebfd4895fa35e8e7cb",
+  "before": "<figure id=\"fs-id1428943\"><media id=\"fs-id2355756\" alt=\"A double-slit interference wavelength pattern for electrons is shown in figure a and for photons in figure b.\">\n          <image mime-type=\"image/jpg\" src=\"../../media/Figure 30_07_02a.jpg\" width=\"400\"/>\n        </media>\n        \n     <caption>Double-slit interference for electrons (a) and protons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.</caption></figure>",
+  "after": "<figure id=\"fs-id1428943\"><media id=\"fs-id2355756\" alt=\"A double-slit interference wavelength pattern for electrons is shown in figure a and for photons in figure b.\">\n          <image mime-type=\"image/jpg\" src=\"../../media/Figure 30_07_02a.jpg\" width=\"400\"/>\n        </media>\n        \n     <caption>Double-slit interference for electrons (a) and photons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.</caption></figure>",
+  "reason": "Correct protons to photons in the double-slit caption, matching the discussion and alternative text.",
+  "authorization": "Author requested a Unit 4 backport review with applicable CC BY corrections applied minimally and substantive changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42579"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction"
+}

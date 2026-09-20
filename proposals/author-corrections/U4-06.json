@@ -1,0 +1,20 @@
+{
+  "id": "U4-06",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_object": "import-auto-id3398798",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "0954859fae083b8b65283fc94099745b50160fc823bf3f591116577d60da9934",
+  "after_sha256": "b8085467519084894c36c85ae0bb064bf11d5e3e2c91ef7396908cc60a045286",
+  "before": "<item id=\"import-auto-id3398798\">The cell can commit suicide, known as programmed cell death.</item>",
+  "after": "<item id=\"import-auto-id3398798\">The cell can initiate programmed cell death.</item>",
+  "reason": "Use the direct upstream description of programmed cell death.",
+  "authorization": "Author requested a Unit 4 backport review with applicable CC BY corrections applied minimally and substantive changes held.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_modules": [
+    "m42652"
+  ],
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Pinned CC BY upstream correction"
+}

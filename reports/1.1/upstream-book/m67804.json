@@ -2,17 +2,16 @@
   "module": "m67804",
   "title": "Uncertainty Principle",
   "slug": "uncertainty-principle",
-  "local_sha256": "0bb3c04f445a073b77d105f3c3e0e279f6b32b566e3a786c04b15022493e9bb6",
+  "local_sha256": "99bb3717dfda3c9faa79a32c0291c6c60b5205429291e4ebfd4895fa35e8e7cb",
   "upstream_modules": [
     "m42579"
   ],
   "counts": {
-    "prose": 11,
+    "prose": 10,
     "references": 6,
     "math-markup-change": 43,
     "math-token-change": 3,
-    "math-structure": 1,
-    "media": 1
+    "math-structure": 1
   },
   "changes": [
     {
@@ -21,13 +20,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "eip-id2017181",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "(c) Typical molecular binding energies range from about 1eV to 10 eV, therefore the result in part (b) is approximately 9 orders of magnitude smaller than typical molecular binding energies.",
       "upstream": "(c) From , we see that typical molecular binding energies range from about 1eV to 10 eV, therefore the result in part (b) is approximately 9 orders of magnitude smaller than typical molecular binding energies.",
       "local_html": "(c) Typical molecular binding energies range from about 1eV to 10 eV, therefore the result in part (b) is approximately 9 orders of magnitude smaller than typical molecular binding energies.",
       "upstream_html": "(c) From <span class=\"muted\">[reference]</span>, we see that typical molecular binding energies range from about 1eV to 10 eV, therefore the result in part (b) is approximately 9 orders of magnitude smaller than typical molecular binding energies.",
       "exercise_context": true,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-6b9310a5eeb6f7e3",
@@ -35,7 +35,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "eip-id2017181",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -44,21 +44,8 @@
         }
       ],
       "exercise_context": true,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-15326e7953163fb4",
-      "kind": "prose",
-      "local_module": "m67804",
-      "upstream_module": "m42579",
-      "source_id": "fs-id1428943@caption",
-      "status": "unreviewed-difference",
-      "local": "Double-slit interference for electrons (a) and protons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.",
-      "upstream": "Double-slit interference for electrons (a) and photons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.",
-      "local_html": "Double-slit interference for electrons (a) and protons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.",
-      "upstream_html": "Double-slit interference for electrons (a) and photons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.",
-      "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-7d4fd4625d4e278d",
@@ -66,13 +53,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "fs-id1782120",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Since atoms are roughly 0.1 nm in size, knowing the position of an electron to 0.0100 nm localizes it reasonably well inside the atom. This would be like being able to see details one-tenth the size of the atom. But the consequent uncertainty in velocity is large. You certainly could not follow it very well if its velocity is so uncertain. To get a further idea of how large the uncertainty in velocity is, we assumed the velocity of the electron was equal to its uncertainty and found this gave a kinetic energy of 95.5 eV. This is significantly greater than the typical energy difference between levels in atoms, so that it is impossible to get a meaningful energy for the electron if we know its position even moderately well.",
       "upstream": "Since atoms are roughly 0.1 nm in size, knowing the position of an electron to 0.0100 nm localizes it reasonably well inside the atom. This would be like being able to see details one-tenth the size of the atom. But the consequent uncertainty in velocity is large. You certainly could not follow it very well if its velocity is so uncertain. To get a further idea of how large the uncertainty in velocity is, we assumed the velocity of the electron was equal to its uncertainty and found this gave a kinetic energy of 95.5 eV. This is significantly greater than the typical energy difference between levels in atoms (see ), so that it is impossible to get a meaningful energy for the electron if we know its position even moderately well.",
       "local_html": "Since atoms are roughly 0.1 nm in size, knowing the position of an electron to 0.0100 nm localizes it reasonably well inside the atom. This would be like being able to see details one-tenth the size of the atom. But the consequent uncertainty in velocity is large. You certainly could not follow it very well if its velocity is so uncertain. To get a further idea of how large the uncertainty in velocity is, we assumed the velocity of the electron was equal to its uncertainty and found this gave a kinetic energy of 95.5 eV. This is significantly greater than the typical energy difference between levels in atoms, so that it is impossible to get a meaningful energy for the electron if we know its position even moderately well.",
       "upstream_html": "Since atoms are roughly 0.1 nm in size, knowing the position of an electron to 0.0100 nm localizes it reasonably well inside the atom. This would be like being able to see details one-tenth the size of the atom. But the consequent uncertainty in velocity is large. You certainly could not follow it very well if its velocity is so uncertain. To get a further idea of how large the uncertainty in velocity is, we assumed the velocity of the electron was equal to its uncertainty and found this gave a kinetic energy of 95.5 eV. This is significantly greater than the typical energy difference between levels in atoms (see <span class=\"muted\">[reference]</span>), so that it is impossible to get a meaningful energy for the electron if we know its position even moderately well.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-3900c5a51b08cc96",
@@ -80,7 +68,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "fs-id1782120",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -89,7 +77,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-570b55e631848bb8",
@@ -97,13 +86,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1285511",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "With the use of advanced mathematics (with uncertainties being precisely defined using statistical concepts such as standard deviation), Heisenberg showed that the best that can be done in a simultaneous measurement of position and momentum is",
       "upstream": "With the use of advanced mathematics, Heisenberg showed that the best that can be done in a simultaneous measurement of position and momentum is",
       "local_html": "With the use of advanced mathematics (with uncertainties being precisely defined using statistical concepts such as standard deviation), Heisenberg showed that the best that can be done in a <em><em>simultaneous measurement of position and momentum</em></em> is",
       "upstream_html": "With the use of advanced mathematics, Heisenberg showed that the best that can be done in a <em>simultaneous measurement of position and momentum</em> is",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-1da91830bb05ad08",
@@ -111,13 +101,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1412386",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "If the theory does not allow prediction of individual electron path, could we simply measure the location of the electron as it travels toward the screen? When such experiment was done, the experimenters found more than what paths the electrons took to result in the interference pattern. They found that the interference pattern itself was gone, with the constructive and destructive interference fringes smeared out!",
       "upstream": "How does knowing which slit the electron passed through change the pattern? The answer is fundamentally important—measurement affects the system being observed. Information can be lost, and in some cases it is impossible to measure two physical quantities simultaneously to exact precision. For example, you can measure the position of a moving electron by scattering light or other electrons from it. Those probes have momentum themselves, and by scattering from the electron, they change its momentum in a manner that loses information. There is a limit to absolute knowledge, even in principle.",
       "local_html": "If the theory does not allow prediction of individual electron path, could we simply measure the location of the electron as it travels toward the screen? When such experiment was done, the experimenters found more than what paths the electrons took to result in the interference pattern. They found that the interference pattern itself was gone, with the constructive and destructive interference fringes smeared out!",
       "upstream_html": "How does knowing which slit the electron passed through change the pattern? The answer is fundamentally important—<em>measurement affects the system being observed</em>. Information can be lost, and in some cases it is impossible to measure two physical quantities simultaneously to exact precision. For example, you can measure the position of a moving electron by scattering light or other electrons from it. Those probes have momentum themselves, and by scattering from the electron, they change its momentum <em>in a manner that loses information</em>. There is a limit to absolute knowledge, even in principle.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-c9b06868e4579aac",
@@ -125,13 +116,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1558492",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "This is known as the Heisenberg uncertainty principle. It is impossible to measure position [MATH] and momentum [MATH] simultaneously with uncertainties [MATH] and [MATH] that multiply to be less than [MATH] . Neither uncertainty can be zero. Neither uncertainty can become small without the other becoming large.",
       "upstream": "This is known as the Heisenberg uncertainty principle. It is impossible to measure position [MATH] and momentum [MATH] simultaneously with uncertainties [MATH] and [MATH] that multiply to be less than [MATH] . Neither uncertainty can be zero. Neither uncertainty can become small without the other becoming large. A small wavelength allows accurate position measurement, but it increases the momentum of the probe to the point that it further disturbs the momentum of a system being measured. For example, if an electron is scattered from an atom and has a wavelength small enough to detect the position of electrons in the atom, its momentum can knock the electrons from their orbits in a manner that loses information about their original motion. It is therefore impossible to follow an electron in its orbit around an atom. If you measure the electron’s position, you will find it in a definite location, but the atom will be disrupted. Repeated measurements on identical atoms will produce interesting probability distributions for electrons around the atom, but they will not produce motion information. The probability distributions are referred to as electron clouds or orbitals. The shapes of these orbitals are often shown in general chemistry texts and are discussed in The Wave Nature of Matter Causes Quantization.",
       "local_html": "This is known as the Heisenberg uncertainty principle. It is impossible to measure position <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>x</mi></mrow><mrow /></mrow></mrow></math> and momentum <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>p</mi></mrow><mrow /></mrow></mrow></math> simultaneously with uncertainties <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow><mrow /></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">p</mi></mrow><mrow /></mrow></mrow></math> that multiply to be less than <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">/</mo><mn>4π</mn></mrow></mrow><mrow /></mrow></mrow></math>. Neither uncertainty can be zero. Neither uncertainty can become small without the other becoming large.",
       "upstream_html": "This is known as the Heisenberg uncertainty principle. It is impossible to measure position <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>x</mi></mrow></mrow></math> and momentum <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>p</mi></mrow></mrow></math> simultaneously with uncertainties <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">p</mi></mrow></mrow></math> that multiply to be less than <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>h</mi><mo stretchy=\"false\">/</mo><mn>4π</mn></mrow></mrow></mrow></math>. Neither uncertainty can be zero. Neither uncertainty can become small without the other becoming large. A small wavelength allows accurate position measurement, but it increases the momentum of the probe to the point that it further disturbs the momentum of a system being measured. For example, if an electron is scattered from an atom and has a wavelength small enough to detect the position of electrons in the atom, its momentum can knock the electrons from their orbits in a manner that loses information about their original motion. It is therefore impossible to follow an electron in its orbit around an atom. If you measure the electron’s position, you will find it in a definite location, but the atom will be disrupted. Repeated measurements on identical atoms will produce interesting probability distributions for electrons around the atom, but they will not produce motion information. The probability distributions are referred to as electron clouds or orbitals. The shapes of these orbitals are often shown in general chemistry texts and are discussed in The Wave Nature of Matter Causes Quantization.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-8427784a48a1411e",
@@ -139,7 +131,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1558492",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -147,7 +139,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-65c3c6ce3291b428",
@@ -155,13 +148,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1575044",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The de Broglie wavelength assigns a wave nature to everything, even to the things we are used to thinking of as particles, such as an electron. So, what kind of waves are they? As far as we know, there are not smaller parts that electron can be broken into that can be oscillating. Furthermore, when we measure the position of the electron, each time, we find the electron at some definite location, as we would expect for a particle. So, what kind of a wave is electron?",
       "upstream": "Matter and photons are waves, implying they are spread out over some distance. What is the position of a particle, such as an electron? Is it at the center of the wave? The answer lies in how you measure the position of an electron. Experiments show that you will find the electron at some definite location, unlike a wave. But if you set up exactly the same situation and measure it again, you will find the electron in a different location, often far outside any experimental uncertainty in your measurement. Repeated measurements will display a statistical distribution of locations that appears wavelike. (See .)",
       "local_html": "The de Broglie wavelength assigns a wave nature to everything, even to the things we are used to thinking of as particles, such as an electron. So, what kind of waves are they? As far as we know, there are not smaller parts that electron can be broken into that can be oscillating. Furthermore, when we measure the position of the electron, each time, we find the electron at some definite location, as we would expect for a particle. So, what kind of a wave is electron?",
       "upstream_html": "Matter and photons are waves, implying they are spread out over some distance. What is the position of a particle, such as an electron? Is it at the center of the wave? The answer lies in how you measure the position of an electron. Experiments show that you will find the electron at some definite location, unlike a wave. But if you set up exactly the same situation and measure it again, you will find the electron in a different location, often far outside any experimental uncertainty in your measurement. Repeated measurements will display a statistical distribution of locations that appears wavelike. (See <span class=\"muted\">[reference]</span>.)",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-a8ed755dce27867b",
@@ -169,7 +163,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1575044",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -177,7 +171,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-10491bc748a2c7ab",
@@ -185,13 +180,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1601236",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "After de Broglie proposed the wave nature of matter, many physicists, including Schrödinger and Heisenberg, explored the consequences. The Schrödinger equation is the wave equation (a type of differential equation) which describes the behavior of these matter waves. This still doesn't quite answer what kind of a wave an electron is—and we won't really answer it, in a similar way as how we can say that a photon is an electromagnetic wave—so for now, we will give this wave a name: \"probability wave.\" The wave function which corresponds to the wave nature of electron describes the probability of detecting the particle at a particular location and time. And this wave nature becomes evident experimentally only in the statistical sense. That is, after compiling enough data, you get a distribution of the particle locations, and you can calculate a certain probability of finding the particle at a given location. This overall pattern is called a probability distribution. Those who developed quantum mechanics devised equations (of which the Schrödinger equation is one example) that predicted the probability distribution in various circumstances.",
       "upstream": "After de Broglie proposed the wave nature of matter, many physicists, including Schrödinger and Heisenberg, explored the consequences. The idea quickly emerged that, because of its wave character, a particle’s trajectory and destination cannot be precisely predicted for each particle individually. However, each particle goes to a definite place (as illustrated in ). After compiling enough data, you get a distribution related to the particle’s wavelength and diffraction pattern. There is a certain probability of finding the particle at a given location, and the overall pattern is called a probability distribution. Those who developed quantum mechanics devised equations that predicted the probability distribution in various circumstances.",
       "local_html": "After de Broglie proposed the wave nature of matter, many physicists, including Schrödinger and Heisenberg, explored the consequences. The Schrödinger equation is the wave equation (a type of differential equation) which describes the behavior of these matter waves. This still doesn&#x27;t quite answer what kind of a wave an electron is—and we won&#x27;t really answer it, in a similar way as how we can say that a photon is an electromagnetic wave—so for now, we will give this wave a name: &quot;probability wave.&quot; The wave function which corresponds to the wave nature of electron describes the <em>probability</em> of detecting the particle at a particular location and time. And this wave nature becomes evident experimentally only in the statistical sense. That is, after compiling enough data, you get a distribution of the particle locations, and you can calculate a certain <em>probability</em> of finding the particle at a given location. This overall pattern is called a probability distribution. Those who developed quantum mechanics devised equations (of which the Schrödinger equation is one example) that predicted the probability distribution in various circumstances.",
       "upstream_html": "After de Broglie proposed the wave nature of matter, many physicists, including Schrödinger and Heisenberg, explored the consequences. The idea quickly emerged that, <em>because of its wave character, a particle’s trajectory and destination cannot be precisely predicted for each particle individually</em>. However, each particle goes to a definite place (as illustrated in <span class=\"muted\">[reference]</span>). After compiling enough data, you get a distribution related to the particle’s wavelength and diffraction pattern. There is a certain <em>probability</em> of finding the particle at a given location, and the overall pattern is called a probability distribution. Those who developed quantum mechanics devised equations that predicted the probability distribution in various circumstances.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-f6b117acf8aef119",
@@ -199,7 +195,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1601236",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         {
@@ -207,7 +203,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-2b85fa60c5498eac",
@@ -215,13 +212,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id1606394@caption",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), the fact that Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb is sometimes held against him. (credit: Author Unknown, via Wikimedia Commons)",
       "upstream": "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)",
       "local_html": "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), the fact that Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb is sometimes held against him. (credit: Author Unknown, via Wikimedia Commons)",
       "upstream_html": "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)",
       "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": true,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-07dfb0cb2888b3b2",
@@ -229,13 +227,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id2654858",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "The most disquieting aspect of quantum mechanics is that the nature, at its most fundamental level, can only be described probabilistically. In and above, for each dot representing an electron or a photon, the experimental setup was identically. But with this identical set up, each electron (or each photon) ends up taking different paths, ending at the location represented by the dot. In classical mechanics, we would say this was because of our incomplete knowledge of the setup (we don't know the precise way an electron bounces off from the barriers on its way to the screen where it is detected). In quantum mechanics, even in theory—assuming the most complete knowledge theoretically possible—we can only describe probability of finding the electron at one location, and the theory does not allow for prediction of individual electron paths. This aspect disturbed many physicists working on quantum mechanics, including Albert Einstein, who exclaimed, incorrectly, \"God does not play dice.\"",
       "upstream": "It is somewhat disquieting to think that you cannot predict exactly where an individual particle will go, or even follow it to its destination. Let us explore what happens if we try to follow a particle. Consider the double-slit patterns obtained for electrons and photons in . First, we note that these patterns are identical, following [MATH] , the equation for double-slit constructive interference developed in Photon Energies and the Electromagnetic Spectrum, where [MATH] is the slit separation and [MATH] is the electron or photon wavelength.",
       "local_html": "The most disquieting aspect of quantum mechanics is that the nature, at its most fundamental level, can only be described probabilistically. In <span class=\"muted\">[reference]</span> and <span class=\"muted\">[reference]</span> above, for each dot representing an electron or a photon, the experimental setup was identically. But with this identical set up, each electron (or each photon) ends up taking different paths, ending at the location represented by the dot. In classical mechanics, we would say this was because of our incomplete knowledge of the setup (we don&#x27;t know the precise way an electron bounces off from the barriers on its way to the screen where it is detected). In quantum mechanics, even in theory—assuming the most complete knowledge theoretically possible—we can only describe probability of finding the electron at one location, and the theory does not allow for prediction of individual electron paths. This aspect disturbed many physicists working on quantum mechanics, including Albert Einstein, who exclaimed, incorrectly, &quot;God does not play dice.&quot;",
       "upstream_html": "It is somewhat disquieting to think that you cannot predict exactly where an individual particle will go, or even follow it to its destination. Let us explore what happens if we try to follow a particle. Consider the double-slit patterns obtained for electrons and photons in <span class=\"muted\">[reference]</span>. First, we note that these patterns are identical, following <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>d</mi><mspace width=\"0.25em\" /><mtext>sin</mtext><mspace width=\"0.25em\" /><mrow><mi>θ</mi><mo stretchy=\"false\">=</mo><mi fontstyle=\"italic\" style=\";font-style:italic\">mλ</mi></mrow></mrow></mrow></mrow></math>, the equation for double-slit constructive interference developed in Photon Energies and the Electromagnetic Spectrum, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>d</mi></mrow></mrow></math> is the slit separation and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mi>λ</mi></mrow></mrow></math> is the electron or photon wavelength.",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-ab3c70a6580a3590",
@@ -243,7 +242,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id2654858",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [
         {
           "target-id": "import-auto-id2632011"
@@ -261,7 +260,8 @@
         }
       ],
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair. Preserve existing local destinations and prior author-approved reference repairs."
     },
     {
       "id": "UP-9a1070040e8fa8d0",
@@ -269,13 +269,14 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id2686072",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "Unless the electron wave function is spread out as much as its average wavelength, the meaning of wavelength itself becomes unclear (what is the wavelength of something that exists only at one point?). To detect the position of the particle, we must interact with it, such as having it collide with a detector. In the collision, the particle will lose momentum. This change in momentum could be anywhere from close to zero to the total momentum of the particle, [MATH] . It is not possible to tell how much momentum will be transferred to a detector, and so there is an uncertainty in momentum [MATH] , too. In fact, with these subatomic particles, the uncertainty in momentum may be as large as the momentum itself, which in equation form means (using the de Broglie relationship) that",
       "upstream": "As discussed above, a wave is not located at one point in space. If the electron’s position is measured repeatedly, a spread in locations will be observed, implying an uncertainty in position [MATH] . To detect the position of the particle, we must interact with it, such as having it collide with a detector. In the collision, the particle will lose momentum. This change in momentum could be anywhere from close to zero to the total momentum of the particle, [MATH] . It is not possible to tell how much momentum will be transferred to a detector, and so there is an uncertainty in momentum [MATH] , too. In fact, the uncertainty in momentum may be as large as the momentum itself, which in equation form means that",
       "local_html": "Unless the electron wave function is spread out as much as its average wavelength, the meaning of wavelength itself becomes unclear (what is the wavelength of something that exists only at one point?). To detect the position of the particle, we must interact with it, such as having it collide with a detector. In the collision, the particle will lose momentum. This change in momentum could be anywhere from close to zero to the total momentum of the particle, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>p</mi><mo stretchy=\"false\">=</mo><mrow><mi>h</mi><mo stretchy=\"false\">/</mo><mi>λ</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math>. It is not possible to tell how much momentum will be transferred to a detector, and so there is an uncertainty in momentum <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">p</mi></mrow><mrow /></mrow></mrow></math>, too. In fact, with these subatomic particles, the uncertainty in momentum may be as large as the momentum itself, which in equation form means (using the de Broglie relationship) that",
       "upstream_html": "As discussed above, a wave is not located at one point in space. If the electron’s position is measured repeatedly, a spread in locations will be observed, implying an uncertainty in position <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow></mrow></math>. To detect the position of the particle, we must interact with it, such as having it collide with a detector. In the collision, the particle will lose momentum. This change in momentum could be anywhere from close to zero to the total momentum of the particle, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>p</mi><mo stretchy=\"false\">=</mo><mrow><mi>h</mi><mo stretchy=\"false\">/</mo><mi>λ</mi></mrow></mrow></mrow></mrow></math>. It is not possible to tell how much momentum will be transferred to a detector, and so there is an uncertainty in momentum <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">p</mi></mrow></mrow></math>, too. In fact, the uncertainty in momentum may be as large as the momentum itself, which in equation form means that",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-6e778096bae3ea37",
@@ -322,11 +323,12 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "eip-691@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>p</mi><mo>≈</mo><mi>p</mi><mo>,</mo><mspace width=\"0.3em\" /><mtext>where</mtext><mspace width=\"0.3em\" /><mi>p</mi><mo>=</mo><mi>h</mi><mo stretchy=\"false\">/</mo><mi>λ</mi><mo>.</mo></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">p</mi><mo stretchy=\"false\">≈</mo><mfrac><mi>h</mi><mi>λ</mi></mfrac></mrow></mrow><mo>.</mo><mrow /></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-5ce3bfd49e850eac",
@@ -828,11 +830,12 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id2686072@1",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mrow><mi>p</mi><mo stretchy=\"false\">=</mo><mrow><mi>h</mi><mo stretchy=\"false\">/</mo><mi>λ</mi></mrow></mrow></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">x</mi></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-109a504932c2cb91",
@@ -840,11 +843,12 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "import-auto-id2686072@2",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mn>Δ</mn><mi fontstyle=\"italic\" style=\";font-style:italic\">p</mi></mrow><mrow /></mrow></mrow></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mi>p</mi><mo stretchy=\"false\">=</mo><mrow><mi>h</mi><mo stretchy=\"false\">/</mo><mi>λ</mi></mrow></mrow></mrow></mrow></math>",
       "exercise_context": false,
-      "credit_review_required": false
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     },
     {
       "id": "UP-489f9a808d80c613",
@@ -878,7 +882,7 @@
       "local_module": "m67804",
       "upstream_module": "m42579",
       "source_id": "m42579",
-      "status": "unreviewed-difference",
+      "status": "retained-adaptation-or-deferred-editorial-change",
       "local": [],
       "upstream": [
         "import-auto-id2654858@1",
@@ -887,26 +891,8 @@
         "import-auto-id2686072@3"
       ],
       "exercise_context": false,
-      "credit_review_required": false
-    },
-    {
-      "id": "UP-e0d27ee316c389ab",
-      "kind": "media",
-      "local_module": "m67804",
-      "upstream_module": "m42579",
-      "source_id": "fs-id2355756",
-      "status": "unreviewed-difference",
-      "local": {
-        "path": "../../media/Figure 30_07_02a.jpg",
-        "sha256": "cfa4475bf293628aff8b97c074a3bccc0654f34343b2e184803cbfdab9a90719"
-      },
-      "upstream": {
-        "path": "../../media/Figure 30_07_02a-0d6a.jpg",
-        "sha256": "19e85053dadd348a551a3e8f9c6e20abba7aebb18016976b781023abe0e265a9"
-      },
-      "note": "Different bytes do not prove a corrected figure. Check resolution, content, and individual credit before importing.",
-      "exercise_context": false,
-      "credit_review_required": true
+      "credit_review_required": false,
+      "disposition_reason": "Apply photons correction in the double-slit caption and diagram. Retain M01 inline fraction and uncertainty/probability-wave adaptations, including standard-deviation qualification. Do not restore removed energy-time subsection. Heisenberg historical judgment is an editorial expansion rather than a physics repair."
     }
   ]
 }

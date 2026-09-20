@@ -1,0 +1,15 @@
+[
+  {
+    "id": "U4-H01",
+    "module": "m52471",
+    "source_id": "import-auto-id2519865",
+    "title": "Reactor-safety comparison and obsolete forward reference",
+    "status": "held-for-author-review",
+    "reason": "Upstream changes Western reactors to more recent reactors. Both versions make a broad safety claim, and the local next-chapter promise does not match the present organization.",
+    "recommendation": "Choose whether to use just the upstream wording or remove the last sentence. The preceding Chernobyl example stands without that generalization; no change applied.",
+    "before": "<para id=\"import-auto-id2519865\">While 70 kg of material may not be a very large mass compared to the amount of fuel in a power plant, it is extremely radioactive, since it only has a 30-year half-life. Six megacuries (6.0 MCi) is an extraordinary amount of activity but is only a fraction of what is produced in nuclear reactors. Similar amounts of the other isotopes were also released at Chernobyl. Although the chances of such a disaster may have seemed small, the consequences were extremely severe, requiring greater caution than was used. More will be said about safe reactor design in the next chapter, but it should be noted that Western reactors have a fundamentally safer design.</para>",
+    "upstream": "<para id=\"import-auto-id2519865\">While 70 kg of material may not be a very large mass compared to the amount of fuel in a power plant, it is extremely radioactive, since it only has a 30-year half-life. Six megacuries (6.0 MCi) is an extraordinary amount of activity but is only a fraction of what is produced in nuclear reactors. Similar amounts of the other isotopes were also released at Chernobyl. Although the chances of such a disaster may have seemed small, the consequences were extremely severe, requiring greater caution than was used. More will be said about safe reactor design in the next chapter, but it should be noted that more recent reactors have a fundamentally safer design.</para>",
+    "source_sha256": "095d396a14d8b75134912b26e5f85d2a4a1ce5f3bdb5a53fea939c768bcd21d0",
+    "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed"
+  }
+]
