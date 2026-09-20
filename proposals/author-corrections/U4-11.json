@@ -1,0 +1,15 @@
+{
+  "id": "U4-11",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67251",
+  "source_object": "eip-572",
+  "source_path": "maintained/modules/m67251/index.cnxml",
+  "source_sha256": "9c84cb6fae4dc57306e7b030125ce2818d82078adf0b026753d50b05aae8938f",
+  "after_sha256": "826852a614ce474e97d8ab0bc107853d7df84555ea185ba2d41d9fb96f922f17",
+  "before": "<para id=\"eip-572\">The energy of this 420-nm photon of violet light is a tiny fraction of a joule, and so it is no wonder that a single photon would be difficult for us to sense directly—humans are more attuned to energies on the order of joules. But looking at the energy in electron volts, we can see that this photon has enough energy to affect atoms and molecules. A DNA molecule can be broken with about 1 eV of energy, for example, and typical atomic and molecular energies are on the order of eV, so that the UV photon in this example could have biological effects. The ejected electron (called a <emphasis effect=\"italics\">photoelectron</emphasis>) has a rather low energy, and it would not travel far, except in a vacuum. The electron would be stopped by a retarding potential of 0.25 V. This simply means that the 420-nm photons with their 2.96-eV energy are not much above the frequency threshold. You can show for yourself that the threshold wavelength is 459 nm (blue light). This means that if calcium metal is used in a light meter, the meter will be insensitive to wavelengths longer than those of blue light.</para>",
+  "after": "<para id=\"eip-572\">The ejected electron (called a <emphasis effect=\"italics\">photoelectron</emphasis>) has a rather low energy. The electron would be stopped by a retarding potential of 0.25 V. You can show for yourself that the threshold wavelength is 459 nm (blue light).</para>",
+  "reason": "Shorten the photoelectric Discussion by retaining original sentences and deleting biological, perception, travel-distance and redundant commentary, as approved by the author.",
+  "authorization": "Author approved the proposed three-sentence Discussion, preferring deletion and minimal wording changes.",
+  "basis": "Author-approved shortening; not a verbatim upstream backport."
+}
