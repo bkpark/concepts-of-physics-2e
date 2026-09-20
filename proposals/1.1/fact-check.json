@@ -964,7 +964,7 @@
     {
       "id": "FC27",
       "category": "author-discussion",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m52480",
       "section_title": "Fusion",
       "slug": "fusion",
@@ -1085,7 +1085,7 @@
         }
       ],
       "structural_proposal": {
-        "status": "proposed-not-applied",
+        "status": "approved-pending-application",
         "description": "Present inertial confinement before magnetic confinement. Move each existing figure with its explanatory paragraph; preserve all source IDs, figure assets, credits, and cross-reference targets. Displayed figure numbers will follow the new order when applied and rebuilt. The unchanged NIF figure and caption travel with its paragraph although only edited passages are shown below.",
         "before_order": [
           "import-auto-id2446715",
@@ -1101,7 +1101,8 @@
           "import-auto-id1272517",
           "import-auto-id1901128"
         ]
-      }
+      },
+      "authorization": "Author approved FC27, including all four passage updates and moving inertial confinement with its figure before magnetic confinement with its figure; pending the application batch."
     },
     {
       "id": "FC28",
@@ -1115,13 +1116,18 @@
       "source_path": "maintained/modules/m68327/index.cnxml",
       "source_sha256": "9c6beb31d7d5399116334a67137b8e275adb2e417c4782951eb25225e288b6cb",
       "title": "Radiation dose limits: replace the mixed regulatory claims",
-      "reason": "The blanket public/occupational fractions, special 0.05 mSv claim and “only at TMI” assertion do not form a defensible general rule. The 2025 US regulations list 50 mSv adult occupational total effective dose equivalent and generally 1 mSv public exposure from licensed operations, with exclusions and exceptions. Recommend shortening to jurisdiction-specific, dated examples or a qualitative paragraph. Do not turn dose limits into thresholds of safety. Recheck the effective regulations immediately before a numerical replacement is approved.",
+      "reason": "Use a dated, jurisdiction-specific example from the 2025 U.S. NRC regulations, rather than presenting mixed international and special-case limits as universal rules. Retain the points about occupational dose, higher local hand doses, pregnancy protection, public dose, and monitoring. Remove the unsupported reproductive-organ generalization, blanket occupational/public fractions, nuclear-power 0.05 mSv claim, Three Mile Island exclusivity claim, Chernobyl aside, and unsourced uranium-mine average. Include the principal exclusions and ALARA principle without turning the paragraph into a regulatory manual or implying that a legal limit is a threshold of harm.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2659893\">Laws regulate radiation doses to which people can be exposed. The greatest occupational whole-body dose that is allowed depends upon the country and is about 20 to 50 mSv/yr and is rarely reached by medical and nuclear power workers. Higher doses are allowed for the hands. Much lower doses are permitted for the reproductive organs and the fetuses of pregnant women. Inadvertent doses to the public are limited to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\">/</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1/\"10\"} {}</m:annotation></m:semantics></m:math> of occupational doses, except for those caused by nuclear power, which cannot legally expose the public to more than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\">/</m:mo><m:mtext>1000</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1/\"1000\"} {}</m:annotation></m:semantics></m:math> of the occupational limit or 0.05 mSv/yr (5 mrem/yr). This has been exceeded in the United States only at the time of the Three Mile Island (TMI) accident in 1979. Chernobyl is another story. Extensive monitoring with a variety of radiation detectors is performed to assure radiation safety. Increased ventilation in uranium mines has lowered the dose there to about 1 mSv/yr.</para>",
-      "proposed_xml": null,
-      "edits": [],
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2659893\">Laws regulate radiation doses to which people can be exposed. Dose limits depend upon the country and the type of exposure. For example, the 2025 U.S. Nuclear Regulatory Commission regulations set an annual occupational limit of 50 mSv in total effective dose equivalent for adults. Higher local doses are allowed for the hands. A lower limit applies to the embryo or fetus of a worker who has declared her pregnancy in writing. For members of the public, the general annual limit from licensed operations is 1 mSv, excluding background radiation and doses received as a medical patient, among other exclusions. These limits do not mark a boundary between harmless and harmful exposure; radiation protection also aims to keep doses as low as reasonably achievable. Extensive monitoring with a variety of radiation detectors is performed to support radiation safety.</para>",
+      "edits": [
+        {
+          "before": "The greatest occupational whole-body dose that is allowed depends upon the country and is about 20 to 50 mSv/yr and is rarely reached by medical and nuclear power workers. Higher doses are allowed for the hands. Much lower doses are permitted for the reproductive organs and the fetuses of pregnant women. Inadvertent doses to the public are limited to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\">/</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1/\"10\"} {}</m:annotation></m:semantics></m:math> of occupational doses, except for those caused by nuclear power, which cannot legally expose the public to more than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\">/</m:mo><m:mtext>1000</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{1/\"1000\"} {}</m:annotation></m:semantics></m:math> of the occupational limit or 0.05 mSv/yr (5 mrem/yr). This has been exceeded in the United States only at the time of the Three Mile Island (TMI) accident in 1979. Chernobyl is another story. Extensive monitoring with a variety of radiation detectors is performed to assure radiation safety. Increased ventilation in uranium mines has lowered the dose there to about 1 mSv/yr.",
+          "after": "Dose limits depend upon the country and the type of exposure. For example, the 2025 U.S. Nuclear Regulatory Commission regulations set an annual occupational limit of 50 mSv in total effective dose equivalent for adults. Higher local doses are allowed for the hands. A lower limit applies to the embryo or fetus of a worker who has declared her pregnancy in writing. For members of the public, the general annual limit from licensed operations is 1 mSv, excluding background radiation and doses received as a medical patient, among other exclusions. These limits do not mark a boundary between harmless and harmful exposure; radiation protection also aims to keep doses as low as reasonably achievable. Extensive monitoring with a variety of radiation detectors is performed to support radiation safety."
+        }
+      ],
       "sources": [
         {
-          "title": "US CFR 2025: occupational limits §20.1201",
+          "title": "US CFR 2025: occupational limits and ALARA, sections 20.1201 and 20.1101",
           "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1201.pdf",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
@@ -1131,8 +1137,15 @@
           "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1301.pdf",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "US CFR 2025: pregnancy dose protection, section 20.1208",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1208.pdf",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "revision_note": "Author requested a fact-based draft with minimal additions. Opening sentence retained exactly; surrounding ideas and wording retained where supported, with the unreliable middle claims replaced by a shorter scoped example. Numerical example explicitly dated to the 2025 CFR edition because direct current eCFR/NRC regulation-page access was blocked during verification. Proposal only; not approved or applied."
     },
     {
       "id": "FC29",

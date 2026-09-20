@@ -330,7 +330,7 @@ The discovery-status sentences anticipate a possible Higgs discovery during 2012
 
 ## FC27 — Fusion ignition, target gain, and practical energy production
 
-Fusion · proposed-not-applied
+Fusion · approved-pending-application
 
 The opening paragraph ends with the author's ignition and break-even definitions. Present inertial confinement and NIF's demonstrated results first, followed by magnetic confinement and ITER's design goals. Replace the broad promise language with a neutral introduction. ITER is still under assembly; its proposed schedule is documented in the sources, but no new projected completion date is added to the textbook. Keep the distinctions between target gain, plasma heating power, whole-facility energy use, and electricity generation.
 
@@ -368,12 +368,15 @@ The opening paragraph ends with the author's ignition and break-even definitions
 
 Biological Effects of Ionizing Radiation · proposed-not-applied
 
-The blanket public/occupational fractions, special 0.05 mSv claim and “only at TMI” assertion do not form a defensible general rule. The 2025 US regulations list 50 mSv adult occupational total effective dose equivalent and generally 1 mSv public exposure from licensed operations, with exclusions and exceptions. Recommend shortening to jurisdiction-specific, dated examples or a qualitative paragraph. Do not turn dose limits into thresholds of safety. Recheck the effective regulations immediately before a numerical replacement is approved.
+Use a dated, jurisdiction-specific example from the 2025 U.S. NRC regulations, rather than presenting mixed international and special-case limits as universal rules. Retain the points about occupational dose, higher local hand doses, pregnancy protection, public dose, and monitoring. Remove the unsupported reproductive-organ generalization, blanket occupational/public fractions, nuclear-power 0.05 mSv claim, Three Mile Island exclusivity claim, Chernobyl aside, and unsourced uranium-mine average. Include the principal exclusions and ALARA principle without turning the paragraph into a regulatory manual or implying that a legal limit is a threshold of harm.
 
 **Current:** Laws regulate radiation doses to which people can be exposed. The greatest occupational whole-body dose that is allowed depends upon the country and is about 20 to 50 mSv/yr and is rarely reached by medical and nuclear power workers. Higher doses are allowed for the hands. Much lower doses are permitted for the reproductive organs and the fetuses of pregnant women. Inadvertent doses to the public are limited to 1/10 of occupational doses, except for those caused by nuclear power, which cannot legally expose the public to more than 1/1000 of the occupational limit or 0.05 mSv/yr (5 mrem/yr). This has been exceeded in the United States only at the time of the Three Mile Island (TMI) accident in 1979. Chernobyl is another story. Extensive monitoring with a variety of radiation detectors is performed to assure radiation safety. Increased ventilation in uranium mines has lowered the dose there to about 1 mSv/yr.
 
-- [US CFR 2025: occupational limits §20.1201](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1201.pdf)
+**Proposed:** Laws regulate radiation doses to which people can be exposed. Dose limits depend upon the country and the type of exposure. For example, the 2025 U.S. Nuclear Regulatory Commission regulations set an annual occupational limit of 50 mSv in total effective dose equivalent for adults. Higher local doses are allowed for the hands. A lower limit applies to the embryo or fetus of a worker who has declared her pregnancy in writing. For members of the public, the general annual limit from licensed operations is 1 mSv, excluding background radiation and doses received as a medical patient, among other exclusions. These limits do not mark a boundary between harmless and harmful exposure; radiation protection also aims to keep doses as low as reasonably achievable. Extensive monitoring with a variety of radiation detectors is performed to support radiation safety.
+
+- [US CFR 2025: occupational limits and ALARA, sections 20.1201 and 20.1101](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1201.pdf)
 - [US CFR 2025: public limits §20.1301](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1301.pdf)
+- [US CFR 2025: pregnancy dose protection, section 20.1208](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1208.pdf)
 
 ## FC29 — Radiation-risk calculation needs a coordinated revision
 
