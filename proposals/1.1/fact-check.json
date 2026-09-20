@@ -836,7 +836,7 @@
     {
       "id": "FC25",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m75429",
       "section_title": "Production and Properties of Electromagnetic Waves",
       "slug": "production-and-properties-of-electromagnetic-waves",
@@ -904,7 +904,8 @@
         "optional_addition": "In 2019, The Planetary Society’s LightSail 2 demonstrated controlled changes to its orbit around Earth using the pressure of sunlight.",
         "status": "LightSail 2 addition incorporated into the review proposal at author request; not applied to textbook."
       },
-      "revision_note": "At author request, added the LightSail 2 sentence after the IKAROS description and figure reference. Updated paragraph is ready for review; not yet applied to the textbook."
+      "revision_note": "At author request, added the LightSail 2 sentence after the IKAROS description and figure reference. Updated paragraph is ready for review; not yet applied to the textbook.",
+      "authorization": "Author approved updated FC25 including the LightSail 2 sentence; pending the application batch."
     },
     {
       "id": "FC26",
@@ -917,8 +918,8 @@
       "anchor": "import-auto-id1169737946155",
       "source_path": "maintained/modules/m42680/index.cnxml",
       "source_sha256": "7f52de36c25db4bb44ad4e8d28cdaab9ad4a5a112f45832716955bb669e0e5a1",
-      "title": "Higgs discovery and the surrounding unification explanation",
-      "reason": "Confirmed obsolete: possible discovery “during 2012.” A sentence-only fix would leave claims that energetic W/Z particles become massless and that discovery proves identical carrier particles. Recommend a short author-reviewed replacement of the latter part; the nearby GUT definition also incorrectly includes gravity. This deserves a linked paragraph/figure review, not silent restructuring.",
+      "title": "Higgs discovery status and separate wording qualifications",
+      "reason": "The confirmed outdated claim is specifically the anticipation of a possible Higgs discovery during 2012, not the electroweak symmetry-breaking framework or the paragraph as a whole. The discovery confirmed a central prediction of the Higgs mechanism. Preserve the existing explanation wherever possible and update the discovery-status/concluding sentences. Any clarification of the massless-carrier wording should be considered separately, distinguishing high-energy approximations from symmetry restoration. The nearby GUT/gravity terminology issue is also separate; it is not a reason to replace this entire paragraph.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169737946155\">How can forces be unified? They are definitely distinct under most circumstances, for example, being carried by different particles and having greatly different strengths. But experiments show that at extremely small distances, the strengths of the forces begin to become more similar. In fact, electroweak theory’s prediction of the <m:math>\n<m:msup>\n<m:mi>W</m:mi>\n<m:mo>+</m:mo>\n</m:msup>\n</m:math>,\n<m:math>\n<m:msup>\n<m:mi>W</m:mi>\n<m:mo>-</m:mo>\n</m:msup>\n</m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> carrier particles was based on the strengths of the two forces being identical at extremely small distances as seen in <link target-id=\"import-auto-id1169738128124\" />. As discussed in case of the creation of virtual particles for extremely short times, the small distances or short ranges correspond to the large masses of the carrier particles and the correspondingly large energies needed to create them. Thus, the energy scale on the horizontal axis of <link target-id=\"import-auto-id1169738128124\" /> corresponds to smaller and smaller distances, with 100 GeV corresponding to approximately, <m:math>\n<m:msup>\n<m:mrow>\n<m:mn>10</m:mn>\n</m:mrow>\n<m:mrow>\n<m:mo>-</m:mo>\n<m:mn>18</m:mn>\n</m:mrow>\n</m:msup>\n<m:mtext>m</m:mtext>\n</m:math> for example. At that distance, the strengths of the EM and weak forces are the same. To test physics at that distance, energies of about 100 GeV must be put into the system, and that is sufficient to create and release the <m:math>\n<m:msup>\n<m:mi>W</m:mi>\n<m:mo>+</m:mo>\n</m:msup>\n</m:math>, <m:math>\n<m:msup>\n<m:mi>W</m:mi>\n<m:mo>-</m:mo>\n</m:msup>\n</m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> carrier particles. At those and higher energies, the masses of the carrier particles becomes less and less relevant, and the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> in particular resembles the massless, chargeless, spin 1 photon. In fact, there is enough energy when things are pushed to even smaller distances to transform the, and <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> into massless carrier particles more similar to photons and gluons. These have not been observed experimentally, but there is a prediction of an associated particle called the <term>Higgs boson</term>. The mass of this particle is not predicted with nearly the certainty with which the mass of the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>W</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mrow /></m:mrow></m:mrow></m:msup><m:mi>,</m:mi><m:mspace width=\"0.25em\" /><m:msup><m:mi>W</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> particles were predicted, but it was hoped that the Higgs boson could be observed at the now-canceled Superconducting Super Collider (SSC). Ongoing experiments at the Large Hadron Collider at CERN have presented some evidence for a Higgs boson with a mass of 125 GeV, and there is a possibility of a direct discovery during 2012. The existence of this more massive particle would give validity to the theory that the carrier particles are identical under certain circumstances.</para>",
       "proposed_xml": null,
       "edits": [],
@@ -935,7 +936,8 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "revision_note": "Author questioned the scope of confirmed obsolete. Narrowed the finding explicitly to discovery status and withdrew the recommendation that a broad paragraph replacement is necessarily required. No textbook change applied."
     },
     {
       "id": "FC27",

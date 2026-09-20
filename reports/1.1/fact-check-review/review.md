@@ -299,7 +299,7 @@ There was preliminary evidence in 1953, so a bare date substitution would lose a
 
 ## FC25 — IKAROS: use a dated mission account
 
-Production and Properties of Electromagnetic Waves · proposed-not-applied
+Production and Properties of Electromagnetic Waves · approved-pending-application
 
 Use a dated IKAROS account and retain its figure reference, then add the 2019 LightSail 2 demonstration of controlled orbital changes using sunlight pressure. JAXA reports IKAROS data reception in April–May 2015. Avoid calling the 2010 mission the latest accomplishment or implying current contact.
 
@@ -313,11 +313,11 @@ Use a dated IKAROS account and retain its figure reference, then add the 2019 Li
 - [NASA: ACS3 mission](https://www.nasa.gov/mission/acs3/)
 - [NASA: NanoSail-D orbital and attitude dynamics](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20140000644.pdf)
 
-## FC26 — Higgs discovery and the surrounding unification explanation
+## FC26 — Higgs discovery status and separate wording qualifications
 
 GUTs: The Unification of Forces · proposed-not-applied
 
-Confirmed obsolete: possible discovery “during 2012.” A sentence-only fix would leave claims that energetic W/Z particles become massless and that discovery proves identical carrier particles. Recommend a short author-reviewed replacement of the latter part; the nearby GUT definition also incorrectly includes gravity. This deserves a linked paragraph/figure review, not silent restructuring.
+The confirmed outdated claim is specifically the anticipation of a possible Higgs discovery during 2012, not the electroweak symmetry-breaking framework or the paragraph as a whole. The discovery confirmed a central prediction of the Higgs mechanism. Preserve the existing explanation wherever possible and update the discovery-status/concluding sentences. Any clarification of the massless-carrier wording should be considered separately, distinguishing high-energy approximations from symmetry restoration. The nearby GUT/gravity terminology issue is also separate; it is not a reason to replace this entire paragraph.
 
 **Current:** How can forces be unified? They are definitely distinct under most circumstances, for example, being carried by different particles and having greatly different strengths. But experiments show that at extremely small distances, the strengths of the forces begin to become more similar. In fact, electroweak theory’s prediction of the W + , W - , and Z0 carrier particles was based on the strengths of the two forces being identical at extremely small distances as seen in . As discussed in case of the creation of virtual particles for extremely short times, the small distances or short ranges correspond to the large masses of the carrier particles and the correspondingly large energies needed to create them. Thus, the energy scale on the horizontal axis of corresponds to smaller and smaller distances, with 100 GeV corresponding to approximately, 10 - 18 m for example. At that distance, the strengths of the EM and weak forces are the same. To test physics at that distance, energies of about 100 GeV must be put into the system, and that is sufficient to create and release the W + , W - , and Z0 carrier particles. At those and higher energies, the masses of the carrier particles becomes less and less relevant, and the Z0 in particular resembles the massless, chargeless, spin 1 photon. In fact, there is enough energy when things are pushed to even smaller distances to transform the, and Z0 into massless carrier particles more similar to photons and gluons. These have not been observed experimentally, but there is a prediction of an associated particle called the Higgs boson. The mass of this particle is not predicted with nearly the certainty with which the mass of the W+,W−, and Z0 particles were predicted, but it was hoped that the Higgs boson could be observed at the now-canceled Superconducting Super Collider (SSC). Ongoing experiments at the Large Hadron Collider at CERN have presented some evidence for a Higgs boson with a mass of 125 GeV, and there is a possibility of a direct discovery during 2012. The existence of this more massive particle would give validity to the theory that the carrier particles are identical under certain circumstances.
 
