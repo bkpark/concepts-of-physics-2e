@@ -315,7 +315,7 @@ Use a dated IKAROS account and retain its figure reference, then add the 2019 Li
 
 ## FC26 — Higgs discovery status and separate wording qualifications
 
-GUTs: The Unification of Forces · proposed-not-applied
+GUTs: The Unification of Forces · approved-pending-application
 
 The discovery-status sentences anticipate a possible Higgs discovery during 2012; the discovery confirmed a central prediction of the Higgs mechanism. Separately, the claim that higher collision energies transform W and Z bosons into massless particles conflates a high-energy approximation with electroweak symmetry restoration. The latter concerns a changed Higgs background, as in the hot early universe, not simply increasing an individual particle's energy. The proposal replaces this misleading explanation and its dependent transition to the Higgs boson, retaining the rest of the paragraph. Earlier equal-force-strength claims and nearby GUT/gravity terminology remain separate review issues.
 
@@ -328,16 +328,20 @@ The discovery-status sentences anticipate a possible Higgs discovery during 2012
 - [ATLAS: vector boson scattering, Higgs mechanism, and electroweak symmetry breaking](https://atlas-public.web.cern.ch/updates/feature/vector-boson-scattering)
 - [CMS: W boson mass measured in high-energy proton collisions](https://cms-results.web.cern.ch/cms-results/public-results/publications/SMP-23-002/)
 
-## FC27 — Fusion ignition and break-even are no longer unachieved
+## FC27 — Fusion ignition, target gain, and practical energy production
 
 Fusion · proposed-not-applied
 
-NIF achieved target gain in December 2022 (3.15 MJ fusion from 2.05 MJ delivered laser energy). That is not whole-facility net energy or electricity production. The ITER paragraph and caption still promise completion in 2018; remove that date and distinguish its 500 MW fusion target from electricity. Review these connected paragraphs together.
+NIF achieved ignition and exceeded break-even relative to laser energy delivered to the target in December 2022, with further gains demonstrated in April 2025. This is not net energy for the facility or electricity production. Retain the opening explanation of temperature, density, and confinement time; qualify ignition so it does not imply an indefinitely sustained reaction, identify the energy accounting boundary, and remove the speculative commercial timetable. The adjacent ITER paragraph and caption still need their separate coordinated update: remove the obsolete 2018 completion promise and distinguish the 500 MW fusion goal from electricity production.
 
 **Current:** The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. Ignition is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called break-even, occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.
 
+**Proposed:** The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. Ignition occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called break-even, occurs when the fusion power produced equals the heating power input; for a pulsed experiment, the corresponding comparison is between energies. In December 2022, the National Ignition Facility at Lawrence Livermore National Laboratory achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development.
+
 - [LLNL: fusion ignition](https://www.llnl.gov/article/49306/lawrence-livermore-national-laboratory-achieves-fusion-ignition)
 - [ITER: goals and plasma power balance](https://www.iter.org/few-lines)
+- [LLNL: repeated ignition experiments and April 2025 energy gain](https://lasers.llnl.gov/science/achieving-fusion-ignition)
+- [LLNL: energy security and whole-facility energy balance](https://lasers.llnl.gov/science/energy-security)
 
 ## FC28 — Radiation dose limits: replace the mixed regulatory claims
 

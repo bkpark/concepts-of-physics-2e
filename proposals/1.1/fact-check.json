@@ -910,7 +910,7 @@
     {
       "id": "FC26",
       "category": "author-discussion",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m42680",
       "section_title": "GUTs: The Unification of Forces",
       "slug": "guts-the-unification-of-forces",
@@ -958,7 +958,8 @@
           "use": "factual verification only; no source prose or media imported"
         }
       ],
-      "revision_note": "The author finds the Higgs discovery update acceptable but questioned the massless-carrier claim. This revised proposal replaces the three sentences from “At those and higher energies” through the introduction of the Higgs boson with a qualified high-energy approximation and a direct transition. Discovery sentences remain as previously proposed. Full paragraph shown for review; no textbook edits applied, and FC26 remains pending review."
+      "revision_note": "The author finds the Higgs discovery update acceptable but questioned the massless-carrier claim. This revised proposal replaces the three sentences from “At those and higher energies” through the introduction of the Higgs boson with a qualified high-energy approximation and a direct transition. Discovery sentences remain as previously proposed. Full paragraph shown for review; no textbook edits applied, and FC26 remains pending review.",
+      "authorization": "Author approved the revised FC26 paragraph, including the high-energy mass approximation and Higgs discovery update; pending the application batch."
     },
     {
       "id": "FC27",
@@ -971,11 +972,16 @@
       "anchor": "import-auto-id2446715",
       "source_path": "maintained/modules/m52480/index.cnxml",
       "source_sha256": "5f69d345f7d9a1af551326324c3574dd8f6bc909747c1db1514bc1d0b38e20c4",
-      "title": "Fusion ignition and break-even are no longer unachieved",
-      "reason": "NIF achieved target gain in December 2022 (3.15 MJ fusion from 2.05 MJ delivered laser energy). That is not whole-facility net energy or electricity production. The ITER paragraph and caption still promise completion in 2018; remove that date and distinguish its 500 MW fusion target from electricity. Review these connected paragraphs together.",
+      "title": "Fusion ignition, target gain, and practical energy production",
+      "reason": "NIF achieved ignition and exceeded break-even relative to laser energy delivered to the target in December 2022, with further gains demonstrated in April 2025. This is not net energy for the facility or electricity production. Retain the opening explanation of temperature, density, and confinement time; qualify ignition so it does not imply an indefinitely sustained reaction, identify the energy accounting boundary, and remove the speculative commercial timetable. The adjacent ITER paragraph and caption still need their separate coordinated update: remove the obsolete 2018 completion promise and distinguish the 500 MW fusion goal from electricity production.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2446715\">The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. <term id=\"import-auto-id953457\">Ignition</term> is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.</para>",
-      "proposed_xml": null,
-      "edits": [],
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2446715\">The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. <term id=\"import-auto-id953457\">Ignition</term> occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input; for a pulsed experiment, the corresponding comparison is between energies. In December 2022, the National Ignition Facility at Lawrence Livermore National Laboratory achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development.</para>",
+      "edits": [
+        {
+          "before": "<term id=\"import-auto-id953457\">Ignition</term> is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.",
+          "after": "<term id=\"import-auto-id953457\">Ignition</term> occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input; for a pulsed experiment, the corresponding comparison is between energies. In December 2022, the National Ignition Facility at Lawrence Livermore National Laboratory achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development."
+        }
+      ],
       "sources": [
         {
           "title": "LLNL: fusion ignition",
@@ -988,8 +994,21 @@
           "url": "https://www.iter.org/few-lines",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "LLNL: repeated ignition experiments and April 2025 energy gain",
+          "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "LLNL: energy security and whole-facility energy balance",
+          "url": "https://lasers.llnl.gov/science/energy-security",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "revision_note": "At author request, show the updated ignition/break-even paragraph in context for review. The opening two sentences and both term identifiers are preserved. This proposal is not yet approved or applied. The adjacent ITER paragraph and caption remain pending a separate draft within FC27; approving this paragraph must not silently approve those undrafted changes."
     },
     {
       "id": "FC28",
