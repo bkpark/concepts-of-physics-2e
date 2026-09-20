@@ -1,0 +1,17 @@
+{
+  "id": "U3-58",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m67132",
+  "source_object": "import-auto-id1169737813356",
+  "source_path": "maintained/modules/m67132/index.cnxml",
+  "source_sha256": "af7ac8c6a536aa722dded51c7e6de173039cfc1b00d1850a8dcb1b73cc402667",
+  "after_sha256": "72e5a5c05675d1279a4b81a9cee6a4563afebff9b7913937641a39964242c6d0",
+  "before": "<para id=\"import-auto-id1169737813356\">In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in <link target-id=\"import-auto-id1169737771189\"/>. Note that the vast majority of the different types of electromagnetic waves originate from  atomic and/or molecular electron transitions—that is, from electrons changing their energy levels within atoms or molecules. \t</para>",
+  "after": "<para id=\"import-auto-id1169737813356\">In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in <link target-id=\"import-auto-id1169737771189\"/>. Note that atomic and/or molecular electron transitions—that is, electrons changing their energy levels within atoms or molecules—are among the production mechanisms for a majority of the types of electromagnetic waves listed in the table, from infrared through X-rays. \t</para>",
+  "reason": "U3-H06: preserve the author electron-transition explanation, explicitly limiting the majority claim to categories in the table (infrared through X-rays).",
+  "authorization": "Author approved this exact wording and completed a quick review of the remaining Unit 3 changes.",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "upstream_license": "CC-BY-4.0",
+  "basis": "Author-approved adaptation prompted by upstream deletion; not a verbatim upstream backport."
+}

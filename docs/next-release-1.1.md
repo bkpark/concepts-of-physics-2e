@@ -33,7 +33,7 @@ After the upstream backport and exercise work, reconsider the public “Copy sel
 
 ## Unit 3 review packet
 
-The requested Unit 3 batch is ready: 49 sections compared, 50 scoped correction records applied, and six items held for author review. See http://127.0.0.1:8765/review-1.1/unit3-review/ and `proposals/1.1/unit3-holds.json`. Retain published 1.0. Resolve these holds before declaring the full backport complete; remaining units and final release PDF checks are still outstanding.
+The requested Unit 3 batch is ready: 49 sections compared, 58 scoped correction records applied, all author-review holds resolved or explicitly deferred. See http://127.0.0.1:8765/review-1.1/unit3-review/ and `proposals/1.1/unit3-holds.json`. Retain published 1.0. Remaining units and final release PDF checks are still outstanding; Unit 3 review does not certify the whole book.
 
 
 ### Unit 3 author decisions (September 19, 2026)
@@ -43,6 +43,11 @@ The requested Unit 3 batch is ready: 49 sections compared, 50 scoped correction 
 - H03 figure applied from the pinned CC BY archive, with the 2020 caption, NASA credit and corrected color-scale alternative text. Paragraph also applied with author-approved limited factual adjustments: omit the undated country ranking and replace the incorrect 2020 record claim with “large and long-lasting.”
 - H04 prose applied with the author-approved limited qualification: studies have not established that power-line fields cause cancer, rather than upstream’s blanket absence-of-risk statement.
 - H05 upstream generator arrows applied, with synchronized alternative text.
-- H06 unchanged pending discussion; preserve the electron-transition explanation with a narrower claim rather than deleting it wholesale.
+- H06 applied: retain the electron-transition explanation and tie the majority claim explicitly to table categories, infrared through X-rays. Author completed a quick review of the remaining Unit 3 changes; no Unit 3 backport holds remain. H02 stays deferred to exercise revision.
 
 Evidence for approved H03/H04 qualifications: [NASA 2020 ozone map and account](https://science.nasa.gov/earth/climate-change/ozone-layer/large-deep-antarctic-ozone-hole-in-2020-147465/), [NCI electromagnetic fields fact sheet](https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/electromagnetic-fields-fact-sheet). These sources support factual checking; prose backports and figure bytes come from the recorded CC BY snapshot.
+
+
+## Between 1.1 and 1.2: author read-through
+
+The author plans a careful full-text read-through after 1.1, to catch issues missed during the current quick review and identify explanations or pedagogical choices they now wish to revise. Record findings for a broader author-led 1.2 revision; this is not an additional prerequisite for releasing 1.1.
