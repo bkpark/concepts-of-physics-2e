@@ -1390,19 +1390,46 @@
       "anchor": "import-auto-id1525320",
       "source_path": "maintained/modules/m71586/index.cnxml",
       "source_sha256": "b4007c16f3b8bbe969934a7413327b3cb5d8d188089a76f2310b03f8a6fae7d4",
-      "title": "Tacoma Narrows: flutter is not elementary forced resonance",
-      "reason": "The paragraph and figure caption present the collapse as a standard forced-resonance example. WSDOT identifies aerodynamic instability and torsional flutter. Retain the image if wanted, but change both caption and paragraph, and do not say the Millennium Bridge closed for the same mechanism without a separate explanation.",
+      "title": "Keep the bridges as examples of damaging oscillations",
+      "reason": "Propose retaining both bridge references and the existing Tacoma photograph, without teaching wind dynamics or torsional flutter. Introduce them as examples of large, damaging oscillations and explicitly distinguish them from the simple forced-resonance examples above. The Millennium Bridge sentence connects its remedial work to damping, which the section already teaches. Shorten the Tacoma caption to the supported event and motion, retaining the credit and figure identity. This is an alternative for author review, not an applied edit.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1525320\">These features of driven harmonic oscillators apply to a huge variety of systems. When you tune a radio, for example, you are adjusting its resonant frequency so that it only oscillates to the desired station’s broadcast (driving) frequency. The more selective the radio is in discriminating between stations, the smaller its damping. Magnetic resonance imaging (MRI) is a widely used medical diagnostic tool in which atomic nuclei (mostly hydrogen nuclei) are made to resonate by incoming radio waves (on the order of 100 MHz). A child on a swing is driven by a parent at the swing’s natural frequency to achieve maximum amplitude. In all of these cases, the efficiency of energy transfer from the driving force into the oscillator is best at resonance. Speed bumps and gravel roads prove that even a car’s suspension system is not immune to resonance. In spite of finely engineered shock absorbers, which ordinarily convert mechanical energy to thermal energy almost as fast as it comes in, speed bumps still cause a large-amplitude oscillation. On gravel roads that are corrugated, you may have noticed that if you travel at the “wrong” speed, the bumps are very noticeable whereas at other speeds you may hardly feel the bumps at all. <link target-id=\"import-auto-id1908149\" /> shows a photograph of a famous example (the Tacoma Narrows Bridge) of the destructive effects of a driven harmonic oscillation. The Millennium Bridge in London was closed for a short period of time for the same reason while inspections were carried out.</para>",
-      "proposed_xml": null,
-      "edits": [],
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1525320\">These features of driven harmonic oscillators apply to a huge variety of systems. When you tune a radio, for example, you are adjusting its resonant frequency so that it only oscillates to the desired station’s broadcast (driving) frequency. The more selective the radio is in discriminating between stations, the smaller its damping. Magnetic resonance imaging (MRI) is a widely used medical diagnostic tool in which atomic nuclei (mostly hydrogen nuclei) are made to resonate by incoming radio waves (on the order of 100 MHz). A child on a swing is driven by a parent at the swing’s natural frequency to achieve maximum amplitude. In all of these cases, the efficiency of energy transfer from the driving force into the oscillator is best at resonance. Speed bumps and gravel roads prove that even a car’s suspension system is not immune to resonance. In spite of finely engineered shock absorbers, which ordinarily convert mechanical energy to thermal energy almost as fast as it comes in, speed bumps still cause a large-amplitude oscillation. On gravel roads that are corrugated, you may have noticed that if you travel at the “wrong” speed, the bumps are very noticeable whereas at other speeds you may hardly feel the bumps at all. Large oscillations can also damage bridges. <link target-id=\"import-auto-id1908149\" /> shows the Tacoma Narrows Bridge, which collapsed in 1940 after wind caused growing oscillations. The Millennium Bridge in London was closed after pedestrians caused excessive swaying and reopened after additional damping was installed. These bridge motions involved more complicated mechanisms than the simple forced resonance described above.</para>",
+      "edits": [
+        {
+          "before": "<link target-id=\"import-auto-id1908149\" /> shows a photograph of a famous example (the Tacoma Narrows Bridge) of the destructive effects of a driven harmonic oscillation. The Millennium Bridge in London was closed for a short period of time for the same reason while inspections were carried out.",
+          "after": "Large oscillations can also damage bridges. <link target-id=\"import-auto-id1908149\" /> shows the Tacoma Narrows Bridge, which collapsed in 1940 after wind caused growing oscillations. The Millennium Bridge in London was closed after pedestrians caused excessive swaying and reopened after additional damping was installed. These bridge motions involved more complicated mechanisms than the simple forced resonance described above."
+        }
+      ],
       "sources": [
         {
           "title": "WSDOT: lessons from failure",
           "url": "https://www.wsdot.wa.gov/TNBhistory/bridges-failure.htm",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "Arup Journal 2008 issue 3: Millennium Bridge remedial damping",
+          "url": "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-2008-issue-3.pdf",
+          "checked": "2026-09-20",
+          "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "related_passages": [
+        {
+          "title": "Tacoma Narrows figure caption",
+          "source_id": null,
+          "anchor": "import-auto-id1908149",
+          "before_xml": "<caption xmlns=\"http://cnx.rice.edu/cnxml\">In 1940, the Tacoma Narrows Bridge in Washington state collapsed. Heavy cross winds drove the bridge into oscillations at its resonant frequency. Damping decreased when support cables broke loose and started to slip over the towers, allowing increasingly greater amplitudes until the structure failed (credit: PRI's <emphasis effect=\"italics\">Studio 360</emphasis>, via Flickr)</caption>",
+          "proposed_xml": "<caption xmlns=\"http://cnx.rice.edu/cnxml\">In 1940, the Tacoma Narrows Bridge in Washington state collapsed after wind caused growing twisting oscillations. (credit: PRI's <emphasis effect=\"italics\">Studio 360</emphasis>, via Flickr)</caption>",
+          "edits": [
+            {
+              "before": "In 1940, the Tacoma Narrows Bridge in Washington state collapsed. Heavy cross winds drove the bridge into oscillations at its resonant frequency. Damping decreased when support cables broke loose and started to slip over the towers, allowing increasingly greater amplitudes until the structure failed",
+              "after": "In 1940, the Tacoma Narrows Bridge in Washington state collapsed after wind caused growing twisting oscillations."
+            }
+          ]
+        }
+      ],
+      "revision_note": "Author requested a less destructive alternative to deleting both bridge references and the photo. Only the two closing bridge sentences and the caption are replaced. Existing image, alt text, identifiers, earlier paragraph examples, and surrounding paragraphs remain unchanged; their unchanged claims are not certified by this narrow proposal."
     },
     {
       "id": "FC32",
