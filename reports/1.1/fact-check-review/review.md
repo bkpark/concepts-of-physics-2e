@@ -465,18 +465,43 @@ Connect the bridge discussion to the preceding shock-absorber example through da
 - [WSDOT: lessons from failure](https://www.wsdot.wa.gov/TNBhistory/bridges-failure.htm)
 - [Arup Journal 2008 issue 3: Millennium Bridge remedial damping](https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-2008-issue-3.pdf)
 
-## FC32 — Nuclear-history paragraph and nearby claims
+## FC32 — Manhattan Project background, plutonium development, and Trinity
 
 Nuclear Weapons · proposed-not-applied
 
-Besides Seaborg’s award: Oppenheimer directed Los Alamos rather than the entire Manhattan Project; all Chernobyl reactors ceased operation by December 2000. Nearby Trinity yield is about 10 kt, whereas DOE accounts give about 19–21 kt, and its conventional-bomb comparison would also need adjustment. The later high-energy-neutrons/239Pu sentence is physically suspect and the weapons inventory/treaty discussion is undated. Recommend removing or dating nonessential statistics and reviewing the nuclear claims together; do not replace this with an expanded weapons description.
+Review four connected paragraphs together. Correct project leadership and the chain-reaction milestone; replace the irrelevant, outdated Chernobyl aside with Hanford's wartime role. The main preview also includes approved FC07 (Seaborg's chemistry Nobel), applied only once in the eventual batch. Replace the uranium/plutonium comparison and detailed design prose with a shorter historical explanation of the unexpected plutonium problem and the resulting development challenge. Preserve figure references and IDs. Update Trinity's yield to about 25 kt using the 2021 reassessment (24.8 ± 2 kt), superseding the initial audit's older 19–21 kt sources, and remove the unstable comparison to the largest conventional bombs. Later claims about the end of the war, thermonuclear weapons, inventories, and treaties remain separate unresolved review work.
 
 **Current:** It was not until December 6, 1941, the day before the Japanese attack on Pearl Harbor, that the United States made a massive commitment to building a nuclear bomb. The top secret Manhattan Project was a crash program aimed at beating the Germans. It was carried out in remote locations, such as Los Alamos, New Mexico, whenever possible, and eventually came to cost billions of dollars and employ the efforts of more than 100,000 people. J. Robert Oppenheimer (1904–1967), whose talent and ambitions made him ideal, was chosen to head the project. The first major step was made by Enrico Fermi and his group in December 1942, when they achieved the first self-sustained nuclear reactor. This first “atomic pile”, built in a squash court at the University of Chicago, used carbon blocks to thermalize neutrons. It not only proved that the chain reaction was possible, it began the era of nuclear reactors. Glenn Seaborg, an American chemist and physicist, received the Nobel Prize in physics in 1951 for discovery of several transuranic elements, including plutonium. Carbon-moderated reactors are relatively inexpensive and simple in design and are still used for breeding plutonium, such as at Chernobyl, where two such reactors remain in operation.
+
+**Proposed:** In 1942, the United States organized the Manhattan Project to build a nuclear bomb. The top secret Manhattan Project was a crash program aimed at beating the Germans. It was carried out in remote locations, such as Los Alamos, New Mexico, whenever possible, and eventually came to cost billions of dollars and employ the efforts of more than 100,000 people. General Leslie Groves headed the project. J. Robert Oppenheimer (1904–1967) was chosen to direct its Los Alamos laboratory. A major step was made by Enrico Fermi and his group on December 2, 1942, when they achieved the first controlled, self-sustaining nuclear chain reaction. This first “atomic pile”, built in a squash court at the University of Chicago, used carbon blocks to thermalize neutrons. It not only proved that the chain reaction was possible, it began the era of nuclear reactors. Glenn Seaborg, an American chemist and physicist, received the Nobel Prize in chemistry in 1951 for discovery of several transuranic elements, including plutonium. Reactors at Hanford, Washington, began producing plutonium for the project in 1944.
+
+### Uranium and plutonium development
+
+**Current:** Plutonium was recognized as easier to fission with neutrons and, hence, a superior fission material very early in the Manhattan Project. Plutonium availability was uncertain, and so a uranium bomb was developed simultaneously. shows a gun-type bomb, which takes two subcritical uranium masses and blows them together. To get an appreciable yield, the critical mass must be held together by the explosive charges inside the cannon barrel for a few microseconds. Since the buildup of the uranium chain reaction is relatively slow, the device to hold the critical mass together can be relatively simple. Owing to the fact that the rate of spontaneous fission is low, a neutron source is triggered at the same time the critical mass is assembled.
+
+**Proposed:** Uranium and plutonium bombs were developed simultaneously during the Manhattan Project. Both materials could sustain a fission chain reaction, but their production and behavior presented different challenges. shows the gun-type approach used for the uranium bomb. Scientists were sufficiently confident in this approach that it was not tested in a nuclear explosion before use.
+
+### Why the plutonium approach was more difficult
+
+**Current:** Plutonium’s special properties necessitated a more sophisticated critical mass assembly, shown schematically in . A spherical mass of plutonium is surrounded by shape charges (high explosives that release most of their blast in one direction) that implode the plutonium, crushing it into a smaller volume to form a critical mass. The implosion technique is faster and more effective, because it compresses three-dimensionally rather than one-dimensionally as in the gun-type bomb. Again, a neutron source must be triggered at just the correct time to initiate the chain reaction.
+
+**Proposed:** In 1944, studies of reactor-produced plutonium showed that its spontaneous fission made the planned gun-type approach unsuitable. This unexpected finding forced a major change in the work at Los Alamos. The plutonium bomb used the more complex implosion approach, shown schematically in . Developing and establishing confidence in this unfamiliar approach became a major challenge for the project.
+
+### Trinity and the yield estimate
+
+**Current:** Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted in the isolated Alamogordo Desert about 200 miles south of Los Alamos (see ). A new age had begun. The yield of this device was about 10 kilotons (kT), the equivalent of 5000 of the largest conventional bombs.
+
+**Proposed:** Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted on the Alamogordo Bombing Range about 200 miles south of Los Alamos (see ). A new age had begun. The yield of this device was about 25 kilotons (kT) of TNT equivalent, according to a 2021 reassessment.
 
 - [IAEA PRIS: Ukraine reactor status](https://www-pub.iaea.org/MTCD/Publications/PDF/CNPP-2021/countryprofiles/Ukraine/Ukraine_tables.htm)
 - [DOE: Trinity anniversary, Los Alamos director](https://www.energy.gov/nnsa/articles/commemorating-75-years-trinity-test-introduced-atomic-age)
 - [DOE: Trinity site](https://www.energy.gov/lm/trinity-site-worlds-first-nuclear-explosion)
 - [DOE: atmospheric testing history](https://www.energy.gov/management/articles/fehner-and-gosling-atmospheric-nuclear-weapons-testing-1951-1963-battlefield)
+- [NPS: Manhattan Project leadership and chronology](https://www.nps.gov/articles/000/the-life-of-j-robert-oppenheimer-the-manhattan-project-years-1941-to-1946.htm)
+- [NPS: plutonium-development history and the Trinity test](https://home.nps.gov/articles/000/the-gadget.htm)
+- [NPS: Chicago and the first controlled chain reaction](https://home.nps.gov/articles/000/chicago-during-the-manhattan-project.htm)
+- [Selby et al. (2021): revised Trinity yield, 24.8 ± 2 kt](https://arxiv.org/abs/2103.06258)
+- [DOE: uranium bomb used without a prior nuclear test](https://www.energy.gov/sites/prod/files/edg/media/The_Manhattan_Project_2010.pdf)
 
 ## FC33 — Dental shielding figure: historical illustration versus current recommendation
 

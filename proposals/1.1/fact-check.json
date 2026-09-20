@@ -1447,11 +1447,28 @@
       "anchor": "import-auto-id3135188",
       "source_path": "maintained/modules/m42665/index.cnxml",
       "source_sha256": "33ccec5dddd43563adba2e3a1e2ea0d56e9e7b6e21aebc38d9a264cffeb2db45",
-      "title": "Nuclear-history paragraph and nearby claims",
-      "reason": "Besides Seaborg’s award: Oppenheimer directed Los Alamos rather than the entire Manhattan Project; all Chernobyl reactors ceased operation by December 2000. Nearby Trinity yield is about 10 kt, whereas DOE accounts give about 19–21 kt, and its conventional-bomb comparison would also need adjustment. The later high-energy-neutrons/239Pu sentence is physically suspect and the weapons inventory/treaty discussion is undated. Recommend removing or dating nonessential statistics and reviewing the nuclear claims together; do not replace this with an expanded weapons description.",
+      "title": "Manhattan Project background, plutonium development, and Trinity",
+      "reason": "Review four connected paragraphs together. Correct project leadership and the chain-reaction milestone; replace the irrelevant, outdated Chernobyl aside with Hanford's wartime role. The main preview also includes approved FC07 (Seaborg's chemistry Nobel), applied only once in the eventual batch. Replace the uranium/plutonium comparison and detailed design prose with a shorter historical explanation of the unexpected plutonium problem and the resulting development challenge. Preserve figure references and IDs. Update Trinity's yield to about 25 kt using the 2021 reassessment (24.8 ± 2 kt), superseding the initial audit's older 19–21 kt sources, and remove the unstable comparison to the largest conventional bombs. Later claims about the end of the war, thermonuclear weapons, inventories, and treaties remain separate unresolved review work.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3135188\">It was not until December 6, 1941, the day before the Japanese attack on Pearl Harbor, that the United States made a massive commitment to building a nuclear bomb. The top secret Manhattan Project was a crash program aimed at beating the Germans. It was carried out in remote locations, such as Los Alamos, New Mexico, whenever possible, and eventually came to cost billions of dollars and employ the efforts of more than 100,000 people. J. Robert Oppenheimer (1904–1967), whose talent and ambitions made him ideal, was chosen to head the project. The first major step was made by Enrico Fermi and his group in December 1942, when they achieved the first self-sustained nuclear reactor. This first “atomic pile”, built in a squash court at the University of Chicago, used carbon blocks to thermalize neutrons. It not only proved that the chain reaction was possible, it began the era of nuclear reactors. Glenn Seaborg, an American chemist and physicist, received the Nobel Prize in physics in 1951 for discovery of several transuranic elements, including plutonium. Carbon-moderated reactors are relatively inexpensive and simple in design and are still used for breeding plutonium, such as at Chernobyl, where two such reactors remain in operation.</para>",
-      "proposed_xml": null,
-      "edits": [],
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3135188\">In 1942, the United States organized the Manhattan Project to build a nuclear bomb. The top secret Manhattan Project was a crash program aimed at beating the Germans. It was carried out in remote locations, such as Los Alamos, New Mexico, whenever possible, and eventually came to cost billions of dollars and employ the efforts of more than 100,000 people. General Leslie Groves headed the project. J. Robert Oppenheimer (1904–1967) was chosen to direct its Los Alamos laboratory. A major step was made by Enrico Fermi and his group on December 2, 1942, when they achieved the first controlled, self-sustaining nuclear chain reaction. This first “atomic pile”, built in a squash court at the University of Chicago, used carbon blocks to thermalize neutrons. It not only proved that the chain reaction was possible, it began the era of nuclear reactors. Glenn Seaborg, an American chemist and physicist, received the Nobel Prize in physics in 1951 for discovery of several transuranic elements, including plutonium. Reactors at Hanford, Washington, began producing plutonium for the project in 1944.</para>",
+      "edits": [
+        {
+          "before": "It was not until December 6, 1941, the day before the Japanese attack on Pearl Harbor, that the United States made a massive commitment to building a nuclear bomb.",
+          "after": "In 1942, the United States organized the Manhattan Project to build a nuclear bomb."
+        },
+        {
+          "before": "J. Robert Oppenheimer (1904–1967), whose talent and ambitions made him ideal, was chosen to head the project.",
+          "after": "General Leslie Groves headed the project. J. Robert Oppenheimer (1904–1967) was chosen to direct its Los Alamos laboratory."
+        },
+        {
+          "before": "The first major step was made by Enrico Fermi and his group in December 1942, when they achieved the first self-sustained nuclear reactor.",
+          "after": "A major step was made by Enrico Fermi and his group on December 2, 1942, when they achieved the first controlled, self-sustaining nuclear chain reaction."
+        },
+        {
+          "before": "Carbon-moderated reactors are relatively inexpensive and simple in design and are still used for breeding plutonium, such as at Chernobyl, where two such reactors remain in operation.",
+          "after": "Reactors at Hanford, Washington, began producing plutonium for the project in 1944."
+        }
+      ],
       "sources": [
         {
           "title": "IAEA PRIS: Ukraine reactor status",
@@ -1476,8 +1493,84 @@
           "url": "https://www.energy.gov/management/articles/fehner-and-gosling-atmospheric-nuclear-weapons-testing-1951-1963-battlefield",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NPS: Manhattan Project leadership and chronology",
+          "url": "https://www.nps.gov/articles/000/the-life-of-j-robert-oppenheimer-the-manhattan-project-years-1941-to-1946.htm",
+          "checked": "2026-09-20",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NPS: plutonium-development history and the Trinity test",
+          "url": "https://home.nps.gov/articles/000/the-gadget.htm",
+          "checked": "2026-09-20",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NPS: Chicago and the first controlled chain reaction",
+          "url": "https://home.nps.gov/articles/000/chicago-during-the-manhattan-project.htm",
+          "checked": "2026-09-20",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "Selby et al. (2021): revised Trinity yield, 24.8 ± 2 kt",
+          "url": "https://arxiv.org/abs/2103.06258",
+          "checked": "2026-09-20",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "DOE: uranium bomb used without a prior nuclear test",
+          "url": "https://www.energy.gov/sites/prod/files/edg/media/The_Manhattan_Project_2010.pdf",
+          "checked": "2026-09-20",
+          "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "preview_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3135188\">In 1942, the United States organized the Manhattan Project to build a nuclear bomb. The top secret Manhattan Project was a crash program aimed at beating the Germans. It was carried out in remote locations, such as Los Alamos, New Mexico, whenever possible, and eventually came to cost billions of dollars and employ the efforts of more than 100,000 people. General Leslie Groves headed the project. J. Robert Oppenheimer (1904–1967) was chosen to direct its Los Alamos laboratory. A major step was made by Enrico Fermi and his group on December 2, 1942, when they achieved the first controlled, self-sustaining nuclear chain reaction. This first “atomic pile”, built in a squash court at the University of Chicago, used carbon blocks to thermalize neutrons. It not only proved that the chain reaction was possible, it began the era of nuclear reactors. Glenn Seaborg, an American chemist and physicist, received the Nobel Prize in chemistry in 1951 for discovery of several transuranic elements, including plutonium. Reactors at Hanford, Washington, began producing plutonium for the project in 1944.</para>",
+      "preview_includes": [
+        "FC07"
+      ],
+      "related_passages": [
+        {
+          "title": "Uranium and plutonium development",
+          "source_id": "import-auto-id3300053",
+          "anchor": "import-auto-id3300053",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3300053\">Plutonium was recognized as easier to fission with neutrons and, hence, a superior fission material very early in the Manhattan Project. Plutonium availability was uncertain, and so a uranium bomb was developed simultaneously. <link target-id=\"import-auto-id1376526\" /> shows a gun-type bomb, which takes two subcritical uranium masses and blows them together. To get an appreciable yield, the critical mass must be held together by the explosive charges inside the cannon barrel for a few microseconds. Since the buildup of the uranium chain reaction is relatively slow, the device to hold the critical mass together can be relatively simple. Owing to the fact that the rate of spontaneous fission is low, a neutron source is triggered at the same time the critical mass is assembled.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3300053\">Uranium and plutonium bombs were developed simultaneously during the Manhattan Project. Both materials could sustain a fission chain reaction, but their production and behavior presented different challenges. <link target-id=\"import-auto-id1376526\" /> shows the gun-type approach used for the uranium bomb. Scientists were sufficiently confident in this approach that it was not tested in a nuclear explosion before use.</para>",
+          "edits": [
+            {
+              "before": "Plutonium was recognized as easier to fission with neutrons and, hence, a superior fission material very early in the Manhattan Project. Plutonium availability was uncertain, and so a uranium bomb was developed simultaneously. <link target-id=\"import-auto-id1376526\" /> shows a gun-type bomb, which takes two subcritical uranium masses and blows them together. To get an appreciable yield, the critical mass must be held together by the explosive charges inside the cannon barrel for a few microseconds. Since the buildup of the uranium chain reaction is relatively slow, the device to hold the critical mass together can be relatively simple. Owing to the fact that the rate of spontaneous fission is low, a neutron source is triggered at the same time the critical mass is assembled.",
+              "after": "Uranium and plutonium bombs were developed simultaneously during the Manhattan Project. Both materials could sustain a fission chain reaction, but their production and behavior presented different challenges. <link target-id=\"import-auto-id1376526\" /> shows the gun-type approach used for the uranium bomb. Scientists were sufficiently confident in this approach that it was not tested in a nuclear explosion before use."
+            }
+          ]
+        },
+        {
+          "title": "Why the plutonium approach was more difficult",
+          "source_id": "import-auto-id3079094",
+          "anchor": "import-auto-id3079094",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3079094\">Plutonium’s special properties necessitated a more sophisticated critical mass assembly, shown schematically in <link target-id=\"import-auto-id2674248\" />. A spherical mass of plutonium is surrounded by shape charges (high explosives that release most of their blast in one direction) that implode the plutonium, crushing it into a smaller volume to form a critical mass. The implosion technique is faster and more effective, because it compresses three-dimensionally rather than one-dimensionally as in the gun-type bomb. Again, a neutron source must be triggered at just the correct time to initiate the chain reaction.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3079094\">In 1944, studies of reactor-produced plutonium showed that its spontaneous fission made the planned gun-type approach unsuitable. This unexpected finding forced a major change in the work at Los Alamos. The plutonium bomb used the more complex implosion approach, shown schematically in <link target-id=\"import-auto-id2674248\" />. Developing and establishing confidence in this unfamiliar approach became a major challenge for the project.</para>",
+          "edits": [
+            {
+              "before": "Plutonium’s special properties necessitated a more sophisticated critical mass assembly, shown schematically in <link target-id=\"import-auto-id2674248\" />. A spherical mass of plutonium is surrounded by shape charges (high explosives that release most of their blast in one direction) that implode the plutonium, crushing it into a smaller volume to form a critical mass. The implosion technique is faster and more effective, because it compresses three-dimensionally rather than one-dimensionally as in the gun-type bomb. Again, a neutron source must be triggered at just the correct time to initiate the chain reaction.",
+              "after": "In 1944, studies of reactor-produced plutonium showed that its spontaneous fission made the planned gun-type approach unsuitable. This unexpected finding forced a major change in the work at Los Alamos. The plutonium bomb used the more complex implosion approach, shown schematically in <link target-id=\"import-auto-id2674248\" />. Developing and establishing confidence in this unfamiliar approach became a major challenge for the project."
+            }
+          ]
+        },
+        {
+          "title": "Trinity and the yield estimate",
+          "source_id": "import-auto-id2403356",
+          "anchor": "import-auto-id2403356",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2403356\">Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted in the isolated Alamogordo Desert about 200 miles south of Los Alamos (see <link target-id=\"import-auto-id2519928\" />). A new age had begun. The yield of this device was about 10 kilotons (kT), the equivalent of 5000 of the largest conventional bombs.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2403356\">Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted on the Alamogordo Bombing Range about 200 miles south of Los Alamos (see <link target-id=\"import-auto-id2519928\" />). A new age had begun. The yield of this device was about 25 kilotons (kT) of TNT equivalent, according to a 2021 reassessment.</para>",
+          "edits": [
+            {
+              "before": "Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted in the isolated Alamogordo Desert about 200 miles south of Los Alamos (see <link target-id=\"import-auto-id2519928\" />). A new age had begun. The yield of this device was about 10 kilotons (kT), the equivalent of 5000 of the largest conventional bombs.",
+              "after": "Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted on the Alamogordo Bombing Range about 200 miles south of Los Alamos (see <link target-id=\"import-auto-id2519928\" />). A new age had begun. The yield of this device was about 25 kilotons (kT) of TNT equivalent, according to a 2021 reassessment."
+            }
+          ]
+        }
+      ],
+      "revision_note": "Author requested a replacement draft and nearby paragraphs needing revision. Four paragraphs are presented with the already approved FC07 correction composed into the main preview. These are proposals only. The two development paragraphs are more substantially shortened to provide a historical explanation, without expanding weapon design details. No images, captions, exercises, or canonical source files changed; surrounding material is not certified by this draft."
     },
     {
       "id": "FC33",
