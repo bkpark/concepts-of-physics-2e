@@ -114,7 +114,7 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
         page.append('<section id="'+i['id']+'"><h2>'+i['id']+' — '+esc(i['title'])+'</h2><p class="badge">'+esc(i['section_title'])+' · '+esc(i['status'])+'</p><p>'+esc(i['reason'])+'</p><p><a href="'+esc(link(i['module'],i['anchor']))+'">View current textbook context</a></p>')
         if i['edits']:
             page.append('<details class="edits"><summary>Exact proposed substitutions</summary><ul>'+''.join('<li><del>'+esc(e['before'])+'</del> → <ins>'+esc(e['after'] or '[delete]')+'</ins></li>' for e in i['edits'])+'</ul></details>')
-        page.append('<div class="cols"><div class="box"><h3>Current 1.1 draft</h3>'+render(i['before_xml'],i['module'])+'</div><div class="box"><h3>'+('Proposed — not applied' if i['proposed_xml'] else 'Decision needed')+'</h3>'+ (render(i['proposed_xml'],i['module']) if i['proposed_xml'] else '<p>'+esc(i['reason'])+'</p>')+'</div></div>')
+        page.append('<div class="cols"><div class="box"><h3>Current 1.1 draft</h3>'+render(i['before_xml'],i['module'])+'</div><div class="box"><h3>'+('Proposed — not applied' if i['proposed_xml'] else 'Decision needed')+'</h3>'+ (render(i.get('preview_xml', i['proposed_xml']),i['module']) if i['proposed_xml'] else '<p>'+esc(i['reason'])+'</p>')+'</div></div>')
         if i.get('structural_proposal'):
             page.append('<p class="notice"><strong>Proposed order change:</strong> '+esc(i['structural_proposal']['description'])+'</p>')
         for passage in i.get('related_passages', []):
@@ -123,7 +123,7 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
             page.append('<details class="edits"><summary>Exact proposed substitutions for this passage</summary><ul>'+''.join('<li><del>'+esc(e['before'])+'</del> → <ins>'+esc(e['after'] or '[delete]')+'</ins></li>' for e in passage['edits'])+'</ul></details>')
         page.append('<ul>'+''.join('<li><a href="'+esc(s['url'])+'">'+esc(s['title'])+'</a></li>' for s in i['sources'])+'</ul></section>')
         md+=['## '+i['id']+' — '+i['title'],'',i['section_title']+' · '+i['status'],'',i['reason'],'','**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(i['before_xml']))),'']
-        if i['proposed_xml']:md+=['**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(i['proposed_xml']))),'']
+        if i['proposed_xml']:md+=['**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(i.get('preview_xml', i['proposed_xml'])))),'']
         if i.get('structural_proposal'):md+=['**Proposed order change:** '+i['structural_proposal']['description'], '']
         for passage in i.get('related_passages', []):
             md += ['### '+passage['title'], '',
