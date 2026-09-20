@@ -505,7 +505,7 @@ Review four connected paragraphs together. Correct project leadership and the ch
 
 ## FC33 — Dental shielding figure: historical illustration versus current recommendation
 
-Biological Effects of Ionizing Radiation · proposed-not-applied
+Biological Effects of Ionizing Radiation · approved-pending-application
 
 The 2024 ADA guidance recommends discontinuing routine patient abdominal aprons and thyroid collars; it is a professional recommendation, not itself a legal prohibition. Identify the illustration as historical, retain the shielding and distance explanation, and update film wording to match the approved detector terminology elsewhere.
 
