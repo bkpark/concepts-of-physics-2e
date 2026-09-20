@@ -432,16 +432,19 @@ Keep the detectability explanation next to the 1 rem calculation. Replace the ol
 - [Ozasa et al. (2012): Life Span Study mortality report 14, 1950–2003](https://www.rerf.or.jp/uploads/2017/07/rr1104_e.pdf)
 - [Ozasa et al. (2012): Life Span Study mortality report 14 — persistent DOI](https://doi.org/10.1667/RR2629.1)
 
-## FC30 — Thyroid uptake does not identify cancer as the hottest tissue
+## FC30 — Radioactive iodine as a tracer for thyroid imaging
 
 Medical Imaging and Diagnostics · proposed-not-applied
 
-Keep the medical example, but correct the implication that cancerous thyroid cells necessarily take up the most iodine and that absent uptake diagnoses hypothyroidism. Thyroid nodules require more than an uptake scan to establish cancer. Proposed replacement for just those two sentences: “Iodine uptake varies with thyroid function. An uptake scan alone cannot determine whether a thyroid nodule is cancerous.” The thallium correction above is independent.
+Explain the physics of thyroid imaging: iodine concentrates in the thyroid, its radiation is detected, and the distribution becomes visible in an image. Remove the unsupported cancer/hypothyroidism interpretations without replacing them with a diagnostic disclaimer. Preserve the surrounding examples; the separate approved FC16 correction to thallium is still pending application and is not superseded by this proposal.
 
 **Current:**  lists certain medical diagnostic uses of radiopharmaceuticals, including isotopes and activities that are typically administered. Many organs can be imaged with a variety of nuclear isotopes replacing a stable element by a radioactive isotope. One common diagnostic employs iodine to image the thyroid, since iodine is concentrated in that organ. The most active thyroid cells, including cancerous cells, concentrate the most iodine and, therefore, emit the most radiation. Conversely, hypothyroidism is indicated by lack of iodine uptake. Note that there is more than one isotope that can be used for several types of scans. Another common nuclear diagnostic is the thallium scan for the cardiovascular system, particularly used to evaluate blockages in the coronary arteries and examine heart activity. The salt TlCl can be used, because it acts like NaCl and follows the blood. Gallium-67 accumulates where there is rapid cell growth, such as in tumors and sites of infection. Hence, it is useful in cancer imaging. Usually, the patient receives the injection one day and has a whole body scan 3 or 4 days later because it can take several days for the gallium to build up.
 
+**Proposed:**  lists certain medical diagnostic uses of radiopharmaceuticals, including isotopes and activities that are typically administered. Many organs can be imaged with a variety of nuclear isotopes replacing a stable element by a radioactive isotope. One common diagnostic employs radioactive iodine to image the thyroid, since iodine is concentrated in that organ. Thyroid tissue that concentrates more radioactive iodine emits more radiation. A gamma camera detects this radiation to form an image showing how the iodine is distributed within the thyroid. Note that there is more than one isotope that can be used for several types of scans. Another common nuclear diagnostic is the thallium scan for the cardiovascular system, particularly used to evaluate blockages in the coronary arteries and examine heart activity. The salt TlCl can be used, because it acts like NaCl and follows the blood. Gallium-67 accumulates where there is rapid cell growth, such as in tumors and sites of infection. Hence, it is useful in cancer imaging. Usually, the patient receives the injection one day and has a whole body scan 3 or 4 days later because it can take several days for the gallium to build up.
+
 - [American Thyroid Association: nodules and testing](https://www.thyroid.org/thyroid-nodules/)
 - [ATA: functioning nodules and cancer evaluation](https://www.thyroid.org/patient-thyroid-information/ct-for-patients/vol-7-issue-6/vol-7-issue-6-p-3-4/)
+- [ACR/RSNA RadiologyInfo: thyroid scan and uptake](https://www.radiologyinfo.org/en/info/thyroiduptake)
 
 ## FC31 — Tacoma Narrows: flutter is not elementary forced resonance
 
