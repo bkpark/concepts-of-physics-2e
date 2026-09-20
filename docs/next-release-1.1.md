@@ -1,17 +1,24 @@
 # cp2e-ver1.1 planning
 
-Status: SR01 applied to maintained 1.1 source with two author-approved typo fixes. SR02’s upstream stars-to-bodies wording is also applied; the example title is unchanged. Published 1.0 remains unchanged.
+## Current status and remaining work
 
-The author subsequently authorized the full applicable CC BY upstream correction backport. Whole-book mapping and comparison are generated, and seven additional minimal corrections are applied. See `docs/upstream-backport-1.1.md` for the current scope, evidence, and remaining work; the full backport is not yet complete.
+The scoped CC BY upstream comparison/backport pass is complete: all 140 mapped sections have recorded dispositions, with zero unresolved comparison differences. The local Preface has no upstream counterpart. Published 1.0 remains frozen.
 
-The next review batch adds thirteen opening-chapter corrections and a fingerprinted disposition log. BR01 is applied with minimal timeline wording; BR02 is applied: position axis label and alt text corrected, with original paths and answers retained. The Units 1–2 comparison pass now covers 55 sections, with 35 additional scoped corrections in batch 04. The author deferred the coordinated plasma expansion to broader revision on 2026-09-19. The author approved the Units 1–2 review batch, including the conservative-force heuristic follow-up, on 2026-09-19; no required author decisions remain in that packet. During broader revision, decide whether plasma needs coverage or merely a brief explanation of its omission. The bridge/catenary loading distinction remains a broader-revision note. Later-unit review and final release PDF/layout verification remain outstanding. There is no background process continuing this review between assistant turns.
+Work order approved by the author:
 
-1. Review Special Relativity against the pinned CC BY snapshot, then systematically review all remaining chapters. Produce reports before edits.
-2. Revise chapter-end exercises for conceptual Physics 10, using author-supplied MyOpenMath exports as references after checking provenance.
-3. Check numbering, accessibility, solutions policy, and permalink/anchor compatibility as part of those revisions.
-4. Maintain a substantive change log. Keep published 1.0 artifacts and its Git tag unchanged.
+1. **Immediate next task: focused factual audit.** Independently check historical dates, discovery/attribution and Nobel claims; medical, environmental and safety claims; constants, definitions and potentially outdated assertions. Produce a source-linked, side-by-side review packet with minimal proposed corrections. Separate confirmed errors from uncertainty and broader editorial preferences. Preserve existing prose where possible; substantial rewriting remains author-led. Agreement with upstream is not evidence of independent verification. This is the next work item, not a timed/background automation.
+2. **Conceptual chapter-end exercise revision.** Request an up-to-date MyOpenMath export for this project when starting the exercise pilot. Inventory provenance and suitability, develop an author-review pilot, then extend across chapters. Resolve explicitly deferred exercise issues and review answer/solution policy. Keep ordinary PDF exercises at chapter ends and Check Your Understanding inline.
+3. **Equation-copy interface (last feature task).** Assess LaTeX as the useful primary copy format and AsciiMath where faithful; provide explicit handling of unsupported constructs. Preserve canonical MathML and symbol-level selection. See the detailed scope below.
+4. **Release-candidate build and verification.** Generate fresh 1.1 PDF and static HTML; verify equations, figures/tables, cross-references, exercise placement, numbering, stable URLs/anchors, accessibility and page layout. Retain support for both numbering profiles while prioritizing lecture-aligned presentation.
+5. **Release and archival bookkeeping.** Finalize substantive change log, attribution/provenance, 1.1 metadata and filenames; package the website and linked PDF with crawler rules; record checksums, reproducible build instructions, Git tag/release assets and publication handoff. Preserve all 1.0 artifacts and tags. Do not publish an unreviewed release candidate.
 
 Before producing release artifacts, deliberately prepare metadata/release.json for cp2e-ver1.1 with new filenames, candidate status, and artifacts_frozen=false. Do not repurpose the 1.0 output directory.
+
+Broader prose/pedagogy revisions, plasma coverage decisions and the author's careful full-book read-through remain planned for the interval between 1.1 and 1.2.
+
+## Historical progress notes
+
+The entries below preserve the review sequence. Statements about then-pending items are historical; the current status and work order above take precedence.
 
 ## First review packet
 
