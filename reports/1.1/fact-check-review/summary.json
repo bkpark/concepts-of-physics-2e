@@ -1,0 +1,1205 @@
+{
+  "date": "2026-09-19",
+  "sections": 141,
+  "candidate_blocks": 452,
+  "category_counts": {
+    "history": 147,
+    "health-environment": 104,
+    "definitions-current": 236
+  },
+  "review_items": 34,
+  "proposed_corrections": 25,
+  "author_discussion": 9,
+  "limitations": [
+    "All 141 canonical sections were searched. Keyword screening is not independent verification of every claim.",
+    "This packet follows up selected high-risk historical, medical/environmental, SI-definition and dated-current assertions. Unlisted passages are not certified correct.",
+    "Exercises/solutions, a full numerical-table audit, figure-content inspection and recalculation of every example are outside this focused pass. Some worked-example prose appears among candidates.",
+    "Confirmed factual problems, source discrepancies and passages needing coordinated changes are distinguished in the item notes. Additional screening leads are recorded separately, not silently treated as cleared.",
+    "All proposals are unapplied. Full XML snippets are review snapshots; later edits must preserve canonical byte structure and use the editorial ledger.",
+    "External sources establish facts. No new external prose or images have been imported into the textbook; the CC BY baseline and license restrictions remain in force."
+  ],
+  "section_coverage": [
+    {
+      "module": "m67030",
+      "title": "Preface",
+      "source_sha256": "41a5f500d7b26194cfbba2697814f7f682de5e501ef016a5c36578907c733d92",
+      "paragraphs_and_captions_screened": 11,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m52309",
+      "title": "Science and the Realm of Physics, Physical Quantities, and Units",
+      "source_sha256": "287f2246508a1eab3830f248629c949b364126bd992b64e87bb4c866831f9be7",
+      "paragraphs_and_captions_screened": 5,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52310",
+      "title": "Physics: An Introduction",
+      "source_sha256": "b82fbbba420f77d723f51d4624ca867e687549da91ad8f3907137bfbdc840205",
+      "paragraphs_and_captions_screened": 38,
+      "candidate_blocks": 10,
+      "review_items": [
+        "FC06"
+      ]
+    },
+    {
+      "module": "m67032",
+      "title": "Physical Quantities and Units",
+      "source_sha256": "2da04f0dcb55a6d2721f1a451f0eed46e14da38b8dbbe90a7a43f737e23ea36d",
+      "paragraphs_and_captions_screened": 44,
+      "candidate_blocks": 8,
+      "review_items": [
+        "FC01"
+      ]
+    },
+    {
+      "module": "m52313",
+      "title": "Introduction to One-Dimensional Kinematics",
+      "source_sha256": "40c6351f0c5885cf9fd285ea0c9084cda958c93b7f477828573227d094c52725",
+      "paragraphs_and_captions_screened": 3,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52314",
+      "title": "Displacement",
+      "source_sha256": "afe93c92979dbcee56282bbf53d5bf7dcbebcdab69e98f2f0c99285198d98bbc",
+      "paragraphs_and_captions_screened": 15,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52316",
+      "title": "Vectors, Scalars, and Coordinate Systems",
+      "source_sha256": "bb8a17e22a489ca3b2dd09323997f6aa6f469c9fc959684f2c0185811b3b75c8",
+      "paragraphs_and_captions_screened": 6,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m71407",
+      "title": "Time, Velocity, and Speed",
+      "source_sha256": "e75e4f038bc13a6c924d236dc7adf0e835bfb236736ba4c6a9a5029217ace861",
+      "paragraphs_and_captions_screened": 22,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m67033",
+      "title": "Acceleration",
+      "source_sha256": "ae2be618e70228622ca5035741f9a387f4ac0fe184db85f06602f684afd0e223",
+      "paragraphs_and_captions_screened": 86,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67034",
+      "title": "Motion Equations for Constant Acceleration in One Dimension",
+      "source_sha256": "0f4446f224937c30381307bb7342dfc368565bfa172ce58990c7bda4bbcc1e71",
+      "paragraphs_and_captions_screened": 102,
+      "candidate_blocks": 6,
+      "review_items": [
+        "FC19"
+      ]
+    },
+    {
+      "module": "m68876",
+      "title": "Falling Objects",
+      "source_sha256": "dd968ef5b9e15d9554b741fc0c3e84247fd69d8a5aeb58cc727f5e985f68e2ef",
+      "paragraphs_and_captions_screened": 61,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m67038",
+      "title": "Projectile Motion",
+      "source_sha256": "c15f82f6b438db448c1e3a9bc7b54be16b33cd8ce817db53f4a12947a8c705ff",
+      "paragraphs_and_captions_screened": 9,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67035",
+      "title": "Centripetal Acceleration",
+      "source_sha256": "643fc5151bf3f30556c9599f1a0871487684acf0d1c7423ee1e4f203a308f964",
+      "paragraphs_and_captions_screened": 6,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52322",
+      "title": "Introduction to Dynamics: Newton’s Laws of Motion",
+      "source_sha256": "bd261ef9c0c3b07b219cdd96e430ce5ac2dac1e095f61d39b65c1f8922a1f334",
+      "paragraphs_and_captions_screened": 8,
+      "candidate_blocks": 5,
+      "review_items": []
+    },
+    {
+      "module": "m78923",
+      "title": "Development of Force Concept",
+      "source_sha256": "a34988823ee09e2bf69ff0202933061cf97bea2f3a8e1787e882c6dfadd15454",
+      "paragraphs_and_captions_screened": 4,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m52325",
+      "title": "Newton’s First Law of Motion: Inertia",
+      "source_sha256": "153c29c409a4a0fc101f2f68cc40cb43e74778358f0f65bdd908cebfc16d26c8",
+      "paragraphs_and_captions_screened": 7,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67530",
+      "title": "Newton's Second Law of Motion: Force and Acceleration",
+      "source_sha256": "8b286284ec62c4c1a9062edae8efb765fd4c1dffd27154e26c1482ae43f13751",
+      "paragraphs_and_captions_screened": 73,
+      "candidate_blocks": 7,
+      "review_items": []
+    },
+    {
+      "module": "m68330",
+      "title": "Newton’s Third Law of Motion: Symmetry in Forces",
+      "source_sha256": "75f2c28c4972c5e7ce6b0e680bd6b6492c27b1f9b01b65cb59e0c803b7880c3a",
+      "paragraphs_and_captions_screened": 44,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m68329",
+      "title": "Normal Force and Tension",
+      "source_sha256": "c7e242c8e719148181becdce8e0ec72ca32eaa80378a3bcd59794bc163925f77",
+      "paragraphs_and_captions_screened": 31,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67044",
+      "title": "Spring Force: Hooke’s Law",
+      "source_sha256": "166cc995545bf178b5e51518aa8c12d4965c4bde9ece1eff1e3887014c01e264",
+      "paragraphs_and_captions_screened": 17,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m71409",
+      "title": "Friction",
+      "source_sha256": "c95be0b8a6549e8de7f2879399e695e52a67daba992d7347f33b685b03dfe4fc",
+      "paragraphs_and_captions_screened": 29,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m71410",
+      "title": "Newton’s Universal Law of Gravitation",
+      "source_sha256": "a14861ac1be92e17b7e48dabc8147ac25426caf07ddcabe4294423e2e471de33",
+      "paragraphs_and_captions_screened": 36,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67036",
+      "title": "Centripetal Force",
+      "source_sha256": "811247965384560c390265d92d9173ff200896c131b39600772ab990789c2a66",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52337",
+      "title": "Introduction to Work and Energy",
+      "source_sha256": "e603505f90e0c654c03afcbec169989e0ff3d20a6921b9d9b5b7994ed4fbac80",
+      "paragraphs_and_captions_screened": 5,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67539",
+      "title": "Work: The Scientific Definition",
+      "source_sha256": "fc866874caeeb35c279a0c994a9d27ab2a6c089fb54cf46bb7b7678d5ac4df4d",
+      "paragraphs_and_captions_screened": 32,
+      "candidate_blocks": 5,
+      "review_items": []
+    },
+    {
+      "module": "m71411",
+      "title": "Kinetic Energy and the Work-Energy Theorem",
+      "source_sha256": "5114b248c5a2cdfa11a911b946ca8a2877a497c75ff7de7ea1e7373f06729c64",
+      "paragraphs_and_captions_screened": 62,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m71414",
+      "title": "Gravitational Potential Energy",
+      "source_sha256": "aa5e63b7385a06b76fc3393628a7fe2c6e1d7eca55dfcc05cfb01df8ae124655",
+      "paragraphs_and_captions_screened": 45,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67037",
+      "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
+      "source_sha256": "3489e90be609f927c15e5bad372f74784fbf6d687e5cfe59b95bed6cc67510c9",
+      "paragraphs_and_captions_screened": 37,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67045",
+      "title": "Spring Potential Energy",
+      "source_sha256": "178f6a0a12607cb34457456a0853d8fa3864e94667a26c5b82b0964a6ea03047",
+      "paragraphs_and_captions_screened": 17,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m71415",
+      "title": "Power",
+      "source_sha256": "6a48df4b8546b0100741b0198151ee74535c963433bfd7f7eca56b623d2dc068",
+      "paragraphs_and_captions_screened": 31,
+      "candidate_blocks": 5,
+      "review_items": [
+        "FC13",
+        "FC21"
+      ]
+    },
+    {
+      "module": "m42155",
+      "title": "Introduction to Linear Momentum and Collisions",
+      "source_sha256": "1e5c3b622a4e6e2047f4e4022fb72500329ceb4fd86414df59926551a522cf2d",
+      "paragraphs_and_captions_screened": 3,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m71582",
+      "title": "Linear Momentum and Force",
+      "source_sha256": "e5eae0b7d56b7d7ab7a463498c8ca4345f5164bb646a6c898eeca098c45af1a9",
+      "paragraphs_and_captions_screened": 35,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m71583",
+      "title": "Impulse",
+      "source_sha256": "8bd379ad23cc36390d7d18088094662499dd325086a18fcd55cf166abd35713d",
+      "paragraphs_and_captions_screened": 11,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m67039",
+      "title": "Conservation of Momentum",
+      "source_sha256": "5d6f8459144896dd005ab8270a7b3d71824e1c6d40fa229c875a9c8f4b39f22f",
+      "paragraphs_and_captions_screened": 18,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67042",
+      "title": "Elastic Collisions in One Dimension",
+      "source_sha256": "32bae5120e544aa1af66bb740bab9e8c770a63490312c835db001dd2b87f2f1b",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67043",
+      "title": "Inelastic Collisions in One Dimension",
+      "source_sha256": "3c3fe973f73b8fcce4d3accafd69320c8a8c9bc3af82b55187c671f89259c8fb",
+      "paragraphs_and_captions_screened": 39,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52431",
+      "title": "Introduction to Oscillatory Motion and Waves",
+      "source_sha256": "374990ed90fe6e97effef5460e5820bdc48cde40b09f5677f61cfe6fbba0929f",
+      "paragraphs_and_captions_screened": 4,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m71584",
+      "title": "Period and Frequency in Oscillations",
+      "source_sha256": "258e0df8563ce925fabd5621590c4e24557cce83a25156dd862c30c8e41ec2cc",
+      "paragraphs_and_captions_screened": 15,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m71585",
+      "title": "Simple Harmonic Motion: A Special Periodic Motion",
+      "source_sha256": "803f22184866011a8dfbde46b0a07b9d678f9c731f3a2d10e810eb8779b91df4",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m71586",
+      "title": "Forced Oscillations and Resonance",
+      "source_sha256": "b4007c16f3b8bbe969934a7413327b3cb5d8d188089a76f2310b03f8a6fae7d4",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 2,
+      "review_items": [
+        "FC31"
+      ]
+    },
+    {
+      "module": "m71587",
+      "title": "Waves",
+      "source_sha256": "5c6ade224004306c1fe5b406450fa889eb7eab735873279d0116e648e55552c1",
+      "paragraphs_and_captions_screened": 23,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m71588",
+      "title": "Wave Interference: Standing Waves and Beats",
+      "source_sha256": "a22a7be74c9d04baaf5b01812ec2955ada9c8149cd7e52ec8a54bed4e279df40",
+      "paragraphs_and_captions_screened": 23,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m71590",
+      "title": "Sound",
+      "source_sha256": "3ca2394d517f4db212fd0c9c312fa1898b837843423d7508c71a35b9f83fd938",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m71589",
+      "title": "Speed of Sound, Frequency, and Wavelength",
+      "source_sha256": "4eed42237810b7b5c1511dd5cfe469976594371a8b29a2e2bd33c9bdef89f08c",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67819",
+      "title": "Doppler Effect and Sonic Booms",
+      "source_sha256": "7c21bf38b0e75d38492d75beb903dca8dcefdec69adc003d722fa78d244eae79",
+      "paragraphs_and_captions_screened": 17,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m42176",
+      "title": "Introduction to Rotational Motion and Angular Momentum",
+      "source_sha256": "d8722f2fb6f5ed67dcc7f07fa7cfe178c0a271f1f237b1f8d7b183a98be9d6a3",
+      "paragraphs_and_captions_screened": 4,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m71592",
+      "title": "Angular Acceleration",
+      "source_sha256": "7d446b6503a4d3409aab39487172092c8c304fea429e83eb644bc614179729e5",
+      "paragraphs_and_captions_screened": 41,
+      "candidate_blocks": 7,
+      "review_items": []
+    },
+    {
+      "module": "m71593",
+      "title": "Dynamics of Rotational Motion: Rotational Inertia",
+      "source_sha256": "c4d2ba3eb0e7fc9420566b08c0f84afbde05f557e554b78bf0ebe73f8eb01190",
+      "paragraphs_and_captions_screened": 16,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67046",
+      "title": "Rotational Kinetic Energy",
+      "source_sha256": "4aaf6709b64172f3dcc9da379973116053fc7ce09561b2f35ce5988bbdc17199",
+      "paragraphs_and_captions_screened": 43,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m71594",
+      "title": "Angular Momentum and Its Conservation",
+      "source_sha256": "0ea3b727d4e170c899ae899f40f993590d047fb76b3639a23545e6d4603c3480",
+      "paragraphs_and_captions_screened": 56,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m71595",
+      "title": "Gyroscopic Effects: Vector Aspects of Angular Momentum",
+      "source_sha256": "74e6a217552c3675a6cbb040fede256247ceb53fb2c9414aefb47a54e614ba0c",
+      "paragraphs_and_captions_screened": 14,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m67047",
+      "title": "Introduction to Fluids",
+      "source_sha256": "6d5c770ec9293cfb4e9f77851bc5c216f1e9f35f238e3bc2a83ba5e7bf8adb2c",
+      "paragraphs_and_captions_screened": 3,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m71614",
+      "title": "What Is a Fluid?",
+      "source_sha256": "dab4637b715eb28f1fb88b2659b406cdfebc95a2d60cf8f0184b997d2c45b5d1",
+      "paragraphs_and_captions_screened": 7,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m71613",
+      "title": "Density",
+      "source_sha256": "861d3ea2b231bbb53645d7dd8a5d7ff858bb5956bb1192f1711e93d578aa57a6",
+      "paragraphs_and_captions_screened": 19,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m71615",
+      "title": "Pressure",
+      "source_sha256": "5918a03cf0e020fff6b197a727ac2a5de444044dbabb8affb946c2e4fe6d3a22",
+      "paragraphs_and_captions_screened": 19,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m71623",
+      "title": "Pressure Due to the Weight of Fluid",
+      "source_sha256": "0c7a8401a7488e99422166db87efa3d98b78580f5b6aaeb75ca4cc25b8d1b73f",
+      "paragraphs_and_captions_screened": 35,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m71624",
+      "title": "Archimedes’ Principle",
+      "source_sha256": "72b81e22bf0c0608559f2c7d2b434de226671d2563c87c0a67a6fd6375fbfb29",
+      "paragraphs_and_captions_screened": 67,
+      "candidate_blocks": 5,
+      "review_items": []
+    },
+    {
+      "module": "m71625",
+      "title": "Flow Rate and Its Relation to Velocity",
+      "source_sha256": "3dd656393ec63b98dbba6709015f029fcb426ca5ac152c063f55f67474650c5d",
+      "paragraphs_and_captions_screened": 45,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m71626",
+      "title": "Bernoulli’s Equation",
+      "source_sha256": "659c3f6ac18287d83b9375b521e1d59d0792db67c0d954b75b7d75c5aa0056d5",
+      "paragraphs_and_captions_screened": 37,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67121",
+      "title": "Introduction to Thermal Physics",
+      "source_sha256": "62a94454de9116fc42f35a4a6c06515299377683c5e452e0a9951b7bc34f3abe",
+      "paragraphs_and_captions_screened": 6,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52364",
+      "title": "Temperature",
+      "source_sha256": "7d606286e8cc568193089e091768f4db60e3194f64c29a9d360e74d14ead453c",
+      "paragraphs_and_captions_screened": 22,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m67122",
+      "title": "The Ideal Gas Law",
+      "source_sha256": "768ec783714763e0525fba666f7e2b62d2e47b23fe9dda64281a2a6609e63702",
+      "paragraphs_and_captions_screened": 36,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m52368",
+      "title": "Heat",
+      "source_sha256": "d4865d1e5af570cc04c15aee1079245057565e9c92538ef3cec7044dab59b8ca",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m67123",
+      "title": "Heat Transfer Methods",
+      "source_sha256": "ca8f8792d911621b468277f5fd9841d1f9f063001ca23095f2811da5375a99fb",
+      "paragraphs_and_captions_screened": 7,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67622",
+      "title": "Temperature Change and Heat Capacity",
+      "source_sha256": "cec769a77be68a3481dd9f808b0d29df14dd85d1d6fcd1f8b24dda5289871f20",
+      "paragraphs_and_captions_screened": 35,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67124",
+      "title": "Phase Change and Latent Heat",
+      "source_sha256": "300094836fd4c9df6946d517e991309edd606fcaffd13d28df2575bdd7798d37",
+      "paragraphs_and_captions_screened": 30,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67125",
+      "title": "The First Law of Thermodynamics",
+      "source_sha256": "17e58558a51f71b92f5466755a09e04f2d89647f208b4ead11e3bc5d665da195",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67126",
+      "title": "The First Law of Thermodynamics and Heat Engine Processes",
+      "source_sha256": "c93168fb7c1fe1abb04e308100e17dfbc4b486ee0677b503fad5fabdec0b474d",
+      "paragraphs_and_captions_screened": 22,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m67127",
+      "title": "Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+      "source_sha256": "4819102a39a5d5d15676a625b7da12c465369734da7602f75854b36c1434d7d3",
+      "paragraphs_and_captions_screened": 44,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m42235",
+      "title": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+      "source_sha256": "54dcd3dc97a36f6f5292d043d5a6f38f87025cf2918fe94fb2fcc5be11ef3e40",
+      "paragraphs_and_captions_screened": 24,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m42236",
+      "title": "Applications of Thermodynamics: Heat Pumps and Refrigerators",
+      "source_sha256": "a929c24195c3e547838f236ab61177c470aad87692d23be39da156dd28a89511",
+      "paragraphs_and_captions_screened": 31,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67128",
+      "title": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+      "source_sha256": "0cc4d399011a86b02cd8edc3b7c319f21e585ee878f49fa1b1a071653df5afe5",
+      "paragraphs_and_captions_screened": 46,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m42238",
+      "title": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+      "source_sha256": "13ced0f7f7e13f110e34dead4ee98a843c4c11a4be9274f811587f45962b13c9",
+      "paragraphs_and_captions_screened": 24,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67129",
+      "title": "Introduction to Electricity",
+      "source_sha256": "06539380e1aa67dd9605161aae6de84bb692008d1d710539735d345fcfd841b1",
+      "paragraphs_and_captions_screened": 5,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52381",
+      "title": "Static Electricity and Charge: Conservation of Charge",
+      "source_sha256": "1c265487a5e2987d0c149f1d10b55d7787d465a826199b0f6536597ec29210c1",
+      "paragraphs_and_captions_screened": 29,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m52384",
+      "title": "Coulomb’s Law",
+      "source_sha256": "7929e01bc621b3d96ce57a23e22435f110c1f59d02e7d4fa17f6500dba560db9",
+      "paragraphs_and_captions_screened": 20,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52385",
+      "title": "Electric Field: Concept of a Field Revisited",
+      "source_sha256": "0ad4a757a6f204ebedb909faefbd2f9b12e88c332fc3c2baddc41c742e5e061e",
+      "paragraphs_and_captions_screened": 26,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m70739",
+      "title": "Electric Field Lines",
+      "source_sha256": "15a92fd3d6688c635dfe6e2cb815877e365e68c0d96f6e2e2ea80ac328073398",
+      "paragraphs_and_captions_screened": 13,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m75427",
+      "title": "Electric Potential and Potential Energy",
+      "source_sha256": "1cc10ec0c88a4a926e62bb7c7cf0fc35a5ccb5c5f25bde107c961bed91c4729e",
+      "paragraphs_and_captions_screened": 57,
+      "candidate_blocks": 5,
+      "review_items": []
+    },
+    {
+      "module": "m75428",
+      "title": "Conductors and Applications of Electrostatics",
+      "source_sha256": "ae09ab4c31999063f003199436ecc68e8b7005334b4d2c442084e3d2df371850",
+      "paragraphs_and_captions_screened": 40,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67130",
+      "title": "Current",
+      "source_sha256": "3218679bb66f535021d0fd3af42b5f2d381779e28af0f7fcf219d159c6e38cea",
+      "paragraphs_and_captions_screened": 30,
+      "candidate_blocks": 7,
+      "review_items": []
+    },
+    {
+      "module": "m52401",
+      "title": "Ohm’s Law: Resistance and Simple Circuits",
+      "source_sha256": "130b4901233f414fb5feafe00dbb301f80cec2a34abe1906fe12d137b898405c",
+      "paragraphs_and_captions_screened": 20,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m52402",
+      "title": "Electric Power and Energy",
+      "source_sha256": "0c14aaf065037d4f5c35402b4c005028ffbdb62756b699e6b12bd67e2ab71343",
+      "paragraphs_and_captions_screened": 34,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m42356",
+      "title": "Resistors in Series and Parallel",
+      "source_sha256": "e1c47ac474ca9580101fe00533fc768ade43b9bc308818e780ee8ab17c019c45",
+      "paragraphs_and_captions_screened": 112,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52406",
+      "title": "Electric Hazards and the Human Body",
+      "source_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
+      "paragraphs_and_captions_screened": 20,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52408",
+      "title": "Introduction to Magnetism",
+      "source_sha256": "0aae47e282cd27561bf12b9f8a7d1023662888446f2fab00954ad71eb281c79b",
+      "paragraphs_and_captions_screened": 7,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m52412",
+      "title": "Magnets",
+      "source_sha256": "82e230d98dc9d3df72a77f96b59f2d84fbbbc8e4b8985ebfa191829a8ce7f479",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52410",
+      "title": "Ferromagnets and Electromagnets",
+      "source_sha256": "942ed9446e0f43fcbc534e25867c3bd8e2a8b8df07148c96990407b4a37462bb",
+      "paragraphs_and_captions_screened": 17,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m52413",
+      "title": "Magnetic Fields and Magnetic Field Lines",
+      "source_sha256": "68d9570be84f0619df2cc66123ac40f57685abde2baa6537506025fcd61a762b",
+      "paragraphs_and_captions_screened": 7,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m52414",
+      "title": "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+      "source_sha256": "17dd55bdb982ffe8c0b9f0d5d4d137b2e0e671b22b69288d264e0a0dd574f83c",
+      "paragraphs_and_captions_screened": 11,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m52416",
+      "title": "Magnetic Force on a Current-Carrying Conductor",
+      "source_sha256": "e21132a3a4d96ba9e5b847fe42e25ca8c77d2a0c60655b1b9470fb0099bbf495",
+      "paragraphs_and_captions_screened": 18,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52417",
+      "title": "Motors and Meters",
+      "source_sha256": "6fcdffa1efd1f4cc3925898a6414f8add0e1823739d447079d3b643441dd56e5",
+      "paragraphs_and_captions_screened": 6,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52420",
+      "title": "Magnetic Fields Produced by Currents: Ampere’s Law",
+      "source_sha256": "e2ca4c5606c1a65000cd4f8d59162209aec3f753dd40b11052c0ded36cfc417c",
+      "paragraphs_and_captions_screened": 28,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m70743",
+      "title": "Induced Voltage and Magnetic Flux",
+      "source_sha256": "0c0f9f2ca12b65145917e1053d7da804245870ba01227a83dd5d2f96654993e3",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m70744",
+      "title": "Faraday’s Law of Induction: Lenz’s Law",
+      "source_sha256": "525f7bffcc48b62bb5f276be249e742dbc6138a7c75565e5872b0edcf93b61c4",
+      "paragraphs_and_captions_screened": 13,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m52427",
+      "title": "Transformers",
+      "source_sha256": "7cd551b3ed132558fc504a8d292e415e4ae7e3ee21bf5c39c95e675d25e758f8",
+      "paragraphs_and_captions_screened": 29,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m67131",
+      "title": "Alternating Current versus Direct Current",
+      "source_sha256": "49ef8930258ff4444db25d50f5aceb1b44d4e3965cef334e9e1c6895fdebb3a6",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m67031",
+      "title": "Introduction to Light",
+      "source_sha256": "671fb2b99d3d878f9d8e3358d2ee8a0f92be5fc40aacda0b9c6e853f1e47ccdb",
+      "paragraphs_and_captions_screened": 6,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m52443",
+      "title": "Maxwell’s Equations: Electromagnetic Waves Predicted and Observed",
+      "source_sha256": "0c774ad79944b6ad621f7ae891a845feb297db54ca555aac36a4085593309767",
+      "paragraphs_and_captions_screened": 15,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m75429",
+      "title": "Production and Properties of Electromagnetic Waves",
+      "source_sha256": "e750659b54a629388202d13d0533b340c44abeb03126e96c15b2cef0e50ffde3",
+      "paragraphs_and_captions_screened": 30,
+      "candidate_blocks": 3,
+      "review_items": [
+        "FC25"
+      ]
+    },
+    {
+      "module": "m67132",
+      "title": "The Electromagnetic Spectrum: an Overview",
+      "source_sha256": "72e5a5c05675d1279a4b81a9cee6a4563afebff9b7913937641a39964242c6d0",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67133",
+      "title": "The Electromagnetic Spectrum: Application Notes",
+      "source_sha256": "33b82ac4780417cfd740eaeb423f348c8f066497c09e61074d426669c4a5c35b",
+      "paragraphs_and_captions_screened": 105,
+      "candidate_blocks": 47,
+      "review_items": [
+        "FC12",
+        "FC14",
+        "FC15"
+      ]
+    },
+    {
+      "module": "m52450",
+      "title": "Reflection",
+      "source_sha256": "d09f2a59009698e54040a46ed3362ff221e3f680d307df2f89c9a64334790306",
+      "paragraphs_and_captions_screened": 12,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m52454",
+      "title": "Refraction",
+      "source_sha256": "b87b156f032c7b2e3e43830aedc7a4ee9b04f4a3bc9a455fbbf32acc8c395b9b",
+      "paragraphs_and_captions_screened": 24,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m52455",
+      "title": "Dispersion: The Rainbow and Prisms",
+      "source_sha256": "ae5f20a0965968ae723c8bda4fced11cb37591b202284b21f456db51ff01fb83",
+      "paragraphs_and_captions_screened": 13,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67134",
+      "title": "Image Formation by Lenses",
+      "source_sha256": "8eb60e8ed1bf96460aaad972e5cf1dccce822733cc2d6ed614d6bd8605e6a9a6",
+      "paragraphs_and_captions_screened": 88,
+      "candidate_blocks": 9,
+      "review_items": []
+    },
+    {
+      "module": "m67135",
+      "title": "Image Formation by Mirrors",
+      "source_sha256": "24cadd403fcf804bde822aac15a7762611b1394f0fe0f1c0a67ad99d38a90f35",
+      "paragraphs_and_captions_screened": 56,
+      "candidate_blocks": 8,
+      "review_items": []
+    },
+    {
+      "module": "m52456",
+      "title": "Polarization",
+      "source_sha256": "0c09420e14779ce6b09dafb68786761abfc264e6e5528c6058917aaf39d43982",
+      "paragraphs_and_captions_screened": 33,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67139",
+      "title": "Introduction to Quantum Mechanics",
+      "source_sha256": "6de5f213f026aefd623ca0cb658700b8ed5823765ed52aa9b64fe16ee771bc6f",
+      "paragraphs_and_captions_screened": 6,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m67250",
+      "title": "Blackbody Radiation",
+      "source_sha256": "a3f953157297fe9a1ea38b4ee0ab8719744ec286aa7167526d07aad606f0416f",
+      "paragraphs_and_captions_screened": 9,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m67251",
+      "title": "The Photoelectric Effect",
+      "source_sha256": "826852a614ce474e97d8ab0bc107853d7df84555ea185ba2d41d9fb96f922f17",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m67803",
+      "title": "The Wave Nature of Matter",
+      "source_sha256": "c9f85db2f0bdcebfa7e0a614e3328e819d3e4ae9fd4b9d6ca1543e2a1d015c4b",
+      "paragraphs_and_captions_screened": 24,
+      "candidate_blocks": 4,
+      "review_items": [
+        "FC05"
+      ]
+    },
+    {
+      "module": "m67804",
+      "title": "Uncertainty Principle",
+      "source_sha256": "99bb3717dfda3c9faa79a32c0291c6c60b5205429291e4ebfd4895fa35e8e7cb",
+      "paragraphs_and_captions_screened": 31,
+      "candidate_blocks": 4,
+      "review_items": [
+        "FC04"
+      ]
+    },
+    {
+      "module": "m67805",
+      "title": "Discovery of the Atomic Nucleus",
+      "source_sha256": "1e9d0720e3df1a31ec5860a14369132dcacb6a0803c188fe2be06d9fd45363c6",
+      "paragraphs_and_captions_screened": 25,
+      "candidate_blocks": 12,
+      "review_items": [
+        "FC18"
+      ]
+    },
+    {
+      "module": "m67807",
+      "title": "Bohr’s Theory of the Hydrogen Atom",
+      "source_sha256": "a90970acc5a50ad3e6e0c9a85d5f5b03d8f0b90d3f3a66af841ac8e6b47a9ab0",
+      "paragraphs_and_captions_screened": 29,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m67808",
+      "title": "The Wave Nature of Matter Causes Quantization",
+      "source_sha256": "3ab8bbf10b2c25fa5132ab204029ddaf1a10368fff91832aaff36bfe97cfdb41",
+      "paragraphs_and_captions_screened": 12,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m42525",
+      "title": "Introduction to Special Relativity",
+      "source_sha256": "1707d80695624a7ccf6134d51b04f1c02c6758b69daf9529a6cb21eded218177",
+      "paragraphs_and_captions_screened": 5,
+      "candidate_blocks": 2,
+      "review_items": []
+    },
+    {
+      "module": "m42528",
+      "title": "Einstein’s Postulates",
+      "source_sha256": "636e5a5450567cb5bdb506c518697a5afee39302df1545db681bd346e9b753f5",
+      "paragraphs_and_captions_screened": 17,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m42531",
+      "title": "Simultaneity And Time Dilation",
+      "source_sha256": "6bbcd07e832c31d672732c998ea0e88eb55b3cbc675809d8c1231557c64b3960",
+      "paragraphs_and_captions_screened": 53,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m42535",
+      "title": "Length Contraction",
+      "source_sha256": "591599256c7e440b47fbb4080aa6376b7ed32d153e44902e51310fbebd8df8b7",
+      "paragraphs_and_captions_screened": 32,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m42540",
+      "title": "Relativistic Addition of Velocities",
+      "source_sha256": "1ce65979b51275647e2c211ac56dbe0973898b6d1a8b220ee0dac28208df277f",
+      "paragraphs_and_captions_screened": 35,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m42542",
+      "title": "Relativistic Momentum",
+      "source_sha256": "47988592df9be157852f373bf4319141d4a010e2868eefa246134a81b9f8ed22",
+      "paragraphs_and_captions_screened": 12,
+      "candidate_blocks": 4,
+      "review_items": []
+    },
+    {
+      "module": "m42546",
+      "title": "Relativistic Energy",
+      "source_sha256": "810f885eb6945b371f036c6d8c92470f772e66f49d3cc693b93946afe0da4ed0",
+      "paragraphs_and_captions_screened": 57,
+      "candidate_blocks": 6,
+      "review_items": []
+    },
+    {
+      "module": "m68325",
+      "title": "Introduction to Nuclear and Particle Physics",
+      "source_sha256": "da29656531b9c4b9fada47a4d1f06dc02121d0e91c369abacfd932b5a4c1a0e8",
+      "paragraphs_and_captions_screened": 4,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m76584",
+      "title": "Nuclear Radioactivity",
+      "source_sha256": "ca7f8a5515470950e5edf581a0b13905df43d8343bc6b7c3db949caeba53578c",
+      "paragraphs_and_captions_screened": 19,
+      "candidate_blocks": 10,
+      "review_items": [
+        "FC10",
+        "FC11"
+      ]
+    },
+    {
+      "module": "m42627",
+      "title": "Radiation Detection and Detectors",
+      "source_sha256": "6af0e8186f62bb79b871e59b8011d4c2d049b3639c7649bf25d1a7002af99de3",
+      "paragraphs_and_captions_screened": 10,
+      "candidate_blocks": 2,
+      "review_items": [
+        "FC20"
+      ]
+    },
+    {
+      "module": "m52466",
+      "title": "Substructure of the Nucleus",
+      "source_sha256": "d9eed7f7049a98c6ea6df26e3565807533e6d973fdfd67377a3c101597f0a23d",
+      "paragraphs_and_captions_screened": 34,
+      "candidate_blocks": 8,
+      "review_items": []
+    },
+    {
+      "module": "m76603",
+      "title": "Nuclear Decay and Conservation Laws",
+      "source_sha256": "0456b11e66b8578b17e35f8954706f2868b2e4f7fffd38255ed1803321f49db0",
+      "paragraphs_and_captions_screened": 55,
+      "candidate_blocks": 5,
+      "review_items": [
+        "FC24"
+      ]
+    },
+    {
+      "module": "m52471",
+      "title": "Half-Life and Activity",
+      "source_sha256": "2f3817306c226d0be6ac445d6093cad5a5e3b7967f846fe56334cf82b031279b",
+      "paragraphs_and_captions_screened": 71,
+      "candidate_blocks": 11,
+      "review_items": [
+        "FC02",
+        "FC03",
+        "FC22"
+      ]
+    },
+    {
+      "module": "m42649",
+      "title": "Medical Imaging and Diagnostics",
+      "source_sha256": "f8412a30f028a7d4f82cd9423e2c41d0aec58ced704144337ced6f280e610de9",
+      "paragraphs_and_captions_screened": 12,
+      "candidate_blocks": 7,
+      "review_items": [
+        "FC16",
+        "FC17",
+        "FC30",
+        "FC34"
+      ]
+    },
+    {
+      "module": "m68327",
+      "title": "Biological Effects of Ionizing Radiation",
+      "source_sha256": "9c6beb31d7d5399116334a67137b8e275adb2e417c4782951eb25225e288b6cb",
+      "paragraphs_and_captions_screened": 28,
+      "candidate_blocks": 18,
+      "review_items": [
+        "FC28",
+        "FC29",
+        "FC33"
+      ]
+    },
+    {
+      "module": "m52480",
+      "title": "Fusion",
+      "source_sha256": "5f69d345f7d9a1af551326324c3574dd8f6bc909747c1db1514bc1d0b38e20c4",
+      "paragraphs_and_captions_screened": 37,
+      "candidate_blocks": 5,
+      "review_items": [
+        "FC27"
+      ]
+    },
+    {
+      "module": "m52479",
+      "title": "Fission",
+      "source_sha256": "fb964701064de4e1c9e47affd019b2f685260d05ff47730b2565ef8951999415",
+      "paragraphs_and_captions_screened": 38,
+      "candidate_blocks": 1,
+      "review_items": []
+    },
+    {
+      "module": "m42665",
+      "title": "Nuclear Weapons",
+      "source_sha256": "33ccec5dddd43563adba2e3a1e2ea0d56e9e7b6e21aebc38d9a264cffeb2db45",
+      "paragraphs_and_captions_screened": 19,
+      "candidate_blocks": 9,
+      "review_items": [
+        "FC07",
+        "FC23",
+        "FC32"
+      ]
+    },
+    {
+      "module": "m42671",
+      "title": "The Four Basic Forces",
+      "source_sha256": "4e51417ca34b221169931070c6adce0f21443d74e341d231c3f5d4e02d14e74b",
+      "paragraphs_and_captions_screened": 11,
+      "candidate_blocks": 3,
+      "review_items": []
+    },
+    {
+      "module": "m42674",
+      "title": "Particles, Patterns, and Conservation Laws",
+      "source_sha256": "17c1c3b736b342b8383757a6db3fb4972483903c888f70abbbf7a7920211519f",
+      "paragraphs_and_captions_screened": 30,
+      "candidate_blocks": 9,
+      "review_items": [
+        "FC08",
+        "FC09"
+      ]
+    },
+    {
+      "module": "m42680",
+      "title": "GUTs: The Unification of Forces",
+      "source_sha256": "7f52de36c25db4bb44ad4e8d28cdaab9ad4a5a112f45832716955bb669e0e5a1",
+      "paragraphs_and_captions_screened": 19,
+      "candidate_blocks": 4,
+      "review_items": [
+        "FC26"
+      ]
+    },
+    {
+      "module": "m42699",
+      "title": "Atomic Masses",
+      "source_sha256": "df36add0e21ba188f5d68cafc50b44cdb39b84335b9c500cf0e534c891a69153",
+      "paragraphs_and_captions_screened": 0,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m42702",
+      "title": "Selected Radioactive Isotopes",
+      "source_sha256": "4085653710398a1d6125ada31c1b11c7794f7920a1ac0e4c69e6adda6fbd8217",
+      "paragraphs_and_captions_screened": 1,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m78798",
+      "title": "Useful Information",
+      "source_sha256": "5839aea08241bc5d0657e1790751b00ffa0609ac3f0d405e7caffd4b5e6b4bed",
+      "paragraphs_and_captions_screened": 1,
+      "candidate_blocks": 0,
+      "review_items": []
+    },
+    {
+      "module": "m42709",
+      "title": "Glossary of Key Symbols and Notation",
+      "source_sha256": "cbce27000e57bd2803bf00f93bae85f180be2396b497d9c336e4f49048880bec",
+      "paragraphs_and_captions_screened": 1,
+      "candidate_blocks": 1,
+      "review_items": []
+    }
+  ]
+}

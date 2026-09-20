@@ -4,6 +4,10 @@
 
 The scoped CC BY upstream comparison/backport pass is complete: all 140 mapped sections have recorded dispositions, with zero unresolved comparison differences. The local Preface has no upstream counterpart. Published 1.0 remains frozen.
 
+The first focused factual-review packet is ready (September 19, 2026): **25 proposed corrections and nine passages needing coordinated author review**, all unapplied. Read it at http://127.0.0.1:8765/review-1.1/fact-check-review/ or in [the Markdown review](../reports/1.1/fact-check-review/review.md). Proposal snapshots, source hashes and factual references are in `proposals/1.1/fact-check.json`; rebuild the page and screening inventory with `python tools/render_fact_check_review.py`. The maintained corpus still has 168 approved editorial records. This packet does not certify all textbook claims: all 141 sections were searched, yielding 452 overlapping-category candidate blocks, and selected high-risk claims were independently followed up. Remaining leads and scope limits are explicit in `proposals/1.1/fact-check-followups.json` and the review page. Resolve the consequential medical/physics holds before closing this release task.
+
+The author is updating MyOpenMath assessment settings to reference the **published 1.0** section links and will provide a fresh export for the conceptual exercise revision. The export is not a dependency for factual review. No course settings or published website files are changed by this work.
+
 Work order approved by the author:
 
 1. **Immediate next task: focused factual audit.** Independently check historical dates, discovery/attribution and Nobel claims; medical, environmental and safety claims; constants, definitions and potentially outdated assertions. Produce a source-linked, side-by-side review packet with minimal proposed corrections. Separate confirmed errors from uncertainty and broader editorial preferences. Preserve existing prose where possible; substantial rewriting remains author-led. Agreement with upstream is not evidence of independent verification. This is the next work item, not a timed/background automation.
