@@ -973,13 +973,13 @@
       "source_path": "maintained/modules/m52480/index.cnxml",
       "source_sha256": "5f69d345f7d9a1af551326324c3574dd8f6bc909747c1db1514bc1d0b38e20c4",
       "title": "Fusion ignition, target gain, and practical energy production",
-      "reason": "NIF achieved ignition and exceeded break-even relative to laser energy delivered to the target in December 2022, with further gains demonstrated in April 2025. This is not net energy for the facility or electricity production. Retain the opening explanation of temperature, density, and confinement time; qualify ignition so it does not imply an indefinitely sustained reaction, identify the energy accounting boundary, and remove the speculative commercial timetable. The adjacent ITER paragraph and caption still need their separate coordinated update: remove the obsolete 2018 completion promise and distinguish the 500 MW fusion goal from electricity production.",
+      "reason": "Coordinated update of the introductory definitions, magnetic-confinement paragraph, ITER caption, and inertial-confinement paragraph. The opening paragraph ends with the author's ignition and break-even definitions. NIF milestones appear with the description of inertial confinement; ITER's design goal is distinguished from whole-facility energy balance and electricity generation. Remove the obsolete completion date without introducing another forecast. Existing explanations, figure references, and credits are retained.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2446715\">The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. <term id=\"import-auto-id953457\">Ignition</term> is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.</para>",
-      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2446715\">The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. <term id=\"import-auto-id953457\">Ignition</term> occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input; for a pulsed experiment, the corresponding comparison is between energies. In December 2022, the National Ignition Facility at Lawrence Livermore National Laboratory achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2446715\">The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. <term id=\"import-auto-id953457\">Ignition</term> occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input.</para>",
       "edits": [
         {
           "before": "<term id=\"import-auto-id953457\">Ignition</term> is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.",
-          "after": "<term id=\"import-auto-id953457\">Ignition</term> occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input; for a pulsed experiment, the corresponding comparison is between energies. In December 2022, the National Ignition Facility at Lawrence Livermore National Laboratory achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development."
+          "after": "<term id=\"import-auto-id953457\">Ignition</term> occurs when heating by the fusion reactions themselves is sufficient to sustain the burn while the fuel remains confined. Another milestone, called <term id=\"import-auto-id2399252\">break-even</term>, occurs when the fusion power produced equals the heating power input."
         }
       ],
       "sources": [
@@ -1008,7 +1008,60 @@
           "use": "factual verification only; no source prose or media imported"
         }
       ],
-      "revision_note": "At author request, show the updated ignition/break-even paragraph in context for review. The opening two sentences and both term identifiers are preserved. This proposal is not yet approved or applied. The adjacent ITER paragraph and caption remain pending a separate draft within FC27; approving this paragraph must not silently approve those undrafted changes."
+      "revision_note": "At author request, redistribute the recent fusion results to their relevant paragraphs and show all connected edits together under FC27. Introductory ending uses the author's exact wording with existing term identifiers. Related passages have individual anchors and substitution lists. All FC27 passages remain proposals, not applied.",
+      "related_passages": [
+        {
+          "title": "Magnetic confinement and ITER",
+          "source_id": "import-auto-id1272517",
+          "anchor": "import-auto-id1272517",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1272517\">Two techniques have shown considerable promise. The first of these is called <term id=\"import-auto-id3191505\">magnetic confinement</term> and uses the property that charged particles have difficulty crossing magnetic field lines. The tokamak, shown in <link target-id=\"import-auto-id1901128\" />, has shown particular promise. The tokamak’s toroidal coil confines charged particles into a circular path with a helical twist due to the circulating ions themselves. In 1995, the Tokamak Fusion Test Reactor at Princeton in the US achieved world-record plasma temperatures as high as 500 million degrees Celsius. This facility operated between 1982 and 1997. A joint international effort is underway in France to build a tokamak-type reactor that will be the stepping stone to commercial power. ITER, as it is called, will be a full-scale device that aims to demonstrate the feasibility of fusion energy. It will generate 500 MW of power for extended periods of time and will achieve break-even conditions. It will study plasmas in conditions similar to those expected in a fusion power plant. Completion is scheduled for 2018.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1272517\">Two techniques have shown considerable promise. The first of these is called <term id=\"import-auto-id3191505\">magnetic confinement</term> and uses the property that charged particles have difficulty crossing magnetic field lines. The tokamak, shown in <link target-id=\"import-auto-id1901128\" />, has shown particular promise. The tokamak’s toroidal coil confines charged particles into a circular path with a helical twist due to the circulating ions themselves. In 1995, the Tokamak Fusion Test Reactor at Princeton in the US achieved world-record plasma temperatures as high as 500 million degrees Celsius. This facility operated between 1982 and 1997. A joint international effort is underway in France to build a tokamak-type reactor as a stepping stone toward commercial power. ITER, as it is called, will be a full-scale device that aims to demonstrate the feasibility of fusion energy. It is designed to produce 500 MW of fusion power from 50 MW of heating power supplied to the plasma. This comparison does not include the power needed to operate the whole facility, and ITER will not generate electricity. It will study plasmas in conditions similar to those expected in a fusion power plant.</para>",
+          "edits": [
+            {
+              "before": "that will be the stepping stone to commercial power.",
+              "after": "as a stepping stone toward commercial power."
+            },
+            {
+              "before": "It will generate 500 MW of power for extended periods of time and will achieve break-even conditions.",
+              "after": "It is designed to produce 500 MW of fusion power from 50 MW of heating power supplied to the plasma. This comparison does not include the power needed to operate the whole facility, and ITER will not generate electricity."
+            },
+            {
+              "before": " Completion is scheduled for 2018.",
+              "after": ""
+            }
+          ]
+        },
+        {
+          "title": "ITER figure caption",
+          "source_id": null,
+          "anchor": "import-auto-id1901128",
+          "before_xml": "<caption xmlns=\"http://cnx.rice.edu/cnxml\">(a) Artist’s rendition of ITER, a tokamak-type fusion reactor being built in southern France. It is hoped that this gigantic machine will reach the break-even point. Completion is scheduled for 2018. (credit: Stephan Mosel, Flickr)</caption>",
+          "proposed_xml": "<caption xmlns=\"http://cnx.rice.edu/cnxml\">(a) Artist’s rendition of ITER, a tokamak-type fusion reactor being built in southern France. It is designed to produce more fusion power than the heating power supplied to its plasma, but will not generate electricity. (credit: Stephan Mosel, Flickr)</caption>",
+          "edits": [
+            {
+              "before": "It is hoped that this gigantic machine will reach the break-even point. Completion is scheduled for 2018.",
+              "after": "It is designed to produce more fusion power than the heating power supplied to its plasma, but will not generate electricity."
+            }
+          ]
+        },
+        {
+          "title": "Inertial confinement and NIF",
+          "source_id": "import-auto-id2603001",
+          "anchor": "import-auto-id2603001",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2603001\">The second promising technique aims multiple lasers at tiny fuel pellets filled with a mixture of deuterium and tritium. Huge power input heats the fuel, evaporating the confining pellet and crushing the fuel to high density with the expanding hot plasma produced. This technique is called <term id=\"import-auto-id2017206\">inertial confinement</term>, because the fuel’s inertia prevents it from escaping before significant fusion can take place. Higher densities have been reached than with tokamaks, but with smaller confinement times. In 2009, the Lawrence Livermore Laboratory (CA) completed a laser fusion device with 192 ultraviolet laser beams that are focused upon a D-T pellet (see <link target-id=\"import-auto-id1824212\" />). </para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2603001\">The second promising technique aims multiple lasers at tiny fuel pellets filled with a mixture of deuterium and tritium. Huge power input heats the fuel, evaporating the confining pellet and crushing the fuel to high density with the expanding hot plasma produced. This technique is called <term id=\"import-auto-id2017206\">inertial confinement</term>, because the fuel’s inertia prevents it from escaping before significant fusion can take place. Higher densities have been reached than with tokamaks, but with smaller confinement times. In 2009, Lawrence Livermore National Laboratory (CA) completed the National Ignition Facility (NIF), a laser fusion device with 192 ultraviolet laser beams that are focused upon a D-T pellet (see <link target-id=\"import-auto-id1824212\" />). In December 2022, NIF achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. For these pulsed experiments, the comparison is between energies rather than steady power levels. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development.</para>",
+          "edits": [
+            {
+              "before": "the Lawrence Livermore Laboratory (CA) completed a laser fusion device",
+              "after": "Lawrence Livermore National Laboratory (CA) completed the National Ignition Facility (NIF), a laser fusion device"
+            },
+            {
+              "before": "). </para>",
+              "after": "). In December 2022, NIF achieved ignition and exceeded break-even relative to the laser energy delivered to its target, producing 3.15 MJ of fusion energy from 2.05 MJ of laser energy. For these pulsed experiments, the comparison is between energies rather than steady power levels. In April 2025, another experiment produced 8.6 MJ from 2.08 MJ of laser energy. These experiments did not produce net usable energy: operating the lasers required much more energy than was released by fusion. Practical fusion power plants remain a goal requiring substantial further development.</para>"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "FC28",
