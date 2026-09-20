@@ -301,11 +301,11 @@ There was preliminary evidence in 1953, so a bare date substitution would lose a
 
 Production and Properties of Electromagnetic Waves · proposed-not-applied
 
-JAXA reports reception in April–May 2015. Avoid calling a 2010 mission the latest accomplishment or implying current contact.
+Use a dated IKAROS account and retain its figure reference, then add the 2019 LightSail 2 demonstration of controlled orbital changes using sunlight pressure. JAXA reports IKAROS data reception in April–May 2015. Avoid calling the 2010 mission the latest accomplishment or implying current contact.
 
 **Current:** The latest accomplishment on this concept is represented by the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. IKAROS solar sail is currently traveling through the solar system. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. Last update from the spacecraft was in May 2014, on a ten-month orbit around the Sun. A scale model of the spacecraft is shown in .
 
-**Proposed:** One demonstration of this concept is the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. JAXA reported receiving data from the spacecraft in April and May 2015. A scale model of the spacecraft is shown in .
+**Proposed:** One demonstration of this concept is the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. JAXA reported receiving data from the spacecraft in April and May 2015. A scale model of the spacecraft is shown in . In 2019, The Planetary Society’s LightSail 2 demonstrated controlled changes to its orbit around Earth using the pressure of sunlight.
 
 - [JAXA: IKAROS mission updates](https://global.jaxa.jp/projects/sat/ikaros/topics.html)
 - [The Planetary Society: LightSail 2 mission success](https://www.planetary.org/press-releases/lightsail-2-mission-success)

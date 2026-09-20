@@ -845,9 +845,9 @@
       "source_path": "maintained/modules/m75429/index.cnxml",
       "source_sha256": "e750659b54a629388202d13d0533b340c44abeb03126e96c15b2cef0e50ffde3",
       "title": "IKAROS: use a dated mission account",
-      "reason": "JAXA reports reception in April–May 2015. Avoid calling a 2010 mission the latest accomplishment or implying current contact.",
+      "reason": "Use a dated IKAROS account and retain its figure reference, then add the 2019 LightSail 2 demonstration of controlled orbital changes using sunlight pressure. JAXA reports IKAROS data reception in April–May 2015. Avoid calling the 2010 mission the latest accomplishment or implying current contact.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"eip-149\">The latest accomplishment on this concept is represented by the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. IKAROS solar sail is currently traveling through the solar system. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. Last update from the spacecraft was in May 2014, on a ten-month orbit around the Sun. A scale model of the spacecraft is shown in <link target-id=\"IKAROS_IAC_2010\" />.</para>",
-      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"eip-149\">One demonstration of this concept is the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. JAXA reported receiving data from the spacecraft in April and May 2015. A scale model of the spacecraft is shown in <link target-id=\"IKAROS_IAC_2010\" />.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"eip-149\">One demonstration of this concept is the IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun) project by Japan Aerospace Exploration Agency (JAXA), which was launched in May 2010. During its six-month journey to Venus, acceleration and attitude control using the solar sail, rather than thrusters, were successfully tested. JAXA reported receiving data from the spacecraft in April and May 2015. A scale model of the spacecraft is shown in <link target-id=\"IKAROS_IAC_2010\" />. In 2019, The Planetary Society’s LightSail 2 demonstrated controlled changes to its orbit around Earth using the pressure of sunlight.</para>",
       "edits": [
         {
           "before": "The latest accomplishment on this concept is represented by",
@@ -860,6 +860,10 @@
         {
           "before": "Last update from the spacecraft was in May 2014, on a ten-month orbit around the Sun.",
           "after": "JAXA reported receiving data from the spacecraft in April and May 2015."
+        },
+        {
+          "before": "</para>",
+          "after": " In 2019, The Planetary Society’s LightSail 2 demonstrated controlled changes to its orbit around Earth using the pressure of sunlight.</para>"
         }
       ],
       "sources": [
@@ -898,8 +902,9 @@
         "question": "Have there been solar-sail demonstrations since IKAROS?",
         "findings": "LightSail 2 demonstrated controlled orbit changes using sunlight in 2019 and operated until reentry in November 2022. NanoSail-D demonstrated deployment and deorbit capability in 2011; atmospheric drag was important. NASA ACS3 deployed its sail in 2024, a boom/deployment milestone that should not be conflated with a demonstrated controlled solar-propulsion result.",
         "optional_addition": "In 2019, The Planetary Society’s LightSail 2 demonstrated controlled changes to its orbit around Earth using the pressure of sunlight.",
-        "status": "Research recorded; optional addition not incorporated into proposal or textbook."
-      }
+        "status": "LightSail 2 addition incorporated into the review proposal at author request; not applied to textbook."
+      },
+      "revision_note": "At author request, added the LightSail 2 sentence after the IKAROS description and figure reference. Updated paragraph is ready for review; not yet applied to the textbook."
     },
     {
       "id": "FC26",
