@@ -41,6 +41,7 @@ for h in holds:
  for side,label in [('before','Before'),('after','Applied for 1.1')] if h.get('after') else ([('before','Current paragraph — unchanged'),('proposed','Proposed for 1.1 — not applied')] if h.get('proposed') else [('before','Current paragraph — unchanged'),('upstream','Pinned upstream — paragraph not applied')]):
   body=render(h[side],h['module']) if h.get(side) else 'No corresponding upstream block.'
   page+='<div class="box"><h3>'+label+'</h3>'+body+'</div>'
+ if h.get('upstream_original'):page+='</div><details><summary>Original pinned upstream addition</summary>'+render(h['upstream_original'],h['module'])+'</details><div>'
  page+='</div>'+''.join('<p>Factual reference: <a href="'+esc(source['url'])+'">'+esc(source['title'])+'</a></p>' for source in h.get('sources',[]))+'<p>'+ ' · '.join('<a href="#'+load(r)['id']+'">Applied change '+load(r)['id']+'</a>' for r in h.get('records',[]))+'</p></section>'
 page+='<h2 id="applied">Applied corrections</h2><ul>'+''.join('<li><a href="#'+x['id']+'">'+x['id']+' — '+esc(sections[x['module']]['title'])+'</a>: '+esc(x['reason'])+'</li>' for x in batch['changes'])+'</ul>'
 for x in batch['changes']:
