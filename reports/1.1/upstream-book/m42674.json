@@ -2,14 +2,15 @@
   "module": "m42674",
   "title": "Particles, Patterns, and Conservation Laws",
   "slug": "particles-patterns-and-conservation-laws",
-  "local_sha256": "109114fdf2450a6e4191362e1032c2d40d6438a20e313b7ac36b4a8658b05382",
+  "local_sha256": "17c1c3b736b342b8383757a6db3fb4972483903c888f70abbbf7a7920211519f",
   "upstream_modules": [
     "m42674"
   ],
   "counts": {
     "prose": 4,
     "references": 2,
-    "math-markup-change": 182
+    "math-markup-change": 181,
+    "math-token-change": 1
   },
   "changes": [
     {
@@ -21,7 +22,7 @@
       "status": "retained-adaptation-or-deferred-editorial-change",
       "local": "(b) [MATH]",
       "upstream": "(c) [MATH]",
-      "local_html": "(b)\n               <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mrow><msup><mi>τ</mi><mo stretchy=\"false\">−</mo></msup><mrow><mrow><mo stretchy=\"false\">→</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow /></mrow></mtd></mtr><mtr><mtd><mrow><mrow><mrow><mo stretchy=\"false\">⇒</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup><mrow><mrow><mi /><mtext>  antiparticle of  </mtext><msup><mi>μ</mi><mrow><mo stretchy=\"false\">+</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mi>v</mi><mi>τ</mi></msub></mrow></mrow></mrow></mrow><mrow /></mrow></mtd></mtr></mtable><mrow /></mrow></mrow></mrow></math>",
+      "local_html": "(b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mtable columnalign=\"left\"><mtr><mtd><mrow><msup><mi>τ</mi><mo>−</mo></msup><mo>→</mo><msup><mi>μ</mi><mo>−</mo></msup><mo>+</mo><msub><mover accent=\"true\"><mi>ν</mi><mo>¯</mo></mover><mi>μ</mi></msub><mo>+</mo><msub><mi>ν</mi><mi>τ</mi></msub></mrow></mtd></mtr><mtr><mtd><mrow><mo>⇒</mo><msup><mi>μ</mi><mo>−</mo></msup><mtext> antiparticle of </mtext><msup><mi>μ</mi><mo>+</mo></msup><mtext>; </mtext><msub><mover accent=\"true\"><mi>ν</mi><mo>¯</mo></mover><mi>μ</mi></msub><mtext> of </mtext><msub><mi>ν</mi><mi>μ</mi></msub><mtext>; </mtext><msub><mi>ν</mi><mi>τ</mi></msub><mtext> of </mtext><msub><mover accent=\"true\"><mi>ν</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mtd></mtr></mtable></math>",
       "upstream_html": "(c)\n               <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mtable columnalign=\"left\"><mtr><mtd><msup><mi>τ</mi><mo stretchy=\"false\">−</mo></msup><mrow><mrow><mo stretchy=\"false\">→</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow /></mtd></mtr><mtr><mtd><mrow><mrow><mo stretchy=\"false\">⇒</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup><mrow><mrow><mi /><mtext>  antiparticle of  </mtext><msup><mi>μ</mi><mrow><mo stretchy=\"false\">+</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mi>v</mi><mi>τ</mi></msub></mrow></mrow></mrow></mrow></mtd></mtr></mtable></math>",
       "exercise_context": true,
       "credit_review_required": false,
@@ -225,17 +226,17 @@
       "disposition_reason": "Rendered trees differ only by redundant attribute-free rows under the documented conservative normalization; preserve local MathML."
     },
     {
-      "id": "UP-176b978236d2fdda",
-      "kind": "math-markup-change",
+      "id": "UP-5f21b0c49ad2c0ca",
+      "kind": "math-token-change",
       "local_module": "m42674",
       "upstream_module": "m42674",
       "source_id": "eip-id8928458@1",
-      "status": "retained-adaptation-or-deferred-editorial-change",
-      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mrow><mtable columnalign=\"left\"><mtr><mtd><mrow><msup><mi>τ</mi><mo stretchy=\"false\">−</mo></msup><mrow><mrow><mo stretchy=\"false\">→</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow /></mrow></mtd></mtr><mtr><mtd><mrow><mrow><mrow><mo stretchy=\"false\">⇒</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup><mrow><mrow><mi /><mtext>  antiparticle of  </mtext><msup><mi>μ</mi><mrow><mo stretchy=\"false\">+</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mi>v</mi><mi>τ</mi></msub></mrow></mrow></mrow></mrow><mrow /></mrow></mtd></mtr></mtable><mrow /></mrow></mrow></mrow></math>",
+      "status": "retain-approved-adaptation",
+      "local": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mtable columnalign=\"left\"><mtr><mtd><mrow><msup><mi>τ</mi><mo>−</mo></msup><mo>→</mo><msup><mi>μ</mi><mo>−</mo></msup><mo>+</mo><msub><mover accent=\"true\"><mi>ν</mi><mo>¯</mo></mover><mi>μ</mi></msub><mo>+</mo><msub><mi>ν</mi><mi>τ</mi></msub></mrow></mtd></mtr><mtr><mtd><mrow><mo>⇒</mo><msup><mi>μ</mi><mo>−</mo></msup><mtext> antiparticle of </mtext><msup><mi>μ</mi><mo>+</mo></msup><mtext>; </mtext><msub><mover accent=\"true\"><mi>ν</mi><mo>¯</mo></mover><mi>μ</mi></msub><mtext> of </mtext><msub><mi>ν</mi><mi>μ</mi></msub><mtext>; </mtext><msub><mi>ν</mi><mi>τ</mi></msub><mtext> of </mtext><msub><mover accent=\"true\"><mi>ν</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mtd></mtr></mtable></math>",
       "upstream": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mtable columnalign=\"left\"><mtr><mtd><msup><mi>τ</mi><mo stretchy=\"false\">−</mo></msup><mrow><mrow><mo stretchy=\"false\">→</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mo stretchy=\"false\">+</mo><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow /></mtd></mtr><mtr><mtd><mrow><mrow><mo stretchy=\"false\">⇒</mo><msup><mi>μ</mi><mrow><mo stretchy=\"false\">−</mo><mrow /></mrow></msup><mrow><mrow><mi /><mtext>  antiparticle of  </mtext><msup><mi>μ</mi><mrow><mo stretchy=\"false\">+</mo><mrow /></mrow></msup></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mi>v</mi><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>μ</mi></msub></mrow></mrow><mrow><mrow><mi>;  </mi><mi /><msub><mover accent=\"true\"><mi>v</mi><mo>¯</mo></mover><mi>τ</mi></msub></mrow></mrow><mrow><mrow><mi /><mtext>  of  </mtext><mi /><msub><mi>v</mi><mi>τ</mi></msub></mrow></mrow></mrow></mrow></mtd></mtr></mtable></math>",
       "exercise_context": true,
       "credit_review_required": false,
-      "disposition_reason": "Preserve author-approved X20/X21 and local (b) numbering after omitted lepton-conservation part. Upstream equation table flattens rows but does not correct the tau-decay content; potential shared sign issues are listed for later exercise review, not silently imported."
+      "disposition_reason": "Retain author-approved U4-13 tau-decay correction."
     },
     {
       "id": "UP-64ff89569b02ac9e",

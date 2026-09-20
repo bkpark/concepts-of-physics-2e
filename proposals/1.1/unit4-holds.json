@@ -11,5 +11,27 @@
     "upstream": "<para id=\"import-auto-id2519865\">While 70 kg of material may not be a very large mass compared to the amount of fuel in a power plant, it is extremely radioactive, since it only has a 30-year half-life. Six megacuries (6.0 MCi) is an extraordinary amount of activity but is only a fraction of what is produced in nuclear reactors. Similar amounts of the other isotopes were also released at Chernobyl. Although the chances of such a disaster may have seemed small, the consequences were extremely severe, requiring greater caution than was used. More will be said about safe reactor design in the next chapter, but it should be noted that more recent reactors have a fundamentally safer design.</para>",
     "source_sha256": "095d396a14d8b75134912b26e5f85d2a4a1ce5f3bdb5a53fea939c768bcd21d0",
     "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed"
+  },
+  {
+    "id": "U4-H02",
+    "title": "Medical imaging doses",
+    "module": "m68327",
+    "source_id": "import-auto-id1870847",
+    "status": "Proposed — not applied",
+    "reason": "The current paragraph mixes effective and organ doses, overstates localization, and gives a dental X-ray dose about a thousand times the representative effective dose.",
+    "recommendation": "Replace the paragraph with this shorter comparison. Remove the unqualified scattering and thyroid-dose claims rather than expand the discussion. Numerical facts are referenced below; no external prose is copied.",
+    "before": "<para id=\"import-auto-id1870847\">Medical doses of radiation are also limited. Diagnostic doses are generally low and have further lowered with improved techniques and faster films. With the possible exception of routine dental X-rays, radiation is used diagnostically only when needed so that the low risk is justified by the benefit of the diagnosis. Chest X-rays give the lowest doses—about 0.1 mSv to the tissue affected, with less than 5 percent scattering into tissues that are not directly imaged. Other X-ray procedures range upward to about 10 mSv in a CT scan, and about 5 mSv (0.5 rem) per dental X-ray, again both only affecting the tissue imaged. Medical images with radiopharmaceuticals give doses ranging from 1 to 5 mSv, usually localized. One exception is the thyroid scan using <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mrow/><m:mtext>131</m:mtext></m:msup><m:mtext>I</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"\" lSup { size 8{\"131\"} } I} {}</m:annotation></m:semantics></m:math>. Because of its relatively long half-life, it exposes the thyroid to about 0.75 Sv. The isotope <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mtext>123</m:mtext></m:msup><m:mtext>I</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is more difficult to produce, but its short half-life limits thyroid exposure to about 15 mSv.</para>",
+    "proposed": "<para id=\"import-auto-id1870847\">Diagnostic doses of radiation vary with the procedure. Approximate effective doses for adults are 0.005 mSv for a dental X-ray, 0.1 mSv for a chest X-ray, and 6.1 mSv for a chest CT scan. Effective dose accounts for the different sensitivities of the tissues exposed; it is not the dose received by each tissue. These values vary with the equipment, procedure, and patient.</para>",
+    "source_sha256": "b8085467519084894c36c85ae0bb064bf11d5e3e2c91ef7396908cc60a045286",
+    "sources": [
+      {
+        "title": "RadiologyInfo: adult effective doses",
+        "url": "https://www.radiologyinfo.org/en/info/safety-xray"
+      },
+      {
+        "title": "RadiologyInfo: absorbed, equivalent and effective dose",
+        "url": "https://www.radiologyinfo.org/en/info/safety-hiw_09"
+      }
+    ]
   }
 ]

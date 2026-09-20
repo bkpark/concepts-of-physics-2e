@@ -19,7 +19,7 @@
 <item><link target-id="import-auto-id1528540"/>, Other Units</item>
 <item><link target-id="import-auto-id1610756"/>, Useful Formulae</item>
 
-  </list><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1211982" summary="Four-column table of Important Constants. Column one lists the constant’s symbol. Column two lists its meaning. Column three lists its best value, and column four lists its approximate value."><title>Important Constants<sup><footnote id="import-auto-footnote-1"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty, <link url="http://www.physics.nist.gov/cuu">www.physics.nist.gov/cuu</link> (2018 values). Values in parentheses are the uncertainties in the last digits. Numbers without uncertainties are exact as defined.</footnote></sup></title>
+  </list><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1211982" summary="Four-column table of Important Constants. Column one lists the constant’s symbol. Column two lists its meaning. Column three lists its best value, and column four lists its approximate value."><title>Important Constants<sup><footnote id="import-auto-footnote-1"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty, <link url="http://www.physics.nist.gov/cuu">www.physics.nist.gov/cuu</link> (2018 values). Values in parentheses are the uncertainties in the last digits. Values in the approximate column are rounded. Absence of an uncertainty does not imply that a displayed value is exact.</footnote></sup></title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/><colspec colnum="2" colname="c2"/><colspec colnum="3" colname="c3"/><colspec colnum="4" colname="c4"/>
 
 <thead>
@@ -65,8 +65,8 @@
   <row>
     <entry><m:math display="block"><m:ci>σ</m:ci></m:math></entry>
     <entry>Stefan-Boltzmann constant</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">5.670374419<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mtext>W</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">⋅</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">5.67<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mtext>W</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">⋅</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">5.670374419<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mtext>W</m:mtext><m:mo stretchy="false">/</m:mo><m:mo>(</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>K</m:mtext><m:cn>4</m:cn></m:msup><m:mo>)</m:mo></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">5.67<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mtext>W</m:mtext><m:mo stretchy="false">/</m:mo><m:mo>(</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>K</m:mtext><m:cn>4</m:cn></m:msup><m:mo>)</m:mo></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:ci>k</m:ci></m:math></entry>
@@ -88,9 +88,9 @@
   </row>
   <row>
     <entry><m:math display="block"><m:msub><m:ci>μ</m:ci><m:cn>0</m:cn></m:msub></m:math></entry>
-    <entry>Permeability of free space</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">4π<m:sep/>−7</m:cn><m:mspace width="0.15em"/><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>A</m:mtext></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.26<m:sep/>−6</m:cn><m:mspace width="0.15em"/><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>A</m:mtext></m:mrow></m:math></entry>    
+    <entry>Permeability of free space<footnote id="mu0-si-2019-note">Before the 2019 SI revision, 4π × 10⁻⁷ T·m/A was exact. It remains an excellent approximation.</footnote></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.25663706212(19)<m:sep/>−6</m:cn><m:mspace width="0.15em"/><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>A</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">4π<m:sep/>−7</m:cn><m:mspace width="0.15em"/><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>A</m:mtext></m:mrow></m:math></entry>    
   </row>
   <row>
     <entry><m:math display="block"><m:ci>h</m:ci></m:math></entry>

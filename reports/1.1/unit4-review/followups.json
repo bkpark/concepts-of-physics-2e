@@ -21,13 +21,13 @@
     "module": "m78798",
     "source_id": "import-auto-id1211982",
     "topic": "Constants-table units and SI exactness",
-    "note": "Both versions omit the fourth power on K in Stefan–Boltzmann units; the local table also retains the old exact-form permeability expression. Plan a focused units/exactness audit rather than replace newer local constants with older upstream numbers."
+    "note": "Resolved in U4-12: W/(m²·K⁴), measured 2018 vacuum permeability, and former exact expression retained as an approximation with a 2019 SI note."
   },
   {
     "module": "m42674",
     "source_id": "eip-id8928458",
     "topic": "Tau-decay exercise",
-    "note": "Both versions retain a tau-minus decay expression whose neutrino/antineutrino family signs merit checking during exercise revision; the upstream row-format change does not fix the physics."
+    "note": "Resolved in U4-13: corrected neutrino/antineutrino assignments and matching antiparticle explanation."
   },
   {
     "module": "m76603",
@@ -45,6 +45,6 @@
     "module": "m68327",
     "source_id": "import-auto-id1870847",
     "topic": "Radiation-health data",
-    "note": "Shared medical-dose and risk estimates are not newly verified by an upstream match. Include them in the planned careful author read-through; no diagnostic guidance was added."
+    "note": "Shorter medical-dose paragraph proposed in U4-H02 for side-by-side review; not applied to the textbook."
   }
 ]
