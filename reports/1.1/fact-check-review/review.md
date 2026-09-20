@@ -77,7 +77,7 @@ Revised at author request to retain reeding and its anti-clipping purpose. Newto
 
 ## FC07 — Seaborg’s Nobel Prize was in Chemistry
 
-Nuclear Weapons · proposed-not-applied
+Nuclear Weapons · approved-pending-application
 
 The 1951 award was Chemistry. Other problems in this paragraph are separately listed under the nuclear-history hold.
 
@@ -89,7 +89,7 @@ The 1951 award was Chemistry. Other problems in this paragraph are separately li
 
 ## FC08 — Gell-Mann: lifespan and quark proposal date
 
-Particles, Patterns, and Conservation Laws · proposed-not-applied
+Particles, Patterns, and Conservation Laws · approved-pending-application
 
 Use 1929–2019 and 1964. This does not attempt a broader history of the independently proposed quark model.
 
@@ -102,7 +102,7 @@ Use 1929–2019 and 1964. This does not attempt a broader history of the indepen
 
 ## FC09 — Separate antiproton and antineutron discovery dates
 
-Particles, Patterns, and Conservation Laws · proposed-not-applied
+Particles, Patterns, and Conservation Laws · approved-pending-application
 
 Antiprotons were observed in 1955 and antineutrons in 1956.
 
@@ -115,7 +115,7 @@ Antiprotons were observed in 1955 and antineutrons in 1956.
 
 ## FC10 — Becquerel’s original material was a uranium salt
 
-Nuclear Radioactivity · proposed-not-applied
+Nuclear Radioactivity · approved-pending-application
 
 His original experiments used uranium salts, not pitchblende. Synchronize the two subsequent mentions in this paragraph.
 
@@ -127,7 +127,7 @@ His original experiments used uranium salts, not pitchblende. Synchronize the tw
 
 ## FC11 — Marie Curie’s cause of death
 
-Nuclear Radioactivity · proposed-not-applied
+Nuclear Radioactivity · approved-pending-application
 
 Nobel’s current Q&A identifies aplastic anemia. An older Nobel historical essay says leukemia, so this is a documented source discrepancy, not reliance on one unexamined institutional page.
 
@@ -140,7 +140,7 @@ Nobel’s current Q&A identifies aplastic anemia. An older Nobel historical essa
 
 ## FC12 — MRI radiofrequency energy can cause heating and burns
 
-The Electromagnetic Spectrum: Application Notes · proposed-not-applied
+The Electromagnetic Spectrum: Application Notes · approved-pending-application
 
 The absence of ionizing radiation does not make radiofrequency exposure hazard-free. FDA specifically identifies heating and burns. Keep the imaging explanation; replace only the final sentence.
 
@@ -152,7 +152,7 @@ The absence of ionizing radiation does not make radiofrequency exposure hazard-f
 
 ## FC13 — Climate attribution is stronger than a possible link
 
-Power · proposed-not-applied
+Power · approved-pending-application
 
 IPCC AR6 identifies human greenhouse-gas emissions as the cause of observed warming. Minimal wording update without adding climate-policy discussion.
 
@@ -162,17 +162,19 @@ IPCC AR6 identifies human greenhouse-gas emissions as the cause of observed warm
 
 - [IPCC AR6 synthesis: Summary for Policymakers A.1](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/)
 
-## FC14 — Montreal Protocol participation is no longer pending
+## FC14 — Montreal Protocol: distinguish ratification from implementation
 
 The Electromagnetic Spectrum: Application Notes · proposed-not-applied
 
-The treaty has universal ratification. Keep the already approved 2019/2020 ozone and CFC-bank discussion. Universal participation does not mean full compliance or that all ozone problems are resolved.
+Reassessment after author question: universal ratification in 2009 does not make continued developing-country participation unnecessary. UNEP documents ongoing implementation and enforcement after ratification. The original sentence is defensible if participation means implementation, so the original classification as a confirmed factual error is withdrawn. Suggested optional clarification retains that point and repairs the confusing phrase worldwide production and elimination of CFCs. No change is applied.
 
 **Current:** International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was large and long-lasting, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See .)
 
-**Proposed:** International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. The agreement has achieved universal ratification. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was large and long-lasting, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See .)
+**Proposed:** International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, continued participation by developing countries is needed to sustain the worldwide phase-out of CFCs. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was large and long-lasting, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See .)
 
 - [UNEP Ozone Secretariat: facts and figures](https://www.ozone.unep.org/facts-and-figures-ozone-protection)
+- [UNEP: 2010 annual report, universal ratification and continuing implementation](https://digitallibrary.un.org/record/761354/files/UNEP-AR-2010-FULL-REPORT_1.pdf)
+- [Ozone Secretariat: 2018 measures to sustain and enforce CFC-11 phase-out](https://www.ozone.unep.org/montreal-protocol-closes-annual-meeting-new-mandates)
 
 ## FC15 — Use standard solar UV bands; remove a universal 99% claim
 
