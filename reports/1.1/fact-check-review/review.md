@@ -380,7 +380,7 @@ Use a dated, jurisdiction-specific example from the 2025 U.S. NRC regulations, r
 
 ## FC28b — Present external-radiation protection as time, distance, shielding
 
-Biological Effects of Ionizing Radiation · proposed-not-applied
+Biological Effects of Ionizing Radiation · approved-pending-application
 
 Use the conventional time–distance–shielding teaching order and reorder the following explanations to match. This is not a mandatory sequence of actions or a ranking of effectiveness. Specify external sources to scope these measures appropriately. Preserve the existing shielding term identifier and figure reference. The faster-film sentence and dental illustration remain for the coordinated FC33 review; their appearance here is context, not approval of those claims.
 
