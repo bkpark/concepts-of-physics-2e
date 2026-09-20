@@ -119,7 +119,7 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
             page.append('<p class="notice"><strong>Proposed order change:</strong> '+esc(i['structural_proposal']['description'])+'</p>')
         for passage in i.get('related_passages', []):
             page.append('<h3>'+esc(passage['title'])+'</h3><p><a href="'+esc(link(i['module'],passage['anchor']))+'">View this passage in the current textbook</a></p>')
-            page.append('<div class="cols"><div class="box"><h3>Current 1.1 draft</h3>'+render(passage['before_xml'],i['module'])+'</div><div class="box"><h3>Proposed — not applied</h3>'+render(passage['proposed_xml'],i['module'])+'</div></div>')
+            page.append('<div class="cols"><div class="box"><h3>Current 1.1 draft</h3>'+render(passage['before_xml'],i['module'])+'</div><div class="box"><h3>Proposed — not applied</h3>'+render(passage.get('preview_xml', passage['proposed_xml']),i['module'])+'</div></div>')
             page.append('<details class="edits"><summary>Exact proposed substitutions for this passage</summary><ul>'+''.join('<li><del>'+esc(e['before'])+'</del> → <ins>'+esc(e['after'] or '[delete]')+'</ins></li>' for e in passage['edits'])+'</ul></details>')
         page.append('<ul>'+''.join('<li><a href="'+esc(s['url'])+'">'+esc(s['title'])+'</a></li>' for s in i['sources'])+'</ul></section>')
         md+=['## '+i['id']+' — '+i['title'],'',i['section_title']+' · '+i['status'],'',i['reason'],'','**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(i['before_xml']))),'']
@@ -128,7 +128,7 @@ for category,label in [('corrections','Proposed corrections'),('discussion','Pas
         for passage in i.get('related_passages', []):
             md += ['### '+passage['title'], '',
                    '**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['before_xml']))).strip(), '',
-                   '**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['proposed_xml']))).strip(), '']
+                   '**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage.get('preview_xml', passage['proposed_xml'])))).strip(), '']
         md += ['- ['+s['title']+']('+s['url']+')' for s in i['sources']]+['']
 leads=load('proposals/1.1/fact-check-followups.json')
 page.append('<section id="limits"><h2>Coverage and limits</h2><ul>'+''.join('<li>'+esc(l)+'</li>' for l in limits)+'</ul><p>The screening inventory contains '+str(len(inventory))+' candidate blocks from 141 sections; category counts overlap. Most candidates are ordinary teaching statements, not suspected errors.</p><h3>Additional leads, not independently resolved</h3><ul>'+''.join('<li><strong>'+esc(x['topic'])+':</strong> '+esc(x['note'])+'</li>' for x in leads)+'</ul></section></body></html>')

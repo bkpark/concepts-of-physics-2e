@@ -513,11 +513,11 @@ The 2024 ADA guidance recommends discontinuing routine patient abdominal aprons 
 
 **Proposed:** In this historical illustration, a lead apron is placed over the dental patient and shielding surrounds the X-ray tube to limit exposure to tissue other than the tissue that is being imaged. More efficient detectors reduce the radiation exposure needed to obtain images. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure. Routine use of patient lead aprons is no longer recommended by the American Dental Association (2024).
 
-### Adjacent paragraph: detector wording
+### Adjacent paragraph: approved time-distance-shielding order with proposed detector wording
 
 **Current:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person. Doses from most medical diagnostics have decreased in recent years due to faster films that require less exposure time.
 
-**Proposed:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person. Diagnostic doses are generally low and have been further lowered with improved techniques and more efficient detectors.
+**Proposed:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. Diagnostic doses are generally low and have been further lowered with improved techniques and more efficient detectors.
 
 - [ADA: 2024 radiography safety recommendations](https://www.ada.org/about/press-releases/ada-releases-updated-recommendations-to-enhance-radiography-safety-in-dentistry)
 
