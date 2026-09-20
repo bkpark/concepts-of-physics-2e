@@ -4,7 +4,7 @@ Review snapshot 2026-09-19. No proposals applied.
 
 ## FC01 — The meter does not change when light-speed measurements improve
 
-Physical Quantities and Units · proposed-not-applied
+Physical Quantities and Units · approved-pending-application
 
 The SI fixes the numerical value of c. The final sentence contradicts the definition just given. Delete that sentence; retain the history.
 
@@ -16,7 +16,7 @@ The SI fixes the numerical value of c. The final sentence contradicts the defini
 
 ## FC02 — Carbon-14 is produced by neutrons, not solar neutrinos
 
-Half-Life and Activity · proposed-not-applied
+Half-Life and Activity · approved-pending-application
 
 Atmospheric production is primarily nitrogen-14 capturing neutrons produced by cosmic rays. Only the incoming-particle phrase changes here.
 
@@ -28,7 +28,7 @@ Atmospheric production is primarily nitrogen-14 capturing neutrons produced by c
 
 ## FC03 — Correct the MBq-to-microcurie conversion
 
-Half-Life and Activity · proposed-not-applied
+Half-Life and Activity · approved-pending-application
 
 1 Ci = 3.7 × 10^10 Bq; therefore 1 MBq = 27.027… microcuries. Change the displayed number and its StarMath annotation together. The equality is approximate after rounding.
 
@@ -40,7 +40,7 @@ Half-Life and Activity · proposed-not-applied
 
 ## FC04 — Heisenberg uncertainty principle: 1927
 
-Uncertainty Principle · proposed-not-applied
+Uncertainty Principle · approved-pending-application
 
 The uncertainty principle dates to 1927, not 1929.
 
@@ -52,7 +52,7 @@ The uncertainty principle dates to 1927, not 1929.
 
 ## FC05 — Date the electron-diffraction confirmation to 1927
 
-The Wave Nature of Matter · proposed-not-applied
+The Wave Nature of Matter · approved-pending-application
 
 Davisson’s Nobel lecture dates the independent discoveries to early 1927. Earlier experimental work should not be confused with the confirmed wave interpretation.
 
@@ -66,11 +66,11 @@ Davisson’s Nobel lecture dates the independent discoveries to early 1927. Earl
 
 Physics: An Introduction · proposed-not-applied
 
-Newton was Warden and later Master, not “exchequer.” Edge lettering and milling predated his Mint appointment. Keep the anti-clipping point without crediting him with inventing reeding.
+Revised at author request to retain reeding and its anti-clipping purpose. Newton was Warden and later Master, not exchequer. Royal Mint accounts support his administration of recoinage and coin production; edge milling predates his appointment. Helping oversee production avoids claiming invention or first introduction of the technique.
 
 **Current:** Isaac Newton (1642–1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain’s Heritage of Science. London, 1917.)
 
-**Proposed:** Isaac Newton (1642–1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became Warden and later Master of the Royal Mint. He took this post seriously, helping to replace clipped coins with machine-made coins. (credit: Arthur Shuster and Arthur E. Shipley: Britain’s Heritage of Science. London, 1917.)
+**Proposed:** Isaac Newton (1642–1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became Warden and later Master of the Royal Mint. He took this post seriously, helping oversee the production of coins with reeded (ridged) edges to discourage unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain’s Heritage of Science. London, 1917.)
 
 - [Royal Mint Museum: Newton](https://www.royalmintmuseum.org.uk/journal/people/isaac-newton/)
 - [Royal Mint Museum: Charles II and mechanised coinage](https://www.royalmintmuseum.org.uk/journal/british-monarchs/charles-ii/)
