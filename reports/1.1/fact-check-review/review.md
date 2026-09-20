@@ -178,7 +178,7 @@ Reassessment after author question: universal ratification in 2009 does not make
 
 ## FC15 — Use standard solar UV bands; remove a universal 99% claim
 
-The Electromagnetic Spectrum: Application Notes · proposed-not-applied
+The Electromagnetic Spectrum: Application Notes · approved-pending-application
 
 WHO uses UVA 315–400 nm, UVB 280–315 nm, UVC 100–280 nm. The surface proportions vary with conditions; “most” avoids an unsupported universal percentage. The separate extended-UV spectrum definition need not be changed.
 
@@ -190,7 +190,7 @@ WHO uses UVA 315–400 nm, UVB 280–315 nm, UVC 100–280 nm. The surface propo
 
 ## FC16 — Thallium acts as a potassium analogue
 
-Medical Imaging and Diagnostics · proposed-not-applied
+Medical Imaging and Diagnostics · approved-pending-application
 
 The prescribing information describes uptake into viable myocardium analogous to potassium. The thyroid claims earlier in this paragraph need separate review below.
 
@@ -202,7 +202,7 @@ The prescribing information describes uptake into viable myocardium analogous to
 
 ## FC17 — Technetium-99m gamma energy
 
-Medical Imaging and Diagnostics · proposed-not-applied
+Medical Imaging and Diagnostics · approved-pending-application
 
 The principal imaging photon is 140.5 keV, or 0.1405 MeV. Use 0.141 MeV at the existing precision. The production explanation is separately held for review.
 
@@ -216,13 +216,14 @@ The principal imaging photon is 140.5 keV, or 0.1405 MeV. Use 0.141 MeV at the e
 
 Discovery of the Atomic Nucleus · proposed-not-applied
 
-The numerical value of elementary charge is exact in the revised SI; electron/proton masses remain measured. No need to change the rounded three-significant-figure values.
+Revised at author request to explain the historical reason for exactness. The SI redefinition effective May 20, 2019 fixed the numerical value of elementary charge in coulombs to define the ampere; before that, it was experimentally determined. Electron and proton masses remain measured. The following three-significant-figure values remain unchanged.
 
 **Current:** Today, numerical values of electron and proton charge (whose magnitude is also known as "elementary charge" and denoted with symbol e) and electron and proton masses are measured and known to very high precision. Their values (only up to three significant figures) are,
 
-**Proposed:** Today, numerical values of electron and proton charge (whose magnitude is also known as "elementary charge" and denoted with symbol e) and electron and proton masses are known to very high precision; the elementary charge has an exact defined value in the SI, while the masses are measured. Their values (only up to three significant figures) are,
+**Proposed:** Today, numerical values of electron and proton charge (whose magnitude is also known as "elementary charge" and denoted with symbol e) and electron and proton masses are known to very high precision. Before the SI redefinition that took effect in May 2019, the elementary charge was also measured. Its numerical value in coulombs is now fixed exactly to define the ampere, while electron and proton masses remain measured quantities. Their values (only up to three significant figures) are,
 
 - [NIST: definitions of SI base units](https://www.nist.gov/si-redefinition/definitions-si-base-units)
+- [NIST: ampere introduction and May 20, 2019 redefinition](https://www.nist.gov/si-redefinition/ampere-introduction)
 
 ## FC19 — Space Shuttle Endeavour spelling
 

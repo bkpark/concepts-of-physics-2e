@@ -504,7 +504,7 @@
     {
       "id": "FC15",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m67133",
       "section_title": "The Electromagnetic Spectrum: Application Notes",
       "slug": "the-electromagnetic-spectrum-application-notes",
@@ -541,12 +541,13 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved all changes through FC17; pending the application batch."
     },
     {
       "id": "FC16",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m42649",
       "section_title": "Medical Imaging and Diagnostics",
       "slug": "medical-imaging-and-diagnostics",
@@ -571,12 +572,13 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved all changes through FC17; pending the application batch."
     },
     {
       "id": "FC17",
       "category": "small-correction",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m42649",
       "section_title": "Medical Imaging and Diagnostics",
       "slug": "medical-imaging-and-diagnostics",
@@ -601,7 +603,8 @@
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "authorization": "Author approved all changes through FC17; pending the application batch."
     },
     {
       "id": "FC18",
@@ -615,13 +618,13 @@
       "source_path": "maintained/modules/m67805/index.cnxml",
       "source_sha256": "1e9d0720e3df1a31ec5860a14369132dcacb6a0803c188fe2be06d9fd45363c6",
       "title": "Elementary charge is fixed in the SI",
-      "reason": "The numerical value of elementary charge is exact in the revised SI; electron/proton masses remain measured. No need to change the rounded three-significant-figure values.",
+      "reason": "Revised at author request to explain the historical reason for exactness. The SI redefinition effective May 20, 2019 fixed the numerical value of elementary charge in coulombs to define the ampere; before that, it was experimentally determined. Electron and proton masses remain measured. The following three-significant-figure values remain unchanged.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"eip-242\">Today, numerical values of electron and proton charge (whose magnitude is also known as \"elementary charge\" and denoted with symbol <m:math><m:ci>e</m:ci></m:math>) and electron and proton masses are measured and known to very high precision. Their values (only up to three significant figures) are,</para>",
-      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"eip-242\">Today, numerical values of electron and proton charge (whose magnitude is also known as \"elementary charge\" and denoted with symbol <m:math><m:ci>e</m:ci></m:math>) and electron and proton masses are known to very high precision; the elementary charge has an exact defined value in the SI, while the masses are measured. Their values (only up to three significant figures) are,</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"eip-242\">Today, numerical values of electron and proton charge (whose magnitude is also known as \"elementary charge\" and denoted with symbol <m:math><m:ci>e</m:ci></m:math>) and electron and proton masses are known to very high precision. Before the SI redefinition that took effect in May 2019, the elementary charge was also measured. Its numerical value in coulombs is now fixed exactly to define the ampere, while electron and proton masses remain measured quantities. Their values (only up to three significant figures) are,</para>",
       "edits": [
         {
-          "before": "are measured and known to very high precision",
-          "after": "are known to very high precision; the elementary charge has an exact defined value in the SI, while the masses are measured"
+          "before": "are measured and known to very high precision.",
+          "after": "are known to very high precision. Before the SI redefinition that took effect in May 2019, the elementary charge was also measured. Its numerical value in coulombs is now fixed exactly to define the ampere, while electron and proton masses remain measured quantities."
         }
       ],
       "sources": [
@@ -630,8 +633,15 @@
           "url": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
           "checked": "2026-09-19",
           "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NIST: ampere introduction and May 20, 2019 redefinition",
+          "url": "https://www.nist.gov/si-redefinition/ampere-introduction",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
         }
-      ]
+      ],
+      "revision_note": "Author requested a short historical note about the 2019 definition. Revised wording is displayed for review, not yet applied."
     },
     {
       "id": "FC19",
