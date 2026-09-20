@@ -64,7 +64,7 @@ Davisson’s Nobel lecture dates the independent discoveries to early 1927. Earl
 
 ## FC06 — Newton’s Mint post and the coin-edge claim
 
-Physics: An Introduction · proposed-not-applied
+Physics: An Introduction · approved-pending-application
 
 Revised at author request to retain reeding and its anti-clipping purpose. Newton was Warden and later Master, not exchequer. Royal Mint accounts support his administration of recoinage and coin production; edge milling predates his appointment. Helping oversee production avoids claiming invention or first introduction of the technique.
 
