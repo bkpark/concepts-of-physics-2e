@@ -467,7 +467,7 @@ Connect the bridge discussion to the preceding shock-absorber example through da
 
 ## FC32 — Manhattan Project background, plutonium development, and Trinity
 
-Nuclear Weapons · proposed-not-applied
+Nuclear Weapons · approved-pending-application
 
 Review four connected paragraphs together. Correct project leadership and the chain-reaction milestone; replace the irrelevant, outdated Chernobyl aside with Hanford's wartime role. The main preview also includes approved FC07 (Seaborg's chemistry Nobel), applied only once in the eventual batch. Replace the uranium/plutonium comparison and detailed design prose with a shorter historical explanation of the unexpected plutonium problem and the resulting development challenge. Preserve figure references and IDs. Update Trinity's yield to about 25 kt using the 2021 reassessment (24.8 ± 2 kt), superseding the initial audit's older 19–21 kt sources, and remove the unstable comparison to the largest conventional bombs. Later claims about the end of the war, thermonuclear weapons, inventories, and treaties remain separate unresolved review work.
 
