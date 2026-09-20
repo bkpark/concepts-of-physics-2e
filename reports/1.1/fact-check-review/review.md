@@ -366,7 +366,7 @@ The opening paragraph ends with the author's ignition and break-even definitions
 
 ## FC28 — Radiation dose limits: replace the mixed regulatory claims
 
-Biological Effects of Ionizing Radiation · proposed-not-applied
+Biological Effects of Ionizing Radiation · approved-pending-application
 
 Use a dated, jurisdiction-specific example from the 2025 U.S. NRC regulations, rather than presenting mixed international and special-case limits as universal rules. Retain the points about occupational dose, higher local hand doses, pregnancy protection, public dose, and monitoring. Remove the unsupported reproductive-organ generalization, blanket occupational/public fractions, nuclear-power 0.05 mSv claim, Three Mile Island exclusivity claim, Chernobyl aside, and unsourced uranium-mine average. Include the principal exclusions and ALARA principle without turning the paragraph into a regulatory manual or implying that a legal limit is a threshold of harm.
 
@@ -377,6 +377,25 @@ Use a dated, jurisdiction-specific example from the 2025 U.S. NRC regulations, r
 - [US CFR 2025: occupational limits and ALARA, sections 20.1201 and 20.1101](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1201.pdf)
 - [US CFR 2025: public limits §20.1301](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1301.pdf)
 - [US CFR 2025: pregnancy dose protection, section 20.1208](https://www.govinfo.gov/content/pkg/CFR-2025-title10-vol1/pdf/CFR-2025-title10-vol1-sec20-1208.pdf)
+
+## FC28b — Present external-radiation protection as time, distance, shielding
+
+Biological Effects of Ionizing Radiation · proposed-not-applied
+
+Use the conventional time–distance–shielding teaching order and reorder the following explanations to match. This is not a mandatory sequence of actions or a ranking of effectiveness. Specify external sources to scope these measures appropriately. Preserve the existing shielding term identifier and figure reference. The faster-film sentence and dental illustration remain for the coordinated FC33 review; their appearance here is context, not approval of those claims.
+
+**Current:** To physically limit radiation doses, we use shielding, increase the distance from a source, and limit the time of exposure.
+
+**Proposed:** To physically limit radiation doses from external sources, we limit the time of exposure, increase the distance from a source, and use shielding.
+
+### Following explanatory paragraph
+
+**Current:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person. Doses from most medical diagnostics have decreased in recent years due to faster films that require less exposure time.
+
+**Proposed:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. Doses from most medical diagnostics have decreased in recent years due to faster films that require less exposure time.
+
+- [CDC: radiation safety and time, distance, shielding](https://www.cdc.gov/radiation-health/safety/index.html)
+- [NRC: minimize your exposure](https://www.nrc.gov/facilities-safety/radiation-protection/how-the-nrc-protects-you/minimize-your-exposure)
 
 ## FC29 — Radiation-risk calculation needs a coordinated revision
 

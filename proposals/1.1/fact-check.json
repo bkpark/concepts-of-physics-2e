@@ -1107,7 +1107,7 @@
     {
       "id": "FC28",
       "category": "author-discussion",
-      "status": "proposed-not-applied",
+      "status": "approved-pending-application",
       "module": "m68327",
       "section_title": "Biological Effects of Ionizing Radiation",
       "slug": "biological-effects-of-ionizing-radiation",
@@ -1145,7 +1145,60 @@
           "use": "factual verification only; no source prose or media imported"
         }
       ],
-      "revision_note": "Author requested a fact-based draft with minimal additions. Opening sentence retained exactly; surrounding ideas and wording retained where supported, with the unreliable middle claims replaced by a shorter scoped example. Numerical example explicitly dated to the 2025 CFR edition because direct current eCFR/NRC regulation-page access was blocked during verification. Proposal only; not approved or applied."
+      "revision_note": "Author requested a fact-based draft with minimal additions. Opening sentence retained exactly; surrounding ideas and wording retained where supported, with the unreliable middle claims replaced by a shorter scoped example. Numerical example explicitly dated to the 2025 CFR edition because direct current eCFR/NRC regulation-page access was blocked during verification. Proposal only; not approved or applied.",
+      "authorization": "Author approved FC28, including the ALARA statement; pending the application batch."
+    },
+    {
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "9c6beb31d7d5399116334a67137b8e275adb2e417c4782951eb25225e288b6cb",
+      "id": "FC28b",
+      "category": "author-discussion",
+      "status": "proposed-not-applied",
+      "source_id": "import-auto-id2971751",
+      "anchor": "import-auto-id2971751",
+      "title": "Present external-radiation protection as time, distance, shielding",
+      "reason": "Use the conventional time–distance–shielding teaching order and reorder the following explanations to match. This is not a mandatory sequence of actions or a ranking of effectiveness. Specify external sources to scope these measures appropriately. Preserve the existing shielding term identifier and figure reference. The faster-film sentence and dental illustration remain for the coordinated FC33 review; their appearance here is context, not approval of those claims.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2971751\">To physically limit radiation doses, we use <term id=\"import-auto-id3033475\">shielding</term>, increase the <emphasis>distance</emphasis> from a source, and limit the <emphasis>time of exposure</emphasis>.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2971751\">To physically limit radiation doses from external sources, we limit the <emphasis>time of exposure</emphasis>, increase the <emphasis>distance</emphasis> from a source, and use <term id=\"import-auto-id3033475\">shielding</term>.</para>",
+      "edits": [
+        {
+          "before": "To physically limit radiation doses, we use <term id=\"import-auto-id3033475\">shielding</term>, increase the <emphasis>distance</emphasis> from a source, and limit the <emphasis>time of exposure</emphasis>.",
+          "after": "To physically limit radiation doses from external sources, we limit the <emphasis>time of exposure</emphasis>, increase the <emphasis>distance</emphasis> from a source, and use <term id=\"import-auto-id3033475\">shielding</term>."
+        }
+      ],
+      "sources": [
+        {
+          "title": "CDC: radiation safety and time, distance, shielding",
+          "url": "https://www.cdc.gov/radiation-health/safety/index.html",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        },
+        {
+          "title": "NRC: minimize your exposure",
+          "url": "https://www.nrc.gov/facilities-safety/radiation-protection/how-the-nrc-protects-you/minimize-your-exposure",
+          "checked": "2026-09-19",
+          "use": "factual verification only; no source prose or media imported"
+        }
+      ],
+      "related_passages": [
+        {
+          "title": "Following explanatory paragraph",
+          "source_id": "import-auto-id3009469",
+          "anchor": "import-auto-id3009469",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\" /> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person. Doses from most medical diagnostics have decreased in recent years due to faster films that require less exposure time.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\" /> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. Doses from most medical diagnostics have decreased in recent years due to faster films that require less exposure time.</para>",
+          "edits": [
+            {
+              "before": "Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. The greater the distance from the source, the more the radiation spreads out. The less time a person is exposed to a given source, the smaller is the dose received by the person.",
+              "after": "The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation."
+            }
+          ]
+        }
+      ],
+      "revision_note": "Added at author request after approval of FC28. FC28b is a separate, unapplied proposal. Only the list order, its external-source scope, and the matching sentence order change; the remaining dental material is held under FC33."
     },
     {
       "id": "FC29",
