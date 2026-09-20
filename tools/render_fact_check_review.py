@@ -85,6 +85,8 @@ def render(xml, mid):
         if tag in ('annotation','annotation-xml','image','media'): return ''
         body = esc(e.text or '') + ''.join(visit(c) + esc(c.tail or '') for c in e)
         if tag == 'link':
+            if e.get('url'):
+                return '<a href="' + esc(e.get('url')) + '">' + (body or esc(e.get('url'))) + '</a>'
             target = e.get('document', mid)
             if target in sections:
                 return '<a href="' + esc(link(target, e.get('target-id'))) + '">' + (body or '[existing textbook reference]') + '</a>'
