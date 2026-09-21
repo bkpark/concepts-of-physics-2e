@@ -12,7 +12,7 @@ Preserve the therapeutic point: radiation can kill cancer cells, and treatment t
 
 **Proposed:** Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Radiation therapy exploits this sensitivity to kill cancer cells. Targeting the tumor and allowing normal tissue to recover between treatments help limit damage to healthy tissue. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.
 
-Revised at the author’s request to explain the treatment advantage directly. Still proposed, not approved or applied; the rest of the paragraph is unchanged.
+Revised at the author’s request to explain the treatment advantage directly. Author approved; not yet applied; the rest of the paragraph is unchanged.
 
 - [NCI: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy)
 - [NCI: external beam radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam)
