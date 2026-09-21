@@ -32,15 +32,17 @@ for i in packet['items']:
  page+=['<section id="'+i['id']+'"><h2>'+i['id']+' — '+esc(i['title'])+'</h2><p class="status">'+esc(i['status'])+' · '+esc(i['section_title'])+'</p><p>'+esc(i['reason'])+'</p><p><a href="'+context(i)+'">View current textbook context</a></p>']
  md+=['## '+i['id']+' — '+i['title'],'',i['reason'],'']
  for passage in [i]+i.get('related_passages',[]):
-  if passage is not i:page+=['<h3>'+esc(passage['title'])+'</h3><p><a href="'+context(i,passage['anchor'])+'">View related passage</a></p>']
+  pi={**i,**passage}
+  if passage.get('source_path'):assert hashlib.sha256((ROOT/passage['source_path']).read_bytes()).hexdigest()==passage['source_sha256']
+  if passage is not i:page+=['<h3>'+esc(passage['title'])+'</h3><p><a href="'+context(pi,passage['anchor'])+'">View related passage</a></p>']
   if passage.get('proposed_xml'):
    checked=passage['before_xml']
    for edit in passage.get('edits',[]):
     assert edit['before'] in checked
     checked=checked.replace(edit['before'],edit['after'])
    assert checked==passage['proposed_xml'],passage.get('source_id',i['id'])
-  after=render(passage['proposed_xml'],i) if passage.get('proposed_xml') else '<p class="hold">Coordinated author decision needed; no replacement drafted.</p>'
-  page+=['<div class="cols"><div class="box"><h3>Current 1.1 preview</h3>'+render(passage['before_xml'],i)+'</div><div class="box"><h3>Proposed — not applied</h3>'+after+'</div></div>']
+  after=render(passage['proposed_xml'],pi) if passage.get('proposed_xml') else '<p class="hold">Coordinated author decision needed; no replacement drafted.</p>'
+  page+=['<div class="cols"><div class="box"><h3>Current 1.1 preview</h3>'+render(passage['before_xml'],pi)+'</div><div class="box"><h3>Proposed — not applied</h3>'+after+'</div></div>']
   md+=['**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['before_xml']))).strip(),'']
   if passage.get('proposed_xml'):md+=['**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['proposed_xml']))).strip(),'']
  if i.get('revision_note'):page+=['<p class="notice">'+esc(i['revision_note'])+'</p>'];md+=[i['revision_note'],'']

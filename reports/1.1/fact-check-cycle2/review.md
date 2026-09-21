@@ -207,7 +207,19 @@ Option 1 selected: distinguish absorbed dose, equivalent dose, and effective dos
 
 **Proposed:** roentgen equivalent man (rem) an older unit of equivalent dose and effective dose; 1 rem = 0.01 Sv
 
-Draft only, not applied. Comparisons cover the connected explanation, both equations, both tables, summary, and six existing glossary entries. Existing object and term identifiers are retained. The separate acute-effects table, dose bands, background-dose figures, and exercise assumptions still require the planned numerical audit; their unchanged values are not approved by this proposal. New glossary entries for equivalent dose, effective dose, and radiation weighting factor can accompany application after wording approval.
+**Current:** The RBE for low-energy βs is 1.7, whereas that for higher-energy βs is only 1. Explain why, considering how the range of radiation depends on its energy.
+
+**Proposed:** How does relative biological effectiveness (RBE) differ from a radiation weighting factor?
+
+**Current:** The image shows ionization created in cells by α and γ radiation. Because of its shorter range, the ionization and damage created by α is more concentrated and harder for the organism to repair. Thus, the RBE for α s is greater than the RBE for γ s, even though they create the same amount of ionization at the same energy.
+
+**Proposed:** The image shows ionization created in cells by α and γ radiation. The ionization produced by α particles is more concentrated, and the resulting damage is harder for the organism to repair. This difference helps explain why α particles receive a greater radiation weighting factor than γ rays.
+
+**Current:** QF quality factor RBE relative biological effectiveness
+
+**Proposed:** QF quality factor RBE relative biological effectiveness wRradiation weighting factor
+
+The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits.
 
 - [ICRP Publication 147: dose quantities in radiation protection](https://www.icrp.org/publication.asp?id=ICRP+Publication+147)
 - [NRC: quality factor](https://www.nrc.gov/education-regulatory-research/glossary/quality-factor)

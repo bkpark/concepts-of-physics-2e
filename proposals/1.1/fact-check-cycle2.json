@@ -3,7 +3,7 @@
   "release": "cp2e-ver1.1",
   "date": "2026-09-20",
   "baseline_commit": "d0209d2",
-  "status": "All 11 non-held items approved pending application; F2-H01 Option 1 drafted for review; F2-H02 remains held.",
+  "status": "All 11 non-held items and F2-H01 approved in scope pending application; F2-H01 includes the requested question, caption, and notation follow-ups; F2-H02 remains held.",
   "scope": "Priority 1: remaining radiation/medical explanations and electrical-safety claims. Numerical tables remain priority 2 except dependencies explicitly held here.",
   "items": [
     {
@@ -477,7 +477,7 @@
     },
     {
       "id": "F2-H01",
-      "status": "proposed-pending-author-review",
+      "status": "approved-pending-application",
       "module": "m68327",
       "section_title": "Biological Effects of Ionizing Radiation",
       "slug": "biological-effects-of-ionizing-radiation",
@@ -709,6 +709,53 @@
               "after": "<definition xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1917668\"><term xmlns=\"http://cnx.rice.edu/cnxml\">roentgen equivalent man (rem)</term> <meaning id=\"fs-id1870318\">an older unit of equivalent dose and effective dose; 1 rem = 0.01 Sv</meaning></definition>"
             }
           ]
+        },
+        {
+          "title": "Conceptual question: RBE versus radiation weighting",
+          "source_id": "import-auto-id1360568",
+          "anchor": "import-auto-id1360568",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1360568\">The RBE for low-energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s is 1.7, whereas that for higher-energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s is only 1. Explain why, considering how the range of radiation depends on its energy.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1360568\">How does relative biological effectiveness (RBE) differ from a radiation weighting factor?</para>",
+          "edits": [
+            {
+              "before": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1360568\">The RBE for low-energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s is 1.7, whereas that for higher-energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s is only 1. Explain why, considering how the range of radiation depends on its energy.</para>",
+              "after": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1360568\">How does relative biological effectiveness (RBE) differ from a radiation weighting factor?</para>"
+            }
+          ]
+        },
+        {
+          "title": "Ionization illustration: coordinated caption",
+          "source_id": "import-auto-id1860748",
+          "anchor": "import-auto-id1860748",
+          "before_xml": "<caption xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\">The image shows ionization created in cells by <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle=\"italic\">γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> radiation. Because of its shorter range, the ionization and damage created by <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> is more concentrated and harder for the organism to repair. Thus, the RBE for <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> s is greater than the RBE for <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle=\"italic\">γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> s, even though they create the same amount of ionization at the same energy.</caption>",
+          "proposed_xml": "<caption xmlns=\"http://cnx.rice.edu/cnxml\">The image shows ionization created in cells by α and γ radiation. The ionization produced by α particles is more concentrated, and the resulting damage is harder for the organism to repair. This difference helps explain why α particles receive a greater radiation weighting factor than γ rays.</caption>",
+          "edits": [
+            {
+              "before": "<caption xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\">The image shows ionization created in cells by <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle=\"italic\">γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> radiation. Because of its shorter range, the ionization and damage created by <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> is more concentrated and harder for the organism to repair. Thus, the RBE for <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> s is greater than the RBE for <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle=\"italic\">γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> s, even though they create the same amount of ionization at the same energy.</caption>",
+              "after": "<caption xmlns=\"http://cnx.rice.edu/cnxml\">The image shows ionization created in cells by α and γ radiation. The ionization produced by α particles is more concentrated, and the resulting damage is harder for the organism to repair. This difference helps explain why α particles receive a greater radiation weighting factor than γ rays.</caption>"
+            }
+          ],
+          "source_selector": "caption"
+        },
+        {
+          "title": "Symbols and notation: retain RBE/QF and add w_R (table excerpt)",
+          "source_id": "import-auto-id1688908",
+          "anchor": "import-auto-id1688908",
+          "before_xml": "<table xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><tgroup cols=\"2\"><tbody><row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>QF</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"QF\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>quality factor</entry>\n          </row>\n          <row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>RBE</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"RBE\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>\n          </tbody></tgroup></table>",
+          "proposed_xml": "<table xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><tgroup cols=\"2\"><tbody><row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>QF</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"QF\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>quality factor</entry>\n          </row>\n          <row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>RBE</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"RBE\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>\n          <row><entry><m:math><m:msub><m:mi>w</m:mi><m:mi>R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row></tbody></tgroup></table>",
+          "edits": [
+            {
+              "before": "<table xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><tgroup cols=\"2\"><tbody><row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>QF</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"QF\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>quality factor</entry>\n          </row>\n          <row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>RBE</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"RBE\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>\n          </tbody></tgroup></table>",
+              "after": "<table xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><tgroup cols=\"2\"><tbody><row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>QF</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"QF\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>quality factor</entry>\n          </row>\n          <row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>RBE</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"RBE\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>\n          <row><entry><m:math><m:msub><m:mi>w</m:mi><m:mi>R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row></tbody></tgroup></table>"
+            }
+          ],
+          "module": "m42709",
+          "slug": "glossary-of-key-symbols-and-notation",
+          "source_path": "maintained/modules/m42709/index.cnxml",
+          "source_sha256": "cbce27000e57bd2803bf00f93bae85f180be2396b497d9c336e4f49048880bec",
+          "source_selector": "table excerpt: QF and RBE rows; insert w_R row after RBE",
+          "source_insertion_after_xml": "<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\">\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>RBE</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"RBE\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>",
+          "source_insertion_xml": "<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><entry><m:math><m:msub><m:mi>w</m:mi><m:mi>R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row>"
         }
       ],
       "dependencies": [
@@ -718,8 +765,9 @@
         "m68327:import-auto-id1922622",
         "m68327:import-auto-id1945981"
       ],
-      "revision_note": "Draft only, not applied. Comparisons cover the connected explanation, both equations, both tables, summary, and six existing glossary entries. Existing object and term identifiers are retained. The separate acute-effects table, dose bands, background-dose figures, and exercise assumptions still require the planned numerical audit; their unchanged values are not approved by this proposal. New glossary entries for equivalent dose, effective dose, and radiation weighting factor can accompany application after wording approval.",
-      "authorization": "User selected Option 1 and requested contextual comparisons; approval to draft, not yet approval to apply this replacement."
+      "revision_note": "The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits.",
+      "authorization": "2026-09-21: user approved the displayed Option 1 comparisons and requested a textbook-wide check for RBE uses outside their coverage. 2026-09-21: user requested a minimal RBE-versus-radiation-weighting question and inclusion of the caption and notation changes in F2-H01.",
+      "remaining_dependencies": []
     },
     {
       "id": "F2-H02",
