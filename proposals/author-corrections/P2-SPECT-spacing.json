@@ -1,0 +1,14 @@
+{
+  "id": "P2-SPECT-spacing",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42649",
+  "source_path": "maintained/modules/m42649/index.cnxml",
+  "source_sha256": "019efd50baf33c7a1275e62f45d6e0e956745aee1fbb85f262778a630295bd4b",
+  "after_sha256": "d8d2ee9f71bf0df3e0833e5e9d326ac169b61cfdaf204f95a13b200fe4e5d33f",
+  "before": "single-photon-emission computed tomography(SPECT)",
+  "after": "single-photon-emission computed tomography (SPECT)",
+  "reason": "Restore missing space before SPECT abbreviation.",
+  "authorization": "Maintainer identified missing space during section review.",
+  "sources": []
+}

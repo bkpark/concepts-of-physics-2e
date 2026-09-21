@@ -1,0 +1,14 @@
+{
+  "id": "P2-PET-spacing",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42649",
+  "source_path": "maintained/modules/m42649/index.cnxml",
+  "source_sha256": "20b46be769ae3b93189eab21ddb94f1fb252e68ab7a96703f4076dfe4d7bffc0",
+  "after_sha256": "880f33c9794580c20d152db269615f5655ce404f6f2dab226447924e9a8f75c3",
+  "before": "</m:math> -emitting isotopes used in PET",
+  "after": "</m:math>-emitting isotopes used in PET",
+  "reason": "Remove extra space between inline beta-plus expression and -emitting.",
+  "authorization": "Maintainer identified extra spacing during section review.",
+  "sources": []
+}

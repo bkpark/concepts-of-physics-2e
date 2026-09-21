@@ -1,0 +1,19 @@
+{
+  "id": "P2-MRI-link",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42649",
+  "source_path": "maintained/modules/m42649/index.cnxml",
+  "source_sha256": "880f33c9794580c20d152db269615f5655ce404f6f2dab226447924e9a8f75c3",
+  "after_sha256": "a01ac40f79b0c75940a9f3ec709cc18129a315111ad2c4d618a0c48d91576b6c",
+  "before": "<link url=\"https://phet.colorado.edu/en/simulation/legacy/mri\">Click to open media in new browser.</link>",
+  "after": "<link url=\"https://phet.colorado.edu/en/simulations/mri\">Explore the Simplified MRI simulation.</link>",
+  "reason": "Link directly to the current PhET Simplified MRI page with descriptive link text.",
+  "authorization": "Maintainer approved updating the legacy link to skip the redirect.",
+  "sources": [
+    {
+      "title": "PhET: Simplified MRI",
+      "url": "https://phet.colorado.edu/en/simulations/mri"
+    }
+  ]
+}

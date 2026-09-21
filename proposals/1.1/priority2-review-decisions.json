@@ -1,22 +1,34 @@
 {
   "P2-04": {
-    "status": "approved-deletion-pending-application",
+    "status": "applied-author-directed",
     "recommendation": "Remove the three airline/flight sentences without a replacement example. Keep the paragraph focused on background exposure. No dependent table, exercise, or incoming cross-reference was found.",
-    "maintainer_review": "Resolved by maintainer: omit the airline example and the proposed ISS example.",
+    "maintainer_review": "Resolved and applied after maintainer section read-through. No content decision remains.",
     "proposed_edits": [
       {
         "before": " A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv.",
         "after": ""
       }
-    ]
+    ],
+    "review_history": "Resolved by maintainer: omit the airline example and the proposed ISS example.",
+    "current": [
+      {
+        "source_id": "import-auto-id1462138",
+        "kind": "passage",
+        "content": "Even the linear hypothesis estimates of the risks are relatively small, and the average person is not exposed to large amounts of radiation. lists average annual background radiation doses from natural and artificial sources for Australia, the United States, Germany, and world-wide averages. Cosmic rays are partially shielded by the atmosphere, and the dose depends upon altitude and latitude, but the average is about 0.40 mSv/yr. A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv."
+      }
+    ],
+    "application_records": [
+      "proposals/author-corrections/P2-01-05-coordinated.json"
+    ],
+    "applied_date": "2026-09-21"
   },
   "P2-05": {
-    "status": "maintainer-directed-replacement-pending-application",
+    "status": "applied-author-directed",
     "title": "Explain CT dose without dated statistics",
     "review_level": "Short physics explanation; statistics replacement withdrawn",
     "recommendation": "Replace the statistics with: A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image.",
-    "maintainer_review": "The maintainer requested an enduring physics explanation instead of updated percentages. The proposed wording specifies measurements from many angles, rather than implying repeated complete CT scans.",
-    "source_uncertainty": "The mechanism is clear. Actual dose depends on the examination and technique; the comparison is general, not universal. The separate carbon-14/fertilizer activity check remains open.",
+    "maintainer_review": "Resolved and applied after maintainer section read-through. No content decision remains.",
+    "source_uncertainty": "The mechanism is clear. Actual dose depends on the examination and technique; the comparison is general, not universal. The separate carbon-14/fertilizer comparison is removed under P2-03 with maintainer approval.",
     "sources": [
       {
         "title": "FDA: Computed Tomography (CT)",
@@ -30,6 +42,536 @@
         "before": "While CT scans only account for less than 20 percent of the X-ray procedures done today, they account for about 50 percent of the annual dose received.",
         "after": "A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image."
       }
-    ]
+    ],
+    "review_history": "The maintainer requested an enduring physics explanation instead of updated percentages. The proposed wording specifies measurements from many angles, rather than implying repeated complete CT scans.",
+    "current": [
+      {
+        "source_id": "import-auto-id3154810",
+        "kind": "passage",
+        "content": "Doses from the Earth itself are mainly due to the isotopes of uranium, thorium, and potassium, and vary greatly by location. Some places have great natural concentrations of uranium and thorium, yielding doses ten times as high as the average value. Internal doses come from foods and liquids that we ingest. Fertilizers containing phosphates have potassium and uranium. So we are all a little radioactive. Carbon-14 has about 66 Bq/kg radioactivity whereas fertilizers may have more than 3000 Bq/kg radioactivity. Medical and dental diagnostic exposures are mostly from X-rays. It should be noted that X-ray doses tend to be localized and are becoming much smaller with improved techniques. shows typical doses received during various diagnostic X-ray examinations. Note the large dose from a CT scan. While CT scans only account for less than 20 percent of the X-ray procedures done today, they account for about 50 percent of the annual dose received."
+      }
+    ],
+    "application_records": [
+      "proposals/author-corrections/P2-01-05-coordinated.json"
+    ],
+    "applied_date": "2026-09-21"
+  },
+  "P2-01": {
+    "status": "applied-author-directed",
+    "review_level": "Review condensed table and nearby explanation",
+    "recommendation": "Keep the absorbed-dose scale, major tissue effects, and distinctions between short whole-body exposure, fractionated exposure, and localized injury. Remove the detailed fertility row and exact mortality percentage/deadline from this summary.",
+    "maintainer_review": "Resolved and applied after maintainer section read-through. No content decision remains.",
+    "findings": [
+      "A short table can retain the physical dose scale without presenting a clinical prognosis chart.",
+      "The dose ranges describe usual full syndromes, not sharp thresholds or mutually exclusive effects.",
+      "Gy/rad describes absorbed dose for tissue injury; these values are scoped to penetrating X-rays or gamma rays, not all radiation types."
+    ],
+    "source_uncertainty": "CDC explicitly supports these approximate ranges. Some symptoms occur below them; no lower boundary here is a safety threshold. The higher-dose effects do not replace bone-marrow injury. Fertility and survival timing require more context than this summary warrants.",
+    "sources": [
+      {
+        "title": "CDC: Acute Radiation Syndrome for clinicians",
+        "url": "https://www.cdc.gov/radiation-emergencies/hcp/clinical-guidance/ars.html",
+        "locator": "Conditions for ARS; three classic syndromes; cutaneous radiation injury; dose footnote",
+        "checked": "2026-09-21"
+      }
+    ],
+    "proposed_table": {
+      "source_id": "import-auto-id1945981",
+      "title": "Effects of Acute Whole-Body Radiation Exposure",
+      "scope": "Approximate absorbed doses for penetrating X-rays or gamma rays delivered to the whole body or most of it within a short time.",
+      "rows": [
+        [
+          "Absorbed dose (Gy)",
+          "Major effects"
+        ],
+        [
+          "About 0.7–10",
+          "Bone-marrow damage reduces blood cell production, increasing the risk of infection and bleeding."
+        ],
+        [
+          "Above about 10",
+          "Severe intestinal damage, in addition to bone-marrow damage; survival is unlikely."
+        ],
+        [
+          "Above about 50",
+          "Severe damage to the circulatory and central nervous systems; rapidly fatal."
+        ]
+      ],
+      "note": "These ranges describe the usual full syndromes; some symptoms occur at lower doses, and effects overlap. Multiply Gy by 100 to obtain rad.",
+      "preserve_ids": [
+        "import-auto-id1945981",
+        "eip-id1833605"
+      ]
+    },
+    "proposed_edits": [
+      {
+        "source_id": "import-auto-id1461313",
+        "before": "The large-scale effects of radiation on humans can be divided into two categories: immediate effects and long-term effects. [Table reference] gives the immediate effects of whole-body exposures received in less than one day. If the radiation exposure is spread out over more time, greater doses are needed to cause the effects listed. This is due to the body’s ability to partially repair the damage.",
+        "after": "The large-scale effects of radiation on humans include acute radiation sickness and long-term effects. [Table reference] gives the effects of large whole-body doses received in a short time. These effects may develop over days or weeks. If the radiation exposure is spread out over more time, greater doses are needed to cause the effects listed. This is due to the body’s ability to partially repair the damage. Exposure of a small part of the body can cause local tissue injury without whole-body radiation sickness.",
+        "implementation_note": "Preserve the existing table link. Replace only these opening four sentences; reconcile the remaining dose-band/detection sentences under P2-02 before application."
+      }
+    ],
+    "review_history": "Guiding criterion: useful preparation for a future radiologic technologist without conflicting with later specialist education. Review the proposed table and short contextual replacement below. P2-02 dose-band terminology remains separate and unresolved.",
+    "current": [
+      {
+        "source_id": "import-auto-id1945981",
+        "kind": "table",
+        "content": [
+          [
+            "Dose in Sv Multiply by 100 to obtain dose in rem.",
+            "Effect"
+          ],
+          [
+            "0–0.10",
+            "No observable effect."
+          ],
+          [
+            "0.1 – 1",
+            "Slight to moderate decrease in white blood cell counts."
+          ],
+          [
+            "0.5",
+            "Temporary sterility; 0.35 for women, 0.50 for men."
+          ],
+          [
+            "1 – 2",
+            "Significant reduction in blood cell counts, brief nausea and vomiting. Rarely fatal."
+          ],
+          [
+            "2 – 5",
+            "Nausea, vomiting, hair loss, severe blood damage, hemorrhage, fatalities."
+          ],
+          [
+            "4.5",
+            "LD50/32. Lethal to 50% of the population within 32 days after exposure if not treated."
+          ],
+          [
+            "5 – 20",
+            "Worst effects due to malfunction of small intestine and blood systems. Limited survival."
+          ],
+          [
+            ">20",
+            "Fatal within hours due to collapse of central nervous system."
+          ]
+        ]
+      }
+    ],
+    "application_records": [
+      "proposals/author-corrections/P2-01-05-coordinated.json"
+    ],
+    "applied_date": "2026-09-21"
+  },
+  "P2-02": {
+    "title": "Remaining decisions: dose-band labels and retrospective detection",
+    "status": "applied-author-directed",
+    "review_level": "Two remaining decisions; do not re-review P2-01 table or opening explanation",
+    "findings": [
+      "Already covered by P2-01: the acute-effects table, its Gy/rad units and exposure conditions, and the opening explanation of whole-body exposure, exposure time, and local injury. These do not need a second decision here.",
+      "Still open: the final two sentences of the same paragraph—low/moderate/high dose labels, and the claim that exposure below 10 mSv cannot be determined afterward. P2-01 does not replace either sentence.",
+      "The three matching glossary definitions also need to follow the dose-band decision; that is coordinated cleanup, not a third independent decision."
+    ],
+    "recommendation": "Keep the low/moderate/high terminology as explicitly scoped, approximate absorbed-dose conventions for low-LET radiation, using Gy/rad; align the three glossary entries. Remove the blanket retrospective-detection sentence without adding an assay-specific example. This retains useful vocabulary while avoiding an unsupported universal detection limit.",
+    "maintainer_review": "Resolved and applied after maintainer section read-through. No content decision remains.",
+    "source_uncertainty": "The cited UNSCEAR dose bands are conventions for low-LET absorbed dose, not biological thresholds. The cited IAEA assay limit is method-specific and does not establish the original universal 10 mSv claim. No new numerical ambiguity was introduced by P2-01.",
+    "review_scope": {
+      "covered_by": "P2-01",
+      "covered_content": [
+        "Acute-effects table and its units/scope",
+        "Opening four sentences and proposed local-injury explanation"
+      ],
+      "remaining_source_id": "import-auto-id1461313",
+      "remaining_decisions": [],
+      "application_dependency": "Combine P2-01 opening replacement and P2-02 ending replacement in the same paragraph without overwriting either; preserve term IDs if retained and check references if removed.",
+      "resolved_decisions": [
+        "Retain scoped absorbed-dose bands with aligned glossary and summary",
+        "Delete universal retrospective-detection claim without replacement"
+      ]
+    },
+    "authorization": "Maintainer approved retaining scoped dose-band terminology and matching glossary definitions, and deleting the universal retrospective-detection claim: “Yeah, your recommendation sounds good. Let’s do that.”",
+    "proposed_edits": [
+      {
+        "source_id": "import-auto-id1461313",
+        "before": "Any dose less than 100 mSv (10 rem) is called a low dose, 0.1 Sv to 1 Sv (10 to 100 rem) is called a moderate dose, and anything greater than 1 Sv (100 rem) is called a high dose. There is no known way to determine after the fact if a person has been exposed to less than 10 mSv.",
+        "after": "For X-rays and gamma rays, an absorbed dose less than 0.1 Gy (10 rad) is called a low dose, 0.1 to 1 Gy (10 to 100 rad) a moderate dose, and greater than 1 Gy (100 rad) a high dose.",
+        "implementation_note": "Preserve term IDs import-auto-id2000644, import-auto-id2688952, import-auto-id2407214 and the P2-01 opening replacement."
+      },
+      {
+        "source_id": "fs-id1574901",
+        "before": "a dose less than 100 mSv (10 rem)",
+        "after": "an absorbed dose less than 0.1 Gy (10 rad) for X-rays and gamma rays"
+      },
+      {
+        "source_id": "fs-id1441830",
+        "before": "a dose from 0.1 Sv to 1 Sv (10 to 100 rem)",
+        "after": "an absorbed dose from 0.1 to 1 Gy (10 to 100 rad) for X-rays and gamma rays"
+      },
+      {
+        "source_id": "fs-id2679599",
+        "before": "a dose greater than 1 Sv (100 rem)",
+        "after": "an absorbed dose greater than 1 Gy (100 rad) for X-rays and gamma rays"
+      },
+      {
+        "source_id": "import-auto-id1869365",
+        "before": "Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses.",
+        "after": "For X-rays and gamma rays, absorbed doses below 0.1 Gy are called low, those from 0.1 to 1 Gy moderate, and those above 1 Gy high."
+      }
+    ],
+    "terminology_note": "Maintainer approved replacing undefined LET terminology with X-rays and gamma rays in the passage, all three glossary definitions, and the section summary. Technical source discussion retains the original source scope.",
+    "qualifier_note": "Maintainer approved removing the conventional-dose-band qualifier from the passage, summary, and glossary definitions during section read-through.",
+    "review_history": "Resolved: retain scoped absorbed-dose bands and align glossary/section summary; remove the detection sentence without replacement. No further P2-02 decision is pending. Apply together with P2-01 so the table and surrounding explanation use consistent quantities.",
+    "current": [
+      {
+        "source_id": "import-auto-id1461313",
+        "kind": "passage",
+        "content": "The large-scale effects of radiation on humans can be divided into two categories: immediate effects and long-term effects. gives the immediate effects of whole-body exposures received in less than one day. If the radiation exposure is spread out over more time, greater doses are needed to cause the effects listed. This is due to the body’s ability to partially repair the damage. Any dose less than 100 mSv (10 rem) is called a low dose, 0.1 Sv to 1 Sv (10 to 100 rem) is called a moderate dose, and anything greater than 1 Sv (100 rem) is called a high dose. There is no known way to determine after the fact if a person has been exposed to less than 10 mSv."
+      }
+    ],
+    "application_records": [
+      "proposals/author-corrections/P2-01-05-coordinated.json"
+    ],
+    "applied_date": "2026-09-21"
+  },
+  "P2-03": {
+    "title": "Natural-background scale and comparisons with other exposures",
+    "status": "applied-author-directed",
+    "review_level": "Review table and nearby prose together; national columns no longer needed",
+    "findings": [
+      "UNSCEAR 2024 is not restricted to global averages: Annex B includes national radon surveys (Table 2), geographic variation, and dose-component ranges (Table 15). The global-only table is a pedagogical simplification.",
+      "Maintain a clear separation between natural-background averages, dose per medical examination, and regulatory annual limits. Limits are not measurements of usual occupational or public exposure.",
+      "Coordinate the first background paragraph with the approved P2-04 deletion, and the medical comparison with P2-05. Preserve the explanation that terrestrial exposure varies by location."
+    ],
+    "recommendation": "Replace national columns with one global natural-background breakdown. Retain location-dependent physics, mention indoor radon variation, and connect the annual scale to existing medical examples. Keep licensed-operation and occupational limits in their existing regulatory paragraph, explicitly identified as limits rather than typical doses.",
+    "maintainer_review": "Resolved and applied after maintainer section read-through. No content decision remains.",
+    "source_uncertainty": "Table 15 ranges mix country/regional summaries and other ranges; do not present its total range as the interval containing every individual. The ambiguous ten-times comparison and carbon-14/fertilizer activity comparison are removed with maintainer approval. Medical comparisons are approximate effective-dose comparisons, not identical distributions of dose or individual risk. Existing 2025 NRC limits are retained as dated regulatory examples.",
+    "sources": [
+      {
+        "url": "https://www.unscear.org/unscear/uploads/documents/publications/UNSCEAR_2024_Annex-B.pdf",
+        "title": "UNSCEAR 2024 Annex B",
+        "locator": "Table 2; paragraph 109; Table 15 and footnotes; paragraphs 678–679",
+        "checked": "2026-09-21"
+      },
+      {
+        "url": "https://www.radiologyinfo.org/en/info/safety-xray",
+        "title": "ACR/RSNA: Radiation Dose",
+        "locator": "Adult chest X-ray 0.1 mSv and abdomen/pelvis CT 7.7 mSv",
+        "checked": "2026-09-21"
+      },
+      {
+        "url": "https://www.nrc.gov/facilities-safety/radiation-protection/how-the-nrc-protects-you/minimize-your-exposure",
+        "title": "NRC: Minimize Your Exposure",
+        "locator": "Public and adult occupational annual dose limits",
+        "checked": "2026-09-21"
+      }
+    ],
+    "proposed_table": {
+      "source_id": "import-auto-id1118563",
+      "title": "Natural Background Radiation: Global Average Annual Effective Dose",
+      "scope": "Rounded estimates from UNSCEAR’s 2024 assessment. Medical and occupational exposures are not included.",
+      "rows": [
+        [
+          "Source",
+          "Average annual effective dose (mSv)"
+        ],
+        [
+          "Inhalation, mainly radon, thoron, and their decay products",
+          "1.8"
+        ],
+        [
+          "Cosmic radiation",
+          "0.3"
+        ],
+        [
+          "External radiation from the ground and building materials",
+          "0.4"
+        ],
+        [
+          "Ingestion in food and water",
+          "0.5"
+        ],
+        [
+          "Total",
+          "3.0"
+        ]
+      ],
+      "note": "These are global averages; exposure varies with location and living conditions.",
+      "preserve_ids": [
+        "import-auto-id1118563",
+        "eip-id3009353"
+      ]
+    },
+    "proposed_edits": [
+      {
+        "source_id": "import-auto-id1462138",
+        "before": "Even the linear hypothesis estimates of the risks are relatively small, and the average person is not exposed to large amounts of radiation. [Table reference] lists average annual background radiation doses from natural and artificial sources for Australia, the United States, Germany, and world-wide averages. Cosmic rays are partially shielded by the atmosphere, and the dose depends upon altitude and latitude, but the average is about 0.40 mSv/yr. A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv.",
+        "after": "Even the linear hypothesis estimates of the risks are relatively small, and the average person is not exposed to large amounts of radiation. [Table reference] lists global average annual effective doses from natural background radiation, totaling about 3 mSv (300 mrem). Cosmic rays are partially shielded by the atmosphere, and the dose depends upon altitude and latitude. Radon exposure also varies with local geology and the construction and ventilation of buildings.",
+        "implementation_note": "Keep table target and paragraph ID. Includes approved P2-04 airline deletion; do not apply that deletion twice."
+      },
+      {
+        "source_id": "import-auto-id3154810",
+        "before": "Note the large dose from a CT scan.",
+        "after": "For comparison, a chest X-ray dose of about 0.1 mSv is comparable to about 12 days of natural background at 3 mSv per year; an abdomen and pelvis CT dose of about 7.7 mSv is comparable to about 2.6 years. These comparisons indicate the scale of effective dose, not the same exposure of each organ.",
+        "implementation_note": "Keep the nearby diagnostic-table link. Follow with approved P2-05 explanation of CT measurements; coordinate with the approved qualitative terrestrial-location replacement."
+      },
+      {
+        "source_id": "import-auto-id2659893",
+        "before": "These limits do not mark a boundary between harmless and harmful exposure; radiation protection also aims to keep doses as low as reasonably achievable. Extensive monitoring with a variety of radiation detectors is performed to support radiation safety.",
+        "after": "Radiation protection follows the ALARA principle: keep doses as low as reasonably achievable, even when they are below regulatory limits. Radiation detectors are used to monitor exposure and evaluate protective measures.",
+        "implementation_note": "Maintainer approved this ALARA-focused replacement. Preserve the preceding dated NRC limits and exclusions."
+      },
+      {
+        "source_id": "import-auto-id3154810",
+        "before": "Some places have great natural concentrations of uranium and thorium, yielding doses ten times as high as the average value.",
+        "after": "Some places have great natural concentrations of uranium and thorium, yielding much higher terrestrial radiation doses—for example, areas with thorium-rich sands along the Kerala coast in India."
+      },
+      {
+        "source_id": "import-auto-id3154810",
+        "before": "Internal doses come from foods and liquids that we ingest. Fertilizers containing phosphates have potassium and uranium. So we are all a little radioactive. Carbon-14 has about 66 Bq/kg radioactivity whereas fertilizers may have more than 3000 Bq/kg radioactivity.",
+        "after": "Internal doses come from naturally occurring radioactive isotopes in foods and liquids that we ingest, including potassium-40 and carbon-14. So we are all a little radioactive."
+      }
+    ],
+    "coordination_notes": [
+      "Section summary already states approximately 3 mSv/300 mrem from natural sources; retain and specify annual if absent.",
+      "Preserve stable table ID and existing incoming links.",
+      "Do not add country columns or revive rejected airline/ISS examples.",
+      "No source is yet claimed for a typical radiology-worker annual dose; the 50 mSv example is a limit, not a typical occupational exposure."
+    ],
+    "connected_checks_resolution": {
+      "status": "approved-pending-coordinated-application",
+      "authorization": "Maintainer approved qualitative replacements and removal of inadequately supported numerical examples.",
+      "sources": [
+        "https://www.unscear.org/unscear/uploads/documents/publications/UNSCEAR_2024_Annex-B.pdf",
+        "https://www.epa.gov/radiation/tenorm-fertilizer-and-fertilizer-production-wastes"
+      ],
+      "note": "Retain source/location explanation; remove undefined carbon-14 activity basis, fertilizer comparison and ambiguous ten-times comparison."
+    },
+    "review_history": "National comparisons are not needed. Review the proposed short table, revised background paragraph, and medical comparison below. No new national values or generic occupational average are proposed.",
+    "current": [
+      {
+        "source_id": "import-auto-id1118563",
+        "kind": "table",
+        "content": [
+          [
+            "Source",
+            "Dose (mSv/yr)Multiply by 100 to obtain dose in mrem/yr."
+          ],
+          [
+            "Source",
+            "Australia",
+            "Germany",
+            "United States",
+            "World"
+          ],
+          [
+            "Natural Radiation - external",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Cosmic Rays",
+            "0.30",
+            "0.28",
+            "0.30",
+            "0.39"
+          ],
+          [
+            "Soil, building materials",
+            "0.40",
+            "0.40",
+            "0.30",
+            "0.48"
+          ],
+          [
+            "Radon gas",
+            "0.90",
+            "1.1",
+            "2.0",
+            "1.2"
+          ],
+          [
+            "Natural Radiation - internal",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "40 K, 14 C, 226 Ra",
+            "0.24",
+            "0.28",
+            "0.40",
+            "0.29"
+          ],
+          [
+            "Medical & Dental",
+            "0.80",
+            "0.90",
+            "0.53",
+            "0.40"
+          ],
+          [
+            "TOTAL",
+            "2.6",
+            "3.0",
+            "3.5",
+            "2.8"
+          ]
+        ]
+      },
+      {
+        "source_id": "import-auto-id1462138",
+        "kind": "passage",
+        "content": "Even the linear hypothesis estimates of the risks are relatively small, and the average person is not exposed to large amounts of radiation. lists average annual background radiation doses from natural and artificial sources for Australia, the United States, Germany, and world-wide averages. Cosmic rays are partially shielded by the atmosphere, and the dose depends upon altitude and latitude, but the average is about 0.40 mSv/yr. A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv."
+      }
+    ],
+    "application_records": [
+      "proposals/author-corrections/P2-01-05-coordinated.json"
+    ],
+    "applied_date": "2026-09-21"
+  },
+  "P2-06": {
+    "status": "applied-author-directed",
+    "title": "Named diagnostic radiopharmaceutical examples",
+    "review_level": "Approved reduced table; full-section reading preview available",
+    "findings": [
+      "Five named examples replace twenty isotope-only rows; label-specific adult activity ranges are given in MBq and mCi.",
+      "The same Tc-99m isotope appears in three different preparations, illustrating how preparation affects diagnostic use. Thyroid and FDG PET examples retain isotope diversity.",
+      "Removed-row references in PET prose and numerical exercises are repaired; exercise quantities and calculations are retained as hypothetical samples."
+    ],
+    "recommendation": "Use the five sourced examples with searchable product-label names and direct source links.",
+    "maintainer_review": "Resolved and applied after maintainer section read-through. No content decision remains.",
+    "source_uncertainty": "These are specified product-label ranges, not universal or average activities for every protocol. Administered activity is not absorbed or effective dose.",
+    "sources": [
+      {
+        "title": "DailyMed: DRAXIMAGE MDP-25 (technetium Tc 99m medronate), Dosage and Administration",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c91d0d8-6cc5-834c-bda0-aa83a873b9fb",
+        "locator": "Adult dosage for named indication",
+        "checked": "2026-09-21"
+      },
+      {
+        "title": "DailyMed: DRAXIMAGE MAA, section 2.3",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bbefaa05-1dc0-3ae7-7264-ce1eddf0da2b",
+        "locator": "Adult dosage for named indication",
+        "checked": "2026-09-21"
+      },
+      {
+        "title": "GE HealthCare: CERETEC prescribing information, section 2.2",
+        "url": "https://www.gehealthcare.com/-/jssmedia/GEHC/US/Files/Products/Molecular-Imaging/Ceretec-Cobalt/Ceretec-Cobalt-Prescribing-Information-092018-CERETEC-with-Cobalt-Chloride-BK",
+        "locator": "Adult dosage for named indication",
+        "checked": "2026-09-21"
+      },
+      {
+        "title": "DailyMed: Sodium Iodide I 123, Dosage and Administration",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=493fa2ab-4eb0-4434-9739-3079b2f0e272",
+        "locator": "Adult dosage for named indication",
+        "checked": "2026-09-21"
+      },
+      {
+        "title": "DailyMed: Fludeoxyglucose F 18, section 2.1",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1deaaa92-1c98-4295-8aa6-7a70bc29f55d",
+        "locator": "Adult dosage for named indication",
+        "checked": "2026-09-21"
+      }
+    ],
+    "proposed_table": {
+      "source_id": "eip-909",
+      "title": "Examples of Diagnostic Radiopharmaceuticals",
+      "scope": "Adult label ranges for five specified preparations.",
+      "rows": [
+        [
+          "Diagnostic use",
+          "Radiopharmaceutical",
+          "Adult activity (MBq)",
+          "Adult activity (mCi)"
+        ],
+        [
+          "Bone imaging",
+          "Tc-99m medronate (MDP)",
+          "370–740",
+          "10–20"
+        ],
+        [
+          "Lung perfusion",
+          "Tc-99m aggregated albumin (MAA)",
+          "37–148",
+          "1–4"
+        ],
+        [
+          "Brain perfusion",
+          "Tc-99m exametazime (CERETEC)",
+          "555–1110",
+          "15–30"
+        ],
+        [
+          "Thyroid uptake and imaging",
+          "Sodium iodide I-123",
+          "3.7–14.8",
+          "0.1–0.4"
+        ],
+        [
+          "PET imaging of glucose metabolism",
+          "Fludeoxyglucose F-18 (FDG)",
+          "185–370",
+          "5–10"
+        ]
+      ],
+      "note": "1 mCi = 37 MBq. Full source links and scope appear in the textbook table note."
+    },
+    "authorization": "Maintainer requested implementation of a smaller set useful to future radiology and allied-health professionals.",
+    "application_records": [
+      "proposals/author-corrections/P2-06.json"
+    ],
+    "review_history": "Reduced scope and implementation approved. Read the full section for flow; no table-scope decision remains.",
+    "current": [
+      {
+        "source_id": "eip-909",
+        "kind": "table",
+        "content": [
+          [
+            "Diagnostic use",
+            "Radiopharmaceutical",
+            "Adult activity (MBq)",
+            "Adult activity (mCi)"
+          ],
+          [
+            "Bone imaging",
+            "Tc-99m medronate (MDP)",
+            "370–740",
+            "10–20"
+          ],
+          [
+            "Lung perfusion",
+            "Tc-99m aggregated albumin (MAA)",
+            "37–148",
+            "1–4"
+          ],
+          [
+            "Brain perfusion",
+            "Tc-99m exametazime (CERETEC)",
+            "555–1110",
+            "15–30"
+          ],
+          [
+            "Thyroid uptake and imaging",
+            "Sodium iodide I-123",
+            "3.7–14.8",
+            "0.1–0.4"
+          ],
+          [
+            "PET imaging of glucose metabolism",
+            "Fludeoxyglucose F-18 (FDG)",
+            "185–370",
+            "5–10"
+          ]
+        ]
+      },
+      {
+        "source_id": "import-auto-id1773067",
+        "kind": "passage",
+        "content": "lists selected medical diagnostic uses of radiopharmaceuticals, including named preparations and adult activity ranges from their product labels. Many organs can be imaged with a variety of nuclear isotopes replacing a stable element by a radioactive isotope. One common diagnostic employs radioactive iodine to image the thyroid, since iodine is concentrated in that organ. Thyroid tissue that concentrates more radioactive iodine emits more radiation. A gamma camera detects this radiation to form an image showing how the iodine is distributed within the thyroid. Note that there is more than one isotope that can be used for several types of scans. Another common nuclear diagnostic is the thallium scan for the cardiovascular system, particularly used to evaluate blockages in the coronary arteries and examine heart activity. The salt TlCl can be used, because thallium is taken up by viable heart muscle cells in a manner similar to potassium. Gallium-67 accumulates where there is rapid cell growth, such as in tumors and sites of infection. Hence, it is useful in cancer imaging. Usually, the patient receives the injection one day and has a whole body scan 3 or 4 days later because it can take several days for the gallium to build up."
+      }
+    ],
+    "applied_date": "2026-09-21"
   }
 }
