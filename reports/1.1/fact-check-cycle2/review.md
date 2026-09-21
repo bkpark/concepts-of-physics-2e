@@ -227,15 +227,41 @@ The original 15 comparisons are approved. The author requested that this coordin
 - [ICRP Publication 103 (2007): radiation weighting factors](https://www.icrp.org/publication.asp?id=ICRP+Publication+103)
 - [ICRP Publication 127: recommended radiation weighting factors](https://journals.sagepub.com/doi/10.1177/0146645314559144)
 
-## F2-H02 — Coordinated decision: why gamma rays penetrate
+## F2-H02 — Shorten the penetration explanation and remove the speed argument
 
-The explanation attributes photon penetration to less time near an atom and compares electromagnetic forces as if a photon were a charged projectile. Photon attenuation depends on interaction probabilities and photon energy, not simply travel speed. Recommend replacing the photon-specific sentences in this and the preceding paragraph while retaining the qualitative alpha/beta comparison. This needs more than the isolated range-proportionality fix and is held for author discussion.
+F2-06 already explains energy loss and photon interaction probabilities, and F2-07 covers practical penetration and shielding. Replace the preceding charge paragraph with a short comparison, remove the speed/time paragraph, and qualify the illustration caption and alternative text.
+
+Remove this paragraph. Its speed/time argument is not replaced; the preceding paragraph carries the short comparison. Retain its existing ID as an empty anchor when applying.
 
 **Current:** The speed at which they travel is the other major factor affecting the range of αs, βs, and γs. The faster they move, the less time they spend in the vicinity of an atom or a molecule, and the less likely they are to interact. Since αs and βs are particles with mass (helium nuclei and electrons, respectively), their energy is kinetic. The mass of the β particle is thousands of times less than that of the αs, so that βs must travel much faster than αs to have the same energy. Since βs move faster, they have less time to interact than αs. Gamma rays are photons, which must travel at the speed of light. They are even less likely to interact than a β, since they spend even less time near a given atom (and they have no charge). The range of γs is thus greater than the range of βs.
 
+**Proposed:**
+
 **Current:** Different types of radiation have different ranges when compared at the same energy and in the same material. Alphas have the shortest range, betas penetrate farther, and gammas have the greatest range. This is directly related to charge and speed of the particle or type of radiation. At a given energy, each α, β, or γ will produce the same number of ionizations in a material (each ionization requires a certain amount of energy on average). The more readily the particle produces ionization, the more quickly it will lose its energy. The effect of charge is as follows: The α has a charge of +2qe , the β has a charge of −qe , and the γ is uncharged. The electromagnetic force exerted by the α is thus twice as strong as that exerted by the β and it is more likely to produce ionization. Although chargeless, the γ does interact weakly because it is an electromagnetic wave, but it is less likely to produce ionization in any encounter.
 
-NIST XCOM verifies that attenuation is calculated from interaction cross sections; source evidence is available for a coordinated draft. Figure caption/alternative text and the stale beta-charge StarMath annotation also require coordination. This hold is not an approved rewrite.
+**Proposed:** Different types of radiation deposit energy differently. Alpha particles generally produce more concentrated ionization than beta particles of comparable energy in the same material, losing their energy over a shorter distance. Gamma rays produce ionization indirectly, through the charged particles set in motion by their interactions.
+
+**Current:** The penetration or range of radiation depends on its energy, the material it encounters, and the type of radiation. (a) Greater energy means greater range. (b) Radiation has a smaller range in materials with high electron density. (c) Alphas have the smallest range, betas have a greater range, and gammas penetrate the farthest.
+
+**Proposed:** The penetration or range of radiation depends on its energy, the material it encounters, and the type of radiation. (a) For alpha and beta particles, greater energy means greater range in the same material. (b) Charged particles generally lose energy over shorter distances in materials with higher electron density. (c) The illustration shows the usual penetration pattern for radioactive emissions: alphas stop over short distances, betas penetrate farther, and gammas are more penetrating.
+
+**Current:** Three cases of range of radiation are shown. The first case shows that higher energy has greater range than lower energy. The second case shows that, for same energy material having high electron density will have lower range. The third case shows that among alpha beta and gamma rays for the same energy alphas have the smallest range betas have a greater range and gammas penetrate the farthest.
+
+**Proposed:** Three schematic comparisons of penetration. (a) A higher-energy charged particle travels farther than a lower-energy particle of the same type in the same material. (b) Charged particles of the same type and energy travel less far in material with higher electron density. (c) A typical comparison of radioactive emissions shows alpha particles stopping first, beta particles penetrating farther, and gamma rays penetrating farthest.
+
+### Approved F2-06: earlier range explanation
+
+The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). For alpha and beta particles, all other factors being the same, the higher the energy, the greater the range. These particles lose energy through many interactions with the material, so a more energetic particle travels farther before stopping. Gamma ray photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material; they do not have a definite stopping range.
+
+### Proposed F2-H02: short comparison (speed paragraph removed)
+
+Different types of radiation deposit energy differently. Alpha particles generally produce more concentrated ionization than beta particles of comparable energy in the same material, losing their energy over a shorter distance. Gamma rays produce ionization indirectly, through the charged particles set in motion by their interactions.
+
+### Approved F2-07: later practical penetration and shielding
+
+Alpha radiation from radioactive sources has a range much less than a millimeter of biological tissues, usually not enough to even penetrate the dead layers of our skin. On the other hand, the same α radiation can penetrate a few centimeters of air, so mere distance from a source prevents α radiation from reaching us. This makes α radiation less penetrating from outside the body than β and γ radiation. If alpha-emitting material enters the body, it can severely damage nearby tissue. Typical β radiation can penetrate a few millimeters of tissue or about a meter of air. Beta radiation is thus hazardous even when not ingested. Beta particles can be stopped by shielding, but their slowing can produce bremsstrahlung X-rays, particularly in materials such as lead. Plastic is often used to stop beta particles while limiting this X-ray production; additional shielding may be needed for the X-rays. Gamma rays do not have a well-defined stopping range, but they are effectively shielded—that is, reduced in intensity to acceptable levels—by sufficient shielding, often many centimeters of lead. The required thickness depends on the photon energy, source strength, and exposure conditions. One benefit of γs is that they allow radioactive tracers to be detected (see ).
+
+Draft only. The replacement removes the charge arithmetic, including its stale beta-charge StarMath annotation, along with the exact-equal-ionization claim. The speed paragraph becomes an empty anchor to preserve existing links. Caption and alternative text describe a typical schematic comparison rather than a universal ranking. F2-06 and F2-07 below are approved context, not new edits or duplicate patch operations. Artwork is unchanged.
 
 - [NIST: stopping power and range definitions](https://physics.nist.gov/PhysRefData/Star/Text/appendix.html)
 - [NIST XCOM: photon interactions and attenuation](https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html)
