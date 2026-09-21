@@ -69,7 +69,7 @@ md=['# Priority 2 numerical audit','',packet['scope'],'',packet['status'],'']
 for i in rows:page.append('<tr><td><a href="#'+i['id']+'">'+i['id']+' — '+esc(i['title'])+'</a></td><td>'+esc(i['review_level'])+'</td></tr>')
 page.append('</table>')
 for i in rows:
- slug='biological-effects-of-ionizing-radiation' if i['module']=='m68327' else 'medical-applications-of-nuclear-physics'
+ slug='biological-effects-of-ionizing-radiation' if i['module']=='m68327' else 'medical-imaging-and-diagnostics'
  page+=['<section id="'+i['id']+'"><h2>'+i['id']+' — '+esc(i['title'])+'</h2><p><b>'+esc(i['review_level'])+'</b></p><ul>'+''.join('<li>'+esc(f)+'</li>' for f in i['findings'])+'</ul><h3>Recommendation</h3><p>'+esc(i['recommendation'])+'</p><h3>What needs your review</h3><p>'+esc(i['maintainer_review'])+'</p><p class="hold"><b>Source limits:</b> '+esc(i['source_uncertainty'])+'</p><h3>Sources and where to look</h3><ul>'+''.join('<li><a href="'+esc(s['url'])+'">'+esc(s['title'])+'</a> — '+esc(s['locator'])+'</li>' for s in i['sources'])+'</ul><details><summary>Current textbook table/passage</summary>']
  for p in i['current']:
   page+=['<p><a href="../../course-full/sections/'+slug+'/index.html#'+i['module']+'--'+p['source_id'].encode().hex()+'">Open textbook context</a></p>']
@@ -81,3 +81,4 @@ page+=['<section><h2>Already resolved / outside this pass</h2><ul>'+''.join('<li
 for folder in [ROOT/'reports/1.1/priority2-numerical-audit',ROOT/'prototype/dist/review-1.1/priority2-numerical-audit']:
  folder.mkdir(parents=True,exist_ok=True);(folder/'index.html').write_text('\n'.join(page),encoding='utf-8',newline='\n');(folder/'review.md').write_text('\n'.join(md),encoding='utf-8',newline='\n')
 print('Compiled six scoped review groups; no textbook edits.')
+
