@@ -238,11 +238,10 @@
         }
       ],
       "findings": [
-        "UNSCEAR 2024 cites an aircrew average of 2.7 mSv/year (range 1.5–4.5), rather than the undated 2 in the text.",
-        "The claimed 0.02–0.03 mSv for a generic 12-hour flight has no route or source. CDC provides a named New York–Los Angeles example of about 0.035 mSv."
+        "Maintainer chose deletion rather than updated aircrew or flight estimates. The source research is retained as historical review evidence."
       ],
-      "recommendation": "Use a dated aircrew estimate and replace the generic duration-only flight estimate with a named route example, without implying every flight on that route has exactly that dose.",
-      "maintainer_review": "Only review whether the example reads naturally. No unresolved unit conversion; 0.035 mSv = 35 µSv.",
+      "recommendation": "Remove the three airline/flight sentences without a replacement example. Keep the paragraph focused on background exposure. No dependent table, exercise, or incoming cross-reference was found.",
+      "maintainer_review": "Resolved by maintainer: omit the airline example and the proposed ISS example.",
       "source_uncertainty": "The original 12-hour value is unverified, not proven impossible. Route, altitude and conditions matter; the named-route replacement is an illustrative estimate.",
       "sources": [
         {
@@ -258,12 +257,22 @@
           "checked": "2026-09-21"
         }
       ],
-      "status": "inventory-and-recommendation-only; not applied"
+      "status": "approved-deletion-pending-application",
+      "initial_findings": [
+        "UNSCEAR 2024 cites an aircrew average of 2.7 mSv/year (range 1.5–4.5), rather than the undated 2 in the text.",
+        "The claimed 0.02–0.03 mSv for a generic 12-hour flight has no route or source. CDC provides a named New York–Los Angeles example of about 0.035 mSv."
+      ],
+      "proposed_edits": [
+        {
+          "before": " A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv.",
+          "after": ""
+        }
+      ]
     },
     {
       "id": "P2-05",
-      "title": "CT procedure and dose shares",
-      "review_level": "Routine sourced update; denominator must remain explicit",
+      "title": "Explain CT dose without dated statistics",
+      "review_level": "Short physics explanation; statistics replacement withdrawn",
       "module": "m68327",
       "source_path": "maintained/modules/m68327/index.cnxml",
       "source_sha256": "892e12d824912eb3e053270d6d81522defa260c3a2d65e970228a60342199037",
@@ -275,21 +284,30 @@
         }
       ],
       "findings": [
-        "The current <20% of X-ray procedures / about 50% of annual dose claim gives neither place nor date, and annual dose has an unspecified denominator.",
-        "UNSCEAR’s official 2020/2021 assessment summary gives CT about 10% of medical examinations/procedures and 62% of their collective effective dose worldwide."
+        "CT collects X-ray measurements from multiple angles and uses computer reconstruction to form cross-sectional images. Multiple exposures explain its generally higher dose than a conventional X-ray image. Updated procedure-share statistics will not be added."
       ],
-      "recommendation": "Use a dated assessment statement with medical-exposure scope: In UNSCEAR’s 2020/2021 assessment, CT accounted for about 10 percent of medical examinations and procedures worldwide but about 62 percent of their collective effective dose.",
-      "maintainer_review": "Review wording only; the percentages are explicitly reported together. Do not describe 62% as a share of natural-plus-medical radiation, or as a current-year measurement.",
-      "source_uncertainty": "The old denominator cannot be recovered from this paragraph. The official summary supports the proposed new denominator. The full-report PDF text extraction failed in this session; the linked official summary slide is directly readable. Nearby carbon-14/fertilizer activities in this same paragraph also lack a clear per-kilogram basis/source and remain a connected open check, not certified by the CT result.",
+      "recommendation": "Replace the statistics with: A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image.",
+      "maintainer_review": "The maintainer requested an enduring physics explanation instead of updated percentages. The proposed wording specifies measurements from many angles, rather than implying repeated complete CT scans.",
+      "source_uncertainty": "The mechanism is clear. Actual dose depends on the examination and technique; the comparison is general, not universal. The separate carbon-14/fertilizer activity check remains open.",
       "sources": [
         {
-          "url": "https://www.unscear.org/unscear/uploads/res/events/webinars/2022-05_online-launch-of-unscear-2020-2021-report--annex-a_-evaluation-of-medical-exposure-to-ionizing-radiation_html/UNSCEAR_Medical_Exposure_Launch_20220525.pdf",
-          "title": "UNSCEAR medical-exposure assessment launch, May 2022",
-          "locator": "Slide headed Summary of the 2020/2021 assessment",
+          "title": "FDA: Computed Tomography (CT)",
+          "url": "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/computed-tomography-ct",
+          "locator": "Description: How a CT system works",
           "checked": "2026-09-21"
         }
       ],
-      "status": "inventory-and-recommendation-only; not applied"
+      "status": "maintainer-directed-replacement-pending-application",
+      "initial_findings": [
+        "The current <20% of X-ray procedures / about 50% of annual dose claim gives neither place nor date, and annual dose has an unspecified denominator.",
+        "UNSCEAR’s official 2020/2021 assessment summary gives CT about 10% of medical examinations/procedures and 62% of their collective effective dose worldwide."
+      ],
+      "proposed_edits": [
+        {
+          "before": "While CT scans only account for less than 20 percent of the X-ray procedures done today, they account for about 50 percent of the annual dose received.",
+          "after": "A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image."
+        }
+      ]
     },
     {
       "id": "P2-06",

@@ -1,0 +1,35 @@
+{
+  "P2-04": {
+    "status": "approved-deletion-pending-application",
+    "recommendation": "Remove the three airline/flight sentences without a replacement example. Keep the paragraph focused on background exposure. No dependent table, exercise, or incoming cross-reference was found.",
+    "maintainer_review": "Resolved by maintainer: omit the airline example and the proposed ISS example.",
+    "proposed_edits": [
+      {
+        "before": " A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv.",
+        "after": ""
+      }
+    ]
+  },
+  "P2-05": {
+    "status": "maintainer-directed-replacement-pending-application",
+    "title": "Explain CT dose without dated statistics",
+    "review_level": "Short physics explanation; statistics replacement withdrawn",
+    "recommendation": "Replace the statistics with: A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image.",
+    "maintainer_review": "The maintainer requested an enduring physics explanation instead of updated percentages. The proposed wording specifies measurements from many angles, rather than implying repeated complete CT scans.",
+    "source_uncertainty": "The mechanism is clear. Actual dose depends on the examination and technique; the comparison is general, not universal. The separate carbon-14/fertilizer activity check remains open.",
+    "sources": [
+      {
+        "title": "FDA: Computed Tomography (CT)",
+        "url": "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/computed-tomography-ct",
+        "locator": "Description: How a CT system works",
+        "checked": "2026-09-21"
+      }
+    ],
+    "proposed_edits": [
+      {
+        "before": "While CT scans only account for less than 20 percent of the X-ray procedures done today, they account for about 50 percent of the annual dose received.",
+        "after": "A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image."
+      }
+    ]
+  }
+}

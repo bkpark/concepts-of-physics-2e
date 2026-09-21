@@ -59,32 +59,30 @@ Closer review: choose a coherent table scope
 
 Routine sourced update; check wording only
 
-- UNSCEAR 2024 cites an aircrew average of 2.7 mSv/year (range 1.5–4.5), rather than the undated 2 in the text.
-- The claimed 0.02–0.03 mSv for a generic 12-hour flight has no route or source. CDC provides a named New York–Los Angeles example of about 0.035 mSv.
+- Maintainer chose deletion rather than updated aircrew or flight estimates. The source research is retained as historical review evidence.
 
-**Recommendation:** Use a dated aircrew estimate and replace the generic duration-only flight estimate with a named route example, without implying every flight on that route has exactly that dose.
+**Recommendation:** Remove the three airline/flight sentences without a replacement example. Keep the paragraph focused on background exposure. No dependent table, exercise, or incoming cross-reference was found.
 
-**Review:** Only review whether the example reads naturally. No unresolved unit conversion; 0.035 mSv = 35 µSv.
+**Review:** Resolved by maintainer: omit the airline example and the proposed ISS example.
 
 **Source limits:** The original 12-hour value is unverified, not proven impossible. Route, altitude and conditions matter; the named-route replacement is an illustrative estimate.
 
 - [UNSCEAR 2024, Volume II](https://www.unscear.org/unscear/uploads/documents/unscear-reports/UNSCEAR_2024_Report_Vol.II.pdf) — Annex B, printed page 53, aircrew and air-travel discussion
 - [CDC: Radiation Thermometer](https://www.cdc.gov/radiation-emergencies/causes/radiation-thermometer.html) — Typical high-altitude flight from New York City to Los Angeles
 
-## P2-05 — CT procedure and dose shares
+## P2-05 — Explain CT dose without dated statistics
 
-Routine sourced update; denominator must remain explicit
+Short physics explanation; statistics replacement withdrawn
 
-- The current <20% of X-ray procedures / about 50% of annual dose claim gives neither place nor date, and annual dose has an unspecified denominator.
-- UNSCEAR’s official 2020/2021 assessment summary gives CT about 10% of medical examinations/procedures and 62% of their collective effective dose worldwide.
+- CT collects X-ray measurements from multiple angles and uses computer reconstruction to form cross-sectional images. Multiple exposures explain its generally higher dose than a conventional X-ray image. Updated procedure-share statistics will not be added.
 
-**Recommendation:** Use a dated assessment statement with medical-exposure scope: In UNSCEAR’s 2020/2021 assessment, CT accounted for about 10 percent of medical examinations and procedures worldwide but about 62 percent of their collective effective dose.
+**Recommendation:** Replace the statistics with: A CT scan collects X-ray measurements from many angles to reconstruct cross-sectional images of the body. These multiple exposures generally result in a higher dose than a conventional X-ray image.
 
-**Review:** Review wording only; the percentages are explicitly reported together. Do not describe 62% as a share of natural-plus-medical radiation, or as a current-year measurement.
+**Review:** The maintainer requested an enduring physics explanation instead of updated percentages. The proposed wording specifies measurements from many angles, rather than implying repeated complete CT scans.
 
-**Source limits:** The old denominator cannot be recovered from this paragraph. The official summary supports the proposed new denominator. The full-report PDF text extraction failed in this session; the linked official summary slide is directly readable. Nearby carbon-14/fertilizer activities in this same paragraph also lack a clear per-kilogram basis/source and remain a connected open check, not certified by the CT result.
+**Source limits:** The mechanism is clear. Actual dose depends on the examination and technique; the comparison is general, not universal. The separate carbon-14/fertilizer activity check remains open.
 
-- [UNSCEAR medical-exposure assessment launch, May 2022](https://www.unscear.org/unscear/uploads/res/events/webinars/2022-05_online-launch-of-unscear-2020-2021-report--annex-a_-evaluation-of-medical-exposure-to-ionizing-radiation_html/UNSCEAR_Medical_Exposure_Launch_20220525.pdf) — Slide headed Summary of the 2020/2021 assessment
+- [FDA: Computed Tomography (CT)](https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/computed-tomography-ct) — Description: How a CT system works
 
 ## P2-06 — Radiopharmaceutical activity table
 
