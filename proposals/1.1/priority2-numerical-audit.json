@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-21",
+  "scope": "Original priority 2 only: radiation/medical numerical tables and directly connected claims; not a book-wide numerical audit.",
+  "status": "Source-linked inventory and recommended directions, not final patches. No textbook edits applied.",
+  "items": [
+    {
+      "id": "P2-01",
+      "title": "Acute-effects table",
+      "review_level": "Closer review: table structure and source interpretation",
+      "module": "m68327",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "892e12d824912eb3e053270d6d81522defa260c3a2d65e970228a60342199037",
+      "current": [
+        {
+          "source_id": "import-auto-id1945981",
+          "kind": "table",
+          "content": [
+            [
+              "Dose in Sv Multiply by 100 to obtain dose in rem.",
+              "Effect"
+            ],
+            [
+              "0–0.10",
+              "No observable effect."
+            ],
+            [
+              "0.1 – 1",
+              "Slight to moderate decrease in white blood cell counts."
+            ],
+            [
+              "0.5",
+              "Temporary sterility; 0.35 for women, 0.50 for men."
+            ],
+            [
+              "1 – 2",
+              "Significant reduction in blood cell counts, brief nausea and vomiting. Rarely fatal."
+            ],
+            [
+              "2 – 5",
+              "Nausea, vomiting, hair loss, severe blood damage, hemorrhage, fatalities."
+            ],
+            [
+              "4.5",
+              "LD50/32. Lethal to 50% of the population within 32 days after exposure if not treated."
+            ],
+            [
+              "5 – 20",
+              "Worst effects due to malfunction of small intestine and blood systems. Limited survival."
+            ],
+            [
+              ">20",
+              "Fatal within hours due to collapse of central nervous system."
+            ]
+          ]
+        }
+      ],
+      "findings": [
+        "The table uses Sv/rem for acute tissue injury; revise to absorbed dose in Gy/rad and state the applicable exposure conditions.",
+        "CDC gives LD50/60 as about 2.5–5 Gy; this does not support the textbook’s exact 4.5 Sv LD50/32 entry.",
+        "CDC places the full gastrointestinal syndrome above about 10 Gy and the full cardiovascular/CNS syndrome above about 50 Gy, with some symptoms at lower doses. The textbook’s >20 Sv → fatal within hours is too categorical.",
+        "The fertility row mixes sex-specific organ effects into a whole-body table. ICRP’s published table does not support 0.35 for women as a general temporary-sterility threshold."
+      ],
+      "recommendation": "Rebuild a short table around clear absorbed-dose bands and major acute effects. Prefer a consistent CDC whole-body framework; treat fertility separately or remove that row from this table. Do not merely change Sv to Gy while retaining every old row.",
+      "maintainer_review": "Review how much clinical detail belongs in the conceptual textbook. The most important source distinction is threshold/symptom onset versus a usual full syndrome, and LD50/60 versus LD50/32.",
+      "source_uncertainty": "CDC numbers apply to specified radiation/exposure conditions and are approximate. Survival depends on treatment and the exposed population. The ICRP fertility source is older and is not a warrant for copying its entire table; a final modern fertility row would need a dedicated check if retained.",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/radiation-emergencies/hcp/clinical-guidance/ars.html",
+          "title": "CDC: Acute Radiation Syndrome for clinicians",
+          "locator": "The three classic syndromes; Table 1; dose footnotes",
+          "checked": "2026-09-21"
+        },
+        {
+          "url": "https://www.icrp.org/docs/Rad_for_GP_for_web.pdf",
+          "title": "ICRP: Radiation and your patient",
+          "locator": "Printed page 11, Table 1; organ-specific sterility rows",
+          "checked": "2026-09-21"
+        }
+      ],
+      "status": "inventory-and-recommendation-only; not applied"
+    },
+    {
+      "id": "P2-02",
+      "title": "Dose bands and retrospective detection",
+      "review_level": "Closer review: quantity and scope",
+      "module": "m68327",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "892e12d824912eb3e053270d6d81522defa260c3a2d65e970228a60342199037",
+      "current": [
+        {
+          "source_id": "import-auto-id1461313",
+          "kind": "passage",
+          "content": "The large-scale effects of radiation on humans can be divided into two categories: immediate effects and long-term effects. gives the immediate effects of whole-body exposures received in less than one day. If the radiation exposure is spread out over more time, greater doses are needed to cause the effects listed. This is due to the body’s ability to partially repair the damage. Any dose less than 100 mSv (10 rem) is called a low dose, 0.1 Sv to 1 Sv (10 to 100 rem) is called a moderate dose, and anything greater than 1 Sv (100 rem) is called a high dose. There is no known way to determine after the fact if a person has been exposed to less than 10 mSv."
+        }
+      ],
+      "findings": [
+        "The 0.1 and 1 thresholds are recognizable dose-band conventions, but the paragraph calls them universal Sv-based categories.",
+        "UNSCEAR 2012 Table 1 expresses comparable bands in absorbed dose for low-LET radiation, with low and very-low subdivisions.",
+        "IAEA gives about 0.1 Gy as the detection level for a specified dicentric-chromosome assay. That is not evidence for a universal statement that exposure below 10 mSv cannot be determined after the fact."
+      ],
+      "recommendation": "Keep approximate low/moderate/high terminology but specify absorbed dose and radiation type, and align the three glossary entries. Replace or omit the blanket retrospective-detection sentence; do not substitute the assay threshold as a universal limit.",
+      "maintainer_review": "Review the short terminology paragraph and whether a method-specific detection example is worth keeping. You need not arbitrate assay performance; I will not claim a general cutoff from a specific test.",
+      "source_uncertainty": "The source is clear about the assay, but does not establish the textbook’s universal 10 mSv claim. Dose-band boundaries are conventions, not biological discontinuities.",
+      "sources": [
+        {
+          "url": "https://www.unscear.org/unscear/uploads/documents/publications/UNSCEAR_2012_Annex-A.pdf",
+          "title": "UNSCEAR 2012 Annex A",
+          "locator": "Printed page 23, Table 1 and footnotes",
+          "checked": "2026-09-21"
+        },
+        {
+          "url": "https://nucleus.iaea.org/sites/nss-oui/Published%20Chunks/m_cf1f9f91-f97c-4467-a9e6-e24560302f61/c_465a704d-72b5-4f55-be33-42757d378fb3__1_0.Html",
+          "title": "IAEA GSG-7: dicentric chromosome assay",
+          "locator": "Paragraphs A–7 and A–8",
+          "checked": "2026-09-21"
+        }
+      ],
+      "status": "inventory-and-recommendation-only; not applied"
+    },
+    {
+      "id": "P2-03",
+      "title": "Background-dose table and linked figures",
+      "review_level": "Closer review: choose a coherent table scope",
+      "module": "m68327",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "892e12d824912eb3e053270d6d81522defa260c3a2d65e970228a60342199037",
+      "current": [
+        {
+          "source_id": "import-auto-id1118563",
+          "kind": "table",
+          "content": [
+            [
+              "Source",
+              "Dose (mSv/yr)Multiply by 100 to obtain dose in mrem/yr."
+            ],
+            [
+              "Source",
+              "Australia",
+              "Germany",
+              "United States",
+              "World"
+            ],
+            [
+              "Natural Radiation - external",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Cosmic Rays",
+              "0.30",
+              "0.28",
+              "0.30",
+              "0.39"
+            ],
+            [
+              "Soil, building materials",
+              "0.40",
+              "0.40",
+              "0.30",
+              "0.48"
+            ],
+            [
+              "Radon gas",
+              "0.90",
+              "1.1",
+              "2.0",
+              "1.2"
+            ],
+            [
+              "Natural Radiation - internal",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "40 K, 14 C, 226 Ra",
+              "0.24",
+              "0.28",
+              "0.40",
+              "0.29"
+            ],
+            [
+              "Medical & Dental",
+              "0.80",
+              "0.90",
+              "0.53",
+              "0.40"
+            ],
+            [
+              "TOTAL",
+              "2.6",
+              "3.0",
+              "3.5",
+              "2.8"
+            ]
+          ]
+        },
+        {
+          "source_id": "import-auto-id1462138",
+          "kind": "passage",
+          "content": "Even the linear hypothesis estimates of the risks are relatively small, and the average person is not exposed to large amounts of radiation. lists average annual background radiation doses from natural and artificial sources for Australia, the United States, Germany, and world-wide averages. Cosmic rays are partially shielded by the atmosphere, and the dose depends upon altitude and latitude, but the average is about 0.40 mSv/yr. A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv."
+        }
+      ],
+      "findings": [
+        "The displayed old totals are consistent with rounding: Australia 2.64→2.6, Germany 2.96→3.0, US 3.53→3.5, world 2.76→2.8 mSv/year. The issue is provenance and comparability, not addition.",
+        "UNSCEAR 2024 reports a global natural-source average of about 3.0 mSv/year: cosmic 0.3, terrestrial 0.4, food/water 0.5, and radon/thoron 1.8.",
+        "This replaces an earlier global natural-source estimate of 2.4 mSv/year. UNSCEAR explicitly attributes the difference to improved methods and data coverage, not necessarily increased exposure."
+      ],
+      "recommendation": "Prefer a dated global natural-background table from one assessment, with medical exposure discussed separately. Retaining all three national columns would require independently dated national estimates and method notes; do not mix them into an apparently simultaneous survey.",
+      "maintainer_review": "Review whether the national comparisons are pedagogically important. Source numbers for the global alternative are clear; the structural choice needs your judgment.",
+      "source_uncertainty": "The original national values have no year or source in the table and have not been certified. Do not compare newer 3.0 natural-only with old 2.8 including medical as though the scope were identical.",
+      "sources": [
+        {
+          "url": "https://www.unscear.org/unscear/uploads/documents/unscear-reports/UNSCEAR_2024_Report_Vol.I.pdf",
+          "title": "UNSCEAR 2024, Volume I",
+          "locator": "Report to the General Assembly, printed page 11, paragraphs 44–45 and chart",
+          "checked": "2026-09-21"
+        }
+      ],
+      "status": "inventory-and-recommendation-only; not applied"
+    },
+    {
+      "id": "P2-04",
+      "title": "Aircrew and flight example",
+      "review_level": "Routine sourced update; check wording only",
+      "module": "m68327",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "892e12d824912eb3e053270d6d81522defa260c3a2d65e970228a60342199037",
+      "current": [
+        {
+          "source_id": "import-auto-id1462138",
+          "kind": "passage",
+          "content": "Even the linear hypothesis estimates of the risks are relatively small, and the average person is not exposed to large amounts of radiation. lists average annual background radiation doses from natural and artificial sources for Australia, the United States, Germany, and world-wide averages. Cosmic rays are partially shielded by the atmosphere, and the dose depends upon altitude and latitude, but the average is about 0.40 mSv/yr. A good example of the variation of cosmic radiation dose with altitude comes from the airline industry. Monitored personnel show an average of 2 mSv/yr. A 12-hour flight might give you an exposure of 0.02 to 0.03 mSv."
+        }
+      ],
+      "findings": [
+        "UNSCEAR 2024 cites an aircrew average of 2.7 mSv/year (range 1.5–4.5), rather than the undated 2 in the text.",
+        "The claimed 0.02–0.03 mSv for a generic 12-hour flight has no route or source. CDC provides a named New York–Los Angeles example of about 0.035 mSv."
+      ],
+      "recommendation": "Use a dated aircrew estimate and replace the generic duration-only flight estimate with a named route example, without implying every flight on that route has exactly that dose.",
+      "maintainer_review": "Only review whether the example reads naturally. No unresolved unit conversion; 0.035 mSv = 35 µSv.",
+      "source_uncertainty": "The original 12-hour value is unverified, not proven impossible. Route, altitude and conditions matter; the named-route replacement is an illustrative estimate.",
+      "sources": [
+        {
+          "url": "https://www.unscear.org/unscear/uploads/documents/unscear-reports/UNSCEAR_2024_Report_Vol.II.pdf",
+          "title": "UNSCEAR 2024, Volume II",
+          "locator": "Annex B, printed page 53, aircrew and air-travel discussion",
+          "checked": "2026-09-21"
+        },
+        {
+          "url": "https://www.cdc.gov/radiation-emergencies/causes/radiation-thermometer.html",
+          "title": "CDC: Radiation Thermometer",
+          "locator": "Typical high-altitude flight from New York City to Los Angeles",
+          "checked": "2026-09-21"
+        }
+      ],
+      "status": "inventory-and-recommendation-only; not applied"
+    },
+    {
+      "id": "P2-05",
+      "title": "CT procedure and dose shares",
+      "review_level": "Routine sourced update; denominator must remain explicit",
+      "module": "m68327",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "892e12d824912eb3e053270d6d81522defa260c3a2d65e970228a60342199037",
+      "current": [
+        {
+          "source_id": "import-auto-id3154810",
+          "kind": "passage",
+          "content": "Doses from the Earth itself are mainly due to the isotopes of uranium, thorium, and potassium, and vary greatly by location. Some places have great natural concentrations of uranium and thorium, yielding doses ten times as high as the average value. Internal doses come from foods and liquids that we ingest. Fertilizers containing phosphates have potassium and uranium. So we are all a little radioactive. Carbon-14 has about 66 Bq/kg radioactivity whereas fertilizers may have more than 3000 Bq/kg radioactivity. Medical and dental diagnostic exposures are mostly from X-rays. It should be noted that X-ray doses tend to be localized and are becoming much smaller with improved techniques. shows typical doses received during various diagnostic X-ray examinations. Note the large dose from a CT scan. While CT scans only account for less than 20 percent of the X-ray procedures done today, they account for about 50 percent of the annual dose received."
+        }
+      ],
+      "findings": [
+        "The current <20% of X-ray procedures / about 50% of annual dose claim gives neither place nor date, and annual dose has an unspecified denominator.",
+        "UNSCEAR’s official 2020/2021 assessment summary gives CT about 10% of medical examinations/procedures and 62% of their collective effective dose worldwide."
+      ],
+      "recommendation": "Use a dated assessment statement with medical-exposure scope: In UNSCEAR’s 2020/2021 assessment, CT accounted for about 10 percent of medical examinations and procedures worldwide but about 62 percent of their collective effective dose.",
+      "maintainer_review": "Review wording only; the percentages are explicitly reported together. Do not describe 62% as a share of natural-plus-medical radiation, or as a current-year measurement.",
+      "source_uncertainty": "The old denominator cannot be recovered from this paragraph. The official summary supports the proposed new denominator. The full-report PDF text extraction failed in this session; the linked official summary slide is directly readable. Nearby carbon-14/fertilizer activities in this same paragraph also lack a clear per-kilogram basis/source and remain a connected open check, not certified by the CT result.",
+      "sources": [
+        {
+          "url": "https://www.unscear.org/unscear/uploads/res/events/webinars/2022-05_online-launch-of-unscear-2020-2021-report--annex-a_-evaluation-of-medical-exposure-to-ionizing-radiation_html/UNSCEAR_Medical_Exposure_Launch_20220525.pdf",
+          "title": "UNSCEAR medical-exposure assessment launch, May 2022",
+          "locator": "Slide headed Summary of the 2020/2021 assessment",
+          "checked": "2026-09-21"
+        }
+      ],
+      "status": "inventory-and-recommendation-only; not applied"
+    },
+    {
+      "id": "P2-06",
+      "title": "Radiopharmaceutical activity table",
+      "review_level": "Closer review: source-to-procedure matches are incomplete",
+      "module": "m42649",
+      "source_path": "maintained/modules/m42649/index.cnxml",
+      "source_sha256": "87923e4a4135a642a36711bca2add33ce328b9438d02c112583503b21ae19ad9",
+      "current": [
+        {
+          "source_id": "eip-909",
+          "kind": "table",
+          "content": [
+            [
+              "Procedure, isotope",
+              "Typical activity (mCi), where1 mCi=3.7×107Bq"
+            ],
+            [
+              "Brain scan"
+            ],
+            [
+              "99m Tc",
+              "7.5"
+            ],
+            [
+              "113mIn",
+              "7.5"
+            ],
+            [
+              "11C (PET)",
+              "20"
+            ],
+            [
+              "13N (PET)",
+              "20"
+            ],
+            [
+              "15O (PET)",
+              "50"
+            ],
+            [
+              "18F (PET)",
+              "10"
+            ],
+            [
+              "Lung scan"
+            ],
+            [
+              "99m Tc",
+              "2"
+            ],
+            [
+              "133 Xe",
+              "7.5"
+            ],
+            [
+              "Cardiovascular blood pool"
+            ],
+            [
+              "131 I",
+              "0.2"
+            ],
+            [
+              "99m Tc",
+              "2"
+            ],
+            [
+              "Cardiovascular arterial flow"
+            ],
+            [
+              "201 Tl",
+              "3"
+            ],
+            [
+              "24 Na",
+              "7.5"
+            ],
+            [
+              "Thyroid scan"
+            ],
+            [
+              "131 I",
+              "0.05"
+            ],
+            [
+              "123 I",
+              "0.07"
+            ],
+            [
+              "Liver scan"
+            ],
+            [
+              "198Au (colloid)",
+              "0.1"
+            ],
+            [
+              "99mTc (colloid)",
+              "2"
+            ],
+            [
+              "Bone scan"
+            ],
+            [
+              "85 Sr",
+              "0.1"
+            ],
+            [
+              "99m Tc",
+              "10"
+            ],
+            [
+              "Kidney scan"
+            ],
+            [
+              "197 Hg",
+              "0.1"
+            ],
+            [
+              "99m Tc",
+              "1.5"
+            ]
+          ]
+        },
+        {
+          "source_id": "import-auto-id1773067",
+          "kind": "passage",
+          "content": "lists certain medical diagnostic uses of radiopharmaceuticals, including isotopes and activities that are typically administered. Many organs can be imaged with a variety of nuclear isotopes replacing a stable element by a radioactive isotope. One common diagnostic employs radioactive iodine to image the thyroid, since iodine is concentrated in that organ. Thyroid tissue that concentrates more radioactive iodine emits more radiation. A gamma camera detects this radiation to form an image showing how the iodine is distributed within the thyroid. Note that there is more than one isotope that can be used for several types of scans. Another common nuclear diagnostic is the thallium scan for the cardiovascular system, particularly used to evaluate blockages in the coronary arteries and examine heart activity. The salt TlCl can be used, because thallium is taken up by viable heart muscle cells in a manner similar to potassium. Gallium-67 accumulates where there is rapid cell growth, such as in tumors and sites of infection. Hence, it is useful in cancer imaging. Usually, the patient receives the injection one day and has a whole body scan 3 or 4 days later because it can take several days for the gallium to build up."
+        }
+      ],
+      "findings": [
+        "There are 20 activity rows. An isotope and organ alone often do not identify the preparation, route, or protocol; a label range cannot silently be called the typical activity for every use of that isotope.",
+        "Tc-99m bone value 10 mCi is compatible with the medronate adult label range 10–20 mCi (370–740 MBq). Tc-99m lung value 2 mCi is compatible with the MAA adult range 1–4 mCi (37–148 MBq). These verify only named formulations/procedures.",
+        "For a named brain-perfusion example, Ceretec/exametazime specifies 15–30 mCi (555–1110 MBq), not the generic 7.5 mCi in the book. That is a scope mismatch, not proof that every historical Tc-99m brain study used an incorrect amount.",
+        "The conversion 1 mCi = 3.7 × 10^7 Bq = 37 MBq is correct."
+      ],
+      "recommendation": "Prefer a smaller set of explicitly named diagnostic examples with adult label ranges, in MBq and mCi, rather than retaining an untraceable comprehensive-looking table. Keep the radioisotope diversity/PET discussion, but reconcile any links that currently rely on removed rows.",
+      "maintainer_review": "Review the choice of examples and table size. This is the main item where you should consult source headings if you want to inspect a match: product, indication and adult Dosage and Administration must all agree. I am not marking the other 17 existing activity rows as verified.",
+      "source_uncertainty": "Current sources support three named examples; only two match an existing number directly. The remaining original rows are unresolved, not automatically wrong or obsolete. Selecting a reduced table is a structural decision and remains held.",
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c91d0d8-6cc5-834c-bda0-aa83a873b9fb",
+          "title": "DailyMed: technetium Tc-99m medronate",
+          "locator": "Dosage and Administration, adult bone-imaging activity",
+          "checked": "2026-09-21"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?lang=en&setid=bbefaa05-1dc0-3ae7-7264-ce1eddf0da2b",
+          "title": "DailyMed: DRAXIMAGE MAA",
+          "locator": "Section 2.3, adult lung scintigraphy",
+          "checked": "2026-09-21"
+        },
+        {
+          "url": "https://www.gehealthcare.com/-/jssmedia/GEHC/US/Files/Products/Molecular-Imaging/Ceretec-Cobalt/Ceretec-Cobalt-Prescribing-Information-092018-CERETEC-with-Cobalt-Chloride-BK",
+          "title": "GE Healthcare: Ceretec prescribing information",
+          "locator": "Section 2, Cerebral Scintigraphy adult dosing",
+          "checked": "2026-09-21"
+        }
+      ],
+      "status": "inventory-and-recommendation-only; not applied"
+    }
+  ],
+  "already_resolved": [
+    "Diagnostic X-ray dose table U4-22: already updated; do not reopen without new evidence.",
+    "FC29 lifetime-risk arithmetic and survivor discussion, and cycle-2 latency corrections: retain approved scope.",
+    "F2-H01 dose conversion and radiation-weighting table: applied; no new issue identified in this inventory."
+  ],
+  "remaining_open": [
+    "Unmatched radiopharmaceutical rows or approval of reduced-table scope.",
+    "Final acute-effects replacement rows, including disposition of fertility row.",
+    "Background national columns or approval of global-only table.",
+    "Adjacent carbon-14/fertilizer per-kilogram activity basis.",
+    "Final coordinated paragraph/glossary edits after scope decisions."
+  ]
+}
