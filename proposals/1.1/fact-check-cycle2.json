@@ -16,14 +16,14 @@
       "anchor": "import-auto-id3120142",
       "source_path": "maintained/modules/m68327/index.cnxml",
       "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
-      "title": "Cancer cells are not uniformly easier to kill",
-      "reason": "The blanket comparison is incorrect: normal tissue is also radiosensitive, and tumor sensitivity varies. Retain the mechanism and the cause/cure conclusion.",
+      "title": "Explain how radiation therapy exploits cancer-cell sensitivity",
+      "reason": "Preserve the therapeutic point: radiation can kill cancer cells, and treatment targets the tumor while allowing recovery of normal tissue. Successful treatment does not require every treated cancer to be intrinsically more radiosensitive than surrounding normal cells; dose targeting and treatment timing also contribute. Only the original second sentence is replaced.",
       "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3120142\">Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Thus, cancer cells are more sensitive to radiation than normal cells and can be killed by it easily. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.</para>",
-      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3120142\">Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Cancer cells can be killed by radiation, but their sensitivity varies, and normal cells can also be damaged. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3120142\">Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Radiation therapy exploits this sensitivity to kill cancer cells. Targeting the tumor and allowing normal tissue to recover between treatments help limit damage to healthy tissue. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.</para>",
       "edits": [
         {
           "before": "Thus, cancer cells are more sensitive to radiation than normal cells and can be killed by it easily.",
-          "after": "Cancer cells can be killed by radiation, but their sensitivity varies, and normal cells can also be damaged."
+          "after": "Radiation therapy exploits this sensitivity to kill cancer cells. Targeting the tumor and allowing normal tissue to recover between treatments help limit damage to healthy tissue."
         }
       ],
       "sources": [
@@ -39,7 +39,8 @@
           "checked": "2026-09-20",
           "use": "Factual verification only; no external prose or images imported."
         }
-      ]
+      ],
+      "revision_note": "Revised at the author’s request to explain the treatment advantage directly. Still proposed, not approved or applied; the rest of the paragraph is unchanged."
     },
     {
       "id": "F2-02",

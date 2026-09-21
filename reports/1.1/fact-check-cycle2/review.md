@@ -4,13 +4,15 @@ Priority 1: remaining radiation/medical explanations and electrical-safety claim
 
 No cycle-2 edits applied.
 
-## F2-01 — Cancer cells are not uniformly easier to kill
+## F2-01 — Explain how radiation therapy exploits cancer-cell sensitivity
 
-The blanket comparison is incorrect: normal tissue is also radiosensitive, and tumor sensitivity varies. Retain the mechanism and the cause/cure conclusion.
+Preserve the therapeutic point: radiation can kill cancer cells, and treatment targets the tumor while allowing recovery of normal tissue. Successful treatment does not require every treated cancer to be intrinsically more radiosensitive than surrounding normal cells; dose targeting and treatment timing also contribute. Only the original second sentence is replaced.
 
 **Current:** Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Thus, cancer cells are more sensitive to radiation than normal cells and can be killed by it easily. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.
 
-**Proposed:** Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Cancer cells can be killed by radiation, but their sensitivity varies, and normal cells can also be damaged. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.
+**Proposed:** Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Radiation therapy exploits this sensitivity to kill cancer cells. Targeting the tumor and allowing normal tissue to recover between treatments help limit damage to healthy tissue. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.
+
+Revised at the author’s request to explain the treatment advantage directly. Still proposed, not approved or applied; the rest of the paragraph is unchanged.
 
 - [NCI: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy)
 - [NCI: external beam radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam)
