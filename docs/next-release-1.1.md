@@ -130,3 +130,7 @@ Verification: all proposed substitutions reproduce their review XML; source hash
 ### F2-H01 dose-treatment review (2026-09-20)
 
 Option 1 selected for drafting: compact modern treatment of absorbed, equivalent, and effective dose. Fifteen contextual comparisons are available in the cycle-2 review, covering the connected prose, equations, weighting and units tables, summary, and existing glossary entries. Replacements remain unapplied pending review. The acute-effects table and dose-band numbers still need the planned numerical audit; exercise assumptions will be reconciled during exercise revision.
+
+### Priority 1 completed and applied — 2026-09-21
+
+All 13 cycle-2 items are applied, including F2-H01/F2-H02 follow-ups, the minimal RBE-question repair, duplicated-sentence removal, and glossary alignment. Added radiation weighting factor, equivalent dose, and effective dose glossary entries; corrected linear-hypothesis and radiation-range definitions. Four maintained modules changed through 14 reversible editorial records (217 total). Historical baseline verification passed. Full course HTML and the two complete-section reading pages were rebuilt from canonical source. Numerical/background/activity/acute-effects tables and CT statistics remain priority 2; broad exercise revision remains separate. No 1.1 release PDF or public deployment was made in this step.

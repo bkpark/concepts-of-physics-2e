@@ -1,0 +1,28 @@
+{
+  "id": "F2-08",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m76584",
+  "source_path": "maintained/modules/m76584/index.cnxml",
+  "source_sha256": "32bbee703f7e97d734cbf762e948a06130789f9698047b5ef87c53d717b65af9",
+  "after_sha256": "d9925078707fd3a105dc905de510e2fda33d2723d02cfa9e9fd701ba098f92ab",
+  "before": "id=\"import-auto-id2005960\">Radiation can be absorbed or shielded by materials, such as the lead aprons dentists drape on us when taking X-rays. Lead is a particularly effective shield compared with other materials, such as plastic or air",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2005960\">Radiation can be absorbed or shielded by materials. Lead is a particularly effective shield for X-rays and gamma rays compared with materials such as plastic or air; other types of radiation may require different shielding",
+  "reason": "Shield selection depends on radiation type",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "NRC: radiation types and external/internal hazards",
+      "url": "https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-1-radiation",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "NRC: ophthalmic beta applicators and bremsstrahlung",
+      "url": "https://www.nrc.gov/documents-reports/generic-communications/information-notices/1984/in84043",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

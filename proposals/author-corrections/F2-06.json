@@ -1,0 +1,34 @@
+{
+  "id": "F2-06",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m76584",
+  "source_path": "maintained/modules/m76584/index.cnxml",
+  "source_sha256": "63ca48fae7d43c101fd405d8f1c7ee5db7c37d3efb5404be7598e8e4a66e24b1",
+  "after_sha256": "6f45a0334354005398e689f870c038f98af3f19d7e3a47be9d019eaa2fd454b7",
+  "before": "id=\"import-auto-id1229298\">The <term id=\"import-auto-id1587169\">range of radiation</term> is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see <link target-id=\"import-auto-id3385282\"/>). The higher the <emphasis effect=\"italics\"><emphasis effect=\"italics\">energy</emphasis></emphasis>, the greater the range, all other factors being the same. This makes good sense, since radiation loses its energy in materials primarily by producing ionization in them, and each ionization of an atom or a molecule requires energy that is removed from the radiation. The amount of ionization is, thus, directly proportional to the energy of the particle of radiation, as is its",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1229298\">The <term id=\"import-auto-id1587169\">range of radiation</term> is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see <link target-id=\"import-auto-id3385282\" />). For alpha and beta particles, all other factors being the same, the higher the energy, the greater the range. These particles lose energy through many interactions with the material, so a more energetic particle travels farther before stopping. Gamma ray photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material; they do not have a definite stopping",
+  "reason": "Distinguish charged-particle range from photon attenuation",
+  "authorization": "Author approved the current F2-06 wording on 2026-09-20: author-written replacement with the alpha/beta scope and final clarification that photons have no definite stopping range. Pending the next application batch. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "NIST: stopping power and range definitions",
+      "url": "https://physics.nist.gov/PhysRefData/Star/Text/appendix.html",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "NIST XCOM: photon interaction probabilities",
+      "url": "https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or media imported."
+    },
+    {
+      "title": "NIST: lead photon attenuation versus energy",
+      "url": "https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or media imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

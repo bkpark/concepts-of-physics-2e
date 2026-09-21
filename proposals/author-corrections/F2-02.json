@@ -1,0 +1,28 @@
+{
+  "id": "F2-02",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "04c04a65cbcb9df6dcd0fc98d5a681ca8e925729876ab999178f626a490fe65c",
+  "after_sha256": "8a28c1a2413a2a0e40d3c7e23db324055a6d365041f8a977917bf60fd78a68dc",
+  "before": "id=\"import-auto-id952989\">The two known long-term effects of radiation are cancer and genetic defects. Both are directly attributable to the interference of radiation with cell reproduction",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id952989\">Radiation can cause cancer and can damage genetic material. Damage to reproductive cells can potentially be passed to offspring",
+  "reason": "Distinguish cancer risk from heritable effects",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "RERF: genetic effects in survivors’ offspring",
+      "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "NCI: radiation therapy",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

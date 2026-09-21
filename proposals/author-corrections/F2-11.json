@@ -1,0 +1,22 @@
+{
+  "id": "F2-11",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52406",
+  "source_path": "maintained/modules/m52406/index.cnxml",
+  "source_sha256": "66aea49b5abab9b438fc293d5835d08be841f57ecf0b226e086b042a88555e74",
+  "after_sha256": "a16e57a04e66ca0944a05bab465a7648426d2b273a745497937ad5d0fa9bb547",
+  "before": "id=\"import-auto-id1314393\">Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If skin resistance is bypassed, such as by an intravenous infusion, a catheter, or exposed pacemaker leads, a person is rendered <term id=\"import-auto-id2688655\">microshock sensitive</term>. In this condition, currents about 1/1000 those listed in <link target-id=\"import-auto-id3063438\"/> produce similar effects. During open-heart surgery, currents as small as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant=\"normal\">20 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"20\" μ\"A\"} {}</m:annotation></m:semantics></m:math> can be used to still the heart. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. The break in the skin has reduced his resistance, and so the same voltage causes a greater current, and a much smaller current has a greater effect",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1314393\">Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If an electrical connection provides a path directly to the heart, such as a cardiac catheter or exposed pacemaker lead, a person is <term id=\"import-auto-id2688655\">microshock sensitive</term>. Currents measured in microamperes can then disrupt the heart’s rhythm, far below the milliampere currents listed in <link target-id=\"import-auto-id3063438\" />. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. A direct electrical path to the heart bypasses the protection normally provided by the skin and surrounding tissues",
+  "reason": "Microshock requires a path to the heart",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "Swerdlow et al. 1999: intracardiac leakage current in patients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10330388/",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

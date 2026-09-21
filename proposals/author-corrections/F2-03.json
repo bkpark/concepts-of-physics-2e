@@ -1,0 +1,34 @@
+{
+  "id": "F2-03",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "8a28c1a2413a2a0e40d3c7e23db324055a6d365041f8a977917bf60fd78a68dc",
+  "after_sha256": "e43a97ff28716955fb8f05917e15e111e25b041a986044bc0bb310a4f3fbeef5",
+  "before": "id=\"import-auto-id1403686\">There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1403686\">Radiation-induced cancers can appear years after exposure. Among Hiroshima and Nagasaki survivors, leukemia began to increase about 2–3 years after exposure, and solid cancers about 10 years after exposure. Increased cancer risk can persist for decades",
+  "reason": "Describe observed timing rather than fixed latency",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "RERF: study cohorts and timing of cancer increases",
+      "url": "https://www.rerf.or.jp/uploads/2017/09/leaflet_e.pdf",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "RERF: solid cancer increase about 10 years after exposure",
+      "url": "https://www.rerf.or.jp/en/mail/rerf-e-news201911e/",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "RERF: long-lasting excess solid-cancer risk",
+      "url": "https://www.rerf.or.jp/en/library/list-e/periodicals/rerf-update/backnumber/deathsur/lss12pt1/",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

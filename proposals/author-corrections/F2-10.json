@@ -1,0 +1,34 @@
+{
+  "id": "F2-10",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m52406",
+  "source_path": "maintained/modules/m52406/index.cnxml",
+  "source_sha256": "f440f7c074ac38a1ce9ba389c4f5523554ac2e5d5a1b8e79bc7a552fca24c2a2",
+  "after_sha256": "66aea49b5abab9b438fc293d5835d08be841f57ecf0b226e086b042a88555e74",
+  "before": "id=\"import-auto-id1926340\">Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. <link target-id=\"import-auto-id3190768\"/> presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{f=0} {}</m:annotation></m:semantics></m:math>), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See <link target-id=\"import-auto-id3163065\"",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1926340\">Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, a current path through the chest can interfere with the heart’s rhythm. And it is a general truth that the longer the duration of a shock, the greater its effects. <link target-id=\"import-auto-id3190768\" /> presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{f=0} {}</m:annotation></m:semantics></m:math>), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At high frequencies, electrical current can heat tissue without strongly stimulating nerves. This heating is used in electrosurgery, but the current can pass through the body and cause burns. Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See <link target-id=\"import-auto-id3163065\" ",
+  "reason": "Current path, ECT, and high-frequency heating",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "FDA regulation, 2025 CFR 21 §882.5940: ECT cardiovascular risks",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/pdf/CFR-2025-title21-vol8.pdf",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "FDA: high-frequency electrosurgical devices",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/premarket-notification-510k-submissions-electrosurgical-devices-general-surgery",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "FDA: electrosurgical return-electrode burn recall",
+      "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/megadyne-recalls-mega-2000-and-mega-soft-reusable-patient-return-electrodes-risk-serious-burn",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

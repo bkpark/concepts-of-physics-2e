@@ -2,7 +2,7 @@
 
 Priority 1: remaining radiation/medical explanations and electrical-safety claims. Numerical tables remain priority 2 except dependencies explicitly held here.
 
-No cycle-2 edits applied.
+Cycle-2 edits applied on 2026-09-21.
 
 ## F2-01 — Explain how radiation therapy exploits cancer-cell sensitivity
 
@@ -12,7 +12,7 @@ Preserve the therapeutic point: radiation can kill cancer cells, and treatment t
 
 **Proposed:** Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Radiation therapy exploits this sensitivity to kill cancer cells. Targeting the tumor and allowing normal tissue to recover between treatments help limit damage to healthy tissue. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.
 
-Revised at the author’s request to explain the treatment advantage directly. Author approved; not yet applied; the rest of the paragraph is unchanged.
+Revised at the author’s request to explain the treatment advantage directly. Author approved; not yet applied; the rest of the paragraph is unchanged. Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [NCI: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy)
 - [NCI: external beam radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam)
@@ -25,6 +25,8 @@ The first two sentences imply exactly two established late effects in humans and
 
 **Proposed:** Radiation can cause cancer and can damage genetic material. Damage to reproductive cells can potentially be passed to offspring. For high doses of radiation, the risk of cancer is reasonably well known from studies of exposed groups. Hiroshima and Nagasaki survivors and a smaller number of people exposed by their occupation, such as radium dial painters, have been fully documented. Chernobyl victims will be studied for many decades, with some data already available. For example, a significant increase in childhood thyroid cancer has been observed. The risk of a radiation-induced cancer for low and moderate doses is generally assumed to be proportional to the risk known for high doses. Under this assumption, any dose of radiation, no matter how small, involves a risk to human health. This is called the linear hypothesis, or linear no-threshold model, and is used in radiation protection. The size of the cancer risk at very low doses remains uncertain. Cells can repair radiation damage, but some damage may remain or be repaired incorrectly.
 
+ Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
+
 - [RERF: genetic effects in survivors’ offspring](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/)
 - [NCI: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy)
 
@@ -35,6 +37,8 @@ Keep concrete numbers and the previously approved lifetime estimate. The 2–3-y
 **Current:** There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about 300 in 106 per rem of whole-body exposure, within an order of magnitude.
 
 **Proposed:** Radiation-induced cancers can appear years after exposure. Among Hiroshima and Nagasaki survivors, leukemia began to increase about 2–3 years after exposure, and solid cancers about 10 years after exposure. Increased cancer risk can persist for decades. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about 300 in 106 per rem of whole-body exposure, within an order of magnitude.
+
+ Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [RERF: study cohorts and timing of cancer increases](https://www.rerf.or.jp/uploads/2017/09/leaflet_e.pdf)
 - [RERF: solid cancer increase about 10 years after exposure](https://www.rerf.or.jp/en/mail/rerf-e-news201911e/)
@@ -48,6 +52,8 @@ Coordinated shortening for review: remove the unsupported one-third ratio and mi
 
 **Proposed:** The risk of heritable effects from radiation is poorly known in humans. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies help estimate this risk. For radiation protection, the linear hypothesis is used to estimate risks at low doses. Hormesis is a term used to describe generally favorable biological responses to low exposures of toxins or radiation, but a health benefit from low-dose radiation has not been established for humans.
 
+ Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
+
 - [RERF: genetic effects in survivors’ offspring](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/)
 - [ICRP Publication 99: low-dose risk extrapolation](https://icrp.org/publication.asp?id=ICRP+Publication+99)
 
@@ -58,6 +64,8 @@ Synchronize the lifetime cancer estimate and time-distance-shielding order. Remo
 **Current:** Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some immediate radiation effects are given in . Effects due to low doses are not observed, but their risk is assumed to be directly proportional to those of high doses, an assumption known as the linear hypothesis. Long-term effects are cancer deaths at the rate of 10/106 rem·yand genetic defects at roughly one-third this rate. Background radiation doses and sources are given in . World-wide average radiation exposure from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes shielding, distance, and time to limit exposure.
 
 **Proposed:** Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some immediate radiation effects are given in . The linear hypothesis assumes that cancer risk is proportional to dose. The estimated additional lifetime risk of dying from radiation-induced cancer is about 300 in a million per rem of whole-body exposure, within an order of magnitude. Heritable effects have not been demonstrated in the offspring of Hiroshima and Nagasaki survivors. Background radiation doses and sources are given in . World-wide average radiation exposure from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes time, distance, and shielding to limit exposure.
+
+ Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [RERF: genetic effects in survivors’ offspring](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/)
 - [ICRP Publication 99: low-dose risk extrapolation](https://icrp.org/publication.asp?id=ICRP+Publication+99)
@@ -70,7 +78,7 @@ Author-written replacement with limited factual adjustments: restrict the energy
 
 **Proposed:** The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). For alpha and beta particles, all other factors being the same, the higher the energy, the greater the range. These particles lose energy through many interactions with the material, so a more energetic particle travels farther before stopping. Gamma ray photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material; they do not have a definite stopping range.
 
-Author-approved replacement, not yet applied. Preserves the definition, term ID and figure reference. F2-H02 still covers the downstream photon-speed explanation and figure caption.
+Author-approved replacement, not yet applied. Preserves the definition, term ID and figure reference. F2-H02 still covers the downstream photon-speed explanation and figure caption. Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [NIST: stopping power and range definitions](https://physics.nist.gov/PhysRefData/Star/Text/appendix.html)
 - [NIST XCOM: photon interaction probabilities](https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html)
@@ -84,7 +92,7 @@ External alpha protection does not imply safety after inhalation/ingestion. Beta
 
 **Proposed:** Alpha radiation from radioactive sources has a range much less than a millimeter of biological tissues, usually not enough to even penetrate the dead layers of our skin. On the other hand, the same α radiation can penetrate a few centimeters of air, so mere distance from a source prevents α radiation from reaching us. This makes α radiation less penetrating from outside the body than β and γ radiation. If alpha-emitting material enters the body, it can severely damage nearby tissue. Typical β radiation can penetrate a few millimeters of tissue or about a meter of air. Beta radiation is thus hazardous even when not ingested. Beta particles can be stopped by shielding, but their slowing can produce bremsstrahlung X-rays, particularly in materials such as lead. Plastic is often used to stop beta particles while limiting this X-ray production; additional shielding may be needed for the X-rays. Gamma rays do not have a well-defined stopping range, but they are effectively shielded—that is, reduced in intensity to acceptable levels—by sufficient shielding, often many centimeters of lead. The required thickness depends on the photon energy, source strength, and exposure conditions. One benefit of γs is that they allow radioactive tracers to be detected (see ).
 
-Author requested removal of the exponential-attenuation example and restoration of the original tracer sentence structure. The final sentence retains the original gamma MathML and reference, with one factual adjustment: gamma rays allow radioactive tracers to be detected; the rays themselves are not the tracer substances. Practical shielding language remains. Author approved; pending application.
+Author requested removal of the exponential-attenuation example and restoration of the original tracer sentence structure. The final sentence retains the original gamma MathML and reference, with one factual adjustment: gamma rays allow radioactive tracers to be detected; the rays themselves are not the tracer substances. Practical shielding language remains. Author approved; pending application. Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [NRC: radiation types and external/internal hazards](https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-1-radiation)
 - [NRC: ophthalmic beta applicators and bremsstrahlung](https://www.nrc.gov/documents-reports/generic-communications/information-notices/1984/in84043)
@@ -98,6 +106,8 @@ Remove the outdated dental-apron example already addressed in FC33 and scope the
 **Current:** Radiation can be absorbed or shielded by materials, such as the lead aprons dentists drape on us when taking X-rays. Lead is a particularly effective shield compared with other materials, such as plastic or air. How does the range of radiation depend on material? Ionizing radiation interacts best with charged particles in a material. Since electrons have small masses, they most readily absorb the energy of the radiation in collisions. The greater the density of a material and, in particular, the greater the density of electrons within a material, the smaller the range of radiation.
 
 **Proposed:** Radiation can be absorbed or shielded by materials. Lead is a particularly effective shield for X-rays and gamma rays compared with materials such as plastic or air; other types of radiation may require different shielding. How does the range of radiation depend on material? Ionizing radiation interacts best with charged particles in a material. Since electrons have small masses, they most readily absorb the energy of the radiation in collisions. The greater the density of a material and, in particular, the greater the density of electrons within a material, the smaller the range of radiation.
+
+ Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [NRC: radiation types and external/internal hazards](https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-1-radiation)
 - [NRC: ophthalmic beta applicators and bremsstrahlung](https://www.nrc.gov/documents-reports/generic-communications/information-notices/1984/in84043)
@@ -114,7 +124,7 @@ Use the author’s 1-mA sensation sentence, remove the 5-mA maximum-harmless-cur
 
 **Proposed:** Effects of Electrical Shock as a Function of CurrentFor an average male shocked through trunk of body for 1 s by 60-Hz AC. Values for females are 60–80% of those listed. Current (mA) Effect 1 Threshold of sensation 10–20 Onset of sustained muscular contraction; cannot let go for duration of shock; contraction of chest muscles may stop breathing during shock 50 Onset of pain 100–300+ Ventricular fibrillation possible; often fatal 300 Onset of burns depending on concentration of current 6000 (6 A) Onset of sustained ventricular contraction and respiratory paralysis; both cease when shock ends; heartbeat may return to normal; used to defibrillate the heart
 
-Author directed all listed changes: exact 1-mA sentence, removal of the 5-mA table row, and deletion of the rescue-advice sentence with no replacement. Pending application. The existing 10–20 mA entry and other table rows remain; this does not certify the rest of the table.
+Author directed all listed changes: exact 1-mA sentence, removal of the 5-mA table row, and deletion of the rescue-advice sentence with no replacement. Pending application. The existing 10–20 mA entry and other table rows remain; this does not certify the rest of the table. Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [OSHA: secondary injuries from small shock currents](https://www.osha.gov/sites/default/files/laws-regs/federalregister/2007-02-14.pdf)
 - [CDC: electrical hazards and first aid](https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html)
@@ -127,7 +137,7 @@ Keep the frequency and nerve-stimulation discussion. ECT has cardiovascular effe
 
 **Proposed:** Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, a current path through the chest can interfere with the heart’s rhythm. And it is a general truth that the longer the duration of a shock, the greater its effects. presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (f=0), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At high frequencies, electrical current can heat tissue without strongly stimulating nerves. This heating is used in electrosurgery, but the current can pass through the body and cause burns. Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See .)
 
-Adjacent demonstration sentence is retained as a description, not a safety assurance. No claim of harmless high-frequency exposure remains in the replacement.
+Adjacent demonstration sentence is retained as a description, not a safety assurance. No claim of harmless high-frequency exposure remains in the replacement. Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [FDA regulation, 2025 CFR 21 §882.5940: ECT cardiovascular risks](https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/pdf/CFR-2025-title21-vol8.pdf)
 - [FDA: high-frequency electrosurgical devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/premarket-notification-510k-submissions-electrosurgical-devices-general-surgery)
@@ -140,6 +150,8 @@ Do not imply every IV or break in skin creates the same sensitivity as an intrac
 **Current:** Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If skin resistance is bypassed, such as by an intravenous infusion, a catheter, or exposed pacemaker leads, a person is rendered microshock sensitive. In this condition, currents about 1/1000 those listed in produce similar effects. During open-heart surgery, currents as small as 20 μA can be used to still the heart. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. The break in the skin has reduced his resistance, and so the same voltage causes a greater current, and a much smaller current has a greater effect.
 
 **Proposed:** Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If an electrical connection provides a path directly to the heart, such as a cardiac catheter or exposed pacemaker lead, a person is microshock sensitive. Currents measured in microamperes can then disrupt the heart’s rhythm, far below the milliampere currents listed in . Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. A direct electrical path to the heart bypasses the protection normally provided by the skin and surrounding tissues.
+
+ Applied with author approval on 2026-09-21; earlier draft-only notes describe review history.
 
 - [Swerdlow et al. 1999: intracardiac leakage current in patients](https://pubmed.ncbi.nlm.nih.gov/10330388/)
 
@@ -223,7 +235,17 @@ Option 1 selected: distinguish absorbed dose, equivalent dose, and effective dos
 
 **Proposed:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation.
 
-The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits. Author-directed flow cleanup: retain the diagnostic-dose sentence in Risk versus Benefit and remove its earlier duplicate from the protection discussion.
+**Current:** linear hypothesis assumption that risk is directly proportional to risk from high doses
+
+**Proposed:** linear hypothesis the model that additional cancer risk is proportional to radiation dose, with no threshold below which the risk is zero
+
+radiation weighting factora standardized factor used to weight absorbed dose for radiation type when calculating equivalent dose
+
+equivalent dosethe average absorbed doses to an organ or tissue from each radiation type, multiplied by their radiation weighting factors and added; measured in sieverts (Sv) or rem
+
+effective dosethe sum of organ and tissue equivalent doses multiplied by tissue weighting factors; used in radiation protection to compare long-term risks and measured in sieverts (Sv) or rem
+
+Applied to maintained source on 2026-09-21 with author approval, including the coordinated follow-ups and glossary alignment. Before snapshots are retained for comparison. The independent numerical audit and broader exercise revision remain pending.
 
 - [ICRP Publication 147: dose quantities in radiation protection](https://www.icrp.org/publication.asp?id=ICRP+Publication+147)
 - [NRC: quality factor](https://www.nrc.gov/education-regulatory-research/glossary/quality-factor)
@@ -235,7 +257,7 @@ The original 15 comparisons are approved. The author requested that this coordin
 
 F2-06 already explains energy loss and photon interaction probabilities, and F2-07 covers practical penetration and shielding. Replace the preceding charge paragraph with a short comparison, remove the speed/time paragraph, and qualify the illustration caption and alternative text.
 
-Remove this paragraph. Its speed/time argument is not replaced; the preceding paragraph carries the short comparison. Retain its existing ID as an empty anchor when applying.
+Paragraph removed; its existing ID is retained as an empty anchor. The preceding paragraph now carries the short comparison.
 
 **Current:** The speed at which they travel is the other major factor affecting the range of αs, βs, and γs. The faster they move, the less time they spend in the vicinity of an atom or a molecule, and the less likely they are to interact. Since αs and βs are particles with mass (helium nuclei and electrons, respectively), their energy is kinetic. The mass of the β particle is thousands of times less than that of the αs, so that βs must travel much faster than αs to have the same energy. Since βs move faster, they have less time to interact than αs. Gamma rays are photons, which must travel at the speed of light. They are even less likely to interact than a β, since they spend even less time near a given atom (and they have no charge). The range of γs is thus greater than the range of βs.
 
@@ -257,6 +279,10 @@ Remove this paragraph. Its speed/time argument is not replaced; the preceding pa
 
 **Proposed:** Properties of Nuclear Radiation Type of Radiation Typical penetration and shielding α Stopped by a sheet of paper; travels a few cm in air or fractions of a mm in tissue β Stopped by a thin layer of plastic or aluminum; typically penetrates a few mm of tissue, depending on energy γ Several cm of lead or meters of concrete can substantially reduce intensity; the required thickness depends on photon energy, source strength, and the reduction needed These are typical comparisons for radioactive emissions, not fixed ranges or shielding requirements for every source.
 
+**Current:** range of radiation the distance that the radiation can travel through a material
+
+**Proposed:** range of radiation the distance radiation travels through a material; alpha and beta particles have stopping ranges, while gamma rays are attenuated without a definite stopping range
+
 ### Approved F2-06: earlier range explanation
 
 The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). For alpha and beta particles, all other factors being the same, the higher the energy, the greater the range. These particles lose energy through many interactions with the material, so a more energetic particle travels farther before stopping. Gamma ray photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material; they do not have a definite stopping range.
@@ -269,7 +295,7 @@ Different types of radiation deposit energy differently. Alpha particles general
 
 Alpha radiation from radioactive sources has a range much less than a millimeter of biological tissues, usually not enough to even penetrate the dead layers of our skin. On the other hand, the same α radiation can penetrate a few centimeters of air, so mere distance from a source prevents α radiation from reaching us. This makes α radiation less penetrating from outside the body than β and γ radiation. If alpha-emitting material enters the body, it can severely damage nearby tissue. Typical β radiation can penetrate a few millimeters of tissue or about a meter of air. Beta radiation is thus hazardous even when not ingested. Beta particles can be stopped by shielding, but their slowing can produce bremsstrahlung X-rays, particularly in materials such as lead. Plastic is often used to stop beta particles while limiting this X-ray production; additional shielding may be needed for the X-rays. Gamma rays do not have a well-defined stopping range, but they are effectively shielded—that is, reduced in intensity to acceptable levels—by sufficient shielding, often many centimeters of lead. The required thickness depends on the photon energy, source strength, and exposure conditions. One benefit of γs is that they allow radioactive tracers to be detected (see ).
 
-Draft only. The replacement removes the charge arithmetic, including its stale beta-charge StarMath annotation, along with the exact-equal-ionization claim. The speed paragraph becomes an empty anchor to preserve existing links. Caption and alternative text describe a typical schematic comparison rather than a universal ranking. F2-06 and F2-07 below are approved context, not new edits or duplicate patch operations. Artwork is unchanged. The Properties of Nuclear Radiation table correction is approved and queued with this item: relabel the column, correct beta penetration, and describe gamma shielding as intensity reduction.
+Applied to maintained source on 2026-09-21 with author approval, including the coordinated follow-ups and glossary alignment. Before snapshots are retained for comparison. The independent numerical audit and broader exercise revision remain pending.
 
 - [NIST: stopping power and range definitions](https://physics.nist.gov/PhysRefData/Star/Text/appendix.html)
 - [NIST XCOM: photon interactions and attenuation](https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html)
@@ -277,4 +303,4 @@ Draft only. The replacement removes the charge arithmetic, including its stale b
 
 - **Already approved cycle-1 claims — Retained:** Do not reopen the lifetime cancer estimate, iodine/TlCl/Tc-99m explanations, dose-limit paragraph, ALARA, historical dental illustration, or time-distance-shielding order absent new evidence.
 - **Numerical tables and CT shares — Priority 2 pending:** Background doses, administered activities, immediate-effects table and CT shares remain open. Dose-unit/RBE tables are included in F2-H01 because they are coupled to the explanation.
-- **Summary and exercise consistency — Partially proposed, dependencies remain:** F2-05 proposes cancer/heredity/protection-order summary synchronization. Dose terminology summary depends on F2-H01. Exercise prompts using annual risk, genetic-risk coefficients, old RBE values or IV microshock assumptions must be reconciled during the scheduled exercise revision before release.
+- **Summary and exercise consistency — Summary and glossary alignment applied; exercise revision remains:** Applied risk/protection summaries, modern dose definitions, and the minimal RBE-versus-radiation-weighting conceptual question. Remaining ordinary exercises will be reconciled during exercise revision before release.

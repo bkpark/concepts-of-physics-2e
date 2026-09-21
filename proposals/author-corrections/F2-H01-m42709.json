@@ -1,0 +1,46 @@
+{
+  "id": "F2-H01-m42709",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m42709",
+  "source_path": "maintained/modules/m42709/index.cnxml",
+  "source_sha256": "cbce27000e57bd2803bf00f93bae85f180be2396b497d9c336e4f49048880bec",
+  "after_sha256": "624c20ce0d0af2b0ea596e4e1fdb0bb97c61112b9baf9ca6e47e1eb37785391f",
+  "before": "\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>\n          <row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semant",
+  "after": "\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>\n<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><entry><m:math><m:msub><m:mi>w</m:mi><m:mi>R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row>\n          <row>\n            <entry>\n              <m:math display=\"block\">\n                <m:semant",
+  "reason": "Compact modern treatment of radiation dose",
+  "authorization": "2026-09-21: user approved the displayed Option 1 comparisons and requested a textbook-wide check for RBE uses outside their coverage. 2026-09-21: user requested a minimal RBE-versus-radiation-weighting question and inclusion of the caption and notation changes in F2-H01. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "ICRP Publication 147: dose quantities in radiation protection",
+      "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+147",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "NRC: quality factor",
+      "url": "https://www.nrc.gov/education-regulatory-research/glossary/quality-factor",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "ICRP Publication 92: RBE, quality factor, and radiation weighting factor",
+      "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+92",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or media imported."
+    },
+    {
+      "title": "ICRP Publication 103 (2007): radiation weighting factors",
+      "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+103",
+      "checked": "2026-09-20",
+      "use": "Factual basis for standardized factors, not imported prose."
+    },
+    {
+      "title": "ICRP Publication 127: recommended radiation weighting factors",
+      "url": "https://journals.sagepub.com/doi/10.1177/0146645314559144",
+      "checked": "2026-09-20",
+      "use": "Verify table factors: photons/electrons 1, protons 2, alpha particles 20, neutron energy dependence."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

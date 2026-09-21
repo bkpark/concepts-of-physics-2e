@@ -1,0 +1,28 @@
+{
+  "id": "F2-04",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "e43a97ff28716955fb8f05917e15e111e25b041a986044bc0bb310a4f3fbeef5",
+  "after_sha256": "679e9f743d3b5784f6c8078ee2474bc54528e937da8d020ba1e6408e0bf1a47f",
+  "before": "id=\"import-auto-id2655592\">The incidence of genetic defects induced by radiation is about one-third that of cancer deaths, but is much more poorly known. The lifetime risk of a genetic defect due to a 1 rem exposure is about 100 in a million or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>3</m:mn></m:mrow><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\"/><m:mrow><m:mtext>rem</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:mtext>yr</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ {3 \".\" 3} slash {\"10\" rSup { size 8{6} } } `\"rem\" cdot y} {}</m:annotation></m:semantics></m:math>, but the normal incidence is 60,000 in a million. Evidence of such a small increase, tragic as it is, is nearly impossible to obtain. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies do not seem to correlate well with effects on humans and are not very helpful. For both cancer and genetic defects, the approach to safety has been to use the linear hypothesis, which is likely to be an overestimate of the risks of low doses. Certain researchers even claim that low doses are <emphasis effect=\"italics\">beneficial</emphasis>. <term id=\"import-auto-id1992846\">Hormesis</term> is a term used to describe generally favorable biological responses to low exposures of toxins or radiation. Such low levels may help certain repair mechanisms to develop or enable cells to adapt to the effects of the low exposures. Positive effects may occur at low doses that could be a problem at high dose",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2655592\">The risk of heritable effects from radiation is poorly known in humans. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies help estimate this risk. For radiation protection, the linear hypothesis is used to estimate risks at low doses. <term id=\"import-auto-id1992846\">Hormesis</term> is a term used to describe generally favorable biological responses to low exposures of toxins or radiation, but a health benefit from low-dose radiation has not been established for human",
+  "reason": "Hereditary-risk estimates, animal evidence, and hormesis",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "RERF: genetic effects in survivors’ offspring",
+      "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "ICRP Publication 99: low-dose risk extrapolation",
+      "url": "https://icrp.org/publication.asp?id=ICRP+Publication+99",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

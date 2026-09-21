@@ -1,0 +1,28 @@
+{
+  "id": "F2-05",
+  "status": "applied-author-directed",
+  "target_release": "cp2e-ver1.1",
+  "module": "m68327",
+  "source_path": "maintained/modules/m68327/index.cnxml",
+  "source_sha256": "679e9f743d3b5784f6c8078ee2474bc54528e937da8d020ba1e6408e0bf1a47f",
+  "after_sha256": "7ee1a1983d13c29dc4286fc3a5b3e004c5f9ffe6876d64db2da10e27dd9de05e",
+  "before": "id=\"import-auto-id1869365\">Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some immediate radiation effects are given in <link target-id=\"import-auto-id1945981\"/>. Effects due to low doses are not observed, but their risk is assumed to be directly proportional to those of high doses, an assumption known as the linear hypothesis. Long-term effects are cancer deaths at the rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\"/><m:mtext> rem·y</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"10\"/\"10\" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math>and genetic defects at roughly one-third this rate. Background radiation doses and sources are given in <link target-id=\"import-auto-id1118563\"/>. World-wide average radiation exposure from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes shielding, distance, and time",
+  "after": "xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1869365\">Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some immediate radiation effects are given in <link target-id=\"import-auto-id1945981\" />. The linear hypothesis assumes that cancer risk is proportional to dose. The estimated additional lifetime risk of dying from radiation-induced cancer is about 300 in a million per rem of whole-body exposure, within an order of magnitude. Heritable effects have not been demonstrated in the offspring of Hiroshima and Nagasaki survivors. Background radiation doses and sources are given in <link target-id=\"import-auto-id1118563\" />. World-wide average radiation exposure from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes time, distance, and shielding",
+  "reason": "Make the risk summary agree with approved text",
+  "authorization": "2026-09-20: author approved the remainder of all non-held cycle-2 changes as currently displayed. Approval covers the explicit proposed edits; pending application. Held items and unchanged context are not thereby approved or certified. 2026-09-21: author approved completing glossary alignment and applying the reviewed cycle-2 changes.",
+  "sources": [
+    {
+      "title": "RERF: genetic effects in survivors’ offspring",
+      "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    },
+    {
+      "title": "ICRP Publication 99: low-dose risk extrapolation",
+      "url": "https://icrp.org/publication.asp?id=ICRP+Publication+99",
+      "checked": "2026-09-20",
+      "use": "Factual verification only; no external prose or images imported."
+    }
+  ],
+  "review_packet": "proposals/1.1/fact-check-cycle2.json"
+}

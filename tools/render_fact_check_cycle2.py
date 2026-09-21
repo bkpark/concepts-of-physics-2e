@@ -19,11 +19,11 @@ def render(s,i):
   return '<'+t+'>'+content+'</'+t+'>' if t else content
  return visit(E.fromstring(s))
 css='body{font:18px/1.6 Georgia,serif;max-width:1240px;margin:auto;padding:24px;color:#24383c}a{color:#075b72;overflow-wrap:anywhere}h1,h2,h3{line-height:1.25}section{border-top:1px solid #bbc;padding:1.5em 0;scroll-margin-top:15px}.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.box{background:#f3f6f7;padding:18px;min-width:0;overflow:auto}.notice{background:#eaf2f4;padding:18px}.hold{background:#fff4db;padding:18px}table{border-collapse:collapse;font-size:.85em}td{border:1px solid #bbc;padding:6px}math{font-family:"STIX Two Math",math}.status{font:14px sans-serif}summary{cursor:pointer}del{background:#ffe5e5}ins{background:#e0f2dc;text-decoration:none}@media(max-width:720px){body{padding:16px}.cols{display:block}.box{margin:12px 0}}'
-page=['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>1.1 factual review — cycle 2</title><style>'+css+'</style></head><body><h1>Introduction to Physics: factual review, cycle 2</h1><p class="notice">Priority 1: radiation/medical explanations and electrical safety. 11 approved corrections and the coordinated F2-H01 and F2-H02 comparisons. <strong>No changes in this packet are applied.</strong> The current textbook already includes the approved first cycle.</p><p><a href="../fact-check-review/">First-cycle review</a> · <a href="../../course-full/">1.1 preview</a> · <a href="review.md">Readable Markdown</a></p><ul>']
+page=['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>1.1 factual review — cycle 2</title><style>'+css+'</style></head><body><h1>Introduction to Physics: factual review, cycle 2</h1><p class="notice">Priority 1: radiation/medical explanations and electrical safety. <strong>All 13 cycle-2 items and glossary alignment are applied.</strong> Comparisons preserve the before snapshots and the applied replacements. Numerical audit and exercise revision remain pending.</p><p><a href="../fact-check-review/">First-cycle review</a> · <a href="../../course-full/">1.1 preview</a> · <a href="review.md">Readable Markdown</a></p><ul>']
 page+=['<li><a href="#'+i['id']+'">'+i['id']+' — '+esc(i['title'])+'</a></li>' for i in packet['items']];page+=['</ul>']
-md=['# Factual review cycle 2 — 1.1','',packet['scope'],'','No cycle-2 edits applied.','']
+md=['# Factual review cycle 2 — 1.1','',packet['scope'],'','Cycle-2 edits applied on 2026-09-21.','']
 for i in packet['items']:
- assert hashlib.sha256((ROOT/i['source_path']).read_bytes()).hexdigest()==i['source_sha256']
+ assert hashlib.sha256((ROOT/i['source_path']).read_bytes()).hexdigest()==packet.get('applied_source_sha256',{}).get(i['source_path'],i['source_sha256'])
  before=i['before_xml']
  for e in i['edits']:
   assert e['before'] in before
@@ -33,7 +33,7 @@ for i in packet['items']:
  md+=['## '+i['id']+' — '+i['title'],'',i['reason'],'']
  for passage in [i]+i.get('related_passages',[]):
   pi={**i,**passage}
-  if passage.get('source_path'):assert hashlib.sha256((ROOT/passage['source_path']).read_bytes()).hexdigest()==passage['source_sha256']
+  if passage.get('source_path'):assert hashlib.sha256((ROOT/passage['source_path']).read_bytes()).hexdigest()==packet.get('applied_source_sha256',{}).get(passage['source_path'],passage['source_sha256'])
   if passage is not i:page+=['<h3>'+esc(passage['title'])+'</h3><p><a href="'+context(pi,passage['anchor'])+'">View related passage</a></p>']
   if passage.get('proposed_xml'):
    checked=passage['before_xml']
@@ -45,9 +45,14 @@ for i in packet['items']:
   if passage.get('display_note'):
    after='<p>'+esc(passage['display_note'])+'</p>'+after
    md += [passage['display_note'],'']
-  page+=['<div class="cols"><div class="box"><h3>Current 1.1 preview</h3>'+render(passage['before_xml'],pi)+'</div><div class="box"><h3>Proposed — not applied</h3>'+after+'</div></div>']
+  page+=['<div class="cols"><div class="box"><h3>Before cycle-2 application</h3>'+render(passage['before_xml'],pi)+'</div><div class="box"><h3>Applied for 1.1</h3>'+after+'</div></div>']
   md+=['**Current:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['before_xml']))).strip(),'']
   if passage.get('proposed_xml'):md+=['**Proposed:** '+re.sub(r'\s+',' ',plain(E.fromstring(passage['proposed_xml']))).strip(),'']
+ if i.get('glossary_insertions'):
+  page+=['<h3>Added glossary entries</h3>']
+  for entry in i['glossary_insertions']:
+   page+=['<div class="box">'+render(entry['xml'],i)+'</div>']
+   md += [plain(E.fromstring(entry['xml'])),'']
  if i.get('context_passages'):
   page+=['<h3>Reading sequence with approved neighboring revisions</h3><p>Selected passages in book order; the intervening illustration and material-density discussion are not repeated here.</p>']
   for c in i['context_passages']:
