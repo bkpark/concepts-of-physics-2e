@@ -143,21 +143,77 @@ Do not imply every IV or break in skin creates the same sensitivity as an intrac
 
 - [Swerdlow et al. 1999: intracardiac leakage current in patients](https://pubmed.ncbi.nlm.nih.gov/10330388/)
 
-## F2-H01 — Coordinated decision: RBE, quality factor, equivalent and effective dose
+## F2-H01 — Compact modern treatment of radiation dose
 
-RBE is an experimentally determined comparison for a specified biological endpoint; it is not interchangeable with a radiation-protection quality factor or radiation weighting factor. The current prose, equations, examples, table and summary use RBE for rem/Sv and include organ-specific table values. Correcting one sentence would leave a contradictory treatment. Recommend a coordinated compact revision retaining rad/Gy and rem/Sv arithmetic, defining the protection factor clearly, and distinguishing tissue weighting for effective dose. Do not merely relabel the existing RBE table. Author discussion needed before drafting this connected change.
+Option 1 selected: distinguish absorbed dose, equivalent dose, and effective dose; replace the conflation of RBE and quality factor with standardized radiation weighting, retaining the simple alpha/gamma calculation and rad/rem conversions.
 
 **Current:** The effects of ionizing radiation may be directly proportional to the dose in rads, but they also depend on the type of radiation and the type of tissue. That is, for a given dose in rads, the effects depend on whether the radiation is α,β,γ, X-ray, or some other type of ionizing radiation. In the earlier discussion of the range of ionizing radiation, it was noted that energy is deposited in a series of ionizations and not in a single interaction. Each ion pair or ionization requires a certain amount of energy, so that the number of ion pairs is directly proportional to the amount of the deposited ionizing energy. But, if the range of the radiation is small, as it is for α s, then the ionization and the damage created is more concentrated and harder for the organism to repair, as seen in . Concentrated damage is more difficult for biological organisms to repair than damage that is spread out, so short-range particles have greater biological effects. The relative biological effectiveness (RBE) or quality factor (QF) is given in for several types of ionizing radiation—the effect of the radiation is directly proportional to the RBE. A dose unit more closely related to effects in biological tissue is called the roentgen equivalent man or rem and is defined to be the dose in rads multiplied by the relative biological effectiveness.
 
+**Proposed:** The effects of ionizing radiation depend on the absorbed dose, the type of radiation, and the type of tissue. For a given absorbed dose, densely concentrated ionization, such as that produced by α particles, can cause damage that is harder to repair (see ). The relative biological effectiveness (RBE) compares the absorbed doses of a reference radiation and the radiation being studied that produce the same biological effect. It depends on the effect being measured. For radiation protection, standardized radiation weighting factors, wR, are used instead (see ). For one type of radiation, the equivalent dose H to an organ or tissue is its average absorbed dose D multiplied by the radiation weighting factor. Absorbed dose is measured in grays (Gy); equivalent dose is measured in sieverts (Sv). The related quality factor is used in dose-equivalent quantities for radiation monitoring; it is not another name for RBE. The older unit roentgen equivalent man (rem) is also used for weighted doses.
+
+**Current:** rem=rad×RBE
+
+**Proposed:** H=wRD
+
+**Current:** So, if a person had a whole-body dose of 2.00 rad of γ radiation, the dose in rem would be (2.00 rad)(1) = 2.00 rem whole body. If the person had a whole-body dose of 2.00 rad of α radiation, then the dose in rem would be (2.00 rad)(20) = 40.0 rem whole body. The α s would have 20 times the effect on the person than the γ s for the same deposited energy. The SI equivalent of the rem is the sievert (Sv), defined to be Sv=Gy×RBE, so that
+
+**Proposed:** So, if an organ received an absorbed dose of 0.0200 Gy (2.00 rad) of γ radiation, its equivalent dose would be (0.0200 Gy)(1) = 0.0200 Sv (2.00 rem). For the same absorbed dose from α radiation deposited inside the body, the equivalent dose would be (0.0200 Gy)(20) = 0.400 Sv (40.0 rem). The α radiation receives 20 times the weighting for radiation protection; this does not mean that every biological effect is 20 times greater. For a mixture of radiation types, the equivalent doses from each type are added. The sievert (Sv) and rem are related by
+
+**Current:** 1 Sv=1 Gy×RBE=100 rem.
+
+**Proposed:** 1 Sv=100 rem.
+
+**Current:** The RBEs given in are approximate, but they yield certain insights. For example, the eyes are more sensitive to radiation, because the cells of the lens do not repair themselves. Neutrons cause more damage than γ rays, although both are neutral and have large ranges, because neutrons often cause secondary radiation when they are captured. Note that the RBEs are 1 for higher-energy β s, γ s, and X-rays, three of the most common types of radiation. For those types of radiation, the numerical values of the dose in rem and rad are identical. For example, 1 rad of γ radiation is also 1 rem. For that reason, rads are still widely quoted rather than rem. summarizes the units that are used for radiation.
+
+**Proposed:** The radiation weighting factors in are 1 for β particles, γ rays, and X-rays, three common types of radiation. For these, absorbed dose in Gy and equivalent dose in Sv have the same numerical value, as do absorbed dose in rad and equivalent dose in rem. Neutrons produce ionization indirectly through secondary charged particles, including recoiling nuclei. Their weighting factor depends on neutron energy. To account also for the different sensitivities of organs and tissues, effective dose adds their equivalent doses multiplied by tissue weighting factors. It is also measured in Sv or rem and is used to compare radiation exposures in terms of long-term risk. These weighted doses are protection quantities; absorbed dose in Gy is used to assess immediate tissue injury. summarizes the units used for radiation.
+
 **Current:** Relative Biological Effectiveness Type and energy of radiation RBEValues approximate, difficult to determine. X-rays 1 γ rays 1 β rays greater than 32 keV 1 β rays less than 32 keV 1.7 Neutrons, thermal to slow (<20 keV) 2–5 Neutrons, fast (1–10 MeV) 10 (body), 32 (eyes) Protons (1–10 MeV) 10 (body), 32 (eyes) α rays from radioactive decay 10–20 Heavy ions from accelerators 10–20
+
+**Proposed:** Radiation Weighting FactorsType of radiationwRX-rays and γ rays1Electrons and positrons (β particles), and muons1Protons and charged pions2α particles, fission fragments, and heavy ions20NeutronsDepends on neutron energyFactors recommended in ICRP Publication 103 for calculating equivalent dose. They are standardized protection factors, not RBE values for every biological effect.
 
 **Current:** Units for Radiation Quantity SI unit name Definition Former unit Conversion Activity Becquerel (bq) decay/sec Curie (Ci) 1 Bq = 2.7×10−11Ci Absorbed dose Gray (Gy) 1 J/kg rad Gy = 100 rad Dose Equivalent Sievert (Sv) 1 J/kg × RBE rem Sv = 100 rem
 
-Include lens repair/radiosensitivity claim and neutron secondary-interaction explanation in this coordinated revision. Acute tissue-reaction doses should be distinguished from risk-weighted protection quantities. Exercise dependencies must be flagged for the already planned exercise revision.
+**Proposed:** Radiation Quantities and UnitsQuantitySI unitMeaningOlder unitConversionActivitybecquerel (Bq)Decays per secondcurie (Ci)1 Bq ≈ 2.7 × 10⁻¹¹ CiAbsorbed dosegray (Gy)Energy deposited per mass; 1 Gy = 1 J/kgrad1 Gy = 100 radEquivalent dosesievert (Sv)Absorbed dose weighted for radiation typerem1 Sv = 100 remEffective dosesievert (Sv)Equivalent doses weighted for tissues and addedrem1 Sv = 100 rem
+
+**Current:** To account for the effect of the type of particle creating the ionization, we use the relative biological effectiveness (RBE) or quality factor (QF) given in and define a unit called the roentgen equivalent man (rem) as rem=rad×RBE.
+
+**Proposed:** To account for radiation type in radiation protection, we use the radiation weighting factors in . For one radiation type, equivalent dose H is average absorbed dose D to the organ or tissue multiplied by its radiation weighting factor:H=wRD
+
+**Current:** Particles that have short ranges or create large ionization densities have RBEs greater than 1. The SI equivalent of the rem is the sievert (Sv), defined to be Sv=Gy×RBE and 1 Sv=100 rem.
+
+**Proposed:** Effective dose also accounts for the different sensitivities of organs and tissues by applying tissue weighting factors to their equivalent doses and adding the results. Equivalent and effective doses are measured in sieverts (Sv) or rem:1 Sv=100 rem.
+
+**Current:** gray (Gy) the SI unit for radiation dose which is defined to be 1 Gy=1 J/kg=100 rad
+
+**Proposed:** gray (Gy) the SI unit of absorbed dose; 1 Gy = 1 J/kg = 100 rad
+
+**Current:** rad the ionizing energy deposited per kilogram of tissue
+
+**Proposed:** rad an older unit of absorbed dose; 1 rad = 0.01 Gy = 0.01 J/kg
+
+**Current:** sievert the SI equivalent of the rem
+
+**Proposed:** sievert the SI unit of equivalent dose and effective dose; 1 Sv = 100 rem
+
+**Current:** relative biological effectiveness (RBE) a number that expresses the relative amount of damage that a fixed amount of ionizing radiation of a given type can inflict on biological tissues
+
+**Proposed:** relative biological effectiveness (RBE) the ratio of absorbed doses of a reference radiation and the radiation being studied that produce the same specified biological effect
+
+**Current:** quality factor same as relative biological effectiveness
+
+**Proposed:** quality factor a factor used to weight absorbed dose in dose-equivalent quantities for radiation monitoring; distinct from RBE
+
+**Current:** roentgen equivalent man (rem) a dose unit more closely related to effects in biological tissue
+
+**Proposed:** roentgen equivalent man (rem) an older unit of equivalent dose and effective dose; 1 rem = 0.01 Sv
+
+Draft only, not applied. Comparisons cover the connected explanation, both equations, both tables, summary, and six existing glossary entries. Existing object and term identifiers are retained. The separate acute-effects table, dose bands, background-dose figures, and exercise assumptions still require the planned numerical audit; their unchanged values are not approved by this proposal. New glossary entries for equivalent dose, effective dose, and radiation weighting factor can accompany application after wording approval.
 
 - [ICRP Publication 147: dose quantities in radiation protection](https://www.icrp.org/publication.asp?id=ICRP+Publication+147)
 - [NRC: quality factor](https://www.nrc.gov/education-regulatory-research/glossary/quality-factor)
 - [ICRP Publication 92: RBE, quality factor, and radiation weighting factor](https://www.icrp.org/publication.asp?id=ICRP+Publication+92)
+- [ICRP Publication 103 (2007): radiation weighting factors](https://www.icrp.org/publication.asp?id=ICRP+Publication+103)
+- [ICRP Publication 127: recommended radiation weighting factors](https://journals.sagepub.com/doi/10.1177/0146645314559144)
 
 ## F2-H02 — Coordinated decision: why gamma rays penetrate
 

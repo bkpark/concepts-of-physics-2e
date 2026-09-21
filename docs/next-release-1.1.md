@@ -126,3 +126,7 @@ September 20, 2026: 11 unapplied proposals (F2-01–F2-11) and two coordinated a
 Topics: cancer-cell sensitivity; inherited versus cellular genetic effects; observed latency; hereditary-risk estimates/animal evidence/hormesis; matching risk summary; radiation range and shielding; low-current reassurance and shock rescue; ECT/current path and high-frequency heating; intracardiac microshock. Dose-quantity terminology (with linked equations, tables, lens/neutron explanation, summary and exercise dependencies) and the photon-penetration mechanism are held for coordinated author discussion. Do not silently relabel the RBE table or broaden the photon rewrite. Numerical-table/CT-share audit remains priority 2.
 
 Verification: all proposed substitutions reproduce their review XML; source hashes match; desktop and mobile review have no page overflow or MathML errors; all 16 current-context anchors resolve. The canonical source still verifies 955 files with 203 editorial records. The local server was restarted bound to 127.0.0.1:8765.
+
+### F2-H01 dose-treatment review (2026-09-20)
+
+Option 1 selected for drafting: compact modern treatment of absorbed, equivalent, and effective dose. Fifteen contextual comparisons are available in the cycle-2 review, covering the connected prose, equations, weighting and units tables, summary, and existing glossary entries. Replacements remain unapplied pending review. The acute-effects table and dose-band numbers still need the planned numerical audit; exercise assumptions will be reconciled during exercise revision.
