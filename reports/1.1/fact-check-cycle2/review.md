@@ -64,13 +64,13 @@ Synchronize the lifetime cancer estimate and time-distance-shielding order. Remo
 
 ## F2-06 — Distinguish charged-particle range from photon attenuation
 
-Expanded at the author’s request. Energy loss through discrete ionization/excitation events is valid for charged particles; a continuous stopping-power description is a statistical approximation, not a classical-wave assumption. Photon attenuation instead depends on interaction probabilities. Cross sections do not decrease universally with energy: photon pair production and absorption edges prevent that generalization. Preserve the range term ID and figure link.
+Author-written replacement with limited factual adjustments: restrict the energy/range trend to alpha and beta particles, and clarify that photons have no definite stopping range. Retain the original definition, term ID and figure reference. Photon interaction probabilities need not decrease monotonically with energy.
 
 **Current:** The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). The higher the energy, the greater the range, all other factors being the same. This makes good sense, since radiation loses its energy in materials primarily by producing ionization in them, and each ionization of an atom or a molecule requires energy that is removed from the radiation. The amount of ionization is, thus, directly proportional to the energy of the particle of radiation, as is its range.
 
-**Proposed:** The range of radiation depends on its energy, type, and the material encountered (see ). Alpha and beta particles lose energy through successive interactions until they stop. Gamma rays are absorbed or scattered with energy-dependent probabilities, so their intensity decreases with distance rather than ending at a definite range.
+**Proposed:** The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). For alpha and beta particles, all other factors being the same, the higher the energy, the greater the range. These particles lose energy through many interactions with the material, so a more energetic particle travels farther before stopping. Gamma ray photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material; they do not have a definite stopping range.
 
-Shortened at the author’s request to the essential particle/photon distinction. Proposed, not applied. F2-H02 still holds the downstream photon-speed explanation and figure caption for coordinated revision.
+Uses the author’s replacement draft with the scoped charged-particle trend and final photon-range clarification. Updated review proposal, not yet applied. F2-H02 still covers the downstream photon-speed explanation and figure caption.
 
 - [NIST: stopping power and range definitions](https://physics.nist.gov/PhysRefData/Star/Text/appendix.html)
 - [NIST XCOM: photon interaction probabilities](https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html)
