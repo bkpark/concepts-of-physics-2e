@@ -62,15 +62,19 @@ Synchronize the lifetime cancer estimate and time-distance-shielding order. Remo
 - [RERF: genetic effects in survivors’ offspring](https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/)
 - [ICRP Publication 99: low-dose risk extrapolation](https://icrp.org/publication.asp?id=ICRP+Publication+99)
 
-## F2-06 — Range is not directly proportional to energy
+## F2-06 — Distinguish charged-particle range from photon attenuation
 
-NIST defines charged-particle range through energy-dependent stopping power. Keep the qualitative trend, remove proportionality. A connected hold below addresses the separate photon explanation.
+Expanded at the author’s request. Energy loss through discrete ionization/excitation events is valid for charged particles; a continuous stopping-power description is a statistical approximation, not a classical-wave assumption. Photon attenuation instead depends on interaction probabilities. Cross sections do not decrease universally with energy: photon pair production and absorption edges prevent that generalization. Preserve the range term ID and figure link.
 
 **Current:** The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). The higher the energy, the greater the range, all other factors being the same. This makes good sense, since radiation loses its energy in materials primarily by producing ionization in them, and each ionization of an atom or a molecule requires energy that is removed from the radiation. The amount of ionization is, thus, directly proportional to the energy of the particle of radiation, as is its range.
 
-**Proposed:** The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). The higher the energy, the greater the range, all other factors being the same. This makes good sense, since radiation loses its energy in materials primarily by producing ionization in them, and each ionization of an atom or a molecule requires energy that is removed from the radiation. The amount of ionization is approximately proportional to the energy deposited in ionization, but the range is not generally proportional to the particle’s initial energy.
+**Proposed:** The range of radiation describes how far it penetrates a material. It depends on the energy and type of radiation and the material encountered (see ). Charged particles, such as alpha and beta particles, lose energy through many interactions with the material. A more energetic particle generally travels farther before stopping, but the energy lost per unit distance also depends on its energy. Gamma rays behave differently: individual photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material. A beam of gamma rays therefore decreases in intensity as it passes through matter, rather than having a definite stopping distance.
+
+Proposed, not applied. F2-H02 still holds the downstream photon-speed explanation and figure caption for coordinated revision; this expanded introductory paragraph does not silently resolve those passages.
 
 - [NIST: stopping power and range definitions](https://physics.nist.gov/PhysRefData/Star/Text/appendix.html)
+- [NIST XCOM: photon interaction probabilities](https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html)
+- [NIST: lead photon attenuation versus energy](https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html)
 
 ## F2-07 — Scope alpha safety and remove radiation-proof beta containers
 
