@@ -81,4 +81,3 @@ page+=['<section><h2>Already resolved / outside this pass</h2><ul>'+''.join('<li
 for folder in [ROOT/'reports/1.1/priority2-numerical-audit',ROOT/'prototype/dist/review-1.1/priority2-numerical-audit']:
  folder.mkdir(parents=True,exist_ok=True);(folder/'index.html').write_text('\n'.join(page),encoding='utf-8',newline='\n');(folder/'review.md').write_text('\n'.join(md),encoding='utf-8',newline='\n')
 print('Compiled six scoped review groups; no textbook edits.')
-
