@@ -117,3 +117,12 @@ Validation for cycle 1: 955 maintained files reconstruct from four initializatio
 - **Optional PDF cover and reusable front matter.** The author is considering a simple cover and modest publication boilerplate, not an ISBN application or copyright registration. Prepare a restrained proposal for review: title and author/attribution, CC BY 4.0 license and existing third-party credits, release identifier/date, canonical website/repository, and a suggested citation. Keep stable material in a reusable template and derive version-specific fields from release metadata so future releases update consistently. Preserve the title Introduction to Physics; keep cp2e-ver1.1 discreet. Check existing front matter before adding duplicates. Cover/front-matter design and exact wording remain author decisions; do not invent registration claims or identifiers.
 
 These tasks are queued near the end of 1.1, before final PDF layout checks and release packaging. No artwork or publication-output changes were made when recording this request.
+
+
+## Focused fact-check cycle 2: priority-1 review ready
+
+September 20, 2026: 11 unapplied proposals (F2-01–F2-11) and two coordinated author decisions (F2-H01/H02) are ready at http://127.0.0.1:8765/review-1.1/fact-check-cycle2/. Machine-readable packet: proposals/1.1/fact-check-cycle2.json; renderer: python tools/render_fact_check_cycle2.py; readable report: reports/1.1/fact-check-cycle2/review.md. Before snapshots are from the post-cycle-1 source; no new textbook changes applied.
+
+Topics: cancer-cell sensitivity; inherited versus cellular genetic effects; observed latency; hereditary-risk estimates/animal evidence/hormesis; matching risk summary; radiation range and shielding; low-current reassurance and shock rescue; ECT/current path and high-frequency heating; intracardiac microshock. Dose-quantity terminology (with linked equations, tables, lens/neutron explanation, summary and exercise dependencies) and the photon-penetration mechanism are held for coordinated author discussion. Do not silently relabel the RBE table or broaden the photon rewrite. Numerical-table/CT-share audit remains priority 2.
+
+Verification: all proposed substitutions reproduce their review XML; source hashes match; desktop and mobile review have no page overflow or MathML errors; all 16 current-context anchors resolve. The canonical source still verifies 955 files with 203 editorial records. The local server was restarted bound to 127.0.0.1:8765.

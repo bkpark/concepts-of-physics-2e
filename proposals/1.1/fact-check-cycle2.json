@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "release": "cp2e-ver1.1",
+  "date": "2026-09-20",
+  "baseline_commit": "d0209d2",
+  "status": "Second cycle: proposals and coordinated holds; no canonical edits",
+  "scope": "Priority 1: remaining radiation/medical explanations and electrical-safety claims. Numerical tables remain priority 2 except dependencies explicitly held here.",
+  "items": [
+    {
+      "id": "F2-01",
+      "status": "proposed-not-applied",
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_id": "import-auto-id3120142",
+      "anchor": "import-auto-id3120142",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
+      "title": "Cancer cells are not uniformly easier to kill",
+      "reason": "The blanket comparison is incorrect: normal tissue is also radiosensitive, and tumor sensitivity varies. Retain the mechanism and the cause/cure conclusion.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3120142\">Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Thus, cancer cells are more sensitive to radiation than normal cells and can be killed by it easily. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3120142\">Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. Cancer cells can be killed by radiation, but their sensitivity varies, and normal cells can also be damaged. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. Without contradiction, ionizing radiation can be both a cure and a cause.</para>",
+      "edits": [
+        {
+          "before": "Thus, cancer cells are more sensitive to radiation than normal cells and can be killed by it easily.",
+          "after": "Cancer cells can be killed by radiation, but their sensitivity varies, and normal cells can also be damaged."
+        }
+      ],
+      "sources": [
+        {
+          "title": "NCI: radiation therapy",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "NCI: external beam radiation therapy",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-02",
+      "status": "proposed-not-applied",
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_id": "import-auto-id952989",
+      "anchor": "import-auto-id952989",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
+      "title": "Distinguish cancer risk from heritable effects",
+      "reason": "The first two sentences imply exactly two established late effects in humans and conflate cellular mutations with inherited effects. Change only the opening; retain the approved FC29 low-dose discussion.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id952989\">The two known long-term effects of radiation are cancer and genetic defects. Both are directly attributable to the interference of radiation with cell reproduction. For high doses of radiation, the risk of cancer is reasonably well known from studies of exposed groups. Hiroshima and Nagasaki survivors and a smaller number of people exposed by their occupation, such as radium dial painters, have been fully documented. Chernobyl victims will be studied for many decades, with some data already available. For example, a significant increase in childhood thyroid cancer has been observed. The risk of a radiation-induced cancer for low and moderate doses is generally <emphasis effect=\"italics\">assumed</emphasis> to be proportional to the risk known for high doses. Under this assumption, any dose of radiation, no matter how small, involves a risk to human health. This is called the <term id=\"import-auto-id1381282\">linear hypothesis</term>, or linear no-threshold model, and is used in radiation protection. The size of the cancer risk at very low doses remains uncertain. Cells can repair radiation damage, but some damage may remain or be repaired incorrectly.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id952989\">Radiation can cause cancer and can damage genetic material. Damage to reproductive cells can potentially be passed to offspring. For high doses of radiation, the risk of cancer is reasonably well known from studies of exposed groups. Hiroshima and Nagasaki survivors and a smaller number of people exposed by their occupation, such as radium dial painters, have been fully documented. Chernobyl victims will be studied for many decades, with some data already available. For example, a significant increase in childhood thyroid cancer has been observed. The risk of a radiation-induced cancer for low and moderate doses is generally <emphasis effect=\"italics\">assumed</emphasis> to be proportional to the risk known for high doses. Under this assumption, any dose of radiation, no matter how small, involves a risk to human health. This is called the <term id=\"import-auto-id1381282\">linear hypothesis</term>, or linear no-threshold model, and is used in radiation protection. The size of the cancer risk at very low doses remains uncertain. Cells can repair radiation damage, but some damage may remain or be repaired incorrectly.</para>",
+      "edits": [
+        {
+          "before": "The two known long-term effects of radiation are cancer and genetic defects. Both are directly attributable to the interference of radiation with cell reproduction.",
+          "after": "Radiation can cause cancer and can damage genetic material. Damage to reproductive cells can potentially be passed to offspring."
+        }
+      ],
+      "sources": [
+        {
+          "title": "RERF: genetic effects in survivors’ offspring",
+          "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "NCI: radiation therapy",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-03",
+      "status": "proposed-not-applied",
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_id": "import-auto-id1403686",
+      "anchor": "import-auto-id1403686",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
+      "title": "Describe observed timing rather than fixed latency",
+      "reason": "Keep concrete numbers and the previously approved lifetime estimate. The 2–3-year and about-10-year observations concern survivor populations, not mandatory waiting periods for every cancer.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1403686\">There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about <m:math><m:mn>300</m:mn></m:math> in <m:math><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup></m:math> per rem of whole-body exposure, within an order of magnitude.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1403686\">Radiation-induced cancers can appear years after exposure. Among Hiroshima and Nagasaki survivors, leukemia began to increase about 2–3 years after exposure, and solid cancers about 10 years after exposure. Increased cancer risk can persist for decades. Omitting many details, the additional lifetime risk of dying from radiation-induced cancer is about <m:math><m:mn>300</m:mn></m:math> in <m:math><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup></m:math> per rem of whole-body exposure, within an order of magnitude.</para>",
+      "edits": [
+        {
+          "before": "There is a latency period for the onset of radiation-induced cancer of about 2 years for leukemia and 15 years for most other forms. The person is at risk for at least 30 years after the latency period.",
+          "after": "Radiation-induced cancers can appear years after exposure. Among Hiroshima and Nagasaki survivors, leukemia began to increase about 2–3 years after exposure, and solid cancers about 10 years after exposure. Increased cancer risk can persist for decades."
+        }
+      ],
+      "sources": [
+        {
+          "title": "RERF: study cohorts and timing of cancer increases",
+          "url": "https://www.rerf.or.jp/uploads/2017/09/leaflet_e.pdf",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "RERF: solid cancer increase about 10 years after exposure",
+          "url": "https://www.rerf.or.jp/en/mail/rerf-e-news201911e/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "RERF: long-lasting excess solid-cancer risk",
+          "url": "https://www.rerf.or.jp/en/library/list-e/periodicals/rerf-update/backnumber/deathsur/lss12pt1/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-04",
+      "status": "proposed-not-applied",
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_id": "import-auto-id2655592",
+      "anchor": "import-auto-id2655592",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
+      "title": "Hereditary-risk estimates, animal evidence, and hormesis",
+      "reason": "Coordinated shortening for review: remove the unsupported one-third ratio and mismatched annual/lifetime coefficient; retain the observed absence of excess hereditary effects, the term Hormesis and its anchor. RERF explicitly uses animal evidence. Do not turn low-dose uncertainty into an assertion that LNT necessarily overestimates risk. This removes numbers rather than introducing a new hereditary-risk model.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2655592\">The incidence of genetic defects induced by radiation is about one-third that of cancer deaths, but is much more poorly known. The lifetime risk of a genetic defect due to a 1 rem exposure is about 100 in a million or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>3</m:mn></m:mrow><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\" /><m:mrow><m:mtext>rem</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:mtext>yr</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ {3 \".\" 3} slash {\"10\" rSup { size 8{6} } } `\"rem\" cdot y} {}</m:annotation></m:semantics></m:math>, but the normal incidence is 60,000 in a million. Evidence of such a small increase, tragic as it is, is nearly impossible to obtain. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies do not seem to correlate well with effects on humans and are not very helpful. For both cancer and genetic defects, the approach to safety has been to use the linear hypothesis, which is likely to be an overestimate of the risks of low doses. Certain researchers even claim that low doses are <emphasis effect=\"italics\">beneficial</emphasis>. <term id=\"import-auto-id1992846\">Hormesis</term> is a term used to describe generally favorable biological responses to low exposures of toxins or radiation. Such low levels may help certain repair mechanisms to develop or enable cells to adapt to the effects of the low exposures. Positive effects may occur at low doses that could be a problem at high doses.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2655592\">The risk of heritable effects from radiation is poorly known in humans. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies help estimate this risk. For radiation protection, the linear hypothesis is used to estimate risks at low doses. <term id=\"import-auto-id1992846\">Hormesis</term> is a term used to describe generally favorable biological responses to low exposures of toxins or radiation, but a health benefit from low-dose radiation has not been established for humans.</para>",
+      "edits": [
+        {
+          "before": "The incidence of genetic defects induced by radiation is about one-third that of cancer deaths, but is much more poorly known. The lifetime risk of a genetic defect due to a 1 rem exposure is about 100 in a million or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>3</m:mn></m:mrow><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width=\"0.25em\" /><m:mrow><m:mtext>rem</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:mtext>yr</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ {3 \".\" 3} slash {\"10\" rSup { size 8{6} } } `\"rem\" cdot y} {}</m:annotation></m:semantics></m:math>, but the normal incidence is 60,000 in a million. Evidence of such a small increase, tragic as it is, is nearly impossible to obtain. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies do not seem to correlate well with effects on humans and are not very helpful. For both cancer and genetic defects, the approach to safety has been to use the linear hypothesis, which is likely to be an overestimate of the risks of low doses. Certain researchers even claim that low doses are <emphasis effect=\"italics\">beneficial</emphasis>. <term id=\"import-auto-id1992846\">Hormesis</term> is a term used to describe generally favorable biological responses to low exposures of toxins or radiation. Such low levels may help certain repair mechanisms to develop or enable cells to adapt to the effects of the low exposures. Positive effects may occur at low doses that could be a problem at high doses.",
+          "after": "The risk of heritable effects from radiation is poorly known in humans. For example, there is no evidence of increased genetic defects among the offspring of Hiroshima and Nagasaki survivors. Animal studies help estimate this risk. For radiation protection, the linear hypothesis is used to estimate risks at low doses. <term id=\"import-auto-id1992846\">Hormesis</term> is a term used to describe generally favorable biological responses to low exposures of toxins or radiation, but a health benefit from low-dose radiation has not been established for humans."
+        }
+      ],
+      "sources": [
+        {
+          "title": "RERF: genetic effects in survivors’ offspring",
+          "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "ICRP Publication 99: low-dose risk extrapolation",
+          "url": "https://icrp.org/publication.asp?id=ICRP+Publication+99",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-05",
+      "status": "proposed-not-applied",
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_id": "import-auto-id1869365",
+      "anchor": "import-auto-id1869365",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
+      "title": "Make the risk summary agree with approved text",
+      "reason": "Synchronize the lifetime cancer estimate and time-distance-shielding order. Remove the unverified hereditary coefficient and the absolute claim that low-dose effects are not observed. Background-dose numbers and the immediate-effects table remain priority-2 checks; their presence in this snapshot does not certify them.",
+      "before_xml": "<item xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1869365\">Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some immediate radiation effects are given in <link target-id=\"import-auto-id1945981\" />. Effects due to low doses are not observed, but their risk is assumed to be directly proportional to those of high doses, an assumption known as the linear hypothesis. Long-term effects are cancer deaths at the rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\" /><m:mtext> rem·y</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"10\"/\"10\" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math>and genetic defects at roughly one-third this rate. Background radiation doses and sources are given in <link target-id=\"import-auto-id1118563\" />. World-wide average radiation exposure from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes shielding, distance, and time to limit exposure.</item>",
+      "proposed_xml": "<item xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1869365\">Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some immediate radiation effects are given in <link target-id=\"import-auto-id1945981\" />. The linear hypothesis assumes that cancer risk is proportional to dose. The estimated additional lifetime risk of dying from radiation-induced cancer is about 300 in a million per rem of whole-body exposure, within an order of magnitude. Heritable effects have not been demonstrated in the offspring of Hiroshima and Nagasaki survivors. Background radiation doses and sources are given in <link target-id=\"import-auto-id1118563\" />. World-wide average radiation exposure from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes time, distance, and shielding to limit exposure.</item>",
+      "edits": [
+        {
+          "before": "Effects due to low doses are not observed, but their risk is assumed to be directly proportional to those of high doses, an assumption known as the linear hypothesis. Long-term effects are cancer deaths at the rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy=\"false\">/</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width=\"0.25em\" /><m:mtext> rem·y</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"10\"/\"10\" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math>and genetic defects at roughly one-third this rate.",
+          "after": "The linear hypothesis assumes that cancer risk is proportional to dose. The estimated additional lifetime risk of dying from radiation-induced cancer is about 300 in a million per rem of whole-body exposure, within an order of magnitude. Heritable effects have not been demonstrated in the offspring of Hiroshima and Nagasaki survivors."
+        },
+        {
+          "before": "Radiation protection utilizes shielding, distance, and time to limit exposure.",
+          "after": "Radiation protection utilizes time, distance, and shielding to limit exposure."
+        }
+      ],
+      "sources": [
+        {
+          "title": "RERF: genetic effects in survivors’ offspring",
+          "url": "https://www.rerf.or.jp/en/programs/roadmap_e/health_effects-en/geneefx-en/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "ICRP Publication 99: low-dose risk extrapolation",
+          "url": "https://icrp.org/publication.asp?id=ICRP+Publication+99",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ],
+      "basis": "Lifetime estimate and protection order already approved in FC29/FC28b; remaining wording depends on F2-04."
+    },
+    {
+      "id": "F2-06",
+      "status": "proposed-not-applied",
+      "module": "m76584",
+      "section_title": "Nuclear Radioactivity",
+      "slug": "nuclear-radioactivity",
+      "source_id": "import-auto-id1229298",
+      "anchor": "import-auto-id1229298",
+      "source_path": "maintained/modules/m76584/index.cnxml",
+      "source_sha256": "63ca48fae7d43c101fd405d8f1c7ee5db7c37d3efb5404be7598e8e4a66e24b1",
+      "title": "Range is not directly proportional to energy",
+      "reason": "NIST defines charged-particle range through energy-dependent stopping power. Keep the qualitative trend, remove proportionality. A connected hold below addresses the separate photon explanation.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1229298\">The <term id=\"import-auto-id1587169\">range of radiation</term> is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see <link target-id=\"import-auto-id3385282\" />). The higher the <emphasis effect=\"italics\"><emphasis effect=\"italics\">energy</emphasis></emphasis>, the greater the range, all other factors being the same. This makes good sense, since radiation loses its energy in materials primarily by producing ionization in them, and each ionization of an atom or a molecule requires energy that is removed from the radiation. The amount of ionization is, thus, directly proportional to the energy of the particle of radiation, as is its range.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1229298\">The <term id=\"import-auto-id1587169\">range of radiation</term> is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see <link target-id=\"import-auto-id3385282\" />). The higher the <emphasis effect=\"italics\"><emphasis effect=\"italics\">energy</emphasis></emphasis>, the greater the range, all other factors being the same. This makes good sense, since radiation loses its energy in materials primarily by producing ionization in them, and each ionization of an atom or a molecule requires energy that is removed from the radiation. The amount of ionization is approximately proportional to the energy deposited in ionization, but the range is not generally proportional to the particle’s initial energy.</para>",
+      "edits": [
+        {
+          "before": "The amount of ionization is, thus, directly proportional to the energy of the particle of radiation, as is its range.",
+          "after": "The amount of ionization is approximately proportional to the energy deposited in ionization, but the range is not generally proportional to the particle’s initial energy."
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIST: stopping power and range definitions",
+          "url": "https://physics.nist.gov/PhysRefData/Star/Text/appendix.html",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-07",
+      "status": "proposed-not-applied",
+      "module": "m76584",
+      "section_title": "Nuclear Radioactivity",
+      "slug": "nuclear-radioactivity",
+      "source_id": "import-auto-id3253816",
+      "anchor": "import-auto-id3253816",
+      "source_path": "maintained/modules/m76584/index.cnxml",
+      "source_sha256": "63ca48fae7d43c101fd405d8f1c7ee5db7c37d3efb5404be7598e8e4a66e24b1",
+      "title": "Scope alpha safety and remove radiation-proof beta containers",
+      "reason": "External alpha protection does not imply safety after inhalation/ingestion. Beta shielding must consider bremsstrahlung; avoid claiming either lead or plastic is universally best. The cited experimental comparison explicitly shows that actual configurations matter.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id3253816\">Alpha radiation from radioactive sources has a range much less than a millimeter of biological tissues, usually not enough to even penetrate the dead layers of our skin. On the other hand, the same <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> radiation can penetrate a few centimeters of air, so mere distance from a source prevents <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> radiation from reaching us. This makes <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> radiation relatively safe for our body compared to <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> radiation. Typical <m:math><m:semantics><m:mrow><m:mi>β</m:mi></m:mrow></m:semantics></m:math> radiation can penetrate a few millimeters of tissue or about a meter of air. Beta radiation is thus hazardous even when not ingested. The range of <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s in lead is about a millimeter, and so it is easy to store  <m:math><m:semantics><m:mrow><m:mi>β</m:mi></m:mrow></m:semantics></m:math> sources in lead radiation-proof containers. Gamma rays have a much greater range than either <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s or <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s. In fact, if a given thickness of material, like a lead brick, absorbs 90% of the <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s, then a second lead brick will only absorb 90% of what got through the first. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s do not have a well-defined range; we can only cut down the amount that gets through. Typically, <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math>s can penetrate many meters of air, go right through our bodies, and are effectively shielded (that is, reduced in intensity to acceptable levels) by many centimeters of lead. One benefit of <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math>s is that they can be used as radioactive tracers (see <link target-id=\"import-auto-id2589483\" />).</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id3253816\">Alpha radiation from radioactive sources has a range much less than a millimeter of biological tissues, usually not enough to even penetrate the dead layers of our skin. On the other hand, the same <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> radiation can penetrate a few centimeters of air, so mere distance from a source prevents <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> radiation from reaching us. This makes <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> radiation less penetrating from outside the body than <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> radiation. If alpha-emitting material enters the body, it can severely damage nearby tissue. Typical <m:math><m:semantics><m:mrow><m:mi>β</m:mi></m:mrow></m:semantics></m:math> radiation can penetrate a few millimeters of tissue or about a meter of air. Beta radiation is thus hazardous even when not ingested. Beta particles can be stopped by shielding, but their slowing can produce bremsstrahlung X-rays, particularly in materials such as lead. Plastic is often used to stop beta particles while limiting this X-ray production; additional shielding may be needed for the X-rays. Gamma rays have a much greater range than either <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s or <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s. In fact, if a given thickness of material, like a lead brick, absorbs 90% of the <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s, then a second lead brick will only absorb 90% of what got through the first. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>s do not have a well-defined range; we can only cut down the amount that gets through. Typically, <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math>s can penetrate many meters of air, go right through our bodies, and are effectively shielded (that is, reduced in intensity to acceptable levels) by many centimeters of lead. One benefit of <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math>s is that they can be used as radioactive tracers (see <link target-id=\"import-auto-id2589483\" />).</para>",
+      "edits": [
+        {
+          "before": "radiation relatively safe for our body compared to",
+          "after": "radiation less penetrating from outside the body than"
+        },
+        {
+          "before": "Typical ",
+          "after": "If alpha-emitting material enters the body, it can severely damage nearby tissue. Typical "
+        },
+        {
+          "before": "The range of <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s in lead is about a millimeter, and so it is easy to store  <m:math><m:semantics><m:mrow><m:mi>β</m:mi></m:mrow></m:semantics></m:math> sources in lead radiation-proof containers.",
+          "after": "Beta particles can be stopped by shielding, but their slowing can produce bremsstrahlung X-rays, particularly in materials such as lead. Plastic is often used to stop beta particles while limiting this X-ray production; additional shielding may be needed for the X-rays."
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRC: radiation types and external/internal hazards",
+          "url": "https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-1-radiation",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "NRC: ophthalmic beta applicators and bremsstrahlung",
+          "url": "https://www.nrc.gov/documents-reports/generic-communications/information-notices/1984/in84043",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "Measured beta shielding: lead/plastic and bremsstrahlung",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17228183/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-08",
+      "status": "proposed-not-applied",
+      "module": "m76584",
+      "section_title": "Nuclear Radioactivity",
+      "slug": "nuclear-radioactivity",
+      "source_id": "import-auto-id2005960",
+      "anchor": "import-auto-id2005960",
+      "source_path": "maintained/modules/m76584/index.cnxml",
+      "source_sha256": "63ca48fae7d43c101fd405d8f1c7ee5db7c37d3efb5404be7598e8e4a66e24b1",
+      "title": "Shield selection depends on radiation type",
+      "reason": "Remove the outdated dental-apron example already addressed in FC33 and scope the lead comparison to photons. Keep the material-density explanation.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2005960\">Radiation can be absorbed or shielded by materials, such as the lead aprons dentists drape on us when taking X-rays. Lead is a particularly effective shield compared with other materials, such as plastic or air. How does the range of radiation depend on <emphasis effect=\"italics\"><emphasis effect=\"italics\">material</emphasis></emphasis>? Ionizing radiation interacts best with charged particles in a material. Since electrons have small masses, they most readily absorb the energy of the radiation in collisions. The greater the density of a material and, in particular, the greater the density of electrons within a material, the smaller the range of radiation.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id2005960\">Radiation can be absorbed or shielded by materials. Lead is a particularly effective shield for X-rays and gamma rays compared with materials such as plastic or air; other types of radiation may require different shielding. How does the range of radiation depend on <emphasis effect=\"italics\"><emphasis effect=\"italics\">material</emphasis></emphasis>? Ionizing radiation interacts best with charged particles in a material. Since electrons have small masses, they most readily absorb the energy of the radiation in collisions. The greater the density of a material and, in particular, the greater the density of electrons within a material, the smaller the range of radiation.</para>",
+      "edits": [
+        {
+          "before": "Radiation can be absorbed or shielded by materials, such as the lead aprons dentists drape on us when taking X-rays. Lead is a particularly effective shield compared with other materials, such as plastic or air.",
+          "after": "Radiation can be absorbed or shielded by materials. Lead is a particularly effective shield for X-rays and gamma rays compared with materials such as plastic or air; other types of radiation may require different shielding."
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRC: radiation types and external/internal hazards",
+          "url": "https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-1-radiation",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "NRC: ophthalmic beta applicators and bremsstrahlung",
+          "url": "https://www.nrc.gov/documents-reports/generic-communications/information-notices/1984/in84043",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-09",
+      "status": "proposed-not-applied",
+      "module": "m52406",
+      "section_title": "Electric Hazards and the Human Body",
+      "slug": "electric-hazards-and-the-human-body",
+      "source_id": "import-auto-id1927034",
+      "anchor": "import-auto-id1927034",
+      "source_path": "maintained/modules/m52406/index.cnxml",
+      "source_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
+      "title": "Low-current reassurance and shock rescue",
+      "reason": "A small current can cause secondary injury; 5 mA is not a universal harmless/allowed exposure threshold. Replace the advice to strike a victim’s fist with brief source-disconnection/emergency-help guidance. Retain the can’t-let-go mechanism.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1927034\">Very small currents pass harmlessly and unfelt through the body. This happens to you regularly without your knowledge. The threshold of sensation is only 1 mA and, although unpleasant, shocks are apparently harmless for currents less than 5 mA. A great number of safety rules take the 5-mA value for the maximum allowed shock. At 10 to 20 mA and above, the current can stimulate sustained muscular contractions much as regular nerve impulses do. People sometimes say they were knocked across the room by a shock, but what really happened was that certain muscles contracted, propelling them in a manner not of their own choosing. (See <link target-id=\"import-auto-id1431810\" />(a).) More frightening, and potentially more dangerous, is the “can’t let go” effect illustrated in <link target-id=\"import-auto-id1431810\" />(b). The muscles that close the fingers are stronger than those that open them, so the hand closes involuntarily on the wire shocking it. This can prolong the shock indefinitely. It can also be a danger to a person trying to rescue the victim, because the rescuer’s hand may close about the victim’s wrist. Usually the best way to help the victim is to give the fist a hard knock/blow/jar with an insulator or to throw an insulator at the fist. Modern electric fences, used in animal enclosures, are now pulsed on and off to allow people who touch them to get free, rendering them less lethal than in the past.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1927034\">Very small currents pass harmlessly and unfelt through the body. This happens to you regularly without your knowledge. The threshold of sensation is about 1 mA. Even currents below 5 mA can cause involuntary reactions and injuries. At 10 to 20 mA and above, the current can stimulate sustained muscular contractions much as regular nerve impulses do. People sometimes say they were knocked across the room by a shock, but what really happened was that certain muscles contracted, propelling them in a manner not of their own choosing. (See <link target-id=\"import-auto-id1431810\" />(a).) More frightening, and potentially more dangerous, is the “can’t let go” effect illustrated in <link target-id=\"import-auto-id1431810\" />(b). The muscles that close the fingers are stronger than those that open them, so the hand closes involuntarily on the wire shocking it. This can prolong the shock indefinitely. It can also be a danger to a person trying to rescue the victim, because the rescuer’s hand may close about the victim’s wrist. Do not touch a person who is still in contact with an electrical source. Disconnect the power if it is safe to do so, and call for emergency help. Modern electric fences, used in animal enclosures, are now pulsed on and off to allow people who touch them to get free, rendering them less lethal than in the past.</para>",
+      "edits": [
+        {
+          "before": "The threshold of sensation is only 1 mA and, although unpleasant, shocks are apparently harmless for currents less than 5 mA. A great number of safety rules take the 5-mA value for the maximum allowed shock.",
+          "after": "The threshold of sensation is about 1 mA. Even currents below 5 mA can cause involuntary reactions and injuries."
+        },
+        {
+          "before": "Usually the best way to help the victim is to give the fist a hard knock/blow/jar with an insulator or to throw an insulator at the fist.",
+          "after": "Do not touch a person who is still in contact with an electrical source. Disconnect the power if it is safe to do so, and call for emergency help."
+        }
+      ],
+      "sources": [
+        {
+          "title": "OSHA: secondary injuries from small shock currents",
+          "url": "https://www.osha.gov/sites/default/files/laws-regs/federalregister/2007-02-14.pdf",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "CDC: electrical hazards and first aid",
+          "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-10",
+      "status": "proposed-not-applied",
+      "module": "m52406",
+      "section_title": "Electric Hazards and the Human Body",
+      "slug": "electric-hazards-and-the-human-body",
+      "source_id": "import-auto-id1926340",
+      "anchor": "import-auto-id1926340",
+      "source_path": "maintained/modules/m52406/index.cnxml",
+      "source_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
+      "title": "Current path, ECT, and high-frequency heating",
+      "reason": "Keep the frequency and nerve-stimulation discussion. ECT has cardiovascular effects; high-frequency current is not confined to skin. Retain the medical application without presenting it as harmless. Both substitutions are displayed together because they affect the same paragraph.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1926340\">Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. <link target-id=\"import-auto-id3190768\" /> presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{f=0} {}</m:annotation></m:semantics></m:math>), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See <link target-id=\"import-auto-id3163065\" />.) </para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1926340\">Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, a current path through the chest can interfere with the heart’s rhythm. And it is a general truth that the longer the duration of a shock, the greater its effects. <link target-id=\"import-auto-id3190768\" /> presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{f=0} {}</m:annotation></m:semantics></m:math>), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At high frequencies, electrical current can heat tissue without strongly stimulating nerves. This heating is used in electrosurgery, but the current can pass through the body and cause burns. Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See <link target-id=\"import-auto-id3163065\" />.) </para>",
+      "edits": [
+        {
+          "before": "For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression.",
+          "after": "For example, a current path through the chest can interfere with the heart’s rhythm."
+        },
+        {
+          "before": "At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!)",
+          "after": "At high frequencies, electrical current can heat tissue without strongly stimulating nerves. This heating is used in electrosurgery, but the current can pass through the body and cause burns."
+        }
+      ],
+      "sources": [
+        {
+          "title": "FDA regulation, 2025 CFR 21 §882.5940: ECT cardiovascular risks",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/pdf/CFR-2025-title21-vol8.pdf",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "FDA: high-frequency electrosurgical devices",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/premarket-notification-510k-submissions-electrosurgical-devices-general-surgery",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "FDA: electrosurgical return-electrode burn recall",
+          "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/megadyne-recalls-mega-2000-and-mega-soft-reusable-patient-return-electrodes-risk-serious-burn",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ],
+      "revision_note": "Adjacent demonstration sentence is retained as a description, not a safety assurance. No claim of harmless high-frequency exposure remains in the replacement."
+    },
+    {
+      "id": "F2-11",
+      "status": "proposed-not-applied",
+      "module": "m52406",
+      "section_title": "Electric Hazards and the Human Body",
+      "slug": "electric-hazards-and-the-human-body",
+      "source_id": "import-auto-id1314393",
+      "anchor": "import-auto-id1314393",
+      "source_path": "maintained/modules/m52406/index.cnxml",
+      "source_sha256": "83f9060a845b8f1e6ad4a4e771f4522f0e790ff024868cec90e5bb77adc67758",
+      "title": "Microshock requires a path to the heart",
+      "reason": "Do not imply every IV or break in skin creates the same sensitivity as an intracardiac connection. Remove the unsupported 20-microamp surgical assertion and fixed 1/1000 multiplier. Keep microampere versus milliampere scale and the term anchor.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1314393\">Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If skin resistance is bypassed, such as by an intravenous infusion, a catheter, or exposed pacemaker leads, a person is rendered <term id=\"import-auto-id2688655\">microshock sensitive</term>. In this condition, currents about 1/1000 those listed in <link target-id=\"import-auto-id3063438\" /> produce similar effects. During open-heart surgery, currents as small as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant=\"normal\">20 μA</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"20\" μ\"A\"} {}</m:annotation></m:semantics></m:math> can be used to still the heart. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. The break in the skin has reduced his resistance, and so the same voltage causes a greater current, and a much smaller current has a greater effect.</para>",
+      "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1314393\">Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If an electrical connection provides a path directly to the heart, such as a cardiac catheter or exposed pacemaker lead, a person is <term id=\"import-auto-id2688655\">microshock sensitive</term>. Currents measured in microamperes can then disrupt the heart’s rhythm, far below the milliampere currents listed in <link target-id=\"import-auto-id3063438\" />. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. A direct electrical path to the heart bypasses the protection normally provided by the skin and surrounding tissues.</para>",
+      "edits": [
+        {
+          "before": "If skin resistance is bypassed, such as by an intravenous infusion, a catheter, or exposed pacemaker leads, a person is rendered <term id=\"import-auto-id2688655\">microshock sensitive</term>. In this condition, currents about 1/1000 those listed in <link target-id=\"import-auto-id3063438\" /> produce similar effects. During open-heart surgery, currents as small as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant=\"normal\">20 μA</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"20\" μ\"A\"} {}</m:annotation></m:semantics></m:math> can be used to still the heart.",
+          "after": "If an electrical connection provides a path directly to the heart, such as a cardiac catheter or exposed pacemaker lead, a person is <term id=\"import-auto-id2688655\">microshock sensitive</term>. Currents measured in microamperes can then disrupt the heart’s rhythm, far below the milliampere currents listed in <link target-id=\"import-auto-id3063438\" />."
+        },
+        {
+          "before": "The break in the skin has reduced his resistance, and so the same voltage causes a greater current, and a much smaller current has a greater effect.",
+          "after": "A direct electrical path to the heart bypasses the protection normally provided by the skin and surrounding tissues."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Swerdlow et al. 1999: intracardiac leakage current in patients",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10330388/",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        }
+      ]
+    },
+    {
+      "id": "F2-H01",
+      "status": "held-for-coordinated-review",
+      "module": "m68327",
+      "section_title": "Biological Effects of Ionizing Radiation",
+      "slug": "biological-effects-of-ionizing-radiation",
+      "source_id": "import-auto-id2681649",
+      "anchor": "import-auto-id2681649",
+      "source_path": "maintained/modules/m68327/index.cnxml",
+      "source_sha256": "d70ff08d1000b742a7af47089ead3c17cb3eacb3d9ced31117b40c3aaeb28fda",
+      "title": "Coordinated decision: RBE, quality factor, equivalent and effective dose",
+      "reason": "RBE is an experimentally determined comparison for a specified biological endpoint; it is not interchangeable with a radiation-protection quality factor or radiation weighting factor. The current prose, equations, examples, table and summary use RBE for rem/Sv and include organ-specific table values. Correcting one sentence would leave a contradictory treatment. Recommend a coordinated compact revision retaining rad/Gy and rem/Sv arithmetic, defining the protection factor clearly, and distinguishing tissue weighting for effective dose. Do not merely relabel the existing RBE table. Author discussion needed before drafting this connected change.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2681649\">The effects of ionizing radiation may be directly proportional to the dose in rads, but they also depend on the type of radiation and the type of tissue. That is, for a given dose in rads, the effects depend on whether the radiation is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi fontstyle=\"italic\">α,</m:mi><m:mspace width=\"0.25em\" /><m:mi fontstyle=\"italic\">β,</m:mi><m:mspace width=\"0.25em\" /><m:mi fontstyle=\"italic\">γ,</m:mi></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α,`β`,γ,} {}</m:annotation></m:semantics></m:math> X-ray, or some other type of ionizing radiation. In the earlier discussion of the range of ionizing radiation, it was noted that energy is deposited in a series of ionizations and not in a single interaction. Each ion pair or ionization requires a certain amount of energy, so that the number of ion pairs is directly proportional to the amount of the deposited ionizing energy. But, if the range of the radiation is small, as it is for <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> s, then the ionization and the damage created is more concentrated and harder for the organism to repair, as seen in <link target-id=\"import-auto-id1860748\" />. Concentrated damage is more difficult for biological organisms to repair than damage that is spread out, so short-range particles have greater biological effects. The <term id=\"import-auto-id1840138\">relative biological effectiveness</term> (RBE) or <term id=\"import-auto-id3104618\">quality factor</term><emphasis effect=\"bold\" /> (QF)<sup /> is given in <link target-id=\"import-auto-id3172969\" /> for several types of ionizing radiation—the effect of the radiation is directly proportional to the RBE. A dose unit more closely related to effects in biological tissue is called the <term id=\"import-auto-id3090228\">roentgen equivalent man</term> or rem and is defined to be the dose in rads multiplied by the relative biological effectiveness.</para>",
+      "proposed_xml": null,
+      "edits": [],
+      "sources": [
+        {
+          "title": "ICRP Publication 147: dose quantities in radiation protection",
+          "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+147",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "NRC: quality factor",
+          "url": "https://www.nrc.gov/education-regulatory-research/glossary/quality-factor",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "ICRP Publication 92: RBE, quality factor, and radiation weighting factor",
+          "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+92",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or media imported."
+        }
+      ],
+      "related_passages": [
+        {
+          "title": "Connected RBE table — decision needed",
+          "anchor": "import-auto-id3172969",
+          "before_xml": "<table xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id3172969\" summary=\"This is a two column table. The left column is labeled type and energy of radiation. The right column is labeled R B E and gives values corresponding with each type and energy of radiation. A note says that R B E values are approximate and difficult to determine.\"><title>Relative Biological Effectiveness</title>\n<tgroup cols=\"2\"><colspec colnum=\"1\" colname=\"c1\" />\n        <colspec colnum=\"2\" colname=\"c2\" />\n        <thead><row>\n            <entry align=\"center\">\n              Type and energy of radiation\n            </entry>\n            <entry align=\"center\">\n             RBE<footnote id=\"eip-id3110918\">Values approximate, difficult to determine.</footnote>\n            </entry>\n          </row></thead><tbody><row>\n            <entry>X-rays</entry>\n            <entry>1</entry>\n          </row><row>\n            <entry><emphasis effect=\"italics\"><m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle=\"italic\">γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math></emphasis> rays</entry>\n            <entry>1</entry>\n          </row><row>\n            <entry><emphasis effect=\"italics\"><m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math></emphasis> rays greater than 32 keV</entry>\n            <entry>1</entry>\n          </row><row>\n            <entry><emphasis effect=\"italics\"><m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math></emphasis> rays less than 32 keV</entry>\n            <entry>1.7</entry>\n          </row><row>\n            <entry>Neutrons, thermal to slow (&lt;20 keV)</entry>\n            <entry>2–5</entry>\n          </row><row>\n            <entry>Neutrons, fast (1–10 MeV)</entry>\n            <entry>10 (body), 32 (eyes)</entry>\n          </row><row>\n            <entry>Protons (1–10 MeV)</entry>\n            <entry>10 (body), 32 (eyes)</entry>\n          </row><row>\n            <entry><m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> rays from radioactive decay</entry>\n            <entry>10–20</entry>\n          </row><row>\n            <entry>Heavy ions from accelerators</entry>\n            <entry>10–20</entry>\n          </row></tbody>\n</tgroup>\n</table>",
+          "proposed_xml": null,
+          "edits": []
+        },
+        {
+          "title": "Connected dose-unit table — decision needed",
+          "anchor": "import-auto-id3127826",
+          "before_xml": "<table xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id3127826\" summary=\"This is a five column table with three rows. In each row, a quantity of radiation is given. In each column, the S I unit name, definition, former unit and conversion factor are given for each of the three radiation quantities.\"><title>Units for Radiation</title>\n<tgroup cols=\"5\"><colspec colnum=\"1\" colname=\"c1\" />\n        <colspec colnum=\"2\" colname=\"c2\" />\n        <colspec colnum=\"3\" colname=\"c3\" />\n        <colspec colnum=\"4\" colname=\"c4\" />\n        <colspec colnum=\"5\" colname=\"c5\" />\n        <thead><row>\n            <entry align=\"center\">Quantity</entry>\n            <entry align=\"center\">SI unit name</entry>\n            <entry align=\"center\">Definition</entry>\n            <entry align=\"center\">Former unit</entry>\n            <entry align=\"center\">Conversion</entry>\n          </row></thead><tbody><row>\n            <entry>Activity</entry>\n            <entry>Becquerel (bq)</entry>\n            <entry>decay/sec</entry>\n            <entry>Curie (Ci)</entry>\n            <entry><m:math display=\"block\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1 Bq = 2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>7</m:mn><m:mo stretchy=\"false\">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mtext>11</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width=\"0.25em\" /><m:mtext>Ci</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{2 \".\" 7 times \"10\" rSup { size 8{ - \"11\"} } } {}</m:annotation></m:semantics></m:math></entry>\n          </row><row>\n            <entry>Absorbed dose</entry>\n            <entry>Gray (Gy)</entry>\n            <entry>1 J/kg</entry>\n            <entry>rad</entry>\n            <entry><m:math><m:semantics><m:mrow><m:mtext>Gy = 100 rad</m:mtext></m:mrow></m:semantics></m:math></entry>\n          </row><row>\n            <entry>Dose Equivalent</entry>\n            <entry>Sievert (Sv)</entry>\n            <entry>1 J/kg × RBE</entry>\n            <entry>rem</entry>\n            <entry><m:math><m:semantics><m:mrow><m:mtext>Sv = 100 rem</m:mtext></m:mrow></m:semantics></m:math></entry>\n          </row></tbody>\n</tgroup>\n</table>",
+          "proposed_xml": null,
+          "edits": []
+        }
+      ],
+      "dependencies": [
+        "m68327:import-auto-id2971366",
+        "m68327:import-auto-id1598811",
+        "m68327:import-auto-id2446806",
+        "m68327:import-auto-id1922622",
+        "m68327:import-auto-id1945981"
+      ],
+      "revision_note": "Include lens repair/radiosensitivity claim and neutron secondary-interaction explanation in this coordinated revision. Acute tissue-reaction doses should be distinguished from risk-weighted protection quantities. Exercise dependencies must be flagged for the already planned exercise revision."
+    },
+    {
+      "id": "F2-H02",
+      "status": "held-for-coordinated-review",
+      "module": "m76584",
+      "section_title": "Nuclear Radioactivity",
+      "slug": "nuclear-radioactivity",
+      "source_id": "import-auto-id2452756",
+      "anchor": "import-auto-id2452756",
+      "source_path": "maintained/modules/m76584/index.cnxml",
+      "source_sha256": "63ca48fae7d43c101fd405d8f1c7ee5db7c37d3efb5404be7598e8e4a66e24b1",
+      "title": "Coordinated decision: why gamma rays penetrate",
+      "reason": "The explanation attributes photon penetration to less time near an atom and compares electromagnetic forces as if a photon were a charged projectile. Photon attenuation depends on interaction probabilities and photon energy, not simply travel speed. Recommend replacing the photon-specific sentences in this and the preceding paragraph while retaining the qualitative alpha/beta comparison. This needs more than the isolated range-proportionality fix and is held for author discussion.",
+      "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id2452756\">The <emphasis effect=\"italics\"><emphasis effect=\"italics\">speed</emphasis></emphasis> at which they travel is the other major factor affecting the range of <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s, <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math>s. The faster they move, the less time they spend in the vicinity of an atom or a molecule, and the less likely they are to interact. Since <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s and <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s are particles with mass (helium nuclei and electrons, respectively), their energy is kinetic.\n\nThe mass of the <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math> particle is thousands of times less than that of the <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s, so that <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s must travel much faster than <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s to have the same energy. Since <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s move faster, they have less time to interact than <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math>s. Gamma rays are photons, which must travel at the speed of light. They are even less likely to interact than a <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>, since they spend even less time near a given atom (and they have no charge). The range of <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math>s is thus greater than the range of <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math>s.</para>",
+      "proposed_xml": null,
+      "edits": [],
+      "sources": [
+        {
+          "title": "NIST: stopping power and range definitions",
+          "url": "https://physics.nist.gov/PhysRefData/Star/Text/appendix.html",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or images imported."
+        },
+        {
+          "title": "NIST XCOM: photon interactions and attenuation",
+          "url": "https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html",
+          "checked": "2026-09-20",
+          "use": "Factual verification only; no external prose or media imported."
+        }
+      ],
+      "related_passages": [
+        {
+          "title": "Preceding charge/ionization explanation",
+          "anchor": "import-auto-id3077371",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id3077371\">Different <emphasis effect=\"italics\"><emphasis effect=\"italics\">types</emphasis></emphasis> of radiation have different ranges when compared at the same energy and in the same material. Alphas have the shortest range, betas penetrate farther, and gammas have the greatest range. This is directly related to charge and speed of the particle or type of radiation. At a given energy, each \n<m:math><m:semantics><m:mrow><m:mi>α</m:mi></m:mrow></m:semantics></m:math>, \n<m:math><m:semantics><m:mrow><m:mi>β</m:mi></m:mrow></m:semantics></m:math>, or \n<m:math><m:semantics><m:mrow><m:mi> γ</m:mi></m:mrow></m:semantics></m:math> will produce the same number of ionizations in a material (each ionization requires a certain amount of energy on average). The more readily the particle produces ionization, the more quickly it will lose its energy. The effect of <emphasis effect=\"italics\"><emphasis effect=\"italics\">charge</emphasis></emphasis> is as follows: The <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> has a charge of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy=\"false\">+</m:mo><m:msub><m:mrow><m:mn>2</m:mn><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> , the <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> has a charge of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:msub><m:mrow><m:mi>q</m:mi></m:mrow><m:mi>e</m:mi></m:msub></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ - 2q rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math> , and the <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> is uncharged. The electromagnetic force exerted by the <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{α} {}</m:annotation></m:semantics></m:math> is thus twice as strong as that exerted by the <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{β} {}</m:annotation></m:semantics></m:math> and it is more likely to produce ionization. Although chargeless, the <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{γ} {}</m:annotation></m:semantics></m:math> does interact weakly because it is an electromagnetic wave, but it is less likely to produce ionization in any encounter. </para>",
+          "proposed_xml": null,
+          "edits": []
+        }
+      ],
+      "dependencies": [
+        "m76584:import-auto-id1405600"
+      ],
+      "revision_note": "NIST XCOM verifies that attenuation is calculated from interaction cross sections; source evidence is available for a coordinated draft. Figure caption/alternative text and the stale beta-charge StarMath annotation also require coordination. This hold is not an approved rewrite."
+    }
+  ],
+  "dispositions": [
+    {
+      "topic": "Already approved cycle-1 claims",
+      "status": "Retained",
+      "note": "Do not reopen the lifetime cancer estimate, iodine/TlCl/Tc-99m explanations, dose-limit paragraph, ALARA, historical dental illustration, or time-distance-shielding order absent new evidence."
+    },
+    {
+      "topic": "Numerical tables and CT shares",
+      "status": "Priority 2 pending",
+      "note": "Background doses, administered activities, immediate-effects table and CT shares remain open. Dose-unit/RBE tables are included in F2-H01 because they are coupled to the explanation."
+    },
+    {
+      "topic": "Summary and exercise consistency",
+      "status": "Partially proposed, dependencies remain",
+      "note": "F2-05 proposes cancer/heredity/protection-order summary synchronization. Dose terminology summary depends on F2-H01. Exercise prompts using annual risk, genetic-risk coefficients, old RBE values or IV microshock assumptions must be reconciled during the scheduled exercise revision before release."
+    }
+  ]
+}
