@@ -756,6 +756,21 @@
           "source_selector": "table excerpt: QF and RBE rows; insert w_R row after RBE",
           "source_insertion_after_xml": "<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\">\n            <entry>\n              <m:math display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:mtext>RBE</m:mtext>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"RBE\"} {}</m:annotation>\n                </m:semantics>\n              </m:math>\n            </entry>\n            <entry>relative biological effectiveness</entry>\n          </row>",
           "source_insertion_xml": "<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><entry><m:math><m:msub><m:mi>w</m:mi><m:mi>R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row>"
+        },
+        {
+          "title": "Remove duplicated diagnostic-dose sentence from protection discussion",
+          "source_id": "import-auto-id3009469",
+          "anchor": "import-auto-id3009469",
+          "before_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\" /> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. Diagnostic doses are generally low and have been further lowered with improved techniques and more efficient detectors.</para>",
+          "proposed_xml": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\" /> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation.</para>",
+          "edits": [
+            {
+              "before": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\" /> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. Diagnostic doses are generally low and have been further lowered with improved techniques and more efficient detectors.</para>",
+              "after": "<para xmlns=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id3009469\"><link target-id=\"import-auto-id1023326\" /> illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation.</para>"
+            }
+          ],
+          "status": "approved-pending-application",
+          "authorization": "User requested keeping the duplicated diagnostic-dose sentence in only one place. Retain it in the Risk versus Benefit medical-dose paragraph; remove it from the earlier time/distance/shielding discussion."
         }
       ],
       "dependencies": [
@@ -765,7 +780,7 @@
         "m68327:import-auto-id1922622",
         "m68327:import-auto-id1945981"
       ],
-      "revision_note": "The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits.",
+      "revision_note": "The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits. Author-directed flow cleanup: retain the diagnostic-dose sentence in Risk versus Benefit and remove its earlier duplicate from the protection discussion.",
       "authorization": "2026-09-21: user approved the displayed Option 1 comparisons and requested a textbook-wide check for RBE uses outside their coverage. 2026-09-21: user requested a minimal RBE-versus-radiation-weighting question and inclusion of the caption and notation changes in F2-H01.",
       "remaining_dependencies": []
     },

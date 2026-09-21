@@ -219,7 +219,11 @@ Option 1 selected: distinguish absorbed dose, equivalent dose, and effective dos
 
 **Proposed:** QF quality factor RBE relative biological effectiveness wRradiation weighting factor
 
-The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits.
+**Current:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation. Diagnostic doses are generally low and have been further lowered with improved techniques and more efficient detectors.
+
+**Proposed:** illustrates how these are used to protect both the patient and the dental technician when an X-ray is taken. The less time a person is exposed to a given source, the smaller is the dose received by the person. The greater the distance from the source, the more the radiation spreads out. Shielding absorbs radiation, and the appropriate type of shielding depends on the type of radiation.
+
+The original 15 comparisons are approved. The author requested that this coordinated item also include the conceptual-question replacement, ionization caption adjustment, and notation-table addition shown below. These changes are not yet applied to canonical source. The acute-effects table, dose bands, background-dose figures, and other exercise assumptions remain in the planned numerical/exercise audits. Author-directed flow cleanup: retain the diagnostic-dose sentence in Risk versus Benefit and remove its earlier duplicate from the protection discussion.
 
 - [ICRP Publication 147: dose quantities in radiation protection](https://www.icrp.org/publication.asp?id=ICRP+Publication+147)
 - [NRC: quality factor](https://www.nrc.gov/education-regulatory-research/glossary/quality-factor)
