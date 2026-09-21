@@ -70,7 +70,7 @@ Author-written replacement with limited factual adjustments: restrict the energy
 
 **Proposed:** The range of radiation is defined to be the distance it can travel through a material. Range is related to several factors, including the energy of the radiation, the material encountered, and the type of radiation (see ). For alpha and beta particles, all other factors being the same, the higher the energy, the greater the range. These particles lose energy through many interactions with the material, so a more energetic particle travels farther before stopping. Gamma ray photons are absorbed or scattered in interactions whose probabilities depend on photon energy and the material; they do not have a definite stopping range.
 
-Uses the author’s replacement draft with the scoped charged-particle trend and final photon-range clarification. Updated review proposal, not yet applied. F2-H02 still covers the downstream photon-speed explanation and figure caption.
+Author-approved replacement, not yet applied. Preserves the definition, term ID and figure reference. F2-H02 still covers the downstream photon-speed explanation and figure caption.
 
 - [NIST: stopping power and range definitions](https://physics.nist.gov/PhysRefData/Star/Text/appendix.html)
 - [NIST XCOM: photon interaction probabilities](https://physics.nist.gov/PhysRefData/Xcom/Text/intro.html)
