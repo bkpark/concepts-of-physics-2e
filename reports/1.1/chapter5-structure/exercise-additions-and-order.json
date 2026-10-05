@@ -1,0 +1,534 @@
+{
+  "status": "maintainer-reviewed-approved",
+  "chapter_exercises": 43,
+  "added": 20,
+  "retained": 23,
+  "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+  "source_orders": {
+    "m71584": [
+      "eip-452",
+      "ex-c5-units",
+      "eip-668",
+      "ex-c5-timing-cycle",
+      "ex-c5-counting-cycles",
+      "ex-c5-heartbeat"
+    ],
+    "m71585": [
+      "fs-id2017072",
+      "ex-c5-amplitude-travel",
+      "ex-c5-speed-cycle",
+      "fs-id2032223",
+      "fs-id1561901",
+      "fs-id1888472",
+      "fs-id3306170",
+      "fs-id3449442",
+      "ex-c5-oscillator-energy"
+    ],
+    "m71586": [
+      "ex-c5-natural-driving",
+      "fs-id2424262",
+      "eip-846"
+    ],
+    "m71587": [
+      "fs-id1931421",
+      "ex-c5-ribbon-wave",
+      "ex-c5-space-time",
+      "fs-id2639388",
+      "ex-c5-one-period-distance",
+      "eip-890"
+    ],
+    "m71588": [
+      "ex-c5-pulse-sum",
+      "fs-id2032212",
+      "eip-idm1116685344",
+      "ex-c5-standing-motion",
+      "eip-idm357263456",
+      "ex-c5-standing-patterns",
+      "ex-c5-harmonics",
+      "ex-c5-tighten-string",
+      "eip-idm358254704"
+    ],
+    "m71590": [
+      "ex-c5-air-sound"
+    ],
+    "m71589": [
+      "fs-id1375143",
+      "ex-c5-lightning-distance",
+      "fs-id3008692",
+      "ex-c5-audible-ultrasound",
+      "eip-idm305945248"
+    ],
+    "m67819": [
+      "fs-id1562301",
+      "ex-c5-mach-number",
+      "fs-id3415376",
+      "fs-id1272247"
+    ]
+  },
+  "additions": [
+    {
+      "id": "ex-c5-units",
+      "module": "m71584",
+      "wording": "Which of the following can express a period, and which can express a frequency: seconds, hertz, beats per minute, and minutes per cycle? Explain how the units distinguish the two quantities.",
+      "sources": [
+        {
+          "export_question_set_id": "321",
+          "source_uniqueid": "1530393158753185",
+          "description": "Introduction to Physics - Oscillations - Definitions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Reading Questions for Sections 5.2 through 5.4"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-timing-cycle",
+      "module": "m71584",
+      "wording": "A mass oscillates vertically on a spring. One student times its motion from its highest point until it next reaches its highest point. Another times its motion from the equilibrium position until it next reaches the equilibrium position. Do both measurements give one period? Explain, including how the direction of motion matters.",
+      "sources": [
+        {
+          "export_question_set_id": "322",
+          "source_uniqueid": "1530393511746802",
+          "description": "Introduction to Physics - Oscillations - Measurement - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Reading Questions for Sections 5.2 through 5.4"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-counting-cycles",
+      "module": "m71584",
+      "wording": "A pendulum completes 12 full oscillations in 24 s. (a) What is its period? (b) What is its frequency? (c) Why might timing several oscillations give a more reliable measurement of the period than timing just one?",
+      "sources": [
+        {
+          "export_question_set_id": "434",
+          "source_uniqueid": "1578194527653599",
+          "description": "Introduction to Physics - Oscillations - Measurement - Q2 (test bank version)",
+          "assessments": [
+            "Multiple-Choice Timed Assessment for Chapter 5"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-heartbeat",
+      "module": "m71584",
+      "wording": "A health practitioner counts 18 heartbeats in 15 s. Assuming a steady rhythm, find (a) the heart rate in beats per minute, (b) the frequency in hertz, and (c) the time between successive beats.",
+      "sources": [
+        {
+          "export_question_set_id": "330",
+          "source_uniqueid": "1530396884533225",
+          "description": "Introduction to Physics - Oscillations - Units - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Reading Questions for Sections 5.2 through 5.4"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-amplitude-travel",
+      "module": "m71585",
+      "wording": "A mass on a spring moves between positions 4 cm above and 4 cm below equilibrium. (a) What is its amplitude? (b) Starting at its highest point, how far does it travel during one complete cycle? (c) What is its displacement over that cycle?",
+      "sources": [
+        {
+          "export_question_set_id": "323",
+          "source_uniqueid": "1530394407160497",
+          "description": "Introduction to Physics - Oscillations - Definitions - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Reading Questions for Sections 5.2 through 5.4"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-speed-cycle",
+      "module": "m71585",
+      "wording": "An object undergoes simple harmonic motion. (a) Where in its motion is its speed greatest? (b) Where is its speed zero? (c) Is its acceleration zero when its speed is zero? Explain in terms of the restoring force.",
+      "sources": [
+        {
+          "export_question_set_id": "324",
+          "source_uniqueid": "1530395803779422",
+          "description": "Introduction to Physics - Simple Harmonic Oscillator - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Reading Questions for Sections 5.2 through 5.4"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-oscillator-energy",
+      "module": "m71585",
+      "wording": "A cart oscillates on a horizontal spring with negligible friction. Describe how its kinetic energy and the spring’s potential energy change as it moves (a) from a turning point to equilibrium and (b) from equilibrium to the opposite turning point. What happens to their sum?",
+      "sources": [
+        {
+          "export_question_set_id": "324",
+          "source_uniqueid": "1530395803779422",
+          "description": "Introduction to Physics - Simple Harmonic Oscillator - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Reading Questions for Sections 5.2 through 5.4"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-natural-driving",
+      "module": "m71586",
+      "wording": "A mass on a spring oscillates at 2 Hz when displaced and released. It is then driven by a repeating force whose frequency can be adjusted. (a) Distinguish the natural frequency from the driving frequency. (b) With weak damping, near what driving frequency would you expect the largest oscillations? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "333",
+          "source_uniqueid": "1530481630800624",
+          "description": "Introduction to Physics - Simple Harmonic Oscillator - Descriptions - Q4 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-ribbon-wave",
+      "module": "m71587",
+      "wording": "A ribbon is tied to one point on a stretched horizontal rope. A transverse wave travels along the rope. Does the ribbon travel along the rope with the wave? Describe its motion and explain the distinction between wave speed and the speed of the ribbon.",
+      "sources": [
+        {
+          "export_question_set_id": "334",
+          "source_uniqueid": "1530481917776543",
+          "description": "Introduction to Physics - Waves - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-space-time",
+      "module": "m71587",
+      "wording": "A snapshot shows a repeating wave on a rope, while a second graph shows the displacement of one point on the rope versus time. (a) Which would you use to measure wavelength? (b) Which would you use to measure period? Explain what repeats in each case.",
+      "sources": [
+        {
+          "export_question_set_id": "335",
+          "source_uniqueid": "1530482060067435",
+          "description": "Introduction to Physics - Waves - Descriptions - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "336",
+          "source_uniqueid": "1530482160586378",
+          "description": "Introduction to Physics - Waves - Descriptions - Q3 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-one-period-distance",
+      "module": "m71587",
+      "wording": "During one period, how far does a crest of a periodic traveling wave move? Use your answer to explain the relationship between wave speed, wavelength, and period.",
+      "sources": [
+        {
+          "export_question_set_id": "339",
+          "source_uniqueid": "1578193188583827",
+          "description": "Introduction to Physics - Waves - Speed, Wavelength, Frequency Relationship - Q1b (formula version) (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-pulse-sum",
+      "module": "m71588",
+      "wording": "Two pulses travel toward one another on a rope. At one instant, one pulse alone would displace a particular point 3 cm upward, and the other alone would displace it 2 cm downward. (a) What is the displacement of that point when the pulses overlap? (b) After the pulses pass through one another, do they continue traveling? Explain using the superposition principle.",
+      "sources": [
+        {
+          "export_question_set_id": "486",
+          "source_uniqueid": "1614875180529841",
+          "description": "Introduction to Physics (Essay Questions) - Waves and Oscillations - Superposition Principle",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 5"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-standing-motion",
+      "module": "m71588",
+      "wording": "A student says, “Nothing moves in a standing wave; that is why it is called standing.” Is this correct? Explain what remains in place and describe the motion of the string at a node and at an antinode.",
+      "sources": [
+        {
+          "export_question_set_id": "485",
+          "source_uniqueid": "1538876551686263",
+          "description": "Introduction to Physics (Essay Questions) - Waves and Oscillations - Standing Waves",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 5",
+            "Take-Home Option A Final Exam (open book; 6-hour limit)"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        },
+        {
+          "export_question_set_id": "341",
+          "source_uniqueid": "1530483139767802",
+          "description": "Introduction to Physics - Standing Waves - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-standing-patterns",
+      "module": "m71588",
+      "wording": "A string fixed at both ends forms three standing-wave patterns: one loop, two equal loops, and three equal loops. Each loop lies between neighboring nodes. For the same string length and tension, (a) rank the wavelengths from longest to shortest and (b) rank the frequencies from lowest to highest. Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "343",
+          "source_uniqueid": "1530483568153868",
+          "description": "Introduction to Physics - Standing Waves - Descriptions - Q3 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-harmonics",
+      "module": "m71588",
+      "wording": "A guitar string has a fundamental frequency of 150 Hz. (a) What are the frequencies of its second and third harmonics? (b) How many loops would appear in the standing-wave pattern for each of these harmonics?",
+      "sources": [
+        {
+          "export_question_set_id": "346",
+          "source_uniqueid": "1530483830026381",
+          "description": "Introduction to Physics - Standing Waves - Descriptions - Q4 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-tighten-string",
+      "module": "m71588",
+      "wording": "A guitarist tightens a string without changing its vibrating length. The speed of waves on the string increases. For its fundamental standing wave, what happens to (a) the wavelength and (b) the frequency? Explain why the fixed length matters.",
+      "sources": [
+        {
+          "export_question_set_id": "340",
+          "source_uniqueid": "1530482840243245",
+          "description": "Introduction to Physics - Waves - Speed, Wavelength, Frequency Relationship - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-air-sound",
+      "module": "m71590",
+      "wording": "A loudspeaker produces sound in air. (a) What are compressions and rarefactions? (b) Do the air molecules near the speaker travel all the way to a listener’s ear? Explain how the disturbance reaches the listener.",
+      "sources": [
+        {
+          "export_question_set_id": "344",
+          "source_uniqueid": "1530484033459663",
+          "description": "Introduction to Physics - Sound Wave - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-audible-ultrasound",
+      "module": "m71589",
+      "wording": "Using 20 Hz to 20,000 Hz as the approximate human audible range, classify sounds with frequencies of 10 Hz, 1,000 Hz, and 40,000 Hz as infrasound, audible sound, or ultrasound. If all three travel through the same air, which has the shortest wavelength? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "347",
+          "source_uniqueid": "1530485658652631",
+          "description": "Introduction to Physics - Sound Wave - Properties - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-lightning-distance",
+      "module": "m71589",
+      "wording": "You see a flash of lightning and hear the thunder 3.0 s later. Taking the speed of sound as 340 m/s, estimate how far away the lightning struck. Explain why the light’s travel time can be neglected in this estimate.",
+      "sources": [
+        {
+          "export_question_set_id": "349",
+          "source_uniqueid": "1530486535794486",
+          "description": "Introduction to Physics - Sound Wave - Calculation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c5-mach-number",
+      "module": "m67819",
+      "wording": "An aircraft travels at 680 m/s where the local speed of sound is 340 m/s. (a) What is its Mach number? (b) Is it subsonic or supersonic? (c) Does a given Mach number always correspond to the same speed in meters per second? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "350",
+          "source_uniqueid": "1530487084898557",
+          "description": "Introduction to Physics - Sound Wave - Calculation - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 5: Oscillations and Waves",
+            "Question Set 5 Assessment",
+            "Questions and Exercises for &quot;Chapter 5: Oscillations and Waves&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    }
+  ],
+  "review_revisions": [
+    {
+      "record": "EX-C5-AMPLITUDE-DISTANCE-m71585",
+      "new_exercise_number": 11,
+      "wording": "A mass on a spring undergoes simple harmonic motion. At a larger amplitude, the mass travels a greater distance during each cycle, yet its frequency remains the same. How is this possible? Explain in terms of the mass’s speed and the restoring force."
+    },
+    {
+      "record": "EX-C5-SPACE-TIME-FIGURES-m71587",
+      "exercise_number": 21,
+      "wording": "Compare the wave shown in <link document=\"m71587\" target-id=\"import-auto-id3090910\"/> with the position-versus-time graph in <link document=\"m71585\" target-id=\"import-auto-id2429266\"/>. (a) Which shows repetition over distance, and which shows repetition over time? (b) Identify an interval representing one wavelength in the wave picture and one period in the position graph."
+    },
+    {
+      "record": "EX-C5-STANDING-WAVE-FIGURES-ANTINODES-m71588",
+      "exercise_numbers": [
+        30,
+        31
+      ],
+      "revisions": {
+        "ex-c5-standing-patterns-p1": "Compare the three standing-wave patterns shown in <link document=\"m71588\" target-id=\"import-auto-id3165180\"/> and <link document=\"m71588\" target-id=\"import-auto-id3045433\"/>. Assume the same string length and tension for all three. (a) Rank their wavelengths from longest to shortest. (b) Rank their frequencies from lowest to highest. Explain how the shapes of the patterns support your answers.",
+        "ex-c5-harmonics-p1": "A guitar string has a fundamental frequency of 150 Hz. (a) What are the frequencies of its second and third harmonics? (b) How many antinodes would appear in the standing-wave pattern for each of these harmonics?"
+      }
+    }
+  ]
+}

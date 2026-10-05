@@ -1,0 +1,90 @@
+{
+  "additions": 6,
+  "chapter_exercises": 41,
+  "source_orders": {
+    "m78923": [
+      "ex-identifying-forces",
+      "fs-id1654920",
+      "fs-id1445672"
+    ],
+    "m67530": [
+      "fs-id2928601",
+      "fs-id3026744",
+      "fs-id1930138",
+      "fs-id3010660",
+      "fs-id3210019",
+      "fs-id1475076",
+      "fs-id3180550",
+      "fs-id2672485",
+      "fs-id1449832",
+      "fs-id2423185"
+    ],
+    "m68330": [
+      "fs-id2846557",
+      "fs-id2661705",
+      "fs-id1595226",
+      "fs-id2423524",
+      "fs-id2355576",
+      "fs-id1572333"
+    ],
+    "m67044": [
+      "ex-spring-proportionality",
+      "ex-spring-equilibrium-release",
+      "fs-id2008703",
+      "eip-540"
+    ],
+    "m71409": [
+      "ex-friction-walking-forward",
+      "ex-tommy-box-friction",
+      "fs-id1320466",
+      "fs-id1425681",
+      "fs-id1272970"
+    ],
+    "m71410": [
+      "fs-id1890173",
+      "fs-id959677",
+      "ex-earth-apple-forces",
+      "fs-id3122954"
+    ],
+    "m67036": [
+      "fs-id3055510",
+      "fs-id3340905",
+      "fs-id3035023",
+      "fs-id3047120",
+      "fs-id3286004"
+    ]
+  },
+  "display_placements": [
+    {
+      "module": "m67530",
+      "exercise_id": "fs-id2423185",
+      "after_module": "m68330",
+      "after_exercise_id": "fs-id2355576",
+      "status": "maintainer-approved",
+      "reason": "Internal-force cancellation needs the third-law explanation. Place after the system-choice cancellation question as a concrete application; retain both and their original text/identities."
+    },
+    {
+      "module": "m68330",
+      "exercise_id": "fs-id1572333",
+      "after_module": "m67530",
+      "after_exercise_id": "fs-id3180550",
+      "status": "maintainer-approved",
+      "reason": "Approved deferred relocation now applied with overall reorder: aircraft-seat sensation belongs with acceleration/net force in Section 2.4, not Third Law. Original module identity retained."
+    }
+  ],
+  "notes": [
+    "Two existing First Law and two Normal Force/Tension questions retain their order.",
+    "Within-section order follows basic definitions, force identification, applications, and extensions.",
+    "No new circular-motion exercises.",
+    "Public version 23 numbers are superseded on next publication."
+  ],
+  "published_labels": {
+    "m78923#ex-identifying-forces": "1",
+    "m67044#ex-spring-proportionality": "24",
+    "m67044#ex-spring-equilibrium-release": "25",
+    "m71409#ex-tommy-box-friction": "29",
+    "m71409#ex-friction-walking-forward": "28",
+    "m71410#ex-earth-apple-forces": "35",
+    "m68330#fs-id1572333": "13"
+  }
+}

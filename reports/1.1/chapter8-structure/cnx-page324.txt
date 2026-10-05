@@ -1,0 +1,41 @@
+sequentially. For example, if current flows through a person holding a screwdriver and into the Earth, then R1 in Figure 10.38(a)
+could be the resistance of the screwdriver’s shaft, R2 the resistance of its handle, R3 the person’s body resistance, and R4
+the resistance of her shoes.
+Figure 10.39 shows resistors in series connected to a voltage source. It seems reasonable that the total resistance is the sum of
+the individual resistances, considering that the current has to pass through each resistor in sequence. (This fact would be an
+advantage to a person wishing to avoid an electrical shock, who could reduce the current by wearing high-resistance rubber-
+soled shoes. It could be a disadvantage if one of the resistances were a faulty high-resistance cord to an appliance that would
+reduce the operating current.)
+Figure 10.39 Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).
+To verify that resistances in series do indeed add, let us consider the loss of electrical power, called a voltage drop, in each
+resistor in Figure 10.39.
+According to Ohm’s law, the voltage drop, V , across a resistor when a current flows through it is calculated using the equation
+V = IR , where I equals the current in amps (A) and R is the resistance in ohms ( Ω ) . Another way to think of this is that
+V is the voltage necessary to make a current I flow through a resistance R .
+So the voltage drop across R1 is V1 = IR1 , that across R2 is V2 = IR2 , and that across R3 is V3 = IR3 . The sum of
+these voltages equals the voltage output of the source; that is,
+(10.57)V = V1 + V2 + V3.
+This equation is based on the conservation of energy and conservation of charge. Electrical potential energy can be described by
+the equation PE = qV , where q is the electric charge and V is the voltage. Thus the energy supplied by the source is qV ,
+while that dissipated by the resistors is
+(10.58)qV1 + qV2 + qV3.
+Connections: Conservation Laws
+The derivations of the expressions for series and parallel resistance are based on the laws of conservation of energy and
+conservation of charge, which state that total charge and total energy are constant in any process. These two laws are
+directly involved in all electrical phenomena and will be invoked repeatedly to explain both specific effects and the general
+behavior of electricity.
+These energies must be equal, because there is no other source and no other destination for energy in the circuit. Thus,
+qV = qV1 + qV2 + qV3 . The charge q cancels, yielding V = V1 + V2 + V3 , as stated. (Note that the same amount of
+charge passes through the battery and each resistor in a given amount of time, since there is no capacitance to store charge,
+there is no place for charge to leak, and charge is conserved.)
+Now substituting the values for the individual voltages gives
+(10.59)V = IR1 + IR2 + IR3 = I(R1 + R2 + R3).
+Note that for the equivalent single series resistance Rs , we have
+(10.60)V = IRs.
+This implies that the total or equivalent series resistance Rs of three resistors is Rs = R1 + R2 + R3 .
+This logic is valid in general for any number of resistors in series; thus, the total resistance Rs of a series connection is
+(10.61)Rs = R1 + R2 + R3 + ...,
+as proposed. Since all of the current must pass through each resistor, it experiences the resistance of each, and resistances in
+series simply add up.
+318 Chapter 10 | Electricity
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

@@ -1,0 +1,441 @@
+
+  Resistors in Series and Parallel
+
+  m42356
+  Resistors in Series and Parallel
+  
+Draw a circuit with resistors in parallel and in series.
+Calculate the voltage drop of a current across a resistor using Ohm’s law.
+Contrast the way total resistance is calculated for resistors in series and in parallel.
+Explain why total resistance of a parallel circuit is less than the smallest resistance of any of the resistors in that circuit.
+Calculate total resistance of a circuit that contains a mixture of resistors connected in series and in parallel.
+
+  14ba80ad-f75c-4bdf-900e-b8c8ef4e4057
+
+
+
+    Most circuits have more than one component, called a resistor that limits the flow of charge in the circuit. A measure of this limit on charge flow is called resistance. The simplest combinations of resistors are the series and parallel connections illustrated in [reference import-auto-id2989840]. The total resistance of a combination of resistors depends on both their individual values and how they are connected.
+        
+      
+    (a) A series connection of resistors. (b) A parallel connection of resistors.
+    Resistors in Series
+    When are resistors in series? Resistors are in series whenever the flow of charge, called the current, must flow through devices sequentially. For example, if current flows through a person holding a screwdriver and into the Earth, then R_(1) in [reference import-auto-id2989840](a) could be the resistance of the screwdriver’s shaft, R_(2) the resistance of its handle, R_(3) the person’s body resistance, and R_(4) the resistance of her shoes.[reference import-auto-id3043995] shows resistors in series connected to a voltage source. It seems reasonable that the total resistance is the sum of the individual resistances, considering that the current has to pass through each resistor in sequence. (This fact would be an advantage to a person wishing to avoid an electrical shock, who could reduce the current by wearing high-resistance rubber-soled shoes. It could be a disadvantage if one of the resistances were a faulty high-resistance cord to an appliance that would reduce the operating current.)
+
+
+    
+        
+      
+
+    Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).To verify that resistances in series do indeed add, let us consider the loss of electrical power, called a voltage drop, in each resistor in [reference import-auto-id3043995].According to Ohm’s law, the voltage drop, V, across a resistor when a current flows through it is calculated using the equation V=IR, where I equals the current in amps (A) and R is the resistance in ohms (Ω). Another way to think of this is that V is the voltage necessary to make a current I flow through a resistance R.
+    So the voltage drop across R_(1) is V_(1)=IR_(1), that across R_(2) is V_(2)=IR_(2), and that across R_(3) is V_(3)=IR_(3). The sum of these voltages equals the voltage output of the source; that is,
+    V=V_(1)+V_(2)+V_(3).This equation is based on the conservation of energy and conservation of charge. Electrical potential energy can be described by the equation PE=qV, where q is the electric charge and V is the voltage. Thus the energy supplied by the source is qV, while the total energy dissipated by the resistors, E_(diss), is
+    E_(diss)=qV_(1)+qV_(2)+qV_(3).
+  Connections: Conservation Laws
+    The derivations of the expressions for series and parallel resistance are based on the laws of conservation of energy and conservation of charge, which state that total charge and total energy are constant in any process. These two laws are directly involved in all electrical phenomena and will be invoked repeatedly to explain both specific effects and the general behavior of electricity.
+    
+
+    These energies must be equal, because there is no other source and no other destination for energy in the circuit. Thus, qV=qV_(1)+qV_(2)+qV_(3). The charge q cancels, yielding V=V_(1)+V_(2)+V_(3), as stated. (Note that the same amount of charge passes through the battery and each resistor in a given amount of time, since there is no capacitance to store charge, there is no place for charge to leak, and charge is conserved.)
+    Now substituting the values for the individual voltages gives
+    V=IR_(1)+IR_(2)
+
++IR_(3)
+=I(R_(1)+R_(2)+R_(3)).Note that for the equivalent single series resistance R_(s), we haveV=IR_(s).This implies that the total or equivalent series resistance R_(s) of three resistors is R_(s)=R_(1)+R_(2)+R_(3).This logic is valid in general for any number of resistors in series; thus, the total resistance R_(s) of a series connection isR_(s)=R_(1)+R_(2)+R_(3)+...,as proposed. Since all of the current must pass through each resistor, it experiences the resistance of each, and resistances in series simply add up.
+
+  
+    Calculating Resistance, Current, Voltage Drop, and Power Dissipation: Analysis of a Series Circuit
+    Suppose the voltage output of the battery in [reference import-auto-id3043995] is 12.0V, and the resistances are R_(1)=1.00Ω, R_(2)=6.00Ω, and R_(3)=13.0Ω. (a) What is the total resistance? (b) Find the current. (c) Calculate the voltage drop in each resistor, and show these add to equal the voltage output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.Strategy and Solution for (a)
+    The total resistance is simply the sum of the individual resistances, as given by this equation:
+    
+        
+                  R_(s)
+                  =
+
+                      R_(1)
+                      +
+                      R_(2)
+                    +
+                    R_(3)
+
+=
+
+1.00 Ω+6.00 Ω+13.0 Ω
+
+
+=20.0 Ω.Strategy and Solution for (b)
+    The current is found using Ohm’s law, V=IR. Entering the value of the applied voltage and the total resistance yields the current for the circuit:
+    I=(V)/(R_(s))=(12.0 V)/(20.0 Ω)=0.600 A.Strategy and Solution for (c)
+    The voltage—or IR drop—in a resistor is given by Ohm’s law. Entering the current and the value of the first resistance yields
+    V_(1)=IR_(1)=(0.600A)(1.0Ω)=0.600V.Similarly,
+    V_(2)=IR_(2)=(0.600A)(6.0Ω)=3.60Vand
+    V_(3)=IR_(3)=(0.600A)(13.0Ω)=7.80V.Discussion for (c)
+    The three IR drops add to 12.0V, as predicted:V_(1)+V_(2)+V_(3)=(0.600+3.60+7.80)V=12.0 V.Strategy and Solution for (d)
+    The easiest way to calculate power in watts (W) dissipated by a resistor in a DC circuit is to use Joule’s law, P=IV, where P is electric power. In this case, each resistor has the same full current flowing through it. By substituting Ohm’s law V=IR into Joule’s law, we get the power dissipated by the first resistor as
+    P_(1)=I^(2)R_(1)=(0.600 A)^(2)(1.00Ω)=0.360 W.Similarly,
+    
+        
+          
+
+              
+                
+                  
+                    P_(
+                          2
+                        )
+                    =
+                    I^(
+                          2
+                        )
+                  
+                  
+                    R_(
+                          2
+                        )
+                    =
+                    (
+                  
+                  0
+                  .
+                  600
+                   A
+                  )^(
+                        2
+                      )
+                  (
+                  6
+                  .
+                  00
+                  Ω
+                  
+                    )
+                    =
+                    2
+                  
+                  .
+                  16
+                   W
+                
+              
+
+            
+          
+          
+        
+      and
+    P_(3)=I^(2)R_(3)=(0.600 A)^(2)(13.0Ω)=4.68 W.Discussion for (d)
+    Power can also be calculated using either P=IV or P=(V^(2))/(R), where V is the voltage drop across the resistor (not the full voltage of the source). The same values will be obtained.
+
+    Strategy and Solution for (e)
+    The easiest way to calculate power output of the source is to use P=IV, where V is the source voltage. This gives
+    P=(0.600 A)(12.0 V)=7.20 W.Discussion for (e)
+    Note, coincidentally, that the total power dissipated by the resistors is also 7.20 W, the same as the power put out by the source. That is,
+    P_(1)+P_(2)+P_(3)=(0.360+2.16+4.68)W=7.20 W.Power is energy per unit time (watts), and so conservation of energy requires the power output of the source to be equal to the total power dissipated by the resistors.
+  
+
+    
+    Major Features of Resistors in Series
+Series resistances add: R_(s)=R_(1)+R_(2)+R_(3)+....
+    The same current flows through each resistor in series.
+    Individual resistors in series do not get the total source voltage, but divide it.
+
+  
+
+  
+    Resistors in Parallel
+    [reference import-auto-id1926821] shows resistors in parallel, wired to a voltage source. Resistors are in parallel when each resistor is connected directly to the voltage source by connecting wires having negligible resistance. Each resistor thus has the full voltage of the source applied to it.
+    Each resistor draws the same current it would if it alone were connected to the voltage source (provided the voltage source is not overloaded). For example, an automobile’s headlights, radio, and so on, are wired in parallel, so that they utilize the full voltage of the source and can operate completely independently. The same is true in your house, or any building. (See [reference import-auto-id1926821](b).)
+
+
+
+
+    
+        
+      
+
+    (a) Three resistors connected in parallel to a battery and the equivalent single or parallel resistance. (b) Electrical power setup in a house. (credit: Dmitry G, Wikimedia Commons)To find an expression for the equivalent parallel resistance R_(p), let us consider the currents that flow and how they are related to resistance. Since each resistor in the circuit has the full voltage, the currents flowing through the individual resistors are I_(1)=(V)/(R_(1)), I_(2)=(V)/(R_(2)), and I_(3)=(V)/(R_(3)). Conservation of charge implies that the total current I produced by the source is the sum of these currents:I=I_(1)+I_(2)+I_(3).Substituting the expressions for the individual currents gives
+    I=(V)/(R_(1))+(V)/(R_(2))+(V)/(R_(3))=V(1)/(R_(1))+(1)/(R_(2))+(1)/(R_(3)).Note that Ohm’s law for the equivalent single resistance gives
+    I=(V)/(R_(p))=V(1)/(R_(p)).The terms inside the parentheses in the last two equations must be equal. Generalizing to any number of resistors, the total resistance R_(p) of a parallel connection is related to the individual resistances by
+        
+          
+
+                  
+                    (1)/(R_(
+                            p
+                          ))
+                    =
+                    
+                      
+                        
+                          (1)/(R_(
+                                  1
+                                ))
+                          +
+                          (1)/(R_(
+                                  2
+                                ))
+                        
+                        +
+                        (1)/(R_(
+                                
+                                  .
+                                  3
+                                
+                              ))
+                      
+                      +
+                      .
+                    
+                  ...
+
+              
+          
+          
+        
+      This relationship results in a total resistance R_(p) that is less than the smallest of the individual resistances. (This is seen in the next example.) When resistors are connected in parallel, more current flows from the source than would flow for any of them individually, and so the total resistance is lower.
+    Calculating Resistance, Current, Power Dissipation, and Power Output: Analysis of a Parallel Circuit
+    Let the voltage output of the battery and resistances in the parallel connection in [reference import-auto-id1926821] be the same as the previously considered series connection: V=12.0 V, R_(1)=1.00Ω, R_(2)=6.00Ω, and R_(3)=13.0Ω. (a) What is the total resistance? (b) Find the total current. (c) Calculate the currents in each resistor, and show these add to equal the total current output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.Strategy and Solution for (a)
+      The total resistance for a parallel combination of resistors is found using the equation below. Entering known values gives
+    (1)/(R_(p))=(1)/(R_(1))+(1)/(R_(2))+(1)/(R_(3))=(1)/(1.00Ω)+(1)/(6.00Ω)+(1)/(13.0Ω).Thus,
+    (1)/(R_(p))=(1.00 )/(Ω)+(0.1667)/(Ω)+(0.07692)/(Ω)=(1.2436)/(Ω).(Note that in these calculations, each intermediate answer is shown with an extra digit.)We must invert this to find the total resistance R_(p). This yields
+        
+          
+            
+              
+                
+                  R_(
+                      p
+                    )
+                  =
+                  (1)/(
+                      1
+                      .
+                      2436
+                    )
+                
+                
+                  Ω
+                  =
+                  0
+                
+                .
+                8041 
+                Ω
+              
+            
+            .
+          
+          
+        
+      
+    The total resistance with the correct number of significant digits is 
+        
+          
+            
+              
+                
+                  R_(
+                      p
+                    )
+                  =
+                  0
+                
+                .
+                804
+                Ω
+              
+            
+            .
+          
+          
+        
+      
+    Discussion for (a)
+      R_(p) is, as predicted, less than the smallest individual resistance.Strategy and Solution for (b)
+      The total current can be found from Ohm’s law, substituting R_(p) for the total resistance. This givesI=(V)/(R_(p))=(12.0 V)/(0.8041 Ω)=14.92 A.Discussion for (b)
+      Current I for each device is much larger than for the same devices connected in series (see the previous example). A circuit with parallel connections has a smaller total resistance than the resistors connected in series.Strategy and Solution for (c)
+      The individual currents are easily calculated from Ohm’s law, since each resistor gets the full voltage. Thus,
+    I_(1)=(V)/(R_(1))=(12.0 V)/(1.00 Ω)=12.0 A.Similarly,
+    
+        
+          
+
+              
+                
+                  
+                    
+                      
+                        I_(
+                              2
+                            )
+                        =
+                        (V)/(R_(
+                                2
+                              ))
+                      
+                      =
+                      (
+                          12
+                          .
+                          0
+                           V
+                        )/(
+                          6
+                          .
+                          00 
+                          Ω
+                        )
+                    
+                    =
+                    2
+                  
+                  .
+                  00
+                   A
+                
+              
+
+            
+          
+          
+        
+      and
+    I_(3)=(V)/(R_(3))=(12.0 V)/(13.0 Ω)=0.92 A.Discussion for (c)
+      The total current is the sum of the individual currents:
+    I_(1)+I_(2)+I_(3)=14.92 A.This is consistent with conservation of charge.
+
+      Strategy and Solution for (d)
+      The power dissipated by each resistor can be found using any of the equations relating power to current, voltage, and resistance, since all three are known. Let us use P=(V^(2))/(R), since each resistor gets full voltage. Thus,
+    P_(1)=(V^(2))/(R_(1))=((12.0 V)^(2))/(1.00 Ω)=144 W.Similarly,
+    
+        
+          
+
+              
+                
+                  
+                    
+                      
+                        P_(
+                              2
+                            )
+                        =
+                        (V^(
+                                2
+                              ))/(R_(
+                                2
+                              ))
+                      
+                      =
+                      (
+                          (
+                          12
+                          .
+                          0
+                           V
+                          )^(
+                                2
+                              )
+                        )/(
+                          6
+                          .
+                          00 
+                          Ω
+                        )
+                    
+                    =
+                    24
+                  
+                  .
+                  0
+                   W
+                
+              
+
+            
+          
+          
+        
+      and
+    P_(3)=(V^(2))/(R_(3))=((12.0 V)^(2))/(13.0 Ω)=11.1 W.Discussion for (d)
+      The power dissipated by each resistor is considerably higher in parallel than when connected in series to the same voltage source.
+
+      Strategy and Solution for (e)
+      The total power can also be calculated in several ways. Choosing P=IV, and entering the total current, yields
+    P=IV=(14.92 A)(12.0 V)=179 W.Discussion for (e)
+      Total power dissipated by the resistors is also 179 W:P_(1)+P_(2)+P_(3)=144W+24.0W+11.1W=179W.This is consistent with the law of conservation of energy.
+
+      Overall Discussion
+      Note that both the currents and powers in parallel connections are greater than for the same devices in series.
+
+    
+    Major Features of Resistors in Parallel
+Parallel resistance is found from (1)/(R_(p))=(1)/(R_(1))+(1)/(R_(2))+(1)/(R_(3))+..., and it is smaller than any individual resistance in the combination.
+    Each resistor in parallel has the same full voltage of the source applied to it. (Power distribution systems most often use parallel connections to supply the myriad devices served with the same voltage and to allow them to operate independently.)
+    Parallel resistors do not each get the total current; they divide it.
+
+  
+
+   
+     Combinations of Series and Parallel
+    More complex connections of resistors are sometimes just combinations of series and parallel. These are commonly encountered, especially when wire resistance is considered. In that case, wire resistance is in series with other resistances that are in parallel.
+    Combinations of series and parallel can be reduced to a single equivalent resistance using the technique illustrated in [reference import-auto-id3357836]. Various parts are identified as either series or parallel, reduced to their equivalents, and further reduced until a single resistance is left. The process is more time consuming than difficult.
+
+
+    
+        
+      
+
+    This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.The simplest combination of series and parallel resistance, shown in [reference import-auto-id3085827], is also the most instructive, since it is found in many applications. For example, R_(1) could be the resistance of wires from a car battery to its electrical devices, which are in parallel. R_(2) and R_(3) could be the starter motor and a passenger compartment light. We have previously assumed that wire resistance is negligible, but, when it is not, it has important effects, as the next example indicates.
+
+     Calculating Resistance, IR  Drop, Current, and Power Dissipation: Combining Series and Parallel Circuits[reference import-auto-id3085827] shows the resistors from the previous two examples wired in a different way—a combination of series and parallel. We can consider R_(1) to be the resistance of wires leading to R_(2) and R_(3). (a) Find the total resistance. (b) What is the IR drop in R_(1)? (c) Find the current I_(2) through R_(2). (d) What power is dissipated by R_(2)?
+        
+      
+
+    These three resistors are connected to a voltage source so that R_(2) and R_(3) are in parallel with one another and that combination is in series with R_(1).Strategy and Solution for (a)
+       To find the total resistance, we note that R_(2) and R_(3) are in parallel and their combination R_(p) is in series with R_(1). Thus the total (equivalent) resistance of this combination isR_(tot)=R_(1)+R_(p).First, we find R_(p) using the equation for resistors in parallel and entering known values:
+    (1)/(R_(p))=(1)/(R_(2))+(1)/(R_(3))=(1)/(6.00Ω)+(1)/(13.0Ω)=(0.2436)/(Ω).Inverting gives
+    R_(p)=(1)/(0.2436)Ω=4.11Ω.So the total resistance is
+    R_(tot)=R_(1)+R_(p)=1.00Ω+4.11 Ω=5.11 Ω.Discussion for (a)
+       The total resistance of this combination is intermediate between the pure series and pure parallel values (20.0 Ω and 0.804 Ω, respectively) found for the same resistors in the two previous examples.Strategy and Solution for (b)
+       To find the IR drop in R_(1), we note that the full current I flows through R_(1). Thus its IR drop isV_(1)=IR_(1).We must find I before we can calculate V_(1). The total current I is found using Ohm’s law for the circuit. That is,
+    I=(V)/(R_(tot))=(12.0 V)/(5.11 Ω)=2.35A.Entering this into the expression above, we get
+    V_(1)=IR_(1)=(2.35A)(1.00Ω)=2.35V.Discussion for (b)
+       The voltage applied to R_(2) and R_(3) is less than the total voltage by an amount V_(1). When wire resistance is large, it can significantly affect the operation of the devices represented by R_(2) and R_(3).Strategy and Solution for (c)
+       To find the current through R_(2), we must first find the voltage applied to it. We call this voltage V_(p), because it is applied to a parallel combination of resistors. The voltage applied to both R_(2) and R_(3) is reduced by the amount V_(1), and so it is
+    V_(p)=V−V_(1)=12.0 V−2.35 V=9.65 V.Now the current I_(2) through resistance R_(2) is found using Ohm’s law:
+    I_(2)=(V_(p))/(R_(2))=(9.65 V)/(6.00 Ω)=1.61 A.Discussion for (c)
+       The current is less than the 2.00 A that flowed through R_(2) when it was connected in parallel to the battery in the previous parallel circuit example.
+
+       Strategy and Solution for (d)
+       The power dissipated by R_(2) is given by
+    P_(2)=(I_(2))^(2)R_(2)=(1.61 A)^(2)(6.00Ω)=15.5 W.Discussion for (d)
+       The power is less than the 24.0 W this resistor dissipated when connected in parallel to the 12.0-V source.
+    
+    
+
+  
+    Practical Implications
+    One implication of this last example is that resistance in wires reduces the current and power delivered to a resistor. If wire resistance is relatively large, as in a worn (or a very long) extension cord, then this loss can be significant. If a large current is drawn, the IR drop in the wires can also be significant.For example, when you are rummaging in the refrigerator and the motor comes on, the refrigerator light dims momentarily. Similarly, you can see the passenger compartment light dim when you start the engine of your car (although this may be due to resistance inside the battery itself).
+    What is happening in these high-current situations is illustrated in [reference import-auto-id2452527]. The device represented by R_(3) has a very low resistance, and so when it is switched on, a large current flows. This increased current causes a larger IR drop in the wires represented by R_(1), reducing the voltage across the light bulb (which is R_(2)), which then dims noticeably.
+
+
+    
+        
+      
+
+    Why do lights dim when a large appliance is switched on? The answer is that the large current the appliance motor draws causes a significant IR drop in the wires and reduces the voltage across the light.
+
+
+
+
+
+
+
+    
+    Questions and Exercises
+
+    
+      Questions and Exercises
+    Note: Data taken from figures can be assumed to be accurate to three significant digits.
+    
+
+  

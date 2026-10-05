@@ -1,0 +1,45 @@
+Figure 10.42 These three resistors are connected to a voltage source so that R2 and R3 are in parallel with one another and that combination
+is in series with R1 .
+Strategy and Solution for (a)
+To find the total resistance, we note that R2 and R3 are in parallel and their combination Rp is in series with R1 . Thus
+the total (equivalent) resistance of this combination is
+(10.90)Rtot = R1 + Rp.
+First, we find Rp using the equation for resistors in parallel and entering known values:
+(10.91)1
+Rp
+= 1
+R2
++ 1
+R3
+= 1
+6.00 Ω + 1
+13.0 Ω = 0.2436
+Ω .
+Inverting gives
+(10.92)Rp = 1
+0.2436 Ω = 4.11 Ω .
+So the total resistance is
+(10.93)Rtot = R1 + Rp = 1.00 Ω + 4.11 Ω = 5.11 Ω .
+Discussion for (a)
+The total resistance of this combination is intermediate between the pure series and pure parallel values ( 20.0 Ω and
+0.804 Ω , respectively) found for the same resistors in the two previous examples.
+Strategy and Solution for (b)
+To find the IR drop in R1 , we note that the full current I flows through R1 . Thus its IR drop is
+(10.94)V1 = IR1.
+We must find I before we can calculate V1 . The total current I is found using Ohm’s law for the circuit. That is,
+(10.95)I = V
+Rtot
+= 12.0 V
+5.11 Ω = 2.35 A.
+Entering this into the expression above, we get
+(10.96)V1 = IR1 = (2.35 A)(1.00 Ω ) = 2.35 V.
+Discussion for (b)
+The voltage applied to R2 and R3 is less than the total voltage by an amount V1 . When wire resistance is large, it can
+significantly affect the operation of the devices represented by R2 and R3 .
+Strategy and Solution for (c)
+To find the current through R2 , we must first find the voltage applied to it. We call this voltage Vp , because it is applied to
+a parallel combination of resistors. The voltage applied to both R2 and R3 is reduced by the amount V1 , and so it is
+(10.97)Vp = V − V1 = 12.0 V − 2.35 V = 9.65 V.
+Now the current I2 through resistance R2 is found using Ohm’s law:
+324 Chapter 10 | Electricity
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

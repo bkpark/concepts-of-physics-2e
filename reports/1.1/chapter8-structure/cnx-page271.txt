@@ -1,0 +1,41 @@
+room, heat transfer to the room occurs and the gas condenses to a liquid. The liquid then flows back through a pressure-
+reducing valve to the outdoor evaporator coils, being cooled through expansion. (In a cooling cycle, the evaporator and
+condenser coils exchange roles and the flow direction of the fluid is reversed.)
+The quality of a heat pump is judged by how much heat transfer Qh occurs into the warm space compared with how much work
+input W is required. In the spirit of taking the ratio of what you get to what you spend, we define a heat pump’s coefficient of
+performance ( COPhp ) to be
+(9.57)
+COPhp = Qh
+W .
+Since the efficiency of a heat engine is Eff = W / Qh , we see that COPhp = 1 / Eff , an important and interesting fact. First,
+since the efficiency of any heat engine is less than 1, it means that COPhp is always greater than 1—that is, a heat pump
+always has more heat transfer Qh than work put into it. Second, it means that heat pumps work best when temperature
+differences are small. The efficiency of a perfect, or Carnot, engine is EffC = 1 − ⎛
+⎝Tc / Th
+⎞
+⎠ ; thus, the smaller the temperature
+difference, the smaller the efficiency and the greater the COPhp (because COPhp = 1 / Eff ). In other words, heat pumps do
+not work as well in very cold climates as they do in more moderate climates.
+Friction and other irreversible processes reduce heat engine efficiency, but they do not benefit the operation of a heat
+pump—instead, they reduce the work input by converting part of it to heat transfer back into the cold reservoir before it gets into
+the heat pump.
+Figure 9.45 When a real heat engine is run backward, some of the intended work input (W) goes into heat transfer before it gets into the heat
+engine, thereby reducing its coefficient of performance COPhp . In this figure, W' represents the portion of W that goes into the heat pump, while
+the remainder of W is lost in the form of frictional heat ⎛
+⎝Q f
+⎞
+⎠ to the cold reservoir. If all of W had gone into the heat pump, then Qh would have
+been greater. The best heat pump uses adiabatic and isothermal processes, since, in theory, there would be no dissipative processes to reduce the
+heat transfer to the hot reservoir.
+Example 9.9 The Best COP hp of a Heat Pump for Home Use
+A heat pump used to warm a home must employ a cycle that produces a working fluid at temperatures greater than typical
+indoor temperature so that heat transfer to the inside can take place. Similarly, it must produce a working fluid at
+temperatures that are colder than the outdoor temperature so that heat transfer occurs from outside. Its hot and cold
+reservoir temperatures therefore cannot be too close, placing a limit on its COPhp . (See Figure 9.46.) What is the best
+coefficient of performance possible for such a heat pump, if it has a hot reservoir temperature of 45.0ºC and a cold
+reservoir temperature of −15.0ºC ?
+Strategy
+A Carnot engine reversed will give the best possible performance as a heat pump. As noted above, COPhp = 1 / Eff , so
+that we need to first calculate the Carnot efficiency to solve this problem.
+Solution
+Chapter 9 | Thermal Physics 265

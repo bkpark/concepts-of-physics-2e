@@ -19,7 +19,7 @@
 <item><link target-id="import-auto-id1528540"/>, Other Units</item>
 <item><link target-id="import-auto-id1610756"/>, Useful Formulae</item>
 
-  </list><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1211982" summary="Four-column table of Important Constants. Column one lists the constant’s symbol. Column two lists its meaning. Column three lists its best value, and column four lists its approximate value."><title>Important Constants<sup><footnote id="import-auto-footnote-1"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty, <link url="http://www.physics.nist.gov/cuu">www.physics.nist.gov/cuu</link> (2018 values). Values in parentheses are the uncertainties in the last digits. Values in the approximate column are rounded. Absence of an uncertainty does not imply that a displayed value is exact.</footnote></sup></title>
+  </list><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1211982" summary="Four-column table of Important Constants. Column one lists the constant’s symbol. Column two lists its meaning. Column three lists its best value, and column four lists its approximate value."><title>Important Constants<sup><footnote id="import-auto-footnote-1"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty, <link url="https://physics.nist.gov/cuu/Constants/">physics.nist.gov/constants</link> (2022 CODATA values). Values marked “exact” are exact as written. The gas constant R and Stefan–Boltzmann constant σ are also exact, but their displayed values are rounded. Parentheses give uncertainties in the last digits. Values in the approximate column are rounded.</footnote></sup></title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/><colspec colnum="2" colname="c2"/><colspec colnum="3" colname="c3"/><colspec colnum="4" colname="c4"/>
 
 <thead>
@@ -34,75 +34,75 @@
   <row>
     <entry><m:math display="block"><m:ci>c</m:ci></m:math></entry>
     <entry>Speed of light in vacuum</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">2.99792458<m:sep/>8</m:cn><m:mspace width="0.15em"/><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">3.00<m:sep/>8</m:cn><m:mspace width="0.15em"/><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">2.99792458<m:sep/>8</m:cn><m:mspace width="0.15em"/><m:mtext>m</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> (exact)</entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">3.00<m:sep/>8</m:cn><m:mspace width="0.15em"/><m:mtext>m</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></entry>
   </row>
 
   <row>
     <entry><m:math display="block"><m:ci>G</m:ci></m:math></entry>
     <entry>Gravitational constant</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">6.67430(15)<m:sep/>−11</m:cn><m:mspace width="0.15em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>kg</m:mtext><m:cn>2</m:cn></m:msup></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">6.67<m:sep/>−11</m:cn><m:mspace width="0.15em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>kg</m:mtext><m:cn>2</m:cn></m:msup></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">6.67430(15)<m:sep/>−11</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>kg</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">6.67<m:sep/>−11</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>kg</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:msub><m:ci>N</m:ci><m:mi>A</m:mi></m:msub></m:math></entry>
     <entry>Avogadro’s number</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">6.02214076<m:sep/>23</m:cn></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">6.02214076<m:sep/>23</m:cn></m:mrow></m:math> (exact)</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">6.02<m:sep/>23</m:cn></m:mrow></m:math></entry>
   </row>
   <row>
-    <entry><m:math display="block"><m:mi>k</m:mi></m:math></entry>
+    <entry><m:math display="block"><m:msub><m:mi>k</m:mi><m:mi mathvariant="normal">B</m:mi></m:msub></m:math></entry>
     <entry>Boltzmann’s constant</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.380649<m:sep/>−23</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.38<m:sep/>−23</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.380649<m:sep/>−23</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mtext>K</m:mtext></m:mrow></m:math> (exact)</entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.38<m:sep/>−23</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:ci>R</m:ci></m:math></entry>
     <entry>Gas constant</entry>
-    <entry><m:math><m:mrow><m:cn>8.314462618</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>mol</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn>8.31</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>mol</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn>8.314462618</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow></m:math> (rounded)</entry>
+    <entry><m:math><m:mrow><m:cn>8.31</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:ci>σ</m:ci></m:math></entry>
     <entry>Stefan-Boltzmann constant</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">5.670374419<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mtext>W</m:mtext><m:mo stretchy="false">/</m:mo><m:mo>(</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>K</m:mtext><m:cn>4</m:cn></m:msup><m:mo>)</m:mo></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">5.67<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mtext>W</m:mtext><m:mo stretchy="false">/</m:mo><m:mo>(</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>K</m:mtext><m:cn>4</m:cn></m:msup><m:mo>)</m:mo></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">5.670374419<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> (rounded)</entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">5.67<m:sep/>−8</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:ci>k</m:ci></m:math></entry>
     <entry>Coulomb force constant</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">8.9875517923(13)<m:sep/>9</m:cn><m:mspace width="0.15em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>C</m:mtext><m:cn>2</m:cn></m:msup></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">8.99<m:sep/>9</m:cn><m:mspace width="0.15em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>C</m:mtext><m:cn>2</m:cn></m:msup></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">8.9875517862(14)<m:sep/>9</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">8.99<m:sep/>9</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:ci>e</m:ci></m:math></entry>
     <entry>Elementary charge</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.602176634<m:sep/>−19</m:cn><m:mspace width="0.15em"/><m:mtext>C</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.602176634<m:sep/>−19</m:cn><m:mspace width="0.15em"/><m:mtext>C</m:mtext></m:mrow></m:math> (exact)</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.60<m:sep/>−19</m:cn><m:mspace width="0.15em"/><m:mtext>C</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:msub><m:ci>ε</m:ci><m:cn>0</m:cn></m:msub></m:math></entry>
     <entry>Permittivity of free space</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">8.8541878128(13)<m:sep/>−12</m:cn><m:mspace width="0.15em"/><m:msup><m:mtext>C</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">/</m:mo><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">8.85<m:sep/>−12</m:cn><m:mspace width="0.15em"/><m:msup><m:mtext>C</m:mtext><m:cn>2</m:cn></m:msup><m:mo stretchy="false">/</m:mo><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:cn>2</m:cn></m:msup></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">8.8541878188(14)<m:sep/>−12</m:cn><m:mspace width="0.15em"/><m:mfrac><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">8.85<m:sep/>−12</m:cn><m:mspace width="0.15em"/><m:mfrac><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:msub><m:ci>μ</m:ci><m:cn>0</m:cn></m:msub></m:math></entry>
-    <entry>Permeability of free space<footnote id="mu0-si-2019-note">Before the 2019 SI revision, 4π × 10⁻⁷ T·m/A was exact. It remains an excellent approximation.</footnote></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.25663706212(19)<m:sep/>−6</m:cn><m:mspace width="0.15em"/><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>A</m:mtext></m:mrow></m:math></entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">4π<m:sep/>−7</m:cn><m:mspace width="0.15em"/><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>A</m:mtext></m:mrow></m:math></entry>    
+    <entry>Permeability of free space<footnote id="mu0-si-2019-note">Before the 2019 SI revision, 4π × 10⁻⁷ <m:math><m:mfrac><m:mrow><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac></m:math> was exact. It remains an excellent approximation.</footnote></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.25663706127(20)<m:sep/>−6</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">4π<m:sep/>−7</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac></m:mrow></m:math></entry>    
   </row>
   <row>
     <entry><m:math display="block"><m:ci>h</m:ci></m:math></entry>
     <entry>Planck’s constant</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">6.62607015<m:sep/>−34</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">6.62607015<m:sep/>−34</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> (exact)</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">6.63<m:sep/>−34</m:cn><m:mspace width="0.15em"/><m:mtext>J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></entry>    
   </row>
 </tbody>
 
 
 </tgroup>
-</table><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1125517" summary="Four-column table of submicroscopic masses. Column one lists the symbol. Column two lists its meaning. Column three lists its best value, and column four lists its approximate value."><title>Submicroscopic Masses<sup><footnote id="import-auto-footnote-2"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty, <link url="http://www.physics.nist.gov/cuu">www.physics.nist.gov/cuu</link> (2018 values). Values in parentheses are the uncertainties in the last digits. Numbers without uncertainties are exact as defined.</footnote></sup></title>
+</table><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1125517" summary="Four-column table of submicroscopic masses. Column one lists the symbol. Column two lists its meaning. Column three lists its best value, and column four lists its approximate value."><title>Submicroscopic Masses<sup><footnote id="import-auto-footnote-2"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty, <link url="https://physics.nist.gov/cuu/Constants/">physics.nist.gov/constants</link> (2022 CODATA values). Values in parentheses are the uncertainties in the last digits. Values in the approximate column are rounded.</footnote></sup></title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/> <colspec colnum="2" colname="c2"/> <colspec colnum="3" colname="c3"/> <colspec colnum="4" colname="c4"/>
 
 <thead>
@@ -118,25 +118,25 @@
   <row>
     <entry><m:math display="block"><m:msub><m:ci>m</m:ci><m:ci>e</m:ci></m:msub></m:math></entry>
     <entry>Electron mass</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">9.1093837015(28)<m:sep/>−31</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">9.1093837139(28)<m:sep/>−31</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">9.11<m:sep/>−31</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:msub><m:ci>m</m:ci><m:ci>p</m:ci></m:msub></m:math></entry>
     <entry>Proton mass</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.67262192369(51)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.67262192595(52)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.67<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:msub><m:ci>m</m:ci><m:ci>n</m:ci></m:msub></m:math></entry>
     <entry>Neutron mass</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.67492749804(95)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.67492750056(85)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.67<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
     <entry><m:math display="block"><m:mtext>u</m:mtext></m:math></entry>
     <entry>Atomic mass unit</entry>
-    <entry><m:math><m:mrow><m:cn type="e-notation">1.66053906660(50)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:cn type="e-notation">1.66053906892(52)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.66<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
   </row>
 </tbody>
@@ -1190,13 +1190,13 @@
           <row>
             <entry>Delta</entry>
             <entry>
-              <m:math>
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
                 <m:semantics>
                   <m:mrow>
                     <m:mrow>
-                      <m:mtext>Δ</m:mtext>
+                      <m:mrow><m:mi mathvariant="normal">Δ</m:mi></m:mrow>
                     </m:mrow>
-                    <m:mrow/>
+                    <m:mrow />
                   </m:mrow>
                   <m:annotation encoding="StarMath 5.0"> size 12{Δ} {}</m:annotation>
                 </m:semantics>
@@ -1592,7 +1592,7 @@
                             <m:mo stretchy="false">⋅</m:mo>
                             <m:mtext>m</m:mtext>
                           </m:mrow>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:msup>
                             <m:mtext>s</m:mtext>
                             <m:mrow>
@@ -1632,7 +1632,7 @@
                               </m:mrow>
                             </m:msup>
                           </m:mrow>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:msup>
                             <m:mtext>s</m:mtext>
                             <m:mrow>
@@ -1663,7 +1663,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mtext>J</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mtext>s</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -1689,7 +1689,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mtext>N</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:msup>
                             <m:mtext>m</m:mtext>
                             <m:mrow>
@@ -1720,7 +1720,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mn>1</m:mn>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mtext>s</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -1746,7 +1746,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mtext>J</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mtext>C</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -1772,7 +1772,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mtext>C</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mtext>V</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -1820,11 +1820,11 @@
                   <m:mrow>
                     <m:mrow>
                       <m:mrow>
-                        <m:mo stretchy="false">Ω</m:mo>
+                        <m:mtext>Ω</m:mtext>
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mtext>V</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mtext>A</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -1850,7 +1850,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mtext>N</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mfenced open="(" close=")">
                             <m:mrow>
                               <m:mtext>A</m:mtext>
@@ -1882,7 +1882,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
                           <m:mn>1</m:mn>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0em" rspace="0em">/</m:mo>
                           <m:mtext>s</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -2033,7 +2033,7 @@
                         <m:mrow><m:mspace width="0.20em"/>
                           <m:mrow>
                             <m:mtext>lb</m:mtext>
-                            <m:mo stretchy="false">/</m:mo>
+                            <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                             <m:msup>
                               <m:mtext>in</m:mtext>
                               <m:mrow>
@@ -2680,7 +2680,7 @@
                         <m:mi/>
                         <m:mrow><m:mspace width="0.20em"/>
                           <m:mtext>km</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                           <m:mtext>h</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -2718,7 +2718,7 @@
                         <m:mi/>
                         <m:mrow><m:mspace width="0.20em"/>
                           <m:mtext>km</m:mtext>
-                          <m:mo stretchy="false">/</m:mo>
+                          <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                           <m:mtext>h</m:mtext>
                         </m:mrow>
                       </m:mrow>
@@ -2797,7 +2797,7 @@
                           <m:mo stretchy="false">=</m:mo>
                           <m:mrow>
                             <m:mn>1</m:mn>
-                            <m:mo stretchy="false">/</m:mo>
+                            <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                             <m:mtext>60</m:mtext>
                           </m:mrow>
                         </m:mrow>
@@ -2839,7 +2839,7 @@
                           <m:mo stretchy="false">=</m:mo>
                           <m:mrow>
                             <m:mn>1</m:mn>
-                            <m:mo stretchy="false">/</m:mo>
+                            <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                             <m:mrow>
                               <m:mtext>60</m:mtext>
                               <m:mi/>
@@ -3275,7 +3275,7 @@
           <row>
             <entry>Circumference of a circle with radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> or diameter <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math></entry>
             <entry>
-              <m:math>
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
                 <m:semantics>
                   <m:mrow>
                     <m:mrow>
@@ -3284,13 +3284,13 @@
                           <m:mi>C</m:mi>
                           <m:mo stretchy="false">=</m:mo>
 <m:mn>2</m:mn>
-                          <m:mn fontstyle="italic">πr</m:mn>
+                          <m:mrow><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow>
                         </m:mrow>
                         <m:mo stretchy="false">=</m:mo>
-                        <m:mi fontstyle="italic">πd</m:mi>
+                        <m:mrow><m:mi>π</m:mi><m:mi>d</m:mi></m:mrow>
                       </m:mrow>
                     </m:mrow>
-                    <m:mrow/>
+                    <m:mrow />
                   </m:mrow>
                   <m:annotation encoding="StarMath 5.0"> size 12{C=2πr=πd} {}</m:annotation>
                 </m:semantics>
@@ -3300,7 +3300,7 @@
           <row>
             <entry>Area of a circle with radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> or diameter <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math></entry>
             <entry>
-              <m:math>
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
                 <m:semantics>
                   <m:mrow>
                     <m:mrow>
@@ -3308,37 +3308,32 @@
                         <m:mrow>
                           <m:mi>A</m:mi>
                           <m:mo stretchy="false">=</m:mo>
-                          <m:msup>
-                            <m:mi fontstyle="italic">πr</m:mi>
-                            <m:mrow>
+                          <m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mrow>
                               <m:mn>2</m:mn>
                             </m:mrow>
-                          </m:msup>
+                          </m:msup></m:mrow>
                         </m:mrow>
                         <m:mo stretchy="false">=</m:mo>
                         <m:mrow>
-                          <m:msup>
-                            <m:mi fontstyle="italic">πd</m:mi>
-                            <m:mrow>
+                          <m:mrow><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mrow>
                               <m:mn>2</m:mn>
                             </m:mrow>
-                          </m:msup>
-                          <m:mo stretchy="false">/</m:mo>
+                          </m:msup></m:mrow>
+                          <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                           <m:mn>4</m:mn>
                         </m:mrow>
                       </m:mrow>
                     </m:mrow>
-                    <m:mrow/>
+                    <m:mrow />
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{A=πr rSup { size 8{2} } = {πd rSup { size 8{2} } } slash {4} } {}</m:annotation>
-                </m:semantics>
+                  </m:semantics>
               </m:math>
             </entry>
           </row>
           <row>
             <entry>Area of a sphere with radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math></entry>
             <entry>
-              <m:math>
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
                 <m:semantics>
                   <m:mrow>
                     <m:mrow>
@@ -3346,25 +3341,22 @@
                         <m:mi>A</m:mi>
                         <m:mo stretchy="false">=</m:mo>
 <m:mn>4</m:mn>
-                        <m:msup>
-                          <m:mn fontstyle="italic">πr</m:mn>
-                          <m:mrow>
+                        <m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mrow>
                             <m:mn>2</m:mn>
                           </m:mrow>
-                        </m:msup>
+                        </m:msup></m:mrow>
                       </m:mrow>
                     </m:mrow>
-                    <m:mrow/>
+                    <m:mrow />
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{A=4πr rSup { size 8{2} } } {}</m:annotation>
-                </m:semantics>
+                  </m:semantics>
               </m:math>
             </entry>
           </row>
           <row>
             <entry>Volume of a sphere with radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math></entry>
             <entry>
-              <m:math>
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
                 <m:semantics>
                   <m:mrow>
                     <m:mrow>
@@ -3375,25 +3367,22 @@
                           <m:mfenced open="(" close=")">
                             <m:mrow>
                               <m:mn>4</m:mn>
-                              <m:mo stretchy="false">/</m:mo>
+                              <m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
                               <m:mn>3</m:mn>
                             </m:mrow>
                           </m:mfenced>
                         </m:mrow>
                         <m:mfenced open="(" close=")">
-                          <m:msup>
-                            <m:mi fontstyle="italic">πr</m:mi>
-                            <m:mrow>
+                          <m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mrow>
                               <m:mn>3</m:mn>
                             </m:mrow>
-                          </m:msup>
+                          </m:msup></m:mrow>
                         </m:mfenced>
                       </m:mrow>
                     </m:mrow>
-                    <m:mrow/>
+                    <m:mrow />
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{V= left ( {4} slash {3}  right ) left (πr rSup { size 8{3} }  right )} {}</m:annotation>
-                </m:semantics>
+                  </m:semantics>
               </m:math>
             </entry>
           </row>

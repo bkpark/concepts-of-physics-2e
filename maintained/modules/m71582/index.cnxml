@@ -22,9 +22,9 @@
     <equation id="eip-695"><m:math><m:apply><m:eq/><m:ci type="vector">p</m:ci><m:apply><m:times/><m:ci>m</m:ci><m:ci type="vector">v</m:ci></m:apply></m:apply><m:mtext>.</m:mtext></m:math></equation></note>
     <example id="fs-id1356444">
     <title>Calculating Momentum: A Football Player and a Football</title>
-    <para id="import-auto-id1171239">(a) Calculate the momentum of a 110-kg football player running at 8.00 m/s. (b) Compare the player’s momentum with the momentum of a hard-thrown 0.410-kg football that has a speed of 25.0 m/s.</para>
+    <para id="import-auto-id1171239">(a) Calculate the momentum of a 110-kg football player running at 8.00 m/s. (b) Compare the player’s momentum with the momentum of a hard-thrown 0.410-kg football that has a speed of 25.0 m/s.</para>
     <para id="import-auto-id1250149"><emphasis>Strategy</emphasis>
-    </para><para id="import-auto-id1162402">No information is given regarding direction, and so we can calculate only the magnitude of the momentum, <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>. (As usual, a symbol that is in italics is a magnitude, whereas one that is italicized and is boldfaced or has an arrow is a vector.) In both parts of this example, the magnitude of momentum can be calculated directly from the definition of momentum given in the equation, which becomes</para><equation id="eip-605"><m:math>
+    </para><para id="import-auto-id1162402">No information is given regarding direction, and so we can calculate only the magnitude of the momentum, <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>. (As usual, a symbol that is in italics is a magnitude, whereas one that is italicized and is boldfaced or has an arrow is a vector.) In both parts of this example, the magnitude of momentum can be calculated directly from the definition of momentum given in the equation, which becomes</para><equation id="eip-605"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -34,13 +34,13 @@
                   <m:mo stretchy="false">=</m:mo>
                   <m:mstyle fontstyle="italic">
                     <m:mrow>
-                      <m:mtext>mv</m:mtext>
+                      <m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow>
                     </m:mrow>
                   </m:mstyle>
                 </m:mrow>
               </m:mrow>
             
-            <m:mrow/>
+            <m:mrow />
           </m:mrow>
           <m:annotation encoding="StarMath 5.0"> size 12{p= ital "mv"} {}</m:annotation>
         </m:semantics>
@@ -129,10 +129,10 @@
 </section>
 <section id="fs-id1342888">
     <title>Momentum and Newton’s Second Law</title>
-    <para id="import-auto-id1498551">The importance of momentum, unlike the importance of energy, was recognized early in the development of classical physics. Momentum was deemed so important that it was called the “quantity of motion.” Newton actually stated his <term id="import-auto-id1513532">second law of motion</term> in terms of momentum: The net external force equals the change in momentum of a system divided by the time over which it changes. Using symbols, this law is</para>
+    <para id="import-auto-id1498551">The importance of momentum, unlike the importance of energy, was recognized early in the development of classical physics. Momentum was deemed so important that it was called the “quantity of motion”. Newton actually stated his <term id="import-auto-id1513532">second law of motion</term> in terms of momentum: The net external force equals the change in momentum of a system divided by the time over which it changes. Using symbols, this law is</para>
     <equation id="eip-96"><m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply><m:mtext>,</m:mtext></m:math></equation><para id="import-auto-id1498518">where <m:math><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub></m:math> is the net external force, <m:math><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:math> is the change in momentum, and <m:math><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:math> is the change in time.</para><note id="fs-id1440030"><label/>
     <title>Newton’s Second Law of Motion in Terms of Momentum</title>
-    <para id="import-auto-id1498318">The net external force equals the change in momentum of a system divided by the time over which it changes: <m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:mrow><m:mo>/</m:mo><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:mrow></m:apply></m:math>.</para></note>
+    <para id="import-auto-id1498318">The net external force equals the change in momentum of a system divided by the time over which it changes: <m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:mrow><m:mo lspace="0" rspace="0">/</m:mo><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:mrow></m:apply></m:math>.</para></note>
     <note id="fs-id1535269"><label/>
     <title>Making Connections: Force and Momentum</title>
     <para id="import-auto-id1348915">Force and momentum are intimately related. Force acting over time can change momentum, and Newton’s second law of motion, can be stated in its most broadly applicable form in terms of momentum. Momentum continues to be a key concept in the study of atomic and subatomic particles in quantum mechanics.</para>
@@ -149,11 +149,11 @@
     </equation><para id="import-auto-id1357595">Because <m:math><m:apply><m:eq/><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">v</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply><m:ci type="vector">a</m:ci></m:apply></m:math>, we get the familiar equation</para><equation id="eip-17"><m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:apply><m:times/><m:ci>m</m:ci><m:ci type="vector">a</m:ci></m:apply></m:apply></m:math></equation><para id="import-auto-id1100094"><emphasis effect="italics">when the mass of the system is constant</emphasis>.</para>
     <para id="import-auto-id1305125">Newton’s second law of motion stated in terms of momentum is more generally applicable because it can be applied to systems where the mass is changing, such as rockets, as well as to systems of constant mass. We will consider systems with varying mass in some detail<emphasis effect="bold">;</emphasis> however, the relationship between momentum and force remains useful when mass is constant, such as in the following example.</para><example id="fs-id1523425">
     <title>Calculating Force: Venus Williams’ Racquet</title>
-    <para id="import-auto-id1372893">During the 2007 French Open, Venus Williams hit the fastest recorded serve in a premier women’s match, reaching a speed of 58 m/s (209 km/h). What is the average force exerted on the 0.057-kg tennis ball by Venus Williams’ racquet, assuming that the ball’s speed just after impact is 58 m/s, that the initial horizontal component of the velocity before impact is negligible, and that the ball remained in contact with the racquet for 5.0 ms (milliseconds)? </para>
+    <para id="import-auto-id1372893">During the 2007 French Open, Venus Williams hit the fastest recorded serve in a premier women’s match, reaching a speed of 58 m/s (209 km/h). What is the average force exerted on the 0.057-kg tennis ball by Venus Williams’ racquet, assuming that the ball’s speed just after impact is 58 m/s, that the initial horizontal component of the velocity before impact is negligible, and that the ball remained in contact with the racquet for 5.0 ms (milliseconds)? </para>
     <para id="import-auto-id1441326">
       <emphasis>Strategy</emphasis>
     </para>
-    <para id="import-auto-id1484278">This problem involves only one dimension because the ball starts from having no horizontal velocity component before impact. Newton’s second law stated in terms of momentum is then written as <m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:mrow><m:mo>/</m:mo><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:mrow></m:apply></m:math>.</para><para id="import-auto-id1108072">As noted above, when mass is constant, the change in momentum is given by</para>
+    <para id="import-auto-id1484278">This problem involves only one dimension because the ball starts from having no horizontal velocity component before impact. Newton’s second law stated in terms of momentum is then written as <m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:mrow><m:mo lspace="0" rspace="0">/</m:mo><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:mrow></m:apply></m:math>.</para><para id="import-auto-id1108072">As noted above, when mass is constant, the change in momentum is given by</para>
     <equation id="eip-440"><m:math>
         <m:semantics>
           <m:mrow>
@@ -220,7 +220,7 @@
                                   </m:mrow>
                                 
                               </m:msub>
-                              <m:mo stretchy="false">–</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
                               <m:msub>
                                 <m:mi>v</m:mi>
                                 
@@ -249,7 +249,7 @@
                     <m:mfenced open="(" close=")">
                       <m:mrow>
                         <m:mtext>58 m/s</m:mtext>
-                          <m:mo stretchy="false">–</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
                           <m:mn>0 m/s</m:mn>
                       </m:mrow>
                     </m:mfenced>
@@ -346,7 +346,7 @@
     </equation><para id="eip-972">where we have retained only two significant figures in the final step.</para><para id="import-auto-id1488607">
       <emphasis>Discussion</emphasis>
     </para>
-    <para id="import-auto-id1512339">This quantity was the average force exerted by Venus Williams’ racquet on the tennis ball during its brief impact (note that the ball also experienced the 0.56-N force of gravity, but that force was not due to the racquet). This problem could also be solved by first finding the acceleration and then using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mspace width="0.15em"/><m:mtext>=</m:mtext><m:mspace width="0.15em"/><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } " = " ital "ma"} {}</m:annotation></m:semantics></m:math>, but one additional step would be required compared with the strategy used in this example.</para></example>
+    <para id="import-auto-id1512339">This quantity was the average force exerted by Venus Williams’ racquet on the tennis ball during its brief impact (note that the ball also experienced the 0.56-N force of gravity, but that force was not due to the racquet). This problem could also be solved by first finding the acceleration and then using <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mspace width="0.15em" /><m:mtext>=</m:mtext><m:mspace width="0.15em" /><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>m</m:mi><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } " = " ital "ma"} {}</m:annotation></m:semantics></m:math>, but one additional step would be required compared with the strategy used in this example.</para></example>
 </section>
     <section id="fs-id1521935" class="section-summary">
 <title>Section Summary</title><list id="fs-id1521940"><item id="import-auto-id1499434">Linear momentum (<emphasis effect="italics"><emphasis effect="italics">momentum</emphasis></emphasis> for brevity) is defined as the product of a system’s mass multiplied by its velocity.</item>
@@ -358,21 +358,26 @@
     <item id="import-auto-id1498977">In symbols, Newton’s second law of motion is defined to be
     <equation id="eip-370"><m:math><m:apply><m:eq/><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply><m:mtext>,</m:mtext></m:math></equation>where <m:math><m:msub><m:ci type="vector">F</m:ci><m:mtext>net</m:mtext></m:msub></m:math> is the net external force, <m:math><m:csymbol>Δ</m:csymbol><m:ci type="vector">p</m:ci></m:math> is the change in momentum, and <m:math><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:math> is the change time.</item>
 </list></section>
-    <section id="fs-id1522174" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
-    <exercise id="fs-id1522179" type="conceptual-questions"><problem id="fs-id1522180">
+    <section id="fs-id1522174" class="conceptual-questions" type="conceptual-questions"><title>Questions and Exercises</title>
+    <exercise id="ex-momentum-energy-direction" type="conceptual-questions"><problem id="ex-momentum-energy-direction-problem"><para id="ex-momentum-energy-direction-p1">A car travels around a circular track at constant speed. (a) Does its kinetic energy change? (b) Does its momentum change? (c) If the car doubles its speed, by what factors do its momentum magnitude and kinetic energy change? Explain.</para></problem></exercise>
+<exercise id="fs-id1522179" type="conceptual-questions"><problem id="fs-id1522180">
 <para id="import-auto-id1466205">An object that has a small mass and an object that has a large mass have the same momentum. Which object has the largest kinetic energy?</para>
 </problem></exercise>
-    <exercise id="fs-id1522190" type="conceptual-questions"><problem id="fs-id1522191">
+<exercise id="fs-id1522190" type="conceptual-questions"><problem id="fs-id1522191">
 <para id="import-auto-id1466209">An object that has a small mass and an object that has a large mass have the same kinetic energy. Which mass has the largest momentum?</para>
 </problem></exercise>
-    <exercise id="fs-id1522201" type="conceptual-questions"><problem id="fs-id1522202">
-<para id="import-auto-id1466212"><emphasis>Professional Application</emphasis></para>
-<para id="eip-id974177">Football coaches advise players to block, hit, and tackle with their feet on the ground rather than by leaping through the air. Using the concepts of momentum, work, and energy, explain how a football player can be more effective with his feet on the ground.</para>
-</problem>
-</exercise><exercise id="fs-id1522215" type="conceptual-questions"><problem id="fs-id1522216">
+<exercise id="ex-constant-momentum-net-force" type="conceptual-questions"><problem id="ex-constant-momentum-net-force-problem"><para id="ex-constant-momentum-net-force-p1">A hockey puck slides with constant velocity on frictionless ice. It has nonzero momentum. Does maintaining that momentum require a net force? Explain using the relationship between net force and the rate of change of momentum.</para></problem></exercise>
+<exercise id="ex-equal-force-different-masses" type="conceptual-questions"><problem id="ex-equal-force-different-masses-problem"><para id="ex-equal-force-different-masses-p1">An empty cart and a loaded cart experience the same constant net force for the same time. (a) Compare their changes in momentum. (b) Compare their changes in velocity. Explain how your answers agree with both forms of Newton’s second law.</para></problem></exercise>
+<exercise id="ex-circular-momentum-force" type="conceptual-questions"><problem id="ex-circular-momentum-force-problem"><para id="ex-circular-momentum-force-p1">A ball moves in a circle at constant speed. (a) Is its momentum constant? (b) Does a net force act on it? Explain using the relationship between force and momentum, and identify the direction of the net force.</para></problem></exercise>
+<exercise id="fs-id1522215" type="conceptual-questions"><problem id="fs-id1522216">
 <para id="import-auto-id1489046"> How can a small force impart the same momentum to an object as a large force?</para>
 </problem></exercise>
-    </section>
+<exercise id="fs-id1522201" type="conceptual-questions"><problem id="fs-id1522202">
+
+<para id="eip-id974177">Football coaches advise players to block, hit, and tackle with their feet on the ground rather than by leaping through the air. Using the concepts of momentum, work, and energy, explain how a football player can be more effective with his feet on the ground.</para>
+</problem>
+</exercise>
+</section>
     </content>
 <glossary>
     <definition id="import-auto-id1499242"><term>linear momentum</term> <meaning id="fs-id1542740">the product of mass and velocity</meaning></definition>

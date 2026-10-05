@@ -1,0 +1,4278 @@
+[
+  {
+    "module": "m52314",
+    "section": "1.2",
+    "id": "fs-id2929393",
+    "display": true,
+    "text": "Δx=xf-x0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52314",
+        "id": "eip-458",
+        "text": "Δx=xf-x0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71407",
+    "section": "1.4",
+    "id": "import-auto-id4146177",
+    "display": true,
+    "text": "Δt=tf-t0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71407",
+        "id": "import-auto-id1757927",
+        "text": "Δt=tf-t0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71407",
+    "section": "1.4",
+    "id": "import-auto-id4086565",
+    "display": true,
+    "text": "v-=ΔxΔt=xf-x0tf-t0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71407",
+        "id": "import-auto-id4059844",
+        "text": "v-=ΔxΔt=xf-x0tf-t0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67033",
+    "section": "1.5",
+    "id": "import-auto-id2412659",
+    "display": true,
+    "text": "a-=ΔvΔt=vf-v0tf-t0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67033",
+        "id": "import-auto-id4040806",
+        "text": "a-=ΔvΔt=vf-v0tf-t0"
+      },
+      {
+        "module": "m67033",
+        "id": "import-auto-id1652039",
+        "text": "a-=ΔvΔt=vf-v0tf-t0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2171459",
+    "display": false,
+    "text": "a-=a",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id2170315",
+        "text": "a-=Δv/Δt"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id1819116",
+        "text": "a-=a=constant"
+      }
+    ],
+    "disposition": "Constant acceleration assumption in import-auto-id1819116 states the same equality."
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2168257",
+    "display": true,
+    "text": "Δt=tΔx=x-x0Δv=v-v0}",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id2563693",
+        "text": "Δt=tΔx=x-x0Δv=v-v0}"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2175197",
+    "display": true,
+    "text": "x=x0+v-t",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id2297251",
+        "text": "x=x0+v-t"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2168543",
+        "text": "x=x0+v-t"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2365282",
+        "text": "x=x0+v-t"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2171291",
+        "text": "x=x0+v-t"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2169890",
+        "text": "x=x0+v-t"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id1771742",
+        "text": "x=x0+v-t"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2300871",
+        "text": "x=x0+v-t"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2175206",
+    "display": true,
+    "text": "v-=v0+v2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id4111588",
+        "text": "v-=v0+v2"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id4111588",
+        "text": "v-=v0+v2"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2169890",
+        "text": "v-=v0+v2"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id4178996",
+        "text": "v-=v0+v2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2175249",
+    "display": true,
+    "text": "v=v0+at",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id2177846",
+        "text": "v=v0+at"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2301109",
+        "text": "v=v0+at"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2166975",
+        "text": "v=v0+at"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2301249",
+        "text": "v=v0+at"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id1680040",
+        "text": "v=v0+at"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2168910",
+        "text": "v=v0+at"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2176087",
+    "display": true,
+    "text": "x=x0+v0t+12at2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id2168059",
+        "text": "x=x0+v0t+12at2"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2171407",
+        "text": "x=x0+v0t+12at2"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2167534",
+        "text": "x=x0+v0t+12at2"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id1680037",
+        "text": "x=x0+v0t+12at2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67034",
+    "section": "1.6",
+    "id": "import-auto-id2175231",
+    "display": true,
+    "text": "v2=v02+2a(x-x0)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67034",
+        "id": "import-auto-id2167525",
+        "text": "v2=v02+2a(x-x0)"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id4152013",
+        "text": "v2=v02+2a(x-x0)"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2300225",
+        "text": "v2=v02+2a(x-x0)"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2178979",
+        "text": "v2=v02+2a(x-x0)"
+      },
+      {
+        "module": "m67034",
+        "id": "import-auto-id2180580",
+        "text": "v2=v02+2a(x-x0)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68876",
+    "section": "1.7",
+    "id": "import-auto-id3547826",
+    "display": true,
+    "text": "g=9.80m/s2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m68876",
+        "id": "eip-636",
+        "text": "g=9.80m/s2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68876",
+    "section": "1.7",
+    "id": "import-auto-id2150922",
+    "display": false,
+    "text": "a=-g=-9.80m/s2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m68876",
+        "id": "import-auto-id3504907",
+        "text": "a=-g=-9.80m/s2"
+      },
+      {
+        "module": "m68876",
+        "id": "import-auto-id1659278",
+        "text": "a=-g=-9.80m/s2"
+      },
+      {
+        "module": "m68876",
+        "id": "import-auto-id4138785",
+        "text": "a=-g=-9.80m/s2"
+      },
+      {
+        "module": "m68876",
+        "id": "import-auto-id1788409",
+        "text": "a=-g=-9.80m/s2"
+      },
+      {
+        "module": "m68876",
+        "id": "import-auto-id2358780",
+        "text": "a=-g=-9.80m/s2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68876",
+    "section": "1.7",
+    "id": "import-auto-id2150922",
+    "display": false,
+    "text": "a=+g=9.80m/s2",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m68876",
+        "id": "import-auto-id3504907",
+        "text": "a=g=9.80m/s2"
+      },
+      {
+        "module": "m68876",
+        "id": "import-auto-id3504907",
+        "text": "a=-g=-9.80m/s2"
+      }
+    ],
+    "disposition": "Explicit plus sign only; free-fall sign convention already discussed."
+  },
+  {
+    "module": "m67038",
+    "section": "1.8",
+    "id": "import-auto-id1951750",
+    "display": true,
+    "text": "R=v02sin2θ0g",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67038",
+        "id": "eip-240",
+        "text": "R=v02sin2θ0g"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67035",
+    "section": "1.9",
+    "id": "eip-440",
+    "display": true,
+    "text": "ac=v2r",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67035",
+        "id": "eip-684",
+        "text": "ac=v2r"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67530",
+    "section": "2.4",
+    "id": "import-auto-id3028474",
+    "display": false,
+    "text": "a=Fnetm",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67530",
+        "id": "eip-id1628753",
+        "text": "a=Fnetm"
+      },
+      {
+        "module": "m67530",
+        "id": "import-auto-id2671037",
+        "text": "a=Fnetm"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67530",
+    "section": "2.4",
+    "id": "import-auto-id3028474",
+    "display": false,
+    "text": "Fnet=m⁢a",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67530",
+        "id": "eip-id2606927",
+        "text": "Fnet=m⁢a"
+      },
+      {
+        "module": "m67530",
+        "id": "eip-id1641404",
+        "text": "Fnet=m⁢a"
+      },
+      {
+        "module": "m67530",
+        "id": "import-auto-id1435794",
+        "text": "Fnet=m⁢a"
+      },
+      {
+        "module": "m67530",
+        "id": "import-auto-id3069019",
+        "text": "Fnet=m⁢a"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67530",
+    "section": "2.4",
+    "id": "eip-id1171442332762",
+    "display": true,
+    "text": "w=m⁢g",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67530",
+        "id": "fs-id3073048",
+        "text": "w=m⁢g"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68329",
+    "section": "2.6",
+    "id": "eip-id1331551",
+    "display": true,
+    "text": "N=mg",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m68329",
+        "id": "fs-id1165038241944",
+        "text": "w=mg"
+      },
+      {
+        "module": "m68329",
+        "id": "eip-id1640254",
+        "text": "T=w=mg"
+      }
+    ],
+    "disposition": "Body explains normal force equals weight for the resting bag (eip-143); tension equality occurs explicitly in eip-id1640254. Summary equations are those special cases."
+  },
+  {
+    "module": "m68329",
+    "section": "2.6",
+    "id": "eip-id1166246",
+    "display": true,
+    "text": "T=mg",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m68329",
+        "id": "eip-id1640254",
+        "text": "T=w=mg"
+      },
+      {
+        "module": "m68329",
+        "id": "fs-id1165038241944",
+        "text": "w=mg"
+      }
+    ],
+    "disposition": "Body explains normal force equals weight for the resting bag (eip-143); tension equality occurs explicitly in eip-id1640254. Summary equations are those special cases."
+  },
+  {
+    "module": "m67044",
+    "section": "2.7",
+    "id": "import-auto-id3385046",
+    "display": true,
+    "text": "F=-kx",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67044",
+        "id": "import-auto-id3246114",
+        "text": "F=-kx"
+      },
+      {
+        "module": "m67044",
+        "id": "import-auto-id1872043",
+        "text": "F=-kx"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71409",
+    "section": "2.8",
+    "id": "eip-940",
+    "display": true,
+    "text": "fs≤μsN",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71409",
+        "id": "eip-70",
+        "text": "fs≤μsN"
+      },
+      {
+        "module": "m71409",
+        "id": "eip-213",
+        "text": "fs≤μsN"
+      },
+      {
+        "module": "m71409",
+        "id": "fs-id1522740",
+        "text": "fs≤μsN"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71409",
+    "section": "2.8",
+    "id": "eip-799",
+    "display": true,
+    "text": "fk=μkN",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71409",
+        "id": "eip-98",
+        "text": "fk=μkN"
+      },
+      {
+        "module": "m71409",
+        "id": "import-auto-id1165296391412",
+        "text": "fk=μkN"
+      },
+      {
+        "module": "m71409",
+        "id": "eip-40",
+        "text": "fk=μkN"
+      },
+      {
+        "module": "m71409",
+        "id": "fs-id1791136",
+        "text": "fk=μkN"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71410",
+    "section": "2.9",
+    "id": "eip-143",
+    "display": true,
+    "text": "F=GmMr2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71410",
+        "id": "eip-492",
+        "text": "F=GmMr2"
+      },
+      {
+        "module": "m71410",
+        "id": "import-auto-id2611373",
+        "text": "F=GmMr2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71410",
+    "section": "2.9",
+    "id": "import-auto-id2032016",
+    "display": false,
+    "text": "G=6.674×10-11Nm2/kg2",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71410",
+        "id": "eip-939",
+        "text": "G=6.674×10-11Nm2kg2"
+      },
+      {
+        "module": "m71410",
+        "id": "import-auto-id2611373",
+        "text": "6.674×10-11N"
+      }
+    ],
+    "disposition": "Same constant; solidus versus fraction typography."
+  },
+  {
+    "module": "m67036",
+    "section": "2.10",
+    "id": "eip-67",
+    "display": true,
+    "text": "Fc=mac",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67036",
+        "id": "eip-696",
+        "text": "Fc=m⁢ac"
+      },
+      {
+        "module": "m67036",
+        "id": "eip-562",
+        "text": "Fc=mv2r"
+      }
+    ],
+    "disposition": "Same centripetal-force relationship; invisible multiplication character differs."
+  },
+  {
+    "module": "m67036",
+    "section": "2.10",
+    "id": "eip-967",
+    "display": true,
+    "text": "Fc=mv2r",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67036",
+        "id": "eip-562",
+        "text": "Fc=mv2r"
+      },
+      {
+        "module": "m67036",
+        "id": "import-auto-id1418337",
+        "text": "Fc=mv2r"
+      },
+      {
+        "module": "m67036",
+        "id": "eip-735",
+        "text": "Fc=mv2r"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67539",
+    "section": "3.2",
+    "id": "fs-id1144023",
+    "display": false,
+    "text": "W=Fd",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67539",
+        "id": "fs-id1536731",
+        "text": "W=Fd"
+      },
+      {
+        "module": "m67539",
+        "id": "fs-id2464056",
+        "text": "W=Fd"
+      },
+      {
+        "module": "m67539",
+        "id": "eip-id1166832863896",
+        "text": "W=Fd"
+      },
+      {
+        "module": "m67539",
+        "id": "fs-id1802559",
+        "text": "W=Fd"
+      },
+      {
+        "module": "m67539",
+        "id": "eip-502",
+        "text": "W=Fd"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67539",
+    "section": "3.2",
+    "id": "fs-id1144023",
+    "display": false,
+    "text": "1J=1Nm=1kgm2/s2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67539",
+        "id": "import-auto-id2573627",
+        "text": "1J=1Nm=1kgm2/s2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71411",
+    "section": "3.3",
+    "id": "fs-id2019226",
+    "display": false,
+    "text": "KE=12mv2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71411",
+        "id": "fs-id2016892",
+        "text": "KE=12mv2"
+      },
+      {
+        "module": "m71411",
+        "id": "import-auto-id1450997",
+        "text": "KE=12mv2"
+      },
+      {
+        "module": "m71411",
+        "id": "fs-id1904785",
+        "text": "KE=12mv2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71411",
+    "section": "3.3",
+    "id": "fs-id2019226",
+    "display": false,
+    "text": "Wnet=ΔKE=12mv2-12mv02",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71411",
+        "id": "fs-id1549793",
+        "text": "Wnet=12mv2-12mv02"
+      },
+      {
+        "module": "m71411",
+        "id": "fs-id2771768",
+        "text": "Wnet=12mv2-12mv02"
+      }
+    ],
+    "disposition": "Work-energy theorem combines the body definition of kinetic-energy change with fs-id1549793."
+  },
+  {
+    "module": "m71414",
+    "section": "3.4",
+    "id": "import-auto-id2449367",
+    "display": false,
+    "text": "ΔPEg=mgΔh",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71414",
+        "id": "import-auto-id1838774",
+        "text": "ΔPEg=mgΔh"
+      },
+      {
+        "module": "m71414",
+        "id": "import-auto-id1556510",
+        "text": "ΔPEg=mgΔh"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71414",
+    "section": "3.4",
+    "id": "import-auto-id1527618",
+    "display": false,
+    "text": "ΔKE=-ΔPEg",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71414",
+        "id": "fs-id1449860",
+        "text": "KE=-ΔPEg=-mgΔh"
+      },
+      {
+        "module": "m71414",
+        "id": "import-auto-id1467683",
+        "text": "ΔPEg"
+      }
+    ],
+    "disposition": "Body import-auto-id1521922 explicitly states the same relationship with the two sides reversed."
+  },
+  {
+    "module": "m67037",
+    "section": "3.5",
+    "id": "fs-id1337667",
+    "display": false,
+    "text": "(ΔKE+ΔPE)=0",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67037",
+        "id": "fs-id1066460",
+        "text": "ΔKE+ΔPE=0"
+      },
+      {
+        "module": "m67037",
+        "id": "import-auto-id1005764",
+        "text": "(KE+PE)"
+      }
+    ],
+    "disposition": "Redundant grouping parentheses only."
+  },
+  {
+    "module": "m67045",
+    "section": "3.6",
+    "id": "import-auto-id3385046",
+    "display": true,
+    "text": "F=-kx",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67045",
+        "id": "eip-935",
+        "text": "F=-kx"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67045",
+    "section": "3.6",
+    "id": "import-auto-id2409100",
+    "display": true,
+    "text": "PEel=12kx2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67045",
+        "id": "import-auto-id1272491",
+        "text": "PEel=12kx2"
+      },
+      {
+        "module": "m67045",
+        "id": "import-auto-id2618382",
+        "text": "PEel=12kx2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71415",
+    "section": "3.7",
+    "id": "import-auto-id1359343",
+    "display": false,
+    "text": "P=W/t",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71415",
+        "id": "import-auto-id1115415",
+        "text": "P=W/t"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71415",
+    "section": "3.7",
+    "id": "import-auto-id2488391",
+    "display": false,
+    "text": "1W=1J/s",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71415",
+        "id": "fs-id1455501",
+        "text": "1W=1J/s"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71415",
+    "section": "3.7",
+    "id": "import-auto-id1201829",
+    "display": false,
+    "text": "1hp=746W",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71415",
+        "id": "fs-id2884797",
+        "text": "1hp=746W"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71582",
+    "section": "4.2",
+    "id": "eip-123",
+    "display": true,
+    "text": "p=m⁢v",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71582",
+        "id": "eip-927",
+        "text": "p=m⁢v"
+      },
+      {
+        "module": "m71582",
+        "id": "eip-695",
+        "text": "p=m⁢v"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71582",
+    "section": "4.2",
+    "id": "eip-370",
+    "display": true,
+    "text": "Fnet=ΔpΔt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71582",
+        "id": "eip-96",
+        "text": "Fnet=ΔpΔt"
+      },
+      {
+        "module": "m71582",
+        "id": "import-auto-id1173592",
+        "text": "Fnet=ΔpΔt"
+      },
+      {
+        "module": "m71582",
+        "id": "import-auto-id1269051",
+        "text": "Fnet=ΔpΔt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71583",
+    "section": "4.3",
+    "id": "eip-id1637629",
+    "display": true,
+    "text": "Δp=Fnet⁢Δt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71583",
+        "id": "eip-75",
+        "text": "Δp=Fnet⁢Δt"
+      },
+      {
+        "module": "m71583",
+        "id": "import-auto-id1547349",
+        "text": "Δp=Fnet⁢Δt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71584",
+    "section": "5.2",
+    "id": "eip-794",
+    "display": true,
+    "text": "f=1T",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71584",
+        "id": "eip-768",
+        "text": "f=1T"
+      },
+      {
+        "module": "m71584",
+        "id": "import-auto-id2206459",
+        "text": "f=1T"
+      },
+      {
+        "module": "m71584",
+        "id": "eip-605",
+        "text": "f=1T"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71585",
+    "section": "5.3",
+    "id": "import-auto-id3358885",
+    "display": false,
+    "text": "T=2πmk",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71585",
+        "id": "eip-41",
+        "text": "T=2πmk"
+      },
+      {
+        "module": "m71585",
+        "id": "import-auto-id1411067",
+        "text": "T=2πmk"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71585",
+    "section": "5.3",
+    "id": "import-auto-id3358885",
+    "display": false,
+    "text": "f=12πkm",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71585",
+        "id": "eip-444",
+        "text": "f=12πkm"
+      },
+      {
+        "module": "m71585",
+        "id": "import-auto-id3032062",
+        "text": "f=12πkm"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71587",
+    "section": "5.5",
+    "id": "fs-id1010534",
+    "display": false,
+    "text": "vw=λT",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71587",
+        "id": "eip-830",
+        "text": "vw=λT"
+      },
+      {
+        "module": "m71587",
+        "id": "fs-id2454070",
+        "text": "vw=λT"
+      },
+      {
+        "module": "m71587",
+        "id": "fs-id3008724",
+        "text": "vw=λT"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71587",
+    "section": "5.5",
+    "id": "fs-id1010534",
+    "display": false,
+    "text": "vw=fλ",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71587",
+        "id": "eip-33",
+        "text": "vw=fλ"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71588",
+    "section": "5.6",
+    "id": "import-auto-id1525260",
+    "display": true,
+    "text": "fB=∣f1-f2∣",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71588",
+        "id": "eip-115",
+        "text": "fB=∣f1-f2∣"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71589",
+    "section": "5.8",
+    "id": "eip-263",
+    "display": true,
+    "text": "vw=fλ",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71589",
+        "id": "eip-424",
+        "text": "vw=fλ"
+      },
+      {
+        "module": "m71589",
+        "id": "eip-453",
+        "text": "vw=fλ"
+      },
+      {
+        "module": "m71589",
+        "id": "import-auto-id3396364",
+        "text": "vw=fλ"
+      },
+      {
+        "module": "m71589",
+        "id": "import-auto-id3024041",
+        "text": "vw=fλ"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71589",
+    "section": "5.8",
+    "id": "eip-71",
+    "display": true,
+    "text": "vw=(331m/s)T273K",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71589",
+        "id": "eip-330",
+        "text": "vw=(331m/s)T273K"
+      },
+      {
+        "module": "m71589",
+        "id": "eip-456",
+        "text": "vw=(331m/s)T273K"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71592",
+    "section": "6.2",
+    "id": "import-auto-id2443525",
+    "display": false,
+    "text": "ω=ΔθΔt",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71592",
+        "id": "eip-974",
+        "text": "α=ΔωΔt"
+      },
+      {
+        "module": "m71592",
+        "id": "import-auto-id1917815",
+        "text": "α=ΔωΔt"
+      }
+    ],
+    "disposition": "Body defines angular velocity following eip-199 and eip-481; acceleration is the earlier linear-kinematics definition applied tangentially. Not new physics."
+  },
+  {
+    "module": "m71592",
+    "section": "6.2",
+    "id": "import-auto-id3353297",
+    "display": false,
+    "text": "α=ΔωΔt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71592",
+        "id": "eip-974",
+        "text": "α=ΔωΔt"
+      },
+      {
+        "module": "m71592",
+        "id": "import-auto-id1917815",
+        "text": "α=ΔωΔt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71592",
+    "section": "6.2",
+    "id": "import-auto-id1867184",
+    "display": false,
+    "text": "at=ΔvΔt",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71592",
+        "id": "eip-974",
+        "text": "α=ΔωΔt"
+      },
+      {
+        "module": "m71592",
+        "id": "import-auto-id1917815",
+        "text": "α=ΔωΔt"
+      }
+    ],
+    "disposition": "Body defines angular velocity following eip-199 and eip-481; acceleration is the earlier linear-kinematics definition applied tangentially. Not new physics."
+  },
+  {
+    "module": "m71593",
+    "section": "6.3",
+    "id": "fs-id3113938",
+    "display": false,
+    "text": "τ=r⁢F",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71593",
+        "id": "import-auto-id1940935",
+        "text": "τ=rF"
+      },
+      {
+        "module": "m71593",
+        "id": "eip-357",
+        "text": "τ=mr2α"
+      }
+    ],
+    "disposition": "Same torque/inertia relations; invisible multiplication and net-torque notation differ."
+  },
+  {
+    "module": "m71593",
+    "section": "6.3",
+    "id": "fs-id3113938",
+    "display": false,
+    "text": "τ=I⁢α",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71593",
+        "id": "eip-724",
+        "text": "netτ=Iα"
+      },
+      {
+        "module": "m71593",
+        "id": "eip-357",
+        "text": "τ=mr2α"
+      }
+    ],
+    "disposition": "Same torque/inertia relations; invisible multiplication and net-torque notation differ."
+  },
+  {
+    "module": "m71593",
+    "section": "6.3",
+    "id": "fs-id3113938",
+    "display": false,
+    "text": "I=m⁢r2",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71593",
+        "id": "fs-id3080979",
+        "text": "I=mr2"
+      },
+      {
+        "module": "m71593",
+        "id": "import-auto-id1927026",
+        "text": "I=∑mr2"
+      }
+    ],
+    "disposition": "Same torque/inertia relations; invisible multiplication and net-torque notation differ."
+  },
+  {
+    "module": "m67046",
+    "section": "6.4",
+    "id": "eip-595",
+    "display": true,
+    "text": "KErot=12Iω2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67046",
+        "id": "eip-682",
+        "text": "KErot=12Iω2"
+      },
+      {
+        "module": "m67046",
+        "id": "eip-327",
+        "text": "KErot=12Iω2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71594",
+    "section": "6.5",
+    "id": "import-auto-id1381663",
+    "display": false,
+    "text": "L=Iω",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71594",
+        "id": "eip-337",
+        "text": "L=Iω"
+      },
+      {
+        "module": "m71594",
+        "id": "fs-id2436715",
+        "text": "L=Iω"
+      },
+      {
+        "module": "m71594",
+        "id": "fs-id1792228",
+        "text": "L=Iω"
+      },
+      {
+        "module": "m71594",
+        "id": "eip-982",
+        "text": "L=Iω"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71594",
+    "section": "6.5",
+    "id": "import-auto-id2625259",
+    "display": false,
+    "text": "p=mv",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71594",
+        "id": "import-auto-id3105554",
+        "text": "p=mv"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71594",
+    "section": "6.5",
+    "id": "import-auto-id2625259",
+    "display": false,
+    "text": "netτ=ΔLΔt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71594",
+        "id": "eip-628",
+        "text": "netτ=ΔLΔt"
+      },
+      {
+        "module": "m71594",
+        "id": "import-auto-id2673927",
+        "text": "netτ=ΔLΔt"
+      },
+      {
+        "module": "m71594",
+        "id": "import-auto-id1438810",
+        "text": "netτ=ΔLΔt"
+      },
+      {
+        "module": "m71594",
+        "id": "fs-id1792228",
+        "text": "netτ=ΔLΔt"
+      },
+      {
+        "module": "m71594",
+        "id": "fs-id1562566",
+        "text": "netτ=ΔLΔt"
+      },
+      {
+        "module": "m71594",
+        "id": "import-auto-id2234548",
+        "text": "netτ=ΔLΔt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71595",
+    "section": "6.6",
+    "id": "import-auto-id2682421",
+    "display": false,
+    "text": "L=ΔL",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71595",
+        "id": "import-auto-id1586947",
+        "text": "L=ΔL"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71613",
+    "section": "7.3",
+    "id": "eip-291",
+    "display": true,
+    "text": "ρ=mV",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71613",
+        "id": "eip-385",
+        "text": "ρ=mV"
+      },
+      {
+        "module": "m71613",
+        "id": "eip-462",
+        "text": "ρ=mV"
+      },
+      {
+        "module": "m71613",
+        "id": "eip-48",
+        "text": "ρ=mV"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71615",
+    "section": "7.4",
+    "id": "eip-18",
+    "display": true,
+    "text": "P=FA",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71615",
+        "id": "eip-943",
+        "text": "P=FA"
+      },
+      {
+        "module": "m71615",
+        "id": "eip-795",
+        "text": "P=FA"
+      },
+      {
+        "module": "m71615",
+        "id": "import-auto-id1863947",
+        "text": "P=FA"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71615",
+    "section": "7.4",
+    "id": "import-auto-id1228614",
+    "display": false,
+    "text": "1Pa=1N/m2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71615",
+        "id": "eip-id1787110",
+        "text": "1Pa=1N/m2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71623",
+    "section": "7.5",
+    "id": "eip-998",
+    "display": true,
+    "text": "P=mgA",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71623",
+        "id": "eip-764",
+        "text": "P=mgA"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71623",
+    "section": "7.5",
+    "id": "eip-992",
+    "display": true,
+    "text": "P=ρgh",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71623",
+        "id": "eip-232",
+        "text": "P=ρgh"
+      },
+      {
+        "module": "m71623",
+        "id": "import-auto-id3355342",
+        "text": "P=ρgh"
+      },
+      {
+        "module": "m71623",
+        "id": "import-auto-id2458707",
+        "text": "P=ρgh"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71625",
+    "section": "7.7",
+    "id": "eip-id2616738",
+    "display": false,
+    "text": "Q=Vt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71625",
+        "id": "fs-id3254631",
+        "text": "Q=Vt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71625",
+    "section": "7.7",
+    "id": "eip-id2616738",
+    "display": false,
+    "text": "Q=Av¯",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71625",
+        "id": "fs-id3135337",
+        "text": "Q=Av¯"
+      },
+      {
+        "module": "m71625",
+        "id": "import-auto-id2648082",
+        "text": "Q=Av¯"
+      },
+      {
+        "module": "m71625",
+        "id": "fs-id1462186",
+        "text": "Q=Av¯"
+      },
+      {
+        "module": "m71625",
+        "id": "fs-id1222304",
+        "text": "Q=Av¯"
+      },
+      {
+        "module": "m71625",
+        "id": "fs-id1860922",
+        "text": "Q=Av¯"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71625",
+    "section": "7.7",
+    "id": "eip-537",
+    "display": true,
+    "text": "Q1=Q2A1v¯1=A2v¯2n1A1v¯1=n2A2v¯2}",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m71625",
+        "id": "fs-id1546161",
+        "text": "Q1=Q2A1v¯1=A2v¯2}"
+      },
+      {
+        "module": "m71625",
+        "id": "fs-id3026881",
+        "text": "n1A1v¯1=n2A2v¯2"
+      }
+    ],
+    "disposition": "Summary combines the two already-introduced continuity expressions fs-id1546161 and fs-id3026881."
+  },
+  {
+    "module": "m71626",
+    "section": "7.8",
+    "id": "eip-id1907714",
+    "display": true,
+    "text": "P1+12ρv12+ρgh1=P2+12ρv22+ρgh2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71626",
+        "id": "eip-322",
+        "text": "P1+12ρv12+ρgh1=P2+12ρv22+ρgh2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m71626",
+    "section": "7.8",
+    "id": "eip-id2688454",
+    "display": true,
+    "text": "P1+12ρv12=P2+12ρv22",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m71626",
+        "id": "eip-663",
+        "text": "P1+12ρv12=P2+12ρv22"
+      },
+      {
+        "module": "m71626",
+        "id": "import-auto-id2963505",
+        "text": "P1+12ρv12=P2+12ρv22"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52364",
+    "section": "8.2",
+    "id": "eip-id2114606",
+    "display": true,
+    "text": "T°F=95T°C+32",
+    "status": "deferred-by-maintainer-to-chapter-8-review",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52364",
+        "id": "import-auto-id1969478",
+        "text": "39.0°C"
+      },
+      {
+        "module": "m52364",
+        "id": "import-auto-id1862637",
+        "text": "(-89°C)"
+      }
+    ],
+    "disposition": "Four explicit conversion formulas appear only in summary. Body gives scale offsets and ratios but no conversion formulas. Proposed adding same formulas after scale-comparison figure; maintainer deferred to Chapter 8 review; explicit reminder recorded."
+  },
+  {
+    "module": "m52364",
+    "section": "8.2",
+    "id": "eip-659",
+    "display": true,
+    "text": "T°C=59(T°F-32)",
+    "status": "deferred-by-maintainer-to-chapter-8-review",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52364",
+        "id": "import-auto-id1560689",
+        "text": "(°F)"
+      },
+      {
+        "module": "m52364",
+        "id": "import-auto-id1587524",
+        "text": "95°F"
+      }
+    ],
+    "disposition": "Four explicit conversion formulas appear only in summary. Body gives scale offsets and ratios but no conversion formulas. Proposed adding same formulas after scale-comparison figure; maintainer deferred to Chapter 8 review; explicit reminder recorded."
+  },
+  {
+    "module": "m52364",
+    "section": "8.2",
+    "id": "eip-51",
+    "display": true,
+    "text": "TK=T°C+273.15",
+    "status": "deferred-by-maintainer-to-chapter-8-review",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52364",
+        "id": "import-auto-id1961445",
+        "text": "-273.15°C"
+      },
+      {
+        "module": "m52364",
+        "id": "import-auto-id1961445",
+        "text": "-273.15°C"
+      }
+    ],
+    "disposition": "Four explicit conversion formulas appear only in summary. Body gives scale offsets and ratios but no conversion formulas. Proposed adding same formulas after scale-comparison figure; maintainer deferred to Chapter 8 review; explicit reminder recorded."
+  },
+  {
+    "module": "m52364",
+    "section": "8.2",
+    "id": "eip-936",
+    "display": true,
+    "text": "T°C=TK-273.15",
+    "status": "deferred-by-maintainer-to-chapter-8-review",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52364",
+        "id": "import-auto-id1961445",
+        "text": "-273.15°C"
+      },
+      {
+        "module": "m52364",
+        "id": "import-auto-id1961445",
+        "text": "-273.15°C"
+      }
+    ],
+    "disposition": "Four explicit conversion formulas appear only in summary. Body gives scale offsets and ratios but no conversion formulas. Proposed adding same formulas after scale-comparison figure; maintainer deferred to Chapter 8 review; explicit reminder recorded."
+  },
+  {
+    "module": "m67122",
+    "section": "8.3",
+    "id": "import-auto-id739597",
+    "display": true,
+    "text": "PV=NkBT",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67122",
+        "id": "import-auto-id2374115",
+        "text": "PV=NkBT"
+      },
+      {
+        "module": "m67122",
+        "id": "import-auto-id2248763",
+        "text": "PV=NkBT"
+      },
+      {
+        "module": "m67122",
+        "id": "import-auto-id1084477",
+        "text": "PV=NkBT"
+      },
+      {
+        "module": "m67122",
+        "id": "import-auto-id2717709",
+        "text": "PV=NkBT"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67122",
+    "section": "8.3",
+    "id": "import-auto-id2564573",
+    "display": true,
+    "text": "kB=1.38×10-23J/K",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67122",
+        "id": "import-auto-id1586104",
+        "text": "kB=1.38×10-23J/K"
+      },
+      {
+        "module": "m67122",
+        "id": "fs-id2699740",
+        "text": "kB=1.38×10-23J/K"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52368",
+    "section": "8.4",
+    "id": "import-auto-id2454069",
+    "display": false,
+    "text": "1.00kcal=4186J",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52368",
+        "id": "import-auto-id1738243",
+        "text": "1.000kcal=4186J"
+      },
+      {
+        "module": "m52368",
+        "id": "import-auto-id2674005",
+        "text": "1.00°C"
+      }
+    ],
+    "disposition": "Same kcal conversion with one fewer trailing zero."
+  },
+  {
+    "module": "m67622",
+    "section": "8.6",
+    "id": "import-auto-id1823260",
+    "display": false,
+    "text": "Q=mcΔT",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67622",
+        "id": "eip-644",
+        "text": "Q=mcΔT"
+      },
+      {
+        "module": "m67622",
+        "id": "import-auto-id3197158",
+        "text": "Q=mcΔT"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67124",
+    "section": "8.7",
+    "id": "eip-603",
+    "display": true,
+    "text": "Q=mL",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67124",
+        "id": "import-auto-id1954831",
+        "text": "Q=mLv"
+      },
+      {
+        "module": "m67124",
+        "id": "import-auto-id3008925",
+        "text": "Q=mLs"
+      }
+    ],
+    "disposition": "Generic L combines already introduced fusion/vaporization/sublimation special cases, not a new relationship."
+  },
+  {
+    "module": "m67125",
+    "section": "8.8",
+    "id": "import-auto-id1169737723973",
+    "display": false,
+    "text": "ΔU=Q-W",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67125",
+        "id": "fs-id1169737787594",
+        "text": "ΔU=Q-W"
+      },
+      {
+        "module": "m67125",
+        "id": "import-auto-id1169737803043",
+        "text": "ΔU=Q-W"
+      },
+      {
+        "module": "m67125",
+        "id": "import-auto-id1169738092310",
+        "text": "ΔU=Q-W"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67127",
+    "section": "8.10",
+    "id": "import-auto-id1169736623646",
+    "display": false,
+    "text": "W=Qh-Qc",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67127",
+        "id": "import-auto-id1169737725205",
+        "text": "W=Qh-Qc"
+      },
+      {
+        "module": "m67127",
+        "id": "eip-74",
+        "text": "W=Qh-Qc"
+      },
+      {
+        "module": "m67127",
+        "id": "eip-29",
+        "text": "W=Qh-Qc"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67127",
+    "section": "8.10",
+    "id": "fs-id1169737768304",
+    "display": false,
+    "text": "Eff=WQh",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67127",
+        "id": "eip-480",
+        "text": "Eff=WQh"
+      },
+      {
+        "module": "m67127",
+        "id": "eip-686",
+        "text": "Eff=WQh"
+      },
+      {
+        "module": "m67127",
+        "id": "eip-994",
+        "text": "Eff=WQh"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42236",
+    "section": "8.12",
+    "id": "import-auto-id1169738250431",
+    "display": false,
+    "text": "COPhp=QhW",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42236",
+        "id": "eip-462",
+        "text": "COPhp=QhW"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42238",
+    "section": "8.14",
+    "id": "eip-id1923841",
+    "display": true,
+    "text": "S=kBlnW",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42238",
+        "id": "eip-291",
+        "text": "S=kBlnW"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42238",
+    "section": "8.14",
+    "id": "fs-id1169737713969",
+    "display": false,
+    "text": "kB=1.38×10-23J/K",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42238",
+        "id": "import-auto-id1169737709995",
+        "text": "kB=1.38×10-23J/K"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52381",
+    "section": "9.2",
+    "id": "eip-633",
+    "display": true,
+    "text": "∣qe∣=1.60×10-19C",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52381",
+        "id": "eip-717",
+        "text": "∣qe∣=1.60×10-19C"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52384",
+    "section": "9.3",
+    "id": "eip-467",
+    "display": true,
+    "text": "F=k|q1q2|r2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52384",
+        "id": "eip-575",
+        "text": "F=k|q1q2|r2"
+      },
+      {
+        "module": "m52384",
+        "id": "import-auto-id2000878",
+        "text": "F=k|q1q2|r2"
+      },
+      {
+        "module": "m52384",
+        "id": "eip-793",
+        "text": "F=k|q1q2|r2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52384",
+    "section": "9.3",
+    "id": "import-auto-id1818591",
+    "display": false,
+    "text": "k≈8.99×109Nm2/C2",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52384",
+        "id": "eip-538",
+        "text": "k=8.988×109Nm2C2≈8.99×109Nm2C2"
+      },
+      {
+        "module": "m52384",
+        "id": "import-auto-id3026205",
+        "text": "8.99×1022m/s2"
+      }
+    ],
+    "disposition": "Same rounded Coulomb constant and alternate unit typography."
+  },
+  {
+    "module": "m52385",
+    "section": "9.4",
+    "id": "eip-652",
+    "display": true,
+    "text": "E=Fq",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52385",
+        "id": "eip-853",
+        "text": "E=Fq"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52385",
+    "section": "9.4",
+    "id": "eip-915",
+    "display": true,
+    "text": "E=k|Q|r2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52385",
+        "id": "eip-222",
+        "text": "E=k|Q|r2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m75427",
+    "section": "9.6",
+    "id": "eip-id1820754",
+    "display": true,
+    "text": "ΔV=ΔPEqandΔPE=qΔV",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m75427",
+        "id": "eip-652",
+        "text": "ΔV=ΔPEqandΔPE=qΔV"
+      },
+      {
+        "module": "m75427",
+        "id": "eip-864",
+        "text": "ΔV=ΔPEqandΔPE=qΔV"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m75427",
+    "section": "9.6",
+    "id": "eip-998",
+    "display": true,
+    "text": "1eV=(1.60×10-19C)(1V)=(1.60×10-19C)(1J/C)=1.60×10-19J",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m75427",
+        "id": "eip-829",
+        "text": "1eV=(1.60×10-19C)(1V)=(1.60×10-19C)(1J/C)=1.60×10-19J"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67130",
+    "section": "9.8",
+    "id": "eip-id2583201",
+    "display": true,
+    "text": "I=ΔQΔt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67130",
+        "id": "eip-926",
+        "text": "I=ΔQΔt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67130",
+    "section": "9.8",
+    "id": "import-auto-id2053601",
+    "display": false,
+    "text": "1A=1C/s",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67130",
+        "id": "eip-108",
+        "text": "1A=1C/s"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52401",
+    "section": "9.9",
+    "id": "import-auto-id1170614029788",
+    "display": false,
+    "text": "I=VR",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52401",
+        "id": "eip-218",
+        "text": "I=VR"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52401",
+    "section": "9.9",
+    "id": "import-auto-id1170614063028",
+    "display": false,
+    "text": "1Ω=1V/A",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52401",
+        "id": "eip-702",
+        "text": "1Ω=1VA"
+      },
+      {
+        "module": "m52401",
+        "id": "import-auto-id1170614061355",
+        "text": "I=V/R"
+      }
+    ],
+    "disposition": "Same ohm definition, solidus versus fraction."
+  },
+  {
+    "module": "m52401",
+    "section": "9.9",
+    "id": "import-auto-id1170614028560",
+    "display": false,
+    "text": "V=IR",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52401",
+        "id": "eip-486",
+        "text": "V=IR"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52402",
+    "section": "9.10",
+    "id": "eip-343",
+    "display": true,
+    "text": "P=IV",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52402",
+        "id": "eip-489",
+        "text": "P=IV"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id2601140",
+        "text": "P=IV"
+      },
+      {
+        "module": "m52402",
+        "id": "eip-937",
+        "text": "P=IV"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id1816698",
+        "text": "P=IV"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id3120094",
+        "text": "P=IV"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id3192901",
+        "text": "P=IV"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52402",
+    "section": "9.10",
+    "id": "eip-520",
+    "display": true,
+    "text": "P=V2R",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52402",
+        "id": "eip-834",
+        "text": "P=V2R"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52402",
+    "section": "9.10",
+    "id": "import-auto-id2010343",
+    "display": true,
+    "text": "P=I2R",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52402",
+        "id": "eip-572",
+        "text": "P=I2R"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id3375762",
+        "text": "P=I2R"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id2584507",
+        "text": "P=I2R"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52402",
+    "section": "9.10",
+    "id": "import-auto-id2055643",
+    "display": false,
+    "text": "E=Pt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52402",
+        "id": "eip-9",
+        "text": "E=Pt"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id3255402",
+        "text": "E=Pt"
+      },
+      {
+        "module": "m52402",
+        "id": "import-auto-id3095619",
+        "text": "E=Pt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42356",
+    "section": "9.11",
+    "id": "fs-id1439066",
+    "display": false,
+    "text": "Rs=R1+R2+R3+",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42356",
+        "id": "eip-288",
+        "text": "Rs=R1+R2+R3+"
+      },
+      {
+        "module": "m42356",
+        "id": "import-auto-id2514884",
+        "text": "Rs=R1+R2+R3+"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42356",
+    "section": "9.11",
+    "id": "eip-580",
+    "display": true,
+    "text": "1Rp=1R1+1R2+1R3+",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42356",
+        "id": "import-auto-id2600367",
+        "text": "1Rp=1R1+1R2+1R3+"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52414",
+    "section": "10.5",
+    "id": "import-auto-id2165913",
+    "display": false,
+    "text": "F=qvB",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52414",
+        "id": "eip-id1166542392933",
+        "text": "F=qvB"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52414",
+    "section": "10.5",
+    "id": "import-auto-id2091790",
+    "display": true,
+    "text": "1T=1NCm/s=1NAm",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52414",
+        "id": "import-auto-id1593576",
+        "text": "1T=1NCm/s=1NAm"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52416",
+    "section": "10.6",
+    "id": "eip-id1168952532169",
+    "display": true,
+    "text": "F=IlB",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52416",
+        "id": "eip-332",
+        "text": "F=IlB"
+      },
+      {
+        "module": "m52416",
+        "id": "import-auto-id1166991837003",
+        "text": "F=IlB"
+      },
+      {
+        "module": "m52416",
+        "id": "eip-id1171937907689",
+        "text": "F=IlB"
+      },
+      {
+        "module": "m52416",
+        "id": "import-auto-id1166991863398",
+        "text": "F=IlB"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52420",
+    "section": "10.8",
+    "id": "eip-807",
+    "display": true,
+    "text": "B=μ0I2πr(longstraightwire)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52420",
+        "id": "eip-525",
+        "text": "B=μ0I2πr(longstraightwire)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52420",
+    "section": "10.8",
+    "id": "import-auto-id1166991829458",
+    "display": false,
+    "text": "μ0=4π×10-7Tm/A",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52420",
+        "id": "import-auto-id1166991828100",
+        "text": "μ0=4π×10-7Tm/A"
+      },
+      {
+        "module": "m52420",
+        "id": "fs-id2145756",
+        "text": "μ0=4π×10-7Tm/A"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52420",
+    "section": "10.8",
+    "id": "eip-430",
+    "display": true,
+    "text": "B=μ0I2R(atcenterofloop)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52420",
+        "id": "eip-305",
+        "text": "B=μ0I2R(atcenterofloop)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52420",
+    "section": "10.8",
+    "id": "import-auto-id1166991832296",
+    "display": false,
+    "text": "B=μ0nI/(2R)",
+    "status": "existing-relation-with-consistency-followup",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52420",
+        "id": "import-auto-id1166991833146",
+        "text": "B=Nμ0I/(2R)"
+      },
+      {
+        "module": "m52420",
+        "id": "fs-id1996502",
+        "text": "B=μ0I2R"
+      }
+    ],
+    "disposition": "Same current-loop relation, but summary uses lowercase n where body uses N for number of turns. Separate notation correction needs reconciliation.",
+    "review_trigger": "Chapter 10 review; maintainer requested reminder."
+  },
+  {
+    "module": "m52420",
+    "section": "10.8",
+    "id": "eip-942",
+    "display": true,
+    "text": "B=μ0nI(insideasolenoid)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52420",
+        "id": "eip-34",
+        "text": "B=μ0nI(insideasolenoid)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m70743",
+    "section": "10.9",
+    "id": "import-auto-id1169736614770",
+    "display": false,
+    "text": "Φ=B⊥A",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m70743",
+        "id": "eip-390",
+        "text": "Φ=B⊥A"
+      },
+      {
+        "module": "m70743",
+        "id": "import-auto-id1169737961842",
+        "text": "Φ=B⊥A"
+      },
+      {
+        "module": "m70743",
+        "id": "fs-id1169738072439",
+        "text": "Φ=B⊥A"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m70744",
+    "section": "10.10",
+    "id": "eip-550",
+    "display": true,
+    "text": "V=-NΔΦΔt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m70744",
+        "id": "eip-734",
+        "text": "V=-NΔΦΔt"
+      },
+      {
+        "module": "m70744",
+        "id": "fs-id1169738080367",
+        "text": "V=-NΔΦΔt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52427",
+    "section": "10.11",
+    "id": "eip-779",
+    "display": true,
+    "text": "VsVp=NsNp",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52427",
+        "id": "eip-885",
+        "text": "VsVp=NsNp"
+      },
+      {
+        "module": "m52427",
+        "id": "import-auto-id1169737790120",
+        "text": "VsVp=NsNp"
+      },
+      {
+        "module": "m52427",
+        "id": "import-auto-id1169737785215",
+        "text": "VsVp=NsNp"
+      },
+      {
+        "module": "m52427",
+        "id": "import-auto-id1169737764397",
+        "text": "VsVp=NsNp"
+      },
+      {
+        "module": "m52427",
+        "id": "fs-id1169738234851",
+        "text": "VsVp=NsNp"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52427",
+    "section": "10.11",
+    "id": "import-auto-id1169737062391",
+    "display": false,
+    "text": "IsIp=NpNs",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52427",
+        "id": "eip-600",
+        "text": "IsIp=NpNs"
+      },
+      {
+        "module": "m52427",
+        "id": "import-auto-id1169737803923",
+        "text": "IsIp=NpNs"
+      },
+      {
+        "module": "m52427",
+        "id": "import-auto-id1169737700490",
+        "text": "IsIp=NpNs"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67131",
+    "section": "10.12",
+    "id": "import-auto-id2642331",
+    "display": false,
+    "text": "Irms=VrmsR",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67131",
+        "id": "eip-987",
+        "text": "Irms=VrmsR"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67131",
+    "section": "10.12",
+    "id": "import-auto-id1227786",
+    "display": false,
+    "text": "Pave=IrmsVrms",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67131",
+        "id": "eip-112",
+        "text": "Pave=IrmsVrms"
+      },
+      {
+        "module": "m67131",
+        "id": "import-auto-id2983605",
+        "text": "Pave=IrmsVrms"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67131",
+    "section": "10.12",
+    "id": "import-auto-id1227786",
+    "display": false,
+    "text": "Pave=Vrms2R",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67131",
+        "id": "eip-629",
+        "text": "Pave=Vrms2R"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67131",
+    "section": "10.12",
+    "id": "import-auto-id1227786",
+    "display": false,
+    "text": "Pave=Irms2R",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67131",
+        "id": "eip-797",
+        "text": "Pave=Irms2R"
+      },
+      {
+        "module": "m67131",
+        "id": "import-auto-id2851009",
+        "text": "Pave=Irms2R"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67132",
+    "section": "11.4",
+    "id": "import-auto-id1169738164493",
+    "display": false,
+    "text": "vW=fλ",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67132",
+        "id": "import-auto-id1169738223600",
+        "text": "vW=fλ"
+      },
+      {
+        "module": "m67132",
+        "id": "import-auto-id1169738145031",
+        "text": "vW=fλ"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67132",
+    "section": "11.4",
+    "id": "eip-696",
+    "display": true,
+    "text": "c=fλ",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67132",
+        "id": "eip-387",
+        "text": "c=fλ"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52454",
+    "section": "11.7",
+    "id": "import-auto-id1163675086606",
+    "display": false,
+    "text": "c=2.99792458×108m/s≈3.00×108m/s",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52454",
+        "id": "eip-705",
+        "text": "c=2.99792458×108m/s≈3.00×108m/s"
+      },
+      {
+        "module": "m52454",
+        "id": "eip-id2221336",
+        "text": "c=2.99792458×108m/s≈3.00×108m/s"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52454",
+    "section": "11.7",
+    "id": "import-auto-id1163675083293",
+    "display": false,
+    "text": "n=cv",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52454",
+        "id": "eip-931",
+        "text": "n=cv"
+      },
+      {
+        "module": "m52454",
+        "id": "eip-id1929258",
+        "text": "n=cv"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67134",
+    "section": "11.9",
+    "id": "import-auto-id2822659",
+    "display": false,
+    "text": "P=1f",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67134",
+        "id": "eip-559",
+        "text": "P=1f"
+      },
+      {
+        "module": "m67134",
+        "id": "eip-860",
+        "text": "P=1f"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67134",
+    "section": "11.9",
+    "id": "import-auto-id3341227",
+    "display": false,
+    "text": "1do+1di=1f",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67134",
+        "id": "eip-957",
+        "text": "1do+1di=1f"
+      },
+      {
+        "module": "m67134",
+        "id": "eip-845",
+        "text": "1do+1di=1f"
+      },
+      {
+        "module": "m67134",
+        "id": "eip-399",
+        "text": "1do+1di=1f"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67134",
+    "section": "11.9",
+    "id": "import-auto-id3341227",
+    "display": false,
+    "text": "hiho=-dido=m",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67134",
+        "id": "eip-677",
+        "text": "hiho=-dido=m"
+      },
+      {
+        "module": "m67134",
+        "id": "eip-340",
+        "text": "hiho=-dido=m"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67135",
+    "section": "11.10",
+    "id": "eip-id4368080",
+    "display": true,
+    "text": "f=R2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67135",
+        "id": "eip-64",
+        "text": "f=R2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67250",
+    "section": "12.2",
+    "id": "import-auto-id1809104",
+    "display": false,
+    "text": "ΔE=hf",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67250",
+        "id": "energy-quantization",
+        "text": "ΔE=hf"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67250",
+    "section": "12.2",
+    "id": "eip-581",
+    "display": true,
+    "text": "h=6.626×10-34Js",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67250",
+        "id": "eip-755",
+        "text": "h=6.626×10-34Js"
+      },
+      {
+        "module": "m67250",
+        "id": "fs-id1323775",
+        "text": "h=6.626×10-34Js"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67251",
+    "section": "12.3",
+    "id": "import-auto-id1607520",
+    "display": false,
+    "text": "E=hf",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67251",
+        "id": "eip-588",
+        "text": "E=hf"
+      },
+      {
+        "module": "m67251",
+        "id": "import-auto-id1104097",
+        "text": "E=hf"
+      },
+      {
+        "module": "m67251",
+        "id": "eip-id2106573",
+        "text": "E=hf"
+      },
+      {
+        "module": "m67251",
+        "id": "eip-id1151407",
+        "text": "E=hf"
+      },
+      {
+        "module": "m67251",
+        "id": "fs-id1328734",
+        "text": "E=hf"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67251",
+    "section": "12.3",
+    "id": "import-auto-id1607583",
+    "display": false,
+    "text": "KEe=hf-BE",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67251",
+        "id": "eip-592",
+        "text": "KEe=hf-BE"
+      },
+      {
+        "module": "m67251",
+        "id": "import-auto-id1573454",
+        "text": "KEe=hf-BE"
+      },
+      {
+        "module": "m67251",
+        "id": "eip-id2106573",
+        "text": "KEe=hf-BE"
+      },
+      {
+        "module": "m67251",
+        "id": "eip-197",
+        "text": "KEe=hf-BE"
+      },
+      {
+        "module": "m67251",
+        "id": "fs-id1285752",
+        "text": "KEe=hf-BE"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67803",
+    "section": "12.4",
+    "id": "import-auto-id1743915",
+    "display": false,
+    "text": "λ=hp",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67803",
+        "id": "fs-id2371031",
+        "text": "λ=h/p"
+      },
+      {
+        "module": "m67803",
+        "id": "import-auto-id2642493",
+        "text": "λ=h/p"
+      }
+    ],
+    "disposition": "Same de Broglie relationship, solidus versus fraction."
+  },
+  {
+    "module": "m67804",
+    "section": "12.5",
+    "id": "import-auto-id1574201",
+    "display": false,
+    "text": "ΔxΔp≥h4π",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67804",
+        "id": "eip-227",
+        "text": "ΔxΔp≥h4π"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67805",
+    "section": "12.6",
+    "id": "eip-683",
+    "display": true,
+    "text": "qeme=-1.76×1011C/kg",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67805",
+        "id": "eip-584",
+        "text": "qeme=-1.76×1011C/kg(electron)"
+      },
+      {
+        "module": "m67805",
+        "id": "eip-62",
+        "text": "qpmp=9.58×107C/kg(proton)"
+      }
+    ],
+    "disposition": "Same charge/mass and mass constants; labels in parentheses omitted. Proton charge/mass summary 9.57 differs from body 9.58: separate numerical consistency correction recorded."
+  },
+  {
+    "module": "m67805",
+    "section": "12.6",
+    "id": "eip-115",
+    "display": true,
+    "text": "qpmp=9.57×107C/kg",
+    "status": "existing-relation-with-consistency-followup",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67805",
+        "id": "eip-62",
+        "text": "qpmp=9.58×107C/kg(proton)"
+      },
+      {
+        "module": "m67805",
+        "id": "eip-584",
+        "text": "qeme=-1.76×1011C/kg(electron)"
+      }
+    ],
+    "disposition": "Same charge/mass and mass constants; labels in parentheses omitted. Proton charge/mass summary 9.57 differs from body 9.58: separate numerical consistency correction recorded."
+  },
+  {
+    "module": "m67805",
+    "section": "12.6",
+    "id": "eip-612",
+    "display": true,
+    "text": "me=9.11×10-31kg",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67805",
+        "id": "eip-618",
+        "text": "me=9.11×10-31kg(electron’smass)"
+      },
+      {
+        "module": "m67805",
+        "id": "eip-584",
+        "text": "qeme=-1.76×1011C/kg(electron)"
+      }
+    ],
+    "disposition": "Same charge/mass and mass constants; labels in parentheses omitted. Proton charge/mass summary 9.57 differs from body 9.58: separate numerical consistency correction recorded."
+  },
+  {
+    "module": "m67805",
+    "section": "12.6",
+    "id": "eip-602",
+    "display": true,
+    "text": "mp=1.67×10-27kg",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67805",
+        "id": "eip-19",
+        "text": "mp=1.67×10-27kg(proton’smass)"
+      },
+      {
+        "module": "m67805",
+        "id": "eip-62",
+        "text": "qpmp=9.58×107C/kg(proton)"
+      }
+    ],
+    "disposition": "Same charge/mass and mass constants; labels in parentheses omitted. Proton charge/mass summary 9.57 differs from body 9.58: separate numerical consistency correction recorded."
+  },
+  {
+    "module": "m67807",
+    "section": "12.7",
+    "id": "eip-59",
+    "display": true,
+    "text": "1λ=R(1nf2-1ni2)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67807",
+        "id": "eip-854",
+        "text": "1λ=R(1nf2-1ni2)"
+      },
+      {
+        "module": "m67807",
+        "id": "import-auto-id2447043",
+        "text": "1λ=R(1nf2-1ni2)"
+      },
+      {
+        "module": "m67807",
+        "id": "fs-id1828825",
+        "text": "1λ=R(1nf2-1ni2)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67807",
+    "section": "12.7",
+    "id": "eip-144",
+    "display": true,
+    "text": "R=1.097×107m-1",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67807",
+        "id": "fs-id2973389",
+        "text": "1.097×107m-1"
+      },
+      {
+        "module": "m67807",
+        "id": "eip-715",
+        "text": "R=1.097×107/m(orm-1)"
+      }
+    ],
+    "disposition": "Body includes R constant, photon transition relationship (eip-104), and L=n hbar with hbar=h/(2pi) plus L=mvr (eip-580). Summary combines those equalities."
+  },
+  {
+    "module": "m67807",
+    "section": "12.7",
+    "id": "eip-472",
+    "display": true,
+    "text": "ΔE=hf=Ei-Ef",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67807",
+        "id": "eip-104",
+        "text": "h⁢f=(ΔE=(Ei-Ef))"
+      },
+      {
+        "module": "m67807",
+        "id": "eip-626",
+        "text": "Ei"
+      }
+    ],
+    "disposition": "Body includes R constant, photon transition relationship (eip-104), and L=n hbar with hbar=h/(2pi) plus L=mvr (eip-580). Summary combines those equalities."
+  },
+  {
+    "module": "m67807",
+    "section": "12.7",
+    "id": "eip-643",
+    "display": true,
+    "text": "L=mevrn=nh2π(n=1,2,3…)",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67807",
+        "id": "fs-id1623432",
+        "text": "En=-Z2n2E0(n=1,2,3,…)"
+      },
+      {
+        "module": "m67807",
+        "id": "eip-580",
+        "text": "n=1,2,3"
+      }
+    ],
+    "disposition": "Body includes R constant, photon transition relationship (eip-104), and L=n hbar with hbar=h/(2pi) plus L=mvr (eip-580). Summary combines those equalities."
+  },
+  {
+    "module": "m67808",
+    "section": "12.8",
+    "id": "eip-998",
+    "display": true,
+    "text": "nλn=2πrn(n=1,2,3...)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67808",
+        "id": "eip-91",
+        "text": "nλn=2πrn(n=1,2,3...)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m67808",
+    "section": "12.8",
+    "id": "eip-294",
+    "display": true,
+    "text": "ΔE=hf=Ei-Ef",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m67808",
+        "id": "import-auto-id3149961",
+        "text": "λ=h/p=h/mv"
+      },
+      {
+        "module": "m67808",
+        "id": "import-auto-id3149961",
+        "text": "λ=h/mev"
+      }
+    ],
+    "disposition": "Photon-transition equation already introduced in preceding Section 12.7 (m67807/eip-104); not new to textbook."
+  },
+  {
+    "module": "m67808",
+    "section": "12.8",
+    "id": "eip-874",
+    "display": true,
+    "text": "L=mevrn=nh2π(n=1,2,3...)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m67808",
+        "id": "eip-729",
+        "text": "L=mevrn=nh2π(n=1,2,3...)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42531",
+    "section": "13.3",
+    "id": "eip-id3262203",
+    "display": true,
+    "text": "Δt=Δt01-v2c2=γΔt0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42531",
+        "id": "eip-467",
+        "text": "Δt=Δt01-v2c2=γΔt0"
+      },
+      {
+        "module": "m42531",
+        "id": "fs-id1917294",
+        "text": "Δt=Δt01-v2c2=γΔt0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42531",
+    "section": "13.3",
+    "id": "eip-id2755919",
+    "display": true,
+    "text": "γ=11-v2c2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42531",
+        "id": "eip-427",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42531",
+        "id": "eip-201",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42531",
+        "id": "fs-id1917294",
+        "text": "γ=11-v2c2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42535",
+    "section": "13.4",
+    "id": "eip-584",
+    "display": true,
+    "text": "L=L01-v2c2=L0γ",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42535",
+        "id": "fs-id1168917868262",
+        "text": "L=L01-v2c2=L0γ"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42540",
+    "section": "13.5",
+    "id": "import-auto-id1562297",
+    "display": false,
+    "text": "u=v+u′",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42540",
+        "id": "fs-id1664936",
+        "text": "u=v+u′"
+      },
+      {
+        "module": "m42540",
+        "id": "eip-742",
+        "text": "u=v+u′"
+      },
+      {
+        "module": "m42540",
+        "id": "fs-id1291443",
+        "text": "u=v+u′"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42540",
+    "section": "13.5",
+    "id": "eip-373",
+    "display": true,
+    "text": "u=v+u′1+vu′c2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42540",
+        "id": "eip-716",
+        "text": "u=v+u′1+vu′c2"
+      },
+      {
+        "module": "m42540",
+        "id": "import-auto-id1342230",
+        "text": "u=v+u′1+vu′c2"
+      },
+      {
+        "module": "m42540",
+        "id": "import-auto-id1536985",
+        "text": "u=v+u′1+vu′c2"
+      },
+      {
+        "module": "m42540",
+        "id": "import-auto-id2595191",
+        "text": "u=v+u′1+vu′c2"
+      },
+      {
+        "module": "m42540",
+        "id": "import-auto-id1745740",
+        "text": "u=v+u′1+vu′c2"
+      },
+      {
+        "module": "m42540",
+        "id": "fs-id3143898",
+        "text": "u=v+u′1+vu′c2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42540",
+    "section": "13.5",
+    "id": "eip-823",
+    "display": true,
+    "text": "λobs=λs1+uc1-uc",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42540",
+        "id": "import-auto-id1290179",
+        "text": "λobs=λs1+uc1-uc"
+      },
+      {
+        "module": "m42540",
+        "id": "fs-id1448846",
+        "text": "λobs=λs1+uc1-uc"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42542",
+    "section": "13.6",
+    "id": "import-auto-id2644508",
+    "display": false,
+    "text": "p=γmu",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42542",
+        "id": "eip-839",
+        "text": "p=γmu"
+      },
+      {
+        "module": "m42542",
+        "id": "import-auto-id2606534",
+        "text": "p=γmu"
+      },
+      {
+        "module": "m42542",
+        "id": "fs-id2005074",
+        "text": "p=γmu"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42542",
+    "section": "13.6",
+    "id": "import-auto-id2644508",
+    "display": false,
+    "text": "γ=11-u2c2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42542",
+        "id": "eip-id3242126",
+        "text": "γ=11-u2c2"
+      },
+      {
+        "module": "m42542",
+        "id": "fs-id2005074",
+        "text": "γ=11-u2c2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2944323",
+    "display": false,
+    "text": "E=γmc2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "eip-198",
+        "text": "E=γmc2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id1667111",
+        "text": "E=γmc2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id1360334",
+        "text": "E=γmc2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2944323",
+    "display": false,
+    "text": "γ=11-v2c2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "import-auto-id3163669",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id3067421",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id1360334",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id1359660",
+        "text": "γ=11-v2c2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2821670",
+    "display": false,
+    "text": "E0=mc2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "eip-594",
+        "text": "E0=mc2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id2632083",
+        "text": "E0=mc2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id1667111",
+        "text": "E0=mc2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id2677386",
+        "text": "E0=mc2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id3143536",
+    "display": false,
+    "text": "Wnet=E-E0=γmc2-mc2=(γ-1)mc2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "eip-888",
+        "text": "Wnet=E-E0=γmc2-mc2=(γ-1)mc2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "fs-id2999106",
+    "display": false,
+    "text": "Wnet=KErel",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "import-auto-id2676240",
+        "text": "Wnet=KErel"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2768271",
+    "display": false,
+    "text": "KErel=(γ-1)mc2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "eip-748",
+        "text": "KErel=(γ-1)mc2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id3081018",
+        "text": "KErel=(γ-1)mc2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id1359660",
+        "text": "KErel=(γ-1)mc2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2768271",
+    "display": false,
+    "text": "γ=11-v2c2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "import-auto-id3163669",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id3067421",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id1360334",
+        "text": "γ=11-v2c2"
+      },
+      {
+        "module": "m42546",
+        "id": "fs-id1359660",
+        "text": "γ=11-v2c2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2072642",
+    "display": false,
+    "text": "E2=(pc)2+(mc2)2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "eip-832",
+        "text": "E2=(pc)2+(mc2)2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id1357067",
+        "text": "E2=(pc)2+(mc2)2"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id1357067",
+        "text": "E2=(pc)2+(mc2)2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m42546",
+    "section": "13.7",
+    "id": "import-auto-id2072642",
+    "display": false,
+    "text": "E=pc",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m42546",
+        "id": "import-auto-id2634770",
+        "text": "E=pc"
+      },
+      {
+        "module": "m42546",
+        "id": "import-auto-id1357067",
+        "text": "E=pc"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52466",
+    "section": "14.4",
+    "id": "eip-120",
+    "display": true,
+    "text": "1u=1.6605×10-27kg=931.46MeV/c2",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52466",
+        "id": "eip-618",
+        "text": "1u=1.6605×10-27kg"
+      },
+      {
+        "module": "m52466",
+        "id": "import-auto-id3119181",
+        "text": "1u=1.6605×10-27kg"
+      }
+    ],
+    "disposition": "Body introduces both mass and energy equivalent (import-auto-id3163220; 931.5 versus summary 931.46 is differing precision) and both nuclide notations; summary combines them."
+  },
+  {
+    "module": "m52466",
+    "section": "14.4",
+    "id": "eip-107",
+    "display": true,
+    "text": "ZAXNorsimplyAX",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m52466",
+        "id": "eip-10",
+        "text": "ZAXN"
+      },
+      {
+        "module": "m52466",
+        "id": "import-auto-id2176518",
+        "text": "ZAXN"
+      }
+    ],
+    "disposition": "Body introduces both mass and energy equivalent (import-auto-id3163220; 931.5 versus summary 931.46 is differing precision) and both nuclide notations; summary combines them."
+  },
+  {
+    "module": "m52466",
+    "section": "14.4",
+    "id": "eip-760",
+    "display": true,
+    "text": "A=N+Z",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52466",
+        "id": "eip-356",
+        "text": "A=N+Z"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52466",
+    "section": "14.4",
+    "id": "eip-229",
+    "display": true,
+    "text": "r=r0A1/3",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52466",
+        "id": "eip-310",
+        "text": "r=r0A1/3"
+      },
+      {
+        "module": "m52466",
+        "id": "eip-id1166743654688",
+        "text": "r=r0A1/3"
+      },
+      {
+        "module": "m52466",
+        "id": "eip-481",
+        "text": "r=r0A1/3"
+      },
+      {
+        "module": "m52466",
+        "id": "import-auto-id2442884",
+        "text": "r=r0A1/3"
+      },
+      {
+        "module": "m52466",
+        "id": "fs-id1434610",
+        "text": "r=r0A1/3"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52466",
+    "section": "14.4",
+    "id": "import-auto-id2673990",
+    "display": false,
+    "text": "r0=1.2fm",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52466",
+        "id": "import-auto-id3059649",
+        "text": "r0=1.2fm"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m76603",
+    "section": "14.5",
+    "id": "eip-10",
+    "display": true,
+    "text": "ZAXN→Z-2A-4YN-2+24He2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m76603",
+        "id": "import-auto-id2639290",
+        "text": "ZAXN→Z-2A-4YN-2+24He2"
+      },
+      {
+        "module": "m76603",
+        "id": "import-auto-id3062765",
+        "text": "ZAXN→Z-2A-4YN-2+24He2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m76603",
+    "section": "14.5",
+    "id": "eip-789",
+    "display": true,
+    "text": "E=(Δm)c2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m76603",
+        "id": "eip-241",
+        "text": "E=(Δm)c2"
+      },
+      {
+        "module": "m76603",
+        "id": "import-auto-id2661877",
+        "text": "E=(Δm)c2"
+      },
+      {
+        "module": "m76603",
+        "id": "import-auto-id2684991",
+        "text": "E=(Δm)c2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m76603",
+    "section": "14.5",
+    "id": "eip-95",
+    "display": true,
+    "text": "ZAXN→Z+1AYN-1+β-+ν¯e",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m76603",
+        "id": "import-auto-id2626320",
+        "text": "ZAXN→Z+1AYN-1+β-+ν¯e"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m76603",
+    "section": "14.5",
+    "id": "eip-696",
+    "display": true,
+    "text": "ZAXN→Z-1AYN+1+β++νe",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m76603",
+        "id": "import-auto-id3246240",
+        "text": "ZAXN→Z-1AYN-1+β-+νe"
+      },
+      {
+        "module": "m76603",
+        "id": "import-auto-id3422948",
+        "text": "ZAXN+e-→Z-1AYN+1+νe"
+      }
+    ],
+    "disposition": "Body eip-92 explicitly gives beta-plus decay and fs-id1253157 gives gamma decay. Summary omits parenthetical names; automated similarity selected the wrong near-match."
+  },
+  {
+    "module": "m76603",
+    "section": "14.5",
+    "id": "eip-679",
+    "display": true,
+    "text": "ZAXN+e-→Z-1AYN+1+νe",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m76603",
+        "id": "import-auto-id3422948",
+        "text": "ZAXN+e-→Z-1AYN+1+νe"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m76603",
+    "section": "14.5",
+    "id": "eip-665",
+    "display": true,
+    "text": "ZAXN*→ZAXN+γ1+γ2+⋯",
+    "status": "verified-existing-relation",
+    "matches": [],
+    "nearest": [
+      {
+        "module": "m76603",
+        "id": "fs-id1253157",
+        "text": "ZAXN*→ZAXN+γ1+γ2+⋯(γdecay)"
+      },
+      {
+        "module": "m76603",
+        "id": "import-auto-id3246240",
+        "text": "ZAXN→Z-1AYN-1+β-+νe"
+      }
+    ],
+    "disposition": "Body eip-92 explicitly gives beta-plus decay and fs-id1253157 gives gamma decay. Summary omits parenthetical names; automated similarity selected the wrong near-match."
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "eip-693",
+    "display": true,
+    "text": "N=N0e-λt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-435",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id1488016",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id1909970",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2667971",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2207373",
+        "text": "N=N0e-λt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "import-auto-id3201983",
+    "display": false,
+    "text": "t=0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "import-auto-id2629867",
+        "text": "t=0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "eip-705",
+    "display": true,
+    "text": "λ=0.693t1/2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "import-auto-id1909970",
+        "text": "λ=0.693t1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id1932647",
+        "text": "λ=0.693t1/2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "eip-723",
+    "display": true,
+    "text": "R=ΔNΔt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-674",
+        "text": "R=ΔNΔt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "eip-822",
+    "display": true,
+    "text": "1Bq=1decay/s",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-271",
+        "text": "1Bq=1decay/s"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "fs-id1328249",
+    "display": true,
+    "text": "1Ci=3.70×1010Bq",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-90",
+        "text": "1Ci=3.70×1010Bq"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "eip-807",
+    "display": true,
+    "text": "R=0.693Nt1/2",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-689",
+        "text": "R=0.693Nt1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id3094721",
+        "text": "R=0.693Nt1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id1343201",
+        "text": "R=0.693Nt1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2659244",
+        "text": "R=0.693Nt1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id3077578",
+        "text": "R=0.693Nt1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2207373",
+        "text": "R=0.693Nt1/2"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2207373",
+        "text": "R=0.693Nt1/2"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "import-auto-id3112755",
+    "display": false,
+    "text": "N=N0e-λt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-435",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id1488016",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id1909970",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2667971",
+        "text": "N=N0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2207373",
+        "text": "N=N0e-λt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "eip-166",
+    "display": true,
+    "text": "R=R0e-λt",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "eip-874",
+        "text": "R=R0e-λt"
+      },
+      {
+        "module": "m52471",
+        "id": "import-auto-id2629867",
+        "text": "R=R0e-λt"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52471",
+    "section": "14.6",
+    "id": "import-auto-id3112755",
+    "display": false,
+    "text": "t=0",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52471",
+        "id": "import-auto-id2629867",
+        "text": "t=0"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68327",
+    "section": "14.8",
+    "id": "eip-538",
+    "display": true,
+    "text": "1rad=0.01J/kg",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m68327",
+        "id": "eip-448",
+        "text": "1rad=0.01J/kg"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68327",
+    "section": "14.8",
+    "id": "import-auto-id1996812",
+    "display": false,
+    "text": "1Gy=1J/kg=100rad",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m68327",
+        "id": "eip-543",
+        "text": "1Gy=1J/kg=100rad"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68327",
+    "section": "14.8",
+    "id": "eip-164",
+    "display": true,
+    "text": "H=wRD",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m68327",
+        "id": "eip-144",
+        "text": "H=wRD"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m68327",
+    "section": "14.8",
+    "id": "eip-409",
+    "display": true,
+    "text": "1Sv=100rem",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m68327",
+        "id": "eip-810",
+        "text": "1Sv=100rem"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52480",
+    "section": "14.9",
+    "id": "eip-849",
+    "display": true,
+    "text": "1H+1H→2H+e++ve(0.42MeV)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52480",
+        "id": "eip-789",
+        "text": "1H+1H→2H+e++ve(0.42MeV)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52480",
+    "section": "14.9",
+    "id": "eip-685",
+    "display": true,
+    "text": "1H+2H→3He+γ(5.49MeV)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52480",
+        "id": "eip-495",
+        "text": "1H+2H→3He+γ(5.49MeV)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52480",
+    "section": "14.9",
+    "id": "eip-59",
+    "display": true,
+    "text": "3He+3He→4He+1H+1H(12.86MeV)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52480",
+        "id": "eip-866",
+        "text": "3He+3He→4He+1H+1H(12.86MeV)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52480",
+    "section": "14.9",
+    "id": "eip-347",
+    "display": true,
+    "text": "2e-+41H→4He+2ve+6γ(26.7MeV)",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52480",
+        "id": "eip-983",
+        "text": "2e-+41H→4He+2ve+6γ(26.7MeV)"
+      }
+    ],
+    "nearest": []
+  },
+  {
+    "module": "m52479",
+    "section": "14.10",
+    "id": "import-auto-id1987829",
+    "display": false,
+    "text": "n+AX→FF1+FF2+xn",
+    "status": "same-section-exact",
+    "matches": [
+      {
+        "module": "m52479",
+        "id": "eip-459",
+        "text": "n+AX→FF1+FF2+xn"
+      },
+      {
+        "module": "m52479",
+        "id": "import-auto-id1933065",
+        "text": "n+AX→FF1+FF2+xn"
+      }
+    ],
+    "nearest": []
+  }
+]

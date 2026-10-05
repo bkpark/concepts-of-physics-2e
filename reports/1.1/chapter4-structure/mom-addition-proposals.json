@@ -1,0 +1,131 @@
+{
+  "status": "applied-pending-final-preview-review",
+  "items": [
+    {
+      "id": "C4-A1",
+      "section": "4.2",
+      "title": "Momentum versus kinetic energy",
+      "status": "applied-pending-final-preview-review",
+      "draft": "A car travels around a circular track at constant speed. (a) Does its kinetic energy change? (b) Does its momentum change? (c) If the car doubles its speed, by what factors do its momentum magnitude and kinetic energy change? Explain.",
+      "internal_rationale": "Constant KE, changing momentum direction; doubling speed doubles momentum magnitude and quadruples KE.",
+      "sources": [
+        {
+          "export_question_set_id": "299",
+          "description": "Introduction to Physics - Momentum - Definition - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 4: Energy and Momentum",
+            "Question Set 4 Assessment"
+          ]
+        },
+        {
+          "export_question_set_id": "407",
+          "description": "Introduction to Physics (Test Bank) - Momentum - Scaling - Q1 (derived from KE scaling question)",
+          "assessments": [
+            "Multiple-Choice Timed Assessment for Chapter 4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-A2",
+      "section": "4.3",
+      "title": "Stopping versus rebounding",
+      "status": "applied-pending-final-preview-review",
+      "draft": "A 0.20-kg ball approaches a wall at 5.0 m/s. In one collision it stops; in another it rebounds at 5.0 m/s along the same line. (a) Find the magnitude and direction of the ball’s momentum change in each case. (b) If the collisions last equally long, which produces the greater average net force on the ball, and by what factor?",
+      "internal_rationale": "Momentum changes 1.0 and 2.0 kg m/s away from wall; rebound gives twice average net force.",
+      "sources": [
+        {
+          "export_question_set_id": "306",
+          "description": "Introduction to Physics - Impulse - Calculation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 4: Energy and Momentum",
+            "Question Set 4 Assessment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-A3",
+      "section": "4.3",
+      "title": "Same force: equal time versus equal distance",
+      "status": "applied-pending-final-preview-review",
+      "draft": "Two carts of different masses start at rest on a level, frictionless track. Each is pushed with the same constant horizontal force. (a) If the forces act for the same time, do the carts gain the same momentum or the same kinetic energy? (b) If the forces instead act through the same distance, do the carts gain the same momentum or the same kinetic energy? Explain.",
+      "internal_rationale": "Same time gives equal momentum gains, unequal KE. Same distance gives equal KE gains, unequal momenta. Distinct from simple force-duration tradeoff already retained.",
+      "sources": [
+        {
+          "export_question_set_id": "278",
+          "description": "Physics 10 - Lecture 10, Section 5 - Impulse and Momentum Simulation [3 questions]",
+          "assessments": [
+            "Lecture 10 - Momentum and Collisions: Energy and Momentum Together"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-A4",
+      "section": "4.4",
+      "title": "Propulsion without air",
+      "status": "applied-pending-final-preview-review",
+      "draft": "An astronaut is at rest relative to a nearby spacecraft and is holding a tool. (a) Can the astronaut start moving toward the spacecraft merely by moving their arms and legs, without releasing anything? (b) In which direction should the astronaut throw the tool to move toward the spacecraft? Explain using conservation of momentum, neglecting external forces during these actions.",
+      "internal_rationale": "Internal motions do not change astronaut+tool COM momentum; throw tool away from spacecraft. Clarify wording in drafting if needed: moving limbs can move other body parts, but cannot produce sustained translation of the whole system.",
+      "sources": [
+        {
+          "export_question_set_id": "480",
+          "description": "Introduction to Physics (Essay Questions) - Impulse and Momentum - Astronaut in Space",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 4"
+          ]
+        },
+        {
+          "export_question_set_id": "481",
+          "description": "Introduction to Physics (Essay Questions) - Impulse and Momentum - Rocket propulsion in space",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-A5",
+      "section": "4.5",
+      "title": "Distinguish elastic outcomes",
+      "status": "applied-pending-final-preview-review",
+      "draft": "A cart moving at 4.0 m/s strikes an identical cart initially at rest on a level, frictionless track. Consider two proposed outcomes: A, the first cart stops and the second moves at 4.0 m/s; B, both carts move at 2.0 m/s in the original direction. (a) Which outcomes conserve momentum? (b) Which conserve kinetic energy? (c) Which could describe an elastic collision? Explain.",
+      "internal_rationale": "Both conserve momentum; only A conserves KE. Simple checks, no simultaneous quadratic solution.",
+      "sources": [
+        {
+          "export_question_set_id": "279",
+          "description": "Physics 10 - Lecture 10, Section 6 - Simulating Newton’s Cradle with Collision Lab [3 questions]",
+          "assessments": [
+            "Lecture 10 - Momentum and Collisions: Energy and Momentum Together"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-A6",
+      "section": "4.6",
+      "title": "Simple perfectly inelastic collision",
+      "status": "applied-pending-final-preview-review",
+      "draft": "A 0.50-kg cart moving at 4.0 m/s collides with an identical cart initially at rest on a level, frictionless track. They stick together. (a) Find their common final velocity. (b) Calculate the total kinetic energy before and after the collision. (c) Where can the missing kinetic energy go? (d) Why can the carts not both come to rest?",
+      "internal_rationale": "Final 2.0 m/s original direction; KE 4.0 J to 2.0 J; internal energy/sound/deformation; zero final momentum would violate initial nonzero momentum. Can refer to preceding elastic question rather than repeat setup at implementation.",
+      "sources": [
+        {
+          "export_question_set_id": "308",
+          "description": "Introduction to Physics - Inelastic Collisions - Calculation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 4: Energy and Momentum",
+            "Question Set 4 Assessment"
+          ]
+        }
+      ]
+    }
+  ],
+  "approved_separate_addition": {
+    "section": "4.4",
+    "target_module": "m68330",
+    "target_exercise": "fs-id2661705",
+    "text": "Revisit the garden-hose scenario in Chapter 2, Exercise 17. Explain the backward push on the hose in terms of momentum transferred to the water. How is this explanation connected to Newton’s third law?",
+    "status": "applied"
+  }
+}

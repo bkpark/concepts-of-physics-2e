@@ -1,0 +1,47 @@
+When you push a merry-go-round, spin a bike wheel, or open a door, you exert a torque. If the torque you exert is greater than
+opposing torques, then the rotation accelerates, and angular momentum increases. The greater the net torque, the more rapid
+the increase in L . The relationship between torque and angular momentum is
+(7.43)net τ = ΔL
+Δt .
+This expression is exactly analogous to the relationship between force and linear momentum, F = Δp / Δt . The equation
+net τ = ΔL
+Δt is very fundamental and broadly applicable. It is, in fact, the rotational form of Newton’s second law.
+Example 7.6 Calculating the Torque Putting Angular Momentum Into a Lazy Susan
+Figure 7.14 shows a Lazy Susan food tray being rotated by a person in quest of sustenance. Suppose the person exerts a
+2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the
+lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given
+that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?
+Figure 7.14 A partygoer exerts a torque on a lazy Susan to make it rotate. The equation net τ = ΔL
+Δt
+gives the relationship between torque
+and the angular momentum produced.
+Strategy
+We can find the angular momentum by solving net τ = ΔL
+Δt for ΔL , and using the given information to calculate the
+torque. The final angular momentum equals the change in angular momentum, because the lazy Susan starts from rest.
+That is, ΔL = L . To find the final velocity, we must calculate ω from the definition of L in L = Iω .
+Solution for (a)
+Solving net τ = ΔL
+Δt for ΔL gives
+(7.44)ΔL = (net τ)Δt.
+Because the force is perpendicular to r , we see that net τ = rF , so that
+(7.45)L = rFΔt = (0.260 m)(2.50 N)(0.150 s)
+= 9.75×10−2 kg ⋅ m2 / s.
+Solution for (b)
+The final angular velocity can be calculated from the definition of angular momentum,
+(7.46)L = Iω.
+Solving for ω and substituting the formula for the moment of inertia of a disk into the resulting equation gives
+(7.47)ω = L
+I = L
+1
+2MR2.
+And substituting known values into the preceding equation yields
+(7.48)
+ω = 9.75×10−2 kg ⋅ m2/s
+(0.500)⎛
+⎝4.00 kg⎞
+⎠(0.260 m) = 0.721 rad/s.
+Discussion
+Note that the imparted angular momentum does not depend on any property of the object but only on torque and time. The
+184 Chapter 7 | Rotation
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

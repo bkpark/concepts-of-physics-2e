@@ -1,0 +1,96 @@
+resistance. Since each resistor in the circuit has the full voltage, the currents flowing through the individual resistors are
+I1 = V
+R1
+, I2 = V
+R2
+, and I3 = V
+R3
+. Conservation of charge implies that the total current I produced by the source is the sum
+of these currents:
+(10.73)I = I1 + I2 + I3.
+Substituting the expressions for the individual currents gives
+(10.74)
+I = V
+R1
++ V
+R2
++ V
+R3
+= V⎛
+⎝
+1
+R1
++ 1
+R2
++ 1
+R3
+⎞
+⎠.
+Note that Ohm’s law for the equivalent single resistance gives
+(10.75)
+I = V
+Rp
+= V⎛
+⎝
+1
+Rp
+⎞
+⎠.
+The terms inside the parentheses in the last two equations must be equal. Generalizing to any number of resistors, the total
+resistance Rp of a parallel connection is related to the individual resistances by
+(10.76)1
+Rp
+= 1
+R1
++ 1
+R2
++ 1
+R.3
++ ....
+This relationship results in a total resistance Rp that is less than the smallest of the individual resistances. (This is seen in the
+next example.) When resistors are connected in parallel, more current flows from the source than would flow for any of them
+individually, and so the total resistance is lower.
+Example 10.13 Calculating Resistance, Current, Power Dissipation, and Power Output: Analysis
+of a Parallel Circuit
+Let the voltage output of the battery and resistances in the parallel connection in Figure 10.40 be the same as the
+previously considered series connection: V = 12.0 V , R1 = 1.00 Ω , R2 = 6.00 Ω , and R3 = 13.0 Ω . (a) What
+is the total resistance? (b) Find the total current. (c) Calculate the currents in each resistor, and show these add to equal the
+total current output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the
+source, and show that it equals the total power dissipated by the resistors.
+Strategy and Solution for (a)
+The total resistance for a parallel combination of resistors is found using the equation below. Entering known values gives
+(10.77)1
+Rp
+= 1
+R1
++ 1
+R2
++ 1
+R3
+= 1
+1.00 Ω + 1
+6.00 Ω + 1
+13.0 Ω .
+Thus,
+(10.78)1
+Rp
+= 1.00
+Ω + 0.1667
+Ω + 0.07692
+Ω = 1.2436
+Ω .
+(Note that in these calculations, each intermediate answer is shown with an extra digit.)
+We must invert this to find the total resistance Rp . This yields
+(10.79)Rp = 1
+1.2436 Ω = 0.8041 Ω .
+The total resistance with the correct number of significant digits is Rp = 0.804 Ω .
+Discussion for (a)
+Rp is, as predicted, less than the smallest individual resistance.
+Strategy and Solution for (b)
+The total current can be found from Ohm’s law, substituting Rp for the total resistance. This gives
+(10.80)I = V
+Rp
+= 12.0 V
+0.8041 Ω = 14.92 A.
+Discussion for (b)
+Chapter 10 | Electricity 321

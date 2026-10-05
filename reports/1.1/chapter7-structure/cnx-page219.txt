@@ -1,0 +1,71 @@
+(8.54)n1 A1 v¯
+1 = n2A2 v¯
+2,
+where n1 and n2 are the number of branches in each of the sections along the tube.
+Example 8.10 Calculating Flow Speed and Vessel Diameter: Branching in the Cardiovascular
+System
+The aorta is the principal blood vessel through which blood leaves the heart in order to circulate around the body. (a)
+Calculate the average speed of the blood in the aorta if the flow rate is 5.0 L/min. The aorta has a radius of 10 mm. (b) Blood
+also flows through smaller blood vessels known as capillaries. When the rate of blood flow in the aorta is 5.0 L/min, the
+speed of blood in the capillaries is about 0.33 mm/s. Given that the average diameter of a capillary is 8.0 μm , calculate the
+number of capillaries in the blood circulatory system.
+Strategy
+We can use Q = A v¯ to calculate the speed of flow in the aorta and then use the general form of the equation of continuity
+to calculate the number of capillaries as all of the other variables are known.
+Solution for (a)
+The flow rate is given by Q = A v¯ or v¯ = Q
+πr2 for a cylindrical vessel.
+Substituting the known values (converted to units of meters and seconds) gives
+(8.55)
+v¯ =
+(5.0 L/min)⎛
+⎝10−3 m3 /L⎞
+⎠(1 min/60 s)
+π(0.010 m)2 = 0.27 m/s.
+Solution for (b)
+Using n1 A1 v¯
+1 = n2A2 v¯
+1 , assigning the subscript 1 to the aorta and 2 to the capillaries, and solving for n2 (the
+number of capillaries) gives n2 = n1 A1 v¯
+1
+A2 v¯
+2
+. Converting all quantities to units of meters and seconds and substituting into
+the equation above gives
+(8.56)
+n2 =
+(1)(π)⎛
+⎝10×10−3 m⎞
+⎠
+2
+(0.27 m/s)
+(π)⎛
+⎝4.0×10−6 m⎞
+⎠
+2⎛
+⎝0.33×10−3 m/s⎞
+⎠
+= 5.0×109 capillaries.
+Discussion
+Note that the speed of flow in the capillaries is considerably reduced relative to the speed in the aorta due to the significant
+increase in the total cross-sectional area at the capillaries. This low speed is to allow sufficient time for effective exchange to
+occur although it is equally important for the flow not to become stationary in order to avoid the possibility of clotting. Does
+this large number of capillaries in the body seem reasonable? In active muscle, one finds about 200 capillaries per mm3 ,
+or about 200×106 per 1 kg of muscle. For 20 kg of muscle, this amounts to about 4×109 capillaries.
+8.7 Bernoulli’s Equation
+When a fluid flows into a narrower channel, its speed increases. That means its kinetic energy also increases. Where does that
+change in kinetic energy come from? The increased kinetic energy comes from the net work done on the fluid to push it into the
+channel and the work done on the fluid by the gravitational force, if the fluid changes vertical position. Recall the work-energy
+theorem,
+(8.57)Wnet = 1
+2mv2 − 1
+2mv0
+2.
+There is a pressure difference when the channel narrows. This pressure difference results in a net force on the fluid: recall that
+pressure times area equals force. The net work done increases the fluid’s kinetic energy. As a result, the pressure will drop in a
+rapidly-moving fluid, whether or not the fluid is confined to a tube.
+There are a number of common examples of pressure dropping in rapidly-moving fluids. Shower curtains have a disagreeable
+habit of bulging into the shower stall when the shower is on. The high-velocity stream of water and air creates a region of lower
+pressure inside the shower, and standard atmospheric pressure on the other side. The pressure difference results in a net force
+inward pushing the curtain in. You may also have noticed that when passing a truck on the highway, your car tends to veer
+Chapter 8 | Fluids 213

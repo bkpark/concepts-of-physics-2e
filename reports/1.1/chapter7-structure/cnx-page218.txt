@@ -1,0 +1,64 @@
+Figure 8.19 When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed
+must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed will decrease when the tube widens.
+(Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)
+Since liquids are essentially incompressible, the equation of continuity is valid for all liquids. However, gases are compressible,
+and so the equation must be applied with caution to gases if they are subjected to compression or expansion.
+Example 8.9 Calculating Fluid Speed: Speed Increases When a Tube Narrows
+A nozzle with a radius of 0.250 cm is attached to a garden hose with a radius of 0.900 cm. The flow rate through hose and
+nozzle is 0.500 L/s. Calculate the speed of the water (a) in the hose and (b) in the nozzle.
+Strategy
+We can use the relationship between flow rate and speed to find both velocities. We will use the subscript 1 for the hose and
+2 for the nozzle.
+Solution for (a)
+First, we solve Q = A v¯ for v1 and note that the cross-sectional area is A = πr2 , yielding
+(8.49)v¯
+1 = Q
+A1
+= Q
+πr1
+2.
+Substituting known values and making appropriate unit conversions yields
+(8.50)
+v¯
+1 = (0.500 L/s)(10−3 m3 / L)
+π(9.00×10−3 m)2 = 1.96 m/s.
+Solution for (b)
+We could repeat this calculation to find the speed in the nozzle v¯
+2 , but we will use the equation of continuity to give a
+somewhat different insight. Using the equation which states
+(8.51)A1 v¯
+1 = A2 v¯
+2,
+solving for v¯
+2 and substituting πr2 for the cross-sectional area yields
+(8.52)
+v¯
+2 = A1
+A2
+v¯
+1 =
+πr1
+2
+πr2
+2 v¯
+1 =
+r12
+r22 v¯
+1.
+Substituting known values,
+(8.53)
+v¯
+2 = (0.900 cm)2
+(0.250 cm)21.96 m/s = 25.5 m/s.
+Discussion
+A speed of 1.96 m/s is about right for water emerging from a nozzleless hose. The nozzle produces a considerably faster
+stream merely by constricting the flow to a narrower tube.
+The solution to the last part of the example shows that speed is inversely proportional to the square of the radius of the tube,
+making for large effects when radius varies. We can blow out a candle at quite a distance, for example, by pursing our lips,
+whereas blowing on a candle with our mouth wide open is quite ineffective.
+In many situations, including in the cardiovascular system, branching of the flow occurs. The blood is pumped from the heart into
+arteries that subdivide into smaller arteries (arterioles) which branch into very fine vessels called capillaries. In this situation,
+continuity of flow is maintained but it is the sum of the flow rates in each of the branches in any portion along the tube that is
+maintained. The equation of continuity in a more general form becomes
+212 Chapter 8 | Fluids
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

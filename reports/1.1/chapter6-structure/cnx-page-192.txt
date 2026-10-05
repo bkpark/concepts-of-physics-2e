@@ -1,0 +1,60 @@
+Figure 7.15 (a) An ice skater is spinning on the tip of her skate with her arms extended. Her angular momentum is conserved because the net torque
+on her is negligibly small. In the next image, her rate of spin increases greatly when she pulls in her arms, decreasing her moment of inertia. The work
+she does to pull in her arms results in an increase in rotational kinetic energy.
+Example 7.7 Calculating the Angular Momentum of a Spinning Skater
+Suppose an ice skater, such as the one in Figure 7.15, is spinning at 0.800 rev/ s with her arms extended. She has a
+moment of inertia of 2.34 kg ⋅ m2 with her arms extended and of 0.363 kg ⋅ m2 with her arms close to her body. (These
+moments of inertia are based on reasonable assumptions about a 60.0-kg skater.) (a) What is her angular velocity in
+revolutions per second after she pulls in her arms? (b) What is her rotational kinetic energy before and after she does this?
+Strategy
+In the first part of the problem, we are looking for the skater’s angular velocity ω′ after she has pulled in her arms. To find
+this quantity, we use the conservation of angular momentum and note that the moments of inertia and initial angular velocity
+are given. To find the initial and final kinetic energies, we use the definition of rotational kinetic energy given by
+(7.55)KErot = 1
+2Iω2.
+Solution for (a)
+Because torque is negligible (as discussed above), the conservation of angular momentum given in Iω = I′ω′ is
+applicable. Thus,
+(7.56)L = L′
+or
+(7.57)Iω = I′ω′
+Solving for ω′ and substituting known values into the resulting equation gives
+(7.58)
+ω′ = I
+I′ω =
+⎛
+⎝
+⎜ 2.34 kg ⋅ m2
+0.363 kg ⋅ m2
+⎞
+⎠
+⎟(0.800 rev/s)
+= 5.16 rev/s.
+Solution for (b)
+Rotational kinetic energy is given by
+(7.59)KErot = 1
+2Iω2.
+The initial value is found by substituting known values into the equation and converting the angular velocity to rad/s:
+(7.60)KErot = (0.5)⎛
+⎝2.34 kg ⋅ m2⎞
+⎠
+⎛
+⎝(0.800 rev/s)(2π rad/rev)⎞
+⎠
+2
+= 29.6 J.
+The final rotational kinetic energy is
+(7.61)KErot ′ = 1
+2I′ω′2.
+Substituting known values into this equation gives
+(7.62)KErot′ = (0.5)⎛
+⎝0.363 kg ⋅ m2⎞
+⎠
+⎡
+⎣(5.16 rev/s)(2π rad/rev)⎤
+⎦
+2
+= 191 J.
+Discussion
+186 Chapter 7 | Rotation
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

@@ -1,0 +1,251 @@
+{
+  "module": "m67127",
+  "upstream_module": "m42234",
+  "upstream_commit": "f98d7a792138a6133fe7267d17e70aa04e9ccbed",
+  "ancestor": "m42234/1.4 per recovered attribution",
+  "status": "HE01–HE08 approved; full-section preview prepared with separate overlays; maintained source unchanged",
+  "comparison": {
+    "method": "Prose-only, whitespace normalized; MathML replaced by placeholder; shared IDs for para/item/meaning blocks. Comparison against pinned February 2026 snapshot, not an authenticated copy of ancestor m42234/1.4.",
+    "baseline_blocks": 50,
+    "shared_blocks": 50,
+    "unchanged_blocks": 46,
+    "differences": [
+      {
+        "id": "import-auto-id1169738147207",
+        "baseline": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Here are some examples of irreversible processes seen in day-to-day life: a glass breaking, heat transferring from a hot object to a cold object, conversion of kinetic energy into thermal energy, and a puff of gas expanding from a corner of a vacuum chamber into the entire chamber. If you saw a video of glass un-breaking, or two objects in thermal contact where one gets hotter and the other gets colder, or a hot stationary object spontaneously cooling off and moving in some direction, or a gas in a chamber \"regrouping\" into a corner, you would say this is a video run backwards. This is because you intuitively recognize these are examples of irreversible process, and these processes in nature only take place in the forward direction, not reverse (See ).",
+        "upstream": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an irreversible process is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See .)"
+      },
+      {
+        "id": "import-auto-id1169738234744",
+        "baseline": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state. These expressions describe the direction of irreversible processes that occur in nature.",
+        "upstream": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state."
+      },
+      {
+        "id": "import-auto-id1169738025939",
+        "baseline": "Cyclical processes are processes that return to their original state at the end of every cycle.",
+        "upstream": "Irreversible processes depend on path and do not return to their original state. Cyclical processes are processes that return to their original state at the end of every cycle."
+      },
+      {
+        "id": "fs-id1169737907449",
+        "baseline": "a process which occurs in only one direction in nature; a process that cannot be exactly reversed",
+        "upstream": "any process that depends on path direction"
+      }
+    ],
+    "local_only": [],
+    "maintained_changes": []
+  },
+  "items": [
+    {
+      "id": "HE01",
+      "title": "Specify which object gets hotter",
+      "status": "approved-pending-coordinated-application",
+      "reason": "This is in the adapted opening. One object warming while the other cools is normal if heat flows from hot to cold. The intended reversed process needs just two identifying words. Preserve the rest of the rewritten introduction.",
+      "sources": [
+        "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node37.html"
+      ],
+      "changes": [
+        {
+          "source_id": "import-auto-id1169738147207",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1169738147207\">The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Here are some examples of irreversible processes seen in day-to-day life: a glass breaking, heat transferring from a hot object to a cold object, conversion of kinetic energy into thermal energy, and a puff of gas expanding from a corner of a vacuum chamber into the entire chamber. If you saw a video of glass un-breaking, or two objects in thermal contact where one gets hotter and the other gets colder, or a hot stationary object spontaneously cooling off and moving in some direction, or a gas in a chamber \"regrouping\" into a corner, you would say this is a video run backwards. This is because you intuitively recognize these are examples of <ns0:term id=\"import-auto-id1169737952026\">irreversible process</ns0:term>, and these processes in nature only take place in the forward direction, not reverse (See <ns0:link target-id=\"import-auto-id1169737796666\" />).</ns0:para>",
+          "proposed_text": "Replace “two objects in thermal contact where one gets hotter and the other gets colder” with “two objects in thermal contact where the hotter one gets hotter and the colder one gets colder”."
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE02",
+      "title": "Make the formal heat-engine statement complete",
+      "status": "approved-pending-coordinated-application",
+      "reason": "The heat-engine box should specify the sole result, not merely return of the engine to its initial state. Coordinate the summary and repair the glossary, whose “never the reverse” omits spontaneously. The first expression and its immediately following sole-result version are already sound.",
+      "sources": [
+        "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node37.html"
+      ],
+      "changes": [
+        {
+          "source_id": "eip-id1423437",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-id1423437\">It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state.</ns0:para>",
+          "proposed_text": "It is impossible for a system operating in a cycle to have as its sole result the absorption of heat from a single reservoir and the conversion of all that heat into work."
+        },
+        {
+          "source_id": "import-auto-id1169738234744",
+          "before_xml": "<ns0:item xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1169738234744\">The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state. These expressions describe the direction of irreversible processes that occur in nature.</ns0:item>\n\n    ",
+          "proposed_text": "Retain statement (i) and the concluding sentence. Replace statement (ii) with: It is impossible for a system operating in a cycle to have as its sole result the absorption of heat from a single reservoir and the conversion of all that heat into work."
+        },
+        {
+          "source_id": "fs-id1169738014671",
+          "before_xml": "<ns0:meaning xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"fs-id1169738014671\">heat transfer flows from a hotter to a cooler object, never the reverse, and some heat energy in any process is lost to available work in a cyclical process</ns0:meaning>",
+          "proposed_text": "heat does not spontaneously flow from a cooler to a hotter object, and no cyclic engine can convert heat from a single reservoir entirely into work as its sole result"
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE03",
+      "title": "Keep heat-engine qualifications and heat notation local",
+      "status": "approved-pending-coordinated-application",
+      "reason": "“In all processes” and the general conversion-of-energy opening are overbroad. The signed net Q is distinct from the positive magnitudes Q_h and Q_c. Small substitutions suffice.",
+      "sources": [
+        "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node37.html",
+        "https://web.mit.edu/16.unified/www/SPRING/propulsion/notes/node25.html"
+      ],
+      "changes": [
+        {
+          "source_id": "import-auto-id1169737992344",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169737992344\">just as shown schematically in <ns0:link target-id=\"import-auto-id1169736606615\" />(b). The problem is that in all processes, there is some heat transfer <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>Q</ns1:mi><ns1:mrow><ns1:mtext>c</ns1:mtext></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q rSub { size 8{c} } } {}</ns1:annotation></ns1:semantics></ns1:math> to the environment—and usually a very significant amount at that.</ns0:para>",
+          "proposed_text": "Replace “in all processes” with “in a heat-engine cycle”."
+        },
+        {
+          "source_id": "import-auto-id1169737966671",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169737966671\">In the conversion of energy to work, we are always faced with the problem of getting less out than we put in. We define <ns0:emphasis effect=\"italics\">conversion efficiency</ns0:emphasis> <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mstyle fontstyle=\"italic\"><ns1:mrow><ns1:mtext>Eff</ns1:mtext></ns1:mrow></ns1:mstyle></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{ ital \"Eff\"} {}</ns1:annotation></ns1:semantics></ns1:math> to be the ratio of useful work output to the energy input (or, in other words, the ratio of what we get to what we spend). In that spirit, we define the efficiency of a heat engine to be its net work output <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mi>W</ns1:mi></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{W} {}</ns1:annotation></ns1:semantics></ns1:math> divided by heat transfer to the engine <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>Q</ns1:mi><ns1:mrow><ns1:mtext>h</ns1:mtext></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q rSub { size 8{h} } } {}</ns1:annotation></ns1:semantics></ns1:math>; that is,</ns0:para>\n    ",
+          "proposed_text": "Replace the first sentence with “In a heat engine, only part of the heat input is converted to work.” Retain the efficiency definition that follows."
+        },
+        {
+          "source_id": "import-auto-id1169738014694",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169738014694\">making it clear that an efficiency of 1, or 100%, is possible only if there is no heat transfer to the environment (<ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>Q</ns1:mi><ns1:mrow><ns1:mtext>c</ns1:mtext></ns1:mrow></ns1:msub><ns1:mo stretchy=\"false\">=</ns1:mo><ns1:mn>0</ns1:mn></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q rSub { size 8{c} } =0} {}</ns1:annotation></ns1:semantics></ns1:math>). Note that all <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mi>Q</ns1:mi></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q} {}</ns1:annotation></ns1:semantics></ns1:math>s are positive. The direction of heat transfer is indicated by a plus or minus sign. For example, <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>Q</ns1:mi><ns1:mrow><ns1:mtext>c</ns1:mtext></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q rSub { size 8{c} } } {}</ns1:annotation></ns1:semantics></ns1:math> is out of the system and so is preceded by a minus sign.</ns0:para>",
+          "proposed_text": "Replace “Note that all Qs are positive.” with “Here Q_h and Q_c are positive amounts of heat transfer.” Retain the following sign explanation."
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE04",
+      "title": "Repair the coal/CO₂ example together",
+      "status": "approved-pending-coordinated-application",
+      "reason": "The work (1.02 × 10^14 J), efficiency (40.8%), and power (1180 MW) are correct. But 2.5 × 10^6 J/kg is far below the ordinary coal heating-value scale (tens of MJ/kg), and the 44/12 mass ratio applies to carbon, not arbitrary coal. The displayed 10^8 kg results also conflict with their retained StarMath annotations, which say 10^7. This is a substantive inherited numerical/model error, not a rounding issue.",
+      "sources": [
+        "https://www.eia.gov/tools/faqs/faq.php?id=72",
+        "https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Units=SI&Mask=1"
+      ],
+      "changes": [
+        {
+          "source_id": "import-auto-id1169737780262",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169737780262\">A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mn>2</ns1:mn><ns1:mtext>.</ns1:mtext><ns1:mrow><ns1:mtext>50</ns1:mtext><ns1:mo stretchy=\"false\">×</ns1:mo><ns1:msup><ns1:mtext>10</ns1:mtext><ns1:mrow><ns1:mtext>14</ns1:mtext></ns1:mrow></ns1:msup></ns1:mrow><ns1:mspace width=\"0.25em\" /><ns1:mtext>J</ns1:mtext></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{2 \".\" \"50\" times \"10\" rSup { size 8{\"14\"} } J} {}</ns1:annotation></ns1:semantics></ns1:math> of heat transfer from coal and <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mn>1</ns1:mn><ns1:mtext>.</ns1:mtext><ns1:mrow><ns1:mtext>48</ns1:mtext><ns1:mo stretchy=\"false\">×</ns1:mo><ns1:msup><ns1:mtext>10</ns1:mtext><ns1:mrow><ns1:mtext>14</ns1:mtext></ns1:mrow></ns1:msup></ns1:mrow><ns1:mspace width=\"0.25em\" /><ns1:mtext>J</ns1:mtext></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{1 \".\" \"48\" times \"10\" rSup { size 8{\"14\"} } J} {}</ns1:annotation></ns1:semantics></ns1:math> of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: <ns0:sub><ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mtext>C</ns1:mtext><ns1:mo stretchy=\"false\">+</ns1:mo><ns1:msub><ns1:mtext>O</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow><ns1:mo stretchy=\"false\">→</ns1:mo><ns1:msub><ns1:mtext>CO</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{C+O rSub { size 8{2} }  rightarrow \"CO\" rSub { size 8{2} } } {}</ns1:annotation></ns1:semantics></ns1:math></ns0:sub>. This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mn>2</ns1:mn><ns1:mtext>.</ns1:mtext><ns1:mrow><ns1:mn>5</ns1:mn><ns1:mo stretchy=\"false\">×</ns1:mo><ns1:msup><ns1:mtext>10</ns1:mtext><ns1:mrow><ns1:mn>6</ns1:mn></ns1:mrow></ns1:msup></ns1:mrow><ns1:mspace width=\"0.25em\" /><ns1:mtext>J</ns1:mtext></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{2 \".\" 5 times \"10\" rSup { size 8{6} } J} {}</ns1:annotation></ns1:semantics></ns1:math> of heat transfer upon combustion, how much <ns0:sub><ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mtext>CO</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{\"CO\" rSub { size 8{2} } } {}</ns1:annotation></ns1:semantics></ns1:math></ns0:sub> is emitted per day by this power plant?</ns0:para>",
+          "proposed_text": "Recommended replacement for part (c) only: “For a simplified estimate, treat the fuel as pure carbon, releasing 3.3 × 10^7 J/kg when burned completely to CO₂. The reaction C + O₂ → CO₂ produces 44 kg of CO₂ for every 12 kg of carbon. How much CO₂ is emitted per day in this model?” Keep the setup and parts (a) and (b)."
+        },
+        {
+          "source_id": "eip-825",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"eip-825\">The daily consumption of coal is calculated using the information that each day there is <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mn>2</ns1:mn><ns1:mtext>.</ns1:mtext><ns1:mtext>50</ns1:mtext><ns1:mi>×</ns1:mi><ns1:msup><ns1:mtext>10</ns1:mtext><ns1:mrow><ns1:mtext>14</ns1:mtext></ns1:mrow></ns1:msup><ns1:mspace width=\"0.25em\" /><ns1:mtext> J</ns1:mtext></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{2 \".\" \"50\"´\"10\" rSup { size 8{\"14\"} } \" J\"} {}</ns1:annotation></ns1:semantics></ns1:math> of heat transfer from coal. In the combustion process, we have <ns0:sub><ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mrow><ns1:mtext>C</ns1:mtext><ns1:mo stretchy=\"false\">+</ns1:mo><ns1:msub><ns1:mtext>O</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow><ns1:mo stretchy=\"false\">→</ns1:mo><ns1:msub><ns1:mtext>CO</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{C+O rSub { size 8{2} }  rightarrow \"CO\" rSub { size 8{2} } } {}</ns1:annotation></ns1:semantics></ns1:math></ns0:sub>. So every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of <ns0:sub><ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mtext>CO</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{\"CO\" rSub { size 8{2} } } {}</ns1:annotation></ns1:semantics></ns1:math></ns0:sub> into the atmosphere.</ns0:para>",
+          "proposed_text": "Use “carbon” consistently in the part (c) strategy and state the pure-carbon model there. Do not imply all real coal is pure carbon."
+        },
+        {
+          "source_id": "eip-238",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"eip-238\">The daily coal consumption is</ns0:para>",
+          "proposed_text": "Daily carbon consumption: (2.50 × 10^14 J)/(3.3 × 10^7 J/kg) = 7.6 × 10^6 kg."
+        },
+        {
+          "source_id": "import-auto-id1169737739559",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1169737739559\">Assuming that the coal is pure and that all the coal goes toward producing carbon dioxide, the carbon dioxide produced per day is</ns0:para>\n    ",
+          "proposed_text": "For complete combustion of this carbon, CO₂ produced per day = (7.6 × 10^6 kg)(44/12) = 2.8 × 10^7 kg."
+        },
+        {
+          "source_id": "import-auto-id1169738213149",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169738213149\">This is 370,000 metric tons of <ns0:sub><ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mtext>CO</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{\"CO\" rSub { size 8{2} } } {}</ns1:annotation></ns1:semantics></ns1:math></ns0:sub> produced every day.</ns0:para>",
+          "proposed_text": "This is about 28,000 metric tons of CO₂ produced per day in this simplified model."
+        }
+      ],
+      "alternative": "If preserving a coal-specific estimate is preferable, specify both its heat content and carbon mass fraction. Changing only the exponent to 10^7 gives 37,000 tonnes but still treats every kilogram of coal as carbon. No choice has been applied.",
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE05",
+      "title": "Separate waste heat, greenhouse emissions, and efficiency",
+      "status": "approved-pending-coordinated-application",
+      "reason": "The current discussion blends local heat rejection with global greenhouse warming and calls carbon intensity efficiency. Preserve the cogeneration point. Remove the unanchored 42% benchmark and broad claim about the economics of most engines, rather than inserting dated statistics.",
+      "sources": [
+        "https://www.epa.gov/energy/combined-heat-and-power",
+        "https://www.eia.gov/tools/faqs/faq.php?id=73&t=11",
+        "https://19january2017snapshot.epa.gov/climate-change-science/causes-climate-change_.html"
+      ],
+      "changes": [
+        {
+          "source_id": "eip-567",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"eip-567\">If all the work output is converted to electricity in a period of one day, the average power output is 1180 MW (this is left to you as an end-of-chapter problem). This value is about the size of a large-scale conventional power plant. The efficiency found is acceptably close to the value of 42% given for coal power stations. It means that fully 59.2% of the energy is heat transfer to the environment, which usually results in warming lakes, rivers, or the ocean near the power station, and is implicated in a warming planet generally. While the laws of thermodynamics limit the efficiency of such plants—including plants fired by nuclear fuel, oil, and natural gas—the heat transfer to the environment could be, and sometimes is, used for heating homes or for industrial processes. The generally low cost of energy has not made it economical to make better use of the waste heat transfer from most heat engines. Coal-fired power plants produce the greatest amount of <ns0:sub><ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mtext>CO</ns1:mtext><ns1:mrow><ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{\"CO\" rSub { size 8{2} } } {}</ns1:annotation></ns1:semantics></ns1:math></ns0:sub> per unit energy output (compared to natural gas or oil), making coal the least efficient fossil fuel.</ns0:para>",
+          "proposed_text": "If all the work output is converted to electricity in a period of one day, the average power output is 1180 MW (this is left to you as an end-of-chapter problem). This value is about the size of a large-scale conventional power plant. The efficiency is 40.8%, so 59.2% of the heat input is transferred to the environment. This can warm nearby bodies of water used for cooling. While the laws of thermodynamics limit the efficiency of such plants—including plants fired by nuclear fuel, oil, and natural gas—the heat transfer to the environment could be, and sometimes is, used for heating homes or for industrial processes. Coal combustion also releases CO₂, which contributes to global warming. Coal generally produces more CO₂ per unit of heat released than oil or natural gas."
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE06",
+      "title": "Distinguish the closed Otto model from the actual engine",
+      "status": "approved-pending-coordinated-application",
+      "reason": "The gasoline–air mixture does not return to its original condition: combustion products are expelled and replaced. In the closed ideal model, heat addition/rejection represents combustion and gas exchange. In an actual engine, exhaust carries energy out with matter.",
+      "sources": [
+        "https://web.mit.edu/16.unified/www/SPRING/propulsion/notes/node25.html",
+        "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/engine-thermodynamic-analysis/"
+      ],
+      "changes": [
+        {
+          "source_id": "import-auto-id1169736614771",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1169736614771\">With the information given in <ns0:link target-id=\"fs-id1169737966074\" />, we can find characteristics such as the efficiency of a heat engine without any knowledge of how the heat engine operates, but looking further into the mechanism of the engine will give us greater insight. <ns0:link target-id=\"import-auto-id1169738202073\" /> illustrates the operation of the common four-stroke gasoline engine. The four steps shown complete this heat engine’s cycle, bringing the gasoline-air mixture back to its original condition.</ns0:para>",
+          "proposed_text": "Replace its final sentence with “The four steps shown complete the engine’s operating cycle, replacing the exhaust gases with a fresh gasoline-air mixture.”"
+        },
+        {
+          "source_id": "import-auto-id1169737933345",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"import-auto-id1169737933345\">The <ns0:term id=\"import-auto-id1169737845754\">Otto cycle</ns0:term> shown in <ns0:link target-id=\"import-auto-id1169738036935\" />(a) is used in four-stroke internal combustion engines, although in fact the true Otto cycle paths do not correspond exactly to the strokes of the engine.</ns0:para>\n    ",
+          "proposed_text": "The ideal Otto cycle shown in the figure models a fixed amount of gas undergoing two adiabatic and two constant-volume processes. It approximates the operation of a four-stroke internal combustion engine, although its paths do not correspond exactly to the strokes of the engine."
+        },
+        {
+          "source_id": "import-auto-id1169738110852",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169738110852\">The adiabatic process AB corresponds to the nearly adiabatic compression stroke of the gasoline engine. In both cases, work is done on the system (the gas mixture in the cylinder), increasing its temperature and pressure. Along path BC of the Otto cycle, heat transfer <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>Q</ns1:mi><ns1:mrow><ns1:mtext>h</ns1:mtext></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q rSub { size 8{h} } } {}</ns1:annotation></ns1:semantics></ns1:math> into the gas occurs at constant volume, causing a further increase in pressure and temperature. This process corresponds to burning fuel in an internal combustion engine, and takes place so rapidly that the volume is nearly constant. Path CD in the Otto cycle is an adiabatic expansion that does work on the outside world, just as the power stroke of an internal combustion engine does in its nearly adiabatic expansion. The work done by the system along path CD is greater than the work done on the system along path AB, because the pressure is greater, and so there is a net work output. Along path DA in the Otto cycle, heat transfer <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>Q</ns1:mi><ns1:mrow><ns1:mtext>c</ns1:mtext></ns1:mrow></ns1:msub></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{Q rSub { size 8{c} } } {}</ns1:annotation></ns1:semantics></ns1:math> from the gas at constant volume reduces its temperature and pressure, returning it to its original state. In an internal combustion engine, this process corresponds to the exhaust of hot gases and the intake of an air-gasoline mixture at a considerably lower temperature. In both cases, heat transfer into the environment occurs along this final path.</ns0:para>\n    ",
+          "proposed_text": "Keep the AB/BC/CD explanation. Replace the final two sentences with: “In an internal combustion engine, this part of the model represents the exhaust of hot gases and the intake of a cooler air-gasoline mixture. The actual engine carries energy out with the exhaust; the ideal cycle represents this by heat transfer from the gas.”"
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE07",
+      "title": "Do not infer efficiency from the area alone",
+      "status": "approved-pending-coordinated-application",
+      "reason": "Greater loop area establishes greater net work, not higher W/Q_h. For the ideal Otto cycle with constant heat capacities, efficiency is 1 − r^(1−γ). At the same compression ratio and γ, changing the temperature scale or increasing heat input does not improve that efficiency. The two displayed cycles retain the same volume limits. Also scope the no-heat return-path statement to this reversible adiabatic model.",
+      "sources": [
+        "https://web.mit.edu/16.unified/www/SPRING/propulsion/notes/node25.html"
+      ],
+      "changes": [
+        {
+          "source_id": "import-auto-id1169736654385",
+          "before_xml": "<ns0:para xmlns:ns0=\"http://cnx.rice.edu/cnxml\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" id=\"import-auto-id1169736654385\">The net work done by a cyclical process is the area inside the closed path on a <ns1:math><ns1:semantics><ns1:mrow><ns1:mrow><ns1:mstyle fontstyle=\"italic\"><ns1:mrow><ns1:mtext>PV</ns1:mtext></ns1:mrow></ns1:mstyle></ns1:mrow><ns1:mrow /></ns1:mrow><ns1:annotation encoding=\"StarMath 5.0\"> size 12{ ital \"PV\"} {}</ns1:annotation></ns1:semantics></ns1:math> diagram, such as that inside path ABCDA in <ns0:link target-id=\"import-auto-id1169738036935\" />. Note that in every imaginable cyclical process, it is absolutely necessary for heat transfer from the system to occur in order to get a net work output. In the Otto cycle, heat transfer occurs along path DA. If no heat transfer occurs, then the return path is the same, and the net work output is zero. The lower the temperature on the path AB, the less work has to be done to compress the gas. The area inside the closed path is then greater, and so the engine does more work and is thus more efficient. Similarly, the higher the temperature along path CD, the more work output there is. (See <ns0:link target-id=\"import-auto-id1169738093819\" />.) So efficiency is related to the temperatures of the hot and cold reservoirs. In the next section, we shall see what the absolute limit to the efficiency of a heat engine is, and how it is related to temperature.</ns0:para>",
+          "proposed_text": "The net work done by a cyclical process is the area inside the closed path on a PV diagram, such as that inside path ABCDA in [existing figure reference]. A heat-engine cycle must reject some of its heat input. In the Otto cycle, this heat transfer occurs along path DA. Simply retracing the reversible adiabatic expansion would give no net work output. Lower pressure along AB reduces the compression work, while higher pressure along CD increases the expansion work. These changes increase the net work output of the Otto cycle. The maximum possible efficiency of a heat engine operating between two heat reservoirs increases when the hot reservoir is hotter or the cold reservoir is colder. In the next section, we shall see how these reservoir temperatures set the upper limit to efficiency."
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    },
+    {
+      "id": "HE08",
+      "title": "Coordinate the glossary",
+      "status": "approved-pending-coordinated-application",
+      "reason": "Keep the adapted rejection of path-dependence as a definition of irreversibility. Clarify that restoration must include surroundings. Define Otto cycle as the ideal model, rather than equating its four thermodynamic legs with the engine strokes.",
+      "sources": [
+        "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node37.html",
+        "https://web.mit.edu/16.unified/www/SPRING/propulsion/notes/node25.html"
+      ],
+      "changes": [
+        {
+          "source_id": "fs-id1169737907449",
+          "before_xml": "<ns0:meaning xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"fs-id1169737907449\">a process which occurs in only one direction in nature; a process that cannot be exactly reversed</ns0:meaning>",
+          "proposed_text": "a process that cannot be reversed so as to restore both the system and its surroundings to their initial states"
+        },
+        {
+          "source_id": "fs-id1169737949805",
+          "before_xml": "<ns0:meaning xmlns:ns0=\"http://cnx.rice.edu/cnxml\" id=\"fs-id1169737949805\">a thermodynamic cycle, consisting of a pair of adiabatic processes and a pair of isochoric processes, that converts heat into work, e.g., the four-stroke engine cycle of intake, compression, ignition, and exhaust</ns0:meaning>",
+          "proposed_text": "an ideal heat-engine cycle consisting of two reversible adiabatic processes and two constant-volume processes, used to model a spark-ignition engine"
+        }
+      ],
+      "authorization": "Maintainer approved HE01–HE06, reaffirmed the pure-carbon model for HE04, and approved revised HE07 connecting Otto work output to the Carnot efficiency limit."
+    }
+  ],
+  "verified": [
+    "The first second-law expression and its sole-result restatement are correct in this context.",
+    "The cycle identities ΔU = 0, W = Q_h − Q_c, and Eff = W/Q_h = 1 − Q_c/Q_h are correct with the stated heat-engine sign convention.",
+    "Recalculation: 2.50e14 − 1.48e14 = 1.02e14 J; 1.02/2.50 = 0.408; 1.02e14/86400 = 1.1806e9 W. Rejected fraction = 0.592.",
+    "The Pikes Peak conceptual question is consistent to its intended precision: mgh for 1000 kg and 100 m is 0.981 MJ; 12.5 km implies 122.6 MJ/gallon. No new exercise rewrite is proposed.",
+    "The reversible-engine exercise previously retained by the maintainer remains unchanged; the same-reservoir assumption need not be reinserted there.",
+    "The heat-engine flow diagram is consistent with its heat/work balance. Otto plots support their net-work comparison; their captions do not themselves assert that larger work means greater efficiency.",
+    "The “(a)” reference to the single Otto plot is a minor stale figure label; HE06 removes it. Its right-hand reservoir schematic is a conceptual heat-flow picture, not a claim that the gas remains at constant temperature during the constant-volume legs.",
+    "The one-way-process figure and ice photograph are retained. Their macroscopic no-spontaneous-reversal interpretation is adequate here; a broader fluctuation/statistical discussion remains in the separately requested entropy/disorder review."
+  ],
+  "checks": {
+    "maintained_sha256": "4819102a39a5d5d15676a625b7da12c465369734da7602f75854b36c1434d7d3",
+    "reviewed": "Body, equations, worked example, figure captions/diagrams, summary, four conceptual questions, and glossary."
+  }
+}

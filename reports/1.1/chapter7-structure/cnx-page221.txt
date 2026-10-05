@@ -1,0 +1,56 @@
+in changes in the fluid’s KE and PEg per unit volume. If other forms of energy are involved in fluid flow, Bernoulli’s
+equation can be modified to take these forms into account. Such forms of energy include thermal energy dissipated because
+of fluid viscosity.
+The general form of Bernoulli’s equation has three terms in it, and it is broadly applicable. To understand it better, we will look at
+a number of specific situations that simplify and illustrate its use and meaning.
+Bernoulli’s Equation for Static Fluids
+Let us first consider the very simple situation where the fluid is static—that is, v1 = v2 = 0 . Bernoulli’s equation in that case is
+(8.62)P1 + ρgh1 = P2 + ρgh2.
+We can further simplify the equation by taking h2 = 0 (we can always choose some height to be zero, just as we often have
+done for other situations involving the gravitational force, and take all other heights to be relative to this). In that case, we get
+(8.63)P2 = P1 + ρgh1.
+This equation tells us that, in static fluids, pressure increases with depth. As we go from point 1 to point 2 in the fluid, the depth
+increases by h1 , and consequently, P2 is greater than P1 by an amount ρgh1 . In the very simplest case, P1 is zero at the
+top of the fluid, and we get the familiar relationship P = ρgh . (Recall that P = ρgh and ΔPEg = mgh. ) Bernoulli’s equation
+includes the fact that the pressure due to the weight of a fluid is ρgh . Although we introduce Bernoulli’s equation for fluid flow, it
+includes much of what we studied for static fluids in the preceding chapter.
+Bernoulli’s Principle—Bernoulli’s Equation at Constant Depth
+Another important situation is one in which the fluid moves but its depth is constant—that is, h1 = h2 . Under that condition,
+Bernoulli’s equation becomes
+(8.64)P1 + 1
+2 ρv1
+2 = P2 + 1
+2 ρv2
+2 .
+Situations in which fluid flows at a constant depth are so important that this equation is often called Bernoulli’s principle. It is
+Bernoulli’s equation for fluids at constant depth. (Note again that this applies to a small volume of fluid as we follow it along its
+path.) As we have just discussed, pressure drops as speed increases in a moving fluid. We can see this from Bernoulli’s
+principle. For example, if v2 is greater than v1 in the equation, then P2 must be less than P1 for the equality to hold.
+Example 8.11 Calculating Pressure: Pressure Drops as a Fluid Speeds Up
+In m42205 (https://legacy.cnx.org/content/m42205/latest/#fs-id3230619) , we found that the speed of water in a hose
+increased from 1.96 m/s to 25.5 m/s going from the hose to the nozzle. Calculate the pressure in the hose, given that the
+absolute pressure in the nozzle is 1.01×105 N/m2 (atmospheric, as it must be) and assuming level, frictionless flow.
+Strategy
+Level flow means constant depth, so Bernoulli’s principle applies. We use the subscript 1 for values in the hose and 2 for
+those in the nozzle. We are thus asked to find P1 .
+Solution
+Solving Bernoulli’s principle for P1 yields
+(8.65)P1 = P2 + 1
+2 ρv2
+2 − 1
+2 ρv1
+2 = P2 + 1
+2 ρ(v2
+2 − v1
+2).
+Substituting known values,
+(8.66)P1 = 1.01×105 N/m2
++ 1
+2(103 kg/m3)⎡
+⎣(25.5 m/s)2 − (1.96 m/s)2⎤
+⎦
+= 4.24×105 N/m2 .
+Discussion
+This absolute pressure in the hose is greater than in the nozzle, as expected since v is greater in the nozzle. The pressure
+P2 in the nozzle must be atmospheric since it emerges into the atmosphere without other changes in conditions.
+Chapter 8 | Fluids 215

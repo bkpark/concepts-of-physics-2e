@@ -1,0 +1,47 @@
+Figure 9.20 A graph of temperature versus energy added. The system is constructed so that no vapor evaporates while ice warms to become liquid
+water, and so that, when vaporization occurs, the vapor remains in of the system. The long stretches of constant temperature values at 0ºC and
+100ºC reflect the large latent heat of melting and vaporization, respectively.
+Water can evaporate at temperatures below the boiling point. More energy is required than at the boiling point, because the
+kinetic energy of water molecules at temperatures below 100ºC is less than that at 100ºC , hence less energy is available from
+random thermal motions. Take, for example, the fact that, at body temperature, perspiration from the skin requires a heat input of
+2428 kJ/kg, which is about 10 percent higher than the latent heat of vaporization at 100ºC . This heat comes from the skin, and
+thus provides an effective cooling mechanism in hot weather. High humidity inhibits evaporation, so that body temperature might
+rise, leaving unevaporated sweat on your brow.
+Example 9.6 Calculate Final Temperature from Phase Change: Cooling Soda with Ice Cubes
+Three ice cubes are used to chill a soda at 20ºC with mass msoda = 0.25 kg . The ice is at 0ºC and each ice cube has a
+mass of 6.0 g. Assume that the soda is kept in a foam container so that heat loss can be ignored. Assume the soda has the
+same heat capacity as water. Find the final temperature when all ice has melted.
+Strategy
+The ice cubes are at the melting temperature of 0ºC . Heat is transferred from the soda to the ice for melting. Melting of ice
+occurs in two steps: first the phase change occurs and solid (ice) transforms into liquid water at the melting temperature,
+then the temperature of this water rises. Melting yields water at 0ºC , so more heat is transferred from the soda to this water
+until the water plus soda system reaches thermal equilibrium,
+(9.29)Qice = −Qsoda.
+The heat transferred to the ice is Qice = miceLf + micecW(Tf − 0ºC) . The heat given off by the soda is
+Qsoda = msoda cW(Tf − 20ºC) . Since no heat is lost, Qice = −Qsoda , so that
+(9.30)mice Lf + micecW
+⎛
+⎝Tf − 0ºC⎞
+⎠ = - msodacW
+⎛
+⎝Tf − 20ºC⎞
+⎠.
+Bring all terms involving Tf on the left-hand-side and all other terms on the right-hand-side. Solve for the unknown quantity
+Tf :
+(9.31)
+Tf = msoda cW (20ºC) − miceLf
+(msoda + mice)cW
+.
+Solution
+1. Identify the known quantities. The mass of ice is mice = 3×6.0 g = 0.018 kg and the mass of soda is
+msoda = 0.25 kg .
+2. Calculate the terms in the numerator:
+(9.32)msoda cW (20ºC) = ⎛
+⎝0.25 kg⎞
+⎠
+⎛
+⎝4186 J/kg⋅ºC⎞
+⎠(20ºC) = 20,930 J
+and
+244 Chapter 9 | Thermal Physics
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

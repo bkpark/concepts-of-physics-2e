@@ -1,0 +1,44 @@
+Table 9.5 100-Coin Toss
+Macrostate Number of microstates
+Heads Tails (W)
+100 0 1
+99 1 1.0×102
+95 5 7.5×107
+90 10 1.7×1013
+75 25 2.4×1023
+60 40 1.4×1028
+55 45 6.1×1028
+51 49 9.9×1028
+50 50 1.0×1029
+49 51 9.9×1028
+45 55 6.1×1028
+40 60 1.4×1028
+25 75 2.4×1023
+10 90 1.7×1013
+5 95 7.5×107
+1 99 1.0×102
+0 100 1
+Total: 1.27×1030
+This result becomes dramatic for larger systems. Consider what happens if you have 100 coins instead of just 5. The most
+orderly arrangements (most structured) are 100 heads or 100 tails. The least orderly (least structured) is that of 50 heads and 50
+tails. There is only 1 way (1 microstate) to get the most orderly arrangement of 100 heads. There are 100 ways (100 microstates)
+to get the next most orderly arrangement of 99 heads and 1 tail (also 100 to get its reverse). And there are 1.0×1029 ways to
+get 50 heads and 50 tails, the least orderly arrangement. Table 9.5 is an abbreviated list of the various macrostates and the
+number of microstates for each macrostate. The total number of microstates—the total number of different ways 100 coins can
+be tossed—is an impressively large 1.27×1030 . Now, if we start with an orderly macrostate like 100 heads and toss the coins,
+there is a virtual certainty that we will get a less orderly macrostate. If we keep tossing the coins, it is possible, but exceedingly
+unlikely, that we will ever get back to the most orderly macrostate. If you tossed the coins once each second, you could expect to
+get either 100 heads or 100 tails once in 2×1022 years! This period is 1 trillion ( 1012 ) times longer than the age of the
+universe, and so the chances are essentially zero. In contrast, there is an 8% chance of getting 50 heads, a 73% chance of
+getting from 45 to 55 heads, and a 96% chance of getting from 40 to 60 heads. Disorder is highly likely.
+Disorder in a Gas
+The fantastic growth in the odds favoring disorder that we see in going from 5 to 100 coins continues as the number of entities in
+the system increases. Let us now imagine applying this approach to perhaps a small sample of gas. Because counting
+microstates and macrostates involves statistics, this is called statistical analysis. The macrostates of a gas correspond to its
+macroscopic properties, such as volume, temperature, and pressure; and its microstates correspond to the detailed description
+of the positions and velocities of its atoms. Even a small amount of gas has a huge number of atoms: 1.0 cm3 of an ideal gas
+at 1.0 atm and 0º C has 2.7×1019 atoms. So each macrostate has an immense number of microstates. In plain language,
+this means that there are an immense number of ways in which the atoms in a gas can be arranged, while still having the same
+pressure, temperature, and so on.
+274 Chapter 9 | Thermal Physics
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

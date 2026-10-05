@@ -1,0 +1,84 @@
+{
+  "status": "Tracked chapter-by-chapter: first finding implemented and approved in Chapter 2; four Thermal Physics findings remain pending review.",
+  "reviewed_date": "2026-09-27",
+  "items": [
+    {
+      "mom_uniqueid": "1529635023176840",
+      "section_ids": [
+        "cnx:m78923"
+      ],
+      "existing_exercise_ids": [
+        "cnx:m78923#fs-id1445672",
+        "cnx:m78923#fs-id1654920"
+      ],
+      "relationship": "complementary-skill",
+      "finding": "Existing section questions ask for a repeatable force standard and vector properties. The MyOpenMath question asks students to distinguish forces from objects, events and acceleration. This is a concrete addition candidate within this section, not a claim that force identification is absent everywhere in the chapter.",
+      "next_step": "Complete: published as Chapter 2 Exercise 1 in preview version 24; Chapter 2 approved after full read-through.",
+      "tracking_id": "initial-crosswalk-1",
+      "status": "implemented-maintainer-approved",
+      "canonical_exercise_id": "cnx:m78923#ex-identifying-forces"
+    },
+    {
+      "mom_uniqueid": "1531146385628727",
+      "section_ids": [
+        "cnx:m67122"
+      ],
+      "existing_exercise_ids": [
+        "cnx:m67122#fs-id2799079",
+        "cnx:m67122#fs-id2378151"
+      ],
+      "relationship": "complementary-skill-with-numerical-overlap",
+      "finding": "Existing conceptual questions ask about ideal-gas validity and a constant-volume thermometer; 11 numerical problems also remain. Prediction and insufficient-information cases can add a different task without importing another numerical set.",
+      "next_step": "For any draft specify a fixed amount of ideal gas, then select a small set of contrasting cases and compare with retained numerical tasks.",
+      "tracking_id": "initial-crosswalk-2",
+      "status": "pending-chapter-8-review",
+      "review_trigger": "Before preparing Chapter 8 exercise proposals, revisit this finding and its source question. Propose a disposition; do not automatically add."
+    },
+    {
+      "mom_uniqueid": "1531210791047256",
+      "section_ids": [
+        "cnx:m67622",
+        "cnx:m67124"
+      ],
+      "existing_exercise_ids": [
+        "cnx:m67124#fs-id2677751"
+      ],
+      "relationship": "cross-section-topic-overlap",
+      "finding": "The homework heat-capacity application uses Oakland/Orinda climate differences. The textbook already asks about San Francisco/Sacramento climate moderation in the latent-heat section. A section-only match would miss this overlap. Both involve nearby water but are not automatically equivalent explanations.",
+      "next_step": "Review the existing climate question and its placement before deciding whether to adapt, consolidate or add. Avoid presenting heat capacity as a complete account of Bay Area microclimates.",
+      "tracking_id": "initial-crosswalk-3",
+      "status": "pending-chapter-8-review",
+      "review_trigger": "Before preparing Chapter 8 exercise proposals, revisit this finding and its source question. Propose a disposition; do not automatically add."
+    },
+    {
+      "mom_uniqueid": "1531210918392542",
+      "section_ids": [
+        "cnx:m67124"
+      ],
+      "existing_exercise_ids": [
+        "cnx:m67124#fs-id2621789",
+        "cnx:m67124#fs-id1933185",
+        "cnx:m67124#fs-id3105447"
+      ],
+      "relationship": "foundational-task-under-existing-applications",
+      "finding": "The bank explicitly classifies energy transfer during melting/freezing/vaporization/condensation. Existing textbook questions apply those ideas to freezing, condensation and evaporation. A short foundational question may be useful, but the topic is already exercised.",
+      "next_step": "If selected, distinguish heat absorbed/released by the substance from cooling/heating of its surroundings; do not transplant the platform's shorthand labels without context.",
+      "tracking_id": "initial-crosswalk-4",
+      "status": "pending-chapter-8-review",
+      "review_trigger": "Before preparing Chapter 8 exercise proposals, revisit this finding and its source question. Propose a disposition; do not automatically add."
+    },
+    {
+      "mom_uniqueid": "1531211425943691",
+      "section_ids": [
+        "cnx:m67124"
+      ],
+      "existing_exercise_ids": [],
+      "relationship": "representation-candidate",
+      "finding": "The source asks students to rank heat inputs for stages of a water heating curve. No equivalent ranking task was found among the 11 ordinary questions in this section, though related energy/phase concepts are covered.",
+      "next_step": "Inspect the figure dependency and specify the same sample and pressure conditions before drafting a self-contained fixed question.",
+      "tracking_id": "initial-crosswalk-5",
+      "status": "pending-chapter-8-review",
+      "review_trigger": "Before preparing Chapter 8 exercise proposals, revisit this finding and its source question. Propose a disposition; do not automatically add."
+    }
+  ]
+}

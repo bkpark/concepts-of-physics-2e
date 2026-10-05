@@ -1,0 +1,39 @@
+only on the state of the system and not how it reached that condition. Entropy is a property of state. Thus the change in entropy
+ΔS of a system between state 1 and state 2 is the same no matter how the change occurs. We just need to find or imagine a
+reversible process that takes us from state 1 to state 2 and calculate ΔS for that process. That will be the change in entropy for
+any process going from state 1 to state 2. (See Figure 9.49.)
+Figure 9.49 When a system goes from state 1 to state 2, its entropy changes by the same amount ΔS , whether a hypothetical reversible path is
+followed or a real irreversible path is taken.
+Now let us take a look at the change in entropy of a Carnot engine and its heat reservoirs for one full cycle. The hot reservoir has
+a loss of entropy ΔSh = −Qh / Th , because heat transfer occurs out of it (remember that when heat transfers out, then Q has
+a negative sign). The cold reservoir has a gain of entropy ΔSc = Qc / Tc , because heat transfer occurs into it. (We assume the
+reservoirs are sufficiently large that their temperatures are constant.) So the total change in entropy is
+(9.68)ΔStot = ΔSh + ΔSc.
+Thus, since we know that Qh / Th = Qc / Tc for a Carnot engine,
+(9.69)
+ΔStot =–Qh
+Th
++ Qc
+Tc
+= 0.
+This result, which has general validity, means that the total change in entropy for a system in any reversible process is zero.
+The entropy of various parts of the system may change, but the total change is zero. Furthermore, the system does not affect the
+entropy of its surroundings, since heat transfer between them does not occur. Thus the reversible process changes neither the
+total entropy of the system nor the entropy of its surroundings. Sometimes this is stated as follows: Reversible processes do not
+affect the total entropy of the universe. Real processes are not reversible, though, and they do change total entropy. We can,
+however, use hypothetical reversible processes to determine the value of entropy in real, irreversible processes. The following
+example illustrates this point.
+Example 9.10 Entropy Increases in an Irreversible (Real) Process
+Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat
+transfer occurs from a hot reservoir at Th = 600 K(327º C) to a cold reservoir at Tc = 250 K(−23º C) , assuming there
+is no temperature change in either reservoir. (See Figure 9.50.)
+Strategy
+How can we calculate the change in entropy for an irreversible process when ΔStot = ΔSh + ΔSc is valid only for
+reversible processes? Remember that the total change in entropy of the hot and cold reservoirs will be the same whether a
+reversible or irreversible process is involved in heat transfer from hot to cold. So we can calculate the change in entropy of
+the hot reservoir for a hypothetical reversible process in which 4000 J of heat transfer occurs from it; then we do the same
+for a hypothetical reversible process in which 4000 J of heat transfer occurs to the cold reservoir. This produces the same
+changes in the hot and cold reservoirs that would occur if the heat transfer were allowed to occur irreversibly between them,
+and so it also produces the same changes in entropy.
+Solution
+Chapter 9 | Thermal Physics 269

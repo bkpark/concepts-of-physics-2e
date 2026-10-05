@@ -1,0 +1,47 @@
+Example 10.12 Calculating Resistance, Current, Voltage Drop, and Power Dissipation: Analysis
+of a Series Circuit
+Suppose the voltage output of the battery in Figure 10.39 is 12.0 V , and the resistances are R1 = 1.00 Ω ,
+R2 = 6.00 Ω , and R3 = 13.0 Ω . (a) What is the total resistance? (b) Find the current. (c) Calculate the voltage drop
+in each resistor, and show these add to equal the voltage output of the source. (d) Calculate the power dissipated by each
+resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.
+Strategy and Solution for (a)
+The total resistance is simply the sum of the individual resistances, as given by this equation:
+(10.62)Rs = R1 + R2 + R3
+= 1.00 Ω + 6.00 Ω + 13.0 Ω
+= 20.0 Ω.
+Strategy and Solution for (b)
+The current is found using Ohm’s law, V = IR . Entering the value of the applied voltage and the total resistance yields the
+current for the circuit:
+(10.63)I = V
+Rs
+= 12.0 V
+20.0 Ω = 0.600 A.
+Strategy and Solution for (c)
+The voltage—or IR drop—in a resistor is given by Ohm’s law. Entering the current and the value of the first resistance
+yields
+(10.64)V1 = IR1 = (0.600 A)(1.0 Ω ) = 0.600 V.
+Similarly,
+(10.65)V2 = IR2 = (0.600 A)(6.0 Ω ) = 3.60 V
+and
+(10.66)V3 = IR3 = (0.600 A)(13.0 Ω ) = 7.80 V.
+Discussion for (c)
+The three IR drops add to 12.0 V , as predicted:
+(10.67)V1 + V2 + V3 = (0.600 + 3.60 + 7.80) V = 12.0 V.
+Strategy and Solution for (d)
+The easiest way to calculate power in watts (W) dissipated by a resistor in a DC circuit is to use Joule’s law, P = IV ,
+where P is electric power. In this case, each resistor has the same full current flowing through it. By substituting Ohm’s law
+V = IR into Joule’s law, we get the power dissipated by the first resistor as
+(10.68)P1 = I 2R1 = (0.600 A)2(1.00 Ω ) = 0.360 W.
+Similarly,
+(10.69)P2 = I 2R2 = (0.600 A)2(6.00 Ω ) = 2.16 W
+and
+(10.70)P3 = I 2R3 = (0.600 A)2(13.0 Ω ) = 4.68 W.
+Discussion for (d)
+Power can also be calculated using either P = IV or P = V 2
+R , where V is the voltage drop across the resistor (not the
+full voltage of the source). The same values will be obtained.
+Strategy and Solution for (e)
+The easiest way to calculate power output of the source is to use P = IV , where V is the source voltage. This gives
+(10.71)P = (0.600 A)(12.0 V) = 7.20 W.
+Discussion for (e)
+Chapter 10 | Electricity 319

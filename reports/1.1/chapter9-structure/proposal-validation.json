@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "question_count": 55,
+  "disposition_count": 156,
+  "numerical_checks": [
+    {
+      "question": 3,
+      "quantity": "net charge (C)",
+      "computed": -3.1999999999999997e-09,
+      "expected": -3.2e-09
+    },
+    {
+      "question": 6,
+      "quantity": "Coulomb force (N)",
+      "computed": 0.0012642187499999997,
+      "expected": 0.00126421875
+    },
+    {
+      "question": 7,
+      "quantity": "tripled-separation force (N)",
+      "computed": 0.5555555555555556,
+      "expected": 0.5555555555555556
+    },
+    {
+      "question": 8,
+      "quantity": "net field at x=-L, normalized kq/L\u00b2",
+      "computed": 0.0,
+      "expected": 0
+    },
+    {
+      "question": 11,
+      "quantity": "electric field (N/C)",
+      "computed": 300.0,
+      "expected": 300
+    },
+    {
+      "question": 12,
+      "quantity": "force magnitude (N)",
+      "computed": 0.001,
+      "expected": 0.001
+    },
+    {
+      "question": 16,
+      "quantity": "energy change (J)",
+      "computed": 2.4e-05,
+      "expected": 2.4e-05
+    },
+    {
+      "question": 20,
+      "quantity": "electron potential-energy change (J)",
+      "computed": -1.5999999999999998e-17,
+      "expected": -1.6e-17
+    },
+    {
+      "question": 30,
+      "quantity": "current (A)",
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "question": 31,
+      "quantity": "pulse current (A)",
+      "computed": 0.25,
+      "expected": 0.25
+    },
+    {
+      "question": 34,
+      "quantity": "resistance (ohm)",
+      "computed": 20.0,
+      "expected": 20
+    },
+    {
+      "question": 34,
+      "quantity": "predicted current (A)",
+      "computed": 0.4,
+      "expected": 0.4
+    },
+    {
+      "question": 35,
+      "quantity": "bulb current (A)",
+      "computed": 0.8333333333333333,
+      "expected": 0.8333333333333334
+    },
+    {
+      "question": 36,
+      "quantity": "cord voltage 1 (V)",
+      "computed": 0.3,
+      "expected": 0.3
+    },
+    {
+      "question": 36,
+      "quantity": "cord voltage 2 (V)",
+      "computed": 1.5,
+      "expected": 1.5
+    },
+    {
+      "question": 38,
+      "quantity": "motor power (W)",
+      "computed": 6000,
+      "expected": 6000
+    },
+    {
+      "question": 38,
+      "quantity": "motor energy (J)",
+      "computed": 12000,
+      "expected": 12000
+    },
+    {
+      "question": 39,
+      "quantity": "cord power 1 (W)",
+      "computed": 1.5,
+      "expected": 1.5
+    },
+    {
+      "question": 39,
+      "quantity": "cord power 2 (W)",
+      "computed": 7.5,
+      "expected": 7.5
+    },
+    {
+      "question": 40,
+      "quantity": "joules per kWh",
+      "computed": 3600000,
+      "expected": 3600000.0
+    },
+    {
+      "question": 41,
+      "quantity": "toaster energy (J)",
+      "computed": 72000,
+      "expected": 72000
+    },
+    {
+      "question": 41,
+      "quantity": "toaster energy (kWh)",
+      "computed": 0.02,
+      "expected": 0.02
+    },
+    {
+      "question": 41,
+      "quantity": "toaster cost (dollars)",
+      "computed": 0.006,
+      "expected": 0.006
+    },
+    {
+      "question": 42,
+      "quantity": "battery charge (C)",
+      "computed": 8640.0,
+      "expected": 8640
+    },
+    {
+      "question": 42,
+      "quantity": "battery energy (J)",
+      "computed": 12960.0,
+      "expected": 12960
+    },
+    {
+      "question": 44,
+      "quantity": "four-bulb voltage (V)",
+      "computed": 3.0,
+      "expected": 3
+    },
+    {
+      "question": 44,
+      "quantity": "three-bulb voltage (V)",
+      "computed": 4.0,
+      "expected": 4
+    },
+    {
+      "question": 46,
+      "quantity": "series resistance (ohm)",
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "question": 46,
+      "quantity": "series current (A)",
+      "computed": 1.3333333333333333,
+      "expected": 1.3333333333333333
+    },
+    {
+      "question": 46,
+      "quantity": "parallel resistance (ohm)",
+      "computed": 2.0,
+      "expected": 2
+    },
+    {
+      "question": 46,
+      "quantity": "parallel total current (A)",
+      "computed": 6.0,
+      "expected": 6
+    },
+    {
+      "question": 48,
+      "quantity": "combined current (A)",
+      "computed": 15.0,
+      "expected": 15
+    },
+    {
+      "question": 48,
+      "quantity": "current with lamp (A)",
+      "computed": 16.0,
+      "expected": 16
+    }
+  ],
+  "source_sha256": {
+    "m67129": "06539380e1aa67dd9605161aae6de84bb692008d1d710539735d345fcfd841b1",
+    "m52381": "f0473a98a1aa42a7f0c41cb53315ef5f427d2f2e899baf4ba86922c099b223fe",
+    "m52384": "448ea7b47a0bea26a18640ec55f845dd84f529e485e7a009e8b99f41ec7a3dc1",
+    "m52385": "0f0081d18e56dad29eab32062faaa7cb541b90636940c5c0bc56d9d3efc3f794",
+    "m70739": "fd0738753a21847fc7a0f763f902cb3fd528ae888a5a925f3d6ff3f2cd04d8c6",
+    "m75427": "af38e549b217b579e403e733a925c7a6b21c37aa8eac8d61d681ae99c5494fa0",
+    "m75428": "8b5c6f03c351d90b0c0280aa576d1cf9cde0e9ac6f0f69f3757b123ad8f62db6",
+    "m67130": "16a81e979760b5deb61c9bb6f43a533457e8f80f25321ec4d68529756a3126e9",
+    "m52401": "bb2fcde444246ee5c37bc787e9de825be40b79875175d4818c953ef90dcf98b2",
+    "m52402": "515ca66cdb81c3729f46b126a7301b646e765542609a5e842f1898a0f2c76a10",
+    "m42356": "3976f454658de42f9e6e87bd0946b63e765da1952833ba69054902d9df0e80c3",
+    "m52406": "d31b07fb01f41f4e663d6697b543ab5af642c9fe1d0709af66ac12c4d84b74d6"
+  },
+  "limitations": "Qualitative answers checked editorially; no code from MyOpenMath executed. This is a proposal, not an applied chapter or public answer key."
+}

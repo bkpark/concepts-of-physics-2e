@@ -1,0 +1,253 @@
+[
+  {
+    "module": "m42176",
+    "label": "6.1",
+    "title": "Introduction to Rotational Motion and Angular Momentum",
+    "glossary": 0,
+    "summaries": 0,
+    "exercises": []
+  },
+  {
+    "module": "m71592",
+    "label": "6.2",
+    "title": "Angular Acceleration",
+    "glossary": 5,
+    "summaries": 1,
+    "exercises": [
+      {
+        "id": "fs-id1870686",
+        "type": "check-understanding",
+        "parent_id": null,
+        "text": "Check Your Understanding Angular acceleration is a vector, having both magnitude and direction. How do we denote its magnitude and direction? Illustrate with an example. The magnitude of angular acceleration is α size 12{α} {} and its most common units are rad/s2 size 12{\"rad/s\" rSup { size 8{2} } } {}. The direction of angular acceleration along a fixed axis is denoted by a + or a – sign, just as the direction of linear acceleration in one dimension is denoted by a + or a – sign. For example, consider a gymnast doing a forward flip. Her angular momentum would be parallel to the mat and to her left. The magnitude of her angular acceleration would be proportional to her angular velocity (spin rate) and her moment of inertia about her spin axis."
+      },
+      {
+        "id": "fs-id1361145",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1577741",
+        "text": "Analogies exist between rotational and translational physical quantities. Identify the rotational term analogous to each of the following: acceleration, force, mass, work, translational kinetic energy, linear momentum, impulse."
+      },
+      {
+        "id": "fs-id1867019",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1577741",
+        "text": "Explain why centripetal acceleration changes the direction of velocity in circular motion but not its magnitude."
+      },
+      {
+        "id": "fs-id3046867",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1577741",
+        "text": "In circular motion, a tangential acceleration can change the magnitude of the velocity but not its direction. Explain your answer."
+      },
+      {
+        "id": "fs-id3046066",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1577741",
+        "text": "Suppose a piece of food is on the edge of a rotating microwave oven plate. Does it experience nonzero tangential acceleration, centripetal acceleration, or both when: (a) The plate starts to spin? (b) The plate rotates at constant angular velocity? (c) The plate slows to a halt?"
+      }
+    ]
+  },
+  {
+    "module": "m71593",
+    "label": "6.3",
+    "title": "Dynamics of Rotational Motion- Rotational Inertia",
+    "glossary": 3,
+    "summaries": 1,
+    "exercises": [
+      {
+        "id": "fs-id2404667",
+        "type": "check-understanding",
+        "parent_id": "fs-id3119201",
+        "text": "Check Your Understanding Torque is the analog of force and moment of inertia is the analog of mass. Force and mass are physical quantities that depend on only one factor. For example, mass is related solely to the numbers of atoms of various types in an object. Are torque and moment of inertia similarly simple? No. Torque depends on three factors: force magnitude, force direction, and point of application. Moment of inertia depends on both mass and its distribution relative to the axis of rotation. So, while the analogies are precise, these rotational quantities depend on more factors."
+      },
+      {
+        "id": "fs-id2655227",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id2445482",
+        "text": "The moment of inertia of a long rod spun around an axis through one end perpendicular to its length is ML2/3 size 12{\"ML\" rSup { size 8{2} } \"/3\"} {}. Why is this moment of inertia greater than it would be if you spun a point mass M at the location of the center of mass of the rod (at L / 2 size 12{L/2} {} )? (That would be ML2/4 size 12{\"ML\" rSup { size 8{2} } \"/4\"} {}.)"
+      },
+      {
+        "id": "fs-id2450048",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id2445482",
+        "text": "Why is the moment of inertia of a hoop that has a mass M and a radius R greater than the moment of inertia of a disk that has the same mass and radius? Why is the moment of inertia of a spherical shell that has a mass M and a radius R greater than that of a solid sphere that has the same mass and radius?"
+      },
+      {
+        "id": "fs-id1222304",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id2445482",
+        "text": "Give an example in which a small force exerts a large torque. Give another example in which a large force exerts a small torque."
+      },
+      {
+        "id": "fs-id2680047",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id2445482",
+        "text": "While reducing the mass of a racing bike, the greatest benefit is realized from reducing the mass of the tires and wheel rims. Why does this allow a racer to achieve greater accelerations than would an identical reduction in the mass of the bicycle’s frame? The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jesús Rodriguez)"
+      },
+      {
+        "id": "fs-id1401566",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id2445482",
+        "text": "A ball slides up a frictionless ramp. It is then rolled without slipping and with the same initial velocity up another frictionless ramp (with the same slope angle). In which case does it reach a greater height, and why?"
+      }
+    ]
+  },
+  {
+    "module": "m67046",
+    "label": "6.4",
+    "title": "Rotational Kinetic Energy",
+    "glossary": 1,
+    "summaries": 1,
+    "exercises": [
+      {
+        "id": "fs-id2931518",
+        "type": "check-understanding",
+        "parent_id": "fs-id2616556",
+        "text": "Check Your Understanding Analogy of Rotational and Translational Kinetic EnergyIs rotational kinetic energy completely analogous to translational kinetic energy? What, if any, are their differences? Give an example of each type of kinetic energy. Yes, rotational and translational kinetic energy are exact analogs. They both are the energy of motion involved with the coordinated (non-random) movement of mass relative to some reference frame. The only difference between rotational and translational kinetic energy is that translational is straight line motion while rotational is not. An example of both kinetic and translational kinetic energy is found in a bike tire while being ridden down a bike path. The rotational motion of the tire means it has rotational kinetic energy while the movement of the bike along the path means the tire also has translational kinetic energy. If you were to lift the front wheel of the bike and spin it while the bike is stationary, then the wheel would have only rotational kinetic energy relative to the Earth."
+      },
+      {
+        "id": "fs-id3026004",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1578001",
+        "text": "Describe the energy transformations involved when a yo-yo is thrown downward and then climbs back up its string to be caught in the user’s hand."
+      },
+      {
+        "id": "fs-id1428194",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1578001",
+        "text": "What energy transformations are involved when a dragster engine is revved, its clutch let out rapidly, its tires spun, and it starts to accelerate forward? Describe the source and transformation of energy at each step."
+      },
+      {
+        "id": "fs-id2640555",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id1578001",
+        "text": "The Earth has more rotational kinetic energy now than did the cloud of gas and dust from which it formed. Where did this energy come from? An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)"
+      }
+    ]
+  },
+  {
+    "module": "m71594",
+    "label": "6.5",
+    "title": "Angular Momentum and Its Conservation",
+    "glossary": 2,
+    "summaries": 1,
+    "exercises": [
+      {
+        "id": "fs-id3112286",
+        "type": "check-understanding",
+        "parent_id": "fs-id1221104",
+        "text": "Check Your Undestanding Is angular momentum completely analogous to linear momentum? What, if any, are their differences? Yes, angular and linear momentums are completely analogous. While they are exact analogs they have different units and are not directly inter-convertible like forms of energy are."
+      },
+      {
+        "id": "fs-id2410017",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "When you start the engine of your car with the transmission in neutral, you notice that the car rocks in the opposite sense of the engine’s rotation. Explain in terms of conservation of angular momentum. Is the angular momentum of the car conserved for long (for more than a few seconds)?"
+      },
+      {
+        "id": "fs-id2640407",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Suppose a child walks from the outer edge of a rotating merry-go round to the inside. Does the angular velocity of the merry-go-round increase, decrease, or remain the same? Explain your answer. A child may jump off a merry-go-round in a variety of directions."
+      },
+      {
+        "id": "fs-id1994709",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Suppose a child gets off a rotating merry-go-round. Does the angular velocity of the merry-go-round increase, decrease, or remain the same if: (a) He jumps off radially? (b) He jumps backward to land motionless? (c) He jumps straight up and hangs onto an overhead tree branch? (d) He jumps off forward, tangential to the edge? Explain your answers. (Refer to )."
+      },
+      {
+        "id": "fs-id2052739",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Helicopters have a small propeller on their tail to keep them from rotating in the opposite direction of their main lifting blades. Explain in terms of Newton’s third law why the helicopter body rotates in the opposite direction to the blades."
+      },
+      {
+        "id": "fs-id3180885",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Whenever a helicopter has two sets of lifting blades, they rotate in opposite directions (and there will be no tail propeller). Explain why it is best to have the blades rotate in opposite directions."
+      },
+      {
+        "id": "fs-id2446255",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Describe how work is done by a skater pulling in her arms during a spin. In particular, identify the force she exerts on each arm to pull it in and the distance each moves, noting that a component of the force is in the direction moved. Why is angular momentum not increased by this action?"
+      },
+      {
+        "id": "fs-id2595479",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "When there is a global heating trend on Earth, the atmosphere expands and the length of the day increases very slightly. Explain why the length of a day increases."
+      },
+      {
+        "id": "fs-id1985120",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Nearly all conventional piston engines have flywheels on them to smooth out engine vibrations caused by the thrust of individual piston firings. Why does the flywheel have this effect?"
+      },
+      {
+        "id": "fs-id3450198",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Jet turbines spin rapidly. They are designed to fly apart if something makes them seize suddenly, rather than transfer angular momentum to the plane’s wing, possibly tearing it off. Explain how flying apart conserves angular momentum without transferring it to the wing."
+      },
+      {
+        "id": "fs-id3093611",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "An astronaut tightens a bolt on a satellite in orbit. He rotates in a direction opposite to that of the bolt, and the satellite rotates in the same direction as the bolt. Explain why. If a handhold is available on the satellite, can this counter-rotation be prevented? Explain your answer."
+      },
+      {
+        "id": "fs-id1080849",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Competitive divers pull their limbs in and curl up their bodies when they do flips. Just before entering the water, they fully extend their limbs to enter straight down. Explain the effect of both actions on their angular velocities. Also explain the effect on their angular momenta. The diver spins rapidly when curled up and slows when she extends her limbs before entering the water."
+      },
+      {
+        "id": "fs-id1860696",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "Draw a free body diagram to show how a diver gains angular momentum when leaving the diving board."
+      },
+      {
+        "id": "eip-746",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3234075",
+        "text": "In terms of angular momentum, what is the advantage of giving a football or a rifle bullet a spin when throwing or releasing it? The image shows a view down the barrel of a cannon, emphasizing its rifling. Rifling in the barrel of a canon causes the projectile to spin just as is the case for rifles (hence the name for the grooves in the barrel). (credit: Elsie esq., Flickr)"
+      }
+    ]
+  },
+  {
+    "module": "m71595",
+    "label": "6.6",
+    "title": "Gyroscopic Effects- Vector Aspects of Angular Momentum",
+    "glossary": 2,
+    "summaries": 1,
+    "exercises": [
+      {
+        "id": "fs-id1446925",
+        "type": "check-understanding",
+        "parent_id": null,
+        "text": "Check Your Understanding Rotational kinetic energy is associated with angular momentum? Does that mean that rotational kinetic energy is a vector? No, energy is always a scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion."
+      },
+      {
+        "id": "fs-id2603246",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3253985",
+        "text": "While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens."
+      },
+      {
+        "id": "fs-id1972542",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3253985",
+        "text": "Gyroscopes used in guidance systems to indicate directions in space must have an angular momentum that does not change in direction. Yet they are often subjected to large forces and accelerations. How can the direction of their angular momentum be constant when they are accelerated?"
+      },
+      {
+        "id": "eip-idm1290875088",
+        "type": "conceptual-questions",
+        "parent_id": "fs-id3253985",
+        "text": "Consider a gyroscope or a spinning bicycle wheel as in or . Under the torque due to gravitational force, they precess around a vertical axis. If this gyroscope or spinning bicycle wheel started out by spinning faster (larger angular momentum), will it precess faster or slower?"
+      }
+    ]
+  }
+]

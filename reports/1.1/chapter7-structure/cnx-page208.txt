@@ -1,0 +1,56 @@
+Figure 8.8 The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it
+cannot withstand a shearing force), and so the bottom must support it all.
+Example 8.3 Calculating the Average Pressure and Force Exerted: What Force Must a Dam
+Withstand?
+In m42187 (https://legacy.cnx.org/content/m42187/latest/#fs-id2449267) , we calculated the mass of water in a large
+reservoir. We will now consider the pressure and force acting on the dam retaining water. (See Figure 8.9.) The dam is 500
+m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b)
+Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be
+1.96×1013 N ).
+Strategy for (a)
+The average pressure P
+¯
+due to the weight of the water is the pressure at the average depth h
+¯
+of 40.0 m, since pressure
+increases linearly with depth.
+Solution for (a)
+The average pressure due to the weight of a fluid is
+(8.18)
+P
+¯
+= ρg h
+¯
+.
+Entering the density of water from m42187 (https://legacy.cnx.org/content/m42187/latest/#fs-id1769034) and taking h
+¯
+to be the average depth of 40.0 m, we obtain
+(8.19)
+P¯ = ⎛
+⎝103 kg
+m3
+⎞
+⎠
+⎛
+⎝9.80 m
+s2
+⎞
+⎠(40.0 m)
+= 3.92×105 N
+m2 = 392 kPa.
+Strategy for (b)
+The force exerted on the dam by the water is the average pressure times the area of contact:
+(8.20)
+F = P¯ A.
+Solution for (b)
+We have already found the value for P¯ . The area of the dam is A = 80.0 m×500 m = 4.00×104 m2 , so that
+(8.21)F = (3.92×105 N/m2)(4.00×104 m2)
+= 1.57×1010 N.
+Discussion
+Although this force seems large, it is small compared with the 1.96×1013 N weight of the water in the reservoir—in fact, it
+is only 0.0800% of the weight. Note that the pressure found in part (a) is completely independent of the width and length of
+the lake—it depends only on its average depth at the dam. Thus the force depends only on the water’s average depth and
+the dimensions of the dam, not on the horizontal extent of the reservoir. In the diagram, the thickness of the dam increases
+with depth to balance the increasing force due to the increasing pressure.
+202 Chapter 8 | Fluids
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

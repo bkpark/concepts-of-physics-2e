@@ -1,0 +1,191 @@
+
+    Coulomb’s Law
+    
+  m52384
+  Coulomb’s Law
+  
+State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.
+Calculate the electrostatic force between two charged point forces, such as electrons or protons.
+Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
+
+  6fc4bc88-c7aa-4d53-b829-b7475eefe07a
+
+
+
+        
+        
+        
+            
+        
+            
+            This NASA image of Arp 87 shows the result of a strong gravitational attraction between two galaxies. In contrast, at the subatomic level, the electrostatic attraction between two objects, such as an electron and a proton, is far greater than their mutual attraction due to gravity. (credit: NASA/HST)Through the work of scientists in the late 18th century, the main features of the electrostatic force—the existence of two types of charge, the observation that like charges repel, unlike charges attract, and the decrease of force with distance—were eventually refined, and expressed as a mathematical formula. The mathematical formula for the electrostatic force is called Coulomb’s law after the French physicist Charles Coulomb (1736–1806), who performed experiments and first proposed a formula to calculate it.
+        Coulomb’s Law
+            
+            F=k(|q_(1)q_(2)|)/(r^(2)).Coulomb’s law calculates the magnitude of the force F between two point charges, 
+
+q_(1) and 
+
+q_(2), separated by a distance r. In SI units, the constant k is equal tok=8.988
+
+×10^(9)
+
+(N⋅m^(2))/(C^(2))
+
+≈8.99
+×10^(9)
+
+(N⋅m^(2))/(C^(2)).The electrostatic force is a vector quantity and is expressed in units of newtons. The force is understood to be along the line joining the two charges. (See [reference import-auto-id3397088].)
+        Although the formula for Coulomb’s law is simple, it was no mean task to prove it. The experiments Coulomb did, with the primitive equipment then available, were difficult. Modern experiments have verified Coulomb’s law to great precision. For example, it has been shown that the force is inversely proportional to distance between two objects squared F∝1/r^(2) to an accuracy of 1 part in 10^(16). No exceptions have ever been found, even at the small distances within the atom.
+        
+          
+            
+        
+            
+            The magnitude of the electrostatic force F between point charges q_(1) and q_(2) separated by a distance r is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on q_(1) is equal in magnitude and opposite in direction to the force it exerts on q_(2). (a) Like charges. (b) Unlike charges.
+        
+        
+        How Strong is the Coulomb Force Relative to the Gravitational Force?Compare the electrostatic force between an electron and proton separated by 0.530×10^(−10)m with the gravitational force between them. This distance is their average separation in a hydrogen atom.Strategy
+            To compare the two forces, we first compute the electrostatic force using Coulomb’s law, F=k(|q_(1)q_(2)|)/(r^(2)). We then calculate the gravitational force using Newton’s universal law of gravitation. Finally, we take a ratio to see how the forces compare in magnitude.Solution
+            Entering the given and known information about the charges and separation of the electron and proton into the expression of Coulomb’s law yields
+            F=k(|q_(1)q_(2)|)/(r^(2))=
+                            
+                              
+                                8.99
+                                
+                                  ×
+                                   10^(
+                                        9
+                                      )
+                                
+                                (N⋅m^(2))/(C^(2))
+                              
+                            
+                            ×
+                            (
+                                (
+                                1.60
+                                
+                                  ×
+                                   10^(
+                                        −19
+                                      )
+                                
+                                C
+                                )
+                                (
+                                1.60
+                                
+                                  ×
+                                   10^(
+                                        −19 
+                                      )
+                                
+                                C
+                                )
+                              )/(
+                                (
+                                0.530
+                                
+                                  ×
+                                   10^(
+                                        −10
+                                      )
+                                
+                                m
+                                )^(
+                                      2
+                                    )
+                              )
+                          Thus the Coulomb force is
+            
+        
+          
+            
+              
+                
+                  
+                    F
+                    =
+                    8.19
+                  
+                  
+                    ×
+                     10^(
+                          −8
+                        )
+                  
+                  N
+                
+              
+            
+            
+.
+          
+          
+        
+       
+    The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of 8.99×10^(22)m/s^(2)(verification is left as an end-of-section problem).The gravitational force is given by Newton’s law of gravitation as:
+        
+          
+            
+              
+                
+                  
+                    F_(
+                          G
+                        )
+                    =
+                    G
+                  
+                  (mM)/(r^(
+                          2
+                        ))
+                
+              
+            
+            
+,
+          
+          
+        
+       
+    where G=6.67×10^(−11)N⋅m^(2)/
+kg^(2). Here m and M represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yieldsF_(G)=(6.67×10^(−11)(N⋅m^(2))/(kg^(2)))×((9.11×10^(−31)kg)(1.67×10^(−27)kg))/((0.530×10^(−10)m)^(2))=3.61×10^(−47)NThis is also an attractive force, although it is traditionally shown as positive since gravitational force is always attractive. The ratio of the magnitude of the electrostatic force to gravitational force in this case is, thus,
+            
+        
+          
+            
+              
+                
+                  
+                    (F)/(F_(
+                            G
+                          ))
+                    =
+                     2
+                  
+                  .
+                  
+                    27 
+                    ×
+                     10^(
+                          39
+                        )
+                  
+                
+              
+            
+            
+.
+          
+          
+        
+       
+    Discussion
+            This is a remarkably large ratio! Note that this will be the ratio of electrostatic force to gravitational force for an electron and a proton at any distance (taking the ratio before entering numerical values shows that the distance cancels). This ratio gives some indication of just how much larger the Coulomb force is than the gravitational force between two of the most common particles in nature.
+        As the example implies, gravitational force is completely negligible on a small scale, where the interactions of individual charged particles are important. On a large scale, such as between the Earth and a person, the reverse is true. Most objects are nearly electrically neutral, and so attractive and repulsive Coulomb forces nearly cancel. Gravitational force on a large scale dominates interactions between large objects because it is always attractive, while Coulomb forces tend to cancel.
+        
+        Questions and Exercises
+        Questions and Exercises
+    
+    

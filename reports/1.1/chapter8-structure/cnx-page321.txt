@@ -1,0 +1,34 @@
+Making Connections: Conservation of Energy
+In a simple electrical circuit, the sole resistor converts energy supplied by the source into another form. Conservation of
+energy is evidenced here by the fact that all of the energy supplied by the source is converted to another form by the resistor
+alone. We will find that conservation of energy has other important applications in circuits and is a powerful tool in circuit
+analysis.
+10.9 Electric Power and Energy
+Power in Electric Circuits
+Power is associated by many people with electricity. Knowing that power is the rate of energy use or energy conversion, what is
+the expression for electric power? Power transmission lines might come to mind. We also think of lightbulbs in terms of their
+power ratings in watts. Let us compare a 25-W bulb with a 60-W bulb. (See Figure 10.37(a).) Since both operate on the same
+voltage, the 60-W bulb must draw more current to have a greater power rating. Thus the 60-W bulb’s resistance must be lower
+than that of a 25-W bulb. If we increase voltage, we also increase power. For example, when a 25-W bulb that is designed to
+operate on 120 V is connected to 240 V, it briefly glows very brightly and then burns out. Precisely how are voltage, current, and
+resistance related to electric power?
+Figure 10.37 (a) Which of these lightbulbs, the 25-W bulb (upper left) or the 60-W bulb (upper right), has the higher resistance? Which draws more
+current? Which uses the most energy? Can you tell from the color that the 25-W filament is cooler? Is the brighter bulb a different color and if so why?
+(credits: Dickbauch, Wikimedia Commons; Greg Westfall, Flickr) (b) This compact fluorescent light (CFL) puts out the same intensity of light as the
+60-W bulb, but at 1/4 to 1/10 the input power. (credit: dbgg1979, Flickr)
+Electric energy depends on both the voltage involved and the charge moved. This is expressed most simply as PE = qV ,
+where q is the charge moved and V is the voltage (or more precisely, the potential difference the charge moves through).
+Power is the rate at which energy is moved, and so electric power is
+(10.47)P = PE
+t = qV
+t .
+Recognizing that current is I = q / t (note that Δt = t here), the expression for power becomes
+(10.48)P = IV.
+Electric power ( P ) is simply the product of current times voltage. Power has familiar units of watts. Since the SI unit for potential
+energy (PE) is the joule, power has units of joules per second, or watts. Thus, 1 A ⋅ V = 1 W . For example, cars often have
+one or more auxiliary power outlets with which you can charge a cell phone or other electronic devices. These outlets may be
+rated at 20 A, so that the circuit can deliver a maximum power P = IV = (20 A)(12 V) = 240 W . In some applications,
+electric power may be expressed as volt-amperes or even kilovolt-amperes ( 1 kA ⋅ V = 1 kW ).
+To see the relationship of power to resistance, we combine Ohm’s law with P = IV . Substituting I = V/R gives
+P = (V / R)V = V 2 /R . Similarly, substituting V = IR gives P = I(IR) = I 2R . Three expressions for electric power are
+Chapter 10 | Electricity 315

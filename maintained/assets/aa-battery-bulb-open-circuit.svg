@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="390" viewBox="0 0 820 390" role="img" aria-labelledby="title desc">
+  <title id="title">A bulb touches only one terminal of an AA battery</title>
+  <desc id="desc">A horizontal AA battery has its negative terminal on the left and positive terminal on the right. The bottom contact of a small incandescent bulb touches the positive terminal. The bulb extends to the right. Its metal screw-shell side contact and the battery's negative terminal are unconnected. No wire completes the circuit.</desc>
+  <defs>
+    <linearGradient id="battery" x2="0" y2="1"><stop stop-color="#f2c365"/><stop offset=".5" stop-color="#ffe0a0"/><stop offset="1" stop-color="#dfad4f"/></linearGradient>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#d8dfe3"/><stop offset=".5" stop-color="#f8fafb"/><stop offset="1" stop-color="#a5b1b8"/></linearGradient>
+  </defs>
+  <rect width="820" height="390" fill="white"/>
+  <g stroke="#263b46" stroke-width="2.5" stroke-linejoin="round">
+    <!-- Battery and its two distinct terminals. -->
+    <rect x="90" y="178" width="328" height="112" rx="10" fill="url(#battery)"/>
+    <path d="M105 178H100Q90 178 90 188V280Q90 290 100 290H105Z" fill="url(#metal)"/>
+    <path d="M399 178H408Q418 178 418 188V280Q418 290 408 290H399Z" fill="url(#metal)"/>
+    <path d="M418 219H437Q442 219 442 224V244Q442 249 437 249H418Z" fill="url(#metal)"/>
+    <!-- Bulb bottom contact touches the battery button at x=442. -->
+    <path d="M456 224H448Q442 224 442 234Q442 244 448 244H456Z" fill="#647682"/>
+    <path d="M456 212L470 201V267L456 256Z" fill="#ece9e2"/>
+    <path d="M470 199H528V269H470Z" fill="url(#metal)"/>
+    <path d="M473 206L524 216M473 218L524 228M473 230L524 240M473 242L524 252M473 254L524 264" fill="none" stroke="#87959e"/>
+    <!-- Clear glass envelope; the unlit filament is visible inside. -->
+    <path d="M528 204C554 204 557 180 583 163C615 141 660 147 684 178C709 209 709 257 684 288C660 319 615 325 583 303C557 286 554 264 528 264Z" fill="#f4f9fc"/>
+    <path d="M542 211C568 210 573 190 592 177" fill="none" stroke="#cbdce5" stroke-width="4" stroke-linecap="round"/>
+    <path d="M448 234H547L609 213M493 267V251H547L609 255" fill="none" stroke="#667782" stroke-width="2"/>
+    <path d="M609 213L615 218L605 224L615 230L605 236L615 242L605 248L609 255" fill="none" stroke="#394e59" stroke-width="2"/>
+  </g>
+  <g fill="#263b46" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="253" y="231" font-size="27" font-weight="bold">AA</text>
+    <text x="253" y="259" font-size="18">1.5 V</text>
+    <text x="128" y="243" font-size="30">−</text>
+    <text x="373" y="243" font-size="27">+</text>
+    <g font-size="19">
+      <text x="134" y="337">Negative terminal</text>
+      <text x="337" y="82">Positive terminal</text>
+      <text x="568" y="42">Bulb’s bottom contact</text>
+      <text x="505" y="337">Metal side contact</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#657780" stroke-width="1.5">
+    <path d="M103 313L94 293"/>
+    <path d="M363 92L421 168L430 215"/>
+    <path d="M514 80L460 147L448 220"/>
+    <path d="M502 313V274"/>
+  </g>
+</svg>

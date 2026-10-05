@@ -46,15 +46,15 @@
       "11",
       "12",
       "13",
-      "14"
+      "14",
+      "2",
+      "3",
+      "8"
     ],
     "exercise_type_aliases": {
       "problem-exercises": "problems-exercises"
     },
-    "exercise_paragraphs": [
-      "m67123#fs-id3224510",
-      "m67123#fs-id2862863"
-    ]
+    "exercise_paragraphs": []
   },
   "overrides": {
     "cnx": {},
@@ -67,6 +67,7 @@
     "Course PDF page 327: chapter conceptual questions numbered continuously, Ideal Gas Law questions 5 and 6; exercise figures labeled 8.E.1. Separate problem counter checked on page 331.",
     "Release-candidate comparison: July 7 reference PDF problems continue conceptual counters in chapters 1 (page 72), 9 (398), 10 (449), 11 (520), 12 (557), 13 (601), 14 (690). Chapter 8 restarts on page 331. Three unclassified Conceptual Questions source blocks contain eight questions retained in reference order.",
     "Recovered modules including m52381 and m76603 use the singular problem-exercises type inside plural problems-exercises sections; normalize only presentation category so chapter counters follow source order.",
-    "Course reference PDF page 327 numbers the two standalone m67123 conceptual-question paragraphs 11 and 12. They receive exercise display labels without changing their preserved paragraph XML."
+    "Course reference PDF page 327 numbers the two standalone m67123 conceptual-question paragraphs 11 and 12. They receive exercise display labels without changing their preserved paragraph XML.",
+    "Chapter 8 review: combine conceptual and numerical questions in section order with one continuous counter. Approved wrappers for the hot-tub/thermos prompts replace the legacy paragraph-numbering exceptions."
   ]
 }

@@ -1,0 +1,68 @@
+Current I for each device is much larger than for the same devices connected in series (see the previous example). A
+circuit with parallel connections has a smaller total resistance than the resistors connected in series.
+Strategy and Solution for (c)
+The individual currents are easily calculated from Ohm’s law, since each resistor gets the full voltage. Thus,
+(10.81)I1 = V
+R1
+= 12.0 V
+1.00 Ω = 12.0 A.
+Similarly,
+(10.82)I2 = V
+R2
+= 12.0 V
+6.00 Ω = 2.00 A
+and
+(10.83)I3 = V
+R3
+= 12.0 V
+13.0 Ω = 0.92 A.
+Discussion for (c)
+The total current is the sum of the individual currents:
+(10.84)I1 + I2 + I3 = 14.92 A.
+This is consistent with conservation of charge.
+Strategy and Solution for (d)
+The power dissipated by each resistor can be found using any of the equations relating power to current, voltage, and
+resistance, since all three are known. Let us use P = V 2
+R , since each resistor gets full voltage. Thus,
+(10.85)
+P1 = V 2
+R1
+= (12.0 V)2
+1.00 Ω = 144 W.
+Similarly,
+(10.86)
+P2 = V 2
+R2
+= (12.0 V)2
+6.00 Ω = 24.0 W
+and
+(10.87)
+P3 = V 2
+R3
+= (12.0 V)2
+13.0 Ω = 11.1 W.
+Discussion for (d)
+The power dissipated by each resistor is considerably higher in parallel than when connected in series to the same voltage
+source.
+Strategy and Solution for (e)
+The total power can also be calculated in several ways. Choosing P = IV , and entering the total current, yields
+(10.88)P = IV = (14.92 A)(12.0 V) = 179 W.
+Discussion for (e)
+Total power dissipated by the resistors is also 179 W:
+(10.89)P1 + P2 + P3 = 144 W + 24.0 W + 11.1 W = 179 W.
+This is consistent with the law of conservation of energy.
+Overall Discussion
+Note that both the currents and powers in parallel connections are greater than for the same devices in series.
+Major Features of Resistors in Parallel
+1. Parallel resistance is found from 1
+Rp
+= 1
+R1
++ 1
+R2
++ 1
+R3
++ ... , and it is smaller than any individual resistance in the
+combination.
+322 Chapter 10 | Electricity
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

@@ -1,0 +1,42 @@
+Making Connections: Take-Home Experiment
+Sit down with your feet on the ground on a chair that rotates. Lift one of your legs such that it is unbent (straightened out).
+Using the other leg, begin to rotate yourself by pushing on the ground. Stop using your leg to push the ground but allow the
+chair to rotate. From the origin where you began, sketch the angle, angular velocity, and angular acceleration of your leg as
+a function of time in the form of three separate graphs. Estimate the magnitudes of these quantities.
+Check Your Understanding
+Angular acceleration is a vector, having both magnitude and direction. How do we denote its magnitude and direction?
+Illustrate with an example.
+Solution
+The magnitude of angular acceleration is α and its most common units are rad/s2 . The direction of angular acceleration
+along a fixed axis is denoted by a + or a – sign, just as the direction of linear acceleration in one dimension is denoted by a +
+or a – sign. For example, consider a gymnast doing a forward flip. Her angular momentum would be parallel to the mat and
+to her left. The magnitude of her angular acceleration would be proportional to her angular velocity (spin rate) and her
+moment of inertia about her spin axis.
+7.2 Dynamics of Rotational Motion: Rotational Inertia
+If you have ever spun a bike wheel or pushed a merry-go-round, you know that force is needed to change angular velocity as
+seen in Figure 7.7. In fact, your intuition is reliable in predicting many of the factors that are involved. For example, we know that
+a door opens slowly if we push too close to its hinges. Furthermore, we know that the more massive the door, the more slowly it
+opens. The first example implies that the farther the force is applied from the pivot, the greater the angular acceleration; another
+implication is that angular acceleration is inversely proportional to mass. These relationships should seem very similar to the
+familiar relationships among force, mass, and acceleration embodied in Newton’s second law of motion. There are, in fact,
+precise rotational analogs to both force and mass.
+Figure 7.7 Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel,
+the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.
+To develop the precise relationship among force, mass, radius, and angular acceleration, consider what happens if we exert a
+force F on a point mass m that is at a distance r from a pivot point, as shown in Figure 7.8. Because the force is
+perpendicular to r , an acceleration a = F
+m is obtained in the direction of F . We can rearrange this equation such that
+F = ma and then look for ways to relate this expression to expressions for rotational quantities. We note that a = rα , and we
+substitute this expression into F = ma , yielding
+(7.15)F = mrα.
+The turning effectiveness of force is called torque. Intuitively, torque increases with a larger lever arm, or the perpendicular
+distance between the center of rotation and the point at which force is being applied (think of a see-saw; to balance the weight of
+a heavier child on one side with a lighter child on the other side, the lighter child needs to sit farther from the pivot point). So,
+torque is given by τ = rF . So, if we multiply both sides of the equation above by r , we get torque on the left-hand side. That
+is,
+(7.16)rF = mr2α
+or
+(7.17)τ = mr2α.
+This last equation is the rotational analog of Newton’s second law ( F = ma ), where torque is analogous to force, angular
+176 Chapter 7 | Rotation
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

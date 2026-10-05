@@ -1,0 +1,2312 @@
+{
+  "status": "author-approved-applied",
+  "preview_baseline": 68,
+  "questions": [
+    {
+      "number": 1,
+      "section": "9.2",
+      "old": 1,
+      "title": "Neutral does not mean uncharged particles",
+      "prompt": "There are very large numbers of charged particles in most objects. Why, then, don’t most objects exhibit static electricity?",
+      "answer": "Positive and negative constituent charges cancel in the net charge; large populations need not imply a large imbalance.",
+      "rationale": "Retain the foundational distinction between net charge and constituent charges.",
+      "sources": []
+    },
+    {
+      "number": 2,
+      "section": "9.2",
+      "old": 2,
+      "title": "Charge transfer and conservation",
+      "prompt": "Two initially neutral objects are rubbed together in an isolated system. Electrons transfer from object A to object B. Which object becomes positive, which becomes negative, and how do their net charges compare? Does rubbing create net electric charge?",
+      "answer": "A becomes positive and B negative, with equal magnitudes. Their combined net charge remains zero.",
+      "rationale": "Replace the vague tendency-to-neutrality question with a concrete conservation task.",
+      "sources": [
+        {
+          "id": "1531332025029346",
+          "description": "Introduction to Physics - Electric Charges - Conservation of Charge - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "section": "9.2",
+      "old": 3,
+      "title": "Counting excess electrons",
+      "prompt": "An initially neutral object gains 2.0 × 10¹⁰ electrons. Using e = 1.60 × 10⁻¹⁹ C, find its net charge. Would removing the same number of electrons instead give the same magnitude and sign?",
+      "answer": "−3.2 × 10⁻⁹ C = −3.2 nC; removal gives +3.2 nC.",
+      "rationale": "One short charge-counting calculation replaces four similar conversions.",
+      "sources": []
+    },
+    {
+      "number": 4,
+      "section": "9.2",
+      "old": null,
+      "title": "Attraction and repulsion",
+      "prompt": "Two small objects are known to carry nonzero net charges. Which statements are correct? Explain each choice. (a) Like signs repel. (b) Opposite signs attract. (c) They must touch before exerting electric forces on one another. (d) Doubling their separation makes the electric force exactly zero.",
+      "answer": "(a) and (b); the force acts at a distance and decreases continuously rather than switching off at a finite distance.",
+      "rationale": "Preserve useful multiple-choice contrasts instead of a quotation-completion task.",
+      "sources": [
+        {
+          "id": "1531331885772237",
+          "description": "Introduction to Physics - Electric Charges - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "section": "9.3",
+      "old": 8,
+      "title": "Why a charged object attracts a polar molecule",
+      "prompt": "A neutral polar molecule has separated positive and negative regions. It is free to turn near a charged object whose field is nonuniform. Explain why it can be attracted whether the object is positive or negative.",
+      "answer": "The molecule turns so its opposite-sign region is nearer. The closer attractive interaction is stronger than the more distant repulsive interaction; net attraction results.",
+      "rationale": "Make orientation and unequal distances explicit; no water diagram is required.",
+      "sources": []
+    },
+    {
+      "number": 6,
+      "section": "9.3",
+      "old": 10,
+      "title": "One Coulomb-force calculation",
+      "prompt": "Two small spheres are 8.00 cm apart and each carries −30.0 nC. Treat them as point charges. Find the magnitude of the force on each sphere and state whether it is attractive or repulsive. Use k = 8.99 × 10⁹ N·m²/C².",
+      "answer": "1.26 × 10⁻³ N on each; repulsive, equal in magnitude and opposite in direction.",
+      "rationale": "Keep one representative calculation with realistic static-charge scale and explicit point-charge model.",
+      "sources": [
+        {
+          "id": "1531332219631294",
+          "description": "Introduction to Physics - Coulomb's Law - Calculations - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "section": "9.3",
+      "old": 12,
+      "title": "Inverse-square and charge-product predictions",
+      "prompt": "Two fixed point charges exert forces of magnitude 5.0 N on each other. Starting from this arrangement each time, find the force magnitude if (a) their separation triples, (b) one charge doubles, and (c) both charges double while their separation doubles. Explain using proportional reasoning.",
+      "answer": "(a) 5/9 N ≈ 0.56 N; (b) 10 N; (c) 5.0 N.",
+      "rationale": "Expand one existing proportional task to cover both factors in Coulomb’s law.",
+      "sources": [
+        {
+          "id": "1531332155480816",
+          "description": "Introduction to Physics - Coulomb's Law - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "section": "9.3",
+      "old": null,
+      "title": "Where can forces cancel?",
+      "prompt": "Two fixed point charges lie on a line: +q at x = 0 and −4q at x = L, where q and L are positive. A nonzero test charge is placed elsewhere on that line. In which region can its net electric force be zero: x < 0, 0 < x < L, or x > L? Explain without solving for the exact position. Would changing the sign of the test charge change the answer?",
+      "answer": "x < 0. Between charges the fields reinforce. Outside, fields oppose, but cancellation must be nearer the smaller-magnitude source. Reversing test-charge sign reverses both forces and leaves the cancellation point unchanged.",
+      "rationale": "A self-contained adaptation of the zero-force family; coordinates replace the source’s diagram dependency.",
+      "sources": [
+        {
+          "id": "1531332354278799",
+          "description": "Introduction to Physics - Coulomb's Law - Zero Net Force - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        },
+        {
+          "id": "1531332445518248",
+          "description": "Introduction to Physics - Coulomb's Law - Zero Net Force - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "section": "9.4",
+      "old": 24,
+      "title": "A small test charge",
+      "prompt": "Why should a test charge used to probe an electric field be small enough not to appreciably disturb the source charges?",
+      "answer": "Otherwise its own force rearranges the sources, so the measured field is not the original field.",
+      "rationale": "Retain the idea while replacing the unnecessarily absolute “vanishingly small.”",
+      "sources": []
+    },
+    {
+      "number": 10,
+      "section": "9.4",
+      "old": 25,
+      "title": "Field versus force",
+      "prompt": "At one point, an electric field points east. Compare the electric forces on test charges +q, +2q, and −q placed there one at a time, without disturbing the sources. Does the electric field itself change when the test charge changes?",
+      "answer": "Forces qE east, 2qE east, qE west; the prescribed source field is unchanged.",
+      "rationale": "Replace ambiguous “unique force field” language with a direct comparison.",
+      "sources": [
+        {
+          "id": "1531332568817052",
+          "description": "Introduction to Physics - Electric Fields - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "section": "9.4",
+      "old": 26,
+      "title": "Inferring a field from a negative test charge",
+      "prompt": "A −2.0 μC test charge experiences an electric force of 6.0 × 10⁻⁴ N upward. What are the magnitude and direction of the electric field?",
+      "answer": "300 N/C downward.",
+      "rationale": "Transparent fixed values keep attention on the sign and E = F/q.",
+      "sources": [
+        {
+          "id": "1531332730031434",
+          "description": "Introduction to Physics - Electric Fields - Calculations - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "section": "9.4",
+      "old": 27,
+      "title": "Force in a known field",
+      "prompt": "A uniform electric field of 250 N/C points east. Find the electric force on (a) +4.0 μC and (b) −4.0 μC.",
+      "answer": "1.0 × 10⁻³ N east and west, respectively.",
+      "rationale": "Retain the complementary F = qE calculation, adding the sign comparison.",
+      "sources": []
+    },
+    {
+      "number": 13,
+      "section": "9.5",
+      "old": 33,
+      "title": "Drawing isolated-charge fields",
+      "prompt": "Using the same field-line scale in both sketches, draw the electric field lines around (a) +q and (b) −3q. Show the directions and explain how the numbers of drawn lines compare.",
+      "answer": "Radially outward from +q, inward toward −3q; three times as many lines for −3q under the same plotting convention.",
+      "rationale": "Keep a drawing task; line count is explicitly a graphical convention.",
+      "sources": []
+    },
+    {
+      "number": 14,
+      "section": "9.5",
+      "old": null,
+      "title": "Reading field-line diagrams",
+      "prompt": "Which statements about an electrostatic field-line diagram are correct? Explain. (a) Arrows give the force direction for a positive test charge. (b) Closer line spacing indicates a stronger field when the same drawing convention is used. (c) Two field lines can cross at a point where the field is nonzero. (d) A moving charged particle must follow a field line.",
+      "answer": "(a), (b) correct; (c) would assign two field directions to one point; (d) confuses force/acceleration direction with velocity and trajectory.",
+      "rationale": "Preserve the source’s misconception contrasts, avoid requiring every line to end on a finite charge.",
+      "sources": [
+        {
+          "id": "1531332903724854",
+          "description": "Introduction to Physics - Electric Fields - Field Lines - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "section": "9.5",
+      "old": 36,
+      "title": "An unequal pair of opposite charges",
+      "prompt": "Sketch a field-line diagram for two fixed charges, +q and −3q. Indicate which lines connect the charges and whether any must extend to or from far away. What sign of net charge would the pair resemble at distances much larger than their separation?",
+      "answer": "Lines leave +q and end on −3q; additional lines arrive from infinity at −3q. Far away the net charge is −2q.",
+      "rationale": "Combine local and far-field interpretation without relying on a removed question’s figure.",
+      "sources": []
+    },
+    {
+      "number": 16,
+      "section": "9.6",
+      "old": 39,
+      "title": "Potential difference means energy per charge",
+      "prompt": "What does a potential difference of 12 V mean in joules per coulomb? If a positive charge of 2.0 μC moves to a point 12 V higher in potential, what is the change in its electric potential energy?",
+      "answer": "12 J/C; ΔPE = qΔV = +24 μJ.",
+      "rationale": "Connect the definition directly to one short calculation rather than formula recall.",
+      "sources": [
+        {
+          "id": "1531332961248520",
+          "description": "Introduction to Physics - Electric Potential - Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "section": "9.6",
+      "old": 40,
+      "title": "Choosing the potential reference",
+      "prompt": "Why is a voltage measured between two points? If the same constant is added to the electric potential assigned to every point, do potential differences or electric forces change?",
+      "answer": "Potential zero is arbitrary; differences, field, and forces do not change.",
+      "rationale": "Retain the reference-level concept with an explicit prediction.",
+      "sources": []
+    },
+    {
+      "number": 18,
+      "section": "9.6",
+      "old": 38,
+      "title": "Equal potentials do not require zero field",
+      "prompt": "Two points are at the same electric potential. What is the net work done by the electrostatic force as a charge moves between them? Does this imply that the electric force must vanish at every point along its path? Explain.",
+      "answer": "W_electric = −qΔV = 0. No; nonzero forces may do cancelling work, or be perpendicular to displacement.",
+      "rationale": "Specify whose work is meant; avoids confusing zero net work with zero local force.",
+      "sources": []
+    },
+    {
+      "number": 19,
+      "section": "9.6",
+      "old": 41,
+      "title": "Volts and electron volts",
+      "prompt": "Explain the difference between a volt and an electron volt. Why is the electron volt convenient for energies of atoms and charged subatomic particles? Is an electron volt restricted to the energy of an electron?",
+      "answer": "V is J/C; eV is energy, 1.60 × 10⁻¹⁹ J. It is a convenient microscopic scale and can describe any system’s energy.",
+      "rationale": "Combine unit distinction and scale reasoning.",
+      "sources": [
+        {
+          "id": "1531333137083393",
+          "description": "Introduction to Physics - Electric Potential - Electron-Volt - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "section": "9.6",
+      "old": null,
+      "title": "Electron acceleration and the energy sign",
+      "prompt": "An electron moves from rest from a point at 0 V to a point at +100 V under the electric force alone. (a) Does its electric potential energy increase or decrease? (b) Find its kinetic-energy gain in eV and joules. Use e = 1.60 × 10⁻¹⁹ C.",
+      "answer": "ΔPE = −100 eV = −1.60 × 10⁻¹⁷ J; ΔKE = +100 eV = +1.60 × 10⁻¹⁷ J.",
+      "rationale": "Correct the source’s unspecified kind of “energy gain” and use a consistent acceleration direction.",
+      "sources": [
+        {
+          "id": "1531333047872425",
+          "description": "Introduction to Physics - Electric Potential - Calculations - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.2 through 9.7"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "section": "9.7",
+      "old": 52,
+      "title": "Diagnosing electrostatic equilibrium",
+      "prompt": "A diagram shows a nonzero electric-field component tangent to the surface of a solid metal object. Can that object be in electrostatic equilibrium? Explain what its mobile charges would do.",
+      "answer": "No: tangential forces drive charge motion.",
+      "rationale": "Focus on why a tangential electric field prevents electrostatic equilibrium in a metal.",
+      "sources": []
+    },
+    {
+      "number": 22,
+      "section": "9.7",
+      "old": 54,
+      "title": "Recognizing a uniform electric field",
+      "prompt": "In Figure 9.7.4, what features of the field lines indicate that the electric field between the plates is approximately uniform in both strength and direction? Where does this approximation break down?",
+      "answer": "The lines are evenly spaced, straight, parallel, and point in the same direction in the central region. Near the plate edges, the lines curve and their spacing changes, so the field is no longer approximately uniform.",
+      "rationale": "Interpret the field-line figure using concepts explicitly covered in the text, without requiring an explanation of charge distribution or changing plate geometry.",
+      "sources": []
+    },
+    {
+      "number": 23,
+      "section": "9.7",
+      "old": 57,
+      "title": "The Van de Graaff belt",
+      "prompt": "Can the belt of a Van de Graaff accelerator be a conductor? Explain.",
+      "answer": "In the usual design the insulating belt transports deposited charge instead of allowing it to leak along a continuous conducting path. A conducting replacement would not retain charge in the same way.",
+      "rationale": "Retain a direct application of the conductor/insulator distinction.",
+      "sources": []
+    },
+    {
+      "number": 24,
+      "section": "9.7",
+      "old": 58,
+      "title": "Electrostatic shielding",
+      "prompt": "A closed conducting shell is in electrostatic equilibrium in an external electric field. There are no charges in its cavity. Explain why an object in the cavity can be shielded from the external static electric field. What role does charge redistribution play?",
+      "answer": "Mobile charges redistribute so the field within the conducting material vanishes; the closed empty cavity is equipotential and has zero electrostatic field.",
+      "rationale": "Replace the oversimplified two-reasons-for-car-safety prompt with the electrostatic principle actually taught.",
+      "sources": []
+    },
+    {
+      "number": 25,
+      "section": "9.7",
+      "old": null,
+      "title": "Hair in an electrostatic demonstration",
+      "prompt": "In a demonstration, a person is insulated from the ground and acquires charge from a Van de Graaff generator. Individual strands of hair acquire charges of the same sign and spread apart. Explain the spreading. Would the explanation change if all the charges had the opposite sign?",
+      "answer": "Like-charged strands repel; reversing all signs leaves the repulsion.",
+      "rationale": "Adapt the essay into a self-contained explanation, without importing its image or presenting instructions to perform the demonstration.",
+      "sources": [
+        {
+          "id": "1541295419473688",
+          "description": "Introduction to Physics (Essay Questions) - Electricity - VDG Generator and Electrostatic Repulsion",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 9",
+            "Take-Home Option A Final Exam (open book; 6-hour limit)"
+          ],
+          "roles": [
+            "archived",
+            "timed-essay"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "section": "9.8",
+      "old": null,
+      "title": "What an ampere measures",
+      "prompt": "A wire carries a steady current of 2.0 A. Which statement gives its meaning? Explain why the others do not. (a) 2.0 C passes a cross section each second. (b) Each charge carrier moves at 2.0 m/s. (c) The wire uses up 2.0 C each second.",
+      "answer": "(a); current is charge-flow rate, not carrier speed or charge consumption.",
+      "rationale": "Keep useful answer choices targeting common misconceptions.",
+      "sources": [
+        {
+          "id": "1531358616339283",
+          "description": "Introduction to Physics - Circuits - Current Definitions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "section": "9.8",
+      "old": 68,
+      "title": "Neutral wire, nonzero current",
+      "prompt": "Can a wire carry a current and still be neutral—that is, have a net charge of zero? Explain.",
+      "answer": "Yes. Mobile electrons drift while their negative charge is approximately balanced by positive lattice charge; neutrality does not require no motion.",
+      "rationale": "Retain a central distinction between net charge and charge flow.",
+      "sources": []
+    },
+    {
+      "number": 28,
+      "section": "9.8",
+      "old": null,
+      "title": "Electrons and conventional current",
+      "prompt": "In a metal wire, electrons drift west. Which direction is the conventional current? Explain why the directions differ.",
+      "answer": "East; conventional current follows positive-charge motion, so negative carriers moving west give eastward current.",
+      "rationale": "Specify metal, since not all conductors have electrons as their only mobile carriers.",
+      "sources": [
+        {
+          "id": "1531358805127996",
+          "description": "Introduction to Physics - Circuits - Current Descriptions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "section": "9.8",
+      "old": 70,
+      "title": "A complete circuit",
+      "prompt": "A small bulb’s bottom contact touches the positive terminal of an AA battery, as shown. The bulb’s metal side contact and the battery’s negative terminal are unconnected. Why does this not sustain a steady current? What is needed to complete the circuit?",
+      "answer": "A complete conducting path back to the other terminal is needed; charge buildup quickly prevents sustained flow in the open path.",
+      "rationale": "Retain loop reasoning in a concrete setup.",
+      "sources": []
+    },
+    {
+      "number": 30,
+      "section": "9.8",
+      "old": 74,
+      "title": "Charge passing a flashlight",
+      "prompt": "A total of 600 C passes through a flashlight in 0.500 h. What is the average current in amperes? Show the conversion from hours to seconds.",
+      "answer": "600/1800 = 0.333 A.",
+      "rationale": "Keep one rate calculation with a useful time-unit conversion.",
+      "sources": []
+    },
+    {
+      "number": 31,
+      "section": "9.8",
+      "old": 75,
+      "title": "Short pulse, small transferred charge",
+      "prompt": "A charge of 0.250 μC moves during a 1.00 μs static discharge. (a) Find the average current during the pulse. (b) Explain why this current alone does not tell you how much energy was transferred.",
+      "answer": "0.250 A; charge, potential difference, and the time-dependent discharge conditions determine energy. A large brief current does not specify energy by itself.",
+      "rationale": "Retain the scale contrast without inferring safety from a single current value.",
+      "sources": []
+    },
+    {
+      "number": 32,
+      "section": "9.9",
+      "old": 84,
+      "title": "Energy is transferred; charge is conserved",
+      "prompt": "In a steady circuit with one resistor, compare the current entering and leaving the resistor. What changes as charge passes through the resistor: the amount of charge flowing each second, its electric potential energy, or both?",
+      "answer": "Equal currents; charge is conserved and energy is transferred to the resistor, decreasing electric potential energy along conventional current.",
+      "rationale": "Keep the charge-consumption misconception explicit.",
+      "sources": []
+    },
+    {
+      "number": 33,
+      "section": "9.9",
+      "old": 85,
+      "title": "A useful fluid analogy",
+      "prompt": "In the analogy between a resistor and a pipe carrying steady fluid flow, what corresponds to electric current and what corresponds to potential difference? Why does a pressure drop along the pipe not mean that fluid is being consumed there?",
+      "answer": "Volume-flow rate corresponds to current; pressure difference to voltage difference. Steady flow carries the same volume per second through the pipe while mechanical energy is transferred.",
+      "rationale": "Retain analogy and conservation; do not equate charge-flow rate with carrier speed.",
+      "sources": []
+    },
+    {
+      "number": 34,
+      "section": "9.9",
+      "old": null,
+      "title": "Recognizing ohmic behavior",
+      "prompt": "At constant temperature, a device carries 0.10 A at 2.0 V, 0.20 A at 4.0 V, and 0.30 A at 6.0 V. (a) Is this consistent with ohmic behavior? (b) Find its resistance. (c) Predict the current at 8.0 V if that behavior continues.",
+      "answer": "Yes; V/I = 20 Ω for each pair; 0.40 A.",
+      "rationale": "Add evidence-based proportional reasoning instead of another formula-selection item.",
+      "sources": [
+        {
+          "id": "1531358885292420",
+          "description": "Introduction to Physics - Circuits - Ohm's Law - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        },
+        {
+          "id": "1772490088531493",
+          "description": "Physics 10 - Lecture 19, Section 2 - Ohm’s Law (Resistance) [3 questions]",
+          "assessments": [
+            "Lecture 19 - Electricity II: Current, Circuits, and Ohm’s Law"
+          ],
+          "roles": [
+            "lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "section": "9.9",
+      "old": 86,
+      "title": "One direct Ohm’s-law calculation",
+      "prompt": "A flashlight bulb operates at 3.00 V with a hot resistance of 3.60 Ω. What current flows? Why is the word “hot” relevant when applying this model to an incandescent bulb?",
+      "answer": "0.833 A; filament resistance depends on temperature, so its operating resistance differs from its cold resistance.",
+      "rationale": "Retain one calculation and connect the model to material behavior.",
+      "sources": []
+    },
+    {
+      "number": 36,
+      "section": "9.9",
+      "old": 90,
+      "title": "Voltage lost in a cord",
+      "prompt": "Two cords have total resistances 0.060 Ω and 0.300 Ω. If each carries 5.0 A in a separate circuit, find the voltage drop across each cord. For the same supply voltage, which leaves less voltage across the attached appliance?",
+      "answer": "0.30 V and 1.5 V; the higher-resistance cord leaves less appliance voltage.",
+      "rationale": "Retain a practical comparison with stated equal currents; do not assume the load’s current remains fixed in all circumstances.",
+      "sources": [
+        {
+          "id": "1531358963420503",
+          "description": "Introduction to Physics - Circuits - Ohm's Law - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "section": "9.10",
+      "old": 93,
+      "title": "Two power formulas, different constraints",
+      "prompt": "For a resistor, P = V²/R and P = I²R. Why does one expression suggest decreasing power with increasing resistance and the other increasing power? State what must be held fixed in each comparison.",
+      "answer": "At fixed V, P falls as R rises; at fixed I, P rises. V and I cannot both stay fixed while R changes for an ohmic resistor.",
+      "rationale": "Retain the most useful conceptual power question.",
+      "sources": []
+    },
+    {
+      "number": 38,
+      "section": "9.10",
+      "old": 95,
+      "title": "Power from voltage and current",
+      "prompt": "A starter motor draws 250 A from a 24.0 V source. What electrical power is delivered to it? If it runs for 2.0 s at these values, how much electrical energy is delivered?",
+      "answer": "6.00 kW; 12 kJ.",
+      "rationale": "Add the power-versus-energy distinction to one straightforward calculation.",
+      "sources": [
+        {
+          "id": "1531360478839544",
+          "description": "Introduction to Physics - Electric Power - Calculations - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "section": "9.10",
+      "old": 98,
+      "title": "Heating in the same cords",
+      "prompt": "Consider the two cords from Exercise 36. Their resistances are 0.060 Ω and 0.300 Ω, and each carries 5.0 A. Find the power dissipated in each. If the current in either cord doubles while its resistance stays fixed, by what factor does its heating power change?",
+      "answer": "1.5 W and 7.5 W; factor of four.",
+      "rationale": "Complement the voltage-drop exercise with power scaling, using the same transparent setup.",
+      "sources": []
+    },
+    {
+      "number": 40,
+      "section": "9.10",
+      "old": 102,
+      "title": "Kilowatt-hours are energy",
+      "prompt": "Use 1 W = 1 J/s to show that 1 kW·h = 3.60 × 10⁶ J. Is a kilowatt-hour a unit of energy or power? Explain why the time unit matters.",
+      "answer": "1000 J/s × 3600 s = 3.60 × 10⁶ J; energy.",
+      "rationale": "Keep one unit derivation instead of three nearly redundant power-unit proofs.",
+      "sources": [
+        {
+          "id": "1531361233755167",
+          "description": "Introduction to Physics - Electric Power - Units - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "section": "9.10",
+      "old": 105,
+      "title": "Energy and cost of a short use",
+      "prompt": "A 1200-W toaster runs for 1.0 minute. Find the electrical energy used in joules and kilowatt-hours. At an assumed price of $0.30 per kilowatt-hour, what is the cost of this use?",
+      "answer": "72,000 J = 0.020 kW·h; $0.0060, or 0.60 cent.",
+      "rationale": "Retain an everyday energy calculation; tariff is an explicit assumption, not a claim about current prices.",
+      "sources": []
+    },
+    {
+      "number": 42,
+      "section": "9.10",
+      "old": 69,
+      "title": "Battery capacity is not energy by itself",
+      "prompt": "A battery is rated at 2400 mA·h. (a) Express this charge capacity in coulombs. (b) Can its energy capacity be found from this rating alone? (c) Estimate the delivered energy if its voltage is approximately 1.5 V throughout discharge.",
+      "answer": "2.4 A·h = 8640 C; voltage is also needed; approximately 12,960 J ≈ 13 kJ.",
+      "rationale": "Move current Exercise 69 to energy applications; repair the source’s unstated voltage assumption and merge the purpose of 107.",
+      "sources": [
+        {
+          "id": "1531361791123523",
+          "description": "Introduction to Physics - Electric Power - Units - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "section": "9.11",
+      "old": 110,
+      "title": "An ideal switch and its voltage",
+      "prompt": "An ideal battery, a resistor, and a switch are connected in one series loop. Compare an open switch with an ideal closed switch: (a) What is the current? (b) What is the voltage across the switch? (c) Why is the switch’s power dissipation zero in each ideal case?",
+      "answer": "Open: I = 0, full battery voltage across switch, P = 0. Closed: I = V/R, zero switch voltage, P = 0.",
+      "rationale": "Merge 110–113 into one comparison; no inherited schematic is needed.",
+      "sources": []
+    },
+    {
+      "number": 44,
+      "section": "9.11",
+      "old": 117,
+      "title": "A broken bulb in a series string",
+      "prompt": "Four identical bulbs are connected in series across an ideal 12 V source. Treat their resistances as equal and constant. (a) What voltage is across each bulb? (b) If one bulb becomes an open circuit, what happens to the others? (c) If one bulb is instead shorted by an ideal wire connecting its two terminals, what voltage is across each remaining bulb?",
+      "answer": "3 V; all go out; 4 V per remaining bulb, with greater power per bulb under the fixed-resistance model.",
+      "rationale": "Preserve circuit reasoning with smaller numbers and explicit idealization.",
+      "sources": []
+    },
+    {
+      "number": 45,
+      "section": "9.11",
+      "old": 119,
+      "title": "Obtaining a smaller resistance",
+      "prompt": "Suppose you are doing a physics lab that asks you to put a resistor into a circuit, but all the resistors supplied have a larger resistance than the requested value. How would you connect the available resistances to attempt to get the smaller value asked for?",
+      "answer": "Connect resistors in parallel; equivalent resistance is smaller than each positive branch resistance, though discrete available values do not guarantee an exact target.",
+      "rationale": "Retain a practical design question without a lengthy numerical network.",
+      "sources": []
+    },
+    {
+      "number": 46,
+      "section": "9.11",
+      "old": 122,
+      "title": "Compare the same resistors in series and parallel",
+      "prompt": "A 6.0-Ω resistor and a 3.0-Ω resistor are connected to an ideal 12 V source, first in series and then in parallel. For each connection, find the equivalent resistance and the current in each resistor. In which connection is the total source current larger?",
+      "answer": "Series: 9.0 Ω, 4/3 A in each. Parallel: 2.0 Ω, 2.0 A in 6 Ω and 4.0 A in 3 Ω; 6.0 A total. Parallel draws more.",
+      "rationale": "Replace repeated resistance/network arithmetic with one comparison testing both defining constraints.",
+      "sources": []
+    },
+    {
+      "number": 47,
+      "section": "9.11",
+      "old": null,
+      "title": "Adding a parallel branch",
+      "prompt": "One resistor is connected across an ideal fixed-voltage source. An identical second resistor is added in parallel. Predict how (a) equivalent resistance, (b) total source current, and (c) current in the original resistor change. Explain why the source current is not fixed.",
+      "answer": "Equivalent resistance halves; total source current doubles; original branch current is unchanged.",
+      "rationale": "Fill a central prediction gap not directly addressed by the inherited calculations.",
+      "sources": []
+    },
+    {
+      "number": 48,
+      "section": "9.11",
+      "old": 125,
+      "title": "Combined appliance load",
+      "prompt": "For a simplified calculation, treat a 1200-W heater and a 600-W appliance as resistive loads connected in parallel to a 120-V supply on the same 15-A branch circuit. (a) Find each current and their sum. (b) Does adding a 120-W lamp put the total above 15 A? (Several outlets may share the same circuit, so moving an appliance to a different outlet does not necessarily reduce the current through that circuit’s breaker.)",
+      "answer": "10 A and 5 A; 15 A total. Lamp adds 1 A, bringing total to 16 A, above the nominal rating. Actual protection behavior is not an instantaneous ideal threshold.",
+      "rationale": "Correct source wording that treats each outlet as having an independent power allowance.",
+      "sources": [
+        {
+          "id": "1531360478839544",
+          "description": "Introduction to Physics - Electric Power - Calculations - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "section": "9.11",
+      "old": 133,
+      "title": "Reject impossible equivalent resistances",
+      "prompt": "Without calculating an unknown resistor, assess these claims for ordinary positive resistances: (a) a 145-Ω resistor and another resistor in parallel have equivalent resistance 150 Ω; (b) a 900-kΩ resistor and another resistor in series have equivalent resistance 500 kΩ. Explain each answer.",
+      "answer": "Both impossible: parallel equivalent must be below 145 Ω, series total above 900 kΩ.",
+      "rationale": "Merge 133–134 into a qualitative reasonableness test instead of asking for unphysical negative resistances.",
+      "sources": []
+    },
+    {
+      "number": 50,
+      "section": "9.12",
+      "old": 136,
+      "title": "Two kinds of electrical hazard",
+      "prompt": "What are the two major hazards of electricity?",
+      "answer": "Thermal effects such as overheating/fire, and shock from current through the body; both may occur in one event.",
+      "rationale": "Retain the organizing distinction.",
+      "sources": []
+    },
+    {
+      "number": 51,
+      "section": "9.12",
+      "old": 137,
+      "title": "A short circuit is not a safety guarantee",
+      "prompt": "A damaged cord creates a low-resistance path between supply conductors. Explain why this can cause intense heating. Does the existence of that short circuit prove that nobody can receive an electric shock from the damaged equipment? Explain.",
+      "answer": "At a maintained voltage, lower resistance means larger current and heating power; a short does not rule out exposed energized parts or a separate path through a person.",
+      "rationale": "Replace the false premise “Why isn’t a short circuit a shock hazard?”",
+      "sources": []
+    },
+    {
+      "number": 52,
+      "section": "9.12",
+      "old": 138,
+      "title": "Why voltage alone is insufficient",
+      "prompt": "Why can the severity of an electric shock not be predicted from voltage alone? Identify at least three other relevant factors.",
+      "answer": "Current depends on total path resistance and source behavior; effects also depend on current path, duration, waveform/frequency and individual conditions.",
+      "rationale": "Retain the reasoning without requesting a universal safe threshold.",
+      "sources": [
+        {
+          "id": "1531363207805516",
+          "description": "Introduction to Physics - Circuits - Electrical Safety - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 8: Electricity and Circuits",
+            "Question Set 8 Assessment",
+            "Questions and Exercises for Sections 9.8 through 9.12"
+          ],
+          "roles": [
+            "archived",
+            "weekly-homework",
+            "weekly-spot-check"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "section": "9.12",
+      "old": 135,
+      "title": "Skin resistance and contact conditions",
+      "prompt": "Measurements made with suitable equipment show that a person’s measured resistance can change substantially with skin moisture and contact area, even when the internal path is similar. Explain why. Why should a single body-resistance value not be treated as a reliable protection measure?",
+      "answer": "Skin/contact resistance can dominate; wet skin and greater contact area can reduce it. It varies with circumstances, so a fixed assumed value cannot guarantee protection.",
+      "rationale": "Replace the implied student experiment; absorb the overlapping wet-skin question 144.",
+      "sources": []
+    },
+    {
+      "number": 54,
+      "section": "9.12",
+      "old": 72,
+      "title": "Potential difference across a body",
+      "prompt": "In an idealized model, a bird touches only one conducting power line with both feet, which are close together. Why may the current through its body be small despite the line’s high potential relative to ground? What changes if it also contacts a conductor at a substantially different potential?",
+      "answer": "Nearby points on one line have small voltage difference; contact across differing potentials can drive substantial current through the body. This does not imply power lines are safe to approach.",
+      "rationale": "Move this application from current to hazards and make the two-contact potential difference explicit.",
+      "sources": []
+    },
+    {
+      "number": 55,
+      "section": "9.12",
+      "old": 146,
+      "title": "What a circuit breaker protects",
+      "prompt": "Explain how an ordinary overcurrent circuit breaker reduces the risk of overheating wiring. Why does its presence not guarantee protection from electric shock? Why would bypassing it defeat its protective purpose?",
+      "answer": "It interrupts excessive circuit current; dangerous body current can be far below its rating. Bypassing it allows fault/overload heating to continue rather than being interrupted.",
+      "rationale": "Combine the inherited protection question with the essay’s explanation; distinguish overcurrent protection from shock protection.",
+      "sources": [
+        {
+          "id": "1541305578212818",
+          "description": "Introduction to Physics (Essay Questions) - Electricity - Household Circuit Safety",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 9",
+            "Take-Home Option A Final Exam (open book; 6-hour limit)"
+          ],
+          "roles": [
+            "archived",
+            "timed-essay"
+          ]
+        }
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "number": 1,
+      "section": "9.2",
+      "id": "fs-id2222446",
+      "module": "m52381",
+      "decision": "Retain",
+      "proposed_number": 1,
+      "reason": "Retain the foundational distinction between net charge and constituent charges."
+    },
+    {
+      "number": 2,
+      "section": "9.2",
+      "id": "fs-id1714026",
+      "module": "m52381",
+      "decision": "Revise",
+      "proposed_number": 2,
+      "reason": "Replace the vague tendency-to-neutrality question with a concrete conservation task."
+    },
+    {
+      "number": 3,
+      "section": "9.2",
+      "id": "fs-id2878870",
+      "module": "m52381",
+      "decision": "Revise",
+      "proposed_number": 3,
+      "reason": "One short charge-counting calculation replaces four similar conversions."
+    },
+    {
+      "number": 4,
+      "section": "9.2",
+      "id": "fs-id1893695",
+      "module": "m52381",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 5,
+      "section": "9.2",
+      "id": "fs-id1969597",
+      "module": "m52381",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 6,
+      "section": "9.2",
+      "id": "fs-id2272902",
+      "module": "m52381",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 7,
+      "section": "9.3",
+      "id": "fs-id3146449",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Humidity and charge leakage require a surface-conduction explanation beyond the stated molecular-polarity premise; keep the direct polarization task instead."
+    },
+    {
+      "number": 8,
+      "section": "9.3",
+      "id": "fs-id2420925",
+      "module": "m52384",
+      "decision": "Revise",
+      "proposed_number": 5,
+      "reason": "Make orientation and unequal distances explicit; no water diagram is required."
+    },
+    {
+      "number": 9,
+      "section": "9.3",
+      "id": "fs-id1215964",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Rain nucleation adds atmospheric assumptions; polarization is covered by revised 8."
+    },
+    {
+      "number": 10,
+      "section": "9.3",
+      "id": "fs-id3063257",
+      "module": "m52384",
+      "decision": "Revise",
+      "proposed_number": 6,
+      "reason": "Keep one representative calculation with realistic static-charge scale and explicit point-charge model."
+    },
+    {
+      "number": 11,
+      "section": "9.3",
+      "id": "fs-id2670145",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Point-charge limitations are stated in retained 10; another direct calculation adds little."
+    },
+    {
+      "number": 12,
+      "section": "9.3",
+      "id": "fs-id1403550",
+      "module": "m52384",
+      "decision": "Revise",
+      "proposed_number": 7,
+      "reason": "Expand one existing proportional task to cover both factors in Coulomb’s law."
+    },
+    {
+      "number": 13,
+      "section": "9.3",
+      "id": "fs-id1411839",
+      "module": "m52384",
+      "decision": "Merge",
+      "proposed_number": 7,
+      "reason": "Consolidated into proposed 7 (Inverse-square and charge-product predictions)."
+    },
+    {
+      "number": 14,
+      "section": "9.3",
+      "id": "fs-id954471",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 15,
+      "section": "9.3",
+      "id": "fs-id2057379",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "The large-charge scale point is covered in the body; keep one smaller-charge calculation."
+    },
+    {
+      "number": 16,
+      "section": "9.3",
+      "id": "fs-id2384303",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 17,
+      "section": "9.3",
+      "id": "fs-id2595116",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 18,
+      "section": "9.3",
+      "id": "fs-id3034287",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Optimization over a fixed total charge is an optional algebra extension rather than a core target."
+    },
+    {
+      "number": 19,
+      "section": "9.3",
+      "id": "fs-id3123949",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 20,
+      "section": "9.3",
+      "id": "fs-id1861080",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Electrostatic/gravitational comparisons are developed in the body; avoid duplicate multi-constant numerical practice."
+    },
+    {
+      "number": 21,
+      "section": "9.3",
+      "id": "fs-id3250393",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 22,
+      "section": "9.3",
+      "id": "fs-id2604205",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 23,
+      "section": "9.3",
+      "id": "fs-id1362193",
+      "module": "m52384",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Solving for two unknown charges introduces quadratic algebra disproportionate to the conceptual goal."
+    },
+    {
+      "number": 24,
+      "section": "9.4",
+      "id": "fs-id3047767",
+      "module": "m52385",
+      "decision": "Revise",
+      "proposed_number": 9,
+      "reason": "Retain the idea while replacing the unnecessarily absolute “vanishingly small.”"
+    },
+    {
+      "number": 25,
+      "section": "9.4",
+      "id": "fs-id2668714",
+      "module": "m52385",
+      "decision": "Revise",
+      "proposed_number": 10,
+      "reason": "Replace ambiguous “unique force field” language with a direct comparison."
+    },
+    {
+      "number": 26,
+      "section": "9.4",
+      "id": "fs-id1586790",
+      "module": "m52385",
+      "decision": "Revise",
+      "proposed_number": 11,
+      "reason": "Transparent fixed values keep attention on the sign and E = F/q."
+    },
+    {
+      "number": 27,
+      "section": "9.4",
+      "id": "fs-id2989956",
+      "module": "m52385",
+      "decision": "Revise",
+      "proposed_number": 12,
+      "reason": "Retain the complementary F = qE calculation, adding the sign comparison."
+    },
+    {
+      "number": 28,
+      "section": "9.4",
+      "id": "fs-id2588568",
+      "module": "m52385",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Point-charge field calculation repeats the Coulomb scaling already practiced; retain force/field distinction and sign."
+    },
+    {
+      "number": 29,
+      "section": "9.4",
+      "id": "fs-id1537546",
+      "module": "m52385",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated inverse-square arithmetic; preserved qualitatively in the proportional and field-line tasks."
+    },
+    {
+      "number": 30,
+      "section": "9.4",
+      "id": "fs-id2001055",
+      "module": "m52385",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Adds acceleration arithmetic and references a strategy; keep field/force tasks rather than another multistep calculation."
+    },
+    {
+      "number": 31,
+      "section": "9.4",
+      "id": "fs-id2937300",
+      "module": "m52385",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Signed-force comparison is covered by revised 25–27."
+    },
+    {
+      "number": 32,
+      "section": "9.5",
+      "id": "fs-id2679234",
+      "module": "m70739",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "“Coulomb force field” versus electric field duplicates the earlier concept question and invites confusing terminology."
+    },
+    {
+      "number": 33,
+      "section": "9.5",
+      "id": "fs-id1368682",
+      "module": "m70739",
+      "decision": "Revise",
+      "proposed_number": 13,
+      "reason": "Keep a drawing task; line count is explicitly a graphical convention."
+    },
+    {
+      "number": 34,
+      "section": "9.5",
+      "id": "fs-id2403262",
+      "module": "m70739",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Far-field behavior is integrated into revised 36."
+    },
+    {
+      "number": 35,
+      "section": "9.5",
+      "id": "fs-id1994588",
+      "module": "m70739",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Line-count interpretation is covered by revised 33/36; no need to retain its separate diagram."
+    },
+    {
+      "number": 36,
+      "section": "9.5",
+      "id": "fs-id2663390",
+      "module": "m70739",
+      "decision": "Revise",
+      "proposed_number": 15,
+      "reason": "Combine local and far-field interpretation without relying on a removed question’s figure."
+    },
+    {
+      "number": 37,
+      "section": "9.6",
+      "id": "fs-id2660782",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Asking which synonym is more descriptive has less payoff than energy-per-charge and reference-level reasoning."
+    },
+    {
+      "number": 38,
+      "section": "9.6",
+      "id": "fs-id2681166",
+      "module": "m75427",
+      "decision": "Revise",
+      "proposed_number": 18,
+      "reason": "Specify whose work is meant; avoids confusing zero net work with zero local force."
+    },
+    {
+      "number": 39,
+      "section": "9.6",
+      "id": "fs-id1350416",
+      "module": "m75427",
+      "decision": "Revise",
+      "proposed_number": 16,
+      "reason": "Connect the definition directly to one short calculation rather than formula recall."
+    },
+    {
+      "number": 40,
+      "section": "9.6",
+      "id": "fs-id2339284",
+      "module": "m75427",
+      "decision": "Revise",
+      "proposed_number": 17,
+      "reason": "Retain the reference-level concept with an explicit prediction."
+    },
+    {
+      "number": 41,
+      "section": "9.6",
+      "id": "fs-id2000410",
+      "module": "m75427",
+      "decision": "Revise",
+      "proposed_number": 19,
+      "reason": "Combine unit distinction and scale reasoning."
+    },
+    {
+      "number": 42,
+      "section": "9.6",
+      "id": "fs-id1350363",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Particle-mass speed ratio adds multistep mechanics; retain energy-sign and eV reasoning."
+    },
+    {
+      "number": 43,
+      "section": "9.6",
+      "id": "fs-id2607118",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "40-keV electrons make the nonrelativistic model noticeably approximate; replace with a low-voltage energy task."
+    },
+    {
+      "number": 44,
+      "section": "9.6",
+      "id": "fs-id2595258",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated kinetic-energy/eV/voltage chain; one elementary-charge energy task covers the target."
+    },
+    {
+      "number": 45,
+      "section": "9.6",
+      "id": "fs-id2574445",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Thermal-energy bridge adds a prerequisite chain without filling a Chapter 9 gap."
+    },
+    {
+      "number": 46,
+      "section": "9.6",
+      "id": "fs-id2634581",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Same thermal-energy bridge as 45, with less transparent numerical scale."
+    },
+    {
+      "number": 47,
+      "section": "9.6",
+      "id": "fs-id2677893",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "The premise that high-power defibrillation does not produce serious burns is too categorical; avoid medical-outcome inference."
+    },
+    {
+      "number": 48,
+      "section": "9.6",
+      "id": "fs-id2511020",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Long heat/phase-change calculation obscures the potential-energy target."
+    },
+    {
+      "number": 49,
+      "section": "9.6",
+      "id": "fs-id2003316",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Three-material heating and electron-flow chain is excessive for this conceptual set."
+    },
+    {
+      "number": 50,
+      "section": "9.6",
+      "id": "fs-id2606659",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Long mechanical-energy budget repeats earlier chapters more than it develops voltage."
+    },
+    {
+      "number": 51,
+      "section": "9.6",
+      "id": "fs-id1362960",
+      "module": "m75427",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Requires a point-charge potential relationship and fusion/thermal synthesis beyond the chosen introductory target."
+    },
+    {
+      "number": 52,
+      "section": "9.7",
+      "id": "fs-id3201948",
+      "module": "m75428",
+      "decision": "Revise",
+      "proposed_number": 21,
+      "reason": "Focus on why a tangential electric field prevents electrostatic equilibrium in a metal."
+    },
+    {
+      "number": 53,
+      "section": "9.7",
+      "id": "fs-id2671695",
+      "module": "m75428",
+      "decision": "Merge",
+      "proposed_number": 21,
+      "reason": "Consolidated into proposed 21 (Diagnosing electrostatic equilibrium)."
+    },
+    {
+      "number": 54,
+      "section": "9.7",
+      "id": "fs-id3088694",
+      "module": "m75428",
+      "decision": "Revise",
+      "proposed_number": 22,
+      "reason": "Interpret the field-line figure using concepts explicitly covered in the text, without requiring an explanation of charge distribution or changing plate geometry."
+    },
+    {
+      "number": 55,
+      "section": "9.7",
+      "id": "fs-id1871378",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Ionization and charge emission at points need careful polarity conditions; the brief prompt is underspecified."
+    },
+    {
+      "number": 56,
+      "section": "9.7",
+      "id": "fs-id1487810",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Remove the lightning-shelter comparison; use the clearly specified shielding model instead."
+    },
+    {
+      "number": 57,
+      "section": "9.7",
+      "id": "fs-id3228630",
+      "module": "m75428",
+      "decision": "Retain",
+      "proposed_number": 23,
+      "reason": "Retain a direct application of the conductor/insulator distinction."
+    },
+    {
+      "number": 58,
+      "section": "9.7",
+      "id": "fs-id3286362",
+      "module": "m75428",
+      "decision": "Revise",
+      "proposed_number": 24,
+      "reason": "Replace the oversimplified two-reasons-for-car-safety prompt with the electrostatic principle actually taught."
+    },
+    {
+      "number": 59,
+      "section": "9.7",
+      "id": "fs-id2400128",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Do not frame grounding a lightning rod as an optional pros/cons choice."
+    },
+    {
+      "number": 60,
+      "section": "9.7",
+      "id": "fs-id3408279",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Several square-charge symmetry variants duplicate the new simpler cancellation task."
+    },
+    {
+      "number": 61,
+      "section": "9.7",
+      "id": "fs-id2678000",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Same symmetry/cancellation cluster; no additional figure needed."
+    },
+    {
+      "number": 62,
+      "section": "9.7",
+      "id": "fs-id3397088",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Same square-charge vector cluster; force sign is covered in 25–27."
+    },
+    {
+      "number": 63,
+      "section": "9.7",
+      "id": "fs-id1368317",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Stability by direction adds subtle constraints beyond the cancellation target."
+    },
+    {
+      "number": 64,
+      "section": "9.7",
+      "id": "fs-id1383011",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Another square-charge equilibrium variant."
+    },
+    {
+      "number": 65,
+      "section": "9.7",
+      "id": "fs-id2384303",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "The suggested touching technique is not needed to teach induced charge and field concentration."
+    },
+    {
+      "number": 66,
+      "section": "9.7",
+      "id": "fs-id1985635",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Obsolete/location-dependent tollbooth setup; low transfer value."
+    },
+    {
+      "number": 67,
+      "section": "9.7",
+      "id": "fs-id2603645",
+      "module": "m75428",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Uncontrolled human discharge scenario; the specified electrostatic demonstration is clearer."
+    },
+    {
+      "number": 68,
+      "section": "9.8",
+      "id": "fs-id2392409",
+      "module": "m67130",
+      "decision": "Retain",
+      "proposed_number": 27,
+      "reason": "Retain a central distinction between net charge and charge flow."
+    },
+    {
+      "number": 69,
+      "section": "9.8",
+      "id": "fs-id2600992",
+      "module": "m67130",
+      "decision": "Revise",
+      "proposed_number": 42,
+      "reason": "Move current Exercise 69 to energy applications; repair the source’s unstated voltage assumption and merge the purpose of 107."
+    },
+    {
+      "number": 70,
+      "section": "9.8",
+      "id": "fs-id1019372",
+      "module": "m67130",
+      "decision": "Revise",
+      "proposed_number": 29,
+      "reason": "Retain loop reasoning in a concrete setup."
+    },
+    {
+      "number": 71,
+      "section": "9.8",
+      "id": "fs-id2611504",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Vehicle-body return path is an optional engineering application beyond the complete-loop question."
+    },
+    {
+      "number": 72,
+      "section": "9.8",
+      "id": "fs-id3154476",
+      "module": "m67130",
+      "decision": "Revise",
+      "proposed_number": 54,
+      "reason": "Move this application from current to hazards and make the two-contact potential difference explicit."
+    },
+    {
+      "number": 73,
+      "section": "9.8",
+      "id": "fs-id1599422",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 74,
+      "section": "9.8",
+      "id": "fs-id2655543",
+      "module": "m67130",
+      "decision": "Revise",
+      "proposed_number": 30,
+      "reason": "Keep one rate calculation with a useful time-unit conversion."
+    },
+    {
+      "number": 75,
+      "section": "9.8",
+      "id": "fs-id2408383",
+      "module": "m67130",
+      "decision": "Revise",
+      "proposed_number": 31,
+      "reason": "Retain the scale contrast without inferring safety from a single current value."
+    },
+    {
+      "number": 76,
+      "section": "9.8",
+      "id": "fs-id744817",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 77,
+      "section": "9.8",
+      "id": "fs-id3077567",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 78,
+      "section": "9.8",
+      "id": "fs-id3457954",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 79,
+      "section": "9.8",
+      "id": "fs-id2660448",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Defibrillator charge arithmetic duplicates current tasks and has a broken relative figure reference."
+    },
+    {
+      "number": 80,
+      "section": "9.8",
+      "id": "fs-id3257336",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated charge/current conversion or algebra-heavy numerical practice; the proposed set retains representative calculations and explanations of the same relationship."
+    },
+    {
+      "number": 81,
+      "section": "9.8",
+      "id": "fs-id3008630",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Avogadro counting adds a chemistry conversion rather than current insight."
+    },
+    {
+      "number": 82,
+      "section": "9.8",
+      "id": "fs-id1815315",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "X-ray beam arithmetic overlaps rate/charge calculation already retained."
+    },
+    {
+      "number": 83,
+      "section": "9.8",
+      "id": "fs-id1827821",
+      "module": "m67130",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Ion-beam particles-per-second and mole conversions add workload without a new core concept."
+    },
+    {
+      "number": 84,
+      "section": "9.9",
+      "id": "fs-id3008822",
+      "module": "m52401",
+      "decision": "Revise",
+      "proposed_number": 32,
+      "reason": "Keep the charge-consumption misconception explicit."
+    },
+    {
+      "number": 85,
+      "section": "9.9",
+      "id": "fs-id2392111",
+      "module": "m52401",
+      "decision": "Revise",
+      "proposed_number": 33,
+      "reason": "Retain analogy and conservation; do not equate charge-flow rate with carrier speed."
+    },
+    {
+      "number": 86,
+      "section": "9.9",
+      "id": "fs-id3045633",
+      "module": "m52401",
+      "decision": "Revise",
+      "proposed_number": 35,
+      "reason": "Retain one calculation and connect the model to material behavior."
+    },
+    {
+      "number": 87,
+      "section": "9.9",
+      "id": "fs-id3154491",
+      "module": "m52401",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated Ohm’s-law rearrangement; addressed by data-based resistance and current tasks."
+    },
+    {
+      "number": 88,
+      "section": "9.9",
+      "id": "fs-id3172806",
+      "module": "m52401",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated direct substitution; starter-motor context retained for power."
+    },
+    {
+      "number": 89,
+      "section": "9.9",
+      "id": "fs-id2407750",
+      "module": "m52401",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated direct substitution with dated appliance context."
+    },
+    {
+      "number": 90,
+      "section": "9.9",
+      "id": "fs-id2930974",
+      "module": "m52401",
+      "decision": "Revise",
+      "proposed_number": 36,
+      "reason": "Retain a practical comparison with stated equal currents; do not assume the load’s current remains fixed in all circumstances."
+    },
+    {
+      "number": 91,
+      "section": "9.9",
+      "id": "fs-id1375943",
+      "module": "m52401",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Insulator leakage calculation adds a high-voltage setup without new Ohm’s-law reasoning."
+    },
+    {
+      "number": 92,
+      "section": "9.10",
+      "id": "fs-id2409786",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Bulb aging involves mechanisms not cleanly isolated by the prompt; keep the explicit hot-resistance task."
+    },
+    {
+      "number": 93,
+      "section": "9.10",
+      "id": "fs-id1401443",
+      "module": "m52402",
+      "decision": "Revise",
+      "proposed_number": 37,
+      "reason": "Retain the most useful conceptual power question."
+    },
+    {
+      "number": 94,
+      "section": "9.10",
+      "id": "fs-id3223947",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Lightning power is another P = IV substitution; starter motor is more tractable."
+    },
+    {
+      "number": 95,
+      "section": "9.10",
+      "id": "fs-id1941660",
+      "module": "m52402",
+      "decision": "Revise",
+      "proposed_number": 38,
+      "reason": "Add the power-versus-energy distinction to one straightforward calculation."
+    },
+    {
+      "number": 96,
+      "section": "9.10",
+      "id": "fs-id2449702",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Combines charge/current/power as another substitution chain; already covered."
+    },
+    {
+      "number": 97,
+      "section": "9.10",
+      "id": "fs-id2599379",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeats retained flashlight charge calculation followed by P = IV."
+    },
+    {
+      "number": 98,
+      "section": "9.10",
+      "id": "fs-id2023489",
+      "module": "m52402",
+      "decision": "Revise",
+      "proposed_number": 39,
+      "reason": "Complement the voltage-drop exercise with power scaling, using the same transparent setup."
+    },
+    {
+      "number": 99,
+      "section": "9.10",
+      "id": "fs-id3079653",
+      "module": "m52402",
+      "decision": "Merge",
+      "proposed_number": 40,
+      "reason": "Consolidated into proposed 40 (Kilowatt-hours are energy)."
+    },
+    {
+      "number": 100,
+      "section": "9.10",
+      "id": "fs-id1577565",
+      "module": "m52402",
+      "decision": "Merge",
+      "proposed_number": 40,
+      "reason": "Consolidated into proposed 40 (Kilowatt-hours are energy)."
+    },
+    {
+      "number": 101,
+      "section": "9.10",
+      "id": "fs-id970126",
+      "module": "m52402",
+      "decision": "Merge",
+      "proposed_number": 40,
+      "reason": "Consolidated into proposed 40 (Kilowatt-hours are energy)."
+    },
+    {
+      "number": 102,
+      "section": "9.10",
+      "id": "fs-id3244624",
+      "module": "m52402",
+      "decision": "Revise",
+      "proposed_number": 40,
+      "reason": "Keep one unit derivation instead of three nearly redundant power-unit proofs."
+    },
+    {
+      "number": 103,
+      "section": "9.10",
+      "id": "fs-id3306077",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "X-ray power repeats P = IV and introduces no new target."
+    },
+    {
+      "number": 104,
+      "section": "9.10",
+      "id": "fs-id2670173",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Year-long cost arithmetic repeats the simpler toaster energy/cost task."
+    },
+    {
+      "number": 105,
+      "section": "9.10",
+      "id": "fs-id1915928",
+      "module": "m52402",
+      "decision": "Revise",
+      "proposed_number": 41,
+      "reason": "Retain an everyday energy calculation; tariff is an explicit assumption, not a claim about current prices."
+    },
+    {
+      "number": 106,
+      "section": "9.10",
+      "id": "fs-id2685078",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Another pair of resistance/current substitutions; no new coverage."
+    },
+    {
+      "number": 107,
+      "section": "9.10",
+      "id": "fs-id1616012",
+      "module": "m52402",
+      "decision": "Merge",
+      "proposed_number": 42,
+      "reason": "Consolidated into proposed 42 (Battery capacity is not energy by itself)."
+    },
+    {
+      "number": 108,
+      "section": "9.10",
+      "id": "fs-id2603647",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Surgical-device calculations add medical setup with no extra conceptual target."
+    },
+    {
+      "number": 109,
+      "section": "9.10",
+      "id": "fs-id2383748",
+      "module": "m52402",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Dated population-wide usage estimate with assumptions overwhelming the basic energy calculation."
+    },
+    {
+      "number": 110,
+      "section": "9.11",
+      "id": "fs-id3009508",
+      "module": "m42356",
+      "decision": "Revise",
+      "proposed_number": 43,
+      "reason": "Merge 110–113 into one comparison; no inherited schematic is needed."
+    },
+    {
+      "number": 111,
+      "section": "9.11",
+      "id": "fs-id3051530",
+      "module": "m42356",
+      "decision": "Merge",
+      "proposed_number": 43,
+      "reason": "Consolidated into proposed 43 (An ideal switch and its voltage)."
+    },
+    {
+      "number": 112,
+      "section": "9.11",
+      "id": "fs-id3177845",
+      "module": "m42356",
+      "decision": "Merge",
+      "proposed_number": 43,
+      "reason": "Consolidated into proposed 43 (An ideal switch and its voltage)."
+    },
+    {
+      "number": 113,
+      "section": "9.11",
+      "id": "fs-id2453210",
+      "module": "m42356",
+      "decision": "Merge",
+      "proposed_number": 43,
+      "reason": "Consolidated into proposed 43 (An ideal switch and its voltage)."
+    },
+    {
+      "number": 114,
+      "section": "9.11",
+      "id": "fs-id2590884",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "The shorted-battery wiring prompt is not necessary alongside the conceptual short-circuit question."
+    },
+    {
+      "number": 115,
+      "section": "9.11",
+      "id": "fs-id1927541",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Do not ask students to choose an allegedly preferable electrocution circuit."
+    },
+    {
+      "number": 116,
+      "section": "9.11",
+      "id": "fs-id3106050",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Battery internal resistance is an optional extension; ideal-source assumptions are made explicit in retained tasks."
+    },
+    {
+      "number": 117,
+      "section": "9.11",
+      "id": "fs-id3177055",
+      "module": "m42356",
+      "decision": "Revise",
+      "proposed_number": 44,
+      "reason": "Preserve circuit reasoning with smaller numbers and explicit idealization."
+    },
+    {
+      "number": 118,
+      "section": "9.11",
+      "id": "fs-id3119307",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Real incandescent resistances vary with temperature; brightness comparison requires assumptions beyond nameplate wattages."
+    },
+    {
+      "number": 119,
+      "section": "9.11",
+      "id": "fs-id3177962",
+      "module": "m42356",
+      "decision": "Retain",
+      "proposed_number": 45,
+      "reason": "Retain a practical design question without a lengthy numerical network."
+    },
+    {
+      "number": 120,
+      "section": "9.11",
+      "id": "fs-id2442330",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Obsolete resistance cord overlaps wire-heating concepts already retained."
+    },
+    {
+      "number": 121,
+      "section": "9.11",
+      "id": "fs-id1615512",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Three-setting filament design is a reasonable optional extension, but not needed for the core parallel-circuit objectives."
+    },
+    {
+      "number": 122,
+      "section": "9.11",
+      "id": "fs-id1599495",
+      "module": "m42356",
+      "decision": "Revise",
+      "proposed_number": 46,
+      "reason": "Replace repeated resistance/network arithmetic with one comparison testing both defining constraints."
+    },
+    {
+      "number": 123,
+      "section": "9.11",
+      "id": "fs-id3245329",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeated equivalent-resistance arithmetic with prefixes."
+    },
+    {
+      "number": 124,
+      "section": "9.11",
+      "id": "fs-id3017617",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Extreme equivalent-resistance search duplicates qualitative bounds and direct series/parallel comparison."
+    },
+    {
+      "number": 125,
+      "section": "9.11",
+      "id": "fs-id3103096",
+      "module": "m42356",
+      "decision": "Revise",
+      "proposed_number": 48,
+      "reason": "Correct source wording that treats each outlet as having an independent power allowance."
+    },
+    {
+      "number": 126,
+      "section": "9.11",
+      "id": "fs-id1927186",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Motor and lamp as fixed resistors is a strong idealization with a long calculation."
+    },
+    {
+      "number": 127,
+      "section": "9.11",
+      "id": "fs-id3285351",
+      "module": "m42356",
+      "decision": "Merge",
+      "proposed_number": 46,
+      "reason": "Consolidated into proposed 46 (Compare the same resistors in series and parallel)."
+    },
+    {
+      "number": 128,
+      "section": "9.11",
+      "id": "fs-id1609224",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeats the body’s mixed-circuit worked example."
+    },
+    {
+      "number": 129,
+      "section": "9.11",
+      "id": "fs-id1815315",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Repeats the same example’s power accounting."
+    },
+    {
+      "number": 130,
+      "section": "9.11",
+      "id": "fs-id2666378",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Wire-loss and motor/bulb chain repeats core calculations with greater algebra load."
+    },
+    {
+      "number": 131,
+      "section": "9.11",
+      "id": "fs-id2057266",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Hundred-insulator transmission calculation is specialized repeated parallel arithmetic."
+    },
+    {
+      "number": 132,
+      "section": "9.11",
+      "id": "fs-id3051842",
+      "module": "m42356",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Limiting-case algebra can be inferred from the retained resistance bounds; optional extension."
+    },
+    {
+      "number": 133,
+      "section": "9.11",
+      "id": "fs-id2990389",
+      "module": "m42356",
+      "decision": "Revise",
+      "proposed_number": 49,
+      "reason": "Merge 133–134 into a qualitative reasonableness test instead of asking for unphysical negative resistances."
+    },
+    {
+      "number": 134,
+      "section": "9.11",
+      "id": "fs-id3290888",
+      "module": "m42356",
+      "decision": "Merge",
+      "proposed_number": 49,
+      "reason": "Consolidated into proposed 49 (Reject impossible equivalent resistances)."
+    },
+    {
+      "number": 135,
+      "section": "9.12",
+      "id": "fs-id3013869",
+      "module": "m52406",
+      "decision": "Revise",
+      "proposed_number": 53,
+      "reason": "Replace the implied student experiment; absorb the overlapping wet-skin question 144."
+    },
+    {
+      "number": 136,
+      "section": "9.12",
+      "id": "fs-id2626129",
+      "module": "m52406",
+      "decision": "Retain",
+      "proposed_number": 50,
+      "reason": "Retain the organizing distinction."
+    },
+    {
+      "number": 137,
+      "section": "9.12",
+      "id": "fs-id3091714",
+      "module": "m52406",
+      "decision": "Revise",
+      "proposed_number": 51,
+      "reason": "Replace the false premise “Why isn’t a short circuit a shock hazard?”"
+    },
+    {
+      "number": 138,
+      "section": "9.12",
+      "id": "fs-id2384713",
+      "module": "m52406",
+      "decision": "Revise",
+      "proposed_number": 52,
+      "reason": "Retain the reasoning without requesting a universal safe threshold."
+    },
+    {
+      "number": 139,
+      "section": "9.12",
+      "id": "fs-id3190812",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Clinical electrode-area scenario is too specialized for the core hazards target."
+    },
+    {
+      "number": 140,
+      "section": "9.12",
+      "id": "fs-id3013708",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Electrosurgery frequency/current-distribution mechanisms are not developed enough for a self-contained core question."
+    },
+    {
+      "number": 141,
+      "section": "9.12",
+      "id": "fs-id3407779",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Wet-contact reasoning is consolidated in revised 135/138."
+    },
+    {
+      "number": 142,
+      "section": "9.12",
+      "id": "fs-id2677167",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Wet-contact/overheating themes are consolidated without student-facing operational instructions."
+    },
+    {
+      "number": 143,
+      "section": "9.12",
+      "id": "fs-id2428881",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Remove unsafe touch-test premise; OSHA 1910.333 requires qualified-person verification with test equipment, not a body part."
+    },
+    {
+      "number": 144,
+      "section": "9.12",
+      "id": "fs-id3179465",
+      "module": "m52406",
+      "decision": "Merge",
+      "proposed_number": 53,
+      "reason": "Consolidated into proposed 53 (Skin resistance and contact conditions)."
+    },
+    {
+      "number": 145,
+      "section": "9.12",
+      "id": "fs-id3009000",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Clinical microshock scenario is outside the revised core exercise emphasis."
+    },
+    {
+      "number": 146,
+      "section": "9.12",
+      "id": "fs-id2409820",
+      "module": "m52406",
+      "decision": "Revise",
+      "proposed_number": 55,
+      "reason": "Combine the inherited protection question with the essay’s explanation; distinguish overcurrent protection from shock protection."
+    },
+    {
+      "number": 147,
+      "section": "9.12",
+      "id": "fs-id2952945",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "A large fault-current substitution duplicates power/short-circuit reasoning."
+    },
+    {
+      "number": 148,
+      "section": "9.12",
+      "id": "fs-id1904166",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Another rearrangement of fault power and resistance."
+    },
+    {
+      "number": 149,
+      "section": "9.12",
+      "id": "fs-id1071853",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Fixed-resistance calculations should not be used to assign a deterministic bodily outcome."
+    },
+    {
+      "number": 150,
+      "section": "9.12",
+      "id": "fs-id2578434",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Avoid implying a precise universally applicable fibrillation threshold."
+    },
+    {
+      "number": 151,
+      "section": "9.12",
+      "id": "fs-id2930233",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Avoid implying rubber shoes make contact with a live toaster safe or validating a dangerous action."
+    },
+    {
+      "number": 152,
+      "section": "9.12",
+      "id": "fs-id3010795",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Microshock threshold arithmetic is a specialized medical scenario with variable outcomes."
+    },
+    {
+      "number": 153,
+      "section": "9.12",
+      "id": "fs-id1371721",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Peak/average AC distinction relies on material not yet taught; also another fault-power calculation."
+    },
+    {
+      "number": 154,
+      "section": "9.12",
+      "id": "fs-id2653461",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Long clinical charge/voltage/resistance/heating chain; no distinct core target."
+    },
+    {
+      "number": 155,
+      "section": "9.12",
+      "id": "fs-id2438452",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Material heating during a breaker delay is a multistep calculation with strong assumptions."
+    },
+    {
+      "number": 156,
+      "section": "9.12",
+      "id": "fs-id1995951",
+      "module": "m52406",
+      "decision": "Remove",
+      "proposed_number": null,
+      "reason": "Do not ask students to design personal insulation around allegedly safe current thresholds."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# Chapter 0 organization: proposed restoration of CNX structure
+
+For maintainer review, September 27, 2026. No textbook or publication changes applied.
+
+## Evidence
+
+Compared the preserved `introduction-to-physics-12.1.pdf`, PDF pages 9–22 (printed pages 3–16), with the recovered collection/CNXML and the current generated course HTML and PDF-rendering code. Visually inspected PDF pages 9, 21 and 22. The historical chapter is **Chapter 1: Introduction**; its current lecture-aligned counterpart is **Chapter 0: Introduction**.
+
+The recovered collection places three modules under Introduction, but their roles differ: m52309 has `class="introduction"`; m52310 and m67032 are ordinary content modules. The PDF applies those roles and additionally collects tagged glossary, summary and exercise content at chapter end. Flattening the modules into equivalent pages loses this distinction. Some present differences also come from our renderer; the evidence establishes what to restore, not that every display defect was independently introduced by LibreTexts.
+
+## Original CNX order
+
+1. Chapter heading: **1 Introduction**.
+2. Andromeda opening figure and caption, Figure 1.1.
+3. **Chapter Outline**, listing the two substantive sections with their learning objectives.
+4. Opening text headed **Science and the Realm of Physics, Physical Quantities, and Units**. This is an unnumbered chapter introduction, not a third numbered section.
+5. **1.1 Physics: An Introduction**.
+6. **1.2 Physical Quantities and Units**.
+7. One alphabetized **Glossary**, combining 21 terms from the two sections.
+8. **Section Summary**, combining both summaries under their section headings (three bullets for the first, five for the second in the historical version).
+9. **Conceptual Questions**, grouped under the two section headings, numbered continuously 1–12 (nine plus three).
+
+Examples, ordinary instructional boxes, and the three Check Your Understanding prompts remain with their teaching context. Chapter 1 has no separate Problems & Exercises set. Printed page 17 is blank; that pagination artifact is not something to reproduce.
+
+## Proposed changes for review
+
+| Item | Current presentation | Proposed restoration |
+|---|---|---|
+| C0-01: chapter opening | Page headed by the long module title, with 0.1 as its section label; chapter contents lists it alongside 0.2 and 0.3, including a self-link. | Make this visibly the **Chapter 0: Introduction** landing page. Treat its content as the chapter introduction and retain the long title as an introductory subheading. List the two substantive sections as the chapter's teaching sections. Preserve the existing opening-page URL. |
+| C0-02: chapter outline | A navigation list before the figure, without the objectives. Objectives appear separately atop each content page. | Restore opening order: chapter title → Andromeda figure/caption → Chapter Outline with section titles and objectives → introduction prose. CNX has the objectives in the outline; for faithful restoration, remove the duplicated section-top objective blocks. |
+| C0-03: glossary | Two module-local glossary blocks after each section's exercises, in source order rather than one alphabetical chapter list. Generated HTML lacks an explicit Glossary heading for these blocks. | Collect terms into one clearly headed, alphabetized **chapter-end Glossary**, before the summaries. Generate from the section-owned definitions, retaining IDs and current corrected definitions. This folds the glossary-alphabetization task into chapter review. |
+| C0-04: summaries | A Summary block inside each section, before its exercises and glossary. | Collect them at chapter end into **Section Summary**, with a heading for each substantive section, after the glossary and before questions. Preserve the current corrected summary wording. |
+| C0-05: exercises | Website duplicates ordinary questions in section pages and the 0.E collection. The collection repeats Conceptual Questions headings and ends with an empty Problems & Exercises heading. The PDF already moves ordinary exercises to chapter end. | Keep one chapter-end **Conceptual Questions** group, with the two section subheadings and continuous question numbering. Remove duplicate section-end copies, redundant nested headings, and the empty Problems & Exercises category. Preserve inline checks. No question deletion is implied. |
+| C0-06: chapter-end navigation | A separate page titled **0.E: Introduction (Exercise)** contains only exercises. No unified chapter-end review grouping is provided. | Provide chapter-end review in the CNX order: Glossary → Section Summary → Conceptual Questions. In HTML, expose these as chapter-end destinations from the chapter outline and section navigation. Decide whether to put them on one review page or separate linked pages; that is a web adaptation, not a historical source distinction. Preserve the already published exercise URL as an alias/entry point if its destination changes. |
+
+The existing body subsection order, examples, figures, and inline checks do not show a Chapter 0 restructuring need beyond these items. Recent factual corrections must not be reverted while restoring organization.
+
+## Numbering differences: list separately, do not silently revert
+
+The original has Chapter **1**, substantive sections **1.1 / 1.2**, and no section number for the chapter introduction. The course profile has Chapter **0**, an introductory **0.1**, and substantive sections **0.2 / 0.3**. The opening figure changes from **1.1** to **0.1.1**; subsequent figures use section-based course counters rather than the historical chapter-wide counter. Examples/equations similarly need their numbering profile preserved rather than inferred from moved layout blocks.
+
+Your earlier requirement explicitly retained the introduction-as-section oddity for lecture alignment. This new review reopens its *structural treatment*, but does not by itself settle how much of the public numbering should change. Recommended first step: restore chapter structure while retaining course lookup labels 0.1, 0.2 and 0.3 (identify 0.1 as the chapter introduction, not a third teaching section). An exact return to CNX numbering remains a separate profile choice. All existing section slugs and underlying IDs remain unchanged in either case.
+
+## Suggested chapter-by-chapter workflow
+
+Replace the separate Dynamics/Thermal Physics pilot with **Chapter 0 first**, then proceed in order. Each chapter packet should combine (1) structural restoration against CNX, (2) existing question dispositions and suitable MyOpenMath additions, (3) glossary/summary alignment, and (4) a whole-chapter preview. Apply only the reviewed decisions. Handle common renderer changes once, but do not assume that every chapter has identical end-matter categories.
+
+Maintainer decision (2026-09-27): C0-01/C0-02 deferred to preserve lecture-compatible section numbering. Retain the chapter contents on the first section, including its self-link. C0-03 through C0-06 approved and implemented in the website build: one alphabetized glossary, collected summaries, and 12 conceptual questions on the existing introduction-exercises URL. Section pages retain inline checks and forwarding anchors for moved material. All chapter, section, figure and equation numbers remain unchanged. No exercise content has been added or removed. Matching PDF end-matter assembly remains part of final PDF preparation; no replacement PDF was generated in this step.

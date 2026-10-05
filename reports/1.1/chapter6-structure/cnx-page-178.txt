@@ -1,0 +1,37 @@
+Figure 7.2 This figure skater increases her rate of spin by pulling her arms and her extended leg closer to her axis of rotation. (credit: Luu, Wikimedia
+Commons)
+(This media type is not supported in this reader. Click to open media in browser.) (http://legacy.cnx.org/content/m42176/
+1.8/#concept-trailer-angular-momentum)
+7.1 Angular Acceleration
+Previously, we looked at uniform circular motion, where an object moves in a circular path at a constant speed (but changing
+directions, so it undergoes centripetal acceleration). We can also describe this in terms of a rotation at a constant rate. For
+example, an object completing a circle every second can be said to rotate at a constant rate of 360 degrees per second about
+the center of the circle, since there are 360 degrees in one complete circle.
+For the formulas and equations you will see in this chapter, we will introduce a mathematically convenient unit of angle called
+radians. An angular measure in radian is defined by the arc length covered by the angle divided by the radius of the circle that
+the arc length is part of. Do you see how, if the angular size remains the same, as we consider larger circles, with matching
+longer arc length, the ratio of arc length to the radius of the circle remains constant? Consider this example. The circumference
+S of a circle of radius r is given by S = 2πr . So the angular size of a full circle is this circumference (a special kind of arc
+length) divided by the radius, or 2π (so you could say 2π radians is equal to 360 degrees).
+So, imagine an object completing a uniform circular motion of radius r at speed v , and let's say it takes time Δ t to complete
+one full circle. Then using what we learned in kinematics, we know this holds:
+(7.1)v = Δ s
+Δ t = 2πr
+Δ t,
+where Δ s is the arc length, or the circumference, in this case. We can also describe this in terms of angular velocity, or the
+rate of change of angle,
+(7.2)ω = Δ θ
+Δ t = 2π
+Δ t,
+where change of angle Δ θ in this case is the full circle, or 2π radians. We use ω (lower-case omega) to denote angular
+velocity.
+Carefully comparing Equation 7.1 with Equation 7.2, we see that following relationships hold:
+(7.3)v = rω
+and
+(7.4)ω = v
+r .
+We are going to use this relationship to relate linear motion with rotation (or angular motion) whenever necessary. A summary
+with figure is in Figure 7.3. In Figure 7.3, also note that, given the same angular velocity ω , an object at a larger radius has a
+larger linear speed (does this make intuitive sense?).
+172 Chapter 7 | Rotation
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

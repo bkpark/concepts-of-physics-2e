@@ -1,0 +1,39 @@
+9.10 Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated
+Figure 9.37 This novelty toy, known as the drinking bird, is an example of Carnot’s engine. It contains methylene chloride (mixed with a dye) in the
+abdomen, which boils at a very low temperature—about 100ºF . To operate, one gets the bird’s head wet. As the water evaporates, fluid moves up
+into the head, causing the bird to become top-heavy and dip forward back into the water. This cools down the methylene chloride in the head, and it
+moves back into the abdomen, causing the bird to become bottom heavy and tip up. Except for a very small input of energy—the original head-
+wetting—the bird becomes a perpetual motion machine of sorts. (credit: Arabesk.nl, Wikimedia Commons)
+We know from the second law of thermodynamics that a heat engine cannot be 100% efficient, since there must always be some
+heat transfer Qc to the environment, which is often called waste heat. How efficient, then, can a heat engine be? This question
+was answered at a theoretical level in 1824 by a young French engineer, Sadi Carnot (1796–1832), in his study of the then-
+emerging heat engine technology crucial to the Industrial Revolution. He devised a theoretical cycle, now called the Carnot
+cycle, which is the most efficient cyclical process possible. The second law of thermodynamics can be restated in terms of the
+Carnot cycle, and so what Carnot actually discovered was this fundamental law. Any heat engine employing the Carnot cycle is
+called a Carnot engine.
+What is crucial to the Carnot cycle—and, in fact, defines it—is that only reversible processes are used. Irreversible processes
+involve dissipative factors, such as friction and turbulence. This increases heat transfer Qc to the environment and reduces the
+efficiency of the engine. Obviously, then, reversible processes are superior.
+Carnot Engine
+Stated in terms of reversible processes, the second law of thermodynamics has a third form:
+A Carnot engine operating between two given temperatures has the greatest possible efficiency of any heat engine
+operating between these two temperatures. Furthermore, all engines employing only reversible processes have this same
+maximum efficiency when operating between the same given temperatures.
+Figure 9.38 shows the PV diagram for a Carnot cycle. The cycle comprises two isothermal and two adiabatic processes. Recall
+that both isothermal and adiabatic processes are, in principle, reversible.
+Carnot also determined the efficiency of a perfect heat engine—that is, a Carnot engine. It is always true that the efficiency of a
+cyclical heat engine is given by:
+(9.53)
+Eff = Qh − Qc
+Qh
+= 1 − Qc
+Qh
+.
+What Carnot found was that for a perfect heat engine, the ratio Qc / Qh equals the ratio of the absolute temperatures of the
+heat reservoirs. That is, Qc / Qh = Tc / Th for a Carnot engine, so that the maximum or Carnot efficiency EffC is given by
+(9.54)EffC = 1 − Tc
+Th
+,
+where Th and Tc are in kelvins (or any other absolute temperature scale). No real heat engine can do as well as the Carnot
+efficiency—an actual efficiency of about 0.7 of this maximum is usually the best that can be accomplished. But the ideal Carnot
+Chapter 9 | Thermal Physics 259

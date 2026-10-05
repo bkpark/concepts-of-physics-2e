@@ -1,0 +1,30 @@
+{
+  "method": "Prose-only, whitespace normalized; MathML replaced by placeholder; shared IDs for para/item/meaning blocks. Comparison against pinned February 2026 snapshot, not an authenticated copy of ancestor m42234/1.4.",
+  "baseline_blocks": 50,
+  "shared_blocks": 50,
+  "unchanged_blocks": 46,
+  "differences": [
+    {
+      "id": "import-auto-id1169738147207",
+      "baseline": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Here are some examples of irreversible processes seen in day-to-day life: a glass breaking, heat transferring from a hot object to a cold object, conversion of kinetic energy into thermal energy, and a puff of gas expanding from a corner of a vacuum chamber into the entire chamber. If you saw a video of glass un-breaking, or two objects in thermal contact where one gets hotter and the other gets colder, or a hot stationary object spontaneously cooling off and moving in some direction, or a gas in a chamber \"regrouping\" into a corner, you would say this is a video run backwards. This is because you intuitively recognize these are examples of irreversible process, and these processes in nature only take place in the forward direction, not reverse (See ).",
+      "upstream": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an irreversible process is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See .)"
+    },
+    {
+      "id": "import-auto-id1169738234744",
+      "baseline": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state. These expressions describe the direction of irreversible processes that occur in nature.",
+      "upstream": "The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state."
+    },
+    {
+      "id": "import-auto-id1169738025939",
+      "baseline": "Cyclical processes are processes that return to their original state at the end of every cycle.",
+      "upstream": "Irreversible processes depend on path and do not return to their original state. Cyclical processes are processes that return to their original state at the end of every cycle."
+    },
+    {
+      "id": "fs-id1169737907449",
+      "baseline": "a process which occurs in only one direction in nature; a process that cannot be exactly reversed",
+      "upstream": "any process that depends on path direction"
+    }
+  ],
+  "local_only": [],
+  "maintained_changes": []
+}

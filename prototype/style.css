@@ -2,6 +2,9 @@
 .attribution{font:12px/1.5 Arial,sans-serif;color:#52656d;border-top:1px solid #bdcccc;margin-top:30px;padding-top:12px}@media print{.attribution{font-size:8pt}}
 
 math{font-family:"Cambria Math",math} mtd{padding:2px 4px} mtable[columnalign="left"] mtd{text-align:left} .math-copy-toolbar{padding:10px 5%;font:14px Arial,sans-serif;background:#e8f0ef;display:flex;align-items:center;gap:15px} .math-copy-toolbar button{padding:8px 12px;background:#16576b;color:white;border:0;border-radius:3px;cursor:pointer} math:focus-visible{outline:2px solid #468a96} @media print{.math-copy-toolbar{display:none} math:focus{outline:none}}
+/* Native MathML needs CSS for two-column equation alignment. */
+mtable[columnalign="right left"] > mtr > mtd:first-child{text-align:right;text-align:-webkit-right}
+mtable[columnalign="right left"] > mtr > mtd:nth-child(2){text-align:left}
 
 /* Release-candidate accessibility and narrow-screen layout. */
 th{border:1px solid #bdcccc;padding:6px 10px;vertical-align:top;font-weight:normal;text-align:left}a{overflow-wrap:anywhere}@media print{th{font-size:8.5pt;padding:4px 8px}}@media(max-width:650px){.math-copy-toolbar{flex-wrap:wrap}.external-media{overflow-wrap:anywhere}[data-math-key]{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}}
@@ -18,3 +21,52 @@ th{border:1px solid #bdcccc;padding:6px 10px;vertical-align:top;font-weight:norm
   .chapter-exercises { border-top: 1px solid #ccdadd; padding-top: .5rem; }
   .chapter-return { font-size: .9em; }
 }
+:is(#m42709) td,:is(#m42709) th{vertical-align:baseline}
+#m42709 td math{display:inline math;math-style:compact}
+#m42709 td [data-math-key]{vertical-align:baseline}
+.relocated-anchor { display: none; }
+.relocated-anchor:target { display: block; padding: 1rem; background: #edf4f6; }
+
+/* Sequential reading links are website-only; destinations retain stable URLs. */
+.reading-navigation { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; margin: 1.5rem 0; padding: 1rem 0; border-top: 1px solid #ccdadd; border-bottom: 1px solid #ccdadd; background: transparent; color: inherit; }
+.reading-navigation a { display: flex; flex-direction: column; gap: .3rem; color: #18546a; overflow-wrap: anywhere; }
+.reading-navigation .reading-next { grid-column: 2; text-align: right; }
+.reading-direction { font-size: .9em; font-weight: bold; }
+@media (max-width: 520px) {
+  .reading-navigation { grid-template-columns: minmax(0, 1fr); }
+  .reading-navigation .reading-next { grid-column: 1; text-align: left; }
+}
+@media print { .reading-navigation { display: none; } }
+
+/* Native MathML does not implement rowspacing consistently. */
+mtable[rowspacing="0.5em"] > mtr + mtr > mtd{padding-top:.5em}
+#m67037--696d706f72742d6175746f2d696431383439303230 > [data-math-key]{display:block;margin:.6em 0}
+
+#m67045 .para > [data-math-key]:has(> math[display="block"]){display:block;margin:.6em 0}
+
+/* Eq. 5.2.7: native MathML ignores the three-column columnalign list. */
+#m71584--6569702d363633 mtable > mtr > mtd:nth-child(3){text-align:left}
+
+/* Keep the three-line translational-energy calculation aligned in native MathML. */
+#m67046--6569702d32 mtable > mtr > mtd:nth-child(3) { text-align: left; }
+
+/* Left-align skater energy substitution and result cells. */
+#m71594--6569702d38 mtable > mtr > mtd:nth-child(3),
+#m71594--6569702d333037 mtable > mtr > mtd:nth-child(3) { text-align: left; }
+
+/* Room for stretched absolute-value glyphs in the electric-field derivation. */
+#m52385--6569702d353838 > div { padding-block: 0.45em; }
+
+/* Electron-volt conversion, body and summary: native MathML ignores the
+   third-column alignment in the table's columnalign list. */
+#m75427--6569702d383239 mtable > mtr > mtd:nth-child(3),
+#m75427--6569702d393938 mtable > mtr > mtd:nth-child(3) { text-align: left; }
+
+/* An inline equation and its closing prose punctuation form one line item.
+   Oversized expressions scroll as a group instead of orphaning punctuation. */
+.math-with-punctuation { display: inline-block; white-space: nowrap; max-width: 100%; overflow: visible; vertical-align: middle; }
+.math-with-punctuation [data-math-key] { max-width: none; overflow: visible; }
+/* Native MathML ink can extend beyond its line box. Do not make every
+   punctuation group a scroll container: overflow-x:auto also enables y:auto.
+   Only genuinely wide groups scroll, with room for math ink above/below. */
+.math-with-punctuation.math-needs-scroll { overflow-x: auto; overflow-y: hidden; padding-block: .5em; }

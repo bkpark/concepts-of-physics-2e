@@ -1,0 +1,43 @@
+acceleration is analogous to translational acceleration, and mr2 is analogous to mass (or inertia). The quantity mr2 is called
+the rotational inertia or moment of inertia of a point mass m a distance r from the center of rotation.
+Figure 7.8 An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force F
+is applied to the object perpendicular to the radius r , causing it to accelerate about the pivot point. The force is kept perpendicular to r .
+Making Connections: Rotational Motion Dynamics
+Dynamics for rotational motion is completely analogous to linear or translational dynamics. Dynamics is concerned with
+force and mass and their effects on motion. For rotational motion, we will find direct analogs to force and mass that behave
+just as we would expect from our earlier experiences.
+Rotational Inertia and Moment of Inertia
+Before we can consider the rotation of anything other than a point mass like the one in Figure 7.8, we must extend the idea of
+rotational inertia to all types of objects. To expand our concept of rotational inertia, we define the moment of inertia I of an
+object to be the sum of mr2 for all the point masses of which it is composed. That is, I = ∑ mr2 . Here I is analogous to m
+in translational motion. Because of the distance r , the moment of inertia for any object depends on the chosen axis. Actually,
+calculating I is beyond the scope of this text except for one simple case—that of a hoop, which has all its mass at the same
+distance from its axis. A hoop’s moment of inertia around its axis is therefore MR2 , where M is its total mass and R its
+radius. (We use M and R for an entire object to distinguish them from m and r for point masses.) Figure 7.9 shows a variety
+of formulas of rotational inertia for many different shapes (deriving these formulas require calculus). For our purposes, it is good
+enough for you to see that rotational inertia is proportional to mass, and that it's proportional to size of object squared. Note that
+I has units of mass multiplied by distance squared ( kg ⋅ m2 ), as we might expect from its definition.
+The general relationship among torque, moment of inertia, and angular acceleration is
+(7.18)net τ = Iα
+or
+(7.19)α = net τ
+I ,
+where net τ is the total torque from all forces relative to a chosen axis. For simplicity, we will only consider torques exerted by
+forces in the plane of the rotation. Such torques are either positive or negative and add like ordinary numbers. The relationship in
+τ = Iα, α = net τ
+I is the rotational analog to Newton’s second law and is very generally applicable. This equation is actually
+valid for any torque, applied to any object, relative to any axis.
+As we might expect, the larger the torque is, the larger the angular acceleration is. For example, the harder a child pushes on a
+merry-go-round, the faster it accelerates. Furthermore, the more massive a merry-go-round, the slower it accelerates for the
+same torque. The basic relationship between moment of inertia and angular acceleration is that the larger the moment of inertia,
+the smaller is the angular acceleration. But there is an additional twist. The moment of inertia depends not only on the mass of
+an object, but also on its distribution of mass relative to the axis around which it rotates. For example, it will be much easier to
+accelerate a merry-go-round full of children if they stand close to its axis than if they all stand at the outer edge. The mass is the
+same in both cases, but the moment of inertia is much larger when the children are at the edge.
+Take-Home Experiment
+Cut out a circle that has about a 10 cm radius from stiff cardboard. Near the edge of the circle, write numbers 1 to 12 like
+hours on a clock face. Position the circle so that it can rotate freely about a horizontal axis through its center, like a wheel.
+(You could loosely nail the circle to a wall.) Hold the circle stationary and with the number 12 positioned at the top, attach a
+lump of blue putty (sticky material used for fixing posters to walls) at the number 3. How large does the lump need to be to
+just rotate the circle? Describe how you can change the moment of inertia of the circle. How does this change affect the
+Chapter 7 | Rotation 177

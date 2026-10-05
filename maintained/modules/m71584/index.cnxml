@@ -52,9 +52,7 @@ sec
          </m:mrow>
          <m:mi/>
          <m:mrow>
-          <m:mtext>
-or 1 Hz
-          </m:mtext>
+          <m:mspace width="1em"/><m:mtext>or</m:mtext><m:mspace width="1em"/><m:mtext>1 Hz</m:mtext>
           <m:mo stretchy="false">
 =
           </m:mo>
@@ -83,7 +81,7 @@ size 12{1`"Hz"=1` {  {"cycle"}  over  {"sec"} } ``"or 1 Hz"= {  {1}  over  {s} }
      </m:annotation>
     </m:semantics>
    </m:math></equation><para id="import-auto-id2980173">A cycle is one complete oscillation. Note that a vibration can be a single or multiple event, whereas oscillations are usually repetitive for a significant number of cycles.</para>
-    <example id="fs-id3397394"><title>Determine the Frequency of Two Oscillations: Medical Ultrasound and the Period of Middle C</title><para id="import-auto-id3062499">We can use the formulas presented in this module to determine both the frequency based on known oscillations and the oscillation based on a known frequency. Let’s try one example of each. (a) A medical imaging device produces ultrasound by oscillating with a period of 0.400 µs. What is the frequency of this oscillation? (b) The frequency of middle C on a typical musical instrument is 264 Hz. What is the time for one complete oscillation?</para>
+    <example id="fs-id3397394"><title>Determine the Frequency of Two Oscillations: Medical Ultrasound and the Period of Middle C</title><para id="import-auto-id3062499">We can use the formulas presented in this module to determine both the frequency based on known oscillations and the oscillation based on a known frequency. Let’s try one example of each. (a) A medical imaging device produces ultrasound by oscillating with a period of 0.400 µs. What is the frequency of this oscillation? (b) The frequency of middle C on a typical musical instrument is 264 Hz. What is the time for one complete oscillation?</para>
     <para id="import-auto-id3037764"><emphasis>Strategy</emphasis></para>
         <para id="import-auto-id3037765">Both questions (a) and (b) can be answered using the relationship between period and frequency. In question (a), the period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis> is given and we are asked to find frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>. In question (b), the frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is given and we are asked to find the period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis>.</para>
     <para id="import-auto-id1514315">
@@ -250,78 +248,18 @@ size 12{0 "." "400"`"μs"} {}
       </m:math> 
     </equation></item>
     <item id="import-auto-id1931109">Substitute the given value for the frequency into the resulting expression:
-    <equation id="eip-663"><m:math>
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi>T</m:mi>
-                          <m:mo stretchy="false">=</m:mo>
-                          <m:mfrac>
-                            <m:mn>1</m:mn>
-                            <m:mi>f</m:mi>
-                          </m:mfrac>
-                        </m:mrow>
-                        <m:mo stretchy="false">=</m:mo>
-                        <m:mfrac>
-                          <m:mn>1</m:mn>
-                          <m:mrow>
-                            <m:mtext>264</m:mtext>
-<m:mspace width="0.25em"/>
-                            <m:mtext> Hz</m:mtext>
-                          </m:mrow>
-                        </m:mfrac>
-                      </m:mrow>
-                      <m:mo stretchy="false">=</m:mo>
-                      <m:mfrac>
-                        <m:mn>1</m:mn>
-                        <m:mrow>
-                          <m:mtext>264</m:mtext><m:mspace width="0.25em"/>
-                          <m:mtext> cycles/s</m:mtext>
-                        </m:mrow>
-                      </m:mfrac>
-                    </m:mrow>
-                    <m:mo stretchy="false">=</m:mo>
-                    <m:mn>3</m:mn>
-                  </m:mrow>
-                  <m:mtext>.</m:mtext>
-                  <m:mrow>
-                    <m:mtext>79</m:mtext>
-                    <m:mo stretchy="false">×</m:mo>
-                    <m:msup>
-                      <m:mtext>10</m:mtext>
-                      
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mn>3</m:mn>
-                          </m:mrow>
-                        </m:mrow>
-                      
-                    </m:msup>
-                  </m:mrow>
-                  <m:mrow>
-<m:mspace width="0.25em"/>
-                    <m:mtext>s</m:mtext>
-                    <m:mo stretchy="false">=</m:mo>
-                    <m:mn>3</m:mn>
-                  </m:mrow>
-                  <m:mtext>.</m:mtext>
-                  <m:mtext>79</m:mtext><m:mspace width="0.25em"/>
-                  <m:mtext> ms</m:mtext>
-                </m:mrow>
-              </m:mrow>
-            
-            <m:mo>.</m:mo>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {f} } = {  {1}  over  {"264"" Hz"} } = {  {1}  over  {"264"" cycles/s"} } =3 "." "79" times "10" rSup { size 8{ - 3} } s=3 "." "79"" ms"} {}</m:annotation>
-        </m:semantics>
-      </m:math> </equation></item>
+    <equation id="eip-663"><m:math><m:semantics>
+<m:mtable columnalign="right center left" columnspacing="0.25em" rowspacing="0.5em">
+<m:mtr><m:mtd><m:mi>T</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow>
+<m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>264</m:mn><m:mspace width="0.25em"/><m:mtext>Hz</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>264</m:mn><m:mspace width="0.25em"/><m:mtext>cycles/s</m:mtext></m:mrow></m:mfrac>
+</m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow>
+<m:mn>3.79</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>3.79</m:mn><m:mspace width="0.25em"/><m:mtext>ms</m:mtext><m:mo>.</m:mo>
+</m:mrow></m:mtd></m:mtr>
+</m:mtable>
+<m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {f} } = {  {1}  over  {"264"" Hz"} } = {  {1}  over  {"264"" cycles/s"} } =3 "." "79" times "10" rSup { size 8{ - 3} } s=3 "." "79"" ms"} {}</m:annotation></m:semantics></m:math></equation></item>
     </list>
     <para id="import-auto-id3077931"><emphasis>Discussion </emphasis></para>
         <para id="import-auto-id3077932">The period found in (b) is the time per cycle, but this value is often quoted as simply the time in convenient units (ms or milliseconds in this case).</para>
@@ -331,7 +269,7 @@ size 12{0 "." "400"`"μs"} {}
                 <problem id="fs-id3454521">
     <para id="import-auto-id2639826">Identify an event in your life (such as receiving a paycheck) that occurs regularly. Identify both the period and frequency of this event.</para></problem>
                 <solution id="fs-id3105489" print-placement="here">
-    <para id="import-auto-id3103253">I visit my parents for dinner every other Sunday. The frequency of my visits is 26 per calendar year. The period is two weeks.</para></solution>
+    <para id="import-auto-id3103253">I visit my parents for dinner every other Sunday. The frequency of my visits is 26 per calendar year. The period is two weeks.</para></solution>
 
         </exercise>
 
@@ -361,15 +299,21 @@ size 12{0 "." "400"`"μs"} {}
         </m:semantics>
       </m:math> 
     </equation></item></list>
-    </section><section id="eip-964"><title>Conceptual Questions</title><exercise id="eip-668"><problem id="eip-394">
-  <para id="eip-602">
-    If an oscillation occurs more rapidly, how does the period of oscillation change? How does the frequency change?
-  </para>
-</problem></exercise><exercise id="eip-452"><problem id="eip-431">
+    </section><section class="conceptual-questions" id="eip-964"><title>Questions and Exercises</title><exercise id="eip-452"><problem id="eip-431">
   <para id="eip-404">
     Give examples of natural phenomena that occur with constant frequency (or period) over a length of time.
   </para>
-</problem></exercise></section></content>
+</problem></exercise>
+<exercise id="ex-c5-units" type="conceptual-questions"><problem id="ex-c5-units-problem"><para id="ex-c5-units-p1">Which of the following can express a period, and which can express a frequency: seconds, hertz, beats per minute, and minutes per cycle? Explain how the units distinguish the two quantities.</para></problem></exercise>
+<exercise id="eip-668"><problem id="eip-394">
+  <para id="eip-602">
+    If an oscillation occurs more rapidly, how does the period of oscillation change? How does the frequency change?
+  </para>
+</problem></exercise>
+<exercise id="ex-c5-timing-cycle" type="conceptual-questions"><problem id="ex-c5-timing-cycle-problem"><para id="ex-c5-timing-cycle-p1">A mass oscillates vertically on a spring. One student times its motion from its highest point until it next reaches its highest point. Another times its motion from the equilibrium position until it next reaches the equilibrium position. Do both measurements give one period? Explain, including how the direction of motion matters.</para></problem></exercise>
+<exercise id="ex-c5-counting-cycles" type="conceptual-questions"><problem id="ex-c5-counting-cycles-problem"><para id="ex-c5-counting-cycles-p1">A pendulum completes 12 full oscillations in 24 s. (a) What is its period? (b) What is its frequency? (c) Why might timing several oscillations give a more reliable measurement of the period than timing just one?</para></problem></exercise>
+<exercise id="ex-c5-heartbeat" type="conceptual-questions"><problem id="ex-c5-heartbeat-problem"><para id="ex-c5-heartbeat-p1">A health practitioner counts 18 heartbeats in 15 s. Assuming a steady rhythm, find (a) the heart rate in beats per minute, (b) the frequency in hertz, and (c) the time between successive beats.</para></problem></exercise>
+</section></content>
     <glossary>
         <definition id="import-auto-id2931652"><term>period</term> <meaning id="fs-id2674381">time it takes to complete one oscillation</meaning></definition>
         <definition id="import-auto-id2435584"><term>periodic motion</term><meaning id="fs-id1438866">motion that repeats itself at regular time intervals</meaning></definition>

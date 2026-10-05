@@ -1,0 +1,87 @@
+So, the initial mgh is divided between translational kinetic energy and rotational kinetic energy; and the greater I is, the less
+energy goes into translation. If the can slides down without friction, then ω = 0 and all the energy goes into translation; thus,
+the can goes faster.
+Take-Home Experiment
+Locate several cans each containing a different type of food (for example, canned soup with different kinds of soup). First,
+predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. A good contrast
+can be obtained between a thick soup concentrate (for example, condensed cream of mushroom) and a thin soup (for
+example, chicken noodle soup). If you feel adventurous, try other foods, such as canned corn or peas; try predicting how
+these would compare to, for example, condensed cream of mushroom can in the race down an inclined plane.
+Example 7.4 Calculating the Speed of a Cylinder Rolling Down an Incline
+Calculate the final speed of a solid cylinder that rolls down a 2.00-m-high incline. The cylinder starts from rest, has a mass of
+0.750 kg, and has a radius of 4.00 cm.
+Strategy
+We can solve for the final velocity using conservation of energy, but we must first express rotational quantities in terms of
+translational quantities to end up with v as the only unknown.
+Solution
+Conservation of energy for this situation is written as described above:
+(7.33)mgh = 1
+2mv2 + 1
+2Iω2.
+Before we can solve for v , we must look up an expression for I for a solid disk: Idisk = 1
+2Mℓ2 . Because v and ω are
+related (note here that the cylinder is rolling without slipping), we must also substitute the relationship ω = v / R into the
+expression. These substitutions yield
+(7.34)
+mgh = 1
+2mv2 + 1
+2
+⎛
+⎝
+1
+2mR2⎞
+⎠
+⎛
+⎝
+v2
+R2
+⎞
+⎠.
+Interestingly, the cylinder’s radius R and mass m cancel, yielding
+(7.35)gh = 1
+2v2 + 1
+4v2 = 3
+4v2.
+Solving algebraically, the equation for the final velocity v gives
+(7.36)
+v = ⎛
+⎝
+4gh
+3
+⎞
+⎠
+1 / 2
+.
+Substituting known values into the resulting expression yields
+(7.37)
+v =
+⎡
+⎣
+⎢
+4⎛
+⎝9.80 m/s2⎞
+⎠(2.00 m)
+3
+⎤
+⎦
+⎥
+1 / 2
+= 5.11 m/s.
+Discussion
+Because m and R cancel, the result v = ⎛
+⎝
+4
+3gh⎞
+⎠
+1 / 2
+is valid for any solid cylinder, implying that all solid cylinders will roll
+down an incline at the same rate independent of their masses and sizes. (Rolling cylinders down inclines is what Galileo
+actually did to show that objects fall at the same rate independent of mass.) Note that if the cylinder slid without friction down
+the incline without rolling, then the entire gravitational potential energy would go into translational kinetic energy. Thus,
+1
+2mv2 = mgh and v = (2gh)1 / 2 , which is 22% greater than (4gh / 3)1 / 2 . That is, the cylinder would go faster at the
+bottom.
+Check Your Understanding
+Analogy of Rotational and Translational Kinetic Energy
+182 Chapter 7 | Rotation
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

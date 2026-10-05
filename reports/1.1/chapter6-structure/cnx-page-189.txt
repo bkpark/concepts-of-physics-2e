@@ -1,0 +1,67 @@
+Is rotational kinetic energy completely analogous to translational kinetic energy? What, if any, are their differences? Give an
+example of each type of kinetic energy.
+Solution
+Yes, rotational and translational kinetic energy are exact analogs. They both are the energy of motion involved with the
+coordinated (non-random) movement of mass relative to some reference frame. The only difference between rotational and
+translational kinetic energy is that translational is straight line motion while rotational is not. An example of both kinetic and
+translational kinetic energy is found in a bike tire while being ridden down a bike path. The rotational motion of the tire
+means it has rotational kinetic energy while the movement of the bike along the path means the tire also has translational
+kinetic energy. If you were to lift the front wheel of the bike and spin it while the bike is stationary, then the wheel would have
+only rotational kinetic energy relative to the Earth.
+7.4 Angular Momentum and Its Conservation
+Why does Earth keep on spinning? What started it spinning to begin with? And how does an ice skater manage to spin faster
+and faster simply by pulling her arms in? Why does she not have to exert a torque to spin faster? Questions like these have
+answers based in angular momentum, the rotational analog to linear momentum.
+By now the pattern is clear—every rotational phenomenon has a direct translational analog. It seems quite reasonable, then, to
+define angular momentum L as
+(7.38)L = Iω.
+This equation is an analog to the definition of linear momentum as p = mv . Units for linear momentum are kg ⋅ m/s while
+units for angular momentum are kg ⋅ m2/s . As we would expect, an object that has a large moment of inertia I , such as Earth,
+has a very large angular momentum. An object that has a large angular velocity ω , such as a centrifuge, also has a rather large
+angular momentum.
+Example 7.5 Calculating Angular Momentum of the Earth
+Strategy
+No information is given in the statement of the problem; so we must look up pertinent data before we can calculate L = Iω .
+First, according to m42179 (https://legacy.cnx.org/content/m42179/latest/#fs-id1838666) , the formula for the moment of
+inertia of a sphere is
+(7.39)
+I = 2MR2
+5
+so that
+(7.40)
+L = Iω = 2MR2ω
+5 .
+Earth’s mass M is 5.979×1024 kg and its radius R is 6.376×106 m . The Earth’s angular velocity ω is, of course,
+exactly one revolution per day, but we must covert ω to radians per second to do the calculation in SI units.
+Solution
+Substituting known information into the expression for L and converting ω to radians per second gives
+(7.41)
+L = 0.4⎛
+⎝5.979×1024 kg⎞
+⎠
+⎛
+⎝6.376×106 m⎞
+⎠
+2⎛
+⎝
+1 rev
+d
+⎞
+⎠
+= 9.72×1037 kg ⋅ m2 ⋅ rev/d.
+Substituting 2π rad for 1 rev and 8.64×104 s for 1 day gives
+(7.42)
+L = ⎛
+⎝9.72×1037 kg ⋅ m2⎞
+⎠
+⎛
+⎝
+2π rad/rev
+8.64×104 s/d
+⎞
+⎠(1 rev/d)
+= 7.07×1033 kg ⋅ m2/s.
+Discussion
+This number is large, demonstrating that Earth, as expected, has a tremendous angular momentum. The answer is
+approximate, because we have assumed a constant density for Earth in order to estimate its moment of inertia.
+Chapter 7 | Rotation 183

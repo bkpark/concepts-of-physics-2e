@@ -1,0 +1,15 @@
+{
+  "status": "Maintainer approved 2026-09-27; used in Priority 4 preview; canonical application pending",
+  "date": "2026-09-27",
+  "tool": "Built-in image_gen",
+  "original": "maintained/media/Figure 25_03_13a.jpg",
+  "output": "proposals/1.1/assets/characteristic-xray-revised-draft.png",
+  "change": "Lower-panel electron placed on outer shell; transition arrow ends on inner shell; preserve original upper-panel composition. Generated reconstruction, not pixel-identical preservation.",
+  "prompt": "Use case: precise-object-edit. Edit target: attached historical physics textbook diagram of characteristic X-ray production. Preserve the entire upper panel showing incoming electron and two outgoing electrons, nucleus, colors, and white background. Correct ONLY the lower panel: remove the electron outside the atom at upper right and its long inward straight arrow. Instead place an electron labeled e− directly ON the outer green elliptical shell at the upper-right part of that ellipse, and draw a short clear black transition arrow from this bound outer-shell electron inward to the inner circular shell vacancy, ending at that inner shell, not at the nucleus. This must unambiguously represent an electron ALREADY BOUND in an outer shell dropping into an inner-shell vacancy, NOT capture of an external electron. Preserve the red wavy outward arrow labeled 'X ray', the nucleus and inner-shell circle, the colored elliptical shell schematic and the overall two vertically stacked panels and educational illustration style. Electron shells are schematic. No new prose, no added panels, no decorative elements. Improve clarity and resolution while retaining original composition.",
+  "provenance": "Adaptation of recovered CC BY 4.0 textbook figure; retain upstream textbook attribution when published. Historical original unchanged.",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "Recovered CNX 12.1 module m67133 version 1.2 attribution records CC BY 4.0 in references/cnx-12.1-module-attributions.json; original figure carries no separate third-party credit or restriction.",
+  "credit": "Adapted from OpenStax, College Physics; illustration revised.",
+  "sha256": "4f60dd9ae7f2b237fdd5626d06778f726fc1091fbbb8c8b790f5eb44dacf854a"
+}

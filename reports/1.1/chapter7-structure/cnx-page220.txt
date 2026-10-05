@@ -1,0 +1,50 @@
+toward it. The reason is the same—the high velocity of the air between the car and the truck creates a region of lower pressure,
+and the vehicles are pushed together by greater pressure on the outside. (See Figure 8.20.) This effect was observed as far
+back as the mid-1800s, when it was found that trains passing in opposite directions tipped precariously toward one another.
+Figure 8.20 An overhead view of a car passing a truck on a highway. Air passing between the vehicles flows in a narrower channel and must increase
+its speed ( v2 is greater than v1 ), causing the pressure between them to drop ( Pi is less than Po ). Greater pressure on the outside pushes the
+car and truck together.
+Making Connections: Take-Home Investigation with a Sheet of Paper
+Hold the short edge of a sheet of paper parallel to your mouth with one hand on each side of your mouth. The page should
+slant downward over your hands. Blow over the top of the page. Describe what happens and explain the reason for this
+behavior.
+Bernoulli’s Equation
+The relationship between pressure and velocity in fluids is described quantitatively by Bernoulli’s equation, named after its
+discoverer, the Swiss scientist Daniel Bernoulli (1700–1782). Bernoulli’s equation states that for an incompressible, frictionless
+fluid, the following sum is constant:
+(8.58)P + 1
+2 ρv2 + ρgh = constant,
+where P is the absolute pressure, ρ is the fluid density, v is the velocity of the fluid, h is the height above some reference
+point, and g is the acceleration due to gravity. If we follow a small volume of fluid along its path, various quantities in the sum
+may change, but the total remains constant. Let the subscripts 1 and 2 refer to any two points along the path that the bit of fluid
+follows; Bernoulli’s equation becomes
+(8.59)P1 + 1
+2 ρv1
+2 + ρgh1 = P2 + 1
+2 ρv2
+2 +ρgh2.
+Bernoulli’s equation is a form of the conservation of energy principle. Note that the second and third terms are the kinetic and
+potential energy with m replaced by ρ . In fact, each term in the equation has units of energy per unit volume. We can prove
+this for the second term by substituting ρ = m / V into it and gathering terms:
+(8.60)
+1
+2 ρv2 =
+1
+2mv2
+V = KE
+V .
+So 1
+2 ρv2 is the kinetic energy per unit volume. Making the same substitution into the third term in the equation, we find
+(8.61)
+ρgh = mgh
+V =
+PEg
+V ,
+so ρgh is the gravitational potential energy per unit volume. Note that pressure P has units of energy per unit volume, too.
+Since P = F / A , its units are N/m2 . If we multiply these by m/m, we obtain N ⋅ m/m3 = J/m3 , or energy per unit volume.
+Bernoulli’s equation is, in fact, just a convenient statement of conservation of energy for an incompressible fluid in the absence of
+friction.
+Making Connections: Conservation of Energy
+Conservation of energy applied to fluid flow produces Bernoulli’s equation. The net work done by the fluid’s pressure results
+214 Chapter 8 | Fluids
+This OpenStax book is available for free at https://legacy.cnx.org/content/col25183/1.12

@@ -3,6 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import collections, hashlib,json,xml.etree.ElementTree as ET
+from math_punctuation import ends_in_math, TRAILING
 P=Path(__file__).resolve().parent;ROOT=P.parent
 class Page(HTMLParser):
     def __init__(self):super().__init__();self.ids=[];self.math=[];self.links=[];self.images=[];self.text=[]
@@ -19,6 +20,8 @@ assert hashlib.sha256((P/'vendor/mml-svg.js').read_bytes()).hexdigest()==vendor[
 for profile in ('course-full',):
     out=P/'dist'/profile
     registry=json.loads((out/'identity-registry.json').read_text(encoding='utf-8'))
+    relocations=json.loads((out/'chapter-end-relocations.json').read_text(encoding='utf-8'))
+    relocated_modules={b['module']:b['review_slug'] for b in relocations}
     pages={}
     for f in out.rglob('*.html'):
         p=Page();p.feed(f.read_text(encoding='utf-8'));assert len(p.ids)==len(set(p.ids)),f'Duplicate IDs: {f}';pages[f.resolve()]=p
@@ -40,9 +43,12 @@ for profile in ('course-full',):
         ids=[mid+'--'+e.get('id').encode().hex() for e in source.iter() if e.get('id')]
         assert set(ids)<=set(p.ids),(mid,'Missing source anchors')
         math=list(source.iter('{http://www.w3.org/1998/Math/MathML}math'))
-        assert len(math)==len(p.math)==len(set(p.math))
-        imgs=list(source.iter('{http://cnx.rice.edu/cnxml}image'));assert len(imgs)==len(p.images)
-        visible=' '.join(' '.join(p.text).split())
+        review=pages[(out/'exercises'/relocated_modules[mid]/'index.html').resolve()] if mid in relocated_modules else None
+        keys=p.math+([k for k in review.math if k.startswith(mid+'-math-')] if review else [])
+        assert len(math)==len(keys)==len(set(keys))
+        imgs=list(source.iter('{http://cnx.rice.edu/cnxml}image'))
+        assert len(imgs)==len(p.images)+sum(b['image_count'] for b in relocations if b['module']==mid)
+        visible=' '.join(' '.join(p.text+(review.text if review else [])).split())
         def prose(e,inside_math=False):
             inside_math=inside_math or e.tag.startswith('{http://www.w3.org/1998/Math/MathML}')
             if not inside_math and e.text and len(e.text.strip())>20:
@@ -51,7 +57,12 @@ for profile in ('course-full',):
             for child in e:
                 prose(child,inside_math)
                 if not inside_math and child.tail and len(child.tail.strip())>20:
-                    fragment=' '.join(child.tail.split());assert fragment in visible,(mid,'Missing prose tail',fragment[:100])
+                    tail=child.tail
+                    # The renderer splits punctuation into its nonbreaking group;
+                    # this parser joins HTML text nodes with a space for comparison.
+                    match=TRAILING.match(tail) if ends_in_math(child) else None
+                    if match:tail=match[1]+' '+tail[match.end():]
+                    fragment=' '.join(tail.split());assert fragment in visible,(mid,'Missing prose tail',fragment[:100])
                     count['prose_fragments_checked']+=1
         for child in source:
             if child.tag.rsplit('}',1)[-1] in ('title','content','glossary'):prose(child)
@@ -66,7 +77,11 @@ for p in audit['pages']:
     assert p['renderedMath']+len(p['unresolved'])==p['mathWrappers']
 views=json.loads((P/'dist/course-full/exercise-views.json').read_text(encoding='utf-8'))
 projected=[b['module']+'#'+ident for v in views for b in v['blocks'] for ident in b['exercise_ids']]
-assert len(projected)==len(set(projected))==952
+# 952 original projected exercises, five Chapter 0 and six Chapter 1 additions,
+# plus six Chapter 2 additions, minus five approved Chapter 2 removals,
+# plus five approved Chapter 3 additions; Chapter 4 finished at 24 questions.
+# The previous book total was 974; twenty Chapter 5 additions, eight Chapter 6 additions and one Chapter 6 removal bring it to 1001; two Chapter 7 removals and nine additions bring it to 1008; numbering two Chapter 8 prompts brings it to 1010.
+assert len(projected)==len(set(projected))==851  # Chapters 8: 105 to 47; 9: 156 to 55.
 labels=json.loads((P/'dist/course-full/object-labels.json').read_text(encoding='utf-8'))
 assert labels['m67123#import-auto-id2589627']['label']=='8.E.1'
 assert (P/'dist/course-full/identity-registry.json').read_bytes()==(P/'dist/cnx-full/identity-registry.json').read_bytes()

@@ -20,3 +20,15 @@ button.addEventListener('click',async()=>{
  catch(e){status.textContent='Clipboard unavailable. Copy the MathML from the source download.';}
 });
 window.mathReady=true;
+
+// Keep ordinary math ink visible; opt into horizontal scrolling only when the
+// unbreakable equation/punctuation group is wider than its available line.
+const punctuationGroups=[...document.querySelectorAll('.math-with-punctuation')];
+function sizeMathGroup(group){
+ group.classList.toggle('math-needs-scroll',group.scrollWidth>group.clientWidth+1);
+}
+const mathGroupObserver=new ResizeObserver(entries=>{
+ for(const {target} of entries)sizeMathGroup(target);
+});
+for(const group of punctuationGroups){sizeMathGroup(group);mathGroupObserver.observe(group);}
+document.fonts.ready.then(()=>punctuationGroups.forEach(sizeMathGroup));

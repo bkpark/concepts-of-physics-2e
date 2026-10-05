@@ -1,0 +1,32 @@
+Figure 9.33 (a) Heat transfer occurs spontaneously from a hot object to a cold one, consistent with the second law of thermodynamics. (b) A heat
+engine, represented here by a circle, uses part of the heat transfer to do work. The hot and cold objects are called the hot and cold reservoirs. Qh is
+the heat transfer out of the hot reservoir, W is the work output, and Qc is the heat transfer into the cold reservoir.
+Because the hot reservoir is heated externally, which is energy intensive, it is important that the work is done as efficiently as
+possible. In fact, we would like W to equal Qh , and for there to be no heat transfer to the environment ( Qc = 0 ).
+Unfortunately, this is impossible. The second law of thermodynamics also states, with regard to using heat transfer to do work
+(the second expression of the second law):
+The Second Law of Thermodynamics (second expression)
+It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which
+the system returns to its initial state.
+A cyclical process brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. Most heat
+engines, such as reciprocating piston engines and rotating turbines, use cyclical processes. The second law, just stated in its
+second form, clearly states that such engines cannot have perfect conversion of heat transfer into work done. Before going into
+the underlying reasons for the limits on converting heat transfer into work, we need to explore the relationships among W , Qh ,
+and Qc , and to define the efficiency of a cyclical heat engine. As noted, a cyclical process brings the system back to its original
+condition at the end of every cycle. Such a system’s internal energy U is the same at the beginning and end of every
+cycle—that is, ΔU = 0 . The first law of thermodynamics states that
+(9.42)ΔU = Q − W,
+where Q is the net heat transfer during the cycle ( Q = Qh − Qc ) and W is the net work done by the system. Since
+ΔU = 0 for a complete cycle, we have
+(9.43)0 = Q − W,
+so that
+(9.44)W = Q.
+Thus the net work done by the system equals the net heat transfer into the system, or
+(9.45)W = Qh − Qc (cyclical process),
+just as shown schematically in Figure 9.33(b). The problem is that in all processes, there is some heat transfer Qc to the
+environment—and usually a very significant amount at that.
+In the conversion of energy to work, we are always faced with the problem of getting less out than we put in. We define
+conversion efficiency Eff to be the ratio of useful work output to the energy input (or, in other words, the ratio of what we get to
+what we spend). In that spirit, we define the efficiency of a heat engine to be its net work output W divided by heat transfer to
+the engine Qh ; that is,
+Chapter 9 | Thermal Physics 255

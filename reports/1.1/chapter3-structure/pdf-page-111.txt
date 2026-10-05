@@ -1,0 +1,54 @@
+4.2 Kinetic Energy and the Work-Energy Theorem
+Work Transfers Energy
+What happens to the work done on a system? Energy is transferred into the system, but in what form? Does it remain in the
+system or move on? The answers depend on the situation. For example, if a lawn mower is pushed just hard enough to keep it
+going at a constant speed, then energy put into the mower by the person is removed continuously by friction, and eventually
+leaves the system in the form of heat transfer. In contrast, work done on a briefcase by a person carrying it up stairs is stored in
+the briefcase-Earth system and can be recovered at any time. In fact, the building of the pyramids in ancient Egypt is an example
+of storing energy in a system by doing work on the system. Some of the energy imparted to the stone blocks in lifting them during
+construction of the pyramids remains in the stone-Earth system and has the potential to do work.
+In this section we begin the study of various types of work and forms of energy. We will find that some types of work leave the
+energy of a system constant, for example, whereas others change the system in some way, such as making it move. We will also
+develop definitions of important forms of energy, such as the energy of motion.
+Net Work and the Work-Energy Theorem
+We know from the study of Newton’s laws that net force causes acceleration. We will see in this section that work done by the
+net force gives a system energy of motion, and in the process we will also find an expression for the energy of motion.
+Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work done by all
+external forces—that is, net work is the work done by the net external force Fnet . In equation form, this is Wnet = Fnet d .
+Consider a one-dimensional situation where a force is used to accelerate an object in a direction parallel to its initial velocity.
+Such a situation occurs for the package on the roller belt conveyor system shown in Figure 4.4.
+Figure 4.4 A package on a roller belt is pushed horizontally through a distance d .
+The force of gravity and the normal force acting on the package are perpendicular to the displacement and do no work.
+Moreover, they are also equal in magnitude and opposite in direction so they cancel in calculating the net force. The net force
+arises solely from the horizontal applied force Fapp and the horizontal friction force f . Thus, as expected, the net force is
+parallel to the displacement and the net work is given by
+(4.7)Wnet = Fnetd.
+The effect of the net force Fnet is to accelerate the package from v0 to v . By using Newton’s second law, and doing some
+algebra, we can reach an interesting conclusion. Substituting Fnet = ma from Newton’s second law gives
+(4.8)Wnet = mad.
+To get a relationship between net work and the speed given to a system by the net force acting on it, we take d = x − x0 and
+use the equation studied in "Motion Equations for Constant Acceleration in One Dimension" for the change in speed over a
+distance d if the acceleration has the constant value a ; namely, v2 = v0
+2 + 2ad (note that a appears in the expression for
+the net work). Solving for acceleration gives a = v2 − v0
+2
+2d . When a is substituted into the preceding expression for Wnet , we
+obtain
+(4.9)
+Wnet = m
+⎛
+⎝
+⎜v2 − v0
+2
+2d
+⎞
+⎠
+⎟d.
+The d cancels, and we rearrange this to obtain
+(4.10)W = 1
+2mv2 − 1
+2mv0
+ 2 .
+This expression is called the work-energy theorem, and it actually applies in general (even for forces that vary in direction and
+magnitude), although we have derived it for the special case of a constant force parallel to the displacement. The theorem
+Chapter 4 | Work and Energy 105

@@ -37,21 +37,54 @@ course={x['section_id'].split(':')[1]:x['label'] for x in load('metadata/numberi
 # Body headings inspected in historical PDF. Only these six labels are asserted.
 cnx={'m67034':'2.5','m67530':'3.3','m71410':'3.8','m67122':'9.2','m67807':'13.6','m42709':'D'}
 issues=[]; adaptations=[]; math_sources=[]; objects={}; counts=collections.Counter()
+review_chapters={'0':'introduction-exercises','1':'kinematics-exercises','2':'dynamics-exercises','3':'work-and-energy-exercises','4':'impulse-and-momentum-exercises','5':'oscillations-and-waves-exercises','6':'rotation-exercises','7':'fluids-exercises','8':'thermal-physics-exercises','9':'electricity-exercises','10':'magnetism-exercises'}
+review_modules={mid:review_chapters[label.split('.')[0]] for mid,label in course.items() if label.split('.')[0] in review_chapters}
+chapter_relocated=[]
 def anchor(mid,ident):return mid+'--'+ident.encode('utf-8').hex()
 from numbering import build_objects
 objects=build_objects(sections,roots,PROFILE,course,load('maintained/numbering.json'),anchor)
+exercise_placements=load('maintained/exercise-placement.json')['placements'] if PROFILE=='course' else []
+for placement in exercise_placements:
+    source=(placement['module'],placement['exercise_id']);dest=(placement['after_module'],placement['after_exercise_id'])
+    chapter=course[source[0]].split('.')[0]
+    assert chapter==course[dest[0]].split('.')[0]
+    sequence=[key for key,obj in objects.items() if obj['kind']=='exercise' and str(obj['label']).isdigit() and course.get(key[0],'').split('.')[0]==chapter]
+    sequence.sort(key=lambda key:int(objects[key]['label']))
+    sequence.remove(source);sequence.insert(sequence.index(dest)+1,source)
+    for number,key in enumerate(sequence,1):objects[key]['label']=str(number)
+
 
 from navigation import Navigation
-nav=Navigation([registry[m] for m in IDS],course if PROFILE=='course' else cnx,load('maintained/exercise-views.json')['views'] if FULL and PROFILE=='course' else [])
+nav=Navigation([registry[m] for m in IDS],course if PROFILE=='course' else cnx,load('maintained/exercise-views.json')['views'] if FULL and PROFILE=='course' else [], review_chapters=review_chapters)
 
 from mathml import UnsupportedMath
 from native_math import native_math
+from math_punctuation import render_child
 
 class Renderer:
-    def __init__(self,mid,book=False,projection=False):self.mid=mid;self.book=book;self.projection=projection;self.math_index=0
-    def content(self,e):return esc(e.text or '')+''.join(self.render(x)+esc(x.tail or '') for x in e)
+    def __init__(self,mid,book=False,projection=False):self.mid=mid;self.book=book;self.projection=projection;self.math_index=0;self.review_links=set()
+    def content(self,e):return esc(e.text or '')+''.join(render_child(x,self.render) for x in e)
     def render(self,e,depth=2):
         tag=local(e); mid=self.mid; ident=e.get('id'); aid=f' id="{anchor(mid,ident)}"' if ident else ''
+        kind='glossary' if tag=='glossary' else 'summary' if 'section-summary' in e.get('class','').split() else 'questions' if set(e.get('class','').split()).intersection(('conceptual-questions','problems-exercises')) and tag=='section' else None
+        if FULL and PROFILE=='course' and mid in review_modules and not self.book and not self.projection and kind and not getattr(self,'relocating',False):
+            self.relocating=True
+            if kind=='glossary':
+                parts=[{'term':text(x.find('c:term',NS)), 'html':self.render(x)} for x in e if local(x)=='definition']
+                result=''.join(x['html'] for x in parts)
+            else:
+                parts=[];result=self.render(e)
+                # The collected category supplies the heading; retain its old anchor.
+                result=re.sub(r'<h3([^>]*)>.*?</h3>',r'<span\1></span>',result,count=1,flags=re.S)
+            self.relocating=False
+            ids=[anchor(mid,x.get('id')) for x in e.iter() if x.get('id')]
+            chapter_relocated.append({'module':mid,'kind':kind,'html':result,'parts':parts,'anchors':ids,'review_slug':review_modules[mid],'image_count':sum(local(x)=='image' for x in e.iter())})
+            base='../../exercises/'+review_modules[mid]+'/index.html#'
+            dest=base+kind
+            aliases=''.join('<a class="relocated-anchor" id="'+i+'" href="'+base+i+'">Continue to this item in the chapter review.</a>' for i in ids)
+            if dest in self.review_links:return aliases
+            self.review_links.add(dest)
+            return aliases+'<p class="chapter-review-link"><a href="'+dest+'">Chapter '+{'glossary':'glossary','summary':'section summaries','questions':'questions and exercises'}[kind]+'</a></p>'
         obj=objects.get((mid,ident),{}); label=obj.get('label')
         if e.tag.startswith('{'+NS['m']+'}'):
             if tag!='math':raise ValueError('Top level MathML child outside math: '+tag)
@@ -85,6 +118,12 @@ class Renderer:
                 return f'<span class="unavailable" title="{esc(reason)}">{body} [{reason}]</span>'
             frag=anchor(doc,target) if target else doc
             href='#'+frag if self.book or (doc==mid and not self.projection) else ('../../sections/' if self.projection else '../')+registry[doc]['candidate_slug']+'/index.html#'+frag
+            if getattr(self,'relocating',False):
+                target_element=next((x for x in roots[doc].iter() if x.get('id')==target),roots[doc])
+                chain=[target_element]
+                while chain[-1] in parents[doc]:chain.append(parents[doc][chain[-1]])
+                is_collected=doc in review_modules and any(local(x)=='glossary' or set(x.get('class','').split()).intersection(('section-summary','conceptual-questions','problems-exercises')) for x in chain)
+                href=('../../exercises/'+review_modules[doc] if is_collected else '../../sections/'+registry[doc]['candidate_slug'])+'/index.html#'+frag
             return f'<a href="{href}">{body}</a>'
         if tag=='image':
             src=(ROOT/registry[mid]['source']).parent/e.get('src'); dest=OUT/'media'/src.name;dest.parent.mkdir(parents=True,exist_ok=True)
@@ -107,7 +146,15 @@ class Renderer:
             caption=self.content(cap) if cap is not None else ''
             capid=f' id="{anchor(mid,cap.get("id"))}"' if cap is not None and cap.get('id') else ''
             return f'<figure{aid}>{body}<figcaption{capid}><b>Figure {esc(label or "(unnumbered)")}. </b>{caption}</figcaption></figure>'
-        if tag=='equation':return f'<div class="equation"{aid}><div>{self.content(e)}</div><span class="eq-label">{("("+esc(label)+")") if label else ""}</span></div>'
+        if tag=='equation':
+            ancestor=e; in_summary=False
+            while ancestor in parents[mid]:
+                ancestor=parents[mid][ancestor]
+                title=ancestor.find('c:title',NS)
+                if 'section-summary' in ancestor.get('class','').split() or (local(ancestor)=='section' and text(title).lower() in ('section summary','chapter summary')):
+                    in_summary=True;break
+            visible_label=None if in_summary else label
+            return f'<div class="equation"{aid}><div>{self.content(e)}</div><span class="eq-label">{("("+esc(visible_label)+")") if visible_label else ""}</span></div>'
         if tag in ('example','exercise','note'):
             heading=(tag.title()+' '+str(label)) if label else (tag.title() if tag!='note' else '')
             return f'<div class="{tag}"{aid}>'+ (f'<div class="object-title">{esc(heading)}</div>' if heading else '')+self.content(e)+'</div>'
@@ -156,9 +203,26 @@ class Renderer:
         abstract=r.find('c:metadata/md:abstract',NS)
         learning=f'<aside class="objectives"><h2>Learning objectives</h2>{self.content(abstract)}</aside>' if abstract is not None and text(abstract) else ''
         a=attributions[mid]
-        credit='<footer class="attribution"><p>Historical attribution: '+esc(a['authors'])+'. Copyright: '+esc(a['copyright'])+'. <a href="'+esc(a['license'])+'">CC BY 4.0</a>. <a href="'+esc(a['url'])+'">Original module '+esc(mid)+' version '+esc(a['legacy_module_version'])+'</a>.</p>'
-        if a.get('based_on_text'):credit+='<p>Based on: '+esc(a['based_on_text'])+'</p>'
-        credit+='<p>This edition is adapted from CNX collection col25183, version 12.1. Attribution is transcribed from that edition.</p></footer>'
+        public_credit=json.loads((ROOT/'metadata/public-attribution.json').read_text(encoding='utf-8'))
+        omit=public_credit.get('omit_self_credit',[])
+        credit='<footer class="attribution"><h2>Sources and adaptations</h2><p>Adapted from <strong>'+esc(a.get('used_here_as') or a['module_title'])+'</strong>'
+        if a['authors'] not in omit:credit+=', by '+esc(a['authors'])
+        if a['copyright'] not in omit:credit+=', copyright '+esc(a['copyright'])
+        credit+=', licensed under <a href="'+esc(a['license'])+'">CC BY 4.0</a> (<a href="'+esc(a['url'])+'">CNX module '+esc(mid)+', version '+esc(a['legacy_module_version'])+'</a>).</p>'
+        if a.get('based_on_text'):
+            ancestry=esc(a['based_on_text'])
+            match=re.fullmatch(r'(.*?)\s*<(https?://[^<>]+)>\s*by\s+(.+?)\.?',a['based_on_text'])
+            if match:
+                title,url,author=match.groups()
+                # PDF extraction can insert whitespace into the recorded URL.
+                url=re.sub(r'\s+','',url)
+                ancestry='<a href="'+esc(url)+'">'+esc(title)+'</a>, by '+esc(author)+'.'
+            credit+='<p>This source was based on: '+ancestry+'</p>'
+        for upstream in public_credit.get('additional_sources',{}).get(mid,[]):
+            credit+='<p>Upstream source: '+esc(upstream['credit'])+', <a href="'+esc(upstream['url'])+'">'+esc(upstream['title'])+' (module '+esc(upstream['module_id'])+')</a>. <a href="'+esc(upstream['license_url'])+'">'+esc(upstream['license'])+'</a>.</p>'
+        for source in public_credit.get('adapted_passages',{}).get(mid,[]):
+            credit+='<p>'+esc(source['label'])+': '+esc(source['credit'])+', <a href="'+esc(source['url'])+'">'+esc(source['title'])+'</a>. <a href="'+esc(source['license_url'])+'">'+esc(source['license'])+'</a>. '+esc(source['changes'])+'</p>'
+        credit+='<p>This section was recovered from <em>Introduction to Physics</em>, CNX collection col25183, version 12.1, and subsequently revised. See the <a href="https://github.com/bkpark/concepts-of-physics-2e">source repository and revision history</a>.</p></footer>'
         return f'<article id="{mid}"><header><p class="eyebrow">{esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{nav.section_navigation(mid) if FULL and not self.book else ""}{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
 
 def page(title,body,prefix='',website=True):
@@ -174,8 +238,24 @@ for mid in IDS:
     source_dir=OUT/'source'/mid;source_dir.mkdir(parents=True,exist_ok=True)
     shutil.copyfile(ROOT/registry[mid]['source'],source_dir/'index.cnxml')
     target=OUT/'sections'/registry[mid]['candidate_slug'];target.mkdir(parents=True,exist_ok=True)
-    body=Renderer(mid).module();(target/'index.html').write_text(page(registry[mid]['title'],body,'../../'),encoding='utf-8',newline='\n')
+    body=Renderer(mid).module()
+    if FULL:body=nav.previous_next(mid,'top')+body+nav.previous_next(mid,'bottom')
+    (target/'index.html').write_text(page(registry[mid]['title'],body,'../../'),encoding='utf-8',newline='\n')
     book.append(Renderer(mid,True).module())
+
+# Relocate approved questions in the chapter view without changing source IDs or module provenance.
+if FULL and PROFILE=='course':
+    for placement in exercise_placements:
+        smid=placement['module'];dmid=placement['after_module']
+        ex=next(e for e in roots[smid].iter() if e.get('id')==placement['exercise_id'])
+        target_ex=next(e for e in roots[dmid].iter() if e.get('id')==placement['after_exercise_id'])
+        # These initial placement entries are prose-only; reject unsupported markup rather than silently changing math keys.
+        assert not any(local(e) in ('math','image','link') for e in ex.iter())
+        fragment=Renderer(smid).render(ex);target_fragment=Renderer(dmid).render(target_ex)
+        source_block=next(b for b in chapter_relocated if b['kind']=='questions' and b['module']==smid and fragment in b['html'])
+        target_block=next(b for b in chapter_relocated if b['kind']=='questions' and b['module']==dmid and target_fragment in b['html'])
+        source_block['html']=source_block['html'].replace(fragment,'',1)
+        target_block['html']=target_block['html'].replace(target_fragment,target_fragment+fragment,1)
 
 exercise_manifest=[]
 if FULL and PROFILE=='course':
@@ -197,9 +277,29 @@ if FULL and PROFILE=='course':
                     body+='<h3><a href="'+source_url+'">'+esc(course[mid]+': '+registry[mid]['title'])+'</a></h3>'+renderer.render(e)
                     blocks.append({'module':mid,'source_id':e.get('id'),'category':category,'exercise_ids':[x.get('id') for x in e.iter() if local(x)=='exercise']})
         target=OUT/'exercises'/view['slug'];target.mkdir(parents=True,exist_ok=True)
-        (target/'index.html').write_text(page(view['title'],body,'../../'),encoding='utf-8',newline='\n')
+        if view['chapter_label'] in review_chapters:
+            collected=[b for b in chapter_relocated if b['review_slug']==view['slug']]
+            chapter_title=view['title'].removesuffix(' (Exercise)').removesuffix(' (Exercises)')
+            body='<h1>Chapter '+esc(view['chapter_label'])+': '+esc(chapter_title)+' — Review and Exercises</h1><nav aria-label="Chapter review"><a href="#glossary">Glossary</a> · <a href="#summary">Section Summary</a> · <a href="#questions">Questions and Exercises</a></nav>'
+            body+='<section id="glossary"><h2>Glossary</h2>'
+            terms=[p for b in collected if b['kind']=='glossary' for p in b['parts']]
+            body+=''.join(p['html'] for p in sorted(terms,key=lambda p:p['term'].casefold()))+'</section>'
+            for kind,title in [('summary','Section Summary'),('questions','Questions and Exercises')]:
+                body+='<section id="'+kind+'"><h2>'+title+'</h2>'
+                previous_mid=None
+                for b in collected:
+                    if b['kind']!=kind:continue
+                    mid=b['module']
+                    if mid!=previous_mid:body+='<h3><a href="../../sections/'+registry[mid]['candidate_slug']+'/index.html">'+esc(course[mid]+': '+registry[mid]['title'])+'</a></h3>'
+                    body+=b['html'];previous_mid=mid
+                body+='</section>'
+            body+='<p>Source sections: '+', '.join('<a href="../../sections/'+registry[mid]['candidate_slug']+'/index.html">'+esc(registry[mid]['title'])+'</a>' for mid in dict.fromkeys(b['module'] for b in collected))+'. Credits and licenses appear with each source section.</p>'
+        body=nav.previous_next('exercises:'+view['slug'],'top')+body+nav.previous_next('exercises:'+view['slug'],'bottom')
+        page_title = ('Chapter ' + view['chapter_label'] + ': ' + view['title'].removesuffix(' (Exercise)').removesuffix(' (Exercises)') + ' — Review and Exercises') if view['chapter_label'] in review_chapters else view['title']
+        (target/'index.html').write_text(page(page_title,body,'../../'),encoding='utf-8',newline='\n')
         exercise_manifest.append({**view,'blocks':blocks})
     dump(OUT/'exercise-views.json',exercise_manifest)
+    dump(OUT/'chapter-end-relocations.json',[{k:v for k,v in b.items() if k in ('module','kind','anchors','review_slug','image_count')} for b in chapter_relocated])
 intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction to Physics</h1>'+('<p>'+NUMBERING_NOTE+'</p>' if PROFILE=='course' else '')+'</header>'
 intro+=nav.overview() if FULL else '<ul>'+''.join('<li>'+nav.link(registry[m])+'</li>' for m in IDS)+'</ul>'
 if FULL:
@@ -219,5 +319,5 @@ for item in issues:
     review+='</section>'
 (OUT/'review.html').write_text(page('Fidelity review',review),encoding='utf-8',newline='\n')
 dump(OUT/'identity-registry.json',{m:{'slug':registry[m]['candidate_slug'],'anchors':[anchor(m,e.get('id')) for e in roots[m].iter() if e.get('id')]} for m in IDS})
-dump(OUT/'build-manifest.json',{'release_id':release['release_id'] if RELEASE else None,'profile':PROFILE,'renderer':'native-mathml','source_layer':'maintained','approved_repairs':['R1','R2','R3','R4'],'modules':IDS,'math_expressions':len(math_sources),'issues':len(issues),'source_sha256':{m:hashlib.sha256((ROOT/registry[m]['source']).read_bytes()).hexdigest() for m in IDS},'object_numbering_status':'Course section labels and chapter exercise counters implemented; reference fixtures are partial and equation-label visibility remains provisional','section_labels':{m:(cnx if PROFILE=='cnx' else course).get(m) for m in IDS}})
+dump(OUT/'build-manifest.json',{'release_id':release['release_id'] if RELEASE else None,'profile':PROFILE,'renderer':'native-mathml','source_layer':'maintained','exercise_placements':exercise_placements,'approved_repairs':['R1','R2','R3','R4'],'modules':IDS,'math_expressions':len(math_sources),'issues':len(issues),'source_sha256':{m:hashlib.sha256((ROOT/registry[m]['source']).read_bytes()).hexdigest() for m in IDS},'object_numbering_status':'Course section labels and chapter exercise counters implemented; reference fixtures are partial and equation-label visibility remains provisional','section_labels':{m:(cnx if PROFILE=='cnx' else course).get(m) for m in IDS}})
 print(json.dumps({'profile':PROFILE,'math':len(math_sources),'issues':dict(collections.Counter(x['kind'] for x in issues)),'adaptations':len(adaptations)}))

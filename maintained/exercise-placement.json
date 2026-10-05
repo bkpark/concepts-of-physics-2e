@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "policy": "Display placement is separate from immutable module/exercise identity. Both website and PDF use this map for the course profile.",
+  "placements": [
+    {
+      "module": "m67530",
+      "exercise_id": "fs-id2423185",
+      "after_module": "m68330",
+      "after_exercise_id": "fs-id2355576",
+      "status": "maintainer-approved",
+      "reason": "Internal-force cancellation needs the third-law explanation. Place after the system-choice cancellation question as a concrete application; retain both and their original text/identities."
+    },
+    {
+      "module": "m68330",
+      "exercise_id": "fs-id1572333",
+      "after_module": "m67530",
+      "after_exercise_id": "fs-id3180550",
+      "status": "maintainer-approved",
+      "reason": "Approved deferred relocation now applied with overall reorder: aircraft-seat sensation belongs with acceleration/net force in Section 2.4, not Third Law. Original module identity retained."
+    }
+  ]
+}

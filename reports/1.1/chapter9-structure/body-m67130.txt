@@ -1,0 +1,348 @@
+
+  Current
+
+  m67130
+  Current
+  
+Define electric current, ampere, and drift velocity
+Describe the direction of charge flow in conventional current.
+
+  a3740031-6169-4740-8991-c66a946d61a3
+
+
+
+
+  
+    Electric Current
+    Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time. In equation form, electric current I is defined to beI=(ΔQ)/(Δt),where ΔQ is the amount of charge passing through a given area in time Δt. (As in previous chapters, initial time is often taken to be zero, in which case Δt=t.) (See [reference import-auto-id1986250].) The SI unit for current is the ampere (A), named for the French physicist André-Marie Ampère (1775–1836). Since I=ΔQ/Δt, we see that an ampere is one coulomb per second:1A=1C/s 
+    Not only are fuses and circuit breakers rated in amperes (or amps), so are many electrical appliances.
+  
+    
+    
+        
+      
+      
+    The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.
+    Calculating Currents: Current in a Truck Battery and a Handheld Calculator
+    (a) What is the current involved when a truck battery sets in motion 720 C of charge in 4.00 s while starting an engine? (b) How long does it take 1.00 C of charge to flow through a handheld calculator if a 0.300-mA current is flowing?
+   
+      
+      Strategy
+    
+    We can use the definition of current in the equation I=ΔQ/Δt to find the current in part (a), since charge and time are given. In part (b), we rearrange the definition of current and use the given values of charge and current to find the time required.
+      Solution for (a)
+    
+    Entering the given values for charge and time into the definition of current gives
+    
+  
+      
+        
+          
+            
+              
+                                              I
+                              =
+
+                  
+                    
+                      
+                        
+                          
+                            
+
+                              (
+                                ΔQ)/(Δt)
+                            
+                            =
+                            (720 C)/(
+                                4.00 s
+                              )
+                          
+                          =
+                           180 C/s
+                        
+                      
+                    
+                    
+                  
+                
+                
+                            =
+                  
+                    
+                      
+                        
+
+                             180 A.
+                        
+                      
+                  
+                
+              
+            
+          
+        
+       
+    
+      Discussion for (a)
+    
+    This large value for current illustrates the fact that a large charge is moved in a small amount of time. The currents in these “starter motors” are fairly large because large frictional forces need to be overcome when setting something in motion.
+ 
+      
+      Solution for (b)
+    
+    Solving the relationship I=ΔQ/Δt for time Δt, and entering the known values for charge and current gives
+        
+          
+            
+              
+                Δ
+                            t
+                            =
+
+                  
+                    
+                      
+                        
+                          
+
+                            (Δ
+                              Q)/(I)
+                          
+                          =
+                          (
+                              1.00 C
+                            )/(
+                              0.300
+                              ×
+
+ 10^(
+                                      −
+                                      3
+        )
+                               C/s
+                            )
+                        
+                      
+                    
+                  
+                
+                
+=
+
+                  
+                    
+                     3.33 
+                    ×
+                     10^(
+                          3
+                        )
+                     s.
+                  
+                
+              
+            
+          
+        
+       
+    
+      Discussion for (b)
+    
+    This time is slightly less than an hour. The small current used by the hand-held calculator takes a much longer time to move a smaller charge than the large current of the truck starter. So why can we operate our calculators only seconds after turning them on? It’s because calculators require very little energy. Such small current and energy demands allow handheld calculators to operate from solar cells or to get many hours of use out of small batteries. Remember, calculators do not have moving parts in the same way that a truck engine has with cylinders and pistons, so the technology requires smaller currents.
+    [reference import-auto-id2931325] shows a simple circuit and the standard schematic representation of a battery, conducting path, and load (a resistor). Schematics are very useful in visualizing the main features of a circuit. A single schematic can represent a wide variety of situations. The schematic in [reference import-auto-id2931325] (b), for example, can represent anything from a truck battery connected to a headlight lighting the street in front of the truck to a small battery connected to a penlight lighting a keyhole in a door. Such schematics are useful because the analysis is the same for a wide variety of situations. We need to understand a few schematics to apply the concepts and analysis to many more situations.
+        
+      
+      
+    (a) A simple electric circuit. A closed path for current to flow through is supplied by conducting wires connecting a load to the terminals of a battery. (b) In this schematic, the battery is represented by the two parallel red lines, conducting wires are shown as straight lines, and the zigzag represents the load. The schematic represents a wide variety of similar circuits.Note that the direction of current flow in [reference import-auto-id2931325] is from positive to negative. The direction of conventional current is the direction that positive charge would flow. Depending on the situation, positive charges, negative charges, or both may move. In metal wires, for example, current is carried by electrons—that is, negative charges move. In ionic solutions, such as salt water, both positive and negative charges move. This is also true in nerve cells. A Van de Graaff generator used for nuclear research can produce a current of pure positive charges, such as protons. [reference import-auto-id1575921] illustrates the movement of charged particles that compose a current. The fact that conventional current is taken to be in the direction that positive charge would flow can be traced back to American politician and scientist Benjamin Franklin in the 1700s. He named the type of charge associated with electrons negative, long before they were known to carry current in so many situations. Franklin, in fact, was totally unaware of the small-scale structure of electricity.
+    It is important to realize that there is an electric field in conductors responsible for producing the current, as illustrated in [reference import-auto-id1575921]. Unlike static electricity, where a conductor in equilibrium cannot have an electric field in it, conductors carrying a current have an electric field and are not in static equilibrium. An electric field is needed to supply energy to move the charges.
+    
+    Making Connections: Take-Home Investigation—Electric Current Illustration
+    
+    Find a straw and little peas that can move freely in the straw. Place the straw flat on a table and fill the straw with peas. When you pop one pea in at one end, a different pea should pop out the other end. This demonstration is an analogy for an electric current. Identify what compares to the electrons and what compares to the supply of energy. What other analogies can you find for an electric current?Note that the flow of peas is based on the peas physically bumping into each other; electrons flow due to mutually repulsive electrostatic forces.
+   
+    
+    
+    
+       
+      
+      
+    Current I is the rate at which charge moves through an area 
+ 
+  A 
+ 
+, such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow.
+Calculating the Number of Electrons that Move through a CalculatorIf the 0.300-mA current through the calculator mentioned in the [reference fs-id1957989] example is carried by electrons, how many electrons per second pass through it?
+      Strategy
+    
+    The current calculated in the previous example was defined for the flow of positive charge. For electrons, the magnitude is the same, but the sign is opposite, 
+   
+    
+     
+       
+        
+         
+          
+I
+           _(
+electrons
+               )
+          
+=
+          
+          
+           
+−
+           
+           
+0.300
+           
+          
+          
+×
+          
+          
+10
+           ^(
+             
+              
+               
+                
+−3
+                
+               
+              
+             
+           )
+         
+         
+C/s
+         
+        
+       
+     
+    
+     .Since each electron 
+    
+     
+      
+       
+(
+       
+       
+         
+          
+           
+e
+            ^(
+              
+               
+                
+                 
+−
+                 
+                 
+                
+               
+              
+            )
+          
+         
+       
+       
+)
+       
+      
+     
+    
+    has a charge of −1.60×10^(−19)C, we can convert the current in coulombs per second to electrons per second.
+      Solution
+    
+    Starting with the definition of current, we have
+    
+    I_(electrons)=(ΔQ_(electrons))/(Δt)=(−0.300 × 10^(−3) C)/(s).We divide this by the charge per electron, so that
+        
+          
+            
+              
+                
+                            (
+                              e^(−)
+                             )/(s)
+                            =
+
+                  
+                    
+                      
+                        
+                          
+
+                            (
+                                −0
+                                .
+                                300 
+                                ×
+                                 10^(
+                                      
+                                        −
+                                        3
+                                      
+                                    )
+                                 C
+                              )/(s)
+                          
+                          ×
+                          (
+                              1
+                              e^(−)
+                            )/(
+                              −1
+                              .60 
+                              ×
+                               10^(
+                                    
+                                      −
+                                      19
+                                    
+                                  )
+                               C
+                            )
+                        
+                      
+                  
+                
+                
+   =
+
+                  
+                    1.88 
+                    ×
+                     10^(
+                          15
+                        )
+                    (
+                      e^(−)
+                     )/(s)
+                    .
+                    
+                  
+                
+              
+            
+          
+        
+       
+    
+      Discussion
+    
+    There are so many charged particles moving, even in small currents, that individual charges are not noticed, just as individual water molecules are not noticed in water flow. Even more amazing is that they do not always keep moving forward like soldiers in a parade. Rather they are like a crowd of people with movement in different directions but a general trend to move forward. There are lots of collisions with atoms in the metal wire and, of course, with other electrons.
+    
+  
+  
+      Questions and Exercises
+    
+  
+    
+      Questions and Exercises
+    
+
+  

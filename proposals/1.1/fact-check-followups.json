@@ -1,8 +1,11 @@
 [
   {
     "topic": "Additional historical details",
-    "note": "Doppler/Buys Ballot train-experiment attribution, Michelson experiment date/distance, de Broglie proposal versus dissertation date, Shroud of Turin location/date, Clausius spelling, and the dated Three Gorges completion claim remain screening leads. Do not classify these as verified corrections yet.",
-    "status": "Open: resolve before closing the focused factual audit for 1.1; investigate before treating a screening lead as an error."
+    "note": "P4-05–12 cover Doppler/Buys Ballot, both Michelson experiments, de Broglie, Shroud dating, Clausius priority, Three Gorges and accelerator size. Verified unchanged dispositions distinguish dam height from crest elevation and retain the existing Clausius spelling.",
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "review_packet": "proposals/1.1/priority4-followup-review.json",
+    "review_page": "reports/1.1/priority4-review/index.html",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
   },
   {
     "topic": "Radiation and medical tables",
@@ -16,15 +19,19 @@
   },
   {
     "topic": "Other current-technology claims",
-    "note": "AM/ELF frequency ranges, mobile-phone frequency generalizations, a 90-km accelerator example, present-tense nuclear-power counts, and superlatives such as the most famous infrared telescope need dating or qualification if retained. These are not automatically factual errors solely because the prose is old.",
-    "status": "Open: resolve before closing the focused factual audit for 1.1; investigate before treating a screening lead as an error."
+    "note": "P4-13–18 cover nuclear-power scale, ELF, US broadcast bands and FM physics, bandwidth/mobile phones, telescopes and a connected penetration summary. Source caveats are visible in the review.",
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "review_packet": "proposals/1.1/priority4-followup-review.json",
+    "review_page": "reports/1.1/priority4-review/index.html",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
   },
   {
     "topic": "Conceptual qualifications",
     "note": "The banked-curve normal-force sentence, force/action-reaction wording in spring work, specific gravity and floating in fluids other than water, pressure-work conventions, entropy formula assumptions, and simultaneity/light-travel-time shorthand merit targeted maintainer read-through. Preserve the already agreed conservative-force heuristic; do not reopen it without new evidence.",
-    "status": "Priority 3 batch prepared 2026-09-21; eight proposal groups pending maintainer review.",
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
     "review_packet": "proposals/1.1/priority3-conceptual-review.json",
-    "review_page": "reports/1.1/priority3-review/index.html"
+    "review_page": "reports/1.1/priority3-review/index.html",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
   },
   {
     "topic": "Already resolved or deliberately deferred",
@@ -32,12 +39,41 @@
   },
   {
     "topic": "Electrical-safety follow-up",
-    "status": "Open lead, not established error; resume with later audit.",
-    "note": "Verify claims about current through the brain and high-frequency current remaining on the body surface. Check earlier applied electrical corrections before proposing further edits."
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "note": "The original brain-current and skin-only claims were already corrected in F2-11. P4-04 proposes removing one remaining harmless-current assurance; no new threshold or advice added.",
+    "review_packet": "proposals/1.1/priority4-followup-review.json",
+    "review_page": "reports/1.1/priority4-review/index.html",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
   },
   {
     "topic": "Remaining audit workflow",
-    "status": "Priority 3 proposals ready; Priority 4 and electrical-safety follow-up not yet started.",
-    "note": "Priority 3: conceptual physics. Priority 4: historical and technology claims. Record each lead as verified unchanged, proposed correction, or explicitly deferred with reason. Significant factual problems belong in 1.1; broader stylistic work can wait."
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "note": "All approved overlays applied with reversible editorial records. 141 modules, 156 browser-audited section/exercise pages, and 7,167 MathML expressions validated. Preview publication and remaining 1.1 exercise/presentation/release work are separate.",
+    "resume_at": "Remaining 1.1 exercise and publication tasks",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
+  },
+  {
+    "topic": "Entropy/disorder pedagogy",
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "note": "P4-01–03 retain the coin analogy and disorder language while repairing microstate definitions, compression, statistical scope and a brick-pile question. No broader rewrite or automatic deferral.",
+    "review_packet": "proposals/1.1/priority4-followup-review.json",
+    "review_page": "reports/1.1/priority4-review/index.html",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
+  },
+  {
+    "topic": "Boltzmann constant notation",
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "note": "Use italic k with upright subscript B for Boltzmann constant. Audit of all 141 maintained CNXML modules identified 27 math expressions across five modules (31 symbol occurrences). Numerical values unchanged; distinguish spring and Coulomb constants, kinetic-friction subscripts and SI prefixes. Raster artwork is not OCR-certified; verify any embedded formula labels during final visual checks.",
+    "review_packet": "proposals/1.1/priority3-conceptual-review.json",
+    "audit_report": "reports/1.1/boltzmann-notation/audit.json",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
+  },
+  {
+    "topic": "Section 8.10 deeper factual audit",
+    "status": "Approved P3/heat-engine/P4 changes applied 2026-09-27; full course and CNX previews rebuilt and validated.",
+    "note": "Compared recovered source and maintained source against pinned CC BY snapshot. 46/50 shared prose blocks unchanged; four pre-existing adaptation differences. Priority reviews: coal/carbon model and numeric results, ideal vs actual engine, Otto work vs efficiency. Exact ancestor m42234/1.4 not independently recovered.",
+    "review_packet": "proposals/1.1/heat-engine-review.json",
+    "review_page": "reports/1.1/heat-engine-review/index.html",
+    "application_manifest": "reports/1.1/priority34-application/manifest.json"
   }
 ]

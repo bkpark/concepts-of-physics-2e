@@ -29,7 +29,8 @@ def build_objects(sections,roots,profile,course,rules,anchor):
                 relocated=bool(classes.intersection(rule['relocated_ancestor_classes'])) or category in rule['relocated_exercise_types']
                 candidates.append((int(relocated),mid,e,classes,category))
         if rule['backmatter_after_body']:
-            candidates.sort(key=lambda row:(row[0],{'conceptual-questions':0,'problems-exercises':1}.get(row[4],2) if row[0] and rule.get('chapter_exercise_views') else 0))
+            continuous=course.get(group[0]['module_id'],'').split('.')[0] in rule.get('continuous_exercise_chapters',[])
+            candidates.sort(key=lambda row:(row[0],{'conceptual-questions':0,'problems-exercises':1}.get(row[4],2) if row[0] and rule.get('chapter_exercise_views') and not continuous else 0))
         for relocated,mid,e,classes,category in candidates:
             kind=e.tag.split('}')[-1];label=None
             if mid+'#'+e.get('id') in rule.get('exercise_paragraphs',[]):kind='exercise'

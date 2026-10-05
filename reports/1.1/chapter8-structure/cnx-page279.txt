@@ -1,0 +1,31 @@
+Table 9.4 5-Coin Toss
+Individual microstates Number of
+microstates
+5 heads, 0
+tails HHHHH 1
+4 heads, 1 tail HHHHT, HHHTH, HHTHH, HTHHH, THHHH 5
+3 heads, 2
+tails
+HTHTH, THTHH, HTHHT, THHTH, THHHT HTHTH, THTHH, HTHHT, THHTH,
+THHHT 10
+2 heads, 3
+tails
+TTTHH, TTHHT, THHTT, HHTTT, TTHTH, THTHT, HTHTT, THTTH, HTTHT,
+HTTTH 10
+1 head, 4 tails TTTTH, TTTHT, TTHTT, THTTT, HTTTT 5
+0 heads, 5
+tails TTTTT 1
+Total: 32
+The macrostate of 3 heads and 2 tails can be achieved in 10 ways and is thus 10 times more probable than the one having 5
+heads. Not surprisingly, it is equally probable to have the reverse, 2 heads and 3 tails. Similarly, it is equally probable to get 5
+tails as it is to get 5 heads. Note that all of these conclusions are based on the crucial assumption that each microstate is equally
+probable. With coin tosses, this requires that the coins not be asymmetric in a way that favors one side over the other, as with
+loaded dice. With any system, the assumption that all microstates are equally probable must be valid, or the analysis will be
+erroneous.
+The two most orderly possibilities are 5 heads or 5 tails. (They are more structured than the others.) They are also the least
+likely, only 2 out of 32 possibilities. The most disorderly possibilities are 3 heads and 2 tails and its reverse. (They are the least
+structured.) The most disorderly possibilities are also the most likely, with 20 out of 32 possibilities for the 3 heads and 2 tails and
+its reverse. If we start with an orderly array like 5 heads and toss the coins, it is very likely that we will get a less orderly array as
+a result, since 30 out of the 32 possibilities are less orderly. So even if you start with an orderly state, there is a strong tendency
+to go from order to disorder, from low entropy to high entropy. The reverse can happen, but it is unlikely.
+Chapter 9 | Thermal Physics 273

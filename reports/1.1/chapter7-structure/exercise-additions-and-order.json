@@ -1,0 +1,319 @@
+{
+  "status": "applied-pending-maintainer-review",
+  "chapter_exercises": 50,
+  "added": 9,
+  "retained": 41,
+  "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+  "source_orders": {
+    "m71614": [
+      "fs-id2383291",
+      "fs-id1927669",
+      "fs-id2616572",
+      "fs-id3246748"
+    ],
+    "m71613": [
+      "ex-c7-cut-aluminum",
+      "ex-c7-water-density",
+      "fs-id1613737",
+      "fs-id1417224",
+      "fs-id1397150"
+    ],
+    "m71615": [
+      "ex-c7-pressure-area",
+      "fs-id935474",
+      "fs-id1034685",
+      "fs-id3149806",
+      "fs-id2615691",
+      "fs-id2382902",
+      "fs-id1429595",
+      "fs-id2590796"
+    ],
+    "m71623": [
+      "ex-c7-container-width",
+      "fs-id1381740",
+      "fs-id1870728",
+      "eip-29",
+      "fs-id3073220",
+      "fs-id3091727",
+      "fs-id3045581",
+      "fs-id3042305",
+      "fs-id1355852"
+    ],
+    "m71624": [
+      "ex-c7-submerged-volumes",
+      "fs-id937576",
+      "fs-id2604080",
+      "ex-c7-boat-cargo",
+      "fs-id2054662",
+      "ex-c7-ice-density"
+    ],
+    "m71625": [
+      "fs-id1434712",
+      "fs-id1549295",
+      "fs-id1917833",
+      "fs-id3078884"
+    ],
+    "m71626": [
+      "ex-c7-friction-energy",
+      "ex-c7-narrow-pipe-energy",
+      "fs-id1596349",
+      "fs-id2968273",
+      "fs-id1427122",
+      "fs-id1128778",
+      "fs-id1931767",
+      "fs-id2437386",
+      "fs-id3387506",
+      "fs-id2621156",
+      "fs-id3454946",
+      "fs-id2931718",
+      "eip-411",
+      "fs-id3415476"
+    ]
+  },
+  "additions": [
+    {
+      "id": "ex-c7-cut-aluminum",
+      "module": "m71613",
+      "wording": "A uniform piece of aluminum is cut into two unequal pieces. How do their masses, volumes, and densities compare? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "375",
+          "source_uniqueid": "1530638454253331",
+          "description": "Introduction to Physics - Fluids - Density - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "360",
+          "source_uniqueid": "1769895620572794",
+          "description": "Physics 10 - Lecture 14, Section 3 - Intro to Density and Pressure [3 questions]",
+          "assessments": [
+            "Lecture 14 - Fluids: Density, Pressure, Buoyancy, and Flow"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-water-density",
+      "module": "m71613",
+      "wording": "Water has a density of approximately <m:math><m:mrow><m:mn>1</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>g/cm</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) What is the mass of <m:math><m:mrow><m:mn>250</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>cm</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> of water? (b) Explain why expressing its density as <m:math><m:mrow><m:mn>1000</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>kg/m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> describes the same property.",
+      "sources": [
+        {
+          "export_question_set_id": "376",
+          "source_uniqueid": "1530638826940121",
+          "description": "Introduction to Physics - Fluids - Density - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-pressure-area",
+      "module": "m71615",
+      "wording": "The same uniform pressure acts on two surfaces, one with twice the area of the other. Compare the forces on them. Explain why equal pressure does not necessarily mean equal force.",
+      "sources": [
+        {
+          "export_question_set_id": "377",
+          "source_uniqueid": "1530641091163388",
+          "description": "Introduction to Physics - Fluids - Pressure - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-container-width",
+      "module": "m71623",
+      "wording": "Two open containers hold water to the same depth, but one is much wider. Both have flat, horizontal bottoms and are exposed to the same atmospheric pressure. Compare (a) the pressure at their bottoms and (b) the total force the water exerts on each bottom. Explain the distinction.",
+      "sources": [
+        {
+          "export_question_set_id": "378",
+          "source_uniqueid": "1530642231864406",
+          "description": "Introduction to Physics - Fluids - Pressure - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "377",
+          "source_uniqueid": "1530641091163388",
+          "description": "Introduction to Physics - Fluids - Pressure - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-submerged-volumes",
+      "module": "m71624",
+      "wording": "Two solid objects have equal volumes but different masses. Both are completely submerged in water without touching the container. Compare their buoyant forces. Must either buoyant force equal the object’s weight? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "379",
+          "source_uniqueid": "1530643554863135",
+          "description": "Introduction to Physics - Fluids - Archimedes' Principle - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "362",
+          "source_uniqueid": "1769897352561293",
+          "description": "Physics 10 - Lecture 14, Section 5 - Buoyancy Force (Archimedes Principle) [3 questions]",
+          "assessments": [
+            "Lecture 14 - Fluids: Density, Pressure, Buoyancy, and Flow"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-boat-cargo",
+      "module": "m71624",
+      "wording": "Cargo is added to a floating boat, which settles lower but remains afloat. What happens to the buoyant force and the volume of water displaced? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "379",
+          "source_uniqueid": "1530643554863135",
+          "description": "Introduction to Physics - Fluids - Archimedes' Principle - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "362",
+          "source_uniqueid": "1769897352561293",
+          "description": "Physics 10 - Lecture 14, Section 5 - Buoyancy Force (Archimedes Principle) [3 questions]",
+          "assessments": [
+            "Lecture 14 - Fluids: Density, Pressure, Buoyancy, and Flow"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-ice-density",
+      "module": "m71624",
+      "wording": "Ice floats in freshwater with 91.7% of its volume submerged. Taking water’s density as <m:math><m:mrow><m:mn>1000</m:mn><m:mspace width=\"0.25em\"/><m:msup><m:mtext>kg/m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>, determine the ice’s density. Explain how the balance between weight and buoyancy supports your calculation.",
+      "sources": [
+        {
+          "export_question_set_id": "381",
+          "source_uniqueid": "1530644531154531",
+          "description": "Introduction to Physics - Fluids - Archimedes' Principle - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-narrow-pipe-energy",
+      "module": "m71626",
+      "wording": "Water flows steadily through a horizontal pipe that narrows. Neglect friction. Compare the water’s speed and pressure in the wide and narrow portions. Explain how the pressure difference is connected to the water’s gain in kinetic energy.",
+      "sources": [
+        {
+          "export_question_set_id": "380",
+          "source_uniqueid": "1530644948164036",
+          "description": "Introduction to Physics - Fluids - Bernoulli's Principle - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 7: Fluids&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "363",
+          "source_uniqueid": "1769898154898738",
+          "description": "Physics 10 - Lecture 14, Section 6 - Bernoulli’s Principle [3 questions]",
+          "assessments": [
+            "Lecture 14 - Fluids: Density, Pressure, Buoyancy, and Flow"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c7-friction-energy",
+      "module": "m71626",
+      "wording": "Friction in a flowing fluid converts some mechanical energy into thermal energy. Does this violate conservation of energy? Explain why the usual frictionless form of Bernoulli’s equation needs modification.",
+      "sources": [
+        {
+          "export_question_set_id": "363",
+          "source_uniqueid": "1769898154898738",
+          "description": "Physics 10 - Lecture 14, Section 6 - Bernoulli’s Principle [3 questions]",
+          "assessments": [
+            "Lecture 14 - Fluids: Density, Pressure, Buoyancy, and Flow"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    }
+  ]
+}

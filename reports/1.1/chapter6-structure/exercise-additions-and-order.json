@@ -1,0 +1,273 @@
+{
+  "status": "applied-pending-maintainer-review",
+  "chapter_exercises": 35,
+  "added": 8,
+  "retained": 27,
+  "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+  "source_orders": {
+    "m71592": [
+      "fs-id1361145",
+      "fs-id1867019",
+      "fs-id3046867",
+      "fs-id3046066"
+    ],
+    "m71593": [
+      "fs-id1222304",
+      "ex-c6-maintaining-rotation",
+      "ex-c6-rotation-axis",
+      "fs-id2655227",
+      "fs-id2450048",
+      "ex-c6-angular-acceleration",
+      "fs-id2680047"
+    ],
+    "m67046": [
+      "ex-c6-energy-scaling",
+      "ex-c6-energy-ranking",
+      "fs-id3026004",
+      "fs-id1401566",
+      "fs-id1428194",
+      "fs-id2640555"
+    ],
+    "m71594": [
+      "fs-id1860696",
+      "ex-c6-comet-torque",
+      "fs-id2410017",
+      "fs-id2052739",
+      "fs-id3180885",
+      "fs-id3093611",
+      "ex-c6-flipping-wheel",
+      "fs-id2640407",
+      "fs-id1994709",
+      "fs-id1080849",
+      "fs-id2446255",
+      "fs-id2595479",
+      "fs-id1985120",
+      "fs-id3450198"
+    ],
+    "m71595": [
+      "fs-id1972542",
+      "eip-746",
+      "ex-c6-precession-vector",
+      "eip-idm1290875088"
+    ]
+  },
+  "additions": [
+    {
+      "id": "ex-c6-maintaining-rotation",
+      "module": "m71593",
+      "wording": "A rigid wheel rotates about a fixed axis at constant angular velocity with negligible friction. (a) Does it need a net torque to keep rotating? (b) What would a constant nonzero net torque do? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "364",
+          "source_uniqueid": "1530593878131726",
+          "description": "Introduction to Physics - Rotation - Definitions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "369",
+          "source_uniqueid": "1530598962006790",
+          "description": "Introduction to Physics - Rotation - Newton's Laws - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-rotation-axis",
+      "module": "m71593",
+      "wording": "A uniform rod can rotate about an axis through its midpoint or about a parallel axis through one end. Both axes are perpendicular to the rod. For the same net torque, about which axis is it harder to angularly accelerate the rod? Explain why the same object can have different rotational inertias.",
+      "sources": [
+        {
+          "export_question_set_id": "365",
+          "source_uniqueid": "1530594320020272",
+          "description": "Introduction to Physics - Rotation - Definitions - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-angular-acceleration",
+      "module": "m71593",
+      "wording": "Equal net torques are applied to a thin hoop and a uniform solid disk with the same mass and radius. Each rotates about a fixed axis through its center, perpendicular to its plane. Which has the greater angular acceleration? Explain in terms of rotational inertia.",
+      "sources": [
+        {
+          "export_question_set_id": "366",
+          "source_uniqueid": "1530595062523426",
+          "description": "Introduction to Physics - Rotation - Rotational Inertia Ranking - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        },
+        {
+          "export_question_set_id": "369",
+          "source_uniqueid": "1530598962006790",
+          "description": "Introduction to Physics - Rotation - Newton's Laws - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-energy-ranking",
+      "module": "m67046",
+      "wording": "A thin hoop, a thin spherical shell, a uniform solid disk, and a uniform solid sphere have equal masses and radii. All spin at the same angular speed about axes through their centers; the axes of the hoop and disk are perpendicular to their planes. Rank their rotational kinetic energies from greatest to least. You may use <link document=\"m71593\" target-id=\"fs-id1838666\"/>. Explain your ranking.",
+      "sources": [
+        {
+          "export_question_set_id": "368",
+          "source_uniqueid": "1530597752571317",
+          "description": "Introduction to Physics - Rotation - Rotational Kinetic Energy Ranking - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-energy-scaling",
+      "module": "m67046",
+      "wording": "An object’s angular speed doubles while its rotational inertia stays unchanged. By what factor does its rotational kinetic energy change? How does this compare with doubling the speed of an object of fixed mass moving without rotating? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "367",
+          "source_uniqueid": "1530595920569327",
+          "description": "Introduction to Physics - Rotation - Rotational Kinetic Energy Definitions - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-comet-torque",
+      "module": "m71594",
+      "wording": "A comet experiences the Sun’s gravitational force, directed toward the Sun. Neglect other forces and treat the Sun as fixed. Can the comet’s angular momentum about the Sun remain constant even though its velocity changes? Explain by considering the torque about the Sun.",
+      "sources": [
+        {
+          "export_question_set_id": "370",
+          "source_uniqueid": "1530600009437906",
+          "description": "Introduction to Physics - Rotation - Angular Momentum Conservation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "356",
+          "source_uniqueid": "1769891661758705",
+          "description": "Physics 10 - Lecture 13, Section 6 - Torque and Angular Momentum [3 questions]",
+          "assessments": [
+            "Lecture 13 - Rotational Motion, Torque, Angular Momentum, and Precession"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-flipping-wheel",
+      "module": "m71594",
+      "wording": "A person sits initially at rest on a stool that can turn freely about a vertical axis. They hold a spinning bicycle wheel with its axle vertical, so the wheel lies in a horizontal plane. Viewed from above, the wheel spins clockwise. The person turns the wheel upside down and holds its axle vertical again, so that its spin is now counterclockwise as viewed from above. Neglect external torque about the stool’s axis. Which way do the person and stool turn, as viewed from above? Explain using conservation of angular momentum.",
+      "sources": [
+        {
+          "export_question_set_id": "488",
+          "source_uniqueid": "1538811063741508",
+          "description": "Introduction to Physics (Essay Questions) - Rotation - Conservation of angular momentum",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 6",
+            "Take-Home Option A Final Exam (open book; 6-hour limit)"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    },
+    {
+      "id": "ex-c6-precession-vector",
+      "module": "m71595",
+      "wording": "A spinning gyroscope precesses steadily about a vertical axis while its spin speed remains constant. Is its angular momentum constant? Explain what changes and what causes that change.",
+      "sources": [
+        {
+          "export_question_set_id": "372",
+          "source_uniqueid": "1530600700621017",
+          "description": "Introduction to Physics - Rotation - Precession - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        },
+        {
+          "export_question_set_id": "370",
+          "source_uniqueid": "1530600009437906",
+          "description": "Introduction to Physics - Rotation - Angular Momentum Conservation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 6: Rotation and Fluids",
+            "Question Set 6 Assessment",
+            "Questions and Exercises for &quot;Chapter 6: Rotation&quot;"
+          ],
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "adaptation": "Fixed conceptual or short-calculation question; source controls and answer keys are not published."
+    }
+  ]
+}

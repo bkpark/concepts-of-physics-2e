@@ -1,0 +1,205 @@
+{
+  "chapter_exercises": 23,
+  "source_orders": {
+    "m71582": [
+      "ex-momentum-energy-direction",
+      "fs-id1522179",
+      "fs-id1522190",
+      "fs-id1522215",
+      "fs-id1522201"
+    ],
+    "m71583": [
+      "ex-equal-time-or-distance",
+      "ex-stopping-versus-rebounding",
+      "fs-id1247228",
+      "fs-id1126726"
+    ],
+    "m67039": [
+      "fs-id1749481",
+      "fs-id1640067",
+      "fs-id1183915",
+      "ex-hose-momentum-third-law",
+      "fs-id1251869",
+      "ex-astronaut-tool-recoil",
+      "fs-id1700412",
+      "fs-id1222066"
+    ],
+    "m67042": [
+      "fs-id3105556",
+      "eip-166",
+      "ex-identifying-elastic-outcome"
+    ],
+    "m67043": [
+      "fs-id1603604",
+      "ex-sticking-carts-energy",
+      "fs-id3106058"
+    ]
+  },
+  "additions": [
+    {
+      "id": "ex-momentum-energy-direction",
+      "proposal_id": "C4-A1",
+      "module": "m71582",
+      "wording": "A car travels around a circular track at constant speed. (a) Does its kinetic energy change? (b) Does its momentum change? (c) If the car doubles its speed, by what factors do its momentum magnitude and kinetic energy change? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "299",
+          "description": "Introduction to Physics - Momentum - Definition - Q2 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 4: Energy and Momentum",
+            "Question Set 4 Assessment"
+          ],
+          "source_uniqueid": "1530208166291167",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        },
+        {
+          "export_question_set_id": "407",
+          "description": "Introduction to Physics (Test Bank) - Momentum - Scaling - Q1 (derived from KE scaling question)",
+          "assessments": [
+            "Multiple-Choice Timed Assessment for Chapter 4"
+          ],
+          "source_uniqueid": "1578006441488218",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+      "adaptation": "Approved fixed conceptual/short-calculation adaptation."
+    },
+    {
+      "id": "ex-stopping-versus-rebounding",
+      "proposal_id": "C4-A2",
+      "module": "m71583",
+      "wording": "A 0.20-kg ball approaches a wall at 5.0 m/s. In one collision it stops; in another it rebounds at 5.0 m/s along the same line. (a) Find the magnitude and direction of the ball’s momentum change in each case. (b) If the collisions last equally long, which produces the greater average net force on the ball, and by what factor?",
+      "sources": [
+        {
+          "export_question_set_id": "306",
+          "description": "Introduction to Physics - Impulse - Calculation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 4: Energy and Momentum",
+            "Question Set 4 Assessment"
+          ],
+          "source_uniqueid": "1530214730469771",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+        }
+      ],
+      "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+      "adaptation": "Approved fixed conceptual/short-calculation adaptation."
+    },
+    {
+      "id": "ex-equal-time-or-distance",
+      "proposal_id": "C4-A3",
+      "module": "m71583",
+      "wording": "Two carts of different masses start at rest on a level, frictionless track. Each is pushed with the same constant horizontal force. (a) If the forces act for the same time, do the carts gain the same momentum or the same kinetic energy? (b) In a separate trial, the carts again start at rest, but the forces act through the same distance. Do the carts gain the same momentum or the same kinetic energy? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "278",
+          "description": "Physics 10 - Lecture 10, Section 5 - Impulse and Momentum Simulation [3 questions]",
+          "assessments": [
+            "Lecture 10 - Momentum and Collisions: Energy and Momentum Together"
+          ],
+          "source_uniqueid": "1768613515140118",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+      "adaptation": "Approved fixed conceptual/short-calculation adaptation."
+    },
+    {
+      "id": "ex-astronaut-tool-recoil",
+      "proposal_id": "C4-A4",
+      "module": "m67039",
+      "wording": "An astronaut is initially at rest relative to a nearby spacecraft and is holding a tool. Neglect external forces during the following action. (a) In which direction should the astronaut throw the tool to move toward the spacecraft? (b) Explain why air is unnecessary for this method of propulsion. Use conservation of momentum in your explanation.",
+      "sources": [
+        {
+          "export_question_set_id": "480",
+          "description": "Introduction to Physics (Essay Questions) - Impulse and Momentum - Astronaut in Space",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 4"
+          ],
+          "source_uniqueid": "1538886015595567",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        },
+        {
+          "export_question_set_id": "481",
+          "description": "Introduction to Physics (Essay Questions) - Impulse and Momentum - Rocket propulsion in space",
+          "assessments": [
+            "Essay Timed Assessment for Chapter 4"
+          ],
+          "source_uniqueid": "1538809570309033",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        }
+      ],
+      "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+      "adaptation": "Approved fixed conceptual/short-calculation adaptation."
+    },
+    {
+      "id": "ex-hose-momentum-third-law",
+      "proposal_id": "C4-HOSE",
+      "module": "m67039",
+      "wording": "Revisit the garden-hose scenario in Chapter 2, <link document=\"m68330\" target-id=\"fs-id2661705\"/>. Explain the backward push on the hose in terms of momentum transferred to the water. How is this explanation connected to Newton’s third law?",
+      "sources": [],
+      "source_export_sha256": null,
+      "adaptation": "Maintainer-requested cross-chapter connection to garden-hose question."
+    },
+    {
+      "id": "ex-identifying-elastic-outcome",
+      "proposal_id": "C4-A5",
+      "module": "m67042",
+      "wording": "A cart moving at 4.0 m/s strikes an identical cart initially at rest on a level, frictionless track. Consider two proposed outcomes: A, the first cart stops and the second moves at 4.0 m/s; B, both carts move at 2.0 m/s in the original direction. (a) Which outcomes conserve momentum? (b) Which conserve kinetic energy? (c) Which could describe an elastic collision? Explain.",
+      "sources": [
+        {
+          "export_question_set_id": "279",
+          "description": "Physics 10 - Lecture 10, Section 6 - Simulating Newton’s Cradle with Collision Lab [3 questions]",
+          "assessments": [
+            "Lecture 10 - Momentum and Collisions: Energy and Momentum Together"
+          ],
+          "source_uniqueid": "1768615784785648",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": "Reading question generated in part through use of ChatGPT"
+        }
+      ],
+      "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+      "adaptation": "Approved fixed conceptual/short-calculation adaptation."
+    },
+    {
+      "id": "ex-sticking-carts-energy",
+      "proposal_id": "C4-A6",
+      "module": "m67043",
+      "wording": "A 0.50-kg cart moving at 4.0 m/s collides with an identical cart initially at rest on a level, frictionless track. They stick together. (a) Find their common final velocity. (b) Calculate the total kinetic energy before and after the collision. (c) Where can the missing kinetic energy go? (d) Why can the carts not both come to rest?",
+      "sources": [
+        {
+          "export_question_set_id": "308",
+          "description": "Introduction to Physics - Inelastic Collisions - Calculation - Q1 (updated to LibreTexts version)",
+          "assessments": [
+            "Question Set 4: Energy and Momentum",
+            "Question Set 4 Assessment"
+          ],
+          "source_uniqueid": "1530218232528028",
+          "author": "Park,Andrew",
+          "export_license_code": 1,
+          "upstream_attribution": ""
+        }
+      ],
+      "source_export_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+      "adaptation": "Approved fixed conceptual/short-calculation adaptation."
+    }
+  ],
+  "removed_public_version44_numbers": [
+    7,
+    8,
+    18
+  ]
+}

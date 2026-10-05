@@ -1,0 +1,64 @@
+Strategy
+Momentum is conserved because the net external force on the puck-goalie system is zero. We can thus use conservation of
+momentum to find the final velocity of the puck and goalie system. Note that the initial velocity of the goalie is zero and that
+the final velocity of the puck and goalie are the same. Once the final velocity is found, the kinetic energies can be calculated
+before and after the collision and compared as requested.
+Solution for (a)
+Momentum is conserved because the net external force on the puck-goalie system is zero.
+Conservation of momentum is
+(5.33)p1 + p2 = p′1 + p′2
+or
+(5.34)m1 v1 + m2v2 = m1v′1 + m2v′2.
+Because the goalie is initially at rest, we know v2 = 0 . Because the goalie catches the puck, the final velocities are equal,
+or v′1 = v′2 = v′ . Thus, the conservation of momentum equation simplifies to
+(5.35)m1 v1 = (m1 + m2)v′.
+Solving for v′ yields
+(5.36)v′ = m1
+m1 + m2
+v1.
+Entering known values in this equation, we get
+(5.37)
+v′ = ⎛
+⎝
+0.150 kg
+0.150 kg + 70.0 kg
+⎞
+⎠(35.0 m/s) = 7.48×10−2 m/s.
+Discussion for (a)
+This recoil velocity is small and in the same direction as the puck’s original velocity, as we might expect.
+Solution for (b)
+Before the collision, the total kinetic energy KEint of the system is that of the hockey puck, because the goalie is initially at
+rest. Therefore, KEint is initially
+(5.38)KEint = 1
+2mv2 = 1
+2
+⎛
+⎝0.150 kg⎞
+⎠(35.0 m/s)2
+= 91.9 J.
+After the collision, the total kinetic energy is
+(5.39)
+KE′int = 1
+2(m + M)v2 = 1
+2
+⎛
+⎝70.15 kg⎞
+⎠
+⎛
+⎝7.48×10−2 m/s⎞
+⎠
+2
+= 0.196 J.
+The change in total kinetic energy is thus
+(5.40)KE′int − KEint = 0.196 J − 91.9 J
+= − 91.7 J
+where the minus sign indicates that the energy was lost.
+Discussion for (b)
+Nearly all of the initial total kinetic energy is lost in this perfectly inelastic collision. KEint is mostly converted to thermal
+energy and sound. Note that in this case, the total kinetic energy does not decrease all the way down to zero, because doing
+so would violate conservation of momentum, because initial total momentum is not zero. This is the most amount of energy
+that can be converted from the initial total kinetic energy without violating conservation of momentum.
+Example 5.5 Calculating Final Velocity and Energy Release: Two Carts Collide
+During some collisions stored energy may be converted into kinetic energy during a collision. Figure 5.8 shows a one-
+dimensional example in which two carts on an air track collide, releasing potential energy from a compressed spring.
+Chapter 5 | Impulse and Momentum 137

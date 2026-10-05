@@ -30,15 +30,16 @@ const server=http.createServer((req,res)=>{const f=path.resolve(dist,'.'+decodeU
  for(const v of views){
   const group=document.createElement('article');group.id=v.id;group.className='chapter-exercises';
   const h=document.createElement('h1');h.textContent=v.label+' '+v.title;group.append(h);
-  for(const category of ['conceptual-questions','problems-exercises']){
-   const blocks=v.blocks.filter(b=>b.category===category);
+  for(const category of (['1','2','3','4','5','6','7','8'].includes(v.chapter_label)?['combined']:['conceptual-questions','problems-exercises'])){
+   const blocks=v.blocks.filter(b=>category==='combined'||b.category===category);
    if(category==='conceptual-questions')for(const a of articles.filter(a=>String(manifest.section_labels[a.id]).split('.')[0]===v.chapter_label))for(const section of a.querySelectorAll('section'))if(section.querySelector(':scope > h3')?.textContent.trim()==='Conceptual Questions' && !blocks.some(b=>id(b.module,b.source_id)===section.id))blocks.push({module:a.id,source_id:new TextDecoder().decode(Uint8Array.from(section.id.split('--')[1].match(/../g).map(x=>parseInt(x,16))))});blocks.sort((a,b)=>articles.findIndex(x=>x.id===a.module)-articles.findIndex(x=>x.id===b.module));if(!blocks.length)continue;
-   const heading=document.createElement('h2');heading.textContent=category==='conceptual-questions'?'Conceptual Questions':'Problems & Exercises';group.append(heading);
+   const heading=document.createElement('h2');heading.textContent=category==='combined'?'Questions and Exercises':category==='conceptual-questions'?(v.chapter_label==='0'?'Questions and Exercises':'Conceptual Questions'):'Problems & Exercises';group.append(heading);
    for(const b of blocks){const e=document.getElementById(id(b.module,b.source_id));if(!e)throw Error('Missing exercise block '+b.source_id);
     const label=document.createElement('h3');label.textContent=manifest.section_labels[b.module]+' '+document.querySelector('#'+b.module+' > header h1').textContent;group.append(label,e);moved.push(b.source_id);}
   }
   const last=articles.filter(a=>String(manifest.section_labels[a.id]).split('.')[0]===v.chapter_label).at(-1);if(!last)throw Error('No chapter for '+v.id);last.after(group);
  }
+ for(const move of (manifest.exercise_placements||[])){const source=document.getElementById(id(move.module,move.exercise_id)),target=document.getElementById(id(move.after_module,move.after_exercise_id));if(!source||!target)throw Error('Missing relocated exercise');target.after(source);}
  const cover=document.querySelector('.cover');cover.innerHTML='<h1>Introduction to Physics</h1><h2>Andrew Park</h2><p>Lecture-aligned numbering (July 2026)</p><p>Underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits and section attributions are retained.</p><p>This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.</p><p>External videos and simulations require internet access.</p>';
  const credits=document.createElement('article');credits.id='attributions';credits.className='book-attributions';credits.innerHTML='<h1>Attribution and licenses</h1>';
  for(const a of articles){const f=a.querySelector('.attribution');const block=document.createElement('section');block.className='credit-block';const h=document.createElement('h2');h.textContent=(manifest.section_labels[a.id]?manifest.section_labels[a.id]+' ':'')+a.querySelector('h1').textContent;block.append(h,f);credits.append(block);}
