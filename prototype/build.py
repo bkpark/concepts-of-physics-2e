@@ -23,6 +23,7 @@ text=lambda e:''.join(e.itertext()).strip() if e is not None else ''
 def load(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def dump(path,data):path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 from collection import read_sections
+from math_copy import copy_formats
 identities=load('maintained/sections.json')['sections']
 sections=read_sections(ROOT,identities)
 registry={s['module_id']:s for s in sections}
@@ -104,7 +105,10 @@ class Renderer:
                 adaptations.append({'kind':'content-mathml','key':key,'policy':'Presentation adapter; bold vectors, symbolic juxtaposition, grouped composite powers; visual review required'})
             if not self.book and not self.projection and any(local(x)=='mtr' and any(local(y)!='mtd' for y in x) for x in e.iter()):
                 adaptations.append({'kind':'math-table-cell-wrapper','key':key})
-            return f'<span data-math-key="{key}">{result}</span>'
+            formats=copy_formats(result)
+            attrs=' '.join('data-copy-'+name+'="'+esc(formats[name])+'"' for name in ('latex','asciimath'))
+            notes=esc(' '.join(formats['notes']))
+            return f'<span data-math-key="{key}" {attrs} data-copy-notes="{notes}">{result}</span>'
         if tag=='para' and obj.get('kind')=='exercise':return f'<div class="exercise"{aid}><div class="object-title">Exercise {esc(label)}</div><div class="para">{self.content(e)}</div></div>'
         if tag in ('metadata','label','colspec'):return ''
         if tag=='title':return f'<h3{aid}>{self.content(e)}</h3>'
@@ -225,8 +229,12 @@ class Renderer:
         credit+='<p>This section was recovered from <em>Introduction to Physics</em>, CNX collection col25183, version 12.1, and subsequently revised. See the <a href="https://github.com/bkpark/concepts-of-physics-2e">source repository and revision history</a>.</p></footer>'
         return f'<article id="{mid}"><header><p class="eyebrow">{esc(label)}</p><h1>{esc(text(r.find("c:title",NS)))}</h1></header>{nav.section_navigation(mid) if FULL and not self.book else ""}{learning}'+''.join(self.render(x) for x in r if local(x) in ('content','glossary'))+credit+'</article>'
 
+from search_index import build_search_index, SEARCH_BODY
+
 def page(title,body,prefix='',website=True):
     site_links=('<a href="'+prefix+'index.html">Introduction to Physics · Home</a> · <a href="'+prefix+'contents/index.html">Full contents</a>') if FULL and website else ''
+    if FULL and website:
+        site_links += ' · <a href="'+prefix+'search/index.html">Search</a>'
     if RELEASE:
         canonical=release['public_origin']+'/'
         return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
@@ -321,3 +329,9 @@ for item in issues:
 dump(OUT/'identity-registry.json',{m:{'slug':registry[m]['candidate_slug'],'anchors':[anchor(m,e.get('id')) for e in roots[m].iter() if e.get('id')]} for m in IDS})
 dump(OUT/'build-manifest.json',{'release_id':release['release_id'] if RELEASE else None,'profile':PROFILE,'renderer':'native-mathml','source_layer':'maintained','exercise_placements':exercise_placements,'approved_repairs':['R1','R2','R3','R4'],'modules':IDS,'math_expressions':len(math_sources),'issues':len(issues),'source_sha256':{m:hashlib.sha256((ROOT/registry[m]['source']).read_bytes()).hexdigest() for m in IDS},'object_numbering_status':'Course section labels and chapter exercise counters implemented; reference fixtures are partial and equation-label visibility remains provisional','section_labels':{m:(cnx if PROFILE=='cnx' else course).get(m) for m in IDS}})
 print(json.dumps({'profile':PROFILE,'math':len(math_sources),'issues':dict(collections.Counter(x['kind'] for x in issues)),'adaptations':len(adaptations)}))
+
+if FULL:
+    search_dir=OUT/'search';search_dir.mkdir(exist_ok=True)
+    (search_dir/'index.html').write_text(page('Search — Introduction to Physics', SEARCH_BODY, '../'),encoding='utf-8',newline='\n')
+    shutil.copyfile(P/'search.js',OUT/'search.js')
+    print(json.dumps({'search_passages':build_search_index(OUT)}))

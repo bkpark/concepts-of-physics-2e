@@ -1,0 +1,140 @@
+{
+  "expressions": [
+    {
+      "module": "m67034",
+      "source_object": "import-auto-id2293184",
+      "source_xml_sha256": "6edb623c9861919756e38b68a08381e30b6cfa978bbeaa12633f0ca3659526ae",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Author confirmed equation 1.6.34 denominator has m/s^2, with only s squared. Current MathML already represents this. The flagged outer numerator power correctly squares the explicitly parenthesized speed (30.0 m/s); the overall unit is m."
+    },
+    {
+      "module": "m67045",
+      "source_object": "import-auto-id3358674",
+      "source_xml_sha256": "d1f483ac901bd9cc259c933ff0c3a667443502e7edff49a324d3f075a0dedbda",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Equation 3.6.4 already has three lines. Its explicitly parenthesized (J/kg)^(1/2) correctly applies the exponent to the full unit ratio, equivalent to m/s. No source correction needed."
+    },
+    {
+      "module": "m71415",
+      "source_object": "fs-id1008855",
+      "source_xml_sha256": "27a296555287f54e869141ce107e5510c3ada4ac5d3e90e44dd9f9c6de951f88",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67043",
+      "source_object": "eip-672",
+      "source_xml_sha256": "5dd21a39d563ab3bfd9ac5b8608b7d67fd07dcb4b51d80c8f7f74fa04d057fe3",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67043",
+      "source_object": "eip-440",
+      "source_xml_sha256": "ca6bc5dd0d8c0f9d9ab3ed671cb7e4317be4d757a261296990a18b4aa0a76ce6",
+      "resolved_flags": [
+        "script-over-quantity-text",
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67043",
+      "source_object": "eip-530",
+      "source_xml_sha256": "eec7bd6f59f474218a1ba583095410bf255c6fe5a1a24c819b02e8afa6a457ee",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67043",
+      "source_object": "eip-626",
+      "source_xml_sha256": "d3ce5a758d906f6d59ad374f4bb4b7f29c03c8df61459b23ca656a21dfe3d9a3",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67046",
+      "source_object": "eip-913",
+      "source_xml_sha256": "491aa5b9aac41f7ac3755ee913368cc2048bccd70b197780b2d10527b5d25ee4",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67046",
+      "source_object": "eip-2",
+      "source_xml_sha256": "3a678e9a445950a7adb7cf72ad112505df9399c37d024d9b55f48079105c7cd4",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m67046",
+      "source_object": "eip-191",
+      "source_xml_sha256": "7434ff26416c772ccc05ac4da73168a9d9001670b2bdc4b020811e4d98ffcbf9",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m71594",
+      "source_object": "eip-297",
+      "source_xml_sha256": "28fa17a274edcfb1d321e54471f3602dde87936d9ae47491dd55914c6ae80d67",
+      "resolved_flags": [
+        "script-over-quantity-text"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m71594",
+      "source_object": "eip-98",
+      "source_xml_sha256": "8bdd198db6ab5cac4957613e020ce723b2c5f59ccd164ddf1802132d6e3e8d75",
+      "resolved_flags": [
+        "script-over-quantity-text"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m71625",
+      "source_object": "fs-id3104729",
+      "source_xml_sha256": "3c666c72b7b00faa48a3295f2d31568a1bb1880eb32e974d29ba4994119b26a3",
+      "resolved_flags": [
+        "script-over-quantity-text"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m71625",
+      "source_object": "fs-id3175565",
+      "source_xml_sha256": "df92528b28db821b7b72ac8b250b5ceeae53441cd7e2d2e0517ce897cbd8e6d5",
+      "resolved_flags": [
+        "script-over-quantity-text"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    },
+    {
+      "module": "m42531",
+      "source_object": "import-auto-id1744942",
+      "source_xml_sha256": "e3e95a9ca3bde8c7652b15b7bc34e1712ff3601e33046f23b22190a4e7ceb6ea",
+      "resolved_flags": [
+        "script-over-slash-token"
+      ],
+      "reason": "Reviewed explicit parentheses/brackets: the exponent correctly applies to the entire enclosed quantity or ratio. This is valid source, not a unit-exponent scope error."
+    }
+  ]
+}

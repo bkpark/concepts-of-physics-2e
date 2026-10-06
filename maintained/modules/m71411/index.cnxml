@@ -44,13 +44,8 @@ In equation form, this is
             
               <m:mrow>
                 <m:mrow>
-                  <m:mi>W</m:mi>
+                  <m:msub><m:mi>W</m:mi>
                   <m:mrow>
-                    <m:mmultiscripts>
-                      <m:mtext />
-                      <m:mprescripts />
-                      
-                        <m:mrow>
                           <m:mstyle>
                             <m:mrow>
                               <m:mtext>net</m:mtext>
@@ -58,8 +53,7 @@ In equation form, this is
                           </m:mstyle>
                         </m:mrow>
                       
-                      <m:none />
-                    </m:mmultiscripts>
+                      </m:msub><m:mrow>
                     <m:mo stretchy="false">=</m:mo>
                     <m:mfrac>
                       <m:mn>1</m:mn>
@@ -238,7 +232,7 @@ where <m:math><m:mstyle displaystyle="true"><m:mo>Δ</m:mo></m:mstyle></m:math>K
           </m:semantics>
       </m:math>
     </equation><para id="import-auto-id1314302">Entering known values gives</para>
-    <equation id="fs-id1426633"><m:math>
+    <equation id="fs-id1426633"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -251,10 +245,10 @@ where <m:math><m:mstyle displaystyle="true"><m:mo>Δ</m:mo></m:mstyle></m:math>K
                 <m:mtext>.</m:mtext>
                 <m:mn>5</m:mn>
                 <m:mo stretchy="false">(</m:mo>
-                <m:mtext>30.0 kg</m:mtext>
+                <m:mrow><m:mn>30.0</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                 <m:mo stretchy="false">)</m:mo>
                 <m:mo stretchy="false">(</m:mo>
-                <m:mtext>0.500 m/s</m:mtext>
+                <m:mrow><m:mn>0.500</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow>
                 <m:msup>
                   <m:mo stretchy="false">)</m:mo>
                   <m:mrow>
@@ -264,20 +258,20 @@ where <m:math><m:mstyle displaystyle="true"><m:mo>Δ</m:mo></m:mstyle></m:math>K
                 <m:mi>,</m:mi>
               </m:mrow>
             </m:mrow>
-            <m:mrow/>
+            <m:mrow />
           </m:mrow>
           <m:annotation encoding="StarMath 5.0"> size 12{"KE"=0 "." 5 \( "30" "." 0" kg" \)  \( 0 "." "500"" m/s" \)  rSup { size 8{2} } ,} {}</m:annotation>
         </m:semantics>
       </m:math>
     </equation><para id="import-auto-id1945682">which yields</para>
-    <equation id="eip-261"><m:math>
+    <equation id="eip-261"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
               <m:mrow>
                   <m:mtext>KE</m:mtext>
                   <m:mo stretchy="false">=</m:mo>
-                <m:mtext>3.75 kg</m:mtext>
+                <m:mrow><m:mn>3.75</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                 <m:mrow>
 
                   <m:mo stretchy="false">⋅</m:mo>
@@ -289,18 +283,16 @@ where <m:math><m:mstyle displaystyle="true"><m:mo>Δ</m:mo></m:mstyle></m:math>K
                   </m:msup>
                 </m:mrow>
                 <m:mrow>
-                  <m:msup>
-                    <m:mtext>/s</m:mtext>
-                    <m:mrow>
+                  <m:mrow><m:mo lspace="0" rspace="0">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow>
                       <m:mn>2</m:mn>
                     </m:mrow>
-                  </m:msup>
+                  </m:msup></m:mrow>
                   <m:mo stretchy="false">=</m:mo>
                 </m:mrow>
                 <m:mtext>3.75 J.</m:mtext>
               </m:mrow>
             </m:mrow>
-            <m:mrow/>
+            <m:mrow />
           </m:mrow>
           <m:annotation encoding="StarMath 5.0"> size 12{"KE"=3 "." "75"`"kg" cdot m rSup { size 8{2} } "/s" rSup { size 8{2} } =3 "." "75"`J "." } {}</m:annotation>
         </m:semantics>
@@ -309,7 +301,7 @@ where <m:math><m:mstyle displaystyle="true"><m:mo>Δ</m:mo></m:mstyle></m:math>K
     <para id="import-auto-id1413114">Note that the unit of kinetic energy is the joule, the same as the unit of work, as mentioned when work was first defined. It is also interesting that, although this is a fairly massive package, its kinetic energy is not large at this relatively low speed. This fact is consistent with the observation that people can move packages like this without exhausting themselves.</para></example>
     <example id="fs-id1751928"><title> Determining the Work to Accelerate a Package</title>
     <para id="import-auto-id1993448">Suppose that you push on the 30.0-kg package in <link target-id="import-auto-id1803210"/> with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.</para><para id="import-auto-id2521056">(a) Calculate the net work done on the package. (b) Solve the same problem as in part (a), this time by finding the work done by each force that contributes to the net force.</para><para id="import-auto-id1907927"><emphasis>Strategy and Concept for (a)</emphasis> </para><para id="import-auto-id1857717">This is a motion in one dimension problem, because the downward force (from the weight of the package) and the normal force have equal magnitude and opposite direction, so that they cancel in calculating the net force, while the applied force, friction, and the displacement are all horizontal. (See <link target-id="import-auto-id1803210"/>.) As expected, the net work is the net force times distance.
-</para><para id="import-auto-id1524628"><emphasis>Solution for (a)</emphasis> </para><para id="import-auto-id2017772">The net force is the push force minus friction, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mtext> = 120 N − 5</m:mtext><m:mtext>.</m:mtext><m:mtext>00 N = 115 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } " = 120 N – 5" "." "00 N = 115 N"} {}</m:annotation></m:semantics></m:math>. Thus the net work is</para><equation id="fs-id1702963"><m:math>
+</para><para id="import-auto-id1524628"><emphasis>Solution for (a)</emphasis> </para><para id="import-auto-id2017772">The net force is the push force minus friction, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mtext> = 120 N − 5</m:mtext><m:mtext>.</m:mtext><m:mtext>00 N = 115 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } " = 120 N – 5" "." "00 N = 115 N"} {}</m:annotation></m:semantics></m:math>. Thus the net work is</para><equation id="fs-id1702963"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -340,22 +332,22 @@ where <m:math><m:mstyle displaystyle="true"><m:mo>Δ</m:mo></m:mstyle></m:math>K
                           <m:mo stretchy="false">=</m:mo>
                           <m:mfenced open="(" close=")">
                             <m:mrow>
-                              <m:mtext>115 N</m:mtext>
+                              <m:mrow><m:mn>115</m:mn><m:mspace width="0.167em" /><m:mtext>N</m:mtext></m:mrow>
                             </m:mrow>
                           </m:mfenced>
                         </m:mrow>
                         <m:mfenced open="(" close=")">
-                            <m:mtext>0.800 m</m:mtext>
+                            <m:mrow><m:mn>0.800</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext></m:mrow>
                         </m:mfenced>
                       </m:mrow>
                     </m:mrow>
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
 <m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
 
-                      <m:mtext>92.0 N</m:mtext>
+                      <m:mrow><m:mn>92.0</m:mn><m:mspace width="0.167em" /><m:mtext>N</m:mtext></m:mrow>
                         <m:mo stretchy="false">⋅</m:mo>
                         <m:mn>m</m:mn>
                       <m:mo stretchy="false">=</m:mo>
@@ -459,7 +451,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
         </m:semantics>
       </m:math>
     </equation><para id="import-auto-id1620275">The total work done as the sum of the work done by each force is then seen to be </para>
-    <equation id="fs-id1404959"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>gr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mn>N</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.0 J</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"total"} } =W rSub { size 8{"gr"} } +W rSub { size 8{N} } +W rSub { size 8{"app"} } +W rSub { size 8{"fr"} } ="92" "." 0" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2881511"><emphasis>Discussion for (b)</emphasis> </para><para id="eip-600">The calculated total work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"total"} } } {}</m:annotation></m:semantics></m:math> as the sum of the work by each force agrees, as expected, with the work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math> done by the net force. The work done by a collection of forces acting on an object can be calculated by either approach.</para>
+    <equation id="fs-id1404959"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>gr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mn>N</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mrow><m:mn>.0</m:mn><m:mspace width="0.167em" /><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"total"} } =W rSub { size 8{"gr"} } +W rSub { size 8{N} } +W rSub { size 8{"app"} } +W rSub { size 8{"fr"} } ="92" "." 0" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2881511"><emphasis>Discussion for (b)</emphasis> </para><para id="eip-600">The calculated total work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"total"} } } {}</m:annotation></m:semantics></m:math> as the sum of the work by each force agrees, as expected, with the work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math> done by the net force. The work done by a collection of forces acting on an object can be calculated by either approach.</para>
     </example>
     <example id="fs-id1534836"><title>Determining Speed from Work and Energy </title>
     <para id="import-auto-id1803359">Find the speed of the package in <link target-id="import-auto-id1803210"/> at the end of the push, using work and energy concepts.</para>
@@ -599,8 +591,8 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
           </m:semantics>
       </m:math> 
     </equation><para id="import-auto-id1524972">Thus,</para>
-    <equation id="fs-id1616561"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mstyle><m:mrow><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 J</m:mn><m:mi /><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>75 J</m:mtext><m:mi /><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>95.</m:mtext></m:mrow><m:mtext>75 J.</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1529753">Solving for the final speed as requested and entering known values gives</para>
-    <equation id="fs-id1474808"><m:math>
+    <equation id="fs-id1616561"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mstyle><m:mrow><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mspace width="0.167em" /><m:mtext>J</m:mtext></m:mrow><m:mi /><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>75</m:mn><m:mspace width="0.167em" /><m:mtext>J</m:mtext></m:mrow><m:mi /><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>95.</m:mtext></m:mrow><m:mtext>75 J.</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1529753">Solving for the final speed as requested and entering known values gives</para>
+    <equation id="fs-id1474808"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -628,7 +620,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
                         <m:msqrt>
                           <m:mfrac>
                             <m:mrow>
-                              <m:mtext>191.5 kg</m:mtext>
+                              <m:mrow><m:mn>191.5</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                               <m:mrow>
                                 <m:mo stretchy="false">⋅</m:mo>
                                 <m:msup>
@@ -638,15 +630,13 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
                                   </m:mrow>
                                 </m:msup>
                               </m:mrow>
-                              <m:msup>
-                                <m:mtext>/s</m:mtext>
-                                <m:mrow>
+                              <m:mrow><m:mo lspace="0" rspace="0">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow>
                                   <m:mn>2</m:mn>
                                 </m:mrow>
-                              </m:msup>
+                              </m:msup></m:mrow>
                             </m:mrow>
                             <m:mrow>
-                              <m:mtext>30.0 kg</m:mtext>
+                              <m:mrow><m:mn>30.0</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                             </m:mrow>
                           </m:mfrac>
                         </m:msqrt>
@@ -654,7 +644,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
                     </m:mrow>
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
 <m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
                   <m:mrow>

@@ -259,7 +259,7 @@
       <emphasis>Strategy</emphasis>
     </para>
     <para id="import-auto-id1166991829200">To find the field strength inside a solenoid, we use <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=μ rSub { size 8{0} }  ital "nI"} {}</m:annotation></m:semantics></m:math>. First, we note the number of loops per unit length is</para>
-    <equation id="eip-509"><m:math>
+    <equation id="eip-509"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -278,13 +278,13 @@
                     <m:mfrac>
                       <m:mtext>2000</m:mtext>
                       <m:mrow>
-                        <m:mn>2.00 m</m:mn>
+                        <m:mrow><m:mn>2.00</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext></m:mrow>
                       </m:mrow>
                     </m:mfrac>
                   </m:mrow>
                   <m:mo stretchy="false">=</m:mo>
                   <m:mtext>1000</m:mtext>
-                </m:mrow><m:mspace width="0.25em"/>
+                </m:mrow><m:mspace width="0.25em" />
                 <m:mrow>
                   <m:msup>
                     <m:mtext> m</m:mtext>
@@ -297,7 +297,7 @@
                   </m:msup>
                   <m:mo stretchy="false">=</m:mo>
                   <m:mtext>10</m:mtext>
-                </m:mrow><m:mspace width="0.25em"/>
+                </m:mrow><m:mspace width="0.25em" />
                 <m:msup>
                   <m:mtext> cm</m:mtext>
                   <m:mrow>
@@ -320,7 +320,7 @@
     <para id="import-auto-id1166991865634">Substituting known values gives</para>
     <equation id="eip-760"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>B</m:mi></m:mtd>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
-<m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mn>4π</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em" /><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>1000</m:mtext><m:mspace width="0.25em" /><m:msup><m:mn>m</m:mn><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>1600 A</m:mtext></m:mrow></m:mfenced></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mn>4π</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em" /><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>1000</m:mtext><m:mspace width="0.25em" /><m:msup><m:mn>m</m:mn><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mn>1600</m:mn><m:mspace width="0.167em" /><m:mtext>A</m:mtext></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
 <m:mtr><m:mtd />
 <m:mtd><m:mo>=</m:mo></m:mtd>
 <m:mtd><m:mrow><m:mn>2</m:mn><m:mtext>.01 T.</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow /></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1166991830044">

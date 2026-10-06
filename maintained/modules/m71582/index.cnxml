@@ -48,7 +48,7 @@
     </equation><para id="import-auto-id1109788">when only magnitudes are considered.</para>
     <para id="import-auto-id1445232"><emphasis>Solution for (a)</emphasis>
     </para><para id="import-auto-id1143096">To determine the momentum of the player, substitute the known values for the player’s mass and speed into the equation.</para>
-    <equation id="eip-926"><m:math>
+    <equation id="eip-926"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -66,7 +66,7 @@
                     <m:mo stretchy="false">=</m:mo>
                     <m:mfenced open="(" close=")">
                       <m:mrow>
-                        <m:mtext>110 kg</m:mtext>
+                        <m:mrow><m:mn>110</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                       </m:mrow>
                     </m:mfenced>
                   </m:mrow>
@@ -75,24 +75,24 @@
                       <m:mrow>
                         <m:mn>8</m:mn>
                         <m:mtext>.</m:mtext>
-                        <m:mtext>00 m/s</m:mtext>
+                        <m:mrow><m:mn>00</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow>
                       </m:mrow>
                     </m:mfenced>
                     <m:mo stretchy="false">=</m:mo>
-                    <m:mtext>880 kg</m:mtext>
+                    <m:mrow><m:mn>880</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                     <m:mo stretchy="false">·</m:mo>
                     <m:mtext>m/s</m:mtext>
                   </m:mrow>
                 </m:mrow>
               </m:mrow>
             
-            <m:mrow/>
+            <m:mrow />
           </m:mrow>
           <m:annotation encoding="StarMath 5.0"> size 12{p rSub { size 8{"player"} } = left ("110"" kg" right ) left (8 "." "00"" m/s" right )="880"" kg" cdot "m/s"} {}</m:annotation>
         </m:semantics>
       </m:math> 
     </equation><para id="eip-834"><emphasis>Solution for (b)</emphasis></para><para id="import-auto-id1250861">To determine the momentum of the ball, substitute the known values for the ball’s mass and speed into the equation.</para>
-    <equation id="eip-722"><m:math>
+    <equation id="eip-722"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -108,14 +108,14 @@
                     </m:msub>
                     <m:mo stretchy="false">=</m:mo>
                     <m:mfenced open="(" close=")">
-                        <m:mtext>0.410 kg</m:mtext>
+                        <m:mrow><m:mn>0.410</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                     </m:mfenced>
                   </m:mrow>
                     <m:mfenced open="(" close=")">
-                        <m:mtext>25.0 m/s</m:mtext>
+                        <m:mrow><m:mn>25.0</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow>
                     </m:mfenced>
                     <m:mo stretchy="false">=</m:mo>
-                    <m:mtext>10.3 kg</m:mtext>
+                    <m:mrow><m:mn>10.3</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                     <m:mo stretchy="false">·</m:mo>
                     <m:mtext>m/s</m:mtext>
               </m:mrow>
@@ -124,7 +124,7 @@
         </m:semantics>
       </m:math> 
     </equation><para id="import-auto-id1524278">The ratio of the player’s momentum to that of the ball is</para>
-    <equation id="eip-45"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>player</m:mtext></m:mrow></m:msub><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>ball</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>880</m:mtext><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>85</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>9</m:mn></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {p rSub { size 8{"player"} } }  over  {p rSub { size 8{"ball"} } } } = {  {"880"}  over  {"10" "." 3} } ="85" "." 9} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1187619"><emphasis>Discussion</emphasis>
+    <equation id="eip-45"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>player</m:mtext></m:mrow></m:msub><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>ball</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>880</m:mtext><m:mrow><m:mn>10.3</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>85</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>9</m:mn></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {p rSub { size 8{"player"} } }  over  {p rSub { size 8{"ball"} } } } = {  {"880"}  over  {"10" "." 3} } ="85" "." 9} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1187619"><emphasis>Discussion</emphasis>
     </para><para id="import-auto-id1251506">Although the ball has greater velocity, the player has a much greater mass. Thus the momentum of the player is much greater than the momentum of the football, as you might guess. As a result, the player’s motion is only slightly affected if he catches the ball. We shall quantify what happens in such collisions in terms of momentum in later sections.</para></example>
 </section>
 <section id="fs-id1342888">
@@ -194,7 +194,7 @@
       </m:math></equation><para id="import-auto-id1173592">In this example, the velocity just after impact and the change in time are given; thus, once <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math> is calculated, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ F rSub { size 8{"net"} } =  {  {Δp}  over  {Δt} } } {}</m:annotation></m:semantics></m:math> can be used to find the force.</para><para id="import-auto-id1285648">
       <emphasis>Solution</emphasis>
     </para>
-    <para id="import-auto-id1451495">To determine the change in momentum, substitute the values for the initial and final velocities into the equation above.</para><equation id="eip-107"><m:math>
+    <para id="import-auto-id1451495">To determine the change in momentum, substitute the values for the initial and final velocities into the equation above.</para><equation id="eip-107"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -243,14 +243,14 @@
 <m:mtd>
                     <m:mfenced open="(" close=")">
                       <m:mrow>
-                        <m:mtext>0.057 kg</m:mtext>
+                        <m:mrow><m:mn>0.057</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                       </m:mrow>
                     </m:mfenced>
                     <m:mfenced open="(" close=")">
                       <m:mrow>
-                        <m:mtext>58 m/s</m:mtext>
+                        <m:mrow><m:mn>58</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow>
                           <m:mo stretchy="false">−</m:mo>
-                          <m:mn>0 m/s</m:mn>
+                          <m:mrow><m:mn>0</m:mn><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow>
                       </m:mrow>
                     </m:mfenced>
                  
@@ -265,11 +265,11 @@
 </m:mtd>
 <m:mtd>
                     <m:mn>3</m:mn>
-                    <m:mtext>.306 kg</m:mtext>
+                    <m:mrow><m:mn>.306</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                       <m:mo stretchy="false">·</m:mo>
                       <m:mtext>m/s</m:mtext>
                             <m:mo stretchy="false">≈</m:mo>
-                       <m:mtext>3.3 kg</m:mtext>
+                       <m:mrow><m:mn>3.3</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                       <m:mo stretchy="false">·</m:mo>
                       <m:mtext>m/s</m:mtext>
                  
@@ -280,7 +280,7 @@
           </m:mrow>
         </m:semantics>
       </m:math> 
-    </equation><para id="import-auto-id1269051">Now the magnitude of the net external force can determined by using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ F rSub { size 8{"net"} } =  {  {Δp}  over  {Δt} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-211"><m:math>
+    </equation><para id="import-auto-id1269051">Now the magnitude of the net external force can determined by using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ F rSub { size 8{"net"} } =  {  {Δp}  over  {Δt} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-211"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -302,7 +302,7 @@
                         <m:mo stretchy="false">=</m:mo>
                         <m:mfrac>
                           <m:mrow>
-                            <m:mtext>3.306 kg</m:mtext>
+                            <m:mrow><m:mn>3.306</m:mn><m:mspace width="0.167em" /><m:mtext>kg</m:mtext></m:mrow>
                               <m:mo stretchy="false">⋅</m:mo>
                               <m:mtext>m/s</m:mtext>
                           </m:mrow>
@@ -322,15 +322,15 @@
                                 </m:mrow>
                               </m:msup>
                             </m:mrow>
-                           <m:mspace width="0.25em"/>
+                           <m:mspace width="0.25em" />
                             <m:mn>s</m:mn>
                           </m:mrow>
                         </m:mfrac>
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
                         <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
-                        <m:mtd><m:mtext>661 N</m:mtext>
+                        <m:mtd><m:mrow><m:mn>661</m:mn><m:mspace width="0.167em" /><m:mtext>N</m:mtext></m:mrow>
                       <m:mo stretchy="false">≈</m:mo>
                       <m:mtext>660 N,</m:mtext></m:mtd>
                 </m:mtr>

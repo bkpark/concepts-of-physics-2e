@@ -70,3 +70,24 @@ mtable[rowspacing="0.5em"] > mtr + mtr > mtd{padding-top:.5em}
    punctuation group a scroll container: overflow-x:auto also enables y:auto.
    Only genuinely wide groups scroll, with room for math ink above/below. */
 .math-with-punctuation.math-needs-scroll { overflow-x: auto; overflow-y: hidden; padding-block: .5em; }
+
+/* Client-side textbook search. */
+#book-search label{display:block;font-weight:bold}.search-controls{display:flex;gap:.6rem;margin:.4rem 0}.search-controls input{flex:1;min-width:0;font:inherit;padding:.5rem;border:1px solid #82999e;border-radius:4px}.search-controls button,#search-more{font:600 16px Arial,sans-serif;background:#123e4a;color:white;border:0;border-radius:4px;padding:.7rem 1rem;cursor:pointer}#search-help,#search-status{font:16px/1.5 Arial,sans-serif;color:#37505a}#search-results{list-style:none;padding:0}#search-results li{border-top:1px solid #cbd6d7;padding:.8rem 0}#search-results h2{margin:.2rem 0}#search-results p{margin:.4rem 0;font-size:.95rem}mark{background:#fff0a8;color:#172b35}#book-search :focus-visible,#search-more:focus-visible{outline:3px solid #287080;outline-offset:3px}[id]{scroll-margin-top:1rem}:target{outline:2px solid #b8cfd2;outline-offset:4px}
+
+/* Equation copying: native dialog supports keyboard focus and Escape. */
+.math-copy-dialog{box-sizing:border-box;width:min(640px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto;border:1px solid #468a96;border-radius:8px;padding:22px;color:#17333f;background:#fff;font:16px/1.5 system-ui,sans-serif}
+.math-copy-dialog::backdrop{background:rgb(0 20 30 / .4)}
+.math-copy-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:12px}
+.math-copy-heading h2{margin:0;font-size:1.3rem}
+.math-copy-dialog label{display:block;margin-top:12px;font-weight:600}
+.math-copy-dialog select,.math-copy-dialog textarea{box-sizing:border-box;width:100%;padding:10px;border:1px solid #78939a;border-radius:4px;background:#fff;color:#17333f;font:inherit}
+.math-copy-dialog textarea{min-height:150px;font:15px/1.6 ui-monospace,Consolas,monospace;resize:vertical;overflow-wrap:anywhere}
+.math-copy-dialog button{padding:9px 14px;border:1px solid #176b80;border-radius:4px;font:inherit;cursor:pointer}
+.math-copy-submit{background:#176b80;color:#fff}.math-copy-close{background:#fff;color:#176b80}
+.math-copy-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:12px}
+.math-copy-note{font-size:14px;color:#526870}
+.math-copy-trigger{position:fixed;z-index:1000;box-sizing:border-box;padding:5px 10px;border:1px solid #78939a;border-radius:5px;background:#fff;color:#176b80;font:14px/1.4 system-ui,sans-serif;box-shadow:0 1px 4px #0002;cursor:pointer;user-select:none}
+.math-copy-trigger[hidden]{display:none}
+@media(pointer:coarse){.math-copy-trigger{min-height:44px;min-width:56px}}
+@media print{.math-copy-trigger{display:none}}
+@media print{.math-copy-dialog{display:none}}

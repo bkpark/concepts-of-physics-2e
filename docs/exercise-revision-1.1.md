@@ -386,3 +386,43 @@ Preview 73 published (2026-10-04 Pacific): all pending Chapter 0 corrections inc
 ## GitHub synchronization (2026-10-04)
 
 Maintainer requested committing and pushing all work through preview 73. Includes reviewed textbook revisions, Chapter 9 finalization, Chapter 10 organization, Chapter 0 math corrections, supporting tools, provenance, and internal textbook answer records (approved for the GitHub reports folder, excluded from the rendered textbook). Raw MyOpenMath export remains outside this repository. Both course/CNX builds and full validation already completed for this source state, with the known unrelated external-media finding. GitHub HTTPS works using the repository-local OpenSSL backend with certificate verification enabled.
+
+## Browser-only textbook search (2026-10-05)
+
+Added Search navigation and a static passage index rebuilt from rendered sections and exercise pages only. No PHP, search service, or query logging: JavaScript fetches the index on demand, searches locally, highlights excerpts, and links to existing anchors. Multiple words must all match; quoted phrases are contiguous. Twenty results per batch; shareable query URLs, responsive controls, live status, empty/no-result and retry states. Reports/internal answer records are not indexed.
+
+Both builds and full validation pass apart from the known external-media finding. Verified all 10,081 course passage anchors, Curie and exact Marie Curie results, no results for madame curie/Noether, mobile width, safe query rendering, pagination, and failed-load retry (prototype/tools/test_search.cjs). Canonical GitHub sync remains explicit and has not been requested for this addition.
+
+Preview 74 published successfully with browser-only textbook search. Receipt reports/1.1/preview74-receipt.json. No canonical GitHub commit/push.
+
+## Math copy format inventory (2026-10-05)
+
+Inventoried 6,727 source expressions through native MathML for LaTeX/ASCIIMath copy planning. Reproducible tool: tools/inventory_math_copy.py. Report: reports/1.1/math-copy-inventory/index.html and inventory.json. Structural audit only, not round-trip conversion certification. 897 expressions flagged for overlapping special-handling categories; most are representable legacy notation, not mathematical defects. Three detached nonnuclear subscripts warrant source normalization (1.6.40, 1.7.5, 3.3.4). Author-policy items include multiline layout, nuclear scripts, script ell, and alphabet-reference fidelity. The standalone ASCIIMath source defines hbar and minus-or-plus, but subsequent author testing found hbar does not render correctly in the asciimath.org MathJax 4 demo. hbar is therefore flagged as renderer-dependent; source-table presence is not conversion validation. No textbook/interface/source changes or preview/GitHub publication.
+
+## Structural MathML normalization (2026-10-05)
+
+Applied reversible MATH-COPY-NORMALIZE patches and targeted MATH-COPY-FOLLOWUP patches: 1156 unique expressions in 82 modules. Three verified detached subscripts, primed collision variables, explicit quantity tokens/spacing, decimal fragments, unit exponent scope, and nuclear left scripts repaired. Textbook values, non-MathML prose, source IDs, and legacy annotations preserved. Both builds/full validation and six regression tests pass (known external-media warning unchanged). Native before/after render pairs checked; representative samples inspected. Original copy inventory preserved as before-normalization.json, current inventory refreshed. Unicode hbar exception remains approved for future ASCIIMath copying; no copy-interface change yet. Reports: reports/1.1/math-source-normalization/. No preview refresh or GitHub sync.
+
+Section 10.6 flagged degree symbol: applied MATH-C10-6-ATTACH-DEGREE, moving 90 into MathML and replacing the empty-base superscript with a postfix degree symbol. Pending preview refresh.
+
+Section 14.4 isotope list: each of hydrogen-1, hydrogen-2, and hydrogen-3 is a separate MathML expression, with commas in prose and proper nuclear prescripts. MATH-C14-4-SEPARATE-HYDROGEN-ISOTOPES. Pending preview refresh.
+
+- 2026-10-05: Split the Section 14.4 summary nuclide notation into two inline math symbols, with “or simply” and punctuation in prose; retained the eip-107 anchor.
+
+- 2026-10-05: Table 18.1 now uses x_0 to illustrate an initial-value subscript, replacing an isolated subscript zero.
+
+- 2026-10-05: Section 1.7 approximate gravitational acceleration now explicitly squares only s and includes a thin space after 10.
+
+- 2026-10-05: Equation 1.7.7 now uses two aligned lines, stacked units, complete decimal tokens, and thin number-unit spaces.
+
+- 2026-10-05: Equation 3.4.3 uses three aligned lines and correct acceleration-unit exponent scope. Equation 3.6.4 was verified as already correctly laid out; its parenthesized unit-ratio power is valid.
+
+- 2026-10-05: Equation 14.4.9 cube-root exponent now applies only to 56. Author approved ASCIIMath named symbols where clearly supported, otherwise Unicode fallback (including Greek variants); preserve character identity, with the prior Unicode hbar exception retained.
+
+- 2026-10-05: Final copy-inventory source cleanup corrected 10 expressions in 9 modules (unit powers, scientific notation, electron superscript, inequality and ratio scope, quantity tokens, and padding). Reviewed 13 explicitly parenthesized powers as valid. Both builds and full validation completed, retaining the existing unrelated external-media issue; all ten changed expressions visually checked in Chrome. Remaining inventory flags are converter handling. Preview and GitHub unchanged.
+
+- 2026-10-06: Implemented LaTeX/ASCIIMath copy dialog for equations, with keyboard activation, text preview, clipboard fallback, grouped fractions, nuclear scripts, multiline arrays/matrices and approved Unicode fallback. Copy strings derive from rendered MathML; no legacy annotation reliance. Ten converter tests passed; all 6,729 expressions parsed in both formats in MathJax 4.1.3, retaining multiline structures. Desktop/mobile interaction checks and representative visual comparisons passed. Preview refresh follows separately; GitHub sync remains manual.
+- 2026-10-06: Published preview 75 with equation copying and the reviewed MathML corrections. Sites source commit 8e3e3acbaa15f85c2825d2159ec4b75022a76c5d; deployment succeeded. Canonical GitHub repository was not pushed.
+- 2026-10-06: Equation copying now uses a separate Copy button revealed by hover, keyboard focus, or tap. Equation clicks do not open the dialog. The button is out of flow, preserves equation geometry, supports keyboard Tab/Enter and two-step touch activation, dismisses outside, and tracks its equation during scrolling. Updated desktop and touch interaction tests passed.
+
+Preview 77: Removed the top equation-copy instruction banner at the author's request. Verified that the banner is absent and the revealed Copy button still opens the dialog. Published successfully; see reports/1.1/preview77-receipt.json.

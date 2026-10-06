@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-06",
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_b53e466ea2a881919b27bea0501f3206",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 75,
+    "source": {
+      "commit_sha": "8e3e3acbaa15f85c2825d2159ec4b75022a76c5d"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000ec9c8230abf7519b6d17dbb5",
+      "content_hash": "sha256:caf46507016735d689e8c9f31d6ec84ffa2893c217386898d57f6907df63a202",
+      "size_bytes": 129976320,
+      "file_count": 730
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ac49d55ed4481919e4ca4e4d472c811",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_b53e466ea2a881919b27bea0501f3206",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-06T07:04:57.109058+00:00"
+  },
+  "feature": "LaTeX and ASCIIMath equation copying; reviewed MathML source corrections"
+}

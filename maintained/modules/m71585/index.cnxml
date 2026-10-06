@@ -170,7 +170,7 @@
     <item id="import-auto-id1848789">Calculate the frequency:
     <equation id="eip-465"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mn>72.6</m:mn><m:mo lspace="0em" rspace="0em">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1.3561</m:mn><m:mo lspace="0em" rspace="0em">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>1</m:mn></m:msup><m:mo>≈</m:mo><m:mn>1.36</m:mn><m:mspace width="0.25em"/><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
     <item id="import-auto-id1411067">You could use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:msqrt><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=2π sqrt { {  {m}  over  {k} } } } {}</m:annotation></m:semantics></m:math> to calculate the period, but it is simpler to use the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mi>f</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=1/f} {}</m:annotation></m:semantics></m:math> and substitute the value just found for <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>:
-    <equation id="eip-207"><m:math>
+    <equation id="eip-207"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -190,9 +190,7 @@
                       <m:mfrac>
                         <m:mn>1</m:mn>
                         <m:mrow>
-                          <m:mn>1</m:mn>
-                          <m:mtext>.</m:mtext>
-                          <m:mtext>356</m:mtext><m:mspace width="0.25em"/>
+                          <m:mn>1.356</m:mn><m:mspace width="0.25em" />
                           <m:mtext> Hz</m:mtext>
                         </m:mrow>
                       </m:mfrac>
@@ -201,12 +199,12 @@
                     <m:mn>0</m:mn>
                   </m:mrow>
                   <m:mtext>.</m:mtext>
-                  <m:mtext>738</m:mtext><m:mspace width="0.25em"/>
+                  <m:mtext>738</m:mtext><m:mspace width="0.25em" />
                   <m:mtext> s</m:mtext>
                 </m:mrow>
               </m:mrow>
             <m:mo>.</m:mo>
-            <m:mrow/>
+            <m:mrow />
           </m:mrow>
           <m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {f} } = {  {1}  over  {1 "." "36"" Hz"} } =0 "." "737"" s"} {}</m:annotation>
         </m:semantics>

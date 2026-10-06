@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-06",
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_84fd937491e481918cfd34022d359e58",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 76,
+    "source": {
+      "commit_sha": "513a84a9e72241a27c7a396fb03603ef35a54829"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000162081f6a9acb302e3307f4f",
+      "content_hash": "sha256:faaabc61d7b85840546d889181da5c4b55340a24e42a44f559aef9fd4344574f",
+      "size_bytes": 129976320,
+      "file_count": 730
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ac49fa6e05c8191bc7705fc141722dd",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_84fd937491e481918cfd34022d359e58",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-06T07:13:53.958705+00:00"
+  },
+  "feature": "Copy button on hover/focus/tap; explicit button activation opens dialog",
+  "checks": [
+    "desktop hover",
+    "equation click does not open dialog",
+    "keyboard Tab/Enter",
+    "two-step touch",
+    "unchanged equation geometry",
+    "outside dismissal",
+    "clipboard and fallback",
+    "text selection"
+  ]
+}

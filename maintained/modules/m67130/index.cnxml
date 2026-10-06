@@ -35,7 +35,7 @@
     <para id="import-auto-id1545999">Entering the given values for charge and time into the definition of current gives</para>
     
   
-      <equation id="eip-340"><m:math>
+      <equation id="eip-340"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -57,21 +57,21 @@
                             </m:mrow>
                             <m:mo stretchy="false">=</m:mo>
                             <m:mfrac>
-                              <m:mtext>720 C</m:mtext>
+                              <m:mrow><m:mn>720</m:mn><m:mspace width="0.167em" /><m:mtext>C</m:mtext></m:mrow>
                               <m:mrow>
-                                <m:mtext>4.00 s</m:mtext>
+                                <m:mrow><m:mn>4.00</m:mn><m:mspace width="0.167em" /><m:mtext>s</m:mtext></m:mrow>
                               </m:mrow>
                             </m:mfrac>
                           </m:mrow>
                           <m:mo stretchy="false">=</m:mo>
-                          <m:mtext> 180 C/s</m:mtext>
+                          <m:mrow><m:mn>180</m:mn><m:mspace width="0.167em" /><m:mtext>C</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:mtext>s</m:mtext></m:mrow>
                         </m:mrow>
                       </m:mrow>
                     
-                    <m:mrow/>
+                    <m:mrow />
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
 <m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
              <m:mtd>     <m:mrow>
                     
@@ -96,7 +96,7 @@
       <para id="import-auto-id2056643">
       <emphasis>Solution for (b)</emphasis>
     </para>
-    <para id="import-auto-id3119110">Solving the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>Q</m:mi><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mi mathvariant="normal">Δ</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I = ΔQ/Δt} {}</m:annotation></m:semantics></m:math> for time <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, and entering the known values for charge and current gives</para><equation id="eip-819"><m:math>
+    <para id="import-auto-id3119110">Solving the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>Q</m:mi><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mi mathvariant="normal">Δ</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I = ΔQ/Δt} {}</m:annotation></m:semantics></m:math> for time <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, and entering the known values for charge and current gives</para><equation id="eip-819"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -119,7 +119,7 @@
                           <m:mo stretchy="false">=</m:mo>
                           <m:mfrac>
                             <m:mrow>
-                              <m:mtext>1.00 C</m:mtext>
+                              <m:mrow><m:mn>1.00</m:mn><m:mspace width="0.167em" /><m:mtext>C</m:mtext></m:mrow>
                             </m:mrow>
                             <m:mrow>
                               <m:mn>0.300</m:mn>
@@ -132,7 +132,7 @@
                                       <m:mo stretchy="false">−</m:mo>
                                       <m:mn>3</m:mn>
         </m:mrow>                        
-                              </m:msup><m:mspace width="0.25em"/>
+                              </m:msup><m:mspace width="0.25em" />
                               <m:mtext> C/s</m:mtext>
                             </m:mrow>
                           </m:mfrac>
@@ -141,11 +141,11 @@
                     
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
 <m:mtd><m:mo>=</m:mo></m:mtd>
 <m:mtd>
                   <m:mrow>
-                    <m:mrow/>
+                    <m:mrow />
                     <m:mtext> 3.33 </m:mtext>
                     <m:mi>×</m:mi>
                     <m:msup>
@@ -155,7 +155,7 @@
                           <m:mn>3</m:mn>
                         </m:mrow>
                       
-                    </m:msup><m:mspace width="0.25em"/>
+                    </m:msup><m:mspace width="0.25em" />
                     <m:mtext> s.</m:mtext>
                   </m:mrow></m:mtd>
                 </m:mtr>

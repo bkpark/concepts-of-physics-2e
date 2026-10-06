@@ -150,23 +150,7 @@
           </row>
           <row>
             <entry>
-              <m:math display="block">
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msub>
-                        <m:mrow><m:mspace width="0.25em"/>
-</m:mrow>
-                        <m:mrow>
-                          <m:mn>0</m:mn>
-                        </m:mrow>
-                      </m:msub>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{ {} rSub { size 8{0} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
+              <m:math display="block"><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:math>
             </entry>
             <entry>zero as a subscript denotes an initial value</entry>
           </row>
@@ -4644,13 +4628,11 @@
             <entry>
               <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
         <m:semantics>
-          <m:mrow><m:msubsup><m:mrow /><m:mi>Z</m:mi><m:mi>A</m:mi></m:msubsup><m:msub>
-                  <m:mi>X</m:mi>
+          <m:mrow><m:mmultiscripts><m:mi>X</m:mi>
                   <m:mrow>
                     <m:mi>N</m:mi>
                   </m:mrow>
-                </m:msub>
-              </m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } } {}</m:annotation>
+                <m:none /><m:mprescripts /><m:mi>Z</m:mi><m:mi>A</m:mi></m:mmultiscripts></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } } {}</m:annotation>
         </m:semantics>
       </m:math>
     
