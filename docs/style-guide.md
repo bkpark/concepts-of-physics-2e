@@ -54,3 +54,13 @@ Outside mathematical expressions, use a nonbreaking space (U+00A0) between a num
 ## Punctuation following inline math
 
 The web renderer keeps trailing prose punctuation with its inline equation in one nonbreaking group. This covers periods, commas, colons, semicolons, question/exclamation marks, ellipses, closing brackets, and closing quotes, including sequences such as `).`. Source whitespace before closing punctuation is suppressed in the rendered output. Punctuation remains outside MathML, preserving structured equation copying. Oversized groups scroll horizontally. Do not manually move prose punctuation into MathML merely to prevent a line break.
+
+## Average abbreviation
+
+Use **avg**, not ave, whenever average is abbreviated, including future additions. Set descriptive math subscripts upright and normal-weight: `P_{\mathrm{avg}}` in LaTeX or `<mtext>avg</mtext>` in MathML. Preserve established overbar or other averaging notation when it is appropriate; this convention does not require replacing it with a subscript.
+
+## Particle symbols and neutrinos
+
+Use italic particle symbols, following the [Particle Data Group convention](https://pdgdoc.lbl.gov/Pdg/files/instructions.pdf), including particle/flavour symbols in neutrino notation. For quantity subscripts identifying the common ordinary-matter particles, retain upright e, p, and n for electron, proton, and neutron: for example, `m_{\mathrm{e}}`, `m_{\mathrm{p}}`, and `m_{\mathrm{n}}`. For other particles, favor the particle-symbol interpretation when supported by context: for example, italic B in `m_B` for a B meson and italic b in `m_b` for a bottom quark. Do not classify these as descriptive abbreviations merely because the symbol resembles the particle's name. This is a contextual house convention; it is not a claim that [NIST's descriptive-subscript guidance](https://physics.nist.gov/cuu/pdf/typefaces.pdf) is limited to its named examples. Ordinary descriptive labels, including initial/final and lepton-family labels on lepton number, remain upright. Standalone e, p, and n particle symbols remain italic; the exception concerns quantity subscripts, not all appearances of those letters.
+
+Use Greek nu (ν, U+03BD) for neutrinos, never Latin v; preserve antiparticle bars. Do not infer particle meaning from the letter alone: velocity v remains a variable, and a running or quantum index n remains italic. Flag frequency ν or v for contextual review before changing it to f.

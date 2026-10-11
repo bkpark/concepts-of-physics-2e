@@ -75,13 +75,39 @@
 })();
 
 // Keep ordinary math ink visible; opt into horizontal scrolling only when the
-// unbreakable equation/punctuation group is wider than its available line.
-const punctuationGroups=[...document.querySelectorAll('.math-with-punctuation')];
+// equation or equation/punctuation group is wider than its available line.
+const mathGroups=[...document.querySelectorAll('.math-with-punctuation, [data-math-key]')].filter(group=>!group.matches('[data-math-key]')||!group.closest('.math-with-punctuation'));
 function sizeMathGroup(group){
  group.classList.toggle('math-needs-scroll',group.scrollWidth>group.clientWidth+1);
 }
 const mathGroupObserver=new ResizeObserver(entries=>{
  for(const {target} of entries)sizeMathGroup(target);
 });
-for(const group of punctuationGroups){sizeMathGroup(group);mathGroupObserver.observe(group);}
-document.fonts.ready.then(()=>punctuationGroups.forEach(sizeMathGroup));
+for(const group of mathGroups){sizeMathGroup(group);mathGroupObserver.observe(group);}
+document.fonts.ready.then(()=>mathGroups.forEach(sizeMathGroup));
+
+// Sentence marks are HTML, including after multiline derivations. Place them
+// beside the last line, whose endpoint may precede the table's widest column.
+const sentenceMarks=[...document.querySelectorAll('.sentence-punctuation')];
+function positionSentenceMark(mark){
+ const anchor=mark.parentElement.querySelector('[data-sentence-punctuation-anchor]');
+ if(!anchor)return;
+ let baseline=mark.querySelector('.sentence-baseline');
+ if(!baseline){
+  baseline=document.createElement('span');
+  baseline.className='sentence-baseline';
+  baseline.setAttribute('aria-hidden','true');
+  mark.append(baseline);
+ }
+ mark.style.transform='none';
+ const target=anchor.getBoundingClientRect();
+ const dx=target.left-mark.getBoundingClientRect().left;
+ const dy=target.top-baseline.getBoundingClientRect().top;
+ mark.style.transform=`translate(${dx}px,${dy}px)`;
+}
+const sentenceObserver=new ResizeObserver(()=>sentenceMarks.forEach(positionSentenceMark));
+for(const mark of sentenceMarks){
+ positionSentenceMark(mark);
+ sentenceObserver.observe(mark.parentElement);
+}
+document.fonts.ready.then(()=>sentenceMarks.forEach(positionSentenceMark));

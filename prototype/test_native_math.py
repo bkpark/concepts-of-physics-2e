@@ -15,5 +15,19 @@ class NativeMathTests(unittest.TestCase):
         native_math(e);self.assertEqual(ET.tostring(e),before)
     def test_namespace_is_native(self):
         out=self.convert('<mi>x</mi>');self.assertTrue(out.startswith('<math '));self.assertIn(f'xmlns="{NS}"',out)
+    def test_equation_style_without_block_layout(self):
+        e=ET.fromstring(f'<math xmlns="{NS}"><mfrac><mi>R</mi><mn>2</mn></mfrac></math>')
+        before=ET.tostring(e)
+        inline=ET.fromstring(native_math(e)[0])
+        display=ET.fromstring(native_math(e,equation_context=True)[0])
+        self.assertIsNone(inline.get('displaystyle'))
+        self.assertEqual(display.get('displaystyle'),'true')
+        self.assertEqual(display.get('display'),'inline')
+        self.assertEqual(ET.tostring(e),before)
+    def test_explicit_compact_style_is_preserved(self):
+        e=ET.fromstring(f'<math xmlns="{NS}" displaystyle="false"><mstyle displaystyle="false"><mi>x</mi></mstyle></math>')
+        out=ET.fromstring(native_math(e,equation_context=True)[0])
+        self.assertEqual(out.get('displaystyle'),'false')
+        self.assertEqual(out[0].get('displaystyle'),'false')
 
 if __name__=='__main__':unittest.main()

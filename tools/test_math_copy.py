@@ -9,6 +9,10 @@ def formats(body):
     return copy_formats('<math xmlns="http://www.w3.org/1998/Math/MathML">'+body+'</math>')
 
 class MathCopyTests(unittest.TestCase):
+    def test_parallel_relation(self):
+        x=formats('<mi>v</mi><mo>∥</mo><mi>B</mi>')
+        self.assertEqual(x['latex'],r'v \parallel B')
+        self.assertEqual(x['asciimath'],'v ∥ B')
     def test_fraction_groups(self):
         x=formats('<mfrac><mrow><mi>Δ</mi><mi>Q</mi></mrow><mrow><mi>Δ</mi><mi>t</mi></mrow></mfrac>')
         self.assertEqual(x['asciimath'],'(Delta Q)/(Delta t)')

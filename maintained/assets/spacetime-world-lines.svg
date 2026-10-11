@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="560" viewBox="0 0 540 560" role="img" aria-labelledby="title desc">
+  <title id="title">World lines in one reference frame</title>
+  <desc id="desc">Position x increases to the right and ct increases upward, with equal scales. A stationary object's world line is vertical at x equals zero. An object moving right at 0.4c has a straight world line between the vertical line and the 45-degree light line. A horizontal dashed line joins simultaneous events.</desc>
+  <rect width="540" height="560" fill="white"/>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#253544"/></marker></defs>
+  <g stroke="#e0e5e9" stroke-width="1">
+    <path d="M80 280H440 M80 160H440 M80 40H440 M200 40V400 M320 40V400 M440 40V400"/>
+  </g>
+  <g stroke="#253544" stroke-width="2" marker-end="url(#arrow)"><path d="M65 400H480"/><path d="M80 415V20"/></g>
+  <path d="M80 400V46" stroke="#2464a0" stroke-width="5"/>
+  <path d="M80 400L224 40" stroke="#a04291" stroke-width="4" stroke-dasharray="12 5"/>
+  <path d="M80 400L440 40" stroke="#bc5b00" stroke-width="4"/>
+  <path d="M80 220H440" stroke="#55616d" stroke-width="2" stroke-dasharray="5 5"/>
+  <g fill="#253544"><circle cx="80" cy="220" r="5"/><circle cx="152" cy="220" r="5"/><circle cx="260" cy="220" r="5"/></g>
+  <path d="M126 400A46 46 0 0 0 112.5 367.5" fill="none" stroke="#253544" stroke-width="1.5"/>
+  <g font-family="Arial, sans-serif" font-size="19" fill="#253544">
+    <text x="490" y="406" font-style="italic">x</text><text x="43" y="27" font-style="italic">ct</text>
+    <text x="60" y="427">0</text><text x="136" y="384">45°</text>
+    <text x="280" y="206">Same time</text>
+    <text x="270" y="438" text-anchor="middle">Equal distance scales on both axes</text>
+    <path d="M65 469H105" stroke="#2464a0" stroke-width="5"/><text x="120" y="475">Object at rest</text>
+    <path d="M65 501H105" stroke="#a04291" stroke-width="4" stroke-dasharray="12 5"/><text x="120" y="507">Object moving right at 0.4c</text>
+    <path d="M65 533H105" stroke="#bc5b00" stroke-width="4"/><text x="120" y="539">Light moving right at c</text>
+  </g>
+</svg>

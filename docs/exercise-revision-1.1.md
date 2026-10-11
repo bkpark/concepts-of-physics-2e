@@ -1,5 +1,10 @@
 # Exercise revision for 1.1: proposed action plan
 
+## Outstanding items to mention at every chapter finalization
+
+- [ ] **Replace Figure 12.3.2 photoelectric-apparatus photograph.** Author will take a higher-resolution photo of their lab apparatus (plans to take it Monday and will set their own reminder). At every chapter finalization, remind the author while this remains open, even after Chapter 12. Stable target: m67251 figure import-auto-id1362766, media import-auto-id953716. Replace the photo, revise its alt text/caption as needed, and update the image credit together when the author supplies it. Current credit is P.P. Urone; keep it until the replacement is made. No scheduled notification requested. Mark complete only after the replacement and credit update are verified.
+
+
 Prepared September 27, 2026 from the maintainer's fresh MyOpenMath export and the recovered exercise-curation audit. This is a proposal, not approval of individual question additions or removals.
 
 ## What the export provides
@@ -94,7 +99,7 @@ Check these items when preparing the named chapter, and bring them to the mainta
 - [x] **Chapter 8, Section 8.2 (Temperature), m52364:** resolved 2026-09-30 by maintainer direction: retain body unchanged; replace summary conversion list with a Kelvin–Celsius relationship bullet and only inline T_K = T_°C + 273.15. Pending next preview refresh.
 - [ ] **Chapter 10, Section 10.8, m52420:** summary item `import-auto-id1166991832296` uses lowercase n in the circular-loop field formula; body `import-auto-id1166991833146` uses N for total turns, while n is turns per unit length for a solenoid. Remind maintainer and reconcile during Chapter 10 review.
 - [ ] **Chapter 11, Section 11.5, m67133:** review the early uses of blackbody radiation and emissivity in the microwave/infrared/visible-light discussion. These concepts are not developed in Chapter 8; the substantive blackbody introduction is in Chapter 12, Section 12.2 (m67250). At the maintainer’s request (2026-09-30), consider a brief explanation and forward reference to Section 12.2 so the terminology does not appear unexplained. Check whether emissivity needs its own short explanation rather than assuming the Chapter 12 reference covers it. Bring this up during Chapter 11 review; no section wording change approved yet.
-- [ ] **Chapter 12, Section 12.6, m67805:** summary equation `eip-115` gives proton charge-to-mass ratio as 9.57 × 10^7 C/kg; body `eip-62` gives 9.58 × 10^7 C/kg. Carry forward for reconciliation during Chapter 12 review.
+- [x] **Chapter 12, Section 12.6, m67805:** resolved during global equation review (2026-10-08); both now 9.58 × 10^7 C/kg. Historical discrepancy: summary equation `eip-115` gives proton charge-to-mass ratio as 9.57 × 10^7 C/kg; body `eip-62` gives 9.58 × 10^7 C/kg. Carry forward for reconciliation during Chapter 12 review.
 
 Evidence and equation inventory: `reports/1.1/summary-equation-audit/review.md` and `relationships.json`. Hiding summary equation numbers is already published; these content follow-ups remain open.
 
@@ -426,3 +431,503 @@ Section 14.4 isotope list: each of hydrogen-1, hydrogen-2, and hydrogen-3 is a s
 - 2026-10-06: Equation copying now uses a separate Copy button revealed by hover, keyboard focus, or tap. Equation clicks do not open the dialog. The button is out of flow, preserves equation geometry, supports keyboard Tab/Enter and two-step touch activation, dismisses outside, and tracks its equation during scrolling. Updated desktop and touch interaction tests passed.
 
 Preview 77: Removed the top equation-copy instruction banner at the author's request. Verified that the banner is absent and the revealed Copy button still opens the dialog. Published successfully; see reports/1.1/preview77-receipt.json.
+
+Section 3.4: Removed 11 explicit MathML italic style overrides at maintainer request. Mathematical tokens and prose are unchanged; natural variable italics remain. Reversible source patch: MATH-C3-4-REMOVE-FORCED-ITALICS.
+
+Equations 3.4.13 and 3.4.14: Removed explicit thin spaces between g and h_f in source and consequently copied LaTeX. Number-unit spaces retained.
+
+Section 10.4: Removed three plain-text italic B emphasis wrappers, including two B-field terms. Text and MathML are unchanged.
+
+Responsive math overflow: Removed the legacy below-650px blanket scroll rule. All math wrappers now use visible overflow unless genuinely too wide; explicit display equations retain block layout. Extended existing punctuation overflow sizing to standalone math wrappers, avoiding nested scroll containers. Checked five widths in light/dark color schemes, horizontal overflow and resize recovery; math-copy UI regression passed. Local only, awaiting batched preview refresh.
+
+Preview 80: LaTeX now copies the parallel relation as \parallel; ASCIIMath retains Unicode. All 11 converter tests pass. Published with the pending plain-text B and responsive overflow fixes; see preview80-receipt.json.
+
+Inline math baseline: Changed shared equation and punctuation wrappers from vertical-align:middle to baseline. Visually compared the right-hand-rule paragraph before/after; short symbols now align with prose without per-expression offsets. Responsive overflow and copy-interface regressions pass. Pending the next batched preview refresh.
+
+Eq. 10.8.2: Three aligned lines separate the algebraic formula, numerical substitution, and 25 A result. Original fractions preserved. Course build and three-row LaTeX copy check pass. Pending batched preview refresh.
+
+Section 10.8: Removed all five forced italic overrides. Opening parentheses before n=N/l are now prose in both body and glossary, excluded from math copying. XML and focused copy checks pass; pending batched preview refresh.
+
+Equations 10.8.5 and 10.8.6: Added requested breaks before =1000 m^-1 and after mu_0 n I respectively, producing two and three aligned lines. Mathematical tokens and operand subtrees preserved. Pending batch preview refresh.
+
+Preview 82: Shared CSS honors right-center-left MathML columns. Eq. 10.8.6 now uses stacked T m/A and 1000/m. Browser alignment and visual checks passed for 10.8.2, 10.8.5, and 10.8.6 at 650px; no equation-container width overflow. Both builds succeeded; published.
+
+Section 10.10: Removed all ten explicit MathML italic overrides (seven fontstyle and three mathvariant) and associated mathit classes, including glossary markup. XML parses and text/tokens are unchanged. Pending batch preview refresh.
+
+Eq. 10.11.7: Final numerical result moved to third aligned line. XML, operand preservation, and three-row LaTeX copy checks pass. Pending batch preview refresh.
+
+Three-column alignment audit: Standardized all 85 remaining lll tables to rcl (84 equation chains and one nuclear reaction array). No exceptions required. Only columnalign attributes changed; full XML comparison verifies all other content unchanged. Inventory: reports/1.1/three-column-alignment.json. Pending batch refresh.
+
+Alignment audit follow-up: Two unspecified three-column tables also copied as lll. Both now explicitly rcl, bringing total to 87 in 38 modules. No exceptions.
+
+Eqs. 10.11.8–10: Final numerical results on separate third lines with rcl alignment. Mathematical operand preservation and three-row copy checks passed. Pending batch refresh.
+
+Section 10.12: Removed all three forced italic MathML wrappers (V/R and two IV expressions). XML parses; all text and mathematical tokens preserved. Pending batch preview refresh.
+
+Average abbreviation: Changed all 14 P_ave occurrences in Section 10.12 to upright P_avg, including legacy annotations; no other ave/avg subscripts found in maintained source. Recorded avg as the future house convention in docs/style-guide.md. XML and upright LaTeX-copy check pass. Pending batch refresh.
+
+Eqs. 10.12.6–7: Three aligned lines for 10.12.6; corrected operator/text separation and numerical/unit tokens in 10.12.7. XML and focused copy checks passed. Pending batch refresh.
+
+Section 10.8 applicability labels: Standardized gap before parentheses to 0.50em for all six body/summary instances. XML, text-content, and spacing checks pass. Pending batch refresh.
+
+- 2026-10-06: Chapter 10 Exercise 2 reworded to state explicitly that magnetic field lines cannot cross, retaining the direction-at-a-point reasoning prompt. Pending next preview refresh.
+
+- 2026-10-06: Chapter 10 Exercise 3 replaced with the approved compare-and-contrast prompt: two similarities and two differences, including one of each about interaction with matter. Pending next preview refresh.
+
+- 2026-10-06: Chapter 10 Exercise 5 revised with the approved field-direction, field-strength, and horizontal-compass questions. Retains the rhetorical strength question. Pending next preview refresh.
+
+- 2026-10-06: Using preview 83 numbering throughout the current review: removed Exercises 8, 10, 12; retained 7, 9, 11 and added the sign-reversal comparison to 7. Replaced Exercise 13 with maximum magnetic force and acceleration for a laboratory electron beam (8.0e6 m/s, 1.0e-3 T), with electron constants supplied. Internal numerical answers and physical-scale checks recorded in chapter10-structure/review-round-exercise-changes.json. Pending next preview refresh.
+
+- 2026-10-06: Added approved circular-path radius part (c) to preview 83 Exercise 13; verified r = 0.04555 m, rounded to 4.6 cm. Maintainer identifies this problem as approximately the upper end of Chapter 10 calculation difficulty. Pending next preview refresh.
+
+- 2026-10-06: Removed preview 83 Exercise 18 (refrigerator AC versus car-starting DC compass comparison), as approved. Continue using preview 83 numbers for this review round. Pending next preview refresh.
+
+- 2026-10-06: Removed preview 83 Exercises 20 and 21 as approved, retaining 19. Continue using preview 83 numbers for this review round. Pending next preview refresh.
+
+- 2026-10-06: Removed preview 83 Exercise 22 (lightning force). Plasma current does experience magnetic force, but the calculation does not establish visible bending; research nuance recorded in the review-round report. Pending next preview refresh.
+
+- 2026-10-06: Replaced preview 83 Exercise 24 MHD-drive calculation with MRI gradient-coil segment force (100 A, 5.0 cm, 1.5 T perpendicular; answer 7.5 N). Acoustic-noise context checked against Siemens description; no scanner-specific specifications implied. Pending next preview refresh.
+
+- 2026-10-06: Replaced preview 83 Exercise 26 with approved two-coil switching question. Pending next preview refresh.
+
+- 2026-10-06: Removed preview 83 Exercises 30 and 31 as approved. For the later MyOpenMath-oriented addition pass, aim for at least one conceptual question per section, with more where natural; Section 10.10 now needs coverage. Keep current preview numbering during review. Pending next preview refresh.
+
+- 2026-10-06: Replaced preview 83 Exercise 36 with conceptual transformer inefficiency question on winding resistance, eddy currents, and insulated laminations; classified as conceptual. Other proposed transformer removals remain pending approval. Pending next preview refresh.
+
+- 2026-10-06: Approved transformer selection: retain old 32/33 with ideal-model wording, retain conceptual 36, replace 38 with conceptual transmission question; remove 34/35/37/39. Rebuild and refresh with automatic renumbering; subsequent review uses updated numbers.
+
+- 2026-10-06: Replaced preview 84 Exercise 27 with approved AC-grid question emphasizing transformers for high-voltage transmission and lower-voltage supply to users. Pending next preview refresh.
+
+- 2026-10-06: Replaced preview 84 Exercise 29 with indoor-light stroboscopic effect on a rapidly moving hand or meter stick. Verified against DOE hand-waving demonstration: https://www.energy.gov/cmei/ssl/flicker-demonstration . Bright phases emphasize successive positions; dim intervals create less visible intervening motion. Constant illumination does not produce this illumination-driven effect. Pending next preview refresh.
+
+- 2026-10-06: Simplified preview 84 Exercise 29 closing prompt to “Explain this effect.” Removed brightness-variation hints. Pending next preview refresh.
+
+- 2026-10-06: Replaced Section 10.12 unfulfilled superconductivity forward reference with approved standalone maximum-current statement. Pending next preview refresh.
+
+- 2026-10-06: Updated preview 84 Exercise 33 office AC schedule to 8.0 hours/workday for 22 workdays and assumed electricity price 35.0 cents/kWh. Verified 176 h, 8800 kWh, $3080 unrounded cost; effective resistance unchanged at 3.32928 ohms. Pending next preview refresh.
+
+- 2026-10-06: Preview 84 Exercise 33 now uses 208 V and asks for rms current, with explicit single-phase/in-phase approximation to support P_avg = V_rms I_rms. Verified current 240.3846 A (240 A to three significant figures); cost unchanged. Pending next preview refresh.
+
+- 2026-10-06: Explicitly labeled Exercise 33 supply as 208 V rms. Pending next preview refresh.
+
+- 2026-10-06: Applied approved Exercise 33 wording: resistor approximation in part (a), replacing separate single-phase/in-phase sentence; smoothed schedule wording in part (b). Answers unchanged. XML validated; pending next preview refresh.
+
+- 2026-10-06: Applied Chapter 10 conceptual-gap pass: nine additions (eight aligned with frozen MyOpenMath objectives and one introduction overview), geology moved to 10.3, transformer conceptual-first ordering, and approved heater merger. 45 questions; every section has a conceptual question. See reports/1.1/chapter10-structure/mom-review-question-set.md for numbering, source locators and new/merged internal answers. Pending preview refresh.
+
+- 2026-10-06: Chapter introductions are excluded from the at-least-one-conceptual-question goal. Moved preview 85 Exercise 1 to 10.2 Magnets, removing its reference to this introduction. Audit of all Chapter.1 pages (0.1 through 14.1): no other exercises on those pages. Numbering remains unchanged; pending batch preview refresh.
+
+- 2026-10-06: Approved preview 85 Exercise 25 split into three parts: straight wire, circular loop compared with bar magnet, and long-solenoid interior. Updated internal answer; XML valid. Pending batch refresh.
+
+- 2026-10-06: Added approved eddy-current question after preview 85 Exercise 31, now Exercise 32; following questions shift by one. Total 46. Internal answer and MyOpenMath provenance recorded. Refresh includes Exercise 1 relocation and three-part Exercise 25.
+
+## Chapter 10 finalized; Chapter 11 prepared (2026-10-06)
+
+Maintainer finalized Chapter 10 after preview 86, including all 46 exercises. Chapter 11 structural organization authorized: collect glossary and summaries, normalize question group headings, preserve all existing exercise content and IDs. Chapter introductions remain excluded from exercise coverage targets. Deferred Section 11.5 blackbody/emissivity reminder carried into chapter11-structure/review.md.
+
+Preview 87 published successfully: Chapter 11 organized, 52 questions with sequential numbering verified, 74 glossary definitions and 10 summaries. Course/CNX builds and source/link validation passed. Chapter 10 finalized. No canonical GitHub push.
+
+- [ ] 2026-10-06: Chapter 11 duplicate glossary review deferred by maintainer. Check definitions in 11.4/11.6 and repetition in 11.5/11.10; nine duplicate terms, six identical pairs and three differing pairs (radio waves, infrared, gamma ray). No consolidation authorized at this stage. Details: reports/1.1/chapter11-structure/review.md.
+
+- 2026-10-08: Approved demotion of model in Section 1.4: removed duplicate glossary definition and changed body term to ordinary inline text, preserving its anchor. Chapter 0 definition unchanged. No references to removed definition IDs found; XML validated. Pending batch preview refresh.
+
+- 2026-10-08: Glossary headings disambiguated: meter (unit of length) in 0.3, moving-coil meter in 10.7 with approved concise definition. First relevant body term now Moving-coil meters; Motors and Meters title and later meter shorthand preserved. XML validated; pending batch preview refresh.
+
+- 2026-10-08: Removed redundant vector glossary entry in 9.5 and acceleration/free-fall entries in 2.4. Body term markup demoted where present; earlier definitions in 1.3, 1.5, and 1.7 retained. Vector addition remains a distinct glossary entry. XML validated; pending batch refresh.
+
+- 2026-10-08: Removed duplicate deformation glossary entry in 3.6 and demoted corresponding body term markup; Section 2.7 definition retained. XML validated; pending batch refresh.
+
+- 2026-10-08: Removed mechanical energy glossary duplication in 9.6; Chapter 3 definition retained. Body and summary conservation wording need review: definition currently conflates KE+PE with conservation; summary says this sum is a constant without conditions. Prose not yet changed. Pending batch refresh.
+
+- 2026-10-08: Applied approved combined conservation paragraph in 9.6, preserving wording where possible and qualifying mechanical energy conservation. Removed redundant inline equation; displayed equations and source anchors retained. Summary bullet still awaiting review. XML validated; pending preview refresh.
+
+- 2026-10-08: Approved 9.6 summary bullet now states that mechanical energy is constant when only conservative forces do work. Conservation prose/summary review resolved. XML validated; pending batch preview refresh.
+
+- 2026-10-08: Removed repeated Ohm’s law and resistance glossary entries in 9.11; body term markup demoted, earlier 9.9 definitions retained. Inconsistent resistance wording appeared only in the removed definition, not prose. XML validated; pending batch refresh.
+
+- 2026-10-08: Preview 88 published: all approved glossary demotions/disambiguation and 9.6 conservation prose/summary corrections; added Chapter contents return links below all 15 exercise-page headings. Builds/source/link checks passed. Chapter 11 duplicate terms remain untouched for review. No canonical GitHub push.
+
+- 2026-10-08: Extended shared inline-math punctuation grouping to opening parentheses/brackets immediately preceding math, including preceding-sibling tails and math-only inline wrappers. Existing closing punctuation handling retained; MathML/copy payloads unchanged. Nine unit regressions pass; generated 11.2 hertz example confirms opening parenthesis inside group. Pending batch preview refresh.
+
+- 2026-10-08: Normalized 11.5 inline photon energy: moved parentheses to prose, removed forced italic wrapper, changed Latin v to Greek nu. Adjacent Eq. 11.5.5 photon term likewise uses variable h and nu. XML validated; pending batch refresh.
+
+- 2026-10-08: Removed remaining forced-italics MathML in 11.5: LC resonance in opening microwave paragraph. Natural variable italics retained. Section scan confirms no remaining explicit italic MathML attributes; XML valid. Pending batch refresh.
+
+- 2026-10-08: Table 11.7.1 gas heading: 1 atm converted to inline MathML with thin number-unit spacing and upright unit. XML validated; pending batch preview refresh.
+
+- 2026-10-08: Split 11.9 lens-example givens into separate d_o = 0.750 m and f = 0.500 m math expressions with prose and. XML valid; queued for batch refresh.
+
+- 2026-10-08: Global embedded-prose MathML scan completed (tools/audit_math_prose.py): 6,721 expressions, 28 flags: six inline split candidates, fourteen displayed connector cases, eight descriptive-label cases. No source changes from audit. Review report: reports/1.1/math-prose-audit/review.md.
+
+- 2026-10-08: Split Eq. 4.5.4 example givens into four expressions with commas/and outside math; normalized decimals and units. Display anchor and current numbering retained pending the next audit. XML validated; pending batch refresh.
+
+## Next after connector review: equation-numbering audit (approved 2026-10-08)
+
+Perform immediately after the current embedded-connector review. Policy: number important laws, definitions, reusable results and explicitly referenced equations; normally leave lists of givens, routine substitutions, intermediate arithmetic and repeated summary formulas unnumbered. Review derivations and worked-example results individually. Check internal references before removing numbers, preserve stable anchors, and validate shifted numbering. Eq. 4.5.4 is an approved example of a givens list suitable for unnumbered display. Author accepts numbering shifts in major revision 1.1 and will check outside references, especially MyOpenMath, after this revision. Do not change live MyOpenMath content. This is workflow sequencing, not a scheduled automation.
+
+- 2026-10-08: Eq. 5.2.2 split into two hertz definitions with prose or, replacing manual MathML connector spacing. Stacked fractions and current equation number retained. XML valid; pending batch refresh.
+
+- 2026-10-08: Section 7.4 pressure alternatives: lb/in^2 and psi are separate inline MathML expressions; or and both parentheses moved to prose. XML validated; pending batch refresh.
+
+- 2026-10-08: Eq. 8.10.9 now uses 0.408 = 40.8%. Removed ten conflicting forced-italic wrappers around upright Eff across four modules, including formula appendix; natural variable styling retained. XML validated; pending batch refresh.
+
+- 2026-10-08: Eq. 8.11.4 now gives 0.476 = 47.6%, replacing the prose connector; numeric tokens normalized and stale annotation removed. XML validated; pending batch preview refresh.
+
+- 2026-10-08: Split five composite expressions in 9.6: both displayed potential-energy relationships and their summary repeat, four initial/final energy values, and q/V/m list. Connectors and sentence punctuation now prose; equation IDs/numbers retained. XML and expression counts validated. Loop applicability note in 10.8 left pending discussion. Pending batch preview refresh.
+
+- 2026-10-08: Moved 10.8 straight-wire, loop-center, and solenoid applicability labels to prose within their equation containers, in body and summary (six occurrences). Removed stale annotations; formulas and IDs preserved. XML validated.
+
+- 2026-10-08: Preview 89 published successfully with all batched corrections since preview 88, including connector splits and six 10.8 applicability labels outside MathML. Course/CNX builds and source/link checks passed; generated label placement checked. Fresh visual browser QA not performed. No canonical GitHub push.
+
+- 2026-10-08: Eq. 11.5.6 split into two reaction expressions with prose and and terminal punctuation. Chemical tokens normalized, stale annotation removed; equation ID/number preserved. XML and expression boundaries validated. Pending batch preview refresh.
+
+- 2026-10-08: Eq. 12.4.1 applicability note moved to prose; Eq. 12.4.2 uses stacked h/p and numerical quotient with normalized numeric/unit tokens. Values, IDs, and numbering preserved. XML and fraction structure validated. Pending batch preview refresh.
+
+- 2026-10-08: Split Eq. 12.5.2 with prose comma/where and terminal period; removed 33 explicit italic MathML attributes throughout m67804, including summary/exercises. Natural variable italics retained. XML, expression boundaries, and absence of remaining explicit italic attributes verified. Pending batch preview refresh.
+
+- 2026-10-08: Eq. 12.7.2 now specifies R = 1.097 x 10^7 m^-1 directly, with upright unit and thin number-unit spacing. Redundant alternate notation and stale annotation removed; value and numbering unchanged. XML validated. Pending batch preview refresh.
+
+- 2026-10-08: Eq. 14.5.21 electron-capture note moved outside MathML with ordinary prose spacing; stale annotation removed. Formula and numbering preserved; XML valid.
+
+- 2026-10-08: Preview 90 published with batched corrections since 89: ozone reaction split, matter-wave label/fractions, uncertainty connector/italic cleanup, Rydberg unit, electron-capture note. Course/CNX builds and source/link validation passed; generated note outside MathML verified. Fresh visual browser QA not performed. No canonical GitHub push.
+
+- 2026-10-08: Section 14.10 uranium-235 parenthetical now has only the nuclide in MathML, with article and parentheses in prose. Prescript retained, stale annotation removed; XML valid. Pending batch preview refresh.
+
+- 2026-10-08: Atomic Masses table: deuterium and tritium alternatives now separate MathML symbols with prose or within each cell. Upright chemical symbols and proper mass-number prescripts retained; stale annotations removed. XML valid. Pending batch preview refresh.
+
+- 2026-10-08: Connector review closed. Follow-up scan: 6,738 expressions / 141 modules; eight remaining flags all approved word equations, quantity labels, or unit names. Recorded dispositions in reports/1.1/math-prose-audit/post-review/disposition.md. No unresolved scan flags. Original review snapshot preserved. Fission and Atomic Masses fixes await next refresh. Equation-numbering audit is next approved work.
+
+- 2026-10-08: Read-only equation-numbering audit produced tools/audit_equation_numbering.py and reports/1.1/equation-numbering-audit/. Inventory: 1,488 display objects across 141 modules, including 877 visible numbered equations and 478 table-math displays. Found 103 hidden summary labels still consuming course counters; 8 equation targets have structured incoming references. Editorial triage groups 340 worked calculations as likely number-removal candidates, 153 worked symbolic steps/results for individual review, and 28 unnumbered non-table displays for inspection. These are provisional recommendations, not approved bulk removals. No source numbering, build, or preview changes.
+
+- 2026-10-08: Implemented summary-number reuse through maintained/numbering.json stable-ID aliases: 38 unique exact same-section matches; 67 unmatched/ambiguous summary displays left unnumbered and flagged in reports/1.1/equation-numbering-audit/summary-review.md. Summary equations excluded from counters in both profiles, and renderer displays aliased labels. Dynamic alias regression passes; course/CNX builds and source/link validation pass. No preview refresh. Next suggested policy example: dragster displacement Eqs. 1.6.18-21 (repeated law, simplified relation, substitution, final numerical result).
+
+- 2026-10-08: Approved removal of numbers from current-preview Eqs. 1.6.18-21: four dragster displacement displays now class unnumbered. Math and anchors unchanged. Continue referring to published preview numbers during body-numbering review; local subsequent labels shift. Summary aliases reviewed after body decisions. No preview refresh.
+
+- 2026-10-08: Approved removal of numbers from preview Eqs. 1.6.15-16; 1.6.17 result retains numbering. XML valid; no summary aliases target removed numbers. Section 1.6 italic scan found 35 explicit attributes across 28 expressions (24 mi, 11 mstyle); reported, not changed. Preview unchanged.
+
+- 2026-10-08: Section 1.6 removed 35 explicit italic attributes; replaced 31 hyphen accents with stretchy U+00AF overbars. XML valid and all overbars verified to copy as LaTeX overline / ASCIIMath bar. No preview refresh; visual rendering awaits batch review.
+
+- 2026-10-08: Book-wide overbar scan: fixed 47 remaining hyphen accents in five modules (m42674:18, m42680:5, m67033:18, m71407:4, m76603:2), in addition to 31 prior Section 1.6 fixes. Only mover accent encoding changed; variable/particle identity preserved. XML and LaTeX/ASCIIMath overbar conversion verified; no hyphen/minus mover accents remain. Preview unchanged.
+
+- 2026-10-08: Authorized book-wide body-numbering pass complete: 615 additional displays unnumbered across 78 modules, 256 numbered body displays remain. Four borderline worked-example results retained pending judgment; two optional unnumbered-body additions flagged. Eight internal equation-reference targets retained. Recomputed summary aliases: 91 clear matches, 14 review cases. Full preview/local crosswalk and dispositions in reports/1.1/equation-numbering-audit/. XML content/anchors preserved; both builds, source/link validation, alias regression and all body/summary-label checks passed. Preview unchanged; ready for summary-number match review after small body exception list.
+
+- 2026-10-08: Author retains preview Eq. 2.10.8 (m67036#eip-99); body decision and crosswalk updated. Removed all three explicit italic MathML overrides in Section 2.10; normal variable italics retained. XML valid. Preview unchanged. Three borderline body formulas remain.
+
+- 2026-10-08: Author retains preview Eq. 4.6.4 and removes number from 6.4.17. Removed all twelve explicit italic MathML overrides in Section 6.4; normal variable italics retained. XML, both numbering profiles, and summary aliases validate; local crosswalk refreshed. Preview unchanged. Only 9.6.18 remains among four borderline body formulas.
+
+- 2026-10-08: Author retains preview Eq. 9.6.18 for recurring quantitative use. All four borderline numbered body formulas resolved: retain 2.10.8, 4.6.4, 9.6.18; unnumber 6.4.17. Source already retained 9.6.18; dispositions updated. Ready for 14 summary-number review cases. Preview unchanged.
+
+- 2026-10-08: Summary review #1-10 resolved. #1-7/#9 remain unnumbered. #8 parallel-resistance body and summary normalized (R_3, ellipsis, upright p), with shared number. #10 summary proton q/m corrected to 9.58 x 10^7 C/kg and linked to body; stale annotations removed. Summary aliases now 93. #11 angular-momentum summary pending discussion; #12-14 pending. XML valid; preview unchanged.
+
+- 2026-10-08: Summary review #11 resolved: Section 12.7 summary now L = n hbar and aliases m67807#eip-866. Section 12.8 expanded expression and alias retained. XML and both numbering profiles validated; 94 aliases total. #12-14 remain. Preview unchanged.
+
+- 2026-10-08: Summary review #12 resolved: m42535#eip-584 shares number with m42535#eip-772 (preview 13.4.7), retaining both square-root and gamma-factor forms in summary. Both numbering profiles validate. 95 summary aliases; #13-14 remain. Preview unchanged.
+
+- 2026-10-08: Summary review #13 resolved: m52466#eip-120 uses 931.5 MeV/c^2 instead of 931.46; combined conversion remains unnumbered. XML valid; no summary alias assigned. Only #14 remains. Preview unchanged.
+
+- 2026-10-08: Summary review #14 resolved: m52471#eip-705 now matches both forms from body eip-732 (exact ln(2), approximate 0.693) and reuses its number. All 14 summary-review cases resolved; 96 aliases. XML valid. Preview unchanged.
+
+- 2026-10-08: Equation-numbering global review closed. Final checks: course/CNX builds, source/link validation and alias regression pass; 877 body dispositions and 96 summary aliases verified in both profiles. All author decisions resolved; nine summary displays intentionally unnumbered. Preview unchanged. External MyOpenMath reference checks remain for author after publication, as agreed.
+
+### 2026-10-08 — Preview 91 refreshed
+
+Published the completed equation-numbering review and pending MathML corrections as Sites version 91 (commit fb1e978333f37b4cd49ea7612bde81cf9d7f4341). Publication succeeded. Body equations now have 255 retained numbers and 622 removed numbers; 96 summary displays reuse body labels and nine remain intentionally unnumbered. Both builds, full validation, summary-numbering regression tests, and audit verification passed before packaging. Receipt: reports/1.1/preview91-receipt.json. Resume review at Section 11.9, Image Formation by Lenses.
+
+
+### 2026-10-08 — Equation display-style default
+
+Global audit found 1000 math expressions inside equation blocks: 953 omitted display settings and 47 explicitly used block display; none explicitly requested compact style. Renderer now supplies displaystyle=true within equation ancestry, retaining inline layout for separated formulas and prose connectors. Paragraph math stays inline; explicit style overrides are preserved. Source MathML and numbering are unchanged. Added regression coverage for equation versus paragraph style, source preservation, and explicit compact overrides. Audit: reports/1.1/equation-display-style-audit.json. Preview publication deferred until requested.
+
+
+### 2026-10-08 — Preview 92 refreshed
+
+Published the global equation display-style renderer correction as Sites version 92, commit 91fb307ceceb561d67a28134634a07afacc38da2. Deployment succeeded. Numbering unchanged. Receipt: reports/1.1/preview92-receipt.json. Opened Section 11.10 for user visual review.
+
+
+### 2026-10-08 — Section 11.10 forced italics
+
+Removed five explicit MathML fontstyle="italic" attributes on R, T, and m in m67135. Native variable italics and prose emphasis remain. Source correction: C11-MIRRORS-FORCED-ITALICS. Pending next preview refresh.
+
+### 2026-10-08 — Remove inherited PhET explorations
+
+Removed Radioactive Dating Game from Radiation Detection and Detectors (m42627) and Simplified MRI from Medical Imaging and Diagnostics (m42649), including their box content and external links. No incoming source references target removed IDs. Historical Preface note retained. Corrections: C14-REMOVE-PHET-M42627 and C14-REMOVE-PHET-M42649. Pending next preview refresh.
+
+### 2026-10-08 — Polarization caption spacing
+
+Figure 11.11.7: reduced two explicit 0.25em spaces around cos to normal 0.167em thin spaces. Correction C11-POLARIZATION-CAPTION-COS-SPACING. XML verified; pending preview refresh.
+
+### 2026-10-08 — Chapter 11 glossary duplicates
+
+Removed the later electromagnetic spectrum, microwaves, ultraviolet radiation, visible light, X-ray, and law of reflection definitions at author request. Gamma ray, infrared radiation, and radio waves pairs left unchanged pending discussion. Pending preview refresh.
+
+### 2026-10-08 — Gamma-ray terminology in prose
+
+Applied the two approved Section 11.5 prose edits distinguishing nuclear-transition terminology from astronomical usage. Applications discussion retained. Correction C11-GAMMA-RAY-NAMING-CONVENTIONS. Radio-wave prose and three glossary consolidations remain pending. XML validated; preview refresh pending.
+
+### 2026-10-08 — Radio-wave introduction
+
+Applied the approved first two sentence replacements in Section 11.5, retaining the astronomical example and remainder of the paragraph and term anchor. Correction C11-RADIO-WAVES-INTRODUCTION. XML validated; pending preview refresh.
+
+### 2026-10-08 — Complete Chapter 11 glossary consolidation
+
+Updated the first-introduction definitions in m67132 for gamma ray (nuclear convention with astronomical clarification), infrared radiation, and radio waves. Preserved earlier definition and meaning IDs; removed the three later copies from m67133. Pending preview refresh.
+
+### 2026-10-08 — Remove analog-TV audio exercise
+
+Removed m67133#fs-id1169737739134 (previous Chapter 11 Exercise 1) at author request. Remaining exercises renumber through the existing renderer. Correction C11-REMOVE-ANALOG-TV-AUDIO-EXERCISE. Pending preview refresh.
+
+### 2026-10-08 — Remove cataract UV exercise
+
+Removed m67133#fs-id1169737770298 (published Chapter 11 Exercise 2) at author request. Updated expected projected exercise total to 845. Correction C11-REMOVE-CATARACT-UV-EXERCISE. Pending preview refresh.
+
+### 2026-10-08 — Focus wavelength/detail exercise
+
+Replaced the prompt in m67133#fs-id1169737895295 with the approved comparison of ultraviolet and visible-light microscopes. Exercise identity and numbering retained. Correction C11-MICROSCOPE-WAVELENGTH-EXERCISE. XML validated; pending preview refresh.
+
+### 2026-10-08 — MRI spatial-resolution exercise
+
+Replaced m67133#fs-id1169737979416 (published Exercise 11) with a question about resolving details smaller than the radio wavelength by varying magnetic field with position and distinguishing signals. Supported by the existing MRI aside; exercise IDs retained. Correction C11-MRI-SPATIAL-RESOLUTION-EXERCISE. XML validated; pending preview refresh.
+
+MRI exercise follow-up: replaced the second sentence with "Explain how this is possible." to remove the answer hint. Correction C11-MRI-EXERCISE-REMOVE-HINT; XML validated.
+
+### 2026-10-08 — Lightning delay question
+
+Replaced only the second part of m52454#fs-id1553873 (published Exercise 16) with the approved question asking whether the flash/thunder delay suffices and what additional information is needed. Intended answer: sound speed and independently measured distance, assuming simultaneous emission. First part and IDs unchanged. Correction C11-LIGHTNING-SPEED-QUESTION. XML validated; pending preview refresh.
+
+### 2026-10-08 — Remove thermometer exercise and figure
+
+Removed m52454#fs-id2104353 (published Exercise 20) and its enclosed figure/image/caption. No incoming source references. Expected exercise total now 844. Correction C11-REMOVE-THERMOMETER-EXERCISE. Pending preview refresh.
+
+### 2026-10-08 — Remove negative-index exercise
+
+Removed m52454#fs-id1692299 (published Exercise 21) at author request. Expected projected exercise total now 843. Correction C11-REMOVE-NEGATIVE-INDEX-EXERCISE. Pending preview refresh.
+
+### 2026-10-08 — Lunar ranging atmospheric model
+
+Revised m52454#fs-id1574374 to use an 8.0 km equivalent uniform atmospheric layer, Moon overhead, station-to-reflector distance 3.84e8 m, and an explicit percentage distance overestimate. Model yields 2.344 m excess inferred distance and 6.10417e-7 percent (two significant figures: 6.1e-7 percent). Correction C11-LUNAR-RANGING-ATMOSPHERE. Pending preview refresh.
+
+### 2026-10-09 — Submerged converging lens exercise
+
+Replaced m67134#fs-id3094309 (published Exercise 34) with the approved wording specifying a converging glass lens moved from air into water and asking how its focal length changes. IDs retained. Correction C11-SUBMERGED-LENS-EXERCISE. XML validated; pending preview refresh.
+
+### 2026-10-09 — Chapter 11 review pause and handoff
+
+Publish current approved edits before pausing. Resume after the submerged converging glass lens question (old preview Exercise 34, m67134#fs-id3094309); next section is 11.10 Image Formation by Mirrors (old Exercise 35). Remaining work: finish Chapter 11 exercise review, incorporate selected MyOpenMath questions, and consider question additions for sections with no questions. No automatic MyOpenMath edits authorized. A second visual pass of the whole book is planned after the first pass. Earlier blanket refractive-index-at-least-one wording remains a potential follow-up, not yet revised.
+
+
+### 2026-10-09 — Preview 93 published
+
+Published all approved edits since preview 92. Sites commit e421891747d7696108636e1024f1775dab6cc6d3; deployment succeeded. Both full builds and validation passed with zero reported issues (6731 math expressions, 548 images, 11173 source IDs). Receipt: reports/1.1/preview93-receipt.json. Resume Chapter 11 review at Section 11.10, newly numbered Exercise 31 (formerly 35), following the submerged-lens question now numbered 30. Remaining review, MyOpenMath incorporation, and possible additions for sections without questions are deferred until the user returns.
+
+
+### 2026-10-09 — Seeing a real image
+
+Reworded m67135#fs-id1622392 (preview 93 Exercise 33) to ask whether a real image can be seen without projecting it onto a screen, with an explanation. Correction C11-SEEING-REAL-IMAGE-EXERCISE. XML validated; pending preview refresh.
+
+### 2026-10-09 — Remove image-distance notation recall
+
+Removed m67135#fs-id1677882 (preview 93 Exercise 34) with author approval; retained the following focal-point question. Expected exercise total now 842. Correction C11-REMOVE-IMAGE-DISTANCE-RECALL. Pending preview refresh.
+
+### 2026-10-09 — Real-image magnification wording
+
+Replaced case 1 image with real image in m67135#fs-id1362775 (preview 93 Exercise 37), removing the unnecessary always qualifier. Correction C11-REAL-IMAGE-MAGNIFICATION-WORDING. XML validated; pending preview refresh.
+
+### 2026-10-09 — Two-part mirror magnification question
+
+Replaced m67135#fs-id1362775 (preview 93 Exercise 37) with approved parts (a) and (b): interpret negative magnification for the larger image in Figure 11.10.4, then draw a ray diagram showing a smaller real image with the same mirror. Figure linked through source ID import-auto-id3163149; no arbitrary case label. Correction C11-MIRROR-MAGNIFICATION-TWO-PART. XML and link target verified; pending preview refresh.
+
+### 2026-10-09: Remove unsupported reflection-phase exercise
+
+Removed m52456#fs-id1169737764823 (preview 93 Exercise 43) with author approval. The text does not supply the reflection-phase material needed to answer it. Correction C11-REMOVE-REFLECTION-PHASE-EXERCISE. Updated expected projected exercise count from 842 to 841. Pending preview refresh.
+
+### 2026-10-09: Complete Chapter 11 existing-exercise review
+
+Combined preview 93 Exercises 47 and 48 into approved three-part scattering question: demonstrate polarization with a filter, interpret wavelength dependence to explain blue sky, and explain sunset color with atmospheric path-length information supplied. Correction C11-COMBINE-SCATTERING-COLOR-EXERCISES. Expected exercise count 840. Existing Chapter 11 exercise review complete; next stage is review/adaptation of MyOpenMath candidates and coverage gaps, including sections without questions. Pending preview refresh.
+
+### 2026-10-09: First Chapter 11 MyOpenMath additions
+
+Applied all five approved candidates: Maxwell laws (11.2); accelerating charges and transverse fields (11.3); frequency/wavelength comparison and red/blue light (11.4). Stable provenance and internal answers are in reports/1.1/chapter11-structure/mom-empty-section-candidates.json. Expected projected count 845. Section 11.1 is a chapter introduction and excluded from substantive-section coverage gaps. Radiation-pressure application remains a proposal, not an approved addition. Pending preview refresh.
+
+### 2026-10-09: IKAROS application
+
+Added approved two-part IKAROS radiation-pressure question in 11.3, avoiding rest-mass terminology. New textbook prompt motivated by lecture 577 momentum objective, not a copied MOM application. Correction C11-IKAROS-RADIATION-PRESSURE. Expected count 846; pending preview refresh. Next candidate review: reflection/dispersion, then remaining optics and polarization families, screened against retained exercises.
+
+### 2026-10-09: Reflection and dispersion additions
+
+Added approved curved-mirror local-normal question (MOM locator 606) to 11.6 and prism color separation question (607) to 11.8. Expected exercise count 848; pending preview refresh.
+
+### 2026-10-09: Remaining approved optics additions
+
+Added windowpane ray tracing (11.7), lens classification/rays (11.9), and polarization/glare (11.11). Expected count 851. Prism question still under discussion; no prism candidate or live MOM edits applied. Pending preview refresh.
+
+### 2026-10-09: Complete Chapter 11 MyOpenMath review
+
+Added approved transparent-prism diagram question with newly drawn SVG and no glass specification. Author reports live MOM 604/699 wording fixed. Excluded additive color mixing, Cherenkov radiation, and Fresnel lenses by author decision. Expected count 852. Preparing preview refresh.
+
+Preview 94 published successfully on 2026-10-09 (Pacific), including completed Chapter 11 existing-exercise and MyOpenMath review. Full builds and validation passed; 852 projected exercises, 549 images. Receipt: reports/1.1/preview94-receipt.json. New prism SVG rendered and visually checked; local browser preview could not connect, so browser-page QA was unavailable.
+
+### 2026-10-09: Chapter 11 finalized; Chapter 12 organization
+
+Author finalized Chapter 11 after Preview 94; retain current set without length-driven cuts. Chapter 12 organization collects 27 glossary terms, seven summaries, and 80 existing exercises at chapter end in section order. All exercise wording/figures/IDs preserved. No duplicate glossary terms found. See reports/1.1/chapter12-structure/review.json for section inventory and follow-ups. Section 12.1 is the introduction and not an exercise gap. Author section review starts next; MyOpenMath and exercise selection follow later.
+Preview 95 published successfully: Chapter 12 organization ready for section review. Both builds, source/link validation, and sequential numbering of all 80 Chapter 12 exercises passed. No new browser visual audit performed for this organization-only change.
+
+### 2026-10-10: Chapter 12 finalized; Chapter 13 review preparation
+
+Maintainer finalized Chapter 12 after Preview 107 with 56 exercises and all approved MyOpenMath-oriented additions. No pending Chapter 12 wording decisions. Figure 12.3.2 apparatus photo replacement remains an explicitly deferred asset task: await maintainer photo and update its credit/caption/alt text together; continue reminders at every chapter finalization. Preparing Chapter 13 by collecting glossary, summaries, and all 94 existing chapter-end exercises in section order, preserving question content and IDs and retaining five inline Check Your Understanding prompts. Numerical-review flags: m42542/fs-id1346384 negative scientific-notation base; m42546 Equation 13.7.15 electron-mass inconsistency. Four remaining explicit Unreasonable Results exercises are flagged for upcoming review. No Chapter 13 pruning or MyOpenMath additions in this organization pass.
+
+2026-10-10: Removed all 80 forced italic MathML attributes throughout Section 13.3 (m42531), including repeated summary/glossary and exercise expressions. XML comparison confirms only these attributes changed; natural variable styling retained. Pending next preview refresh.
+
+2026-10-10: Section 13.3 low-speed-limit paragraph now uses the proper much-less-than MathML operator (v ≪ c), replacing literal doubled less-than text; annotation synchronized. Pending next preview refresh.
+
+2026-10-10: Math copying maps much-less/greater-than operators to LaTeX ll/gg; ASCIIMath retains Unicode under existing fallback policy. Unmapped Unicode operators now trigger the copy-dialog compatibility note. Focused conversion checks passed; pending preview refresh.
+
+2026-10-10: Section 13.3 particle-lifetime solution (import-auto-id1744942) split before final equals sign into two aligned rows. Mathematical tokens unchanged. Pending next preview refresh.
+
+2026-10-10: Removed all 16 forced italic MathML attributes throughout Section 13.4 Length Contraction (m42535). XML comparison confirms only those attributes changed; natural variable styling retained. Pending next preview refresh.
+
+2026-10-10: Both opening muon distance calculations in Section 13.4 now use three aligned rows (formula, substitution, result). Mathematical tokens preserved; pending next preview refresh.
+
+2026-10-10: Corrected minus to equals in Section 13.4 Alpha Centauri example known value L_0 = 4.300 ly. XML valid; pending next preview refresh.
+
+2026-10-10: Fixed Chromium native MathML rcl table alignment globally: added -webkit-right/-webkit-center fallbacks, matching the existing two-column workaround. Source columnalign was already correct. Browser verification of m42535 eip-115 at 487px shows gamma and 30.00 right edges both 240.890625px (previously gamma 206.796875px). Screenshot: reports/1.1/chapter13-structure/rcl-alignment.png. Pending preview refresh.
+
+2026-10-10: Section 13.4 low-velocity discussion now uses v ≪ c with proper MathML operator. XML and LaTeX/ASCIIMath conversion checks passed; pending next preview refresh.
+
+2026-10-10: Section 13.4 Check Your Understanding solution now has three aligned rows (formula, substitution, result). Mathematical tokens preserved; pending next preview refresh.
+
+2026-10-10: Removed all 30 forced italic MathML attributes throughout Section 13.5 (m42540). XML comparison confirms only those attributes changed; natural variable styling retained. Pending next preview refresh.
+
+2026-10-10: Corrected Section 13.5 backward-snowball sum MathML grouping and operator forms for proper binary plus/equality and unary minus spacing. Tokens preserved; pending next preview refresh.
+
+2026-10-10: Fixed MathML grouping and sign spacing in Section 13.5 canister part (b) substitution (eip-115). Mathematical tokens and four-row layout preserved; pending preview refresh.
+
+2026-10-10: Removed stray leading equals sign from Eq. 13.5.3 (eip-158); lambda is now a proper MathML identifier. XML valid; pending next preview refresh.
+
+2026-10-10: Section 13.5 space-probe Doppler check solution now uses three aligned rows. Source-frequency equality grouping corrected; tokens preserved. Pending preview refresh.
+
+2026-10-10: Removed all eight forced italic MathML attributes throughout Section 13.6 (m42542). XML comparison confirms only those attributes changed; natural variable styling retained. Pending next preview refresh.
+
+2026-10-10: Section 13.6 electron momentum check solution split into three aligned rows before last two equals signs. Mathematical tokens preserved; pending preview refresh.
+
+2026-10-10: Section 13.7 fourth learning objective now uses lowercase mathematical c for the speed of light. Pending preview refresh.
+
+2026-10-10: Book-wide learning-objective audit inspected 321 objective items across the 140-module course map. Converted F and E in 9.4 and gamma in 13.3 to MathML; c in 13.7 was already corrected. Wording unchanged. Flagged missing particle name in 14.12 for review. Report: reports/1.1/objectives-math-audit.json. Pending preview refresh.
+
+2026-10-10: Example 13.7.2 battery statement now renders (A·h) as plain text, consistent with other units. XML and text-preservation checks passed; pending preview refresh.
+
+2026-10-10: Removed all 20 forced italic MathML attributes throughout Section 13.7 (m42546). XML comparison confirms only those attributes changed; natural variable styling retained. Pending next preview refresh.
+
+2026-10-10: Battery unit-conversion calculation eip-835 now closes the initial factor after h and stacks C/s, keeping multiplication by hours outside the fraction. Pending preview refresh.
+
+2026-10-10: Net-work derivation eip-888 now breaks before final equality into two aligned lines. Tokens preserved; pending preview refresh.
+
+2026-10-10: Added approximation signs to three low-speed expansion/kinetic-energy steps and five rounded final evaluations in the following comparison example. Exact algebraic equalities preserved. Pending preview refresh.
+
+2026-10-10: Section 13.7 classical-limit paragraph now uses proper much-less-than operator v ≪ c. XML and both copy formats verified; pending preview refresh.
+
+2026-10-10: Wrapped long substitution in eip-971 before squared c value, with indented multiplication continuation row. Values preserved; pending preview refresh.
+
+2026-10-10: Classical kinetic-energy substitution eip-95 wrapped before squared speed-of-light factor using indented multiplication continuation. Pending preview refresh. Existing 9.00 vs 9.11 electron-mass review flag remains.
+
+2026-10-10: Removed standalone Problem-Solving Strategies for Relativity box fs-id2607341 from 13.7. Worked-example Strategy subsections retained; these also occur throughout earlier chapters. Pending preview refresh.
+
+2026-10-10: Energy check solution eip-id1537888 wrapped before numerical c-squared factor with indented multiplication continuation; final equality on separate row. Pending preview refresh.
+
+2026-10-10: Preview 109 published all pending Chapter 13 section corrections and learning-objective MathML changes. Both profiles and full validation passed. Receipt: reports/1.1/chapter13-structure/preview109-receipt.json.
+
+2026-10-10: Section 13.4 final velocity eip-842 retains preceding precision: v = 0.99944c. XML and numerical rounding checked; pending next preview refresh.
+
+2026-10-10: Combined light-velocity calculation eip-898 from six into three aligned rows, retaining all steps. Pending preview refresh.
+
+2026-10-10: Combined forward-canister calculation eip-609 from four into two rows, retaining all steps. Pending preview refresh.
+
+2026-10-10: Combined backward-canister calculation eip-115 from four into two rows, retaining all steps and sign-spacing corrections. Pending preview refresh.
+
+2026-10-10: Combined first three symbolic rows in battery calculation eip-951 into one, leaving numerical substitution on second row. Pending preview refresh.
+
+2026-10-10: Standalone battery mass result import-auto-id1998022 now uses centered unnumbered equation markup, retaining stable ID and expression. Pending preview refresh.
+
+2026-10-10: Gamma calculation eip-54 condensed from four rows to two; all steps and final approximation sign retained. Pending preview refresh.
+
+2026-10-10: Corrected energy-momentum equation eip-832 square grouping: outer exponents now apply to complete parenthesized expressions, not closing parentheses. Copy formats checked; pending preview refresh.
+
+- 2026-10-10: Corrected two inline energy–momentum parenthesis groups in 13.7. Audit found 45 additional affected expressions / 63 faulty bases across 140 numbered modules, including 14 expressions / 22 bases in 13.7, excluding the main equation previously repaired. Two expressions fixed in this pass; remaining audit findings retained for review. Report: `reports/1.1/closing-delimiter-script-audit.json`. Pending preview refresh.
+
+- 2026-10-10: Fixed all remaining inventoried closing-delimiter scripts: 43 expressions / 61 groups. Mathematical tokens and annotations preserved. Rescan of all 140 numbered modules found zero remaining instances. Grouped LaTeX verified and recorded in `reports/1.1/closing-delimiter-repair-verification.json`. Pending preview refresh.
+
+- 2026-10-10: Chapter 13 exercise proposal expanded, at maintainer request, to 41 review candidates (19 additions), including five gamma–beta number-sense questions and eight further conceptual prompts from MyOpenMath. Momentum remains one question and energy four. Reviewed 56 export records including take-home variants. All 94 current-exercise dispositions updated. Proposal only; maintained exercises unchanged. Review: `reports/1.1/chapter13-structure/question-set-proposal.html`.
+
+- 2026-10-10: Applied the approved expanded Chapter 13 set: 41 chapter-end exercises (22 retained IDs with revised/merged wording; 19 new IDs), ordered by textbook topics. All five inline checks and section body content preserved. Added native MathML for variables, relations, scientific notation and complete grouped powers. Internal answers/provenance and old/draft/new numbering are recorded in `reports/1.1/chapter13-structure/applied-question-set.json` and `applied-number-crosswalk.json`. Projected book exercise count: 775. Pending preview refresh and maintainer question review.
+
+- 2026-10-10: Preview 110 published the approved 41-question Chapter 13 set and all pending MathML/formatting repairs. Both builds, full validation and mobile exercise-page QA passed. Receipt: reports/1.1/chapter13-structure/preview110-receipt.json. Chapter 13 exercises are ready for maintainer review.
+
+- 2026-10-10: Corrected remaining Chapter 13 glossary text-token << to native MathML ≪ in m42540/fs-id1291443. Checked all Chapter 13 modules for double-angle text/operator tokens; no other instances found. Pending next preview refresh.
+
+- 2026-10-10: Exercise 13.3 (current Chapter 13 Exercise 3, c13-mom-c13-p05): replaced rhetorical ending with a brief sourced example of a significant null-result experiment. Internal guidance lists Pasteur, proton decay searches and dated WIMP searches, with limits of inference. Pending preview refresh.
+
+
+### 2026-10-10: Space-time diagram for Chapter 13
+
+Added an original SVG figure and introductory subsection after simultaneity in m42531. The graph uses equal x and ct scales, rest, 0.4c motion, light, and a horizontal simultaneity line. OpenStax University Physics Volume 3 section 5.5 was consulted (https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation); its light-cone and transformed-axis figures exceed the scope of this introductory exercise, so no OpenStax artwork was reused. Removed Extension from Exercise 11 and restored plain-text part (c).
+
+
+### 2026-10-10: Train-and-flashes space-time diagram
+
+Revised Figure 13.3.3 to illustrate the preceding simultaneity scenario. All coordinates are in the station frame, with symmetric lamp positions at emission, a centered ct axis, station and train world lines, two inward light paths, and numbered reception events. Text explains the train observer’s emission-time inference from equal source distances and equal light speeds without transformed axes. Geometry uses x_A=0.4ct and emissions x=±180 at ct=0; reception times are 180/1.4, 180, and 180/0.6. Original artwork; no reused OpenStax image.
+
+
+### 2026-10-10: Space-time glossary and Exercise 11
+
+Defined space-time diagram and worldline in the running text and chapter glossary. Standardized worldline to one word in the section and Exercise 11. Removed the original-art caption note. Exercise 11 now applies the introduced terminology rather than reintroducing it; it retains the sketching and simultaneity questions without an Extension label.
+
+
+### 2026-10-10: Exercise 12 light-clock wording
+
+Removed the redundant final question about the pulse slowing down and specified light pulse in the opening sentence. The remaining question asks students to explain greater elapsed time from a longer light path at unchanged light speed. Pending preview refresh.
+
+
+### 2026-10-10: Exercise 14 parts
+
+Labeled the three beta/gamma questions (a), (b), and (c), preserving the introductory definitions and mathematical markup. Source XML parses. Pending preview refresh.
+
+
+### 2026-10-10: Exercise 24 length measurement
+
+Reordered into (a) proper length and contraction and (b) a concrete two-student endpoint measurement. Students identify the missing timing information, explain the necessary procedure, and predict the error from recording the leading end later. Removed the leading yes/no simultaneity question. Updated internal answer guidance. XML parses; pending preview refresh.
+
+
+### 2026-10-10: Exercise 26 reciprocal contraction
+
+Replaced the confusing question about damage/compression of one’s own stick with an explicit question about how reciprocal shorter-length measurements can be consistent. Updated answer guidance to distinguish the endpoint simultaneity conditions in the two frames. Source XML parses; pending preview refresh.
+
+
+### 2026-10-10: Exercise 31 pitcher
+
+Corrected the subject throwing the ball to a baseball pitcher standing in the truck bed, consistent with the scenario in section 13.2. Explicitly identified the ground frame for truck speed. Numerical values and calculation unchanged. XML parses; pending preview refresh.
+
+
+### 2026-10-10: Exercise 32 absolute-value spacing
+
+Grouped the absolute-value expression and marked its bars as prefix/postfix fences with zero spacing. The less-than relation retains normal operator spacing. Pending preview refresh.
+
+
+### 2026-10-10: Exercise 35 parts
+
+Labeled the momentum questions (a), (b), and (c), preserving the introductory formula and mathematical markup. Source XML parses; pending preview refresh.
+
+
+### 2026-10-10: Exercise 37 rest energy in MeV
+
+Added part (b) asking for rest energy in MeV and supplying 1 MeV = 1.602e-13 J as MathML. Existing questions labeled (a) and (c). Checked supplied rounded inputs: 8.20e-14 J and 0.512 MeV, with total energy 2.00E0 and kinetic energy 1.00E0. XML parses; pending preview refresh.
+
+
+### 2026-10-10: Remove Chapter 13 summary essays
+
+Removed Exercises 40 and 41 (C13-A7/A8), retaining 39 questions with existing numbering unchanged. Updated the applied inventory, crosswalk, and projected book exercise count (773). Archived removed prompts and internal answers in removed-chapter-essays.json. Pending preview refresh.
+
+
+### 2026-10-10: Chapter 13 finalized; Chapter 14 organization
+
+Maintainer finalized Chapter 13 after Preview 113, approving all 39 exercises and the new space-time diagram subsection. Chapter 14 prepared with 112 glossary definitions, 10 section summaries, and 195 original chapter-end exercises in section order. All exercise content and IDs preserved by the organization script; 0 inline checks retained. Section 14.12 missing objective particle name flagged for review. Figure 12.3.2 author photograph remains deferred; reminder delivered. Chapter 14 review inventory: reports/1.1/chapter14-structure/review.json.
+
+
+Preview 114 published successfully: Chapter 14 organized and ready for review. Both numbering builds, full validation, and narrow/desktop browser checks passed. Receipt: reports/1.1/chapter14-structure/preview114-receipt.json. Chapter 13 finalized; no canonical GitHub push.

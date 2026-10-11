@@ -1,0 +1,686 @@
+{
+  "summary": {
+    "modules": 141,
+    "expressions": 6721,
+    "flagged": 28,
+    "categories": {
+      "display-connector-review": 14,
+      "inline-split-candidate": 6,
+      "descriptive-label-review": 8
+    }
+  },
+  "scope": "Presentation MathML across all maintained modules, including summaries, exercises, and appendices; annotations excluded. Whole-word heuristic scan, not a proof that all embedded prose has been found. Mathematical token order in snippets is flattened, not copy-ready notation.",
+  "changes": "No source expressions changed by this audit.",
+  "expressions": [
+    {
+      "section": "4.5",
+      "title": "Elastic Collisions in One Dimension",
+      "module": "m67042",
+      "math_index": 4,
+      "location": "eip-634",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "00 m/s, and  "
+      ],
+      "expression": "m1=0.500 kg, m2=3.50 kg, v1=4.00 m/s, and   v2=0.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            \n              <ns0:mrow>\n                <ns0:mrow>\n                  <ns0:mrow>\n                    <ns0:msub>\n                      <ns0:mi>m</ns0:mi>\n                      \n                        <ns0:mrow>\n                          <ns0:mn>1</ns0:mn>\n                        </ns0:mrow>\n                      \n                    </ns0:msub>\n                    <ns0:mo stretchy=\"false\">=</ns0:mo>\n                    <ns0:mn>0</ns0:mn>\n                  </ns0:mrow>\n                  <ns0:mtext>.</ns0:mtext>\n                  <ns0:mtext>500 kg, </ns0:mtext>\n                  <ns0:mrow><ns0:mspace width=\"0.25em\" /><ns0:mspace width=\"0.25em\" />\n                    <ns0:msub>\n                      <ns0:mi>m</ns0:mi>\n                      \n                        <ns0:mrow>\n                          <ns0:mn>2</ns0:mn>\n                        </ns0:mrow>\n                      \n                    </ns0:msub>\n                    <ns0:mo stretchy=\"false\">=</ns0:mo>\n                    <ns0:mn>3</ns0:mn>\n                  </ns0:mrow>\n                  <ns0:mtext>.</ns0:mtext>\n                  <ns0:mtext>50 kg, </ns0:mtext>\n                  <ns0:mrow><ns0:mspace width=\"0.25em\" /><ns0:mspace width=\"0.25em\" />\n                    <ns0:msub>\n                      <ns0:mi>v</ns0:mi>\n                      \n                        <ns0:mrow>\n                          <ns0:mn>1</ns0:mn>\n                        </ns0:mrow>\n                      \n                    </ns0:msub>\n                    <ns0:mo stretchy=\"false\">=</ns0:mo>\n                    <ns0:mn>4</ns0:mn>\n                  </ns0:mrow>\n                  <ns0:mtext>.</ns0:mtext>\n                  <ns0:mtext>00 m/s, and  </ns0:mtext>\n                  <ns0:mrow><ns0:mspace width=\"0.25em\" /><ns0:mspace width=\"0.25em\" />\n                    <ns0:msub>\n                      <ns0:mi> v</ns0:mi>\n                      \n                        <ns0:mrow>\n                          <ns0:mn>2</ns0:mn>\n                        </ns0:mrow>\n                      \n                    </ns0:msub>\n                    <ns0:mo stretchy=\"false\">=</ns0:mo>\n                    <ns0:mn>0</ns0:mn>\n                  </ns0:mrow>\n                  <ns0:mtext>.</ns0:mtext>\n                </ns0:mrow>\n              </ns0:mrow>\n            \n            <ns0:mrow />\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\"> size 12{m rSub { size 8{1} } =0 \".\" \"500\"\" kg, \"m rSub { size 8{2} } =3 \".\" \"50\"\" kg, \"v rSub { size 8{1} } =4 \".\" \"00\"\" m/s, and \"v rSub { size 8{2} } =0 \".\" } {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math> \n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/elastic-collisions-in-one-dimension/#m67042--6569702d363334",
+        "headings": [
+          "Example 4.5.1: Calculating Velocities Following an Elastic Collision"
+        ],
+        "equation": "Equation 4.5.4",
+        "paragraph": "m 1 = 0 . 500 kg, m 2 = 3 . 50 kg, v 1 = 4 . 00 m/s, and v 2 = 0 .",
+        "preceding_paragraph": "Calculate the velocities of two objects following an elastic collision, given that",
+        "following_paragraph": "Strategy and Concept"
+      }
+    },
+    {
+      "section": "5.2",
+      "title": "Period and Frequency in Oscillations",
+      "module": "m71584",
+      "math_index": 4,
+      "location": "eip-880",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "or"
+      ],
+      "expression": "1Hz\n=\n          \n1\n          \ncycle\n            \nsec\n            or1Hz\n=\n          \n1\n             \ns\n             ",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n    <ns0:semantics>\n     <ns0:mrow>\n      <ns0:mstyle mathsize=\"12pt\">\n       <ns0:mrow>\n        <ns0:mrow>\n         <ns0:mi />\n         <ns0:mrow>\n          <ns0:mrow><ns0:mn>1</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>Hz</ns0:mtext></ns0:mrow>\n          <ns0:mo stretchy=\"false\">\n=\n          </ns0:mo>\n          <ns0:mn>\n1\n          </ns0:mn>\n         </ns0:mrow>\n         <ns0:mi />\n         <ns0:mrow>\n          <ns0:mfrac>\n           <ns0:mrow>\n            <ns0:mtext>\ncycle\n            </ns0:mtext>\n           </ns0:mrow>\n           <ns0:mrow>\n            <ns0:mtext>\nsec\n            </ns0:mtext>\n           </ns0:mrow>\n          </ns0:mfrac>\n         </ns0:mrow>\n         <ns0:mi />\n         <ns0:mrow>\n          <ns0:mspace width=\"1em\" /><ns0:mtext>or</ns0:mtext><ns0:mspace width=\"1em\" /><ns0:mrow><ns0:mn>1</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>Hz</ns0:mtext></ns0:mrow>\n          <ns0:mo stretchy=\"false\">\n=\n          </ns0:mo>\n          <ns0:mrow>\n           <ns0:mfrac>\n            <ns0:mrow>\n             <ns0:mn>\n1\n             </ns0:mn>\n            </ns0:mrow>\n            <ns0:mrow>\n             <ns0:mtext>\ns\n             </ns0:mtext>\n            </ns0:mrow>\n           </ns0:mfrac>\n          </ns0:mrow>\n         </ns0:mrow>\n        </ns0:mrow>\n       </ns0:mrow>\n      </ns0:mstyle>\n      <ns0:mrow />\n     </ns0:mrow>\n     <ns0:annotation encoding=\"StarMath 5.0\">\nsize 12{1`\"Hz\"=1` {  {\"cycle\"}  over  {\"sec\"} } ``\"or 1 Hz\"= {  {1}  over  {s} } } {}\n     </ns0:annotation>\n    </ns0:semantics>\n   </ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/period-and-frequency-in-oscillations/#m71584--6569702d383830",
+        "headings": [],
+        "equation": "Equation 5.2.2",
+        "paragraph": "1Hz = 1 cycle sec or1Hz = 1 s",
+        "preceding_paragraph": "The SI unit for frequency is the cycle per second, which is defined to be a hertz (Hz):",
+        "following_paragraph": "A cycle is one complete oscillation. Note that a vibration can be a single or multiple event, whereas oscillations are usually repetitive for a significant number of cycles."
+      }
+    },
+    {
+      "section": "7.4",
+      "title": "Pressure",
+      "module": "m71615",
+      "math_index": 8,
+      "location": "import-auto-id1571004",
+      "display": false,
+      "category": "inline-split-candidate",
+      "tokens": [
+        "or"
+      ],
+      "expression": "lb/in2orpsi",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics><ns0:mrow><ns0:mrow><ns0:mfenced open=\"(\" close=\")\"><ns0:mrow><ns0:mrow><ns0:mtext>lb</ns0:mtext><ns0:mo lspace=\"0\" rspace=\"0\">/</ns0:mo><ns0:msup><ns0:mtext>in</ns0:mtext><ns0:mn>2</ns0:mn></ns0:msup></ns0:mrow><ns0:mspace width=\"0.25em\" /><ns0:mtext>or</ns0:mtext><ns0:mspace width=\"0.25em\" /><ns0:mtext>psi</ns0:mtext></ns0:mrow></ns0:mfenced></ns0:mrow><ns0:mrow /></ns0:mrow><ns0:annotation encoding=\"StarMath 5.0\"> size 12{ left (\"lb/in\" rSup { size 8{2} } `\"or\"``\"psi\" right )} {}</ns0:annotation></ns0:semantics></ns0:math> is still sometimes used as a measure of tire pressure, and millimeters of mercury (mm Hg) is still often used in the measurement of blood pressure. Pressure is defined for all states of matter but is particularly important when discussing fluids.",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/pressure/#m71615--696d706f72742d6175746f2d696431353731303034",
+        "headings": [],
+        "equation": "",
+        "paragraph": "Pounds per square inch lb/in2orpsi is still sometimes used as a measure of tire pressure, and millimeters of mercury (mm Hg) is still often used in the measurement of blood pressure. Pressure is defined for all states of matter but is particularly important when discussing fluids.",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "7.6",
+      "title": "Archimedes’ Principle",
+      "module": "m71624",
+      "math_index": 42,
+      "location": "eip-251",
+      "display": true,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "apparent weight loss = weight of fluid displaced"
+      ],
+      "expression": "apparent weight loss = weight of fluid displaced",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mtext>apparent weight loss = weight of fluid displaced</ns0:mtext></ns0:mrow></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/archimedes-principle/#m71624--6569702d323531",
+        "headings": [
+          "More Density Measurements"
+        ],
+        "equation": "Equation 7.6.15",
+        "paragraph": "apparent weight loss = weight of fluid displaced",
+        "preceding_paragraph": "Archimedes’ principle states that the buoyant force on the object equals the weight of the fluid displaced. This, in turn, means that the object appears to weigh less when submerged; we call this measurement the object’s apparent weight. The object suffers an apparent weight loss equal to the weight of the fluid displaced. Alternatively, on balances that measure mass, the object suffers an apparent mass loss equal to the mass of fluid displaced. That is",
+        "following_paragraph": "or"
+      }
+    },
+    {
+      "section": "7.6",
+      "title": "Archimedes’ Principle",
+      "module": "m71624",
+      "math_index": 43,
+      "location": "eip-249",
+      "display": true,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "apparent mass loss = mass of fluid displaced."
+      ],
+      "expression": "apparent mass loss = mass of fluid displaced.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mtext>apparent mass loss = mass of fluid displaced.</ns0:mtext></ns0:mrow></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/archimedes-principle/#m71624--6569702d323439",
+        "headings": [
+          "More Density Measurements"
+        ],
+        "equation": "Equation 7.6.16",
+        "paragraph": "apparent mass loss = mass of fluid displaced.",
+        "preceding_paragraph": "or",
+        "following_paragraph": "The next example illustrates the use of this technique."
+      }
+    },
+    {
+      "section": "8.6",
+      "title": "Temperature Change and Heat Capacity",
+      "module": "m67622",
+      "math_index": 24,
+      "location": "eip-508",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "Percentage for pan"
+      ],
+      "expression": "Percentage for pan=QAlQtotal×100%=27.0kJ89.8kJ×100%=30.1%,",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mtable columnalign=\"right left\" columnspacing=\"0.25em\" rowspacing=\"0.35em\"><ns0:mtr><ns0:mtd><ns0:mtext>Percentage for pan</ns0:mtext></ns0:mtd><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>Al</ns0:mtext></ns0:msub></ns0:mrow><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>total</ns0:mtext></ns0:msub></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr><ns0:mtr><ns0:mtd /><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mrow><ns0:mn>27.0</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow><ns0:mrow><ns0:mrow><ns0:mn>89.8</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>=</ns0:mo><ns0:mn>30.1</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>,</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr></ns0:mtable></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/temperature-change-and-heat-capacity/#m67622--6569702d353038",
+        "headings": [
+          "Example 8.6.1: Calculating the Required Heat: Heating Water in an Aluminum Pan"
+        ],
+        "equation": "Equation 8.6.6",
+        "paragraph": "Percentage for pan=QAlQtotal×100%=27.0kJ89.8kJ×100%=30.1%,",
+        "preceding_paragraph": "Thus, the amount of heat going into heating the pan is",
+        "following_paragraph": "and the amount going into heating the water is"
+      }
+    },
+    {
+      "section": "8.6",
+      "title": "Temperature Change and Heat Capacity",
+      "module": "m67622",
+      "math_index": 25,
+      "location": "eip-686",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "Percentage for water"
+      ],
+      "expression": "Percentage for water=QwQtotal×100%=62.8kJ89.8kJ×100%=69.9%.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mtable columnalign=\"right left\" columnspacing=\"0.25em\" rowspacing=\"0.35em\"><ns0:mtr><ns0:mtd><ns0:mtext>Percentage for water</ns0:mtext></ns0:mtd><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>w</ns0:mtext></ns0:msub></ns0:mrow><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>total</ns0:mtext></ns0:msub></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr><ns0:mtr><ns0:mtd /><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mrow><ns0:mn>62.8</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow><ns0:mrow><ns0:mrow><ns0:mn>89.8</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>=</ns0:mo><ns0:mn>69.9</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>.</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr></ns0:mtable></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/temperature-change-and-heat-capacity/#m67622--6569702d363836",
+        "headings": [
+          "Example 8.6.1: Calculating the Required Heat: Heating Water in an Aluminum Pan"
+        ],
+        "equation": "Equation 8.6.7",
+        "paragraph": "Percentage for water=QwQtotal×100%=62.8kJ89.8kJ×100%=69.9%.",
+        "preceding_paragraph": "and the amount going into heating the water is",
+        "following_paragraph": "Discussion"
+      }
+    },
+    {
+      "section": "8.10",
+      "title": "Introduction to the Second Law of Thermodynamics- Heat Engines and Their Efficiency",
+      "module": "m67127",
+      "math_index": 54,
+      "location": "eip-607",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        ", or "
+      ],
+      "expression": "Eff=1.02×1014J2.50×1014J=0.408, or 40.8%",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            <ns0:mrow>\n              <ns0:mtable columnalign=\"right center left\">\n                <ns0:mtr><ns0:mtd>                              <ns0:mtext mathvariant=\"normal\">Eff</ns0:mtext></ns0:mtd>\n<ns0:mtd>                          <ns0:mo stretchy=\"false\">=</ns0:mo></ns0:mtd>\n<ns0:mtd>\n                  <ns0:mrow>\n                    \n                      <ns0:mrow>\n                        <ns0:mrow>\n\n                          <ns0:mfrac>\n                            <ns0:mrow>\n                              <ns0:mn>1</ns0:mn>\n                              <ns0:mtext>.</ns0:mtext>\n                              <ns0:mrow>\n                                <ns0:mtext>02</ns0:mtext>\n                                <ns0:mo stretchy=\"false\">×</ns0:mo>\n                                <ns0:msup>\n                                  <ns0:mtext>10</ns0:mtext>\n                                  \n                                    <ns0:mrow>\n                                      <ns0:mtext>14</ns0:mtext>\n                                    </ns0:mrow>\n                                  \n                                </ns0:msup>\n                              </ns0:mrow><ns0:mspace width=\"0.25em\" />\n                              <ns0:mtext>J</ns0:mtext>\n                            </ns0:mrow>\n                            <ns0:mrow>\n                              <ns0:mn>2</ns0:mn>\n                              <ns0:mtext>.</ns0:mtext>\n                              <ns0:mrow>\n                                <ns0:mtext>50</ns0:mtext>\n                                <ns0:mo stretchy=\"false\">×</ns0:mo>\n                                <ns0:msup>\n                                  <ns0:mtext>10</ns0:mtext>\n                                  \n                                    <ns0:mrow>\n                                      <ns0:mtext>14</ns0:mtext>\n                                    </ns0:mrow>\n                                  \n                                </ns0:msup>\n                              </ns0:mrow><ns0:mspace width=\"0.25em\" />\n                              <ns0:mtext>J</ns0:mtext>\n                            </ns0:mrow>\n                          </ns0:mfrac>\n                        </ns0:mrow>\n                      </ns0:mrow>\n                    \n                    <ns0:mrow />\n                  </ns0:mrow></ns0:mtd>\n                </ns0:mtr>\n                <ns0:mtr><ns0:mtd />\n<ns0:mtd>                        <ns0:mo stretchy=\"false\">=</ns0:mo></ns0:mtd>\n<ns0:mtd>\n                  <ns0:mrow>\n                    <ns0:mrow />\n\n                    <ns0:mn>0.408</ns0:mn><ns0:mtext>, or </ns0:mtext>\n                    <ns0:mtext>40</ns0:mtext>\n                    <ns0:mtext>.</ns0:mtext>\n                    <ns0:mn>8%</ns0:mn>\n                    <ns0:mtext />\n                    <ns0:mrow />\n                  </ns0:mrow></ns0:mtd>\n                </ns0:mtr>\n              </ns0:mtable>\n              <ns0:mrow />\n            </ns0:mrow>\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\">alignl { stack {\n size 12{ ital \"Eff\"= {  {1 \".\" \"02\" times \"10\" rSup { size 8{\"14\"} } J}  over  {2 \".\" \"50\" times \"10\" rSup { size 8{\"14\"} } J} } }  {} # \n=0 \".\" \"408\"\", or \"\"40\" \".\" 8% {} \n} } {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math> \n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency/#m67127--6569702d363037",
+        "headings": [
+          "Heat Engines",
+          "Example 8.10.1: Daily Work Done by a Coal-Fired Power Station, Its Efficiency and Carbon Dioxide Emissions"
+        ],
+        "equation": "Equation 8.10.9",
+        "paragraph": "Eff = 1 . 02 × 10 14 J 2 . 50 × 10 14 J = 0.408, or 40 . 8%",
+        "preceding_paragraph": "Efficiency is given by: Eff=WQh. The work W was just found to be 1.02×1014 J , and Qh is given, so the efficiency is",
+        "following_paragraph": "Strategy for (c)"
+      }
+    },
+    {
+      "section": "8.11",
+      "title": "Carnot’s Perfect Heat Engine- The Second Law of Thermodynamics Restated",
+      "module": "m42235",
+      "math_index": 29,
+      "location": "eip-624",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        ", or "
+      ],
+      "expression": "EffC=1−300K573K=0.476, or 47.6%.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            <ns0:mrow>\n              <ns0:mtable columnalign=\"right center left\">\n                <ns0:mtr><ns0:mtd>\n                              <ns0:msub>\n                                <ns0:mtext mathvariant=\"normal\">Eff</ns0:mtext>\n\n                                  <ns0:mrow>\n                                    <ns0:mtext>C</ns0:mtext>\n                                  </ns0:mrow>\n\n                              </ns0:msub></ns0:mtd>\n<ns0:mtd>                          <ns0:mo stretchy=\"false\">=</ns0:mo></ns0:mtd>\n<ns0:mtd>\n                  <ns0:mrow>\n\n                      <ns0:mrow>\n                        <ns0:mrow>\n                          <ns0:mrow>\n                            <ns0:mn>1</ns0:mn>\n                            <ns0:mo stretchy=\"false\">−</ns0:mo>\n                            <ns0:mfrac>\n                              <ns0:mrow>\n                                <ns0:mrow><ns0:mn>300</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>K</ns0:mtext></ns0:mrow>\n                              </ns0:mrow>\n                              <ns0:mrow>\n                                <ns0:mrow><ns0:mn>573</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>K</ns0:mtext></ns0:mrow>\n                              </ns0:mrow>\n                            </ns0:mfrac>\n                          </ns0:mrow>\n                        </ns0:mrow>\n                      </ns0:mrow>\n\n                    <ns0:mrow />\n                  </ns0:mrow></ns0:mtd>\n                </ns0:mtr>\n                <ns0:mtr><ns0:mtd />\n<ns0:mtd>          <ns0:mo stretchy=\"false\">=</ns0:mo></ns0:mtd>\n<ns0:mtd>\n                  <ns0:mrow>\n                    <ns0:mrow />\n\n                    <ns0:mn>0.476</ns0:mn><ns0:mtext>, or </ns0:mtext>\n                    <ns0:mtext>47</ns0:mtext>\n                    <ns0:mtext>.</ns0:mtext>\n                    <ns0:mn>6%</ns0:mn>\n                    <ns0:mtext>.</ns0:mtext>\n                    <ns0:mrow />\n                  </ns0:mrow></ns0:mtd>\n                </ns0:mtr>\n              </ns0:mtable>\n              <ns0:mrow />\n            </ns0:mrow>\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\">alignl { stack {\n size 12{ ital \"Eff\" rSub { size 8{C} } =1- {  {\"300\"\" K\"}  over  {\"573\"\" K\"} } }  {} #\n=0 \".\" \"476\"\", or \"\"47\" \".\" 6% \".\"  {}\n} } {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math>\n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated/#m42235--6569702d363234",
+        "headings": [
+          "Example 8.11.1: Maximum Theoretical Efficiency for a Nuclear Reactor"
+        ],
+        "equation": "Equation 8.11.4",
+        "paragraph": "Eff C = 1 − 300K 573K = 0.476, or 47 . 6% .",
+        "preceding_paragraph": "Thus,",
+        "following_paragraph": "Discussion"
+      }
+    },
+    {
+      "section": "9.6",
+      "title": "Electric Potential and Potential Energy",
+      "module": "m75427",
+      "math_index": 41,
+      "location": "eip-652",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "and"
+      ],
+      "expression": "ΔV=ΔPEqandΔPE=qΔV.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>V</ns0:mi><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mtext>PE</ns0:mtext></ns0:mrow><ns0:mi>q</ns0:mi></ns0:mfrac><ns0:mspace width=\"1em\" /><ns0:mtext>and</ns0:mtext><ns0:mspace width=\"1em\" /><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mtext>PE</ns0:mtext><ns0:mo>=</ns0:mo><ns0:mi>q</ns0:mi><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>V</ns0:mi><ns0:mtext>.</ns0:mtext></ns0:mrow></ns0:math> \n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/electric-potential-and-potential-energy/#m75427--6569702d363532",
+        "headings": [],
+        "equation": "Equation 9.6.6",
+        "paragraph": "ΔV=ΔPEqandΔPE=qΔV.",
+        "preceding_paragraph": "In summary, the relationship between potential difference (or voltage) and electrical potential energy is given by",
+        "following_paragraph": "Voltage is not the same as energy. Voltage is the energy per unit charge. Thus a motorcycle battery and a car battery can both have the same voltage (more precisely, the same potential difference between battery terminals), yet one stores much more energy than the other since ΔPE =qΔV. The car battery can move more charge than the motorcycle battery, although both are 12 V batteries."
+      }
+    },
+    {
+      "section": "9.6",
+      "title": "Electric Potential and Potential Energy",
+      "module": "m75427",
+      "math_index": 42,
+      "location": "eip-864",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "and"
+      ],
+      "expression": "ΔV=ΔPEqandΔPE=qΔV.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>V</ns0:mi><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mtext>PE</ns0:mtext></ns0:mrow><ns0:mi>q</ns0:mi></ns0:mfrac><ns0:mspace width=\"1em\" /><ns0:mtext>and</ns0:mtext><ns0:mspace width=\"1em\" /><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mtext>PE</ns0:mtext><ns0:mo>=</ns0:mo><ns0:mi>q</ns0:mi><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>V</ns0:mi><ns0:mtext>.</ns0:mtext></ns0:mrow></ns0:math> \n    \n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/electric-potential-and-potential-energy/#m75427--6569702d383634",
+        "headings": [
+          "Potential Difference and Electrical Potential Energy"
+        ],
+        "equation": "Equation 9.6.7",
+        "paragraph": "ΔV=ΔPEqandΔPE=qΔV.",
+        "preceding_paragraph": "The relationship between potential difference (or voltage) and electrical potential energy is given by",
+        "following_paragraph": "The second equation is equivalent to the first."
+      }
+    },
+    {
+      "section": "9.6",
+      "title": "Electric Potential and Potential Energy",
+      "module": "m75427",
+      "math_index": 70,
+      "location": "import-auto-id2648870",
+      "display": false,
+      "category": "inline-split-candidate",
+      "tokens": [
+        "and"
+      ],
+      "expression": "KEi=0,KEf=12mv2,PEi=qV,andPEf=0.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:msub><ns0:mtext>KE</ns0:mtext><ns0:mtext>i</ns0:mtext></ns0:msub><ns0:mo>=</ns0:mo><ns0:mn>0</ns0:mn><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.4em\" /><ns0:msub><ns0:mtext>KE</ns0:mtext><ns0:mtext>f</ns0:mtext></ns0:msub><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mn>1</ns0:mn><ns0:mn>2</ns0:mn></ns0:mfrac><ns0:mi>m</ns0:mi><ns0:msup><ns0:mi>v</ns0:mi><ns0:mn>2</ns0:mn></ns0:msup><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.4em\" /><ns0:msub><ns0:mtext>PE</ns0:mtext><ns0:mtext>i</ns0:mtext></ns0:msub><ns0:mo>=</ns0:mo><ns0:mi>q</ns0:mi><ns0:mi>V</ns0:mi><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.4em\" /><ns0:mtext>and</ns0:mtext><ns0:mspace width=\"0.3em\" /><ns0:msub><ns0:mtext>PE</ns0:mtext><ns0:mtext>f</ns0:mtext></ns0:msub><ns0:mo>=</ns0:mo><ns0:mn>0</ns0:mn><ns0:mo>.</ns0:mo></ns0:mrow></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/electric-potential-and-potential-energy/#m75427--696d706f72742d6175746f2d696432363438383730",
+        "headings": [
+          "Conservation of Energy",
+          "Example 9.6.3: Electrical Potential Energy Converted to Kinetic Energy"
+        ],
+        "equation": "",
+        "paragraph": "We have a system with only conservative forces. Assuming the electron is accelerated in a vacuum, and neglecting the gravitational force (we will check on this assumption later), all of the electrical potential energy is converted into kinetic energy. We can identify the initial and final forms of energy to be KEi=0,KEf=12mv2,PEi=qV,andPEf=0.",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "9.6",
+      "title": "Electric Potential and Potential Energy",
+      "module": "m75427",
+      "math_index": 75,
+      "location": "import-auto-id2560592",
+      "display": false,
+      "category": "inline-split-candidate",
+      "tokens": [
+        ", and  "
+      ],
+      "expression": "q, V, and   m ",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics><ns0:mrow><ns0:mrow><ns0:mrow><ns0:mi>q</ns0:mi><ns0:mi>, </ns0:mi><ns0:mspace width=\"0.25em\" /><ns0:mi>V</ns0:mi><ns0:mtext>, and  </ns0:mtext><ns0:mspace width=\"0.25em\" /><ns0:mi> m </ns0:mi></ns0:mrow></ns0:mrow><ns0:mrow /></ns0:mrow><ns0:annotation encoding=\"StarMath 5.0\"> size 12{q, V\", and \"m} {}</ns0:annotation></ns0:semantics></ns0:math> gives",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/electric-potential-and-potential-energy/#m75427--696d706f72742d6175746f2d696432353630353932",
+        "headings": [
+          "Conservation of Energy",
+          "Example 9.6.3: Electrical Potential Energy Converted to Kinetic Energy"
+        ],
+        "equation": "",
+        "paragraph": "Entering values for q, V, and m gives",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "9.6",
+      "title": "Electric Potential and Potential Energy",
+      "module": "m75427",
+      "math_index": 80,
+      "location": "eip-id1820754",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "and"
+      ],
+      "expression": "ΔV=ΔPEqandΔPE=qΔV.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>V</ns0:mi><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mtext>PE</ns0:mtext></ns0:mrow><ns0:mi>q</ns0:mi></ns0:mfrac><ns0:mspace width=\"1em\" /><ns0:mtext>and</ns0:mtext><ns0:mspace width=\"1em\" /><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mtext>PE</ns0:mtext><ns0:mo>=</ns0:mo><ns0:mi>q</ns0:mi><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>V</ns0:mi><ns0:mtext>.</ns0:mtext></ns0:mrow></ns0:math> \n    \n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/exercises/electricity-exercises/#m75427--6569702d696431383230373534",
+        "headings": [
+          "Section Summary"
+        ],
+        "equation": "Equation 9.6.20",
+        "paragraph": "ΔV=ΔPEqandΔPE=qΔV.",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "10.8",
+      "title": "Magnetic Fields Produced by Currents- Ampere’s Law",
+      "module": "m52420",
+      "math_index": 15,
+      "location": "eip-305",
+      "display": true,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "at center of loop"
+      ],
+      "expression": "B=μ0I2R(at center of loop),",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            <ns0:mrow>\n              <ns0:mrow>\n                <ns0:mrow>\n                  <ns0:mi>B</ns0:mi>\n                  <ns0:mo stretchy=\"false\">=</ns0:mo>\n                  <ns0:mfrac>\n                    <ns0:mrow>\n                      <ns0:msub>\n                        <ns0:mi>μ</ns0:mi>\n                        <ns0:mrow>\n                          <ns0:mn>0</ns0:mn>\n                        </ns0:mrow>\n                      </ns0:msub>\n                      <ns0:mi>I</ns0:mi>\n                    </ns0:mrow><ns0:mrow>\n                    <ns0:mn>2</ns0:mn><ns0:mi>R</ns0:mi></ns0:mrow>\n                  </ns0:mfrac>\n                </ns0:mrow>\n                <ns0:mspace width=\"0.50em\" /><ns0:mo stretchy=\"false\">(</ns0:mo>\n                <ns0:mtext>at center of loop</ns0:mtext>\n                <ns0:mo stretchy=\"false\">)</ns0:mo>\n                <ns0:mtext>,</ns0:mtext>\n              </ns0:mrow>\n            </ns0:mrow>\n            <ns0:mrow />\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\"> size 12{B= {  {μ rSub { size 8{0} } I}  over  {2R} } ` \\( \"at center of loop\" \\) ,} {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math>\n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/magnetic-fields-produced-by-currents-amperes-law/#m52420--6569702d333035",
+        "headings": [
+          "Magnetic Field Produced by a Current-Carrying Circular Loop"
+        ],
+        "equation": "Equation 10.8.3",
+        "paragraph": "B = μ 0 I 2R ( at center of loop ) ,",
+        "preceding_paragraph": "The magnetic field near a current-carrying loop of wire is shown in . Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in “Magnetic Fields and Magnetic Field Lines” are needed for more detail. There is a simple formula for the magnetic field strength at the center of a circular loop. It is",
+        "following_paragraph": "where R is the radius of the loop. This equation is very similar to that for a straight wire, but it is valid only at the center of a circular loop of wire. The similarity of the equations does indicate that similar field strength can be obtained at the center of a loop. One way to get a larger field is to have N loops; then, the field is B=Nμ0I/(2R). Note that the larger the loop, the smaller the field at its center, because the current is farther away."
+      }
+    },
+    {
+      "section": "10.8",
+      "title": "Magnetic Fields Produced by Currents- Ampere’s Law",
+      "module": "m52420",
+      "math_index": 33,
+      "location": "eip-430",
+      "display": true,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "at center of loop"
+      ],
+      "expression": "B=μ0I2R(at center of loop),",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            <ns0:mrow>\n              <ns0:mrow>\n                <ns0:mrow>\n                  <ns0:mi>B</ns0:mi>\n                  <ns0:mo stretchy=\"false\">=</ns0:mo>\n                  <ns0:mfrac>\n                    <ns0:mrow>\n                      <ns0:msub>\n                        <ns0:mi>μ</ns0:mi>\n                        <ns0:mrow>\n                          <ns0:mn>0</ns0:mn>\n                        </ns0:mrow>\n                      </ns0:msub>\n                      <ns0:mi>I</ns0:mi>\n                    </ns0:mrow><ns0:mrow>\n                    <ns0:mn>2</ns0:mn><ns0:mi>R</ns0:mi></ns0:mrow>\n                  </ns0:mfrac>\n                </ns0:mrow>\n                <ns0:mtext />\n                <ns0:mspace width=\"0.50em\" /><ns0:mo stretchy=\"false\">(</ns0:mo>\n                <ns0:mtext>at center of loop</ns0:mtext>\n                <ns0:mo stretchy=\"false\">)</ns0:mo>\n                <ns0:mi>,</ns0:mi>\n              </ns0:mrow>\n            </ns0:mrow>\n            <ns0:mrow />\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\"> size 12{B= {  {μ rSub { size 8{0} } I}  over  {2R} } \"  \" \\( \"at center of loop\" \\) ,} {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math>\n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/exercises/magnetism-exercises/#m52420--6569702d343330",
+        "headings": [
+          "Section Summary"
+        ],
+        "equation": "Equation 10.8.8",
+        "paragraph": "B = μ 0 I 2R ( at center of loop ) ,",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "11.5",
+      "title": "The Electromagnetic Spectrum- Application Notes",
+      "module": "m67133",
+      "math_index": 28,
+      "location": "eip-931",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "    and      ClO "
+      ],
+      "expression": "Cl + O3→    ClO + O2    and      ClO + O3→    Cl + 2O2.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics><ns0:mrow><ns0:mrow><ns0:mrow><ns0:mrow><ns0:mtext>Cl </ns0:mtext><ns0:mo stretchy=\"false\">+</ns0:mo><ns0:msub><ns0:mtext> O</ns0:mtext><ns0:mrow><ns0:mn>3</ns0:mn></ns0:mrow></ns0:msub></ns0:mrow><ns0:mtext /><ns0:mo stretchy=\"false\">→</ns0:mo><ns0:mrow><ns0:mtext>    ClO </ns0:mtext><ns0:mo stretchy=\"false\">+</ns0:mo><ns0:msub><ns0:mtext> O</ns0:mtext><ns0:mrow><ns0:mn>2</ns0:mn></ns0:mrow></ns0:msub></ns0:mrow><ns0:mspace width=\"0.25em\" /><ns0:mrow><ns0:mtext>    and      ClO </ns0:mtext><ns0:mo stretchy=\"false\">+</ns0:mo><ns0:msub><ns0:mtext> O</ns0:mtext><ns0:mrow><ns0:mn>3</ns0:mn></ns0:mrow></ns0:msub></ns0:mrow><ns0:mtext /><ns0:mo stretchy=\"false\">→</ns0:mo><ns0:mrow><ns0:mtext>    Cl </ns0:mtext><ns0:mo stretchy=\"false\">+</ns0:mo><ns0:msub><ns0:mtext> 2O</ns0:mtext><ns0:mrow><ns0:mn>2</ns0:mn></ns0:mrow></ns0:msub></ns0:mrow></ns0:mrow></ns0:mrow><ns0:mrow /><ns0:mo>.</ns0:mo></ns0:mrow><ns0:annotation encoding=\"StarMath 5.0\"> size 12{\"Cl \"+\" O\" rSub { size 8{3} } \"   \" rightarrow \"    ClO \"+\" O\" rSub { size 8{2} } \"    and      ClO \"+\" O\" rSub { size 8{3} } \"   \" rightarrow \"    Cl \"+\" 2O\" rSub { size 8{2} } } {}</ns0:annotation></ns0:semantics></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/the-electromagnetic-spectrum-application-notes/#m67133--6569702d393331",
+        "headings": [
+          "UV Light and the Ozone Layer"
+        ],
+        "equation": "Equation 11.5.6",
+        "paragraph": "Cl + O3→ ClO + O2 and ClO + O3→ Cl + 2O2.",
+        "preceding_paragraph": "The Cl atom then catalyzes the breakdown of ozone as follows:",
+        "following_paragraph": "A single chlorine atom could destroy ozone molecules for up to two years before being transported down to the surface. The CFCs are relatively stable and will contribute to ozone depletion for years to come. CFCs are found in refrigerants, air conditioning systems, foams, and aerosols."
+      }
+    },
+    {
+      "section": "12.4",
+      "title": "The Wave Nature of Matter",
+      "module": "m67803",
+      "math_index": 1,
+      "location": "eip-586",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "(matter and photons),"
+      ],
+      "expression": "λ=hp(matter and photons),",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics><ns0:mrow><ns0:mrow><ns0:mrow><ns0:mi>λ</ns0:mi><ns0:mo stretchy=\"false\">=</ns0:mo><ns0:mfrac><ns0:mi>h</ns0:mi><ns0:mi>p</ns0:mi></ns0:mfrac><ns0:mo>(matter and photons),</ns0:mo></ns0:mrow></ns0:mrow><ns0:mrow /></ns0:mrow><ns0:annotation encoding=\"StarMath 5.0\"> size 12{λ =  {  {h}  over  {p} } } {}</ns0:annotation></ns0:semantics></ns0:math> ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/the-wave-nature-of-matter/#m67803--6569702d353836",
+        "headings": [
+          "De Broglie Wavelength"
+        ],
+        "equation": "Equation 12.4.1",
+        "paragraph": "λ=hp(matter and photons),",
+        "preceding_paragraph": "De Broglie took both relativity and quantum mechanics into account to develop the proposal that all particles have a wavelength, given by",
+        "following_paragraph": "where h is Planck’s constant and p is momentum. This is defined to be the de Broglie wavelength. This is consistent with the expression for energy of a photon, Ehf. In relativity, energy of a massless particle like a photon is related to momentum by Epc, where c is speed of light (contrast this with nonrelativistic kinetic energy of particles of mass m, KEp2/2m; check the units for yourself). From the wave relationship between wave speed, wavelength, and frequency, we have, for photons, cλf. Plugging in these E and f into the photon energy from the photoelectric effect, we get, pchc/λ, and cancelling out c from both sides gives the same expression as de Broglie wavelength."
+      }
+    },
+    {
+      "section": "12.5",
+      "title": "Uncertainty Principle",
+      "module": "m67804",
+      "math_index": 5,
+      "location": "eip-691",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "where"
+      ],
+      "expression": "Δp≈p,wherep=h/λ.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mi mathvariant=\"normal\">Δ</ns0:mi><ns0:mi>p</ns0:mi><ns0:mo>≈</ns0:mo><ns0:mi>p</ns0:mi><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.3em\" /><ns0:mtext>where</ns0:mtext><ns0:mspace width=\"0.3em\" /><ns0:mi>p</ns0:mi><ns0:mo>=</ns0:mo><ns0:mi>h</ns0:mi><ns0:mo stretchy=\"false\">/</ns0:mo><ns0:mi>λ</ns0:mi><ns0:mo>.</ns0:mo></ns0:mrow></ns0:math>",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/uncertainty-principle/#m67804--6569702d363931",
+        "headings": [
+          "Heisenberg Uncertainty Principle"
+        ],
+        "equation": "Equation 12.5.2",
+        "paragraph": "Δp≈p,wherep=h/λ.",
+        "preceding_paragraph": "Unless the electron wave function is spread out as much as its average wavelength, the meaning of wavelength itself becomes unclear (what is the wavelength of something that exists only at one point?). To detect the position of the particle, we must interact with it, such as having it collide with a detector. In the collision, the particle will lose momentum. This change in momentum could be anywhere from close to zero to the total momentum of the particle, p=h/λ. It is not possible to tell how much momentum will be transferred to a detector, and so there is an uncertainty in momentum Δp, too. In fact, with these subatomic particles, the uncertainty in momentum may be as large as the momentum itself, which in equation form means (using the de Broglie relationship) that",
+        "following_paragraph": "The uncertainty in position can be reduced by using a shorter-wavelength electron, since Δx≈λ. But shortening the wavelength increases the uncertainty in momentum, since Δp≈h/λ. Conversely, the uncertainty in momentum can be reduced by using a longer-wavelength electron, but this increases the uncertainty in position. Mathematically, you can express this trade-off by multiplying the uncertainties. The wavelength cancels, leaving"
+      }
+    },
+    {
+      "section": "12.7",
+      "title": "Bohr’s Theory of the Hydrogen Atom",
+      "module": "m67807",
+      "math_index": 6,
+      "location": "eip-715",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "or m"
+      ],
+      "expression": "R=1.097×107/m(or m−1).",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            <ns0:mrow>\n              <ns0:mrow>\n                <ns0:mrow>\n                  <ns0:mi>R</ns0:mi>\n                  <ns0:mo stretchy=\"false\">=</ns0:mo>\n                  <ns0:mn>1</ns0:mn>\n                </ns0:mrow>\n                <ns0:mtext>.</ns0:mtext>\n                <ns0:mrow>\n                  <ns0:mtext>097</ns0:mtext>\n                  <ns0:mo stretchy=\"false\">×</ns0:mo>\n                  <ns0:msup>\n                    <ns0:mtext>10</ns0:mtext>\n                    <ns0:mrow>\n                      <ns0:mn>7</ns0:mn>\n                    </ns0:mrow>\n                  </ns0:msup>\n                </ns0:mrow>\n                <ns0:mrow>\n                  <ns0:mi />\n                  <ns0:mo stretchy=\"false\">/</ns0:mo>\n                  <ns0:mtext>m</ns0:mtext><ns0:mspace width=\"0.25em\" />\n                </ns0:mrow>\n                <ns0:mo stretchy=\"false\">(</ns0:mo>\n                <ns0:msup>\n                  <ns0:mtext>or m</ns0:mtext>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mo stretchy=\"false\">−</ns0:mo>\n                      <ns0:mn>1</ns0:mn>\n                    </ns0:mrow>\n                  </ns0:mrow>\n                </ns0:msup>\n                <ns0:mo stretchy=\"false\">)</ns0:mo>\n              </ns0:mrow>\n<ns0:mo>.</ns0:mo>\n            </ns0:mrow>\n            <ns0:mrow />\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\"> size 12{R=1 \".\" \"097\" times \"10\" rSup { size 8{7} } `/\"m \" \\( \"or m\" rSup { size 8{ - 1} }  \\) } {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math>\n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/bohrs-theory-of-the-hydrogen-atom/#m67807--6569702d373135",
+        "headings": [
+          "Atomic Spectra"
+        ],
+        "equation": "Equation 12.7.2",
+        "paragraph": "R = 1 . 097 × 10 7 / m ( or m − 1 ) .",
+        "preceding_paragraph": "where λ is the wavelength of the emitted EM radiation and R is the Rydberg constant, determined by the experiment to be",
+        "following_paragraph": "The nf is a positive integer associated with a specific series, which are named after their discoverers. For the Lyman series, nf=1; for the Balmer series, nf=2; for the Paschen series, nf=3; and so on. The Lyman series is entirely in the UV, while part of the Balmer series is visible with the remainder UV. The Paschen series and all the rest are entirely IR. There are apparently an unlimited number of series, although they lie progressively farther into the infrared and become difficult to observe as nf increases. The ni is a positive integer greater than nf. So for example, for the Balmer series, nf=2 and ni=3, 4, 5, 6, ...."
+      }
+    },
+    {
+      "section": "14.5",
+      "title": "Nuclear Decay and Conservation Laws",
+      "module": "m76603",
+      "math_index": 161,
+      "location": "fs-id877331",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "electron capture, or EC"
+      ],
+      "expression": "XNZA+e−→YN+1Z−1A+νe(electron capture, or EC).",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics><ns0:mrow><ns0:mrow><ns0:mrow><ns0:mrow>\n                  <ns0:mmultiscripts><ns0:mtext>X</ns0:mtext>\n                    <ns0:mrow>\n                      <ns0:mi>N</ns0:mi>\n                    </ns0:mrow>\n                  <ns0:none /><ns0:mprescripts /><ns0:mi>Z</ns0:mi><ns0:mrow><ns0:mi>A</ns0:mi></ns0:mrow></ns0:mmultiscripts><ns0:mo stretchy=\"false\">+</ns0:mo>\n                  <ns0:msup>\n                    <ns0:mi>e</ns0:mi>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mo stretchy=\"false\">−</ns0:mo>\n                        <ns0:mrow />\n                      </ns0:mrow>\n                    </ns0:mrow>\n                  </ns0:msup>\n                </ns0:mrow>\n                <ns0:mo stretchy=\"false\">→</ns0:mo>\n                <ns0:mrow>\n                  <ns0:mmultiscripts><ns0:mtext>Y</ns0:mtext>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mi>N</ns0:mi>\n                        <ns0:mo stretchy=\"false\">+</ns0:mo>\n                        <ns0:mn>1</ns0:mn>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                  <ns0:none /><ns0:mprescripts /><ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mi>Z</ns0:mi>\n                      <ns0:mo stretchy=\"false\">−</ns0:mo>\n                      <ns0:mn>1</ns0:mn>\n                    </ns0:mrow>\n                  </ns0:mrow>\n                  <ns0:mrow>\n                    <ns0:mi>A</ns0:mi>\n                  </ns0:mrow>\n                </ns0:mmultiscripts><ns0:mo stretchy=\"false\">+</ns0:mo>\n                  <ns0:msub>\n                    <ns0:mi>ν</ns0:mi>\n                    <ns0:mrow>\n                      <ns0:mi>e</ns0:mi>\n                    </ns0:mrow>\n                  </ns0:msub>\n                </ns0:mrow>\n                <ns0:mi />\n                <ns0:mo stretchy=\"false\">(</ns0:mo>\n                <ns0:mtext>electron capture, or EC</ns0:mtext>\n                <ns0:mo stretchy=\"false\">)</ns0:mo>\n                <ns0:mtext>.</ns0:mtext>\n              </ns0:mrow>\n            </ns0:mrow>\n            <ns0:mrow />\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\"> size 12{\"\" lSub { size 8{Z} }  lSup { size 8{A} } X rSub { size 8{N} } +e rSup { size 8{ - {}} }  rightarrow \"\" lSub { size 8{Z - 1} }  lSup { size 8{A} } Y rSub { size 8{N+1} } +ν rSub { size 8{e} } ``` \\( \"electron capture, or EC\" \\)  \".\" } {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math>\n    ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/nuclear-decay-and-conservation-laws/#m76603--66732d6964383737333331",
+        "headings": [
+          "Beta Decay"
+        ],
+        "equation": "Equation 14.5.21",
+        "paragraph": "X N ZA+ e − → Y N + 1 Z − 1 A + ν e ( electron capture, or EC ) .",
+        "preceding_paragraph": "Electron capture is the third type of beta decay. Here, a nucleus captures an inner-shell electron and undergoes a nuclear reaction that has the same effect as β+ decay. Electron capture is sometimes denoted by the letters EC. We know that electrons cannot reside in the nucleus, but this is a nuclear reaction that consumes the electron and occurs spontaneously only when the products have less mass than the parent plus the electron. If a nuclide XNZA is known to undergo electron capture, then its electron capture equation is",
+        "following_paragraph": "Any nuclide that can β+ decay can also undergo electron capture (and often does both). The same conservation laws are obeyed for EC as for β+ decay. It is good practice to confirm these for yourself."
+      }
+    },
+    {
+      "section": "14.9",
+      "title": "Fusion",
+      "module": "m52480",
+      "math_index": 33,
+      "location": "import-auto-id3418170",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "8 mol of reactants"
+      ],
+      "expression": "(1000g)/(5.03g/mol)=198.8 mol of reactants",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics>\n<ns0:mrow><ns0:mo stretchy=\"false\">(</ns0:mo><ns0:mrow><ns0:mn>1000</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>g</ns0:mtext></ns0:mrow><ns0:mo stretchy=\"false\">)</ns0:mo><ns0:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</ns0:mo><ns0:mo stretchy=\"false\">(</ns0:mo><ns0:mrow><ns0:mn>5.03</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>g</ns0:mtext><ns0:mo lspace=\"0\" rspace=\"0\">/</ns0:mo><ns0:mtext>mol</ns0:mtext></ns0:mrow><ns0:mo stretchy=\"false\">)</ns0:mo><ns0:mtext>=198</ns0:mtext><ns0:mtext>.</ns0:mtext><ns0:mn>8 mol of reactants</ns0:mn></ns0:mrow></ns0:semantics></ns0:math>. The number of reactions that take place is therefore",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/fusion/#m52480--696d706f72742d6175746f2d696433343138313730",
+        "headings": [
+          "Example 14.9.1: Calculating Energy and Power from Fusion"
+        ],
+        "equation": "",
+        "paragraph": "The atomic mass of deuterium (H2) is 2.014102 u, while that of tritium (H3) is 3.016049 u, for a total of 5.032151 u per reaction. So a mole of reactants has a mass of 5.03 g, and in 1.00 kg there are (1000g)/(5.03g/mol)=198.8 mol of reactants. The number of reactions that take place is therefore",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "14.10",
+      "title": "Fission",
+      "module": "m52479",
+      "math_index": 72,
+      "location": "import-auto-id1828603",
+      "display": false,
+      "category": "inline-split-candidate",
+      "tokens": [
+        "(the"
+      ],
+      "expression": "(theU235)",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n        <ns0:semantics>\n          <ns0:mrow>\n            \n              <ns0:mrow>\n                <ns0:mrow><ns0:mtext>(the</ns0:mtext><ns0:mspace width=\"0.25em\" /> \n                  <ns0:mmultiscripts><ns0:mtext>U</ns0:mtext>\n                <ns0:mprescripts /><ns0:none /><ns0:mrow>\n                        <ns0:mtext>235</ns0:mtext>\n                      </ns0:mrow>\n                    \n                  </ns0:mmultiscripts></ns0:mrow><ns0:mtext>)</ns0:mtext>\n              </ns0:mrow>\n            \n            <ns0:mrow />\n          </ns0:mrow>\n          <ns0:annotation encoding=\"StarMath 5.0\"> size 12{ {} rSup { size 8{\"235\"} } U} {}</ns0:annotation>\n        </ns0:semantics>\n      </ns0:math> \n     is readily usable.",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/fission/#m52479--696d706f72742d6175746f2d696431383238363033",
+        "headings": [
+          "Example 14.10.2: Calculating Energy from a Kilogram of Fissionable Fuel"
+        ],
+        "equation": "",
+        "paragraph": "This is another impressively large amount of energy, equivalent to about 14,000 barrels of crude oil or 600,000 gallons of gasoline. But, it is only one-fourth the energy produced by the fusion of a kilogram mixture of deuterium and tritium as seen in the previous section. Even though each fission reaction yields about ten times the energy of a fusion reaction, the energy per kilogram of fission fuel is less, because there are far fewer moles per kilogram of the heavy nuclides. Fission fuel is also much more scarce than fusion fuel, and less than 1% of uranium (the U 235 ) is readily usable.",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "15",
+      "title": "Atomic Masses",
+      "module": "m42699",
+      "math_index": 4,
+      "location": "import-auto-id1169737762674",
+      "display": false,
+      "category": "inline-split-candidate",
+      "tokens": [
+        "H or D"
+      ],
+      "expression": "2H or D",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n<ns0:semantics>\n<ns0:mrow>\n<ns0:mrow>\n<ns0:msup>\n<ns0:mtext />\n<ns0:mrow>\n<ns0:mrow>\n<ns0:mn>2</ns0:mn>\n<ns0:mrow />\n</ns0:mrow>\n</ns0:mrow>\n</ns0:msup>\n</ns0:mrow>\n<ns0:mtext>H or D</ns0:mtext>\n<ns0:mrow />\n</ns0:mrow>\n<ns0:annotation encoding=\"StarMath 5.0\"> size 12{rSup { size 8{ 2 {}} }H or D} {}</ns0:annotation>\n</ns0:semantics>\n</ns0:math>\n",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/atomic-masses/#m42699--696d706f72742d6175746f2d696431313639373337373632363734",
+        "headings": [
+          "Table 15.1: Atomic Masses"
+        ],
+        "equation": "",
+        "paragraph": "2 H or D",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "15",
+      "title": "Atomic Masses",
+      "module": "m42699",
+      "math_index": 5,
+      "location": "import-auto-id1169737762674",
+      "display": false,
+      "category": "inline-split-candidate",
+      "tokens": [
+        "H or T"
+      ],
+      "expression": "3H or T",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n<ns0:semantics>\n<ns0:mrow>\n<ns0:mrow>\n<ns0:msup>\n<ns0:mtext />\n<ns0:mrow>\n<ns0:mrow>\n<ns0:mn>3</ns0:mn>\n<ns0:mrow />\n</ns0:mrow>\n</ns0:mrow>\n</ns0:msup>\n</ns0:mrow>\n<ns0:mtext>H or T</ns0:mtext>\n<ns0:mrow />\n</ns0:mrow>\n<ns0:annotation encoding=\"StarMath 5.0\"> size 12{rSup { size 8{ 3 {}} }H or T} {}</ns0:annotation>\n</ns0:semantics>\n</ns0:math>\n            ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/atomic-masses/#m42699--696d706f72742d6175746f2d696431313639373337373632363734",
+        "headings": [
+          "Table 15.1: Atomic Masses"
+        ],
+        "equation": "",
+        "paragraph": "3 H or T",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "17",
+      "title": "Useful Information",
+      "module": "m78798",
+      "math_index": 157,
+      "location": "import-auto-id1528540",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        " minute of arc"
+      ],
+      "expression": "1 minute of arc(')=1/60 degree",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                <ns0:semantics>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mn>1</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> minute of arc</ns0:mtext>\n                     \n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:msup>\n                          <ns0:mo stretchy=\"false\">(</ns0:mo>\n                          <ns0:mtext>'</ns0:mtext>\n                        </ns0:msup>\n                        <ns0:mo stretchy=\"false\">)</ns0:mo>\n                        <ns0:mrow>\n                          <ns0:mi />\n                          <ns0:mo stretchy=\"false\">=</ns0:mo>\n                          <ns0:mrow>\n                            <ns0:mn>1</ns0:mn>\n                            <ns0:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</ns0:mo>\n                            <ns0:mtext>60</ns0:mtext>\n                          </ns0:mrow>\n                        </ns0:mrow>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> degree</ns0:mtext>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                    <ns0:mrow />\n                  </ns0:mrow>\n                  <ns0:annotation encoding=\"StarMath 5.0\"> size 12{1`\" minute\"`\"of\"`\"arc\"` { { \\( }} sup { ' } \\) `= {1} slash {\"60\"} `\" degree\"} {}</ns0:annotation>\n                </ns0:semantics>\n              </ns0:math>\n            ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/useful-information/#m78798--696d706f72742d6175746f2d696431353238353430",
+        "headings": [
+          "Table 17.8: Other Units"
+        ],
+        "equation": "",
+        "paragraph": "1 minute of arc ( ' ) = 1 / 60 degree",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "17",
+      "title": "Useful Information",
+      "module": "m78798",
+      "math_index": 158,
+      "location": "import-auto-id1528540",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        " second of arc",
+        " minute of arc"
+      ],
+      "expression": "1 second of arc('')=1/60 minute of arc",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                <ns0:semantics>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mn>1</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> second of arc</ns0:mtext>\n                        <ns0:mi />\n                        <ns0:mtext />\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:msup>\n                          <ns0:mo stretchy=\"false\">(</ns0:mo>\n                          <ns0:mrow>\n                            <ns0:mtext>''</ns0:mtext>\n                          \n                          </ns0:mrow>\n                        </ns0:msup>\n                        <ns0:mo stretchy=\"false\">)</ns0:mo>\n                        <ns0:mrow>\n                          <ns0:mi />\n                          <ns0:mo stretchy=\"false\">=</ns0:mo>\n                          <ns0:mrow>\n                            <ns0:mn>1</ns0:mn>\n                            <ns0:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</ns0:mo>\n                            <ns0:mrow>\n                              <ns0:mtext>60</ns0:mtext>\n                              <ns0:mi />\n                            </ns0:mrow>\n                          </ns0:mrow>\n                        </ns0:mrow><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> minute of arc</ns0:mtext>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                    <ns0:mrow />\n                  </ns0:mrow>\n                  <ns0:annotation encoding=\"StarMath 5.0\"> size 12{1`\" second\"`\"of\"`\"arc\"` { { \\( }} sup { '' } \\) `= {1} slash {\"60\"`} \" minute of arc\"} {}</ns0:annotation>\n                </ns0:semantics>\n              </ns0:math>\n            ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/useful-information/#m78798--696d706f72742d6175746f2d696431353238353430",
+        "headings": [
+          "Table 17.8: Other Units"
+        ],
+        "equation": "",
+        "paragraph": "1 second of arc ( '' ) = 1 / 60 minute of arc",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    },
+    {
+      "section": "17",
+      "title": "Useful Information",
+      "module": "m78798",
+      "math_index": 166,
+      "location": "import-auto-id1528540",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        " millimeter of mercury"
+      ],
+      "expression": "1 millimeter of mercury(mmHg)=133.3 Pa",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                <ns0:semantics>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mn>1</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> millimeter of mercury</ns0:mtext>\n               \n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mo stretchy=\"false\">(</ns0:mo>\n                        <ns0:mtext>mm</ns0:mtext>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext>Hg</ns0:mtext>\n                        <ns0:mo stretchy=\"false\">)</ns0:mo>\n                        <ns0:mrow>\n                          <ns0:mi />\n                          <ns0:mo stretchy=\"false\">=</ns0:mo>\n                          <ns0:mtext>133</ns0:mtext>\n                        </ns0:mrow>\n                        <ns0:mtext>.</ns0:mtext>\n                        <ns0:mn>3</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> Pa</ns0:mtext>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                    <ns0:mrow />\n                  </ns0:mrow>\n                  <ns0:annotation encoding=\"StarMath 5.0\"> size 12{1`\" millimeter\"`\"of\"`\"mercury\"` \\( \"mm\"`\"Hg\" \\) `=\"133\" \".\" 3`\" Pa\"} {}</ns0:annotation>\n                </ns0:semantics>\n              </ns0:math>\n            ",
+      "reading_context": {
+        "url": "https://intro-1-1.coaphys.xyz/sections/useful-information/#m78798--696d706f72742d6175746f2d696431353238353430",
+        "headings": [
+          "Table 17.8: Other Units"
+        ],
+        "equation": "",
+        "paragraph": "1 millimeter of mercury ( mm Hg ) = 133 . 3 Pa",
+        "preceding_paragraph": "",
+        "following_paragraph": ""
+      }
+    }
+  ]
+}

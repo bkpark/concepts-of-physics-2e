@@ -1,0 +1,124 @@
+{
+  "scope": "Five approved adaptations applied to textbook; pending preview refresh. Export read as data, never executed.",
+  "current_counts": {
+    "11.1": 0,
+    "11.2": 0,
+    "11.3": 0,
+    "11.4": 0
+  },
+  "introduction_disposition": "11.1 is the chapter introduction, not a substantive section; exclude from exercise coverage gaps.",
+  "proposals": [
+    {
+      "id": "c11-proposal-maxwell-laws",
+      "section": "11.2",
+      "status": "applied-maintainer-approved",
+      "prompt": "Choose the four statements that represent Maxwell’s equations: (A) Electric field lines originate on positive charges and terminate on negative charges. (B) Magnetic field lines have no beginning or end. (C) A changing magnetic field induces an electric field. (D) Magnetic fields can be produced by electric currents or changing electric fields. (E) An object maintains constant velocity unless acted on by a net force. (F) Energy is conserved. Which selected statement contains Maxwell’s addition to the theory?",
+      "internal_answer": "A–D; D includes changing electric fields as a source of magnetic fields.",
+      "rationale": "Preserves multiple-selection format, reduces irrelevant distractors, and asks about Maxwell’s contribution. Directly supported by the four prose laws and next paragraph.",
+      "sources": [
+        {
+          "export_locator": "602",
+          "uniqueid": "1531499764835400",
+          "description": "Introduction to Physics - Electromagnetic Waves - Maxwell's Equation - Q1 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "694",
+          "uniqueid": "1531566377354005",
+          "description": "Introduction to Physics - Electromagnetic Waves - Maxwell's Equation - Q1 (test bank version, three versions in one)"
+        }
+      ],
+      "exercise_id": "c11-mom-maxwell-laws"
+    },
+    {
+      "id": "c11-proposal-radiation-source",
+      "section": "11.3",
+      "status": "applied-maintainer-approved",
+      "prompt": "Which of the following motions of an electric charge produces electromagnetic radiation: remaining at rest, moving with constant velocity, or oscillating back and forth? Explain what distinguishes the radiating motion from the others.",
+      "internal_answer": "Oscillation involves acceleration; an accelerating charge radiates.",
+      "rationale": "Removes magnetic-monopole distractor; adds explanation. Supported by explicit accelerated-charge discussion.",
+      "sources": [
+        {
+          "export_locator": "598",
+          "uniqueid": "1531499353263004",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q1 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "690",
+          "uniqueid": "1531565365893655",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q1 (test bank version)"
+        }
+      ],
+      "exercise_id": "c11-mom-radiation-source"
+    },
+    {
+      "id": "c11-proposal-transverse-fields",
+      "section": "11.3",
+      "status": "applied-maintainer-approved",
+      "prompt": "An electromagnetic wave travels horizontally to the right, and its electric field oscillates vertically. Describe the direction in which its magnetic field oscillates. Explain why this is a transverse wave.",
+      "internal_answer": "Magnetic field oscillates perpendicular to both propagation and electric-field axes, into/out of the page for a page-plane diagram. Both fields are perpendicular to propagation.",
+      "rationale": "Adaptation of lecture transverse-wave objective; asks geometry without video or quotation recall. No instantaneous field sign requested.",
+      "sources": [
+        {
+          "export_locator": "577",
+          "uniqueid": "1773894890485929",
+          "description": "Physics 10 - Lecture 22, Section 2 - Maxwell’s Equations and EM Wave [3 questions]"
+        }
+      ],
+      "exercise_id": "c11-mom-transverse-fields"
+    },
+    {
+      "id": "c11-proposal-radio-wavelength",
+      "section": "11.4",
+      "status": "applied-maintainer-approved",
+      "prompt": "Two radio waves travel through vacuum. One has a frequency of 1 MHz and the other 100 MHz. (a) How do their speeds compare? (b) Which has the longer wavelength, and by what factor? Explain without calculating either wavelength separately.",
+      "internal_answer": "Same speed c; 1 MHz wave has wavelength 100 times longer.",
+      "rationale": "Combines inverse-relation and AM/FM comparison families; given frequencies avoid reliance on broadcasting details.",
+      "sources": [
+        {
+          "export_locator": "599",
+          "uniqueid": "1531499414975830",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q2 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "601",
+          "uniqueid": "1531499584091890",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q4 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "691",
+          "uniqueid": "1531565417257757",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q2 (test bank version)"
+        },
+        {
+          "export_locator": "693",
+          "uniqueid": "1531565561545425",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q4 (test bank version)"
+        }
+      ],
+      "exercise_id": "c11-mom-radio-wavelength"
+    },
+    {
+      "id": "c11-proposal-visible-spectrum",
+      "section": "11.4",
+      "status": "applied-maintainer-approved",
+      "prompt": "Compare red and blue light traveling through vacuum. Which has the higher frequency? Which has the longer wavelength? How do their speeds compare?",
+      "internal_answer": "Blue higher frequency; red longer wavelength; equal speeds c.",
+      "rationale": "Extends original red/blue question using spectrum figure and c=fλ. Some reinforcement of previous proportional question; may choose only one if desired.",
+      "sources": [
+        {
+          "export_locator": "600",
+          "uniqueid": "1531499523256638",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q3 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "692",
+          "uniqueid": "1531565495564591",
+          "description": "Introduction to Physics - Electromagnetic Waves - Description - Q3 (test bank version)"
+        }
+      ],
+      "exercise_id": "c11-mom-visible-spectrum"
+    }
+  ],
+  "remaining_gap": "Radiation pressure in 11.3 is in lecture 577 objectives and textbook; consider a new momentum/reflecting-versus-absorbing sail question separately.",
+  "attribution": "Frozen export records retain source metadata and OpenStax attribution where present; verify final reuse/credits before incorporation."
+}

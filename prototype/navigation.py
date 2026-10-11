@@ -71,6 +71,13 @@ class Navigation:
             return '<p class="chapter-return"><a href="../../sections/' + first['candidate_slug'] + '/index.html">Chapter contents: ' + escape(self.chapter_title(key)) + '</a></p>'
         return '<aside class="chapter-contents" aria-label="Chapter contents"><h2>' + escape(self.chapter_title(key)) + '</h2>' + self.contents(key, '../../', mid) + '</aside>'
 
+    def review_navigation(self, chapter):
+        for key, members in self.chapters.items():
+            first = members[0]
+            if self.labels.get(first['module_id'], '').split('.')[0] == chapter:
+                return '<p class="chapter-return"><a href="../../sections/' + first['candidate_slug'] + '/index.html">Chapter contents: ' + escape(self.chapter_title(key)) + '</a></p>'
+        return ''
+
     def overview(self, full=False, prefix=''):
         result = ''
         for section in self.groups.get('Preface', []):

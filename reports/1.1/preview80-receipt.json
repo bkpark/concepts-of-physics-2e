@@ -1,0 +1,35 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_832f62d84ad48191b64b8bc5606ce9c4",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 80,
+    "source": {
+      "commit_sha": "253661f58a18f2c5efdb18021580cbaed251e8f3"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000046a481f8a75dcba92de9e19a",
+      "content_hash": "sha256:a3d09cecd9b9451dbf60cb24b42e40a1e03c03694cc887f79caf21811e58c632",
+      "size_bytes": 129976320,
+      "file_count": 730
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ac502a92ef881918f4678193de09be5",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_832f62d84ad48191b64b8bc5606ce9c4",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-06T14:16:21.012918+00:00"
+  },
+  "change": "LaTeX parallel mapping with Unicode ASCIIMath fallback; includes Section 10.4 plain B cleanup and responsive math overflow fixes."
+}

@@ -1,9 +1,25 @@
 import unittest
 import xml.etree.ElementTree as ET
-from math_punctuation import render_child
+from math_punctuation import render_child, render_content
 
 
 class PunctuationTests(unittest.TestCase):
+    def test_opening_and_closing_brackets(self):
+        root = ET.fromstring('<p xmlns:m="http://www.w3.org/1998/Math/MathML">hertz (<m:math/>), next</p>')
+        self.assertEqual(render_content(root, lambda e: '<math/>'), 'hertz <span class="math-with-punctuation">(<math/>),</span> next')
+
+    def test_opening_in_previous_tail(self):
+        root = ET.fromstring('<p xmlns:m="http://www.w3.org/1998/Math/MathML"><emphasis>hertz</emphasis> ([ <m:math/>])</p>')
+        before = ET.tostring(root)
+        result = render_content(root, lambda e: '<math/>' if e.tag.endswith('math') else '<em>hertz</em>')
+        self.assertEqual(result, '<em>hertz</em> <span class="math-with-punctuation">([<math/>])</span>')
+        self.assertEqual(ET.tostring(root), before)
+
+    def test_opening_before_prose_or_display_unchanged(self):
+        for content in ['(<emphasis>prose</emphasis>)', '(<m:math display="block"/>)']:
+            root = ET.fromstring('<p xmlns:m="http://www.w3.org/1998/Math/MathML">'+content+'</p>')
+            self.assertNotIn('math-with-punctuation', render_content(root, lambda e: 'content'))
+
     def render(self, content):
         root = ET.fromstring('<p xmlns:m="http://www.w3.org/1998/Math/MathML">'+content+'</p>')
         return render_child(root[0], lambda e: '<math>unchanged</math>')

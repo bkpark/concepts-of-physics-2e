@@ -13,8 +13,8 @@ manifest=json.loads((source/'build-manifest.json').read_text(encoding='utf-8'))
 assert len(manifest['modules'])==141
 for mid,digest in manifest['source_sha256'].items():
     assert hashlib.sha256((ROOT/f'maintained/modules/{mid}/index.cnxml').read_bytes()).hexdigest()==digest
-files=[source/'index.html',source/'style.css',source/'copy-math.js',source/'search.js',source/'search-index.json']
-for folder in ('sections','exercises','contents','media','search'):
+files=[source/'index.html',source/'style.css',source/'copy-math.js',source/'theme.js',source/'search.js',source/'search-index.json']
+for folder in ('sections','chapters','exercises','contents','media','search'):
     files.extend(p for p in (source/folder).rglob('*') if p.is_file())
 expected=set()
 for src in files:

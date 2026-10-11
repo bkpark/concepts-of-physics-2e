@@ -1,0 +1,128 @@
+{
+  "summary": {
+    "modules": 141,
+    "expressions": 6738,
+    "flagged": 8,
+    "categories": {
+      "descriptive-label-review": 6,
+      "display-connector-review": 2
+    }
+  },
+  "scope": "Presentation MathML across all maintained modules, including summaries, exercises, and appendices; annotations excluded. Whole-word heuristic scan, not a proof that all embedded prose has been found. Mathematical token order in snippets is flattened, not copy-ready notation.",
+  "changes": "No source expressions changed by this audit.",
+  "expressions": [
+    {
+      "section": "7.6",
+      "title": "Archimedes’ Principle",
+      "module": "m71624",
+      "math_index": 42,
+      "location": "eip-251",
+      "display": true,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "apparent weight loss = weight of fluid displaced"
+      ],
+      "expression": "apparent weight loss = weight of fluid displaced",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mtext>apparent weight loss = weight of fluid displaced</ns0:mtext></ns0:mrow></ns0:math>"
+    },
+    {
+      "section": "7.6",
+      "title": "Archimedes’ Principle",
+      "module": "m71624",
+      "math_index": 43,
+      "location": "eip-249",
+      "display": true,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "apparent mass loss = mass of fluid displaced."
+      ],
+      "expression": "apparent mass loss = mass of fluid displaced.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mrow><ns0:mtext>apparent mass loss = mass of fluid displaced.</ns0:mtext></ns0:mrow></ns0:math>"
+    },
+    {
+      "section": "8.6",
+      "title": "Temperature Change and Heat Capacity",
+      "module": "m67622",
+      "math_index": 24,
+      "location": "eip-508",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "Percentage for pan"
+      ],
+      "expression": "Percentage for pan=QAlQtotal×100%=27.0kJ89.8kJ×100%=30.1%,",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mtable columnalign=\"right left\" columnspacing=\"0.25em\" rowspacing=\"0.35em\"><ns0:mtr><ns0:mtd><ns0:mtext>Percentage for pan</ns0:mtext></ns0:mtd><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>Al</ns0:mtext></ns0:msub></ns0:mrow><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>total</ns0:mtext></ns0:msub></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr><ns0:mtr><ns0:mtd /><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mrow><ns0:mn>27.0</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow><ns0:mrow><ns0:mrow><ns0:mn>89.8</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>=</ns0:mo><ns0:mn>30.1</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>,</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr></ns0:mtable></ns0:math>"
+    },
+    {
+      "section": "8.6",
+      "title": "Temperature Change and Heat Capacity",
+      "module": "m67622",
+      "math_index": 25,
+      "location": "eip-686",
+      "display": true,
+      "category": "display-connector-review",
+      "tokens": [
+        "Percentage for water"
+      ],
+      "expression": "Percentage for water=QwQtotal×100%=62.8kJ89.8kJ×100%=69.9%.",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:mtable columnalign=\"right left\" columnspacing=\"0.25em\" rowspacing=\"0.35em\"><ns0:mtr><ns0:mtd><ns0:mtext>Percentage for water</ns0:mtext></ns0:mtd><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>w</ns0:mtext></ns0:msub></ns0:mrow><ns0:mrow><ns0:msub><ns0:mi>Q</ns0:mi><ns0:mtext>total</ns0:mtext></ns0:msub></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr><ns0:mtr><ns0:mtd /><ns0:mtd><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:mrow><ns0:mn>62.8</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow><ns0:mrow><ns0:mrow><ns0:mn>89.8</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>kJ</ns0:mtext></ns0:mrow></ns0:mrow></ns0:mfrac><ns0:mo>×</ns0:mo><ns0:mn>100</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>=</ns0:mo><ns0:mn>69.9</ns0:mn><ns0:mo>%</ns0:mo><ns0:mo>.</ns0:mo></ns0:mrow></ns0:mtd></ns0:mtr></ns0:mtable></ns0:math>"
+    },
+    {
+      "section": "14.9",
+      "title": "Fusion",
+      "module": "m52480",
+      "math_index": 33,
+      "location": "import-auto-id3418170",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        "8 mol of reactants"
+      ],
+      "expression": "(1000g)/(5.03g/mol)=198.8 mol of reactants",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\"><ns0:semantics>\n<ns0:mrow><ns0:mo stretchy=\"false\">(</ns0:mo><ns0:mrow><ns0:mn>1000</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>g</ns0:mtext></ns0:mrow><ns0:mo stretchy=\"false\">)</ns0:mo><ns0:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</ns0:mo><ns0:mo stretchy=\"false\">(</ns0:mo><ns0:mrow><ns0:mn>5.03</ns0:mn><ns0:mspace width=\"0.167em\" /><ns0:mtext>g</ns0:mtext><ns0:mo lspace=\"0\" rspace=\"0\">/</ns0:mo><ns0:mtext>mol</ns0:mtext></ns0:mrow><ns0:mo stretchy=\"false\">)</ns0:mo><ns0:mtext>=198</ns0:mtext><ns0:mtext>.</ns0:mtext><ns0:mn>8 mol of reactants</ns0:mn></ns0:mrow></ns0:semantics></ns0:math>. The number of reactions that take place is therefore"
+    },
+    {
+      "section": "17",
+      "title": "Useful Information",
+      "module": "m78798",
+      "math_index": 157,
+      "location": "import-auto-id1528540",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        " minute of arc"
+      ],
+      "expression": "1 minute of arc(')=1/60 degree",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                <ns0:semantics>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mn>1</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> minute of arc</ns0:mtext>\n                     \n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:msup>\n                          <ns0:mo stretchy=\"false\">(</ns0:mo>\n                          <ns0:mtext>'</ns0:mtext>\n                        </ns0:msup>\n                        <ns0:mo stretchy=\"false\">)</ns0:mo>\n                        <ns0:mrow>\n                          <ns0:mi />\n                          <ns0:mo stretchy=\"false\">=</ns0:mo>\n                          <ns0:mrow>\n                            <ns0:mn>1</ns0:mn>\n                            <ns0:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</ns0:mo>\n                            <ns0:mtext>60</ns0:mtext>\n                          </ns0:mrow>\n                        </ns0:mrow>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> degree</ns0:mtext>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                    <ns0:mrow />\n                  </ns0:mrow>\n                  <ns0:annotation encoding=\"StarMath 5.0\"> size 12{1`\" minute\"`\"of\"`\"arc\"` { { \\( }} sup { ' } \\) `= {1} slash {\"60\"} `\" degree\"} {}</ns0:annotation>\n                </ns0:semantics>\n              </ns0:math>\n            "
+    },
+    {
+      "section": "17",
+      "title": "Useful Information",
+      "module": "m78798",
+      "math_index": 158,
+      "location": "import-auto-id1528540",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        " second of arc",
+        " minute of arc"
+      ],
+      "expression": "1 second of arc('')=1/60 minute of arc",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                <ns0:semantics>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mn>1</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> second of arc</ns0:mtext>\n                        <ns0:mi />\n                        <ns0:mtext />\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:msup>\n                          <ns0:mo stretchy=\"false\">(</ns0:mo>\n                          <ns0:mrow>\n                            <ns0:mtext>''</ns0:mtext>\n                          \n                          </ns0:mrow>\n                        </ns0:msup>\n                        <ns0:mo stretchy=\"false\">)</ns0:mo>\n                        <ns0:mrow>\n                          <ns0:mi />\n                          <ns0:mo stretchy=\"false\">=</ns0:mo>\n                          <ns0:mrow>\n                            <ns0:mn>1</ns0:mn>\n                            <ns0:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</ns0:mo>\n                            <ns0:mrow>\n                              <ns0:mtext>60</ns0:mtext>\n                              <ns0:mi />\n                            </ns0:mrow>\n                          </ns0:mrow>\n                        </ns0:mrow><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> minute of arc</ns0:mtext>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                    <ns0:mrow />\n                  </ns0:mrow>\n                  <ns0:annotation encoding=\"StarMath 5.0\"> size 12{1`\" second\"`\"of\"`\"arc\"` { { \\( }} sup { '' } \\) `= {1} slash {\"60\"`} \" minute of arc\"} {}</ns0:annotation>\n                </ns0:semantics>\n              </ns0:math>\n            "
+    },
+    {
+      "section": "17",
+      "title": "Useful Information",
+      "module": "m78798",
+      "math_index": 166,
+      "location": "import-auto-id1528540",
+      "display": false,
+      "category": "descriptive-label-review",
+      "tokens": [
+        " millimeter of mercury"
+      ],
+      "expression": "1 millimeter of mercury(mmHg)=133.3 Pa",
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n                <ns0:semantics>\n                  <ns0:mrow>\n                    <ns0:mrow>\n                      <ns0:mrow>\n                        <ns0:mn>1</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> millimeter of mercury</ns0:mtext>\n               \n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mo stretchy=\"false\">(</ns0:mo>\n                        <ns0:mtext>mm</ns0:mtext>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext>Hg</ns0:mtext>\n                        <ns0:mo stretchy=\"false\">)</ns0:mo>\n                        <ns0:mrow>\n                          <ns0:mi />\n                          <ns0:mo stretchy=\"false\">=</ns0:mo>\n                          <ns0:mtext>133</ns0:mtext>\n                        </ns0:mrow>\n                        <ns0:mtext>.</ns0:mtext>\n                        <ns0:mn>3</ns0:mn>\n                        <ns0:mi /><ns0:mspace width=\"0.20em\" />\n                        <ns0:mtext> Pa</ns0:mtext>\n                      </ns0:mrow>\n                    </ns0:mrow>\n                    <ns0:mrow />\n                  </ns0:mrow>\n                  <ns0:annotation encoding=\"StarMath 5.0\"> size 12{1`\" millimeter\"`\"of\"`\"mercury\"` \\( \"mm\"`\"Hg\" \\) `=\"133\" \".\" 3`\" Pa\"} {}</ns0:annotation>\n                </ns0:semantics>\n              </ns0:math>\n            "
+    }
+  ]
+}

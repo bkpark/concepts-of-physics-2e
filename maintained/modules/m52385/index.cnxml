@@ -6,7 +6,7 @@
   <md:abstract><list>
 <item>Describe a force field and calculate the strength of an electric field due to a point charge.</item>
 <item>Calculate the force exerted on a test charge by an electric field.</item>
-<item>Explain the relationship between electrical force (F) on a test charge and electrical field strength (E).</item>
+<item>Explain the relationship between electrical force (<m:math><m:mi>F</m:mi></m:math>) on a test charge and electrical field strength (<m:math><m:mi>E</m:mi></m:math>).</item>
 </list></md:abstract>
   <md:uuid>1c0c530c-75b1-4f46-a545-69790ea50f6c</md:uuid>
 </metadata>
@@ -69,7 +69,7 @@
 <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> is 
 
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mi>k</m:mi><m:mo fence="true" form="prefix" stretchy="true" lspace="0" rspace="0">|</m:mo><m:mrow><m:mi>q</m:mi><m:mi>Q</m:mi></m:mrow><m:mo fence="true" form="postfix" stretchy="true" lspace="0" rspace="0">|</m:mo></m:mrow><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= { ital "kqQ"} slash {r rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. Thus the magnitude of the electric field, 
-<m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math>, for a point charge is</para><equation id="eip-588"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:mstyle displaystyle="true"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mo fence="true" form="prefix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>q</m:mi></m:mfrac><m:mo fence="true" form="postfix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mrow><m:mo fence="true" form="prefix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo fence="true" form="postfix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mo fence="true" form="prefix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo><m:mi>Q</m:mi><m:mo fence="true" form="postfix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mfrac><m:mo>.</m:mo></m:mrow></m:mstyle></m:math> 
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math>, for a point charge is</para><equation id="eip-588" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:mstyle displaystyle="true"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mo fence="true" form="prefix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>q</m:mi></m:mfrac><m:mo fence="true" form="postfix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mrow><m:mo fence="true" form="prefix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo fence="true" form="postfix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mo fence="true" form="prefix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo><m:mi>Q</m:mi><m:mo fence="true" form="postfix" stretchy="true" symmetric="false" lspace="0" rspace="0">|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mfrac><m:mo>.</m:mo></m:mrow></m:mstyle></m:math> 
     </equation><para id="import-auto-id3008249">Since the test charge cancels, we see that</para>
     <equation id="eip-222"><m:math>
         <m:semantics>
@@ -113,11 +113,11 @@
       <emphasis>Solution</emphasis>
     </para>
     <para id="import-auto-id2661548">Here <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=2 "." "00" times "10" rSup { size 8{ - 9} } } {}</m:annotation></m:semantics></m:math> C and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r=5 "." "00" times "10" rSup { size 8{ - 3} } } {}</m:annotation></m:semantics></m:math> m. Entering those values into the above equation gives</para>
-    <equation id="eip-380"><m:math>
+    <equation id="eip-380" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
-              <m:mtable columnalign="left">
+              <m:mtable columnalign="right center left">
                 <m:mtr><m:mtd>                            <m:mi>E</m:mi></m:mtd>
 <m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
@@ -145,7 +145,7 @@
                       </m:mrow>
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
 <m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
                   <m:mrow>
@@ -161,7 +161,7 @@
                           </m:mrow>
                         
                       </m:msup>
-                    </m:mrow><m:mspace width="0.25em"/>
+                    </m:mrow><m:mspace width="0.25em" />
                     <m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac>
                     <m:mrow>
                       <m:mo stretchy="false">)</m:mo>
@@ -183,14 +183,14 @@
                                 </m:mrow>
                               
                             </m:msup>
-                          </m:mrow><m:mspace width="0.25em"/>
+                          </m:mrow><m:mspace width="0.25em" />
                           <m:mtext>C</m:mtext>
                           <m:mo stretchy="false">)</m:mo>
                         </m:mrow>
                         <m:mrow>
-                          <m:mo stretchy="false">(</m:mo>
-                          <m:mrow>
-                            <m:mtext>5.00</m:mtext>
+                          <m:msup>
+                            <m:mrow><m:mo stretchy="false">(</m:mo>
+                          <m:mtext>5.00</m:mtext>
                             <m:mo stretchy="false">×</m:mo>
                             <m:msup>
                               <m:mtext>10</m:mtext>
@@ -203,12 +203,11 @@
                                 </m:mrow>
                               
                             </m:msup>
-                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mspace width="0.25em" />
                         <m:mtext>m</m:mtext>
-                          <m:msup>
-                            <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">)</m:mo>
                             
-                              <m:mrow>
+                              </m:mrow><m:mrow>
                                 <m:mn>2</m:mn>
                               </m:mrow>
                             
@@ -218,7 +217,7 @@
                     </m:mrow>
                   </m:mrow></m:mtd>
                 </m:mtr>
-                <m:mtr><m:mtd/>
+                <m:mtr><m:mtd />
 <m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
                   <m:mrow>
@@ -233,7 +232,7 @@
                           </m:mrow>
                         
                       </m:msup>
-                    </m:mrow><m:mspace width="0.25em"/>
+                    </m:mrow><m:mspace width="0.25em" />
                     <m:mtext>N/C.</m:mtext>
                   </m:mrow></m:mtd>
                 </m:mtr>
@@ -258,11 +257,11 @@
     <para id="import-auto-id2424249">Since we know the electric field strength and the charge in the field, the force on that charge can be calculated using the definition of electric field <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext mathvariant="bold">F</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:mi>q</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E= {F} slash {q} } {}</m:annotation></m:semantics></m:math> rearranged to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant="bold">F</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>q</m:mi><m:mtext mathvariant="bold">E</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "qE"} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2055367">
       <emphasis>Solution</emphasis>
     </para>
-    <para id="import-auto-id3356261">The magnitude of the force on a charge <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q= - 0 "." "250""μC"} {}</m:annotation></m:semantics></m:math> exerted by a field of strength <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E=7 "." "20" times "10" rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math> N/C is thus,</para><equation id="eip-502"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+    <para id="import-auto-id3356261">The magnitude of the force on a charge <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q= - 0 "." "250""μC"} {}</m:annotation></m:semantics></m:math> exerted by a field of strength <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E=7 "." "20" times "10" rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math> N/C is thus,</para><equation id="eip-502" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             <m:mrow>
-              <m:mtable columnalign="left">
+              <m:mtable columnalign="right center left">
                 <m:mtr><m:mtd>                          <m:mi>F</m:mi></m:mtd>
 <m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
@@ -357,16 +356,16 @@
                     <m:mtext mathvariant="bold">F</m:mtext>
                     <m:mrow>
                       <m:mi>q</m:mi>
-                      <m:mi>,</m:mi>
+                      
                     </m:mrow>
                   </m:mfrac>
                 </m:mrow>
               </m:mrow>
             
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{E= {  {F}  over  {q,} } } {}</m:annotation>
+          <m:annotation encoding="StarMath 5.0"> size 12{E= {  {F}  over  {q} } } {}</m:annotation>
         </m:semantics>
-      </m:math> 
+      </m:math>, 
     </equation><para id="import-auto-id1177794">where <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">F</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is the Coulomb or electrostatic force exerted on a small positive test charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>. <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> has units of N/C.</para></item>
     <item id="import-auto-id1486899">The magnitude of the electric field <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> created by a point charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is
     <equation id="eip-915"><m:math>

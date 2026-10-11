@@ -1,0 +1,52 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_5108dfa1e7b081918e124601bea77a01",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 113,
+    "source": {
+      "commit_sha": "5cfec89d068a36868799c1bc080bf5b0c3545872"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000a2a481fdb898e9d0c94a5c6c",
+      "content_hash": "sha256:7c501ed27aa6f289e59156182504ee9ed73ee7c24547311c6dae6e7900c7ef89",
+      "size_bytes": 130007040,
+      "file_count": 749
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aca998767a88191a74e535d52241542",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_5108dfa1e7b081918e124601bea77a01",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-10T20:01:22.125942+00:00"
+  },
+  "checks": {
+    "exercise_count": 39,
+    "math": 6674,
+    "math_issues": {},
+    "pending_wording_verified": true
+  },
+  "status": "Published for final maintainer review; chapter not yet finalized",
+  "changes": [
+    "Exercise 12 light-pulse wording",
+    "Exercise 14 three parts",
+    "Exercise 24 length-measurement scenario",
+    "Exercise 26 reciprocal contraction wording",
+    "Exercise 31 pitcher on truck",
+    "Exercise 32 absolute-value MathML",
+    "Exercise 35 three parts",
+    "Exercise 37 MeV part",
+    "Exercises 40 and 41 removed"
+  ]
+}

@@ -1,0 +1,950 @@
+{
+  "status": "finalized by maintainer after Preview 113, 2026-10-10",
+  "count": 39,
+  "questions": [
+    {
+      "proposed_number": 1,
+      "section": "13.2",
+      "current_numbers": [
+        3
+      ],
+      "title": "Same laws, different measurements",
+      "prompt": "A passenger in a smoothly cruising airplane treats the airplane as stationary and the ground as moving. Is this a valid approximately inertial frame? Must the passenger and a ground observer assign the same velocity and kinetic energy to a suitcase resting in the cabin? Explain why different measurements do not imply different laws.",
+      "answer_check": "Valid approximation over a short interval at steady velocity. Suitcase is at rest in cabin, moving relative to ground; kinetic energy is frame dependent. Same laws, different state descriptions.",
+      "mom_export_locators": [
+        "758",
+        "860"
+      ],
+      "rationale": "Make the first-postulate distinction explicit without importing the bank’s ambiguous invariance claims.",
+      "draft_id": "C13-P02",
+      "number": 1,
+      "module": "m42528",
+      "id": "fs-id1990076",
+      "retained_prior_number": 3,
+      "source_comparison": [
+        "758",
+        "860"
+      ]
+    },
+    {
+      "proposed_number": 2,
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Sound in a moving cabin",
+      "prompt": "An airplane moves at 300 m/s relative to the ground. The cabin air is at rest relative to the airplane, and sound travels at 340 m/s relative to that air. Using classical velocity addition, find the ground-frame velocities of sound traveling toward the front and toward the back. Take the airplane’s motion as positive. What speed does a passenger measure for either sound wave? Why is sound different from light in vacuum?",
+      "answer_check": "Ground velocities +640 m/s and −40 m/s; passenger measures 340 m/s in either direction. Sound propagates relative to a material medium.",
+      "mom_export_locators": [
+        "761",
+        "861",
+        "747"
+      ],
+      "rationale": "Direct homework coverage; specify signed velocities and the air’s frame.",
+      "draft_id": "C13-P03",
+      "number": 2,
+      "module": "m42528",
+      "id": "c13-mom-c13-p03",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "761",
+        "861",
+        "747"
+      ]
+    },
+    {
+      "proposed_number": 3,
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Meaning of a null result",
+      "prompt": "Michelson and Morley expected motion through a stationary luminiferous aether to produce a change in their interference pattern when the apparatus was rotated. Why was the absence of the expected change scientifically important? Find another scientifically significant experiment with a null result, in physics or another science. State what effect was sought, what was observed, and why the result mattered. Cite your source.",
+      "answer_check": "Michelson–Morley: absence of expected aether-drift signal constrained the stationary-aether model. Other acceptable examples include Pasteur’s absence of microbial growth in sterilized broth protected from dust (with contaminated controls), Super-Kamiokande proton-decay searches setting lifetime limits, and a dated LZ WIMP search yielding exclusion limits. Require the sought effect, observation, warranted conclusion and a source; non-detection alone is not proof of universal nonexistence. This is a short research question, not assumed recall.",
+      "mom_export_locators": [
+        "748",
+        "855"
+      ],
+      "rationale": "Conceptual lecture/test coverage; no interferometer calculation or overstatement of what the experiment established.",
+      "draft_id": "C13-P05",
+      "number": 3,
+      "module": "m42528",
+      "id": "c13-mom-c13-p05",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "748",
+        "855"
+      ],
+      "answer_sources": [
+        "https://www.pasteur.fr/en/about-us/middle-years-1862-1877",
+        "https://www-sk.icrr.u-tokyo.ac.jp/en/news/detail/607",
+        "https://lz.lbl.gov/press/"
+      ]
+    },
+    {
+      "proposed_number": 4,
+      "section": "13.2",
+      "current_numbers": [
+        1
+      ],
+      "title": "Two postulates",
+      "prompt": "State Einstein’s two postulates of special relativity. Which one conflicts with classical velocity addition, and how?",
+      "answer_check": "Same laws in all inertial frames; light in vacuum has speed c in every inertial frame, independent of source motion. The second conflicts with adding the source velocity to c.",
+      "mom_export_locators": [
+        "759",
+        "858"
+      ],
+      "rationale": "Keep the central starting point; ask for both postulates explicitly.",
+      "draft_id": "C13-P01",
+      "number": 4,
+      "module": "m42528",
+      "id": "fs-id2551936",
+      "retained_prior_number": 1,
+      "source_comparison": [
+        "759",
+        "858"
+      ]
+    },
+    {
+      "draft_id": "C13-A1",
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Relativity and electromagnetism",
+      "prompt": "Maxwell’s equations predict a definite speed c for electromagnetic waves in vacuum. If the laws of electromagnetism are the same in every inertial frame, why would assigning light a speed c + v in a frame moving relative to its source create a problem? Why does the varying measured speed of sound not create the same problem?",
+      "answer_check": "Different vacuum wave speeds would conflict with that same vacuum prediction in each inertial frame. Sound has a material medium whose velocity differs between frames; describing that moving medium uses the same laws.",
+      "mom_export_locators": [
+        "747",
+        "749",
+        "919"
+      ],
+      "rationale": "Distinct lecture connection to the earlier electromagnetism material; no Maxwell-equation algebra.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 5,
+      "number": 5,
+      "module": "m42528",
+      "id": "c13-mom-c13-a1",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "747",
+        "749",
+        "919"
+      ]
+    },
+    {
+      "proposed_number": 6,
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Light in a moving spacecraft",
+      "prompt": "A spacecraft moves at 0.500c relative to Earth and emits light forward and backward through vacuum. What speed does each beam have in the spacecraft frame? In the Earth frame? Explain using a postulate rather than a velocity-addition calculation.",
+      "answer_check": "All four speeds are c; velocities have opposite signs for the two directions.",
+      "mom_export_locators": [
+        "762",
+        "857",
+        "859"
+      ],
+      "rationale": "Direct homework coverage and a useful contrast with the preceding sound question.",
+      "draft_id": "C13-P04",
+      "number": 6,
+      "module": "m42528",
+      "id": "c13-mom-c13-p04",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "762",
+        "857",
+        "859"
+      ]
+    },
+    {
+      "draft_id": "C13-A2",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "What relativity of simultaneity means",
+      "prompt": "Two events at different locations are simultaneous in one inertial frame. Must they be simultaneous in every other inertial frame? Does relativity of simultaneity mean that time is merely subjective, or that no two events can ever be simultaneous? Explain how the relativistic view differs from classical absolute time.",
+      "answer_check": "They need not be simultaneous in every frame. Time assignments remain definite within a frame; simultaneity is frame dependent, not subjective or impossible. Classical absolute time assigns the same simultaneity across inertial frames.",
+      "mom_export_locators": [
+        "760",
+        "845",
+        "863",
+        "922"
+      ],
+      "rationale": "Keep the direct misconception question as well as the train application; use “need not,” avoiding the source’s overly broad “does not.”",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 7,
+      "number": 7,
+      "module": "m42531",
+      "id": "c13-mom-c13-a2",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "760",
+        "845",
+        "863",
+        "922"
+      ]
+    },
+    {
+      "proposed_number": 8,
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Receiving light versus timing events",
+      "prompt": "Light from two distant events reaches you at the same instant. Is that alone enough to conclude that the events occurred simultaneously in your frame? Explain what else you need to know. After correcting for light-travel time, must all inertial frames agree that two spatially separated events were simultaneous?",
+      "answer_check": "Need emission locations/distances and travel times in the chosen frame. Equal reception times need not mean equal event times. Corrected simultaneity can still differ between frames.",
+      "mom_export_locators": [
+        "754",
+        "750",
+        "891"
+      ],
+      "rationale": "Distinguish a propagation delay from relativity of simultaneity; no diagram prerequisite.",
+      "draft_id": "C13-P07",
+      "number": 8,
+      "module": "m42531",
+      "id": "c13-mom-c13-p07",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "754",
+        "750",
+        "891"
+      ]
+    },
+    {
+      "proposed_number": 9,
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Simultaneity on a moving train",
+      "prompt": "A light pulse is emitted from the midpoint of a train moving to the right. In the train frame, the pulse reaches detectors at the front and rear simultaneously. In the station frame, which detector does it reach first? Explain using the motion of the detectors and the constant speed of light. Are the two detection events simultaneous in both frames?",
+      "answer_check": "Rear first in the station frame: it moves toward its pulse while the front moves away. Simultaneous in train frame, not station frame.",
+      "mom_export_locators": [
+        "760",
+        "845",
+        "863",
+        "749",
+        "750",
+        "891"
+      ],
+      "rationale": "Fill a major conceptual gap using the corrected train setup already taught in the section.",
+      "draft_id": "C13-P06",
+      "number": 9,
+      "module": "m42531",
+      "id": "c13-mom-c13-p06",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "760",
+        "845",
+        "863",
+        "749",
+        "750",
+        "891"
+      ]
+    },
+    {
+      "draft_id": "C13-A3",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Agreement about a local event",
+      "prompt": "Two light pulses reach the same detector at the same place and time. Can an observer moving relative to the detector say that one pulse reached it before the other? Explain why this differs from asking whether events at two separated detectors are simultaneous.",
+      "answer_check": "No. The joint arrival is one local spacetime coincidence, on which all observers agree. Separate locations allow frame-dependent simultaneity assignments.",
+      "mom_export_locators": [
+        "750"
+      ],
+      "rationale": "The lecture explicitly distinguishes local coincidence from separated simultaneity; absent from the earlier draft.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 10,
+      "number": 10,
+      "module": "m42531",
+      "id": "c13-mom-c13-a3",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "750"
+      ]
+    },
+    {
+      "draft_id": "C13-A6",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Reading a simple space-time diagram",
+      "prompt": "On a space-time diagram with position x on the horizontal axis and ct on the vertical axis and the same length scale on both axes, sketch worldlines starting at the origin for (a) an object at rest, (b) an object moving steadily to the right at 0.500c, and (c) a light pulse moving right in vacuum. Which line is vertical? Which makes a 45° angle with the horizontal axis? What feature of the diagram represents two events simultaneous in this frame?",
+      "answer_check": "Rest: x=0, vertical. Object: x=0.5ct, steeper than the light line. Light: x=ct, 45°. Events on a horizontal line have equal ct and are simultaneous in this frame.",
+      "mom_export_locators": [
+        "751"
+      ],
+      "rationale": "Applies the space-time diagram and worldline definitions introduced with the train-and-flashes figure; no Extension label or Lorentz transformation required.",
+      "addition_kind": "conceptual addition",
+      "review_flag": "Now supported in the textbook discussion.",
+      "proposed_number": 11,
+      "number": 11,
+      "module": "m42531",
+      "id": "c13-mom-c13-a6",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "751"
+      ]
+    },
+    {
+      "draft_id": "C13-A4",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Why a moving light clock runs slow",
+      "prompt": "A light clock consists of two mirrors and a light pulse that travels back and forth between them. The clock moves parallel to the laboratory floor, with its mirrors separated vertically. Relative to the laboratory, the pulse follows a longer diagonal path than in the clock’s rest frame. Without doing algebra, explain why the laboratory measures more time between ticks.",
+      "answer_check": "The pulse still moves at c; longer travel distance at the same speed requires a longer interval. No change in light speed is required.",
+      "mom_export_locators": [
+        "752",
+        "856"
+      ],
+      "rationale": "Add the physical explanation behind the formula, with perpendicular mirror separation stated explicitly.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 12,
+      "number": 12,
+      "module": "m42531",
+      "id": "c13-mom-c13-a4",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "752",
+        "856"
+      ]
+    },
+    {
+      "proposed_number": 13,
+      "section": "13.3",
+      "current_numbers": [
+        4,
+        5
+      ],
+      "title": "Proper time and moving clocks",
+      "prompt": "A clock travels at constant velocity relative to a laboratory. Does it run abnormally according to someone traveling with it? For two ticks of that clock, which frame measures the proper time? Which measures the longer interval?",
+      "answer_check": "Normal locally. Clock’s rest frame measures proper time; laboratory measures gamma times that interval.",
+      "mom_export_locators": [
+        "752",
+        "867"
+      ],
+      "rationale": "Combine overlapping questions and identify the same pair of events.",
+      "draft_id": "C13-P08",
+      "number": 13,
+      "module": "m42531",
+      "id": "fs-id3159158",
+      "retained_prior_number": 4,
+      "source_comparison": [
+        "752",
+        "867"
+      ]
+    },
+    {
+      "draft_id": "C13-G1",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "What beta and gamma tell us",
+      "prompt": "For speed v, define β = v/c and γ = 1/√(1 − β²). (a) What ranges of β and γ are possible for an object with nonzero rest mass? (b) What do β = 0 and γ very close to 1 tell you? (c) Can γ exceed 1 even though β cannot?",
+      "answer_check": "For a massive object, 0 ≤ β < 1 and 1 ≤ γ < ∞. β=0 means rest in the chosen frame; γ close to 1 means low speed relative to c. Gamma is not a speed fraction and can be arbitrarily large.",
+      "mom_export_locators": [
+        "755",
+        "763",
+        "764"
+      ],
+      "rationale": "Turn lecture number-sense checks into a standalone question; define beta as speed, not signed velocity.",
+      "addition_kind": "gamma–beta expansion",
+      "proposed_number": 14,
+      "number": 14,
+      "module": "m42531",
+      "id": "c13-mom-c13-g1",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "755",
+        "763",
+        "764"
+      ]
+    },
+    {
+      "proposed_number": 15,
+      "section": "13.3",
+      "current_numbers": [
+        7,
+        8
+      ],
+      "title": "Build intuition for gamma",
+      "prompt": "Calculate γ = 1/√(1 − v²/c²) for v = 0.001c, 0.500c, and 0.99999999c. Keep enough digits in the first answer to show its difference from 1. What does the pattern tell you about ordinary speeds and speeds close to c?",
+      "answer_check": "1.000000500000375; 1.154700538; 7071.06782954. Effects are tiny at low speed; gamma grows sharply near c.",
+      "mom_export_locators": [
+        "763",
+        "850",
+        "851",
+        "854",
+        "755"
+      ],
+      "rationale": "Restore the homework’s full numerical range, without a time-sensitive accelerator claim. Interpret results as well as calculating them.",
+      "draft_id": "C13-P11",
+      "number": 15,
+      "module": "m42531",
+      "id": "fs-id1541351",
+      "retained_prior_number": 8,
+      "source_comparison": [
+        "763",
+        "850",
+        "851",
+        "854",
+        "755"
+      ]
+    },
+    {
+      "draft_id": "C13-G3",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Why the nines matter",
+      "prompt": "Calculate γ for β = 0.9999 and β = 0.99999, keeping all supplied digits. Approximately how many times larger is the second γ? Both speeds might round to c at low precision. Why would using that rounded value in the formula for γ be a serious error?",
+      "answer_check": "Gamma approximately 70.7124 and 223.6074; ratio approximately 3.1622. At β=1 the denominator vanishes, replacing two finite gamma values with a divergent limit.",
+      "mom_export_locators": [
+        "755",
+        "763"
+      ],
+      "rationale": "Adapt the lecture’s explicit four-nines/five-nines comparison to test numerical interpretation.",
+      "addition_kind": "gamma–beta expansion",
+      "proposed_number": 16,
+      "number": 16,
+      "module": "m42531",
+      "id": "c13-mom-c13-g3",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "755",
+        "763"
+      ]
+    },
+    {
+      "proposed_number": 17,
+      "section": "13.3",
+      "current_numbers": [
+        15,
+        16
+      ],
+      "title": "Speed from gamma",
+      "prompt": "Use v/c = √(1 − 1/γ²) to find the speeds corresponding to γ = 2.00 and γ = 12.0. Give enough digits to distinguish each speed from c. Can increasing γ make the speed of a massive object exceed c?",
+      "answer_check": "0.866025c and 0.996522c; no.",
+      "mom_export_locators": [
+        "764",
+        "852",
+        "853",
+        "755"
+      ],
+      "rationale": "Combine inverse-gamma drills; the near-one case now has its own question with a supplied approximation.",
+      "draft_id": "C13-P14",
+      "number": 17,
+      "module": "m42531",
+      "id": "fs-id1349718",
+      "retained_prior_number": 16,
+      "source_comparison": [
+        "764",
+        "852",
+        "853",
+        "755"
+      ]
+    },
+    {
+      "draft_id": "C13-G2",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Almost one can mean an everyday speed",
+      "prompt": "An object has γ = 1 + 5 × 10⁻¹⁵. Use the low-speed approximation γ − 1 ≈ β²/2 to estimate β and v, taking c = 3.00 × 10⁸ m/s. Compare the speed with everyday travel. Why would rounding γ to 1 before calculating give a misleading answer?",
+      "answer_check": "β approximately 10⁻⁷, v approximately 30 m/s (108 km/h). Rounding to 1 erases the small difference and incorrectly implies zero speed.",
+      "mom_export_locators": [
+        "764",
+        "755"
+      ],
+      "rationale": "Restore the homework’s near-unity case with the approximation supplied, so arbitrary-precision calculator handling is not the learning objective.",
+      "addition_kind": "gamma–beta expansion",
+      "proposed_number": 18,
+      "number": 18,
+      "module": "m42531",
+      "id": "c13-mom-c13-g2",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "764",
+        "755"
+      ]
+    },
+    {
+      "proposed_number": 19,
+      "section": "13.3",
+      "current_numbers": [
+        9
+      ],
+      "title": "Particle lifetimes at several speeds",
+      "prompt": "A hypothetical unstable particle has a mean lifetime of 2.00 μs in its rest frame. Predict whether its laboratory mean lifetime is longer or shorter, then calculate it for speeds 0.500c, 0.900c, and 0.9995c.",
+      "answer_check": "Longer: 2.3094 μs, 4.5883 μs, 63.2535 μs.",
+      "mom_export_locators": [
+        "765"
+      ],
+      "rationale": "Use one multipart forward calculation instead of several named-particle variants; state mean lifetime.",
+      "draft_id": "C13-P12",
+      "number": 19,
+      "module": "m42531",
+      "id": "fs-id1780163",
+      "retained_prior_number": 9,
+      "source_comparison": [
+        "765"
+      ]
+    },
+    {
+      "proposed_number": 20,
+      "section": "13.3",
+      "current_numbers": [
+        11
+      ],
+      "title": "Infer speed from lifetime",
+      "prompt": "A hypothetical unstable particle has a mean lifetime of 0.840 μs in its rest frame and 1.40 μs in the laboratory. Find γ and its laboratory speed as a fraction of c.",
+      "answer_check": "Gamma 1.6667; v = 0.800c.",
+      "mom_export_locators": [
+        "864",
+        "865"
+      ],
+      "rationale": "One inverse time-dilation question is sufficient; avoid relying on outdated particle lifetimes.",
+      "draft_id": "C13-P13",
+      "number": 20,
+      "module": "m42531",
+      "id": "fs-id1352226",
+      "retained_prior_number": 11,
+      "source_comparison": [
+        "864",
+        "865"
+      ]
+    },
+    {
+      "proposed_number": 21,
+      "section": "13.3",
+      "current_numbers": [
+        17
+      ],
+      "title": "Check a time-dilation claim",
+      "prompt": "For the same two ticks of a clock moving uniformly relative to a laboratory, the laboratory assigns an interval of 23.9 h while the moving clock records 24.0 h. Are these measurements consistent with special relativity? Explain without first calculating a speed.",
+      "answer_check": "No: the lab interval must be at least the proper interval, but 23.9/24.0 < 1.",
+      "mom_export_locators": [
+        "752",
+        "867"
+      ],
+      "rationale": "Convert Unreasonable Results into a direct conceptual consistency check; remove signal-arrival ambiguity.",
+      "draft_id": "C13-P15",
+      "number": 21,
+      "module": "m42531",
+      "id": "fs-id2723163",
+      "retained_prior_number": 17,
+      "source_comparison": [
+        "752",
+        "867"
+      ]
+    },
+    {
+      "proposed_number": 22,
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Reciprocal time dilation",
+      "prompt": "Alice and Bob move past one another at constant relative velocity, each carrying a clock. After accounting for light-travel time, can each measure the other’s clock as running slow? Explain why this is not a contradiction, referring to how the two frames compare distant clocks at the same time.",
+      "answer_check": "Yes. The frames have different simultaneity conventions for distant events, so the comparisons do not use the same pairings of clock readings.",
+      "mom_export_locators": [
+        "866",
+        "890",
+        "891"
+      ],
+      "rationale": "Important course essay/test topic absent from the current short conceptual set; do not demand Lorentz-transform algebra.",
+      "draft_id": "C13-P09",
+      "number": 22,
+      "module": "m42531",
+      "id": "c13-mom-c13-p09",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "866",
+        "890",
+        "891"
+      ]
+    },
+    {
+      "proposed_number": 23,
+      "section": "13.3",
+      "current_numbers": [
+        6
+      ],
+      "title": "Travel into the future",
+      "prompt": "How could a traveler return to Earth having aged much less than people who remained there? Would this also allow the traveler to return to Earth’s past? Explain.",
+      "answer_check": "A high-speed out-and-back trip accumulates less proper time; the turnaround makes worldlines asymmetric. This does not give travel into Earth’s past.",
+      "mom_export_locators": [
+        "890"
+      ],
+      "rationale": "Keep one accessible twin/travel interpretation.",
+      "draft_id": "C13-P10",
+      "number": 23,
+      "module": "m42531",
+      "id": "fs-id2790874",
+      "retained_prior_number": 6,
+      "source_comparison": [
+        "890"
+      ]
+    },
+    {
+      "proposed_number": 24,
+      "section": "13.4",
+      "current_numbers": [
+        18
+      ],
+      "title": "How to measure a moving length",
+      "prompt": "(a) Which frame measures an object’s proper length? How does its length measured in a frame where it moves along its length compare with its proper length? In which frame is this length greatest? (b) A rod moves to the right past a row of laboratory rulers. One student records the position of its left end, and another records the position of its right end. They subtract the two positions and report the result as the rod’s length in the laboratory frame. What information about how the measurements were made is missing? Explain how their procedure must be arranged to measure the rod’s length, and how recording the right end later than the left end would affect their result.",
+      "answer_check": "(a) The rest frame measures proper length, the greatest length along the motion; a frame in which the object moves measures L=L0/gamma. (b) The missing information is the timing of the endpoint measurements in the laboratory frame. Record both positions simultaneously in that frame. Recording the right end later while the rod moves right makes the position difference too large (by v times the delay for constant speed).",
+      "mom_export_locators": [
+        "753",
+        "891"
+      ],
+      "rationale": "Retain proper length and explicitly connect measurement to simultaneity.",
+      "draft_id": "C13-P16",
+      "number": 24,
+      "module": "m42535",
+      "id": "fs-id3088348",
+      "retained_prior_number": 18,
+      "source_comparison": [
+        "753",
+        "891"
+      ]
+    },
+    {
+      "draft_id": "C13-A5",
+      "section": "13.4",
+      "current_numbers": [],
+      "title": "Which dimension contracts?",
+      "prompt": "A rectangular spacecraft moves horizontally relative to a laboratory. Its length is parallel to the motion and its height is perpendicular to it. Which dimension does the laboratory measure as contracted? Does an astronaut at rest inside measure either dimension as contracted? Explain why “all moving objects get smaller in every direction” is incorrect.",
+      "answer_check": "Only the parallel dimension contracts. The comoving astronaut measures both rest dimensions. Length contraction is directional and frame dependent.",
+      "mom_export_locators": [
+        "753",
+        "766",
+        "849"
+      ],
+      "rationale": "Develop the direction-of-motion distinction tested by the length-contraction bank, without another numerical calculation.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 25,
+      "number": 25,
+      "module": "m42535",
+      "id": "c13-mom-c13-a5",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "753",
+        "766",
+        "849"
+      ]
+    },
+    {
+      "proposed_number": 26,
+      "section": "13.4",
+      "current_numbers": [],
+      "title": "Reciprocal metersticks",
+      "prompt": "Alice and Bob each carry a meterstick parallel to their relative motion. Their speed relative to one another is 0.800c. How long does Alice measure Bob’s stick to be? How long does Bob measure Alice’s? How can each observer measure the other’s stick as shorter than their own without a contradiction?",
+      "answer_check": "Each measures the other’s moving stick as 0.600 m and their own rest stick as 1.00 m. There is no contradiction: they measure lengths in different inertial frames, recording endpoints simultaneously in their own frame. These different simultaneity conditions do not select the same pair of endpoint events.",
+      "mom_export_locators": [
+        "766",
+        "849"
+      ],
+      "rationale": "Use the homework’s reciprocal contraction idea directly; no preliminary velocity-addition prerequisite or ladder-paradox label.",
+      "draft_id": "C13-P19",
+      "number": 26,
+      "module": "m42535",
+      "id": "c13-mom-c13-p19",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "766",
+        "849"
+      ]
+    },
+    {
+      "proposed_number": 27,
+      "section": "13.4",
+      "current_numbers": [
+        27
+      ],
+      "title": "Check a length claim",
+      "prompt": "An astronaut measures the proper length of her spacecraft as 25.0 m. An observer in a frame where the spacecraft moves along its length reports 100 m. Can both be valid length measurements? Explain without solving for a speed.",
+      "answer_check": "No; moving length cannot exceed proper length.",
+      "mom_export_locators": [
+        "753",
+        "849"
+      ],
+      "rationale": "Convert Unreasonable Results into a brief check of direction, not an impossible-speed calculation.",
+      "draft_id": "C13-P21",
+      "number": 27,
+      "module": "m42535",
+      "id": "fs-id2595222",
+      "retained_prior_number": 27,
+      "source_comparison": [
+        "753",
+        "849"
+      ]
+    },
+    {
+      "proposed_number": 28,
+      "section": "13.4",
+      "current_numbers": [
+        19
+      ],
+      "title": "Everyday correspondence",
+      "prompt": "Why are time dilation and length contraction hard to notice in everyday travel even though relativity applies to cars and airplanes? Explain in terms of γ and the recovery of classical predictions at low speeds.",
+      "answer_check": "v/c is tiny, gamma approximately 1; time and length changes are tiny. Relativistic formulas approach classical results.",
+      "mom_export_locators": [
+        "846",
+        "847",
+        "755"
+      ],
+      "rationale": "Keep a short conceptual correspondence question.",
+      "draft_id": "C13-P17",
+      "number": 28,
+      "module": "m42535",
+      "id": "fs-id2735759",
+      "retained_prior_number": 19,
+      "source_comparison": [
+        "846",
+        "847",
+        "755"
+      ]
+    },
+    {
+      "proposed_number": 29,
+      "section": "13.4",
+      "current_numbers": [
+        21
+      ],
+      "title": "Length of a passing spacecraft",
+      "prompt": "A spacecraft has a proper length of 200 m along its motion and passes Earth at 0.970c. What length does an Earth-frame observer measure? Does someone on board measure that same contracted length?",
+      "answer_check": "48.62 m on Earth; 200 m on board.",
+      "mom_export_locators": [
+        "848",
+        "849"
+      ],
+      "rationale": "One direct numerical length-contraction problem plus the own-frame distinction.",
+      "draft_id": "C13-P18",
+      "number": 29,
+      "module": "m42535",
+      "id": "fs-id2944255",
+      "retained_prior_number": 21,
+      "source_comparison": [
+        "848",
+        "849"
+      ]
+    },
+    {
+      "proposed_number": 30,
+      "section": "13.4",
+      "current_numbers": [
+        23
+      ],
+      "title": "One journey in two frames",
+      "prompt": "A muon moves through the laboratory at 0.950c and has a proper mean lifetime of 2.20 μs. (a) Find its mean lifetime and mean travel distance in the laboratory. (b) In the muon’s frame it stays at rest; how far does the laboratory move during that proper lifetime? (c) Verify the length-contraction relationship between the two distances. Use c = 3.00 × 10⁸ m/s.",
+      "answer_check": "Gamma 3.20256; lab lifetime 7.04564 μs; lab distance 2.00801 km; laboratory displacement magnitude in muon frame 0.627 km; 2.00801/3.20256=0.627.",
+      "mom_export_locators": [
+        "765",
+        "766",
+        "889"
+      ],
+      "rationale": "Keep one synthesis problem, self-contained; fix the misleading statement that a muon travels in its own rest frame.",
+      "draft_id": "C13-P20",
+      "number": 30,
+      "module": "m42535",
+      "id": "fs-id888555",
+      "retained_prior_number": 23,
+      "source_comparison": [
+        "765",
+        "766",
+        "889"
+      ]
+    },
+    {
+      "proposed_number": 31,
+      "section": "13.5",
+      "current_numbers": [],
+      "title": "Classical limit of velocity addition",
+      "prompt": "A truck moves at 30.0 m/s relative to the ground. A baseball pitcher standing in its bed throws a ball forward at 20.0 m/s relative to the truck. Use u = (v + u′)/(1 + vu′/c²) with c = 3.00 × 10⁸ m/s. Why does your result agree with 50.0 m/s to ordinary measurement precision, while simply adding velocities is unreliable for a spacecraft moving at a substantial fraction of c?",
+      "answer_check": "Denominator 1 + 6.67×10⁻¹⁵, so u approximately 50.0 m/s. Denominator correction is appreciable for relativistic speeds.",
+      "mom_export_locators": [
+        "767",
+        "846"
+      ],
+      "rationale": "Homework correspondence comparison; no need to resolve the tiny difference numerically.",
+      "draft_id": "C13-P24",
+      "number": 31,
+      "module": "m42540",
+      "id": "c13-mom-c13-p24",
+      "retained_prior_number": null,
+      "source_comparison": [
+        "767",
+        "846"
+      ]
+    },
+    {
+      "proposed_number": 32,
+      "section": "13.5",
+      "current_numbers": [
+        45,
+        46
+      ],
+      "title": "Light and velocity addition",
+      "prompt": "Substitute u′ = c into the relativistic velocity-addition formula and simplify. Repeat for u′ = −c. Explain how these results agree with Einstein’s second postulate for any frame speed |v| < c.",
+      "answer_check": "u = c and u = −c, respectively.",
+      "mom_export_locators": [
+        "767",
+        "762"
+      ],
+      "rationale": "Combine two near-identical proofs into one short consistency exercise.",
+      "draft_id": "C13-P25",
+      "number": 32,
+      "module": "m42540",
+      "id": "fs-id2651524",
+      "retained_prior_number": 45,
+      "source_comparison": [
+        "767",
+        "762"
+      ]
+    },
+    {
+      "proposed_number": 33,
+      "section": "13.5",
+      "current_numbers": [
+        33
+      ],
+      "title": "Forward and backward launch",
+      "prompt": "A spacecraft moves toward Earth at 0.750c. It launches a canister at 0.500c relative to itself, first toward Earth and then, in a separate trial, away from Earth. Choose motion toward Earth as positive. Find the canister’s Earth-frame velocity in each trial. Does the backward launch necessarily make it move away from Earth?",
+      "answer_check": "+0.90909c and +0.400c. Backward launch still moves toward Earth.",
+      "mom_export_locators": [
+        "767"
+      ],
+      "rationale": "Keep one signed two-direction application; trim the many inverse-launch variants.",
+      "draft_id": "C13-P23",
+      "number": 33,
+      "module": "m42540",
+      "id": "fs-id1357569",
+      "retained_prior_number": 33,
+      "source_comparison": [
+        "767"
+      ]
+    },
+    {
+      "proposed_number": 34,
+      "section": "13.5",
+      "current_numbers": [
+        29,
+        30,
+        31
+      ],
+      "title": "Qualitative Doppler shift",
+      "prompt": "For light emitted by a source moving directly away from an observer, is the observed wavelength longer or shorter than the emitted wavelength? What changes if the source approaches, or if their relative velocity is zero? Name the shifts.",
+      "answer_check": "Recession: longer, redshift; approach: shorter, blueshift; zero relative motion: no Doppler shift.",
+      "mom_export_locators": [],
+      "rationale": "One qualitative bridge to the retained text; Doppler calculations are not represented in the assigned weekly homework.",
+      "draft_id": "C13-P22",
+      "number": 34,
+      "module": "m42540",
+      "id": "fs-id1493354",
+      "retained_prior_number": 29,
+      "source_comparison": []
+    },
+    {
+      "proposed_number": 35,
+      "section": "13.6",
+      "current_numbers": [
+        48
+      ],
+      "title": "Momentum: what changes?",
+      "prompt": "Relativistic momentum is p = γmv. (a) For an isolated system, does the law of conservation of momentum still apply? (b) What does this expression become when v is much smaller than c? (c) For the same mass and velocity, what is the ratio of relativistic momentum to mv when γ = 2?",
+      "answer_check": "Conservation still applies using relativistic momentum. Low-speed limit mv. Ratio 2.",
+      "mom_export_locators": [
+        "756"
+      ],
+      "rationale": "The single momentum exercise: conservation, classical limit, and a simple ratio; no inverse-momentum calculation.",
+      "draft_id": "C13-P26",
+      "number": 35,
+      "module": "m42542",
+      "id": "fs-id1600733",
+      "retained_prior_number": 48,
+      "source_comparison": [
+        "756"
+      ]
+    },
+    {
+      "proposed_number": 36,
+      "section": "13.7",
+      "current_numbers": [
+        58,
+        61
+      ],
+      "title": "Mass changes and energy conservation",
+      "prompt": "After a nuclear reaction, the separated products can have less combined rest mass than the initial particles. How can energy still be conserved? Does releasing energy in a chemical reaction also correspond to a mass change, even if that change is much harder to measure?",
+      "answer_check": "A decrease in summed particle rest energies can appear as kinetic energy or radiation. Total energy is conserved; a closed system retaining the released energy has not lost total system mass. Chemical energy release also corresponds to Δm=ΔE/c², usually much smaller.",
+      "mom_export_locators": [
+        "862",
+        "756"
+      ],
+      "rationale": "Combine conservation and application; use a general reaction instead of copying the bank’s incomplete neutron-decay particle list.",
+      "draft_id": "C13-P27",
+      "number": 36,
+      "module": "m42546",
+      "id": "fs-id1563904",
+      "retained_prior_number": 58,
+      "source_comparison": [
+        "862",
+        "756"
+      ]
+    },
+    {
+      "proposed_number": 37,
+      "section": "13.7",
+      "current_numbers": [
+        65
+      ],
+      "title": "Rest, total, and kinetic energy",
+      "prompt": "An electron has mass 9.11 × 10⁻³¹ kg. (a) Calculate its rest energy in joules using c = 3.00 × 10⁸ m/s. (b) Express this rest energy in MeV, using 1 MeV = 1.602 × 10^−13 J. (c) If its Lorentz factor is 2.00, express its total energy and kinetic energy as multiples of that rest energy.",
+      "answer_check": "(a) E0=mc^2=8.199e-14 J, or 8.20e-14 J to three significant figures. (b) E0=0.51179775 MeV, or 0.512 MeV to three significant figures using the supplied rounded mass and speed of light. (c) E=2.00E0; K=(gamma-1)E0=1.00E0.",
+      "mom_export_locators": [
+        "756"
+      ],
+      "rationale": "One elementary energy calculation; makes the three energies distinct without additional unit-conversion or accelerator work.",
+      "draft_id": "C13-P28",
+      "number": 37,
+      "module": "m42546",
+      "id": "fs-id3084928",
+      "retained_prior_number": 65,
+      "source_comparison": [
+        "756"
+      ]
+    },
+    {
+      "proposed_number": 38,
+      "section": "13.7",
+      "current_numbers": [
+        62
+      ],
+      "title": "Speed limit, momentum, and energy",
+      "prompt": "As the speed of an object with nonzero rest mass approaches c, what happens to γ, its momentum, and its total energy? Why does adding energy not allow it to reach or exceed c?",
+      "answer_check": "All grow without bound as v approaches c; reaching c requires unbounded energy.",
+      "mom_export_locators": [
+        "756",
+        "755"
+      ],
+      "rationale": "Retain the essential qualitative high-speed conclusion.",
+      "draft_id": "C13-P29",
+      "number": 38,
+      "module": "m42546",
+      "id": "fs-id2634587",
+      "retained_prior_number": 62,
+      "source_comparison": [
+        "756",
+        "755"
+      ]
+    },
+    {
+      "proposed_number": 39,
+      "section": "13.7",
+      "current_numbers": [
+        63
+      ],
+      "title": "A photon with no rest mass",
+      "prompt": "A photon has zero rest mass. Does that mean it must have zero energy and zero momentum? Use E² = (pc)² + (mc²)² to explain.",
+      "answer_check": "No; with m=0, E=c|p|, or E=pc if p denotes momentum magnitude.",
+      "mom_export_locators": [
+        "756"
+      ],
+      "rationale": "Minimal link to the earlier light/quantum material, without an energy–momentum derivation.",
+      "draft_id": "C13-P30",
+      "number": 39,
+      "module": "m42546",
+      "id": "fs-id2834533",
+      "retained_prior_number": 63,
+      "source_comparison": [
+        "756"
+      ]
+    }
+  ],
+  "inline_checks_preserved": 5,
+  "answers": "Internal editorial checks only; no new public solution key added."
+}

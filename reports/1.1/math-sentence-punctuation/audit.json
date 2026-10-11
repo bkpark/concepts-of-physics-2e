@@ -1,0 +1,6742 @@
+{
+  "summary": {
+    "expressions_audited": 6726,
+    "separated": 836,
+    "modules_changed": 98,
+    "retained_candidates": 6
+  },
+  "moved": [
+    {
+      "module": "m42235",
+      "index": 4,
+      "object": "eip-688",
+      "text": "Eff=Qh−QcQh=1−QcQh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42235",
+      "index": 8,
+      "object": "eip-268",
+      "text": "EffC=1−TcTh,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42235",
+      "index": 28,
+      "object": "eip-744",
+      "text": "EffC=1−TcTh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42235",
+      "index": 29,
+      "object": "eip-624",
+      "text": "EffC=1−300K573K=0.476=47.6%.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42236",
+      "index": 25,
+      "object": "eip-462",
+      "text": "COPhp=QhW.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42236",
+      "index": 44,
+      "object": "eip-351",
+      "text": "EffC=1−TcTh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42236",
+      "index": 47,
+      "object": "eip-378",
+      "text": "EffC=1−258K318K=0.1887.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42236",
+      "index": 48,
+      "object": "eip-980",
+      "text": "COPhp=1Eff=10.1887=5.30,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42236",
+      "index": 49,
+      "object": "eip-643",
+      "text": "COPhp=QhW=5.30,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42236",
+      "index": 50,
+      "object": "eip-969",
+      "text": "Qh=5.30W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42236",
+      "index": 58,
+      "object": "fs-id1169736588910",
+      "text": "COPref=QcW.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42236",
+      "index": 74,
+      "object": "eip-683",
+      "text": "\nEER\n          \n=\n        \nQ\n             \nc\n               \n/\n            \nt\n             \n1\n               \nW\n            \n/\n            \nt\n             \n2\n                 \n,\n       ",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42238",
+      "index": 25,
+      "object": "eip-291",
+      "text": "S=kB lnW,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42238",
+      "index": 34,
+      "object": "eip-id1923841",
+      "text": "S=kBlnW,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42356",
+      "index": 18,
+      "object": "eip-72",
+      "text": "V=V1+V2+V3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 24,
+      "object": "eip-77",
+      "text": "Ediss=qV1+qV2+qV3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 28,
+      "object": "eip-803",
+      "text": "V=IR1+IR2+IR3=I(R1+R2+R3).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 30,
+      "object": "eip-58",
+      "text": "V=IRs.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 34,
+      "object": "eip-288",
+      "text": "Rs=R1+R2+R3+...,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42356",
+      "index": 39,
+      "object": "eip-138",
+      "text": "Rs=R1+R2+R3=1.00Ω+6.00Ω+13.0Ω=20.0 Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 41,
+      "object": "eip-343",
+      "text": "I=VRs=12.0 V20.0 Ω=0.600 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 42,
+      "object": "eip-106",
+      "text": "V1=IR1=(0.600A)(1.0Ω)=0.600V.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 44,
+      "object": "eip-917",
+      "text": "V3=IR3=(0.600A)(13.0Ω)=7.80V.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 46,
+      "object": "eip-359",
+      "text": "V1+V2+V3=(0.600+3.60+7.80)V=12.0V.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 50,
+      "object": "eip-839",
+      "text": "P1=I2R1=(0.600 A)2(1.00Ω)=0.360 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 52,
+      "object": "eip-997",
+      "text": "P3=I2R3=(0.600 A)2(13.0Ω)=4.68 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 58,
+      "object": "eip-271",
+      "text": "P=(0.600 A)(12.0 V)=7.20 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 59,
+      "object": "eip-698",
+      "text": "P1+P2+P3=(0.360+2.16+4.68)W=7.20 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 60,
+      "object": "import-auto-id2514884",
+      "text": "Rs=R1+R2+R3+....",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 66,
+      "object": "eip-801",
+      "text": "I=I1+I2+I3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 67,
+      "object": "eip-779",
+      "text": "I=VR1+VR2+VR3=V(1R1+1R2+1R3).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 68,
+      "object": "eip-553",
+      "text": "I=VRp=V(1Rp).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 76,
+      "object": "eip-319",
+      "text": "1Rp=1R1+1R2+1R3=11.00Ω+16.00Ω+113.0Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 77,
+      "object": "eip-406",
+      "text": "1Rp=1.00 Ω+0.1667Ω+0.07692Ω=1.2436Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 79,
+      "object": "eip-581",
+      "text": "Rp=11.2436Ω=0.8041Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 80,
+      "object": "import-auto-id3077088",
+      "text": "Rp=0.804Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 83,
+      "object": "eip-481",
+      "text": "I=VRp=12.0V0.8041Ω=14.92A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 85,
+      "object": "eip-477",
+      "text": "I1=VR1=12.0 V1.00 Ω=12.0 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 87,
+      "object": "eip-639",
+      "text": "I3=VR3=12.0 V13.0 Ω=0.92 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 88,
+      "object": "eip-684",
+      "text": "I1+I2+I3=14.92 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 90,
+      "object": "eip-610",
+      "text": "P1=V2R1=(12.0 V)21.00 Ω=144 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 92,
+      "object": "eip-326",
+      "text": "P3=V2R3=(12.0 V)213.0 Ω=11.1 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 94,
+      "object": "eip-215",
+      "text": "P=IV=(14.92A)(12.0V)=179W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 95,
+      "object": "eip-286",
+      "text": "P1+P2+P3=144W+24.0W+11.1W=179W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 114,
+      "object": "eip-178",
+      "text": "Rtot=R1+Rp.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 116,
+      "object": "eip-7",
+      "text": "1Rp=1R2+1R3=16.00Ω+113.0Ω=0.2436Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 117,
+      "object": "eip-671",
+      "text": "Rp=10.2436Ω=4.11Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 118,
+      "object": "eip-114",
+      "text": "Rtot=R1+Rp=1.00Ω+4.11 Ω=5.11 Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 124,
+      "object": "eip-177",
+      "text": "V1=IR1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 128,
+      "object": "eip-262",
+      "text": "I=VRtot=12.0 V5.11 Ω=2.35A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 129,
+      "object": "eip-316",
+      "text": "V1=IR1=(2.35A)(1.00Ω)=2.35V.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 140,
+      "object": "eip-984",
+      "text": "Vp=V−V1=12.0 V−2.35 V=9.65 V.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 143,
+      "object": "eip-376",
+      "text": "I2=VpR2=9.65V6.00 Ω=1.61 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 146,
+      "object": "eip-12",
+      "text": "P2=(I2)2R2=(1.61 A)2(6.00Ω)=15.5 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42356",
+      "index": 150,
+      "object": "fs-id1439066",
+      "text": "Rs=R1+R2+R3+....",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 11,
+      "object": "eip-392",
+      "text": "Δt0=2Dc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 13,
+      "object": "eip-333",
+      "text": "Δt=2sc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 19,
+      "object": "eip-964",
+      "text": "L=vΔt2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 21,
+      "object": "eip-874",
+      "text": "s=D2+(vΔt2)2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 24,
+      "object": "eip-238",
+      "text": "Δt=2sc=2D2+(vΔt2)2c.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 25,
+      "object": "eip-401",
+      "text": "(Δt)2=4(D2+v2(Δt)24)c2=4D2c2+v2c2(Δt)2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 28,
+      "object": "eip-784",
+      "text": "(Δt)2=(Δt0)2+v2c2(Δt)2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 30,
+      "object": "eip-285",
+      "text": "(Δt)2(1−v2c2)=(Δt0)2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 31,
+      "object": "eip-927",
+      "text": "(Δt)2=(Δt0)21−v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 32,
+      "object": "eip-467",
+      "text": "Δt=Δt01−v2c2=γΔt0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42531",
+      "index": 33,
+      "object": "eip-427",
+      "text": "γ=11−v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 62,
+      "object": "eip-544",
+      "text": "Δt=γΔt0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42531",
+      "index": 63,
+      "object": "eip-201",
+      "text": "γ=11−v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 65,
+      "object": "eip-216",
+      "text": "γ=11−v2c2=11−(0.950c)2c2=11−(0.950)2=3.20.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42531",
+      "index": 85,
+      "object": "eip-id3262203",
+      "text": "Δt=Δt01−v2c2=γΔt0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42531",
+      "index": 86,
+      "object": "eip-id2755919",
+      "text": "γ=11−v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 5,
+      "object": "eip-933",
+      "text": "L=vΔt0=(0.950)(3.00×108 m/s)(2.20×10−6 s)=0.627km.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 9,
+      "object": "eip-10",
+      "text": "v=L0Δt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 11,
+      "object": "eip-141",
+      "text": "v=LΔt0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 13,
+      "object": "eip-950",
+      "text": "L0Δt=LΔt0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 15,
+      "object": "eip-440",
+      "text": "L=L0γ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 18,
+      "object": "eip-772",
+      "text": "L=L01−v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 42,
+      "object": "eip-554",
+      "text": "v2c2=1−1900.0=0.99888....",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 43,
+      "object": "eip-711",
+      "text": "vc=0.99944,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42535",
+      "index": 44,
+      "object": "eip-842",
+      "text": "v=0.9994c.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42535",
+      "index": 53,
+      "object": "eip-584",
+      "text": "L=L01−v2c2=L0γ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42540",
+      "index": 16,
+      "object": "eip-716",
+      "text": "u=v+u′1+vu′c2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42540",
+      "index": 54,
+      "object": "eip-158",
+      "text": "=λobs=λs1+uc1−uc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42540",
+      "index": 59,
+      "object": "eip-73",
+      "text": "fobs=fs1−uc1+uc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42540",
+      "index": 66,
+      "object": "eip-52",
+      "text": "λobs=λs1+uc1−uc=(0.525m)1+0.825cc1−0.825cc=1.70 m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42542",
+      "index": 3,
+      "object": "eip-839",
+      "text": "p=γmu,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42542",
+      "index": 6,
+      "object": "eip-id3242126",
+      "text": "γ=11−u2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42542",
+      "index": 41,
+      "object": "import-auto-id2719096",
+      "text": "4.48×−10−19 kg⋅m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42542",
+      "index": 45,
+      "object": "import-auto-id2719508",
+      "text": "1.00kg⋅m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 2,
+      "object": "eip-198",
+      "text": "E=γmc2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42546",
+      "index": 12,
+      "object": "eip-594",
+      "text": "E0=mc2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 19,
+      "object": "eip-694",
+      "text": "E0=9.00×1013J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 37,
+      "object": "eip-951",
+      "text": "Δm=PEelecc2=qVc2=(It)Vc2=(600A⋅h)(12.0V)(3.00×108)2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 40,
+      "object": "import-auto-id1998022",
+      "text": "Δm=2.88×10−10 kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 44,
+      "object": "eip-961",
+      "text": "% increase=Δmm×100%=2.88×10−10 kg20.0kg×100%=1.44×10−9%.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 48,
+      "object": "eip-995",
+      "text": "Wnet=KE.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 51,
+      "object": "eip-888",
+      "text": "Wnet=E−E0=γmc2−mc2=(γ−1)mc2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 53,
+      "object": "eip-748",
+      "text": "KErel=(γ−1)mc2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 55,
+      "object": "eip-707",
+      "text": "γ=11−v2c2=1,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42546",
+      "index": 59,
+      "object": "eip-928",
+      "text": "γ=1+12v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 61,
+      "object": "eip-626",
+      "text": "γ−1=12v2c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 62,
+      "object": "eip-962",
+      "text": "KErel=[12v2c2]mc2=12mv2=KEclass.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 95,
+      "object": "eip-514",
+      "text": "KEclass=p22m=(mv)22m=12mv2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42546",
+      "index": 96,
+      "object": "eip-832",
+      "text": "E2=(pc)2+(mc2)2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42546",
+      "index": 105,
+      "object": "import-auto-id1357067",
+      "text": "E2=(pc)2+(mc2)2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42546",
+      "index": 111,
+      "object": "import-auto-id1357067",
+      "text": "E2=(pc)2+(mc2)2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42649",
+      "index": 31,
+      "object": "import-auto-id2401839",
+      "text": "99mTc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42674",
+      "index": 97,
+      "object": "eip-112",
+      "text": "μ−→e−+v¯e+vμ,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42674",
+      "index": 102,
+      "object": "eip-332",
+      "text": "τ−→μ−+v¯μ+vτ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m42680",
+      "index": 32,
+      "object": "import-auto-id1169737946155",
+      "text": "W+,W−,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42699",
+      "index": 209,
+      "object": "import-auto-id1169737762674",
+      "text": "α,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42699",
+      "index": 232,
+      "object": "import-auto-id1169737762674",
+      "text": "α,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m42699",
+      "index": 234,
+      "object": "import-auto-id1169737762674",
+      "text": "α,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52314",
+      "index": 1,
+      "object": "eip-458",
+      "text": "Δx=xf−x0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52314",
+      "index": 15,
+      "object": "eip-556",
+      "text": "Δx=xf−x0=3.5m−1.5m=+2.0m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52314",
+      "index": 18,
+      "object": "eip-778",
+      "text": "Δx=xf−x0=2.0m−6.0m=−4.0m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52314",
+      "index": 24,
+      "object": "fs-id2929393",
+      "text": "Δx=xf−x0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52364",
+      "index": 10,
+      "object": "import-auto-id1560689",
+      "text": "180/100=9/5.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52368",
+      "index": 9,
+      "object": "import-auto-id1738243",
+      "text": "1.000kcal=4186J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52368",
+      "index": 12,
+      "object": "import-auto-id2454069",
+      "text": "1.00 kcal=4186 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52381",
+      "index": 1,
+      "object": "eip-717",
+      "text": "|qe|=1.60×10−19C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52381",
+      "index": 4,
+      "object": "eip-823",
+      "text": "1.00C×1proton1.60×10−19C=6.25×1018protons.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52381",
+      "index": 16,
+      "object": "eip-633",
+      "text": "|qe|=1.60×10−19C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52384",
+      "index": 1,
+      "object": "eip-575",
+      "text": "F=k|q1q2|r2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52384",
+      "index": 7,
+      "object": "eip-538",
+      "text": "k=8.988×109N⋅m2C2≈8.99×109N⋅m2C2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52384",
+      "index": 20,
+      "object": "eip-589",
+      "text": "F=8.19× 10−8N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52384",
+      "index": 22,
+      "object": "eip-272",
+      "text": "FG=GmMr2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52384",
+      "index": 27,
+      "object": "eip-601",
+      "text": "FFG= 2.27 × 1039.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52384",
+      "index": 28,
+      "object": "eip-467",
+      "text": "F=k|q1q2|r2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52385",
+      "index": 22,
+      "object": "eip-853",
+      "text": "E=Fq,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52385",
+      "index": 34,
+      "object": "eip-588",
+      "text": "E=|Fq|=k|qQqr2|=k|Q|r2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52385",
+      "index": 35,
+      "object": "eip-222",
+      "text": "E=k|Q|r2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52385",
+      "index": 43,
+      "object": "eip-380",
+      "text": "E=kQr2=(8.99×109N⋅m2C2)×(2.00×10−9C)(5.00×10−3m)2=7.19×105N/C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52385",
+      "index": 51,
+      "object": "eip-502",
+      "text": "F=−qE=(0.250×10−6C)(7.20×105N/C)=0.180 N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52385",
+      "index": 61,
+      "object": "eip-915",
+      "text": "E=k|Q|r2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 3,
+      "object": "eip-103",
+      "text": "I∝V.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 5,
+      "object": "eip-593",
+      "text": "I∝1R.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 6,
+      "object": "eip-218",
+      "text": "I=VR.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 13,
+      "object": "eip-702",
+      "text": "1Ω=1VA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 17,
+      "object": "eip-77",
+      "text": "R=VI=12.0V2.50A= 4.80Ω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 23,
+      "object": "import-auto-id1170614029067",
+      "text": "V,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52401",
+      "index": 24,
+      "object": "eip-486",
+      "text": "V=IR.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52401",
+      "index": 32,
+      "object": "import-auto-id1170614029788",
+      "text": "I=VR.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 4,
+      "object": "eip-517",
+      "text": "P=PEt=qVt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 7,
+      "object": "eip-489",
+      "text": "P=IV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 19,
+      "object": "eip-572",
+      "text": "P=I2R.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 24,
+      "object": "eip-946",
+      "text": "P=IV=(2.50A)(12.0V)= 30.0 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 36,
+      "object": "eip-783",
+      "text": "E=Pt=(60W)(1000h)=60,000W⋅ h.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 37,
+      "object": "eip-379",
+      "text": "E=60.0kW·h.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 38,
+      "object": "eip-887",
+      "text": "cost=(60.0kW·h)($0.12kW·h)=$7.20.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 41,
+      "object": "eip-343",
+      "text": "P=IV,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52402",
+      "index": 42,
+      "object": "eip-520",
+      "text": "P=V2R,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52402",
+      "index": 43,
+      "object": "import-auto-id2010343",
+      "text": "P=I2R.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52402",
+      "index": 46,
+      "object": "import-auto-id2055643",
+      "text": "E=Pt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52414",
+      "index": 30,
+      "object": "import-auto-id2091790",
+      "text": "1T=1NC⋅m/s=1NA⋅m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52414",
+      "index": 40,
+      "object": "import-auto-id1033962",
+      "text": "B?",
+      "decision": "sentence-punctuation",
+      "punctuation": "?"
+    },
+    {
+      "module": "m52416",
+      "index": 11,
+      "object": "eip-987",
+      "text": "F=(nqAvd)(lB).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52416",
+      "index": 18,
+      "object": "import-auto-id1166991856543",
+      "text": "Fl=IB.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52416",
+      "index": 31,
+      "object": "eip-202",
+      "text": "F=IlB=(20.0A)(0.0500m)(1.50T).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52416",
+      "index": 33,
+      "object": "eip-547",
+      "text": "F=1.50 N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52416",
+      "index": 34,
+      "object": "eip-id1168952532169",
+      "text": "F=IlB,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52420",
+      "index": 14,
+      "object": "eip-887",
+      "text": "I=2πrBμ0=2π(5.0×10−2m)(1.0×10−4T)4π×10−7T⋅m/A=25 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52420",
+      "index": 27,
+      "object": "eip-509",
+      "text": "n=Nl=20002.00m=1000 m−1=10 cm−1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52420",
+      "index": 28,
+      "object": "eip-760",
+      "text": "B=μ0nI=(4π×10−7T⋅mA)(1000m)(1600A)=2.01 T.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 4,
+      "object": "eip-946",
+      "text": "Vs=−NsΔΦΔt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52427",
+      "index": 10,
+      "object": "eip-490",
+      "text": "Vp=−NpΔΦΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 12,
+      "object": "eip-885",
+      "text": "VsVp=NsNp.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 13,
+      "object": "eip-25",
+      "text": "Pp=IpVp=IsVs=Ps.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 14,
+      "object": "eip-42",
+      "text": "VsVp=IpIs.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 19,
+      "object": "eip-757",
+      "text": "Ns=NpVsVp=(50)100,000V120V=4.17×104.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 22,
+      "object": "eip-361",
+      "text": "Is=IpNpNs=(10.00A)504.17×104=12.0mA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 27,
+      "object": "eip-63",
+      "text": "Ns=NpVsVp=(200)15.0V120V=25.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 30,
+      "object": "eip-981",
+      "text": "Ip=IsNsNp=(16.0A)25200=2.00A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52427",
+      "index": 32,
+      "object": "eip-779",
+      "text": "VsVp=NsNp,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52443",
+      "index": 1,
+      "object": "eip-686",
+      "text": "c=3.00×108m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52454",
+      "index": 3,
+      "object": "eip-705",
+      "text": "c=2.99792458×108 m/s≈3.00×108 m/s,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52454",
+      "index": 6,
+      "object": "eip-931",
+      "text": "n=cv,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52454",
+      "index": 28,
+      "object": "eip-177",
+      "text": "v=cn.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52454",
+      "index": 30,
+      "object": "eip-293",
+      "text": "v=3.00×108 m/s1.923=1.56×108 m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52454",
+      "index": 31,
+      "object": "import-auto-id1163675086606",
+      "text": "c=2.99792458×108 m/s≈3.00×108 m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 9,
+      "object": "eip-618",
+      "text": "1u=1.6605×10−27kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 17,
+      "object": "eip-940",
+      "text": "E=mc2=(938.27 MeV/c2)c2=938.27 MeV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 18,
+      "object": "eip-196",
+      "text": "1u=931.5 MeV/c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 19,
+      "object": "eip-10",
+      "text": "XNZA,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52466",
+      "index": 33,
+      "object": "eip-356",
+      "text": "A=N+Z,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52466",
+      "index": 67,
+      "object": "eip-442",
+      "text": "XA,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52466",
+      "index": 79,
+      "object": "eip-310",
+      "text": "r=r0A1/3,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52466",
+      "index": 88,
+      "object": "eip-id1166743654688",
+      "text": "r=r0A1/3,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52466",
+      "index": 93,
+      "object": "eip-481",
+      "text": "r=r0A1/3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 96,
+      "object": "eip-872",
+      "text": "r=(1.2fm)(56)13=(1.2fm)(3.83)=4.6fm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 99,
+      "object": "eip-216",
+      "text": "ρ=mV=m(4/3)πr3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 100,
+      "object": "eip-437",
+      "text": "ρ=56u(1.33)(3.14)(4.6fm)3=0.138u/fm3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 102,
+      "object": "eip-317",
+      "text": "ρ=(0.138 u/fm3)(1.66×10−27kg/u)(1fm10−15m)=2.3×1017kg/m3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 124,
+      "object": "eip-120",
+      "text": "1u=1.6605×10−27 kg=931.5MeV/c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 130,
+      "object": "eip-760",
+      "text": "A=N+Z.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52466",
+      "index": 134,
+      "object": "eip-229",
+      "text": "r=r0A1/3,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 22,
+      "object": "eip-435",
+      "text": "N=N0e−λt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 29,
+      "object": "eip-732",
+      "text": "λ=ln(2)t1/2≈0.693t1/2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 53,
+      "object": "eip-110",
+      "text": "NN0=e−λt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 54,
+      "object": "eip-434",
+      "text": "0.92=e−λt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 56,
+      "object": "eip-940",
+      "text": "−0.0834=−λt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 58,
+      "object": "eip-716",
+      "text": "t=0.0834λ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 63,
+      "object": "eip-838",
+      "text": "λ=0.693t1/2=0.6935730y.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 65,
+      "object": "eip-995",
+      "text": "t=0.08340.6935730y=690 y.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 76,
+      "object": "eip-271",
+      "text": "1Bq=1 decay/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 79,
+      "object": "eip-90",
+      "text": "1Ci=3.70×1010 Bq,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 102,
+      "object": "eip-999",
+      "text": "N(C12)=6.02×1023mol−112.0g/mol×(1000 g)=5.02×1025.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 104,
+      "object": "eip-367",
+      "text": "N(C14)=(5.02×1025)(1.3×10−12)=6.52×1013.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 107,
+      "object": "eip-515",
+      "text": "R=0.693(6.52×1013)5730y=7.89×109y−1,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 109,
+      "object": "eip-403",
+      "text": "R=(7.89×109y−1)1.00y3.16×107 s=250 Bq,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 111,
+      "object": "eip-172",
+      "text": "R=250Bq3.7×1010 Bq/Ci=6.76×10−9 Ci.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 112,
+      "object": "eip-478",
+      "text": "R=6.76nCi.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 132,
+      "object": "eip-92",
+      "text": "N=Rt1/20.693.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 133,
+      "object": "eip-702",
+      "text": "N=(6.0 MCi)(30.2y)0.693.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 134,
+      "object": "eip-857",
+      "text": "N=(6.0×106 Ci)(3.7×1010 Bq/Ci)(30.2y)(3.16×107 s/y)0.693=3.1×1026.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 140,
+      "object": "eip-187",
+      "text": "m=(137g6.02 ×1023)(3.1×1026)=70×103 g=70kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 146,
+      "object": "eip-874",
+      "text": "R=R0e−λt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 153,
+      "object": "eip-693",
+      "text": "N=N0e−λt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52471",
+      "index": 157,
+      "object": "eip-705",
+      "text": "λ=ln(2)t1/2≈0.693t1/2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 159,
+      "object": "eip-723",
+      "text": "R=ΔNΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 161,
+      "object": "eip-822",
+      "text": "1Bq=1 decay/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 163,
+      "object": "fs-id1328249",
+      "text": "1Ci=3.70×1010 Bq.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 167,
+      "object": "eip-807",
+      "text": "R=0.693Nt1/2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52471",
+      "index": 170,
+      "object": "eip-166",
+      "text": "R=R0e−λt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52479",
+      "index": 17,
+      "object": "eip-319",
+      "text": "mproducts=94.919388u+139.921610u+3(1.008665u)=237.866993 u.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 20,
+      "object": "eip-931",
+      "text": "Δm=238.050784u−237.8669933u=0.183791u,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52479",
+      "index": 21,
+      "object": "eip-179",
+      "text": "E=(Δm)c2=(0.183791u)931.5 MeV/c2uc2=171.2 MeV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 25,
+      "object": "eip-459",
+      "text": "n+AX→FF1+FF2+xn,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52479",
+      "index": 31,
+      "object": "eip-899",
+      "text": "n+92235U→Ba56142+Kr3691+3n.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 70,
+      "object": "eip-689",
+      "text": "(4.25mol)(6.02×1023235U/mol)=2.56×1024U235.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 71,
+      "object": "eip-957",
+      "text": "E=(2.56×1024U235)(200MeVU235)(1.60×10−13JMeV)= 8.21×1013J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 77,
+      "object": "eip-180",
+      "text": "U238+n→U239+γ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 79,
+      "object": "eip-890",
+      "text": "U239→Np239+β−+ve (t1/2=23min).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 81,
+      "object": "eip-412",
+      "text": "Np239→Pu239+β−+ve (t1/2=2.4d).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52479",
+      "index": 91,
+      "object": "eip-id1725656",
+      "text": "n+238U→Sr 96+Xe140+3n,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52479",
+      "index": 94,
+      "object": "eip-id1167653469510",
+      "text": "n+235U→Kr92+Ba142+2n,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52479",
+      "index": 97,
+      "object": "eip-id2132620",
+      "text": "n+239Pu→Sr96+140Ba+4n,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52480",
+      "index": 21,
+      "object": "eip-816",
+      "text": "H 2+2H →He 4+γ           (23.85 MeV).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52480",
+      "index": 27,
+      "object": "eip-291",
+      "text": "n+1H →H2+γ       (2.22 MeV).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52480",
+      "index": 34,
+      "object": "eip-812",
+      "text": "(198.8mol)(6.02×1023mol−1)=1.20×1026reactions.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52480",
+      "index": 35,
+      "object": "eip-817",
+      "text": "E=(1.20×1026reactions)(17.59 MeV/reaction)(1.602×10−13J/MeV)=3.37×1014J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52480",
+      "index": 37,
+      "object": "eip-674",
+      "text": "P=Et=3.37×1014J3.16×107s=1.07×107W=10.7MW.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52480",
+      "index": 42,
+      "object": "eip-347",
+      "text": "2e−+4H1→He4+2ve+6γ             (26.7 MeV),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52480",
+      "index": 44,
+      "object": "import-auto-id1410343",
+      "text": "H2+2H→He 3+n?",
+      "decision": "sentence-punctuation",
+      "punctuation": "?"
+    },
+    {
+      "module": "m52480",
+      "index": 46,
+      "object": "import-auto-id2615447",
+      "text": "H 1+1H →H2+e++ve,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52480",
+      "index": 47,
+      "object": "import-auto-id2622168",
+      "text": "H1+2H→He 3+γ,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m52480",
+      "index": 48,
+      "object": "import-auto-id1361870",
+      "text": "He 3+3He→He4+1H+1H.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m52480",
+      "index": 60,
+      "object": "import-auto-id1429049",
+      "text": "C12+1H →N13+γ,N 13→C13+e++ve,C 13+1H →N14+γ,N14+1H →O15+γ,O 15→N15+e++ve,N15+1H →C12+4He.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 10,
+      "object": "import-auto-id1577727",
+      "text": "4.5×102.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 13,
+      "object": "import-auto-id1577727",
+      "text": "102.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 14,
+      "object": "import-auto-id1577727",
+      "text": "10−10 m,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67032",
+      "index": 15,
+      "object": "import-auto-id1577727",
+      "text": "109 m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 49,
+      "object": "eip-442",
+      "text": "80m×1km1000m=0.080 km.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 50,
+      "object": "eip-389",
+      "text": "average speed=distancetime.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 51,
+      "object": "eip-702",
+      "text": "average speed=10.0km20.0min=0.500kmmin.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 53,
+      "object": "eip-583",
+      "text": "average speed=0.500kmmin×60min1h=30.0kmh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67032",
+      "index": 54,
+      "object": "eip-593",
+      "text": "kmmin×1hr60min=160km⋅hrmin2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67032",
+      "index": 55,
+      "object": "eip-790",
+      "text": "Average speed=30.0kmh×1h3,600s×1,000m1km,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67032",
+      "index": 56,
+      "object": "eip-130",
+      "text": "Average speed=8.33ms.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67033",
+      "index": 1,
+      "object": "import-auto-id4040806",
+      "text": "a¯=ΔvΔt=vf−v0tf−t0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67033",
+      "index": 19,
+      "object": "import-auto-id2400983",
+      "text": "a¯=ΔvΔt=−15.0m/s1.80s=−8.33m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67033",
+      "index": 42,
+      "object": "import-auto-id2585505",
+      "text": "−1.5 km.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67033",
+      "index": 60,
+      "object": "import-auto-id2596926",
+      "text": "a¯=ΔvΔt=(−30.0km/h8.00s)(103 m1km)(1h3600s)=−1.04m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67033",
+      "index": 73,
+      "object": "import-auto-id2581122",
+      "text": "Δv=vf−v0=0−(−20km/h)=+20km/h.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67033",
+      "index": 80,
+      "object": "import-auto-id2412659",
+      "text": "a¯=ΔvΔt=vf−v0tf−t0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 13,
+      "object": "import-auto-id1819116",
+      "text": "a¯=a=constant,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67034",
+      "index": 18,
+      "object": "import-auto-id1782525",
+      "text": "v¯=ΔxΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 21,
+      "object": "import-auto-id4145482",
+      "text": "v¯=x−x0t.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 23,
+      "object": "import-auto-id2297251",
+      "text": "x=x0+v¯t,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67034",
+      "index": 24,
+      "object": "import-auto-id2086556",
+      "text": "v¯=v0+v2(constant a).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 28,
+      "object": "import-auto-id4152098",
+      "text": "v¯=v0+v2=30km/h+60km/h2=45 km/h,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67034",
+      "index": 30,
+      "object": "import-auto-id2168543",
+      "text": "x=x0+v¯t.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 47,
+      "object": "import-auto-id1962571",
+      "text": "a=v−v0t(constanta).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 49,
+      "object": "import-auto-id2168495",
+      "text": "v=v0+at(constanta).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 61,
+      "object": "import-auto-id2166975",
+      "text": "v=v0+at.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 63,
+      "object": "import-auto-id1689620",
+      "text": "v0+v2=v0+12at.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 65,
+      "object": "import-auto-id2301379",
+      "text": "v¯=v0+12at.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 68,
+      "object": "import-auto-id1807031",
+      "text": "x=x0+v0t+12at2(constant a).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 81,
+      "object": "import-auto-id2171407",
+      "text": "x=x0+v0t+12at2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 82,
+      "object": "import-auto-id2171445",
+      "text": "x=12at2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 85,
+      "object": "import-auto-id2169820",
+      "text": "x=12(26.0m/s2)(5.56s)2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67034",
+      "index": 86,
+      "object": "import-auto-id2171362",
+      "text": "x=402 m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 87,
+      "object": "import-auto-id2180290",
+      "text": "x=x0+v0t+12at2?",
+      "decision": "sentence-punctuation",
+      "punctuation": "?"
+    },
+    {
+      "module": "m67034",
+      "index": 94,
+      "object": "import-auto-id2365760",
+      "text": "t=v−v0a.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 97,
+      "object": "import-auto-id1659227",
+      "text": "v2=v02+2a(x−x0)(constanta).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 103,
+      "object": "import-auto-id4152013",
+      "text": "v.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 104,
+      "object": "import-auto-id1680164",
+      "text": "v2=0+2(26.0m/s2)(402m).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 105,
+      "object": "import-auto-id2177794",
+      "text": "v2=2.09×104m2/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 107,
+      "object": "import-auto-id2177812",
+      "text": "v=2.09×104 m2/s2=145m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 124,
+      "object": "import-auto-id2180580",
+      "text": "v2=v02+2a(x−x0).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 131,
+      "object": "import-auto-id2293155",
+      "text": "x=64.3 m on dry concrete.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 133,
+      "object": "import-auto-id2178635",
+      "text": "xwet=90.0 m on wet concrete.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67034",
+      "index": 141,
+      "object": "import-auto-id2175306",
+      "text": "x=0+(30.0m/s)(0.500s)=15.0m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67035",
+      "index": 8,
+      "object": "eip-684",
+      "text": "ac=v2r,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67035",
+      "index": 17,
+      "object": "eip-440",
+      "text": "ac=v2r.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 4,
+      "object": "eip-696",
+      "text": "Fc=m⁢ac.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 8,
+      "object": "eip-562",
+      "text": "Fc=mv2r.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 10,
+      "object": "eip-58",
+      "text": "r=mv2Fc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 17,
+      "object": "eip-211",
+      "text": "Fc=mv2r=(900kg)(25.0m/s)2(500m)=1125 N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 22,
+      "object": "eip-109",
+      "text": "Fc=f=μsN=μsmg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 24,
+      "object": "eip-735",
+      "text": "Fc=mv2r,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67036",
+      "index": 25,
+      "object": "eip-18",
+      "text": "mv2r=μsmg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 27,
+      "object": "eip-99",
+      "text": "μs=v2rg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 28,
+      "object": "eip-971",
+      "text": "μs=(25.0m/s)2(500m)(9.80m/s2)=0.13.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67036",
+      "index": 39,
+      "object": "eip-67",
+      "text": "Fc=mac,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67036",
+      "index": 40,
+      "object": "eip-967",
+      "text": "Fc=mv2r.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67037",
+      "index": 2,
+      "object": "eip-639",
+      "text": "ΔPE=−Wc,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67037",
+      "index": 4,
+      "object": "import-auto-id1849020",
+      "text": "ΔKE=Wc=−ΔPE.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67037",
+      "index": 5,
+      "object": "fs-id1066460",
+      "text": "ΔKE+ΔPE=0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67037",
+      "index": 6,
+      "object": "fs-id1898898",
+      "text": "KE + PE = constant    KEi+PEi=KEf+PEf}(conservative forces only),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67037",
+      "index": 17,
+      "object": "eip-654",
+      "text": "PEsi=12mvf2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67037",
+      "index": 18,
+      "object": "eip-196",
+      "text": "vf=2PEsim=(2)(0.200J)0.100kg=2.00m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67037",
+      "index": 19,
+      "object": "fs-id1617450",
+      "text": "PEsi=12mvf2+mghf.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67038",
+      "index": 17,
+      "object": "eip-240",
+      "text": "R=v02sin2θ0g,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67038",
+      "index": 24,
+      "object": "import-auto-id1951750",
+      "text": "R=v02sin2θ0g.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67039",
+      "index": 2,
+      "object": "import-auto-id1401948",
+      "text": "m1).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67039",
+      "index": 10,
+      "object": "eip-776",
+      "text": "Δp1=F1Δt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67039",
+      "index": 13,
+      "object": "eip-591",
+      "text": "Δp2=F2Δt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67039",
+      "index": 17,
+      "object": "eip-340",
+      "text": "Δp2=−F1Δt=−Δp1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67039",
+      "index": 18,
+      "object": "eip-727",
+      "text": "Δp1+Δp2=0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67039",
+      "index": 19,
+      "object": "eip-991",
+      "text": "p1+p2= constant.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67042",
+      "index": 2,
+      "object": "eip-485",
+      "text": "m1v1+m2v2=m1v′1+m2v′2(Fnet=0),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67042",
+      "index": 13,
+      "object": "eip-832",
+      "text": "m1v1=m1v′1+m2v′2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67042",
+      "index": 15,
+      "object": "eip-901",
+      "text": "12m1v12=12m1v′12+12m2v′22.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67042",
+      "index": 17,
+      "object": "eip-436",
+      "text": "v′2=m1m2(v1−v′1).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67042",
+      "index": 21,
+      "object": "eip-990",
+      "text": "v′1=−3.00m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67042",
+      "index": 25,
+      "object": "eip-819",
+      "text": "v′2=1.00m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 3,
+      "object": "eip-225",
+      "text": "m1v1+m2v2=m1v′1+m2v′2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 6,
+      "object": "eip-125",
+      "text": "m1v1=(m1+m2)v′.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 8,
+      "object": "eip-370",
+      "text": "v′=m1m1+m2v1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 9,
+      "object": "eip-777",
+      "text": "v′=(0.150kg0.150kg+70.0kg)(35.0m/s)=7.48×10−2m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 12,
+      "object": "eip-672",
+      "text": "KEint=12mv2=12(0.150kg)(35.0m/s)2=91.9J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 13,
+      "object": "eip-440",
+      "text": "KE′int=12(m+M)v2=12(70.15kg)(7.48×10−2 m/s)2=0.196 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 22,
+      "object": "eip-473",
+      "text": "m1v1+m2v2=m1v′1+m2v′2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 25,
+      "object": "eip-999",
+      "text": "v′2=m1v1+m2v2−m1v′1m2=(0.35kg)(2.00m/s)+(0.50kg)(−0.50m/s)0.50kg−(0.35kg)(−4.00m/s)0.50kg=3.70 m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 26,
+      "object": "eip-530",
+      "text": "KEint=12m1v12+12m2v22=12(0.35kg)(2.00m/s)2+12(0.50kg)(−0.50m/s)2=0.76J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 27,
+      "object": "eip-626",
+      "text": "KE′int=12m1v′12+12m2v′22=12(0.35kg)(−4.00m/s)2+12(0.50kg)(3.70m/s)2=6.22 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67043",
+      "index": 28,
+      "object": "eip-246",
+      "text": "KE′int− KEint=6.22J−0.76J=5.46 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67044",
+      "index": 1,
+      "object": "import-auto-id3246114",
+      "text": "F=−kx.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67044",
+      "index": 19,
+      "object": "import-auto-id3033409",
+      "text": "k=−Fx.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67044",
+      "index": 21,
+      "object": "import-auto-id1860317",
+      "text": "k=−784 N−1.20×10−2 m=6.53×104 N/m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67044",
+      "index": 24,
+      "object": "import-auto-id3385046",
+      "text": "F=−kx,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67045",
+      "index": 6,
+      "object": "import-auto-id2618382",
+      "text": "PEel=12kx2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67045",
+      "index": 30,
+      "object": "import-auto-id3385046",
+      "text": "F=−kx,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67045",
+      "index": 35,
+      "object": "import-auto-id2409100",
+      "text": "PEel=12kx2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 6,
+      "object": "eip-682",
+      "text": "KErot=12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 9,
+      "object": "eip-327",
+      "text": "KErot=12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 12,
+      "object": "eip-583",
+      "text": "ω=300 rev1.00min⋅2π rad1 rev⋅1.00min60.0s=31.4rads.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 15,
+      "object": "eip-897",
+      "text": "I=4Mℓ23=4×(50.0kg)(4.00m)23=1067kg⋅m2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 19,
+      "object": "eip-2",
+      "text": "KEtrans=12mv2=(0.5)(1000kg)(20.0m/s)2=2.00×105J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 20,
+      "object": "eip-973",
+      "text": "KEtransKErot=2.00×105J5.26×105J=0.380.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 22,
+      "object": "eip-154",
+      "text": "12Iω2=mgh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 24,
+      "object": "eip-232",
+      "text": "h=12Iω2mg=5.26×105 J(1000kg)(9.80m/s2)=53.7m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 31,
+      "object": "eip-138",
+      "text": "PEi=KEf.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 33,
+      "object": "eip-210",
+      "text": "mgh=12mv2+12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 38,
+      "object": "eip-454",
+      "text": "mgh=12mv2+12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 45,
+      "object": "eip-97",
+      "text": "mgh=12mv2+12(12mR2)(v2R2).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 48,
+      "object": "eip-798",
+      "text": "gh=12v2+14v2=34v2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 50,
+      "object": "eip-320",
+      "text": "v=(4gh3)1/2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 51,
+      "object": "eip-191",
+      "text": "v=[4(9.80m/s2)(2.00m)3]1/2=5.11m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67046",
+      "index": 61,
+      "object": "eip-595",
+      "text": "KErot=12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67122",
+      "index": 4,
+      "object": "import-auto-id2374115",
+      "text": "PV=NkBT,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67122",
+      "index": 10,
+      "object": "import-auto-id1586104",
+      "text": "kB=1.38×10−23 J/K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67122",
+      "index": 40,
+      "object": "import-auto-id1807145",
+      "text": "PfP0=TfT0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67122",
+      "index": 42,
+      "object": "import-auto-id2084642",
+      "text": "Pf=P0TfT0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67122",
+      "index": 63,
+      "object": "import-auto-id739597",
+      "text": "PV=NkBT,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67122",
+      "index": 69,
+      "object": "import-auto-id2564573",
+      "text": "kB=1.38×10−23 J/K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 5,
+      "object": "eip-29",
+      "text": "Q=mLf (melting/freezing),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67124",
+      "index": 6,
+      "object": "eip-362",
+      "text": "Q=mLv (vaporization/condensation),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67124",
+      "index": 43,
+      "object": "import-auto-id1398723",
+      "text": "Qice=−Qsoda.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 47,
+      "object": "eip-17",
+      "text": "miceLf+micecW(Tf−0°C)=−msodacW(Tf−20°C).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 50,
+      "object": "eip-460",
+      "text": "Tf=msodacW(20°C)−miceLf(msoda+mice)cW.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 54,
+      "object": "eip-291",
+      "text": "miceLf=(0.018 kg)(334,000 J/kg)=6012 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 55,
+      "object": "eip-649",
+      "text": "(msoda+mice)cW=(0.25kg+0.018kg)(4186Jkg⋅°C)=1122J/°C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 56,
+      "object": "eip-817",
+      "text": "Tf=20,930J−6012J1122 J/°C=13°C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67124",
+      "index": 67,
+      "object": "eip-603",
+      "text": "Q=mL,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67125",
+      "index": 1,
+      "object": "fs-id1169737787594",
+      "text": "ΔU=Q−W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67126",
+      "index": 1,
+      "object": "fs-id1169738204673",
+      "text": "W=PΔV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67126",
+      "index": 5,
+      "object": "fs-id1169736619217",
+      "text": "W=Fd.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67126",
+      "index": 7,
+      "object": "fs-id1169738176429",
+      "text": "W=PAd.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67126",
+      "index": 11,
+      "object": "fs-id1169737994453",
+      "text": "W=PΔV (isobaric process).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67127",
+      "index": 17,
+      "object": "eip-36",
+      "text": "ΔU=Q−W,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67127",
+      "index": 22,
+      "object": "eip-946",
+      "text": "0=Q−W,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67127",
+      "index": 23,
+      "object": "eip-118",
+      "text": "W=Q.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67127",
+      "index": 24,
+      "object": "eip-263",
+      "text": "W=Qh−Qc(cyclical process),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67127",
+      "index": 29,
+      "object": "eip-480",
+      "text": "Eff=WQh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67127",
+      "index": 31,
+      "object": "eip-807",
+      "text": "Eff=Qh−QcQh=1−QcQh(cyclical process),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67127",
+      "index": 45,
+      "object": "eip-29",
+      "text": "W=Qh−Qc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67127",
+      "index": 46,
+      "object": "eip-957",
+      "text": "W=2.50×1014J−1.48×1014J=1.02×1014J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67127",
+      "index": 58,
+      "object": "eip-792",
+      "text": "2.50×1014J3.3×107J/kg=7.6×106kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67127",
+      "index": 59,
+      "object": "eip-975",
+      "text": "7.6×106kg carbon×44kgCO212 kg carbon=2.8×107kgCO2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 9,
+      "object": "eip-563",
+      "text": "ΔS=(QT)rev,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67128",
+      "index": 23,
+      "object": "eip-20",
+      "text": "ΔStot=ΔSh+ΔSc.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 25,
+      "object": "eip-95",
+      "text": "ΔStot=−QhTh+QcTc=0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 27,
+      "object": "eip-453",
+      "text": "ΔSh=−QhTh=−4000J600K=−6.67J/K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 28,
+      "object": "eip-688",
+      "text": "ΔSc=QcTc=4000J250K=16.0J/K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 29,
+      "object": "eip-462",
+      "text": "ΔStot=ΔSh+ΔSc=(−6.67 +16.0) J/K=9.33 J/K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 35,
+      "object": "eip-58",
+      "text": "ΔS=QT.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 37,
+      "object": "eip-509",
+      "text": "Q=mLf,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67128",
+      "index": 41,
+      "object": "eip-153",
+      "text": "Q=(1.00kg)(334kJ/kg)=3.34×105 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 42,
+      "object": "eip-848",
+      "text": "ΔS=QT=3.34×105 JT.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67128",
+      "index": 45,
+      "object": "eip-195",
+      "text": "ΔS=3.34×105 J273K=1.22×103 J/K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67130",
+      "index": 2,
+      "object": "eip-926",
+      "text": "I=ΔQΔt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67130",
+      "index": 9,
+      "object": "eip-340",
+      "text": "I=ΔQΔt=720C4.00s=180C/s= 180 A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67130",
+      "index": 12,
+      "object": "eip-819",
+      "text": "Δt=ΔQI=1.00C0.300× 10−3 C/s= 3.33 × 103 s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67130",
+      "index": 18,
+      "object": "eip-414",
+      "text": "Ielectrons=ΔQelectronsΔt=−0.300 × 10−3 Cs.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67130",
+      "index": 19,
+      "object": "eip-199",
+      "text": "e−s=−0.300 × 10−3 Cs×1e−−1.60 × 10−19 C=1.88 × 1015e−s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67130",
+      "index": 21,
+      "object": "eip-id2583201",
+      "text": "I=ΔQΔt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67131",
+      "index": 10,
+      "object": "eip-987",
+      "text": "Irms=VrmsR.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67131",
+      "index": 12,
+      "object": "eip-112",
+      "text": "Pavg=IrmsVrms,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67131",
+      "index": 13,
+      "object": "eip-629",
+      "text": "Pavg=Vrms2R,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67131",
+      "index": 14,
+      "object": "eip-797",
+      "text": "Pavg=Irms2R.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67131",
+      "index": 22,
+      "object": "eip-707",
+      "text": "Irms=PavgVrms=100 × 106 W200 × 103 V=500A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67131",
+      "index": 24,
+      "object": "eip-648",
+      "text": "Pavg=Irms2R=(500A)2(1.00Ω)=250kW.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67131",
+      "index": 25,
+      "object": "eip-923",
+      "text": "% loss=250kW100MW×100=0.250%.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67132",
+      "index": 8,
+      "object": "eip-387",
+      "text": "c=fλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67132",
+      "index": 10,
+      "object": "eip-696",
+      "text": "c=fλ,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67133",
+      "index": 4,
+      "object": "eip-820",
+      "text": "λ=cf.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67133",
+      "index": 6,
+      "object": "eip-290",
+      "text": "λ=3.00×108 m/s1530×103 cycles/s=196 m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67133",
+      "index": 8,
+      "object": "eip-530",
+      "text": "λ=3.00×108 m/s105.1×106 cycles/s=2.85 m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67133",
+      "index": 10,
+      "object": "eip-649",
+      "text": "λ=3.00×108 m/s1.90×109 cycles/s=0.158 m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67133",
+      "index": 27,
+      "object": "eip-108",
+      "text": "CFCl3+hν→   CFCl2+ Cl.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 6,
+      "object": "eip-559",
+      "text": "P=1f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 9,
+      "object": "eip-860",
+      "text": "P=1f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 14,
+      "object": "eip-955",
+      "text": "f=8.00 cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 15,
+      "object": "eip-213",
+      "text": "P=1f=10.0800m=12.5 D.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 28,
+      "object": "eip-677",
+      "text": "hiho=−dido=m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 41,
+      "object": "eip-399",
+      "text": "1do+1di=1f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 43,
+      "object": "eip-983",
+      "text": "1di=1f−1do.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 45,
+      "object": "eip-79",
+      "text": "1di=10.500m−10.750m=0.667m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 47,
+      "object": "eip-410",
+      "text": "di=m0.667=1.50m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 49,
+      "object": "eip-516",
+      "text": "1di=1f−1do.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 50,
+      "object": "eip-397",
+      "text": "di=fdodo−f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 54,
+      "object": "eip-790",
+      "text": "m=−dido=−1.50m0.750m=−2.00.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 67,
+      "object": "eip-454",
+      "text": "1di=1f−1do.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 69,
+      "object": "eip-694",
+      "text": "1di=110.0cm−17.50cm=−0.0333cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 71,
+      "object": "eip-22",
+      "text": "di=−cm0.0333=−30.0cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 75,
+      "object": "eip-302",
+      "text": "m=−dido=−−30.0cm7.50cm=4.00.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 79,
+      "object": "eip-590",
+      "text": "1di=1f−1do,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67134",
+      "index": 80,
+      "object": "eip-95",
+      "text": "di=fdodo−f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 84,
+      "object": "eip-145",
+      "text": "1di=1−10.0 cm−17.50cm=−0.2333cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 86,
+      "object": "eip-850",
+      "text": "di=−cm0.2333=−4.29cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 87,
+      "object": "eip-950",
+      "text": "di=(7.5)(−10)(7.5−(−10))=−75/17.5=−4.29cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67134",
+      "index": 91,
+      "object": "eip-869",
+      "text": "m=−dido=−−4.29cm7.50cm=0.571.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 5,
+      "object": "eip-64",
+      "text": "f=R2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67135",
+      "index": 18,
+      "object": "eip-267",
+      "text": "1do+1di=1f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 20,
+      "object": "eip-318",
+      "text": "1do=1f−1di.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 22,
+      "object": "eip-193",
+      "text": "1do=10.250m−13.00m=3.667m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 24,
+      "object": "eip-374",
+      "text": "do=1m3.667=27.3 cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 34,
+      "object": "eip-48",
+      "text": "A=π2R(1.00 m)=(3.14)2(0.800 m)(1.00 m)=1.26m2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 35,
+      "object": "eip-667",
+      "text": "(9.00×102Wm2)(1.26m2)=1130 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 38,
+      "object": "eip-677",
+      "text": "m=ρV=ρπ(d2)2(1.00m)=(8.00×102kg/m3)(3.14)(0.0100m)2(1.00m)=0.251kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 39,
+      "object": "eip-333",
+      "text": "ΔT=Q/mc=(1130 W)(60.0 s)(0.251 kg)(1670 J·kg/°C)=162°C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 50,
+      "object": "eip-424",
+      "text": "di=−mdo.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 51,
+      "object": "eip-372",
+      "text": "di=−(0.0320)(12.0cm)=−0.384 cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 53,
+      "object": "eip-70",
+      "text": "1f=112.0cm+1−0.384cm=−2.52cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 55,
+      "object": "eip-131",
+      "text": "f=cm−2.52=−0.400cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67135",
+      "index": 56,
+      "object": "eip-428",
+      "text": "R=2|f|=0.800 cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67250",
+      "index": 4,
+      "object": "eip-755",
+      "text": "h=6.626× 10−34 J ⋅ s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67250",
+      "index": 10,
+      "object": "import-auto-id2182118",
+      "text": "ΔE=hf= (6.63 × 10−34 J·s)(1014 Hz) = 6.63 × 10−20 J,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67250",
+      "index": 13,
+      "object": "eip-581",
+      "text": "h=6.626× 10−34 J ⋅ s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67250",
+      "index": 14,
+      "object": "import-auto-id2223128",
+      "text": "1.7×1013 Hz.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67251",
+      "index": 4,
+      "object": "eip-588",
+      "text": "E=hf,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67251",
+      "index": 16,
+      "object": "eip-592",
+      "text": "KEe=hf−BE.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67251",
+      "index": 29,
+      "object": "eip-500",
+      "text": "f=cλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67251",
+      "index": 30,
+      "object": "eip-265",
+      "text": "E=hcλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67251",
+      "index": 31,
+      "object": "eip-861",
+      "text": "E=(6.63×10−34J·s)(3.00×108m/s)420×10−9m=4.74×10−19J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67251",
+      "index": 32,
+      "object": "eip-432",
+      "text": "E=(4.74×10−19J)1eV1.6×10−19J=2.96eV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67251",
+      "index": 34,
+      "object": "eip-428",
+      "text": "KEe=hf−BE=2.96eV−2.71eV=0.25eV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 16,
+      "object": "eip-id2606927",
+      "text": "Fnet=m⁢a,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67530",
+      "index": 17,
+      "object": "eip-id1641404",
+      "text": "Fnet=m⁢a.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 22,
+      "object": "eip-id2390555",
+      "text": "1N=1kg⋅m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 35,
+      "object": "eip-id1171442268322",
+      "text": "w=mg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 37,
+      "object": "eip-id1171443439158",
+      "text": "w=mg=(1.0kg)(9.80m/s2)=9.8N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 51,
+      "object": "eip-id2603472",
+      "text": "a=51kg⋅m/s224kg=2.1m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 53,
+      "object": "import-auto-id2674385",
+      "text": "49m/s2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67530",
+      "index": 58,
+      "object": "eip-id2420800",
+      "text": "Fnet=ma,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67530",
+      "index": 60,
+      "object": "eip-id1522873",
+      "text": "Fnet=4T−f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 61,
+      "object": "eip-id1858333",
+      "text": "Fnet=ma=4T−f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 62,
+      "object": "eip-id1948969",
+      "text": "4T=ma+f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 63,
+      "object": "eip-id2054706",
+      "text": "4T=ma+f=(2100kg)(49m/s2)+650N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67530",
+      "index": 64,
+      "object": "eip-id1631559",
+      "text": "4T=1.04×105 N,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67530",
+      "index": 65,
+      "object": "eip-id1171442277241",
+      "text": "T=1.04×105 N4=2.6×104 N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67539",
+      "index": 15,
+      "object": "fs-id1802559",
+      "text": "W=Fd.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67539",
+      "index": 16,
+      "object": "fs-id1911869",
+      "text": "W=(75.0N)(25.0m)=1875J=1.88×103J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67539",
+      "index": 17,
+      "object": "eip-694",
+      "text": "W1.00×104kJ=1.88×103J1.00×107J=1.88×10−4.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67539",
+      "index": 20,
+      "object": "eip-20",
+      "text": "F=mg=(60.0kg)(9.80m/s2)=588N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67539",
+      "index": 21,
+      "object": "eip-674",
+      "text": "W=Fd=(588N)(0.800m)=470J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67539",
+      "index": 28,
+      "object": "fs-id1144023",
+      "text": "W=Fd.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 5,
+      "object": "eip-644",
+      "text": "Q=mcΔT,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67622",
+      "index": 18,
+      "object": "eip-461",
+      "text": "ΔT=Tf−Ti=60.0°C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 21,
+      "object": "eip-191",
+      "text": "Qw=mwcwΔT=(0.250kg)(4186Jkg·°C)(60.0°C)=62.8kJ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 22,
+      "object": "eip-168",
+      "text": "QAl=mAlcAlΔT=(0.500kg)(900Jkg·°C)(60.0°C)=27.0×103J=27.0kJ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 23,
+      "object": "eip-229",
+      "text": "QTotal=QW+QAl=62.8kJ+ 27.0kJ = 89.8kJ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 24,
+      "object": "eip-508",
+      "text": "Percentage for pan=QAlQtotal×100%=27.0kJ89.8kJ×100%=30.1%,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67622",
+      "index": 25,
+      "object": "eip-686",
+      "text": "Percentage for water=QwQtotal×100%=62.8kJ89.8kJ×100%=69.9%.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 28,
+      "object": "eip-404",
+      "text": "Mgh=(10,000kg)(9.80ms2)(75.0m)=7.35×106J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 30,
+      "object": "eip-527",
+      "text": "ΔT=Qmc,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67622",
+      "index": 34,
+      "object": "eip-456",
+      "text": "ΔT=(7.35×105J)(100kg)(800 J/(kg⋅°C))=9.2 °C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 44,
+      "object": "eip-217",
+      "text": "Qhot=mAlcAl(Tf−150°C).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 45,
+      "object": "eip-242",
+      "text": "Qcold=mWcW(Tf−20.0°C).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 48,
+      "object": "eip-582",
+      "text": "Qcold+Qhot=0,Qcold=−Qhot,mWcW(Tf−20.0°C)=−mAlcAl(Tf−150°C).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67622",
+      "index": 52,
+      "object": "eip-499",
+      "text": "Tf=mAlcAl(150°C)+mWcW(20.0°C)mAlcAl+mWcW,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67622",
+      "index": 53,
+      "object": "eip-274",
+      "text": "Tf=(0.50kg)(900 J/(kg⋅°C))(150°C)+(0.25kg)(4186 J/(kg⋅°C))(20°C)(0.50kg)(900 J/(kg⋅°C))+(0.25kg)(4186 J/(kg⋅°C))=88430J1496.5 J/°C=59.1°C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 20,
+      "object": "fs-id2371031",
+      "text": "p=mv.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 23,
+      "object": "fs-id2371031",
+      "text": "(1/2)mv2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 25,
+      "object": "eip-81",
+      "text": "λ=hp=hmv.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 27,
+      "object": "eip-248",
+      "text": "v=hmλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 28,
+      "object": "eip-177",
+      "text": "v=6.63×10−34J·s(9.11×10−31kg)(0.167×10−9m)=4.36×106m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 31,
+      "object": "import-auto-id2642493",
+      "text": "λ=h/p.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 34,
+      "object": "import-auto-id2323348",
+      "text": "10−15m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67803",
+      "index": 35,
+      "object": "import-auto-id1903964",
+      "text": "1.00 μm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 2,
+      "object": "eip-252",
+      "text": "Δx≈λ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 9,
+      "object": "eip-840",
+      "text": "ΔxΔp≈h.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 11,
+      "object": "eip-227",
+      "text": "ΔxΔp≥h4π.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 22,
+      "object": "eip-833",
+      "text": "ΔxΔp=h4π.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 24,
+      "object": "eip-810",
+      "text": "Δp=h4πΔx=6.63×10−34J·s4π(1.00×10−11m)=5.28×10−24kg·m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 25,
+      "object": "eip-705",
+      "text": "Δp= 5.28 × 10−24 kg ⋅ m/s =mΔv.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 27,
+      "object": "eip-899",
+      "text": "Δv=Δpm=5.28×10−24kg·m/s9.11×10−31kg=5.79×106m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67804",
+      "index": 28,
+      "object": "eip-669",
+      "text": "KEe=12mv2=12(9.11×10−31kg)(5.79×106m/s)2=(1.53×10−17J)(1eV1.60×10−19J)=95.5eV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67805",
+      "index": 13,
+      "object": "eip-584",
+      "text": "qeme=−1.76×1011 C/kg (electron).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67805",
+      "index": 15,
+      "object": "eip-62",
+      "text": "qpmp=9.58×107 C/kg (proton),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67805",
+      "index": 32,
+      "object": "eip-683",
+      "text": "qeme=−1.76×1011 C/kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67805",
+      "index": 33,
+      "object": "eip-115",
+      "text": "qpmp=9.58×107 C/kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67805",
+      "index": 34,
+      "object": "eip-612",
+      "text": "me=9.11×10−31 kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67805",
+      "index": 35,
+      "object": "eip-602",
+      "text": "mp=1.67×10−27 kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67807",
+      "index": 3,
+      "object": "eip-854",
+      "text": "1λ=R(1nf2−1ni2),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67807",
+      "index": 19,
+      "object": "eip-866",
+      "text": "L=n⁢ℏ,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67807",
+      "index": 34,
+      "object": "eip-104",
+      "text": "h⁢f=(ΔE=(Ei−Ef)),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67807",
+      "index": 58,
+      "object": "eip-320",
+      "text": "a=(r1=ℏ2/m⁢k⁢e2)=0.529×10−10m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67807",
+      "index": 65,
+      "object": "eip-53",
+      "text": "1λ=2×π2⁢m⁢k2⁢e4h3⁢c⁢(1nf2−1ni2),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67807",
+      "index": 66,
+      "object": "eip-631",
+      "text": "R=(2×π2⁢m⁢k2⁢e4h3⁢c=1.097×107m−1).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67807",
+      "index": 73,
+      "object": "eip-59",
+      "text": "1λ=R(1nf2−1ni2),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67807",
+      "index": 76,
+      "object": "eip-144",
+      "text": "R=1.097×107 m−1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67807",
+      "index": 81,
+      "object": "eip-472",
+      "text": "ΔE=hf=Ei−Ef,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67807",
+      "index": 93,
+      "object": "import-auto-id3034276",
+      "text": "E0=2π2qe4mek2h2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67808",
+      "index": 1,
+      "object": "eip-91",
+      "text": "nλn=2πrn(n=1, 2, 3 ...),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67808",
+      "index": 6,
+      "object": "eip-982",
+      "text": "nhmev=2πrn.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67808",
+      "index": 8,
+      "object": "eip-729",
+      "text": "L=mevrn=nh2π(n=1, 2, 3 ...).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67808",
+      "index": 10,
+      "object": "import-auto-id2000875",
+      "text": "n=4.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m67808",
+      "index": 11,
+      "object": "eip-998",
+      "text": "nλn=2πrn(n=1, 2, 3 ...),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67808",
+      "index": 13,
+      "object": "eip-294",
+      "text": "ΔE=hf=Ei−Ef,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m67808",
+      "index": 16,
+      "object": "eip-874",
+      "text": "L=mevrn=nh2π(n=1, 2, 3 ...),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68327",
+      "index": 2,
+      "object": "eip-448",
+      "text": "1rad=0.01 J/kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68327",
+      "index": 3,
+      "object": "eip-891",
+      "text": "(1.00 J)/(50.0kg)=0.0200J/kg=2.00 rad.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68327",
+      "index": 4,
+      "object": "eip-338",
+      "text": "(1.00 J)/(2.00kg)=0.500J/kg=50.0 rad,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68327",
+      "index": 5,
+      "object": "eip-543",
+      "text": "1Gy=1J/kg=100 rad.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68327",
+      "index": 9,
+      "object": "eip-810",
+      "text": "1 Sv=100 rem.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68327",
+      "index": 18,
+      "object": "eip-538",
+      "text": "1rad=0.01J/kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68327",
+      "index": 19,
+      "object": "import-auto-id1996812",
+      "text": "1 Gy = 1 J/kg = 100 rad.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68327",
+      "index": 21,
+      "object": "eip-409",
+      "text": "1 Sv=100 rem.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 9,
+      "object": "eip-id2555725",
+      "text": "Fnet=T−w=0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68329",
+      "index": 12,
+      "object": "eip-id1640254",
+      "text": "T=w=mg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 13,
+      "object": "eip-id2489897",
+      "text": "T=mg=(5.00kg)(9.80m/s2)=49.0N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 17,
+      "object": "fs-id1165037866725",
+      "text": "1.20m/s2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68329",
+      "index": 28,
+      "object": "fs-id1165038270338",
+      "text": "F→s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 32,
+      "object": "fs-id1165037968749",
+      "text": "F→net=ma→.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 36,
+      "object": "fs-id1165037151851",
+      "text": "Fnet=((Fs−w)=m⁢a).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 38,
+      "object": "fs-id1165037231474",
+      "text": "Fs=ma+w,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68329",
+      "index": 39,
+      "object": "fs-id1165038241944",
+      "text": "w=mg,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68329",
+      "index": 40,
+      "object": "fs-id1165038384336",
+      "text": "Fs=ma+mg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 41,
+      "object": "fs-id1165038339458",
+      "text": "Fs−w=−ma.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 42,
+      "object": "fs-id1165036884300",
+      "text": "a=1.20m/s2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68329",
+      "index": 44,
+      "object": "fs-id1165037159823",
+      "text": "Fs=825N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 46,
+      "object": "fs-id1165036884300",
+      "text": "Δv=0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 48,
+      "object": "fs-id1165038006119",
+      "text": "Fs=(75.0kg)(9.80m/s2),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68329",
+      "index": 49,
+      "object": "fs-id1165037200412",
+      "text": "Fs=735N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 52,
+      "object": "fs-id1165037909606",
+      "text": "Fs=(75.0kg)(9.80m/s2)=735N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 53,
+      "object": "eip-id1331551",
+      "text": "N=mg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68329",
+      "index": 55,
+      "object": "eip-id1166246",
+      "text": "T=mg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 27,
+      "object": "eip-id1456392",
+      "text": "a=Fnetm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 28,
+      "object": "eip-id1515829",
+      "text": "Fnet=Ffloor−f=150N−24.0N=126N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 29,
+      "object": "eip-id1213154",
+      "text": "m=(65.0 + 12.0 + 7.0) kg =84kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 32,
+      "object": "eip-id1741589",
+      "text": "a=Fnetm,a=126N84kg= 1.5m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 37,
+      "object": "eip-id2390884",
+      "text": "Fnet=Fprof−f,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68330",
+      "index": 39,
+      "object": "eip-id1373488",
+      "text": "Fprof=Fnet+f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 42,
+      "object": "eip-id2367884",
+      "text": "Fnet=ma,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68330",
+      "index": 45,
+      "object": "eip-id3477001",
+      "text": "Fnet=ma,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68330",
+      "index": 46,
+      "object": "eip-id1454423",
+      "text": "Fnet=(19.0kg)(1.5m/s2)=29N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68330",
+      "index": 47,
+      "object": "eip-id1004496",
+      "text": "Fprof=Fnet+f,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68330",
+      "index": 48,
+      "object": "eip-id1197329",
+      "text": "Fprof=29N+24.0N=53N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 3,
+      "object": "eip-636",
+      "text": "g=9.80m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 85,
+      "object": "import-auto-id2025017",
+      "text": "v2=(−13.0ms)2+2(−9.80ms2)(−5.10m−0m)=268.96m2s2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68876",
+      "index": 86,
+      "object": "import-auto-id1763704",
+      "text": "v=±16.4m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 87,
+      "object": "import-auto-id2563747",
+      "text": "v=−16.4m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 106,
+      "object": "import-auto-id3538274",
+      "text": "y=y0+12at2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 108,
+      "object": "import-auto-id3504484",
+      "text": "a=2(y−y0)t2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 109,
+      "object": "import-auto-id2571438",
+      "text": "a=2(−1.0000 m − 0)(0.45173s)2=−9.8010m/s2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m68876",
+      "index": 111,
+      "object": "import-auto-id1706716",
+      "text": "g=9.8010m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m68876",
+      "index": 125,
+      "object": "import-auto-id3547826",
+      "text": "g=9.80m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m70743",
+      "index": 2,
+      "object": "eip-390",
+      "text": "Φ=B⊥A,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m70744",
+      "index": 7,
+      "object": "eip-734",
+      "text": "V=−NΔΦΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71407",
+      "index": 2,
+      "object": "import-auto-id1757927",
+      "text": "Δt=tf−t0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71407",
+      "index": 7,
+      "object": "import-auto-id4059844",
+      "text": "v¯=ΔxΔt=xf−x0tf−t0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71407",
+      "index": 15,
+      "object": "import-auto-id4051374",
+      "text": "v¯=ΔxΔt=−4m5s=−0.8m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71407",
+      "index": 22,
+      "object": "import-auto-id4146177",
+      "text": "Δt=tf−t0,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71407",
+      "index": 26,
+      "object": "import-auto-id4086565",
+      "text": "v¯=ΔxΔt=xf−x0tf−t0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71409",
+      "index": 3,
+      "object": "eip-70",
+      "text": "fs≤μsN,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71409",
+      "index": 7,
+      "object": "eip-213",
+      "text": "fs≤μsN,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71409",
+      "index": 13,
+      "object": "eip-410",
+      "text": "fs(max)=μsN.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71409",
+      "index": 15,
+      "object": "eip-98",
+      "text": "fk=μkN,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71409",
+      "index": 19,
+      "object": "eip-40",
+      "text": "fk=μkN,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71409",
+      "index": 30,
+      "object": "eip-940",
+      "text": "fs≤μsN,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71409",
+      "index": 33,
+      "object": "eip-799",
+      "text": "fk=μkN,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71410",
+      "index": 4,
+      "object": "eip-492",
+      "text": "F=GmMr2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71410",
+      "index": 16,
+      "object": "eip-171",
+      "text": "mg=GmMr2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71410",
+      "index": 22,
+      "object": "eip-713",
+      "text": "g=GMr2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71410",
+      "index": 23,
+      "object": "eip-216",
+      "text": "g=(6.67×10−11N⋅m2kg2)×5.98×1024kg(6.38×106m)2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71410",
+      "index": 24,
+      "object": "eip-206",
+      "text": "g=9.80m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71410",
+      "index": 30,
+      "object": "eip-143",
+      "text": "F=GmMr2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71411",
+      "index": 6,
+      "object": "fs-id1799354",
+      "text": "Wnet=Fnetd.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 11,
+      "object": "fs-id2448434",
+      "text": "Wnet=mad.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 20,
+      "object": "fs-id1648912",
+      "text": "Wnet=m(v2−v022d)d.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 22,
+      "object": "fs-id1549793",
+      "text": "Wnet=12mv2−12mv0 2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 29,
+      "object": "fs-id2016892",
+      "text": "KE=12mv2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71411",
+      "index": 35,
+      "object": "fs-id1904785",
+      "text": "KE=12mv2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 36,
+      "object": "fs-id1426633",
+      "text": "KE=0.5(30.0kg)(0.500m/s)2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71411",
+      "index": 37,
+      "object": "eip-261",
+      "text": "KE=3.75kg⋅m2/s2=3.75 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 39,
+      "object": "fs-id1702963",
+      "text": "Wnet=Fnetd=(115N)(0.800m)=92.0N⋅m=92.0 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 42,
+      "object": "fs-id1515421",
+      "text": "Wgr=0,WN=0,Wapp=96.0 J,Wfr=−4.00 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 43,
+      "object": "fs-id1404959",
+      "text": "Wtotal=Wgr+WN+Wapp+Wfr=92.0J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 50,
+      "object": "fs-id2854741",
+      "text": "Wnet=12mv2−12mv02.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 52,
+      "object": "fs-id2164953",
+      "text": "12mv2=Wnet+12mv02.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 53,
+      "object": "fs-id1616561",
+      "text": "12mv2=92.0J+3.75J=95.75 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 54,
+      "object": "fs-id1474808",
+      "text": "v=2(95.75 J)m=191.5kg⋅m2/s230.0kg=2.53 m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71411",
+      "index": 66,
+      "object": "fs-id2019226",
+      "text": "Wnet=ΔKE=12mv2−12mv02.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71414",
+      "index": 12,
+      "object": "eip-40",
+      "text": "PEg=m⁢g⁢h.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71414",
+      "index": 19,
+      "object": "fs-id1729924",
+      "text": "mgΔh=(0.500kg)(9.80ms2)(1.00m)=4.90kg⋅m2s2=4.90J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71414",
+      "index": 30,
+      "object": "eip-955",
+      "text": "W=−Fd,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71414",
+      "index": 32,
+      "object": "fs-id1449860",
+      "text": "KE=−ΔPEg=−mgΔh,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71414",
+      "index": 36,
+      "object": "eip-418",
+      "text": "W=−KE=mgΔh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71414",
+      "index": 38,
+      "object": "fs-id2124284",
+      "text": "−Fd=mgΔh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71414",
+      "index": 40,
+      "object": "eip-118",
+      "text": "F=−mgΔhd=−(60.0kg)(9.80m/s2)(−3.00m)5.00×10−3 m=3.53×105N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71414",
+      "index": 59,
+      "object": "eip-388",
+      "text": "vf=(−2)(9.80m/s2)(−20.0m)+(5.00m/s)2=20.4m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71415",
+      "index": 4,
+      "object": "import-auto-id2265352",
+      "text": "(1W=1J/s).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71415",
+      "index": 13,
+      "object": "fs-id2825641",
+      "text": "P=Wt=12mvf2+mght.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71415",
+      "index": 14,
+      "object": "fs-id1008855",
+      "text": "P=0.5(60.0kg)(2.00m/s)2+(60.0kg)(9.80m/s2)(3.00m)3.50s=120J+1764J3.50s=538 W.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71415",
+      "index": 16,
+      "object": "import-auto-id1662427",
+      "text": "(kW/m2).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71415",
+      "index": 38,
+      "object": "fs-id2081885",
+      "text": "E=Pt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71415",
+      "index": 39,
+      "object": "import-auto-id1549882",
+      "text": "(kW⋅h),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71415",
+      "index": 46,
+      "object": "fs-id1710936",
+      "text": "E=Pt=(0.200kW)(6.00h/d)(30.0d)=36.0kW⋅h,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71415",
+      "index": 47,
+      "object": "eip-110",
+      "text": "cost=(36.0kW⋅h)($0.120 per kW⋅h)=$4.32 per month.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71582",
+      "index": 5,
+      "object": "eip-695",
+      "text": "p=m⁢v.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71582",
+      "index": 10,
+      "object": "eip-45",
+      "text": "pplayerpball=88010.3=85.9.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71582",
+      "index": 11,
+      "object": "eip-96",
+      "text": "Fnet=ΔpΔt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71582",
+      "index": 18,
+      "object": "eip-210",
+      "text": "Δp=Δ(m⁢v).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71582",
+      "index": 19,
+      "object": "eip-316",
+      "text": "Δ(m⁢v)=m⁢Δv.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71582",
+      "index": 24,
+      "object": "eip-440",
+      "text": "Δp=mΔv=m(vf−vi).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71582",
+      "index": 29,
+      "object": "eip-211",
+      "text": "Fnet=ΔpΔt=3.306kg⋅m/s5.0×10−3s=661N≈660 N,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71582",
+      "index": 32,
+      "object": "eip-123",
+      "text": "p=m⁢v,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71582",
+      "index": 36,
+      "object": "eip-370",
+      "text": "Fnet=ΔpΔt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71583",
+      "index": 3,
+      "object": "eip-75",
+      "text": "Δp=Fnet⁢Δt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71583",
+      "index": 16,
+      "object": "eip-id1637629",
+      "text": "Δp=Fnet⁢Δt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 3,
+      "object": "eip-768",
+      "text": "f=1T.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 13,
+      "object": "eip-666",
+      "text": "f=1T=10.400×10−6s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 14,
+      "object": "eip-520",
+      "text": "f=2.50× 106Hz.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 16,
+      "object": "eip-605",
+      "text": "f=1T.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 18,
+      "object": "eip-600",
+      "text": "T=1f.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 19,
+      "object": "eip-663",
+      "text": "T=1f=1264Hz=1264cycles/s=3.79×10−3s=3.79ms.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71584",
+      "index": 22,
+      "object": "eip-794",
+      "text": "f=1T.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71585",
+      "index": 13,
+      "object": "eip-444",
+      "text": "f=12πkm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71585",
+      "index": 19,
+      "object": "eip-686",
+      "text": "f=12πkm=12π6.53×104N/m900 kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71585",
+      "index": 20,
+      "object": "eip-465",
+      "text": "f=12π72.6/s2=1.3561/s1≈1.36Hz.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71585",
+      "index": 24,
+      "object": "eip-207",
+      "text": "T=1f=11.356 Hz=0.738 s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71585",
+      "index": 39,
+      "object": "import-auto-id2429266",
+      "text": "x(t),v(t),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71587",
+      "index": 10,
+      "object": "eip-33",
+      "text": "vw=fλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71587",
+      "index": 26,
+      "object": "import-auto-id3026908",
+      "text": "vw=10.0m5.00s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71587",
+      "index": 28,
+      "object": "fs-id3008724",
+      "text": "vw= 2.00 m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71587",
+      "index": 33,
+      "object": "fs-id1010534",
+      "text": "vw=fλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71588",
+      "index": 16,
+      "object": "import-auto-id1525260",
+      "text": "fB=|f1−f2|.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 1,
+      "object": "eip-424",
+      "text": "vw=fλ,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71589",
+      "index": 10,
+      "object": "eip-330",
+      "text": "vw=(331 m/s)T273K,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71589",
+      "index": 14,
+      "object": "eip-453",
+      "text": "vw=fλ.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 21,
+      "object": "eip-456",
+      "text": "vw=(331m/s)T273K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 22,
+      "object": "eip-575",
+      "text": "vw=(331m/s)303K273K=348.7m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 24,
+      "object": "eip-850",
+      "text": "λ=vwf.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 25,
+      "object": "eip-618",
+      "text": "λmax=348.7m/s20Hz=17m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 26,
+      "object": "eip-862",
+      "text": "λmin=348.7m/s20,000Hz=0.017m=1.7cm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71589",
+      "index": 38,
+      "object": "eip-263",
+      "text": "vw=fλ,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71589",
+      "index": 40,
+      "object": "eip-71",
+      "text": "vw=(331m/s)T273K.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 9,
+      "object": "eip-121",
+      "text": "v=(ΔsΔt=2⁢π⁢rΔt),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71592",
+      "index": 11,
+      "object": "eip-582",
+      "text": "ω=(ΔθΔt=2⁢πΔt),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71592",
+      "index": 16,
+      "object": "eip-363",
+      "text": "ω=vr.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 20,
+      "object": "eip-974",
+      "text": "α=ΔωΔt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71592",
+      "index": 34,
+      "object": "eip-272",
+      "text": "α=ΔωΔt=250 rpm5.00s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 38,
+      "object": "eip-25",
+      "text": "Δω=250revmin⋅2π radrev⋅1min60 sec=26.2rads.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 40,
+      "object": "eip-899",
+      "text": "α=ΔωΔt=26.2rad/s5.00s=5.24rad/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 42,
+      "object": "eip-273",
+      "text": "Δt=Δωα.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 48,
+      "object": "eip-455",
+      "text": "Δt=−26.2rad/s−87.3rad/s2=0.300 s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 56,
+      "object": "eip-256",
+      "text": "at=rα,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71592",
+      "index": 57,
+      "object": "eip-773",
+      "text": "α=atr.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 61,
+      "object": "eip-20",
+      "text": "at=ΔvΔt=30.0m/s4.20s=7.14m/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71592",
+      "index": 65,
+      "object": "eip-155",
+      "text": "α=atr=7.14m/s20.320m=22.3rad/s2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71593",
+      "index": 10,
+      "object": "eip-426",
+      "text": "F=mrα.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71593",
+      "index": 14,
+      "object": "eip-357",
+      "text": "τ=mr2α.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71593",
+      "index": 40,
+      "object": "eip-480",
+      "text": "α=net τI,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71594",
+      "index": 2,
+      "object": "eip-337",
+      "text": "L=Iω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 10,
+      "object": "eip-239",
+      "text": "L=Iω=2MR2ω5.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 19,
+      "object": "eip-297",
+      "text": "L=0.4(5.979×1024kg)(6.376×106 m)2(1revd)=9.72×1037kg⋅m2⋅rev/d.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 23,
+      "object": "eip-195",
+      "text": "L=(9.72×1037kg⋅m2)(2π rad/rev8.64×104 s/d)(1 rev/d)=7.07×1033 kg⋅m2/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 25,
+      "object": "eip-628",
+      "text": "net τ=ΔLΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 37,
+      "object": "eip-994",
+      "text": "ΔL=(net τ)Δt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 40,
+      "object": "eip-911",
+      "text": "L=rFΔt=(0.260m)(2.50N)(0.150s)=9.75×10−2kg⋅m2/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 41,
+      "object": "eip-982",
+      "text": "L=Iω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 43,
+      "object": "eip-963",
+      "text": "ω=LI=L12MR2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 44,
+      "object": "eip-98",
+      "text": "ω=9.75×10−2 kg⋅m2/s(0.500)(4.00 kg)(0.260 m)2=0.721 rad/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 48,
+      "object": "eip-576",
+      "text": "ΔLΔt=0.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 51,
+      "object": "eip-67",
+      "text": "L=L′(net τ=0).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 55,
+      "object": "eip-572",
+      "text": "L=L′.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 56,
+      "object": "eip-752",
+      "text": "Iω=I′ω′,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71594",
+      "index": 62,
+      "object": "eip-489",
+      "text": "KErot=12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 67,
+      "object": "eip-158",
+      "text": "ω′=II′ω=(2.34kg⋅m20.363kg⋅m2)(0.800 rev/s)=5.16 rev/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 68,
+      "object": "eip-377",
+      "text": "KErot=12Iω2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 69,
+      "object": "eip-8",
+      "text": "KErot=(0.5)(2.34kg⋅m2)[(0.800revs)(2πradrev)]2=29.6J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 70,
+      "object": "eip-30",
+      "text": "KErot′=12I′ω′2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 71,
+      "object": "eip-307",
+      "text": "KErot′=(0.5)(0.363kg⋅m2)[(5.16revs)(2πradrev)]2=191J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 73,
+      "object": "import-auto-id1381663",
+      "text": "L=Iω.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71594",
+      "index": 75,
+      "object": "import-auto-id2625259",
+      "text": "net τ=ΔLΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71595",
+      "index": 8,
+      "object": "eip-1000",
+      "text": "net τ=ΔLΔt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71613",
+      "index": 1,
+      "object": "eip-385",
+      "text": "ρ=mV,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71613",
+      "index": 5,
+      "object": "eip-462",
+      "text": "ρ=mV,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71613",
+      "index": 30,
+      "object": "eip-48",
+      "text": "ρ=mV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71613",
+      "index": 42,
+      "object": "eip-759",
+      "text": "m=(1.00×103kg/m3)(2.00×109m3)=2.00×1012kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71613",
+      "index": 46,
+      "object": "eip-291",
+      "text": "ρ=mV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71615",
+      "index": 5,
+      "object": "eip-795",
+      "text": "P=FA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71615",
+      "index": 6,
+      "object": "eip-id1787110",
+      "text": "1Pa=1N/m2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71615",
+      "index": 7,
+      "object": "eip-847",
+      "text": "1bar=1000mbar=105Pa.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71615",
+      "index": 13,
+      "object": "eip-914",
+      "text": "F=PA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71615",
+      "index": 17,
+      "object": "eip-775",
+      "text": "F=(6.90×106N/m2)(3.14)(0.0750m)2=1.22×105N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71615",
+      "index": 19,
+      "object": "eip-18",
+      "text": "P=FA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 3,
+      "object": "eip-764",
+      "text": "P=mgA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 4,
+      "object": "eip-675",
+      "text": "m=ρV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 6,
+      "object": "eip-958",
+      "text": "V=Ah,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71623",
+      "index": 9,
+      "object": "eip-476",
+      "text": "m=ρAh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 10,
+      "object": "eip-58",
+      "text": "P=(ρAh)gA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 11,
+      "object": "eip-232",
+      "text": "P=ρgh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 18,
+      "object": "eip-260",
+      "text": "P¯=ρgh¯.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 20,
+      "object": "eip-346",
+      "text": "P¯=(103kgm3)(9.80ms2)(40.0m)=3.92×105Nm2=392 kPa.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 21,
+      "object": "eip-49",
+      "text": "F=P¯A.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 24,
+      "object": "eip-208",
+      "text": "F=(3.92×105N/m2)(4.00×104m2)=1.57×1010N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 28,
+      "object": "eip-820",
+      "text": "1 atmosphere (atm)=Patm=1.01×105N/m2=101kPa.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 37,
+      "object": "eip-319",
+      "text": "h=Pρg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 41,
+      "object": "eip-169",
+      "text": "h=1.01×105N/m2(1.00×103kg/m3)(9.80m/s2)=10.3m.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 44,
+      "object": "eip-998",
+      "text": "P=mgA.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71623",
+      "index": 45,
+      "object": "eip-992",
+      "text": "P=ρgh,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71624",
+      "index": 10,
+      "object": "eip-721",
+      "text": "FB=wfl,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71624",
+      "index": 13,
+      "object": "eip-599",
+      "text": "FB=wfl,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71624",
+      "index": 19,
+      "object": "eip-29",
+      "text": "Vst=mstρst=1.00×107kg7.8×103kg/m3=1.28×103m3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 21,
+      "object": "eip-383",
+      "text": "mw=ρwVw=(1.000×103kg/m3)(1.28×103m3)=1.28×106kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 23,
+      "object": "eip-164",
+      "text": "FB=ww=mwg=(1.28×106kg)(9.80m/s2)=1.3×107N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 25,
+      "object": "eip-902",
+      "text": "mw=ρwVw=(1.000×103kg/m3)(1.00×105m3)=1.00×108kg.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 26,
+      "object": "eip-606",
+      "text": "FB=ww=mwg=(1.00×108kg)(9.80m/s2)=9.80×108N.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 27,
+      "object": "eip-5",
+      "text": "fraction submerged = VsubVobj=VflVobj.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 30,
+      "object": "eip-994",
+      "text": "VflVobj=mfl/ρflmobj/ρ¯obj,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71624",
+      "index": 33,
+      "object": "eip-129",
+      "text": "fraction submerged=ρ¯objρfl.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 34,
+      "object": "eip-261",
+      "text": "specific gravity=ρ¯ρw,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71624",
+      "index": 40,
+      "object": "eip-856",
+      "text": "ρ¯obj=ρ¯person=(fraction submerged)⋅ρfl.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 41,
+      "object": "eip-846",
+      "text": "ρ¯person=0.970⋅(103kgm3)=970kgm3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 43,
+      "object": "eip-249",
+      "text": "apparent mass loss = mass of fluid displaced.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71624",
+      "index": 52,
+      "object": "eip-472",
+      "text": "ρc=mcVc=8.630g0.830 cm3=10.4g/cm3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 2,
+      "object": "fs-id3254631",
+      "text": "Q=Vt,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71625",
+      "index": 18,
+      "object": "fs-id2590610",
+      "text": "V=Qt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 19,
+      "object": "fs-id3138372",
+      "text": "V=(5.00L1min)(75y)(1m3103L)(5.26×105miny)=2.0×105 m3.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 22,
+      "object": "fs-id3135337",
+      "text": "Q=Av¯,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71625",
+      "index": 25,
+      "object": "fs-id1867952",
+      "text": "V=Ad,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71625",
+      "index": 29,
+      "object": "fs-id2668235",
+      "text": "Vt=Adt.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 33,
+      "object": "fs-id1546161",
+      "text": "Q1=Q2A1v¯1=A2v¯2}.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 37,
+      "object": "fs-id1616200",
+      "text": "v¯1=QA1=Qπr12.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 38,
+      "object": "fs-id1537613",
+      "text": "v¯1=(0.500L/s)(10−3m3/L)π(9.00×10−3m)2=1.96m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 40,
+      "object": "fs-id3082712",
+      "text": "A1v¯1=A2v¯2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71625",
+      "index": 43,
+      "object": "fs-id2590734",
+      "text": "v¯2=A1A2v¯1=πr12πr22v¯1=r12r22v¯1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 44,
+      "object": "fs-id3025743",
+      "text": "v¯2=(0.900cm)2(0.250cm)21.96m/s=25.5m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 45,
+      "object": "fs-id3026881",
+      "text": "n1A1v¯1=n2A2v¯2,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71625",
+      "index": 52,
+      "object": "fs-id3104729",
+      "text": "v¯\n=\n           (\n5.0\n                \nL/min\n                )(\n10\n                 \n−\n                      \n3\n                      \nm\n                 \n3\n                     \n/L\n                )(\n1\n                \nmin/\n                \n60\n                \ns\n                )\nπ\n              (\n0\n                 \n.\n                 010m)\n2\n                   \n=\n          \n0\n          \n.\n         \n27\n         \nm/s\n         .",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 56,
+      "object": "fs-id3175565",
+      "text": "\nn\n            \n2\n                \n=\n           (\n1\n                )(\nπ\n                )(\n10\n                  \n×\n                  \n10\n                   \n−\n                        \n3\n                        \nm\n                 )\n2\n                   (0.27m/s)(\nπ\n                )(\n4.0\n                 \n×\n                  \n10\n                   \n−\n                        \n6\n                        \nm\n                 )\n2\n                   (\n0.33\n                \n×\n                 \n10\n                  \n−\n                       \n3\n                       \nm/s\n                )\n=\n          \n5.0\n          \n×\n          \n10\n           \n9\n               \ncapillaries\n         .",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71625",
+      "index": 71,
+      "object": "eip-537",
+      "text": "Q1=Q2A1v¯1=A2v¯2n1A1v¯1=n2A2v¯2}.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 1,
+      "object": "eip-843",
+      "text": "Wnet=12mv2−12mv02.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 6,
+      "object": "eip-506",
+      "text": "P+12ρv2+ρgh=constant,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71626",
+      "index": 12,
+      "object": "eip-322",
+      "text": "P1+12ρv12+ρgh1=P2+12ρv22+ρgh2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 16,
+      "object": "eip-390",
+      "text": "12ρv2=12mv2V=KEV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 18,
+      "object": "eip-800",
+      "text": "ρgh=mghV=PEgV,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m71626",
+      "index": 27,
+      "object": "eip-871",
+      "text": "P1+ρgh1=P2+ρgh2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 29,
+      "object": "eip-477",
+      "text": "P2=P1+ρgh1.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 37,
+      "object": "import-auto-id2668144",
+      "text": "ΔPEg=mgh.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 40,
+      "object": "eip-663",
+      "text": "P1+12ρv12=P2+12ρv22.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 48,
+      "object": "eip-193",
+      "text": "P1=P2+12ρv22−12ρv12=P2+12ρ(v22−v12).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 49,
+      "object": "eip-579",
+      "text": "P1=1.01×105N/m2+12(103kg/m3)[(25.5m/s)2−(1.96m/s)2]=4.24×105N/m2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 57,
+      "object": "eip-847",
+      "text": "P1=P2+12ρv22.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 61,
+      "object": "eip-695",
+      "text": "h∝12ρv22.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 64,
+      "object": "eip-265",
+      "text": "v2∝h.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 69,
+      "object": "eip-id1907714",
+      "text": "P1+12ρv12+ρgh1=P2+12ρv22+ρgh2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m71626",
+      "index": 70,
+      "object": "eip-id2688454",
+      "text": "P1+12ρv12=P2+12ρv22.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 16,
+      "object": "import-auto-id1936584",
+      "text": "ΔPE.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 31,
+      "object": "eip-17",
+      "text": "V = PEq,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m75427",
+      "index": 34,
+      "object": "eip-723",
+      "text": "ΔV=VB−VA=ΔPEq.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 49,
+      "object": "eip-758",
+      "text": "ΔPEcycle=(5000C)(12.0V)=(5000C)(12.0J/C)=6.00×104 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 51,
+      "object": "eip-367",
+      "text": "ΔPEcar=(60,000C)(12.0V)=7.20×105 J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 61,
+      "object": "eip-794",
+      "text": "q=ΔPEΔV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 64,
+      "object": "eip-53",
+      "text": "q=−30.0 J+12.0 V=−30.0 J+12.0 J/C=−2.50 C.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 66,
+      "object": "eip-25",
+      "text": "ne =−2.50C−1.60×10−19C/e−=1.56×1019 electrons.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 67,
+      "object": "import-auto-id1951305",
+      "text": "ΔPE=qΔV,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m75427",
+      "index": 68,
+      "object": "eip-829",
+      "text": "1eV=(1.60×10−19C)(1V)=(1.60×10−19C)(1J/C)=1.60×10−19J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 71,
+      "object": "eip-645",
+      "text": "KEi+PEi=KEf+PEf,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m75427",
+      "index": 76,
+      "object": "eip-584",
+      "text": "KEi+PEi=KEf+PEf.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 77,
+      "object": "eip-366",
+      "text": "qV = mv22.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 79,
+      "object": "eip-54",
+      "text": "v=2qVm.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 83,
+      "object": "eip-209",
+      "text": "v=2(−1.60×10−19 C)(−100 J/C)9.11×10−31 kg=5.93×106 m/s.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75427",
+      "index": 89,
+      "object": "eip-998",
+      "text": "1eV=(1.60×10−19C)(1V)=(1.60×10−19C)(1J/C)=1.60×10−19J.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m75429",
+      "index": 21,
+      "object": "eip-406",
+      "text": "p=Ec,",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m76603",
+      "index": 23,
+      "object": "eip-697",
+      "text": "Pu239→U235+4He.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 39,
+      "object": "eip-241",
+      "text": "E=(Δm)c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 50,
+      "object": "eip-774",
+      "text": "Pu239→U235+4He.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 57,
+      "object": "eip-495",
+      "text": "Δm=m(239Pu)−[m(235U)+m(He4)]=239.052157u−239.046526u=0.005631 u.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 60,
+      "object": "eip-135",
+      "text": "E=(Δm)c2=(0.005631u)c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 62,
+      "object": "eip-101",
+      "text": "E=(0.005631)(931.5MeV/c2)(c2)=5.25MeV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 76,
+      "object": "eip-799",
+      "text": "Co60→Ni60+β−+ neutrino.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 86,
+      "object": "eip-338",
+      "text": "XNZA→YN−1Z+1A+β−+ν¯e(β−decay),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m76603",
+      "index": 95,
+      "object": "eip-828",
+      "text": "n→p+β−+ν¯e.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 118,
+      "object": "eip-741",
+      "text": "Δm=m(Co60)−m(Ni60).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 121,
+      "object": "eip-626",
+      "text": "Co332760→Ni322860+β−+ν¯e.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 122,
+      "object": "eip-371",
+      "text": "Δm=m(Co60)−m(Ni60).",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 123,
+      "object": "eip-592",
+      "text": "Δm=59.933820u−59.930789u=0.003031u.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 124,
+      "object": "eip-902",
+      "text": "E=(Δm)c2=(0.003031u)c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 126,
+      "object": "eip-19",
+      "text": "E=(0.003031)(931.5MeV/c2)(c2)=2.82 MeV.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 142,
+      "object": "eip-92",
+      "text": "XNZA→YN+1Z−1A+β++νe(β+decay),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m76603",
+      "index": 154,
+      "object": "eip-720",
+      "text": "Na111122→Ne121022+β++νe.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 158,
+      "object": "eip-770",
+      "text": "Δm=m(parent)−[m(daughter)+2me],",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m76603",
+      "index": 178,
+      "object": "eip-25",
+      "text": "60Ni*→Ni60+γ1+γ2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 184,
+      "object": "import-auto-id2681094",
+      "text": "(α),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m76603",
+      "index": 185,
+      "object": "import-auto-id2681094",
+      "text": "(β),",
+      "decision": "sentence-punctuation",
+      "punctuation": ","
+    },
+    {
+      "module": "m76603",
+      "index": 188,
+      "object": "eip-10",
+      "text": "XNZA→YN−2Z−2A−4+24He2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 191,
+      "object": "eip-789",
+      "text": "E=(Δm)c2.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 193,
+      "object": "eip-95",
+      "text": "XNZA→YN−1Z+1A+β−+ν¯e.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 195,
+      "object": "eip-696",
+      "text": "XNZA→YN+1Z−1A+β++νe.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 196,
+      "object": "eip-679",
+      "text": "XNZA+e−→YN+1Z−1A+νe.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    },
+    {
+      "module": "m76603",
+      "index": 269,
+      "object": "import-auto-id2962661",
+      "text": "7Be.",
+      "decision": "sentence-punctuation",
+      "punctuation": "."
+    }
+  ],
+  "retained": [
+    {
+      "module": "m42356",
+      "index": 96,
+      "object": "import-auto-id2600367",
+      "text": "1Rp=1R1+1R2+1R3+...",
+      "decision": "ellipsis"
+    },
+    {
+      "module": "m42674",
+      "index": 7,
+      "object": "import-auto-id1169738151756",
+      "text": "s=0, 1, 2, ...",
+      "decision": "ellipsis"
+    },
+    {
+      "module": "m42674",
+      "index": 8,
+      "object": "import-auto-id1169738151756",
+      "text": "s=1/2,3/2,...",
+      "decision": "ellipsis"
+    },
+    {
+      "module": "m52471",
+      "index": 23,
+      "object": "import-auto-id2979246",
+      "text": "e=2.71828...",
+      "decision": "ellipsis"
+    },
+    {
+      "module": "m67807",
+      "index": 15,
+      "object": "import-auto-id3209934",
+      "text": "ni=3, 4, 5, 6, ...",
+      "decision": "no-sentence-punctuation"
+    },
+    {
+      "module": "m67807",
+      "index": 21,
+      "object": "eip-580",
+      "text": "n=1, 2, 3, ...",
+      "decision": "ellipsis"
+    }
+  ]
+}

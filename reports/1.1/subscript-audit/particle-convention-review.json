@@ -1,0 +1,34 @@
+{
+  "status": "reviewed-pending-preview",
+  "source_changes_required": false,
+  "checked": {
+    "common_particle_quantity_subscripts": 81,
+    "neutrino_flavour_subscripts": 54
+  },
+  "mismatches": [],
+  "resolutions": [
+    "Quantity subscripts e/p/n upright; standalone particle symbols italic.",
+    "Other contextual particle symbols italic; no B-meson or bottom-quark quantity subscripts found in the candidate scan.",
+    "Lepton-number family labels remain upright as descriptive family labels.",
+    "Coordinate variables and quantum indices remain italic.",
+    "Current Chapter 12 Exercise 48 E_B distractor retained by author decision."
+  ],
+  "scope": "Editable MathML and prior audit records; raster figure lettering excluded.",
+  "preview_refreshed": false,
+  "frequency_resolution": "Author approved replacing hν with UV light above the arrow and prose that describes bond breaking; applied, preview unchanged.",
+  "resolved_frequency_cases": [
+    {
+      "section": "11.5 The Electromagnetic Spectrum: Application Notes",
+      "source_id": "import-auto-id1169737821647",
+      "context": "CFC photodissociation prose uses photon energy hν.",
+      "recommendation": "Use hf; photon frequency, not neutrino."
+    },
+    {
+      "section": "11.5 The Electromagnetic Spectrum: Application Notes",
+      "source_id": "eip-108",
+      "context": "CFCl3 + hν → CFCl2 + Cl.",
+      "recommendation": "Use hf to match prose."
+    }
+  ],
+  "remaining_user_review": []
+}

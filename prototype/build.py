@@ -30,15 +30,16 @@ registry={s['module_id']:s for s in sections}
 if FULL:IDS=list(registry)
 SCOPE=f'{len(IDS)}-module review build'
 PUBLIC_NUMBERING='Lecture-aligned numbering (July 2026)' if PROFILE=='course' else 'CNX numbering'
-NUMBERING_NOTE='This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.'
+NUMBERING_NOTE='This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF, except that the appendices use the original CNX letters A–D. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.'
 attributions={a['module_id']:a for a in load('references/cnx-12.1-module-attributions.json')['modules']}
 roots={s['module_id']:ET.parse(ROOT/s['source']).getroot() for s in sections}
 parents={mid:{child:parent for parent in r.iter() for child in parent} for mid,r in roots.items()}
 course={x['section_id'].split(':')[1]:x['label'] for x in load('metadata/numbering-course-2026-07-07.proposed.json')['section_labels']}
+course.update(load('maintained/numbering.json')['course'].get('section_label_overrides',{}))
 # Body headings inspected in historical PDF. Only these six labels are asserted.
 cnx={'m67034':'2.5','m67530':'3.3','m71410':'3.8','m67122':'9.2','m67807':'13.6','m42709':'D'}
 issues=[]; adaptations=[]; math_sources=[]; objects={}; counts=collections.Counter()
-review_chapters={'0':'introduction-exercises','1':'kinematics-exercises','2':'dynamics-exercises','3':'work-and-energy-exercises','4':'impulse-and-momentum-exercises','5':'oscillations-and-waves-exercises','6':'rotation-exercises','7':'fluids-exercises','8':'thermal-physics-exercises','9':'electricity-exercises','10':'magnetism-exercises'}
+review_chapters={'0':'introduction-exercises','1':'kinematics-exercises','2':'dynamics-exercises','3':'work-and-energy-exercises','4':'impulse-and-momentum-exercises','5':'oscillations-and-waves-exercises','6':'rotation-exercises','7':'fluids-exercises','8':'thermal-physics-exercises','9':'electricity-exercises','10':'magnetism-exercises','11':'light-exercises','12':'quantum-mechanics-exercises','13':'special-relativity-exercises','14':'nuclear-and-particle-physics-exercises'}
 review_modules={mid:review_chapters[label.split('.')[0]] for mid,label in course.items() if label.split('.')[0] in review_chapters}
 chapter_relocated=[]
 def anchor(mid,ident):return mid+'--'+ident.encode('utf-8').hex()
@@ -60,11 +61,12 @@ nav=Navigation([registry[m] for m in IDS],course if PROFILE=='course' else cnx,l
 
 from mathml import UnsupportedMath
 from native_math import native_math
-from math_punctuation import render_child
+from math_punctuation import render_content
+from math_sentence_punctuation import separate as separate_sentence_punctuation
 
 class Renderer:
     def __init__(self,mid,book=False,projection=False):self.mid=mid;self.book=book;self.projection=projection;self.math_index=0;self.review_links=set()
-    def content(self,e):return esc(e.text or '')+''.join(render_child(x,self.render) for x in e)
+    def content(self,e):return render_content(e,self.render)
     def render(self,e,depth=2):
         tag=local(e); mid=self.mid; ident=e.get('id'); aid=f' id="{anchor(mid,ident)}"' if ident else ''
         kind='glossary' if tag=='glossary' else 'summary' if 'section-summary' in e.get('class','').split() else 'questions' if set(e.get('class','').split()).intersection(('conceptual-questions','problems-exercises')) and tag=='section' else None
@@ -96,7 +98,10 @@ class Renderer:
                 snapshot=copy.deepcopy(e);snapshot.tail=None
                 math_sources.append({'key':key,'module':mid,'xml':ET.tostring(snapshot,encoding='unicode'),'source_object':parent.get('id')})
             try:
-                result,native_changes=native_math(e)
+                ancestor=e
+                while ancestor in parents[mid] and local(ancestor)!='equation':
+                    ancestor=parents[mid][ancestor]
+                result,native_changes=native_math(e,equation_context=local(ancestor)=='equation')
                 if not self.book and not self.projection and native_changes:adaptations.append({'kind':'native-mathml','key':key,'changes':native_changes})
             except UnsupportedMath as ex:
                 if not self.book and not self.projection:issues.append({'kind':'unresolved-math','module':mid,'key':key,'detail':str(ex)})
@@ -105,10 +110,18 @@ class Renderer:
                 adaptations.append({'kind':'content-mathml','key':key,'policy':'Presentation adapter; bold vectors, symbolic juxtaposition, grouped composite powers; visual review required'})
             if not self.book and not self.projection and any(local(x)=='mtr' and any(local(y)!='mtd' for y in x) for x in e.iter()):
                 adaptations.append({'kind':'math-table-cell-wrapper','key':key})
+            was_block_math='display="block"' in result.split('>',1)[0]
+            result,punctuation,punctuation_decision=separate_sentence_punctuation(result)
+            if punctuation and not self.book and not self.projection:
+                adaptations.append({'kind':'sentence-punctuation','key':key,'punctuation':punctuation})
             formats=copy_formats(result)
             attrs=' '.join('data-copy-'+name+'="'+esc(formats[name])+'"' for name in ('latex','asciimath'))
             notes=esc(' '.join(formats['notes']))
-            return f'<span data-math-key="{key}" {attrs} data-copy-notes="{notes}">{result}</span>'
+            rendered=f'<span data-math-key="{key}" {attrs} data-copy-notes="{notes}">{result}</span>'
+            if punctuation:
+                rendered='<span class="math-with-punctuation">'+rendered+'<span class="sentence-punctuation">'+esc(punctuation)+'</span></span>'
+                if was_block_math:rendered='<span class="sentence-math-block">'+rendered+'</span>'
+            return rendered
         if tag=='para' and obj.get('kind')=='exercise':return f'<div class="exercise"{aid}><div class="object-title">Exercise {esc(label)}</div><div class="para">{self.content(e)}</div></div>'
         if tag in ('metadata','label','colspec'):return ''
         if tag=='title':return f'<h3{aid}>{self.content(e)}</h3>'
@@ -157,7 +170,7 @@ class Renderer:
                 title=ancestor.find('c:title',NS)
                 if 'section-summary' in ancestor.get('class','').split() or (local(ancestor)=='section' and text(title).lower() in ('section summary','chapter summary')):
                     in_summary=True;break
-            visible_label=None if in_summary else label
+            visible_label=label if not in_summary or obj.get('summary_original') else None
             return f'<div class="equation"{aid}><div>{self.content(e)}</div><span class="eq-label">{("("+esc(visible_label)+")") if visible_label else ""}</span></div>'
         if tag in ('example','exercise','note'):
             heading=(tag.title()+' '+str(label)) if label else (tag.title() if tag!='note' else '')
@@ -237,10 +250,10 @@ def page(title,body,prefix='',website=True):
         site_links += ' · <a href="'+prefix+'search/index.html">Search</a>'
     if RELEASE:
         canonical=release['public_origin']+'/'
-        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
+        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
 
-OUT.mkdir(parents=True,exist_ok=True);shutil.copyfile(P/'style.css',OUT/'style.css');shutil.copyfile(P/'copy-math.js',OUT/'copy-math.js')
+OUT.mkdir(parents=True,exist_ok=True);shutil.copyfile(P/'style.css',OUT/'style.css');shutil.copyfile(P/'copy-math.js',OUT/'copy-math.js');shutil.copyfile(P/'theme.js',OUT/'theme.js')
 book=[]
 for mid in IDS:
     source_dir=OUT/'source'/mid;source_dir.mkdir(parents=True,exist_ok=True)
@@ -302,6 +315,7 @@ if FULL and PROFILE=='course':
                     body+=b['html'];previous_mid=mid
                 body+='</section>'
             body+='<p>Source sections: '+', '.join('<a href="../../sections/'+registry[mid]['candidate_slug']+'/index.html">'+esc(registry[mid]['title'])+'</a>' for mid in dict.fromkeys(b['module'] for b in collected))+'. Credits and licenses appear with each source section.</p>'
+        body=body.replace('</h1>', '</h1>'+nav.review_navigation(view['chapter_label']), 1)
         body=nav.previous_next('exercises:'+view['slug'],'top')+body+nav.previous_next('exercises:'+view['slug'],'bottom')
         page_title = ('Chapter ' + view['chapter_label'] + ': ' + view['title'].removesuffix(' (Exercise)').removesuffix(' (Exercises)') + ' — Review and Exercises') if view['chapter_label'] in review_chapters else view['title']
         (target/'index.html').write_text(page(page_title,body,'../../'),encoding='utf-8',newline='\n')
@@ -335,3 +349,5 @@ if FULL:
     (search_dir/'index.html').write_text(page('Search — Introduction to Physics', SEARCH_BODY, '../'),encoding='utf-8',newline='\n')
     shutil.copyfile(P/'search.js',OUT/'search.js')
     print(json.dumps({'search_passages':build_search_index(OUT)}))
+    from chapter_permalinks import apply_chapter_permalinks
+    apply_chapter_permalinks(OUT, registry, load('maintained/chapter-permalinks.json')['chapters'])

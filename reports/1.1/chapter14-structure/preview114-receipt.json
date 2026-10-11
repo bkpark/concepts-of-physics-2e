@@ -1,0 +1,44 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_7fa0c49668848191a49a4c904370433c",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 114,
+    "source": {
+      "commit_sha": "2f00f52b85729dcc5c8639b0b421358980f0ef9e"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000007ea081fdaae8b6934265573c",
+      "content_hash": "sha256:0f7583a7c9e13e3f9ea7c33506f7cb1de116a6f298ce2264f7fae6265caff983",
+      "size_bytes": 129894400,
+      "file_count": 749
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aca9b2d16f88191bcef8bb84b4ed328",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_7fa0c49668848191a49a4c904370433c",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-10T20:08:23.980619+00:00"
+  },
+  "checks": {
+    "course_and_cnx_builds": "passed",
+    "full_validation": "passed",
+    "mobile_and_desktop": "passed",
+    "exercise_count": 195,
+    "glossary_count": 112,
+    "summary_count": 10
+  },
+  "chapter13": "finalized after Preview 113",
+  "chapter14": "organized for maintainer review; original exercise content preserved"
+}

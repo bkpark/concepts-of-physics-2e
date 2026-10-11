@@ -532,3 +532,223 @@ Chapter 8 Temperature summary: replaced four display conversions with one relati
 2026-10-04: Maintainer explicitly finalized Chapter 9 after preview 71 review. All 55 exercises, section corrections, and Figure 9.E.1 approved. Chapter 10 organization prepared for later review: 42 glossary definitions, 10 summaries, 50 unchanged questions (19 conceptual, 31 numerical). Review agenda: reports/1.1/chapter10-structure/review.md; includes saved Section 10.8 n/N reminder.
 
 Chapter 10 reorganization is live in preview 72, ready for review when the maintainer returns.
+
+### 2026-10-09: Appendix lettering restored
+
+Author approved course-profile appendices A Atomic Masses, B Selected Radioactive Isotopes, C Useful Information, D Glossary of Key Symbols and Notation, replacing LibreTexts 15–18. Historical metadata retained; maintained numbering overrides drive navigation and object references. Source URLs/anchors remain stable.
+Preview 96 published successfully with appendix letters A-D. Both builds and full validation passed; all 12 changed object labels are confined to appendices and all anchors unchanged.
+
+### 2026-10-09: Stable chapter permalinks
+
+Author requested short chapter-introduction permalinks that survive renumbering while retaining canonical section URLs. Added maintained/chapter-permalinks.json keyed by stable module IDs, using /chapters/<topic>/ for all 15 chapter entries. Static aliases retain original anchors and relative assets, with canonical metadata pointing to original section pages. Generated navigation, contents, chapter-return links, source references, and search URLs prefer these paths. Original /sections/ pages remain available; chapter numbers are not part of permalink identity.
+Preview 97 published: all 15 stable chapter permalinks live. Four routing unit tests, full builds/validation, anchor/asset checks, preferred internal URLs, and search deduplication verified in both profiles.
+
+### 2026-10-09: Section 12.2 math italics
+
+Removed both forced italic attributes in m67250 highlighted energy-step calculation. Whole-section audit found no other forced italic overrides. XML verified; pending preview refresh. Correction C12-BLACKBODY-REMOVE-FORCED-ITALICS.
+
+### Outstanding author photograph — remind at every chapter finalization
+
+Figure 12.3.2 (m67251#import-auto-id1362766) needs a higher-resolution author photo of the lab photoelectric apparatus. Author will arrange Monday reminder. Keep mentioning this during every chapter finalization until the new image and its credit are updated and verified. Tracking checklist: docs/exercise-revision-1.1.md, Outstanding items to mention at every chapter finalization. Existing image/credit unchanged for now.
+
+### 2026-10-09: Section 12.3 forced math italics
+
+Removed all 16 forced italic attributes in m67251; XML comparison verifies only those attributes changed. Normal variable italics and prose emphasis retained. Correction C12-PHOTOELECTRIC-REMOVE-FORCED-ITALICS. Pending preview refresh. Earlier parenthesis simplification was proposed, not yet applied. Outstanding apparatus photo remains on every-chapter-finalization checklist.
+
+2026-10-09: Removed the space between inline h and the first em dash in Figure 12.3.4 caption (m67251/import-auto-id1573454). XML verified; pending next batched preview refresh.
+
+2026-10-09: Repaired Example 12.3.1 MathML tokens and grouping (operators, complete numbers, upright units); two photon-energy calculations now use aligned two-row layouts with results on the second row. Repeated kinetic-energy formulas corrected consistently. Values and prose retained; XML verified. Pending preview refresh.
+
+2026-10-09: Removed all three forced italic MathML overrides in Section 12.4, The Wave Nature of Matter (m67803). XML comparison verifies only these attributes changed; normal variable styling and prose emphasis retained. Pending next preview refresh.
+
+2026-10-09: Split Example 12.4.1 velocity substitution (m67803/eip-177) before the second equals sign into two aligned rows. Numerical values retained; XML and row structure verified. Pending next preview refresh.
+
+2026-10-09: Corrected uncertainty-product grouping and thin spacing in equations 12.5.3 and 12.5.4 (m67804/eip-840, eip-227), including proper delta and 4 pi tokens. XML verified; pending next preview refresh.
+
+2026-10-09: Applied uncertainty-product grouping and thin spacing to the three remaining occurrences in m67804: Example 12.5.1 strategy, its displayed minimum-uncertainty equality, and section summary. XML verified; pending preview refresh.
+
+2026-10-09: Split Example 12.5.1 momentum uncertainty calculation (m67804/eip-810) before the final equals sign into aligned rows. Values retained; XML and row structure verified. Confirmed eip-833 product spacing already corrected. Pending next preview refresh.
+
+2026-10-09: Moved final results to separate aligned rows in Example 12.5.1 velocity uncertainty and kinetic energy calculations (m67804/eip-899 and eip-669). Values preserved; XML and two-/four-row layouts verified. Pending preview refresh.
+
+2026-10-09: Separated ordinary parenthetical labels from MathML in equations 12.6.3–12.6.5 (m67805/eip-479, eip-618, eip-19). Values, IDs and numbering retained; numeric/unit tokens cleaned up. XML and label separation verified. Pending preview refresh.
+
+### 2026-10-09: Global sentence punctuation cleanup
+
+Before resuming Chapter 12 review, added shared publishing normalization that moves terminal sentence punctuation outside MathML and excludes it from equation copy formats. Audit: 6,726 expressions, 836 normalized across 98 modules; six mathematical ellipses retained. Fixed one malformed source comma inside a fraction denominator. Block/multiline visual placement checked across the full book at phone, tablet and desktop widths. Details: reports/1.1/math-sentence-punctuation/review.md. Pending next preview refresh.
+
+2026-10-09: Preview 98 published successfully with all saved Chapter 12 math/layout fixes and the global sentence-punctuation normalization. Both builds and full validation passed; whole-book punctuation placement checked at three viewport widths. Deployment receipt: reports/1.1/math-sentence-punctuation/preview98-receipt.json. Photoelectric apparatus photo replacement and credit update remain outstanding.
+
+2026-10-09: Moved the two additional charge-to-mass ratio labels (electron/proton) outside MathML in Section 12.6. Summary expressions checked; no embedded copies remain. XML verified; pending next preview refresh.
+
+2026-10-09: Completed global prose-label audit over all 6,726 expressions. Reviewed 202 prose-like candidates; moved 11 additional labels/qualifiers outside MathML across eight modules. Preserved units, word equations, counted entities, and mathematical subscripts. Saved reviewed retained cases and repeatable audit tool to flag future additions. Both builds/full validation and 22 mobile/desktop label checks pass. Details: reports/1.1/math-prose-labels/review.md. Pending next preview refresh, together with the two Section 12.6 ratio labels.
+
+2026-10-09: Preview 99 published successfully with the 11 global prose-label fixes and the two Section 12.6 charge-to-mass ratio labels. All approved pending math/layout corrections are now live. Receipt: reports/1.1/math-prose-labels/preview99-receipt.json. Chapter 12 review may resume; apparatus photo/credit replacement remains outstanding.
+
+### Native reading theme
+Added a persistent System/Light/Dark selector to site navigation. System is the default; changes apply before page styles load. Dark colors cover prose, equations, examples, tables, search, and copy dialogs; figures retain their original colors and print keeps the light palette. Browser checks passed for five page types, mobile layout, persistence, system changes, blocked storage, equation copying, and print. Evidence: reports/1.1/native-dark-theme/validation.json.
+
+
+### Bohr summary table layout
+Shortened the dependence heading and replaced four proportional-to labels with the proportionality symbol. Orbital energy now has two aligned lines, no redundant parentheses, and denominator 2 n-squared hbar-squared without an explicit multiplication sign. Source correction: C12-BOHR-TABLE-COMPACT-m67807. Both builds passed; table inspected at 624px. Screenshot: reports/1.1/bohr-table/table.png.
+
+
+### Bohr derivation layout
+Split the Bohr radius, photon-energy substitution, and Rydberg constant at their final equals signs. Removed redundant parentheses, retained subtraction grouping, and used implied multiplication for symbolic products (including the intervening wavelength expression). Both builds and full validation pass; 520px screenshots are in reports/1.1/bohr-derivation. Source record: C12-BOHR-DERIVATION-LAYOUT-m67807.
+
+
+### Wave quantization MathML cleanup
+Separated allowed-n conditions into their own MathML with ordinary-text parentheses in both body equations and summary repetitions (four occurrences). Removed six forced-italic attributes throughout m67808. Both builds and validation passed; screenshots and equation-boundary checks at 520px are in reports/1.1/wave-quantization. Source record: C12-WAVE-QUANTIZATION-MATH-m67808.
+
+
+### Chapter 12 glossary and summary review
+Clarified hydrogen-like atom/ion definition and section discussion; rebuilt glossary energy formula with normal variable typography and a separate allowed-n condition; added prose definition for Planck's constant. Normalized summary italic overrides and upright Delta. Corrected reduced Planck constant description (Unicode U+210F verified) and showed equivalence of nh/(2pi) and n hbar in section 12.8 and its summary. Heisenberg's uncertainty principle already exists in the glossary under H; retained that entry. Both builds and full validation passed; screenshots in reports/1.1/chapter12-glossary-review.
+
+
+### Bohr photon-energy equality (pending preview)
+Applied the previously discussed removal of redundant parentheses in Eq. 12.7.4: hf = Delta E = E_i - E_f. Normalized upright Delta and moved trailing comma outside MathML. Source XML validated. Preview intentionally not refreshed.
+
+
+### Chapter 12 exercise scope decisions (pending preview)
+Removed Preview104 exercises 48-53, 60-61, and 75-78. Added a qualitative one-electron helium-ion versus neutral-helium question. Expected set: 69 exercises. Record: reports/1.1/chapter12-structure/scope-decisions.json. Keep remaining question review tied to Preview104 numbering until refresh.
+
+
+### Chapter 12 exercise review preview
+Removed Preview104 Exercise55 (duplicate of59), corrected65 MathML to 2 pi-squared and69 units to inverse metres. Chapter now has 68 exercises including approved scope removals and conceptual ion addition. Rebuilt both profiles and checked copied formula representations. This publication also includes the saved Eq.12.7.4 parentheses correction. Old59 becomes52; old65 becomes57; old69 becomes61.
+
+
+### Hydrogen-like ion glossary (pending preview)
+Renamed the glossary term to hydrogen-like ion and saved the approved definition explaining why its one remaining electron permits application of Bohr's model. Preserved definition anchors. Preview intentionally unchanged.
+
+
+### Global descriptive-subscript audit (pending preview)
+Reviewed editable MathML across the maintained book and corrected 191 descriptive-subscript occurrences in 32 modules, including initial/final, image/object, named forces and speeds, and particle mass/charge labels. Retained quantum indices, coordinate variables, and Greek particle-symbol subscripts; undefined E_B remains flagged. Copy LaTeX verified for E_i/E_f. Records and retained cases: reports/1.1/subscript-audit/review.json. Preview not refreshed; raster figure lettering is outside this MathML audit.
+
+
+### Particle notation follow-up (pending preview)
+Kept current Exercise 48's undefined E_B distractor by author decision. Corrected 27 Latin-v neutrino occurrences to Greek nu across five affected source modules (including related particle-style corrections), restored italic neutrino flavour symbols, and made descriptive mu/tau lepton-number labels upright. Recorded the PDG particle-symbol convention and NIST quantity-label distinction in the style guide. Two frequency-nu occurrences in the electromagnetic-spectrum application section remain unchanged pending context review. Audit: reports/1.1/subscript-audit/neutrino-frequency-review.json. Raster figure lettering is outside this audit.
+
+### Particle-subscript convention reconciliation (pending preview)
+Checked the saved audit against the agreed contextual convention: 81 common-particle quantity subscripts and 54 neutrino flavour subscripts conform, with no further source changes required. Coordinate and quantum indices remain italic, descriptive lepton-family labels remain upright, and the approved Exercise 48 distractor is retained. Two frequency-nu uses in Section 11.5 remain for author review. Report: reports/1.1/subscript-audit/particle-convention-review.json. No preview refresh.
+
+### UV photodissociation notation (pending preview)
+Section 11.5 now describes UV light breaking a CFC bond and places “UV light” above the reaction arrow. Removed both h-nu photon-energy references, avoiding particle notation before Chapter 12. Stable paragraph and equation IDs retained. Preview unchanged.
+
+### Chapter 12 Exercises 1–2 wording (pending preview)
+Replaced physical entity with physical property, retained quantized terminology, and requested two examples with their allowed values in Exercise 1 and continuous ranges in Exercise 2. Corrected described to describe in approved wording. Stable exercise and paragraph IDs retained; source XML validated. Preview unchanged.
+
+### Chapter 12 redundant Exercise 7 (pending preview)
+Removed the orangutan oscillator problem (Preview105 Exercise 7, m67250/fs-id1319731). Exercise 5 already covers energy spacing and n; Exercise 4 covers why everyday quantization is unobservable. Chapter 12 now has 67 exercises; bookwide projected count is 839. Continue review using unchanged public-preview numbers until the next refresh.
+
+### Chapter 12 Exercise 8 wording (pending preview)
+Replaced Preview105 Exercise 8 (m67251/fs-id874567) with the approved open-ended prompt about what determines photoelectric emission from a material and which spectral regions can cause it. Stable IDs retained; source XML validated. Preview unchanged.
+
+### Chapter 12 redundant Exercise 10 (pending preview)
+Removed Preview105 Exercise 10 (m67251/fs-id1565970), retaining Exercise 9 unchanged because it already addresses the explanatory roles of wave and photon models. Chapter 12 now has 66 exercises; bookwide projected count is 838. Continue using public-preview numbers until refresh.
+
+### Chapter 12 Exercise 11 removal (pending preview)
+Removed Preview105 Exercise 11 (m67251/fs-id1631189), which conflates photoemission thresholds with conductivity and requires solid-state concepts beyond the chapter scope. Chapter 12 now has 65 exercises; bookwide projected count is 837. Public-preview numbering remains unchanged until refresh.
+
+### Chapter 12 Exercise 12 removal (pending preview)
+Removed Preview105 Exercise 12 (m67251/fs-id1545718): thermal emission and shaking-versus-heating are outside the section development; revised Exercise 8 covers the escape-energy objective. Chapter 12 now has 64 exercises; bookwide projected count is 836. Public-preview numbering remains unchanged until refresh.
+
+### Chapter 12 Exercises 25–26 removal (pending preview)
+Removed Preview105 Exercises 25 and 26 (m67251/fs-id1555510 and fs-id1548779). Exercise 25 uses subthreshold photons; Exercise 26 claims electron kinetic energy greater than photon energy. Both are inconsistent-energy checks of the photoelectric relation. Chapter 12 now has 62 exercises; bookwide projected count is 834. Preview unchanged.
+
+### Photoelectric calculation review and accumulated preview refresh
+Applied approved work-function and wording audit for Preview105 Exercises 13–24, preserving stable IDs. Potassium now 2.30 eV; calcium 2.87 eV; sodium data consistent at 2.28 eV. Worked calcium example now uses more precise constants, photon energy 2.95 eV, maximum kinetic energy approximately 0.08 eV, stopping potential 0.08 V, and threshold wavelength 432 nm. Electron-rate/power questions state ideal upper-limit assumptions, and sunlight/recovery wording is removed. Refresh includes all pending global notation and Chapter 12 editorial changes.
+
+### Preview106 Exercise 20 removal (pending preview)
+Removed m67251/fs-id1596197 (Preview106 Exercise 20; Preview105 Exercise 24), retaining Preview106 Exercise 19 as the last photoelectric calculation. Chapter 12 now has 61 exercises; bookwide projected count is 833. Public preview remains version 106 until next requested refresh.
+
+### Preview106 Exercise 21 wording (pending preview)
+Saved approved two-part interference question (m67803/fs-id2731532), separating pattern similarity from detection and buildup with individual electrons. Stable IDs retained; source XML validated. Preview unchanged.
+
+### Preview106 Exercises 22–23 combined (pending preview)
+Combined into the approved two-part experimental-observation question at m67803/fs-id1306355; removed the separate m67803/fs-id1278570 exercise. Chapter 12 now has 60 exercises; bookwide projected count is 832. Preview remains unchanged.
+
+### Preview106 Exercise 24 wavelength (pending preview)
+Changed m67803/fs-id1308269 from 1.00 m to 1.00 mm. Nonrelativistic de Broglie calculation gives 0.727 m/s. Source XML validated; preview unchanged.
+
+### Preview106 Exercise 26 comparison (pending preview)
+Saved approved proton/electron comparison at 6.00 fm in m67803/fs-id1208943. Both calculations explicitly use p=mv and ask students to assess the approximation against c. Source XML validated; preview unchanged.
+
+### Preview106 Exercise 27 radius comparison (pending preview)
+Revised m67803/fs-id1224509 to ask for the speed at which the 0.400-kg ball has a wavelength equal to its stated 3.00-cm radius. Removed the inter-ball interference claim. Result: approximately 5.52 × 10^-32 m/s. Source XML validated; preview unchanged.
+
+### Preview106 Exercise 27 regulation dimensions (pending preview)
+Supersedes the earlier 0.400-kg, 3.00-cm billiard-ball version: approved wording now specifies a pool ball of mass 0.170 kg and radius 2.86 cm, consistent with WPA dimensions. Result approximately 1.36 × 10^-31 m/s. Source XML validated; preview unchanged.
+
+### Preview106 Exercise 28 removal (pending preview)
+Removed m67803/fs-id1655339 as repetitive of Preview106 Exercises 25 and 26. Chapter 12 now has 59 exercises; bookwide projected count is 831. Preview unchanged.
+
+### Preview106 Exercise 30 removal (pending preview)
+Removed m67803/fs-id1678654 because the nuclear-scale wavelength calculation duplicates Exercise 26 with a neutron instead of a proton. Chapter 12 now has 58 exercises; bookwide projected count is 830. Preview unchanged.
+
+### Preview106 Exercises 24 and 33 combined (pending preview)
+Merged into m67803/fs-id1308269: (a) 1.00-mm electron wavelength; (b) 1.00-μm wavelength speed and accelerating potential from rest. Removed separate fs-id1471848. Chapter 12 now has 57 exercises; projected total 829. Preview unchanged.
+
+### Preview106 Exercises 35–36 (pending preview)
+Exercise 35 now compares the nonrelativistic electron wavelength with the shortest X-ray wavelength when all kinetic energy goes to one photon. Removed Exercise 36 because revised Exercise 26 checks the same approximation failure. Chapter 12 now has 56 exercises; projected total 828. Preview unchanged.
+
+### Preview106 Exercise 37 uncertainty wording (pending preview)
+Saved approved three-part prompt at m67804/fs-id1252921, retaining the glossary term Heisenberg uncertainty principle, using atomic/nuclear length scales, and distinguishing individual uncertainties from their joint constraint. Stable IDs retained; source XML validated. Preview unchanged.
+
+### Preview106 Exercises 38–39 comparison scale (pending preview)
+Exercise 38 now supplies a concrete molecular bond-energy benchmark (H2 dissociation, 4.48 eV) and explicitly distinguishes speed from velocity uncertainty. Exercise 39 repeats all parts for chlorine using a stable cross-reference. Membrane setting retained; not explained in section prose and does not enter the calculation. Preview unchanged.
+
+### Preview106 Exercise 39 removal (pending preview)
+
+Removed the chlorine-ion repeat of Exercise 38 to avoid conflating whole-ion localization with electron binding. Chapter 12 now has 55 exercises; projected book total is 827. Exercise 38 wording at 0.100 nm was subsequently approved and saved (see atomic-localization entry below).
+
+### Preview106 Exercises 40–41 removal (pending preview)
+
+Removed the electron position-uncertainty question as redundant and the accelerator proton question for limited conceptual value. Chapter 12 now has 53 exercises; projected book total is 825.
+
+### Preview106 Exercises 42 and 44 ordering (pending preview)
+
+Moved the Millikan oil-drop question (44) ahead of the electron-mass evidence question (42), making it the first exercise of Section 12.6. Replaced the generic justification in 42 with the approved independent questions about combining measured quantities and Thomson’s measurement. IDs and exercise count are unchanged.
+
+Preview106 Exercise 42 now asks for “measured quantities” instead of “pieces of evidence”; remaining wording unchanged (pending preview).
+
+Preview106 Exercise 45 is now a single-part scale-model calculation: removed the subjective “How easy will this be to do?” follow-up and the (a) label (pending preview).
+
+### Preview106 Exercise 47 removal (pending preview)
+
+Removed the hydrogen-like-ion conceptual question; Bohr-model concluding prose unchanged. Chapter 12 now has 52 exercises; projected book total is 824.
+
+### Preview106 Exercises 48–49 combined (pending preview)
+
+Combined the first- and third-line Lyman calculations and spectral-region identification into Exercise 48. Chapter 12 now has 51 exercises; projected book total is 823.
+
+Preview106 Exercise 55: simplified legacy MathML, using a proper fraction for (13.6 eV)/(hc), numeric tokens, and consistent number-unit spacing (pending preview).
+
+Preview106 Exercises 56–58 (Balmer limit, Paschen range, and Balmer/Lyman overlap) moved in that order immediately after the combined Lyman-series question. Wording, IDs, and count unchanged (pending preview).
+
+### Preview106 Exercise 59 removal (pending preview)
+
+Removed the Balmer visible/UV line-count question as redundant. Chapter 12 now has 50 exercises; projected book total is 822.
+
+### Preview106 Exercise 61 removal (pending preview)
+
+Removed the Balmer wavelength percentage-difference question. Chapter 12 now has 49 exercises; projected book total is 821.
+
+### Preview106 Exercise 38 atomic localization (pending preview)
+
+Saved the approved 0.100 nm localization question, including minimum velocity uncertainty, the kinetic-energy scale K = (1/2) m_e (Delta v)^2, and comparison with 4.48 eV hydrogen dissociation energy. Removed the membrane setting. Exercise IDs and count unchanged.
+
+### Chapter 12 MyOpenMath-oriented additions and topic ordering
+
+Added seven approved exercises across Sections 12.3, 12.5, 12.6, 12.7, and 12.8; extended the sodium photoelectron question with stopping potential. The Bohr assumptions question is confined to its classical and quantum ingredients; standing-wave matching and probability-cloud interpretation are in 12.8. Reordered 12.7 to follow empirical spectra, orbital assumptions, radius and energy scales, transitions, and the Rydberg constant. Preserved oil-drop-first order in 12.6. Chapter 12 now has 56 exercises; projected book total 828. Optional blackbody/Planck-constant questions were not added. Full source provenance and answers are in reports/1.1/chapter12-structure/mom-additions-applied.json.
+
+### 2026-10-10: Chapter 12 finalized; Chapter 13 review preparation
+
+Maintainer finalized Chapter 12 after Preview 107 with 56 exercises and all approved MyOpenMath-oriented additions. No pending Chapter 12 wording decisions. Figure 12.3.2 apparatus photo replacement remains an explicitly deferred asset task: await maintainer photo and update its credit/caption/alt text together; continue reminders at every chapter finalization. Preparing Chapter 13 by collecting glossary, summaries, and all 94 existing chapter-end exercises in section order, preserving question content and IDs and retaining five inline Check Your Understanding prompts. Numerical-review flags: m42542/fs-id1346384 negative scientific-notation base; m42546 Equation 13.7.15 electron-mass inconsistency. Four remaining explicit Unreasonable Results exercises are flagged for upcoming review. No Chapter 13 pruning or MyOpenMath additions in this organization pass.
+
+
+### 2026-10-10: Chapter 13 finalized; Chapter 14 organization
+
+Maintainer finalized Chapter 13 after Preview 113, approving all 39 exercises and the new space-time diagram subsection. Chapter 14 prepared with 112 glossary definitions, 10 section summaries, and 195 original chapter-end exercises in section order. All exercise content and IDs preserved by the organization script; 0 inline checks retained. Section 14.12 missing objective particle name flagged for review. Figure 12.3.2 author photograph remains deferred; reminder delivered. Chapter 14 review inventory: reports/1.1/chapter14-structure/review.json.
+
+
+Preview 114 published successfully: Chapter 14 organized and ready for review. Both numbering builds, full validation, and narrow/desktop browser checks passed. Receipt: reports/1.1/chapter14-structure/preview114-receipt.json. Chapter 13 finalized; no canonical GitHub push.

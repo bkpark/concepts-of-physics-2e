@@ -1,0 +1,735 @@
+{
+  "status": "review-only-no-exercises-changed",
+  "scope": "Current maintained Chapter 12 body, examples, glossary and summary, allowing earlier textbook prerequisites and formulas/guidance supplied in questions. Numbering matches Preview 104.",
+  "counts": {
+    "within_scope": 49,
+    "clarify": 16,
+    "beyond_current_text": 10,
+    "guided_extension": 2,
+    "duplicate": 1,
+    "formula_error": 2
+  },
+  "findings": [
+    {
+      "id": "m67250--66732d696431323534373837",
+      "text": "Exercise 1 Give an example of a physical entity that is quantized. State specifically what the entity is and what the limits are on its values.",
+      "number": 1,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67250--66732d696431323638313230",
+      "text": "Exercise 2 Give an example of a physical entity that is not quantized, in that it is continuous and may have a continuous range of values.",
+      "number": 2,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67250--66732d696431323530313335",
+      "text": "Exercise 3 What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in the thermal oscillators?",
+      "number": 3,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67250--66732d696431323637373038",
+      "text": "Exercise 4 Why don’t we notice quantization in everyday events?",
+      "number": 4,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67250--66732d696431323936393830",
+      "text": "Exercise 5 A LiBr molecule oscillates with a frequency of $1.7 \\times {10}^{13} \\, \\mathrm{Hz}$ . (a) What is the difference in energy in eV between allowed oscillator states? (b) What is the approximate value of $n$ for a state having an energy of 1.0 eV?",
+      "number": 5,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "clarify",
+      "finding": "Part (b) uses an undefined oscillator-state label n. Define n as the number of hf energy units; energy zero convention otherwise unstated."
+    },
+    {
+      "id": "m67250--66732d696431333136343631",
+      "text": "Exercise 6 The difference in energy between allowed oscillator states in HBr molecules is 0.330 eV. What is the oscillation frequency of this molecule?",
+      "number": 6,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67250--66732d696431333139373331",
+      "text": "Exercise 7 A physicist is watching a 15-kg orangutan at a zoo swing lazily in a tire at the end of a rope. He (the physicist) notices that each oscillation takes 3.00 s and hypothesizes that the energy is quantized. (a) What is the difference in energy in joules between allowed oscillator states? (b) What is the value of $n$ for a state where the energy is 5.00 J? (c) Can the quantization be observed?",
+      "number": 7,
+      "section": "12.2",
+      "support": "Energy steps hf and integer multiples; prior frequency/period and unit conversions.",
+      "status": "clarify",
+      "finding": "Same undefined oscillator-state n in part (b); define E=n hf or ask how many quanta the energy represents."
+    },
+    {
+      "id": "m67251--66732d6964383734353637",
+      "text": "Exercise 8 Is visible light the only type of EM radiation that can cause the photoelectric effect?",
+      "number": 8,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353539343635",
+      "text": "Exercise 9 Which aspects of the photoelectric effect cannot be explained without photons? Which can be explained without photons? Are the latter inconsistent with the existence of photons?",
+      "number": 9,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353635393730",
+      "text": "Exercise 10 Is the photoelectric effect a direct consequence of the wave character of EM radiation or of the particle character of EM radiation? Explain briefly.",
+      "number": 10,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431363331313839",
+      "text": "Exercise 11 Insulators (nonmetals) have a higher BE than metals, and it is more difficult for photons to eject electrons from insulators. Discuss how this relates to the free charges in metals that make them good conductors.",
+      "number": 11,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353435373138",
+      "text": "Exercise 12 If you pick up and shake a piece of metal that has electrons in it free to move as a current, no electrons fall out. Yet if you heat the metal, electrons can be boiled off. Explain both of these facts as they relate to the amount and distribution of energy involved with shaking the object as compared with heating it.",
+      "number": 12,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353536323236",
+      "text": "Exercise 13 What is the longest-wavelength EM radiation that can eject a photoelectron from silver, given that the binding energy is 4.73 eV? Is this in the visible range?",
+      "number": 13,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431363433353039",
+      "text": "Exercise 14 Find the longest-wavelength photon that can eject an electron from potassium, given that the binding energy is 2.24 eV. Is this visible EM radiation?",
+      "number": 14,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431343038323338",
+      "text": "Exercise 15 What is the binding energy in eV of electrons in magnesium, if the longest-wavelength photon that can eject electrons is 337 nm?",
+      "number": 15,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353132333636",
+      "text": "Exercise 16 Calculate the binding energy in eV of electrons in aluminum, if the longest-wavelength photon that can eject them is 304 nm.",
+      "number": 16,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431323630343330",
+      "text": "Exercise 17 What is the maximum kinetic energy in eV of electrons ejected from sodium metal by 450-nm EM radiation, given that the binding energy is 2.28 eV?",
+      "number": 17,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431343038313933",
+      "text": "Exercise 18 UV radiation having a wavelength of 120 nm falls on gold metal, to which electrons are bound by 4.82 eV. What is the maximum kinetic energy of the ejected photoelectrons?",
+      "number": 18,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431343731353533",
+      "text": "Exercise 19 Violet light of wavelength 400 nm ejects electrons with a maximum kinetic energy of 0.860 eV from sodium metal. What is the binding energy of electrons to sodium metal?",
+      "number": 19,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353834343830",
+      "text": "Exercise 20 UV radiation having a 300-nm wavelength falls on uranium metal, ejecting 0.500-eV electrons. What is the binding energy of electrons to uranium metal?",
+      "number": 20,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431343531333531",
+      "text": "Exercise 21 What is the wavelength of EM radiation that ejects 2.00-eV electrons from calcium metal, given that the binding energy is 2.71 eV? What type of EM radiation is this?",
+      "number": 21,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d6964363437383736",
+      "text": "Exercise 22 Find the wavelength of photons that eject 0.100-eV electrons from potassium, given that the binding energy is 2.24 eV. Are these photons visible?",
+      "number": 22,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431333039373130",
+      "text": "Exercise 23 A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected onto calcium metal. (a) How many electrons per second are ejected? (b) What power is carried away by the electrons, given that the binding energy is 2.71 eV?",
+      "number": 23,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "clarify",
+      "finding": "Electron rate/power need an ideal one-ejected-electron-per-incident-photon assumption; maximum kinetic energy must be distinguished from actual energy distribution."
+    },
+    {
+      "id": "m67251--66732d696431353936313937",
+      "text": "Exercise 24 (a) Calculate the number of photoelectrons per second ejected from a 1.00-mm 2 area of sodium metal by 500-nm EM radiation having an intensity of $1 \\text{.} 30 \\, \\mathrm{kW} / {\\mathrm{m}}^{2}$ (the intensity of sunlight above the Earth’s atmosphere). (b) Given that the binding energy is 2.28 eV, what power is carried away by the electrons? (c) The electrons carry away less power than brought in by the photons. Where does the other power go? How can it be recovered?",
+      "number": 24,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "clarify",
+      "finding": "Same ideal quantum efficiency and maximum-energy assumptions as 23; recovery part needs a clear intended scenario."
+    },
+    {
+      "id": "m67251--66732d696431353535353130",
+      "text": "Exercise 25 Unreasonable Results Red light having a wavelength of 700 nm is projected onto magnesium metal to which electrons are bound by 3.68 eV. (a) Use ${\\mathrm{KE}}_{e} = h f - \\mathrm{BE}$ to calculate the kinetic energy of the ejected electrons. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "number": 25,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67251--66732d696431353438373739",
+      "text": "Exercise 26 Unreasonable Results (a) What is the binding energy of electrons to a material from which 4.00-eV electrons are ejected by 400-nm EM radiation? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "number": 26,
+      "section": "12.3",
+      "support": "Photon energy hc/lambda, work function and maximum photoelectron kinetic energy; prior power/intensity.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696432373331353332",
+      "text": "Exercise 27 How does the interference of water waves differ from the interference of electrons? How are they analogous?",
+      "number": 27,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431333036333535",
+      "text": "Exercise 28 Describe one type of evidence for the wave nature of matter.",
+      "number": 28,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431323738353730",
+      "text": "Exercise 29 Describe one type of evidence for the particle nature of EM radiation.",
+      "number": 29,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431333038323639",
+      "text": "Exercise 30 At what velocity will an electron have a wavelength of 1.00 m?",
+      "number": 30,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d6964383634303933",
+      "text": "Exercise 31 What is the wavelength of an electron moving at 3.00% of the speed of light?",
+      "number": 31,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431323038393433",
+      "text": "Exercise 32 At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer = ${10}^{- 15} \\, \\mathrm{m}$ . )",
+      "number": 32,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431323234353039",
+      "text": "Exercise 33 What is the velocity of a 0.400-kg billiard ball if its wavelength is 7.50 cm (large enough for it to interfere with other billiard balls)?",
+      "number": 33,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431363535333339",
+      "text": "Exercise 34 Find the wavelength of a proton moving at 1.00% of the speed of light.",
+      "number": 34,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431343734313830",
+      "text": "Exercise 35 Experiments are performed with ultracold neutrons having velocities as small as 1.00 m/s. (a) What is the wavelength of such a neutron? (b) What is its kinetic energy in eV?",
+      "number": 35,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431363738363534",
+      "text": "Exercise 36 (a) Find the velocity of a neutron that has a 6.00-fm wavelength (about the size of a nucleus). Assume the neutron is nonrelativistic. (b) What is the neutron’s kinetic energy in MeV?",
+      "number": 36,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696432333637353036",
+      "text": "Exercise 37 What is the wavelength of an electron accelerated through a 30.0-kV potential, as in a TV tube?",
+      "number": 37,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "clarify",
+      "finding": "State nonrelativistic approximation; 30-keV electron calculation is approximate. Relativistic treatment is later material."
+    },
+    {
+      "id": "m67803--66732d696431363830303830",
+      "text": "Exercise 38 What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength?",
+      "number": 38,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "clarify",
+      "finding": "State nonrelativistic approximation for electron kinetic energy at 0.0100 nm."
+    },
+    {
+      "id": "m67803--66732d696431343731383438",
+      "text": "Exercise 39 (a) Calculate the velocity of an electron that has a wavelength of $1 \\text{.} \\text{00 μm}$ . (b) Through what voltage must the electron be accelerated to have this velocity?",
+      "number": 39,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67803--66732d696431353138383630",
+      "text": "Exercise 40 The velocity of a proton emerging from a Van de Graaff accelerator is 25.0% of the speed of light. (a) What is the proton’s wavelength? (b) What is its kinetic energy, assuming it is nonrelativistic? (c) What was the equivalent voltage through which it was accelerated?",
+      "number": 40,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "clarify",
+      "finding": "At 0.25c classical results are approximate; extend the stated nonrelativistic assumption to all parts. No new theory needed if approximation is intentional."
+    },
+    {
+      "id": "m67803--66732d696432363932333138",
+      "text": "Exercise 41 The kinetic energy of an electron accelerated in an X-ray tube is 100 keV. Assuming it is nonrelativistic, what is its wavelength?",
+      "number": 41,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "clarify",
+      "finding": "Explicit nonrelativistic assumption makes calculation doable, but 100-keV electron is not comfortably nonrelativistic; revise value or discuss approximation."
+    },
+    {
+      "id": "m67803--66732d696432363834383932",
+      "text": "Exercise 42 Unreasonable Results (a) Assuming it is nonrelativistic, calculate the velocity of an electron with a 0.100-fm wavelength (small enough to detect details of a nucleus). (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "number": 42,
+      "section": "12.4",
+      "support": "de Broglie relation and worked nonrelativistic velocity/kinetic-energy example; prior electrical potential energy.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67804--66732d696431323532393231",
+      "text": "Exercise 43 What is the Heisenberg uncertainty principle? Does it place limits on what can be known?",
+      "number": 43,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67804--66732d696431363531373337",
+      "text": "Exercise 44 (a) If the position of an electron in a membrane is measured to an accuracy of $1.00 \\, \\text{μm}$ , what is the electron’s minimum uncertainty in velocity? (b) If the electron has this velocity, what is its kinetic energy in eV? (c) What are the implications of this energy, comparing it to typical molecular binding energies?",
+      "number": 44,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "clarify",
+      "finding": "Calculations match worked example. Give a representative molecular binding-energy scale if comparison is expected quantitatively."
+    },
+    {
+      "id": "m67804--66732d696432333431313531",
+      "text": "Exercise 45 (a) If the position of a chlorine ion in a membrane is measured to an accuracy of $1.00 \\, \\text{μm}$ , what is its minimum uncertainty in velocity, given its mass is $5.86 \\times {10}^{- 26} \\, \\mathrm{kg}$ ? (b) If the ion has this velocity, what is its kinetic energy in eV, and how does this compare with typical molecular binding energies?",
+      "number": 45,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "clarify",
+      "finding": "Calculations match worked example. Give a representative molecular binding-energy scale if comparison is expected quantitatively."
+    },
+    {
+      "id": "m67804--66732d696431353639353234",
+      "text": "Exercise 46 Suppose the velocity of an electron in an atom is known to an accuracy of $2.0 \\times {10}^{3} \\, \\text{m/s}$ (reasonably accurate compared with orbital velocities). What is the electron’s minimum uncertainty in position, and how does this compare with the approximate 0.1-nm size of the atom?",
+      "number": 46,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67804--66732d696431323534313136",
+      "text": "Exercise 47 The velocity of a proton in an accelerator is known to an accuracy of 0.250% of the speed of light. (This could be small compared with its velocity.) What is the smallest possible uncertainty in its position?",
+      "number": 47,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67804--66732d696432333232303932",
+      "text": "Exercise 48 A relatively long-lived excited state of an atom has a lifetime of 3.00 ms. What is the minimum uncertainty in its energy?",
+      "number": 48,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "beyond_current_text",
+      "finding": "Requires energy-time uncertainty/lifetime-linewidth relation absent from section."
+    },
+    {
+      "id": "m67804--66732d696431333039373131",
+      "text": "Exercise 49 (a) The lifetime of a highly unstable nucleus is ${10}^{- 20} \\, \\mathrm{s}$ . What is the smallest uncertainty in its decay energy? (b) Compare this with the rest energy of an electron.",
+      "number": 49,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "beyond_current_text",
+      "finding": "Requires absent energy-time uncertainty; electron rest energy is mentioned in 12.4, but is not the main gap."
+    },
+    {
+      "id": "m67804--66732d696431353438323431",
+      "text": "Exercise 50 The decay energy of a short-lived particle has an uncertainty of 1.0 MeV due to its short lifetime. What is the smallest lifetime it can have?",
+      "number": 50,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "beyond_current_text",
+      "finding": "Requires energy-time uncertainty/lifetime relation absent from section."
+    },
+    {
+      "id": "m67804--66732d696432373135343634",
+      "text": "Exercise 51 The decay energy of a short-lived nuclear excited state has an uncertainty of 2.0 eV due to its short lifetime. What is the smallest lifetime it can have?",
+      "number": 51,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "beyond_current_text",
+      "finding": "Requires energy-time uncertainty/lifetime relation absent from section."
+    },
+    {
+      "id": "m67804--66732d696432363832333036",
+      "text": "Exercise 52 What is the approximate uncertainty in the mass of a muon, as determined from its decay lifetime?",
+      "number": 52,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "beyond_current_text",
+      "finding": "Requires absent energy-time uncertainty plus mass-energy conversion and a muon lifetime not supplied in the question."
+    },
+    {
+      "id": "m67804--66732d696432363638333831",
+      "text": "Exercise 53 Derive the approximate form of Heisenberg’s uncertainty principle for energy and time, $\\Delta E \\Delta t \\approx h$ , using the following arguments: Since the position of a particle is uncertain by $\\Delta x \\approx \\lambda$ , where $\\lambda$ is the wavelength of the photon used to examine it, there is an uncertainty in the time the photon takes to traverse $\\Delta x$ . Furthermore, the photon has an energy related to its wavelength, and it can transfer some or all of this energy to the object being examined. Thus the uncertainty in the energy of the object is also related to $\\lambda$ . Find $\\Delta t$ and $\\Delta E$ ; then multiply them to give the approximate uncertainty principle.",
+      "number": 53,
+      "section": "12.5",
+      "support": "Position-momentum uncertainty and worked velocity/energy example. Energy-time uncertainty is not taught.",
+      "status": "guided_extension",
+      "finding": "Question supplies a route using photon energy and travel time to an order-of-magnitude energy-time relation. Potential optional extension, not direct section practice."
+    },
+    {
+      "id": "m67805--66732d696433303238323730",
+      "text": "Exercise 54 What two pieces of evidence allowed the first calculation of ${m}_{e}$ , the mass of the electron? (a) The ratios ${q}_{e} / {m}_{e}$ and ${q}_{p} / {m}_{p}$ . (b) The values of ${q}_{e}$ and ${E}_{B}$ . (c) The ratio ${q}_{e} / {m}_{e}$ and ${q}_{e}$ . Justify your response.",
+      "number": 54,
+      "section": "12.6",
+      "support": "Charge-to-mass measurements, nuclear size and atomic scale; prior force balance/density.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67805--66732d696431343437323436",
+      "text": "Exercise 55 How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun? Explain how the correspondence principle applies here.",
+      "number": 55,
+      "section": "12.6",
+      "support": "Charge-to-mass measurements, nuclear size and atomic scale; prior force balance/density.",
+      "status": "duplicate",
+      "finding": "Exact duplicate of Exercise 59; keep the version in 12.7."
+    },
+    {
+      "id": "m67805--66732d696433313139363235",
+      "text": "Exercise 56 Rutherford found the size of the nucleus to be about ${10}^{- 15} \\, \\mathrm{m}$ . This implied a huge density. What would this density be for gold?",
+      "number": 56,
+      "section": "12.6",
+      "support": "Charge-to-mass measurements, nuclear size and atomic scale; prior force balance/density.",
+      "status": "clarify",
+      "finding": "Within earlier density/geometry skills, but specify whether nuclear size means radius or diameter and provide or direct lookup of gold atomic mass."
+    },
+    {
+      "id": "m67805--66732d696433303737393837",
+      "text": "Exercise 57 In Millikan’s oil-drop experiment, one looks at a small oil drop held motionless between two plates. Take the voltage between the plates to be 2033 V, and the plate separation to be 2.00 cm. The oil drop (of density $0 \\text{.} 81 \\, \\mathrm{g} / {\\mathrm{cm}}^{3}$ ) has a diameter of $4.0 \\times {10}^{- 6} \\, \\mathrm{m}$ . Find the charge on the drop, in terms of electron units.",
+      "number": 57,
+      "section": "12.6",
+      "support": "Charge-to-mass measurements, nuclear size and atomic scale; prior force balance/density.",
+      "status": "clarify",
+      "finding": "Millikan experiment is not described here, but supplied setup plus prior electric force, uniform field and equilibrium makes it solvable. State neglect of buoyancy and provide figure if desired."
+    },
+    {
+      "id": "m67805--6569702d323030",
+      "text": "Exercise 58 (a) An aspiring physicist wants to build a scale model of a hydrogen atom for her science fair project. If the atom is 1.00 m in diameter, how big should she try to make the nucleus? (b) How easy will this be to do?",
+      "number": 58,
+      "section": "12.6",
+      "support": "Charge-to-mass measurements, nuclear size and atomic scale; prior force balance/density.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696433313732373732",
+      "text": "Exercise 59 How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun? Explain how the correspondence principle applies here.",
+      "number": 59,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696431353438313336",
+      "text": "Exercise 60 Explain how Bohr’s rule for the quantization of electron orbital angular momentum differs from the actual rule.",
+      "number": 60,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "beyond_current_text",
+      "finding": "Actual quantum orbital-angular-momentum rule is not taught; comparison is unsupported."
+    },
+    {
+      "id": "m67807--66732d696433303039353134",
+      "text": "Exercise 61 What is a hydrogen-like atom, and how are the energies and radii of its electron orbits related to those in hydrogen?",
+      "number": 61,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "beyond_current_text",
+      "finding": "One-electron ions now defined and glossary supplies energy Z scaling, but radius Z scaling is not developed. Partial coverage only."
+    },
+    {
+      "id": "m67807--66732d696431383138323035",
+      "text": "Exercise 62 By calculating its wavelength, show that the first line in the Lyman series is UV radiation.",
+      "number": 62,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696432363834333130",
+      "text": "Exercise 63 Find the wavelength of the third line in the Lyman series, and identify the type of EM radiation.",
+      "number": 63,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696433313130323733",
+      "text": "Exercise 64 Look up the values of the quantities in ${a}_{\\mathrm{B}} = \\frac{{h}^{2}}{4 {\\pi}^{2} {m}_{e} k {q}_{e}^{2}}$ , and verify that the Bohr radius ${a}_{\\mathrm{B}}$ is $0.529 \\times {10}^{- 10} \\, \\mathrm{m}$ .",
+      "number": 64,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696431393135383231",
+      "text": "Exercise 65 Verify that the ground state energy ${E}_{0}$ is 13.6 eV by using ${E}_{0} = \\frac{{2 \\pi}^{2} {q}_{e}^{4} {m}_{e} {k}^{2}}{{h}^{2}}$ .",
+      "number": 65,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "formula_error",
+      "finding": "MathML squares the whole 2 pi group: (2 pi)^2 rather than 2 pi^2. Copy format therefore encodes a factor-of-two error despite visually similar rendering."
+    },
+    {
+      "id": "m67807--66732d696431333433323533",
+      "text": "Exercise 66 If a hydrogen atom has its electron in the $n = 4$ state, how much energy in eV is needed to ionize it?",
+      "number": 66,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696433303131373430",
+      "text": "Exercise 67 A hydrogen atom in an excited state can be ionized with less energy than when it is in its ground state. What is $n$ for a hydrogen atom if 0.850 eV of energy can ionize it?",
+      "number": 67,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696432303531333735",
+      "text": "Exercise 68 Find the radius of a hydrogen atom in the $n = 2$ state according to Bohr’s theory.",
+      "number": 68,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d6964373734363934",
+      "text": "Exercise 69 Show that $( 13.6 \\, \\mathrm{eV} ) / h c = 1.097 \\times {10}^{7} \\, \\mathrm{m} = R$ (Rydberg’s constant), as discussed in the text.",
+      "number": 69,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "formula_error",
+      "finding": "Rydberg constant unit is m, should be m^-1; also retains forced-italic wrapper around hc."
+    },
+    {
+      "id": "m67807--66732d696433313032363336",
+      "text": "Exercise 70 What is the smallest-wavelength line in the Balmer series? Is it in the visible part of the spectrum?",
+      "number": 70,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "clarify",
+      "finding": "Uses series limit n_i tending to infinity; hint recommended if limits have not been introduced. Otherwise direct Rydberg application."
+    },
+    {
+      "id": "m67807--66732d696432393733393334",
+      "text": "Exercise 71 Show that the entire Paschen series is in the infrared part of the spectrum. To do this, you only need to calculate the shortest wavelength in the series.",
+      "number": 71,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "clarify",
+      "finding": "Same series-limit step as 70; supported with a brief hint."
+    },
+    {
+      "id": "m67807--66732d696432363339363535",
+      "text": "Exercise 72 Do the Balmer and Lyman series overlap? To answer this, calculate the shortest-wavelength Balmer line and the longest-wavelength Lyman line.",
+      "number": 72,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "clarify",
+      "finding": "Same series-limit step as 70; supported with a brief hint."
+    },
+    {
+      "id": "m67807--66732d696432303533323434",
+      "text": "Exercise 73 (a) Which line in the Balmer series is the first one in the UV part of the spectrum? (b) How many Balmer series lines are in the visible part of the spectrum? (c) How many are in the UV?",
+      "number": 73,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "clarify",
+      "finding": "Specify visible wavelength boundary to make first UV line/count unambiguous."
+    },
+    {
+      "id": "m67807--66732d696432393632333937",
+      "text": "Exercise 74 A wavelength of $4.653 \\, \\text{μm}$ is observed in a hydrogen spectrum for a transition that ends in the ${n}_{\\mathrm{f}} = 5$ level. What was ${n}_{\\mathrm{i}}$ for the initial level of the electron?",
+      "number": 74,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67807--66732d696431393237353831",
+      "text": "Exercise 75 A singly ionized helium ion has only one electron and is denoted ${\\mathrm{He}}^{+}$ . What is the ion’s radius in the ground state compared to the Bohr radius of hydrogen atom?",
+      "number": 75,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "beyond_current_text",
+      "finding": "Needs ion radius scaling r_n=n^2 a_B/Z, absent from prose/table and not supplied here."
+    },
+    {
+      "id": "m67807--66732d696431333532343137",
+      "text": "Exercise 76 A beryllium ion with a single electron (denoted ${\\mathrm{Be}}^{3 +}$ ) is in an excited state with radius the same as that of the ground state of hydrogen. (a) What is $n$ for the ${\\mathrm{Be}}^{3 +}$ ion? (b) How much energy in eV is needed to ionize the ion from this excited state?",
+      "number": 76,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "beyond_current_text",
+      "finding": "Needs ion radius scaling; glossary energy formula alone does not support part (a)."
+    },
+    {
+      "id": "m67807--66732d696433303836303538",
+      "text": "Exercise 77 Atoms can be ionized by thermal collisions, such as at the high temperatures found in the solar corona. One such ion is ${C}^{+ 5}$ , a carbon atom with only a single electron. (a) By what factor are the energies of its hydrogen-like levels greater than those of hydrogen? (b) What is the wavelength of the first line in this ion’s Paschen series? (c) What type of EM radiation is this?",
+      "number": 77,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "beyond_current_text",
+      "finding": "Glossary energy Z^2 formula makes this calculable by synthesis, but section does not develop ion spectra. Add short instructional bridge or treat as extension."
+    },
+    {
+      "id": "m67807--66732d696432343135353432",
+      "text": "Exercise 78 Verify Equations ${r}_{n} = \\frac{{n}^{2}}{Z} {a}_{\\mathrm{B}}$ and ${a}_{B} = \\frac{{h}^{2}}{4 {\\pi}^{2} {m}_{e} k {q}_{e}^{2}} = 0.529 \\times {10}^{- 10} \\, \\mathrm{m}$ using the approach stated in the text. That is, equate the Coulomb and centripetal forces and then insert an expression for velocity from the condition for angular momentum quantization.",
+      "number": 78,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "guided_extension",
+      "finding": "Target formula and derivation route are supplied; uses previous Coulomb/circular-motion physics and taught angular-momentum quantization. Algebra-heavy extension, not missing basic physics."
+    },
+    {
+      "id": "m67807--66732d696431353631363131",
+      "text": "Exercise 79 The wavelength of the four Balmer series lines for hydrogen are found to be 410.3, 434.2, 486.3, and 656.5 nm. What average percentage difference is found between these wavelength numbers and those predicted by $\\frac{1}{\\lambda} = R ( \\frac{1}{{n}_{\\mathrm{f}}^{2}} - \\frac{1}{{n}_{\\mathrm{i}}^{2}} )$ ? It is amazing how well a simple formula (disconnected originally from theory) could duplicate this phenomenon.",
+      "number": 79,
+      "section": "12.7",
+      "support": "Hydrogen energy/radius table, Rydberg formula and series; no modern orbital-angular-momentum rule or developed Z-dependent ion model.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    },
+    {
+      "id": "m67808--66732d696432353938343338",
+      "text": "Exercise 80 How is the de Broglie wavelength of electrons related to the quantization of their orbits in atoms and molecules?",
+      "number": 80,
+      "section": "12.8",
+      "support": "Standing-wave condition and quantization.",
+      "status": "within_scope",
+      "finding": "Supported by section and ordinary prerequisite algebra/physics."
+    }
+  ],
+  "recommendation": "Resolve 48-52 and 60 first; decide whether to scaffold ion material for 61/75-77; fix duplicate 55/59 and formula markup 65/69. Treat 53 and 78 as optional guided extensions. Remaining flags are clarification, not reasons to remove for scope."
+}

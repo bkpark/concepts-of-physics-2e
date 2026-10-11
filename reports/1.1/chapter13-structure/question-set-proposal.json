@@ -1,0 +1,1762 @@
+{
+  "status": "proposal only; no maintained exercises changed",
+  "baseline": "Current 94 chapter-end exercises; source IDs from preview108 inventory, unchanged in preview109",
+  "recommendation": {
+    "total": 41,
+    "retained_or_revised": 22,
+    "merged_away": 7,
+    "removed": 65,
+    "new": 19,
+    "momentum": 1,
+    "energy": 4
+  },
+  "mom_source": {
+    "file": "phys-10-full-export-2026-09-27.imas",
+    "sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+    "records_reviewed": 56,
+    "context": "Original 49 records plus seven take-home variants (917–923); variants counted as sources, not automatically as distinct additions."
+  },
+  "proposed_questions": [
+    {
+      "proposed_number": 1,
+      "section": "13.2",
+      "current_numbers": [
+        1
+      ],
+      "title": "Two postulates",
+      "prompt": "State Einstein’s two postulates of special relativity. Which one conflicts with classical velocity addition, and how?",
+      "answer_check": "Same laws in all inertial frames; light in vacuum has speed c in every inertial frame, independent of source motion. The second conflicts with adding the source velocity to c.",
+      "mom_export_locators": [
+        "759",
+        "858"
+      ],
+      "rationale": "Keep the central starting point; ask for both postulates explicitly.",
+      "draft_id": "C13-P01"
+    },
+    {
+      "draft_id": "C13-A1",
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Relativity and electromagnetism",
+      "prompt": "Maxwell’s equations predict a definite speed c for electromagnetic waves in vacuum. If the laws of electromagnetism are the same in every inertial frame, why would assigning light a speed c + v in a frame moving relative to its source create a problem? Why does the varying measured speed of sound not create the same problem?",
+      "answer_check": "Different vacuum wave speeds would conflict with that same vacuum prediction in each inertial frame. Sound has a material medium whose velocity differs between frames; describing that moving medium uses the same laws.",
+      "mom_export_locators": [
+        "747",
+        "749",
+        "919"
+      ],
+      "rationale": "Distinct lecture connection to the earlier electromagnetism material; no Maxwell-equation algebra.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 2
+    },
+    {
+      "proposed_number": 3,
+      "section": "13.2",
+      "current_numbers": [
+        3
+      ],
+      "title": "Same laws, different measurements",
+      "prompt": "A passenger in a smoothly cruising airplane treats the airplane as stationary and the ground as moving. Is this a valid approximately inertial frame? Must the passenger and a ground observer assign the same velocity and kinetic energy to a suitcase resting in the cabin? Explain why different measurements do not imply different laws.",
+      "answer_check": "Valid approximation over a short interval at steady velocity. Suitcase is at rest in cabin, moving relative to ground; kinetic energy is frame dependent. Same laws, different state descriptions.",
+      "mom_export_locators": [
+        "758",
+        "860"
+      ],
+      "rationale": "Make the first-postulate distinction explicit without importing the bank’s ambiguous invariance claims.",
+      "draft_id": "C13-P02"
+    },
+    {
+      "proposed_number": 4,
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Sound in a moving cabin",
+      "prompt": "An airplane moves at 300 m/s relative to the ground. The cabin air is at rest relative to the airplane, and sound travels at 340 m/s relative to that air. Using classical velocity addition, find the ground-frame velocities of sound traveling toward the front and toward the back. Take the airplane’s motion as positive. What speed does a passenger measure for either sound wave? Why is sound different from light in vacuum?",
+      "answer_check": "Ground velocities +640 m/s and −40 m/s; passenger measures 340 m/s in either direction. Sound propagates relative to a material medium.",
+      "mom_export_locators": [
+        "761",
+        "861",
+        "747"
+      ],
+      "rationale": "Direct homework coverage; specify signed velocities and the air’s frame.",
+      "draft_id": "C13-P03"
+    },
+    {
+      "proposed_number": 5,
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Light in a moving spacecraft",
+      "prompt": "A spacecraft moves at 0.500c relative to Earth and emits light forward and backward through vacuum. What speed does each beam have in the spacecraft frame? In the Earth frame? Explain using a postulate rather than a velocity-addition calculation.",
+      "answer_check": "All four speeds are c; velocities have opposite signs for the two directions.",
+      "mom_export_locators": [
+        "762",
+        "857",
+        "859"
+      ],
+      "rationale": "Direct homework coverage and a useful contrast with the preceding sound question.",
+      "draft_id": "C13-P04"
+    },
+    {
+      "proposed_number": 6,
+      "section": "13.2",
+      "current_numbers": [],
+      "title": "Meaning of a null result",
+      "prompt": "Michelson and Morley expected motion through a stationary luminiferous aether to produce a change in their interference pattern when the apparatus was rotated. Why was the absence of the expected change scientifically important? Does a null result mean that an experiment teaches us nothing?",
+      "answer_check": "The expected aether-drift signal was absent, constraining that model. A null result can test and undermine a predicted effect; it is not a direct proof of every consequence of relativity.",
+      "mom_export_locators": [
+        "748",
+        "855"
+      ],
+      "rationale": "Conceptual lecture/test coverage; no interferometer calculation or overstatement of what the experiment established.",
+      "draft_id": "C13-P05"
+    },
+    {
+      "draft_id": "C13-A2",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "What relativity of simultaneity means",
+      "prompt": "Two events at different locations are simultaneous in one inertial frame. Must they be simultaneous in every other inertial frame? Does relativity of simultaneity mean that time is merely subjective, or that no two events can ever be simultaneous? Explain how the relativistic view differs from classical absolute time.",
+      "answer_check": "They need not be simultaneous in every frame. Time assignments remain definite within a frame; simultaneity is frame dependent, not subjective or impossible. Classical absolute time assigns the same simultaneity across inertial frames.",
+      "mom_export_locators": [
+        "760",
+        "845",
+        "863",
+        "922"
+      ],
+      "rationale": "Keep the direct misconception question as well as the train application; use “need not,” avoiding the source’s overly broad “does not.”",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 7
+    },
+    {
+      "proposed_number": 8,
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Simultaneity on a moving train",
+      "prompt": "A light pulse is emitted from the midpoint of a train moving to the right. In the train frame, the pulse reaches detectors at the front and rear simultaneously. In the station frame, which detector does it reach first? Explain using the motion of the detectors and the constant speed of light. Are the two detection events simultaneous in both frames?",
+      "answer_check": "Rear first in the station frame: it moves toward its pulse while the front moves away. Simultaneous in train frame, not station frame.",
+      "mom_export_locators": [
+        "760",
+        "845",
+        "863",
+        "749",
+        "750",
+        "891"
+      ],
+      "rationale": "Fill a major conceptual gap using the corrected train setup already taught in the section.",
+      "draft_id": "C13-P06"
+    },
+    {
+      "draft_id": "C13-A3",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Agreement about a local event",
+      "prompt": "Two light pulses reach the same detector at the same place and time. Can an observer moving relative to the detector say that one pulse reached it before the other? Explain why this differs from asking whether events at two separated detectors are simultaneous.",
+      "answer_check": "No. The joint arrival is one local spacetime coincidence, on which all observers agree. Separate locations allow frame-dependent simultaneity assignments.",
+      "mom_export_locators": [
+        "750"
+      ],
+      "rationale": "The lecture explicitly distinguishes local coincidence from separated simultaneity; absent from the earlier draft.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 9
+    },
+    {
+      "draft_id": "C13-A6",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Reading a simple spacetime diagram",
+      "prompt": "A spacetime diagram has position x on the horizontal axis and ct on the vertical axis, with the same length scale on both axes. A world line records an object’s position at each time. Starting at the origin, sketch world lines for (a) an object at rest, (b) an object moving steadily to the right at 0.500c, and (c) a light pulse moving right in vacuum. Which line is vertical? Which makes a 45° angle with the horizontal axis? What feature of the diagram represents two events simultaneous in this frame?",
+      "answer_check": "Rest: x=0, vertical. Object: x=0.5ct, steeper than the light line. Light: x=ct, 45°. Events on a horizontal line have equal ct and are simultaneous in this frame.",
+      "mom_export_locators": [
+        "751"
+      ],
+      "rationale": "Lecture-based extension. All conventions are supplied; no transformed axes or Lorentz-transformation calculation is required. Mark for review because the textbook discussion does not introduce these diagrams.",
+      "addition_kind": "conceptual addition",
+      "review_flag": "Extension: retain if a self-contained spacetime-diagram question is welcome; otherwise remove during review.",
+      "proposed_number": 10
+    },
+    {
+      "proposed_number": 11,
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Receiving light versus timing events",
+      "prompt": "Light from two distant events reaches you at the same instant. Is that alone enough to conclude that the events occurred simultaneously in your frame? Explain what else you need to know. After correcting for light-travel time, must all inertial frames agree that two spatially separated events were simultaneous?",
+      "answer_check": "Need emission locations/distances and travel times in the chosen frame. Equal reception times need not mean equal event times. Corrected simultaneity can still differ between frames.",
+      "mom_export_locators": [
+        "754",
+        "750",
+        "891"
+      ],
+      "rationale": "Distinguish a propagation delay from relativity of simultaneity; no diagram prerequisite.",
+      "draft_id": "C13-P07"
+    },
+    {
+      "proposed_number": 12,
+      "section": "13.3",
+      "current_numbers": [
+        4,
+        5
+      ],
+      "title": "Proper time and moving clocks",
+      "prompt": "A clock travels at constant velocity relative to a laboratory. Does it run abnormally according to someone traveling with it? For two ticks of that clock, which frame measures the proper time? Which measures the longer interval?",
+      "answer_check": "Normal locally. Clock’s rest frame measures proper time; laboratory measures gamma times that interval.",
+      "mom_export_locators": [
+        "752",
+        "867"
+      ],
+      "rationale": "Combine overlapping questions and identify the same pair of events.",
+      "draft_id": "C13-P08"
+    },
+    {
+      "draft_id": "C13-A4",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Why a moving light clock runs slow",
+      "prompt": "A light clock consists of two mirrors and a pulse that travels back and forth between them. The clock moves parallel to the laboratory floor, with its mirrors separated vertically. Relative to the laboratory, the pulse follows a longer diagonal path than in the clock’s rest frame. Without doing algebra, explain why the laboratory measures more time between ticks. Does the result require the pulse to slow down?",
+      "answer_check": "The pulse still moves at c; longer travel distance at the same speed requires a longer interval. No change in light speed is required.",
+      "mom_export_locators": [
+        "752",
+        "856"
+      ],
+      "rationale": "Add the physical explanation behind the formula, with perpendicular mirror separation stated explicitly.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 13
+    },
+    {
+      "proposed_number": 14,
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Reciprocal time dilation",
+      "prompt": "Alice and Bob move past one another at constant relative velocity, each carrying a clock. After accounting for light-travel time, can each measure the other’s clock as running slow? Explain why this is not a contradiction, referring to how the two frames compare distant clocks at the same time.",
+      "answer_check": "Yes. The frames have different simultaneity conventions for distant events, so the comparisons do not use the same pairings of clock readings.",
+      "mom_export_locators": [
+        "866",
+        "890",
+        "891"
+      ],
+      "rationale": "Important course essay/test topic absent from the current short conceptual set; do not demand Lorentz-transform algebra.",
+      "draft_id": "C13-P09"
+    },
+    {
+      "proposed_number": 15,
+      "section": "13.3",
+      "current_numbers": [
+        6
+      ],
+      "title": "Travel into the future",
+      "prompt": "How could a traveler return to Earth having aged much less than people who remained there? Would this also allow the traveler to return to Earth’s past? Explain.",
+      "answer_check": "A high-speed out-and-back trip accumulates less proper time; the turnaround makes worldlines asymmetric. This does not give travel into Earth’s past.",
+      "mom_export_locators": [
+        "890"
+      ],
+      "rationale": "Keep one accessible twin/travel interpretation.",
+      "draft_id": "C13-P10"
+    },
+    {
+      "draft_id": "C13-G1",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "What beta and gamma tell us",
+      "prompt": "For speed v, define β = v/c and γ = 1/√(1 − β²). What ranges of β and γ are possible for an object with nonzero rest mass? What do β = 0 and γ very close to 1 tell you? Can γ exceed 1 even though β cannot?",
+      "answer_check": "For a massive object, 0 ≤ β < 1 and 1 ≤ γ < ∞. β=0 means rest in the chosen frame; γ close to 1 means low speed relative to c. Gamma is not a speed fraction and can be arbitrarily large.",
+      "mom_export_locators": [
+        "755",
+        "763",
+        "764"
+      ],
+      "rationale": "Turn lecture number-sense checks into a standalone question; define beta as speed, not signed velocity.",
+      "addition_kind": "gamma–beta expansion",
+      "proposed_number": 16
+    },
+    {
+      "proposed_number": 17,
+      "section": "13.3",
+      "current_numbers": [
+        7,
+        8
+      ],
+      "title": "Build intuition for gamma",
+      "prompt": "Calculate γ = 1/√(1 − v²/c²) for v = 0.001c, 0.500c, and 0.99999999c. Keep enough digits in the first answer to show its difference from 1. What does the pattern tell you about ordinary speeds and speeds close to c?",
+      "answer_check": "1.000000500000375; 1.154700538; 7071.06782954. Effects are tiny at low speed; gamma grows sharply near c.",
+      "mom_export_locators": [
+        "763",
+        "850",
+        "851",
+        "854",
+        "755"
+      ],
+      "rationale": "Restore the homework’s full numerical range, without a time-sensitive accelerator claim. Interpret results as well as calculating them.",
+      "draft_id": "C13-P11"
+    },
+    {
+      "draft_id": "C13-G3",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Why the nines matter",
+      "prompt": "Calculate γ for β = 0.9999 and β = 0.99999, keeping all supplied digits. Approximately how many times larger is the second γ? Both speeds might round to c at low precision. Why would using that rounded value in the formula for γ be a serious error?",
+      "answer_check": "Gamma approximately 70.7124 and 223.6074; ratio approximately 3.1622. At β=1 the denominator vanishes, replacing two finite gamma values with a divergent limit.",
+      "mom_export_locators": [
+        "755",
+        "763"
+      ],
+      "rationale": "Adapt the lecture’s explicit four-nines/five-nines comparison to test numerical interpretation.",
+      "addition_kind": "gamma–beta expansion",
+      "proposed_number": 18
+    },
+    {
+      "proposed_number": 19,
+      "section": "13.3",
+      "current_numbers": [
+        9
+      ],
+      "title": "Particle lifetimes at several speeds",
+      "prompt": "A hypothetical unstable particle has a mean lifetime of 2.00 μs in its rest frame. Predict whether its laboratory mean lifetime is longer or shorter, then calculate it for speeds 0.500c, 0.900c, and 0.9995c.",
+      "answer_check": "Longer: 2.3094 μs, 4.5883 μs, 63.2535 μs.",
+      "mom_export_locators": [
+        "765"
+      ],
+      "rationale": "Use one multipart forward calculation instead of several named-particle variants; state mean lifetime.",
+      "draft_id": "C13-P12"
+    },
+    {
+      "proposed_number": 20,
+      "section": "13.3",
+      "current_numbers": [
+        11
+      ],
+      "title": "Infer speed from lifetime",
+      "prompt": "A hypothetical unstable particle has a mean lifetime of 0.840 μs in its rest frame and 1.40 μs in the laboratory. Find γ and its laboratory speed as a fraction of c.",
+      "answer_check": "Gamma 1.6667; v = 0.800c.",
+      "mom_export_locators": [
+        "864",
+        "865"
+      ],
+      "rationale": "One inverse time-dilation question is sufficient; avoid relying on outdated particle lifetimes.",
+      "draft_id": "C13-P13"
+    },
+    {
+      "proposed_number": 21,
+      "section": "13.3",
+      "current_numbers": [
+        15,
+        16
+      ],
+      "title": "Speed from gamma",
+      "prompt": "Use v/c = √(1 − 1/γ²) to find the speeds corresponding to γ = 2.00 and γ = 12.0. Give enough digits to distinguish each speed from c. Can increasing γ make the speed of a massive object exceed c?",
+      "answer_check": "0.866025c and 0.996522c; no.",
+      "mom_export_locators": [
+        "764",
+        "852",
+        "853",
+        "755"
+      ],
+      "rationale": "Combine inverse-gamma drills; the near-one case now has its own question with a supplied approximation.",
+      "draft_id": "C13-P14"
+    },
+    {
+      "draft_id": "C13-G2",
+      "section": "13.3",
+      "current_numbers": [],
+      "title": "Almost one can mean an everyday speed",
+      "prompt": "An object has γ = 1 + 5 × 10⁻¹⁵. Use the low-speed approximation γ − 1 ≈ β²/2 to estimate β and v, taking c = 3.00 × 10⁸ m/s. Compare the speed with everyday travel. Why would rounding γ to 1 before calculating give a misleading answer?",
+      "answer_check": "β approximately 10⁻⁷, v approximately 30 m/s (108 km/h). Rounding to 1 erases the small difference and incorrectly implies zero speed.",
+      "mom_export_locators": [
+        "764",
+        "755"
+      ],
+      "rationale": "Restore the homework’s near-unity case with the approximation supplied, so arbitrary-precision calculator handling is not the learning objective.",
+      "addition_kind": "gamma–beta expansion",
+      "proposed_number": 22
+    },
+    {
+      "proposed_number": 23,
+      "section": "13.3",
+      "current_numbers": [
+        17
+      ],
+      "title": "Check a time-dilation claim",
+      "prompt": "For the same two ticks of a clock moving uniformly relative to a laboratory, the laboratory assigns an interval of 23.9 h while the moving clock records 24.0 h. Are these measurements consistent with special relativity? Explain without first calculating a speed.",
+      "answer_check": "No: the lab interval must be at least the proper interval, but 23.9/24.0 < 1.",
+      "mom_export_locators": [
+        "752",
+        "867"
+      ],
+      "rationale": "Convert Unreasonable Results into a direct conceptual consistency check; remove signal-arrival ambiguity.",
+      "draft_id": "C13-P15"
+    },
+    {
+      "proposed_number": 24,
+      "section": "13.4",
+      "current_numbers": [
+        18
+      ],
+      "title": "How to measure a moving length",
+      "prompt": "Which frame measures an object’s proper length? To measure its length in a frame where it is moving, must the positions of its two endpoints be recorded simultaneously in that frame? Explain. In which frame is its length along the motion greatest?",
+      "answer_check": "Proper length in rest frame; moving-frame endpoints measured simultaneously in that frame. Proper length is greatest.",
+      "mom_export_locators": [
+        "753",
+        "891"
+      ],
+      "rationale": "Retain proper length and explicitly connect measurement to simultaneity.",
+      "draft_id": "C13-P16"
+    },
+    {
+      "draft_id": "C13-A5",
+      "section": "13.4",
+      "current_numbers": [],
+      "title": "Which dimension contracts?",
+      "prompt": "A rectangular spacecraft moves horizontally relative to a laboratory. Its length is parallel to the motion and its height is perpendicular to it. Which dimension does the laboratory measure as contracted? Does an astronaut at rest inside measure either dimension as contracted? Explain why “all moving objects get smaller in every direction” is incorrect.",
+      "answer_check": "Only the parallel dimension contracts. The comoving astronaut measures both rest dimensions. Length contraction is directional and frame dependent.",
+      "mom_export_locators": [
+        "753",
+        "766",
+        "849"
+      ],
+      "rationale": "Develop the direction-of-motion distinction tested by the length-contraction bank, without another numerical calculation.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 25
+    },
+    {
+      "proposed_number": 26,
+      "section": "13.4",
+      "current_numbers": [
+        19
+      ],
+      "title": "Everyday correspondence",
+      "prompt": "Why are time dilation and length contraction hard to notice in everyday travel even though relativity applies to cars and airplanes? Explain in terms of γ and the recovery of classical predictions at low speeds.",
+      "answer_check": "v/c is tiny, gamma approximately 1; time and length changes are tiny. Relativistic formulas approach classical results.",
+      "mom_export_locators": [
+        "846",
+        "847",
+        "755"
+      ],
+      "rationale": "Keep a short conceptual correspondence question.",
+      "draft_id": "C13-P17"
+    },
+    {
+      "proposed_number": 27,
+      "section": "13.4",
+      "current_numbers": [
+        21
+      ],
+      "title": "Length of a passing spacecraft",
+      "prompt": "A spacecraft has a proper length of 200 m along its motion and passes Earth at 0.970c. What length does an Earth-frame observer measure? Does someone on board measure that same contracted length?",
+      "answer_check": "48.62 m on Earth; 200 m on board.",
+      "mom_export_locators": [
+        "848",
+        "849"
+      ],
+      "rationale": "One direct numerical length-contraction problem plus the own-frame distinction.",
+      "draft_id": "C13-P18"
+    },
+    {
+      "proposed_number": 28,
+      "section": "13.4",
+      "current_numbers": [],
+      "title": "Reciprocal metersticks",
+      "prompt": "Alice and Bob each carry a meterstick parallel to their relative motion. Their speed relative to one another is 0.800c. How long does Alice measure Bob’s stick to be? How long does Bob measure Alice’s? Why need neither observer regard their own stick as damaged or compressed?",
+      "answer_check": "Each measures the other’s as 0.600 m; each own stick remains 1 m. Frame-dependent endpoint measurements, not physical damage.",
+      "mom_export_locators": [
+        "766",
+        "849"
+      ],
+      "rationale": "Use the homework’s reciprocal contraction idea directly; no preliminary velocity-addition prerequisite or ladder-paradox label.",
+      "draft_id": "C13-P19"
+    },
+    {
+      "proposed_number": 29,
+      "section": "13.4",
+      "current_numbers": [
+        23
+      ],
+      "title": "One journey in two frames",
+      "prompt": "A muon moves through the laboratory at 0.950c and has a proper mean lifetime of 2.20 μs. (a) Find its mean lifetime and mean travel distance in the laboratory. (b) In the muon’s frame it stays at rest; how far does the laboratory move during that proper lifetime? (c) Verify the length-contraction relationship between the two distances. Use c = 3.00 × 10⁸ m/s.",
+      "answer_check": "Gamma 3.20256; lab lifetime 7.04564 μs; lab distance 2.00801 km; laboratory displacement magnitude in muon frame 0.627 km; 2.00801/3.20256=0.627.",
+      "mom_export_locators": [
+        "765",
+        "766",
+        "889"
+      ],
+      "rationale": "Keep one synthesis problem, self-contained; fix the misleading statement that a muon travels in its own rest frame.",
+      "draft_id": "C13-P20"
+    },
+    {
+      "proposed_number": 30,
+      "section": "13.4",
+      "current_numbers": [
+        27
+      ],
+      "title": "Check a length claim",
+      "prompt": "An astronaut measures the proper length of her spacecraft as 25.0 m. An observer in a frame where the spacecraft moves along its length reports 100 m. Can both be valid length measurements? Explain without solving for a speed.",
+      "answer_check": "No; moving length cannot exceed proper length.",
+      "mom_export_locators": [
+        "753",
+        "849"
+      ],
+      "rationale": "Convert Unreasonable Results into a brief check of direction, not an impossible-speed calculation.",
+      "draft_id": "C13-P21"
+    },
+    {
+      "proposed_number": 31,
+      "section": "13.5",
+      "current_numbers": [
+        29,
+        30,
+        31
+      ],
+      "title": "Qualitative Doppler shift",
+      "prompt": "For light emitted by a source moving directly away from an observer, is the observed wavelength longer or shorter than the emitted wavelength? What changes if the source approaches, or if their relative velocity is zero? Name the shifts.",
+      "answer_check": "Recession: longer, redshift; approach: shorter, blueshift; zero relative motion: no Doppler shift.",
+      "mom_export_locators": [],
+      "rationale": "One qualitative bridge to the retained text; Doppler calculations are not represented in the assigned weekly homework.",
+      "draft_id": "C13-P22"
+    },
+    {
+      "proposed_number": 32,
+      "section": "13.5",
+      "current_numbers": [
+        33
+      ],
+      "title": "Forward and backward launch",
+      "prompt": "A spacecraft moves toward Earth at 0.750c. It launches a canister at 0.500c relative to itself, first toward Earth and then, in a separate trial, away from Earth. Choose motion toward Earth as positive. Find the canister’s Earth-frame velocity in each trial. Does the backward launch necessarily make it move away from Earth?",
+      "answer_check": "+0.90909c and +0.400c. Backward launch still moves toward Earth.",
+      "mom_export_locators": [
+        "767"
+      ],
+      "rationale": "Keep one signed two-direction application; trim the many inverse-launch variants.",
+      "draft_id": "C13-P23"
+    },
+    {
+      "proposed_number": 33,
+      "section": "13.5",
+      "current_numbers": [],
+      "title": "Classical limit of velocity addition",
+      "prompt": "A truck moves at 30.0 m/s and throws a ball forward at 20.0 m/s relative to the truck. Use u = (v + u′)/(1 + vu′/c²) with c = 3.00 × 10⁸ m/s. Why does your result agree with 50.0 m/s to ordinary measurement precision, while simply adding velocities is unreliable for the preceding spacecraft problem?",
+      "answer_check": "Denominator 1 + 6.67×10⁻¹⁵, so u approximately 50.0 m/s. Denominator correction is appreciable for relativistic speeds.",
+      "mom_export_locators": [
+        "767",
+        "846"
+      ],
+      "rationale": "Homework correspondence comparison; no need to resolve the tiny difference numerically.",
+      "draft_id": "C13-P24"
+    },
+    {
+      "proposed_number": 34,
+      "section": "13.5",
+      "current_numbers": [
+        45,
+        46
+      ],
+      "title": "Light and velocity addition",
+      "prompt": "Substitute u′ = c into the relativistic velocity-addition formula and simplify. Repeat for u′ = −c. Explain how these results agree with Einstein’s second postulate for any frame speed |v| < c.",
+      "answer_check": "u = c and u = −c, respectively.",
+      "mom_export_locators": [
+        "767",
+        "762"
+      ],
+      "rationale": "Combine two near-identical proofs into one short consistency exercise.",
+      "draft_id": "C13-P25"
+    },
+    {
+      "proposed_number": 35,
+      "section": "13.6",
+      "current_numbers": [
+        48
+      ],
+      "title": "Momentum: what changes?",
+      "prompt": "Relativistic momentum is p = γmv. For an isolated system, does the law of conservation of momentum still apply? What does this expression become when v is much smaller than c? For the same mass and velocity, what is the ratio of relativistic momentum to mv when γ = 2?",
+      "answer_check": "Conservation still applies using relativistic momentum. Low-speed limit mv. Ratio 2.",
+      "mom_export_locators": [
+        "756"
+      ],
+      "rationale": "The single momentum exercise: conservation, classical limit, and a simple ratio; no inverse-momentum calculation.",
+      "draft_id": "C13-P26"
+    },
+    {
+      "proposed_number": 36,
+      "section": "13.7",
+      "current_numbers": [
+        58,
+        61
+      ],
+      "title": "Mass changes and energy conservation",
+      "prompt": "After a nuclear reaction, the separated products can have less combined rest mass than the initial particles. How can energy still be conserved? Does releasing energy in a chemical reaction also correspond to a mass change, even if that change is much harder to measure?",
+      "answer_check": "A decrease in summed particle rest energies can appear as kinetic energy or radiation. Total energy is conserved; a closed system retaining the released energy has not lost total system mass. Chemical energy release also corresponds to Δm=ΔE/c², usually much smaller.",
+      "mom_export_locators": [
+        "862",
+        "756"
+      ],
+      "rationale": "Combine conservation and application; use a general reaction instead of copying the bank’s incomplete neutron-decay particle list.",
+      "draft_id": "C13-P27"
+    },
+    {
+      "proposed_number": 37,
+      "section": "13.7",
+      "current_numbers": [
+        65
+      ],
+      "title": "Rest, total, and kinetic energy",
+      "prompt": "An electron has mass 9.11 × 10⁻³¹ kg. Calculate its rest energy in joules using c = 3.00 × 10⁸ m/s. If its Lorentz factor is 2.00, express its total energy and kinetic energy as multiples of that rest energy.",
+      "answer_check": "E₀=8.199×10⁻¹⁴ J; E=2E₀ and K=E₀.",
+      "mom_export_locators": [
+        "756"
+      ],
+      "rationale": "One elementary energy calculation; makes the three energies distinct without additional unit-conversion or accelerator work.",
+      "draft_id": "C13-P28"
+    },
+    {
+      "proposed_number": 38,
+      "section": "13.7",
+      "current_numbers": [
+        62
+      ],
+      "title": "Speed limit, momentum, and energy",
+      "prompt": "As the speed of an object with nonzero rest mass approaches c, what happens to γ, its momentum, and its total energy? Why does adding energy not allow it to reach or exceed c?",
+      "answer_check": "All grow without bound as v approaches c; reaching c requires unbounded energy.",
+      "mom_export_locators": [
+        "756",
+        "755"
+      ],
+      "rationale": "Retain the essential qualitative high-speed conclusion.",
+      "draft_id": "C13-P29"
+    },
+    {
+      "proposed_number": 39,
+      "section": "13.7",
+      "current_numbers": [
+        63
+      ],
+      "title": "A photon with no rest mass",
+      "prompt": "A photon has zero rest mass. Does that mean it must have zero energy and zero momentum? Use E² = (pc)² + (mc²)² to explain.",
+      "answer_check": "No; with m=0, E=c|p|, or E=pc if p denotes momentum magnitude.",
+      "mom_export_locators": [
+        "756"
+      ],
+      "rationale": "Minimal link to the earlier light/quantum material, without an energy–momentum derivation.",
+      "draft_id": "C13-P30"
+    },
+    {
+      "draft_id": "C13-A7",
+      "section": "Chapter review",
+      "current_numbers": [],
+      "title": "Relativity as an experimentally tested theory",
+      "prompt": "Give two examples discussed in this chapter in which special-relativistic effects can be tested or measured. For each, state the effect involved and explain what differs from the corresponding classical prediction. You may use research examples rather than everyday experiences.",
+      "answer_check": "Suitable examples include increased laboratory mean lifetimes of moving unstable particles, atmospheric muon survival explained consistently by time dilation and length contraction, and deviations of high-speed particle momentum/energy from classical predictions. Two descriptions of the same muon observation should not count as independent examples. If GPS is used, distinguish the special-relativistic contribution from gravitational effects.",
+      "mom_export_locators": [
+        "889"
+      ],
+      "rationale": "Restore the essay’s evidence-based synthesis; do not present cosmological redshift as purely a special-relativistic Doppler measurement.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 40
+    },
+    {
+      "draft_id": "C13-A8",
+      "section": "Chapter review",
+      "current_numbers": [],
+      "title": "Explain what changed in your understanding",
+      "prompt": "In no more than 200 words, summarize the two postulates of special relativity and explain two consequences you learned in this chapter. Identify one everyday intuition that needs to change, and explain how classical predictions remain useful at low speeds.",
+      "answer_check": "Open response: accurate postulates including vacuum light speed; two correctly explained consequences; a specific misconception addressed; classical limit. No single prescribed example or wording.",
+      "mom_export_locators": [
+        "892",
+        "846"
+      ],
+      "rationale": "Retain the course’s broad reflection prompt as a review candidate; it can be removed later if it overlaps assigned essays.",
+      "addition_kind": "conceptual addition",
+      "proposed_number": 41
+    }
+  ],
+  "existing_dispositions": [
+    {
+      "section": "13.2",
+      "module": "m42528",
+      "id": "fs-id2551936",
+      "number": "1",
+      "text": "Which of Einstein’s postulates of special relativity includes a concept that does not fit with the ideas of classical physics? Explain.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        1
+      ],
+      "reason": "Keep the central starting point; ask for both postulates explicitly."
+    },
+    {
+      "section": "13.2",
+      "module": "m42528",
+      "id": "fs-id2712476",
+      "number": "2",
+      "text": "Is Earth an inertial frame of reference? Is the Sun? Justify your response.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Approximate Earth/Sun inertial-frame subtleties are less central; use the explicit cruising-airplane model."
+    },
+    {
+      "section": "13.2",
+      "module": "m42528",
+      "id": "fs-id1990076",
+      "number": "3",
+      "text": "When you are flying in a commercial jet, it may appear to you that the airplane is stationary and the Earth is moving beneath you. Is this point of view valid? Discuss briefly.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        3
+      ],
+      "reason": "Make the first-postulate distinction explicit without importing the bank’s ambiguous invariance claims."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id3159158",
+      "number": "4",
+      "text": "Does motion affect the rate of a clock as measured by an observer moving with it? Does motion affect how an observer moving relative to a clock measures its rate?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        12
+      ],
+      "reason": "Combine overlapping questions and identify the same pair of events."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id2725128",
+      "number": "5",
+      "text": "To whom does the elapsed time for a process seem to be longer, an observer moving relative to the process or an observer moving with the process? Which observer measures proper time?",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        12
+      ],
+      "reason": "Combine overlapping questions and identify the same pair of events."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id2790874",
+      "number": "6",
+      "text": "How could you travel far into the future without aging significantly? Could this method also allow you to travel into the past?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        15
+      ],
+      "reason": "Keep one accessible twin/travel interpretation."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1745109",
+      "number": "7",
+      "text": "(a) What is γ if v=0.250c? (b) If v=0.500c?",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        17
+      ],
+      "reason": "Restore the homework’s full numerical range, without a time-sensitive accelerator claim. Interpret results as well as calculating them."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1541351",
+      "number": "8",
+      "text": "(a) What is γ if v=0.100c? (b) If v=0.900c?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        17
+      ],
+      "reason": "Restore the homework’s full numerical range, without a time-sensitive accelerator claim. Interpret results as well as calculating them."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1780163",
+      "number": "9",
+      "text": "Particles called π-mesons are produced by accelerator beams. If these particles travel at 2.70×108m/s and live 2.60×10−8s when at rest relative to an observer, how long do they live as viewed in the laboratory?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        19
+      ],
+      "reason": "Use one multipart forward calculation instead of several named-particle variants; state mean lifetime."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id3167345",
+      "number": "10",
+      "text": "Suppose a particle called a kaon is created by cosmic radiation striking the atmosphere. It moves by you at 0.980c, and it lives 1.24×10−8s when at rest relative to an observer. How long does it live as you observe it?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated lifetime/gamma calculation; retain one forward family, one inverse lifetime and one inverse-gamma family."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1352226",
+      "number": "11",
+      "text": "A neutral π-meson is a particle that can be created by accelerator beams. If one such particle lives 1.40×10−16s as measured in the laboratory, and 0.840×10−16s when at rest relative to an observer, what is its velocity relative to the laboratory?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        20
+      ],
+      "reason": "One inverse time-dilation question is sufficient; avoid relying on outdated particle lifetimes."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id2784785",
+      "number": "12",
+      "text": "A neutron lives 900 s when at rest relative to an observer. How fast is the neutron moving relative to an observer who measures its life span to be 2065 s?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated lifetime/gamma calculation; retain one forward family, one inverse lifetime and one inverse-gamma family."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id2944491",
+      "number": "13",
+      "text": "If relativistic effects are to be less than 1%, then γ must be less than 1.01. At what relative velocity is γ=1.01?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated lifetime/gamma calculation; retain one forward family, one inverse lifetime and one inverse-gamma family."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1326175",
+      "number": "14",
+      "text": "If relativistic effects are to be less than 3%, then γ must be less than 1.03. At what relative velocity is γ=1.03?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated lifetime/gamma calculation; retain one forward family, one inverse lifetime and one inverse-gamma family."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1310375",
+      "number": "15",
+      "text": "(a) At what relative velocity is γ=1.50? (b) At what relative velocity is γ=100?",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        21
+      ],
+      "reason": "Combine inverse-gamma drills; the near-one case now has its own question with a supplied approximation."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id1349718",
+      "number": "16",
+      "text": "(a) At what relative velocity is γ=2.00? (b) At what relative velocity is γ=10.0?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        21
+      ],
+      "reason": "Combine inverse-gamma drills; the near-one case now has its own question with a supplied approximation."
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "id": "fs-id2723163",
+      "number": "17",
+      "text": "Unreasonable Results (a) Find the value of γ for the following situation. An Earth-bound observer measures 23.9 h to have passed while signals from a high-velocity space probe indicate that 24.0h have passed on board. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "unreasonable_results": true,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        23
+      ],
+      "reason": "Convert Unreasonable Results into a direct conceptual consistency check; remove signal-arrival ambiguity."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id3088348",
+      "number": "18",
+      "text": "To whom does an object seem greater in length, an observer moving with the object or an observer moving relative to the object? Which observer measures the object’s proper length?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        24
+      ],
+      "reason": "Retain proper length and explicitly connect measurement to simultaneity."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id2735759",
+      "number": "19",
+      "text": "Relativistic effects such as time dilation and length contraction are present for cars and airplanes. Why do these effects seem strange to us?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        26
+      ],
+      "reason": "Keep a short conceptual correspondence question."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id1350472",
+      "number": "20",
+      "text": "Suppose an astronaut is moving relative to the Earth at a significant fraction of the speed of light. (a) Does he observe the rate of his clocks to have slowed? (b) What change in the rate of Earth-bound clocks does he see? (c) Does his ship seem to him to shorten? (d) What about the distance between stars that lie on lines parallel to his motion? (e) Do he and an Earth-bound observer agree on his velocity relative to the Earth?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Own-clock/own-ruler and relative-motion ideas are covered by the revised conceptual questions."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id2944255",
+      "number": "21",
+      "text": "A spaceship, 200 m long as seen on board, moves by the Earth at 0.970c. What is its length as measured by an Earth-bound observer?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        27
+      ],
+      "reason": "One direct numerical length-contraction problem plus the own-frame distinction."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id2634689",
+      "number": "22",
+      "text": "How fast would a 6.0 m-long sports car have to be going past you in order for it to appear only 5.5 m long?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Extra inverse-length or travel variant; retain one direct length problem and one self-contained two-frame muon synthesis."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id888555",
+      "number": "23",
+      "text": "(a) How far does the muon in travel according to the Earth-bound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction γ=3.20.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        29
+      ],
+      "reason": "Keep one synthesis problem, self-contained; fix the misleading statement that a muon travels in its own rest frame."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id1201670",
+      "number": "24",
+      "text": "(a) How long would the muon in have lived as observed on the Earth if its velocity was 0.0500c? (b) How far would it have traveled as observed on the Earth? (c) What distance is this in the muon’s frame?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Extra inverse-length or travel variant; retain one direct length problem and one self-contained two-frame muon synthesis."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id2930467",
+      "number": "25",
+      "text": "(a) How long does it take the astronaut in to travel 4.30 ly at 0.99944c (as measured by the Earth-bound observer)? (b) How long does it take according to the astronaut? (c) Verify that these two times are related through time dilation with γ=30.00 as given.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Extra inverse-length or travel variant; retain one direct length problem and one self-contained two-frame muon synthesis."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id3155252",
+      "number": "26",
+      "text": "(a) How fast would an athlete need to be running for a 100-m race to look 100 yd long? (b) Is the answer consistent with the fact that relativistic effects are difficult to observe in ordinary circumstances? Explain.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Extra inverse-length or travel variant; retain one direct length problem and one self-contained two-frame muon synthesis."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id2595222",
+      "number": "27",
+      "text": "Unreasonable Results(a) Find the value of γ for the following situation. An astronaut measures the length of her spaceship to be 25.0 m, while an Earth-bound observer measures it to be 100 m. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "unreasonable_results": true,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        30
+      ],
+      "reason": "Convert Unreasonable Results into a brief check of direction, not an impossible-speed calculation."
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "id": "fs-id1359494",
+      "number": "28",
+      "text": "Unreasonable Results A spaceship is heading directly toward the Earth at a velocity of 0.800c. The astronaut on board claims that he can send a canister toward the Earth at 1.20c relative to the Earth. (a) Calculate the velocity the canister must have relative to the spaceship. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "unreasonable_results": true,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Superluminal canister setup is outside its length-contraction placement; speed-limit and velocity-addition checks already retained."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1493354",
+      "number": "29",
+      "text": "Explain the meaning of the terms “red shift” and “blue shift” as they relate to the relativistic Doppler effect.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        31
+      ],
+      "reason": "One qualitative bridge to the retained text; Doppler calculations are not represented in the assigned weekly homework."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2679250",
+      "number": "30",
+      "text": "What happens to the relativistic Doppler effect when relative velocity is zero? Is this the expected result?",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        31
+      ],
+      "reason": "One qualitative bridge to the retained text; Doppler calculations are not represented in the assigned weekly homework."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2683301",
+      "number": "31",
+      "text": "Is the relativistic Doppler effect consistent with the classical Doppler effect in the respect that λobs is larger for motion away?",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        31
+      ],
+      "reason": "One qualitative bridge to the retained text; Doppler calculations are not represented in the assigned weekly homework."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2209137",
+      "number": "32",
+      "text": "All galaxies farther away than about 50×106 ly exhibit a red shift in their emitted light that is proportional to distance, with those farther and farther away having progressively greater red shifts. What does this imply, assuming that the only source of red shift is relative motion? (Hint: At these large distances, it is space itself that is expanding, but the effect on light is the same.)",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Beyond the course’s assigned numerical emphasis; keep one qualitative Doppler question, omit cosmology/double-shift/inverse Doppler work."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1357569",
+      "number": "33",
+      "text": "Suppose a spaceship heading straight towards the Earth at 0.750c can shoot a canister at 0.500c relative to the ship. (a) What is the velocity of the canister relative to the Earth, if it is shot directly at the Earth? (b) If it is shot directly away from the Earth?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        32
+      ],
+      "reason": "Keep one signed two-direction application; trim the many inverse-launch variants."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2601119",
+      "number": "34",
+      "text": "Repeat the previous problem with the ship heading directly away from the Earth.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1512938",
+      "number": "35",
+      "text": "If a spaceship is approaching the Earth at 0.100c and a message capsule is sent toward it at 0.100c relative to the Earth, what is the speed of the capsule relative to the ship?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1440845",
+      "number": "36",
+      "text": "(a) Suppose the speed of light were only 3000m/s. A jet fighter moving toward a target on the ground at 800m/s shoots bullets, each having a muzzle velocity of 1000m/s. What are the bullets’ velocity relative to the target? (b) If the speed of light was this small, would you observe relativistic effects in everyday life? Discuss.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2835463",
+      "number": "37",
+      "text": "If a galaxy moving away from the Earth has a speed of 1000km/s and emits 656nm light characteristic of hydrogen (the most common element in the universe). (a) What wavelength would we observe on the Earth? (b) What type of electromagnetic radiation is this? (c) Why is the speed of the Earth in its orbit negligible here?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Beyond the course’s assigned numerical emphasis; keep one qualitative Doppler question, omit cosmology/double-shift/inverse Doppler work."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1945618",
+      "number": "38",
+      "text": "A space probe speeding towards the nearest star moves at 0.250c and sends radio information at a broadcast frequency of 1.00 GHz. What frequency is received on the Earth?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Beyond the course’s assigned numerical emphasis; keep one qualitative Doppler question, omit cosmology/double-shift/inverse Doppler work."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1419574",
+      "number": "39",
+      "text": "If two spaceships are heading directly towards each other at 0.800c, at what speed must a canister be shot from the first ship to approach the other at 0.999c as seen by the second ship?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id3255899",
+      "number": "40",
+      "text": "Two planets are on a collision course, heading directly towards each other at 0.250c. A spaceship sent from one planet approaches the second at 0.750c as seen by the second planet. What is the velocity of the ship relative to the first planet?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2733177",
+      "number": "41",
+      "text": "When a missile is shot from one spaceship towards another, it leaves the first at 0.950c and approaches the other at 0.750c. What is the relative velocity of the two ships?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2753552",
+      "number": "42",
+      "text": "What is the relative velocity of two spaceships if one fires a missile at the other at 0.750c and the other observes it to approach at 0.950c?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2772904",
+      "number": "43",
+      "text": "Near the center of our galaxy, hydrogen gas is moving directly away from us in its orbit about a black hole. We receive 1900 nm electromagnetic radiation and know that it was 1875 nm when emitted by the hydrogen gas. What is the speed of the gas?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Beyond the course’s assigned numerical emphasis; keep one qualitative Doppler question, omit cosmology/double-shift/inverse Doppler work."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2638027",
+      "number": "44",
+      "text": "A highway patrol officer uses a device that measures the speed of vehicles by bouncing radar off them and measuring the Doppler shift. The outgoing radar has a frequency of 100 GHz and the returning echo has a frequency 15.0 kHz higher. What is the velocity of the vehicle? Note that there are two Doppler shifts in echoes. Be certain not to round off until the end of the problem, because the effect is small.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Beyond the course’s assigned numerical emphasis; keep one qualitative Doppler question, omit cosmology/double-shift/inverse Doppler work."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2651524",
+      "number": "45",
+      "text": "Prove that for any relative velocity v between two observers, a beam of light sent from one to the other will approach at speed c (provided that v is less than c, of course).",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        34
+      ],
+      "reason": "Combine two near-identical proofs into one short consistency exercise."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id2996441",
+      "number": "46",
+      "text": "Show that for any relative velocity v between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that v is less than c, of course).",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        34
+      ],
+      "reason": "Combine two near-identical proofs into one short consistency exercise."
+    },
+    {
+      "section": "13.5",
+      "module": "m42540",
+      "id": "fs-id1566424",
+      "number": "47",
+      "text": "(a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy 12.0×109 ly ly away is receding from us at 0.0.900c, at what velocity relative to us must we send an exploratory probe to approach the other galaxy at 0.990c, as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from the Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Repeated or elaborate velocity-addition scenario; signed launch, classical limit and light cases provide the intended coverage."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1600733",
+      "number": "48",
+      "text": "How does modern relativity modify the law of conservation of momentum?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        35
+      ],
+      "reason": "The single momentum exercise: conservation, classical limit, and a simple ratio; no inverse-momentum calculation."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id2629517",
+      "number": "49",
+      "text": "Is it possible for an external force to be acting on a system and relativistic momentum to be conserved? Explain.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id2756436",
+      "number": "50",
+      "text": "Find the momentum of a helium nucleus having a mass of 6.68×10−27 kg that is moving at 0.200c.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1665120",
+      "number": "51",
+      "text": "What is the momentum of an electron traveling at 0.980c?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1580653",
+      "number": "52",
+      "text": "(a) Find the momentum of a 1.00×109 kg asteroid heading towards the Earth at 30.0km/s. (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that γ=1+(1/2)v2/c2 at low velocities.)",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id3068020",
+      "number": "53",
+      "text": "(a) What is the momentum of a 2000 kg satellite orbiting at 4.00 km/s? (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that γ=1+(1/2)v2/c2 at low velocities.)",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1292487",
+      "number": "54",
+      "text": "What is the velocity of an electron that has a momentum of 3.04×10−21 kg⋅m/s? Note that you must calculate the velocity to at least four digits to see the difference from c.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1346384",
+      "number": "55",
+      "text": "Find the velocity of a proton that has a momentum of 4.48×−10−19 kg⋅m/s.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1298007",
+      "number": "56",
+      "text": "(a) Calculate the speed of a 1.00-μg particle of dust that has the same momentum as a proton moving at 0.999c. (b) What does the small speed tell us about the mass of a proton compared to even a tiny amount of macroscopic matter?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.6",
+      "module": "m42542",
+      "id": "fs-id1949487",
+      "number": "57",
+      "text": "(a) Calculate γ for a proton that has a momentum of 1.00kg⋅m/s. (b) What is its speed? Such protons form a rare component of cosmic radiation with uncertain origins.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Reduce momentum to its conserved definition, classical limit and gamma ratio; omit specialized numerical/inverse-momentum work."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1563904",
+      "number": "58",
+      "text": "How are the classical laws of conservation of energy and conservation of mass modified by modern relativity?",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        36
+      ],
+      "reason": "Combine conservation and application; use a general reaction instead of copying the bank’s incomplete neutron-decay particle list."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2962135",
+      "number": "59",
+      "text": "What happens to the mass of water in a pot when it cools, assuming no molecules escape or are added? Is this observable in practice? Explain.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Thermal mass-change detail duplicates the retained conservation/reaction concept; balloon adds buoyancy complications."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2985598",
+      "number": "60",
+      "text": "Consider a thought experiment. You place an expanded balloon of air on weighing scales outside in the early morning. The balloon stays on the scales and you are able to measure changes in its mass. Does the mass of the balloon change as the day progresses? Discuss the difficulties in carrying out this experiment.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Thermal mass-change detail duplicates the retained conservation/reaction concept; balloon adds buoyancy complications."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2768272",
+      "number": "61",
+      "text": "The mass of the fuel in a nuclear reactor decreases by an observable amount as it puts out energy. Is the same true for the coal and oxygen combined in a conventional power plant? If so, is this observable in practice for the coal and oxygen? Explain.",
+      "unreasonable_results": false,
+      "action": "merge",
+      "proposed_numbers": [
+        36
+      ],
+      "reason": "Combine conservation and application; use a general reaction instead of copying the bank’s incomplete neutron-decay particle list."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2634587",
+      "number": "62",
+      "text": "We know that the velocity of an object with mass has an upper limit of c. Is there an upper limit on its momentum? Its energy? Explain.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        38
+      ],
+      "reason": "Retain the essential qualitative high-speed conclusion."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2834533",
+      "number": "63",
+      "text": "Given the fact that light travels at c, can it have mass? Explain.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        39
+      ],
+      "reason": "Minimal link to the earlier light/quantum material, without an energy–momentum derivation."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2633453",
+      "number": "64",
+      "text": "If you use an Earth-based telescope to project a laser beam onto the Moon, you can move the spot across the Moon’s surface at a velocity greater than the speed of light. Does this violate modern relativity? (Note that light is being sent from the Earth to the Moon, not across the surface of the Moon.)",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Interesting superluminal-spot extension, but not necessary for the minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3084928",
+      "number": "65",
+      "text": "What is the rest energy of an electron, given its mass is 9.11×10−31 kg? Give your answer in joules and MeV.",
+      "unreasonable_results": false,
+      "action": "retain/revise",
+      "proposed_numbers": [
+        37
+      ],
+      "reason": "One elementary energy calculation; makes the three energies distinct without additional unit-conversion or accelerator work."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2721624",
+      "number": "66",
+      "text": "Find the rest energy in joules and MeV of a proton, given its mass is 1.67×10−27 kg.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2681831",
+      "number": "67",
+      "text": "If the rest energies of a proton and a neutron (the two constituents of nuclei) are 938.3 and 939.6 MeV respectively, what is the difference in their masses in kilograms?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2720780",
+      "number": "68",
+      "text": "The Big Bang that began the universe is estimated to have released 1068 J of energy. How many stars could half this energy create, assuming the average star’s mass is 4.00×1030 kg?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2512400",
+      "number": "69",
+      "text": "A supernova explosion of a 2.00×1031 kg star produces 1.00×1044 J of energy. (a) How many kilograms of mass are converted to energy in the explosion? (b) What is the ratio Δm/m of mass destroyed to the original mass of the star?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2572932",
+      "number": "70",
+      "text": "(a) Using data from Table 7.1 in OpenStax College Physics 2e (external), calculate the mass converted to energy by the fission of 1.00 kg of uranium. (b) What is the ratio of mass destroyed to the original mass, Δm/m?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "External-table-dependent mass conversion, beyond minimal energy scope."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1539307",
+      "number": "71",
+      "text": "(a) Using data from Table 7.1 in OpenStax College Physics 2e (external), calculate the amount of mass converted to energy by the fusion of 1.00 kg of hydrogen. (b) What is the ratio of mass destroyed to the original mass, Δm/m? (c) How does this compare with Δm/m for the fission of 1.00 kg of uranium?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "External-table-dependent mass conversion, beyond minimal energy scope."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1780374",
+      "number": "72",
+      "text": "There is approximately 1034J of energy available from fusion of hydrogen in the world’s oceans. (a) If 1033 J of this energy were utilized, what would be the decrease in mass of the oceans? Assume that 0.08% of the mass of a water molecule is converted to energy during the fusion of hydrogen. (b) How great a volume of water does this correspond to? (c) Comment on whether this is a significant fraction of the total mass of the oceans.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1350397",
+      "number": "73",
+      "text": "A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a massless particle. (a) If all the lost mass is converted into the electron’s kinetic energy, find γ for the electron. (b) What is the electron’s velocity?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Advanced decay calculation, also framed with an unphysical all-energy-to-one-product assumption; remove rather than repair for this course."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2702554",
+      "number": "74",
+      "text": "A π-meson is a particle that decays into a muon and a massless particle. The π-meson has a rest mass energy of 139.6 MeV, and the muon has a rest mass energy of 105.7 MeV. Suppose the π-meson is at rest and all of the missing mass goes into the muon’s kinetic energy. How fast will the muon move?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Advanced decay calculation, also framed with an unphysical all-energy-to-one-product assumption; remove rather than repair for this course."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3358455",
+      "number": "75",
+      "text": "(a) Calculate the relativistic kinetic energy of a 1000-kg car moving at 30.0 m/s if the speed of light were only 45.0 m/s. (b) Find the ratio of the relativistic kinetic energy to classical.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2753673",
+      "number": "76",
+      "text": "Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium nucleus has a mass of 6.80×10−27 kg and is given 5.00 MeV of kinetic energy, what is its velocity?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3195968",
+      "number": "77",
+      "text": "(a) Beta decay is nuclear decay in which an electron is emitted. If the electron is given 0.750 MeV of kinetic energy, what is its velocity? (b) Comment on how the high velocity is consistent with the kinetic energy as it compares to the rest mass energy of the electron.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2600562",
+      "number": "78",
+      "text": "A positron is an antimatter version of the electron, having exactly the same mass. When a positron and an electron meet, they annihilate, converting all of their mass into energy. (a) Find the energy released, assuming negligible kinetic energy before the annihilation. (b) If this energy is given to a proton in the form of kinetic energy, what is its velocity? (c) If this energy is given to another electron in the form of kinetic energy, what is its velocity?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1284915",
+      "number": "79",
+      "text": "What is the kinetic energy in MeV of a π-meson that lives 1.40×10−16 s as measured in the laboratory, and 0.840×10−16 s when at rest relative to an observer, given that its rest energy is 135 MeV?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2725006",
+      "number": "80",
+      "text": "Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s, given its rest energy is 939.6 MeV, and rest life span is 900s.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2500966",
+      "number": "81",
+      "text": "(a) Show that (pc)2/(mc2)2=γ2−1. This means that at large velocities pc>>mc2. (b) Is E≈pc when γ=30.0, as for the astronaut discussed in the twin paradox?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2834155",
+      "number": "82",
+      "text": "One cosmic ray neutron has a velocity of 0.250c relative to the Earth. (a) What is the neutron’s total energy in MeV? (b) Find its momentum. (c) Is E≈pc in this situation? Discuss in terms of the equation given in part (a) of the previous problem.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2629153",
+      "number": "83",
+      "text": "What is γ for a proton having a mass energy of 938.3 MeV accelerated through an effective potential of 1.0 TV (teravolt) at Fermilab outside Chicago?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3164443",
+      "number": "84",
+      "text": "(a) What is the effective accelerating potential for electrons at the Stanford Linear Accelerator, if γ=1.00×105 for them? (b) What is their total energy (nearly the same as kinetic in this case) in GeV?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2911245",
+      "number": "85",
+      "text": "(a) Using data from Table 7.1 in OpenStax College Physics 2e (external), find the mass destroyed when the energy in a barrel of crude oil is released. (b) Given these barrels contain 200 liters and assuming the density of crude oil is 750kg/m3, what is the ratio of mass destroyed to original mass, Δm/m?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "External-table-dependent mass conversion, beyond minimal energy scope."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3259500",
+      "number": "86",
+      "text": "(a) Calculate the energy released by the destruction of 1.00 kg of mass. (b) How many kilograms could be lifted to a 10.0 km height by this amount of energy?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2656682",
+      "number": "87",
+      "text": "A Van de Graaff accelerator utilizes a 50.0 MV potential difference to accelerate charged particles such as protons. (a) What is the velocity of a proton accelerated by such a potential? (b) An electron?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3143371",
+      "number": "88",
+      "text": "Suppose you use an average of 500kW·h of electric energy per month in your home. (a) How long would 1.00 g of mass converted to electric energy with an efficiency of 38.0% last you? (b) How many homes could be supplied at the 500kW·h per month rate for one year by the energy from the described mass conversion?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1946210",
+      "number": "89",
+      "text": "(a) A nuclear power plant converts energy from nuclear fission into electricity with an efficiency of 35.0%. How much mass is destroyed in one year to produce a continuous 1000 MW of electric power? (b) Do you think it would be possible to observe this mass loss if the total mass of the fuel is 104kg?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id3159094",
+      "number": "90",
+      "text": "Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket’s mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of 1.00×105kg (100 tons), what total yield nuclear explosion in tons of TNT is needed?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2693263",
+      "number": "91",
+      "text": "The Sun produces energy at a rate of 4.00×1026 W by the fusion of hydrogen. (a) How many kilograms of hydrogen undergo fusion each second? (b) If the Sun is 90.0% hydrogen and half of this can undergo fusion before the Sun changes character, how long could it produce energy at its current rate? (c) How many kilograms of mass is the Sun losing per second? (d) What fraction of its mass will it have lost in the time found in part (b)?",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Additional mass–energy, accelerator, astrophysical or relativistic kinetic-energy calculation beyond minimal energy coverage."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2791387",
+      "number": "92",
+      "text": "Unreasonable Results A proton has a mass of 1.67×10−27kg. A physicist measures the proton’s total energy to be 50.0 MeV. (a) What is the proton’s kinetic energy? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+      "unreasonable_results": true,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Rest-energy consistency already covered by distinguishing rest, total and kinetic energy."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id1936682",
+      "number": "93",
+      "text": "Construct Your Own ProblemConsider a highly relativistic particle. Discuss what is meant by the term “highly relativistic”. (Note that, in part, it means that the particle cannot be massless.) Construct a problem in which you calculate the wavelength of such a particle and show that it is very nearly the same as the wavelength of a massless particle, such as a photon, with the same energy. Among the things to be considered are the rest energy of the particle (it should be a known particle) and its total energy, which should be large compared to its rest energy.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Open-ended multi-topic numerical construction is beyond the reduced scope."
+    },
+    {
+      "section": "13.7",
+      "module": "m42546",
+      "id": "fs-id2929431",
+      "number": "94",
+      "text": "Construct Your Own ProblemConsider an astronaut traveling to another star at a relativistic velocity. Construct a problem in which you calculate the time for the trip as observed on the Earth and as observed by the astronaut. Also calculate the amount of mass that must be converted to energy to get the astronaut and ship to the velocity travelled. Among the things to be considered are the distance to the star, the velocity, and the mass of the astronaut and ship. Unless your instructor directs you otherwise, do not include any energy given to other masses, such as rocket propellants.",
+      "unreasonable_results": false,
+      "action": "remove",
+      "proposed_numbers": [],
+      "reason": "Open-ended multi-topic numerical construction is beyond the reduced scope."
+    }
+  ],
+  "inline_checks": "Five inline checks remain outside the 30-question chapter-end count. Retain for this exercise pass; momentum and kinetic-energy checks can be marked optional if the instructor wants minimal total practice, but do not silently remove them.",
+  "revision_note": "User requested a generous conceptual candidate set for later trimming. Includes the agreed gamma–beta expansion from two to five questions, plus eight further conceptual additions. No maintained exercises changed."
+}

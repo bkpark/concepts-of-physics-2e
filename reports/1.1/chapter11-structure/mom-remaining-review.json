@@ -1,0 +1,181 @@
+{
+  "scope": "Remaining principal homework, test-bank, essay and lecture candidates reviewed against revised chapter. No new candidates in this report applied.",
+  "dispositions": [
+    {
+      "status": "skip",
+      "reason": "Speed/index calculations duplicate retained 11.7 exercises.",
+      "sources": [
+        {
+          "export_locator": "603",
+          "uniqueid": "1531499946250944",
+          "description": "Introduction to Physics - Geometric Optics - Refraction - Q1 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "698",
+          "uniqueid": "1578528599438555",
+          "description": "Introduction to Physics - Geometric Optics - Refraction - Q1 (test bank version, dynamically generated)"
+        }
+      ]
+    },
+    {
+      "status": "hold-repair",
+      "reason": "Test-bank prose specifies normal entry then a face at 45 degrees. For ordinary glass n about 1.5 exiting to air, sin(theta_t)=1.5 sin45 >1; expected transmitted ray is impossible (total internal reflection). Do not import as written.",
+      "sources": [
+        {
+          "export_locator": "604",
+          "uniqueid": "1531500431631561",
+          "description": "Introduction to Physics - Geometric Optics - Refraction - Q2 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "699",
+          "uniqueid": "1531565850129089",
+          "description": "Introduction to Physics - Geometric Optics - Refraction - Q2 (test bank version)"
+        }
+      ]
+    },
+    {
+      "status": "propose",
+      "reason": "Parallel-sided slab with air on both sides; oblique incident and emerging rays are parallel with lateral displacement. Supply explicit parallel surfaces and normal definitions.",
+      "sources": [
+        {
+          "export_locator": "605",
+          "uniqueid": "1531500541030316",
+          "description": "Introduction to Physics - Geometric Optics - Refraction - Q3 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "700",
+          "uniqueid": "1531565903309579",
+          "description": "Introduction to Physics - Geometric Optics - Refraction - Q3 (test bank version)"
+        }
+      ]
+    },
+    {
+      "status": "hold",
+      "reason": "Additive red/green color mixing is not developed in the relevant prose. Homework hint treats perceived color as average wavelengths, an unsuitable general explanation; do not import hint.",
+      "sources": [
+        {
+          "export_locator": "608",
+          "uniqueid": "1531502003761314",
+          "description": "Introduction to Physics - Rainbow Spectrum - Description - Q2 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "703",
+          "uniqueid": "1531566142447428",
+          "description": "Introduction to Physics - Rainbow Spectrum - Description - Q2 (test bank version)"
+        }
+      ]
+    },
+    {
+      "status": "propose",
+      "reason": "Classify ordinary thin glass lenses in air from center/edge thickness, then sketch parallel rays. Existing section activity explicitly gives thickness rule. Original figure not yet imported.",
+      "sources": [
+        {
+          "export_locator": "609",
+          "uniqueid": "1531502326711393",
+          "description": "Introduction to Physics - Geometric Optics - Lenses - Q1 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "695",
+          "uniqueid": "1578529578528344",
+          "description": "Introduction to Physics - Geometric Optics - Lenses - Q1 (test bank version, dynamically generated)"
+        }
+      ]
+    },
+    {
+      "status": "skip",
+      "reason": "Real/virtual-image concepts already covered in retained mirror questions.",
+      "sources": [
+        {
+          "export_locator": "610",
+          "uniqueid": "1531502520880297",
+          "description": "Introduction to Physics - Geometric Optics - Lenses - Q2 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "696",
+          "uniqueid": "1531565612026286",
+          "description": "Introduction to Physics - Geometric Optics - Lenses - Q2 (test bank version)"
+        },
+        {
+          "export_locator": "580",
+          "uniqueid": "1773897279420522",
+          "description": "Physics 10 - Lecture 22, Section 5 - Intro to Real and Virtual Images [3 questions]"
+        }
+      ]
+    },
+    {
+      "status": "propose",
+      "reason": "Define polarization through electric field direction, then apply to reflected glare and sunglasses; directly covered in 11.11.",
+      "sources": [
+        {
+          "export_locator": "611",
+          "uniqueid": "1531502578519083",
+          "description": "Introduction to Physics - Polarization of Light - Description - Q1 (updated to LibreTexts version)"
+        },
+        {
+          "export_locator": "701",
+          "uniqueid": "1531565961869817",
+          "description": "Introduction to Physics - Polarization of Light - Description - Q1 (test bank version)"
+        },
+        {
+          "export_locator": "582",
+          "uniqueid": "1773899261869024",
+          "description": "Physics 10 - Lecture 22, Section 7 - Polarization of Light [3 questions]"
+        }
+      ]
+    },
+    {
+      "status": "skip",
+      "reason": "Generic chapter-summary essay adds little targeted practice.",
+      "sources": [
+        {
+          "export_locator": "718",
+          "uniqueid": "1618520031573184",
+          "description": "Introduction to Physics (Essay Questions) - Chapter 11 Light Open-Ended Question (updated to LibreTexts version)"
+        }
+      ]
+    },
+    {
+      "status": "hold",
+      "reason": "Cherenkov radiation not covered in chapter prose; would require supplied background.",
+      "sources": [
+        {
+          "export_locator": "719",
+          "uniqueid": "1541296405162568",
+          "description": "Introduction to Physics (Essay Questions) - Light - Cherenkov Radiation"
+        }
+      ]
+    },
+    {
+      "status": "hold",
+      "reason": "Fresnel lenses and limitations not developed in chapter prose; would require supplied background and figure.",
+      "sources": [
+        {
+          "export_locator": "720",
+          "uniqueid": "1618521581812747",
+          "description": "Introduction to Physics (Essay Questions) - Light - Fresnel Lens"
+        }
+      ]
+    },
+    {
+      "status": "covered-or-hold",
+      "reason": "Index/normal objectives covered; lecture-specific prompts and PhET dependence not imported. Many-rays objective can be considered separately if needed.",
+      "sources": [
+        {
+          "export_locator": "578",
+          "uniqueid": "1773895593509412",
+          "description": "Physics 10 - Lecture 22, Section 3 - Index of Refraction [3 questions]"
+        },
+        {
+          "export_locator": "579",
+          "uniqueid": "1773896764623973",
+          "description": "Physics 10 - Lecture 22, Section 4 - Angles of Refraction and Reflection [3 questions]"
+        },
+        {
+          "export_locator": "581",
+          "uniqueid": "1773898811785994",
+          "description": "Physics 10 - Lecture 22, Section 6 - Geometric Optics PhET Simulation [3 questions]"
+        }
+      ]
+    }
+  ]
+}

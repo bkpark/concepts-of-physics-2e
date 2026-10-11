@@ -1,0 +1,45 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_74b2e59640a8819186a43573a4c69e56",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 112,
+    "source": {
+      "commit_sha": "fe0dfbea2670e3be76d508a5a9f479748309ce88"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000ddc481fdab6caa7c5aa486dd",
+      "content_hash": "sha256:a719406e6fc83ca20e07d9288471bafa4543b3fd273e9cc459057314dab8ef7e",
+      "size_bytes": 130007040,
+      "file_count": 749
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aca8e886fb4819197fae4523d131cee",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_74b2e59640a8819186a43573a4c69e56",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-10T19:14:26.727975+00:00"
+  },
+  "checks": {
+    "math": 6673,
+    "math_issues": {},
+    "glossary_and_exercise_verified": true
+  },
+  "changes": [
+    "Train-and-flashes Figure 13.3.3 and interpretation",
+    "Space-time diagram and worldline glossary definitions",
+    "Caption credit note removed",
+    "Exercise 11 terminology aligned"
+  ]
+}

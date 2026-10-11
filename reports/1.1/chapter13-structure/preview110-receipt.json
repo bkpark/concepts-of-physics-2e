@@ -1,0 +1,38 @@
+{
+  "saved": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_b671f1733194819180613a794ed6b267",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 110,
+    "source": {
+      "commit_sha": "680725eca9b75a5336e245d8e0b1b17e1cb559d4"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000544481fd93396cdc8d151152",
+      "content_hash": "sha256:b632242a7b8aa70c542681e45560a470acfc9a047c379865277a6d3525180ea9",
+      "size_bytes": 129986560,
+      "file_count": 747
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aca877f336881919ad60976ba877701",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_b671f1733194819180613a794ed6b267",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-10T18:44:25.980863+00:00"
+  },
+  "custom_url": "https://intro-1-1.coaphys.xyz",
+  "chapter13_exercises": 41,
+  "book_projected_exercises": 775,
+  "includes": "Approved Chapter 13 question set and all pending MathML/formatting repairs; both builds, full validation and mobile exercise-page QA passed."
+}

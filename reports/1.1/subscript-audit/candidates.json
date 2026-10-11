@@ -1,0 +1,1752 @@
+[
+  {
+    "module": "m42236",
+    "base": "Q",
+    "sub": "h",
+    "id": "import-auto-id1169738013059",
+    "context": "Heat pumps, air conditioners, and refrigerators operate by causing heat transfer from cold to hot. Imagine a heat-engine cycle run backward: the system absorbs heat Qc size 12{Q rSub { size 8{c} } } {} from a cold reservoir, and work W size 12{W} {} is done on it so that it can release heat Qh into a hot reservoir. Over a complete cycle, the work input adds to the energy released as heat, so the first law gives Qh=Qc+W size 12{Q rSub { size 8{h} } =Q rSub { size 8{c} } +W} {}. (Note that Qh size 12{Q rSub { size 8{h} } } {}, Qc size 12{Q rSub { size 8{c} } } {}, and W size 12{W} {} are positive, with their directions indicated on schematics r"
+  },
+  {
+    "module": "m42236",
+    "base": "Q",
+    "sub": "h",
+    "id": "import-auto-id1169737761565",
+    "context": "Friction and other irreversible processes reduce heat engine efficiency, but they do not benefit the operation of a heat pump. This is part of what it means for a process to be irreversible. We can model these losses by letting only a portion W′ of the work input W reach a reversible heat pump, with the rest dissipated outside the hot reservoir. For the same heat delivery Qh to the hot reservoir at the same reservoir temperatures, greater work input W is needed."
+  },
+  {
+    "module": "m42356",
+    "base": "P",
+    "sub": "e",
+    "id": "fs-id1917080",
+    "context": "the relationship between potential electrical power, voltage, and resistance in an electrical circuit, given by: Pe=IV size 12{P rSub { size 8{e} } = ital \"IV\"} {}"
+  },
+  {
+    "module": "m42540",
+    "base": "=λ",
+    "sub": "s",
+    "id": "eip-158",
+    "context": "=λobs=λs1+uc1−uc. size 12{λ rSub { size 8{\"obs\"} } ital \"=λ\" rSub { size 8{s} } sqrt { { {1+ { {u} over {c} } } over {1 - { {u} over {c} } } } } } {}"
+  },
+  {
+    "module": "m42540",
+    "base": "λ",
+    "sub": "s",
+    "id": "import-auto-id2506542",
+    "context": "In the Doppler equation, λobs size 12{λ rSub { size 8{\"obs\"} } } {} is the observed wavelength, λs size 12{λ rSub { size 8{s} } } {} is the source wavelength, and u size 12{u} {} is the relative velocity of the source to the observer. The velocity u size 12{u} {} is positive for motion away from an observer and negative for motion toward an observer. In terms of source frequency and observed frequency, this equation can be written"
+  },
+  {
+    "module": "m42540",
+    "base": "=f",
+    "sub": "s",
+    "id": "eip-73",
+    "context": "fobs=fs1−uc1+uc. size 12{f rSub { size 8{\"obs\"} } ital \"=f\" rSub { size 8{s} } sqrt { { {1 - { {u} over {c} } } over {1+ { {u} over {c} } } } } } {}"
+  },
+  {
+    "module": "m42540",
+    "base": "λ",
+    "sub": "s",
+    "id": "import-auto-id2647788",
+    "context": "Identify the knowns. u= 0.825c size 12{ ital \"u=\"0 \".\" \"825\"c} {} ; λs=0.525m size 12{λ rSub { size 8{s} } =0 \".\" \"525\"`m} {}"
+  },
+  {
+    "module": "m42540",
+    "base": "=λ",
+    "sub": "s",
+    "id": "import-auto-id1290179",
+    "context": "Choose the appropriate equation. λobs=λs1+uc1−uc size 12{λ rSub { size 8{\"obs\"} } ital \"=λ\" rSub { size 8{s} } sqrt { { {1+ { {u} over {c} } } over {1 - { {u} over {c} } } } } } {}"
+  },
+  {
+    "module": "m42540",
+    "base": "λ",
+    "sub": "s",
+    "id": "eip-52",
+    "context": "λobs = λs1+uc1−uc = (0.525m)1+0.825cc1−0.825cc = 1.70 m."
+  },
+  {
+    "module": "m42540",
+    "base": "=f",
+    "sub": "s",
+    "id": "eip-id2444465",
+    "context": "f obs =f s 1 − u c 1 + u c = ( 1 . 50 GHz ) 1 − 0.350 c c 1 + 0.350 c c = 1 . 04 GHz size 12{f rSub { size 8{\"obs\"} } ital \"=f\" rSub { size 8{s} } sqrt { { {1 - { {u} over {c} } } over {1+ { {u} over {c} } } } } = \\( 1 \".\" \"50 GHz\" \\) sqrt { { {1 - { {0 \".\" \"350\" ital \" c\"} over {c} } } over {1+ { {0 \".\" \"350\" ital \" c\"} over {c} } } } } =1 \".\" \"04 GHz\"} {}"
+  },
+  {
+    "module": "m42540",
+    "base": "=λ",
+    "sub": "s",
+    "id": "eip-823",
+    "context": "λ obs =λ s 1 + u c 1 − u c size 12{λ rSub { size 8{\"obs\"} } ital \"=λ\" rSub { size 8{s} } sqrt { { {1+ { {u} over {c} } } over {1 - { {u} over {c} } } } } } {}"
+  },
+  {
+    "module": "m42540",
+    "base": "λ",
+    "sub": "s",
+    "id": "",
+    "context": "An observer of electromagnetic radiation sees relativistic Doppler effects if the source of the radiation is moving relative to the observer. The wavelength of the radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer. The shifted wavelength is described by the equation λ obs =λ s 1 + u c 1 − u c size 12{λ rSub { size 8{\"obs\"} } ital \"=λ\" rSub { size 8{s} } sqrt { { {1+ { {u} over {c} } } over {1 - { {u} over {c} } } } } } {} λobs size 12{λ rSub { size 8{\"obs\"} } } {} is the observed wavelength, λs size 1"
+  },
+  {
+    "module": "m42540",
+    "base": "=λ",
+    "sub": "s",
+    "id": "fs-id1448846",
+    "context": "λ obs =λ s 1 + u c 1 − u c"
+  },
+  {
+    "module": "m42540",
+    "base": "λ",
+    "sub": "s",
+    "id": "fs-id2687978",
+    "context": "a change in wavelength of radiation that is moving relative to the observer; the wavelength of the radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer; the shifted wavelength is described by the equation λ obs =λ s 1 + u c 1 − u c where λobs is the observed wavelength, λs is the source wavelength, and u is the velocity of the source to the observer"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "e",
+    "id": "",
+    "context": "L e"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "μ",
+    "id": "",
+    "context": "L μ"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "τ",
+    "id": "",
+    "context": "L τ size 12{L rSub { size 8{τ} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "ν",
+    "sub": "e",
+    "id": "",
+    "context": "ν e size 12{e rSup { size 8{ - {}} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "e",
+    "id": "",
+    "context": "v ¯ e size 12{ { bar {v}} rSub { size 8{e} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v",
+    "sub": "μ",
+    "id": "",
+    "context": "v μ size 12{v rSub { size 8{μ} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "μ",
+    "id": "",
+    "context": "v ¯ μ size 12{v rSub { size 8{μ} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v",
+    "sub": "τ",
+    "id": "",
+    "context": "v τ size 12{v rSub { size 8{τ} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "τ",
+    "id": "",
+    "context": "v ¯ τ size 12{ { bar {v}} rSub { size 8{τ} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "e",
+    "id": "import-auto-id1169738014897",
+    "context": "All known leptons are listed in the table given above. There are only six leptons (and their antiparticles), and they seem to be fundamental in that they have no apparent underlying structure. Leptons have no discernible size other than their wavelength, so that we know they are pointlike down to about 10−18m size 12{\"10\" rSup { size 8{ - \"18\"} } m} {}. The leptons fall into three families, implying three conservation laws for three quantum numbers. One of these was known from β size 12{β} {} decay, where the existence of the electron’s neutrino implied that a new quantum number, called the electron family number Le size 12{L rSub { size 8{e}"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "e",
+    "id": "import-auto-id1169738014897",
+    "context": "All known leptons are listed in the table given above. There are only six leptons (and their antiparticles), and they seem to be fundamental in that they have no apparent underlying structure. Leptons have no discernible size other than their wavelength, so that we know they are pointlike down to about 10−18m size 12{\"10\" rSup { size 8{ - \"18\"} } m} {}. The leptons fall into three families, implying three conservation laws for three quantum numbers. One of these was known from β size 12{β} {} decay, where the existence of the electron’s neutrino implied that a new quantum number, called the electron family number Le size 12{L rSub { size 8{e}"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "e",
+    "id": "import-auto-id1169738014897",
+    "context": "All known leptons are listed in the table given above. There are only six leptons (and their antiparticles), and they seem to be fundamental in that they have no apparent underlying structure. Leptons have no discernible size other than their wavelength, so that we know they are pointlike down to about 10−18m size 12{\"10\" rSup { size 8{ - \"18\"} } m} {}. The leptons fall into three families, implying three conservation laws for three quantum numbers. One of these was known from β size 12{β} {} decay, where the existence of the electron’s neutrino implied that a new quantum number, called the electron family number Le size 12{L rSub { size 8{e}"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "e",
+    "id": "import-auto-id1169738014897",
+    "context": "All known leptons are listed in the table given above. There are only six leptons (and their antiparticles), and they seem to be fundamental in that they have no apparent underlying structure. Leptons have no discernible size other than their wavelength, so that we know they are pointlike down to about 10−18m size 12{\"10\" rSup { size 8{ - \"18\"} } m} {}. The leptons fall into three families, implying three conservation laws for three quantum numbers. One of these was known from β size 12{β} {} decay, where the existence of the electron’s neutrino implied that a new quantum number, called the electron family number Le size 12{L rSub { size 8{e}"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "e",
+    "id": "eip-112",
+    "context": "μ−→e−+v¯e+vμ, size 12{μ rSup { size 8{ - {}} } rightarrow e rSup { size 8{ - {}} } + { bar {v}} rSub { size 8{e} } +v rSub { size 8{μ} } \",\"} {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v",
+    "sub": "μ",
+    "id": "eip-112",
+    "context": "μ−→e−+v¯e+vμ, size 12{μ rSup { size 8{ - {}} } rightarrow e rSup { size 8{ - {}} } + { bar {v}} rSub { size 8{e} } +v rSub { size 8{μ} } \",\"} {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v",
+    "sub": "μ",
+    "id": "import-auto-id1169737931662",
+    "context": "which implied another “family” and associated conservation principle. The particle vμ size 12{L rSub { size 8{μ} } } {} is a muon’s neutrino, and it is created to conserve muon family numberLμ size 12{L rSub { size 8{μ} } } {}. So muons are leptons with a family of their own, and conservation of total Lμ size 12{L rSub { size 8{μ} } } {} also seems to be obeyed in many experiments."
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "μ",
+    "id": "import-auto-id1169737931662",
+    "context": "which implied another “family” and associated conservation principle. The particle vμ size 12{L rSub { size 8{μ} } } {} is a muon’s neutrino, and it is created to conserve muon family numberLμ size 12{L rSub { size 8{μ} } } {}. So muons are leptons with a family of their own, and conservation of total Lμ size 12{L rSub { size 8{μ} } } {} also seems to be obeyed in many experiments."
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "μ",
+    "id": "import-auto-id1169737787944",
+    "context": "conservation of total Lμ size 12{L rSub { size 8{μ} } } {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "μ",
+    "id": "eip-332",
+    "context": "τ−→μ−+v¯μ+vτ. size 12{τ rSup { size 8{ - {}} } rightarrow μ rSup { size 8{ - {}} } + { bar {v}} rSub { size 8{u} } +v rSub { size 8{τ} } \".\"} {}"
+  },
+  {
+    "module": "m42674",
+    "base": "v",
+    "sub": "τ",
+    "id": "eip-332",
+    "context": "τ−→μ−+v¯μ+vτ. size 12{τ rSup { size 8{ - {}} } rightarrow μ rSup { size 8{ - {}} } + { bar {v}} rSub { size 8{u} } +v rSub { size 8{τ} } \".\"} {}"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "τ",
+    "id": "eip-328",
+    "context": "Conservation of total Lτ size 12{L rSub { size 8{μ} } } {} seems to be another law obeyed in many experiments. In fact, particle experiments have found that lepton family number is not universally conserved, due to neutrino “oscillations”, or transformations of neutrinos from one family type to another."
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "e",
+    "id": "import-auto-id1169737991751",
+    "context": "The forces experienced by particles also govern how particles interact with themselves if they are unstable and decay. For example, the stronger the force, the faster they decay and the shorter is their lifetime. An example of a nuclear decay via the strong force is Be8 →α+α size 12{\"\" lSup { size 8{8} } \"Be\" rightarrow α+α} {} with a lifetime of about 10−16s size 12{\"10\" rSup { size 8{ - \"16\"} } `s} {}. The neutron is a good example of decay via the weak force. The process n→p+e−+v¯e size 12{n rightarrow p+e rSup { size 8{ - {}} } + { bar {v}} rSub { size 8{e} } } {} has a longer lifetime of 882 s. The weak force causes this decay, as it doe"
+  },
+  {
+    "module": "m42674",
+    "base": "v¯",
+    "sub": "e",
+    "id": "import-auto-id1169737991751",
+    "context": "The forces experienced by particles also govern how particles interact with themselves if they are unstable and decay. For example, the stronger the force, the faster they decay and the shorter is their lifetime. An example of a nuclear decay via the strong force is Be8 →α+α size 12{\"\" lSup { size 8{8} } \"Be\" rightarrow α+α} {} with a lifetime of about 10−16s size 12{\"10\" rSup { size 8{ - \"16\"} } `s} {}. The neutron is a good example of decay via the weak force. The process n→p+e−+v¯e size 12{n rightarrow p+e rSup { size 8{ - {}} } + { bar {v}} rSub { size 8{e} } } {} has a longer lifetime of 882 s. The weak force causes this decay, as it doe"
+  },
+  {
+    "module": "m42674",
+    "base": "ν",
+    "sub": "μ",
+    "id": "import-auto-id1169737927191",
+    "context": "(b) Is the decay K+→μ++νμ size 12{K rSup { size 8{+{}} } rightarrow μ rSup { size 8{+{}} } +ν rSub { size 8{μ} } } {} allowed, given the quantum numbers in the table given above?"
+  },
+  {
+    "module": "m42674",
+    "base": "ν",
+    "sub": "μ",
+    "id": "import-auto-id1169738089582",
+    "context": "The decay K+→μ++νμ size 12{K rSup { size 8{+{}} } rightarrow μ rSup { size 8{+{}} } +ν rSub { size 8{μ} } } {} is allowed if charge, baryon number, mass-energy, and lepton numbers are conserved. Strangeness can change due to the weak interaction. Charge is conserved as s→d size 12{s rightarrow d} {}. Baryon number is conserved, since all particles have B=0 size 12{B=0} {}. Mass-energy is conserved in the sense that the K+ size 12{K rSup { size 8{+{}} } } {} has a greater mass than the products, so that the decay can be spontaneous. Lepton family numbers are conserved at 0 for the electron and tau family for all particles. The muon family numb"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "μ",
+    "id": "import-auto-id1169738089582",
+    "context": "The decay K+→μ++νμ size 12{K rSup { size 8{+{}} } rightarrow μ rSup { size 8{+{}} } +ν rSub { size 8{μ} } } {} is allowed if charge, baryon number, mass-energy, and lepton numbers are conserved. Strangeness can change due to the weak interaction. Charge is conserved as s→d size 12{s rightarrow d} {}. Baryon number is conserved, since all particles have B=0 size 12{B=0} {}. Mass-energy is conserved in the sense that the K+ size 12{K rSup { size 8{+{}} } } {} has a greater mass than the products, so that the decay can be spontaneous. Lepton family numbers are conserved at 0 for the electron and tau family for all particles. The muon family numb"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "μ",
+    "id": "import-auto-id1169738089582",
+    "context": "The decay K+→μ++νμ size 12{K rSup { size 8{+{}} } rightarrow μ rSup { size 8{+{}} } +ν rSub { size 8{μ} } } {} is allowed if charge, baryon number, mass-energy, and lepton numbers are conserved. Strangeness can change due to the weak interaction. Charge is conserved as s→d size 12{s rightarrow d} {}. Baryon number is conserved, since all particles have B=0 size 12{B=0} {}. Mass-energy is conserved in the sense that the K+ size 12{K rSup { size 8{+{}} } } {} has a greater mass than the products, so that the decay can be spontaneous. Lepton family numbers are conserved at 0 for the electron and tau family for all particles. The muon family numb"
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "e",
+    "id": "import-auto-id1169737804349",
+    "context": "Leptons do not feel the strong nuclear force and are further divided into three groups—electron family designated by electron family number Le size 12{L rSub { size 8{e} } } {}; muon family designated by muon family number Lμ size 12{L rSub { size 8{μ} } } {}; and tau family designated by tau family number Lτ size 12{L rSub { size 8{τ} } } {}. The family numbers are not universally conserved due to neutrino oscillations."
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "μ",
+    "id": "import-auto-id1169737804349",
+    "context": "Leptons do not feel the strong nuclear force and are further divided into three groups—electron family designated by electron family number Le size 12{L rSub { size 8{e} } } {}; muon family designated by muon family number Lμ size 12{L rSub { size 8{μ} } } {}; and tau family designated by tau family number Lτ size 12{L rSub { size 8{τ} } } {}. The family numbers are not universally conserved due to neutrino oscillations."
+  },
+  {
+    "module": "m42674",
+    "base": "L",
+    "sub": "τ",
+    "id": "import-auto-id1169737804349",
+    "context": "Leptons do not feel the strong nuclear force and are further divided into three groups—electron family designated by electron family number Le size 12{L rSub { size 8{e} } } {}; muon family designated by muon family number Lμ size 12{L rSub { size 8{μ} } } {}; and tau family designated by tau family number Lτ size 12{L rSub { size 8{τ} } } {}. The family numbers are not universally conserved due to neutrino oscillations."
+  },
+  {
+    "module": "m42674",
+    "base": "ν¯",
+    "sub": "μ",
+    "id": "import-auto-id1169737787951",
+    "context": "The primary decay mode for the negative pion is π−→μ−+ν¯μ size 12{π rSup { size 8{ - {}} } rightarrow μ rSup { size 8{ - {}} } + { bar {ν}} rSub { size 8{μ} } } {}. What is the energy release in MeV in this decay?"
+  },
+  {
+    "module": "m42674",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "import-auto-id1169737812587",
+    "context": "The decay mode of the negative muon is μ−→e−+ν¯e+νμ size 12{μ rSup { size 8{ - {}} } rightarrow e rSup { size 8{ - {}} } + { bar {ν}} rSub { size 8{e} } +ν rSub { size 8{μ} } } {}."
+  },
+  {
+    "module": "m42674",
+    "base": "ν",
+    "sub": "μ",
+    "id": "import-auto-id1169737812587",
+    "context": "The decay mode of the negative muon is μ−→e−+ν¯e+νμ size 12{μ rSup { size 8{ - {}} } rightarrow e rSup { size 8{ - {}} } + { bar {ν}} rSub { size 8{e} } +ν rSub { size 8{μ} } } {}."
+  },
+  {
+    "module": "m42674",
+    "base": "ν",
+    "sub": "μ",
+    "id": "import-auto-id1169737826290",
+    "context": "The decay mode of the positive tau is τ+→μ++νμ+ν¯τ size 12{τ rSup { size 8{+{}} } rightarrow μ rSup { size 8{+{}} } +ν rSub { size 8{μ} } + { bar {ν}} rSub { size 8{τ} } } {}."
+  },
+  {
+    "module": "m42674",
+    "base": "ν¯",
+    "sub": "τ",
+    "id": "import-auto-id1169737826290",
+    "context": "The decay mode of the positive tau is τ+→μ++νμ+ν¯τ size 12{τ rSup { size 8{+{}} } rightarrow μ rSup { size 8{+{}} } +ν rSub { size 8{μ} } + { bar {ν}} rSub { size 8{τ} } } {}."
+  },
+  {
+    "module": "m42680",
+    "base": "ν¯",
+    "sub": "μ",
+    "id": "import-auto-id1169738186623",
+    "context": "The primary decay mode for the negative pion is π−→μ−+ν¯μ size 12{π rSup { size 8{ - {}} } rightarrow μ rSup { size 8{ - {}} } + { bar {ν}} rSub { size 8{μ} } } {}. (a) What is the energy release in MeV in this decay? (b) Using conservation of momentum, how much energy does each of the decay products receive, given the π− size 12{π rSup { size 8{ - {}} } } {} is at rest when it decays? You may assume the muon antineutrino is massless and has momentum p=E/c size 12{p=E/c} {}, just like a photon."
+  },
+  {
+    "module": "m42709",
+    "base": "λ",
+    "sub": "n",
+    "id": "",
+    "context": "λ n size 12{λ rSub { size 8{n} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "v",
+    "sub": "e",
+    "id": "",
+    "context": "v e size 12{v rSub { size 8{e} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "Eff",
+    "sub": "C",
+    "id": "",
+    "context": "Eff C size 12{ ital \"Eff\" rSub { size 8{C} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "KE",
+    "sub": "e",
+    "id": "",
+    "context": "KE e size 12{\"KE\" rSub { size 8{e} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "L",
+    "sub": "e",
+    "id": "",
+    "context": "L e size 12{L rSub { size 8{e} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "L",
+    "sub": "μ",
+    "id": "",
+    "context": "L μ size 12{L rSub { size 8{μ} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "L",
+    "sub": "τ",
+    "id": "",
+    "context": "L τ size 12{L rSub { size 8{τ} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "m",
+    "sub": "e",
+    "id": "",
+    "context": "m e size 12{m rSub { size 8{e} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "m",
+    "sub": "n",
+    "id": "",
+    "context": "m n size 12{m rSub { size 8{n} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "m",
+    "sub": "p",
+    "id": "",
+    "context": "m p size 12{m rSub { size 8{p} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "p",
+    "sub": "tot",
+    "id": "",
+    "context": "p tot ' size 12{ { {p}} sup { ' } rSub { size 8{`\"tot\"} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "q",
+    "sub": "p",
+    "id": "",
+    "context": "q p size 12{q rSub { size 8{p} } } {}"
+  },
+  {
+    "module": "m42709",
+    "base": "w",
+    "sub": "R",
+    "id": "",
+    "context": "wR"
+  },
+  {
+    "module": "m42709",
+    "base": "r",
+    "sub": "n",
+    "id": "",
+    "context": "r n size 12{r rSub { size 8{n} } } {}"
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "eip-717",
+    "context": "|qe|=1.60×10−19C."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1601306",
+    "context": "Similarly, 6.25×1018 size 12{6 \".\" \"25\" times \"10\" rSup { size 8{\"18\"} } } {} electrons have a combined charge of −1.00 coulomb. Just as there is a smallest bit of an element (an atom), there is a smallest bit of charge. There is no directly observed charge smaller than |qe|, and all observed charges are integral multiples of |qe|."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1601306",
+    "context": "Similarly, 6.25×1018 size 12{6 \".\" \"25\" times \"10\" rSup { size 8{\"18\"} } } {} electrons have a combined charge of −1.00 coulomb. Just as there is a smallest bit of an element (an atom), there is a smallest bit of charge. There is no directly observed charge smaller than |qe|, and all observed charges are integral multiples of |qe|."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "",
+    "context": "Artist’s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: −13qe+23qe+23qe=+1qe."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "",
+    "context": "Artist’s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: −13qe+23qe+23qe=+1qe."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "",
+    "context": "Artist’s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: −13qe+23qe+23qe=+1qe."
+  },
+  {
+    "module": "m52381",
+    "base": "+1q",
+    "sub": "e",
+    "id": "",
+    "context": "Artist’s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: −13qe+23qe+23qe=+1qe."
+  },
+  {
+    "module": "m52381",
+    "base": "m",
+    "sub": "e",
+    "id": "",
+    "context": "(a) When enough energy is present, it can be converted into matter. Here the matter created is an electron–antielectron pair. (me size 12{m rSub { size 8{e} } } {} is the electron’s mass.) The total charge before and after this event is zero. (b) When matter and antimatter collide, they annihilate each other; the total charge is conserved at zero before and after the annihilation."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "",
+    "context": "The SI unit for charge is the coulomb (C), with protons and electrons having charges of opposite sign but equal magnitude; the magnitude of this basic charge |qe| is |qe|=1.60×10−19C."
+  },
+  {
+    "module": "m52381",
+    "base": "q",
+    "sub": "e",
+    "id": "eip-633",
+    "context": "|qe|=1.60×10−19C."
+  },
+  {
+    "module": "m52384",
+    "base": "F",
+    "sub": "G",
+    "id": "eip-272",
+    "context": "F G = G mM r 2 , size 12{F rSub { size 8{G} } =\" G \" { {\"mM\"} over {r rSup { size 8{2} } } } } {}"
+  },
+  {
+    "module": "m52384",
+    "base": "F",
+    "sub": "G",
+    "id": "eip-142",
+    "context": "FG=(6.67×10−11N⋅m2kg2)×(9.11×10−31kg)(1.67×10−27kg)(0.530×10−10m)2=3.61×10−47N"
+  },
+  {
+    "module": "m52384",
+    "base": "F",
+    "sub": "G",
+    "id": "eip-601",
+    "context": "F F G = 2 . 27 × 10 39 . size 12{ { {F} over {F rSub { size 8{G} } } } =\" 2\" \".\" \"27 \" times \" 10\" rSup { size 8{\"39\"} } } {}"
+  },
+  {
+    "module": "m52416",
+    "base": "v",
+    "sub": "d",
+    "id": "eip-id1164088052778",
+    "context": "The maximum force on a current-carrying conductor occurs when the current direction and the magnetic field’s direction are perpendicular to one another (i.e. ninety degree angle between directions). We can derive an expression for the maximum magnetic force on a current by taking a sum of the magnetic forces on individual charges. (The forces add because they are in the same direction.) The force on an individual charge moving at the drift velocity vd is given by F=qvdB. Taking B to be uniform over a length of wire l and zero elsewhere, the total magnetic force on the wire is then F=(qvdB)(N), where N is the number of charge carriers in the s"
+  },
+  {
+    "module": "m52416",
+    "base": "v",
+    "sub": "d",
+    "id": "eip-id1164088052778",
+    "context": "The maximum force on a current-carrying conductor occurs when the current direction and the magnetic field’s direction are perpendicular to one another (i.e. ninety degree angle between directions). We can derive an expression for the maximum magnetic force on a current by taking a sum of the magnetic forces on individual charges. (The forces add because they are in the same direction.) The force on an individual charge moving at the drift velocity vd is given by F=qvdB. Taking B to be uniform over a length of wire l and zero elsewhere, the total magnetic force on the wire is then F=(qvdB)(N), where N is the number of charge carriers in the s"
+  },
+  {
+    "module": "m52416",
+    "base": "v",
+    "sub": "d",
+    "id": "eip-id1164088052778",
+    "context": "The maximum force on a current-carrying conductor occurs when the current direction and the magnetic field’s direction are perpendicular to one another (i.e. ninety degree angle between directions). We can derive an expression for the maximum magnetic force on a current by taking a sum of the magnetic forces on individual charges. (The forces add because they are in the same direction.) The force on an individual charge moving at the drift velocity vd is given by F=qvdB. Taking B to be uniform over a length of wire l and zero elsewhere, the total magnetic force on the wire is then F=(qvdB)(N), where N is the number of charge carriers in the s"
+  },
+  {
+    "module": "m52416",
+    "base": "v",
+    "sub": "d",
+    "id": "eip-987",
+    "context": "F=(nqAvd)(lB)."
+  },
+  {
+    "module": "m52427",
+    "base": "V",
+    "sub": "p",
+    "id": "eip-490",
+    "context": "Vp=−NpΔΦΔt. size 12{V rSub { size 8{p} } = - N rSub { size 8{p} } { {ΔΦ} over {Δt} } } {}"
+  },
+  {
+    "module": "m52466",
+    "base": "m",
+    "sub": "p",
+    "id": "import-auto-id3004537",
+    "context": "We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0 size 12{q=0} {}) that has nearly the same mass and intrinsic spin as the proton. compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me"
+  },
+  {
+    "module": "m52466",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id3004537",
+    "context": "We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0 size 12{q=0} {}) that has nearly the same mass and intrinsic spin as the proton. compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me"
+  },
+  {
+    "module": "m52466",
+    "base": "m",
+    "sub": "n",
+    "id": "import-auto-id3004537",
+    "context": "We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0 size 12{q=0} {}) that has nearly the same mass and intrinsic spin as the proton. compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me"
+  },
+  {
+    "module": "m52466",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id3004537",
+    "context": "We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0 size 12{q=0} {}) that has nearly the same mass and intrinsic spin as the proton. compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me"
+  },
+  {
+    "module": "m52466",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id3119181",
+    "context": "The unified atomic mass unit is defined to be 1 u=1.6605×10−27kg size 12{1\" u\"=1 \".\" \"6605\"×\"10\" rSup { size 8{-\"27\"} } \"kg\"} {}. Verify that this amount of mass converted to energy yields 931.5 MeV. Note that you must use four-digit or better values for c size 12{c} {} and |qe| size 12{ lline q rSub { size 8{e} } rline } {}."
+  },
+  {
+    "module": "m52471",
+    "base": "m",
+    "sub": "n",
+    "id": "import-auto-id2929106",
+    "context": "To obtain the most precise value of BE from the equation BE=ZMH1+Nmnc2−mXAc2, we should take into account the binding energy of the electrons in the neutral atoms. Will doing this produce a larger or smaller value for BE? Why is this effect usually negligible?"
+  },
+  {
+    "module": "m52479",
+    "base": "v",
+    "sub": "e",
+    "id": "eip-890",
+    "context": "U239→Np239+β−+ve (t1/2=23min)."
+  },
+  {
+    "module": "m52479",
+    "base": "v",
+    "sub": "e",
+    "id": "eip-412",
+    "context": "Np239→Pu239+β−+ve (t1/2=2.4d)."
+  },
+  {
+    "module": "m52480",
+    "base": "v",
+    "sub": "e",
+    "id": "import-auto-id1429049",
+    "context": "C 12 + 1 H → N 13 + γ , N 13 → C 13 + e + + v e , C 13 + 1 H → N 14 + γ , N 14 + 1 H → O 15 + γ , O 15 → N 15 + e + + v e , N 15 + 1 H → C 12 + 4 He."
+  },
+  {
+    "module": "m52480",
+    "base": "v",
+    "sub": "e",
+    "id": "import-auto-id1429049",
+    "context": "C 12 + 1 H → N 13 + γ , N 13 → C 13 + e + + v e , C 13 + 1 H → N 14 + γ , N 14 + 1 H → O 15 + γ , O 15 → N 15 + e + + v e , N 15 + 1 H → C 12 + 4 He."
+  },
+  {
+    "module": "m52480",
+    "base": "2v",
+    "sub": "e",
+    "id": "import-auto-id3245473",
+    "context": "Write down the overall effect of the carbon cycle (as was done for the proton-proton cycle in 2e−+4 H1→ He4+ 2ve +6γ size 12{2e rSup { size 8{ - {}} } +4\"\" lSup { size 8{1} } H rightarrow \"\" lSup { size 8{4} } \"He\"+2v rSub { size 8{e} } +6γ} {}). Note the number of protons ( H1) required and assume that the positrons ( e+ size 12{e rSup { size 8{+{}} } } {}) annihilate electrons to form more γ size 12{γ} {} rays."
+  },
+  {
+    "module": "m67035",
+    "base": "a",
+    "sub": "c",
+    "id": "",
+    "context": "The directions of the velocity of an object at two different points are shown, and the change in velocity Δv size 12{Δv} {} is seen to point directly toward the center of curvature. (See small inset.) Because ac=Δv/Δt {a rSub { {c} } =Δv/Δt} {}, the acceleration is also toward the center; ac size 12{a rSub { size 8{c} } } {} is called centripetal acceleration. (For small time differences, Δθ size 12{Δθ} {} is very small, and the arc length Δs size 12{Δs} {} is approximately equal to the chord length Δr size 12{Δr} {}.)"
+  },
+  {
+    "module": "m67036",
+    "base": "a",
+    "sub": "c",
+    "id": "import-auto-id3025916",
+    "context": "Any net force causing uniform circular motion is called a centripetal force. The direction of a centripetal force is toward the center of curvature, the same as the direction of centripetal acceleration. According to Newton’s second law of motion, net force is mass times acceleration: Fnetma. For uniform circular motion, the acceleration is the centripetal acceleration— a=ac size 12{a=a rSub { size 8{c} } } {}. Thus, the magnitude of centripetal force Fc is"
+  },
+  {
+    "module": "m67036",
+    "base": "a",
+    "sub": "c",
+    "id": "import-auto-id3397174",
+    "context": "By using the expressions for centripetal acceleration ac size 12{a rSub { size 8{c} } } {} from ac=v2r size 12{a rSub { size 8{c} } = { {v rSup { size 8{2} } } over {r} } }, we get an expression for the centripetal force Fc size 12{F rSub { size 8{c} } } {} in terms of mass, velocity, and radius of curvature:"
+  },
+  {
+    "module": "m67036",
+    "base": "a",
+    "sub": "c",
+    "id": "import-auto-id3397174",
+    "context": "By using the expressions for centripetal acceleration ac size 12{a rSub { size 8{c} } } {} from ac=v2r size 12{a rSub { size 8{c} } = { {v rSup { size 8{2} } } over {r} } }, we get an expression for the centripetal force Fc size 12{F rSub { size 8{c} } } {} in terms of mass, velocity, and radius of curvature:"
+  },
+  {
+    "module": "m67036",
+    "base": "F",
+    "sub": "c",
+    "id": "eip-562",
+    "context": "F c = m v 2 r . size 12{F rSub { size 8{c} } =m { {v rSup { size 8{2} } } over {r} } }"
+  },
+  {
+    "module": "m67036",
+    "base": "F",
+    "sub": "c",
+    "id": "eip-58",
+    "context": "r=mv2Fc."
+  },
+  {
+    "module": "m67036",
+    "base": "F",
+    "sub": "c",
+    "id": "",
+    "context": "The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the Fc, the smaller the radius of curvature r and the sharper the curve. The second curve has the same v, but a larger Fc produces a smaller r′."
+  },
+  {
+    "module": "m67036",
+    "base": "F",
+    "sub": "c",
+    "id": "",
+    "context": "The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the Fc, the smaller the radius of curvature r and the sharper the curve. The second curve has the same v, but a larger Fc produces a smaller r′."
+  },
+  {
+    "module": "m67036",
+    "base": "F",
+    "sub": "c",
+    "id": "eip-735",
+    "context": "F c = m v 2 r , size 12{F rSub { size 8{c} } =m { {v rSup { size 8{2} } } over {r} } }"
+  },
+  {
+    "module": "m67036",
+    "base": "F",
+    "sub": "c",
+    "id": "eip-967",
+    "context": "F c = m v 2 r . size 12{F rSub { size 8{c} } =m { {v rSup { size 8{2} } } over {r} } }"
+  },
+  {
+    "module": "m67037",
+    "base": "W",
+    "sub": "c",
+    "id": "eip-639",
+    "context": "ΔPE−Wc,"
+  },
+  {
+    "module": "m67037",
+    "base": "W",
+    "sub": "c",
+    "id": "eip-678",
+    "context": "where Wc is work done by a conservative force."
+  },
+  {
+    "module": "m67037",
+    "base": "W",
+    "sub": "c",
+    "id": "import-auto-id1849020",
+    "context": "Consider an object in a system. If it gains any kinetic energy, this is a result of a net work done on the object, according to the work-kinetic energy theorem. If only conservative forces, such as the gravitational force or a spring force, do work in this system, then as kinetic energy increases with the net work done by the conservative forces, the system loses potential energy. That is, ΔKE=Wc=−ΔPE. In other words,"
+  },
+  {
+    "module": "m67038",
+    "base": "a",
+    "sub": "y",
+    "id": "import-auto-id1696126",
+    "context": "The most important fact to know here is that motions along perpendicular axes are independent and thus can be considered separately. In particular, it is often convenient to consider vertical and horizontal motions separately, or independently. The key to analyzing two-dimensional projectile motion is to break it into two motions, one along the horizontal axis and the other along the vertical. And we will assume all forces except gravity are negligible (that is, we ignore forces due to air resistance, wind, friction, etc.). The vertical component of acceleration is, then, ay=−g=−9.80m/s2 size 12{a rSub { size 8{y} } =\"-g\"=\"-9.80\" \"m/s\" rSup {"
+  },
+  {
+    "module": "m67038",
+    "base": "a",
+    "sub": "x",
+    "id": "import-auto-id1696126",
+    "context": "The most important fact to know here is that motions along perpendicular axes are independent and thus can be considered separately. In particular, it is often convenient to consider vertical and horizontal motions separately, or independently. The key to analyzing two-dimensional projectile motion is to break it into two motions, one along the horizontal axis and the other along the vertical. And we will assume all forces except gravity are negligible (that is, we ignore forces due to air resistance, wind, friction, etc.). The vertical component of acceleration is, then, ay=−g=−9.80m/s2 size 12{a rSub { size 8{y} } =\"-g\"=\"-9.80\" \"m/s\" rSup {"
+  },
+  {
+    "module": "m67038",
+    "base": "a",
+    "sub": "x",
+    "id": "",
+    "context": "(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes. (b) The horizontal motion is simple, because ax=0 size 12{a rSub { size 8{x} } =0} {} and vx size 12{v rSub { size 8{x} } } {} is thus constant. (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude. This is exactly same as in the case of falling objects (or objects thrown directly upward). (d) The x - and y -motions can "
+  },
+  {
+    "module": "m67038",
+    "base": "v",
+    "sub": "x",
+    "id": "",
+    "context": "(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes. (b) The horizontal motion is simple, because ax=0 size 12{a rSub { size 8{x} } =0} {} and vx size 12{v rSub { size 8{x} } } {} is thus constant. (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude. This is exactly same as in the case of falling objects (or objects thrown directly upward). (d) The x - and y -motions can "
+  },
+  {
+    "module": "m67039",
+    "base": "F",
+    "sub": "x–net",
+    "id": "",
+    "context": "The horizontal component of a projectile’s momentum is conserved if air resistance is negligible, even in this case where a space probe separates. The forces causing the separation are internal to the system, so that the net external horizontal force Fx–net is still zero. The vertical component of the momentum is not conserved, because the net vertical force Fy–net is not zero. In the vertical direction, the space probe-Earth system needs to be considered and we find that the total momentum is conserved. The center of mass of the space probe takes the same path it would if the separation did not occur."
+  },
+  {
+    "module": "m67039",
+    "base": "F",
+    "sub": "y–net",
+    "id": "",
+    "context": "The horizontal component of a projectile’s momentum is conserved if air resistance is negligible, even in this case where a space probe separates. The forces causing the separation are internal to the system, so that the net external horizontal force Fx–net is still zero. The vertical component of the momentum is not conserved, because the net vertical force Fy–net is not zero. In the vertical direction, the space probe-Earth system needs to be considered and we find that the total momentum is conserved. The center of mass of the space probe takes the same path it would if the separation did not occur."
+  },
+  {
+    "module": "m67046",
+    "base": "I",
+    "sub": "rod",
+    "id": "import-auto-id2598986",
+    "context": "The moment of inertia of one blade will be that of a thin rod rotated about its end, Irod13Mℓ2. The total I size 12{I} {} is four times this moment of inertia, because there are four blades. Thus,"
+  },
+  {
+    "module": "m67046",
+    "base": "I",
+    "sub": "disk",
+    "id": "import-auto-id3385654",
+    "context": "Before we can solve for v size 12{v} {} , we must look up an expression for I size 12{I} {} for a solid disk: Idisk12MR2. Because v size 12{v} {} and ω size 12{ω} {} are related (note here that the cylinder is rolling without slipping), we must also substitute the relationship ω=v/R size 12{ω=v/R} {} into the expression. These substitutions yield"
+  },
+  {
+    "module": "m67134",
+    "base": "d",
+    "sub": "o",
+    "id": "",
+    "context": "f positive, dof"
+  },
+  {
+    "module": "m67134",
+    "base": "d",
+    "sub": "o",
+    "id": "",
+    "context": "f positive, dof"
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "photoelectric-effect-list-4",
+    "context": "The kinetic energy (KEe) of an ejected electron equals the photon energy minus the binding energy (BE) of the electron in the specific material, which is called the work function. Taking all of the photon energy (hf) to the electron, some of it is used to break the electron away from the material. The remainder goes into the ejected electron’s kinetic energy. In equation form, this is expressed as: KEe=hf−BE. size 12{\"KE\"= ital \"hf\" - \"BE\"} {} This equation, which Einstein proposed in 1905, explains the properties of the photoelectric effect quantitatively. The binding energy can be determined in an experiment that determines the threshold fr"
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "eip-592",
+    "context": "KEe=hf−BE. size 12{\"KE\"= ital \"hf\" - \"BE\"} {}"
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "photoelectric-effect-list-4",
+    "context": "The kinetic energy (KEe) of an ejected electron equals the photon energy minus the binding energy (BE) of the electron in the specific material, which is called the work function. Taking all of the photon energy (hf) to the electron, some of it is used to break the electron away from the material. The remainder goes into the ejected electron’s kinetic energy. In equation form, this is expressed as: KEe=hf−BE. size 12{\"KE\"= ital \"hf\" - \"BE\"} {} This equation, which Einstein proposed in 1905, explains the properties of the photoelectric effect quantitatively. The binding energy can be determined in an experiment that determines the threshold fr"
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "",
+    "context": "Photoelectric effect. A graph of the kinetic energy of an ejected electron, KEe size 12{\"KE\" rSub { size 8{e} } } {}, versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, KEe size 12{\"KE\" rSub { size 8{e} } } {} increases linearly with f size 12{f} {}, consistent with KEe=hf−BE size 12{\"KE\"= ital \"hf\" - \"BE\"} {}. The slope of this line is h size 12{h} {}—the data can be used to determine Planck’s constant experimentally."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "",
+    "context": "Photoelectric effect. A graph of the kinetic energy of an ejected electron, KEe size 12{\"KE\" rSub { size 8{e} } } {}, versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, KEe size 12{\"KE\" rSub { size 8{e} } } {} increases linearly with f size 12{f} {}, consistent with KEe=hf−BE size 12{\"KE\"= ital \"hf\" - \"BE\"} {}. The slope of this line is h size 12{h} {}—the data can be used to determine Planck’s constant experimentally."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "",
+    "context": "Photoelectric effect. A graph of the kinetic energy of an ejected electron, KEe size 12{\"KE\" rSub { size 8{e} } } {}, versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, KEe size 12{\"KE\" rSub { size 8{e} } } {} increases linearly with f size 12{f} {}, consistent with KEe=hf−BE size 12{\"KE\"= ital \"hf\" - \"BE\"} {}. The slope of this line is h size 12{h} {}—the data can be used to determine Planck’s constant experimentally."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "eip-id2106573",
+    "context": "To solve part (a), note that the energy of a photon is given by E=hf size 12{E = ital \"hf\"} {}. For part (b), once the energy of the photon is calculated, it is a straightforward application of KEe=hf−BE to find the ejected electron’s maximum kinetic energy, since BE is given."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "eip-197",
+    "context": "Finding the kinetic energy of the ejected electron is now a simple application of the equation KEe=hf−BE. Substituting the photon energy and binding energy yields"
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "eip-428",
+    "context": "KEe=hf−BE=2.96eV−2.71eV=0.25eV."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "import-auto-id1607583",
+    "context": "The maximum kinetic energy KEe size 12{\"KE\" rSub { size 8{e} } } {} of ejected electrons (photoelectrons) is given by KE e=hf − BE size 12{\"KE \"= ital \"hf\"\" – BE\"} {}, where hf size 12{ ital \"hf\"} {} is the photon energy and BE is the binding energy (or work function) of the electron to the particular material."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "import-auto-id1607583",
+    "context": "The maximum kinetic energy KEe size 12{\"KE\" rSub { size 8{e} } } {} of ejected electrons (photoelectrons) is given by KE e=hf − BE size 12{\"KE \"= ital \"hf\"\" – BE\"} {}, where hf size 12{ ital \"hf\"} {} is the photon energy and BE is the binding energy (or work function) of the electron to the particular material."
+  },
+  {
+    "module": "m67251",
+    "base": "KE",
+    "sub": "e",
+    "id": "fs-id1285752",
+    "context": "Red light having a wavelength of 700 nm is projected onto magnesium metal to which electrons are bound by 3.68 eV. (a) Use KE e=hf−BE size 12{\"KE \"= ital \"hf\"\" – BE\"} {} to calculate the kinetic energy of the ejected electrons. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?"
+  },
+  {
+    "module": "m67804",
+    "base": "KE",
+    "sub": "e",
+    "id": "eip-669",
+    "context": "KE e = 1 2 mv2 = 1 2 ( 9.11 × 10 −31 kg ) ( 5.79 × 10 6 m/s ) 2 = (1.53 × 10 −17 J) ( 1eV 1.60 × 10 −19 J ) =95.5eV."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1117876",
+    "context": "The English physicist J. J. Thomson (1856–1940) improved and expanded the scope of experiments with gas discharge tubes. (See and .) He verified the negative charge of the cathode rays with both magnetic and electric fields. Additionally, he collected the rays in a metal cup and found an excess of negative charge. Thomson was also able to measure the ratio of the charge of the electron to its mass, qe size 12{q rSub { size 8{e} } } {}{}/me size 12{m rSub { size 8{e} } } {}—an important step to finding the actual values of both qe and me. shows a cathode-ray tube, which produces a narrow beam of electrons that passes through charging plates co"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id1117876",
+    "context": "The English physicist J. J. Thomson (1856–1940) improved and expanded the scope of experiments with gas discharge tubes. (See and .) He verified the negative charge of the cathode rays with both magnetic and electric fields. Additionally, he collected the rays in a metal cup and found an excess of negative charge. Thomson was also able to measure the ratio of the charge of the electron to its mass, qe size 12{q rSub { size 8{e} } } {}{}/me size 12{m rSub { size 8{e} } } {}—an important step to finding the actual values of both qe and me. shows a cathode-ray tube, which produces a narrow beam of electrons that passes through charging plates co"
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1117876",
+    "context": "The English physicist J. J. Thomson (1856–1940) improved and expanded the scope of experiments with gas discharge tubes. (See and .) He verified the negative charge of the cathode rays with both magnetic and electric fields. Additionally, he collected the rays in a metal cup and found an excess of negative charge. Thomson was also able to measure the ratio of the charge of the electron to its mass, qe size 12{q rSub { size 8{e} } } {}{}/me size 12{m rSub { size 8{e} } } {}—an important step to finding the actual values of both qe and me. shows a cathode-ray tube, which produces a narrow beam of electrons that passes through charging plates co"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id1117876",
+    "context": "The English physicist J. J. Thomson (1856–1940) improved and expanded the scope of experiments with gas discharge tubes. (See and .) He verified the negative charge of the cathode rays with both magnetic and electric fields. Additionally, he collected the rays in a metal cup and found an excess of negative charge. Thomson was also able to measure the ratio of the charge of the electron to its mass, qe size 12{q rSub { size 8{e} } } {}{}/me size 12{m rSub { size 8{e} } } {}—an important step to finding the actual values of both qe and me. shows a cathode-ray tube, which produces a narrow beam of electrons that passes through charging plates co"
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1962891",
+    "context": "This deflection with the additional application of electric field can be used to measure and calculate the charge-to-mass ratio, qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {}, by considering the electric force and the kinematics of the charged particle moving while being accelerated at a constant rate by an electric force. Another way to measure the charge-to-mass ratio is by applying a magnetic field and analyzing the circular motion that results from the centripetal magnetic force."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id1962891",
+    "context": "This deflection with the additional application of electric field can be used to measure and calculate the charge-to-mass ratio, qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {}, by considering the electric force and the kinematics of the charged particle moving while being accelerated at a constant rate by an electric force. Another way to measure the charge-to-mass ratio is by applying a magnetic field and analyzing the circular motion that results from the centripetal magnetic force."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1348921",
+    "context": "What is so important about qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {}, the ratio of the electron’s charge to its mass? The value obtained is"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id1348921",
+    "context": "What is so important about qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {}, the ratio of the electron’s charge to its mass? The value obtained is"
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "eip-584",
+    "context": "qeme=−1.76×1011C/kg size 12{ { {q rSub { size 8{e} } } over {m rSub { size 8{e} } } } = - 1 \".\" \"76\" times \"10\" rSup { size 8{\"11\"} } \" C/kg\"} {} (electron)."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-584",
+    "context": "qeme=−1.76×1011C/kg size 12{ { {q rSub { size 8{e} } } over {m rSub { size 8{e} } } } = - 1 \".\" \"76\" times \"10\" rSup { size 8{\"11\"} } \" C/kg\"} {} (electron)."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "p",
+    "id": "eip-62",
+    "context": "qpmp=9.58×107 C/kg (proton),"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "eip-62",
+    "context": "qpmp=9.58×107 C/kg (proton),"
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "p",
+    "id": "import-auto-id2384482",
+    "context": "where qp size 12{q rSub { size 8{p} } } {} is the charge of the proton and mp size 12{m rSub { size 8{p} } } {} is its mass. This ratio (to four significant figures) is 1836 times less charge per kilogram than for the electron. Since the charges of electrons and protons are equal in magnitude, this implies mp=1836me size 12{m rSub { size 8{p} } =\"1836\"m rSub { size 8{e} } } {} ."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "import-auto-id2384482",
+    "context": "where qp size 12{q rSub { size 8{p} } } {} is the charge of the proton and mp size 12{m rSub { size 8{p} } } {} is its mass. This ratio (to four significant figures) is 1836 times less charge per kilogram than for the electron. Since the charges of electrons and protons are equal in magnitude, this implies mp=1836me size 12{m rSub { size 8{p} } =\"1836\"m rSub { size 8{e} } } {} ."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "import-auto-id2384482",
+    "context": "where qp size 12{q rSub { size 8{p} } } {} is the charge of the proton and mp size 12{m rSub { size 8{p} } } {} is its mass. This ratio (to four significant figures) is 1836 times less charge per kilogram than for the electron. Since the charges of electrons and protons are equal in magnitude, this implies mp=1836me size 12{m rSub { size 8{p} } =\"1836\"m rSub { size 8{e} } } {} ."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id2384482",
+    "context": "where qp size 12{q rSub { size 8{p} } } {} is the charge of the proton and mp size 12{m rSub { size 8{p} } } {} is its mass. This ratio (to four significant figures) is 1836 times less charge per kilogram than for the electron. Since the charges of electrons and protons are equal in magnitude, this implies mp=1836me size 12{m rSub { size 8{p} } =\"1836\"m rSub { size 8{e} } } {} ."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-618",
+    "context": "me=9.11×10−31kg (electron’s mass),"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "eip-19",
+    "context": "mp=1.67×10−27kg (proton’s mass)."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "eip-683",
+    "context": "q e m e = − 1.76 × 10 11 C/kg. size 12{ { {q rSub { size 8{e} } } over {m rSub { size 8{e} } } } = - 1 \".\" \"76\" times \"10\" rSup { size 8{\"11\"} } \" C/kg\" \".\" } {}"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-683",
+    "context": "q e m e = − 1.76 × 10 11 C/kg. size 12{ { {q rSub { size 8{e} } } over {m rSub { size 8{e} } } } = - 1 \".\" \"76\" times \"10\" rSup { size 8{\"11\"} } \" C/kg\" \".\" } {}"
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "p",
+    "id": "eip-115",
+    "context": "q p m p = 9 . 58 × 10 7 C/kg ."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "eip-115",
+    "context": "q p m p = 9 . 58 × 10 7 C/kg ."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-612",
+    "context": "m e = 9 . 11 × 10 − 31 kg . size 12{m rSub { size 8{e} } =9 \".\" \"11\" times \"10\" rSup { size 8{ - \"31\"} } \" kg\" \".\" } {}"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "eip-602",
+    "context": "m p = 1 . 67 × 10 − 27 kg. size 12{m rSub { size 8{p} } =1 \".\" \"67\" times \"10\" rSup { size 8{ - \"27\"} } \" kg\"} {}"
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id2671466",
+    "context": "What two pieces of evidence allowed the first calculation of me size 12{m\"\" lSub { size 8{e} } } {}, the mass of the electron?"
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1579291",
+    "context": "(a) The ratios qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qp/mp size 12{q rSub { size 8{p} } /m rSub { size 8{p} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id1579291",
+    "context": "(a) The ratios qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qp/mp size 12{q rSub { size 8{p} } /m rSub { size 8{p} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "p",
+    "id": "import-auto-id1579291",
+    "context": "(a) The ratios qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qp/mp size 12{q rSub { size 8{p} } /m rSub { size 8{p} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "p",
+    "id": "import-auto-id1579291",
+    "context": "(a) The ratios qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qp/mp size 12{q rSub { size 8{p} } /m rSub { size 8{p} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id1561600",
+    "context": "(b) The values of qe size 12{q rSub { size 8{e} } } {} and EB size 12{E rSub { size 8{B} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "E",
+    "sub": "B",
+    "id": "import-auto-id1561600",
+    "context": "(b) The values of qe size 12{q rSub { size 8{e} } } {} and EB size 12{E rSub { size 8{B} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id2456089",
+    "context": "(c) The ratio qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qe size 12{q rSub { size 8{e} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id2456089",
+    "context": "(c) The ratio qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qe size 12{q rSub { size 8{e} } } {}."
+  },
+  {
+    "module": "m67805",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id2456089",
+    "context": "(c) The ratio qe/me size 12{q rSub { size 8{e} } /m rSub { size 8{e} } } {} and qe size 12{q rSub { size 8{e} } } {}."
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "i",
+    "id": "import-auto-id3036602",
+    "context": "For the hydrogen atom, the lightest element with the simplest atom, a pattern for its line spectrum was noticed by experimentalists (see ). All wavelengths of the line spectrum could be described by a following formula, for the suitable choice of two integers ni and nf:"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "f",
+    "id": "import-auto-id3036602",
+    "context": "For the hydrogen atom, the lightest element with the simplest atom, a pattern for its line spectrum was noticed by experimentalists (see ). All wavelengths of the line spectrum could be described by a following formula, for the suitable choice of two integers ni and nf:"
+  },
+  {
+    "module": "m67807",
+    "base": "r",
+    "sub": "n",
+    "id": "eip-580",
+    "context": "where n could take on any positive integer value (n1, 2, 3, ...), and ℏ is known as the reduced Planck constant (ℏh/2π). And angular momentum, L, as you might remember from earlier chapter, is given by the following for a particle in a uniform circular orbit: Lmvr, where m is the mass of the particle, v is the speed of the particle in orbit, and r is the radius of circular orbit. Using this as the starting point, semiclassical analysis of orbital motion yields a whole array of quantized (i.e. allowed) values of orbital distance (rn), orbital speed (vn), and orbital energy (En), among others (see: for a summary)."
+  },
+  {
+    "module": "m67807",
+    "base": "v",
+    "sub": "n",
+    "id": "eip-580",
+    "context": "where n could take on any positive integer value (n1, 2, 3, ...), and ℏ is known as the reduced Planck constant (ℏh/2π). And angular momentum, L, as you might remember from earlier chapter, is given by the following for a particle in a uniform circular orbit: Lmvr, where m is the mass of the particle, v is the speed of the particle in orbit, and r is the radius of circular orbit. Using this as the starting point, semiclassical analysis of orbital motion yields a whole array of quantized (i.e. allowed) values of orbital distance (rn), orbital speed (vn), and orbital energy (En), among others (see: for a summary)."
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "n",
+    "id": "eip-580",
+    "context": "where n could take on any positive integer value (n1, 2, 3, ...), and ℏ is known as the reduced Planck constant (ℏh/2π). And angular momentum, L, as you might remember from earlier chapter, is given by the following for a particle in a uniform circular orbit: Lmvr, where m is the mass of the particle, v is the speed of the particle in orbit, and r is the radius of circular orbit. Using this as the starting point, semiclassical analysis of orbital motion yields a whole array of quantized (i.e. allowed) values of orbital distance (rn), orbital speed (vn), and orbital energy (En), among others (see: for a summary)."
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "i",
+    "id": "eip-626",
+    "context": "With the quantized orbital energies for the electron, we have a ready explanation for the features of atomic spectra. EM radiation is emitted when an electron transitions from a higher energy level (Ei) to a lower energy level (Ef), with the photon carrying away the energy difference,"
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "f",
+    "id": "eip-626",
+    "context": "With the quantized orbital energies for the electron, we have a ready explanation for the features of atomic spectra. EM radiation is emitted when an electron transitions from a higher energy level (Ei) to a lower energy level (Ef), with the photon carrying away the energy difference,"
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "i",
+    "id": "eip-104",
+    "context": "hf=ΔE=Ei−Ef,"
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "f",
+    "id": "eip-104",
+    "context": "hf=ΔE=Ei−Ef,"
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "n",
+    "id": "eip-272",
+    "context": "where f is the frequency of the photon. shows a schematic representation of this relationship. With only discrete values of energy En allowed, there are only discrete values of frequency (f) and wavelength (λ) allowed also, as shown in the line spectra."
+  },
+  {
+    "module": "m67807",
+    "base": "L",
+    "sub": "n",
+    "id": "",
+    "context": "angular momentum: Ln"
+  },
+  {
+    "module": "m67807",
+    "base": "L",
+    "sub": "n",
+    "id": "",
+    "context": "Lnnℏ"
+  },
+  {
+    "module": "m67807",
+    "base": "r",
+    "sub": "n",
+    "id": "",
+    "context": "orbital radius: rn"
+  },
+  {
+    "module": "m67807",
+    "base": "r",
+    "sub": "n",
+    "id": "",
+    "context": "rn n2ℏ2 mke2"
+  },
+  {
+    "module": "m67807",
+    "base": "v",
+    "sub": "n",
+    "id": "",
+    "context": "orbital speed: vn"
+  },
+  {
+    "module": "m67807",
+    "base": "v",
+    "sub": "n",
+    "id": "",
+    "context": "vn ke2 nℏ"
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "n",
+    "id": "",
+    "context": "orbital energy: En"
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "n",
+    "id": "",
+    "context": "En=−mk2e42n2ℏ2=−13.6n2eV"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "i",
+    "id": "eip-237",
+    "context": "hf=−mk2e42ni2ℏ2−(−mk2e42nf2ℏ2)=mk2e42ℏ2(1nf2−1ni2)"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "f",
+    "id": "eip-237",
+    "context": "hf=−mk2e42ni2ℏ2−(−mk2e42nf2ℏ2)=mk2e42ℏ2(1nf2−1ni2)"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "f",
+    "id": "eip-237",
+    "context": "hf=−mk2e42ni2ℏ2−(−mk2e42nf2ℏ2)=mk2e42ℏ2(1nf2−1ni2)"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "i",
+    "id": "eip-237",
+    "context": "hf=−mk2e42ni2ℏ2−(−mk2e42nf2ℏ2)=mk2e42ℏ2(1nf2−1ni2)"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "f",
+    "id": "eip-53",
+    "context": "1λ 2π2mk2e4 h3c 1nf2 1ni2 ,"
+  },
+  {
+    "module": "m67807",
+    "base": "n",
+    "sub": "i",
+    "id": "eip-53",
+    "context": "1λ 2π2mk2e4 h3c 1nf2 1ni2 ,"
+  },
+  {
+    "module": "m67807",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id3143059",
+    "context": "Look up the values of the quantities in aB=h24π2mekqe2, and verify that the Bohr radius aB is 0.529×10−10 m size 12{0 \".\" \"529\" times \"10\" rSup { size 8{ - \"10\"} } \" m\"} {}."
+  },
+  {
+    "module": "m67807",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id3143059",
+    "context": "Look up the values of the quantities in aB=h24π2mekqe2, and verify that the Bohr radius aB is 0.529×10−10 m size 12{0 \".\" \"529\" times \"10\" rSup { size 8{ - \"10\"} } \" m\"} {}."
+  },
+  {
+    "module": "m67807",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id3034276",
+    "context": "Verify that the ground state energy E0 is 13.6 eV by using E0=2π2qe4mek2h2."
+  },
+  {
+    "module": "m67807",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id3034276",
+    "context": "Verify that the ground state energy E0 is 13.6 eV by using E0=2π2qe4mek2h2."
+  },
+  {
+    "module": "m67807",
+    "base": "E",
+    "sub": "n",
+    "id": "fs-id1623432",
+    "context": "the allowed electron energies in the Bohr model of a one-electron atom or ion: En=−Z2n2E0 (n=1,2,3,…), where Z is the nuclear charge number and E0=13.6eV"
+  },
+  {
+    "module": "m67808",
+    "base": "λ",
+    "sub": "n",
+    "id": "eip-91",
+    "context": "nλn=2πrn (n=1,2,3,…),"
+  },
+  {
+    "module": "m67808",
+    "base": "r",
+    "sub": "n",
+    "id": "eip-91",
+    "context": "nλn=2πrn (n=1,2,3,…),"
+  },
+  {
+    "module": "m67808",
+    "base": "λ",
+    "sub": "n",
+    "id": "import-auto-id3149961",
+    "context": "where λn is the electron’s wavelength and rn is the radius of that circular orbit. The de Broglie wavelength is λ=h/p=h/mv, and so here λ=h/m e v . Substituting this into the previous condition for constructive interference produces an interesting result:"
+  },
+  {
+    "module": "m67808",
+    "base": "r",
+    "sub": "n",
+    "id": "import-auto-id3149961",
+    "context": "where λn is the electron’s wavelength and rn is the radius of that circular orbit. The de Broglie wavelength is λ=h/p=h/mv, and so here λ=h/m e v . Substituting this into the previous condition for constructive interference produces an interesting result:"
+  },
+  {
+    "module": "m67808",
+    "base": "m",
+    "sub": "e",
+    "id": "import-auto-id3149961",
+    "context": "where λn is the electron’s wavelength and rn is the radius of that circular orbit. The de Broglie wavelength is λ=h/p=h/mv, and so here λ=h/m e v . Substituting this into the previous condition for constructive interference produces an interesting result:"
+  },
+  {
+    "module": "m67808",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-982",
+    "context": "nh m e v = 2π r n . size 12{ { { ital \"nh\"} over {m rSub { size 8{e} } v} } =2πr rSub { size 8{n} } } {}"
+  },
+  {
+    "module": "m67808",
+    "base": "2πr",
+    "sub": "n",
+    "id": "eip-982",
+    "context": "nh m e v = 2π r n . size 12{ { { ital \"nh\"} over {m rSub { size 8{e} } v} } =2πr rSub { size 8{n} } } {}"
+  },
+  {
+    "module": "m67808",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-729",
+    "context": "L=mevrn=nh2π=nℏ (n=1,2,3,…)."
+  },
+  {
+    "module": "m67808",
+    "base": "r",
+    "sub": "n",
+    "id": "eip-729",
+    "context": "L=mevrn=nh2π=nℏ (n=1,2,3,…)."
+  },
+  {
+    "module": "m67808",
+    "base": "λ",
+    "sub": "n",
+    "id": "eip-998",
+    "context": "nλ n = 2πrn (n=1,2,3,…),"
+  },
+  {
+    "module": "m67808",
+    "base": "r",
+    "sub": "n",
+    "id": "eip-998",
+    "context": "nλ n = 2πrn (n=1,2,3,…),"
+  },
+  {
+    "module": "m67808",
+    "base": "λ",
+    "sub": "n",
+    "id": "",
+    "context": "Quantization of orbital energy is caused by the wave nature of matter. Allowed orbits in atoms occur for constructive interference of electrons in the orbit, requiring an integral number of wavelengths to fit in an orbit’s circumference; that is, nλ n = 2πrn (n=1,2,3,…),where λn size 12{λ rSub { size 8{n} } } {} is the electron’s de Broglie wavelength."
+  },
+  {
+    "module": "m67808",
+    "base": "m",
+    "sub": "e",
+    "id": "eip-874",
+    "context": "L=mevrn=nh2π=nℏ (n=1,2,3,…),"
+  },
+  {
+    "module": "m67808",
+    "base": "r",
+    "sub": "n",
+    "id": "eip-874",
+    "context": "L=mevrn=nh2π=nℏ (n=1,2,3,…),"
+  },
+  {
+    "module": "m67808",
+    "base": "r",
+    "sub": "n",
+    "id": "",
+    "context": "The allowed orbits are circular, Bohr proposed, and must have quantized orbital angular momentum given by L=mevrn=nh2π=nℏ (n=1,2,3,…),where L is the orbital angular momentum, rn is the radius of orbit n, and ℏ=h2π is the reduced Planck constant."
+  },
+  {
+    "module": "m68327",
+    "base": "w",
+    "sub": "R",
+    "id": "import-auto-id2681649",
+    "context": "The effects of ionizing radiation depend on the absorbed dose, the type of radiation, and the type of tissue. For a given absorbed dose, densely concentrated ionization, such as that produced by α particles, can cause damage that is harder to repair (see ). The relative biological effectiveness (RBE) compares the absorbed doses of a reference radiation and the radiation being studied that produce the same biological effect. It depends on the effect being measured. For radiation protection, standardized radiation weighting factors, wR, are used instead (see ). For one type of radiation, the equivalent dose H to an organ or tissue is its averag"
+  },
+  {
+    "module": "m68327",
+    "base": "w",
+    "sub": "R",
+    "id": "eip-144",
+    "context": "H=wRD"
+  },
+  {
+    "module": "m68327",
+    "base": "w",
+    "sub": "R",
+    "id": "",
+    "context": "wR"
+  },
+  {
+    "module": "m68327",
+    "base": "w",
+    "sub": "R",
+    "id": "eip-164",
+    "context": "H=wRD"
+  },
+  {
+    "module": "m68329",
+    "base": "F→",
+    "sub": "s",
+    "id": "fs-id1165038302166",
+    "context": "From the free-body diagram, we see that the net force F→net is sum of the scale force F→s and the weight w→. Since the scale force and the weight are pointing in opposite directions, in terms of the magnitudes of the vectors,"
+  },
+  {
+    "module": "m68329",
+    "base": "F",
+    "sub": "net",
+    "id": "fs-id1165037151851",
+    "context": "FnetFswma."
+  },
+  {
+    "module": "m68329",
+    "base": "F",
+    "sub": "s",
+    "id": "fs-id1165037151851",
+    "context": "FnetFswma."
+  },
+  {
+    "module": "m68329",
+    "base": "F",
+    "sub": "s",
+    "id": "fs-id1165036851000",
+    "context": "Solving for Fs gives us an equation with only one unknown:"
+  },
+  {
+    "module": "m68329",
+    "base": "F",
+    "sub": "s",
+    "id": "fs-id1165038339458",
+    "context": "No assumptions were made about the acceleration, so this solution should be valid for a variety of accelerations in addition to those in this situation. (Note: We are considering the case when the elevator is accelerating upward. If the elevator is accelerating downward, Newton’s second law becomes Fs−w=−ma.)"
+  },
+  {
+    "module": "m71411",
+    "base": "F",
+    "sub": "net",
+    "id": "import-auto-id2010722",
+    "context": "Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work done by all external forces—that is, net work is the work done by the net external force Fnet. In equation form, this is Wnet=Fnetd."
+  },
+  {
+    "module": "m71414",
+    "base": "PE",
+    "sub": "g",
+    "id": "eip-591",
+    "context": "While this is a correct description (the negative work done by the gravity cancels out the positive work done by the applied force), this description misses something. Specifically, you can see that this weight that has been lifted by 1 meter does have more energy than a weight that was resting on the floor. This is how you can see it: if you let go of the weight (after removing the table), as the weight originally at 1-meter height reaches the floor, it gains a substantial kinetic energy as it continues to be pulled by gravity. Rather than saying that this kinetic energy simply appeared as the weight fell through the 1-meter height, we opt f"
+  },
+  {
+    "module": "m71414",
+    "base": "PE",
+    "sub": "g",
+    "id": "eip-591",
+    "context": "While this is a correct description (the negative work done by the gravity cancels out the positive work done by the applied force), this description misses something. Specifically, you can see that this weight that has been lifted by 1 meter does have more energy than a weight that was resting on the floor. This is how you can see it: if you let go of the weight (after removing the table), as the weight originally at 1-meter height reaches the floor, it gains a substantial kinetic energy as it continues to be pulled by gravity. Rather than saying that this kinetic energy simply appeared as the weight fell through the 1-meter height, we opt f"
+  },
+  {
+    "module": "m71414",
+    "base": "PE",
+    "sub": "g",
+    "id": "eip-985",
+    "context": "This phenomenon of potential energy turns out to be quite general and goes beyond the gravitational force. There are other forces in nature where negative work done by these forces turns into positive potential energy. We call these forces conservative forces, which will be the subject of the next section. For the purpose of this section, following is the quick derivation of formula for PEg (everything in terms of symbols now). In lifting the weight of mass m through a height h slowly, you have to apply a force equal to its weight, mg. So the work done is WFdmgh, and since it’s this work done that is stored as gravitational potential energy, "
+  },
+  {
+    "module": "m71414",
+    "base": "PE",
+    "sub": "g",
+    "id": "eip-40",
+    "context": "PEgmgh."
+  },
+  {
+    "module": "m71587",
+    "base": "v",
+    "sub": "w",
+    "id": "eip-904",
+    "context": "One note of caution with : despite the appearance, wave speed vw is a not a function of frequency f and wavelength λ. When f changes (or λ changes), vw does not change (you will see this explicitly later with sound and light waves). Wave speed is a property of the medium the wave travels in. Unless the medium itself changes, the wave speed remains constant. This is true of sound and light waves, as well as almost all other types of waves you will see in this textbook (water waves, waves on a string, etc.). So, what happens when frequency (or wavelength) does change, then? The wavelength (or frequency) changes to compensate. For example, if th"
+  },
+  {
+    "module": "m71587",
+    "base": "v",
+    "sub": "w",
+    "id": "eip-904",
+    "context": "One note of caution with : despite the appearance, wave speed vw is a not a function of frequency f and wavelength λ. When f changes (or λ changes), vw does not change (you will see this explicitly later with sound and light waves). Wave speed is a property of the medium the wave travels in. Unless the medium itself changes, the wave speed remains constant. This is true of sound and light waves, as well as almost all other types of waves you will see in this textbook (water waves, waves on a string, etc.). So, what happens when frequency (or wavelength) does change, then? The wavelength (or frequency) changes to compensate. For example, if th"
+  },
+  {
+    "module": "m71587",
+    "base": "v",
+    "sub": "w",
+    "id": "eip-545",
+    "context": "Given a wave of frequency f traveling with wave speed vw, what happens to the wave speed if the frequency doubles? What happens to the wavelength?"
+  },
+  {
+    "module": "m71592",
+    "base": "a",
+    "sub": "t",
+    "id": "",
+    "context": "α = a t r size 12{α= { {a rSub { size 8{t} } } over {r} } } {}"
+  },
+  {
+    "module": "m71592",
+    "base": "a",
+    "sub": "t",
+    "id": "",
+    "context": "Linear or tangential motion variables x, v, and at are proportional to the rotational quantities θ, ω, and α. They are also proportional to the radius r of the rotational motion."
+  },
+  {
+    "module": "m76584",
+    "base": "q",
+    "sub": "e",
+    "id": "import-auto-id3422619",
+    "context": "Research begun by people such as New Zealander Ernest Rutherford soon after the discovery of nuclear radiation indicated that different types of rays are emitted. Eventually, three types were distinguished and named alphaα size 12{ left (α right )} {}, betaβ size 12{ left (β right )} {}, and gammaγ size 12{ left (γ right )} {}, because, like X-rays, their identities were initially unknown. shows what happens if the rays are passed through a magnetic field. The γ size 12{γ} {}s are unaffected, while the α size 12{γ} {}s and β size 12{β} {}s are deflected in opposite directions, indicating that the α size 12{α} {}s are positive, the β size 12{β"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "import-auto-id3127102",
+    "context": "The neutrino also reveals a new conservation law. There are various families of particles, one of which is the electron family. We propose that the number of members of the electron family is constant in any process or any closed system. In our example of beta decay, there are no members of the electron family present before the decay, but after, there is an electron and a neutrino. So electrons are given an electron family number of +1. The neutrino in β− size 12{β rSup { size 8{ - {}} } } {} decay is an electron’s antineutrino, given the symbol ν¯e, where ν is the Greek letter nu, and the subscript e means this neutrino is related to the el"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "import-auto-id3127102",
+    "context": "The neutrino also reveals a new conservation law. There are various families of particles, one of which is the electron family. We propose that the number of members of the electron family is constant in any process or any closed system. In our example of beta decay, there are no members of the electron family present before the decay, but after, there is an electron and a neutrino. So electrons are given an electron family number of +1. The neutrino in β− size 12{β rSup { size 8{ - {}} } } {} decay is an electron’s antineutrino, given the symbol ν¯e, where ν is the Greek letter nu, and the subscript e means this neutrino is related to the el"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "eip-338",
+    "context": "X N Z A → Y N − 1 Z + 1 A + β − + ν ¯ e ( β − decay ) , size 12{\"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } rightarrow \"\" lSub { size 8{Z+1} } lSup { size 8{A} } Y rSub { size 8{N - 1} } +β rSup { size 8{ - {}} } + { bar {ν}} rSub { size 8{e} } ``` \\( β rSup { size 8{ - {}} } `\"decay\" \\) ,} {}"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "eip-828",
+    "context": "n → p + β − + ν ¯ e . size 12{n rightarrow p+β rSup { size 8{ - {}} } + { bar {ν}} rSub { size 8{e} } } {}"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "eip-626",
+    "context": "Co332760→ Ni322860+ β − +ν¯e."
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "eip-92",
+    "context": "X N ZA→ Y N + 1 Z − 1 A + β + + ν e ( β + decay ) , size 12{\"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } rightarrow \"\" lSub { size 8{Z - 1} } lSup { size 8{A} } Y rSub { size 8{N+1} } +β rSup { size 8{+{}} } +ν rSub { size 8{e} } ```` \\( β rSup { size 8{+{}} } `\"decay\" \\) ,} {}"
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "import-auto-id1447217",
+    "context": "where Y is the nuclide having one less proton than X (to conserve charge) and νe is the symbol for the electron’s neutrino, which has an electron family number of +1. Since an antimatter member of the electron family (the β+) is created in the decay, a matter member of the family (here the νe) must also be created. Given, for example, that Na22 β+ size 12{β rSup { size 8{+{}} } } {} decays, you can write its full decay equation by first finding that Z=11 for Na22, so that the daughter nuclide will have Z=10 size 12{Z=\"10\"} {}, the atomic number for neon. Thus the β+ size 12{β rSup { size 8{+{}} } } {} decay equation for Na22 is"
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "import-auto-id1447217",
+    "context": "where Y is the nuclide having one less proton than X (to conserve charge) and νe is the symbol for the electron’s neutrino, which has an electron family number of +1. Since an antimatter member of the electron family (the β+) is created in the decay, a matter member of the family (here the νe) must also be created. Given, for example, that Na22 β+ size 12{β rSup { size 8{+{}} } } {} decays, you can write its full decay equation by first finding that Z=11 for Na22, so that the daughter nuclide will have Z=10 size 12{Z=\"10\"} {}, the atomic number for neon. Thus the β+ size 12{β rSup { size 8{+{}} } } {} decay equation for Na22 is"
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "eip-720",
+    "context": "Na111122→Ne121022+β++νe."
+  },
+  {
+    "module": "m76603",
+    "base": "2m",
+    "sub": "e",
+    "id": "eip-770",
+    "context": "Δm=m(parent)−[m(daughter)+2me],"
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "fs-id877331",
+    "context": "X N ZA+ e − → Y N + 1 Z − 1 A + ν e (electron capture, or EC)."
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "eip-95",
+    "context": "XNZA→YN−1Z+1A+β−+ν¯e."
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "eip-696",
+    "context": "XNZA→YN+1Z−1A+β++νe."
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "eip-679",
+    "context": "XNZA+e−→YN+1Z−1A+νe."
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "import-auto-id2600265",
+    "context": "β− is an electron, β+ size 12{β rSup { size 8{+{}} } } {} is an antielectron or positron, νe size 12{v rSub { size 8{e} } } {} represents an electron’s neutrino, and ν¯e size 12{ {overline {ν rSub { size 8{e} } }} } {} is an electron’s antineutrino. In addition to all previously known conservation laws, two new ones arise— conservation of electron family number and conservation of the total number of nucleons. The γ decay equation is X N * Z A → X N Z A + γ 1 + γ 2 + ⋯ size 12{\"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } rSup { size 8{*} } rightarrow \"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } +γ rSub { size"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "import-auto-id2600265",
+    "context": "β− is an electron, β+ size 12{β rSup { size 8{+{}} } } {} is an antielectron or positron, νe size 12{v rSub { size 8{e} } } {} represents an electron’s neutrino, and ν¯e size 12{ {overline {ν rSub { size 8{e} } }} } {} is an electron’s antineutrino. In addition to all previously known conservation laws, two new ones arise— conservation of electron family number and conservation of the total number of nucleons. The γ decay equation is X N * Z A → X N Z A + γ 1 + γ 2 + ⋯ size 12{\"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } rSup { size 8{*} } rightarrow \"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } +γ rSub { size"
+  },
+  {
+    "module": "m76603",
+    "base": "ν¯",
+    "sub": "e",
+    "id": "import-auto-id2626320",
+    "context": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for β− decay given in the equation XNZA→ Y N−1Z+1A+ β− + ν¯e size 12{\"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } rightarrow \"\" lSub { size 8{Z−1} } lSup { size 8{A} } Y rSub { size 8{N - 1} } +β rSup { size 8{ - {}} } + {overline {v rSub { size 8{e} } }} } {}. To do this, identify the values of each before and after the decay."
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "import-auto-id3246240",
+    "context": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for β− size 12{β rSup { size 8{ - {}} } } {} decay given in the equation XNZA→ Y N−1Z−1A+ β− + νe. To do this, identify the values of each before and after the decay."
+  },
+  {
+    "module": "m76603",
+    "base": "ν",
+    "sub": "e",
+    "id": "import-auto-id3422948",
+    "context": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for electron capture given in the equation XNZA+e−→YN+1Z−1A+νe size 12{\"\" lSub { size 8{Z} } lSup { size 8{A} } X rSub { size 8{N} } +e rSup { size 8{ - {}} } rightarrow \"\" lSub { size 8{Z - 1} } lSup { size 8{A} } Y rSub { size 8{N+1} } +v rSub { size 8{e} } } {}. To do this, identify the values of each before and after the capture."
+  },
+  {
+    "module": "m78798",
+    "base": "N",
+    "sub": "A",
+    "id": "",
+    "context": "NA"
+  },
+  {
+    "module": "m78798",
+    "base": "m",
+    "sub": "e",
+    "id": "",
+    "context": "me"
+  },
+  {
+    "module": "m78798",
+    "base": "m",
+    "sub": "p",
+    "id": "",
+    "context": "mp"
+  },
+  {
+    "module": "m78798",
+    "base": "m",
+    "sub": "n",
+    "id": "",
+    "context": "mn"
+  }
+]

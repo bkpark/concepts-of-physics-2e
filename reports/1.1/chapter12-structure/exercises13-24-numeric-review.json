@@ -1,0 +1,111 @@
+{
+  "status": "review-only-no-source-edits",
+  "numbering": "Public Preview105",
+  "calculations": [
+    {
+      "exercise": 13,
+      "material": "Ag",
+      "given_work_function_eV": 4.73,
+      "result_type": "threshold_nm",
+      "result": 262.12304108498995
+    },
+    {
+      "exercise": 14,
+      "material": "K",
+      "given_work_function_eV": 2.24,
+      "result_type": "threshold_nm",
+      "result": 553.500885862501
+    },
+    {
+      "exercise": 15,
+      "material": "Mg",
+      "given_work_function_eV": null,
+      "result_type": "inferred_work_function_eV",
+      "result": 3.679056333329384
+    },
+    {
+      "exercise": 16,
+      "material": "Al",
+      "given_work_function_eV": null,
+      "result_type": "inferred_work_function_eV",
+      "result": 4.078427580039482
+    },
+    {
+      "exercise": 17,
+      "material": "Na",
+      "given_work_function_eV": 2.28,
+      "result_type": "maximum_KE_eV",
+      "result": 0.4752044096266723
+    },
+    {
+      "exercise": 18,
+      "material": "Au",
+      "given_work_function_eV": 4.82,
+      "result_type": "maximum_KE_eV",
+      "result": 5.51201653610002
+    },
+    {
+      "exercise": 19,
+      "material": "Na",
+      "given_work_function_eV": null,
+      "result_type": "inferred_work_function_eV",
+      "result": 2.2396049608300066
+    },
+    {
+      "exercise": 20,
+      "material": "U",
+      "given_work_function_eV": null,
+      "result_type": "inferred_work_function_eV",
+      "result": 3.6328066144400086
+    },
+    {
+      "exercise": 21,
+      "material": "Ca",
+      "given_work_function_eV": 2.71,
+      "result_type": "wavelength_nm",
+      "result": 263.2360900917203
+    },
+    {
+      "exercise": 22,
+      "material": "K",
+      "given_work_function_eV": 2.24,
+      "result_type": "wavelength_nm",
+      "result": 529.847001851283
+    }
+  ],
+  "ideal_rates": [
+    {
+      "exercise_preview105": 23,
+      "ideal_rate_per_s": 4027293254034168.0,
+      "ideal_maximum_electron_power_W": 0.0002513900743826909,
+      "photon_energy_eV": 3.0996049608300065
+    },
+    {
+      "exercise_preview105": 24,
+      "ideal_rate_per_s": 3272175768902761.5,
+      "ideal_maximum_electron_power_W": 0.00010468638848484685,
+      "photon_energy_eV": 2.479683968664005
+    }
+  ],
+  "findings": [
+    "Work functions depend on sample surface, not universal exact elemental constants.",
+    "Silver 4.73, sodium 2.28, aluminum inferred 4.08, and gold 4.82 have experimental support; values need sample-specific framing.",
+    "Magnesium inferred 3.68 is close to compiled 3.66; uranium inferred 3.63 matches compiled 3.63.",
+    "Potassium 2.24 is near compiled 2.30 but exact primary provenance not established.",
+    "Calcium 2.71 not verified; measured thick-film value 2.87 +/- 0.06 suggests adopting 2.87 consistently, including section example, or stating it as assumed.",
+    "Exercise19 implies sodium 2.2396, unlike 2.28 elsewhere; change 0.860 to 0.820 eV for consistency.",
+    "Exercises20-22 need maximum kinetic energy explicitly.",
+    "Exercises23-24 require one electron per incident photon and maximum KE assumptions; better ask ideal upper bounds.",
+    "Exercise24 total solar irradiance is about 1.361 kW/m2 and broadband, not all at 500nm; remove parenthetical solar identification while retaining arbitrary beam intensity.",
+    "Exercise24(c) recovery of remaining energy lacks specified collection circuit; simplify to energy needed to free electrons rather than claiming all leftover is heat."
+  ],
+  "sources": [
+    "https://doi.org/10.1063/1.323539",
+    "https://journals.aps.org/pr/abstract/10.1103/PhysRev.57.653",
+    "https://doi.org/10.1103/PhysRev.49.670",
+    "https://www.nature.com/articles/srep02597",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0030402622011640",
+    "https://opg.optica.org/ao/abstract.cfm?uri=ao-10-10-2336",
+    "https://earth.gsfc.nasa.gov/climate/projects/solar-irradiance/science"
+  ]
+}

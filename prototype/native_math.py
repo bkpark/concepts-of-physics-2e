@@ -3,8 +3,15 @@ import xml.etree.ElementTree as ET
 from mathml import math_node
 NS='http://www.w3.org/1998/Math/MathML';M='{'+NS+'}'
 
-def native_math(e):
+def native_math(e, equation_context=False):
     tree=ET.fromstring(math_node(e));changes=[]
+    # Keep separate formulas and prose connectors on the same equation line.
+    # Display style controls fraction sizing without imposing block layout.
+    if e.get('displaystyle') is not None:
+        tree.set('displaystyle',e.get('displaystyle'))
+    elif equation_context:
+        tree.set('displaystyle','true')
+        changes.append('equation-display-style')
     def walk(node,inherited_variant=None):
         tag=node.tag.split('}')[-1];variant=node.get('mathvariant',inherited_variant)
         for child in list(node):walk(child,variant)

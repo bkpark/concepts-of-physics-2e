@@ -48,7 +48,7 @@
     <example id="fs-id1945968"><title>How Strong is the Coulomb Force Relative to the Gravitational Force?</title><para id="import-auto-id3250393">Compare the electrostatic force between an electron and proton separated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>530</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "530" times "10" rSup { size 8{ - "10"} } m} {}</m:annotation></m:semantics></m:math> with the gravitational force between them. This distance is their average separation in a hydrogen atom.</para><para id="import-auto-id2000888"><emphasis>Strategy</emphasis></para>
             <para id="import-auto-id2000878">To compare the two forces, we first compute the electrostatic force using Coulomb’s law, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mfrac><m:mrow><m:mo fence="true" form="prefix" stretchy="true" lspace="0" rspace="0">|</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo fence="true" form="postfix" stretchy="true" lspace="0" rspace="0">|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=k {  {q rSub { size 8{1} } q rSub { size 8{2} } }  over  {r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>. We then calculate the gravitational force using Newton’s universal law of gravitation. Finally, we take a ratio to see how the forces compare in magnitude.</para><para id="import-auto-id1118563"><emphasis>Solution</emphasis></para>
             <para id="import-auto-id2000889">Entering the given and known information about the charges and separation of the electron and proton into the expression of Coulomb’s law yields</para>
-            <equation id="eip-793"><span id="eip-947"/><m:math><m:mtable columnalign="right left" columnspacing="0.3em" rowspacing="0.5em"><m:mtr><m:mtd><m:mi>F</m:mi></m:mtd><m:mtd><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mo fence="true" form="prefix" stretchy="true" lspace="0" rspace="0">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo fence="true" form="postfix" stretchy="true" lspace="0" rspace="0">|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo><m:mrow xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <equation id="eip-793" class="unnumbered"><span id="eip-947"/><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mtable columnalign="right left" columnspacing="0.3em" rowspacing="0.5em"><m:mtr><m:mtd><m:mi>F</m:mi></m:mtd><m:mtd><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mo fence="true" form="prefix" stretchy="true" lspace="0" rspace="0">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo fence="true" form="postfix" stretchy="true" lspace="0" rspace="0">|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd /><m:mtd><m:mo>=</m:mo><m:mrow>
                             <m:mfenced open="(" close=")">
                               <m:mrow>
                                 <m:mn>8.99</m:mn>
@@ -101,10 +101,10 @@
                                 <m:mo stretchy="false">)</m:mo>
                               </m:mrow>
                               <m:mrow>
-                                <m:mo stretchy="false">(</m:mo>
+                                <m:msup>
+                                  <m:mrow><m:mo stretchy="false">(</m:mo>
                                 <m:mn>0.530</m:mn>
-                                <m:mrow>
-                                  <m:mo stretchy="false">×</m:mo>
+                                <m:mo stretchy="false">×</m:mo>
                                   <m:msup>
                                     <m:mtext> 10</m:mtext>
                                     
@@ -113,12 +113,11 @@
                                       </m:mrow>
                                     
                                   </m:msup>
-                                </m:mrow><m:mspace width="0.25em" />
+                                <m:mspace width="0.25em" />
                                 <m:mtext>m</m:mtext>
-                                <m:msup>
-                                  <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">)</m:mo>
                                   
-                                    <m:mrow>
+                                    </m:mrow><m:mrow>
                                       <m:mn>2</m:mn>
                                     </m:mrow>
                                   
@@ -126,7 +125,7 @@
                               </m:mrow>
                             </m:mfrac>
                           </m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="import-auto-id2957474">Thus the Coulomb force is</para>
-            <equation id="eip-589"><m:math>
+            <equation id="eip-589" class="unnumbered"><m:math>
         <m:semantics>
           <m:mrow>
             
@@ -158,7 +157,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{F=" -8" "." "20 " times " 10" rSup { size 8{"-8"} } N} {}</m:annotation>
         </m:semantics>
       </m:math> 
-    </equation><para id="import-auto-id3026205">The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8.99</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "00" times "10" rSup { size 8{"22"} }  {m} slash {s rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>(verification is left as an end-of-section problem).The gravitational force is given by Newton’s law of gravitation as:</para><equation id="eip-272"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+    </equation><para id="import-auto-id3026205">The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8.99</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "00" times "10" rSup { size 8{"22"} }  {m} slash {s rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>(verification is left as an end-of-section problem).The gravitational force is given by Newton’s law of gravitation as:</para><equation id="eip-272" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -169,7 +168,7 @@
                       <m:mi>F</m:mi>
                       
                         <m:mrow>
-                          <m:mi>G</m:mi>
+                          <m:mi mathvariant="normal">G</m:mi>
                         </m:mrow>
                       
                     </m:msub>
@@ -193,12 +192,11 @@
             <m:mrow />
 <m:mo>,</m:mo>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{G} } =" G " {  {"mM"}  over  {r rSup { size 8{2} } } } } {}</m:annotation>
-        </m:semantics>
+          </m:semantics>
       </m:math> 
     </equation><para id="import-auto-id1418827">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6.67</m:mn></m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>11</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false" lspace="0" rspace="0">/</m:mo>
-<m:mrow><m:msup><m:mtext>kg</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=6 "." "67" times "10" rSup { size 8{ - "11"} }  {N cdot m rSup { size 8{2} } } slash { ital "kg" rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. Here <m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mi>M</m:mi></m:mrow></m:semantics></m:math> represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields</para><equation id="eip-142"><m:math><m:mtable columnalign="right left" columnspacing="0.3em" rowspacing="0.5em"><m:mtr><m:mtd><m:msub xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>F</m:mi><m:mi>G</m:mi></m:msub></m:mtd><m:mtd><m:mo xmlns:m="http://www.w3.org/1998/Math/MathML">=</m:mo><m:mrow xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mo stretchy="true">(</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−11</m:mn></m:msup><m:mspace width="0.167em" /><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>kg</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac><m:mo stretchy="true">)</m:mo></m:mrow><m:mo xmlns:m="http://www.w3.org/1998/Math/MathML">×</m:mo><m:mfrac xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>9.11</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−31</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>kg</m:mtext><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>1.67</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−27</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>kg</m:mtext><m:mo stretchy="true">)</m:mo></m:mrow></m:mrow><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>0.530</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−10</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo stretchy="true">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mo xmlns:m="http://www.w3.org/1998/Math/MathML">=</m:mo><m:mn xmlns:m="http://www.w3.org/1998/Math/MathML">3.61</m:mn><m:mo xmlns:m="http://www.w3.org/1998/Math/MathML">×</m:mo><m:msup xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mn>10</m:mn><m:mn>−47</m:mn></m:msup><m:mspace xmlns:m="http://www.w3.org/1998/Math/MathML" width="0.167em" /><m:mtext xmlns:m="http://www.w3.org/1998/Math/MathML">N</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation><para id="import-auto-id1487281">This is also an attractive force, although it is traditionally shown as positive since gravitational force is always attractive. The ratio of the magnitude of the electrostatic force to gravitational force in this case is, thus,</para>
-            <equation id="eip-601"><m:math>
+<m:mrow><m:msup><m:mtext>kg</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=6 "." "67" times "10" rSup { size 8{ - "11"} }  {N cdot m rSup { size 8{2} } } slash { ital "kg" rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. Here <m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mi>M</m:mi></m:mrow></m:semantics></m:math> represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields</para><equation id="eip-142" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mtable columnalign="right left" columnspacing="0.3em" rowspacing="0.5em"><m:mtr><m:mtd><m:msub><m:mi>F</m:mi><m:mi mathvariant="normal">G</m:mi></m:msub></m:mtd><m:mtd><m:mo>=</m:mo><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−11</m:mn></m:msup><m:mspace width="0.167em" /><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>kg</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>×</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>9.11</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−31</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>kg</m:mtext><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>1.67</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−27</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>kg</m:mtext><m:mo stretchy="true">)</m:mo></m:mrow></m:mrow><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mn>0.530</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−10</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>m</m:mtext><m:mo stretchy="true">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd /><m:mtd><m:mo>=</m:mo><m:mn>3.61</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−47</m:mn></m:msup><m:mspace width="0.167em" /><m:mtext>N</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation><para id="import-auto-id1487281">This is also an attractive force, although it is traditionally shown as positive since gravitational force is always attractive. The ratio of the magnitude of the electrostatic force to gravitational force in this case is, thus,</para>
+            <equation id="eip-601" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -211,7 +209,7 @@
                         <m:mi>F</m:mi>
                         
                           <m:mrow>
-                            <m:mi>G</m:mi>
+                            <m:mi mathvariant="normal">G</m:mi>
                           </m:mrow>
                         
                       </m:msub>
@@ -235,11 +233,10 @@
                 </m:mrow>
               </m:mrow>
             
-            <m:mrow/>
+            <m:mrow />
 <m:mo>.</m:mo>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {F rSub { size 8{G} } } }  =" 2" "." "27 " times " 10" rSup { size 8{"39"} } } {}</m:annotation>
-        </m:semantics>
+          </m:semantics>
       </m:math> 
     </equation><para id="import-auto-id1446884"><emphasis>Discussion</emphasis></para>
             <para id="import-auto-id2000788">This is a remarkably large ratio! Note that this will be the ratio of electrostatic force to gravitational force for an electron and a proton at any distance (taking the ratio before entering numerical values shows that the distance cancels). This ratio gives some indication of just how much larger the Coulomb force is than the gravitational force between two of the most common particles in nature.</para>

@@ -45,7 +45,7 @@
     <entry><m:math><m:mrow><m:cn type="e-notation">6.67<m:sep/>−11</m:cn><m:mspace width="0.15em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mtext>kg</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:math></entry>
   </row>
   <row>
-    <entry><m:math display="block"><m:msub><m:ci>N</m:ci><m:mi>A</m:mi></m:msub></m:math></entry>
+    <entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:msub><m:ci>N</m:ci><m:mi mathvariant="normal">A</m:mi></m:msub></m:math></entry>
     <entry>Avogadro’s number</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">6.02214076<m:sep/>23</m:cn></m:mrow></m:math> (exact)</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">6.02<m:sep/>23</m:cn></m:mrow></m:math></entry>
@@ -116,19 +116,19 @@
 
 <tbody>
   <row>
-    <entry><m:math display="block"><m:msub><m:ci>m</m:ci><m:ci>e</m:ci></m:msub></m:math></entry>
+    <entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:msub><m:ci>m</m:ci><m:mi mathvariant="normal">e</m:mi></m:msub></m:math></entry>
     <entry>Electron mass</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">9.1093837139(28)<m:sep/>−31</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">9.11<m:sep/>−31</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
-    <entry><m:math display="block"><m:msub><m:ci>m</m:ci><m:ci>p</m:ci></m:msub></m:math></entry>
+    <entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:msub><m:ci>m</m:ci><m:mi mathvariant="normal">p</m:mi></m:msub></m:math></entry>
     <entry>Proton mass</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.67262192595(52)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.67<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
   </row>
   <row>
-    <entry><m:math display="block"><m:msub><m:ci>m</m:ci><m:ci>n</m:ci></m:msub></m:math></entry>
+    <entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:msub><m:ci>m</m:ci><m:mi mathvariant="normal">n</m:mi></m:msub></m:math></entry>
     <entry>Neutron mass</entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.67492750056(85)<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
     <entry><m:math><m:mrow><m:cn type="e-notation">1.67<m:sep/>−27</m:cn><m:mspace width="0.15em"/><m:mtext>kg</m:mtext></m:mrow></m:math></entry>
@@ -1903,7 +1903,7 @@
 <row> <entry>Length</entry> 
       <entry><m:math><m:apply><m:eq/>
                 <m:mrow><m:mn>1</m:mn><m:mspace width="0.20em"/><m:mtext>inch</m:mtext><m:mspace width="0.20em"/><m:mo stretchy="false">(</m:mo><m:mtext>in</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow>
-                <m:mrow><m:mn>2.54</m:mn><m:mspace width="0.20em"/><m:mtext>cm</m:mtext><m:mspace width="0.20em"/><m:mo stretchy="false">(</m:mo><m:mtext>exactly</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:apply></m:math>
+                <m:mrow><m:mn>2.54</m:mn><m:mspace width="0.20em"/><m:mtext>cm</m:mtext></m:mrow></m:apply></m:math> (exactly)
       </entry></row>
 <row> <entry/>
       <entry><m:math><m:apply><m:eq/>

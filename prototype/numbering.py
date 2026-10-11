@@ -21,6 +21,8 @@ def build_objects(sections,roots,profile,course,rules,anchor):
                 for a in ancestors:
                     title=a.find(C+'title')
                     if a.tag==C+'section' and title is not None:
+                        if ''.join(title.itertext()).strip().lower() in ('section summary','chapter summary'):
+                            classes.add('section-summary')
                         category_from_title=rule.get('relocated_section_titles',{}).get(''.join(title.itertext()).strip())
                         if category_from_title:classes.add(category_from_title)
                 category=next((a.get('type') for a in [e]+ancestors if a.tag==C+'exercise' and a.get('type')),None)
@@ -35,7 +37,7 @@ def build_objects(sections,roots,profile,course,rules,anchor):
             kind=e.tag.split('}')[-1];label=None
             if mid+'#'+e.get('id') in rule.get('exercise_paragraphs',[]):kind='exercise'
             empty=e.find(C+'label');explicit_empty=empty is not None and not ''.join(empty.itertext()).strip()
-            suppressed=(kind=='equation' and bool(classes.intersection(rule['unnumbered_equation_ancestor_classes'])))
+            suppressed=(kind=='equation' and bool(classes.intersection(set(rule['unnumbered_equation_ancestor_classes'])|{'section-summary'})))
             if kind in ('figure','example','equation','table','exercise') and 'unnumbered' not in e.get('class','').split() and not explicit_empty and not suppressed:
                 key=(kind,category if kind=='exercise' and rule['separate_exercise_counters'] else '')
                 active=counter if rule['scope']=='chapter' else section_counters.setdefault(mid,Counter())
@@ -52,4 +54,12 @@ def build_objects(sections,roots,profile,course,rules,anchor):
             stable=mid+'#'+e.get('id')
             if stable in rules['overrides'][profile]:label=rules['overrides'][profile][stable]['label']
             output[(mid,e.get('id'))]={'kind':kind,'label':label,'anchor':anchor(mid,e.get('id'))}
+    for source,target in rules.get('summary_equation_aliases',{}).items():
+        source_key=tuple(source.split('#',1));target_key=tuple(target.split('#',1))
+        if source_key not in output or target_key not in output:
+            raise ValueError('Missing summary equation alias endpoint: '+source+' -> '+target)
+        if not output[target_key]['label']:
+            raise ValueError('Summary original must have a number: '+target)
+        output[source_key]['label']=output[target_key]['label']
+        output[source_key]['summary_original']=target
     return output

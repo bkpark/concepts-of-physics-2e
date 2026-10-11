@@ -1,0 +1,46 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_ed2d6a0069e08191a68dd8d79f70dfd8",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 111,
+    "source": {
+      "commit_sha": "8f0a6c312c5d2fdd254591ffb73f50649bab1960"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000005e7881fdb3085740e452e2b9",
+      "content_hash": "sha256:80d799cce193233ffba103d1aff3d03a9cff6aa18e79a04ca93f45a4a0461ea0",
+      "size_bytes": 129996800,
+      "file_count": 748
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aca8afecdcc81919d3019d839f7111c",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_ed2d6a0069e08191a68dd8d79f70dfd8",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-10T18:59:20.535671+00:00"
+  },
+  "checks": {
+    "course_math": 6673,
+    "math_issues": {},
+    "mobile_width": 482,
+    "figure_overflow": false
+  },
+  "changes": [
+    "Space-time diagram and introduction, Figure 13.3.3",
+    "Exercise 11 Extension label removed",
+    "Exercise 3 null-result question",
+    "Glossary much-less-than symbol"
+  ]
+}

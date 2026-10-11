@@ -30,6 +30,7 @@ for profile in ('course-full',):
             u=urlsplit(href)
             if u.scheme or u.netloc:continue
             target=(f.parent/unquote(u.path)).resolve() if u.path else f
+            if target.is_dir():target=target/'index.html'
             if target.suffix.lower() in ('.png','.jpg','.svg','.pdf'):
                 assert target.is_file(),f'Missing linked asset: {target}'
                 continue
@@ -81,7 +82,7 @@ projected=[b['module']+'#'+ident for v in views for b in v['blocks'] for ident i
 # plus six Chapter 2 additions, minus five approved Chapter 2 removals,
 # plus five approved Chapter 3 additions; Chapter 4 finished at 24 questions.
 # The previous book total was 974; twenty Chapter 5 additions, eight Chapter 6 additions and one Chapter 6 removal bring it to 1001; two Chapter 7 removals and nine additions bring it to 1008; numbering two Chapter 8 prompts brings it to 1010.
-assert len(projected)==len(set(projected))==851  # Chapters 8: 105 to 47; 9: 156 to 55.
+assert len(projected)==len(set(projected))==773  # Chapter 13: approved reduction from 94 to 39 questions (two chapter-summary essays removed during review). Chapter 12: remove 28 exercises (including Preview106 Exercises 28, 30, 36, 39–41, 59, and 61), combine Preview106 pairs 22–23, 24–33, and 48–49, and remove the previously added conceptual ion question (Preview106 Exercise 47; 80 to 56 after seven approved MOM-oriented additions), including Preview105 Exercises 7, 10, 11, 12, 24, 25, and 26.  Chapters 8: 105 to 47; 9: 156 to 55; 10: 50 to 46; 11: remove analog-TV audio, cataract UV, thermometer, negative-index, image-distance recall, and reflection-phase questions; combine scattering/color pair; add five approved MOM adaptations and IKAROS, curved-reflection, and prism-color, windowpane, lens-behavior, and polarization-glare, and prism-ray questions.
 labels=json.loads((P/'dist/course-full/object-labels.json').read_text(encoding='utf-8'))
 assert labels['m67123#import-auto-id2589627']['label']=='8.E.1'
 assert (P/'dist/course-full/identity-registry.json').read_bytes()==(P/'dist/cnx-full/identity-registry.json').read_bytes()

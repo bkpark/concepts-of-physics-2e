@@ -1,0 +1,94 @@
+{
+  "status": "applied-maintainer-approved",
+  "date": "2026-10-10",
+  "added_exercise_ids": [
+    "c12-mom-bohr-assumptions",
+    "c12-mom-energy-level-photon",
+    "c12-mom-photoelectric-intensity",
+    "c12-mom-probability-cloud",
+    "c12-mom-probability-wave",
+    "c12-mom-rutherford-evidence",
+    "c12-mom-standing-wave-fit"
+  ],
+  "extended_exercise": "m67251#fs-id1260430",
+  "approved_candidate_ids": [
+    "C12-MOM-A",
+    "C12-MOM-B",
+    "C12-MOM-C",
+    "C12-MOM-D",
+    "C12-MOM-E",
+    "C12-MOM-F"
+  ],
+  "optional_candidates_not_added": [
+    "C12-MOM-G",
+    "C12-MOM-H"
+  ],
+  "additional_12_8_sources": [
+    {
+      "uniqueid": 1544120654381913,
+      "description": "Introduction to Physics (Essay Questions) - Quantum Mechanics - De Broglie Hypothesis",
+      "author": "Park,Andrew",
+      "license": 1,
+      "otherattribution": ""
+    },
+    {
+      "uniqueid": 1530483568153868,
+      "description": "Introduction to Physics - Standing Waves - Descriptions - Q3 (updated to LibreTexts version)",
+      "author": "Park,Andrew",
+      "license": 1,
+      "otherattribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+    },
+    {
+      "uniqueid": 1532305638166116,
+      "description": "Introduction to Physics - Quantum Mechanics - Bohr Model - Q7 (test bank)",
+      "author": "Park,Andrew",
+      "license": 1,
+      "otherattribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+    },
+    {
+      "uniqueid": 1589864252558516,
+      "description": "Introduction to Physics - Quantum Mechanics - Bohr Model - Q7 (take-home test bank version)",
+      "author": "Park,Andrew",
+      "license": 1,
+      "otherattribution": "\"College Physics\" by OpenStax is licensed under CC-BY"
+    }
+  ],
+  "additional_wording": {
+    "c12-mom-standing-wave-fit": "In the circular standing-wave model, a proposed orbit has a circumference equal to (a) three electron wavelengths or (b) three and a half electron wavelengths. Which satisfies the condition for an allowed orbit? Explain how the wave matches up after one complete circuit.",
+    "c12-mom-probability-cloud": "Bohr’s model describes an electron following a definite circular orbit. The fuller quantum description uses a probability cloud. (a) What does that cloud represent? (b) If an electron’s position is measured once, is it detected at one location or spread throughout the cloud? Explain."
+  },
+  "answers": {
+    "standing_wave_fit": "Three wavelengths matches phase after a circuit; three and a half gives opposite phase and fails the periodic matching condition. This is the section’s illustrative circular-wave model, not a literal modern electron trajectory.",
+    "probability_cloud": "Distribution of probabilities for position detections, not a spread-out single detector event. One position measurement yields one location."
+  },
+  "bohr_question_revised": "Classical circular orbit plus quantized angular momentum only; probability-cloud comparison is now in 12.8.",
+  "records": [
+    "proposals/author-corrections/C12-MOM-ADDITIONS-AND-ORDER-m67251.json",
+    "proposals/author-corrections/C12-MOM-ADDITIONS-AND-ORDER-m67804.json",
+    "proposals/author-corrections/C12-MOM-ADDITIONS-AND-ORDER-m67805.json",
+    "proposals/author-corrections/C12-MOM-ADDITIONS-AND-ORDER-m67807.json",
+    "proposals/author-corrections/C12-MOM-ADDITIONS-AND-ORDER-m67808.json"
+  ],
+  "chapter_exercise_count": 56,
+  "book_exercise_count": 828,
+  "provenance": "Adapted from Andrew Park MyOpenMath questions with source OpenStax attribution; no external source image reused. Export license code preserved in gap review.",
+  "ordering": {
+    "m67807": [
+      "fs-id1818205",
+      "fs-id3102636",
+      "fs-id2973934",
+      "fs-id2639655",
+      "fs-id3172772",
+      "c12-mom-bohr-assumptions",
+      "fs-id3110273",
+      "fs-id2051375",
+      "fs-id1915821",
+      "fs-id1343253",
+      "fs-id3011740",
+      "c12-mom-energy-level-photon",
+      "fs-id774694",
+      "fs-id2962397"
+    ],
+    "m67805": "Retain user-requested oil-drop-first order, followed by Thomson mass measurement, Rutherford inference, density, scale model."
+  }
+}

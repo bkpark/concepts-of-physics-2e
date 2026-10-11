@@ -22,11 +22,11 @@ TEX_SYMBOLS = {c:'\\'+name for c,name in GREEK.items()}
 TEX_SYMBOLS.update({'ε':r'\varepsilon','ϵ':r'\epsilon','φ':r'\varphi','ϕ':r'\phi','ϑ':r'\vartheta',
     'ℏ':r'\hbar','ℓ':r'\ell','Å':r'\text{\AA}','°':r'{}^{\circ}',
     '×':r'\times','⋅':r'\cdot','·':r'\cdot','−':'-','–':'-','±':r'\pm','∓':r'\mp',
-    '≈':r'\approx','≃':r'\simeq','≠':r'\ne','≤':r'\le','≥':r'\ge','∝':r'\propto',
+    '≈':r'\approx','≃':r'\simeq','≠':r'\ne','≤':r'\le','≥':r'\ge','≪':r'\ll','≫':r'\gg','∝':r'\propto',
     '∞':r'\infty','∂':r'\partial','∇':r'\nabla','→':r'\to','←':r'\leftarrow',
     '↔':r'\leftrightarrow','⇒':r'\Rightarrow','⇔':r'\Leftrightarrow','∑':r'\sum',
     '∏':r'\prod','∫':r'\int','∮':r'\oint','∈':r'\in','∉':r'\notin','∩':r'\cap',
-    '∪':r'\cup','⊥':r'\perp','∠':r'\angle','…':r'\ldots','′':r'\prime',
+    '∪':r'\cup','∥':r'\parallel','⊥':r'\perp','∠':r'\angle','…':r'\ldots','′':r'\prime',
     '″':r'\prime\prime','‴':r'\prime\prime\prime','÷':r'\div',
     '\u2062':'','\u2061':'','\u200b':'','\u00a0':r'\,','{':r'\{','}':r'\}',
     '%':r'\%','$':r'\$','#':r'\#','&':r'\&','_':r'\_','\\':r'\backslash','’':r'\text{’}'})
@@ -54,6 +54,9 @@ class Converter:
             return s.replace('−','-')
         if s in FUNCTIONS:return '\\'+s if self.fmt=='latex' else s
         if t=='mo':
+            if any(not c.isascii() and c not in mapping for c in s):
+                self.notes.add('unicode')
+                if self.fmt=='latex':self.notes.add('unicode-latex')
             if self.fmt=='asciimath' and self.table_depth and s in ('(',')','[',']','{','}'):
                 # Literal fences cannot interfere with the matrix's row syntax,
                 # even when the legacy source has an unmatched fence.

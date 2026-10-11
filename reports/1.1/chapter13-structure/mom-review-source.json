@@ -1,0 +1,1172 @@
+{
+  "source_file": "phys-10-full-export-2026-09-27.imas",
+  "source_sha256": "d7ff71869519870750f25632a7b0776e198dd82225c803e9d99b0df2c9a8fa58",
+  "records": [
+    {
+      "export_question_set_id": "758",
+      "source_uniqueid": "1532144847866023",
+      "description": "Introduction to Physics - Special Relativity - Principle of Relativity - Q1 (updated to LibreTexts version)",
+      "qtype": "multans",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "a456e9e01279989a35bf0d8dd88408097c5e95903672bb4421cce1f966ec6a48",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>The principle of relativity (also known as the First Postulate of Special Relativity) says that the laws of physics are the same in all inertial frames of reference.</p>\r\n<p>Choose all statements below which are correct according to the principle of relativity.</p>\r\n<p>$hintlink[0]</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"The natural oscillation frequency of a pendulum is the same in all inertial reference frames.\",&\r\n                 \"The mass of a 1-kilogram mass is the same in all inertial reference frames.\",&\r\n                 \"The net force on a mass accelerating at 1 m/s<sup>2</sup> is the same in all inertial reference frames.\",&\r\n                 \"The kinetic energy of a 1-kilogram mass is the same in all inertial reference frames.\",&\r\n                 \"The speed of a bird flying overhead is the same in all inertial reference frames.\")\r\n$answers=\"0,1,2\"\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.02%3A_Einsteins_Postulates\\\" target=\\\"_blank\\\">Section 13.2 Einstein's Postulates</a>. Be mindful what the principle says is that the <em>laws</em> are the same between reference frames that are moving at a constant relative velocities to each other (\\\"all inertial reference frames\\\"). There are <em>physical quantities</em> that are different in different inertial reference frames; it's the laws that govern them that remain unchanging.\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "761",
+      "source_uniqueid": "1532144919446006",
+      "description": "Introduction to Physics - Special Relativity - Principle of Relativity - Q2 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "13939441e0d7a72c765344f45d3ff1e95ee0cea68ab2022c886dfeb251a9ab0f",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>Check your intuition and understanding of principle of relativity.</p>\r\n<ol type=\"a\">\r\n  <li><p>Suppose that speed of sound in air under usual conditions (pressure of 1 atmosphere, room temperature, etc.) is 340 m/s. If you are in the pressurized cabin of an airplane flying at $vel m/s relative to the ground, when you hear someone speak in the airplane, what is the speed of their sound?</p>\r\n    <p>$hintlink[0]</p>\r\n    <p>Speed of sound made by someone on the airplane is $answerbox[0] m/s.</p>\r\n  </li>\r\n  <li><p>Suppose that you are able to observe the sound waves while standing on the ground. What range of speeds of the sound waves in the airplane do you see, relative to you?</p>\r\n    <p>$hintlink[1]</p>\r\n    <p>The speed of the sound wave propagating forward (to the front of the airplane) is $answerbox[1] m/s, and the speed of the sound wave propagating backward (to the back of the airplane) is $answerbox[2] m/s.</p>\r\n  </li>\r\n</ol>",
+      "control": "$anstypes=array(\"number\",\"number\",\"number\")\r\n$reltolerance=0.01\r\n\r\n$vel=rrand(250,330,10) // speed of airplane in m/s, not to exceed 340 m/s\r\n\r\n$answer[0]=340 // same as anywhere else\r\n$answer[1]=340+$vel\r\n$answer[2]=340-$vel\r\n\r\n$hinttext[0]=\"Consider any experience you may have riding an airplane or any other transportation. Do sounds different on the moving vehicles than on the \\\"stationary\\\" vehicles? (If necessary, review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.02%3A_Einsteins_Postulates\\\" target=\\\"_blank\\\">Section 13.2 Einstein's Postulates</a>.)\"\r\n$hintlink[0]=forminlinebutton(\"Hint for (a)\", $hinttext[0])\r\n\r\n$hinttext[1]=\"Treat sound waves like any other moving object. For example, if you can throw a ball at 20 m/s and you throw a ball forward while on a cart moving forward at 15 m/s; how fast is the ball moving relative to someone on the ground? How do things change when you through the ball backward? (If necessary, you can review \\\"Classical Velocity Addition\\\" section of <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.05%3A_Relativistic_Addition_of_Velocities\\\" target=\\\"_blank\\\">Section 13.5 Relativistic Addition of Velocities</a>.)\"\r\n$hintlink[1]=forminlinebutton(\"Hint for (b)\", $hinttext[1])"
+    },
+    {
+      "export_question_set_id": "759",
+      "source_uniqueid": "1532144962364157",
+      "description": "Introduction to Physics - Special Relativity - Postulates of Special Relativity - Q1 (updated to LibreTexts version)",
+      "qtype": "multans",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "3ec2480ad8752ea3b43aca27eecf2dfa6a1291f990b876de48f173a1e22fee1d",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>All the consequences of special relativity follow from the two postulates set down by Einstein. Select the two postulates of special relativity from the statements below.</p>\r\n<p>$hintlink[0]</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"The laws of physics are the same in all inertial reference frames.\",&\r\n                 \"The speed of light is `c` in all inertial reference frames.\",&\r\n                 \"The acceleration is proportional to the net force in all inertial reference frames.\",&\r\n                 \"For every action, there is an equal and opposite reaction.\", &\r\n                 \"In the absence of net work done by non-conservative force, mechanical energy is conserved.\")\r\n$answer=\"0,1\"\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.02%3A_Einsteins_Postulates\\\" target=\\\"_blank\\\">Section 13.2 Einstein's Postulates</a>. The first postulate will sound reasonable and intuitive. While the second postulate does not sound reasonable at first glance, it is nonetheless true (and it is equivalent to saying that Maxwell's equations were correct).\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "762",
+      "source_uniqueid": "1532145040650742",
+      "description": "Introduction to Physics - Special Relativity - Postulates of Special Relativity - Q2 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "2ca5d1c27bbe60b9aa7d5dd6d50594d9930247ca3aa44d454503d6996e5c08c7",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>Check your understanding of the postulates of special relativity.</p>\r\n<p>Give your answers in this question as a fraction of speed of light `c` (i.e. enter a numerical factor in the blank, 1 for speed equal to speed of light `c`, or smaller than 1 or greater than 1 as appropriate).</p>\r\n<ol type=\"a\">\r\n  <li><p>Suppose that you are on a spaceship moving at half the speed of light (`0.5c`). If someone fires a laser beam within the spaceship, what is the speed of this light?</p>\r\n    <p>$hintlink[0]</p>\r\n    <p>Speed of the light originating from within the spaceship is $answerbox[0]`c`.</p>\r\n  </li>\r\n  <li><p>Suppose that someone else on Earth (not moving with spaceship) is able to observe the same laser beam. What range of speeds of the light does the Earth observer observe?<p/>\r\n    <p>$hintlink[1]</p>\r\n    <p>The speed of the light wave propagating forward (to the front of the spaceship) is $answerbox[1]`c`, and the speed of the light wave propagating backward (to the back of the spaceship) is $answerbox[2]`c`.</p>\r\n  </li>\r\n</ol>",
+      "control": "$anstypes=array(\"number\",\"number\",\"number\")\r\n$abstolerance=0.000000001 // really the only acceptable answer should be *exact* 1\r\n\r\n$answer[0]=1\r\n$answer[1]=1\r\n$answer[2]=1\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.02%3A_Einsteins_Postulates\\\" target=\\\"_blank\\\">Section 13.2 Einstein's Postulates</a>. What does the second postulate of special relativity say?\"\r\n$hintlink[0]=forminlinebutton(\"Hint for (a)\", $hinttext[0])\r\n$hintlink[1]=forminlinebutton(\"Hint for (b)\", $hinttext[0])"
+    },
+    {
+      "export_question_set_id": "760",
+      "source_uniqueid": "1532146012057780",
+      "description": "Introduction to Physics - Special Relativity - Simultaneity - Q1 (updated to LibreTexts version)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "495f8e1043ae80503a0667f9c355e33d5a38da64a40614c31a5cdb291e8f30c9",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>One of the most important consequence of special relativity is that simultaneity is relative. What does it mean simultaneity is relative? Choose the correct explanation below.</p>\r\n<p>$hintlink[0]</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"Relativity of simultaneity means two events occurring at the same time but at different locations for one observer does not occur at the same time for another observer moving relative to the first observer.\",&\r\n                 \"Relativity of simultaneity means time is not a very meaningful physical quantity in special relativity and the time at which particular events cannot be determined with a great precision.\", &\r\n                 \"Relativity of simultaneity means relative to the attention paid by the observer, the observer observes different amount of time passing. The principle that \\\"watched pot never boils\\\" is an example.\", &\r\n                 \"Relativity of simultaneity means no two events can occur at the same time. The idea of simultaneity has to be rejected in special relativity, and our physical theories need to account for this fact.\")\r\n$answer=\"0\"\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.03%3A_Simultaneity_and_Time_Dilation\\\" target=\\\"_blank\\\">Section 13.3 Simultaneity And Time Dilation</a>. Read carefully the description of the Observer A on the train and the Observer B on the ground and what happens with the flashing light. (Hint: The flashing lights were arranged to be simultaneous in B's reference frame; a different description can be obtained by arranging them to be simultaneous in A's reference frame.)\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "763",
+      "source_uniqueid": "1532146066865982",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor Calculation - Q1 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "e4a3af1c12b28f172986d04fda6aabb96fb921b0970ad5b9a51d5cc672c6a0af",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>The Lorentz factor, `gamma = 1/sqrt(1-v^2//c^2)`, is the one of the two most important numerical parameters in special relativity (the other being expression of speed as a fraction of speed of light). It can be used to describe effects such as time dilation and length contraction, as well as measure momentum and energy. Compute this factor for below range of velocities to gain some basic intuition for this new parameter.</p>\r\n<p>$hintlink[0]</p>\r\n<ol type=\"a\">\r\n  <li>`gamma` for `v=0.001c` (0.1% of speed of light, or about 300,000 m/s; for comparison, Earth's orbital velocity around the Sun is about 30,000 m/s). `gamma=`$answerbox[0]. (Make sure to put in enough significant figures so that `gamma ne 1`.)</li>\r\n  <li>`gamma` for `v=0.5c` (50% of speed of light; this is typical of subatomic particle velocities that we need to start treating relativistically). `gamma=`$answerbox[1].</li>\r\n  <li>`gamma` for `v=0.99999999c` (speed of protons in LHC at close to the maximum beam energy). `gamma=`$answerbox[2]. (Be sure to use all the 9s given for `v`; missing a single 9 (or putting an additional one) could result in a large error in `gamma`.)</li>\r\n</ol>",
+      "control": "$anstypes=array(\"number\",\"number\",\"number\")\r\n$reltolerance=0.01\r\n$abstolerance[0]=0.0000001 // special for part (a) because gamma is very close to 1\r\n\r\n// numbers not randomized (difficult to randomize and illustrate numerical sense)\r\n$answer[0]=1/sqrt(1-0.001^2)\r\n$answer[1]=1/sqrt(1-0.5^2)\r\n$answer[2]=1/sqrt(1-0.99999999^2)\r\n\r\n$hinttext[0]=\"Use the given formula for `gamma`. Note that with `v` given as a fraction of `c`, in the fraction `v^2//c^2`, `c` just cancels out (so you don't even need to enter it). If you are not sure how to enter the formula on your calculator, use <a href=\\\"https://www.wolframalpha.com\\\" target=\\\"_blank\\\">Wolfram|Alpha</a>. For example, `1/sqrt(1-0.3^2)` would be entered on <a href=\\\"https://www.wolframalpha.com\\\" target=\\\"_blank\\\">Wolfram|Alpha</a> as \\\"1/sqrt(1-0.3^2)\\\". Watch out for the precision as indicated; this is one place where significant figures (that is, having enough of them) actually matters.\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "764",
+      "source_uniqueid": "1532146153375260",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor Calculation - Q2 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "611b377ef6d370328de613d034607e2d06e5eafc3393a773a307eae2adbcebf3",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>The Lorentz factor, `gamma=1/sqrt(1-v^2//c^2)`, is actually an equivalent way of specifying speed of an object. You can invert the mathematical relationship given to solve for `v`, `v=c*sqrt(1-1/gamma^2)`, meaning if you are given `gamma`, you can automatically calculate for `v` as a fraction of speed of light: `v/c=sqrt(1-1/gamma^2)`.</p>\r\n<p>Try some calculations below to see how this works.</p>\r\n<p>$hintlink[0]</p>\r\n<ol type=\"a\">\r\n  <li>Speed corresponding to `gamma=1+(5 times 10^-15)` is: <span style=\"white-space:nowrap;\">`v=`$answerbox[0]`c`.</span> (If your calculator cannot handle this&mdash;if it gives you `v=0`, it can't handle this&mdash;use <a href=\"https://www.wolframalpha.com\" target=\"_blank\">Wolfram|Alpha</a>, which can handle arbitrary-precision calculations. To see what this speed is in SI units, try plugging in `c=3 times 10^8\" m\"//\"s\"`.)</li>\r\n  <li>Speed corresponding to `gamma=2` is: <span style=\"white-space:nowrap;\">`v=`$answerbox[1]`c`.</span> (This is a typical relativistic speed.)</li>\r\n  <li>Speed corresponding to `gamma=12` is: <span style=\"white-space:nowrap;\">`v=`$answerbox[2]`c`.</span> (This is comparable to the speed of relativistic electrons used in a medical radiation-therapy beam. Make sure to enter enough significant figures so that your answer is not `1` here.)</li>\r\n</ol>\r\n<p>This is one way to see this: `v` is the parameter for speed that made sense in low-speed limit (doubling velocity, for example, leads to significant changes, like quadrupling kinetic energy). In high-speed limit (by which we mean speeds ever approaching speed of light `c` but never exceeding it), `gamma` is the parameter for speed that makes sense (as you will see later, doubling `gamma` leads to doubling of energy).</p>",
+      "control": "$anstypes=array(\"number\",\"number\",\"number\")\r\n$reltolerance=0.02\r\n$abstolerance[2]=0.001 // because the answer is essentially 0.999.. with the right number of 9s.\r\n\r\n$answer[0]=sqrt(1-1/(1+5e-15)^2)\r\n$answer[1]=sqrt(1-1/2^2)\r\n$answer[2]=sqrt(1-1/12^2)\r\n\r\n$hinttext[0]=\"Use the given formula for `v` in terms of `gamma`. If you are not sure how to enter the formula on your calculator, use <a href=\\\"https://www.wolframalpha.com\\\" target=\\\"_blank\\\">Wolfram|Alpha</a>. For example, `sqrt(1-1/3^2)` would be entered on <a href=\\\"https://www.wolframalpha.com\\\" target=\\\"_blank\\\">Wolfram|Alpha</a> as \\\"sqrt(1-1/3^2)\\\". Watch out for the precision as indicated; this is one place where significant figures (that is, having enough of them) actually matters.\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "765",
+      "source_uniqueid": "1532146748799581",
+      "description": "Introduction to Physics - Special Relativity - Time Dilation Calculation - Q1 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "73aac4014b9d587dc4c70b7faaadca9fb77b317ef71e4a487ff6387fc7391ddc",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>Imagine a hypothetical unstable particle which lives for $time &mu;s when it is at rest. Calculate its lifetime in the lab frame for the scenarios below.</p>\r\n<p>$hintlink[0]</p>\r\n<ol type=\"a\">\r\n  <li>If it is accelerated to half the speed of light (`v=0.5c`), the particle lives for $answerbox[0]&mu;s.</li>\r\n  <li>If it is accelerated to 90% of the speed of light (`v=0.90c`), the particle lives for $answerbox[1]&mu;s.</li>\r\n  <li>If it is accelerated to 99.95% of the speed of light (`v=0.9995c`), the particle lives for $answerbox[2]&mu;s. (An experiment similar to this was set up for <a href=\"https://en.wikipedia.org/wiki/Muon_g-2\" target=\"_blank\">precision measurement of gyromagnetic ratio of muon</a>, a particle similar to the electron, except that it's heavier and unstable.)\r\n</ol>",
+      "control": "$anstypes=array(\"number\",\"number\",\"number\")\r\n$reltolerance=0.01\r\n\r\n$time=rrand(1,4,0.5) // lifetime of the paricle in microseconds\r\n\r\n$answer[0]=$time/sqrt(1-0.5^2)\r\n$answer[1]=$time/sqrt(1-0.9^2)\r\n$answer[2]=$time/sqrt(1-0.9995^2)\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.03%3A_Simultaneity_and_Time_Dilation\\\" target=\\\"_blank\\\">Section 13.3 Simultaneity And Time Dilation</a> for the description of time-dilation effect. To avoid mistakes in calculation, calculate the Lorentz factor `gamma' first.\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "766",
+      "source_uniqueid": "1532146798997542",
+      "description": "Introduction to Physics - Special Relativity - Length Contraction Calculations - Q1 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "defb232d6b91d2c2e99a86c4c058ae3a99bf01866bd8c99e7aba452e0b4491d2",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>Although length contraction&mdash;unlike time dilation&mdash;is difficult to observe directly, it is an important special relativistic effect that you should understand how it applies to a physically possible situation. Consider two observers, Alice and Bob, each holding a meter stick parallel to their direction of motion, moving toward each other at `0.5c` in the lab frame.</p>\r\n<p>So, from the perspective of Alice, Bob is moving towards her at `0.8c` (see <a href=\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.05%3A_Relativistic_Addition_of_Velocities#Relativistic_Velocity_Addition-2753\" target=\"_blank\">velocity addition</a>). And from the perspective of Bob, Alice is moving towards him at `0.8c`</p>\r\n<p>$hintlink[0]</p>\r\n<ol type=\"a\">\r\n  <li>When Alice measures Bob's meter stick, Alice measures Bob's meter stick to be $answerbox[0] meter long.</li>\r\n  <li>When Bob measures Alice's meter stick, Bob measures Alice's meter stick to be $answerbox[1] meter long.</li>\r\n</ol>",
+      "control": "$anstypes=array(\"number\",\"number\")\r\n$reltolerance=0.01\r\n\r\n$answer[0]=sqrt(1-0.8^2) // hardcoded numbers for the question\r\n$answer[1]=sqrt(1-0.8^2)\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.04%3A_Length_Contraction\\\" target=\\\"_blank\\\">13.4 Length Contraction</a>. If the result you are getting appears paradoxical to you, yes, this is known as \\\"<a href=\\\"https://en.wikipedia.org/wiki/Ladder_paradox\\\" target=\\\"_blank\\\">ladder paradox</a>\\\" and the proper resolution of this depends on correct understanding of relativity of simultaneity.\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "767",
+      "source_uniqueid": "1532147087770690",
+      "description": "Introduction to Physics - Special Relativity - Velocity Addition Calculation - Q1 (updated to LibreTexts version)",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "70",
+        "71",
+        "106"
+      ],
+      "payload_sha256": "08dbd34092c9b3a7e509759bb6b2106dbb75b480908a05a163c182892aadb6fc",
+      "assessment_titles": [
+        "Question Set 11: Special Relativity",
+        "Question Set 11 Assessment",
+        "Questions and Exercises for \"Chapter 13: Special Relativity\""
+      ],
+      "qtext": "<p>In Newtonian mechanics, velocities add in an intuitive way: so if a launcher that can launch a ball horizontally at 20 m/s launches a ball forward while on a car moving at 30 m/s, the ball is launched at 50 m/s relative to the ground (you could say `u=v+u'`, where `u'` is the velocity of object within the reference frame moving relative to the \"lab\", `u` is the velocity of the object in the lab frame, and `v` is the speed of the moving reference frame relative to the lab frame).</p>\r\n<p>In special relativity, velocities do not add in an intuitive way; instead, they add according to this formula:</p>\r\n<p style=\"text-align:center;\">`u=(v+u')/(1+vu'//c^2)`</p>\r\n<p>Try below calculations to help you understand the meaning of this formula. All velocities are given as fraction of speed of light `c` (so no need to enter `c`; factors of `c` cancel out in the formula).</p>\r\n<p>$hintlink[0]</p>\r\n<ol type=\"a\">\r\n  <li>Suppose that a pitcher who can throw a ball at `u'=0.0000001c` is on a truck moving at `v=0.0000001c`. The velocity of the ball relative to the ground as the pitcher throws the ball forward is <span style=\"white-space:nowrap;\">`u=`$answerbox[0]`c`</span>. (The agreement between this and the results of Newtonian mechanics is called <a href=\"https://en.wikipedia.org/wiki/Correspondence_principle#Other_scientific_theories\"  target=\"_blank\">correspondence principle</a>.)</li>\r\n  <li>Suppose that a spaceship fires a relativistic kinetic missile at `u'=0.9c` relative to itself while approaching its target at `v=0.5c`. The speed of the relativistic kinetic missile as measured by the target is <span style=\"white-space:nowrap;\">`u=`$answerbox[1]`c`.</span></li>\r\n  <li>Suppose the spaceship fires a laser beam at a target (so `u'=c`, since it's light) while approaching its target at `v=0.5c`. The speed of the laser beam as measured by the target is <span style=\"white-space:nowrap;\">`u=`$answerbox[2]`c`.</span> (This is consistent with the second postulate of special relativity, as to be expected.)</li>\r\n</ol>",
+      "control": "$anstypes=array(\"number\",\"number\",\"number\")\r\n$reltolerance=0.01\r\n\r\n$answer[0]=(0.0000001+0.0000001)/(1+0.0000001*0.0000001) // hardcoded answers\r\n$answer[1]=(0.9+0.5)/(1+0.9*0.5)\r\n$answer[2]=(1+0.5)/(1+1*0.5) // I mean ...\r\n\r\n$hinttext[0]=\"Review <a href=\\\"https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/05%3A_Unit_4-_Modern_Physics_-_Quantum_Mechanics_Special_Relativity_and_Nuclear_and_Particle_Physics/13%3A_Special_Relativity/13.05%3A_Relativistic_Addition_of_Velocities\\\" target=\\\"_blank\\\">Section 13.5 Relativistic Addition of Velocities</a> if necessary.\"\r\n$hintlink[0]=forminlinebutton(\"Hint\",$hinttext[0])"
+    },
+    {
+      "export_question_set_id": "863",
+      "source_uniqueid": "1532226453501686",
+      "description": "Introduction to Physics - Special Relativity - Simultaneity - Q1 (test bank version)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "9c9503123601e4a145dfbe4415614f62b55c08dc45451d0043e0d1829301d685",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>One of the most important consequence of special relativity is that simultaneity is relative. What does it mean simultaneity is relative? Choose the correct explanation below.</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"Relativity of simultaneity means two events occurring at the same time but at different locations for one observer does not occur at the same time for another observer moving relative to the first observer.\",&\r\n                 \"Relativity of simultaneity means time is not a very meaningful physical quantity in special relativity and the time at which particular events cannot be determined with a great precision.\", &\r\n                 \"Relativity of simultaneity means relative to the attention paid by the observer, the observer observes different amount of time passing. The principle that \\\"watched pot never boils\\\" is an example.\", &\r\n                 \"Relativity of simultaneity means no two events can occur at the same time. The idea of simultaneity has to be rejected in special relativity, and our physical theories need to account for this fact.\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "858",
+      "source_uniqueid": "1532228304149146",
+      "description": "Introduction to Physics - Special Relativity - Postulates of Special Relativity - Q1 (test bank version)",
+      "qtype": "multans",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "eb392458e5cd581f4529e0a5536ed101e2d6dbb67fbecc3e97fa2758b5de31d8",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>All the consequences of special relativity follow from the two postulates set down by Einstein. Select the two postulates of special relativity from the statements below. You must choose <em>BOTH</em> postulates for your answer to be considered correct.</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"The laws of physics are the same in all inertial reference frames.\",&\r\n                 \"The speed of light is `c` in all inertial reference frames.\",&\r\n                 \"The acceleration is proportional to the net force in all inertial reference frames.\",&\r\n                 \"For every action, there is an equal and opposite reaction.\", &\r\n                 \"In the absence of net work done by non-conservative force, mechanical energy is conserved.\")\r\n$answer=\"0,1\"\r\n\r\n$scoremethod=\"allornothing\""
+    },
+    {
+      "export_question_set_id": "860",
+      "source_uniqueid": "1532228418181362",
+      "description": "Introduction to Physics - Special Relativity - Principle of Relativity - Q1 (test bank version, two versions in one)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "03e7a0074d792e0994551d25578221eaed6cdb221966159a3688aaae18a51382",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>Choose the statement below which is <em>INCORRECT</em> according to the principle of relativity.</p>\r\n<p>$answerbox</p>",
+      "control": "$correctchoice=randfrom(array(\r\n  \"The kinetic energy of a 1-kilogram mass is the same in all inertial reference frames.\",&\r\n  \"The speed of a bird flying overhead is the same in all inertial reference frames.\"))\r\n$distractors=array(\r\n  \"The natural oscillation frequency of a pendulum is the same in all inertial reference frames.\",&\r\n  \"The mass of a 1-kilogram mass is the same in all inertial reference frames.\",&\r\n  \"The net force on a mass accelerating at 1 m/s<sup>2</sup> is the same in all inertial reference frames.\")\r\n$questions=unionarrays(array($correctchoice),$distractors)\r\n$answer=0"
+    },
+    {
+      "export_question_set_id": "850",
+      "source_uniqueid": "1532305999854793",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q1 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "6cbb391808e22cca838a048af63ae21de6a006dd5f2a9cbd9c974eb0c5b9175e",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>What is the Lorentz factor `gamma` if `v=$v c`?</p>\r\n<p>$answerbox</p>",
+      "control": "$v=0.5\r\n\r\n$a=prettysigfig(1/sqrt(1-$v^2),3)\r\n$b=prettysigfig(sqrt(1-$v^2),3)\r\n$c=prettysigfig(1/(1-$v^2),3)\r\n$d=prettysigfig($v,3)\r\n\r\n$questions=array(\"`gamma=$a`\",\"`gamma=$b`\",\"`gamma=$c`\",\"`gamma=$d`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "851",
+      "source_uniqueid": "1532306066426958",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q2 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "268bef5d152f65e121680b335baee92ae7418d4893c3c56c0d24bc9b54a80b11",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>What is the Lorentz factor `gamma` if `v=$v c`?</p>\r\n<p>$answerbox</p>",
+      "control": "$v=0.25\r\n\r\n$a=prettysigfig(1/sqrt(1-$v^2),3)\r\n$b=prettysigfig(sqrt(1-$v^2),3)\r\n$c=prettysigfig(1/(1-$v^2),3)\r\n$d=prettysigfig($v,3)\r\n\r\n$questions=array(\"`gamma=$a`\",\"`gamma=$b`\",\"`gamma=$c`\",\"`gamma=$d`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "864",
+      "source_uniqueid": "1532306320375355",
+      "description": "Introduction to Physics - Special Relativity - Time Dilation - Q1 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "502fb72e8b1060ef8afc992991958e52d6d6e95c3d25a7c131c19e31311e5142",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>A neutral &pi;-meson is a particle that can be created by accelerator beams. If one such particle lives `1.40 times 10^-16\\ \"s\"` as measured in the laboratory and `0.840 times 10^-16\\ \"s\"` as measured in its own inertial reference frame, what is the time dilation factor `gamma`?</p>\r\n<p>$answerbox</p>",
+      "control": "$t1=1.40\r\n$t2=0.84\r\n\r\n$a=prettysigfig($t1/$t2,3)\r\n$b=prettysigfig($t2/$t1,3)\r\n$c=prettysigfig(($t1/$t2)^2,3)\r\n$d=prettysigfig(sqrt($t1/$t2),3)\r\n\r\n$questions=array(\"`gamma=$a`\",\"`gamma=$b`\",\"`gamma=$c`\",\"`gamma=$d`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "852",
+      "source_uniqueid": "1532306485358278",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q3 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "731c0f52fb57687582681b208b445e54bc51fcd4b4912bc6461a695db214c9c5",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>If the time dilation factor `gamma` for a moving clock is `gamma=$gamma`, how fast is it moving?</p>\r\n<p>$answerbox</p>",
+      "control": "$gamma=10\r\n\r\n$a=prettysigfig(sqrt(1-1/$gamma^2),3)\r\n$b=prettysigfig(1-1/$gamma^2,3)\r\n$c=prettysigfig(1-1/$gamma,3)\r\n$d=prettysigfig(sqrt(1-1/$gamma),3)\r\n\r\n$questions=array(\"`v=$a c`\",\"`v=$b c`\",\"`v=$c c`\",\"`v=$d c`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "865",
+      "source_uniqueid": "1532306792978418",
+      "description": "Introduction to Physics - Special Relativity - Time Dilation - Q2 (test bank) ",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "aea6472883a0462000cdd116a9f8250cf944aeaba01e876a18dcef23672e3329",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>A neutron lives 900 s when at rest relative to an observer. How fast is the neutron moving relative to an observer who measures its lifetime to be $time s?</p>\r\n<p>$answerbox</p>",
+      "control": "$time=2065 // lifetime in seconds\r\n$gamma=$time/900 // gamma factor\r\n\r\n$a=prettysigfig(sqrt(1-1/$gamma^2),3)\r\n$b=prettysigfig((1-1/$gamma^2),3)\r\n$c=prettysigfig(1/$gamma,3)\r\n$d=prettysigfig($gamma,3)\r\n\r\n$questions=array(\"`v=$a c`\",\"`v=$b c`\",\"`v=$c c`\",\"`v=$d c`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "853",
+      "source_uniqueid": "1532307035717252",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q4 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "92ff9db9b8a0fcf4782bfada9e5e960ee7afbb7a69f2949eea1c0e9f08d30098",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>If the time dilation factor `gamma` for a moving clock is `gamma=$gamma`, how fast is it moving?</p>\r\n<p>$answerbox</p>",
+      "control": "$gamma=2\r\n\r\n$a=prettysigfig(sqrt(1-1/$gamma^2),3)\r\n$b=prettysigfig(1-1/$gamma^2,3)\r\n$c=prettysigfig(1-1/$gamma,3)\r\n$d=prettysigfig(sqrt(1-1/$gamma),3)\r\n\r\n$questions=array(\"`v=$a c`\",\"`v=$b c`\",\"`v=$c c`\",\"`v=$d c`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "854",
+      "source_uniqueid": "1532307083273756",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q5 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "8821753670ac2e0075edd7ffc717b1d0771e180b6799d148391cc1f6b0250f82",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>What is the Lorentz factor `gamma` if `v=$v c`?</p>\r\n<p>$answerbox</p>",
+      "control": "$v=0.1\r\n\r\n$a=prettysigfig(1/sqrt(1-$v^2),4)\r\n$b=prettysigfig(sqrt(1-$v^2),4)\r\n$c=prettysigfig(1/(1-$v^2),4)\r\n$d=prettysigfig($v,4)\r\n\r\n$questions=array(\"`gamma=$a`\",\"`gamma=$b`\",\"`gamma=$c`\",\"`gamma=$d`\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "866",
+      "source_uniqueid": "1532307351536535",
+      "description": "Introduction to Physics - Special Relativity - Time Dilation - Q3 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "6c5c6af725d6e3c44f53b01bcb3125918756978e8136cbd9f755d6daf33a583e",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>Alice and Bob are moving past each other at the speed of `v=0.8c` while carrying a clock. Choose the correct description of their observations below.</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"Both Alice and Bob measure the other's clock to be running slower than their own.\", \"Alice measures Bob's clock to be running slower than hers; Bob measures Alice's clock to be running faster.\", \"Bob measures Alice's clock to be running slower than his; Alice measures Bob's clock to be running faster.\", \"Both Alice and Bob measure the other's clock to be running faster than their own.\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "848",
+      "source_uniqueid": "1532307657076710",
+      "description": "Introduction to Physics - Special Relativity - Length Contraction - Q1 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "4f5fd167326d641e637034c15486c6b8e5549091648b778f8546cc31853d57c1",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>A spaceship, 200 m long as seen on board, moves by Earth at `$v c`. What is its length as measured by an Earth-bound observer?</p>\r\n<p>$answerbox</p>",
+      "control": "$v=0.97\r\n\r\n$a=prettysigfig(200*sqrt(1-$v^2),2)\r\n$b=prettysigfig(200/sqrt(1-$v^2),3)\r\n$c=prettysigfig(200*sqrt(1-$v),2)\r\n$d=prettysigfig(200*(1-$v^2),2)\r\n\r\n$questions=array(\"$a m\", \"$b m\", \"$c m\", \"$d m\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "855",
+      "source_uniqueid": "1532307925986057",
+      "description": "Introduction to Physics - Special Relativity - Postulates - Q1 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "7cbe68c878b613cd139a7a9aaa7fdf47e864de1d5f07a867a8969921951fc704",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>What did the Michelson-Morley interferometer experiment show?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"Speed of light is greater if a light source approached an observer.\", &\r\n                 \"Speed of light is less if an observer moved toward a light source.\", &\r\n                 \"Speed of light is of the same value in any state of relative motion.\", &\r\n                 \"Speed of light is greater if an observer moved toward a light source.\")\r\n$answer=\"2\""
+    },
+    {
+      "export_question_set_id": "845",
+      "source_uniqueid": "1532308022536132",
+      "description": "Introduction to Physics (Test Bank) - Special Relativity - Simultaneity - Q1",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "567f46117e0a350e31b7d17091907acddb60412227c8787ffa8a8b262cd3deed",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>If two events are simultaneous in one frame of reference, what can you say about these two events in a different reference frame?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"They may not be simultaneous in a frame moving relative to the first frame.\", &\r\n                 \"They are always simultaneous in any frame moving relative to the first frame.\", &\r\n                 \"They have an absolute simultaneity which holds in all reference frames.\", &\r\n                 \"They must occur at the same point in space, in at least one reference frame.\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "856",
+      "source_uniqueid": "1532308140751805",
+      "description": "Introduction to Physics - Special Relativity - Postulates - Q2 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "c9e2ae6b14d76d5a96c1481506de5d4a1e273082a274ae5ce08ebcfec1f41385",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>Time is required for light to travel along a path from one point to another. If this path is seen to be longer because of motion, what happens to the time it takes for light to travel this longer path?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"The time is zero.\", \"It takes a shorter time.\", \"It takes longer.\", \"The time is always the same, regardless of path length.\")\r\n$answer=\"2\""
+    },
+    {
+      "export_question_set_id": "849",
+      "source_uniqueid": "1532308239288111",
+      "description": "Introduction to Physics - Special Relativity - Length Contraction - Q2 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "049329badc821d6ca8139d0df157bbb4c62032d0d3a118a4963dc1ca46b29cb1",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>If you were traveling in a high-speed rocket ship, would metersticks on board appear to you to be contracted? Give the correct reasoning.</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"No. The stick is in your frame of reference.\", \"Yes. All moving objects experience length contraction in the direction of motion.\", \"Yes. All moving objects experience length contraction regardless of the direction of motion and the frame of reference.\", \"No. Space contracts, but physical objects do not.\")\r\n$answer=\"0\""
+    },
+    {
+      "export_question_set_id": "846",
+      "source_uniqueid": "1532308332676927",
+      "description": "Introduction to Physics - Special Relativity - Correspondence Principle - Q1 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "232641137d2601820a3b2e8f2fff1eba718cfdaec0cb664d283fd46fbae60fa9",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>How does the correspondence principle relate to special relativity?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"At relativistic velocities, Newton's equations approach the relativistic equations.\", &\r\n                 \"The correspondence principle does not apply to relativity&mdash;only to quantum mechanics.\", &\r\n                 \"The correspondence principle does not apply to relativity. Relativity requires a whole new way of thinking.\", &\r\n                 \"At everyday low velocities, relativistic equations approach the Newtonian equations.\")\r\n$answer=\"3\""
+    },
+    {
+      "export_question_set_id": "857",
+      "source_uniqueid": "1532308474948196",
+      "description": "Introduction to Physics - Special Relativity - Postulates - Q3 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "ea46dbff8a9f80e309eeb8f46fe36c7db458d944c5bfd26f85e237df7b33ecf8",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>Alice and Bob are in spaceships which are passing each other. Their velocity relative to each other is `0.5 c`. Alice fires a forward laser beam from her spaceship, and measures that the front of the beam moves away from her at speed `c`, the speed of light in vacuum. How fast does Bob see the laser beam moving?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"Bob sees it moving at `1.5 c`.\", \"Bob sees it moving at `0.5 c`.\", \"Bob sees it moving at `c` also.\", \"Bob cannot see the laser beam as it originates from an object moving relative to him.\")\r\n$answer=\"2\""
+    },
+    {
+      "export_question_set_id": "862",
+      "source_uniqueid": "1532308557632406",
+      "description": "Introduction to Physics - Special Relativity - Relativistic Energy - Q1",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "7419e3d21b1cf73e3acce2bc953ca8e22bee1dee9731e1a05aa5140c7532b03e",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>A free neutron decays into a proton and an electron in a process called \"beta decay.\" When a free neutron undergoes beta decay, the proton and the electron fly apart from each other. Where does this kinetic energy come from?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"The electrical repulsion between the proton and electron pushes them apart.\", \"Beta decay is one of the few processes in nature that allows an apparent violation of energy conservation by tapping into the vacuum zero point energy.\", \"The neutron has more mass than the mass of the proton and electron combined, which gives it more rest energy, and this rest energy is converted into kinetic energy in beta decay.\", \"The proton and electron only appear to fly apart but do not actually, because the beta decay only produces virtual particles.\")\r\n$answer=\"2\""
+    },
+    {
+      "export_question_set_id": "867",
+      "source_uniqueid": "1532308659095737",
+      "description": "Introduction to Physics - Special Relativity - Time Dilation - Q4 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "0d734fb7f91c16b9375b985eaf56c3b3938dc33f67696726550b77ab2463692b",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>What does time dilation effect in special relativity predict?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"It predicts that time goes slower when you are having fun.\", &\r\n                 \"It predicts that presence of ionizing radiation causes clocks to run slower.\", &\r\n                 \"It predicts that moving clocks run slower, when compared to clocks stationary in the observer's reference frame.\", &\r\n                 \"It predicts that stationary clocks slow down, when compared to clocks that are kept in constant motion.\")\r\n$answer=\"2\""
+    },
+    {
+      "export_question_set_id": "847",
+      "source_uniqueid": "1532308755866649",
+      "description": "Introduction to Physics - Special Relativity - Correspondence Principle - Q2 (test bank)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "0c9f5e7e96a7c2ff74ee2d3a09b8ba39f2837dc945ab6cdaf5d24e2d14a8a098",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>If special relativity is correct, why have you never noticed time-dilation and length-contraction effects in your everyday life?</p>\r\n<p>$answerbox</p>",
+      "control": "$questions=array(\"Our perception of space and time are subjective and complete objectivity is required to sense time dilation and length contraction.\", &\r\n                 \"Special relativity is not correct, which is why we do not notice time-dilation and length-contraction effects.\", &\r\n                 \"Time dilation and length contraction can only be measured with light-based clocks and rulers, which we do not use in everyday life.\", &\r\n                 \"Time-dilation and length-contraction effects only become significant for clocks and rulers moving at speeds comparable to speed of light, which rarely happen in everyday life.\")\r\n$answer=\"3\""
+    },
+    {
+      "export_question_set_id": "890",
+      "source_uniqueid": "1543703827229098",
+      "description": "Introduction to Physics (Essay Questions) - Special Relativity - Time-Dilation Paradox",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "81",
+        "108"
+      ],
+      "payload_sha256": "521baebdb9e65f46b057f2da7e478bb3d54a2a191f8f5303854da0605ba16ecb",
+      "assessment_titles": [
+        "Essay Timed Assessment for Chapter 13",
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>The postulates of special relativity sometimes lead us into conclusions that do not make sense with our classical intuitions; these cases are called \"paradoxes.\" Following is the situation sometimes referred to as \"time dilation paradox\": if Alice and Bob move relative to each other (at some relativistic velocity, so that the effects are clear), Alice observes Bob's clock as running slower than hers (Bob is moving relative to Alice), and Bob also observes Alice's clock as running slower than his (Alice is moving relative to Bob). Give a brief explanation of the time dilation paradox, making sure to address: (a) What aspect of the situation is considered \"paradoxical\" (by people who don't understand special relativity)? (b) What is the resolution of this paradox (by people who do understand special relativity)?</p>\r\n<p>$answerbox</p>",
+      "control": "$showanswer=\"(a) The \\\"paradox\\\" is, if Bob's clock is slower than Alice's clock (this is what Alice sees) and Alice's clock is slower than Bob's (this is what Bob sees), whose clock is <em>actually slower</em>? (b) The resolution of the \\\"paradox\\\" is in <em>relativity of simultaneity</em>. Once the two clocks are separated in distance, two observers in different inertial reference frames (that is, moving relative to each other) do not observe same two events as being simultaneous (that is, occurring at the same time). Consider this: Alice uses two events she observes as being simultaneous to compare the two clocks (Alice needs to compare her and Bob's clocks \\\"at the same\\\" later time, in order to see whose clock is slower). These same two events, from Bob's perspective, are not simultaneous (they don't just appear non-simultaneous, they really are not simultaneous in Bob's reference frame), so the comparison of clock speeds using these two events are not valid (and vice-versa holds for the two events Bob uses for Alice).\""
+    },
+    {
+      "export_question_set_id": "889",
+      "source_uniqueid": "1543704978239545",
+      "description": "Introduction to Physics (Essay Questions) - Special Relativity - SR Examples",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "81",
+        "108"
+      ],
+      "payload_sha256": "91849ae47ce860d1579656b5203e31a29cb79061d9e8bcf8e1d73e7bb03bd1d0",
+      "assessment_titles": [
+        "Essay Timed Assessment for Chapter 13",
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>It is sometimes said that relativity is too theoretical, with many of the predicted effects being hypothetical and difficult to observe. This statement, although true when Einstein discovered special and general relativity, is no longer true. Give two real-life examples/settings that illustrate special relativistic effects, explaining what is being illustrated. Examples may include examples from research, not necessarily \"everyday life\".</p>\r\n<p>$answerbox</p>",
+      "control": "$showanswer=\"Acceptable examples of special relativistic effects include but are not limited to:<ul>\r\n<li>Time-dilation effects experienced by Global Positioning System (GPS) satellites: the precision clocks on GPS satellites need to be corrected for special and general relativistic time-dilation effects. Without such corrections, position accuracy provided by GPS will be severely limited.</li>\r\n<li>Decay of unstable particles in particle accelerators: particle accelerators accelerate unstable particles to speeds near speed of light all the time, and in these situations, the unstable particles live for a much longer time, as would be expected from time-dilation effect.</li>\r\n<li>Nuclear reactions: nuclear reactions release enough energy that the mass change resulting from the relationship `E=mc^2` becomes measurable. In a nuclear fission, for example, the fission products (daughter nuclei and neutrons) have less total mass than the original atomic nucleus.</li>\r\n<li>Astronomical observations: in making astronomical observations, astronomers use special relativity all the time, particularly in inferring speeds of faraway objects from their \\\"redshift\\\" (Doppler effect of emitted light for objects moving away from us). The standard model of cosmology is also based on Einstein's theory of general relativity.</li></ul>\r\nTwo examples are required for full credit.\""
+    },
+    {
+      "export_question_set_id": "891",
+      "source_uniqueid": "1544121191388552",
+      "description": "Introduction to Physics (Essay Questions) - Special Relativity - Relativity of Simultaneity",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "81",
+        "108"
+      ],
+      "payload_sha256": "28f38160ee3b5a535ffda520248e69b8307ad4abbd84251f1cb41cf9aa21fc2f",
+      "assessment_titles": [
+        "Essay Timed Assessment for Chapter 13",
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>The two postulates of special relativity sometimes lead us into conclusions that do not make sense with our classical intuitions; these cases are called \"paradoxes.\" In many resolutions of these paradoxes, one key result in special relativity, \"relativity of simultaneity\" plays a key role. Explain what \"relativity of simultaneity\" is and describe one situation where this understanding helps resolve a special relativity paradox.</p>\r\n<p>$answerbox</p>",
+      "control": "$showanswer=\"<p>Relativity of simultaneity means: \\\"Two events that are simultaneous in one inertial reference frame (they occur at the same time) may not be simultaneous in another inertial reference frame (they do <em>not</em> occur at the same time).\\\"</p><p>This is used to resolve the twins paradox (when the traveling twin's sense of simultaneity shifts is when the Earth twin suddenly ages up, from the traveling twin's perspective).</p>\r\n<p>It can also be used to resolve the ladder paradox (not covered in this class, but it's the length-contraction version of time dilation paradox). Whenever you measure the length of something, you are making a <em>simultaneous</em> position measurements of the endpoints, so what is a valid length measurement in one inertial reference frame is not a valid length measurement in another inertial reference frame moving relative to it (the position measurements weren't made simultaneously).</p>\""
+    },
+    {
+      "export_question_set_id": "861",
+      "source_uniqueid": "1578592641958622",
+      "description": "Introduction to Physics - Special Relativity - Principle of Relativity - Q2 (test bank version, sound waves)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "0b2ded34a72d1f012898226b07c03d5ea05b7df7b364a3cff9bf22f0f2de0ac3",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>Suppose that speed of sound in the pressurized cabin of an airplane is $c m/s. The airplane is flying at $vels[0] m/s relative to the ground. If an observer on the ground is able to observe sound waves in the airplane, how fast does the sound wave travel from the back to the front of the airplane? Give the correct speed of the sound wave relative to the ground.</p>\r\n<p>$answerbox</p>",
+      "control": "$vels=diffrrands(250,330,30,2) // speed of airplane in m/s, not to exceed 340 m/s\r\n$c=340 // speed of sound in m/s\r\n// build three different types of distractors\r\n// $c + $vels (the first one will be correct)\r\nfor ($i=0..1) {$questions[]=prettyreal($c+$vels[$i]).\" m/s relative to the ground\"}\r\n// $c - $vels (all incorrect)\r\nfor ($i=0..1) {$questions[]=prettyreal($c-$vels[$i]).\" m/s relative to the ground\"}\r\n// $c (incorrect here)\r\n$questions[]=prettyreal($c).\" m/s relative to the ground\"\r\n$answer=0 // correct by construction and question wording\r\n\r\n// original multipart coding below\r\n//$anstypes=array(\"number\",\"number\",\"number\")\r\n//$reltolerance=0.01\r\n//$vel=rrand(250,330,10) // speed of airplane in m/s, not to exceed 340 m/s\r\n//$answer[0]=340 // same as anywhere else\r\n//$answer[1]=340+$vel\r\n//$answer[2]=340-$vel"
+    },
+    {
+      "export_question_set_id": "859",
+      "source_uniqueid": "1578593587921695",
+      "description": "Introduction to Physics - Special Relativity - Postulates of Special Relativity - Q2 (test bank version, light waves)",
+      "qtype": "choices",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "78"
+      ],
+      "payload_sha256": "71f3720ace66fbe18e1b9fdde95bfb9b5265798660ff2727da4ed7ed88e5baca",
+      "assessment_titles": [
+        "Multiple-Choice Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>Suppose that a spaceship is moving towards Earth at $pcts[0]% of the speed of light (`$fracs[0] c`; `c` is speed of light in vacuum). If someone on spaceship fires a laser beam towards Earth, and an observer on Earth observes the light waves of the laser beam, how fast does the light wave travel? Give the correct speed of the light wave relative to the Earth.<p/>\r\n<p>$answerbox</p>",
+      "control": "$fracs=diffrrands(0.3,0.9,0.3,2) // speed of spaceship as a fraction of light\r\n$pcts=calconarray($fracs,\"prettyreal(x*100)\") // percentages for question wording\r\n// build three different types of distractors\r\n// $c (this is the correct one)\r\n$questions[]=\"`1.0c` relative to the Earth\"\r\n// $c + $fracs*c (all incorrect)\r\nfor ($i=0..1) {$questions[]=\"`\".prettyreal(1+$fracs[$i],1).\"c` relative to the Earth\"}\r\n// $c - $fracs*c (all incorrect)\r\nfor ($i=0..1) {$questions[]=\"`\".prettyreal(1-$fracs[$i],1).\"c` relative to the Earth\"}\r\n$answer=0 // correct by construction and question wording\r\n\r\n// original multipart coding below\r\n//$anstypes=array(\"number\",\"number\",\"number\")\r\n//$abstolerance=0.000000001 // really the only acceptable answer should be *exact* 1\r\n//$answer[0]=1\r\n//$answer[1]=1\r\n//$answer[2]=1"
+    },
+    {
+      "export_question_set_id": "892",
+      "source_uniqueid": "1619040382005633",
+      "description": "Introduction to Physics (Essay Questions) - Chapter 13 Special Relativity Open-Ended Question (updated to LibreTexts version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "81"
+      ],
+      "payload_sha256": "b52341ba7b79c948f805625882530e875a9f1e2f0751fa19c6a80b5e794a6742",
+      "assessment_titles": [
+        "Essay Timed Assessment for Chapter 13"
+      ],
+      "qtext": "<p>In Chapter 13, the postulates of special relativity as well as their consequences were described. In your own words, summarize in 200 or fewer words key points you learned in this chapter.</p>\r\n$answerbox",
+      "control": "$showanswer=\"Students should respond in 200 or fewer words summarizing key learning objectives from the chapter. Not all learning objectives need to be cited (responses are individual); responses should be graded on 5-point holistic grading scale.\""
+    },
+    {
+      "export_question_set_id": "746",
+      "source_uniqueid": "1776097307195929",
+      "description": "Physics 10 - Lecture 26, Section 1 - Chapter 13 Overview\r\n [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "68"
+      ],
+      "payload_sha256": "8848104b984d0f60a3060f7ed4089ba70b68d77361a4b23e15898dabf937e52f",
+      "assessment_titles": [
+        "Lecture 26 - Postulates of Special Relativity and Relativity of Simultaneity"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words/phrases in this quote from the lecture. Each blank is a single word.</p>\r\n<p style=\"padding-left:40px;\"><em>And I guess I would summarize this as time dilation. It says \"time passes slower.\" Or I would say, \"moving clocks are $answerbox[0],\" because they are. If a clock is moving, the number of seconds they tick down, it will be slow compared to your clock, which is stationary. And in the lecture, you will see this derived. And length contraction says \"shortening of length along direction of motion.\" Or the way I would phrase it is, \"moving rulers are $answerbox[1].\" As in, if you have a meter stick that's moving relative to you and you measure its length, you will find that it's shorter than a meter.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, which idea is presented as one of the most fundamental and especially counterintuitive consequences of special relativity? $answerbox[2]</p>\r\n<!-- Question 3 - T/F questions -->\r\n<p>C | Which statements agree with this Chapter 13 overview section? <em>(Select all that apply.)</em> $answerbox[3]</p>",
+      "control": "$anstypes=\"string,string,choices,multans\"\r\n\r\n// Ensure Q1 as a whole has same weight as Q2 and Q3\r\n$answeights=array(0.5,0.5,1,1)\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"slow\"\r\n$answer[1]=\"short\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[2]=array(\r\n  \"Simultaneity is relative rather than absolute.\",\r\n\t\"Gravity becomes stronger at high speed.\",\r\n\t\"Electric charge disappears in moving frames.\",\r\n\t\"All observers measure the same length for moving rulers.\")\r\n$answer[2]=0\r\n\r\n// Question 3 - T/F questions\r\n$questions[3]=array(\r\n  \"The lecture says this chapter is a little more mathematical than much of the rest of the textbook.\",\r\n\t\"The lecture says the homework math level is still in line with what students have already been using in the course.\",\r\n\t\"The principle of relativity is presented as older than Einstein.\",\r\n\t\"Einstein's second postulate is introduced as the constancy of the speed of light.\",\r\n\t\"Time dilation and length contraction are previewed as major topics later in the chapter.\",\r\n\t\"The lecture says the chapter relies heavily on trigonometry.\",\r\n\t\"The lecture says simultaneity is absolute.\")\r\n$answer[3]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "747",
+      "source_uniqueid": "1776097709532780",
+      "description": "Physics 10 - Lecture 26, Section 2 - Principle of Relativity (and the problem with the speed of light) [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "68"
+      ],
+      "payload_sha256": "c2a6ec4c844b27ed5a8aa8b8ad7a0d24bb377ec9b451507ca2c0f6c5ae98bc70",
+      "assessment_titles": [
+        "Lecture 26 - Postulates of Special Relativity and Relativity of Simultaneity"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words in this quote from the lecture. Fill in the first blank (a single word); the other blanks use the same word.</p>\r\n<p style=\"padding-left:40px;\"><em>And when we come back, I want to describe an experiment that helped people accept this reality that speed of light is constant in all inertial reference frames. But as we go into that, this is really the maxim I want to leave you with: \"No one is born with $answerbox[0] in special relativity.\" So, as we go through in special relativity, the thing that will make your life easy is if you accept that all of you have wrong <strong>_________</strong>. I had wrong <strong>_________</strong> until, I don't know ... until about 10 years ago. So, no one comes into special relativity having any kind of correct <strong>_________</strong>. So, if your <strong>_________</strong> and your math disagrees, the math is probably right. And the hard work in special relativity is reforming your <strong>_________</strong> so that it actually agrees with reality.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, why is the changing observed speed of sound not considered a problem for the principle of relativity? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"intuition\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"Because sound travels relative to a medium, and the medium can be moving\",\r\n  \"Because sound is actually a kind of electromagnetic wave in vacuum\",\r\n  \"Because sound always has the same speed in every reference frame\",\r\n  \"Because the laws of physics do not apply to sound waves\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"The principle of relativity is summarized as saying the laws of physics are the same in all inertial reference frames.\",\r\n  \"In this lecture, an inertial reference frame is explained as a non-accelerating reference frame.\",\r\n  \"The lecture says light is problematic because it can travel through vacuum.\",\r\n  \"The expression for the speed of light is tied to constants from Maxwell's equations.\",\r\n  \"The lecture says students should expect their everyday intuition about special relativity to be unreliable at first.\",\r\n  \"The lecture says sound provides no challenge at all because sound has no medium.\",\r\n  \"The lecture says the vacuum can be treated as a moving medium in the same way air can.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "748",
+      "source_uniqueid": "1776098125550911",
+      "description": "Physics 10 - Lecture 26, Section 3 - The Michelson-Morley Experiment [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "68"
+      ],
+      "payload_sha256": "34a78af72f5f43aaee69b4b65c78a3aad0a8400097ae1fc9faedb14a005a10f0",
+      "assessment_titles": [
+        "Lecture 26 - Postulates of Special Relativity and Relativity of Simultaneity"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing word (a single word) in this quote from the lecture.</p>\r\n<p style=\"padding-left:40px;\"><em>So, this is an example of a $answerbox[0] experiment where experimentalists actually saw nothing. So, you would think, \"Doesn't that mean they failed?\" Like, this happens a lot in actually other fields, like in psychology. People hypothesize some effect, you do an experiment, you see nothing, and that doesn't get published. Because no one's surprised by the fact that nothing happened. So, but sometimes there's such a heavy expectation for finding something. The fact that you found nothing actually becomes a surprising fact that you have to try to explain in your theory.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what were Michelson and Morley trying to measure with their interferometer? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on the Michelson-Morley experiment? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"null\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n\t\"The aether drift, or how fast Earth was moving through aether\",\r\n  \"The mass of the electron\",\r\n  \"The gravitational pull of the Sun on light\",\r\n  \"The charge of the proton\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"Some physicists introduced luminiferous aether as a medium for light.\",\r\n  \"Michelson and Morley expected that motion through aether could produce a detectable difference in travel times along the two interferometer arms.\",\r\n  \"The lecture describes the experiment as a null experiment because a strong expected effect was not observed.\",\r\n  \"The section says the null result pushed physicists to try to explain why nothing was seen.\",\r\n  \"The lecture mentions Lorentz as someone who proposed that moving objects might change length.\",\r\n  \"The lecture says Michelson and Morley clearly measured Earth's orbital motion through aether.\",\r\n  \"The section says Einstein's original special relativity paper was directly based on Michelson and Morley's experiment.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "749",
+      "source_uniqueid": "1776098579436530",
+      "description": "Physics 10 - Lecture 26, Section 4 - Postulates of Special Relativity and Its First Application, Relativity of Simultaneity [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "68"
+      ],
+      "payload_sha256": "a28639e27cff9515de8895112223ba084a49233a9394fd97d51cc64499275a5f",
+      "assessment_titles": [
+        "Lecture 26 - Postulates of Special Relativity and Relativity of Simultaneity"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words (a three-word sentence) in this quote from the lecture.</p>\r\n<p style=\"padding-left:40px;\"><em>What Bob observes of these two events is that they are not simultaneous. And this is what leads us to say ..., \"$answerbox[0].\" Meaning if you have two events that is simultaneous in one inertial reference frame, ... then ... especially if they are separated in space ... it is possible to find another reference frame where they are not simultaneous.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | In this lecture section, the instructor says the second postulate of special relativity can be succinctly described as the \"correctness of Maxwell's theory of electrodynamics.\" Why? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on the postulates of special relativity and simultaneity? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"simultaneity is relative\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"Because if Maxwell's theory is correct, then light must travel at speed `c` in vacuum, and by the first postulate this must hold in all inertial reference frames.\",\r\n\t\"Because Maxwell's theory says light needs a luminiferous aether in order to propagate.\",\r\n  \"Because Maxwell's theory proves that simultaneity is absolute in every reference frame.\",\r\n\t\"Because Maxwell's theory says the speed of light depends on the speed of the source.\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"The first postulate is the principle that the laws of physics are the same in all inertial reference frames.\",\r\n  \"The second postulate says the speed of light in vacuum is always `c` in all inertial reference frames.\",\r\n  \"The lecture says special relativity is unusual because much of it can be built from the two postulates plus existing laws of physics.\",\r\n  \"In Bob's frame, the light reaches the rear of the train before it reaches the front.\",\r\n\t\"The lecture says many conceptual difficulties in special relativity ultimately come from relativity of simultaneity.\",\r\n\t\"In the lecture's relativity-of-simultaneity example, Alice and Bob must agree that the two detection events are simultaneous.\",\r\n  \"The lecture says students should trust their ordinary intuition over the postulates whenever the two conflict.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "750",
+      "source_uniqueid": "1776099194739717",
+      "description": "Physics 10 - Lecture 26, Section 5 - Relativity of Simultaneity, the Errata Example [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "68"
+      ],
+      "payload_sha256": "c9fbe80ee87daf175f32a338de8f7ff2a20624c8aec32b4fb7f725f8a2b7be7c",
+      "assessment_titles": [
+        "Lecture 26 - Postulates of Special Relativity and Relativity of Simultaneity"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words in this quote from the lecture. Fill in the first blank (a two-word phrase); the other blank uses the same phrase.</p>\r\n<p style=\"padding-left:40px;\"><em>This setup is something that can be used to trigger these two lamps simultaneously in the train's reference frame. And what you see here described is that once you've set up that way, set it up so that this light pulse will reach A (front) and B (back) simultaneously, then what you will find is that working through this here and applying the second postulate of, I guess I kind of describe it around here also.  So in the reference frame of the guy who is on the train station, the light pulse that reaches the back end of the train, that reaches it before the light pulse that reaches the front end of the train. So once you set up a set of events to be simultaneous or a pair of events to be simultaneous, you have to pick a $answerbox[0] in which they can be [happening] simultaneously. And I think with the tools we are introducing this week, if this is leaving you maybe confused, I think I would rather you be confused than to not fully absorb the fact that simultaneity is not an absolute thing in special relativity. That whether two events are simultaneous or not, it depends on what <strong>_________</strong> you observe that in.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what was the main mistake in the errata example? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on the errata example and simultaneity? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"reference, frame\" // for intended answer \"reference frame\" and variations\r\n$strflags=\"ignore_case=1,remove_whitespace=1,all_words=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"It assumed the flashes were set up to be simultaneous in observer A's frame, instead of recognizing that the setup was meant to make them simultaneous in observer B's frame.\",\r\n  \"It assumed that Maxwell's equations are incorrect.\",\r\n\t\"It assumed that light travels slower than sound.\",\r\n\t\"It assumed that spacetime diagrams can never be used for simultaneity questions.\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"The lecture says that when you say two events happen \\\"at the same time,\\\" you must specify a reference frame.\",\r\n  \"The lecture says the textbook wording can make it easier for readers to assume the wrong frame for simultaneity.\",\r\n  \"The lecture points out that if two flashes arrive together at observer A, that arrival fact itself should be agreed upon by other observers too.\",\r\n  \"The lecture says spacetime diagrams are previewed as a clearer tool for thinking about simultaneity.\",\r\n  \"The lecture says even people experienced in physics can get tripped up by relativity of simultaneity.\",\r\n  \"The lecture says whether two events are simultaneous is absolute and does not depend on the observer's frame.\",\r\n\t\"The lecture says students should keep their classical intuition that simultaneity never depends on coordinates.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "751",
+      "source_uniqueid": "1776099798785276",
+      "description": "Physics 10 - Lecture 26, Section 6 - Spacetime Diagrams [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "68"
+      ],
+      "payload_sha256": "6fb34a58faa5a98d0fabeb47938605620046ef20215df533a17015c60c27e985",
+      "assessment_titles": [
+        "Lecture 26 - Postulates of Special Relativity and Relativity of Simultaneity"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words (a two-word phrase) in this quote from the lecture.</p>\r\n<p style=\"padding-left:40px;\"><em>On this spacetime diagram, we can illustrate the trajectory of these points. These are set of space and time coordinates occupied by this particular body at all times. So starting from time equals zero, I could diagram these set of points that are occupied by the back of the train. Again, as a reminder, the train is moving at a relativistic speed. And the front of the train follows a similar line. We call these lines $answerbox[0]. I guess we give it a different name than trajectory because usually when you think about trajectory, you are thinking of a path traced out by an object in space.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what is the main change from an ordinary motion graph to a spacetime diagram? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on spacetime diagrams? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"world, line\" // for intended answer \"world lines\" and variations\r\n$strflags=\"ignore_case=1,remove_whitespace=1,all_words=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"Time and position are placed on an equal footing, with time often labeled as `ct`.\",\r\n  \"Velocity replaces position on every axis.\",\r\n  \"Only accelerating motion can be shown on a spacetime diagram.\",\r\n  \"Spacetime diagrams cannot represent stationary objects.\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"A spacetime diagram can be thought of as related to a motion graph, but used differently.\",\r\n  \"In the station frame, points fixed on the station are represented by vertical world lines.\",\r\n  \"The lecture says Lorentz-transformed axes can represent the train frame on the same diagram.\",\r\n  \"The lecture uses spacetime diagrams to show lines of simultaneity for different reference frames.\",\r\n  \"One value of spacetime diagrams is that they make hidden simultaneity assumptions more explicit.\",\r\n  \"The lecture says events simultaneous in the station frame must also be simultaneous in the train frame.\",\r\n  \"The lecture says spacetime diagrams are useless for avoiding conceptual mistakes.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "752",
+      "source_uniqueid": "1776101305520730",
+      "description": "Physics 10 - Lecture 27, Section 1 - Time Dilation [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "69"
+      ],
+      "payload_sha256": "e282dd2f6fdbd24f5f234f25f5650f013da2131b14c84c586b05dcadecace084",
+      "assessment_titles": [
+        "Lecture 27 - Special Relativity II: Time Dilation, Length Contraction, and more"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words/phrases in this quote from the lecture. Each blank is a single word.</p>\r\n<p style=\"padding-left:40px;\"><em>Distance traveled divided by speed. What's the speed? ... Speed of light is always `c`. By the way, that's one easy answer you can always get when we do special relativity. No matter what the situation tells you, speed of light is always c. That's one of your $answerbox[0]. Even when it doesn't make sense, you know it's at least $answerbox[1]. Speed of light in vacuum is always `c`.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what does the equation `t=gamma tau` mean physically? $answerbox[2]</p>\r\n<!-- Question 3 - T/F questions -->\r\n<p>C | Which statements agree with this lecture section on time dilation? <em>(Select all that apply.)</em> $answerbox[3]</p>",
+      "control": "$anstypes=\"string,string,choices,multans\"\r\n\r\n// Ensure Q1 as a whole has same weight as Q2 and Q3\r\n$answeights=array(0.5,0.5,1,1)\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"postulates or postulate\"\r\n$answer[1]=\"correct or right or true\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[2]=array(\r\n  \"A moving clock runs slower, so the time measured by an outside observer is greater than the proper time.\",\r\n  \"A moving clock runs faster than the proper-time clock.\",\r\n  \"Proper time is always greater than the time measured in any other frame.\",\r\n  \"The speed of light changes so that both observers get the same clock reading.\")\r\n$answer[2]=0\r\n\r\n// Question 3 - T/F questions\r\n$questions[3]=array(\r\n  \"The light clock is modeled as light bouncing back and forth between two mirrors.\",\r\n  \"Proper time is the time measured in the reference frame moving with the clock.\",\r\n  \"For the outside observer, the light follows a longer diagonal path while still moving at speed `c`.\",\r\n  \"The section derives the relation `t = gamma tau`.\",\r\n  \"The lecture summarizes time dilation with the phrase \\\"moving clocks are slow.\\\"\",\r\n  \"The lecture says gamma (`gamma`) is always less than 1 for physical speeds.\",\r\n  \"The section says the speed of light in vacuum changes depending on the observer.\")\r\n$answer[3]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "753",
+      "source_uniqueid": "1776101852518440",
+      "description": "Physics 10 - Lecture 27, Section 2 - Length Contraction [3 questions; swappable fill-in-blanks answers]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "69"
+      ],
+      "payload_sha256": "264b89be751bdbb3439c2697bd771c7c2a84c4ea6873e55d918c7301ece5289f",
+      "assessment_titles": [
+        "Lecture 27 - Special Relativity II: Time Dilation, Length Contraction, and more"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words in this quote from the lecture. Each blank is a single word.</p>\r\n<p style=\"padding-left:40px;\"><em>So `D'` is equal to this proper length divided by gamma (`gamma`). So that must be true, because I have laws of physics constraining what I can do. I have experiment telling me that these two light beams must arrive at the same time, and I have second postulate of special relativity that tells me speed of light cannot change on return trip. The only thing I can change is this. So that's going to change. This is what we call $answerbox[0] contraction, or $answerbox[1] contraction. ... For the sake of symmetry, let me end with the same phrase, or similar phrase, as what we had for time dilation. For length contraction, we say, \"Moving rulers are short.\"</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what does the instructor mean by the \"proper length\" of an object? $answerbox[2]</p>\r\n<!-- Question 3 - T/F questions -->\r\n<p>C | Which statements agree with this lecture section on length contraction? <em>(Select all that apply.)</em> $answerbox[3]</p>",
+      "control": "$anstypes=\"string,string,choices,multans\"\r\n\r\n// Ensure Q1 as a whole has same weight as Q2 and Q3\r\n$answeights=array(0.5,0.5,1,1)\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"length\"\r\n$answer[1]=\"Lorentz\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n// code to allow switched order (tiny bit of grading leniency)\r\n$stuans0 = strtolower(getstuans($stuanswers,$thisq,0))\r\n$stuans1 = strtolower(getstuans($stuanswers,$thisq,1))\r\nif ($stuans0 == \"lorentz\" || $stuans1 == \"length\") {\r\n  // ensure switched-order correct answers will be graded as correct\r\n  $answer[1]=\"length\"\r\n  $answer[0]=\"Lorentz\"\r\n}\r\n\r\n// Question 2 - Main point\r\n$questions[2]=array(\r\n  \"The length measured in the object's own reference frame\",\r\n\t\"The shortest length any observer can ever measure\",\r\n\t\"The length measured only after multiplying by gamma\",\r\n\t\"The length measured in the frame where the object is moving fastest\")\r\n$answer[2]=0\r\n\r\n// Question 3 - T/F questions\r\n$questions[3]=array(\r\n  \"The lecture uses the Michelson-Morley apparatus as the setup for deriving length contraction.\",\r\n  \"The time-dilation result is used first for the arm perpendicular to the motion.\",\r\n  \"In the parallel arm calculation, the lecture keeps the speed of light equal to `c` on both portions of the round trip.\",\r\n  \"Proper length is the length of the object measured in its own reference frame.\",\r\n  \"The lecture arrives at the result `D' = D // gamma`.\",\r\n\t\"The lecture summarizes length contraction with the phrase \\\"moving rulers are short.\\\"\",\r\n\t\"The lecture says the contradiction is resolved by changing the speed of light instead of changing the arm length.\")\r\n$answer[3]=\"0,1,2,3,4,5\""
+    },
+    {
+      "export_question_set_id": "754",
+      "source_uniqueid": "1776102375333594",
+      "description": "Physics 10 - Lecture 27, Section 3 - “Observing” vs. “Seeing” [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "69"
+      ],
+      "payload_sha256": "a09b7d642637733678b0c9a76c1004d112c489dcae4b4f064d980a3041b5aa36",
+      "assessment_titles": [
+        "Lecture 27 - Special Relativity II: Time Dilation, Length Contraction, and more"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing word in this quote from the lecture. Fill in the first blank (a single word); the other blank uses the same word.</p>\r\n<p style=\"padding-left:40px;\"><em>I'm still claiming that moving rulers don't appear short. They are actually short. So, we have corrected for any $answerbox[0] effect from the travel time of light. After having done all that, these are the real effects that remain. So, whenever I say the word \"observe,\" that's what I want you to understand. That we have already made those <strong>_________</strong> adjustments. And whatever remains is the, I don't know, property of the universe we live in, spacetime we live in. It's the actual real property of the nature. It's not just some artifact of, \"Oh, it takes light time to travel.\"</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what does the instructor mean by the word \"observe\" in special relativity? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on \"observing\" versus \"seeing\"? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"trivial\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"To describe a situation after correcting for light-travel-time effects, so the remaining effect is the real relativistic one\",\r\n  \"To describe exactly what reaches your eyes with no corrections at all\",\r\n  \"To describe only what astronomers can measure with telescopes\",\r\n  \"To describe only events involving light and not anything else\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"In ordinary English, \\\"see\\\" and \\\"observe\\\" are basically the same, but the lecture uses \\\"observe\\\" in a special technical way.\",\r\n  \"The lecture's Sirius example is used to show that seeing light \\\"right now\\\" and observing the event that produced it are not the same thing.\",\r\n  \"The lecture says observers are assumed to be smart enough to correct for the travel time of light.\",\r\n  \"The lecture says moving rulers are actually short after the trivial corrections are made.\",\r\n  \"The lecture says light is used as a convenient example, but the deeper point is about the structure of spacetime itself.\",\r\n  \"The lecture says moving clocks only appear slow because of light-travel delay, but are not really slow.\",\r\n  \"The lecture says special relativity is really only about light, not about spacetime more generally.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "755",
+      "source_uniqueid": "1776102925680908",
+      "description": "Physics 10 - Lecture 27, Section 4 - Building Intuition Around γ and β [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "69"
+      ],
+      "payload_sha256": "c951369c623cdbec0df0f02c93a765753b3e2411c1f676be4b0baafeaeea5f52",
+      "assessment_titles": [
+        "Lecture 27 - Special Relativity II: Time Dilation, Length Contraction, and more"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing word in this quote from the lecture. Fill in the first blank (a single word); the other blank uses the same word.</p>\r\n<p style=\"padding-left:40px;\"><em>That's how gamma (`gamma`) depends on beta (`beta`). And this relationship is a bit, at some point, it's a bit $answerbox[0] in that it's not very well behaved. I mean, you know, normally when you look at numbers like zero point and four nines (0.9999) and zero point and five nines (0.99999), we are used to thinking of those as two basically same numbers. They are basically one (≈1). But when you are looking at the value of `gamma`, whether it's four nines or whether it's five nines actually has a big difference. So, that's what I mean, <strong>_________</strong>. They are not well behaved. What you will see much better behaved is `beta` in terms of `gamma`.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what is interesting about the limit where gamma (`gamma`) is very close to 1? (Remember that beta is defined as `beta = v // c`.) $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on gamma (`gamma`) and beta (`beta`)? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"pathological\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"It corresponds to the low-speed, nonrelativistic regime, where the relationship between `gamma` and `beta` connects back to familiar classical intuition.\",\r\n  \"It is the regime where `beta` must be exactly equal to 1.\",\r\n  \"It is the regime where `gamma` becomes infinite.\",\r\n  \"It is the regime where relativistic effects become impossible to describe mathematically.\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"`beta` is defined as `v//c`.\",\r\n  \"`gamma` is defined as `1 // sqrt(1 - beta^2)`.\",\r\n  \"For speeds, `beta` is between `0` and `1` inclusive.\",\r\n  \"For massive particles, `beta` can never equal `1`.\",\r\n  \"At very high `gamma`, `beta` can be treated as approximately `1`.\",\r\n  \"`gamma` has a maximum value of `1`.\",\r\n  \"The lecture says `beta` as a function of `gamma` is worse behaved than `gamma` as a function of `beta` in the highly relativistic limit.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "756",
+      "source_uniqueid": "1776103362741896",
+      "description": "Physics 10 - Lecture 27, Section 5 - Relativistic Momentum and Energy [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "69"
+      ],
+      "payload_sha256": "449692eb8ef8cb6dbcce4774b342435b3f50da2962c0c73d1181af0229a2e101",
+      "assessment_titles": [
+        "Lecture 27 - Special Relativity II: Time Dilation, Length Contraction, and more"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing words (a two-word phrase) in this quote from the lecture.</p>\r\n<p style=\"padding-left:40px;\"><em>This looks like gamma m c squared minus m c squared (`gamma m c^2 - m c^2`). And I want to draw a comparison here.  When we are looking at the non-relativistic kinetic energy, this one-half m v squared (`1/2 m v^2`), this looks complete on its own. Like no one would look at this and think something is missing or there's anything beyond that. But when you look at the relativistic kinetic energy, this suspiciously looks like it's two things. As in, there's this one thing, and there's this second piece that doesn't look like it's part of one thing. It looks like what we are saying is relativistic kinetic energy is this one thing minus this other thing. And this is where someone, a theorist thinking about this, could have this brilliant idea that this is the actual total energy. And what we are subtracting out to get the kinetic energy from, that's maybe the energy that you always have, even when you are not moving. So this is what you might call \"$answerbox[0]\".</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, what is the relativistically correct expression for momentum? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on relativistic momentum and energy? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"rest energy or rest-energy or mass energy or mass-energy\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"`p = gamma m v`\",\r\n  \"`p = mv`\",\r\n\t\"`p = mc`\",\r\n\t\"`p = gamma mc^2`\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"The lecture says momentum can keep increasing without limit even though speed never exceeds `c`.\",\r\n  \"The lecture gives the total relativistic energy as `E = gamma m c^2`.\",\r\n  \"The lecture identifies `mc^2` as the rest energy.\",\r\n  \"The lecture derives an energy-momentum relationship that still works for massless particles.\",\r\n  \"For a massless particle like a photon, the lecture says `E = pc`.\",\r\n  \"The lecture says kinetic energy is found by adding rest energy to `gamma m c^2`.\",\r\n  \"The lecture says this material is directly required for the homework questions this week.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "757",
+      "source_uniqueid": "1776103749909624",
+      "description": "Physics 10 - Lecture 27, Section 6 - Chapter 13 Homework Questions [3 questions]",
+      "qtype": "multipart",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "Reading question generated in part through use of ChatGPT",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "69"
+      ],
+      "payload_sha256": "a0c25d48e9c96ca19aa5926c04441fe0f8456e983e95c69c6a648941343f7584",
+      "assessment_titles": [
+        "Lecture 27 - Special Relativity II: Time Dilation, Length Contraction, and more"
+      ],
+      "qtext": "<p><em>Answer the following questions relating to the section of the lecture video you just watched.</em></p>\r\n<!-- Question 1 - Fill-in-the-blank -->\r\n<p>A | Fill in the missing word in this quote from the lecture. Fill in the first blank (a single word); the other blank uses the same word.</p>\r\n<p style=\"padding-left:40px;\"><em>And the second postulate is ... the speed of light in vacuum is a constant independent of the relative motion of the source. That speed of light is constant. It doesn't change regardless of what situations you change. So going back here, if you are being tricked, you might be tempted to answer something like `1.5c` and `0.5c` here. It will be wrong. They will both be `1c`. This is what I mean. Special relativity is not $answerbox[0]. On the other hand, the answers are much simpler than the <strong>_________</strong> answer. So I guess this wasn't really a calculation question.</em></p>\r\n<!-- Question 2 - Main point -->\r\n<p>B | According to this lecture section, why does the instructor warn students to keep extra digits or \"all the nines\" in some gamma calculations? $answerbox[1]</p>\r\n<!-- Question 3 - T/F questions for the section -->\r\n<p>C | Which statements agree with this lecture section on the Chapter 13 homework questions? <em>(Select all that apply.)</em> $answerbox[2]</p>",
+      "control": "$anstypes=\"string,choices,multans\"\r\n\r\n// Question 1 - Fill-in-the-blank\r\n$answer[0]=\"intuitive\"\r\n$strflags=\"ignore_case=1,remove_whitespace=1\"\r\n\r\n// Question 2 - Main point\r\n$questions[1]=array(\r\n  \"Because missing even one digit can produce a large error in highly relativistic calculations\",\r\n  \"Because the calculator only works when every answer has at least 10 decimal places\",\r\n  \"Because gamma is always exactly equal to 1, and extra digits prove that\",\r\n  \"Because special relativity requires rounding every answer to the nearest whole number\")\r\n$answer[1]=0\r\n\r\n// Question 3 - T/F questions for the section\r\n$questions[2]=array(\r\n  \"In the airplane frame, the speed of sound from a speaker in the cabin is still 340 m/s.\",\r\n  \"The lecture says the second postulate means the speed of light in vacuum is constant independent of the motion of the source.\",\r\n  \"The time-dilation formula in this section uses dilated time equal to gamma (`gamma`) times the proper time (`tau`).\",\r\n  \"The length-contraction formula in this section uses the moving length equal to the proper length times `sqrt(1 - v^2//c^2)`.\",\r\n  \"The velocity-addition formula is discussed as a way to keep the final speed below `c`.\",\r\n  \"For the Earth observer in the laser-beam question, the light should be treated as moving at `1.5c`.\",\r\n  \"The lecture says there is no need to be careful about significant figures in relativistic gamma (`gamma`) calculations.\")\r\n$answer[2]=\"0,1,2,3,4\""
+    },
+    {
+      "export_question_set_id": "917",
+      "source_uniqueid": "1589865454055724",
+      "description": "Introduction to Physics - Special Relativity - Time Dilation - Q1 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "b9fc2b80a460029ce72e1f5c24183299ef769fbfffcc8c901134d4c4a94b4351",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>A neutral &pi;-meson is a particle that can be created by accelerator beams. If one such particle lives `$t1 times 10^-16\" s\"` as measured in the laboratory and `0.840 times 10^-16\" s\"` as measured in its own inertial reference frame, what is the time dilation factor `gamma`? Briefly explain your calculation.</p>\r\n<p>$answerbox</p>",
+      "control": "$t1=prettysigfig(rrand(1.00,2.00,0.10),3)\r\n$t2=0.84\r\n$a=prettysigfig($t1/$t2,3)\r\n\r\n$showanswer=\"The multiple-choice version of the question had the following as the correct answer: `gamma=$a`. The calculation should make use of time-dilation formula, `Delta t = gamma tau`, where `tau` is the proper time.\""
+    },
+    {
+      "export_question_set_id": "918",
+      "source_uniqueid": "1589865819195819",
+      "description": "Introduction to Physics - Special Relativity - Principle of Relativity - Q1 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "ffbb575016493b6a5432bb82d322713b66bff5aa3a6f69e373111336364cde74",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>Evaluate the following three statements. Say whether they are correct or incorrect according to the principle of relativity and briefly explain your answer.</p>\r\n<ol type=\"a\">\r\n  <li>\"The speed of a bird flying overhead is the same in all inertial reference frames.\"</li>\r\n  <li>\"The natural oscillation frequency of a pendulum is the same in all inertial reference frames.\"</li>\r\n  <li>$statement3</li>\r\n</ol>\r\n<p>$answerbox</p>",
+      "control": "$statement3=randfrom(array(\"\\\"The kinetic energy of a 1-kilogram mass is the same in all inertial reference frames.\\\"\",\"\\\"The mass of a 1-kilogram mass is the same in all inertial reference frames.\\\"\"))\r\n$showanswer=\"The speed of a bird is not the same in all inertial reference frames; the natural oscillation frequency is the same in all inertial reference frames. The mass of a 1-kg mass is the same in all inertial reference frames, but its kinetic energy is not. The principle of relativity says <em>laws</em> of physics are the same in all inertial reference frames; quantities that depend on these laws (such as masses and natural oscillation frequency) will stay constant, while other quantities (such as velocity and kinetic energy) will transform.\""
+    },
+    {
+      "export_question_set_id": "919",
+      "source_uniqueid": "1589866079461396",
+      "description": "Introduction to Physics - Special Relativity - Postulates of Special Relativity - Q1 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "291dd3fc0047cc3f1f83ea6a8b028ec9008136b7efdf36a0427e4e3b22dc4340",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>All the consequences of special relativity follow from the two postulates set down by Einstein. State the two postulates of special relativity and briefly explain the significance of each postulate.</p>\r\n<p>$answerbox</p>",
+      "control": "$showanswer=\"The multiple-choice version of the question had the following as the correct answer: \\\"The laws of physics are the same in all inertial reference frames\\\" and \\\"The speed of light is `c` in all inertial reference frames.\\\" The correct answer also should briefly explain why these postulates are important, connecting the principle of relativity to our everyday experiences involving relative motion and the second postulate with theory of electromagnetism.\""
+    },
+    {
+      "export_question_set_id": "920",
+      "source_uniqueid": "1589866750910498",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q1 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "982950704142e2d0fa04add4b5d38b76745f931f71f3eb81125c07d3ff90b3be",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>What is the Lorentz factor `gamma` if `v=$v c`? Briefly explain how you obtained your answer.</p>\r\n<p>$answerbox</p>",
+      "control": "$v=prettysigfig(randfrom(array(0.25,0.5,0.75)),2)\r\n\r\n$a=prettysigfig(1/sqrt(1-$v^2),3)\r\n$showanswer=\"The multiple-choice version of the question had the following as the correct answer: `gamma=$a`. The correct answer should also explain use of the formula `gamma = 1//sqrt(1-v^2//c^2)`.\""
+    },
+    {
+      "export_question_set_id": "921",
+      "source_uniqueid": "1589867232877036",
+      "description": "Introduction to Physics - Special Relativity - Lorentz Factor - Q3 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "f4ebca2c581e24cc1cdd5d4b73df0f75e30abdca66534433da17f1365c5e6e38",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>If the time dilation factor `gamma` for a moving clock is `gamma=$gamma`, how fast is it moving? Give your answer as a multiple of `c` and explain how you obtained your answer.</p>\r\n<p>$answerbox</p>",
+      "control": "$gamma=randfrom(array(2,10,20))\r\n\r\n$a=prettysigfig(sqrt(1-1/$gamma^2),3)\r\n$showanswer=\"The multiple-choice version of the question had the following as the correct answer: `v=$a c`. The correct answer should also describe the use of the formula `v//c = sqrt(1-1//gamma^2)`.\""
+    },
+    {
+      "export_question_set_id": "922",
+      "source_uniqueid": "1589867643746370",
+      "description": "Introduction to Physics - Special Relativity - Simultaneity - Q1 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "1710c2ffae605d7989385ff64be3003b35f7895c666d9c53943f74f2aece9f07",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>One of the most important consequence of special relativity is that simultaneity is relative. What does it mean simultaneity is relative? Briefly explain the relativity of simultaneity and distinguish this from idea of time in classical physics.</p>\r\n<p>$answerbox</p>",
+      "control": "$showanswer=\"The multiple-choice version of the question had the following as the correct answer: Relativity of simultaneity means two events occurring at the same time but at different locations for one observer does not occur at the same time for another observer moving relative to the first observer. The correct answer should contrast this with the idea of \\\"absolute time.\\\"\""
+    },
+    {
+      "export_question_set_id": "923",
+      "source_uniqueid": "1589867814436633",
+      "description": "Introduction to Physics - Special Relativity - Postulates - Q3 (take-home test bank version)",
+      "qtype": "essay",
+      "author": "Park,Andrew",
+      "license_code": 1,
+      "ancestor_authors": "",
+      "other_attribution": "\"College Physics\" by OpenStax is licensed under CC-BY",
+      "has_image_flag": 0,
+      "assessment_ids": [
+        "108"
+      ],
+      "payload_sha256": "bbb7551269d7b92f5ffbae4458de981e79ba9f5508137a941428f074039cf73c",
+      "assessment_titles": [
+        "Take-Home Option A Final Exam (open book; 6-hour limit)"
+      ],
+      "qtext": "<p>Alice and Bob are in spaceships which are passing each other. Their velocity relative to each other is `0.5 c`. Alice fires a forward laser beam from her spaceship, and measures that the front of the beam moves away from her at speed `c`, the speed of light in vacuum. How fast does Bob see the laser beam moving? Briefly explain your answer.</p>\r\n<p>$answerbox</p>",
+      "control": "$showanswer=\"The multiple-choice version of the question had the following as the correct answer: Bob sees it moving at `c` also. And the correct explanation should rely on the second postulate of special relativity.\""
+    }
+  ]
+}

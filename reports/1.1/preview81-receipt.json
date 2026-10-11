@@ -1,0 +1,35 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_734aba25f9348191aec09bb1db93b5b5",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 81,
+    "source": {
+      "commit_sha": "6d576cff3be6db40f9fdbb5d7e268a770ca2a2fc"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000b38481fd9093bca2710f6f5d",
+      "content_hash": "sha256:342a32da48057ef3525985d21a4e29a29ea461af2883b5d8c759acd9d0e0b1d0",
+      "size_bytes": 129976320,
+      "file_count": 730
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ac50648a2f081919f50d9a19906eee1",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_734aba25f9348191aec09bb1db93b5b5",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-06T14:31:48.314848+00:00"
+  },
+  "change": "Batched inline baseline fix and Section 10.8 italic, parenthesis, and equation layout changes."
+}
