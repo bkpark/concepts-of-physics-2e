@@ -752,3 +752,12 @@ Maintainer finalized Chapter 13 after Preview 113, approving all 39 exercises an
 
 
 Preview 114 published successfully: Chapter 14 organized and ready for review. Both numbering builds, full validation, and narrow/desktop browser checks passed. Receipt: reports/1.1/chapter14-structure/preview114-receipt.json. Chapter 13 finalized; no canonical GitHub push.
+
+
+### 2026-10-11: Same-page numbering selector
+
+Completed the older textbook map from the preserved PDF outline (140 labeled modules plus unnumbered preface). Added Lecture-aligned / Older textbook selection at the same page URL, with persistent preference and synchronized headings, navigation, object labels, references, and search. Per author direction, both modes retain section-based object counters; exercise numbers remain stable. Chapter introductions use chapter.0 object labels in older mode. Source CNXML and stable links are unchanged. Evidence and checks: reports/1.1/numbering-toggle/.
+
+### 2026-10-12: Numbering and header review complete
+
+Previews 116–118 rename the alternate mode CNX-aligned, hide duplicate introduction entries in CNX-aligned contents, and center the header with both preference menus wrapping together. User approved the preview and requested committing these updates to GitHub. Course build, numbering checks across 141 sections, and header checks at 320–1600 px passed. Publication receipts and browser evidence are in reports/1.1/numbering-toggle/.

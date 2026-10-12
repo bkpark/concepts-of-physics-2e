@@ -31,5 +31,12 @@
    try{localStorage.setItem(key,preference);}catch{}
   });
   label.append(select);nav.append(label);
+  // Treat both preferences as one wrapping item in the centered header.
+  const links=document.createElement('span');links.className='header-links';
+  const controls=document.createElement('span');controls.className='header-controls';
+  for(const node of [...nav.childNodes]){
+   (node.nodeType===1&&node.matches('.theme-control')?controls:links).append(node);
+  }
+  nav.append(links,controls);
  });
 })();

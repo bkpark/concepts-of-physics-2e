@@ -36,8 +36,9 @@ roots={s['module_id']:ET.parse(ROOT/s['source']).getroot() for s in sections}
 parents={mid:{child:parent for parent in r.iter() for child in parent} for mid,r in roots.items()}
 course={x['section_id'].split(':')[1]:x['label'] for x in load('metadata/numbering-course-2026-07-07.proposed.json')['section_labels']}
 course.update(load('maintained/numbering.json')['course'].get('section_label_overrides',{}))
-# Body headings inspected in historical PDF. Only these six labels are asserted.
-cnx={'m67034':'2.5','m67530':'3.3','m71410':'3.8','m67122':'9.2','m67807':'13.6','m42709':'D'}
+# Complete historical section map verified against the preserved PDF outline.
+legacy_numbering=load('maintained/numbering-legacy.json')
+cnx={row['module']:row['label'] for row in legacy_numbering['sections']}
 issues=[]; adaptations=[]; math_sources=[]; objects={}; counts=collections.Counter()
 review_chapters={'0':'introduction-exercises','1':'kinematics-exercises','2':'dynamics-exercises','3':'work-and-energy-exercises','4':'impulse-and-momentum-exercises','5':'oscillations-and-waves-exercises','6':'rotation-exercises','7':'fluids-exercises','8':'thermal-physics-exercises','9':'electricity-exercises','10':'magnetism-exercises','11':'light-exercises','12':'quantum-mechanics-exercises','13':'special-relativity-exercises','14':'nuclear-and-particle-physics-exercises'}
 review_modules={mid:review_chapters[label.split('.')[0]] for mid,label in course.items() if label.split('.')[0] in review_chapters}
@@ -322,7 +323,7 @@ if FULL and PROFILE=='course':
         exercise_manifest.append({**view,'blocks':blocks})
     dump(OUT/'exercise-views.json',exercise_manifest)
     dump(OUT/'chapter-end-relocations.json',[{k:v for k,v in b.items() if k in ('module','kind','anchors','review_slug','image_count')} for b in chapter_relocated])
-intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction to Physics</h1>'+('<p>'+NUMBERING_NOTE+'</p>' if PROFILE=='course' else '')+'</header>'
+intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction to Physics</h1>'+('<p class="numbering-note">'+NUMBERING_NOTE+'</p>' if PROFILE=='course' else '')+'</header>'
 intro+=nav.overview() if FULL else '<ul>'+''.join('<li>'+nav.link(registry[m])+'</li>' for m in IDS)+'</ul>'
 if FULL:
     contents=OUT/'contents';contents.mkdir(exist_ok=True)
@@ -351,3 +352,7 @@ if FULL:
     print(json.dumps({'search_passages':build_search_index(OUT)}))
     from chapter_permalinks import apply_chapter_permalinks
     apply_chapter_permalinks(OUT, registry, load('maintained/chapter-permalinks.json')['chapters'])
+
+if FULL and PROFILE == "course":
+    from numbering_toggle import write_toggle
+    write_toggle(OUT, P, course, legacy_numbering, objects)

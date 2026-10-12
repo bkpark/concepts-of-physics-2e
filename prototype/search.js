@@ -46,7 +46,12 @@
     status.textContent = 'Searching…';
     try {
       if (!indexPromise) indexPromise = fetch('../search-index.json').then(r => { if (!r.ok) throw Error('index'); return r.json(); }).then(rows => rows.map(record => ({record, title:fold(record.title), text:fold(record.text)}))).catch(error => { indexPromise = null; throw error; });
-      const index = await indexPromise;
+      const sourceIndex = await indexPromise;
+      const translate = window.physicsNumbering?.translate || (text => text);
+      const index = sourceIndex.map(({record}) => {
+        const displayed = {...record, title:translate(record.title), text:translate(record.text)};
+        return {record:displayed, title:fold(displayed.title), text:fold(displayed.text)};
+      });
       if (request !== generation) return;
       results = index.filter(r => terms.every(t => r.text.includes(t) || r.title.includes(t))).map(r => ({...r, score:terms.reduce((n,t) => n+(r.title.includes(t)?5:0)+(r.text.includes(t)?1:0),0)})).sort((a,b) => b.score-a.score);
       shown = 0;
@@ -60,5 +65,6 @@
   input.addEventListener('input', () => { ++generation; clearTimeout(timer); timer = setTimeout(search, 180); });
   form.addEventListener('submit', e => { e.preventDefault(); clearTimeout(timer); search(); });
   more.addEventListener('click', showMore);
+  document.addEventListener('physics-numbering-change', () => { if (input.value) search(); });
   if (input.value) search();
 })();

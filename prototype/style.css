@@ -14,6 +14,7 @@ th{border:1px solid #bdcccc;padding:6px 10px;vertical-align:top;font-weight:norm
   .chapter-links > li { margin: .85rem 0; }
   .chapter-link { font-weight: bold; font-size: 1.1em; }
   .section-links > li { margin: .45rem 0; }
+  html[data-numbering="older"] .section-links > .chapter-introduction { display: none; }
   .chapter-links .section-links { padding-left: 1.2rem; }
   .chapter-contents { background: #f0f5f6; border-left: 4px solid #287080; padding: 1rem 1.4rem; margin: 1.5rem 0 2rem; }
   .chapter-contents h2 { margin-top: 0; }
@@ -105,10 +106,16 @@ mtable[columnalign="right center left"] > mtr > mtd:nth-child(3){text-align:left
 
 /* Reading themes. Print retains the original light palette. Figures keep their
    original colors and a white backing so transparent diagram labels stay legible. */
-.theme-control{display:inline-flex;align-items:center;gap:.45rem;margin-left:1.5rem;color:#fff;font:14px Arial,sans-serif}
+.theme-control{display:inline-flex;align-items:center;gap:.45rem;color:#fff;font:14px Arial,sans-serif;white-space:nowrap}
 .theme-control select{font:inherit;padding:.45rem .55rem;border:1px solid #8aa6af;border-radius:4px;background:#123e4a;color:#fff;cursor:pointer;min-height:36px}
 .theme-control select:focus-visible{outline:2px solid #b6e5ee;outline-offset:3px}
-@media(max-width:650px){.theme-control{display:flex;width:fit-content;margin:12px 0 0}}
+@media screen{
+ body > nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 24px;text-align:center}
+ .header-links{max-width:100%;line-height:1.6}
+ .header-controls{display:inline-flex;flex-wrap:nowrap;align-items:center;gap:16px}
+ .prototype-notice{text-align:center}
+}
+@media(max-width:480px){.header-controls .theme-control{flex-direction:column;gap:5px}}
 @media print{.theme-control{display:none}:root{color-scheme:light}}
 @media screen{
  :root[data-theme="light"]{color-scheme:light}

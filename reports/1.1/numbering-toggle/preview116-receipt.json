@@ -1,0 +1,35 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_98c195649f9c81918ab4c23f62def7c2",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 116,
+    "source": {
+      "commit_sha": "48c48e37201025d74b1f2d1e367447b1d83125ac"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000f05481fd8bab42de81105ac4",
+      "content_hash": "sha256:eda5dc1e130d25ccd49bb19dd9576b6749396a5b7380285a2d1761f6ae16a451",
+      "size_bytes": 130058240,
+      "file_count": 751
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6acc79deca7481919673de1301c45c13",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_98c195649f9c81918ab4c23f62def7c2",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-12T06:10:46.515855+00:00"
+  },
+  "change": "Rename Older textbook to CNX-aligned; preserve stored preference and numbering behavior."
+}

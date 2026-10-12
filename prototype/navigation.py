@@ -54,7 +54,8 @@ class Navigation:
 
     def contents(self, key, prefix='', current=None):
         members = self.chapters[key]
-        items = ['<li>' + self.link(s, prefix, current=current) + '</li>' for s in members]
+        items = [('<li class="chapter-introduction">' if i == 0 else '<li>')
+                 + self.link(s, prefix, current=current) + '</li>' for i, s in enumerate(members)]
         label = self.labels.get(members[0]['module_id'], '').split('.')[0]
         view = self.views.get(label)
         if view:
