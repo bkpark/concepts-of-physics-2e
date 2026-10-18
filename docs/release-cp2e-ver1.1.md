@@ -2,7 +2,7 @@
 
 ## Final release
 
-The maintainer has approved the complete 654-page book and its screen-optimized edition. The approved release is being published on the existing Sites project at https://intro-1-1.coaphys.xyz. The later intro.coaphys.xyz DNS migration is separate; the previous web host is retained by the maintainer as a backup. Publication receipts record the completed deployment and GitHub release.
+The maintainer has approved the complete 654-page book and its screen-optimized edition. The approved release is published on the existing Sites project at https://intro-1-1.coaphys.xyz. The later intro.coaphys.xyz DNS migration is separate; the previous web host is retained by the maintainer as a backup. Publication receipts record the completed deployment and GitHub release.
 
 The default website download is `cp2e-ver1.1.pdf`, the approved 68.7 MB screen-optimized PDF. The approved 123.7 MB original is `cp2e-ver1.1-print-quality.pdf`, a GitHub-release-only asset. It is excluded from the website folder and ZIP, and the website contains no print-quality download link. Both PDFs preserve the same pagination, links, and bookmarks.
 
@@ -56,3 +56,7 @@ Before packaging, copy the approved screen PDF to the release directory as `cp2e
 ## Sites download delivery
 
 Sites rejected the 68.7 MB PDF at its Git source-upload limit. The live Sites variant links Download PDF directly to the approved screen PDF in the GitHub release. The self-hosting ZIP still embeds that same PDF and uses local download links. The print-quality original is never linked by the website. Both variants are hashed in the publication receipt. The failed unpublished Sites commit is retained in the earlier local checkout for recovery.
+
+## Publication verification correction
+
+Live visual review found incorrectly encoded middle dots and dashes in the HTML renderer templates. These are corrected in the live site and static HTML ZIP. The approved PDFs and maintained textbook CNXML are unchanged. The source ZIP and bundle preserve the original `cp2e-ver1.1` tag; apply `cp2e-ver1.1-publication-fixes.patch` at that tag for the corrected renderer and live audit. The maintained branch also records this correction without moving the release tag.

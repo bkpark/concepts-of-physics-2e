@@ -1,8 +1,8 @@
 # cp2e-ver1.1 planning
 
-## October 18, 2026 - Publication authorized
+## October 18, 2026 - Published
 
-The maintainer authorized final source archival, GitHub release with both PDFs, and publication on the existing public Sites project at intro-1-1.coaphys.xyz. Keep intro.coaphys.xyz DNS unchanged until the later migration. The prior host will become the maintainer's intro-backup. Sites rejects the 68.7 MB PDF as a source object; the live website therefore links to the exact screen PDF on GitHub Releases. The self-hosting ZIP retains the local PDF. Final receipts record verified publication results.
+The maintainer authorized final source archival, GitHub release with both PDFs, and publication on the existing public Sites project at intro-1-1.coaphys.xyz. Keep intro.coaphys.xyz DNS unchanged until the later migration. The prior host will become the maintainer's intro-backup. Sites rejects the 68.7 MB PDF as a source object; the live website therefore links to the exact screen PDF on GitHub Releases. The self-hosting ZIP retains the local PDF. The GitHub release and Sites publication are complete. Final receipts record the deployment, live checks, and a renderer punctuation correction caught during visual review. The sections below are historical checkpoints.
 
 ## October 18, 2026 - Release package prepared
 

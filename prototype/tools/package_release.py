@@ -28,7 +28,7 @@ robot_policy=RobotFileParser();robot_policy.parse(robots.splitlines())
 assert not robot_policy.can_fetch('ExampleCrawler',rel['public_origin']+'/'+rel['pdf_filename'])
 assert robot_policy.can_fetch('ExampleCrawler',rel['public_origin']+'/sections/gravitation/')
 (base/'UPLOAD-INSTRUCTIONS.txt').write_text(
- 'Introduction to Physics â€” '+rel['release_id']+'\n\n'
+ 'Introduction to Physics — '+rel['release_id']+'\n\n'
  'Extract '+rel['site_archive_filename']+' directly into the webroot for '+rel['public_origin']+'.\n'
  'Alternatively, extract locally and upload all extracted files and folders, keeping their structure.\n'
  'index.html and robots.txt must be directly in the webroot, not inside a release folder.\n'

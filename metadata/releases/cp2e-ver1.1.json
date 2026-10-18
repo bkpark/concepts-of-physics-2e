@@ -24,8 +24,8 @@
     ]
   },
   "prepared_date": "2026-10-18",
-  "preparation_status": "checks-passed-awaiting-publication",
-  "published": false,
+  "preparation_status": "published-and-verified",
+  "published": true,
   "source_commit_at_preparation": "f426d2357dbdbbc8d9dc22f876bbca7d6f28c7da",
   "source_includes_uncommitted_changes": false,
   "source_module_hashes": {
@@ -175,16 +175,64 @@
     "cp2e-ver1.1.pdf": "36e2e246a6a70f2a63d1918970b71a3a0578f7443de58bec5e4a2fa8fcb7b9fb",
     "cp2e-ver1.1-print-quality.pdf": "5d1e33fc028039f41860cd70783289f770d0eaf0a435772c03de1a1ba5555caf"
   },
-  "website_package_sha256": "59f991b9a3d3955a52bc2e402da12177b46abedbef88fd7ae6cff4fd1fa81766",
+  "website_package_sha256": "8a7895eb4d8cd434a7007f31722437597e97f1915549e2be157a385ec971becc",
   "website_pdf_policy": "Only the approved screen-optimized PDF is included. Print-quality original is staged separately for GitHub release.",
-  "pending_publication_steps": [
-    "final source commit and tag",
-    "GitHub release assets including print-quality PDF and source archival asset",
-    "website deployment",
-    "live URL and download checks"
-  ],
+  "pending_publication_steps": [],
   "validation": "release-checks.json",
   "future_public_origin": "https://intro.coaphys.xyz",
   "hosted_pdf_url": "https://github.com/bkpark/concepts-of-physics-2e/releases/download/cp2e-ver1.1/cp2e-ver1.1.pdf",
-  "publication_state": "authorized-in-progress"
+  "publication_state": "GitHub release and Sites version 185 published",
+  "source_commit": "bda7cbdbd49e05fba807672adcb1406b913c0074",
+  "source_tag": "cp2e-ver1.1",
+  "publication_receipt": {
+    "release": "cp2e-ver1.1",
+    "published": true,
+    "source_tag": "cp2e-ver1.1",
+    "source_commit": "bda7cbdbd49e05fba807672adcb1406b913c0074",
+    "source_archive_policy": "Tagged source ZIP and full-history bundle retained. Publication renderer correction is supplied as cp2e-ver1.1-publication-fixes.patch and committed on maintained; tag unchanged.",
+    "github_release": "https://github.com/bkpark/concepts-of-physics-2e/releases/tag/cp2e-ver1.1",
+    "public_origin": "https://intro-1-1.coaphys.xyz",
+    "sites_version": {
+      "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_48d917de28008191a648d94bba6a2a52",
+      "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+      "version_number": 185,
+      "source": {
+        "commit_sha": "ebf1ec8e0851a95a99e7c65ef362a40c7f200f16"
+      },
+      "archive_storage": {
+        "archive_format": "tar",
+        "sediment_file_id": "file_00000000b3d081fda02222ddd9ec096e",
+        "content_hash": "sha256:156353560971de153a4fd5ab8e4034747f013bc425629fdedf75af28d7a4e5ac",
+        "size_bytes": 133488640,
+        "file_count": 878
+      },
+      "screenshot_url": null,
+      "deployment_id": null
+    },
+    "deployment": {
+      "id": "appgdep_6ad4b7f0edd48191997e83a45a9f9639",
+      "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+      "title": "Introduction to Physics \u00e2\u20ac\u201d Version 1.1",
+      "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_48d917de28008191a648d94bba6a2a52",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+      "failure_message": null,
+      "env_set_revision": 0,
+      "updated_at": "2026-10-18T12:13:48.420090+00:00"
+    },
+    "dns_changed": false,
+    "screen_download_url": "https://github.com/bkpark/concepts-of-physics-2e/releases/download/cp2e-ver1.1/cp2e-ver1.1.pdf",
+    "print_pdf_on_website": false,
+    "verification_reports": [
+      "live-browser-audit.json",
+      "screen-download-verification.json",
+      "github-live-verification.json",
+      "release-checks.json"
+    ],
+    "html_correction": "Repaired misencoded middle dots and dashes in renderer templates and static output; PDFs and maintained CNXML unchanged."
+  }
 }
