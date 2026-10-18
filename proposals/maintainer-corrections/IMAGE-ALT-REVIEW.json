@@ -1,0 +1,777 @@
+{
+  "id": "IMAGE-ALT-REVIEW",
+  "status": "approved",
+  "description": "Correct reviewed image descriptions; only media alt attributes change.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42236/index.cnxml",
+      "before_sha256": "fddec6403a338e3b32867ddfef1667416f9a1034c04021e768c5976d26d06ef8",
+      "after_sha256": "3865a240dbf343a034e88df56431d9fd02b4e3b5d7f5c2b902d11b2d4a039df0",
+      "edits": [
+        {
+          "id": "import-auto-id1169738188696",
+          "inventory_index": 26,
+          "before": "The figure shows a schematic diagram of a heat pump. The hot and cold reservoirs are shown as two rectangular boxes attached to a vertical rectangular wall. The hot reservoir is at temperature T sub c equals negative fifteen degrees Celsius and the hot reservoir is at a temperature T sub h equals forty five degrees Celsius. Work W is shown to enter from an electrical outlet. Heat Q sub c is shown to enter the cold reservoir at an outside air temperature of negative five degrees Celsius and Q sub h is shown to leave the hot reservoir at an inside air temperature of twenty degrees Celsius.",
+          "after": "A heat pump absorbs heat Qc from outdoor air at -5 degrees Celsius into refrigerant at Tc = -15 degrees Celsius. Electrical work W drives the pump, which releases heat Qh from refrigerant at Th = 45 degrees Celsius to indoor air at 20 degrees Celsius."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m42356/index.cnxml",
+      "before_sha256": "9eb2e0a541d8446b36cf02c59751bbec9eb904051e687aa45fa90da44d59c34e",
+      "after_sha256": "a38fbcb5f8eed17ec7a79aa033ffee19245a07a0d232f5c310e657ce89ab39c2",
+      "edits": [
+        {
+          "id": "import-auto-id3357837",
+          "inventory_index": 408,
+          "before": "The diagram has a set of five circuits. The first circuit has a combination of seven resistors in series and parallel combinations. It has a resistor R sub one in series with a set of three resistors R sub two, R sub three, and R sub four in parallel and connected in series with a combination of resistors R sub five and R sub six, which are parallel. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The second circuit calculates combinations of all parallel resistors in circuit one and replaces them with their equivalent resistance. It has a resistor R sub one in series with R sub p and R sub p prime. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The third circuit takes the combination of the series resistors R sub p and R sub p prime and replaces it with R sub s. It has a resistor R sub one in series with R sub s. A resistor R sub seven is connected in parallel to R sub s and the voltage source. The fourth circuit shows a parallel combination of R sub seven and R sub s are calculated and replaced by R sub p double prime. The circuit now has a series combination voltage source, R sub one and R sub p double prime. The fifth circuit shows the final equivalent of the first circuit. It has a voltage source connecting across a final equivalent resistance R sub s prime.",
+          "after": "A seven-resistor circuit is reduced in stages. R2, R3, and R4 are parallel, as are R5 and R6. These two equivalent resistances are in series with each other; that branch is parallel to R7. R1 is in series with the resulting combination."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m42531/index.cnxml",
+      "before_sha256": "7d6341990441780b40da064ead28a7d4ba36aa4f29c4eb8e3382d07e507d889c",
+      "after_sha256": "2ae029bd30f3b6f05ece368b8b0e9e58028fe92b82ad145f1049f2ead2be84e4",
+      "edits": [
+        {
+          "id": "import-auto-id2000224",
+          "inventory_index": 421,
+          "before": "A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps towards observer A are shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car that is as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.",
+          "after": "Observer B stands on a platform while observer A rides a train moving right. Two flashes are emitted simultaneously in the platform frame on opposite sides of the observers. The right-hand flash reaches the moving observer A before the left-hand flash."
+        },
+        {
+          "id": "import-auto-id2608756",
+          "inventory_index": 423,
+          "before": "For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is travelling a distance of and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event till the end portion is given as L equals to velocity v into delta t upon two.",
+          "after": "A light clock viewed aboard a moving vehicle and from the ground. Aboard, light travels vertically to a mirror and back over distance 2D in time delta t0. From the ground, it follows two diagonal paths of length s while the vehicle moves horizontally. Each half-trip forms a right triangle with sides D and L = v delta t/2, so s^2 = D^2 + L^2."
+        },
+        {
+          "id": "import-auto-id2759013",
+          "inventory_index": 425,
+          "before": "There are two sections in this figure. In the first section a young woman is shown standing on the Earth and her twin is standing in a traveling spaceship. There is a clock beside each of the women showing equal time. In the second section of the figure it is shown that the traveling twin ages less than the Earth-bound twin and the Earth-bound twin is looking older. In the clocks it is shown that on Earth time runs faster than on the traveling spaceship.",
+          "after": "Twin-paradox illustration: twins compare clocks at departure and after one twin's round trip in a spacecraft. At reunion, less time has elapsed for the traveling twin, who has aged less."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m42535/index.cnxml",
+      "before_sha256": "48b62da2ca65d2cc720d0c80d2bfd573130870189f3205d3ffce4f8403bf3c83",
+      "after_sha256": "b1d485859644a4a6ad717b4ffc3720f80a74db86e6b41246bb1648c7ecc7f14d",
+      "edits": [
+        {
+          "id": "fs-id1959356",
+          "inventory_index": 248,
+          "before": "In part a observer observes from ground frame of reference a muon above earth with speed v in the rightward direction. The distance between the muon and the place where it disintegrates is two point zero one. In part b the system is shown in motion having velocity v in the leftward direction. So, the cloud and ground are displaced zero point six two seven kilo meter in the opposite direction.",
+          "after": "Muon decay viewed in two reference frames. In Earth's frame, the moving muon travels 2.01 km. In the muon's frame, Earth moves toward it through a contracted distance of 0.627 km."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m42540/index.cnxml",
+      "before_sha256": "6d3ddd94dd513ab87bf5c8d46544c9fcf4ec5c6a90d4fcb5624877d779808218",
+      "after_sha256": "942f33588c50700d15f237139910af5b98f70129a5ebf5bfac3ba80d799a93ad",
+      "edits": [
+        {
+          "id": "fs-id2985490",
+          "inventory_index": 398,
+          "before": "In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.",
+          "after": "Two spacecraft move toward Earth at 0.50c. One ejects a canister forward at +0.75c relative to the spacecraft; the other ejects a canister backward at -0.75c relative to the spacecraft."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m42546/index.cnxml",
+      "before_sha256": "ed7c5e602f83a67136a0cc42c44a99417be3340efb2b1cdcbba691d4689ec949",
+      "after_sha256": "4cd48539313ce986150facaa2bd410d5e64dbf13c96583cc9b77854c31d8fb03",
+      "edits": [
+        {
+          "id": "import-auto-id3136349",
+          "inventory_index": 401,
+          "before": "In this figure a graph is shown on a coordinate system of axes. The x-axis is labeled as speed v (m/s). On the x-axis, velocity of the object is shown in terms of the speed of light starting from zero at origin to c, where c is the speed of light. The y-axis is labeled as Kinetic Energy K E (J). On the y-axis, relativistic kinetic energy is shown starting from 0 at origin to 1.0. The graph K sub r e l of relativistic kinetic energy is concave up and moving upward along the vertical line at x equals c. This graph shows that relativistic kinetic energy approaches infinity as the velocity of an object approaches the speed of light. Also shown is that when the speed of the object is equal to the speed of light c the kinetic energy is known as classical kinetic energy, which is denoted as K E sub class.",
+          "after": "Kinetic energy versus speed compares relativistic and classical predictions. The curves nearly coincide at low speeds. Relativistic kinetic energy grows without bound as speed approaches c, while the classical curve remains finite at c and continues beyond it."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52314/index.cnxml",
+      "before_sha256": "56a5640606082972adaba94c5388126ca4dd84339d09ac9a2444904af55454f8",
+      "after_sha256": "c0330df0ca915c6c0fa41ba9ba75b141f08c3f9d702f26f2f3ce3fd8055772f6",
+      "edits": [
+        {
+          "id": "import-auto-id2873026",
+          "inventory_index": 96,
+          "before": "View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.",
+          "after": "An airplane moves left along an x axis from x0 = 6.0 m to xf = 2.0 m. Its displacement is -4.0 m."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52364/index.cnxml",
+      "before_sha256": "0db91a330340ed70f52016d587dc8f0c795a9990bfa07caecb4456cfc17e4ab3",
+      "after_sha256": "e44bd13fc4a8190e6fae39f31ea9de7b59473bc60c13eb0c6752c7b2bf8576fa",
+      "edits": [
+        {
+          "id": "import-auto-id1722806",
+          "inventory_index": 456,
+          "before": "A man holds a device that looks like a gun or a check-out scanner up toward an air vent. A red light emanates from the device and shines on the vent.",
+          "after": "A person aims a handheld infrared thermometer at a vent; a red aiming spot marks the measurement area."
+        },
+        {
+          "id": "import-auto-id1961424",
+          "inventory_index": 459,
+          "before": "The figure is a single vertical axis showing a wide range of temperatures on a logarithmic scale, measured in kelvin. The temperature range goes from the lowest temperature achieved at ten to the power of negative ten kelvin up to the temperature in experiments at the Relativistic Heavy Ion Collider at ten to the power of positive twelve kelvin.",
+          "after": "A logarithmic temperature axis in kelvin spans 10^-10 to 10^12 K. Labels include liquid helium and nitrogen, water freezing and boiling, the solar surface and interior, a neutron-star interior, and heavy-ion collider experiments. The lowest-temperature label records the historical illustration's reported limit."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52410/index.cnxml",
+      "before_sha256": "c94ea1cd7c824a2ef1ef5ac2e937b2eee5f423487489a2ff0fb03e63e360d054",
+      "after_sha256": "1e2ad39aafddac24f70dfdf9301184448245eba65605db48892c554639a5663a",
+      "edits": [
+        {
+          "id": "import-auto-id1535621",
+          "inventory_index": 144,
+          "before": "Three views into a computer disk showing the magnetic portions of the recording head and the tape.",
+          "after": "Magnetic recording illustrations: a hard-disk read/write head above a disk; a coil and iron recording head magnetizing a moving tape's coating; and alternating magnetized regions stored along the tape."
+        },
+        {
+          "id": "import-auto-id2096702",
+          "inventory_index": 145,
+          "before": "Two atomic models that describe the relationship between the movement of electrons and magnetism.",
+          "after": "Schematic illustrations of the magnetic moments associated with an electron's orbital motion and intrinsic spin, represented by magnetic-field loops and small bar magnets."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52427/index.cnxml",
+      "before_sha256": "a9ac668e534895384eed978b4f44380e993ab4466dbfed7847596ff0f68d9ec6",
+      "after_sha256": "c04d2ca463d0c0952208852c4178455230cf7fb4730667d02899002a44978a29",
+      "edits": [
+        {
+          "id": "import-auto-id1169737993367",
+          "inventory_index": 502,
+          "before": "The figure shows a transmission power system. It shows the various stages in a power transmission system from the power plant to the house hold with the help of images. The first image is of a power plant. The voltage generated is at twelve volts. This voltage is shown to pass on to a step up transformer through cables. From the step up transformer the current passes through a high voltage transmission line at four hundred kilo volt. The high voltage transmission line is shown passing on three towers. The current is then passed to a step down transformer substation. The current is step down to twelve volts. This is now passed through power transmission lines on poles. This current reaches a step down transformer which is fixed on a pole. Here the voltage is further stepped down to two hundred forty volts. Current is then supplied to an individual household at two hundred forty volts.",
+          "after": "Electrical transmission from a generator at 12 kV through a step-up transformer to 400 kV transmission lines, then through step-down transformers to 13 kV distribution and 240 V household supply."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52455/index.cnxml",
+      "before_sha256": "40293ba0587f1413cbb57da90b9c6384df83c71d955ff6cb39d477b65ab8e8a1",
+      "after_sha256": "42c62c73fe73f83dc7c116872d907c37624f2761a1eca66becdc617a09367e3f",
+      "edits": [
+        {
+          "id": "import-auto-id2511868",
+          "inventory_index": 92,
+          "before": "Sun light incident on a spherical water droplet gets refracted at various angles. The refracted rays further undergo total internal reflection and when they leave the water droplet, a sequence of colors ranging from violet to red is formed.",
+          "after": "Sunlight refracts as it enters a water droplet, reflects internally, and refracts again as it leaves. Red and violet light emerge at different angles."
+        },
+        {
+          "id": "import-auto-id2596060",
+          "inventory_index": 93,
+          "before": "In figure (a) sunlight is incident on two water droplets close to one another. The incident rays undergo refraction and total internal reflection. From the first droplet, violet color emerges and from the second, red emerges. A woman observes from a distance, the band of seven colors with red on top and violet at the bottom. Two rays each from red and violet reach the observer’s eyes. The angle of separation between the incident light and the emerging red light is theta. In figure (b), a man looks at the rainbow, which is in the shape of an arc. A parallel beam of blue colored rays fall on the rainbow at different positions and then reaches the observer, each ray making the same angle theta with the incident ray. The rays reaching the observer are red in color. Figure (c) shows a spectacular double rainbow in the sky with white clouds as a backdrop.",
+          "after": "Rainbow geometry: different droplets direct different colors toward an observer, and droplets at the same viewing angle form an arc. The final panel is a photograph of a double rainbow."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52466/index.cnxml",
+      "before_sha256": "7b12a289e8b00ca196bf9e7ca4f0d3cba9c617ad16d0da5d763a7f191c355e1a",
+      "after_sha256": "1b298cfdf5c04b3bc246d35c3b2ad302e2789849833c6e439a37963e0a152a3a",
+      "edits": [
+        {
+          "id": "import-auto-id2600450",
+          "inventory_index": 452,
+          "before": "A chart of nuclides is shown with x axis labeled as number of protons or atomic number with range zero to one hundred ten and y axis labeled as number of neutrons with range zero to one hundred sixty. A straight dashed line is shown for equal atomic number and number of nuclides. A number of points are plotted above the dashed line. The region up to atomic number eighty and neutron number one hundred thirty is shown as stable nuclei and above this region is unstable nuclei.",
+          "after": "Neutron number N versus proton number Z for nuclei. The band of stable nuclei lies near the dashed N = Z line for light nuclei and curves above it for heavier nuclei. Unstable nuclei lie on either side of the stable band."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52471/index.cnxml",
+      "before_sha256": "d2f9344c12413b14ab5367e16564ae4413413f6142119fbc162afb27b827facc",
+      "after_sha256": "ee292ad628962e5e9dd9f9329b1c478ab9ad839ec2eb225d4bd916aeb494f9aa",
+      "edits": [
+        {
+          "id": "import-auto-id1867890",
+          "inventory_index": 184,
+          "before": "The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.",
+          "after": "Two views of the face image on the Shroud of Turin: a faint image on the cloth and its higher-contrast photographic negative."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m52480/index.cnxml",
+      "before_sha256": "5f888743d6db7bbde168dbc2a232b1fd5c1c6fd80082c421198a8503820cc8ec",
+      "after_sha256": "14dd4740daf3763f2516d5831cef78f4ac13ac4c888824db287de2d318caf0c8",
+      "edits": [
+        {
+          "id": "import-auto-id2668193",
+          "inventory_index": 164,
+          "before": "In the given figure nuclear fusion in the Sun is shown. The sun is shown like a sunflower. In the center, helium H e is shown. The energy emitted from H E is shown by outward arrows.",
+          "after": "A schematic cross-section of the Sun labels hydrogen outside a helium-rich center. Arrows point inward and outward. A neutrino leaves along a straight path, while a photon follows a zigzag path before escaping."
+        },
+        {
+          "id": "import-auto-id1524029",
+          "inventory_index": 165,
+          "before": "This figure shows an arrangement of shining pegs arranged in concentric circles.",
+          "after": "An array of closely packed photomultiplier tubes lines the curved interior of a neutrino detector."
+        },
+        {
+          "id": "import-auto-id2993059",
+          "inventory_index": 166,
+          "before": "The image shows what appears to be a big flame at the center surrounded circularly by many small lit candles.",
+          "after": "Supernova 1987A surrounded by a glowing ring of material with bright knots distributed around the ring."
+        },
+        {
+          "id": "import-auto-id1094752",
+          "inventory_index": 167,
+          "before": "A room filled with lots of cylindrical tubes connected to each other.",
+          "after": "A laser bay at the National Ignition Facility, with long parallel rows of laser equipment filling a large laboratory."
+        },
+        {
+          "id": "import-auto-id2654644",
+          "inventory_index": 168,
+          "before": "A three-dimensional cut-away model showing the interior of a complex technical device. The device has a central cavity and there are many tubes and connectors arranged around the central cavity.",
+          "after": "Cutaway rendering of the ITER tokamak showing the ring-shaped plasma chamber surrounded by large magnetic coils and structural equipment."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67033/index.cnxml",
+      "before_sha256": "b0d73bd56894041bb8a459f5fdbefc7b4a29d0dd832082b196c63f61ba5962ed",
+      "after_sha256": "f65ce3d59160b31d5ffa1dfbf865ea4d6a4b0e933740d07690df5e7dc970e845",
+      "edits": [
+        {
+          "id": "import-auto-id2400754",
+          "inventory_index": 6,
+          "before": "A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.",
+          "after": "Velocity diagram with initial velocity zero and final velocity 30.0 km/h to the right. The acceleration points right and is marked with a question mark; positive x is right and positive y is up."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67043/index.cnxml",
+      "before_sha256": "2fd04c6b660e5bdb92af17cf5fde83f81c2fb19a70b806a1ac5af9980f4ffed1",
+      "after_sha256": "a7b8cb00de2408925002c3a074d6ffebf04e4669e5c2840b38f0ec0fdadd610b",
+      "edits": [
+        {
+          "id": "import-auto-id1811051",
+          "inventory_index": 214,
+          "before": "The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.",
+          "after": "Two equal masses approach each other with equal speeds v in opposite directions, collide, and stick together at rest. Total momentum is zero before and after; kinetic energy changes from mv^2 to zero."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67044/index.cnxml",
+      "before_sha256": "3050722d100f13f62de323eff818796deff6cba4c4235b9e7ecb55cbbe5ecd82",
+      "after_sha256": "2e8ddbe16c61577aef567e485cea5cdef323c669879ee985cc09b22b25244bdd",
+      "edits": [
+        {
+          "id": "fs-id1441565",
+          "inventory_index": 436,
+          "before": "A series of illustrations of vibrating plastic rulers is shown demonstrating Hooke’s law.",
+          "after": "A ruler clamped to a table bends to either side of equilibrium. Restoring-force arrows point toward equilibrium, and motion carries the ruler through the equilibrium position."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67045/index.cnxml",
+      "before_sha256": "1b7eafd9c7e13ee718e1b83811844c7989fd90661eb92a24d84e11f2a0f39bc4",
+      "after_sha256": "c44d59fb944262bfedfddd7feabbd07f63b7e17a11ff0683622c9bc0a1eeefc8",
+      "edits": [
+        {
+          "id": "import-auto-id2449250",
+          "inventory_index": 439,
+          "before": "The graph here represents applied force, given along y-axis, versus deformation or displacement, given along x axis. The slope is linear slanting and the slope area is covered between x axis and the slope, given by F is equal to k multiplied by x, where k is constant and x is displacement. The force applied along y-axis is given by half of k multiplied by x. Along with the graph, two methods are provided to calculate weight, W. The first method gives the solution by multiplying half of b multiplied by h, whereas in the second we can get the solution by multiplying f with x.",
+          "after": "Applied force versus spring extension x is a straight line F = kx. The triangular area beneath it gives work W = kx^2/2; a horizontal line marks the average force kx/2."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67123/index.cnxml",
+      "before_sha256": "7bcb56012f09161dd52f639c3722269e44bee25ebece8e07d90748792a8d94c5",
+      "after_sha256": "e9cdb43e43f6196744ac3f68303f694cd6beddc0c68599c7ff378d1e14a9fd9e",
+      "edits": [
+        {
+          "id": "import-auto-id2436704",
+          "inventory_index": 546,
+          "before": "The figure shows a  cutaway drawing of a thermos bottle, with various parts labeled.",
+          "after": "Cross-section of a thermos labeled with glass walls, silvered surfaces, a vacuum between the walls, centering springs, a rubber support, an outer container, and hot or cold liquid inside."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67124/index.cnxml",
+      "before_sha256": "2abe98fa1ef91953b82837b5b14cb7d2c09cd5c13cbd162a2070a71847e0fa54",
+      "after_sha256": "cb4ff1a795fcd3099cfb3daf41022bc112b2cec1fa33198d7afd73e1cb4902d8",
+      "edits": [
+        {
+          "id": "import-auto-id1485074",
+          "inventory_index": 327,
+          "before": "The figure shows a two-dimensional graph with temperature plotted on the vertical axis from minus twenty to one hundred and twenty degrees Celsius. The horizontal axis is labeled delta Q divided by m and, in parentheses, calories per gram. This horizontal axis goes from zero to eight hundred. A line segment labeled ice extends upward and rightward at about 60 degrees above the horizontal from the point minus twenty degrees Celsius, zero delta Q per m to the point zero degrees Celsius and about 40 delta Q per m. A horizontal line segment labeled ice and water extends rightward from this point to approximately 120 delta Q per m. A line segment labeled water then extends up and to the right at approximately 70 degrees above the horizontal to the point one hundred degrees Celsius and about 200 delta Q per m. From this latter point a horizontal line segment labeled water plus steam extends to the right to about 780 delta Q per m. From here, a final line segment labeled steam extends up and to the right at about 60 degrees above the horizontal to about one hundred and twenty degrees Celsius and 800 delta Q per m.",
+          "after": "Heating curve showing temperature versus heat added per unit mass. Ice warms to 0 degrees Celsius, then melts at constant temperature. Water warms to 100 degrees Celsius, then boils along a much longer constant-temperature plateau. Steam then warms further."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67131/index.cnxml",
+      "before_sha256": "6e679f7690f46a45c1a733425254634d898b763ea8e8e6be136aad5359a27372",
+      "after_sha256": "c6d01fa71c34b786c2c4268719ce7775df1e0493d3d34ab268c01d6395f677fc",
+      "edits": [
+        {
+          "id": "import-auto-id3493713",
+          "inventory_index": 13,
+          "before": "A graph showing the variation of power P with time t. The power is along the vertical axis and time is along the horizontal axis. The curve is a sine wave starting at the origin on the horizontal axis and having the crests and troughs both above the positive horizontal axis. The maximum value of power is given by the peak value, which is the product of I sub zero and V sub zero. The average power is indicated by a dotted line through the center of the wave parallel to the horizontal axis with a value half of the product of I sub zero and V sub zero.",
+          "after": "Instantaneous AC power versus time oscillates between zero and I0 V0. A horizontal dashed line marks the average power, I0 V0/2."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67132/index.cnxml",
+      "before_sha256": "76e3e042a73ec58ec6bb766c33664991523ba538a6c5d02a37fdcfcdd8664d3c",
+      "after_sha256": "47a41e77fa372dfecaf21bec8fd5449c8f55a70735044338cb14cd6e36a2cefe",
+      "edits": [
+        {
+          "id": "import-auto-id1169736614670",
+          "inventory_index": 463,
+          "before": "An electromagnetic spectrum is shown. Different wave category regions are indicated using double sided arrows based on the values of their wavelength, energy, and frequency; the visual strip is also shown. The radio wave region is further segmented into AM radio, FM radio, and microwaves bands.",
+          "after": "The electromagnetic spectrum ordered from radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. Wavelength decreases as frequency increases. Visible light occupies a narrow band between infrared and ultraviolet."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67133/index.cnxml",
+      "before_sha256": "766a99d80355993b1a8433a198d57eedec84785966e29c9e1357d5c3cdcff9c5",
+      "after_sha256": "5ea0974cd58d9ac5d7eafa7e9d1ae6350c78611ab9c32b1061b1487a76d11a98",
+      "edits": [
+        {
+          "id": "import-auto-id1169736614670",
+          "inventory_index": 463,
+          "before": "An electromagnetic spectrum is shown. Different wave category regions are indicated using double sided arrows based on the values of their wavelength, energy, and frequency; the visual strip is also shown. The radio wave region is further segmented into AM radio, FM radio, and microwaves bands.",
+          "after": "The electromagnetic spectrum ordered from radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. Wavelength decreases as frequency increases. Visible light occupies a narrow band between infrared and ultraviolet."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67135/index.cnxml",
+      "before_sha256": "dfeafe8d5f975efec32a4decd0379e85b0d121f7fb691168405c1af7209afed8",
+      "after_sha256": "1322520dd502854d9ff05bd261ae7f82ad6439acb19cc51726c2e8f4610a850f",
+      "edits": [
+        {
+          "id": "import-auto-id2602794",
+          "inventory_index": 204,
+          "before": "A convex spherical mirror. A beam of parallel rays incident on the mirror, after reflection, appear to come from F on ray 2 behind the mirror. Here the distance of",
+          "after": "Parallel rays reflect from a convex mirror and diverge. Dashed backward extensions meet at the virtual focal point F behind the mirror; the focal length is negative under the stated sign convention."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67139/index.cnxml",
+      "before_sha256": "98d1d1d62d8f6fae00eed6292fb9b0f51ef94bb704b1f3f5df0bde7cb9d7d9c9",
+      "after_sha256": "f1396b3de3482954dd06b677e9d446555f8883c2642988884ea27f0929b7009d",
+      "edits": [
+        {
+          "id": "import-auto-id1830301",
+          "inventory_index": 231,
+          "before": "A magnified image of a black fly obtained from an electron microscope showing its antennae and tentacles.",
+          "after": "Electron micrograph of an insect's head showing compound eyes, antennae, and mouthparts."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67251/index.cnxml",
+      "before_sha256": "9a5ee3566081f3f96b97e6cce4f9b209e0cf5c5bdad1bfbf31aeed0eee0ea4fc",
+      "after_sha256": "9acc3ba3dc21552950307ae688311b514ce11bd07c948d1d74d3a46e5518c834",
+      "edits": [
+        {
+          "id": "import-auto-id1552624",
+          "inventory_index": 491,
+          "before": "A graph of frequency verses kinetic energy of an electron is shown, where frequency is along x axis and kinetic energy is along the y axis. The plot is a straight line having an inclination with x axis and meets the x axis at f sub zero, known as threshold frequency, given by B E divided by h. The threshold kinetic energy is written as equal to h f minus B E.",
+          "after": "Maximum photoelectron kinetic energy versus light frequency is a straight line of slope h. It crosses the frequency axis at threshold frequency f0 = BE/h and follows KEmax = hf - BE above threshold."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67539/index.cnxml",
+      "before_sha256": "3a022ae7119510d6a362a3a98851871a8c95eb74e66490686fed24aeabaeb517",
+      "after_sha256": "3c5198c85a6adc7351cbc1ecdac5a66e3d333e9bb46b975ea861f711da2895fa",
+      "edits": [
+        {
+          "id": "work-mod-2b",
+          "inventory_index": 523,
+          "before": "1D work without trig",
+          "after": "Three work examples: a lawn mower moves in the direction of an applied force; a person holds a stationary briefcase; and a person carries a briefcase horizontally while exerting an upward supporting force. Force and displacement arrows show their directions in each case."
+        },
+        {
+          "id": "squat3",
+          "inventory_index": 524,
+          "before": "1D work for vertical motion",
+          "after": "A weightlifter raises a barbell. The applied force F and displacement d both point upward, with work labeled W = Fd."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67803/index.cnxml",
+      "before_sha256": "d9ca7047137741d1fc2628f8a10acd4fededf1d1279c337204080fd17005d4d7",
+      "after_sha256": "4c4ff55cdd66112e47ae7da6f82fa126058cb29f18eafa6a26650caf4947f0ba",
+      "edits": [
+        {
+          "id": "import-auto-id806536",
+          "inventory_index": 493,
+          "before": "Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.",
+          "after": "A scanning electron microscope directs an electron beam through magnetic lenses and scanning coils onto a specimen. A collector detects emitted secondary electrons, and electronics form an image on a display. A second panel shows an electron micrograph of a shark tooth."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67805/index.cnxml",
+      "before_sha256": "e8c3abcd6d1f252bbdcd60884be369fe588e1fae2b4b0bac7d2d876f94f53df2",
+      "after_sha256": "43ccbc93a923ce8935634061c459f8c8ce1638dcd91f11abb124c232294642dc",
+      "edits": [
+        {
+          "id": "fs-id1152241",
+          "inventory_index": 84,
+          "before": "A diagram of the glass apparatus that was used to discover the electron in J. J. Thompson’s experiment.",
+          "after": "Thomson's cathode-ray apparatus: a narrow electron beam passes through slits and between charged plates. Its path bends toward the positive plate, below the dashed undeflected path."
+        },
+        {
+          "id": "import-auto-id3191900",
+          "inventory_index": 86,
+          "before": "Image of Rutherford’s experiment depicting a cuboid shaped lead block having a radioactive sample in red colored circle, emitting a beam of alpha rays. The beam strikes a rectangular gold foil which lies inside a circular strip acting as a detecting screen. Two rays are reflected from the foil while the rest pass through the foil and hit the strip. The other part of the image shows magnified structure of gold foil with gold atoms with their nuclei. Diameter of gold atom is given as 10^{-10}m and the diameter of the nucleus of the atom is 10^{-15}m. Alpha rays in the form of arrows are shown passing horizontally through the atoms; some are shown deflected as they collide with the nuclei while the rest simply pass through.",
+          "after": "Alpha particles from a source strike thin gold foil surrounded by a detection screen. Most pass through, while some scatter through large angles. An inset compares an atom about 10^-10 m across with its much smaller nucleus, about 10^-15 m across."
+        },
+        {
+          "id": "import-auto-id2681346",
+          "inventory_index": 87,
+          "before": "The image shows an enlarged view of atoms in gold foil having a diameter of ten to the power minus ten meter and a dot within it representing the nucleus. A few alpha rays are shown passing through the atoms. Some are scattered as they hit the nuclei while some are just passing through.",
+          "after": "Alpha-particle paths through atoms spaced on a scale of about 10^-10 m. Most paths remain nearly straight; particles passing close to small nuclei undergo large deflections."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m67807/index.cnxml",
+      "before_sha256": "e83accd96c5a3acbae8947a572ed92720c56bb59b69ef2f92637b9f38f0cdb50",
+      "after_sha256": "946851c3b5e56b77a6535aa541a69f731f7a6f1d3eff216c7a6a123ee2c16940",
+      "edits": [
+        {
+          "id": "import-auto-id3013642",
+          "inventory_index": 45,
+          "before": "The figure shows three horizontal lines at small distances from each other. Between the two lower lines, the Lyman series, with four vertical red bands in compact form, is shown. The value of the constant n sub f is 1 and the wavelengths are ninety-one nanometers to one hundred nanometers. The Balmer series is shown to the right side of this series. The value of the constant n sub f is two, and the range of wavelengths is from three hundred sixty five to six hundred fifty six nanometers. At the right side of this, the Paschen series bands are shown. The value of the constant n sub f is three, and the range of the wavelengths is from eight hundred twenty nanometers to one thousand eight hundred and seventy five nanometers.",
+          "after": "Hydrogen spectral lines grouped into the ultraviolet Lyman series, approximately 91 to 122 nm, the Balmer series, approximately 365 to 656 nm, and the infrared Paschen series, approximately 820 to 1875 nm. Lines in each series converge toward its shorter-wavelength limit."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m68325/index.cnxml",
+      "before_sha256": "45aa2b7e667a1ded43c0f15e44f3b248d4fcc1f5f12a04f3dcc3819bdef7e161",
+      "after_sha256": "a3e537d50f09bb6b6b916d96abaf331c862277cf7813fc80e16b51feffb1cabb",
+      "edits": [
+        {
+          "id": "import-auto-id1169737910729",
+          "inventory_index": 228,
+          "before": "The figure shows various substructures of a solid in decreasing size from left to right. To the right is a block labeled solid, next comes an image of some spheres connected with rods that is labeled molecule and ten to the minus nine meters, next comes an image labeled atom and ten to the minus ten meters, next comes a an image labeled nucleus and ten to the minus fourteen to ten to the minus fifteen meters, next comes an image labeled nucleon and ten to the minus fifteen meters, and finally there is an image labeled quark and less then ten to the minus eighteen meters. Attached to the quark image is a smaller particle labeled gluon.",
+          "after": "Successive enlargements from a solid to a molecule, atom, nucleus, nucleon, and quarks with gluons. Approximate scales decrease from 10^-9 m for molecules to 10^-10 m for atoms, 10^-14 to 10^-15 m for nuclei, 10^-15 m for nucleons, and less than 10^-18 m for quarks."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m68327/index.cnxml",
+      "before_sha256": "743f06f51bf0a9214c9115598e8e14a968633898f67f39290a74a3daee677265",
+      "after_sha256": "04eaeb6604f137b59f2df07d37ffef1af9ef10be24999685728681e35ce50711",
+      "edits": [
+        {
+          "id": "import-auto-id2962557",
+          "inventory_index": 40,
+          "before": "The image shows a dental patient wearing a lead apron sitting in a chair. X-rays emitting from an X-ray tube that is placed on the side of the patient’s jaw are passing through only the affected area of his teeth.",
+          "after": "Historical dental X-ray illustration showing an X-ray tube and lead collimator aimed at film inside a patient's mouth. The patient wears a lead apron, and the technician stands behind a window in a shielded door."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m68876/index.cnxml",
+      "before_sha256": "27138c143c967b3e15da2366f672e3f73f531c19f5c01ded67975b0b897c1341",
+      "after_sha256": "adc443ee268e76fa9c86944c493cc09fb48819c3b8fb49d31ce14ff6d2bc1e6f",
+      "edits": [
+        {
+          "id": "import-auto-id4173441",
+          "inventory_index": 133,
+          "before": "Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock’s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.",
+          "after": "Two rocks start at the same height with velocities +13.0 m/s upward and -13.0 m/s downward. The upward-thrown rock reaches y = 8.10 m before falling. Both reach y = -5.10 m with downward velocity -16.4 m/s."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m70739/index.cnxml",
+      "before_sha256": "cc692b2bafd69a8c6c06d371d14171523eb29b25e7e57f0b0e188521783b0c1c",
+      "after_sha256": "200d213a1ed3c089ac86f418872e50197fbd1f1b28a7268bcfde0d81f911eba2",
+      "edits": [
+        {
+          "id": "fs-id2679004",
+          "inventory_index": 111,
+          "before": "In part a, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space. In part b, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space.",
+          "after": "Two representations of the electric field of positive charge Q: outward-pointing field vectors that are longer near the charge, and continuous radial field lines with outward arrows."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71407/index.cnxml",
+      "before_sha256": "1efeb888fbe4ecc9fe45ef7dfb3ea509db6bc46525a9094959d6fad99a93f3d3",
+      "after_sha256": "46772b1f812bda2e87f3b7689c48a032ac2a2998acb74cd66696ffe123450529",
+      "edits": [
+        {
+          "id": "import-auto-id2593427",
+          "inventory_index": 499,
+          "before": "A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.",
+          "after": "A person travels 3 km from home to a store and 3 km back home. The total distance is 6 km, while the net displacement is zero."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71414/index.cnxml",
+      "before_sha256": "b8c468033a3f6ac728ef7fd19de8e6327fe2892d37f609b51104c473b680625b",
+      "after_sha256": "5813e5ffd0896a42e284bd29a0bfc3d2f24f57331bbd31f6a43fca66480b1d5c",
+      "edits": [
+        {
+          "id": "import-auto-id2005349",
+          "inventory_index": 169,
+          "before": "(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.",
+          "after": "A chain-driven clock: pulling a chain with force F through distance d raises a mass m through height h, storing energy mgh. As the weight descends, it supplies energy to the clock mechanism."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71415/index.cnxml",
+      "before_sha256": "971a2ff651e154a492691b9e6f5dd918f36fbb35d30a7d882bbdca0d6c1cc415",
+      "after_sha256": "d9226427840ffbaaaf6fdd45913236a7146e85449be1070dee6436a2f8abc78b",
+      "edits": [
+        {
+          "id": "import-auto-id2570042",
+          "inventory_index": 365,
+          "before": "A distant view of a coal-fired power plant with clearly visible cooling towers generating electric power and emitting a large amount of gases.",
+          "after": "A power station with large cooling towers, white plumes, and nearby electrical transmission lines."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71585/index.cnxml",
+      "before_sha256": "7f98d2e2da4e4b19dfadc72662d246bd08799cc5eded6434e0542a969f46f86b",
+      "after_sha256": "589e07cfe13a274ebad8f9ab897f82a32fdda8710215a4428a194f474046eb3e",
+      "edits": [
+        {
+          "id": "import-auto-id3254682",
+          "inventory_index": 416,
+          "before": "The figure a shows a spring on a frictionless surface attached to a bar or wall from the left side. On the right side of the spring, an object attached to it with mass m, its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. In figure b, after the force has been applied the object moves to the left compressing the spring a bit. And the displaced area of the object from its initial point is shown in sketched dots. The F here is equal to zero and the v is max in negative direction. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative X. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v is zero. In figure d the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. The F is zero, and the velocity v is maximum. In figure e the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero.",
+          "after": "Five stages of a mass on a horizontal spring: at +X, force points left and velocity is zero; at equilibrium, force is zero and velocity is maximum to the left; at -X, force points right and velocity is zero; at equilibrium again, force is zero and velocity is maximum to the right; at +X again, force points left and velocity is zero. Weight and normal force balance vertically."
+        },
+        {
+          "id": "import-auto-id2404258",
+          "inventory_index": 419,
+          "before": "In the figure at the top there are ten springboards with objects of different mass values tied to them. This makes some springs highly compressed some as loosely stretched and some at equilibrium, which are shown as red spherical shaped. Alongside the figure there is a scale given for different amplitude values as x equal to positive X, zero and negative X. the upward and downward pointing arrows are shown with a few springboards.  In the second figure there are three graphs. The first graph shows distance covered in form of a sine wave starting from a point x units on positive y-axis. The height of the wave above x-axis is marked as amplitude. The gap between two consecutive crests is marked as T. Below first graph there is another graph showing velocity in form of a sine wave starting from the origin downward. In the third graph below the second one, acceleration is shown in the form of sine wave starting from x units on the negative y-axis upward. In the last figure three position of a spring are shown. The first position shows the unstretched length of a spring pendulum. A hand is holding the bob of the pendulum. In the second position the equilibrium position of the spring and bob is shown. This position is lower the first one. In the third case the up and down oscillations of the spring pendulum are shown. The bob is moving x units in upward and downward directions alternatively.",
+          "after": "Snapshots of a spring-mounted mass and corresponding position, velocity, and acceleration graphs over one oscillation. Position starts at +X, velocity starts at zero and becomes negative, and acceleration starts at its most negative value. Velocity is greatest in magnitude at equilibrium; acceleration points toward equilibrium and is greatest in magnitude at the turning points."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71586/index.cnxml",
+      "before_sha256": "8100b2e2116cec8662975bd69b871b4f3e4df40aadea77ca818f95d94adb9f85",
+      "after_sha256": "6f7cd1c646a455b90d8b5a2113b5c9974c63c0754fdbb72767378d8fe2994f11",
+      "edits": [
+        {
+          "id": "import-auto-id3192199",
+          "inventory_index": 153,
+          "before": "The given figure shows three pictures of a horizontal viewed single finger containing a string, suspended downward vertically, being tied to a paddle ball at its downward end. In the first figure the ball is stretching up and down very slowly having less displacement, the displacement shown in the figures as faded shades of the ball and is depicted as 2X. Whereas in the second figure the movement of the ball is highest, while in the third the movement is least. In all the three figures the ball is at its equilibrium with respect to its movement. The frequency, f, for the first figure is very low, for the second figure as f not, while for the third figure it is highest.",
+          "after": "A finger drives a paddle ball on an elastic band at low frequency, at its natural frequency f0, and at high frequency. The displacement range 2X is largest at f0."
+        },
+        {
+          "id": "import-auto-id3173192",
+          "inventory_index": 154,
+          "before": "The given graph is of amplitude, X, along y axis versus driving frequency f, along x axis. There are three points on the x axis as f not divided by two, f not, three multiply f not divided by two. There are three curves along the x axis, in a one crest oscillation way, which are one over each other in correspondence. The curves start at a point just over the origin point and ends up at a same level along the x axis on the far right. The crests of the three curves are exactly over the f not point. The uppermost crest shows the small damping, whereas the middle one shows the medium damping, and the last one below shows the heavy damping.",
+          "after": "Oscillation amplitude X versus driving frequency for small, medium, and heavy damping. Small damping produces a tall, narrow resonance peak near f0; increasing damping lowers and broadens the peak."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71587/index.cnxml",
+      "before_sha256": "8807f281900970ad47af8b4726e6a4e5247ce915e9143207e59630b676040f8d",
+      "after_sha256": "b898751f91e162be988e337f71fa1c574aaee674c30424860d907aa4b67bcefc",
+      "edits": [
+        {
+          "id": "import-auto-id1339459",
+          "inventory_index": 520,
+          "before": "The figure shows a woman standing at left pushing a long spring in to and fro motion in horizontal direction away from her without moving her hand up and down. The cord stretches and contracts back and forth. This is an example of a longitudinal wave, the wave propagates horizontally. At some points the spring is compressed and at some other points the spring is expanded. One contracted part is equal to the amplitude X.",
+          "after": "A longitudinal wave travels along a spring as alternating compressions and rarefactions. Individual coils oscillate parallel to the direction of wave travel; X marks their displacement amplitude."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71588/index.cnxml",
+      "before_sha256": "ab0a3c63745704db9f7abaed5e6a657c8e03fb33bd4f1c51b17f6f667def881b",
+      "after_sha256": "6773064cab70f34a82f72da1d461fbbcdca2ecbe0506454681bd84d85e8c6cf2",
+      "edits": [
+        {
+          "id": "import-auto-id2653781",
+          "inventory_index": 514,
+          "before": "The graph shows a wave with wavelength lambda one equal to L, which has two loops. There three nodes and two antinodes in the figure. The length of one loop is L.",
+          "after": "Fundamental standing wave on a string fixed at both ends: nodes at the ends and one antinode at the center. The wavelength is lambda1 = 2L and the frequency is f1 = vw/(2L)."
+        },
+        {
+          "id": "import-auto-id1995916",
+          "inventory_index": 515,
+          "before": "first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.",
+          "after": "First and second overtones of a string fixed at both ends. The first overtone has two antinodes and three nodes, wavelength lambda2 = L, and frequency f2 = 2f1. The second has three antinodes and four nodes, wavelength lambda3 = 2L/3, and frequency f3 = 3f1."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71589/index.cnxml",
+      "before_sha256": "2a61c85ffbafcaa50285d80945a7dcf25500720b3ba17b57c20b1aeb2cac4bec",
+      "after_sha256": "6593520ae087792288b91bb4d00e44c050ee40b9cf79eea1ec148660e6564b8e",
+      "edits": [
+        {
+          "id": "import-auto-id1931095",
+          "inventory_index": 433,
+          "before": "The picture is of a bat trying to catch its prey an insect using sound echoes. The incident sound and sound reflected from the bat are shown as semicircular arcs.",
+          "after": "A bat emits sound toward an insect and receives echoes reflected from the insect."
+        },
+        {
+          "id": "import-auto-id3399108",
+          "inventory_index": 434,
+          "before": "Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.",
+          "after": "A loudspeaker's small upper tweeter produces high-frequency sound with short wavelengths; its larger lower woofer produces low-frequency sound with long wavelengths."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71593/index.cnxml",
+      "before_sha256": "620a1de298bd1a412ac8b46a147bbd46728823b921e0732b8fc9a21a84998641",
+      "after_sha256": "cf24fd6f8a08f97f27b7ea4a2100eada5e12bee5d0c8476cd0ddea8f5fc1d521",
+      "edits": [
+        {
+          "id": "fs-id1655769",
+          "inventory_index": 107,
+          "before": "Illustrations of ten different objects accompanied by their rotational inertias.",
+          "after": "Moments of inertia about the illustrated axes: hoop about its cylinder axis, MR^2; annular cylinder about its cylinder axis, M(R1^2 + R2^2)/2; solid cylinder or disk about its cylinder axis, MR^2/2; solid cylinder about a central diameter, MR^2/4 + Ml^2/12; thin rod about a perpendicular axis through its center, Ml^2/12, or through one end, Ml^2/3; solid sphere about a diameter, 2MR^2/5; thin spherical shell about a diameter, 2MR^2/3; hoop about a diameter, MR^2/2; rectangular slab about a perpendicular axis through its center, M(a^2 + b^2)/12. M is mass, R is radius, l is length, and a and b are the slab's side lengths."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71624/index.cnxml",
+      "before_sha256": "e2e51f8fafde8188883323e0246e91a24183db46b38694eb6f4b6ea8fd767ece",
+      "after_sha256": "3ce273919d3299042f62a79ce2d77dde5f32803c3c612baede7cecd898f117eb",
+      "edits": [
+        {
+          "id": "import-auto-id2025026",
+          "inventory_index": 33,
+          "before": "The weight of a person can be determined while submerged in a fat tank. Based on this, the percentage of body weight can be calculated.",
+          "after": "Underwater weighing apparatus: a person sits submerged in a chair suspended from a scale above the water tank."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m71625/index.cnxml",
+      "before_sha256": "86177f87ea0e80b7d14f73520a0fc96db9144e6428c15cc1777c36d4a0293002",
+      "after_sha256": "e85cb4db07b7751c57ac23c56ef309d805685193a917209b8c1e77b23d0d2a14",
+      "edits": [
+        {
+          "id": "fs-id3399724",
+          "inventory_index": 151,
+          "before": "The figure shows a cylindrical tube broad at the left and narrow at the right. The fluid is shown to flow through the cylindrical tube toward right along the axis of the tube. A shaded area is marked on the broader cylinder on the left. A cross section is marked on it as A one. A point one is marked on this cross section. The velocity of the fluid through the shaded area on narrow tube is marked by v one as an arrow toward right. Another shaded area is marked on the narrow cylindrical on the right. The shaded area on narrow tube is longer than the one on broader tube to show that when a tube narrows, the same volume occupies a greater length. A cross section is marked on the narrow cylindrical tube as A two. A point two is marked on this cross section. The velocity of fluid through the shaded area on narrow tube is marked v two toward right. The arrow depicting v two is longer than for v one showing v two to be greater in value than v one.",
+          "after": "Fluid flows from a wide pipe section of area A1 at speed v1 into a narrower section of area A2 at greater speed v2. Shaded portions show equal volumes traveling different distances in the same time."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m75427/index.cnxml",
+      "before_sha256": "f2d1a960a2abcc130023b5486e140188880b8f503481f2de82482a21a5d7d4d1",
+      "after_sha256": "d2e706703e3a46125a3e7b1736a3dcceb815b1372c117e1fc7bd205b49ccf0fe",
+      "edits": [
+        {
+          "id": "fs-id885336",
+          "inventory_index": 123,
+          "before": "In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.",
+          "after": "An electron gun has a negative plate A and a positive plate B. The electric field points from B toward A. An electron accelerates toward B and exits through a hole, gaining kinetic energy labeled KE = qV."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m75428/index.cnxml",
+      "before_sha256": "6dc03a67b05e159862024df5dff97b11ef3a905d2c35c48b97cc3de8a40e301b",
+      "after_sha256": "5c98e0c6168de5d470e1d7a1da8fbacda1a0ad7a91e688f931307500f52a92be",
+      "edits": [
+        {
+          "id": "import-auto-id2672092",
+          "inventory_index": 67,
+          "before": "A laser printer mechanism is shown. Laser beam produced from a computer, laser, or optics is incident on the drum containing some image.",
+          "after": "A laser printer's computer-controlled laser and optics scan a rotating drum, creating a pattern of charge on its surface."
+        },
+        {
+          "id": "import-auto-id3292795",
+          "inventory_index": 69,
+          "before": "(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant.[alt]Schematic of an electrostatic precipitator is shown. Four filters are shown one after another. Air passes through initial filter, then through positively charged grid, then through the third grid which is negatively charged and finally through the final grid. The number of particles is shown decreasing as air passes through various filters.",
+          "after": "An electrostatic precipitator passes dirty air through an initial filter, a positively charged grid that charges particles, a negatively charged collecting grid, and a final filter. A second panel shows a power plant where electrostatic precipitators remove particles from exhaust."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m75429/index.cnxml",
+      "before_sha256": "14ad2c12f57bfa6349c9dfdba8b6f61b276144795d98331c386188bfc4fb4c47",
+      "after_sha256": "5ba2a358d6c52c15d6a19914642e612ac63245421779f028d3b483ad52c0c9aa",
+      "edits": [
+        {
+          "id": "import-auto-id1169736624121",
+          "inventory_index": 374,
+          "before": "A part of the electromagnetic wave sent out from the antenna at one instant in time is shown. The wave is shown with the variation of two components, E and B, moving with velocity c. E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. E and B are in phase, and they are perpendicular to one another and to the direction of propagation.",
+          "after": "An electromagnetic wave has sinusoidal electric and magnetic fields perpendicular to each other and to the direction of propagation. The fields oscillate in phase, and the wave travels at speed c."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m76584/index.cnxml",
+      "before_sha256": "7750e1b01f5b9896047b0c05b236a85516bef021500e6607cb927f327e432e59",
+      "after_sha256": "df83d51d5448f7130ef09d038643107c83b9f34912793b53661adccb620fcd7a",
+      "edits": [
+        {
+          "id": "import-auto-id2402987",
+          "inventory_index": 312,
+          "before": "This figure shows four images of a skeleton of a human. Different parts of the body show bright spots wherever the bone cells are most active, indicating bone cancer.",
+          "after": "Anterior and posterior bone-scan images displayed with normal and logarithmic intensity scales. Bright regions include the knees and bladder; the skeleton appears against a dark background."
+        }
+      ]
+    },
+    {
+      "path": "maintained/modules/m76603/index.cnxml",
+      "before_sha256": "f81be379f91543991cd7b94a027a5deda86b8d2904c6f96c58b0b8ff7d76bdf1",
+      "after_sha256": "7c4e3b15ce41326673ddeebf0957efbff660a2e636ad654a3b451d2dc3a946f5",
+      "edits": [
+        {
+          "id": "import-auto-id1825282",
+          "inventory_index": 303,
+          "before": "A graph is shown in which decay of alpha and beta is shown. Also half lives of each isotope are shown. Uranium decays in one mode but some isotopes decay by more than one mode. Finally a stable isotope of lead results.",
+          "after": "Nuclear decay chart with proton number Z horizontally and neutron number N vertically, tracing uranium-238 to stable lead-206. Alpha-decay arrows move two places left and two down; beta-minus arrows move one right and one down. Nuclides, branching paths, and half-lives are labeled along the chain."
+        },
+        {
+          "id": "import-auto-id1386075",
+          "inventory_index": 304,
+          "before": "The image shows conditions before and after alpha decay. Before alpha decay the nucleus is labeled parent and after decay the nucleus is labeled daughter.",
+          "after": "Alpha decay: a parent nucleus becomes a smaller daughter nucleus and emits an alpha particle containing two protons and two neutrons."
+        },
+        {
+          "id": "import-auto-id2209887",
+          "inventory_index": 306,
+          "before": "Image shows parent nucleus before beta decay and daughter nucleus after beta decay.",
+          "after": "Beta-minus decay: a parent nucleus becomes a daughter nucleus while emitting an electron and an electron antineutrino."
+        },
+        {
+          "id": "import-auto-id3250028",
+          "inventory_index": 307,
+          "before": "Image shows parent nucleus before beta plus decay and daughter nucleus after beta plus decay, which results in a positively charged electron called a positron.",
+          "after": "Beta-plus decay: a parent nucleus becomes a daughter nucleus while emitting a positron and an electron neutrino."
+        }
+      ]
+    }
+  ]
+}

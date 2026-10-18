@@ -3006,3 +3006,41 @@ Set Figure 1.8.1 to 550 px wide on screen with no height cap, shrinking to fit n
 - Archive SHA-256: `2f4a591daf5d4e761ce89451c4a48f8b76bd2ca672cf1a41dfcac25f1ade8074`.
 - Refreshed the maintainer's existing live preview tab successfully. Final visual acceptance remains the maintainer's last preview pass.
 - Main remaining work: PDF layout and production, followed by v1.1 release metadata, packaging and archival bookkeeping. Published v1.0 remains frozen.
+
+### 2026-10-17 — Nucleus model legend sizing
+
+- Figure 14.4.2: reduce the nucleus model to a responsive 180 px screen width so its Proton and Neutron labels approach caption text size. Preserve the image and its aspect ratio.
+- Pending preview refresh; print sizing remains independent.
+
+### 2026-10-17 — Forced oscillation diagram sizing
+
+- Figure 5.4.2: reduce the driven paddle-ball diagram to a responsive 500 px screen width so frequency and amplitude labels approach caption size. Preserve its aspect ratio.
+- Pending preview refresh; print sizing remains independent.
+
+### 2026-10-17 — Dissimilar-wave superposition sizing
+
+- Figure 5.6.4: reduce the superposition diagram to a responsive 275 px screen width so embedded labels approach caption size and the preceding interference figures. Preserve its aspect ratio.
+- Pending preview refresh; print sizing remains independent.
+
+### 2026-10-17 — Beats diagram sizing
+
+- Figure 5.6.8: reduce the beats diagram to a responsive 475 px screen width so its wave, interference, and time labels approach caption size. Preserve its aspect ratio.
+- Pending preview refresh; print sizing remains independent.
+
+### 2026-10-17 — Circular-motion diagram sizing
+
+- Figure 6.2.1: reduce the circular-motion diagram to a responsive 250 px screen width so embedded labels approach caption size. Preserve its aspect ratio.
+- Pending preview refresh; print sizing remains independent.
+
+### 2026-10-17 — Tangential-acceleration diagram sizing
+
+- Figure 6.2.2: reduce the tangential-acceleration diagram to a responsive 200 px screen width, matching Figure 6.2.3 and bringing embedded labels toward caption size. Preserve its aspect ratio.
+- Pending preview refresh; print sizing remains independent.
+
+### 2026-10-17 — Image alternative-text review
+
+- Reviewed 548 distinct rendered image/description pairs; inspected 70 flagged figures visually.
+- Corrected 69 distinct descriptions in 70 source media elements across 50 modules, including displacement signs, standing-wave harmonics, heat-pump reservoirs, speaker labels, and relativistic-energy behavior.
+- Both full build profiles pass: 573 image occurrences each, no missing or empty alt attributes, and all revised descriptions present. Source validation confirms alt-only edits and preserved IDs.
+- Evidence: `reports/1.1/image-alt-audit/verification.json`; approved change: `proposals/maintainer-corrections/IMAGE-ALT-REVIEW.json`.
+- Pending preview refresh. This is an editorial alt-text review, not a complete accessibility certification.
