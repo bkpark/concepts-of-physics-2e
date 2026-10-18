@@ -14,10 +14,10 @@ directories remain the immutable historical baseline.
   author-submitted OpenStax erratum 30172. This is an initialization record,
   not a file to regenerate after later edits.
 
-All 141 modules are present. The renderer supports the full corpus with `--all`; full
-course HTML is audited, with explicit unresolved findings. It is not yet a
-publication-ready edition. The original CNXML remains the canonical authoring
-format until a separately justified migration is selected.
+All 141 modules are present and form the source of the published version 1.1.
+The renderer supports the full corpus with `--all`. See the
+[release documentation](../docs/release-cp2e-ver1.1.md) for validation results and
+known limitations. CNXML remains the canonical authoring format.
 
 The initial source differs from the historical corpus only in three XML files,
 containing the four approved repairs. All media and hierarchy files initially
@@ -28,8 +28,8 @@ script over an existing maintained directory; it deliberately refuses to do so.
 Regenerate the current previews from the repository root:
 
 ```powershell
-python prototype/build.py cnx
-python prototype/build.py course
+python prototype/build.py cnx --all
+python prototype/build.py course --all
 python prototype/check_numbering.py
 # With Playwright available in NODE_PATH and Chrome installed:
 node prototype/tools/render.cjs
@@ -46,9 +46,12 @@ slugs as aliases if a change becomes necessary, and do not regenerate identifier
 from newly edited titles. Cross-reference targets remain XML IDs; labels are
 computed at build time.
 
-Licensing and author/figure credits are inherited unchanged. Upstream 2e files
-under `references/` remain comparison evidence, not incorporated content.
+Retain applicable licensing and author/figure credits when editing. Reviewed
+CC BY-compatible upstream corrections are incorporated with provenance records.
+See the [license-source audit](../docs/license-source-audit.md) before importing
+additional material.
 
 Approved post-initialization corrections are recorded in `editorial-changes.json`.
-The existing verification command now replays that ordered ledger after the four
-initial repairs. X01 updates a module destination while retaining the figure ID.
+The historical ledger-replay utility does not support all later maintainer and
+multi-file entry formats. Complete ledger replay is not claimed; version 1.1
+checks compare current source bytes directly with the builds and release package.
