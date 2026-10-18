@@ -175,7 +175,7 @@
     "cp2e-ver1.1.pdf": "36e2e246a6a70f2a63d1918970b71a3a0578f7443de58bec5e4a2fa8fcb7b9fb",
     "cp2e-ver1.1-print-quality.pdf": "5d1e33fc028039f41860cd70783289f770d0eaf0a435772c03de1a1ba5555caf"
   },
-  "website_package_sha256": "8a7895eb4d8cd434a7007f31722437597e97f1915549e2be157a385ec971becc",
+  "website_package_sha256": "fa4fbecaeb9882b49ee9d6bbd63bf586586724e05b986df6f14fdbbb44840577",
   "website_pdf_policy": "Only the approved screen-optimized PDF is included. Print-quality original is staged separately for GitHub release.",
   "pending_publication_steps": [],
   "validation": "release-checks.json",
@@ -233,5 +233,64 @@
       "release-checks.json"
     ],
     "html_correction": "Repaired misencoded middle dots and dashes in renderer templates and static output; PDFs and maintained CNXML unchanged."
+  },
+  "canonical_url_update": {
+    "canonical_origin": "https://intro.coaphys.xyz",
+    "retained_alias": "https://intro-1-1.coaphys.xyz",
+    "version": {
+      "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_ac313926ea0081919bb12fcd19de3b7c",
+      "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+      "version_number": 186,
+      "source": {
+        "commit_sha": "7021e6317329edbd9b294d1efbeefa8c1b67dcd8"
+      },
+      "archive_storage": {
+        "archive_format": "tar",
+        "sediment_file_id": "file_000000006240820c82355102c4b568f5",
+        "content_hash": "sha256:989508192e7573c2163d99fe6f12bac1eeb479bfc880975b3e8fbe8390ab0c84",
+        "size_bytes": 133488640,
+        "file_count": 878
+      },
+      "screenshot_url": null,
+      "deployment_id": null
+    },
+    "deployment": {
+      "id": "appgdep_6ad4be5d218c8191860a52acb0ef8034",
+      "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+      "title": "Introduction to Physics \u00e2\u20ac\u201d Version 1.1",
+      "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_ac313926ea0081919bb12fcd19de3b7c",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+      "failure_message": null,
+      "env_set_revision": 0,
+      "updated_at": "2026-10-18T12:41:19.251871+00:00"
+    },
+    "verification": {
+      "domains": [
+        {
+          "origin": "https://intro.coaphys.xyz",
+          "pages": 174,
+          "canonicalURLsPassed": true,
+          "navigation": true,
+          "search": true,
+          "download": "https://github.com/bkpark/concepts-of-physics-2e/releases/download/cp2e-ver1.1/cp2e-ver1.1.pdf",
+          "redirected": false
+        },
+        {
+          "origin": "https://intro-1-1.coaphys.xyz",
+          "pages": 174,
+          "canonicalURLsPassed": true,
+          "navigation": true,
+          "search": true,
+          "download": "https://github.com/bkpark/concepts-of-physics-2e/releases/download/cp2e-ver1.1/cp2e-ver1.1.pdf",
+          "redirected": false
+        }
+      ],
+      "failures": []
+    }
   }
 }

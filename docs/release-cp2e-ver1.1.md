@@ -60,3 +60,7 @@ Sites rejected the 68.7 MB PDF at its Git source-upload limit. The live Sites va
 ## Publication verification correction
 
 Live visual review found incorrectly encoded middle dots and dashes in the HTML renderer templates. These are corrected in the live site and static HTML ZIP. The approved PDFs and maintained textbook CNXML are unchanged. The source ZIP and bundle preserve the original `cp2e-ver1.1` tag; apply `cp2e-ver1.1-publication-fixes.patch` at that tag for the corrected renderer and live audit. The maintained branch also records this correction without moving the release tag.
+
+## Main-domain canonical URLs
+
+Sites version 186 sets all 174 canonical URLs to `https://intro.coaphys.xyz`. The self-hosting ZIP includes the same update. Both domains returned all 174 pages successfully, with the expected canonical URLs; navigation, search and the screen-PDF link passed on each domain. `intro-1-1.coaphys.xyz` remains a working alias. The PDFs are unchanged.
