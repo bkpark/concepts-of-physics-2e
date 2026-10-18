@@ -3044,3 +3044,9 @@ Set Figure 1.8.1 to 550 px wide on screen with no height cap, shrinking to fit n
 - Both full build profiles pass: 573 image occurrences each, no missing or empty alt attributes, and all revised descriptions present. Source validation confirms alt-only edits and preserved IDs.
 - Evidence: `reports/1.1/image-alt-audit/verification.json`; approved change: `proposals/maintainer-corrections/IMAGE-ALT-REVIEW.json`.
 - Pending preview refresh. This is an editorial alt-text review, not a complete accessibility certification.
+
+### 2026-10-17 — Preview 183 publication checkpoint
+
+- Published the queued image sizing and alt-text corrections to https://intro-1-1.coaphys.xyz/; Sites deployment succeeded for version 183.
+- Verified the corrected fundamental and overtone image descriptions in the live browser accessibility tree. Both full build profiles pass.
+- Cover/title-page and publication-credits generators and the two-column thermodynamics trial are checkpointed for continued PDF authoring.
