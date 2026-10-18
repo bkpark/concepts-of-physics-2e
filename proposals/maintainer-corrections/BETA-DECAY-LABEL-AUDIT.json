@@ -1,0 +1,21 @@
+{
+  "reason": "Clear labels discovered during requested beta-decay audit; preserve conflicting exercise for maintainer judgment.",
+  "files": [
+    {
+      "path": "maintained\\modules\\m76603\\index.cnxml",
+      "source_id": "eip-799",
+      "before_sha256": "9ab41430331940916a2a655701b50ba2acb61a546c3020b89c6ff4181c0090d7",
+      "after_sha256": "ba8e37da03cb15a2329543aca1703057282d663e86c76e31f1adaf04efc3baf0",
+      "before": "<equation id=\"eip-799\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Co</m:mtext><m:mprescripts /><m:none /><m:mtext>60</m:mtext></m:mmultiscripts><m:mo stretchy=\"false\">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Ni</m:mtext><m:mprescripts /><m:none /><m:mtext>60</m:mtext></m:mmultiscripts><m:mo stretchy=\"false\">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mtext> neutrino.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"\" lSup { size 8{\"60\"} } \"Co\" rightarrow \"\" lSup { size 8{\"60\"} } \"Ni\"+β rSup { size 8{-{}} } +\" neutrino\"} {}</m:annotation></m:semantics></m:math></equation>",
+      "after": "<equation id=\"eip-799\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Co</m:mtext><m:mprescripts /><m:none /><m:mtext>60</m:mtext></m:mmultiscripts><m:mo stretchy=\"false\">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Ni</m:mtext><m:mprescripts /><m:none /><m:mtext>60</m:mtext></m:mmultiscripts><m:mo stretchy=\"false\">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mtext> electron antineutrino.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation>"
+    },
+    {
+      "path": "maintained\\modules\\m52480\\index.cnxml",
+      "source_id": "eip-983",
+      "before_sha256": "711b68ca8956385bc59bcf5c0ea47a85beb20f3c3e006ac31cdd810d06bc273b",
+      "after_sha256": "3414cfc81b3a2bef5c0727f411fcd578a44d6628c1be6b26bb29dea954e5d612",
+      "before": "<equation class=\"reaction-energy\" id=\"eip-983\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup><m:mo stretchy=\"false\">+</m:mo><m:mn>4</m:mn></m:mrow><m:mmultiscripts><m:mtext>H</m:mtext><m:mprescripts /><m:none /><m:mn>1</m:mn></m:mmultiscripts><m:mo stretchy=\"false\">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>He</m:mtext><m:mprescripts /><m:none /><m:mn>4</m:mn></m:mmultiscripts><m:mo stretchy=\"false\">+</m:mo><m:msub><m:mn>2v</m:mn><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mn>6γ</m:mn></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math><m:math><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>26.7</m:mn><m:mspace width=\"0.167em\"/><m:mtext>MeV</m:mtext></m:math></equation>",
+      "after": "<equation class=\"reaction-energy\" id=\"eip-983\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy=\"false\">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup><m:mo stretchy=\"false\">+</m:mo><m:mn>4</m:mn></m:mrow><m:mmultiscripts><m:mtext>H</m:mtext><m:mprescripts /><m:none /><m:mn>1</m:mn></m:mmultiscripts><m:mo stretchy=\"false\">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>He</m:mtext><m:mprescripts /><m:none /><m:mn>4</m:mn></m:mmultiscripts><m:mo stretchy=\"false\">+</m:mo><m:mn>2</m:mn><m:msub><m:mi>ν</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy=\"false\">+</m:mo><m:mn>6γ</m:mn></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math><m:math><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>26.7</m:mn><m:mspace width=\"0.167em\"/><m:mtext>MeV</m:mtext></m:math></equation>"
+    }
+  ]
+}

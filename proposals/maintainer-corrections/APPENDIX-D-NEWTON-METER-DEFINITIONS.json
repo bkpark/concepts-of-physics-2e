@@ -1,0 +1,22 @@
+{
+  "id": "APPENDIX-D-NEWTON-METER-DEFINITIONS",
+  "status": "approved",
+  "description": "Clarify work/energy and torque uses of newton-meter, preserving American spelling.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42709/index.cnxml",
+      "before_sha256": "dbc3e6b94e400c8661b1a5c5ee2b541054f3d7a3fc9886fb099e33a7f4109977",
+      "after_sha256": "dab7bab27be32e4d0bb0570307a74c016e723330e32287310d22b5b9bb07d3c1",
+      "fragments": [
+        {
+          "before": "<entry>newton-meter (work-energy unit)</entry>",
+          "after": "<entry>newton-meter; equivalent to a joule when expressing work or energy</entry>"
+        },
+        {
+          "before": "<entry>newtons times meters (SI unit of torque)</entry>",
+          "after": "<entry>newton-meter; SI unit of torque, conventionally not called a joule</entry>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-57-MASS-IN-GRAMS",
+  "status": "approved",
+  "description": "Remove Extension label and the separate dual-unit instruction from Exercise 57; ask for the rest-mass decrease in grams only.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42665/index.cnxml",
+      "before_sha256": "9d65da7602284c21ced806d352b630930fde4b38ad20f959ce859bd05441d297",
+      "after_sha256": "d61a5646fc8fd793f26b4ad72509f3dff59226e36f7a3682ec44b946ae04aa01",
+      "before": "<exercise id=\"fs-id2663589\" type=\"conceptual-questions\"><problem id=\"fs-id2663589-revised-problem\"><para id=\"fs-id2663589-revised-p1\"><span id=\"fs-id2663589-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> An event releases <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>5.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>J</m:mtext></m:mrow></m:math> of nuclear energy. Using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>Δm</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, find the corresponding decrease in rest mass. Express the answer in kilograms and grams.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id2663589\" type=\"conceptual-questions\"><problem id=\"fs-id2663589-revised-problem\"><para id=\"fs-id2663589-revised-p1\"><span id=\"fs-id2663589-extension\"/>An event releases <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>5.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>J</m:mtext></m:mrow></m:math> of nuclear energy. Using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>Δm</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, find the corresponding decrease in rest mass in grams.</para></problem></exercise>"
+    }
+  ]
+}

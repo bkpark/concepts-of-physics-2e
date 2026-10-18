@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-RADIATION-PROTECTION-SINGLE-PARAGRAPH",
+  "status": "approved",
+  "description": "Combine published Exercise 45 on time, distance, and shielding into one paragraph, preserving wording and anchors.",
+  "changes": [
+    {
+      "path": "maintained/modules/m68327/index.cnxml",
+      "before_sha256": "a31f33446a77c217a505bd7b980834da5e7639dada291adf080913b5a75cfc7e",
+      "after_sha256": "92e2672d571d678c7885fb87b0862a576e125fb8ea297e364358a68cc9c6c56c",
+      "before": "<exercise id=\"fs-id1357684\" type=\"conceptual-questions\"><problem id=\"fs-id1357684-revised-problem\"><para id=\"fs-id1357684-revised-p1\">Describe how each change can reduce exposure to a radiation source:</para><para id=\"fs-id1357684-revised-p2\">(a) spending less time near it,</para><para id=\"fs-id1357684-revised-p3\">(b) working farther away, and</para><para id=\"fs-id1357684-revised-p4\">(c) placing suitable shielding between it and the worker. Why must the shielding material and thickness be chosen for the radiation involved?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1357684\" type=\"conceptual-questions\"><problem id=\"fs-id1357684-revised-problem\"><para id=\"fs-id1357684-revised-p1\">Describe how each change can reduce exposure to a radiation source: <span id=\"fs-id1357684-revised-p2\"/>(a) spending less time near it, <span id=\"fs-id1357684-revised-p3\"/>(b) working farther away, and <span id=\"fs-id1357684-revised-p4\"/>(c) placing suitable shielding between it and the worker. Why must the shielding material and thickness be chosen for the radiation involved?</para></problem></exercise>"
+    }
+  ]
+}

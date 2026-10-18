@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-57-DELTA-M-ITALIC",
+  "status": "approved",
+  "description": "Separate upright delta from italic mass variable in Exercise 57; a multi-character mi token rendered both upright.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42665/index.cnxml",
+      "before_sha256": "6de0ddc11d3a9251b8bbe5a69520b7a5134384abf4da941c633d0c93699f935d",
+      "after_sha256": "4d1fa340058bc38c136a2c94a97afa9aa20068bf0f4158789eed720160c631eb",
+      "before": "<exercise id=\"fs-id2663589\" type=\"conceptual-questions\"><problem id=\"fs-id2663589-revised-problem\"><para id=\"fs-id2663589-revised-p1\"><span id=\"fs-id2663589-extension\"/>An event releases <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>5.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>J</m:mtext></m:mrow></m:math> of nuclear energy—an amount comparable to the electrical energy used throughout the city of Alameda in the San Francisco Bay Area in about two weeks. Using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>Δm</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, find the corresponding decrease in rest mass in grams.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id2663589\" type=\"conceptual-questions\"><problem id=\"fs-id2663589-revised-problem\"><para id=\"fs-id2663589-revised-p1\"><span id=\"fs-id2663589-extension\"/>An event releases <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>5.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>J</m:mtext></m:mrow></m:math> of nuclear energy—an amount comparable to the electrical energy used throughout the city of Alameda in the San Francisco Bay Area in about two weeks. Using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi mathvariant=\"normal\">Δ</m:mi><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, find the corresponding decrease in rest mass in grams.</para></problem></exercise>"
+    }
+  ]
+}

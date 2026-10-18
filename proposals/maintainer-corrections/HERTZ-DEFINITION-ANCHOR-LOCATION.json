@@ -1,0 +1,16 @@
+{
+  "id": "HERTZ-DEFINITION-ANCHOR-LOCATION",
+  "path": "maintained/modules/m71584/index.cnxml",
+  "before_sha256": "6cd2b762179d0fdb82df07c7dc28af10fb58f890cc6d95b392c10e7872e1f1be",
+  "after_sha256": "68bf2a525f35a4aff798e78e8fdefd5f09bc3770e8dddc40d363704d4b437b08",
+  "changes": [
+    {
+      "before": "<para id=\"import-auto-id2402363\">The SI unit for frequency is the <emphasis effect=\"italics\">cycle per second</emphasis>, which is defined to be a <emphasis effect=\"italics\">hertz</emphasis> (Hz):</para>",
+      "after": "<para id=\"import-auto-id2402363\">The SI unit for frequency is the <emphasis effect=\"italics\">cycle per second</emphasis>, which is defined to be a <term id=\"canonical-hertz\">hertz</term> (Hz):</para>"
+    },
+    {
+      "before": "<para>The <term id=\"canonical-hertz\">hertz</term> (Hz) is the SI unit of frequency: one cycle per second.</para>",
+      "after": ""
+    }
+  ]
+}

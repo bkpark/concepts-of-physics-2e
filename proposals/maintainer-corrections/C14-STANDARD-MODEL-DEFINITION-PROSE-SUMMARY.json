@@ -1,0 +1,24 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m42680/index.cnxml",
+  "before_sha256": "b8add2c4e51db6d12f3af3d7be00dabee8d0a4d6e280710d4cc9d3a5d45276ed",
+  "after_sha256": "c3d59fe38e7a0fd83a0ef1abcea241371df26fea7bebb7d666fcb02517336250",
+  "edits": [
+    {
+      "before": "<para id=\"import-auto-id1169737930552\">It is beyond the scope of this text to go into more detail on the types of quark and gluon interactions that underlie the observable particles, but the theory (<term id=\"import-auto-id1169737869734\">quantum chromodynamics</term> or QCD) is very self-consistent. So successful have QCD and the electroweak theory been that, taken together, they are called the <term id=\"import-auto-id1169738007161\">Standard Model</term>. Advances in knowledge are expected to modify, but not overthrow, the Standard Model of particle physics and forces.</para>",
+      "after": "<para id=\"import-auto-id1169737930552\"><term id=\"import-auto-id1169737869734\">Quantum chromodynamics</term> (QCD) describes the strong interaction between quarks and gluons. Together with electroweak theory, it forms the <term id=\"import-auto-id1169738007161\">Standard Model</term> of particle physics. This framework describes quarks and leptons, the particles that carry the strong, weak, and electromagnetic interactions, and the Higgs boson. Its predictions have passed many precise experimental tests. However, it does not include gravity or explain dark matter, so it remains an incomplete description of nature.</para>"
+    },
+    {
+      "before": "<item id=\"import-auto-id1169737895017\">The strong force is carried by eight proposed particles called gluons, which are intimately connected to a quantum number called color—their governing theory is thus called quantum chromodynamics (QCD). Taken together, QCD and the electroweak theory are widely accepted as the Standard Model of particle physics. </item>",
+      "after": "<item id=\"import-auto-id1169737895017\">Eight types of gluons carry the strong interaction described by quantum chromodynamics (QCD). QCD and electroweak theory together form the Standard Model, which describes elementary particles and their strong, weak, and electromagnetic interactions.</item>"
+    },
+    {
+      "before": "<definition id=\"import-auto-id1169737705642\"><term>standard model</term> <meaning id=\"fs-id1169738076844\">combination of quantum chromodynamics and electroweak theory</meaning></definition>",
+      "after": "<definition id=\"import-auto-id1169737705642\"><term>Standard Model</term> <meaning id=\"fs-id1169738076844\">the theory describing known elementary particles and their strong, weak, and electromagnetic interactions; it includes quarks, leptons, force-carrier particles, and the Higgs boson, but does not include gravity</meaning></definition>"
+    }
+  ],
+  "sources": [
+    "https://home.web.cern.ch/science/physics/standard-model/"
+  ],
+  "reason": "Maintainer approved all three proposed revisions: clarify Standard Model scope and limitations, and remove outdated proposed-gluon wording from the summary."
+}

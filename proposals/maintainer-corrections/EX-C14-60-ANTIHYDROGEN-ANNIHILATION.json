@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-60-ANTIHYDROGEN-ANNIHILATION",
+  "status": "approved",
+  "description": "Replace Exercise 60 with approved antihydrogen identification and electron-positron photon-energy question.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "f0e40af50f65dbf3971bb825c92f19e1e47840469ac2ad4d673f0885260336a9",
+      "after_sha256": "a48c8b5b503fbe69c8db6c9d6d9bffb1143be59f3db89ba3b337cf245c3a0a93",
+      "before": "<exercise id=\"fs-id1169738093112\" type=\"conceptual-questions\"><problem id=\"fs-id1169738093112-revised-problem\"><para id=\"fs-id1169738093112-revised-p1\">An antihydrogen atom contains an antiproton and a positron. The photon is its own antiparticle. Could you identify antihydrogen simply because it emits a distinct kind of “antiphoton”? Explain.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169738093112\" type=\"conceptual-questions\"><problem id=\"fs-id1169738093112-revised-problem\"><para id=\"fs-id1169738093112-revised-p1\">An antihydrogen atom contains an antiproton and a positron. How could annihilation when it encounters ordinary matter help distinguish antihydrogen from hydrogen? If its positron annihilates with an electron, with both initially approximately at rest, two photons are emitted. Explain why the photons have equal energies and calculate the energy of each in MeV. Use <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.511</m:mn><m:mspace width=\"0.167em\"/><m:mtext>MeV</m:mtext></m:mrow></m:math>.</para></problem></exercise>"
+    }
+  ]
+}

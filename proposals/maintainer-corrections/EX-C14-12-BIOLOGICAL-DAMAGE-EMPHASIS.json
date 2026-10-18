@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-12-BIOLOGICAL-DAMAGE-EMPHASIS",
+  "status": "approved",
+  "description": "Use maintainer-approved wording focused on why ionizing radiation causes biological damage, following the original MyOpenMath emphasis.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42627/index.cnxml",
+      "before_sha256": "5868a3f459ba5efc660c17c1a7d0e2dd744cf33aa04adb79bdc2d12608071a7f",
+      "after_sha256": "15acaaededff4f7e65b6082205f3ab63083db7b2682b99ca5d558a366124a67a",
+      "before": "<para id=\"c14-mom-a3-p1\">A student says, “<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays cannot ionize matter because photons have no electric charge.” Another says, “All radiation damages cells in the same way.” Explain what is wrong with each statement, using the energy transferred in an interaction.</para>",
+      "after": "<para id=\"c14-mom-a3-p1\">Explain why ionizing radiation can damage living cells. In your answer, describe what ionization does to an atom or molecule and how this can affect DNA or other cell structures. Does the radiation itself need to carry an electric charge to cause this damage?</para>"
+    }
+  ]
+}

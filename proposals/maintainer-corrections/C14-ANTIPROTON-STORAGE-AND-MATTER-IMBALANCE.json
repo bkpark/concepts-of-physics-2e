@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m42674/index.cnxml",
+  "before_sha256": "cb95d4550e937c2c38af7776e15fa9ffce2944ecfdd1ab32b9b6676fac1194c9",
+  "after_sha256": "ca4f60b0c4ecb4a27edeaf5528ea36d98faabbfa8f43c475d8548ace3515b9f7",
+  "edits": [
+    {
+      "before": "It is possible to contain large-scale antimatter particles such as antiprotons by using electromagnetic traps that confine the particles within a magnetic field so that they don’t annihilate with other particles. However, particles of the same charge repel each other, so the more particles that are contained in a trap, the more energy is needed to power the magnetic field that contains them. It is not currently possible to store a significant quantity of antiprotons.",
+      "after": "Antiprotons can be stored in electromagnetic traps that use electric and magnetic fields to keep them away from ordinary matter. Repulsion between the trapped antiprotons limits how densely they can be confined for given trapping fields. Maintaining the required vacuum, low temperatures, and stable confinement presents substantial technical challenges, so storing macroscopic quantities remains impractical."
+    },
+    {
+      "before": "But this knowledge does raise another question—why is there such a predominance of matter and so little antimatter? Possible explanations emerge later in this and the next chapter.",
+      "after": "This raises a deeper question: why does the observable universe contain so much more matter than antimatter? The origin of this imbalance remains an open problem in physics, beyond the scope of this textbook."
+    }
+  ],
+  "sources": [
+    "https://aegis.web.cern.ch/about.php",
+    "https://alpha.web.cern.ch/ioffe-pritchard-trap/"
+  ],
+  "reason": "Maintainer approved accurate electromagnetic confinement explanation and replacement of unsupported later-chapter promise with a scope statement."
+}

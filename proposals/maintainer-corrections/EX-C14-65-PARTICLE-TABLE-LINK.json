@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-65-PARTICLE-TABLE-LINK",
+  "status": "approved",
+  "description": "Link Exercise 65 particle-table reference to Selected Particle Characteristics using its stable source ID.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "b519505e9cd0dd9dab7158d9f0ac87746fa655e714d4cd9df459a7a6a476a69d",
+      "after_sha256": "97ec9129f00d2857f7def337d6045331255ad763ec5bc03bb0a650b8c70edeba",
+      "before": "You may use the particle table.",
+      "after": "You may use the <link document=\"m42674\" target-id=\"import-auto-id1169736657305\">particle table</link>."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-64-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label from Exercise 64 on baryon-number conservation and rest mass.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "1d17795b42e50662d609e6902e7eac254ef98362d1887f003735d91a0f547634",
+      "after_sha256": "b519505e9cd0dd9dab7158d9f0ac87746fa655e714d4cd9df459a7a6a476a69d",
+      "before": "<exercise id=\"fs-id1169738086422\" type=\"conceptual-questions\"><problem id=\"fs-id1169738086422-revised-problem\"><para id=\"fs-id1169738086422-revised-p1\"><span id=\"fs-id1169738086422-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> In ordinary nuclear reactions without baryon–antibaryon production, how does baryon-number conservation account for conservation of the total number of nucleons? Why does this not require the total rest mass to remain unchanged?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169738086422\" type=\"conceptual-questions\"><problem id=\"fs-id1169738086422-revised-problem\"><para id=\"fs-id1169738086422-revised-p1\"><span id=\"fs-id1169738086422-extension\"/>In ordinary nuclear reactions without baryon–antibaryon production, how does baryon-number conservation account for conservation of the total number of nucleons? Why does this not require the total rest mass to remain unchanged?</para></problem></exercise>"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "OBJECTIVES-8-13-ENTROPY",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m67128/index.cnxml",
+      "before_sha256": "4cf00826970dc6c1d6b133ce81058193e001e06569fad41360de594753e0fcc9",
+      "after_sha256": "b376b9024ca754c11cb3fb6c334d68b4979ed51557002e6b0c8dc9dab9259534",
+      "before": "\n<item>Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes. </item>\n<item>Calculate entropy changes in a system.</item>\n",
+      "after": "\n<item>Describe entropy as a property of a system’s state.</item>\n<item>Calculate entropy changes using reversible heat transfer at constant temperature.</item>\n<item>Explain how the total entropy of a system and its surroundings behaves in reversible and irreversible processes.</item>\n"
+    }
+  ],
+  "validation": "CNXML parses; only objective list changed."
+}

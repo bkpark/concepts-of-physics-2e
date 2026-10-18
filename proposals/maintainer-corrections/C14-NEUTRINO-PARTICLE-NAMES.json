@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "source": "maintained\\modules\\m42674\\index.cnxml",
+  "before_sha256": "c43c15cf261ecdf08c05ce6907c148d13bf481077e942e0fc9ad5ff99b0d6a7d",
+  "after_sha256": "accea7eddc67e52909a04947634cf873718b08a92fa8da7086bdb0cf7386de86",
+  "edits": [
+    {
+      "before": "<entry align=\"left\">Neutrino <emphasis effect=\"italics\">(e)</emphasis><sup>3</sup></entry>",
+      "after": "<entry align=\"left\">Electron Neutrino<sup>3</sup></entry>"
+    },
+    {
+      "before": "<entry align=\"left\">Neutrino <emphasis effect=\"italics\"><m:math display=\"inline\"><m:mo>(</m:mo><m:semantics><m:mrow><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{μ} {}</m:annotation></m:semantics><m:mo>)</m:mo></m:math></emphasis> <sup>3</sup></entry>",
+      "after": "<entry align=\"left\">Muon Neutrino<sup>3</sup></entry>"
+    },
+    {
+      "before": "<entry align=\"left\">Neutrino <emphasis effect=\"italics\"><m:math display=\"inline\"><m:mo>(</m:mo><m:semantics><m:mrow><m:mrow><m:mi>τ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{τ} {}</m:annotation></m:semantics><m:mo>)</m:mo></m:math></emphasis><sup>3</sup></entry>",
+      "after": "<entry align=\"left\">Tau Neutrino<sup>3</sup></entry>"
+    }
+  ],
+  "reason": "Maintainer requested consistent spelled-out neutrino names; note markers retained."
+}

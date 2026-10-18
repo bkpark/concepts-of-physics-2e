@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-29-STATISTICAL-COMPARISON",
+  "status": "approved",
+  "description": "Replace the leading yes/no question with the approved comparison of radioactive samples and sample sizes.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52471/index.cnxml",
+      "before_sha256": "8ba662e65e104c60d5d53b7bf1be9636d521e4c09e942b5605deba20c654dac9",
+      "after_sha256": "35053daab284b7f4e7846a07cb73ba5f57fdcb1a034075ccb7eb7662af8c170b",
+      "before": "<para id=\"import-auto-id3033373\">Does the number of radioactive nuclei in a sample decrease to <emphasis effect=\"italics\">exactly</emphasis> half its original value in one half-life? Explain in terms of the statistical nature of radioactive decay.</para>",
+      "after": "<para id=\"import-auto-id3033373\">Many samples each initially contain 100 nuclei of the same radioactive isotope. After one half-life, the remaining radioactive nuclei in each sample are counted. Describe what you would expect to find when comparing the samples. How would the results change if each sample initially contained one million radioactive nuclei? Discuss the fraction remaining as well as the number.</para>"
+    }
+  ]
+}

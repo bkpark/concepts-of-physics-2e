@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-47-FUSION-ENERGY-Q",
+  "status": "approved",
+  "description": "Use Q for released energy in the proton–proton chain equation and define it immediately afterward, matching textbook notation.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52480/index.cnxml",
+      "before_sha256": "b23dfa6b5bf79cc5a54e851fef4e2557845574b41c86d99447bea74035cab7a8",
+      "after_sha256": "e34f4d74c45d8b412600508cc54500e97b319e496d9dd01aeee08e2a7312d7fe",
+      "before": "<exercise id=\"fs-id1430227\" type=\"conceptual-questions\"><problem id=\"fs-id1430227-revised-problem\"><para id=\"fs-id1430227-revised-p1\"><span id=\"fs-id1430227-extension\"/>The net conversion in the proton–proton chain, including positron annihilation, can be written <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>e</m:mi><m:mo>−</m:mo></m:msup><m:mo>→</m:mo><m:mmultiscripts><m:mtext>He</m:mtext><m:mprescripts/><m:none/><m:mn>4</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>ν</m:mi><m:mi mathvariant=\"italic\">e</m:mi></m:msub><m:mo>+</m:mo><m:mtext>released energy</m:mtext></m:mrow></m:math>. Check electric charge and nucleon number. If <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msub><m:mi>L</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math> is +1 for an electron and an electron neutrino, check electron-family number too.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1430227\" type=\"conceptual-questions\"><problem id=\"fs-id1430227-revised-problem\"><para id=\"fs-id1430227-revised-p1\"><span id=\"fs-id1430227-extension\"/>The net conversion in the proton–proton chain, including positron annihilation, can be written <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>e</m:mi><m:mo>−</m:mo></m:msup><m:mo>→</m:mo><m:mmultiscripts><m:mtext>He</m:mtext><m:mprescripts/><m:none/><m:mn>4</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>ν</m:mi><m:mi mathvariant=\"italic\">e</m:mi></m:msub><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math>, where <m:math><m:mi>Q</m:mi></m:math> is the released energy. Check electric charge and nucleon number. If <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msub><m:mi>L</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math> is +1 for an electron and an electron neutrino, check electron-family number too.</para></problem></exercise>"
+    }
+  ]
+}

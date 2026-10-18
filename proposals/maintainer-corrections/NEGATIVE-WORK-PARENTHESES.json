@@ -1,0 +1,13 @@
+{
+  "id": "NEGATIVE-WORK-PARENTHESES",
+  "path": "maintained/modules/m67539/index.cnxml",
+  "before_sha256": "2f232ffa8d4e2a4a9806115ce39a78b8d84ad30b4439aab88019db8cbc194ef8",
+  "after_sha256": "b81feb7080839ce9bf414ded9e1998af1009fa28a28d791f5cfdaea31a1b9c0c",
+  "changes": [
+    {
+      "paragraph": "eip-663",
+      "before": "<para id=\"eip-663\">Note that the work done lowering the mass back to its starting position would be\n<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mo>\u2212</m:mo><m:mrow><m:mo>(</m:mo><m:mn>470</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math> because force and displacement point in opposite directions. The total work done raising and lowering the mass is <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>470</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext><m:mo>\u2212</m:mo><m:mn>470</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext></m:mrow></m:math>.</para>",
+      "after": "<para id=\"eip-663\">Note that the work done lowering the mass back to its starting position would be\n<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mo form=\"prefix\" lspace=\"0\" rspace=\"0\">\u2212</m:mo><m:mn>470</m:mn><m:mspace width=\"0.167em\"/><m:mtext>J</m:mtext></m:mrow></m:math> because force and displacement point in opposite directions. The total work done raising and lowering the mass is <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>470</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext><m:mo>\u2212</m:mo><m:mn>470</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width=\"0.167em\" /><m:mtext>J</m:mtext></m:mrow></m:math>.</para>"
+    }
+  ]
+}

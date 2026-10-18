@@ -5,7 +5,7 @@
   <md:title>Waves</md:title>
   <md:abstract><list>
 <item>State the characteristics of a wave.</item>
-<item>Calculate the velocity of wave propagation, given frequency and wavelength</item>
+<item>Calculate wave propagation speed from frequency and wavelength.</item>
 </list></md:abstract>
   <md:uuid>10278aea-0c0b-4114-b7ac-8fe7d862010f</md:uuid>
 </metadata>
@@ -24,7 +24,7 @@
         <image mime-type="image/jpg" src="../../media/Figure_17_09_02a.jpg" width="475"/>
       </media>
       
-    <caption>An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>, which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"W"} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1375143">The water wave in the figure also has a length associated with it, called its <term id="import-auto-id1844396">wavelength</term> 
+    <caption>An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>, which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"W"} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="canonical-wavelength-introduction"><term id="canonical-wavelength">Wavelength</term>: the distance between successive points at the same phase of a periodic wave, such as adjacent crests.</para><para id="import-auto-id1375143">The water wave in the figure also has a length associated with it, called its <span id="import-auto-id1844396">wavelength</span> 
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -95,7 +95,7 @@
     
     <para id="import-auto-id1236674">Fill a large bowl or basin with water and wait for the water to settle so there are no ripples. Gently drop a cork into the middle of the bowl. Estimate the wavelength and period of oscillation of the water wave that propagates away from the cork. Remove the cork from the bowl and wait for the water to settle again. Gently drop the cork at a height that is different from the first drop. Does the wavelength depend upon how high above the water the cork is dropped?</para>
   </note><example id="fs-id1577577"><title>Calculate the Velocity of Wave Propagation: Gull in the Ocean</title><para id="import-auto-id3076328">Calculate the wave velocity of the ocean wave in <link target-id="import-auto-id3201529"/> if the distance between wave crests is 10.0 m and the time for a sea gull to bob up and down is 5.00 s.</para><para id="import-auto-id1177111"><emphasis>Strategy</emphasis></para>
-      <para id="fs-id2454070">We are asked to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>. The given information tells us that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ="10" "." 0`"m"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=5 "." "00"`"s"} {}</m:annotation></m:semantics></m:math>. Therefore, we can use 
+      <para id="fs-id2454070">We are asked to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>. The given information tells us that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>10</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ="10" "." 0`"m"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=5 "." "00"`"s"} {}</m:annotation></m:semantics></m:math>. Therefore, we can use 
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -108,7 +108,7 @@
       </m:mrow>
 </m:msub>
      <m:mrow>
-      <m:mo stretchy="false">=</m:mo>
+      <m:mo stretchy="false" form="infix">=</m:mo>
       <m:mfrac>
        <m:mi>λ</m:mi>
        <m:mi>T</m:mi>
@@ -120,7 +120,7 @@
  <m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}= {  {λ}  over  {T} } } {}</m:annotation></m:semantics></m:math> to find the wave velocity.</para><para id="import-auto-id2421733">
       <emphasis>Solution</emphasis>
     </para>
-    <list id="fs-id3008724" list-type="enumerated" number-style="arabic"><item>Enter the known values into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub><m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}= {  {λ}  over  {T} } } {}</m:annotation></m:semantics></m:math>:
+    <list id="fs-id3008724" list-type="enumerated" number-style="arabic"><item>Enter the known values into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub><m:mrow><m:mo stretchy="false" form="infix">=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}= {  {λ}  over  {T} } } {}</m:annotation></m:semantics></m:math>:
     <equation id="import-auto-id3026908" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
@@ -154,12 +154,12 @@
         </m:semantics>
       </m:math> 
     </equation></item>
-    <item>Solve for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math> to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub><m:mtext>= 2.00 m/s.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math></item>
+    <item>Solve for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math> to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext> 2.00 m/s.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math></item>
    </list><para id="import-auto-id1926468"><emphasis>Discussion</emphasis></para>
       <para id="fs-id2662746">This slow speed seems reasonable for an ocean wave. Note that the wave moves to the right in the figure at this speed, not the varying speed at which the sea gull moves up and down.</para>
     </example><section id="fs-id3010796">
   <title>Transverse and Longitudinal Waves</title>
-    <para id="import-auto-id1872926">A simple wave consists of a periodic disturbance that propagates from one place to another. The wave in <link target-id="import-auto-id3090910"/> propagates in the horizontal direction while the surface is disturbed in the vertical direction. Such a wave is called a <term id="import-auto-id3064028">transverse wave</term> or shear wave; in such a wave, the disturbance is perpendicular to the direction of propagation. In contrast, in a <term id="import-auto-id2588236">longitudinal wave</term> or compressional wave, the disturbance is parallel to the direction of propagation. <link target-id="import-auto-id2400353"/> shows an example of a longitudinal wave. The size of the disturbance is its amplitude <emphasis effect="italics">X</emphasis> and is completely independent of the speed of propagation <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id3090910"><media id="import-auto-id1575292" alt="The figure shows a woman holding a long spring in her hand and moving it up and down causing it to move in a zigzag manner away from her. It is an example of a transverse wave, the wave propagates horizontally. The direction of motion of the wave is shown with the help of right arrows at each crest and trough.">
+    <para id="canonical-transverse-wave-introduction"><term id="canonical-transverse-wave">Transverse wave</term>: a wave in which the disturbance is perpendicular to the direction of propagation.</para><para id="import-auto-id1872926">A simple wave consists of a periodic disturbance that propagates from one place to another. The wave in <link target-id="import-auto-id3090910"/> propagates in the horizontal direction while the surface is disturbed in the vertical direction. Such a wave is called a <span id="import-auto-id3064028">transverse wave</span> or shear wave; in such a wave, the disturbance is perpendicular to the direction of propagation. In contrast, in a <term id="import-auto-id2588236">longitudinal wave</term> or compressional wave, the disturbance is parallel to the direction of propagation. <link target-id="import-auto-id2400353"/> shows an example of a longitudinal wave. The size of the disturbance is its amplitude <emphasis effect="italics">X</emphasis> and is completely independent of the speed of propagation <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id3090910"><media id="import-auto-id1575292" alt="The figure shows a woman holding a long spring in her hand and moving it up and down causing it to move in a zigzag manner away from her. It is an example of a transverse wave, the wave propagates horizontally. The direction of motion of the wave is shown with the help of right arrows at each crest and trough.">
         <image mime-type="image/jpg" src="../../media/Figure_17_09_03a.jpg" width="300"/>
       </media>
       
@@ -200,7 +200,7 @@ shows no longitudinal motion of the bird.) The waves on the strings of musical i
                     
                       
                     
-                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false" form="infix">=</m:mo>
                     <m:mfrac>
                       <m:mi>λ</m:mi>
                       <m:mi>T</m:mi>
@@ -230,7 +230,7 @@ shows no longitudinal motion of the bird.) The waves on the strings of musical i
                     
                       
                     
-                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false" form="infix">=</m:mo>
                     <m:mrow><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
                   </m:mrow>
                 </m:mrow>
@@ -261,9 +261,9 @@ shows no longitudinal motion of the bird.) The waves on the strings of musical i
 </section></content>
   <glossary>
     <definition id="import-auto-id3090734"><term>longitudinal wave</term> <meaning id="fs-id2659278">a wave in which the disturbance is parallel to the direction of propagation</meaning></definition>
-    <definition id="import-auto-id2035075"><term>transverse wave</term> <meaning id="fs-id2662577">a wave in which the disturbance is perpendicular to the direction of propagation</meaning></definition>
+    
 
     <definition id="import-auto-id1972564"><term>wave velocity</term> <meaning id="fs-id3101532">the speed at which the disturbance moves; also called wave speed, propagation velocity, or propagation speed</meaning></definition>
-    <definition id="import-auto-id1430872"><term>wavelength</term> <meaning id="fs-id2408930">the distance between adjacent identical parts of a wave</meaning></definition>
-  </glossary>
+    
+  <definition id="import-auto-id2035075"><term>transverse wave</term> <meaning id="fs-id2662577">a wave in which the disturbance is perpendicular to the direction of propagation</meaning></definition><definition id="import-auto-id1430872"><term>wavelength</term> <meaning id="fs-id2408930">the distance between successive points at the same phase of a periodic wave, such as adjacent crests</meaning></definition></glossary>
 </document>

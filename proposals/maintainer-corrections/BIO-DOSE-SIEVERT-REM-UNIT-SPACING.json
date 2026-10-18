@@ -1,0 +1,14 @@
+{
+  "id": "BIO-DOSE-SIEVERT-REM-UNIT-SPACING",
+  "status": "approved",
+  "description": "Use explicit thin MathML spaces between numbers and units in equation eip-409; leading text spaces were lost in rendering.",
+  "changes": [
+    {
+      "path": "maintained/modules/m68327/index.cnxml",
+      "before_sha256": "92e2672d571d678c7885fb87b0862a576e125fb8ea297e364358a68cc9c6c56c",
+      "after_sha256": "3a6dada9b698d17d2b55f4dcc60532217e2b4c5dbb75f76f2c8725f0d618d7ba",
+      "before": "<equation id=\"eip-409\"><m:math><m:mrow><m:mn>1</m:mn><m:mtext> Sv</m:mtext><m:mo>=</m:mo><m:mn>100</m:mn><m:mtext> rem.</m:mtext></m:mrow></m:math></equation>",
+      "after": "<equation id=\"eip-409\"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width=\"0.167em\"/><m:mtext>Sv</m:mtext><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width=\"0.167em\"/><m:mtext>rem.</m:mtext></m:mrow></m:math></equation>"
+    }
+  ]
+}

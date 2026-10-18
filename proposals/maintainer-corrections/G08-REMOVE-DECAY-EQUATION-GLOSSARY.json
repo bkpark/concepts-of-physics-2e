@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m76603/index.cnxml",
+  "before_sha256": "209234709aa11e512a60054c1ef2a2c8e457b77d2baa493d677b1b4c76e02705",
+  "after_sha256": "df74f00eb9786ba61366e3c9783651ebee919994ff1367c37cb14ff43c810adb",
+  "edits": [
+    {
+      "before": "<definition id=\"import-auto-id2668160\"><term>decay equation</term> <meaning id=\"fs-id3109833\">the equation to find out how much of a radioactive material is left after a given period of time</meaning></definition>",
+      "after": ""
+    },
+    {
+      "before": "<term>decay equation</term>",
+      "after": "decay equation"
+    },
+    {
+      "before": "<term id=\"import-auto-id3102703\">decay equation</term>",
+      "after": "<span id=\"import-auto-id3102703\">decay equation</span>"
+    }
+  ],
+  "reason": "Maintainer approved removal of decay equation as insufficiently distinct for a glossary entry. Ordinary wording and equations retained; formal term styling removed if present. No source links target removed glossary IDs."
+}

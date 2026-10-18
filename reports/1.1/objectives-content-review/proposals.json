@@ -1,0 +1,1120 @@
+{
+  "date": "2026-10-17",
+  "status": "All 36 reviewed sections applied, verified, and published in preview 154",
+  "scope": {
+    "pages": 141,
+    "sections_with_objectives": 121,
+    "objective_items": 321
+  },
+  "counts": {
+    "Corrections and scope clarifications": 23,
+    "Coverage improvements": 10,
+    "Choices about emphasis": 3
+  },
+  "findings": [
+    {
+      "section": "1.4",
+      "module": "m71407",
+      "title": "Time, Velocity, and Speed",
+      "category": "Corrections and scope clarifications",
+      "reason": "The listed endpoints determine average velocity, but do not determine average speed without the distance traveled. They also do not determine instantaneous velocity or speed.",
+      "current": [
+        "Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.",
+        "Calculate velocity and speed given initial position, initial time, final position, and final time.",
+        "Interpret graphs of position vs. time and velocity vs. time."
+      ],
+      "proposed": [
+        "Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.",
+        "Calculate average velocity from displacement and elapsed time, and average speed from distance traveled and elapsed time.",
+        "Interpret graphs of position vs. time and velocity vs. time."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id3538220",
+          "kind": "para",
+          "text": "Average velocity is displacement (change in position) divided by the time of travel,"
+        },
+        {
+          "id": "import-auto-id1752774",
+          "kind": "para",
+          "text": "We have noted that distance traveled can be greater than the magnitude of displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is not simply the magnitude of average velocity."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "1.5",
+      "module": "m67033",
+      "title": "Acceleration",
+      "category": "Corrections and scope clarifications",
+      "reason": "The endpoint calculation gives average acceleration. The section explicitly distinguishes it from instantaneous acceleration.",
+      "current": [
+        "Define and distinguish between velocity and acceleration, and between instantaneous and average acceleration.",
+        "Calculate acceleration given initial time, initial velocity, final time, and final velocity."
+      ],
+      "proposed": [
+        "Define and distinguish between velocity and acceleration, and between instantaneous and average acceleration.",
+        "Calculate average acceleration from initial and final velocities and elapsed time."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1652039",
+          "kind": "para",
+          "text": "We can solve this problem by identifying Δv and Δt from the given information and then calculating the average acceleration directly from the equation a¯=ΔvΔt=vf−v0tf−t0."
+        },
+        {
+          "id": "import-auto-id2303193",
+          "kind": "para",
+          "text": "Instantaneous acceleration a, or the acceleration at a specific instant in time, is obtained by the same process as discussed for instantaneous velocity—that is, by considering an infinitesimally small interval of time. How do we find instantaneous acceleration using only algebra? The answer is that we choose an average acceleration that is representative of the motion. shows graphs of instantaneous acceleration versus time for two very different motions. In (a), the acceleration varies slightly and the average over the entire interval is nearly the same as the instantaneous acceleration at any time. In this case, we should treat this motion as if it had a constant acceleration equal to the average (in this case about 1.8m/s2). In (b), the acceleration varies drastically over time. In such situations it is best to consider smaller time intervals and choose an average acceleration for each. For example, we could consider motion over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with accelerations of +3.0m/s2 and −2.0m/s2, respectively."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "1.6",
+      "module": "m67034",
+      "title": "Motion Equations for Constant Acceleration in One Dimension",
+      "category": "Corrections and scope clarifications",
+      "reason": "The first objective omits elapsed time. The other calculation objectives should retain the constant-acceleration condition stated in the section title and derivations.",
+      "current": [
+        "Calculate displacement of an object that is not accelerating, given initial position and velocity.",
+        "Calculate final velocity of an accelerating object, given initial velocity, acceleration, and time.",
+        "Calculate displacement and final position of an accelerating object, given initial position, initial velocity, time, and acceleration."
+      ],
+      "proposed": [
+        "Calculate displacement and final position for motion at constant velocity, given the initial position, velocity, and elapsed time.",
+        "Calculate final velocity given initial velocity, constant acceleration, and elapsed time.",
+        "Calculate displacement and final position given initial position, initial velocity, constant acceleration, and elapsed time."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id2173108",
+          "kind": "para",
+          "text": "A jogger runs down a straight stretch of road with an average velocity of 4.00 m/s for 2.00 min. What is his final position, taking his initial position to be zero?"
+        },
+        {
+          "id": "fs-id1164906435134",
+          "kind": "list",
+          "text": "displacement depends on the square of the elapsed time when acceleration is not zero. In , the dragster covers only one fourth of the total distance in the first half of the elapsed time if acceleration is zero, then the initial velocity equals average velocity (v0=v¯) and x=x0+v0t+12at2 becomes x=x0+v0t"
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "1.8",
+      "module": "m67038",
+      "title": "Projectile Motion",
+      "category": "Choices about emphasis",
+      "reason": "The current problem-solving objective is broader than the section’s conceptual treatment. It supplies the independence principle and a range formula, so the objective is not unsupported; however, it has no worked two-dimensional problem-solving sequence. Narrowing it would better express the conceptual emphasis.",
+      "current": [
+        "Identify and explain the properties of a projectile, such as acceleration due to gravity, range, and trajectory.",
+        "Apply the principle of independence of motion to solve projectile motion problems."
+      ],
+      "proposed": [
+        "Identify and explain the properties of a projectile, such as acceleration due to gravity, range, and trajectory.",
+        "Use the independence of horizontal and vertical motion to explain a projectile’s trajectory when air resistance is negligible."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1696126",
+          "kind": "para",
+          "text": "The most important fact to know here is that motions along perpendicular axes are independent and thus can be considered separately. In particular, it is often convenient to consider vertical and horizontal motions separately, or independently. The key to analyzing two-dimensional projectile motion is to break it into two motions, one along the horizontal axis and the other along the vertical. And we will assume all forces except gravity are negligible (that is, we ignore forces due to air resistance, wind, friction, etc.). The vertical component of acceleration is, then, ay=−g=−9.80m/s2, where we take upward direction as the positive y direction. And because there is no force in the horizontal direction, ax=0. illustrates this approach to analyzing projectile motion."
+        },
+        {
+          "id": "import-auto-id1532818",
+          "kind": "para",
+          "text": "One of the conceptual aspects of projectile motion we can discuss without a detailed analysis is the range. On level ground, we define range to be the horizontal distance R traveled by a projectile. The range of projectiles describes everyday phenomena such as how far a football can be thrown or kicked. Also, investigating the range of projectiles can shed light on other interesting phenomena, such as the orbits of satellites around the Earth. Let us consider projectile range further."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "4.3",
+      "module": "m71583",
+      "title": "Impulse",
+      "category": "Corrections and scope clarifications",
+      "reason": "Impulse requires a change in velocity; a single unspecified velocity and time are insufficient. The section uses average net force.",
+      "current": [
+        "Define impulse.",
+        "Describe effects of impulses in everyday life.",
+        "Calculate average force and impulse given mass, velocity, and time."
+      ],
+      "proposed": [
+        "Define impulse and describe its effects in everyday life.",
+        "Calculate net impulse and average net force from mass, initial and final velocities, and the time interval over which the velocity changes."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1547031",
+          "kind": "para",
+          "text": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity FnetΔt, force times duration, is given the name impulse. Net impulse on an object gives its change in momentum."
+        },
+        {
+          "id": "import-auto-id1493349",
+          "kind": "para",
+          "text": "Our definition of impulse includes an assumption that the force is constant over the time interval Δt. Forces are usually not constant. Forces vary considerably even during the brief time intervals considered. It is, however, possible to find an average effective force Feff that produces the same result as the corresponding time-varying force. shows a graph of what an actual force looks like as a function of time for a ball bouncing off the floor. The area under the curve has units of momentum and is equal to the impulse or change in momentum between times t1 and t2. That area is equal to the area inside the rectangle bounded by Feff, t1, and t2. Thus the impulses and their effects are the same for both the actual and effective forces."
+        }
+      ],
+      "status": "approved and applied, with first two objectives combined at maintainer request"
+    },
+    {
+      "section": "4.5",
+      "module": "m67042",
+      "title": "Elastic Collisions in One Dimension",
+      "category": "Choices about emphasis",
+      "reason": "The final-velocity calculation is supported by a worked example. However, the current prose explicitly makes the quadratic algebra optional. The maintainer can retain a calculation outcome or use the conceptual alternative below.",
+      "current": [
+        "Describe an elastic collision of two objects in one dimension.",
+        "Determine the final velocities in an elastic collision given masses and initial velocities."
+      ],
+      "proposed": [
+        "Describe an elastic collision of two objects in one dimension.",
+        "Use conservation of momentum and kinetic energy to interpret the outcomes of one-dimensional elastic collisions."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1229983",
+          "kind": "para",
+          "text": "Substituting this expression into the second equation (internal kinetic energy equation) eliminates the variable v′2, leaving only v′1 as an unknown. Working through this algebra is optional; our focus is on understanding what these numerical results tell us about the collision. There are two solutions to any quadratic equation; in this example, they are"
+        },
+        {
+          "id": "import-auto-id1600785",
+          "kind": "para",
+          "text": "The equations for conservation of momentum and internal kinetic energy as written above can be used to describe any one-dimensional elastic collision of two objects. These equations can be extended to more objects if needed."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "5.5",
+      "module": "m71587",
+      "title": "Waves",
+      "category": "Corrections and scope clarifications",
+      "reason": "Frequency and wavelength determine propagation speed. The direction needed for a velocity vector is separate. The prose uses both labels, so this is a precision improvement rather than removed content.",
+      "current": [
+        "State the characteristics of a wave.",
+        "Calculate the velocity of wave propagation, given frequency and wavelength"
+      ],
+      "proposed": [
+        "State the characteristics of a wave.",
+        "Calculate wave propagation speed from frequency and wavelength."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1375143",
+          "kind": "para",
+          "text": "The water wave in the figure also has a length associated with it, called its wavelength λ, the distance between adjacent identical parts of a wave. (λ is the distance parallel to the direction of propagation.) The speed of propagation vw is the distance the wave travels in a given time, which is one wavelength in the time of one period. In equation form, that is"
+        },
+        {
+          "id": "fs-id2662746",
+          "kind": "para",
+          "text": "This slow speed seems reasonable for an ocean wave. Note that the wave moves to the right in the figure at this speed, not the varying speed at which the sea gull moves up and down."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "7.5",
+      "module": "m71623",
+      "title": "Pressure Due to the Weight of Fluid",
+      "category": "Corrections and scope clarifications",
+      "reason": "The worked examples calculate pressure and depth. “Pressure and altitude” does not specify the reference pressure or the fluid column needed to infer density; the prose also limits the constant-density approximation for gases.",
+      "current": [
+        "Define pressure in terms of weight.",
+        "Explain the variation of pressure with depth in a fluid.",
+        "Calculate density given pressure and altitude."
+      ],
+      "proposed": [
+        "Define pressure in terms of weight.",
+        "Explain the variation of pressure with depth in a fluid."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id3355342",
+          "kind": "para",
+          "text": "This value is the pressure due to the weight of a fluid. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation P=ρgh represents the pressure due to the weight of any fluid of average density ρ at any depth h below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered."
+        },
+        {
+          "id": "import-auto-id2594601",
+          "kind": "para",
+          "text": "Calculate the depth below the surface of water at which the pressure due to the weight of the water equals 1.00 atm."
+        }
+      ],
+      "status": "approved and applied: third objective removed at maintainer request"
+    },
+    {
+      "section": "8.6",
+      "module": "m67622",
+      "title": "Temperature Change and Heat Capacity",
+      "category": "Corrections and scope clarifications",
+      "reason": "The section relates heat transfer to the mass present, its specific heat, and its temperature change. It does not describe a change in mass caused by heating.",
+      "current": [
+        "Observe heat transfer and change in temperature and mass.",
+        "Calculate final temperature after heat transfer between two objects."
+      ],
+      "proposed": [
+        "Explain how heat transfer depends on mass, specific heat, and temperature change when no phase change occurs.",
+        "Calculate final temperature after heat transfer between two objects."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id3122646",
+          "kind": "para",
+          "text": "One of the major effects of heat transfer is temperature change: heating increases the temperature while cooling decreases it. We assume that there is no phase change and that no work is done on or by the system. Experiments show that the transferred heat depends on three factors—the change in temperature, the mass of the system, and the substance and phase of the substance."
+        },
+        {
+          "id": "import-auto-id3400307",
+          "kind": "para",
+          "text": "where Q is the symbol for heat transfer, m is the mass of the substance, and ΔT is the change in temperature. The symbol c stands for specific heat and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by 1.00°C. The specific heat c is a property of the substance; its SI unit is J/(kg·K) or J/(kg·°C). Recall that the temperature change (ΔT) is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then the unit of specific heat is kcal/(kg·°C)."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "8.11",
+      "module": "m42235",
+      "title": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+      "category": "Corrections and scope clarifications",
+      "reason": "A Carnot engine is ideal and reversible. Dissipation explains why real engines fall below the Carnot limit; it does not act within the ideal Carnot cycle. The calculation also concerns the heat engine in a power station, rather than the nuclear reaction itself.",
+      "current": [
+        "Identify a Carnot cycle.",
+        "Calculate maximum theoretical efficiency of a nuclear reactor.",
+        "Explain how dissipative processes affect the ideal Carnot engine."
+      ],
+      "proposed": [
+        "Identify a Carnot cycle.",
+        "Calculate the maximum theoretical efficiency of a heat engine from its hot and cold reservoir temperatures.",
+        "Explain conceptually why an ideal Carnot engine cannot achieve 100% efficiency."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169738035422",
+          "kind": "para",
+          "text": "The ideal Carnot cycle considered here uses only reversible processes. Irreversible processes involve dissipative factors, such as friction and turbulence. Heat transfer through a finite temperature difference is also irreversible. Reversible processes idealize away these imperfections and maximize the efficiency of the resulting heat engine cycle for given hot and cold reservoir temperatures."
+        },
+        {
+          "id": "import-auto-id1169737701983",
+          "kind": "para",
+          "text": "A nuclear power reactor has pressurized water at 300°C. (Higher temperatures are theoretically possible but practically not, due to limitations with materials used in the reactor.) Heat transfer from this water is a complex process (see ). Steam, produced in the steam generator, is used to drive the turbine-generators. Eventually the steam is condensed to water at 27°C and then heated again to start the cycle over. Calculate the maximum theoretical efficiency for a heat engine operating between these two temperatures."
+        }
+      ],
+      "status": "approved and applied with maintainer wording for objective 3",
+      "decision": "Third objective focuses on unavoidable waste heat in an ideal Carnot engine; reservoir-temperature calculation remains in objective 2."
+    },
+    {
+      "section": "8.13",
+      "module": "m67128",
+      "title": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+      "category": "Corrections and scope clarifications",
+      "reason": "The current first objective implies an entropy increase in the system for both kinds of process, while the revised text distinguishes system entropy from the combined entropy of system and surroundings. The two calculation objectives also overlap.",
+      "current": [
+        "Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes.",
+        "Calculate entropy changes in a system."
+      ],
+      "proposed": [
+        "Describe entropy as a property of a system’s state.",
+        "Calculate entropy changes using reversible heat transfer at constant temperature.",
+        "Explain how the total entropy of a system and its surroundings behaves in reversible and irreversible processes."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169738208667",
+          "kind": "para",
+          "text": "The expression above applies to reversible heat transfer at constant temperature. However, we can find ΔS precisely even for real, irreversible processes. The reason is that the entropy S of a system, like internal energy U, depends only on the state of the system and not how it reached that condition. Entropy is a property of state. Thus the change in entropy ΔS of a system between state 1 and state 2 is the same no matter how the change occurs. We just need to find or imagine a reversible process that takes us from state 1 to state 2 and calculate ΔS for that process. That will be the change in entropy for any process going from state 1 to state 2. (See .)"
+        },
+        {
+          "id": "import-auto-id1169736590877",
+          "kind": "para",
+          "text": "The entropy of the system and that of its surroundings may each change, but their changes sum to zero for a reversible process. Sometimes this is stated as follows: Reversible processes do not affect the total entropy of the universe. Real processes are not reversible, though, and they do change total entropy. We can, however, use hypothetical reversible processes to determine the value of entropy in real, irreversible processes. The following example illustrates this point."
+        },
+        {
+          "id": "import-auto-id1169737871583",
+          "kind": "para",
+          "text": "With respect to entropy, there are only two possibilities: the combined entropy of the system and its surroundings is constant for a reversible process and increases for an irreversible process. There is a fourth version of the second law of thermodynamics stated in terms of entropy:"
+        }
+      ],
+      "status": "approved and applied with shortened calculation objective"
+    },
+    {
+      "section": "8.14",
+      "module": "m42238",
+      "title": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+      "category": "Coverage improvements",
+      "reason": "The two current objectives are so general that they do not name the central distinction between microstates and macrostates or the statistical explanation of the second law. The revised section explicitly says logarithm calculations are not required.",
+      "current": [
+        "Identify probabilities in entropy.",
+        "Analyze statistical probabilities in entropic systems."
+      ],
+      "proposed": [
+        "Distinguish microstates from macrostates using the coin-toss and gas examples.",
+        "Compare macrostate probabilities by counting equally probable microstates.",
+        "Explain how microstates account for entropy and the tendency of isolated systems toward higher entropy."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169738137712",
+          "kind": "para",
+          "text": "These are what we call macrostates. A macrostate is a description of a system in terms of its macroscopic properties. It does not specify the details of the system, such as the order in which heads and tails occur or which coins are heads or tails."
+        },
+        {
+          "id": "import-auto-id1169737969172",
+          "kind": "para",
+          "text": "Using this nomenclature, a system of 5 coins has the 6 possible macrostates just listed. Some macrostates are more likely to occur than others. For instance, there is only one way to get 5 heads, but there are several ways to get 3 heads and 2 tails, making the latter macrostate more probable. lists of all the ways in which 5 coins can be tossed, taking into account the order in which heads and tails occur. Each sequence is called a microstate—a detailed description of every element of a system."
+        },
+        {
+          "id": "import-auto-id1169737709995",
+          "kind": "para",
+          "text": "where kB=1.38×10−23J/K is Boltzmann’s constant, and lnW is the natural logarithm of the number of microstates W corresponding to the given macrostate. W is proportional to the probability that the macrostate will occur when the accessible microstates are equally probable. Thus entropy is directly related to the probability of a state—the more likely the state, the greater its entropy. Boltzmann proved that this expression for S is equivalent to the definition ΔS=Q/T, for reversible heat transfer at constant temperature, which we have used extensively. The formula is included here as a reference; no logarithm calculations are needed for this section. The key point is that more microstates correspond to greater entropy."
+        },
+        {
+          "id": "import-auto-id1169736801299",
+          "kind": "para",
+          "text": "Thus the second law of thermodynamics is explained on a statistical level: the entropy of an isolated macroscopic system remains constant or increases. Macrostates with greater entropy have vastly more microstates, making a substantial spontaneous decrease overwhelmingly unlikely. A system that exchanges heat with its surroundings can decrease in entropy while the total entropy of the system and surroundings increases or remains constant."
+        }
+      ],
+      "status": "approved and applied with shortened final objective"
+    },
+    {
+      "section": "9.3",
+      "module": "m52384",
+      "title": "Coulomb’s Law",
+      "category": "Corrections and scope clarifications",
+      "reason": "“Charged point forces” is a noun error. The section calculates forces between point charges.",
+      "current": [
+        "State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.",
+        "Calculate the electrostatic force between two charged point forces, such as electrons or protons.",
+        "Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth."
+      ],
+      "proposed": [
+        "State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.",
+        "Calculate the electrostatic force between two point charges, such as an electron and a proton.",
+        "Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id3250393",
+          "kind": "para",
+          "text": "Compare the electrostatic force between an electron and proton separated by 0.530×10−10m with the gravitational force between them. This distance is their average separation in a hydrogen atom."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "9.5",
+      "module": "m70739",
+      "title": "Electric Field Lines",
+      "category": "Corrections and scope clarifications",
+      "reason": "The section teaches field-line interpretation and qualitative vector superposition. It does not develop a numerical method for general multiple-charge force calculations. The other objectives can be stated more clearly without tying one to a particular charge ratio in a figure.",
+      "current": [
+        "Calculate the total force (magnitude and direction) exerted on a test charge from more than one charge",
+        "Describe an electric field diagram of a positive point charge; of a negative point charge with twice the magnitude of positive charge",
+        "Draw the electric field lines between two points of the same charge; between two points of opposite charge."
+      ],
+      "proposed": [
+        "Explain how the electric fields of multiple charges combine as vectors.",
+        "Use electric field lines to identify the field direction and compare field strengths.",
+        "Sketch electric field lines for isolated point charges and pairs of like or unlike charges."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1977836",
+          "kind": "para",
+          "text": "In many situations, there are multiple charges. The total electric field created by multiple charges is the vector sum of the individual fields created by each charge."
+        },
+        {
+          "id": "import-auto-id2681099",
+          "kind": "para",
+          "text": "shows how the electric field from two point charges can be drawn by finding the total field at representative points and drawing electric field lines consistent with those points. While the electric fields from multiple charges are more complex than those of single charges, some simple features are easily noticed."
+        },
+        {
+          "id": "fs-id3008498",
+          "kind": "list",
+          "text": "Field lines must begin on positive charges and terminate on negative charges, or at infinity in the hypothetical case of isolated charges. The number of field lines leaving a positive charge or entering a negative charge is proportional to the magnitude of the charge. The strength of the field is proportional to the closeness of the field lines—more precisely, it is proportional to the number of lines per unit area perpendicular to the lines. The direction of the electric field is tangent to the field line at any point in space. Field lines can never cross."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "9.8",
+      "module": "m67130",
+      "title": "Current",
+      "category": "Corrections and scope clarifications",
+      "reason": "The first objective promises a definition of drift velocity, but the section never names or defines that quantity. Its crowd analogy describes net electron motion qualitatively. The worked examples instead calculate current from charge and time, and time from charge and current.",
+      "current": [
+        "Define electric current, ampere, and drift velocity",
+        "Describe the direction of charge flow in conventional current."
+      ],
+      "proposed": [
+        "Define electric current and the ampere.",
+        "Describe the direction of charge flow in conventional current.",
+        "Calculate electric current, charge transferred, or elapsed time using the definition of electric current."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id3008166",
+          "kind": "para",
+          "text": "where ΔQ is the amount of charge passing through a given area in time Δt. (As in previous chapters, initial time is often taken to be zero, in which case Δt=t.) (See .) The SI unit for current is the ampere (A), named for the French physicist André-Marie Ampère (1775–1836). Since I=ΔQ/Δt, we see that an ampere is one coulomb per second:"
+        },
+        {
+          "id": "import-auto-id3017331",
+          "kind": "para",
+          "text": "We can use the definition of current in the equation I=ΔQ/Δt to find the current in part (a), since charge and time are given. In part (b), we rearrange the definition of current and use the given values of charge and current to find the time required."
+        },
+        {
+          "id": "import-auto-id1998491",
+          "kind": "para",
+          "text": "There are so many charged particles moving, even in small currents, that individual charges are not noticed, just as individual water molecules are not noticed in water flow. Even more amazing is that they do not always keep moving forward like soldiers in a parade. Rather they are like a crowd of people with movement in different directions but a general trend to move forward. There are lots of collisions with atoms in the metal wire and, of course, with other electrons."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "9.11",
+      "module": "m42356",
+      "title": "Resistors in Series and Parallel",
+      "category": "Corrections and scope clarifications",
+      "reason": "Voltage is a potential difference across a resistor, not a property “of a current.” The prose correctly uses current and resistance to calculate it.",
+      "current": [
+        "Draw a circuit with resistors in parallel and in series.",
+        "Calculate the voltage drop of a current across a resistor using Ohm’s law.",
+        "Contrast the way total resistance is calculated for resistors in series and in parallel.",
+        "Explain why total resistance of a parallel circuit is less than the smallest resistance of any of the resistors in that circuit.",
+        "Calculate total resistance of a circuit that contains a mixture of resistors connected in series and in parallel."
+      ],
+      "proposed": [
+        "Draw a circuit with resistors in parallel and in series.",
+        "Calculate the voltage drop across a resistor from its current and resistance using Ohm’s law.",
+        "Contrast the way total resistance is calculated for resistors in series and in parallel.",
+        "Explain why total resistance of a parallel circuit is less than the smallest resistance of any of the resistors in that circuit.",
+        "Calculate total resistance of a circuit that contains a mixture of resistors connected in series and in parallel."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id2454020",
+          "kind": "para",
+          "text": "According to Ohm’s law, the voltage drop, V, across a resistor when a current flows through it is calculated using the equation V=IR, where I equals the current in amps (A) and R is the resistance in ohms (Ω). Another way to think of this is that V is the voltage necessary to make a current I flow through a resistance R."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "10.5",
+      "module": "m52414",
+      "title": "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+      "category": "Corrections and scope clarifications",
+      "reason": "The right-hand rule determines force direction from velocity direction and field direction; it does not determine a velocity magnitude. The retained quantitative treatment covers perpendicular and parallel motion, rather than the general-angle sine formula.",
+      "current": [
+        "Describe the effects of magnetic fields on moving charges.",
+        "Use the right hand rule 1 to determine the velocity of a charge, the direction of the magnetic field, and the direction of the magnetic force on a moving charge.",
+        "Calculate the magnetic force on a moving charge."
+      ],
+      "proposed": [
+        "Describe the effects of magnetic fields on moving charges.",
+        "Use right-hand rule 1 and the sign of the charge to determine the direction of the magnetic force from the velocity and magnetic field directions.",
+        "Calculate the magnetic force on a moving charge."
+      ],
+      "evidence": [
+        {
+          "id": "eip-270",
+          "kind": "para",
+          "text": "The direction of the magnetic force F is perpendicular to the plane formed by v and B, as determined by the right hand rule 1 (or RHR-1), which is illustrated in . RHR-1 states that, to determine the direction of the magnetic force on a positive moving charge, you point the thumb of the right hand in the direction of v, the fingers in the direction of B, and a perpendicular to the palm points in the direction of F. One way to remember this is that there is one velocity, and so the thumb represents it. There are many field lines, and so the fingers represent them. The force is in the direction you would push with your palm. The force on a negative charge is in exactly the opposite direction to that on a positive charge."
+        },
+        {
+          "id": "eip-673",
+          "kind": "para",
+          "text": "The maximum force occurs when the direction of motion and the magnetic field’s direction are perpendicular to one another (i.e. ninety degree angle between directions). v⊥B In that situation, the magnitude of the magnetic force is F=qvB The minimum force occurs when the direction of motion and the magnetic field’s direction are parallel to one another (i.e. zero or 180 degree angle between directions). v∥B In that situation, the magnitude of the magnetic force is F=0"
+        }
+      ],
+      "status": "approved and applied: second objective revised; original calculation objective retained",
+      "decision": "Keep calculation objective concise without spelling out motion conditions."
+    },
+    {
+      "section": "10.6",
+      "module": "m52416",
+      "title": "Magnetic Force on a Current-Carrying Conductor",
+      "category": "Corrections and scope clarifications",
+      "reason": "The retained derivation and worked example use a straight wire perpendicular to a uniform field. The general-angle calculation is not taught here.",
+      "current": [
+        "Describe the effects of a magnetic force on a current-carrying conductor.",
+        "Calculate the magnetic force on a current-carrying conductor."
+      ],
+      "proposed": [
+        "Describe the effects of a magnetic force on a current-carrying conductor.",
+        "Calculate the magnetic force on a straight current-carrying wire perpendicular to a uniform magnetic field."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1166991855755",
+          "kind": "para",
+          "text": "The maximum force on a current-carrying conductor occurs when the current direction and the magnetic field’s direction are perpendicular to one another (i.e. ninety degree angle between directions). We can derive an expression for the maximum magnetic force on a current by taking a sum of the magnetic forces on individual charges. (The forces add because they are in the same direction.) The force on an individual charge moving at the drift velocity vd is given by F=qvdB. Taking B to be uniform over a length of wire l and zero elsewhere, the total magnetic force on the wire is then F=(qvdB)(N), where N is the number of charge carriers in the section of wire of length l. Now, N=nV, where n is the number of charge carriers per unit volume and V is the volume of wire in the field. Noting that V=Al, where A is the cross-sectional area of the wire, then the force on the wire is F=(qvdB)(nAl). Gathering terms,"
+        },
+        {
+          "id": "import-auto-id1166991837273",
+          "kind": "para",
+          "text": "The force can be found with the given information by using F=IlB because the angle between I and B is 90°."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "10.8",
+      "module": "m52420",
+      "title": "Magnetic Fields Produced by Currents: Ampere’s Law",
+      "category": "Coverage improvements",
+      "reason": "The first objective describes only an inverse current calculation, although the section develops fields from a straight wire, circular loop or coil, and solenoid. Naming those geometries would reflect its main content.",
+      "current": [
+        "Calculate current that produces a magnetic field.",
+        "Use the right hand rule 2 to determine the direction of current or the direction of magnetic field loops."
+      ],
+      "proposed": [
+        "Calculate magnetic field strengths for a long straight wire, the center of a circular coil, and the interior of a long solenoid, or the currents required to produce them.",
+        "Use the right hand rule 2 to determine the direction of current or the direction of magnetic field loops."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1166991833939",
+          "kind": "para",
+          "text": "The magnetic field near a current-carrying loop of wire is shown in . Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in “Magnetic Fields and Magnetic Field Lines” are needed for more detail. There is a simple formula for the magnetic field strength at the center of a circular loop. It is"
+        },
+        {
+          "id": "import-auto-id1166991830048",
+          "kind": "para",
+          "text": "This is a large field strength that could be established over a large-diameter solenoid, such as in medical uses of magnetic resonance imaging (MRI). The very large current is an indication that the fields of this strength are not easily achieved, however. Such a large current through 1000 loops squeezed into a meter’s length would produce significant heating. Higher currents can be achieved by using superconducting wires, although this is expensive. There is an upper limit to the current, since the superconducting state is disrupted by very large magnetic fields."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "10.9",
+      "module": "m70743",
+      "title": "Induced Voltage and Magnetic Flux",
+      "category": "Coverage improvements",
+      "reason": "The existing objective is supported, but the section’s central unifying concept—changing magnetic flux—is absent from the objectives.",
+      "current": [
+        "Describe methods to produce an induced voltage with a magnetic field or magnet and a loop of wire."
+      ],
+      "proposed": [
+        "Describe methods to produce an induced voltage with a magnetic field or magnet and a loop of wire.",
+        "Define magnetic flux and explain how changes in field strength, loop area, or orientation can induce a voltage."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169738250962",
+          "kind": "para",
+          "text": "So we see that changing the magnitude or direction of a magnetic field produces a voltage. Experiments revealed that there is a crucial quantity called the magnetic flux, Φ , given by"
+        },
+        {
+          "id": "import-auto-id1169738074843",
+          "kind": "para",
+          "text": "All induction, including the examples given so far, arises from some change in magnetic flux Φ. For example, Faraday changed B and hence Φ when opening and closing the switch in his apparatus (shown in ). This is also true for the bar magnet and coil shown in . When rotating the coil of a generator, the angle θ and, hence, Φ is changed. Just how great a voltage and what direction it takes depend on the change in Φ and how rapidly the change is made, as examined in the next section."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "10.10",
+      "module": "m70744",
+      "title": "Faraday’s Law of Induction: Lenz’s Law",
+      "category": "Corrections and scope clarifications",
+      "reason": "Faraday’s law gives induced voltage. The section uses Lenz’s law to find the direction of induced current and field; it does not develop a numerical calculation of all three quantities using Faraday’s law alone.",
+      "current": [
+        "Calculate voltage, current, and magnetic fields using Faraday’s Law.",
+        "Explain the physical results of Lenz’s Law"
+      ],
+      "proposed": [
+        "Calculate voltage, current, and magnetic fields using Faraday’s Law.",
+        "Use Lenz’s law to determine the direction of an induced current and its magnetic field.",
+        "Explain how Lenz’s law is consistent with conservation of energy."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169737994358",
+          "kind": "para",
+          "text": "Faraday’s experiments showed that the voltage induced by a change in magnetic flux depends on only a few factors. First, voltage is directly proportional to the change in flux ΔΦ. Second, voltage is greatest when the change in time Δt is smallest—that is, voltage is inversely proportional to Δt. Finally, if a coil has N turns, a voltage will be produced that is N times greater than for a single coil, so that voltage is directly proportional to N. The equation for the voltage induced by a change in magnetic flux is"
+        },
+        {
+          "id": "import-auto-id1169738093820",
+          "kind": "para",
+          "text": "The minus sign in Faraday’s law of induction is very important. The minus means that the induced voltage creates a current I and magnetic field B that oppose the change in flux ΔΦ—this is known as Lenz’s law. Faraday was aware of the direction, but Lenz stated it so clearly that he is credited for its discovery. (See .)"
+        },
+        {
+          "id": "import-auto-id1169738025450",
+          "kind": "para",
+          "text": "Lenz’s law is a manifestation of the conservation of energy. The induced voltage produces a current that opposes the change in flux, because a change in flux means a change in energy. Energy can enter or leave, but not instantaneously. Lenz’s law is a consequence. As the change begins, the law says induction opposes and, thus, slows the change. In fact, if the induced voltage were in the same direction as the change in flux, there would be a positive feedback that would give us free energy from no apparent source—conservation of energy would be violated."
+        }
+      ],
+      "status": "approved and applied: original Faraday objective retained; Lenz objective expanded into two",
+      "decision": "Maintainer retains the original broad calculation objective without added conditions."
+    },
+    {
+      "section": "11.2",
+      "module": "m52443",
+      "title": "Maxwell’s Equations: Electromagnetic Waves Predicted and Observed",
+      "category": "Corrections and scope clarifications",
+      "reason": "The section explicitly says the mathematical equations are beyond its level and presents their consequences in words. Its only objective also omits the prediction and experimental verification named in the title.",
+      "current": [
+        "Restate Maxwell’s equations."
+      ],
+      "proposed": [
+        "State in words the relationships among charges, currents, electric fields, and magnetic fields summarized by Maxwell’s equations.",
+        "Explain how Maxwell predicted electromagnetic waves and how Hertz’s experiments supported that prediction."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169737968947",
+          "kind": "para",
+          "text": "Maxwell brought together all the work that had been done by brilliant physicists such as Oersted, Coulomb, Gauss, and Faraday, and added his own insights to develop the overarching theory of electromagnetism, which describes electric and magnetic phenomena and their relationships. The results of Maxwell’s equations are paraphrased here in words because their mathematical statement is beyond the level of this text. However, the equations illustrate how apparently simple mathematical statements can elegantly unite and express a multitude of concepts—why mathematics is the language of science."
+        },
+        {
+          "id": "fs-id1169737923940",
+          "kind": "list",
+          "text": "Electric field lines originate on positive charges and terminate on negative charges. The electric field is defined as the force per unit charge on a test charge. Magnetic field lines are continuous, having no beginning or end. No magnetic monopoles are known to exist. A changing magnetic field induces an electric field. Magnetic fields are generated by moving charges or by changing electric fields."
+        },
+        {
+          "id": "import-auto-id1169738198969",
+          "kind": "para",
+          "text": "Hertz also studied the reflection, refraction, and interference patterns of the electromagnetic waves he generated, verifying their wave character. He was able to determine wavelength from the interference patterns, and knowing their frequency, he could calculate the propagation speed using the equation υ=fλ (velocity—or speed—equals frequency times wavelength). Hertz was thus able to prove that electromagnetic waves travel at the speed of light. The SI unit for frequency, the hertz (1Hz=1 cycle/sec), is named in his honor."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "11.7",
+      "module": "m52454",
+      "title": "Refraction",
+      "category": "Coverage improvements",
+      "reason": "The only objective covers n=c/v. Much of the section explains ray bending and the direction of refraction; it does not retain a quantitative Snell’s-law calculation.",
+      "current": [
+        "Determine the index of refraction, given the speed of light in a medium."
+      ],
+      "proposed": [
+        "Determine the index of refraction, given the speed of light in a medium.",
+        "Explain refraction and predict whether light bends toward or away from the normal when entering a different medium."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1163675068222",
+          "kind": "para",
+          "text": "shows how a ray of light changes direction when it passes from one medium to another. As before, the angles are measured relative to a perpendicular to the surface at the point where the light ray crosses it. (Some of the incident light will be reflected from the surface, but for now we will concentrate on the light that is transmitted.) The change in direction of the light ray depends on how the speed of light changes. The change in the speed of light is related to the indices of refraction of the media involved. In the situations shown in , medium 2 has a greater index of refraction than medium 1. This means that the speed of light is less in medium 2 than in medium 1. Note that as shown in (a), the direction of the ray moves closer to the perpendicular when it slows down. Conversely, as shown in (b), the direction of the ray moves away from the perpendicular when it speeds up. The path is exactly reversible. In both cases, you can imagine what happens by thinking about pushing a lawn mower from a footpath onto grass, and vice versa. Going from the footpath to grass, the front wheels are slowed and pulled to the side as shown. This is the same change in direction as for light when it goes from a fast medium to a slow one. When going from the grass to the footpath, the front wheels can move faster and the mower changes direction as shown. This, too, is the same change in direction as for light going from slow to fast."
+        },
+        {
+          "id": "import-auto-id1163675081125",
+          "kind": "para",
+          "text": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle."
+        }
+      ],
+      "status": "approved and applied with shortened refraction objective"
+    },
+    {
+      "section": "11.9",
+      "module": "m67134",
+      "title": "Image Formation by Lenses",
+      "category": "Corrections and scope clarifications",
+      "reason": "The section consistently calls the method ray tracing; both objectives call it ray tracking.",
+      "current": [
+        "List the rules for ray tracking for thin lenses.",
+        "Illustrate the formation of images using the technique of ray tracking.",
+        "Determine power of a lens given the focal length."
+      ],
+      "proposed": [
+        "List the rules for ray tracing for thin lenses.",
+        "Illustrate the formation of images using the technique of ray tracing.",
+        "Determine power of a lens given the focal length."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id887713",
+          "kind": "para",
+          "text": "Ray tracing is the technique of determining or following (tracing) the paths that light rays take. For rays passing through matter, the law of refraction is used to trace the paths. Here we use ray tracing to help us understand the action of lenses in situations ranging from forming images on film to magnifying small print to correcting nearsightedness. While ray tracing for complicated lenses, such as those found in sophisticated cameras, may require computer techniques, there is a set of simple rules for tracing rays through thin lenses. A thin lens is defined to be one whose thickness allows rays to refract, as illustrated in , but does not allow properties such as dispersion and aberrations. An ideal thin lens has two refracting surfaces but the lens is thin enough to assume that light rays bend only once. A thin symmetrical lens has two focal points, one on either side and both at the same distance from the lens. (See .) Another important characteristic of a thin lens is that light rays through its center are deflected by a negligible amount, as seen in ."
+        },
+        {
+          "id": "import-auto-id1033258",
+          "kind": "para",
+          "text": "Using paper, pencil, and a straight edge, ray tracing can accurately describe the operation of a lens. The rules for ray tracing for thin lenses are based on the illustrations already discussed:"
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "12.5",
+      "module": "m67804",
+      "title": "Uncertainty Principle",
+      "category": "Coverage improvements",
+      "reason": "Both current objectives are supported, but neither explicitly captures the central revision: uncertainty describes spreads in identically prepared quantum states and is not merely instrument error or measurement disturbance.",
+      "current": [
+        "Describe the position-momentum uncertainty principle.",
+        "Explain the relationship between wave-particle dual nature and the uncertainty principle"
+      ],
+      "proposed": [
+        "Describe the position-momentum uncertainty principle.",
+        "Explain how localization of a matter wave is related to its spread in momentum.",
+        "Distinguish intrinsic quantum uncertainty from imperfect instruments and disturbance caused by a measurement."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id2608660",
+          "kind": "para",
+          "text": "A quantum state generally does not assign one definite value to every measurable quantity. If we prepare many systems in the same state and measure position, the results have a distribution; measurements of momentum have another distribution. The spreads in position and momentum obey Heisenberg’s uncertainty principle. A state with a very narrow position distribution must have a broad momentum distribution. This restriction is a property of quantum states, not merely a consequence of imperfect instruments or a disturbance caused by measurement. As an illustrative estimate, consider a localized wave packet whose position spread is comparable to its typical wavelength:"
+        },
+        {
+          "id": "import-auto-id2686072",
+          "kind": "para",
+          "text": "Such a localized wave packet contains a range of wavelengths and therefore a range of momenta. In this example, its momentum spread is of the same order as the momentum associated with the typical wavelength. Using the de Broglie relation gives the estimate"
+        },
+        {
+          "id": "eip-544",
+          "kind": "para",
+          "text": "For example, scattering a photon from an electron can transfer momentum to the electron. The measurement therefore affects the electron’s subsequent motion. The uncertainty principle discussed below describes an intrinsic restriction on quantum states, beyond the effects of a particular measurement procedure."
+        }
+      ],
+      "status": "approved and applied: original first objective retained; proposed second and third applied",
+      "decision": "Keep the first objective concise; details of the principle belong in the learning rather than in the objective."
+    },
+    {
+      "section": "12.7",
+      "module": "m67807",
+      "title": "Bohr’s Theory of the Hydrogen Atom",
+      "category": "Coverage improvements",
+      "reason": "“Describe early atomic models” largely repeats the preceding section. This section’s substantial treatment of atomic spectra and transitions between energy levels would be a more useful specific outcome.",
+      "current": [
+        "Describe early atomic models.",
+        "Explain Bohr’s theory of the hydrogen atom.",
+        "Distinguish between correct and incorrect features of the Bohr model, in light of modern quantum mechanics."
+      ],
+      "proposed": [
+        "Explain how transitions between quantized energy levels account for the discrete emission and absorption spectra of hydrogen.",
+        "Explain Bohr’s theory of the hydrogen atom.",
+        "Distinguish between correct and incorrect features of the Bohr model, in light of modern quantum mechanics."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id3358610",
+          "kind": "para",
+          "text": "Atomic and molecular emission and absorption spectra have been known for over a century to be discrete (or quantized). Well before they were understood from first principles, chemists have been using the emission and absorption spectra for identification of elements. shows iron emission spectrum, for example. No other elements emit the exactly the same set of frequencies of light. With the discovery of substructure of the atom and the discovery of photon (or more precisely, refined understanding of the particle nature of electromagnetic waves where the particle energy is proportional to the frequency of electromagnetic waves), these resonant frequencies of light emitted by atoms could be used to infer an atomic model."
+        },
+        {
+          "id": "eip-626",
+          "kind": "para",
+          "text": "With the quantized orbital energies for the electron, we have a ready explanation for the features of atomic spectra. EM radiation is emitted when an electron transitions from a higher energy level (Ei) to a lower energy level (Ef), with the photon carrying away the energy difference,"
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "13.2",
+      "module": "m42528",
+      "title": "Einstein’s Postulates",
+      "category": "Corrections and scope clarifications",
+      "reason": "The unqualified phrase “the speed of light can be changed” is liable to contradict the postulate students have just learned. The actual distinction in the section is between vacuum and material media.",
+      "current": [
+        "State and explain both of Einstein’s postulates.",
+        "Explain what an inertial frame of reference is.",
+        "Describe one way the speed of light can be changed."
+      ],
+      "proposed": [
+        "State and explain both of Einstein’s postulates.",
+        "Explain what an inertial frame of reference is.",
+        "Distinguish the invariant speed of light in a vacuum from the lower speed of light in a material medium."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1364208",
+          "kind": "para",
+          "text": "The speed of light is a constant c=3.00×108m/s in a vacuum. If you remember the effect of the index of refraction from Refraction, the speed of light is lower in matter."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "13.3",
+      "module": "m42531",
+      "title": "Simultaneity And Time Dilation",
+      "category": "Coverage improvements",
+      "reason": "The brief simultaneity objective does not identify the emission-versus-arrival distinction central to the rewrite. The new space-time diagram subsection has no corresponding objective. The proper-time wording can also identify the relevant clock rather than an unspecified “observer.”",
+      "current": [
+        "Describe simultaneity.",
+        "Describe time dilation.",
+        "Calculate γ.",
+        "Compare proper time and the observer’s measured time.",
+        "Explain why the twin paradox is a false paradox."
+      ],
+      "proposed": [
+        "Explain the relativity of simultaneity.",
+        "Read a space-time diagram to identify events, worldlines, and light-signal paths.",
+        "Describe time dilation and calculate γ to compare proper time and lab frame time.",
+        "Explain the resolution of the \"twin paradox\"."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id2998902",
+          "kind": "para",
+          "text": "This thought experiment shows how the postulates of special relativity lead to a counterintuitive conclusion. We might expect two flashes emitted simultaneously for one observer to be emitted simultaneously for everyone. But the second postulate requires both observers to measure the same speed of light, despite their relative motion. Even after accounting for light-travel times, they disagree about whether the flashes were emitted simultaneously. Neither inertial reference frame is privileged (postulate 1), so we must give up the idea of absolute simultaneity."
+        },
+        {
+          "id": "spacetime-diagrams-intro",
+          "kind": "para",
+          "text": "We can represent the train-and-flashes experiment on a space-time diagram, a graph of events according to their positions and times in a chosen reference frame. In , position x increases to the right and time increases upward. The vertical axis is labeled ct: multiplying time by the speed of light gives a distance, so both axes can use the same scale. Each point represents an event, and all coordinates in this diagram belong to the station frame. The flashes are emitted when the train observer A passes the station observer B at the origin."
+        },
+        {
+          "id": "spacetime-diagrams-train-interpretation",
+          "kind": "para",
+          "text": "The diagram shows the different arrival times using station-frame coordinates. To understand the emission times assigned by A, return to her description of the experiment: she and the lamps are at rest relative to one another, and she is midway between the lamps. Light travels equal distances to her at the same speed in both directions, so the two travel times in her frame are equal. Because the right flash arrives first, she concludes that the right lamp emitted its flash first. Unequal arrival times alone would not establish unequal emission times; the equal distances and equal light speeds in A’s frame are essential to her conclusion."
+        },
+        {
+          "id": "import-auto-id1678187",
+          "kind": "para",
+          "text": "Proper timeΔt0 is the time interval measured by a clock present at both events. For the inertial clock considered here, the events occur at the same position in its rest frame."
+        }
+      ],
+      "status": "approved and applied with maintainer-provided four objectives in section order"
+    },
+    {
+      "section": "13.4",
+      "module": "m42535",
+      "title": "Length Contraction",
+      "category": "Corrections and scope clarifications",
+      "reason": "The reason length contraction is negligible in ordinary experience is small relative speed compared with c. “Everyday scales” leaves the controlling quantity ambiguous.",
+      "current": [
+        "Describe proper length.",
+        "Calculate length contraction.",
+        "Explain why we don’t notice these effects at everyday scales."
+      ],
+      "proposed": [
+        "Describe proper length.",
+        "Calculate length contraction.",
+        "Explain why length contraction is ordinarily unnoticeable in everyday life."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id2512362",
+          "kind": "para",
+          "text": "Why don’t we notice length contraction in everyday life? The distance to the grocery shop does not seem to depend on whether we are moving or not. Examining the equation L=L01−v2c2, we see that at low velocities (v≪c) the lengths are nearly equal, the classical expectation. But length contraction is real, if not commonly experienced. For example, a charged particle, like an electron, traveling at relativistic velocity has electric field lines that are compressed along the direction of motion as seen by a stationary observer. (See .) As the electron passes a detector, such as a coil of wire, its field interacts much more briefly, an effect observed at particle accelerators such as the 3 km long Stanford Linear Accelerator (SLAC). In fact, to an electron traveling down the beam pipe at SLAC, the accelerator and the Earth are all moving by and are length contracted. The relativistic effect is so great than the accelerator is only 0.5 m long to the electron. It is actually easier to get the electron beam down the pipe, since the beam does not have to be as precisely aimed to get down a short pipe as it would down one 3 km long. This, again, is an experimental verification of the Special Theory of Relativity."
+        }
+      ],
+      "status": "approved and applied with maintainer-reviewed everyday-life wording",
+      "decision": "Avoid implying that low speed alone guarantees negligible absolute contraction over arbitrarily large distances."
+    },
+    {
+      "section": "14.6",
+      "module": "m52471",
+      "title": "Half-Life and Activity",
+      "category": "Coverage improvements",
+      "reason": "Activity occupies a named subsection and two worked examples, but all three objectives concern half-life or dating. “Define dating” should also specify radioactive dating.",
+      "current": [
+        "Define half-life.",
+        "Define dating.",
+        "Calculate age of old objects by radioactive dating."
+      ],
+      "proposed": [
+        "Define half-life.",
+        "Explain the principle of radioactive dating.",
+        "Calculate age of old objects by radioactive dating.",
+        "Define activity and relate it to the number of radioactive nuclei and their half-life.",
+        "Calculate how the number of radioactive nuclei and the activity change with time."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id2207373",
+          "kind": "para",
+          "text": "Activity R decreases in time, going to half its original value in one half-life, then to one-fourth its original value in the next half-life, and so on. Since R=0.693Nt1/2, the activity decreases as the number of radioactive nuclei decreases. The equation for R as a function of time is found by combining the equations N=N0e−λt and R=0.693Nt1/2, yielding"
+        },
+        {
+          "id": "import-auto-id1411966",
+          "kind": "para",
+          "text": "Radioactive dating is a clever use of naturally occurring radioactivity. Its most famous application is carbon-14 dating. Carbon-14 has a half-life of 5700 years and is produced in a nuclear reaction induced when neutrons produced by cosmic rays strike N14 in the atmosphere. Radioactive carbon has the same chemistry as stable carbon, and so it mixes into the ecosphere, where it is consumed and becomes part of every living organism. Carbon-14 has an abundance of 1.3 parts per trillion of normal carbon. Thus, if you know the number of carbon nuclei in an object (perhaps determined by mass and Avogadro’s number), you multiply that number by 1.3×10−12 to find the number of C14 nuclei in the object. When an organism dies, carbon exchange with the environment ceases, and C14 is not replenished as it decays. By comparing the abundance of C14 in an artifact, such as mummy wrappings, with the normal abundance in living tissue, it is possible to determine the artifact’s age (or time since death). Carbon-14 dating can be used for biological tissues as old as 50 or 60 thousand years, but is most accurate for younger samples, since the abundance of C14 nuclei in them is greater. Very old biological materials contain no C14 at all. There are instances in which the date of an artifact can be determined by other means, such as historical knowledge or tree-ring counting. These cross-references have confirmed the validity of carbon-14 dating and permitted us to calibrate the technique as well. Carbon-14 dating revolutionized parts of archaeology and is of such importance that it earned the 1960 Nobel Prize in chemistry for its developer, the American chemist Willard Libby (1908–1980)."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "14.7",
+      "module": "m42649",
+      "title": "Medical Imaging and Diagnostics",
+      "category": "Corrections and scope clarifications",
+      "reason": "Anger is a proper name. The prose also supplies the useful synonym gamma camera.",
+      "current": [
+        "Explain the working principle behind an anger camera.",
+        "Describe the SPECT and PET imaging techniques."
+      ],
+      "proposed": [
+        "Explain the working principle of an Anger camera (gamma camera).",
+        "Describe the SPECT and PET imaging techniques."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1398578",
+          "kind": "para",
+          "text": "shows one of the simpler methods of imaging the concentration of nuclear activity, employing a device called an Anger camera or gamma camera. A piece of lead with holes bored through it collimates γ rays emerging from the patient, allowing detectors to receive γ rays from specific directions only. The computer analysis of detector signals produces an image. One of the disadvantages of this detection method is that there is no depth information (i.e., it provides a two-dimensional view of the tumor as opposed to a three-dimensional view), because radiation from any location under that detector produces a signal."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "14.8",
+      "module": "m68327",
+      "title": "Biological Effects of Ionizing Radiation",
+      "category": "Coverage improvements",
+      "reason": "“Various units of radiation” is too vague for the revised distinction among activity, absorbed dose, equivalent dose, and effective dose. These are different quantities, not interchangeable radiation units.",
+      "current": [
+        "Define various units of radiation.",
+        "Describe effects of ionizing radiation on living organisms."
+      ],
+      "proposed": [
+        "Distinguish activity, absorbed dose, equivalent dose, and effective dose, and identify their units.",
+        "Explain why radiation and tissue weighting factors are used in radiation protection.",
+        "Describe effects of ionizing radiation on living organisms."
+      ],
+      "evidence": [
+        {
+          "id": "",
+          "kind": "title",
+          "text": "Misconception Alert: Activity vs. Dose"
+        },
+        {
+          "id": "import-auto-id2681649",
+          "kind": "para",
+          "text": "The effects of ionizing radiation depend on the absorbed dose, the type of radiation, and the type of tissue. For a given absorbed dose, densely concentrated ionization, such as that produced by α particles, can cause damage that is harder to repair (see ). The relative biological effectiveness (RBE) compares the absorbed doses of a reference radiation and the radiation being studied that produce the same biological effect. It depends on the effect being measured. For radiation protection, standardized radiation weighting factors, wR, are used instead (see ). For one type of radiation, the equivalent dose H to an organ or tissue is its average absorbed dose D multiplied by the radiation weighting factor. Absorbed dose is measured in grays (Gy); equivalent dose is measured in sieverts (Sv). The related quality factor is used in dose-equivalent quantities for radiation monitoring; it is not another name for RBE. The older unit roentgen equivalent man (rem) is also used for weighted doses."
+        },
+        {
+          "id": "import-auto-id1598811",
+          "kind": "para",
+          "text": "The radiation weighting factors in are 1 for β particles, γ rays, and X-rays, three common types of radiation. For these, absorbed dose in Gy and equivalent dose in Sv have the same numerical value, as do absorbed dose in rad and equivalent dose in rem. Neutrons produce ionization indirectly through secondary charged particles, including recoiling nuclei. Their weighting factor depends on neutron energy. To account also for the different sensitivities of organs and tissues, effective dose adds their equivalent doses multiplied by tissue weighting factors. It is also measured in Sv or rem and is used to compare radiation exposures in terms of long-term risk. These weighted doses are protection quantities; absorbed dose in Gy is used to assess immediate tissue injury. summarizes the units used for radiation."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "14.9",
+      "module": "m52480",
+      "title": "Fusion",
+      "category": "Choices about emphasis",
+      "reason": "The two existing objectives remain aligned. Neutron activation was deliberately added to support an exercise; an additional objective would make that new outcome visible, but it is narrower than the current objectives.",
+      "current": [
+        "Define nuclear fusion.",
+        "Discuss processes to achieve practical fusion energy generation."
+      ],
+      "proposed": [
+        "Define nuclear fusion.",
+        "Discuss processes to achieve practical fusion energy generation.",
+        "Explain how neutrons from fusion reactions can make surrounding materials radioactive."
+      ],
+      "evidence": [
+        {
+          "id": "fusion-neutron-activation",
+          "kind": "para",
+          "text": "Neutrons released in fusion reactions can interact with nuclei in surrounding materials and produce radioactive isotopes. This process is called neutron activation. For example, a stable nucleus may capture a neutron and become an unstable isotope that later decays. Parts of a fusion facility, including its shielding and structural materials, can therefore become radioactive and require careful handling when replaced or removed."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "14.12",
+      "module": "m42671",
+      "title": "The Four Basic Forces",
+      "category": "Corrections and scope clarifications",
+      "reason": "The final objective is incomplete: “exchange of a between.” The prose identifies the exchanged particle as a virtual pion and presents this as a model of the nuclear force.",
+      "current": [
+        "State the four basic forces.",
+        "Explain the Feynman diagram for the exchange of a virtual photon between two positive charges.",
+        "Define QED.",
+        "Describe the Feynman diagram for the exchange of a between a proton and a neutron."
+      ],
+      "proposed": [
+        "State the four basic forces.",
+        "Explain the Feynman diagram for the exchange of a virtual photon between two positive charges.",
+        "Define QED.",
+        "Describe the exchange of a virtual pion between a proton and a neutron in the nuclear-force model illustrated by a Feynman diagram."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169738151756",
+          "kind": "para",
+          "text": "is a Feynman diagram for the exchange of a virtual pion between a proton and a neutron, an early model of nuclear force. Feynman diagrams are not only a useful tool for visualizing interactions at the quantum mechanical level, they are also used to calculate details of interactions, such as their strengths and probability of occurring. Feynman was one of the theorists who developed the field of quantum electrodynamics (QED), which is the quantum mechanics of electromagnetism. QED has been spectacularly successful in describing electromagnetic interactions on the submicroscopic scale. Feynman was an inspiring teacher, had a colorful personality, and made a profound impact on generations of physicists. He shared the 1965 Nobel Prize with Julian Schwinger and S. I. Tomonaga for work in QED with its deep implications for particle physics."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    },
+    {
+      "section": "14.13",
+      "module": "m42674",
+      "title": "Particles, Patterns, and Conservation Laws",
+      "category": "Coverage improvements",
+      "reason": "The objectives cover particle categories but omit the conservation-law portion of the section and its worked example. The revised quark-based definitions and limits of family-number conservation also deserve explicit wording.",
+      "current": [
+        "Define matter and antimatter.",
+        "Outline the differences between hadrons and leptons.",
+        "State the differences between mesons and baryons."
+      ],
+      "proposed": [
+        "Define matter and antimatter.",
+        "Outline the differences between hadrons and leptons.",
+        "Distinguish mesons and baryons by their general quark structure.",
+        "Use the particle tables to check electric charge, baryon number, and lepton-family numbers in the decay reactions considered here."
+      ],
+      "evidence": [
+        {
+          "id": "meson-baryon-quark-definitions",
+          "kind": "para",
+          "text": "The quark model explains the distinction between the two groups of hadrons introduced earlier. In the simplest quark model, mesons are bound states of a quark and an antiquark, while baryons are bound states of three quarks. Antibaryons consist of three antiquarks. Pions and kaons are examples of mesons; protons and neutrons are examples of baryons."
+        },
+        {
+          "id": "import-auto-id1169738014897",
+          "kind": "para",
+          "text": "All known leptons are listed in the table given above. There are only six leptons (and their antiparticles), and they seem to be fundamental in that they have no apparent underlying structure. Leptons have no discernible size other than their wavelength, so that we know they are pointlike down to about 10−18m. Leptons occur in electron, muon, and tau families. For each family, assign +1 to its charged lepton and neutrino, −1 to their antiparticles, and zero to other particles. Adding these values gives the corresponding family number, Le, Lμ, or Lτ. The decay reactions considered here conserve each family number: the total before the reaction equals the total afterward. One of these was known from β decay, where the existence of the electron neutrino implied that a new quantum number, called the electron family numberLe is conserved in these beta-decay reactions. Thus, in β decay, an electron antineutrino ν¯e must be created with Le=−1 when an electron with Le=+1 is created, so that the total remains zero as it was before decay."
+        },
+        {
+          "id": "import-auto-id1169738094619",
+          "kind": "para",
+          "text": "Some hadrons are readily produced through strong interactions but decay much more slowly through the weak interaction. This unexpected behavior led physicists to introduce a quantum number called strangeness, denoted by S. Total strangeness is conserved in strong and electromagnetic interactions but can change in weak interactions. Consequently, a decay that changes strangeness must proceed through the weak interaction. These conservation rules helped explain the observed patterns of particle production and decay."
+        },
+        {
+          "id": "eip-328",
+          "kind": "para",
+          "text": "These family numbers are useful for analyzing the decay reactions shown here. However, they are not universally conserved: neutrino oscillations change the flavor composition of a neutrino as it propagates."
+        },
+        {
+          "id": "import-auto-id1169737795926",
+          "kind": "para",
+          "text": "(a) The most common decay mode of the Ξ− particle is Ξ−→Λ0+π−. Using the quantum numbers in the table given above, show that strangeness changes by 1, baryon number and charge are conserved, and lepton family numbers are unaffected."
+        }
+      ],
+      "status": "approved and applied with general quark structure wording and final proposed objective omitted",
+      "decision": "Specific hadron flavor compositions are not taught. Strangeness and neutrino oscillations remain in the section but do not require a separate learning objective."
+    },
+    {
+      "section": "14.14",
+      "module": "m42680",
+      "title": "GUTs: The Unification of Forces",
+      "category": "Corrections and scope clarifications",
+      "reason": "“State the grand unified theory” implies one established theory. The rewritten section distinguishes established electroweak theory and QCD from proposed grand unified theories.",
+      "current": [
+        "State the grand unified theory.",
+        "Explain the electroweak theory.",
+        "Define gluons.",
+        "Describe the principle of quantum chromodynamics.",
+        "Define the standard model."
+      ],
+      "proposed": [
+        "Describe what grand unified theories aim to unify, and distinguish these proposals from the experimentally established Standard Model.",
+        "Explain the electroweak theory.",
+        "Define gluons.",
+        "Describe the principle of quantum chromodynamics.",
+        "Define the Standard Model and identify which fundamental interactions it includes and which it leaves out."
+      ],
+      "evidence": [
+        {
+          "id": "import-auto-id1169737756666",
+          "kind": "para",
+          "text": "Electroweak theory and quantum chromodynamics are established parts of the Standard Model. Grand unified theories and superstring theories explore further unification that has not yet been experimentally established. Grand unified theories connect the strong and electroweak interactions at much higher energies; superstring theories pursue a broader framework that can also include gravity. Specific energy and length scales depend on the model."
+        },
+        {
+          "id": "import-auto-id1169737930552",
+          "kind": "para",
+          "text": "Quantum chromodynamics (QCD) describes the strong interaction between quarks and gluons. Together with electroweak theory, it forms the Standard Model of particle physics. This framework describes quarks and leptons, the particles that carry the strong, weak, and electromagnetic interactions, and the Higgs boson. Its predictions have passed many precise experimental tests. However, it does not include gravity or explain dark matter, so it remains an incomplete description of nature."
+        }
+      ],
+      "status": "approved and applied in remaining-proposals batch"
+    }
+  ],
+  "validation": "All 36 source objective lists match approved wording. Course build: 6431 math expressions, no issues, 2440 adaptations, 8431 search passages."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "OBJECTIVES-10-10-LENZ",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m70744/index.cnxml",
+      "before_sha256": "b1f60ab640c595dd0ad1d48b56ed27f48f6c60af26195f640331a92d1e630c0f",
+      "after_sha256": "10569bf26cf9486df1e3ad376af812554d878666d26d8aa8cba7192c145a38c8",
+      "before": "<item>Explain the physical results of Lenz’s Law</item>",
+      "after": "<item>Use Lenz’s law to determine the direction of an induced current and its magnetic field.</item>\n<item>Explain how Lenz’s law is consistent with conservation of energy.</item>"
+    }
+  ],
+  "validation": "CNXML parses; original Faraday objective retained verbatim; Lenz objective replaced by two approved objectives."
+}

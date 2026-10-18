@@ -1,0 +1,15 @@
+{
+  "id": "MAGNETISM-BOX-AND-SUMMARY",
+  "status": "approved",
+  "description": "Remove absolute magnetism callout; move revised second summary bullet to end. Retain surrounding prose and captions by maintainer decision.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52410/index.cnxml",
+      "before_sha256": "5004ebeab0e4e72d2e05662137645c6db97c19d194fded6a1ae1b94990391a39",
+      "after_sha256": "c94ea1cd7c824a2ef1ef5ac2e937b2eee5f423487489a2ff0fb03e63e360d054",
+      "removed_box": "<note id=\"fs-id2679100\"><label/><title>Electric Currents and Magnetism</title>\n    <para id=\"import-auto-id1798391\">Electric current is the source of all magnetism.</para>\n    </note>",
+      "removed_summary_bullet": "<item>All magnetism is created by electric current.</item>",
+      "appended_summary_bullet": "<item>Electric currents produce magnetic fields. Within atoms, electron orbital motion and spin contribute to magnetic moments; their alignment helps explain ferromagnetism.</item>"
+    }
+  ]
+}

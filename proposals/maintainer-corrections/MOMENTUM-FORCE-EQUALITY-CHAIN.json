@@ -1,0 +1,13 @@
+{
+  "id": "MOMENTUM-FORCE-EQUALITY-CHAIN",
+  "path": "maintained/modules/m71582/index.cnxml",
+  "before_sha256": "59440b029d90ced6c87e7a04e540336789451df2157004e253ddd826901107b6",
+  "after_sha256": "ccaef994c4ac0aa0a9a67dc16111e4da6093261e114394bbf6b031ea9ac8fff5",
+  "changes": [
+    {
+      "equation": "eip-844",
+      "before": "<equation id=\"eip-844\" class=\"unnumbered\"><m:math><m:apply><m:eq/>\n<m:msub><m:ci type=\"vector\">F</m:ci><m:mtext>net</m:mtext></m:msub>\n<m:apply><m:eq/>\n<m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type=\"vector\">p</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply>\n<m:apply><m:times/><m:ci>m</m:ci><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type=\"vector\">v</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply>\n</m:apply>\n</m:apply></m:math>\n    </equation>",
+      "after": "<equation id=\"eip-844\" class=\"unnumbered\"><m:math><m:apply><m:eq/>\n<m:msub><m:ci type=\"vector\">F</m:ci><m:mtext>net</m:mtext></m:msub>\n<m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type=\"vector\">p</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply>\n<m:apply><m:times/><m:ci>m</m:ci><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci type=\"vector\">v</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply>\n</m:apply></m:math>\n    </equation>"
+    }
+  ]
+}

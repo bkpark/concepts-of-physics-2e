@@ -1,0 +1,14 @@
+{
+  "id": "BLACKBODY-FORWARD-REFERENCE",
+  "status": "approved",
+  "description": "Approved contextual blackbody and emissivity explanation with section-title forward link.",
+  "changes": [
+    {
+      "path": "maintained/modules/m67133/index.cnxml",
+      "before_sha256": "9198eda5d888adee7a5e417e6982dd714ae43e1aa61c5af5d04b6f7d72195acb",
+      "after_sha256": "6e0f4dd27317bc1713a1a1253cdbddfbbb573d2312ceb1df45aed08081657743",
+      "before": "<para id=\"import-auto-id1169737804076\">The Sun radiates like a nearly perfect blackbody (that is, it has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>e</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{e=1} {}</m:annotation></m:semantics></m:math>), with a 6000 K surface temperature. About half of the solar energy arriving at the Earth is in the infrared region, with most of the rest in the visible part of the spectrum, and a relatively small amount in the ultraviolet. On average, 50 percent of the incident solar energy is absorbed by the Earth. </para>",
+      "after": "<para id=\"import-auto-id1169737804076\">The Sun radiates approximately like a blackbody—an ideal absorber and emitter of radiation—with a surface temperature of about 6000 K. A perfect blackbody has an emissivity of <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>; emissivity measures how effectively a surface emits thermal radiation compared with a blackbody at the same temperature. We discuss this model further in <link document=\"m67250\">Blackbody Radiation</link>. About half of the solar energy arriving at the Earth is in the infrared region, with most of the rest in the visible part of the spectrum, and a relatively small amount in the ultraviolet. On average, 50 percent of the incident solar energy is absorbed by the Earth.</para>"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-MOLYBDENUM-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label from the molybdenum-99 decay question (published Exercise 40).",
+  "changes": [
+    {
+      "path": "maintained/modules/m42649/index.cnxml",
+      "before_sha256": "0dc1fcde139708044591c4c83c8794d41c874cd4b57731436668461e5709e058",
+      "after_sha256": "67fb008719418b182b784195fdb1f48c9d43e7e1c02cbc527b41c73ed9e94785",
+      "before": "<exercise id=\"fs-id2688305\" type=\"conceptual-questions\"><problem id=\"fs-id2688305-revised-problem\"><para id=\"fs-id2688305-revised-p1\"><span id=\"fs-id2688305-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> Molybdenum-99 (<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>42</m:mn></m:mrow></m:math>) undergoes <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> decay to technetium-99, often in the metastable state technetium-99m. Write the <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> equation including the electron antineutrino. When technetium-99m emits a <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> photon, do its proton and neutron counts change?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id2688305\" type=\"conceptual-questions\"><problem id=\"fs-id2688305-revised-problem\"><para id=\"fs-id2688305-revised-p1\"><span id=\"fs-id2688305-extension\"/>Molybdenum-99 (<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>42</m:mn></m:mrow></m:math>) undergoes <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> decay to technetium-99, often in the metastable state technetium-99m. Write the <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> equation including the electron antineutrino. When technetium-99m emits a <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> photon, do its proton and neutron counts change?</para></problem></exercise>"
+    }
+  ]
+}

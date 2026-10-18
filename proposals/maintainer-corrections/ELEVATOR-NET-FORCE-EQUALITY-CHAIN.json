@@ -1,0 +1,13 @@
+{
+  "id": "ELEVATOR-NET-FORCE-EQUALITY-CHAIN",
+  "path": "maintained/modules/m68329/index.cnxml",
+  "before_sha256": "3ba4349be898b001bcf6a93e4d6cf6f358ed5ceca83913bbcf7773f71a4ce60c",
+  "after_sha256": "9a3dfeda2bc38a6e32a64d53247f22b72dbe3c7e0bcbec2c490abe1c7a185f0e",
+  "changes": [
+    {
+      "equation": "fs-id1165037151851",
+      "before": "<equation id=\"fs-id1165037151851\" class=\"unnumbered\"><label/><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:apply><m:eq /><m:msub><m:ci>F</m:ci><m:mi mathvariant=\"normal\">net</m:mi></m:msub><m:apply><m:eq /><m:apply><m:minus /><m:msub><m:ci>F</m:ci><m:mi mathvariant=\"normal\">s</m:mi></m:msub><m:ci>w</m:ci></m:apply><m:apply><m:times /><m:ci>m</m:ci><m:ci>a</m:ci></m:apply></m:apply></m:apply><m:mo>.</m:mo></m:math></equation>",
+      "after": "<equation id=\"fs-id1165037151851\" class=\"unnumbered\"><label/><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>net</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>\u2212</m:mo><m:mi>w</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi></m:mrow></m:math>.</equation>"
+    }
+  ]
+}

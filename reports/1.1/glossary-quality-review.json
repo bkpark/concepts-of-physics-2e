@@ -1,0 +1,635 @@
+{
+  "scope": "All 523 source glossary definitions reviewed; rendered 524th dfn is nested alias moment of inertia, not an independent definition.",
+  "status": "Original audit snapshot with current group decisions; see individual statuses and glossary-wording-decisions.md",
+  "groups": [
+    {
+      "id": "G01",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "hertz"
+      ],
+      "issue": "Defined in 11.2 through the Hertz/EM-wave discussion and restricted to EM waves, though 5.2 already explicitly introduces the unit.",
+      "recommendation": "Make 5.2 the formal introduction; define Hz as inverse seconds for frequency of any periodic process. Link from 11.2.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G02",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "standing wave"
+      ],
+      "issue": "Glossary is in 11.3, attached to the antenna application; 5.6 already explains standing waves in detail.",
+      "recommendation": "Move the formal glossary association to 5.6; fixed nodes describe the pattern, not absence of motion everywhere.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G03",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "resonant",
+        "resonate",
+        "resonance"
+      ],
+      "issue": "Three forms of the same concept, including a later incidental adjective in 11.3; current resonance definition names driving frequency but omits the enhanced response.",
+      "recommendation": "Use resonance as the canonical entry in 5.4; make verb/adjective forms aliases or links. Explain enhanced response near a natural frequency.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G04",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "vector addition"
+      ],
+      "issue": "Glossary appears in 9.5 without a corresponding explicit vector-addition paragraph there; wording unnecessarily includes positions.",
+      "recommendation": "Introduce explicitly with vectors in 1.3 if vector addition is to be taught there; otherwise attach to the first actual worked addition. Do not merely move the glossary without adding instruction.",
+      "status": "Resolved: glossary entry removed; no additional vector-addition instruction. Pending preview refresh."
+    },
+    {
+      "id": "G05",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "electric field strength",
+        "magnetic field strength"
+      ],
+      "issue": "General quantities are glossary terms in the 11.3 EM-wave application.",
+      "recommendation": "Associate electric-field magnitude with 9.4 and magnetic-field magnitude with 10.5; distinguish the introductory B usage from the technical H meaning of magnetic field strength.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G06",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "thermal agitation"
+      ],
+      "issue": "Defined through microwave heating in 11.5 rather than the earlier thermal-physics treatment.",
+      "recommendation": "Use thermal motion as the canonical term in Chapter 8, with an explicit microscopic explanation near temperature/ideal-gas discussion; retain thermal agitation as an alias.",
+      "status": "Resolved: redundant glossary and formal-term styling removed; thermal motion already explained in earlier energy and heat sections. Pending preview refresh."
+    },
+    {
+      "id": "G07",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "double-slit interference"
+      ],
+      "issue": "Glossary entry in 12.7 has no corresponding explanatory paragraph there; the local source reads as an inherited leftover.",
+      "recommendation": "Review whether the concept is actually taught in the current sequence. Either add a deliberate introduction in the wave/quantum-wave discussion or remove this orphan entry; do not choose a location solely from an incidental mention.",
+      "status": "Resolved: glossary entry removed. Pending preview refresh."
+    },
+    {
+      "id": "G08",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "decay equation"
+      ],
+      "issue": "In 14.5 the prose means a nuclear transformation equation, but the glossary means the time-dependent radioactive decay law.",
+      "recommendation": "Split the senses: nuclear decay equation in 14.5 and radioactive decay law in 14.6, or rename the glossary entry and define each at its actual use.",
+      "status": "Resolved: decay equation glossary entry removed; ordinary discussion retained. Pending preview refresh."
+    },
+    {
+      "id": "G09",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "photon"
+      ],
+      "issue": "Formal entry is in 12.3 although the newly canonical gamma-ray definition in 11.4 already uses photon, and earlier radiation passages do too.",
+      "recommendation": "Decide whether to give a brief first definition in 11.4 with deeper treatment in 12.3, or deliberately mark the earlier use as a preview. Keep one canonical glossary entry.",
+      "status": "Resolved: retain formal photon definition in Section 12.3; Section 11.4 is an incidental mention. Existing source already follows this arrangement; no textbook edit needed."
+    },
+    {
+      "id": "G10",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "current",
+        "electric current",
+        "voltage",
+        "potential difference (or voltage)"
+      ],
+      "issue": "Exact-string deduplication missed these synonymous entries. The later voltage definition also slips from a difference to potential.",
+      "recommendation": "Keep electric current in 9.8 and potential difference (voltage) in 9.6; make later forms links or explicit aliases, not independent definitions.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G11",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "proton",
+        "protons"
+      ],
+      "issue": "Singular/plural entries describe the same particle in 9.2 and 14.4.",
+      "recommendation": "Use one proton entry; early charge description can precede later nuclear/quark detail, with a cross-reference.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G12",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "second law of motion",
+        "Newton’s second law of motion"
+      ],
+      "issue": "Same law appears as separate glossary entries in 2.4 and 4.2.",
+      "recommendation": "Retain Newton’s second law in 2.4 and link the momentum formulation in 4.2; qualify average versus instantaneous force.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G13",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "activity",
+        "rate of decay"
+      ],
+      "issue": "Two entries describe the same quantity in 14.6.",
+      "recommendation": "Use activity (decay rate) as one definition, distinguishing expected activity from a finite observed count rate.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G14",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "magnitude of static friction",
+        "magnitude of kinetic friction",
+        "magnetic field strength (magnitude) produced by a long straight current-carrying wire",
+        "magnetic field strength at the center of a circular loop",
+        "magnetic field strength inside a solenoid",
+        "radius of a nucleus",
+        "energies of hydrogen-like atoms",
+        "hydrogen spectrum wavelengths"
+      ],
+      "issue": "Several glossary headwords are equation labels or descriptions of calculations.",
+      "recommendation": "Consider moving these to equation summaries and leaving the conceptual headwords in the glossary. Preserve anchors and all exercise numbers.",
+      "status": "Resolved: glossary entries and formal-term styling removed; equations and explanations retained. Pending preview refresh."
+    },
+    {
+      "id": "G15",
+      "priority": "Placement / consolidation",
+      "terms": [
+        "electron capture equation",
+        "change in angular velocity",
+        "change in momentum"
+      ],
+      "issue": "Circular or procedural entries contribute little beyond the corresponding concept/formula.",
+      "recommendation": "Review whether these deserve glossary entries; use explanatory equations or cross-references if not.",
+      "status": "Resolved: glossary entries and formal-term styling removed; equations and explanations retained. Pending preview refresh."
+    },
+    {
+      "id": "G16",
+      "priority": "Correctness / concept",
+      "terms": [
+        "normal force"
+      ],
+      "issue": "Defined as supporting weight on a resting surface; excludes walls, moving contacts, and other normal forces.",
+      "recommendation": "Define the perpendicular component of a contact force at a surface; revise the introducing prose in 2.6 if it has the same restriction.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G17",
+      "priority": "Correctness / concept",
+      "terms": [
+        "lever arm"
+      ],
+      "issue": "Uses distance to the point of application instead of distance to the line of action.",
+      "recommendation": "Correct in 6.3 to perpendicular distance from the axis/pivot to the force’s line of action; check accompanying diagram/prose.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G18",
+      "priority": "Correctness / concept",
+      "terms": [
+        "voltage drop",
+        "Joule’s law"
+      ],
+      "issue": "Voltage drop is called loss of electrical power; Joule’s law is presented as P=IV.",
+      "recommendation": "In 9.11 define potential decrease and distinguish general electrical power P=IV from resistive heating P=I²R. Review the explicit Joule’s-law sentence in the source too.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G19",
+      "priority": "Correctness / concept",
+      "terms": [
+        "electromagnetism",
+        "electromagnetic force"
+      ],
+      "issue": "Electromagnetism is defined as using current to make magnets, and the prose repeats that definition.",
+      "recommendation": "Define the broader electric/magnetic interaction framework in 9.1 or a deliberate introductory passage; reserve current-produced magnetism for the electromagnet example in 10.3.",
+      "status": "Resolved: electromagnet definition and glossary in 10.3; electromagnetism definition and glossary in 11.2. Pending preview refresh."
+    },
+    {
+      "id": "G20",
+      "priority": "Correctness / concept",
+      "terms": [
+        "Ampere’s law",
+        "Biot-Savart law"
+      ],
+      "issue": "Ampere’s-law entry describes summing field contributions, closer to Biot-Savart; Biot-Savart definition says only that a specific equation exists.",
+      "recommendation": "Give distinct qualitative statements in 10.8, with the magnetostatic scope of Ampere’s law and later Maxwell extension made clear.",
+      "status": "Applied: approved prose and glossary definitions, with stable linked Maxwell section title. Pending preview refresh."
+    },
+    {
+      "id": "G21",
+      "priority": "Correctness / concept",
+      "terms": [
+        "Faraday cage",
+        "electrostatic equilibrium"
+      ],
+      "issue": "Cage is said to prevent charge penetrating its surface; equilibrium says all free charges stop moving.",
+      "recommendation": "Use electrostatic field shielding and absence of net macroscopic charge flow; microscopic motion continues. Keep in 9.7.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G22",
+      "priority": "Correctness / concept",
+      "terms": [
+        "absolute zero",
+        "temperature"
+      ],
+      "issue": "Absolute zero says all molecular motion ceases; temperature is circularly defined by thermometer reading.",
+      "recommendation": "Define temperature through thermal equilibrium/heat-flow direction at this level and avoid denying quantum zero-point motion. Keep in 8.2.",
+      "status": "Applied: approved temperature definition and simple absolute-zero wording, without quantum caveat. Pending preview refresh."
+    },
+    {
+      "id": "G23",
+      "priority": "Correctness / concept",
+      "terms": [
+        "superposition",
+        "overtones",
+        "constructive interference",
+        "destructive interference"
+      ],
+      "issue": "Superposition only says waves arrive together; overtones are equated with integer multiples; interference definitions cover only limiting phase cases.",
+      "recommendation": "State addition of disturbances, distinguish overtones from harmonics, and distinguish partial from complete interference in 5.6.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G24",
+      "priority": "Correctness / concept",
+      "terms": [
+        "SI units",
+        "fundamental units",
+        "metric system"
+      ],
+      "issue": "SI examples include litre without distinguishing its accepted non-SI status; base units are defined by measurement procedures rather than their role in the system.",
+      "recommendation": "Update the unit-system explanation and definitions together in 0.3, using SI base/derived terminology and examples.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G25",
+      "priority": "Correctness / concept",
+      "terms": [
+        "atomic mass",
+        "nuclear reaction energy"
+      ],
+      "issue": "Atomic mass is given as the sum of constituent masses, omitting binding; reaction energy is called created.",
+      "recommendation": "In 14.4 define the atom’s mass including binding effects; in 14.5 define energy released/absorbed from initial-final mass-energy difference.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G26",
+      "priority": "Correctness / concept",
+      "terms": [
+        "hadrons",
+        "leptons"
+      ],
+      "issue": "Glossary still uses feel/do not feel the strong force, despite revised prose explaining composite hadrons and elementary leptons.",
+      "recommendation": "Synchronize with the approved 14.13 prose. The old definitions wrongly include quarks/gluons as hadrons and photons as leptons.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G27",
+      "priority": "Correctness / concept",
+      "terms": [
+        "electron family number",
+        "muon family number",
+        "tau family number",
+        "conservation of total electron family number",
+        "conservation of total muon family number"
+      ],
+      "issue": "Definitions assign ±1 without identifying particle versus antiparticle and state unqualified family-number conservation.",
+      "recommendation": "Explain counting particles minus antiparticles; qualify family conservation in light of neutrino oscillations, consistent with the existing discussion. Introduce in 14.13 and align earlier beta-decay references.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G28",
+      "priority": "Correctness / concept",
+      "terms": [
+        "gauge boson",
+        "Feynman diagram"
+      ],
+      "issue": "Gauge boson includes all four forces without qualification; Feynman diagram is treated as a literal time-position graph limited to virtual-particle exchange.",
+      "recommendation": "Define the Standard Model gauge carriers and diagrams as representations of interaction contributions. Keep explicit caution that a diagram is not a literal trajectory plot. Review 14.12/14.13 prose together.",
+      "status": "Applied: approved Feynman-diagram and gauge-boson wording, including gauge field. Pending preview refresh."
+    },
+    {
+      "id": "G29",
+      "priority": "Correctness / concept",
+      "terms": [
+        "quantum chromodynamics",
+        "electroweak theory",
+        "grand unified theory",
+        "superstring theory"
+      ],
+      "issue": "QCD is nearly circular; electroweak definition is vague; GUT and string entries sound established rather than proposed.",
+      "recommendation": "Define scope clearly in 14.14: QCD describes strong interactions of quarks/gluons; distinguish established electroweak theory from proposed further unification and string frameworks.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G30",
+      "priority": "Correctness / concept",
+      "terms": [
+        "positron",
+        "electron neutrino",
+        "neutrino",
+        "antielectron"
+      ],
+      "issue": "Positron is defined by one production channel; electron-neutrino definition does not distinguish it from other neutral elementary particles.",
+      "recommendation": "Define identity and flavor in 14.5, then describe production examples. Retain antielectron only as an explicit alias.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G31",
+      "priority": "Correctness / concept",
+      "terms": [
+        "beta ray",
+        "radioactivity",
+        "decay",
+        "gamma decay"
+      ],
+      "issue": "Beta entry excludes positrons; radioactivity/decay emphasize emitted rays or particles too narrowly for electron capture; gamma decay says gamma particle.",
+      "recommendation": "Review the nuclear-decay family together in 14.2/14.5, including spontaneous transformation and photon emission.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G32",
+      "priority": "Correctness / concept",
+      "terms": [
+        "scintillators",
+        "Geiger tube",
+        "radiation detector"
+      ],
+      "issue": "Scintillators are called a method rather than materials; Geiger tube is identified by an audio output supplied by readout electronics.",
+      "recommendation": "Define the detector mechanisms in 14.3; separate scintillating material, tube, and associated electronics.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G33",
+      "priority": "Correctness / concept",
+      "terms": [
+        "breeder reactors",
+        "breeding",
+        "criticality",
+        "supercriticality",
+        "critical mass"
+      ],
+      "issue": "Breeding is restricted to plutonium production; criticality uses easily; supercriticality describes an outcome rather than neutron multiplication balance.",
+      "recommendation": "Define fissile-material production more generally and criticality through neutron balance in 14.10. Note that critical mass depends on geometry, composition, moderation and surroundings.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G34",
+      "priority": "Correctness / concept",
+      "terms": [
+        "Heisenberg’s uncertainty principle",
+        "uncertainty in momentum",
+        "uncertainty in position",
+        "probability wave"
+      ],
+      "issue": "Wording can imply instrument error or ignorance; probability wave is too vague.",
+      "recommendation": "Clarify intrinsic quantum spreads versus measurement imperfections in 12.5; treat energy-time carefully rather than as an identical operator pair. Requires coordinated prose review.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G35",
+      "priority": "Correctness / concept",
+      "terms": [
+        "time dilation",
+        "proper time",
+        "relativistic Doppler effects"
+      ],
+      "issue": "Time dilation suggests a moving observer’s own time slows; proper time refers to one event rather than an interval; Doppler wording says radiation moves relative to observer.",
+      "recommendation": "Clarify comparison of clocks/event pairs and source-observer motion in 13.3/13.5; retain existing equations after checking assumptions.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G36",
+      "priority": "Wording / scope",
+      "terms": [
+        "mass",
+        "inertia",
+        "energy",
+        "time"
+      ],
+      "issue": "Broad introductory definitions are familiar but under-specified or circular: quantity of matter, remain in motion, ability to do work, and change.",
+      "recommendation": "Review as a foundational-language batch. Prefer operational relationships without imposing advanced formalism; current introduction sections are generally appropriate.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G37",
+      "priority": "Wording / scope",
+      "terms": [
+        "distance",
+        "range",
+        "trajectory",
+        "motion",
+        "centripetal acceleration",
+        "centripetal force"
+      ],
+      "issue": "Distance duplicates displacement magnitude; range says maximum; some definitions silently assume ideal projectiles or uniform circles.",
+      "recommendation": "State distance-between-points versus path length, actual projectile horizontal range, and radial acceleration/force scope. Keep in Chapter 1/2 introductions.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G38",
+      "priority": "Wording / scope",
+      "terms": [
+        "deformation",
+        "restoring force",
+        "spring constant",
+        "static friction"
+      ],
+      "issue": "Deformation is just displacement; restoring force is described as opposing another force; static friction opposes motion despite no slipping.",
+      "recommendation": "Describe change of shape/size, return toward equilibrium, stiffness, and opposition to impending relative slipping in 2.7/2.8.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G39",
+      "priority": "Wording / scope",
+      "terms": [
+        "electrical energy",
+        "chemical energy",
+        "thermal energy",
+        "internal energy"
+      ],
+      "issue": "Definitions can imply electrical energy requires current, bond breaking releases energy by itself, or thermal energy is only kinetic.",
+      "recommendation": "Coordinate energy-form definitions in 3.5 with the microscopic treatment in Chapter 8. Preserve the distinction between energy stored and energy transferred.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G40",
+      "priority": "Wording / scope",
+      "terms": [
+        "pressure",
+        "buoyant force",
+        "Bernoulli’s equation",
+        "Bernoulli’s principle"
+      ],
+      "issue": "Pressure wording is awkward; buoyancy scope is not stated; Bernoulli relation is said to hold through the fluid without streamline/flow qualifications.",
+      "recommendation": "Clarify normal force per area, hydrostatic context and the steady ideal-flow assumptions in Chapter 7.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G41",
+      "priority": "Wording / scope",
+      "terms": [
+        "heat of sublimation",
+        "latent heat coefficient",
+        "specific heat",
+        "isobaric process",
+        "reversible process"
+      ],
+      "issue": "Mass normalization and conditions are unclear; isobaric wrongly requires work; reversible definition is confined to heat engines.",
+      "recommendation": "Clarify specific quantities and process conditions at their present Chapter 8 introductions.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G42",
+      "priority": "Wording / scope",
+      "terms": [
+        "entropy"
+      ],
+      "issue": "Disorder is offered as the principal conceptual association and energy available for work is underspecified.",
+      "recommendation": "Review 8.13 and 8.14 together; use thermodynamic definition first and statistical interpretation later. This is an editorial choice requiring more than a glossary-only swap.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G43",
+      "priority": "Wording / scope",
+      "terms": [
+        "field",
+        "point charge",
+        "test charge",
+        "electric charge",
+        "law of conservation of charge",
+        "electron"
+      ],
+      "issue": "Field is restricted to a force map; point/test charge definitions rely on arbitrary symbol names; charge conservation is reduced to pair creation; electron implies a classical orbit.",
+      "recommendation": "Improve in place in 9.2/9.4, with a small/nonperturbing test charge and charge conservation for isolated systems; avoid literal electron orbits.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G44",
+      "priority": "Wording / scope",
+      "terms": [
+        "Curie temperature",
+        "permeability of free space",
+        "Lenz’s law",
+        "AC voltage",
+        "AC current"
+      ],
+      "issue": "Curie entry implies no induced magnetization above the transition; μ0 is presented as exact; Lenz wording assigns opposition to voltage; AC is equated with sinusoidal behavior.",
+      "recommendation": "Clarify loss of spontaneous ferromagnetism, approximate numerical μ0, induced-current field direction, and sinusoidal AC as the case studied.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G45",
+      "priority": "Wording / scope",
+      "terms": [
+        "dispersion",
+        "focal point",
+        "focal length",
+        "converging lens",
+        "diverging lens",
+        "converging mirror",
+        "real image",
+        "virtual image"
+      ],
+      "issue": "Definitions lean on one demonstration or geometry; image definitions omit ray convergence/backward extension.",
+      "recommendation": "In Chapter 11 distinguish frequency-dependent refractive behavior, paraxial focal geometry and actual/apparent ray origins. Qualify lens shape by surrounding refractive index.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G46",
+      "priority": "Wording / scope",
+      "terms": [
+        "polarization",
+        "direction of polarization",
+        "horizontally polarized",
+        "vertically polarized",
+        "unpolarized",
+        "birefringent"
+      ],
+      "issue": "Adjacent definitions still assume linear polarization although the new polarized-light entry allows more general polarization.",
+      "recommendation": "Review 11.11 as a coherent group; explicitly limit directional-plane language to linearly polarized light.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G47",
+      "priority": "Wording / scope",
+      "terms": [
+        "blackbody radiation",
+        "Planck law",
+        "planetary model of the atom",
+        "Bohr radius",
+        "hydrogen spectrum wavelengths",
+        "work function",
+        "correspondence principle"
+      ],
+      "issue": "Some are historical descriptions instead of definitions; planetary model says only most familiar; Bohr radius says mean orbit radius; hydrogen wavelengths are restricted to visible light.",
+      "recommendation": "Clarify at current introductions, with model scope and minimum electron-removal energy. Keep distinctions between quantum states and literal classical orbits.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G48",
+      "priority": "Wording / scope",
+      "terms": [
+        "decay constant",
+        "curie",
+        "radiopharmaceutical",
+        "fission fragments",
+        "liquid drop model",
+        "nucleons",
+        "neutron"
+      ],
+      "issue": "Several are vague, grammatical, or use an example as the definition. Curie is historically tied to radium rather than first stating the defined conversion.",
+      "recommendation": "Define quantities/objects directly in Chapter 14; decay constant as decay probability rate, radiopharmaceutical as radioactive diagnostic/therapeutic preparation, fission fragments as resulting nuclei. Check local prose alongside each.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G49",
+      "priority": "Wording / scope",
+      "terms": [
+        "break-even",
+        "ignition",
+        "inertial confinement",
+        "proton-proton cycle"
+      ],
+      "issue": "Fusion gain has multiple boundaries; ignition lacks self-heating explanation; confinement is limited to lasers; cycle is only a list of reactions without multiplicities/net result.",
+      "recommendation": "Review together in 14.9, stating the intended gain measure and physical mechanism. Preserve equations but add conceptual definition where needed.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    },
+    {
+      "id": "G50",
+      "priority": "Wording / scope",
+      "terms": [
+        "baryon number",
+        "conservation of total baryon number"
+      ],
+      "issue": "Definitions lean on historical nucleon counting and unqualified conservation.",
+      "recommendation": "Keep historical operational introduction, then add quark-count interpretation after quarks; match the agreed staged treatment of mesons/baryons.",
+      "status": "Applied: focused glossary and prose corrections; pending preview refresh."
+    },
+    {
+      "id": "G51",
+      "priority": "Optional pruning",
+      "terms": [
+        "statistical analysis",
+        "TV",
+        "human metabolism",
+        "laser printer",
+        "ink-jet printer",
+        "simple circuit",
+        "magnetized"
+      ],
+      "issue": "Some entries are general vocabulary, detailed applications, or a restricted example presented as a general term.",
+      "recommendation": "Maintainer decision: retain only if useful to learning objectives; otherwise explain locally without creating a formal glossary headword. No automatic deletions recommended.",
+      "status": "Applied: maintainer-approved simplified wording and coordinated prose; G49 definitions only; pending preview refresh."
+    }
+  ]
+}

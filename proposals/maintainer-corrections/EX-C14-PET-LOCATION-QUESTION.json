@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-PET-LOCATION-QUESTION",
+  "status": "approved",
+  "description": "Replace the PET question final sentence with approved wording about what detector positions establish and what remains undetermined.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42649/index.cnxml",
+      "before_sha256": "67fb008719418b182b784195fdb1f48c9d43e7e1c02cbc527b41c73ed9e94785",
+      "after_sha256": "d7332c40391d33ba17d933e62b94c2295008af951d0f064dbe10bb89ea501d2b",
+      "before": "Does one detector pair alone identify a unique point?",
+      "after": "What does the location of the two detectors tell you about where the annihilation occurred, and what remains undetermined?"
+    }
+  ]
+}

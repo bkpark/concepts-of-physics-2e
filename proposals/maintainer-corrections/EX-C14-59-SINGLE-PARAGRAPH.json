@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-59-SINGLE-PARAGRAPH",
+  "status": "approved",
+  "description": "Combine Exercise 59 into one paragraph so the final range question applies to the whole list. Preserve wording, math, and anchor IDs.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42671/index.cnxml",
+      "before_sha256": "63fef10693caa410224828c3c15604c45fa32a5965e6a4e5f4fc3eeeb641db9c",
+      "after_sha256": "979eed75159ccc3d321b5d73b3b4f89eb9572778556d7191c62356cc07408926",
+      "before": "<exercise id=\"fs-id1169738014296\" type=\"conceptual-questions\"><problem id=\"fs-id1169738014296-revised-problem\"><para id=\"fs-id1169738014296-revised-p1\">Identify the interaction chiefly responsible for each:</para><para id=\"fs-id1169738014296-revised-p2\">(a) Earth’s orbit around the Sun,</para><para id=\"fs-id1169738014296-revised-p3\">(b) the attraction between an electron and a nucleus,</para><para id=\"fs-id1169738014296-revised-p4\">(c) binding protons and neutrons into a nucleus, and</para><para id=\"fs-id1169738014296-revised-p5\">(d) beta decay. Which of these interactions have a short range at nuclear or subnuclear scales?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169738014296\" type=\"conceptual-questions\"><problem id=\"fs-id1169738014296-revised-problem\"><para id=\"fs-id1169738014296-revised-p1\">Identify the interaction chiefly responsible for each: <span id=\"fs-id1169738014296-revised-p2\"/>(a) Earth’s orbit around the Sun, <span id=\"fs-id1169738014296-revised-p3\"/>(b) the attraction between an electron and a nucleus, <span id=\"fs-id1169738014296-revised-p4\"/>(c) binding protons and neutrons into a nucleus, and <span id=\"fs-id1169738014296-revised-p5\"/>(d) beta decay. Which of these interactions have a short range at nuclear or subnuclear scales?</para></problem></exercise>"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-61-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label from Exercise 61 on the lifetime of an isolated antineutron.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "a48c8b5b503fbe69c8db6c9d6d9bffb1143be59f3db89ba3b337cf245c3a0a93",
+      "after_sha256": "838132b7ef0f0e8b6db6405efdf0b73a4e8a716e1eaf41ba5b83538fd03bdad9",
+      "before": "<exercise id=\"fs-id1169737713897\" type=\"conceptual-questions\"><problem id=\"fs-id1169737713900\"><para id=\"fs-id1169737713901\"><emphasis effect=\"bold\">Extension.</emphasis> What lifetime do you expect for an antineutron isolated from normal matter?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169737713897\" type=\"conceptual-questions\"><problem id=\"fs-id1169737713900\"><para id=\"fs-id1169737713901\">What lifetime do you expect for an antineutron isolated from normal matter?</para></problem></exercise>"
+    }
+  ]
+}

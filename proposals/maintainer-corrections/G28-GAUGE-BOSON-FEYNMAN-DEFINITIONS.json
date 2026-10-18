@@ -1,0 +1,36 @@
+{
+  "status": "approved",
+  "reason": "Applied proposed G28 explanations and glossary definitions; maintainer accepts gauge field terminology.",
+  "changes": [
+    {
+      "source": "maintained/modules/m42671/index.cnxml",
+      "before_sha256": "72e8c44496dd805b6ed12cb0093edd71950c96656077e70f9d74d4089f0abd98",
+      "after_sha256": "63a8a65587c0ffdc36b2a4a1805094bde1a792ff953d8681a4c77c647a853f0b",
+      "edits": [
+        {
+          "before": "This graph of time versus position is called a <term id=\"import-auto-id1169738012710\">Feynman diagram</term>, after the brilliant American physicist Richard Feynman (1918–1988) who developed it.",
+          "after": "A <term id=\"import-auto-id1169738012710\">Feynman diagram</term> represents a contribution to a quantum interaction calculation. Lines represent particles or their propagation, and vertices represent interactions. The diagrams shown here use position and time to help visualize particle exchange, but the lines should not be interpreted as measured trajectories."
+        },
+        {
+          "before": "a graph of time versus position that describes the exchange of virtual particles between subatomic particles",
+          "after": "a diagram representing a contribution to the calculation of a quantum interaction"
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "dd54cc35677c68adca30fc70bc7444cd6f717a854f5b6398e8310f5cc10c297c",
+      "after_sha256": "58e0d22e6be1fe6507ac705a07b206915076a5afe8aec943571ffd14ce2b2432",
+      "edits": [
+        {
+          "before": "Note that the carrier particles are called <term id=\"import-auto-id1169737725151\">gauge bosons</term>.",
+          "after": "The photon, gluons, and W and Z bosons are <term id=\"import-auto-id1169737725151\">gauge bosons</term>: the particles associated with the electromagnetic, strong, and weak interactions in the Standard Model. The hypothetical graviton is discussed separately as a proposed carrier of gravity."
+        },
+        {
+          "before": "particle that carries one of the four forces",
+          "after": "a particle associated with a gauge field; the Standard Model gauge bosons are the photon, gluons, and W and Z bosons"
+        }
+      ]
+    }
+  ]
+}

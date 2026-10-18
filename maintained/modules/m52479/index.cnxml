@@ -47,15 +47,15 @@
           </m:mrow>
         </m:semantics>
       </m:math> 
-    </equation><para id="import-auto-id3165236">given the atomic masses to be <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>238</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo>
+    </equation><para id="import-auto-id3165236">given the atomic masses to be <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mn>238</m:mn></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo>
 </m:mrow>
 <m:mrow><m:mn>238.050784</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow>
 </m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, 
 
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Sr</m:mtext><m:mprescripts /><m:none /><m:mtext>95</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo></m:mrow>
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Sr</m:mtext><m:mprescripts /><m:none /><m:mn>95</m:mn></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo></m:mrow>
 <m:mrow><m:mn>94.919388</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, 
 
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Xe</m:mtext><m:mprescripts /><m:none /><m:mtext>140</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo></m:mrow>
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Xe</m:mtext><m:mprescripts /><m:none /><m:mn>140</m:mn></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo></m:mrow>
 <m:mrow><m:mn>139.921610</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, and 
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo></m:mrow><m:mrow><m:mn>1.008665</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id3163818">
       <emphasis>Strategy</emphasis>
@@ -108,8 +108,8 @@
 <m:mtd><m:mrow><m:mn>94.919388</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow>
 <m:mo stretchy="false">+</m:mo>
 <m:mrow><m:mn>139.921610</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow><m:mo stretchy="false">+</m:mo>
-<m:mn>3</m:mn><m:mfenced open="(" close=")">
-<m:mrow><m:mn>1.008665</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mfenced></m:mtd>
+<m:mn>3</m:mn><m:mo>×</m:mo>
+<m:mrow><m:mn>1.008665</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mtd>
 </m:mtr>
 <m:mtr>
 <m:mtd />
@@ -136,93 +136,11 @@
         </m:semantics>
       </m:math> 
      minus <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>products</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{"products"} } } {}</m:annotation></m:semantics></m:math>, or</para>
-    <equation id="eip-931" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">m</m:mi><m:mo stretchy="false">=</m:mo>
+    <equation id="eip-931" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo>
 <m:mrow><m:mn>238.050784</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow><m:mo stretchy="false">−</m:mo>
 <m:mrow><m:mn>237.8669933</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo>
 <m:mrow><m:mn>0.183791</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mo>,</m:mo><m:mrow /></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2682685">so the energy released is</para>
-    <equation id="eip-179" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            <m:mrow>
-              <m:mtable columnalign="right center left">
-                <m:mtr>
-<m:mtd>
-                            <m:mi>E</m:mi>
-</m:mtd>
-<m:mtd>
-                            <m:mo stretchy="false">=</m:mo>
-</m:mtd>
-<m:mtd>
-                            <m:mfenced open="(" close=")"><m:mrow><m:mn>Δ</m:mn>
-                              <m:mi fontstyle="italic">m</m:mi></m:mrow>
-                            </m:mfenced>
-                         
-                          <m:msup>
-                            <m:mi>c</m:mi>
-                            
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                              </m:mrow>
-                            
-                          </m:msup>
-                    
-</m:mtd>
-                </m:mtr>
-                <m:mtr>
-<m:mtd />
-<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
-<m:mtd>
-                  <m:mrow>
-                    <m:mrow>
-                      
-                      <m:mfenced open="(" close=")">
-                        <m:mrow>
-                          <m:mrow><m:mn>0.183791</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow>
-                        </m:mrow>
-                      </m:mfenced>
-                    </m:mrow>
-                    <m:mfrac>
-                      <m:mrow>
-                        <m:mtext>931.5 Me</m:mtext>
-                        <m:mtext>V/</m:mtext>
-                        <m:msup>
-                          <m:mi>c</m:mi>
-                          
-                            <m:mrow>
-                              <m:mn>2</m:mn>
-                            </m:mrow>
-                          
-                        </m:msup>
-                      </m:mrow>
-                      <m:mtext>u</m:mtext>
-                    </m:mfrac>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>c</m:mi>
-                        
-                          <m:mrow>
-                            <m:mn>2</m:mn>
-                          </m:mrow>
-                        
-                      </m:msup>
-                      <m:mo stretchy="false">=</m:mo>
-                      <m:mtext>171.2 MeV.</m:mtext>
-                    </m:mrow>
-                    <m:mrow />
-                  </m:mrow>
-</m:mtd>
-                </m:mtr>
-              </m:mtable>
-              <m:mrow />
-            </m:mrow>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{E= left (Δm right )c rSup { size 8{2} } }  {} # 
-"    "= left (0 "." "183791"`u right ) {  {"931" "." 5`"MeV/"c rSup { size 8{2} } }  over  {u} } c rSup { size 8{2} } ="171"`"MeV" "."  {} 
-} } {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-    </equation><para id="import-auto-id1948327">
+    <equation id="eip-179" class="unnumbered"><m:math><m:mtable columnalign="right center left" columnspacing="0.2778em" rowspacing="0.5em"><m:mtr><m:mtd><m:mi>E</m:mi></m:mtd><m:mtd><m:mo lspace="0" rspace="0">=</m:mo></m:mtd><m:mtd><m:mrow><m:mrow><m:mo fence="true" form="prefix" stretchy="false" lspace="0" rspace="0">(</m:mo><m:mrow><m:mi mathvariant="normal">Δ</m:mi><m:mi>m</m:mi></m:mrow><m:mo fence="true" form="postfix" stretchy="false" lspace="0" rspace="0">)</m:mo></m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd></m:mtd><m:mtd><m:mo lspace="0" rspace="0">=</m:mo></m:mtd><m:mtd><m:mrow><m:mrow><m:mo fence="true" form="prefix" stretchy="false" lspace="0" rspace="0">(</m:mo><m:mrow><m:mn>0.183791</m:mn><m:mspace width="0.167em"/><m:mtext>u</m:mtext></m:mrow><m:mo fence="true" form="postfix" stretchy="false" lspace="0" rspace="0">)</m:mo></m:mrow><m:mfrac><m:mrow><m:mn>931.5</m:mn><m:mspace width="0.167em"/><m:mtext>MeV</m:mtext><m:mo lspace="0" rspace="0">/</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>u</m:mtext></m:mfrac><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd></m:mtd><m:mtd><m:mo lspace="0" rspace="0">=</m:mo></m:mtd><m:mtd><m:mrow><m:mn>171.2</m:mn><m:mspace width="0.167em"/><m:mtext>MeV</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="import-auto-id1948327">
       <emphasis>Discussion</emphasis>
     </para>
     <para id="import-auto-id1846131">A number of important things arise in this example. The 171-MeV energy released is large, but a little less than the earlier estimated 240 MeV. This is because this fission reaction produces neutrons and does not split the nucleus into two equal parts. Fission of a given nuclide, such as <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
@@ -270,66 +188,14 @@
 <m:msup>
 <m:mspace width="0.25em" />
 <m:mrow><m:mi>A</m:mi></m:mrow>
-</m:msup></m:mrow><m:mtext>X</m:mtext><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mo>,</m:mo><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n+"" lSup { size 8{A} } X rightarrow "FF" rSub { size 8{1} } +"FF" rSub { size 8{2} } + ital "xn"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1933065">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are the two daughter nuclei, called <term id="import-auto-id2953251">fission fragments</term>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is the number of neutrons produced. Most often, the masses of the fission fragments are not the same. Most of the released energy goes into the kinetic energy of the fission fragments, with the remainder going into the neutrons and excited states of the fragments. Since neutrons can induce fission, a self-sustaining chain reaction is possible, provided more than one neutron is produced on average — that is, if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;1} {}</m:annotation></m:semantics></m:math> in <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mrow /><m:mi>A</m:mi></m:msup></m:mrow><m:mtext>X</m:mtext><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>. This can also be seen in <link target-id="import-auto-id3112861"/>.</para><para id="import-auto-id1596263">An example of a typical neutron-induced fission reaction is </para>
+</m:msup></m:mrow><m:mtext>X</m:mtext><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mo>,</m:mo><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n+"" lSup { size 8{A} } X rightarrow "FF" rSub { size 8{1} } +"FF" rSub { size 8{2} } + ital "xn"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1933065">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are the two daughter nuclei, called <term id="import-auto-id2953251">fission fragments</term>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is the number of neutrons produced. Most often, the masses of the fission fragments are not the same. Most of the released energy goes into the kinetic energy of the fission fragments, with the remainder going into the neutrons and excited states of the fragments. Since neutrons can induce fission, a self-sustaining chain reaction is possible, provided more than one neutron is produced on average — that is, if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;1} {}</m:annotation></m:semantics></m:math> in <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mrow /><m:mi>A</m:mi></m:msup></m:mrow><m:mtext>X</m:mtext><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>. This can also be seen in <link target-id="import-auto-id3112861"/>.</para><para id="import-auto-id1596263">An example of a typical neutron-induced fission reaction is </para>
     <equation id="eip-899"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msubsup><m:mrow /><m:mtext>92</m:mtext><m:mtext>235</m:mtext></m:msubsup></m:mrow><m:mtext>U</m:mtext>
 
 <m:mo stretchy="false">→</m:mo>
 <m:mrow><m:mmultiscripts><m:mtext>Ba</m:mtext>
 <m:mprescripts /><m:mtext>56</m:mtext><m:mtext>142</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo>
-<m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts /><m:mtext>36</m:mtext><m:mtext>91</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3081841">Note that in this equation, the total charge remains the same (is conserved): <m:math>
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mrow>
-                    <m:mtext>92</m:mtext>
-                    <m:mo stretchy="false">+</m:mo>
-                    <m:mn>0</m:mn>
-                  </m:mrow>
-                  <m:mo stretchy="false">=</m:mo>
-                  <m:mrow>
-                    <m:mtext>56</m:mtext>
-                    <m:mo stretchy="false">+</m:mo>
-                    <m:mtext>36</m:mtext>
-                  </m:mrow>
-                </m:mrow>
-              </m:mrow>
-            
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"92"+0="56"+"36"} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-    . Also, as far as whole numbers are concerned, the mass is constant: <m:math>
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mrow>
-                    <m:mn>1</m:mn>
-                    <m:mo stretchy="false">+</m:mo>
-                    <m:mtext>235</m:mtext>
-                  </m:mrow>
-                  <m:mo stretchy="false">=</m:mo>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mtext>142</m:mtext>
-                      <m:mo stretchy="false">+</m:mo>
-                      <m:mtext>91</m:mtext>
-                    </m:mrow>
-                    <m:mo stretchy="false">+</m:mo>
-                    <m:mn>3</m:mn>
-                  </m:mrow>
-                </m:mrow>
-              </m:mrow>
-            
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{1+"235"="142"+"91"+3} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
+<m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts /><m:mtext>36</m:mtext><m:mtext>91</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3081841">Note that in this equation, the total charge remains the same (is conserved): <m:math><m:mrow><m:mn>92</m:mn><m:mo form="infix">+</m:mo><m:mn>0</m:mn><m:mo form="infix">=</m:mo><m:mn>56</m:mn><m:mo form="infix">+</m:mo><m:mn>36</m:mn></m:mrow></m:math> 
+    . Also, as far as whole numbers are concerned, the mass is constant: <m:math><m:mrow><m:mn>1</m:mn><m:mo form="infix">+</m:mo><m:mn>235</m:mn><m:mo form="infix">=</m:mo><m:mn>142</m:mn><m:mo form="infix">+</m:mo><m:mn>91</m:mn><m:mo form="infix">+</m:mo><m:mn>3</m:mn></m:mrow></m:math> 
     . This is not true when we consider the masses out to 6 or 7 significant places, as in the previous example.</para>
     
     <para id="import-auto-id1389478">
@@ -343,7 +209,7 @@
         <image mime-type="image/jpg" src="../../media/Figure_33_06_03a.jpg" width="350"/>
       </media>
       
-    <caption>A chain reaction can produce self-sustained fission if each fission produces enough neutrons to induce at least one more fission. This depends on several factors, including how many neutrons are produced in an average fission and how easy it is to make a particular type of nuclide fission.</caption></figure><para id="import-auto-id2671079">Not every neutron produced by fission induces fission. Some neutrons escape the fissionable material, while others interact with a nucleus without making it fission. We can enhance the number of fissions produced by neutrons by having a large amount of fissionable material. The minimum amount necessary for self-sustained fission of a given nuclide is called its <term id="import-auto-id1413046">critical mass</term>. Some nuclides, such as <m:math>
+    <caption>A chain reaction can produce self-sustained fission if each fission produces enough neutrons to induce at least one more fission. This depends on several factors, including how many neutrons are produced in an average fission and how easy it is to make a particular type of nuclide fission.</caption></figure><para id="import-auto-id2671079">Not every neutron produced by fission induces fission. Some neutrons escape the fissionable material, while others interact with a nucleus without making it fission. We can enhance the number of fissions produced by neutrons by having a large amount of fissionable material. For a specified composition, shape, density, and surroundings, the minimum mass needed for a self-sustaining chain reaction is called the <term id="import-auto-id1413046">critical mass</term>. Some nuclides, such as <m:math>
         <m:semantics>
           <m:mrow>
             
@@ -688,7 +554,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"235"} } U} {}</m:annotation>
         </m:semantics>
       </m:math> 
-     is only 0.72 % of natural uranium, while <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+     is only 0.72% of natural uranium, while <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -874,7 +740,7 @@
         </m:semantics>
       </m:math> 
     , while using the heat produced in the fission reaction to create steam for generating electrical energy. Control rods adjust neutron flux so that criticality is obtained, but not exceeded. In case the reactor overheats and boils the water away, the chain reaction terminates, because water is needed to thermalize the neutrons. This inherent safety feature can be overwhelmed in extreme circumstances.
-      </caption></figure><para id="import-auto-id3356531">Control rods containing nuclides that very strongly absorb neutrons are used to adjust neutron flux. To produce large power, reactors contain hundreds to thousands of critical masses, and the chain reaction easily becomes self-sustaining, a condition called <term id="import-auto-id3378898">criticality</term>. Neutron flux should be carefully regulated to avoid an exponential increase in fissions, a condition called <term id="import-auto-id3177206">supercriticality</term>. Control rods help prevent overheating, perhaps even a meltdown or explosive disassembly. The water that is used to thermalize neutrons, necessary to get them to induce fission in <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+      </caption></figure><para id="import-auto-id3356531"><span id="import-auto-id3177206"/><span id="import-auto-id3378898"/>Control rods containing nuclides that very strongly absorb neutrons are used to adjust neutron flux. A chain reaction is critical when, on average, each fission leads to one further fission. Its average rate then remains steady; this condition is called <term id="g33-criticality">criticality</term>. It is subcritical when the rate decreases and supercritical when the rate increases. <term id="g33-supercriticality">Supercriticality</term> means that each generation produces more fissions in the next. Whether a sample sustains a chain reaction depends on neutron production, absorption, and escape. Critical mass therefore depends on composition, shape, density, and surroundings, including neutron moderators and reflectors. Control rods help prevent overheating, perhaps even a meltdown or explosive disassembly. The water that is used to thermalize neutrons, necessary to get them to induce fission in <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -1054,8 +920,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"235"} } U} {}</m:annotation>
         </m:semantics>
       </m:math> 
-     atoms is therefore,</para><equation id="eip-689" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mn>4.25</m:mn><m:mspace width="0.167em" /><m:mtext>mol</m:mtext></m:mrow></m:mrow></m:mfenced><m:mrow><m:mfenced open="(" close=")">
-<m:mrow><m:mn>6.02</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mtext>23</m:mtext></m:msup><m:mspace width="0.25em" /><m:msup><m:mrow /><m:mtext>235</m:mtext></m:msup><m:mtext>U/mol</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>56</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em" /><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>235</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (4 "." "25"`"mol" right ) left (6 "." "02" times "10" rSup { size 8{"23"} } `"" lSup { size 8{"235"} } "U/mol" right )=2 "." "56" times "10" rSup { size 8{"24"} } `"" lSup { size 8{"235"} } U} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2420888">So the total energy released is</para>
+     atoms is therefore,</para><equation id="eip-689" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mn>4.25</m:mn><m:mspace width="0.167em" /><m:mtext>mol</m:mtext></m:mrow></m:mrow></m:mfenced><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>6.02</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>23</m:mn></m:msup><m:mspace width="0.167em"/><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts/><m:none/><m:mn>235</m:mn></m:mmultiscripts></m:mrow><m:mtext>mol</m:mtext></m:mfrac></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>56</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em" /><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>235</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2420888">So the total energy released is</para>
     <equation id="eip-957" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
@@ -1074,20 +939,20 @@
                                 <m:mn>2</m:mn>
                                 <m:mtext>.</m:mtext>
                                 <m:mrow>
-                                  <m:mtext>56</m:mtext>
+                                  <m:mn>56</m:mn>
                                   <m:mo stretchy="false">×</m:mo>
                                   <m:msup>
-                                    <m:mtext>10</m:mtext>
+                                    <m:mn>10</m:mn>
                                     
                                       <m:mrow>
-                                        <m:mtext>24</m:mtext>
+                                        <m:mn>24</m:mn>
                                       </m:mrow>
                                     
                                   </m:msup>
                                 </m:mrow>
                               <m:mspace width="0.25em" />
                                 <m:mmultiscripts><m:mtext>U</m:mtext>
-                              <m:mprescripts /><m:none /><m:mtext>235</m:mtext>
+                              <m:mprescripts /><m:none /><m:mn>235</m:mn>
                                     </m:mmultiscripts></m:mrow>
                             </m:mfenced>
                          
@@ -1098,7 +963,7 @@
                               </m:mrow>
                               <m:mrow>
                                 <m:mmultiscripts><m:mtext>U</m:mtext>
-                              <m:mprescripts /><m:none /><m:mtext>235</m:mtext>
+                              <m:mprescripts /><m:none /><m:mn>235</m:mn>
                                     </m:mmultiscripts></m:mrow>
                             </m:mfrac>
                           </m:mfenced>
@@ -1107,14 +972,14 @@
                               <m:mrow>
                                 <m:mn>1.60</m:mn>
                                 <m:mrow>
-                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:mo stretchy="false" form="infix">×</m:mo>
                                   <m:msup>
-                                    <m:mtext>10</m:mtext>
+                                    <m:mn>10</m:mn>
                                     
                                       <m:mrow>
                                         <m:mrow>
                                           <m:mo stretchy="false">−</m:mo>
-                                          <m:mtext>13</m:mtext>
+                                          <m:mn>13</m:mn>
                                         </m:mrow>
                                       </m:mrow>
                                     
@@ -1136,14 +1001,14 @@
                     <m:mrow>
                       <m:mtext />
                       
-                      <m:mtext> 8.21</m:mtext>
+                      <m:mn> 8.21</m:mn>
                   
                       <m:mo stretchy="false">×</m:mo>
                       <m:msup>
-                        <m:mtext>10</m:mtext>
+                        <m:mn>10</m:mn>
                         
                           <m:mrow>
-                            <m:mtext>13</m:mtext>
+                            <m:mn>13</m:mn>
                           </m:mrow>
                         
                       </m:msup>
@@ -1168,156 +1033,8 @@
     </equation><para id="import-auto-id2591593">
       <emphasis>Discussion</emphasis>
     </para>
-    <para id="import-auto-id1828603">This is another impressively large amount of energy, equivalent to about 14,000 barrels of crude oil or 600,000 gallons of gasoline. But, it is only one-fourth the energy produced by the fusion of a kilogram mixture of deuterium and tritium as seen in the previous section. Even though each fission reaction yields about ten times the energy of a fusion reaction, the energy per kilogram of fission fuel is less, because there are far fewer moles per kilogram of the heavy nuclides. Fission fuel is also much more scarce than fusion fuel, and less than 1% of uranium (the <m:math><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts/><m:none/><m:mn>235</m:mn></m:mmultiscripts></m:math>) is readily usable.</para></example><para id="import-auto-id2438390">One nuclide already mentioned is <m:math>
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:msup>
-                    <m:mrow/>
-                    
-                      <m:mrow>
-                        <m:mtext>239</m:mtext>
-                      </m:mrow>
-                    
-                  </m:msup>
-                  <m:mstyle>
-                    <m:mrow>
-                      <m:mtext>Pu</m:mtext>
-                    </m:mrow>
-                  </m:mstyle>
-                </m:mrow>
-              </m:mrow>
-            
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"239"} }  ital "Pu"} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-    , which has a 24,120-y half-life and does not exist in nature. Plutonium-239 is manufactured from <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mmultiscripts><m:mtext>U</m:mtext>
-                <m:mprescripts /><m:none /><m:mrow>
-                        <m:mtext>238</m:mtext>
-                      </m:mrow>
-                    
-                  </m:mmultiscripts></m:mrow>
-              </m:mrow>
-            
-            <m:mrow />
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"238"} } U} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-     in reactors, and it provides an opportunity to utilize the other 99% of natural uranium as an energy source. The following reaction sequence, called <term id="import-auto-id3151319">breeding</term>, produces <m:math>
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:msup>
-                    <m:mrow/>
-                    
-                      <m:mrow>
-                        <m:mtext>239</m:mtext>
-                      </m:mrow>
-                    
-                  </m:msup>
-                  <m:mstyle>
-                    <m:mrow>
-                      <m:mtext>Pu</m:mtext>
-                    </m:mrow>
-                  </m:mstyle>
-                </m:mrow>
-              </m:mrow>
-            
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"239"} }  ital "Pu"} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-    . Breeding begins with neutron capture by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mmultiscripts><m:mtext>U</m:mtext>
-                <m:mprescripts /><m:none /><m:mrow>
-                        <m:mtext>238</m:mtext>
-                      </m:mrow>
-                    
-                  </m:mmultiscripts></m:mrow>
-              </m:mrow>
-            
-            <m:mrow />
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"238"} } U} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-    :</para><equation id="eip-180"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>238</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">→</m:mo><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mi>γ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow /><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3158939">Uranium-239 then <m:math><m:semantics><m:mrow><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:mrow></m:semantics></m:math> decays:</para><equation id="eip-890"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Np</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>ν</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mtext> (</m:mtext><m:mrow /></m:mrow></m:semantics><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>t</m:mtext><m:mrow><m:mtext>1/2</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>23</m:mtext></m:mrow><m:mspace width="0.25em" /><m:mtext>min)</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2611996">Neptunium-239 also <m:math><m:semantics><m:mrow><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:mrow></m:semantics></m:math> decays:</para><equation id="eip-412"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Np</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Pu</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>ν</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mtext> (</m:mtext></m:mrow><m:mrow /></m:mrow></m:semantics><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>t</m:mtext><m:mrow><m:mtext>1/2</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>4</m:mn><m:mspace width="0.25em" /><m:mtext>d</m:mtext></m:mrow><m:mtext>).</m:mtext></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1574891">Plutonium-239 builds up in reactor fuel at a rate that depends on the probability of neutron capture by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mmultiscripts><m:mtext>U</m:mtext>
-                <m:mprescripts /><m:none /><m:mrow>
-                        <m:mtext>238</m:mtext>
-                      </m:mrow>
-                    
-                  </m:mmultiscripts></m:mrow>
-              </m:mrow>
-            
-            <m:mrow />
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"238"} } U} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-     (all reactor fuel contains more <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mmultiscripts><m:mtext>U</m:mtext>
-                <m:mprescripts /><m:none /><m:mrow>
-                        <m:mtext>238</m:mtext>
-                      </m:mrow>
-                    
-                  </m:mmultiscripts></m:mrow>
-              </m:mrow>
-            
-            <m:mrow />
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"238"} } U} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-     than <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mmultiscripts><m:mtext>U</m:mtext>
-                <m:mprescripts /><m:none /><m:mrow>
-                        <m:mtext>235</m:mtext>
-                      </m:mrow>
-                    
-                  </m:mmultiscripts></m:mrow>
-              </m:mrow>
-            
-            <m:mrow />
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"235"} } U} {}</m:annotation>
-        </m:semantics>
-      </m:math> 
-    ). Reactors designed specifically to make plutonium are called <term id="import-auto-id3348891">breeder reactors</term>. They seem to be inherently more hazardous than conventional reactors, but it remains unknown whether their hazards can be made economically acceptable. The four reactors at Chernobyl, including the one that was destroyed, were built to breed plutonium and produce electricity. These reactors had a design that was significantly different from the pressurized water reactor illustrated above.</para><para id="import-auto-id1355452">Plutonium-239 has advantages over <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+    <para id="import-auto-id1828603">This is another impressively large amount of energy, equivalent to about 14,000 barrels of crude oil or 600,000 gallons of gasoline. But, it is only one-fourth the energy produced by the fusion of a kilogram mixture of deuterium and tritium as seen in the previous section. Even though each fission reaction yields about ten times the energy of a fusion reaction, the energy per kilogram of fission fuel is less, because there are far fewer moles per kilogram of the heavy nuclides. Fission fuel is also much more scarce than fusion fuel, and less than 1% of uranium (the <m:math><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts/><m:none/><m:mn>235</m:mn></m:mmultiscripts></m:math>) is readily usable.</para></example><para id="import-auto-id2438390">Neutron capture can convert fertile material, such as uranium-238, into fissile material, such as plutonium-239. This production of new fissile material is called <term id="import-auto-id3151319">breeding</term>. The following reaction sequence shows how uranium-238 can be converted into plutonium-239 in a reactor.</para><equation id="eip-180"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>238</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">→</m:mo><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mi>γ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow /><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3158939">Uranium-239 then <m:math><m:semantics><m:mrow><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:mrow></m:semantics></m:math> decays:</para><equation id="eip-890" class="reaction-energy"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Np</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover accent="true"><m:mi>ν</m:mi><m:mo stretchy="true">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math><m:math><m:msub><m:mi>t</m:mi><m:mrow><m:mn>1</m:mn><m:mo lspace="0" rspace="0">/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>23</m:mn><m:mspace width="0.167em"/><m:mtext>min</m:mtext><m:mo>.</m:mo></m:math></equation><para id="import-auto-id2611996">Neptunium-239 also <m:math><m:semantics><m:mrow><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:mrow></m:semantics></m:math> decays:</para><equation id="eip-412" class="reaction-energy"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Np</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Pu</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow /></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover accent="true"><m:mi>ν</m:mi><m:mo stretchy="true">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math><m:math><m:msub><m:mi>t</m:mi><m:mrow><m:mn>1</m:mn><m:mo lspace="0" rspace="0">/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.4</m:mn><m:mspace width="0.167em"/><m:mtext>d</m:mtext><m:mo>.</m:mo></m:math></equation>
+<para id="maintainer-beta-minus-antineutrino-reminder">As in other <m:math><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> decays, an electron and an electron antineutrino (<m:math><m:msub><m:mover accent="true"><m:mi>ν</m:mi><m:mo stretchy="true">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:math>) are emitted.</para><para id="import-auto-id1574891"><span id="import-auto-id3348891"/>Some plutonium-239 is produced when uranium-238 in reactor fuel captures neutrons. A breeder reactor is designed to produce more fissile material than it consumes.</para><para id="import-auto-id1355452">Plutonium-239 has advantages over <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
         <m:semantics>
           <m:mrow>
             
@@ -1365,7 +1082,7 @@
       </m:math> 
      has a particularly small critical mass, an advantage for nuclear weapons.</para><section id="fs-id2991442" class="section-summary"><title>Section Summary</title><list id="fs-id1917668"><item id="import-auto-id3385751">Nuclear fission is a reaction in which a nucleus is split.</item>
       <item id="import-auto-id3092820">Fission releases energy when heavy nuclei are split into medium-mass nuclei.</item>
-      <item id="import-auto-id1987829">Self-sustained fission is possible, because neutron-induced fission also produces neutrons that can induce other fissions, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:msup><m:mrow /><m:mi>A</m:mi></m:msup></m:mrow><m:mi>X</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are the two daughter nuclei, or fission fragments, and <emphasis effect="italics">x</emphasis> is the number of neutrons produced. </item>
+      <item id="import-auto-id1987829">Self-sustained fission is possible, because neutron-induced fission also produces neutrons that can induce other fissions, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:msup><m:mrow /><m:mi>A</m:mi></m:msup></m:mrow><m:mi>X</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>FF</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"FF" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are the two daughter nuclei, or fission fragments, and <emphasis effect="italics">x</emphasis> is the number of neutrons produced. </item>
       <item id="import-auto-id2384260">A minimum mass, called the critical mass, should be present to achieve criticality.</item>
       <item id="import-auto-id1486815">More than a critical mass can produce supercriticality.</item>
       <item id="import-auto-id2408955">The production of new or different isotopes (especially <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
@@ -1391,121 +1108,33 @@
       </m:math> 
     ) by nuclear transformation is called breeding, and reactors designed for this purpose are called breeder reactors.</item>
     </list></section><section id="fs-id2673360" class="conceptual-questions" type="conceptual-questions"><title>Questions and Exercises</title>
-    <exercise id="fs-id2499792" type="conceptual-questions"><problem id="fs-id1817286">
+<exercise id="fs-id2499792" type="conceptual-questions"><problem id="fs-id1817286">
 
     <para id="import-auto-id1472010">Explain why the fission of heavy nuclei releases energy. Similarly, why is it that energy input is required to fission light nuclei?</para>
     </problem></exercise>
-      <exercise id="fs-id3089659" type="conceptual-questions"><problem id="fs-id2420244">
-
-    <para id="import-auto-id2042720">Explain, in terms of conservation of momentum and energy, why collisions of neutrons with protons will thermalize neutrons better than collisions with oxygen.</para>
+<exercise id="c14-mom-a7" type="conceptual-questions"><problem id="c14-mom-a7-problem"><para id="c14-mom-a7-p1">A heavy nucleus splits into two smaller nuclei in one reaction; two light nuclei combine in another.</para><para id="c14-mom-a7-p2">(a) Name the two processes.</para><para id="c14-mom-a7-p3">(b) Which powers the Sun?</para><para id="c14-mom-a7-p4">(c) Can both release energy?</para><para id="c14-mom-a7-p5">(d) When either releases energy, how does the total rest mass of the products compare with that of the reactants?</para></problem></exercise>
+<exercise id="fs-id2070007" type="conceptual-questions"><problem id="fs-id2070007-revised-problem"><para id="fs-id2070007-revised-p1"><span id="fs-id2070007-extension"/>In the fission reaction <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts/><m:none/><m:mn>235</m:mn></m:mmultiscripts><m:mo>→</m:mo><m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts/><m:none/><m:mn>92</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mmultiscripts><m:mtext>Ba</m:mtext><m:mprescripts/><m:none/><m:mn>142</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:math>, determine x by conserving nucleon number. Check electric charge using <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>92</m:mn></m:mrow></m:math> for U, 36 for Kr, and 56 for Ba. How can the emitted neutrons help sustain a chain reaction?</para></problem></exercise>
+<exercise id="fs-id1439074" type="conceptual-questions"><problem id="fs-id3250447">
+    <para id="import-auto-id3305522">Radioactivity depends on the nucleus and not the atom or its chemical state. Why, then, is one kilogram of uranium more radioactive than one kilogram of uranium hexafluoride containing uranium of the same isotopic composition?</para>
     </problem></exercise>
-      <exercise id="fs-id1514358" type="conceptual-questions"><problem id="fs-id1276085">
+<exercise id="fs-id2682824" type="conceptual-questions"><problem id="fs-id2682824-revised-problem"><para id="fs-id2682824-revised-p1">In a steady fission chain reaction, about how many neutrons from each fission must, on average, cause another fission? Explain how neutron absorption and leakage affect whether the chain reaction dies away, stays steady, or grows. How do control rods help regulate it?</para></problem></exercise>
+<exercise id="fs-id1871243" type="conceptual-questions"><problem id="fs-id1871243-revised-problem"><para id="fs-id1871243-revised-p1">Fission commonly leaves radioactive fission products. Does that mean a fusion facility would necessarily produce no radioactive material? Discuss how neutrons from some fusion reactions can affect surrounding materials.</para></problem></exercise>
+<exercise id="fs-id1980156" type="conceptual-questions"><problem id="fs-id2583979">
 
-    <para id="import-auto-id1921786">The ruins of the Chernobyl reactor are enclosed in a huge concrete structure built around it after the accident. Some rain penetrates the building in winter, and radioactivity from the building increases. What does this imply is happening inside?</para>
+    <para id="import-auto-id3037642">Control rods stop the self-sustaining fission chain reaction in a nuclear reactor, but the reactor still requires cooling. Explain the source of the continuing energy release and why inserting the control rods does not stop it.</para>
     </problem></exercise>
-      <exercise id="fs-id1871243" type="conceptual-questions"><problem id="fs-id2392987">
-
-    <para id="import-auto-id2382222">Since the uranium or plutonium nucleus fissions into several fission fragments whose mass distribution covers a wide range of pieces, would you expect more residual radioactivity from fission than fusion? Explain.</para>
-    </problem></exercise>
-      <exercise id="fs-id1980156" type="conceptual-questions"><problem id="fs-id2583979">
-
-    <para id="import-auto-id3037642">The core of a nuclear reactor generates a large amount of thermal energy from the decay of fission products, even when the power-producing fission chain reaction is turned off. Would this residual heat be greatest after the reactor has run for a long time or short time? What if the reactor has been shut down for months?</para>
-    </problem></exercise>
-      <exercise id="fs-id2682824" type="conceptual-questions"><problem id="fs-id1355656">
-
-    <para id="import-auto-id2054128">How can a nuclear reactor contain many critical masses and not go supercritical? What methods are used to control the fission in the reactor?</para>
-    </problem></exercise>
-      <exercise id="fs-id2662098" type="conceptual-questions"><problem id="fs-id1355573">
-
-    <para id="import-auto-id2588311">Why can heavy nuclei with odd numbers of neutrons be induced to fission with thermal neutrons, whereas those with even numbers of neutrons require more energy input to induce fission?</para>
-    </problem></exercise>
-      <exercise id="fs-id3149360" type="conceptual-questions"><problem id="fs-id3245974">
-
-    <para id="import-auto-id2444638">Why is a conventional fission nuclear reactor not able to explode as a bomb?</para>
-    </problem></exercise>
-    </section>
-    <section id="fs-id2594921" type="problems-exercises" class="problems-exercises"><title>Questions and Exercises</title><exercise id="fs-id1151311" type="problems-exercises"><problem id="fs-id3122407">    <para id="import-auto-id1439034">(a) Calculate the energy released in the neutron-induced fission (similar to the spontaneous fission in <link target-id="fs-id3012379"/>)</para><para id="import-auto-id2989616"><equation id="eip-id1725656" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mrow /><m:mtext>238</m:mtext></m:msup>
-</m:mrow><m:mtext>U</m:mtext><m:mo stretchy="false">→</m:mo>
-<m:mrow><m:mmultiscripts><m:mtext>Sr </m:mtext><m:mprescripts /><m:none /><m:mtext>96</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo>
-<m:mmultiscripts><m:mtext>Xe</m:mtext><m:mprescripts /><m:none /><m:mtext>140</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow>
-</m:semantics></m:math></equation></para><para id="import-auto-id2052038">given <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Sr</m:mtext><m:mprescripts /><m:none /><m:mtext>96</m:mtext></m:mmultiscripts><m:mo stretchy="false">)</m:mo>
-<m:mo stretchy="false">=</m:mo>
-<m:mrow><m:mn>95.921750</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:semantics></m:math> and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Xe</m:mtext><m:mprescripts /><m:none /><m:mtext>140</m:mtext></m:mmultiscripts><m:mo stretchy="false">)</m:mo>
-<m:mo stretchy="false">=</m:mo>
-<m:mtext>139.92164</m:mtext></m:mrow></m:semantics></m:math>. (b) This result is about 6 MeV greater than the result for spontaneous fission. Why? (c) Confirm that the total number of nucleons and total charge are conserved in this reaction.</para></problem>
-      
-    </exercise><exercise id="fs-id2070007" type="problems-exercises"><problem id="fs-id3088661">    <para id="import-auto-id3062940">(a) Calculate the energy released in the neutron-induced fission reaction</para>
-    <para id="import-auto-id1869736"><equation id="eip-id1167653469510" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:msup><m:mrow /><m:mtext>235</m:mtext></m:msup></m:mrow>
-<m:mtext>U</m:mtext><m:mo stretchy="false">→</m:mo>
-<m:mrow><m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts /><m:none /><m:mtext>92</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo>
-<m:mmultiscripts><m:mtext>Ba</m:mtext><m:mprescripts /><m:none /><m:mtext>142</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation></para><para id="import-auto-id2588905">given <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts /><m:none /><m:mtext>92</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>91</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>926269</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and 
-
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Ba</m:mtext><m:mprescripts /><m:none /><m:mtext>142</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>141</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>916361</m:mtext><m:mspace width="0.25em" /><m:mtext>u</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>. </para><para id="import-auto-id2405922">(b) Confirm that the total number of nucleons and total charge are conserved in this reaction.</para>
-    </problem></exercise><exercise id="fs-id2449340" type="problems-exercises"><problem id="fs-id3342371">    <para id="import-auto-id2590957">(a) Calculate the energy released in the neutron-induced fission reaction</para>
-    <para id="import-auto-id2500598"><equation id="eip-id2132620" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo>
-<m:msup><m:mrow /><m:mtext>239</m:mtext></m:msup></m:mrow><m:mtext>Pu</m:mtext><m:mo stretchy="false">→</m:mo>
-<m:mrow><m:mmultiscripts><m:mtext>Sr</m:mtext><m:mprescripts /><m:none /><m:mtext>96</m:mtext></m:mmultiscripts><m:mo stretchy="false">+</m:mo>
-<m:msup><m:mrow /><m:mtext>140</m:mtext></m:msup></m:mrow><m:mrow><m:mtext>Ba</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn><m:mi>n</m:mi></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow /></m:mrow></m:semantics></m:math></equation></para><para id="import-auto-id2436195">given <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Sr</m:mtext><m:mprescripts /><m:none /><m:mtext>96</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>95</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>921750</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> and 
-
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Ba</m:mtext><m:mprescripts /><m:none /><m:mtext>140</m:mtext></m:mmultiscripts><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>139</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>910581</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m \( "" lSup { size 8{"140"} } "Ba" \) ="139" "." "910581"`u} {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id3163736">(b) Confirm that the total number of nucleons and total charge are conserved in this reaction.</para>
-    </problem>
-        
-    </exercise><exercise id="fs-id1586899" type="problems-exercises"><problem id="fs-id3305749">    <para id="import-auto-id1955431">Confirm that each of the reactions listed for plutonium breeding just following <link target-id="fs-id3180113"/> conserves the total number of nucleons, the total charge, and electron family number.</para></problem></exercise>
-      <exercise id="fs-id1248028" type="problems-exercises"><problem id="fs-id3163408">    <para id="import-auto-id3079918">Breeding plutonium produces energy even before any plutonium is fissioned. (The primary purpose of the four nuclear reactors at Chernobyl was breeding plutonium for weapons. Electrical power was a by-product used by the civilian population.) Calculate the energy produced in each of the reactions listed for plutonium breeding just following <link target-id="fs-id3180113"/>. The pertinent masses are 
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>U</m:mtext>
-<m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>239.054289</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, 
-
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Np</m:mtext>
-<m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo>
-<m:mrow><m:mn>239.052932</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>, and 
-
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mmultiscripts><m:mtext>Pu</m:mtext>
-<m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo>
-<m:mrow><m:mn>239.052157</m:mn><m:mspace width="0.167em" /><m:mtext>u</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>.</para></problem>
-        
-    
-    </exercise><exercise id="fs-id3008175" type="problems-exercises"><problem id="fs-id1931640">    <para id="import-auto-id2625357">The naturally occurring radioactive isotope <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Th</m:mtext><m:mprescripts /><m:none /><m:mtext>232</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSup { size 8{"232"} } "Th"} {}</m:annotation></m:semantics></m:math> does not make good fission fuel, because it has an even number of neutrons; however, it can be bred into a suitable fuel (much as <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>238</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSup { size 8{"238"} } U} {}</m:annotation></m:semantics></m:math> is bred into <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>P</m:mtext><m:mprescripts /><m:none /><m:mtext>239</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSup { size 8{"239"} } P} {}</m:annotation></m:semantics></m:math>). </para><para id="import-auto-id1360768">(a) What are <m:math><m:semantics><m:mrow><m:mrow><m:mi>Z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>Th</m:mtext><m:mprescripts /><m:none /><m:mtext>232</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSup { size 8{"232"} } "Th"} {}</m:annotation></m:semantics></m:math>? </para><para id="import-auto-id2602147">(b) Write the reaction equation for neutron captured by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:semantics>
-          <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mrow>
-                      <m:mmultiscripts><m:mtext>Th</m:mtext>
-                    <m:mprescripts /><m:none /><m:mrow>
-                        <m:mtext>232</m:mtext>
-                      </m:mrow>
-                    
-                  </m:mmultiscripts></m:mrow>
-                </m:mrow>
-              </m:mrow>
-            
-          </m:mrow>
-         
-        </m:semantics>
-      </m:math> and identify the nuclide 
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mi>X</m:mi><m:mprescripts /><m:none /><m:mi>A</m:mi></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> produced in 
-
-<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mrow /><m:mtext>232</m:mtext></m:msup></m:mrow><m:mtext>Th</m:mtext><m:mo stretchy="false">→</m:mo><m:mrow><m:mmultiscripts><m:mi>X</m:mi><m:mprescripts /><m:none /><m:mi>A</m:mi></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mi>γ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id1948460">(c) The product nucleus <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decays, as does its daughter. Write the decay equations for each, and identify the final nucleus. </para>
-    <para id="import-auto-id3042517">(d) Confirm that the final nucleus has an odd number of neutrons, making it a better fission fuel. </para>
-    <para id="import-auto-id3127029">(e) Look up the half-life of the final nucleus to see if it lives long enough to be a useful fuel.</para>
-    </problem></exercise>
-      <exercise id="fs-id744835" type="problems-exercises"><problem id="fs-id2929936">    <para id="import-auto-id2990758">The electrical power output of a large nuclear reactor facility is 900 MW. It has a 35.0% efficiency in converting nuclear power to electrical. </para><para id="import-auto-id2442420">(a) What is the thermal nuclear power output in megawatts? </para>
-    <para id="import-auto-id742229">(b) How many <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>235</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSup { size 8{"235"} } U} {}</m:annotation></m:semantics></m:math> nuclei fission each second, assuming the average fission produces 200 MeV? </para><para id="import-auto-id1828810">(c) What mass of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts /><m:none /><m:mtext>235</m:mtext></m:mmultiscripts></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"" lSup { size 8{"235"} } U} {}</m:annotation></m:semantics></m:math> is fissioned in one year of full-power operation?</para></problem>
-        
-    </exercise>
-      <exercise id="fs-id1871891" type="problems-exercises"><problem id="fs-id3094760">    <para id="import-auto-id1997134">A large power reactor that has been in operation for some months is turned off, but residual activity in the core still produces 150 MW of power. If the average energy per decay of the fission products is 1.00 MeV, what is the core activity in curies?</para>
-    </problem></exercise>
-    </section></content>
+<exercise id="fs-id3149360" type="conceptual-questions"><problem id="fs-id3149360-revised-problem"><para id="fs-id3149360-revised-p1">Why is a commercial power reactor not a nuclear bomb? Distinguish an explosive nuclear-weapon chain reaction from steam or chemical explosions that can occur in a reactor accident.</para></problem></exercise>
+</section>
+    </content>
   <glossary>
-  <definition id="import-auto-id1998168"><term>breeder reactors</term> <meaning id="fs-id1926311">reactors that are designed specifically to make plutonium</meaning></definition>
-    <definition id="import-auto-id1867019"><term>breeding</term> <meaning id="fs-id1599461">reaction process that produces <sup>239</sup>Pu</meaning></definition>
-      <definition id="import-auto-id1772452"><term>criticality</term> <meaning id="fs-id1986521">condition in which a chain reaction easily becomes self-sustaining</meaning></definition>
-        <definition id="import-auto-id2671517"><term>critical mass</term> <meaning id="fs-id1416812">minimum amount necessary for self-sustained fission of a given nuclide</meaning></definition>
-          <definition id="import-auto-id1431563"><term>fission fragments</term> <meaning id="fs-id1871956">a daughter nuclei</meaning></definition>
-            <definition id="import-auto-id1561726"><term>liquid drop model</term> <meaning id="fs-id2688421">a model of nucleus (only to understand some of its features) in which nucleons in a nucleus act like atoms in a drop</meaning></definition>
+  <definition id="import-auto-id1998168"><term>breeder reactors</term> <meaning id="fs-id1926311">reactors designed to produce more fissile material than they consume</meaning></definition>
+    <definition id="import-auto-id1867019"><term>breeding</term> <meaning id="fs-id1599461">production of new fissile material from fertile material by neutron capture and subsequent nuclear transformations</meaning></definition>
+      <definition id="import-auto-id1772452"><term>criticality</term> <meaning id="fs-id1986521">the condition in which each generation of fissions produces, on average, one succeeding generation of the same size</meaning></definition>
+        <definition id="import-auto-id2671517"><term>critical mass</term> <meaning id="fs-id1416812">the minimum mass of fissile material needed for a self-sustaining chain reaction under specified conditions of composition, shape, density, and surroundings</meaning></definition>
+          <definition id="import-auto-id1431563"><term>fission fragments</term> <meaning id="fs-id1871956">the daughter nuclei produced when a heavy nucleus undergoes fission</meaning></definition>
+            <definition id="import-auto-id1561726"><term>liquid drop model</term> <meaning id="fs-id2688421">a model that treats a nucleus as a drop of nuclear matter to describe collective properties such as binding and deformation</meaning></definition>
               <definition id="import-auto-id2640628"><term>nuclear fission</term> <meaning id="fs-id2491823">reaction in which a nucleus splits</meaning></definition>
                 <definition id="import-auto-id2677159"><term>neutron-induced fission</term> <meaning id="fs-id1022980">fission that is initiated after the absorption of neutron</meaning></definition>
-                  <definition id="import-auto-id3246077"><term>supercriticality</term> <meaning id="fs-id1389814">an exponential increase in fissions</meaning></definition>
+                  <definition id="import-auto-id3246077"><term>supercriticality</term> <meaning id="fs-id1389814">the condition in which the fission chain reaction grows because each generation produces more fissions in the next</meaning></definition>
                   </glossary>
 </document>

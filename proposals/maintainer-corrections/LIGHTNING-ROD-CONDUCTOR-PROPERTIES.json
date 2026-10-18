@@ -1,0 +1,42 @@
+{
+  "id": "LIGHTNING-ROD-CONDUCTOR-PROPERTIES",
+  "status": "approved",
+  "description": "Revise paired paragraphs, captions and summary with conductor properties as the focus; preserve linked figure, image credits and IDs.",
+  "sources": [
+    "https://www.weather.gov/safety/lightning-rods",
+    "https://journals.ametsoc.org/abstract/journals/apme/39/5/1520-0450-39.5.593.xml"
+  ],
+  "changes": [
+    {
+      "path": "maintained/modules/m75428/index.cnxml",
+      "before_sha256": "9f14641a7e428ec58e554bfe893765f08a53dbb5f1a892a8c5a6fef96ddf0271",
+      "after_sha256": "9b33a3275df69061b8632efe759768af36043ab00c03fb835faf2073ad831b55",
+      "replacements": [
+        {
+          "before": "<para id=\"import-auto-id3450035\">On a very sharply curved surface, such as shown in <link target-id=\"import-auto-id2677542\"/>, the charges are so concentrated at the point that the resulting electric field can be great enough to remove them from the surface. This can be useful.</para>",
+          "after": "<para id=\"import-auto-id3450035\">Near a sharply curved conducting surface, such as the point shown in <link target-id=\"import-auto-id2677542\"/>, the electric field can become strong enough to ionize nearby air. The resulting charged particles allow charge to flow between the conductor and the air, a process called corona discharge.</para>"
+        },
+        {
+          "before": "<para id=\"import-auto-id2399976\">Lightning rods work best when they are most pointed. The large charges created in storm clouds induce an opposite charge on a building that can result in a lightning bolt hitting the building. The induced charge is bled away continually by a lightning rod, preventing the more dramatic lightning strike.</para>",
+          "after": "<para id=\"import-auto-id2399976\">This charge leakage can occur at the pointed tip of a lightning rod when a storm cloud produces a strong electric field near the building. It does not reliably prevent a lightning strike, however. The rod’s principal protective role is to provide a conducting path to ground if lightning strikes.</para>"
+        },
+        {
+          "before": "A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.",
+          "after": "Charge concentrates near the pointed end of this conductor, producing a strong electric field. If the field is strong enough to ionize nearby air, charge can flow between the conductor and the air through corona discharge."
+        },
+        {
+          "before": "(a) A lightning rod is pointed to facilitate the transfer of charge.",
+          "after": "(a) The pointed tip of this lightning rod concentrates the electric field and can allow charge to leak into the air. The rod’s protective role is to conduct lightning current to ground through connected conductors."
+        },
+        {
+          "before": "has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated.",
+          "after": "has a smooth surface with a large radius of curvature to reduce charge leakage and allow a large voltage to be generated."
+        },
+        {
+          "before": "A lightning rod is a conductor with sharply pointed ends that collect excess charge on the building caused by an electrical storm and allow it to dissipate back into the air.",
+          "after": "Strong electric fields near pointed conductors can ionize nearby air and allow charge leakage through corona discharge. A lightning rod can exhibit this leakage, but its principal protective role is to provide a conducting path to ground if lightning strikes."
+        }
+      ]
+    }
+  ]
+}

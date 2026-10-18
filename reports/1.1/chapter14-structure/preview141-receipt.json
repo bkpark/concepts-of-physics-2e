@@ -1,0 +1,43 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_d28c663522cc8191a02325cf332e8a13",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 141,
+    "source": {
+      "commit_sha": "ecb975b2ceb4604282f42f7112b2bf0be8a7e885"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000000b481fdaa799b6c3918fdb6",
+      "content_hash": "sha256:2d9fd43345bf96972b48200a3c8e2d1adfa84c240099c8c3bcdf16387dbc371a",
+      "size_bytes": 131041280,
+      "file_count": 753
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ad2fe0b95c48191bdf4738bf83544d9",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_d28c663522cc8191a02325cf332e8a13",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-17T04:48:21.341359+00:00"
+  },
+  "changes": "Native MathML radiation symbols throughout Chapter 14 exercises",
+  "exercises_changed": 16,
+  "total_exercises": 73,
+  "build": {
+    "math": 6398,
+    "issues": {},
+    "search_passages": 8431
+  },
+  "mobile_overflow": []
+}

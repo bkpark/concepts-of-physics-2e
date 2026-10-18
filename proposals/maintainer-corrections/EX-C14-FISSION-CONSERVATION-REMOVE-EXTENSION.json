@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-FISSION-CONSERVATION-REMOVE-EXTENSION",
+  "status": "approved",
+  "description": "Remove Extension label from published Exercise 53 on fission conservation and chain reactions.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52479/index.cnxml",
+      "before_sha256": "86757ba3965d7a3bc0842b3d34f83c8d2b40689675664c6662e33ab458435d5f",
+      "after_sha256": "76ec328866e93b6ae619471b6ef8ce30f2034fdb988581d2ce4b35cf31cab493",
+      "before": "<exercise id=\"fs-id2070007\" type=\"conceptual-questions\"><problem id=\"fs-id2070007-revised-problem\"><para id=\"fs-id2070007-revised-p1\"><span id=\"fs-id2070007-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> In the fission reaction <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts/><m:none/><m:mn>235</m:mn></m:mmultiscripts><m:mo>→</m:mo><m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts/><m:none/><m:mn>92</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mmultiscripts><m:mtext>Ba</m:mtext><m:mprescripts/><m:none/><m:mn>142</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:math>, determine x by conserving nucleon number. Check electric charge using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>92</m:mn></m:mrow></m:math> for U, 36 for Kr, and 56 for Ba. How can the emitted neutrons help sustain a chain reaction?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id2070007\" type=\"conceptual-questions\"><problem id=\"fs-id2070007-revised-problem\"><para id=\"fs-id2070007-revised-p1\"><span id=\"fs-id2070007-extension\"/>In the fission reaction <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mmultiscripts><m:mtext>U</m:mtext><m:mprescripts/><m:none/><m:mn>235</m:mn></m:mmultiscripts><m:mo>→</m:mo><m:mmultiscripts><m:mtext>Kr</m:mtext><m:mprescripts/><m:none/><m:mn>92</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mmultiscripts><m:mtext>Ba</m:mtext><m:mprescripts/><m:none/><m:mn>142</m:mn></m:mmultiscripts><m:mo>+</m:mo><m:mi>x</m:mi><m:mi>n</m:mi></m:mrow></m:math>, determine x by conserving nucleon number. Check electric charge using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>92</m:mn></m:mrow></m:math> for U, 36 for Kr, and 56 for Ba. How can the emitted neutrons help sustain a chain reaction?</para></problem></exercise>"
+    }
+  ]
+}

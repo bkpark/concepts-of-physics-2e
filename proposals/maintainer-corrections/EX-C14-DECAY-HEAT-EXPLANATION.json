@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-DECAY-HEAT-EXPLANATION",
+  "status": "approved",
+  "description": "Replace the entire decay-heat exercise with the approved control-rod and continued-cooling question, without supplying its explanation in the prompt.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52479/index.cnxml",
+      "before_sha256": "76ec328866e93b6ae619471b6ef8ce30f2034fdb988581d2ce4b35cf31cab493",
+      "after_sha256": "47ccec38735999845bf9164a5627949843a117e6fafaef8bd2274bd44afac575",
+      "before": "<para id=\"import-auto-id3037642\">The core of a nuclear reactor generates a large amount of thermal energy from the decay of fission products, even when the power-producing fission chain reaction is turned off. Would this residual heat be greatest after the reactor has run for a long time or short time? What if the reactor has been shut down for months?</para>",
+      "after": "<para id=\"import-auto-id3037642\">Control rods stop the self-sustaining fission chain reaction in a nuclear reactor, but the reactor still requires cooling. Explain the source of the continuing energy release and why inserting the control rods does not stop it.</para>"
+    }
+  ]
+}

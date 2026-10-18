@@ -1,0 +1,13 @@
+{
+  "id": "POWER-COST-TWO-LINES",
+  "path": "maintained/modules/m71415/index.cnxml",
+  "before_sha256": "07f1fd8e3540ce314b5be7f5f6f6cbf31fc8ec48608149bd86259c35a838756a",
+  "after_sha256": "971a2ff651e154a492691b9e6f5dd918f36fbb35d30a7d882bbdca0d6c1cc415",
+  "changes": [
+    {
+      "equation": "eip-110",
+      "before": "<equation id=\"eip-110\" class=\"unnumbered\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>cost</m:mtext><m:mo stretchy=\"false\">=</m:mo><m:mo stretchy=\"false\">(</m:mo></m:mrow><m:mrow><m:mrow><m:mn>36.0</m:mn><m:mspace width=\"0.167em\" /><m:mtext>kW</m:mtext></m:mrow><m:mo stretchy=\"false\">⋅</m:mo><m:mn>h</m:mn></m:mrow><m:mo stretchy=\"false\">)</m:mo><m:mo stretchy=\"false\">(</m:mo><m:mn>$0.120 per kW</m:mn><m:mrow><m:mo stretchy=\"false\">⋅</m:mo><m:mn>h</m:mn></m:mrow><m:mo stretchy=\"false\">)</m:mo><m:mo stretchy=\"false\">=</m:mo><m:mn>$4.32 per month.</m:mn></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"cost\"= \\( \"36\" \".\" 0\" kW\" cdot h \\)  \\( $0 \".\" \"120\"\" per kW\" cdot h \\) =$4 \".\" \"32\"\" per month\"} {}</m:annotation></m:semantics></m:math></equation>",
+      "after": "<equation xmlns:m=\"http://www.w3.org/1998/Math/MathML\" id=\"eip-110\" class=\"unnumbered\"><m:math><m:mtable columnalign=\"right left\" columnspacing=\"0em\" rowspacing=\"0.5em\"><m:mtr><m:mtd><m:mrow><m:mtext>cost</m:mtext></m:mrow></m:mtd><m:mtd><m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mo stretchy=\"false\">(</m:mo><m:mn>36.0</m:mn><m:mspace width=\"0.167em\" /><m:mtext>kW</m:mtext><m:mo stretchy=\"false\">⋅</m:mo><m:mn>h</m:mn><m:mo stretchy=\"false\">)</m:mo><m:mo stretchy=\"false\">(</m:mo><m:mn>$0.120 per kW</m:mn><m:mo stretchy=\"false\">⋅</m:mo><m:mn>h</m:mn><m:mo stretchy=\"false\">)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow /></m:mtd><m:mtd><m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mn>$4.32 per month.</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>"
+    }
+  ]
+}

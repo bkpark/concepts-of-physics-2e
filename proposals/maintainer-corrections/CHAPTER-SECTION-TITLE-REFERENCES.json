@@ -1,0 +1,13 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m67039/index.cnxml",
+  "before_sha256": "0f51f8e57fada4c024423c4225f378c57b0f1b8b8b1b6ce0d2731fbd6ff2b528",
+  "after_sha256": "aa35b3390f2b908bf875f8b9f894050e5b8738e0994971c6e8f5a4bf7cce037f",
+  "edits": [
+    {
+      "before": "Revisit the garden-hose scenario in Chapter 2, <link document=\"m68330\" target-id=\"fs-id2661705\"/>.",
+      "after": "Revisit the garden-hose scenario from <link document=\"m68330\">Newton’s Third Law of Motion: Symmetry in Forces</link> (<link document=\"m68330\" target-id=\"fs-id2661705\"/>)."
+    }
+  ],
+  "reason": "Maintainer requested replacement of hard-coded chapter/section references with linked section titles; keep question number and existing destination anchor."
+}

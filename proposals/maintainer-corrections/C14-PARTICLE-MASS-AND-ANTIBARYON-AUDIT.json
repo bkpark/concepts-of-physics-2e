@@ -1,0 +1,28 @@
+{
+  "status": "approved",
+  "source": "maintained\\modules\\m42674\\index.cnxml",
+  "before_sha256": "b3afb64641b2341037b242fb6ffcfdc89bf6d3c8e81263247fe358278e109714",
+  "after_sha256": "7c9a33e9f7225745d2da13a22e135cbb9a5e7ac8fa1a9519cf6d47abe3e4585b",
+  "edits": [
+    {
+      "before": "<entry align=\"center\">\r\n              <m:math display=\"inline\">\r\n                <m:semantics>\r\n                  <m:mrow>\r\n\r\n                      <m:mrow>\r\n                        <m:mrow>\r\n                          <m:mn>80</m:mn>\r\n                          <m:mtext>.</m:mtext>\r\n                          <m:mrow>\r\n                            <m:mn>39</m:mn>\r\n                            <m:mo stretchy=\"false\">×</m:mo>\r\n                            <m:msup>\r\n                              <m:mn>10</m:mn>\r\n\r\n                                <m:mrow>\r\n                                  <m:mn>3</m:mn>\r\n                                </m:mrow>\r\n\r\n                            </m:msup>\r\n                          </m:mrow>\r\n                        </m:mrow>\r\n                      </m:mrow>\r\n\r\n                    <m:mrow/>\r\n                  </m:mrow>\r\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{\"80\" \".\" \"22\" times \"10\" rSup { size 8{3} } } {}</m:annotation>\r\n                </m:semantics>\r\n              </m:math>\r\n            </entry>",
+      "after": "<entry align=\"center\"><m:math display=\"inline\"><m:mrow><m:mn>80.37</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>"
+    },
+    {
+      "before": "<entry align=\"center\">\r\n              <m:math display=\"inline\">\r\n                <m:semantics>\r\n                  <m:mrow>\r\n\r\n                      <m:mrow>\r\n                        <m:msup>\r\n                          <m:mtext>Ξ</m:mtext>\r\n\r\n                            <m:mrow>\r\n                              <m:mrow>\r\n                                <m:mo stretchy=\"false\">+</m:mo>\r\n                                <m:mrow/>\r\n                              </m:mrow>\r\n                            </m:mrow>\r\n\r\n                        </m:msup>\r\n                      </m:mrow>\r\n\r\n                    <m:mrow/>\r\n                  </m:mrow>\r\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{Ξ rSup { size 8{+{}} } } {}</m:annotation>\r\n                </m:semantics>\r\n              </m:math>\r\n            </entry>",
+      "after": "<entry align=\"center\"><m:math display=\"inline\"><m:msup><m:mover accent=\"true\"><m:mi>Ξ</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mo>+</m:mo></m:msup></m:math></entry>"
+    },
+    {
+      "before": "<entry align=\"center\">\r\n              <m:math display=\"inline\">\r\n                <m:semantics>\r\n                  <m:mrow>\r\n\r\n                      <m:mrow>\r\n                        <m:msup>\r\n                          <m:mo stretchy=\"false\">Ω</m:mo>\r\n\r\n                            <m:mrow>\r\n                              <m:mrow>\r\n                                <m:mo stretchy=\"false\">+</m:mo>\r\n                                <m:mrow/>\r\n                              </m:mrow>\r\n                            </m:mrow>\r\n\r\n                        </m:msup>\r\n                      </m:mrow>\r\n\r\n                    <m:mrow/>\r\n                  </m:mrow>\r\n                  <m:annotation encoding=\"StarMath 5.0\"> size 12{ %OMEGA  rSup { size 8{+{}} } } {}</m:annotation>\r\n                </m:semantics>\r\n              </m:math>\r\n            </entry>",
+      "after": "<entry align=\"center\"><m:math display=\"inline\"><m:msup><m:mover accent=\"true\"><m:mi>Ω</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mo>+</m:mo></m:msup></m:math></entry>"
+    }
+  ],
+  "sources": [
+    "https://pdg.lbl.gov/2025/tables/rpp2025-sum-gauge-higgs-bosons.pdf",
+    "https://pdg.lbl.gov/2025/tables/rpp2025-sum-leptons.pdf",
+    "https://pdg.lbl.gov/2025/tables/rpp2025-sum-mesons.pdf",
+    "https://pdg.lbl.gov/2025/tables/rpp2025-sum-baryons.pdf",
+    "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-naming-scheme-hadrons.pdf"
+  ],
+  "reason": "Maintainer requested all masses and antibaryon symbols checked. Preserve existing rounding. Photon zero retained as standard massless model value. Neutrino updates recorded separately."
+}

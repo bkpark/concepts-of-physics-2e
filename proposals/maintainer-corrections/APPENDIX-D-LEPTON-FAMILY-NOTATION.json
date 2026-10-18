@@ -1,0 +1,26 @@
+{
+  "id": "APPENDIX-D-LEPTON-FAMILY-NOTATION",
+  "status": "approved",
+  "description": "Match electron, muon and tau family-number labels and italic subscripts to the particle-physics prose.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42709/index.cnxml",
+      "before_sha256": "fbe59396c30ea8b5a288d3ed049d0132952a2db9b4b72f884d772a95b36a4447",
+      "after_sha256": "dbc3e6b94e400c8661b1a5c5ee2b541054f3d7a3fc9886fb099e33a7f4109977",
+      "fragments": [
+        {
+          "before": "<row>\n            <entry align=\"center\">\n              <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:msub>\n                        <m:mi>L</m:mi>\n                        <m:mrow>\n                          <m:mi mathvariant=\"normal\">e</m:mi>\n                        </m:mrow>\n                      </m:msub>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  </m:semantics>\n              </m:math>\n            </entry>\n            <entry>electron total family number</entry>\n          </row>",
+          "after": "<row>\n            <entry align=\"center\">\n              <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:msub>\n                        <m:mi>L</m:mi>\n                        <m:mrow>\n                          <m:mi>e</m:mi>\n                        </m:mrow>\n                      </m:msub>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  </m:semantics>\n              </m:math>\n            </entry>\n            <entry>electron family number</entry>\n          </row>"
+        },
+        {
+          "before": "<row>\n            <entry align=\"center\">\n              <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:msub>\n                        <m:mi>L</m:mi>\n                        <m:mrow>\n                          <m:mi mathvariant=\"normal\">μ</m:mi>\n                        </m:mrow>\n                      </m:msub>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  </m:semantics>\n              </m:math>\n            </entry>\n            <entry>muon family total number</entry>\n          </row>",
+          "after": "<row>\n            <entry align=\"center\">\n              <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:msub>\n                        <m:mi>L</m:mi>\n                        <m:mrow>\n                          <m:mi>μ</m:mi>\n                        </m:mrow>\n                      </m:msub>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  </m:semantics>\n              </m:math>\n            </entry>\n            <entry>muon family number</entry>\n          </row>"
+        },
+        {
+          "before": "<row>\n            <entry align=\"center\">\n              <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:msub>\n                        <m:mi>L</m:mi>\n                        <m:mrow>\n                          <m:mi mathvariant=\"normal\">τ</m:mi>\n                        </m:mrow>\n                      </m:msub>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  </m:semantics>\n              </m:math>\n            </entry>\n            <entry>tau family total number</entry>\n          </row>",
+          "after": "<row>\n            <entry align=\"center\">\n              <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n                <m:semantics>\n                  <m:mrow>\n                    <m:mrow>\n                      <m:msub>\n                        <m:mi>L</m:mi>\n                        <m:mrow>\n                          <m:mi>τ</m:mi>\n                        </m:mrow>\n                      </m:msub>\n                    </m:mrow>\n                    <m:mrow />\n                  </m:mrow>\n                  </m:semantics>\n              </m:math>\n            </entry>\n            <entry>tau family number</entry>\n          </row>"
+        }
+      ]
+    }
+  ]
+}

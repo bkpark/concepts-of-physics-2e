@@ -1,0 +1,102 @@
+{
+  "id": "APPENDIX-D-UNIT-DEFINITIONS",
+  "status": "approved",
+  "description": "Consistently identify the quantities measured by unit symbols.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42709/index.cnxml",
+      "before_sha256": "21605debcf4174779b2b42a62176cb7dc469c692c33184bfd451c9ff00c42247",
+      "after_sha256": "036523eb6ece9b36c7974c61fda506907c1b300d44aac63f7d0ae32169eeeccd",
+      "replacements": [
+        {
+          "before": "Celsius degree",
+          "after": "degree Celsius (unit of temperature)"
+        },
+        {
+          "before": "Fahrenheit degree",
+          "after": "degree Fahrenheit (unit of temperature)"
+        },
+        {
+          "before": "ohm (unit)",
+          "after": "ohm (SI unit of electrical resistance)"
+        },
+        {
+          "before": "ampere (current unit)",
+          "after": "ampere (SI unit of electric current)"
+        },
+        {
+          "before": "atmosphere",
+          "after": "atmosphere (unit of pressure)"
+        },
+        {
+          "before": "becquerel—one decay per second",
+          "after": "becquerel (SI unit of activity): one decay per second"
+        },
+        {
+          "before": "food Calorie: 1 Cal = 1 kcal = 4184 J exactly",
+          "after": "food Calorie (unit of energy): 1 Cal = 1 kcal = 4184 J exactly"
+        },
+        {
+          "before": "thermochemical calorie: 1 cal = 4.184 J exactly",
+          "after": "thermochemical calorie (unit of energy): 1 cal = 4.184 J exactly"
+        },
+        {
+          "before": "decibel",
+          "after": "decibel (logarithmic unit of sound level)"
+        },
+        {
+          "before": "electron volt",
+          "after": "electron volt (unit of energy)"
+        },
+        {
+          "before": "joule",
+          "after": "joule (SI unit of energy)"
+        },
+        {
+          "before": "kelvin",
+          "after": "kelvin (SI unit of temperature)"
+        },
+        {
+          "before": "kilocalorie: 1 kcal = 1000 cal = 4184 J exactly",
+          "after": "kilocalorie (unit of energy): 1 kcal = 1000 cal = 4184 J exactly"
+        },
+        {
+          "before": "liter",
+          "after": "liter (unit of volume)"
+        },
+        {
+          "before": "mole",
+          "after": "mole (SI unit of amount of substance)"
+        },
+        {
+          "before": "newton",
+          "after": "newton (SI unit of force)"
+        },
+        {
+          "before": "newton-meter; equivalent to a joule when expressing work or energy",
+          "after": "newton-meter (unit of work or energy); equivalent to a joule"
+        },
+        {
+          "before": "roentgen equivalent man",
+          "after": "rem (unit of equivalent dose and effective dose): 1 rem = 0.01 Sv"
+        },
+        {
+          "before": "radian",
+          "after": "radian (SI unit of plane angle)"
+        },
+        {
+          "before": "unified atomic mass unit",
+          "after": "unified atomic mass unit (unit of mass)"
+        },
+        {
+          "before": "volt (unit)",
+          "after": "volt (SI unit of electric potential difference)"
+        },
+        {
+          "before": "watt",
+          "after": "watt (SI unit of power)"
+        }
+      ]
+    }
+  ]
+}

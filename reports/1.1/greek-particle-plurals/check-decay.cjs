@@ -1,0 +1,20 @@
+const {chromium}=require('playwright');
+const fs=require('fs'),path=require('path'),assert=require('assert');
+(async()=>{
+const root=process.cwd(),dist=path.join(root,'prototype/dist/course-full');
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+const page=await browser.newPage();
+await page.route('http://preview/**',r=>{let f=path.join(dist,new URL(r.request().url()).pathname);if(fs.existsSync(f)&&fs.statSync(f).isDirectory())f=path.join(f,'index.html');return fs.existsSync(f)?r.fulfill({body:fs.readFileSync(f),contentType:({'.html':'text/html','.css':'text/css','.js':'application/javascript','.jpg':'image/jpeg','.png':'image/png'})[path.extname(f)]||'application/octet-stream'}):r.abort();});
+await page.setViewportSize({width:424,height:900});
+await page.goto('http://preview/sections/nuclear-decay-and-conservation-laws/');
+const eq=page.locator('#m76603--6569702d333338');
+assert.equal(await eq.locator('math').count(),2);
+assert(!(await eq.locator('math').first().textContent()).includes('decay'));
+await eq.screenshot({path:path.join(root,'reports/1.1/greek-particle-plurals/decay-label-424.png')});
+const neutron=page.locator('#m76603--6569702d383238');
+assert.equal(await neutron.locator('mi').filter({hasText:/^[np]$/}).count(),2);
+const sum=page.locator('#m76603--696d706f72742d6175746f2d696432363834373834 .sentence-math-block');
+assert.equal(await sum.locator('mtr').count(),3);
+await sum.screenshot({path:path.join(root,'reports/1.1/greek-particle-plurals/mass-sum-424.png')});
+await browser.close();console.log('Updated decay labels, particle tokens, and mass-sum display checked.');
+})().catch(e=>{console.error(e);process.exit(1)});

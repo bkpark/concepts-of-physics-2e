@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-23-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label from Exercise 23: neutron beta decay and these conservation checks are covered in Section 14.5.",
+  "changes": [
+    {
+      "path": "maintained/modules/m76603/index.cnxml",
+      "before_sha256": "70b047ba9ae895be7b3b39c2c6265a51926bd93b473ce564282baf08700bc37c",
+      "after_sha256": "4aa5e7cecd48c3d7d028d55f11fc680136eb2d50d96310dfb608573e47179c66",
+      "before": "<exercise id=\"fs-id3291026\" type=\"conceptual-questions\"><problem id=\"fs-id3291026-revised-problem\"><para id=\"fs-id3291026-revised-p1\"><span id=\"fs-id3291026-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> A free neutron undergoes <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> decay: <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>n</m:mi><m:mo>→</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:msup><m:mi>e</m:mi><m:mo>−</m:mo></m:msup><m:mo>+</m:mo><m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo>¯</m:mo></m:mover><m:mi mathvariant=\"italic\">e</m:mi></m:msub></m:mrow></m:math>. Check electric charge and nucleon number before and after the decay. Using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msub><m:mi>L</m:mi><m:mi>e</m:mi></m:msub><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> for the electron and −1 for the electron antineutrino, check electron-family number as well.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id3291026\" type=\"conceptual-questions\"><problem id=\"fs-id3291026-revised-problem\"><para id=\"fs-id3291026-revised-p1\"><span id=\"fs-id3291026-extension\"/>A free neutron undergoes <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> decay: <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>n</m:mi><m:mo>→</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:msup><m:mi>e</m:mi><m:mo>−</m:mo></m:msup><m:mo>+</m:mo><m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo>¯</m:mo></m:mover><m:mi mathvariant=\"italic\">e</m:mi></m:msub></m:mrow></m:math>. Check electric charge and nucleon number before and after the decay. Using <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msub><m:mi>L</m:mi><m:mi>e</m:mi></m:msub><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> for the electron and −1 for the electron antineutrino, check electron-family number as well.</para></problem></exercise>"
+    }
+  ]
+}

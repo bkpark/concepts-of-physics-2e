@@ -1,5 +1,14 @@
 # cp2e-ver1.1 planning
 
+## October 16, 2026 — current review checkpoint
+
+- Chapter 14 content and exercise review is finalized by the maintainer; 70 exercises remain.
+- Preview 148 is published with corrected Appendices A and B and the 5700-year carbon-14 exercises. Preview 146 included the Exercise 57 italic-m correction and global forced-italic cleanup. Full course build passed with no reported issues; representative appendix, gas-law and exercise pages checked.
+- Global cleanup removed 237 explicit MathML italic attributes and 89 math-only prose emphasis wrappers in 44 modules. Natural variable italics, explicit upright styling, intentional prose emphasis, all text, and source IDs are preserved. Audit and application records: `reports/1.1/math-italic-second-pass/`.
+- [ ] Maintainer review of the appendices.
+- [ ] Maintainer final second pass through the sections, including remaining visual typography issues.
+- [ ] Reconcile outstanding items in this planning document before finalizing v1.1 content/format review. Existing release/PDF and other deferred tasks remain open unless separately completed.
+
 ## Current status and remaining work
 
 **September 27, 2026 current status:** P3, heat-engine and P4 changes are applied to maintained source, and the full HTML preview is rebuilt and validated. The public preview is https://intro-1-1.coaphys.xyz/ (custom domain and HTTPS active). We are beginning conceptual exercise revision; the maintainer is preparing a fresh MyOpenMath export. Final 1.1 release/PDF work remains.
@@ -263,7 +272,8 @@ Maintainer requested overlap check and move before continuing review. Retained b
 - Applied approved Chapter 2 Exercise 25 eraser-on-table question to maintained source; pending next preview refresh. Batch subsequent approved exercise edits; refresh on request or chapter completion rather than after every edit. Public preview remains version 22.
 
 - Removed former Chapter 2 Exercise 26 (adhesive tape), approved by maintainer. Chapter now has 39 ordinary exercises; later numbers shift down one. Include pending Exercise 25 eraser revision in next publication. Add actual-versus-maximum static friction/inequality coverage during MyOpenMath question additions. Exercise 14 move to Section 2.4 remains deferred until overall reorder.
-`n- Preview version 23 published: pending Exercise 25 wording and tape-question removal are now live; 39 Chapter 2 exercises. Continue batching future edits until requested refresh or chapter completion.
+
+- Preview version 23 published: pending Exercise 25 wording and tape-question removal are now live; 39 Chapter 2 exercises. Continue batching future edits until requested refresh or chapter completion.
 
 - Applied approved Chapter 2 Exercise 28 replacement about predictive laws versus underlying mechanisms; pending next preview refresh.
 
@@ -761,3 +771,2238 @@ Completed the older textbook map from the preserved PDF outline (140 labeled mod
 ### 2026-10-12: Numbering and header review complete
 
 Previews 116–118 rename the alternate mode CNX-aligned, hide duplicate introduction entries in CNX-aligned contents, and center the header with both preference menus wrapping together. User approved the preview and requested committing these updates to GitHub. Course build, numbering checks across 141 sections, and header checks at 320–1600 px passed. Publication receipts and browser evidence are in reports/1.1/numbering-toggle/.
+
+### 2026-10-12: Figure 12.3.2 author photograph
+
+Replaced the deferred photoelectric-tube photograph with author photo 4. Applied a deterministic crop and resize, retained the full-resolution original in local references, and updated the caption and alt text, and removed the obsolete credit. Author selected photo credit to College of Alameda Physics Department. The author identified the yellow-wire connection as the photocathode and the circular wire as the anode; uncertain routing and design intent are omitted. Browser checks verify the image at 390 and 1200 px and both numbering labels. This closes the chapter-finalization photo reminder.
+
+### 2026-10-13: Radiation-name parentheses
+
+Moved parentheses around the initial alpha, beta, and gamma symbols in m76584/import-auto-id3422619 into prose, leaving only the Greek letters in MathML. Added the missing spaces after the names. XML and all three math contents verified. Queued for the next preview refresh.
+
+### 2026-10-13: Greek particle plurals
+
+Applied the approved α’s / β’s / γ’s convention across maintained source with ’s outside MathML, including captions, exercises, and the isotope appendix. Preserved “the α’s charge to mass ratio” as requested. Recorded the convention in docs/style-guide.md and the inventory in reports/1.1/greek-particle-plurals/applied.json. Queued for next preview refresh.
+
+### 2026-10-13: Redundant E italic attribute
+
+Removed the sole explicit italic MathML attribute in m76584 (E in import-auto-id1177617). Default mathematical italics and prose emphasis are unchanged. XML check passed; no explicit italic MathML attributes remain in the section. Queued for next preview refresh.
+
+### 2026-10-13: Substructure of the Nucleus italic cleanup
+
+Removed three explicit italic MathML attributes (A, m, N) in m52466. XML validation passed; no explicit italic MathML attributes remain in the section. Default variable italics retained. Queued for next preview refresh.
+
+### 2026-10-13: Decay-equation descriptions
+
+Moved the four parenthetical decay descriptions in m76603 (alpha, beta-minus, beta-plus, gamma) outside reaction MathML. Parentheses and the word decay are prose; particle symbols retain separate math. IDs and reactions retained; XML validation passed. Queued for next preview refresh.
+
+### 2026-10-13: Reaction-energy equation spacing
+
+Cleaned up m76603/eip-241: removed explicit spacing before equals, changed Delta from an operator to an upright identifier, grouped parentheses, and moved the sentence period outside MathML. Relationship and equation ID retained. XML valid. Queued for next preview refresh.
+
+### 2026-10-13: Nuclear decay italic cleanup
+
+Removed all 20 explicit italic MathML attributes in m76603, including the annotated Delta m. XML valid; no explicit italic MathML attributes remain in the section. Standard mathematical styling retained. Queued for next preview refresh.
+
+### 2026-10-13: Final-mass sum display
+
+Replaced over-wide inline mass sum in m76603/import-auto-id2684784 with three displayed lines. Corrected decimal/operator/unit tokenization and isotope grouping; numerical values unchanged. XML valid. Queued for next preview refresh.
+
+### 2026-10-13: Neutron-decay particle symbols
+
+Changed n and p in m76603/eip-828 from upright text to mathematical identifiers, following the particle-symbol style convention. Included in the pending preview refresh.
+
+### 2026-10-13: Final-mass punctuation placement
+
+Anchored the period to the final u in the three-line mass sum; the renderer separates it from copied math and aligns it to the last row. Thus now starts a new paragraph. Queued for next preview refresh.
+
+### 2026-10-13: Half-life calculations on two lines
+
+Split m52471/eip-15 and eip-806 into two aligned display rows each, placing the evaluated fraction and final count on the second row. Tokens and values retained; XML and row-count checks passed. Queued for next preview refresh.
+
+### 2026-10-13: Half-life and activity italic cleanup
+
+Removed all six explicit italic MathML attributes on N and t in m52471. XML validation and section rescan passed; normal mathematical styling preserved. Queued for next preview refresh.
+
+### 2026-10-13: Carbon activity calculations on two lines
+
+Split m52471/eip-999, eip-367, eip-515, and eip-403 into two aligned rows, with each final result on its own line. The 250 Bq conversion is included; the following curie conversion (eip-172) remains on one line. Values and punctuation preserved. Queued for next preview refresh.
+
+### 2026-10-16: Activity equation alignment
+
+Normalized MathML in m52471/eip-515 and eip-403: dedicated equality column, consistent relation spacing, decimal numbers as single tokens, multiplication operators, and separate upright units. Both retain two lines and unchanged values. Queued for preview refresh.
+
+### 2026-10-16: Radiation unit spacing and table wrapping
+
+Added explicit number-unit spacing in m68327/eip-810 and made the Bq-to-Ci table conversion wrap only after the approximation sign when necessary. Queued for preview refresh.
+
+### 2026-10-16: Proton-proton cycle energy annotations
+
+Replaced parenthetical energies throughout the fusion section, including all ten body equations with energy annotations and four repeated summary equations, with separate Q expressions and defined Q in prose. Preserved equation numbers; reaction and Q expressions wrap as separate units on narrow screens.
+
+### 2026-10-16: Fusion reaction-count conversion factor
+
+Changed the Avogadro factor in m52480/eip-812 to a stacked fraction over mol, retaining the single-line calculation and numerical values. Queued for preview refresh.
+
+### 2026-10-16: Fusion energy conversion factors
+
+Stacked complete factors over reaction and MeV in m52480/eip-817 and aligned the two equals signs. Preserved values and two-line layout.
+
+### 2026-10-16: Fusion power unit spacing
+
+Reduced the explicit number-unit gaps in m52480/eip-674 from 0.25em to 0.167em, consistently for J, s, W and MW. Queued for preview refresh.
+
+### 2026-10-16: Fission product mass multiplication
+
+Replaced parentheses around the neutron mass with explicit multiplication in m52479/eip-319. Values and two-line layout preserved. Queued for preview refresh.
+
+### 2026-10-16: Fission math styling and energy layout
+
+Removed five forced italic MathML attributes throughout m52479. Split eip-179 into three aligned lines, with the final 171.2 MeV result on its own line.
+
+### 2026-10-16: Fission percentage spacing
+
+Removed the extra space in 0.72% in m52479. Queued for preview refresh.
+
+### 2026-10-16: Fission energy fence spacing
+
+Set explicit zero spacing on parentheses and the unit slash in m52479/eip-179, retaining thin number-unit spaces and aligned equals signs. Queued for preview refresh.
+
+### 2026-10-16: Fission conservation sum spacing
+
+Normalized numeric tokens and infix operators in both sums in m52479/import-auto-id3081841. Values unchanged. Queued for preview refresh.
+
+### 2026-10-16: Separate breeding half-life annotations
+
+Separated half-lives from reactions in m52479/eip-890 and eip-412, using independent MathML expressions with a visible gap and responsive wrapping. Queued for preview refresh.
+
+### 2026-10-16: Fission atom-count conversion factor
+
+Stacked the complete number and uranium-235 numerator over mol in m52479/eip-689. Values and remaining layout preserved. Queued for preview refresh.
+
+### 2026-10-16: Approved operator audit D1
+
+Corrected specific-heat units and denominator grouping in m67135/eip-333. Two aligned rows, with the approximate 162 °C result on the second; explicit thin spaces before units. D2 remains awaiting review. Queued for preview refresh.
+
+### 2026-10-16: Approved operator audit D2
+
+Cubed the entire length-conversion factor in m52466/eip-317. The resulting 2.2908 × 10^17 kg/m³ agrees with the existing rounded 2.3 × 10^17 kg/m³. Queued for preview refresh.
+
+
+Operator audit (2026-10-16): maintainer-authorized typography pass repaired 611 expressions in 84 modules, preserving visible content and grouping. Reversal snapshots: proposals/maintainer-corrections/OPERATOR-AUDIT-STRAIGHTFORWARD.json. D3 isotope-placement question remains unchanged pending review; see reports/1.1/operator-audit/remaining-decisions.json.
+
+
+D3 approved and applied (2026-10-16): carbon-14 emission exercise now shows ²²²Ra → ᴬX + ¹⁴C, retaining the unknown nuclide.
+
+
+Antineutrino correction (2026-10-16): Eqs. 14.10.4–5 now use electron antineutrinos, with a brief reminder after the pair. Section 14.5 consistently calls the emitted particle an electron antineutrino and explains equal mass/spin, opposite nonzero electric charges, and neutral antiparticles with opposite electron family numbers.
+
+
+Beta-decay label audit: corrected cobalt-60 introductory word label and Latin v in fusion neutrino notation. Conflicting Section 14.5 conservation exercise left for maintainer judgment. See reports/1.1/beta-decay-audit/README.md.
+
+
+D4 applied: Section 14.5 exercise fs-id2460264 now consistently uses beta-plus decay, N+1, Z−1, and an electron neutrino. Approved correction to the current exercise only. This decision carries no weight in deciding whether to retain or remove the exercise in a later revision.
+
+
+Section 14.12: changed the force-table entry to “Gluons (experimentally established)” and removed the obsolete conjecture footnote. No glueball discussion added.
+
+
+Section 14.12: removed the inherited 1983 discovery footnote from the weak-force carrier entry; retained “(observed)” to match the photon entry.
+
+
+Section 14.13 particle table: names/categories left aligned, other columns centered; four notes relocated below with numbered references; short values kept together. Screen and portrait Letter/A4 print-width checks pass. Final PDF pagination remains a release check.
+
+Section 14.13: updated direct neutrino mass bounds to <4.5×10⁻⁷, <0.19, and <18.2 MeV/c²; removed leading zeros; added confidence levels, flavor/mass-state distinction, and separate oscillation mass-squared-difference note. All three neutrino lifetime entries now read “No decay observed,” as approved.
+
+Section 14.13: audited all 23 particle mass entries against PDG 2025 and the previously approved KATRIN result; W updated to 80.37×10³ MeV/c², other non-neutrino values retained at existing precision. Added missing overbars to charged Xi and Omega antiparticles; all nine antibaryon labels checked.
+
+Section 14.13: spelled out “zero” in “the total remains zero as it was before decay” to avoid ambiguity with the letter o. Pending next preview refresh.
+
+Section 14.13: standardized particle names to Electron Neutrino, Muon Neutrino, and Tau Neutrino, preserving note 3 markers. Pending next preview refresh.
+
+Section 14.13: grouped the four table notes and oscillation paragraph into a caption-style Table notes block below the table, with smaller sans-serif typography and an accessible table association. Pending preview refresh.
+
+Section 14.13: restored missing space between “muon family number” and its symbol. Pending next preview refresh.
+
+Section 14.14: removed newline-generated space after the opening parenthesis before the weak-force range. Pending next preview refresh.
+
+Chapter 14 glossary: corrected source “1g” to “1 g” with U+00A0 in the curie definition. Pending next preview refresh.
+
+Chapter 14 glossary: standardized electron neutrino and electron antineutrino names and changed the latter definition to “antiparticle of the electron neutrino.” Pending next preview refresh.
+
+Chapter 14: merged gluon glossary entries using identical current definitions in both sources; one combined entry preserves both sets of anchors. Section 14.14 prose remains unchanged pending review. Pending preview refresh.
+
+Section 14.14: applied approved gluon prose; corrected caption to explain two superpositions and explicitly flag misleading White label. Figure replacement design under discussion; image unchanged. Pending preview refresh.
+
+Figure 14.14.2: adopted approved color-state diagram as panel (a); preserved original panel (b) through layout cropping; updated caption and alt text.
+
+Section 14.14: updated Higgs glossary definition to established spin-0 particle associated with the Higgs field, discovered in 2012. Flagged inherited SSC-era prose and conceptual question fs-id1169738209354 for review; those remain unchanged. Pending preview refresh.
+
+Section 14.14: applied approved Higgs prose and conceptual-question revisions. Exercise identity and ordering preserved; no renumbering.
+
+Higgs glossary: changed "spin-0 particle" to "particle with zero spin" for readability. Pending next preview refresh.
+
+Chapter 14 glossary: renamed photomultiplier to photomultiplier tube and clarified faint-light conversion and successive electron multiplication. Existing entry anchors preserved. Pending next preview refresh.
+
+Section 14.14: applied approved Standard Model glossary, explanatory paragraph, and section-summary revisions. Clarified particle content, interactions, and limitations; removed proposed-gluon wording. Existing anchors preserved. Pending next preview refresh.
+
+Section 14.13: clarified strangeness definition, conservation rules and quark interpretation; added qualified Gell-Mann maxim; corrected kaon charge accounting and signed strangeness change. Example identity preserved.
+
+Section 14.13: applied approved antiproton storage explanation (electric and magnetic confinement, density and technical limitations) and matter-antimatter imbalance scope statement. Removed misleading magnetic-field power claim and later-chapter promise. Pending next preview refresh.
+
+Section 14.13: applied approved hadron-lepton distinction, defining composite hadrons and elementary leptons and clarifying that both participate in weak interactions. Existing term anchors preserved. Pending next preview refresh.
+
+Section 14.13: removed redundant zero or from boson integer-spin definition in prose and matching glossary entry; retained spin examples and markup. Pending next preview refresh.
+
+Section 14.13 only: standardized all electron, muon and tau family subscripts on lepton numbers and neutrinos to explicit italic styling. Other sections unchanged. Pending next preview refresh.
+
+Section 14.13: clarified that the name baryon derives from the Greek for heavy. Pending next preview refresh.
+
+Section 14.13: reframed meson/baryon decay patterns as evidence illustrating conservation rather than definitions. Kept quark introduction later and retained baryon-number discussion. Pending next preview refresh.
+
+Section 14.13: moved formal meson and baryon term anchors from initial decay discussion to new definitions after the quark introduction. Early mentions are plain text; glossary entries now define quark content. IDs preserved. Pending next preview refresh.
+
+Textbook glossary: applied approved canonical definitions and introduction points; distinguished lens power, polarized light and electric polarization; replaced duplicate glossary definitions with canonical cross-references while preserving previous anchors.
+
+G04: removed the vector addition glossary entry from Section 9.5. Section 1.3 vector coverage retained; no additional instruction or exercise changes. Pending next preview refresh.
+
+G06: removed redundant thermal agitation glossary and formal-term styling in 11.5; earlier random thermal motion coverage confirmed in energy and heat sections. Ordinary prose and term anchor retained. Pending preview refresh.
+
+G07: removed the double-slit interference glossary entry from Section 12.7. No prose or exercise changes. Pending next preview refresh.
+
+G08: removed decay equation glossary entry and formal-term styling in Section 14.5. Ordinary wording, equations and exercise numbering retained. Pending next preview refresh.
+
+G14/G15: removed eleven equation-label/procedural glossary entries and associated formal-term styling. Equations, explanations, prose anchors and exercise numbering retained. Pending preview refresh.
+
+G19: defined electromagnets with matching glossary in 10.3; defined electromagnetism broadly with matching glossary in 11.2 at Maxwell unification discussion. Existing anchors retained. Pending preview refresh.
+
+Glossary quality batch: applied focused definitions, canonical placements and prose consistency corrections from approved groups. G17 and G33 held for broader prose review. Equations and exercise numbering retained; pending preview refresh.
+
+Approved glossary batch follow-up: synchronized proper-time, curie-history and approximate vacuum-permeability prose; clarified activity versus finite detector counts. Exact proposals for 14 remaining groups plus held G17/G33 are in reports/1.1/glossary-wording-decisions.md.
+
+G20: applied approved qualitative Ampere/Biot-Savart prose and glossary definitions. Maxwell extension links to the section title using module m52443, without a section number. Pending preview refresh. After glossary review, scan hard-coded chapter/section references for renumbering resilience.
+
+G22: applied thermal-equilibrium temperature definition and simple absolute-zero lower-limit wording in Section 8.2 and glossary. Removed all-motion-ceases claim; no quantum caveat added. Pending preview refresh.
+
+G28: applied approved Feynman-diagram and gauge-boson explanations and glossary definitions in 14.12/14.13, retaining gauge field terminology. Anchors preserved; pending preview refresh.
+
+Applied all remaining approved glossary groups (G05, G17, G27, G29, G33, G34, G36, G39, G42, G46, G47, G49, G51), including five G51 removals. G49 experimental milestones unchanged. Preserved IDs and exercise numbering. Pending preview refresh. Next review: hard-coded chapter/section references before renumbering.
+
+Final glossary consistency pass synchronized quantum measurement discussion, entropy summaries/caption and model-dependent unification/proton-decay wording. No updated lifetime limit or fusion experimental milestone added. Next review remains hard-coded chapter/section references before renumbering.
+
+- Scanned all 141 maintained modules for hard-coded chapter/section references. Replaced the garden-hose momentum question’s “Chapter 2” reference with the linked title “Newton’s Third Law of Motion: Symmetry in Forces,” preserving its target and exercise number. Retained three section numbers citing external prescribing documents.
+
+- Chapter 14: applied the approved exercise review (19 keep, 44 revise, 132 remove), plus ten separate fixed MyOpenMath-aligned questions. Final 73 questions follow textbook topic order and, per the maintainer’s subsequent instruction, are renumbered 1–73. Eighteen optional extensions are marked. Body prose unchanged; internal crosswalk and provenance: reports/1.1/chapter14-structure/applied-question-set.json.
+
+- Chapter 14 exercises: standardized spelled-out radiation names to native MathML α, β⁻, β⁺ and γ in 16 questions; numbers, order and remaining wording preserved.
+
+## October 17, 2026 — Appendix A evaluated-data correction
+
+Applied systematic Atomic Masses table corrections from AME2020/NUBASE2020/CIAAW2024: 160 original rows plus one explicitly labeled Rf-261m row. Maintainer approved separate state rows, natural-abundance ranges, and a 0.1% principal-decay-branch threshold. Precision, uncertainties, sources, and uncertain state ordering are explained in table notes. Numerical/source-ID checks and course build passed; desktop/mobile rendered checks passed. Published in preview 147. Full correction log: reports/1.1/atomic-masses-audit/applied-review.md.
+
+- [ ] During appendix/second-pass review, check Appendix B and other repeated isotope data for consistency. Carbon-14 appendix now gives 5700(30) y; Chapter 14 Exercises 31 and 32 now use 5700 y; Section 14.6 body/worked examples remain to be reviewed.
+
+## October 17, 2026 — carbon-14 exercise consistency
+
+Updated Exercises 31 and 32 to use 5700 y. Exercise 32(a) now uses 11,400 y; the three-half-life answers are 17,100 y. Calculations and course build passed. Appendix A corrections and these exercise changes were published together in preview 147. The Section 14.6 body/worked examples and Appendix B retain their earlier values pending their second-pass consistency review.
+
+
+## October 17, 2026 — Appendix B evaluated-data consistency and emissions audit
+
+Updated 38 isotope half-lives using NUBASE2020, consistent with Appendix A, and audited selected radiation energies/yields against 33 DDEP evaluations, four LNHB Nucléide-Lara entries, and ICRP107 via MIRDspecs for Cs-129. Maintainer approved compact selected emissions, dominant replacements for ambiguous entries, and DDEP branching fractions used consistently with DDEP emissions while retaining NUBASE half-lives. Corrected gamma photon yields, alpha kinetic energies, beta endpoints and branching fractions; clarified selection, daughter delays, and source conventions. All existing IDs preserved. Course build passed (6430 math, issues {}, 2440 adaptations, 8424 search passages); desktop and mobile checks passed. Audit: reports/1.1/appendix-b-consistency/review.html. Published successfully as preview 148 (source c9406503d29056827b129861ed8f997fa9ed0275). Section 14.6 body/worked examples remain pending second-pass consistency review.
+
+## October 17, 2026 — Section 14.6 carbon-14 consistency
+
+Updated all remaining 5730 y references in Section 14.6 to 5700 y, including MathML annotations. Recalculated the simplified Shroud age to 686 y (about AD 1300 remains valid), and living-carbon activity to 7.93 × 10^9 decays/y = 251 Bq = 6.78 nCi per kilogram, or 0.251 decays/s per gram. Preserved the reviewed equation layouts and historical calibrated date range. This completes the previously pending Section 14.6 consistency update. Arithmetic, XML, and full course build checks passed (6430 math expressions; no issues); preview publication pending. Provenance: proposals/maintainer-corrections/C14-SECTION-146-HALFLIFE-5700.json.
+
+## October 17, 2026 — Appendix C and heat convention consistency
+
+Applied approved Appendix C updates: Avogadro constant units, Earth mass/mean radius, common-prefix title, seven SI base units, radian classification, electric potential label, pound-force/knot/torr labels, and rounded versus exact conversions. Adopted the thermochemical calorie (4.184 J exactly) in Appendix C and Heat prose; checked and corrected rounded kcal equivalents in specific-heat and latent-heat tables while retaining SI material properties and their worked calculations. Source IDs and XML/hash checks passed. Full course build: 6425 math, issues {}, 2440 adaptations, 8427 search passages. Browser checks passed for five affected sections at desktop and 430 px mobile widths. Published together with Section 14.6 carbon-14 changes in preview 149, source ae4be96589baa92a6ac2051392fb95c4f1847146. Reports: reports/1.1/appendix-c-consistency/.
+
+## October 17, 2026 — Appendix D notation consistency
+
+Applied the approved definition corrections and 12 missing symbol meanings, removed the orphaned energy-uncertainty entry, and replaced time uncertainty with elapsed time. Updated calorie/Avogadro conventions, relativity/quantum wording, anticolor labels, and context-dependent bar/subscript-zero conventions. Used an overbar on x as a compact example for mobile display. Preserved existing IDs and P/p distinctions. Full course build passed (6435 math, issues {}, 2440 adaptations, 8427 passages); desktop/mobile content checks passed. Published preview 150, source eea1a6abe89e964bda7e62ed9d206ada6603d0d1. Provenance: proposals/maintainer-corrections/APPENDIX-D-NOTATION-CONSISTENCY.json.
+
+## October 17, 2026 — Appendix D symbol alignment
+
+Explicitly centered all symbol cells, fixing inline gamma and other inline entries while preserving left-aligned definitions. Course build passed (6435 math, no issues); desktop/mobile gamma center offset verified as zero, no page overflow. Published preview 151, source 923aebc419be03069502111f7699c7f138648fc8. Provenance: proposals/maintainer-corrections/APPENDIX-D-SYMBOL-ALIGNMENT.json.
+
+Appendix D follow-up: matched L_e, L_mu, and L_tau subscripts to the italic identifiers used in particle-physics prose; labels now read electron/muon/tau family number. Full course build passed. Pending next preview refresh. Provenance: APPENDIX-D-LEPTON-FAMILY-NOTATION.json.
+
+Appendix D: clarified both newton-meter definitions (work/energy equivalent to joule; torque conventionally not called joule), preserving American spelling. XML validation passed. Pending next preview refresh with lepton-family notation updates.
+
+Appendix D: fixed w_R alignment missed by the earlier plain-row matcher; its row has namespace attributes. Verified all 273 body symbol cells explicitly center their contents. Full course build passed. Pending next preview refresh with family-number and newton-meter updates.
+
+Appendix D: tesla entry now explicitly says SI unit of magnetic field strength B. XML validation passed; pending next preview refresh.
+
+## October 17, 2026 — Appendix D unit definitions and pending review edits
+
+Updated 22 unit definitions to identify their measured quantities, including ampere and the work/energy newton-meter entry. Included all pending family-number notation, newton-meter, w_R alignment, and tesla corrections. Full course build passed (6435 math, issues {}, 2440 adaptations, 8427 search passages). Desktop (1100 px) and mobile (430 px) checks passed: no overflow, all symbol cells centered. Published preview 152, source 1c840dec9ce3ac8583651ef2d057bf28b200c75f. Provenance: APPENDIX-D-UNIT-DEFINITIONS.json; screenshots: reports/1.1/appendix-d-consistency/units-1100.png and units-430.png.
+
+
+## October 17, 2026 — summary/prose consistency
+
+Screened 120 section summaries and corrected mismatches in 20 modules, including the Section 10.8 coil N, permeability approximation and Ampere/Biot-Savart distinction. Full build passed (6431 math; no issues); source IDs preserved and magnetism rendering checked. Pending next requested preview refresh. Details and separate prose-review leads: reports/1.1/summary-consistency/README.md.
+
+
+## October 17, 2026 — lightning rods and conductor properties
+
+Applied approved paired paragraphs in Section 9.7, preserving the linked pointed-conductor figure. Updated both captions and section summary to distinguish corona discharge from the grounded conducting path used for lightning protection. Preserved image credits, alternative text, objectives and IDs. XML and full course build passed; rendered figure-link target verified. Pending next requested preview refresh with summary consistency changes. The separate source-of-magnetism proposal remains unapplied.
+
+
+Section 10.3 magnetism follow-up: removed the absolute-current claim box and replaced the second summary bullet with approved current/orbital-motion/spin wording at the end. Surrounding prose and captions retained by maintainer decision. No incoming source references to removed box/paragraph IDs. Pending next requested preview refresh.
+
+
+Section 11.5: applied the approved blackbody/emissivity paragraph and linked forward reference to Blackbody Radiation (m67250). Full build passed, rendered link verified. Pending preview refresh. Flagged the retained final sentence about 50 percent solar absorption: this refers to the surface, not the entire Earth system; proposed clarification awaits review.
+
+
+## October 17, 2026 — remaining content flags after summary review
+
+Applied approved Section 11.5 solar-absorption clarification: about half of incoming top-of-atmosphere solar energy is absorbed by the surface. Full course build passed; pending preview refresh.
+
+Three current-source issues confirmed and presented for review (not yet changed):
+- m67133/import-auto-id1169738209327: Sun yellowish because red exceeds violet; revise to combined visible sunlight appearing white, with atmospheric scattering affecting observed color. NASA: https://science.gsfc.nasa.gov/attic/eclipse2017.gsfc.nasa.gov/what-color-sun.html
+- m67807/import-auto-id694489: principal quantum number described as non-negative; must be positive (1, 2, 3, ...), matching earlier prose and summary.
+- m52420/import-auto-id1166991830052: tokamak particles said to follow circles and never cross field lines/escape; distinguish gyration and motion along field lines, and acknowledge drift/losses and additional confinement fields. ITER: https://www.iter.org/node/20687/searching-perfect-shape
+
+These are current content flags, not a certification that the full book has no other errors. Historical unresolved notes elsewhere must be read with their later dispositions. Lightning-rod and magnetism-summary review leads are now resolved by approved changes; retain surrounding magnetism prose per maintainer choice.
+
+
+Bohr principal quantum number: corrected non-negative to positive in m67807/import-auto-id694489, matching n = 1, 2, 3, ... elsewhere. XML valid; pending preview refresh. Solar-color and magnetic-confinement paragraphs remain under wording review.
+
+
+## October 17, 2026 — approved solar color and magnetic confinement revisions
+
+Applied both approved paragraphs in m67133 and m52420; provenance: proposals/maintainer-corrections/SOLAR-COLOR-AND-MAGNETIC-CONFINEMENT.json. The preceding positive-integer correction for Bohr n is also included. Full course build passed: 6431 math, issues {}, 2440 adaptations, 8425 search passages. All changes since preview 152 remain queued for the next requested preview refresh.
+
+Historical flag reconciliation: Priority 2 numerical/dose work was applied under P2-01-05-coordinated and P2-06; the negative-base momentum exercise ID no longer exists in the revised Chapter 13 set; the four borderline equation-numbering decisions were resolved in the October 8 exercise-review log. One genuine outstanding numerical flag remains: m42546/eip-95 still substitutes 9.00 × 10^-31 kg for electron mass, while its displayed result 4.02 × 10^-14 J agrees with 9.11 × 10^-31 kg. Reported to maintainer for correction; unchanged in this turn. This reconciliation is not a new comprehensive numerical audit.
+
+
+## October 17, 2026 — final known content-review correction
+
+Corrected m42546/eip-95 electron-mass substitution from 9.00 to 9.11 × 10^-31 kg, as approved. The existing result 4.02 × 10^-14 J remains correct. Provenance: RELATIVISTIC-EXAMPLE-ELECTRON-MASS.json. Closed stale summary-consistency prose-review leads with their subsequent approved dispositions. No known unresolved content-review decisions remain from the tracked review; this status does not replace the maintainer second-pass review or assert an exhaustive new audit. Preview refresh and release preparation remain separate tasks; public preview remains 152.
+
+### 2026-10-17 — Version 1.1 preface
+
+Added the author-provided About Version 1.1 at the top of Preface, linked the five referenced sections, and renamed the existing heading Original “About This Book”. Existing content otherwise preserved. Minor grammar/typo corrections outside the Pangram sentence only; that sentence is retained as requested. Full course build passed (6431 math expressions, no issues); generated heading order, Pangram wording, and section links checked. Public preview remains unchanged. Proposal: `VERSION-1-1-PREFACE`.
+
+### 2026-10-17 — Preview 153 published
+
+Published the new preface and all pending corrections since preview 152. Source commit: c80fbcee1f3f1857d373b4b23d6b7f708e54f54e; deployment: appgdep_6ad37717dc0c8191b3de3c3d0dcd3f01 (succeeded). Local generated preface checks passed; direct live HTTP verification returned 403. Preface browser opening queued. Packaging used Git Bash outside sandbox with TAR_OPTIONS=--force-local for Windows drive paths.
+
+
+### 2026-10-17 — Section 4.3 objectives
+
+Applied the approved calculation-objective clarification and combined the first two objectives into one. CNXML parses; changes confined to the objective list. Provenance: OBJECTIVES-4-3-IMPULSE. Other learning-objective proposals remain under review. Pending preview refresh.
+
+
+### 2026-10-17 — Section 7.5 objectives
+
+Removed the third objective (calculate density given pressure and altitude), as approved. First two objectives retained. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-7-5-REMOVE-DENSITY.
+
+
+### 2026-10-17 — Section 8.11 objectives
+
+Applied the proposed heat-engine efficiency calculation objective and the maintainer’s exact conceptual objective about why an ideal Carnot engine cannot achieve 100% efficiency. First objective retained. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-8-11-CARNOT.
+
+
+### 2026-10-17 — Section 8.13 objectives
+
+Applied the reviewed entropy objectives with the approved shorter calculation wording. CNXML parses; only objective list changed. Pending preview refresh. Provenance: OBJECTIVES-8-13-ENTROPY.
+
+
+### 2026-10-17 — Section 10.5 objectives
+
+Applied the approved right-hand-rule objective revision; retained the original calculation objective as requested. CNXML parses; only second objective changed. Pending preview refresh. Provenance: OBJECTIVES-10-5-RIGHT-HAND-RULE.
+
+
+### 2026-10-17 — Section 10.10 objectives
+
+Retained the original Faraday’s law calculation objective verbatim and expanded the Lenz’s law objective into the two approved direction and energy-conservation objectives. CNXML parses; only the Lenz objective changed. Pending preview refresh. Provenance: OBJECTIVES-10-10-LENZ.
+
+
+### 2026-10-17 — Section 13.4 objectives
+
+Applied the approved third objective: Explain why length contraction is ordinarily unnoticeable in everyday life. Other objectives retained. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-13-4-LENGTH-CONTRACTION.
+
+
+### 2026-10-17 — Section 8.14 objectives
+
+Applied the reviewed statistical-entropy objectives with the approved shortened final wording. CNXML parses; only objective list changed. Pending preview refresh. Provenance: OBJECTIVES-8-14-STATISTICAL-ENTROPY.
+
+
+### 2026-10-17 — Section 11.7 objectives
+
+Added the approved shortened refraction objective; existing index-of-refraction calculation objective retained. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-11-7-REFRACTION.
+
+
+### 2026-10-17 — Section 12.5 objectives
+
+Retained the original first objective verbatim and applied the proposed second and third objectives. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-12-5-UNCERTAINTY.
+
+
+### 2026-10-17 — Section 13.3 objectives
+
+Applied the maintainer-provided four objectives in order: simultaneity, space-time diagrams, time dilation/gamma, twin paradox. Verified this matches subsection order. Gamma retains MathML. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-13-3-SIMULTANEITY-TIME.
+
+
+### 2026-10-17 — Section 14.13 objectives
+
+Applied general quark-structure wording and particle-table conservation objective. Omitted proposed strangeness/neutrino-oscillation objective per maintainer decision. First two objectives and section prose retained. CNXML parses; pending preview refresh. Provenance: OBJECTIVES-14-13-PARTICLES.
+
+
+### 2026-10-17 — Remaining learning-objective proposals approved
+
+Applied all 24 remaining section proposals, including the three emphasis choices, under the maintainer’s approval of all other revisions. All 36 reviewed sections are now resolved, preserving individual decisions recorded during review. Source objective lists matched their reviewed baselines and XML parses. Provenance: OBJECTIVES-REMAINING-APPROVED. Build verification and preview refresh pending.
+
+Validation completed: all 36 final source objective lists match approved wording. Full course build passed: 6431 math expressions, no issues, 2440 adaptations, 8431 search passages. Public preview refresh remains pending.
+
+
+### 2026-10-17 — Preview 154 published
+
+Published the rounded white-IP favicon in CoA blue (#00539F) and all 36 sections’ approved learning-objective revisions. Both numbering builds passed (6431 math; no issues); all 174 packaged HTML pages passed favicon-reference and internal-link checks. The legacy full validator found a stale local review-items link to a removed exercise; that historical report is excluded from deployment. Source commit aaac458b8e200f7c5ff68d429353ed9b346c4893; saved version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_5bfe3782a4a48191ba0fd3b604bf9641; deployment appgdep_6ad38ac26a3c8191ba11e95b2458242a succeeded. Maintainer second-pass review and final PDF/release preparation remain.
+
+
+### 2026-10-17 — Unit conversion spacing and cancellation
+
+Corrected m67032/eip-442 number–unit spacing and consolidated 0.080 into one numeric token. Preserved the two unit-cancellation enclosures and added a currentColor CSS stroke fallback for native MathML rendering. Local browser check confirms visible cancellation; course build passed (6431 math, no issues). Public preview remains 154; pending refresh. Record: UNIT-CONVERSION-CANCELLATION.
+
+
+### 2026-10-17 — Preview 155 published
+
+Published the unit-conversion spacing and visible cancellation fix (m67032/eip-442). Both numbering builds passed with 6431 math expressions and no issues. Packaged equation and CSS checked; local browser rendering verified in the preceding turn. Commit 6160c65ab473af4d89a0ae628f619be5b62fcf9e; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_c3bd59ce54048191adc3bf8b5602bc15; deployment appgdep_6ad38dfaa16081919d2f71524fe25a01 succeeded. Preview opened at the corrected equation for maintainer review.
+
+
+### 2026-10-17 — Motion graph figure sizing
+
+Figure 1.4.4 (m71407/import-auto-id1810795): screen-only CSS sets width 300px and removes the inherited 380px height cap, which squeezed this 575x1335 image to about 164px wide. Existing responsive max-width remains; print sizing unchanged. Course build passed; generated target and rule verified. Pending preview refresh.
+
+
+### 2026-10-17 — Preview 156 published
+
+Published Figure 1.4.4 screen-sizing fix (300px wide; height cap removed; responsive width and print sizing retained). Both numbering builds passed with 6431 math expressions and no issues. Commit 5d8fe81c44559b34513c63a28e36d3277a73c504; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_057b9ab121a081918c7f02cadb760e09; deployment appgdep_6ad3978f249081919b4a74c78ac0f1fa succeeded. Opened preview at the figure for maintainer review.
+
+
+### 2026-10-17 — Displacement result sign spacing
+
+Removed explicit extra space before +2.00 km in m67033/import-auto-id2400875 and marked result signs as prefix operators with zero internal spacing in that equation and part (b), import-auto-id2589758. Values and other equation content preserved. XML parses; pending preview refresh. Record: DISPLACEMENT-RESULT-SIGN-SPACING.
+
+
+### 2026-10-17 — Acceleration conversion multiline layout
+
+Placed the final numerical result on a second, equals-aligned row in m67033/import-auto-id2596926. Mathematical tokens and values preserved; XML parses. Pending preview refresh. Record: ACCELERATION-CONVERSION-MULTILINE.
+
+
+### 2026-10-17 — Train motion graph sizing
+
+Removed the screen height cap for m67033/import-auto-id2596939 (Figure_02_03_04.jpg), using its source width of 350px. Responsive max-width and print sizing retained. Pending preview refresh.
+
+
+### 2026-10-17 — Positive acceleration result layout
+
+Moved +0.556 m/s squared to a second equals-aligned row in m67033/import-auto-id2581171, removed the explicit extra space before the positive sign, and applied prefix sign spacing. Mathematical tokens preserved; XML parses. Pending preview refresh. Record: POSITIVE-ACCELERATION-CONVERSION-MULTILINE.
+
+
+### 2026-10-17 — Average velocity equation qualifier
+
+Moved (constant a) outside the main MathML expression in m67034/import-auto-id2086556, matching prose qualifiers elsewhere; a remains inline math. Formula and equation ID preserved. XML parses; pending preview refresh. Record: AVERAGE-VELOCITY-CONSTANT-QUALIFIER.
+
+
+### 2026-10-17 — Simplified motion notation row spacing
+
+Added explicit 0.5em row spacing and equalrows to the three-line table m67034/import-auto-id2563693. Existing CSS fallback applies 0.5em top padding to subsequent rows for native MathML engines. Expressions, alignment, and brace preserved. Pending preview refresh. Record: SIMPLIFIED-MOTION-NOTATION-ROW-SPACING.
+
+
+### 2026-10-17 — Final position result multiline layout
+
+Moved = 480 m to a separate equals-aligned row in m67034/import-auto-id2300752. Mathematical tokens preserved; XML parses. Pending preview refresh. Record: FINAL-POSITION-RESULT-MULTILINE.
+
+
+### 2026-10-17 — Final velocity constant-acceleration qualifiers
+
+Separated (constant a) from the main MathML in m67034/import-auto-id1962571 and import-auto-id2168495 (Equation 1.6.3). Formula subtrees and IDs retained; a remains inline math. XML parses; pending preview refresh. Record: FINAL-VELOCITY-CONSTANT-QUALIFIERS.
+
+
+### 2026-10-17 — Airplane final velocity three-line calculation
+
+Split m67034/import-auto-id2177855 into three equals-aligned rows: formula, numerical substitution, and final result 10.0 m/s. Mathematical tokens preserved; XML parses. Pending preview refresh. Record: AIRPLANE-FINAL-VELOCITY-THREE-LINES.
+
+
+### 2026-10-17 — Final position constant-acceleration qualifier
+
+Separated (constant a) from the main MathML in m67034/import-auto-id1807031 (Equation 1.6.4). Formula and ID retained; a remains inline math. XML parses; pending preview refresh. Record: FINAL-POSITION-CONSTANT-QUALIFIER.
+
+
+### 2026-10-17 — Motion equations list punctuation
+
+Capitalized five sentence-length bullets and added missing periods to six explanatory bullets and the summary sentence ending in the notation table. Calculation fragments and the colon-introduced equation reference list retained. XML parses; pending preview refresh. Record: MOTION-EQUATIONS-LIST-PUNCTUATION.
+
+
+### 2026-10-17 — Velocity squared constant-acceleration qualifier
+
+Separated (constant a) from the main MathML in m67034/import-auto-id1659227 (Equation 1.6.5). Formula and ID retained; a remains inline math. XML parses; pending preview refresh. Record: VELOCITY-SQUARED-CONSTANT-QUALIFIER.
+
+
+### 2026-10-17 — Preview 157 published
+
+Published all pending second-pass fixes in m67033 and m67034: sign spacing, multiline calculations, train graph screen sizing, three-row notation spacing, separate constant-acceleration qualifiers, and list capitalization/punctuation. Course and CNX builds passed (6436 math expressions, no issues); packaged target anchors and CSS checked. Commit fcd513a18ed658dd4e218a4c798d11f2a7708900; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_9325e3fa7aa08191add9fbc0cd53d73b; deployment appgdep_6ad39d98cefc8191ae296514eb492e8c succeeded.
+
+
+### 2026-10-17 — Falling-object position calculation layout
+
+Changed m/s and m/s squared to stacked unit fractions and moved = 8.10 m to a separate equals-aligned row in m68876/import-auto-id2302522. Numeric and unit tokens preserved; XML parses. Pending preview refresh. Record: FALLING-POSITION-STACKED-UNITS-MULTILINE.
+
+
+### 2026-10-17 — Falling-object velocity three-line calculation
+
+Split m68876/import-auto-id1688803 into three equals-aligned rows: formula, substitution, and final result 3.20 m/s. Mathematical tokens preserved; XML parses. Pending preview refresh. Record: FALLING-VELOCITY-THREE-LINES.
+
+
+### 2026-10-17 — Preview 158 published
+
+Published falling-object position stacked-unit fractions and separate final result, plus the three-line velocity calculation. Course and CNX builds passed (6436 math expressions, no issues). Commit 1242d20a36d9601bb918ec3c0eec9303c01bdb3b; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_476628ea0eec8191aa030cad5517045c; deployment appgdep_6ad39f64aa808191935abdc75064bc53 succeeded. Equation widths await maintainer browser review.
+
+
+### 2026-10-17 — Projectile vertical acceleration sign spacing
+
+Marked both minus signs in the vertical acceleration expression in m67038/import-auto-id1696126 as prefix operators with zero internal spacing. Mathematical content and number-unit spacing preserved. XML parses; pending preview refresh. Record: PROJECTILE-VERTICAL-ACCELERATION-SIGNS.
+
+
+### 2026-10-17 — Summary motion notation row spacing
+
+Applied the same rowspacing=0.5em and equalrows=true settings as the section-body equation to m67034/import-auto-id2168257 in the chapter summary. Expressions, brace, and punctuation preserved. XML parses; pending preview refresh. Record: SUMMARY-MOTION-NOTATION-ROW-SPACING.
+
+
+### 2026-10-17 — Bacteria speed parenthetical
+
+Separated the two equivalent speed quantities in m52314/import-auto-id2173366 into independent math expressions, with parentheses in prose. Values and wording preserved. XML parses; pending preview refresh. Record: BACTERIA-SPEED-PARENTHETICAL.
+
+
+### 2026-10-17 — System 1 acceleration single-line calculation
+
+Combined m68330/eip-id1741589 into one equality chain, removing the repeated a and intervening comma. Fractions, values, units, and equation ID preserved. XML parses; pending preview refresh. Record: SYSTEM-ONE-ACCELERATION-SINGLE-LINE.
+
+
+### 2026-10-17 — Preview 159 published
+
+Published projectile acceleration sign spacing, chapter-summary notation row spacing, separated bacteria-speed parenthetical, and single-line System 1 acceleration calculation. Course and CNX builds passed (6437 math expressions, no issues); all four target anchors verified in packaged HTML. Commit cf8a3715560fa6b0011f6ea16d6b615dd36d29db; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_dfebdebf4ef4819183acbc091b5b9c1d; deployment appgdep_6ad3a209d81c81918d3d6001f51a5b29 succeeded.
+
+
+### 2026-10-17 — Elevator example vector notation
+
+Replaced bold-plus-arrow vector notation with bold symbols in m68329/fs-id1165038187326, including caption, prose, and vector equation. The scale reading F_p is now scalar where explicitly defined as a magnitude. Descriptive subscripts remain upright and normal weight. Flattened JPEG retained; arrow-label retouching deferred. XML parses; pending preview refresh. Record: ELEVATOR-EXAMPLE-VECTOR-NOTATION.
+
+
+### 2026-10-17 — Elevator net force equality chain
+
+Replaced nested Content MathML equalities in m68329/fs-id1165037151851 with the direct presentation chain F_net = F_s - w = ma, removing renderer-generated parentheses. Scalar notation, upright descriptive subscripts, and source ID retained. XML parses; pending preview refresh. Record: ELEVATOR-NET-FORCE-EQUALITY-CHAIN.
+
+
+### 2026-10-17 — Elevator weight prose spacing
+
+Changed the concluding comparison to "his weight of 735 N (165 lb)", using nonbreaking number-unit spaces in both quantities. XML parses; pending preview refresh. Record: ELEVATOR-WEIGHT-NUMBER-UNIT-SPACES.
+
+
+### 2026-10-17 — Elevator figure vector labels
+
+Added image-tool-edited PNG with small vector-notation arrows removed. Visually checked force-arrow directions, broken arrows, labels and diagram structure. Original JPEG retained. Source references the new PNG. Supersedes earlier artwork deferral. Pending preview refresh. Record: ELEVATOR-FIGURE-BOLD-VECTORS.
+
+
+### 2026-10-17 — Preview 160 published
+
+Published elevator example vector-notation corrections, edited figure, simplified force equality, and weight prose with nonbreaking spaces. Both builds passed (6437 math expressions, no issues). Commit acb82bc50a29ebc7c1313a76b428295a1b11de17; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_3fc82ddc819c8191aa24eae5697f19e3; deployment appgdep_6ad3a47c547c81918b649b64508928cc succeeded.
+
+
+### 2026-10-17 — Hooke law figure height cap
+
+Figure 2.7.3 (m67044/import-auto-id2404473), source image 875 by 945, has an intended width of 375px. The 380px screen height cap reduced it to about 352px wide. Added a screen-only scoped override for width 375px and no height cap; responsive max-width and print styling retained. Pending preview refresh.
+
+
+### 2026-10-17 — Gravitational force three-line calculation
+
+Split m71410/eip-625 into three equals-aligned rows: formula, substitution, and final result 20.0 N. Mathematical tokens and displaystyle preserved; XML parses. Pending preview refresh. Record: GRAVITATIONAL-FORCE-THREE-LINES.
+
+
+### 2026-10-17 — Preview 161 published
+
+Published Hooke law figure screen height-cap correction and three-line gravitational-force calculation. Both builds passed (6437 math expressions, no issues). Commit 42c4e6a28991eec09b91786fc59fbb1833785d87; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_e2f6df7c02f88191aa174b48a38d345b; deployment appgdep_6ad3a63de5c48191bea6824b76d9938d succeeded.
+
+
+### 2026-10-17 — Gravitational force unit spaces and inline formula
+
+Replaced four empty operators before units with explicit thin spaces and added a thin space before the compound unit of G in m71410/eip-625. First row now uses GmM/r squared with a solidus instead of a stacked fraction. Three-row layout and numerical values retained. XML parses; pending preview refresh. Record: GRAVITATIONAL-FORCE-THIN-SPACES.
+
+
+### 2026-10-17 — Centripetal force figure height cap
+
+Figure 2.10.1 (m67036/import-auto-id1581195) is 554 by 941 pixels; the global 380px height cap limits screen width to about 224px. Added a screen-only width of 350px with no height cap. Responsive max-width and print styling retained. Pending preview refresh.
+
+
+### 2026-10-17 — Negative work parentheses
+
+Removed parentheses from the first inline quantity in m67539/eip-663, now -470 J with prefix minus spacing and a thin number-unit space. The subsequent total-work expression is unchanged. XML parses; pending preview refresh. Record: NEGATIVE-WORK-PARENTHESES.
+
+
+### 2026-10-17 — Numbered compact work-energy theorem
+
+Promoted the bare block MathML in m71411/import-auto-id2069888 to a standalone numbered equation, work-energy-theorem-compact, with standard display margins. Split surrounding prose into paragraphs and retained the original paragraph ID. Removed the stray comma after "as" and placed punctuation after the display. XML parses; pending preview refresh. Record: WORK-ENERGY-COMPACT-NUMBERED-EQUATION.
+
+
+### 2026-10-17 — Preview 162 published
+
+Published gravitational formula thin spaces and solidus, centripetal figure sizing, negative-work parentheses removal, and numbered compact work-energy theorem with display spacing. Both builds passed (6437 math expressions, no issues). Commit b1273eeb207141f0b12db26c3bbb0509ef0f0d69; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_72546525c6b881918563081052b0d133; deployment appgdep_6ad3a8ad1fe081918f98877066c38f5a succeeded.
+
+
+### 2026-10-17 — Work-energy display punctuation
+
+Removed redundant MathML display=block from work-energy-theorem-compact so the equation wrapper controls the display layout and the external comma stays beside the formula. Numbering and display margins retained. Pending preview refresh. Record: WORK-ENERGY-DISPLAY-PUNCTUATION.
+
+
+### 2026-10-17 — Potential energy change two-line expression
+
+Split m71414/eip-306 before = mg(h_f - h_i), keeping that expression and = mg Delta h together on the second equals-aligned row. Mathematical tokens and source ID preserved. XML parses; pending preview refresh. Record: POTENTIAL-ENERGY-CHANGE-TWO-LINES.
+
+
+### 2026-10-17 — Knee force three-line calculation
+
+Split m71414/eip-118 into three equals-aligned rows: formula, substitution, and final result 3.53 times 10^5 N. Mathematical tokens preserved; XML parses. Pending preview refresh. Record: KNEE-FORCE-THREE-LINES.
+
+
+### 2026-10-17 — Final fall speed result line
+
+Moved = 19.8 m/s to its own equals-aligned row in m71414/eip-230. Square roots, mathematical tokens, and ID preserved. XML parses; pending preview refresh. Record: FALL-FINAL-SPEED-TWO-LINES.
+
+
+### 2026-10-17 — Preview 163 published
+
+Published compact work-energy theorem comma fix and gravitational potential-energy layouts: eip-306 two rows, eip-118 three rows, and eip-230 separate final result. Both numbering builds passed (6437 math expressions, no issues). Commit 9059b30ae70b5313002d1e18708e707c2bbf9504; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_9bcddc9b9ac48191989e9886f1b9b8a7; deployment appgdep_6ad3aa2521208191878140fccf8419c1 succeeded.
+
+
+### 2026-10-17 — Potential energy caption parentheses
+
+Moved parentheses around Delta PE_g into caption prose in m71414/import-auto-id1556510. Quantity and remaining caption preserved. XML parses; pending preview refresh. Record: POTENTIAL-ENERGY-CAPTION-PARENTHESES.
+
+
+### 2026-10-17 — Roller coaster speed stacked units
+
+Changed the two unit ratios on the first row of m71414/eip-388 to stacked fractions. The second-row result and all numerical values remain unchanged. XML parses; pending preview refresh. Record: ROLLER-COASTER-SPEED-STACKED-UNITS.
+
+
+### 2026-10-17 — Potential energy abbreviation parentheses
+
+Moved parentheses around PE into prose in m67037/import-auto-id1532141. Abbreviation and surrounding wording preserved. XML parses; pending preview refresh. Record: CONSERVATIVE-FORCES-PE-PARENTHESES.
+
+
+### 2026-10-17 — Mechanical energy grouping spacing
+
+Kept the grouping parentheses around KE + PE in m67037/eip-784 and set their inner and outer MathML operator spacing to zero. Removed redundant imported wrappers; normal spacing around the plus sign is preserved. XML parses; pending preview refresh. Record: MECHANICAL-ENERGY-GROUPING-SPACING.
+
+
+### 2026-10-17 — Power unit equivalence parentheses
+
+Moved the parentheses and sentence period around 1 W = 1 J/s into prose in m71415/import-auto-id2265352. Unit equivalence and existing thin spaces preserved. XML parses; pending preview refresh. Record: POWER-UNIT-EQUIVALENCE-PARENTHESES.
+
+
+### 2026-10-17 — Power calculation stacked units
+
+Changed m/s and m/s squared on the first row of m71415/fs-id1008855 to stacked fractions. Values, remaining rows, and thin spaces preserved. XML parses; pending preview refresh. Record: POWER-CALCULATION-STACKED-UNITS.
+
+
+### 2026-10-17 — Monthly power cost on two lines
+
+Moved the final monthly cost in m71415/eip-110 onto a second equals-aligned row. Mathematical tokens and values preserved. XML parses; pending preview refresh. Record: POWER-COST-TWO-LINES.
+
+
+### 2026-10-17 — Summary work-energy numbered display
+
+Promoted the work-energy theorem in m71411/fs-id2019226 to a display equation, aliasing its number to the original fs-id2771768 and adding a source cross-reference. Formula preserved. Pending preview refresh. Record: SUMMARY-WORK-ENERGY-NUMBERED-DISPLAY.
+
+
+### 2026-10-17 — Summary potential energy parentheses
+
+Moved the parentheses around PE into prose in the second item of m67037/fs-id1337667. Remaining text and gravitational potential-energy expression preserved. XML parses; pending preview refresh. Record: SUMMARY-POTENTIAL-ENERGY-PARENTHESES.
+
+
+### 2026-10-17 — Mechanical energy definition
+
+Corrected m67037 summary definition: mechanical energy is the sum of kinetic and potential energy, without a conservative-force condition. The section body and glossary already state the definition correctly; no prose correction needed there. Pending preview refresh. Record: MECHANICAL-ENERGY-DEFINITION-SUMMARY.
+
+
+### 2026-10-17 — Hooke law summary spacing
+
+Reduced vertical margins around m67045/import-auto-id3385046 to 0.4em and removed the following paragraph top margin. Scoped to this equation; content and number unchanged. Pending preview refresh. Record: HOOKE-SUMMARY-EQUATION-SPACING.
+
+### 2026-10-17 — Preview 164 published
+
+Published all pending parentheses, unit-fraction, calculation layout, work-energy summary numbering/link, mechanical-energy definition, and Hooke summary spacing corrections. Both profiles passed (6437 math expressions, no issues). Commit 75c20c3f48bab256c300b0ad0bdbb40acbfdc94a; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_8aeab18393348191ac20bcbfa4258bec; deployment appgdep_6ad3add9f4c8819189c15f1fbd809323 succeeded. Reloaded the existing work-and-energy review tab; live DOM confirms corrected mechanical-energy definition and 7.2px Hooke equation margins.
+
+
+### 2026-10-17 — Summary work equation reference
+
+Wrapped summary W = Fd in a numbered display, reusing the original fs-id1536731 label and adding a cross-reference to it. Formula preserved. Pending preview refresh. Record: SUMMARY-WORK-NUMBERED-DISPLAY.
+
+
+### 2026-10-17 — Momentum force equality chain
+
+Flattened the nested equality in m71582/eip-844 into one three-term equality, removing renderer-added parentheses. Vectors, fractions, and values preserved. XML parses; pending preview refresh. Record: MOMENTUM-FORCE-EQUALITY-CHAIN.
+
+
+### 2026-10-17 — Elastic collision equation conditions
+
+Separated the F_net = 0 conditions from the main math in m67042/eip-545 and eip-485, with prose parentheses and punctuation. Removed imported spacer runs. Formulas and labels preserved. XML parses; pending preview refresh. Record: ELASTIC-COLLISION-CONDITIONS.
+
+
+### 2026-10-17 — Elastic collision energy description
+
+Moved the two-object elastic-collision description from Equation 4.5.3 into the following sentence (import-auto-id1704032), preserving the formula. Record: ELASTIC-COLLISION-ENERGY-DESCRIPTION.
+
+### 2026-10-17 — Preview 165 published
+
+Published summary W = Fd numbering and original-equation link, momentum equality parentheses removal, separated elastic-collision conditions, and kinetic-energy equation description moved into prose. Both profiles passed (6439 math expressions, no issues). Commit 9bc86cfc273863f91dceeec6be18695913e13773; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_ff2595bf46888191b921528228786cca; deployment appgdep_6ad3afb160308191ba5cead9deaf5492 succeeded. Reloaded existing elastic-collisions tab and verified the new description in live page text.
+
+
+### 2026-10-17 — Elastic collision second velocity layout
+
+Split m67042/eip-560 before the numerical substitution into two equals-aligned rows. Formula, values, and separate final-result equation preserved. XML parses; pending preview refresh. Record: ELASTIC-COLLISION-SECOND-VELOCITY-TWO-LINES.
+
+
+### 2026-10-17 — Elastic collision condition spacing
+
+Added a prose em space before the parenthetical condition in m67042/eip-545 and eip-485, visually separating each condition from the main equation. Math and numbering unchanged. XML parses; pending preview refresh. Record: ELASTIC-COLLISION-CONDITION-SPACING.
+
+
+### 2026-10-17 — Inelastic collision velocity layout
+
+Moved the final result in m67043/eip-777 to a second equals-aligned row. Mathematical tokens and values preserved. XML parses; pending preview refresh. Record: INELASTIC-COLLISION-VELOCITY-TWO-LINES.
+
+
+### 2026-10-17 — Inelastic collision energy layout
+
+Reformatted m67043/eip-440 into three equals-aligned rows: formula, numerical substitution, and final result. Mathematical tokens and values preserved. XML parses; pending preview refresh. Record: INELASTIC-COLLISION-ENERGY-THREE-LINES.
+
+
+### 2026-10-17 — Cart velocity substitution fraction
+
+Combined the second-row terms in m67043/eip-999 over their common 0.50 kg denominator, and stacked all three m/s unit ratios in the numerator. Symbolic row and final result preserved. XML parses; pending preview refresh. Record: INELASTIC-CART-VELOCITY-COMBINED-FRACTION.
+
+
+### 2026-10-17 — Initial collision energy stacked units
+
+Changed both m/s unit ratios in the second row of m67043/eip-530 to stacked fractions. Values, symbolic row, and result preserved. XML parses; pending preview refresh. Record: INELASTIC-INITIAL-ENERGY-STACKED-UNITS.
+
+
+### 2026-10-17 — Final collision energy stacked units
+
+Changed both m/s unit ratios in the second row of m67043/eip-626 to stacked fractions. Values, symbolic row, and result preserved. XML parses; pending preview refresh. Record: INELASTIC-FINAL-ENERGY-STACKED-UNITS.
+
+### 2026-10-17 — Preview 166 published
+
+Published all pending elastic and inelastic collision equation layouts: eip-560 two rows, condition em-space separation, eip-777 two rows, eip-440 three rows, eip-999 common denominator and stacked units, eip-530 and eip-626 stacked units. Both profiles passed (6439 math expressions, no issues). Commit eda344fa3f38ca0631701dee66ce971c73729809; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_e9c88bd5690481918e50f07cb1ff8a1f; deployment appgdep_6ad3b2bc1fdc81919fc65b18f24f82c0 succeeded. Reloaded current inelastic-collisions tab and verified updated second-row fractions in eip-626.
+
+
+### 2026-10-17 — Hertz definition anchor location
+
+Removed the duplicate hertz definition after the questions in m71584 and moved canonical-hertz to the existing explanation in import-auto-id2402363. Existing wording and glossary definition preserved; anchor remains unique. Pending preview refresh. Record: HERTZ-DEFINITION-ANCHOR-LOCATION.
+
+
+### 2026-10-17 — SHM time argument spacing
+
+Replaced the eight imported fenced time arguments in m71585/eip-1 with the compact presentation markup used in the following paragraph. Function names sin and cos remain upright; prose and mathematical meaning preserved. XML parses; pending preview refresh. Record: SHM-TIME-ARGUMENT-SPACING.
+
+
+### 2026-10-17 — Redundant resonate pointer
+
+Removed the trailing definition-pointer sentence in m71586 and relocated its two legacy anchors to the existing sentence defining resonate. Definition and primary resonance anchor preserved. Pending preview refresh. Record: RESONATE-REDUNDANT-DEFINITION-LINK.
+
+
+### 2026-10-17 — Introduction definition reminders
+
+Removed the standalone quantum mechanics and relativity reminders from m52310, preserving inline links and relocating legacy anchors alongside them. Record: INTRO-REDUNDANT-DEFINITION-REMINDERS.
+
+### 2026-10-17 — Preview 167 published
+
+Published hertz duplicate removal and anchor relocation, SHM time-argument spacing, redundant resonate pointer removal, and introduction quantum mechanics/relativity reminder removal. Inline links and legacy anchors preserved. Both profiles passed (6439 math expressions, no issues). Commit ea9706142d5f64295270c4e5ea426c2f633a72f4; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_e27fca9d1d748191a5be4985c3280f67; deployment appgdep_6ad3b518cfc4819184e746e8ef336aa8 succeeded. Reloaded introduction tab and verified no standalone definition reminders remain.
+
+
+### 2026-10-17 — Wavelength adjacent definition link
+
+Removed the redundant wavelength link to the immediately preceding definition in m71587/import-auto-id1375143. Word, legacy ID, and canonical definition anchor preserved. Pending preview refresh. Record: WAVELENGTH-ADJACENT-DEFINITION-LINK.
+
+
+### 2026-10-17 — Term-link direction cleanup
+
+Removed 26 inline same-page/backward term links and 22 standalone definition reminders. Preserved legacy anchors and three forward cross-page term links. Equation, figure, exercise, and section references unchanged. Pending preview refresh. Record: TERM-LINK-DIRECTION-CLEANUP; audit: reports/1.1/term-link-direction-cleanup.md.
+
+
+### 2026-10-17 — Standing-wave figure widths
+
+Matched fundamental and overtone panels to available figure width on screen, preserving aspect ratios. Record: STANDING-WAVE-FIGURE-WIDTHS.
+
+### 2026-10-17 — Preview 168 published
+
+Published standing-wave figure width matching, adjacent wavelength unlinking, and term-link direction cleanup (26 inline links and 22 reminders). Both profiles passed: 6439 math expressions, no issues. Commit 942ed079bf2ecd7ca4af397ea0c528a1ba776a41; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_08b2d0559450819195746e6dfc2a3348; deployment appgdep_6ad3b8b6b2e4819186b36b0514717e30 succeeded. Reloaded standing-waves browser tab; both figures measure 504.8px wide at the current viewport.
+
+
+### 2026-10-17 — SHM summary time-argument spacing
+
+Matched sin(t) and cos(t) in m71585/import-auto-id1860331 to the compact presentation markup already used in the main prose. Pending preview refresh. Record: SHM-SUMMARY-TIME-ARGUMENT-SPACING.
+
+
+### 2026-10-17 — Angular-velocity chained equalities
+
+Flattened nested equalities in m71592/eip-121 and eip-582 to remove unnecessary parentheses. Equation IDs, values, and numbering preserved. Pending preview refresh. Record: ANGULAR-VELOCITY-CHAINED-EQUALITIES.
+
+
+### 2026-10-17 — Short angular-acceleration calculation
+
+Joined m71592/eip-272 into one line, preserving both fractions, values, and punctuation. Pending preview refresh. Record: ANGULAR-ACCELERATION-SHORT-CALCULATION-ONE-LINE.
+
+
+### 2026-10-17 — Angular-acceleration result in two lines
+
+Combined symbolic and numerical substitution rows in m71592/eip-899; final result remains on its own aligned row. Pending preview refresh. Record: ANGULAR-ACCELERATION-RESULT-TWO-LINES.
+
+
+### 2026-10-17 — Stopping-time calculation on one line
+
+Joined m71592/eip-455 into one line. Fraction, signs, units, result, and punctuation preserved; math token sequence checked. Pending preview refresh. Record: ANGULAR-STOPPING-TIME-ONE-LINE.
+
+
+### 2026-10-17 — Tangential-acceleration calculation in two lines
+
+Combined first two rows of m71592/eip-20; final result retains its own aligned row. Math token sequence preserved. Pending preview refresh. Record: TANGENTIAL-ACCELERATION-TWO-LINES.
+
+
+### 2026-10-17 — Motorcycle angular-acceleration calculation in two lines
+
+Combined first two rows of m71592/eip-155; final result retains its own aligned row. Math token sequence preserved. Pending preview refresh. Record: MOTORCYCLE-ANGULAR-ACCELERATION-TWO-LINES.
+
+### 2026-10-17 — Preview 169 published
+
+Published SHM summary time-argument spacing and all pending angular-acceleration equation layouts (eip-121, eip-582, eip-272, eip-899, eip-455, eip-20, eip-155). Both profiles passed: 6439 math expressions, no issues. Commit 16f570db66e4240118630a4230e5a3d32d91008c; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_369c759878e481918085bdc420b957ea; deployment appgdep_6ad3bb09191081918a1364b70b882c6f succeeded. Reloaded angular-acceleration tab and verified requested row counts and no equation-container overflow at the current viewport.
+
+
+### 2026-10-17 — Rotational-inertia figure width
+
+Made m71593/fs-id1655769 fill available figure width on screen, removing the height cap while preserving aspect ratio. Pending preview refresh. Record: ROTATIONAL-INERTIA-FIGURE-FULL-WIDTH.
+
+
+### 2026-10-17 — Angular-velocity conversion in two lines
+
+Moved final result of m67046/eip-583 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: ROTATIONAL-ENERGY-ANGULAR-VELOCITY-TWO-LINES.
+
+
+### 2026-10-17 — Rotor-inertia calculation in two lines
+
+Combined first two rows of m67046/eip-897; final result retains its own aligned row. Math token sequence preserved. Pending preview refresh. Record: ROTOR-INERTIA-TWO-LINES.
+
+
+### 2026-10-17 — Rotor-energy height calculation in two lines
+
+Moved final result of m67046/eip-232 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: ROTOR-ENERGY-HEIGHT-TWO-LINES.
+
+
+### 2026-10-17 — Rolling-cylinder speed in two lines
+
+Moved final result of m67046/eip-191 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: ROLLING-CYLINDER-SPEED-TWO-LINES.
+
+
+### 2026-10-17 — Stacked revolutions per day
+
+Changed the 1 rev/d factor in m71594/eip-195 to a stacked fraction. Values and surrounding calculation preserved. Pending preview refresh. Record: EARTH-ANGULAR-MOMENTUM-STACKED-REV-PER-DAY.
+
+
+### 2026-10-17 — Lazy-Susan angular-momentum typography
+
+Corrected upright rF text to separate italic variables in m71594/eip-911, consolidated decimal tokens, grouped parenthesized factors, and normalized spacing. Values, units, and two-line layout preserved. Pending preview refresh. Record: LAZY-SUSAN-ANGULAR-MOMENTUM-TYPOGRAPHY.
+
+
+### 2026-10-17 — Lazy-Susan angular velocity in two lines
+
+Moved final result of m71594/eip-98 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: LAZY-SUSAN-ANGULAR-VELOCITY-TWO-LINES.
+
+
+### 2026-10-17 — Net-torque zero spacing
+
+Replaced trailing text whitespace with explicit 0.25em math spacing between net and tau in m71594/eip-283. Pending preview refresh. Record: NET-TORQUE-ZERO-SPACING.
+
+
+### 2026-10-17 — Separate angular-momentum conservation conditions
+
+Moved net torque zero conditions into separate math expressions with prose parentheses and an em space after the main formula in m71594/eip-10 and eip-67. Added explicit net/tau spacing. IDs, numbers, and punctuation preserved. Pending preview refresh. Record: ANGULAR-MOMENTUM-CONSERVATION-CONDITIONS.
+
+### 2026-10-17 — Preview 170 published
+
+Published all pending rotational-inertia figure sizing, rotational-energy equation layouts, and angular-momentum typography, line breaks, unit fractions, and separated conditions. Both profiles passed: 6441 math expressions, no issues. Commit 66acf2542df4d6ede66af750da20bf1645e904d4; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_5e4d316c5404819180fbf6c75ebd08c9; deployment appgdep_6ad3bd8afb948191b351895472a67c27 succeeded. Reloaded angular-momentum section and verified changed equation structure and no equation-container overflow at the current viewport.
+
+
+### 2026-10-17 — Rotation exercise emphasis
+
+Changed bold emphasis to italics for the same rotation axis in rotation Exercise 8, preserving the wording. Pending preview refresh. Record: ROTATION-EXERCISE-AXIS-EMPHASIS.
+
+
+### 2026-10-17 — Reservoir volume in three lines
+
+Moved final result of m71613/eip-289 onto a third aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: RESERVOIR-VOLUME-THREE-LINES.
+
+
+### 2026-10-17 — Atmospheric-pressure definition layout
+
+Led m71623/eip-820 with P_atm = 1 atmosphere (atm), with both SI equivalents on the second aligned row. Values, units, and equation ID preserved. Pending preview refresh. Record: ATMOSPHERIC-PRESSURE-DEFINITION-TWO-LINES.
+
+
+### 2026-10-17 — Water-pressure depth in two lines
+
+Moved final result of m71623/eip-169 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: WATER-PRESSURE-DEPTH-TWO-LINES.
+
+### 2026-10-17 — Preview 171 published
+
+Published rotation Exercise 8 italic emphasis, reservoir-volume three-line layout, atmospheric-pressure definition reordering and two-line layout, and water-pressure depth two-line layout. Both profiles passed: 6441 math expressions, no issues. Commit 2891cc725b413f4d263d8be33d7d423af7fd9b18; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_647cd1c9652081919308070c3b75452f; deployment appgdep_6ad3c00dcb6c8191a1ad8d00cd41506f succeeded. Reloaded fluid-pressure section and verified both edited equations have two rows without equation-container overflow at the current viewport.
+
+
+### 2026-10-17 — Steel volume in two lines
+
+Moved final result of m71624/eip-29 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: STEEL-VOLUME-TWO-LINES.
+
+
+### 2026-10-17 — Displaced-water mass in three lines
+
+Separated symbolic expression, substitution, and final result in m71624/eip-383 into three aligned rows. Values, units, and math token sequence preserved. Pending preview refresh. Record: DISPLACED-WATER-MASS-THREE-LINES.
+
+
+### 2026-10-17 — Steel buoyant force in three lines
+
+Separated symbolic equalities, numerical substitution, and final result in m71624/eip-164 into three aligned rows. Values, units, and math token sequence preserved. Pending preview refresh. Record: STEEL-BUOYANT-FORCE-THREE-LINES.
+
+
+### 2026-10-17 — Boat displaced-water mass in three lines
+
+Separated symbolic expression, substitution, and final result in m71624/eip-902 into three aligned rows. Values, units, and math token sequence preserved. Pending preview refresh. Record: BOAT-DISPLACED-WATER-MASS-THREE-LINES.
+
+
+### 2026-10-17 — Maximum boat buoyant force in three lines
+
+Separated symbolic equalities, numerical substitution, and final result in m71624/eip-606 into three aligned rows. Values, units, and math token sequence preserved. Pending preview refresh. Record: BOAT-MAXIMUM-BUOYANT-FORCE-THREE-LINES.
+
+
+### 2026-10-17 — Aorta flow speed in two lines
+
+Moved final result of m71625/fs-id3104729 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: AORTA-FLOW-SPEED-TWO-LINES.
+
+
+### 2026-10-17 — Capillary count in two lines
+
+Moved final result of m71625/fs-id3175565 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: CAPILLARY-COUNT-TWO-LINES.
+
+### 2026-10-17 — Preview 172 published
+
+Published all pending Archimedes-principle layouts (eip-29, eip-383, eip-164, eip-902, eip-606) and flow-rate result line breaks (fs-id3104729, fs-id3175565). Both profiles passed: 6441 math expressions, no issues. Commit b34f2ab8d1b150e54acdca3a928c2993146bb8f6; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_ab3ba6da0af4819194d72b8f9d6b82ee; deployment appgdep_6ad3c21a1868819192eb2f4b367bbc96 succeeded. Reloaded flow-rate section: both revised calculations have two rows and no scrolling; math widths 294.2px and 315.2px within 437px available.
+
+
+### 2026-10-17 — Temperature-range figure size
+
+Set m52364/import-auto-id1961424 to 350px wide on screen with no height cap, retaining responsive max-width and aspect ratio. Source is 490 by 1483 pixels. Pending preview refresh. Record: TEMPERATURE-RANGE-FIGURE-SIZE.
+
+
+### 2026-10-17 — Ideal-gas final pressure in two lines
+
+Moved final result of m67122/import-auto-id2677638 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: IDEAL-GAS-FINAL-PRESSURE-TWO-LINES.
+
+
+### 2026-10-17 — Ideal-gas molecule count in two lines
+
+Moved final result of m67122/import-auto-id2887530 onto its own aligned row. Values, units, and math token sequence preserved. Pending preview refresh. Record: IDEAL-GAS-MOLECULE-COUNT-TWO-LINES.
+
+
+### 2026-10-17 — Inline volume-conversion spacing
+
+Replaced operator-tagged units with upright unit text and standard equals-sign spacing in both conversions in m67122/import-auto-id3224684. Values preserved. Record: IDEAL-GAS-INLINE-VOLUME-CONVERSION-SPACING.
+
+### 2026-10-17 — Preview 173 published
+
+Published temperature-range figure sizing, both ideal-gas final-result line breaks, and inline volume-conversion spacing fixes. Both profiles passed: 6441 math expressions, no issues. Commit 72c258769e6be361d19a64978e25240bc3f71ae7; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_0d26ff6a83288191bf15be4eb093c581; deployment appgdep_6ad3c45c501c81918fff20fa1918f79e succeeded. Reloaded ideal-gas section; verified correct unit markup in conversions and two-row calculations without horizontal scrolling.
+
+
+### 2026-10-17 — Total transferred heat in two lines
+
+Moved final result of m67622/eip-229 onto its own aligned row. Displayed values, units, and math token sequence preserved; obsolete source annotation removed. Pending preview refresh. Record: TOTAL-TRANSFERRED-HEAT-TWO-LINES.
+
+
+### 2026-10-17 — Calorimetry stacked specific-heat units
+
+Changed all four J/(kg dot degrees C) units in the first row of m67622/eip-274 to stacked fractions, in both numerator and denominator. Numerical values and remaining rows preserved. Pending preview refresh. Record: CALORIMETRY-FINAL-TEMPERATURE-STACKED-UNITS.
+
+### 2026-10-17 — Preview 174 published
+
+Published the total-heat final-result line break and four stacked specific-heat unit fractions in the calorimetry substitution. Both profiles passed: 6441 math expressions, no issues. Commit 624332e01dbb96bdfdf3f729494874ba4c500843; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_e71cd3f5672c8191adcf57657ad8b00f; deployment appgdep_6ad3c5cb6da4819182236938283b409d succeeded. Reloaded heat-capacity section; verified total heat uses two rows without scrolling and calorimetry has four stacked unit fractions. The long calorimetry substitution still requires horizontal scrolling at the current narrow viewport.
+
+
+### 2026-10-17 — Soda numerator term in three lines
+
+Added the descriptive label Soda term to m67124/eip-96, with symbolic expression, numerical substitution, and result on separate aligned rows. Avoids reusing Q_soda, which denotes a different quantity in this example. Values and units preserved. Pending preview refresh. Record: SODA-NUMERATOR-TERM-THREE-LINES.
+
+### 2026-10-17 — Ice latent-heat result in two lines
+
+Moved the final 6012 J result in m67124/eip-291 to a second aligned row. Displayed tokens preserved; obsolete annotation removed. Pending preview refresh. Record: ICE-LATENT-HEAT-RESULT-TWO-LINES.
+
+### 2026-10-17 — Mixture denominator in three lines
+
+Added the label Denominator to m67124/eip-649 and separated the symbolic expression, substitution, and 1122 J/degree C result into three aligned rows. Values and units preserved. Pending preview refresh. Record: MIXTURE-DENOMINATOR-THREE-LINES.
+
+### 2026-10-17 — Preview 175 published
+
+Published the Soda term and Denominator three-line layouts and ice latent-heat two-line result. Both profiles passed: 6441 math expressions, no issues. Commit ac2c585b181b9053561f21ddd7f07f28c443495e; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_f9fbf5d09b4c8191993f97653bab7fae; deployment appgdep_6ad3c820972481919dea7525fb62ee67 succeeded. Reloaded phase-change section and verified row counts 3, 2, 3. Soda term and ice calculation fit; denominator still requires horizontal scrolling at the current narrow viewport.
+
+
+### 2026-10-17 — Short denominator label
+
+Abbreviated the m67124/eip-649 label to denom, preserving the three-line calculation. Pending preview refresh. Record: MIXTURE-DENOMINATOR-SHORT-LABEL.
+
+### 2026-10-17 — Piston-cycle figure sizing
+
+Set Figure 8.9.3 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 516 by 1250 px. Pending preview refresh. Record: HEAT-ENGINE-PISTON-FIGURE-SIZE.
+
+### 2026-10-17 — Thermodynamic-process plots sizing
+
+Set Figure 8.9.5 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 625 by 1127 px. Pending preview refresh. Record: THERMODYNAMIC-PROCESS-PLOTS-FIGURE-SIZE.
+
+### 2026-10-17 — Inline latent-heat summary
+
+Moved Q = mL inline in the phase-change summary bullet, removing the introductory colon and retaining both source anchors. Record: LATENT-HEAT-SUMMARY-INLINE.
+
+### 2026-10-17 — Preview 176 published
+
+Published the inline latent-heat summary, shortened denom label, and Figure 8.9.3/8.9.5 sizing. Both profiles passed: 6441 math expressions, no issues. Commit 604daee1deaebbc3ad736444597cef0fd94c857d; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_2d9e5a08ed308191a63ca89781eccc97; deployment appgdep_6ad3ca6626408191a88205a32da96917 succeeded. Reloaded thermal-physics review; verified the latent-heat bullet is one continuous sentence with inline math and no equation block.
+
+
+### 2026-10-17 — Van de Graaff figure sizing
+
+Set Figure 9.7.8 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 361 by 634 px. Pending preview refresh. Record: VAN-DE-GRAAFF-FIGURE-SIZE.
+
+### 2026-10-17 — Simple circuit figure sizing
+
+Set Figure 9.8.2 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 574 by 959 px. Pending preview refresh. Record: SIMPLE-CIRCUIT-FIGURE-SIZE.
+
+### 2026-10-17 — Electron-symbol parentheses
+
+Moved the parentheses around the electron symbol into prose in m67130/import-auto-id2052846. Also corrected the adjacent sentence spacing before Since. Pending preview refresh. Record: ELECTRON-SYMBOL-PROSE-PARENTHESES.
+
+### 2026-10-17 — Series resistance row spacing
+
+Added the standard 0.5em row spacing to m42356/eip-138. Existing unit spacing and content preserved. Pending preview refresh. Record: SERIES-RESISTANCE-ROW-SPACING.
+
+### 2026-10-17 — Series voltage sum in two lines
+
+Moved the final 12.0 V result in m42356/eip-359 to its own aligned row. All displayed tokens preserved. Pending preview refresh. Record: SERIES-VOLTAGE-SUM-TWO-LINES.
+
+### 2026-10-17 — Series power sum in two lines
+
+Moved the final 7.20 W result in m42356/eip-698 to its own aligned row. Displayed tokens preserved. Pending preview refresh. Record: SERIES-POWER-SUM-TWO-LINES.
+
+### 2026-10-17 — Parallel circuits figure width
+
+Set Figure 9.11.3 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 1000 by 1002 px. Pending preview refresh. Record: PARALLEL-CIRCUITS-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Parallel power sum in two lines
+
+Moved the final 179 W result in m42356/eip-286 to its own aligned row. All displayed tokens preserved. Pending preview refresh. Record: PARALLEL-POWER-SUM-TWO-LINES.
+
+### 2026-10-17 — Scalar electric-field magnitude in summary
+
+Changed E to a scalar math variable in m52385/eip-915 and its introductory prose, which now reads The magnitude E of the electric field. Preserved vector E in the subsequent vector-addition statement and preceding vector definition. Pending preview refresh. Record: ELECTRIC-FIELD-SUMMARY-SCALAR-MAGNITUDE.
+
+### 2026-10-17 — Magnetic recording figure width
+
+Set Figure 10.3.6 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 1001 by 1319 px. Pending preview refresh. Record: MAGNETIC-RECORDING-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Magnetic-force display spacing
+
+Wrapped the four standalone display expressions in m52414/eip-673 in standard unnumbered equation blocks to provide consistent vertical margins. Existing prose, math, and anchors preserved. Pending preview refresh. Record: MAGNETIC-FORCE-DISPLAY-SPACING.
+
+### 2026-10-17 — Preview 177 published
+
+Published pending electrostatics/current figure sizing and electron-symbol punctuation, series/parallel equation spacing and final-result line breaks, parallel-circuit figure sizing, scalar electric-field magnitude notation, magnetic-recording figure sizing, and magnetic-force display spacing. Both profiles passed: 6441 math expressions, no issues. Commit 689af9f78b4781e90f958f1bc6d5e3a361039ed6; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_fe18ff7c68388191a1c98c11e998756d; deployment appgdep_6ad3cf0cbf508191a008957e9f12f283 succeeded. Reloaded the magnetic-force section and verified all four expressions have 18px top and bottom margins.
+
+
+### 2026-10-17 — Straight-wire field diagram sizing
+
+Set Figure 10.8.1 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 624 by 1048 px. Pending preview refresh. Record: STRAIGHT-WIRE-RIGHT-HAND-RULE-FIGURE-SIZE.
+
+### 2026-10-17 — Redundant Maxwell forward reminder
+
+Removed the standalone definition reminder at the bottom of m52420. Preserved its legacy anchors and the existing forward section link in the prose. Pending preview refresh. Record: MAXWELL-REDUNDANT-FORWARD-REMINDER.
+
+### 2026-10-17 — Transformer secondary turns in two lines
+
+Combined the symbolic and substitution rows of m52427/eip-757, retaining the final result on the second aligned row. Displayed tokens preserved. Pending preview refresh. Record: TRANSFORMER-SECONDARY-TURNS-TWO-LINES.
+
+### 2026-10-17 — Transformer secondary current in two lines
+
+Combined the symbolic and substitution rows of m52427/eip-361, retaining 12.0 mA on the second aligned row. Displayed tokens preserved. Pending preview refresh. Record: TRANSFORMER-SECONDARY-CURRENT-TWO-LINES.
+
+### 2026-10-17 — Step-down transformer turns in two lines
+
+Combined the symbolic and substitution rows of m52427/eip-63, retaining 25 on the second aligned row. Displayed tokens preserved. Pending preview refresh. Record: STEP-DOWN-TRANSFORMER-TURNS-TWO-LINES.
+
+### 2026-10-17 — Step-down transformer current in two lines
+
+Combined the symbolic and substitution rows of m52427/eip-981, retaining 2.00 A on the second aligned row. Displayed tokens preserved. Pending preview refresh. Record: STEP-DOWN-TRANSFORMER-CURRENT-TWO-LINES.
+
+### 2026-10-17 — Inline magnetic-force summary
+
+Made F = qvB inline in the first summary bullet of m52414. The matching formula in the section is unnumbered. Added sentence punctuation outside math. Pending preview refresh. Record: MAGNETIC-FORCE-SUMMARY-INLINE.
+
+### 2026-10-17 — Preview 178 published
+
+Published the straight-wire/right-hand-rule figure sizing, redundant Maxwell reminder removal, four transformer calculations with combined first rows, and inline magnetic-force summary. Both profiles passed: 6441 math expressions, no issues. Commit d6d2a575957d9af62e17dd9b1e55864453cca7bb; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_8259b15f979081918504aae228a8430b; deployment appgdep_6ad3d195d078819181a8bd50ce8d1e9b succeeded. Reloaded magnetism review and verified the maximum-force summary formula renders inline.
+
+
+### 2026-10-17 — Michelson rotating-mirror figure width
+
+Set Figure 11.7.2 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 1000 by 1078 px. Pending preview refresh. Record: MICHELSON-ROTATING-MIRROR-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Rainbow formation figure sizing
+
+Set Figure 11.8.5 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 530 by 1250 px. Pending preview refresh. Record: RAINBOW-FORMATION-FIGURE-SIZE.
+
+### 2026-10-17 — Thin-lens ray-tracing figure sizing
+
+Set Figure 11.9.7 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 664 by 1450 px. Pending preview refresh. Record: THIN-LENS-RAY-TRACING-FIGURE-SIZE.
+
+### 2026-10-17 — Converging-lens virtual-image figure sizing
+
+Set Figure 11.9.11 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 1019 by 1600 px. Pending preview refresh. Record: CONVERGING-LENS-VIRTUAL-IMAGE-FIGURE-SIZE.
+
+### 2026-10-17 — Diverging-lens ray-tracing figure sizing
+
+Set Figure 11.9.13 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 1000 by 1208 px. Pending preview refresh. Record: DIVERGING-LENS-RAY-TRACING-FIGURE-SIZE.
+
+### 2026-10-17 — Concave mirror area in three lines
+
+Separated m67135/eip-48 into formula, numerical substitution, and final result on three aligned rows. Displayed tokens preserved. Pending preview refresh. Record: CONCAVE-MIRROR-AREA-THREE-LINES.
+
+### 2026-10-17 — Stacked mineral-oil density unit
+
+Changed kg/m^3 to a stacked fraction in m67135/eip-677. Numerical values and equation layout preserved. Pending preview refresh. Record: MINERAL-OIL-DENSITY-STACKED-UNIT.
+
+### 2026-10-17 — Magnifying mirror figure width
+
+Set Figure 11.10.6 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 919 by 1250 px. Pending preview refresh. Record: MAGNIFYING-MIRROR-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Convex mirror figure width
+
+Set Figure 11.10.7 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 759 by 1250 px. Pending preview refresh. Record: CONVEX-MIRROR-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Preview 179 published
+
+Published seven optics figure sizing corrections, three-line mirror area calculation, and stacked mineral-oil density units. Both profiles passed: 6441 math expressions, no issues. Commit 331ce920089e00f3c352497fed25ac8bec37b5ba; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_bbfc6abe73508191925b9d741605ea34; deployment appgdep_6ad3d45d1ea08191b5a5a52bb194ec6c succeeded. Reloaded mirror section; both changed calculations have three rows and no horizontal scrolling at the current viewport.
+
+
+### 2026-10-17 — Photoelectric potential-energy parentheses
+
+Replaced nested content MathML in m67251/import-auto-id1488065 with explicit presentation markup for Delta PE = (-e)(-3.00 V) = 3.00 eV. Removed redundant inner and result parentheses; preserved signs and values. Pending preview refresh. Record: PHOTOELECTRIC-POTENTIAL-ENERGY-PARENTHESES.
+
+### 2026-10-17 — Lorentz factor in two paired lines
+
+Combined rows 1 and 2, and rows 3 and 4, of m42531/eip-216. Added standard row spacing; displayed tokens preserved. Pending preview refresh. Record: LORENTZ-FACTOR-PAIRED-LINES.
+
+### 2026-10-17 — Length contraction in two lines
+
+Combined the symbolic and substitution rows of m42535/eip-535, retaining 0.1433 ly on the second aligned row. Displayed tokens preserved; obsolete layout annotation removed. Pending preview refresh. Record: LENGTH-CONTRACTION-TWO-LINES.
+
+### 2026-10-17 — Photomultiplier figure sizing
+
+Set Figure 14.3.3 to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 550 by 764 px. Pending preview refresh. Record: PHOTOMULTIPLIER-FIGURE-SIZE.
+
+### 2026-10-17 — Nuclide chart figure width
+
+Set Figure 14.4.3 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 575 by 773 px. Pending preview refresh. Record: NUCLIDE-CHART-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Uranium decay-series figure width
+
+Set Figure 14.5.1 to fill the available figure width on screen and removed the height cap. Aspect ratio preserved. Source is 550 by 809 px. Pending preview refresh. Record: URANIUM-DECAY-SERIES-FIGURE-FULL-WIDTH.
+
+### 2026-10-17 — Figure 14.11.5 display sizing
+
+Set the existing figure to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 450 by 785 px. Pending preview refresh. Record: FIGURE-14-11-5-DISPLAY-SIZE.
+
+### 2026-10-17 — Figure 14.11.6 display sizing
+
+Set the existing chart to 350 px wide on screen, with no height cap and the existing responsive max-width constraint. Source is 438 by 1250 px. Pending preview refresh. Record: FIGURE-14-11-6-DISPLAY-SIZE.
+
+### 2026-10-17 — Preview 180 published for widescreen review
+
+Published the photoelectric parentheses cleanup, Lorentz-factor and length-contraction line combinations, and five nuclear-physics figure sizing adjustments. Both profiles passed: 6441 math expressions, no issues. Commit 60e9189452d4d25e317972bcadede62de7e6048f; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_8a53bc3d80e0819195b41eb082433bda; deployment appgdep_6ad3d8126d4c8191982dfbd21fb2336d succeeded. Reloaded the user's Chapter 14 review tab for their third, widescreen layout pass.
+
+
+### 2026-10-17 — Falling-objects widescreen figure cap
+
+Limited Figure 1.7.1 to 450 px wide on screen, shrinking to fit narrower containers, to bring embedded labels closer to caption text size. Aspect ratio preserved. Pending preview refresh. Record: FALLING-OBJECTS-FIGURE-WIDESCREEN-CAP.
+
+### 2026-10-17 — Falling-rock graph sizing
+
+Set Figure 1.7.3 to 400 px wide on screen with no height cap, shrinking to fit narrower containers, to bring graph labels closer to caption size. Source is 640 by 1233 px. Pending preview refresh. Record: FALLING-ROCK-GRAPHS-DISPLAY-SIZE.
+
+### 2026-10-17 — Falling-rock comparison sizing
+
+Set Figure 1.7.5 to 600 px wide on screen with no height cap, shrinking to fit narrower containers, to bring the small labels closer to caption size. Source is 946 by 1248 px. Pending preview refresh. Record: FALLING-ROCK-COMPARISON-DISPLAY-SIZE.
+
+### 2026-10-17 — Falling-ball graph and table sizing
+
+Set Figure 1.7.6 to 650 px wide on screen with no height cap, shrinking to fit narrower containers, to bring graph and table labels closer to caption size. Source is 1196 by 1437 px. Pending preview refresh. Record: FALLING-BALL-GRAPHS-DISPLAY-SIZE.
+
+### 2026-10-17 — Preview 181 published
+
+Published the four falling-objects figure adjustments for widescreen review. Both profiles passed: 6441 math expressions, no issues. Commit 0e2c4c5d51d9b4e4a5d6a47b3ae45c2d1257937a; version appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_576dca124f9081919d74a06bf757614b; deployment appgdep_6ad3da225714819191ba0f00542bf875 succeeded. Reloaded falling-objects section and verified image widths of 450, 400, 600, and 650 px.
+
+
+### 2026-10-17 — Projectile components figure sizing
+
+Set Figure 1.8.1 to 550 px wide on screen with no height cap, shrinking to fit narrower containers, to bring vector labels closer to caption size. Source is 937 by 1383 px. Pending preview refresh. Record: PROJECTILE-COMPONENTS-FIGURE-DISPLAY-SIZE.
+
+### 2026-10-17 — Newton second-law figure display size
+
+- Figure 2.4.1: enlarge the wagon and free-body diagrams to a 650 px screen width cap, constrained to the available width, with automatic height and no height cap. This brings the force labels closer to caption size.
+- Correction record: `NEWTON-SECOND-LAW-WAGON-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Rocket-sled figure display size
+
+- Figure 2.4.4: enlarge the rocket-sled and free-body diagram to a 550 px screen width cap, constrained to the available width, with automatic height and no height cap, bringing force labels closer to caption size.
+- Correction record: `ROCKET-SLED-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Normal-force comparison figure display size
+
+- Figure 2.6.1: enlarge the normal-force comparison and free-body diagrams to a 500 px screen width cap, constrained to available width, with automatic height and no height cap. This brings the force labels closer to caption size.
+- Correction record: `NORMAL-FORCE-COMPARISON-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Friction surface figure widescreen cap
+
+- Figure 2.8.1: reduce the surface-friction illustration to a 450 px screen width cap, constrained to available width and preserving its aspect ratio, so the embedded text is closer to caption size.
+- Correction record: `FRICTION-SURFACE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Friction contact-area figure widescreen cap
+
+- Figure 2.8.3: reduce the small/large normal-force comparison to a 325 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FRICTION-CONTACT-AREA-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Earth radius figure widescreen cap
+
+- Figure 2.9.3: reduce the Earth-radius illustration to a 375 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `EARTH-RADIUS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Lunar tides figure widescreen cap
+
+- Figure 2.9.4: reduce the lunar-tide illustration to a 425 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `LUNAR-TIDES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Impulse force-time graph widescreen cap
+
+- Figure 4.3.1: reduce the force-time graph to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `IMPULSE-FORCE-TIME-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Spring recording figure widescreen cap
+
+- Figure 5.3.3: reduce the spring and moving-paper illustration to a 180 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SPRING-RECORDING-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Harmonic-motion graphs figure display size
+
+- Figure 5.3.4: enlarge the spring-motion and position/velocity/acceleration graphs to a 400 px screen width cap, constrained to available width, with automatic height and no height cap. This brings the small labels closer to caption size.
+- Correction record: `HARMONIC-MOTION-GRAPHS-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Transverse-wave figure widescreen cap
+
+- Figure 5.5.3: reduce the transverse-wave illustration to a 425 px screen width cap, constrained to available width and preserving its aspect ratio, so the amplitude label is closer to caption size.
+- Correction record: `TRANSVERSE-WAVE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Longitudinal-wave figure widescreen cap
+
+- Figure 5.5.4: reduce the longitudinal-wave illustration to a 425 px screen width cap, matching Figure 5.5.3 above it. Constrain to available width and preserve its aspect ratio, bringing embedded labels closer to caption size.
+- Correction record: `LONGITUDINAL-WAVE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Fundamental standing-wave figure widescreen cap
+
+- Figure 5.6.6: replace its full-width screen presentation with a 350 px width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FUNDAMENTAL-STANDING-WAVE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Standing-wave overtone figure width match
+
+- Figure 5.6.7: set a 350 px screen width cap to match Figure 5.6.6 above it, constrained to available width and preserving its aspect ratio.
+- Correction record: `STANDING-WAVE-OVERTONES-FIGURE-WIDTH-MATCH`.
+- Pending preview refresh.
+
+### 2026-10-17 — Sound compression figure widescreen cap
+
+- Figure 5.7.2: reduce the vibrating-string compression illustration to a 200 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SOUND-COMPRESSION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Leftward vibrating-string figure width match
+
+- Figure 5.7.3: set a 200 px screen width cap to match resized Figure 5.7.2 above it, constrained to available width and preserving its aspect ratio.
+- Correction record: `SOUND-LEFTWARD-STRING-FIGURE-WIDTH-MATCH`.
+- Pending preview refresh.
+
+### 2026-10-17 — Speaker frequency figure widescreen cap
+
+- Figure 5.8.4: reduce the speaker frequency/wavelength illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SPEAKER-FREQUENCY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Stationary sound-source figure widescreen cap
+
+- Figure 5.9.1: reduce the stationary sound-source illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so observer labels are closer to caption size.
+- Correction record: `STATIONARY-SOUND-SOURCE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Moving sound-source figure widescreen cap
+
+- Figure 5.9.2: reduce the moving sound-source illustration to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so wavefront and observer labels are closer to caption size.
+- Correction record: `MOVING-SOUND-SOURCE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Moving sound-observers figure widescreen cap
+
+- Figure 5.9.3: reduce the moving-observers illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so observer labels are closer to caption size.
+- Correction record: `MOVING-SOUND-OBSERVERS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Sonic-boom wavefront figure widescreen cap
+
+- Figure 5.9.4: reduce the sonic-boom wavefront illustration to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SONIC-BOOM-WAVEFRONTS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Circular acceleration components figure widescreen cap
+
+- Figure 6.2.3: reduce the centripetal/tangential acceleration diagram to a 200 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CIRCULAR-ACCELERATION-COMPONENTS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Bike-wheel acceleration figure widescreen cap
+
+- Figure 6.3.1: reduce the bike-wheel angular-acceleration illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BIKE-WHEEL-ACCELERATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Rotating mass tabletop figure widescreen cap
+
+- Figure 6.3.2: reduce the rotating-mass tabletop illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ROTATING-MASS-TABLETOP-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Angular-momentum right-hand-rule figure widescreen cap
+
+- Figure 6.6.1: reduce the angular-momentum right-hand-rule illustration to a 375 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ANGULAR-MOMENTUM-RIGHT-HAND-RULE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Torque direction figure widescreen cap
+
+- Figure 6.6.2: reduce the torque-direction and merry-go-round illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `TORQUE-DIRECTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Pressure contact-area figure widescreen cap
+
+- Figure 7.4.1: reduce the pressure/contact-area comparison to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `PRESSURE-CONTACT-AREA-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Atmospheric air-column figure widescreen cap
+
+- Figure 7.5.3: reduce the atmospheric air-column illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ATMOSPHERIC-AIR-COLUMN-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Hydrometer figure widescreen cap
+
+- Figure 7.6.5: reduce the hydrometer illustration to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so scale numerals are closer to caption size.
+- Correction record: `HYDROMETER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Flow-rate figure widescreen cap
+
+- Figure 7.7.1: reduce the flow-rate illustration to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels and equations are closer to caption size.
+- Correction record: `FLOW-RATE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Narrowing-tube continuity figure widescreen cap
+
+- Figure 7.7.2: reduce the narrowing-tube continuity illustration to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `NARROWING-TUBE-CONTINUITY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Vehicle airflow figure widescreen cap
+
+- Figure 7.8.1: reduce the vehicle-airflow illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so pressure and speed labels are closer to caption size.
+- Correction record: `VEHICLE-AIRFLOW-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Entrainment devices figure widescreen cap
+
+- Figure 7.8.2: reduce the entrainment-device illustration to a 625 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ENTRAINMENT-DEVICES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Levee and sandbags figure widescreen cap
+
+- Figure 7.E.1: reduce the levee and sandbags illustration to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `LEVEE-SANDBAGS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Venturi constriction figure widescreen cap
+
+- Figure 7.E.3: reduce the Venturi constriction illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `VENTURI-CONSTRICTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — First-law energy-transfer figure widescreen cap
+
+- Figure 8.8.2: reduce the energy-transfer illustration to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FIRST-LAW-ENERGY-TRANSFER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Entropy paths figure widescreen cap
+
+- Figure 8.13.2: reduce the reversible/irreversible entropy-path illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ENTROPY-PATHS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Melting entropy figure widescreen cap
+
+- Figure 8.13.4: reduce the ice-to-water entropy illustration to a 375 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MELTING-ENTROPY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Amber and cloth charge-separation figure widescreen cap
+
+- Figure 9.2.6: reduce the amber-and-cloth charge-separation illustration to a 600 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `AMBER-CLOTH-CHARGE-SEPARATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Pair creation and annihilation figure display size
+
+- Figure 9.2.7: enlarge the pair-creation/annihilation illustration to a 325 px screen width cap, constrained to available width, with automatic height and no height cap, so embedded labels are closer to caption size.
+- Correction record: `PAIR-CREATION-ANNIHILATION-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Coulomb force-pairs figure widescreen cap
+
+- Figure 9.3.2: reduce the like/unlike charge-force illustration to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `COULOMB-FORCE-PAIRS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Test-charge forces figure widescreen cap
+
+- Figure 9.4.1: reduce the test-charge force illustration to a 175 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `TEST-CHARGE-FORCES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Electric-field representations figure widescreen cap
+
+- Figure 9.5.1: reduce the electric-field representations illustration to a 450 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ELECTRIC-FIELD-REPRESENTATIONS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Two-positive-charge field figure widescreen cap
+
+- Figure 9.5.3: reduce the two-positive-charge field illustration to a 200 px screen width cap, constrained to available width and preserving its aspect ratio, so field-vector labels are closer to caption size.
+- Correction record: `TWO-POSITIVE-CHARGES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Negative and opposite charge fields figure display size
+
+- Figure 9.5.4: enlarge the negative/opposite-charge field illustration to a 400 px screen width cap, constrained to available width, with automatic height and no height cap, so charge and panel labels are closer to caption size.
+- Correction record: `NEGATIVE-OPPOSITE-CHARGE-FIELDS-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Potential-energy analogy figure widescreen cap
+
+- Figure 9.6.1: reduce the electric/gravitational potential-energy illustration to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `POTENTIAL-ENERGY-ANALOGY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Battery and headlight figure widescreen cap
+
+- Figure 9.6.2: reduce the battery-and-headlight illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BATTERY-HEADLIGHT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Polarized spherical conductor figure widescreen cap
+
+- Figure 9.7.2: reduce the polarized spherical-conductor illustration to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so charge symbols are closer to caption size.
+- Correction record: `POLARIZED-SPHERICAL-CONDUCTOR-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Parallel charged plates figure widescreen cap
+
+- Figure 9.7.4: reduce the parallel-plate field illustration to a 450 px screen width cap, constrained to available width and preserving its aspect ratio, so charge symbols are closer to caption size.
+- Correction record: `PARALLEL-CHARGED-PLATES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Uneven conductor surfaces figure widescreen cap
+
+- Figure 9.7.5: reduce the uneven-conductor surface illustration to a 650 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `UNEVEN-CONDUCTOR-SURFACES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Lightning rod and Van de Graaff photos widescreen cap
+
+- Figure 9.7.7: reduce the photo pair to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so panel labels are closer to caption size.
+- Correction record: `LIGHTNING-ROD-VAN-DE-GRAAFF-PHOTOS-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Van de Graaff figure widescreen cap
+
+- Figure 9.7.8: reduce the existing 350 px screen width to 250 px, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size. Retain removal of the height cap.
+- Correction record: `VAN-DE-GRAAFF-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Xerography stages figure widescreen cap
+
+- Figure 9.7.9: reduce the xerography-stage illustration to a 575 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `XEROGRAPHY-STAGES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Laser-printer figure widescreen cap
+
+- Figure 9.7.10: reduce the laser-printer illustration to a 575 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `LASER-PRINTER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Inkjet-printer figure widescreen cap
+
+- Figure 9.7.11: reduce the inkjet-printer illustration to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `INKJET-PRINTER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Current charge-flow figure widescreen cap
+
+- Figure 9.8.1: reduce the current/charge-flow illustration to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CURRENT-CHARGE-FLOW-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Simple circuit figure widescreen cap
+
+- Figure 9.8.2: reduce the existing 350 px screen width to 300 px, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size. Retain removal of the height cap.
+- Correction record: `SIMPLE-CIRCUIT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Ohm law circuit figure widescreen cap
+
+- Figure 9.9.1: reduce the simple-circuit schematic to a 225 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `OHMS-LAW-CIRCUIT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Resistor voltmeter figure widescreen cap
+
+- Figure 9.9.2: reduce the resistor-voltmeter illustration to a 325 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `RESISTOR-VOLTMETER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Series and parallel resistors figure widescreen cap
+
+- Figure 9.11.1: reduce the series/parallel resistor illustration to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so resistor labels are closer to caption size.
+- Correction record: `SERIES-PARALLEL-RESISTORS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Equivalent series resistance figure widescreen cap
+
+- Figure 9.11.2: reduce the equivalent-series-resistance illustration to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `EQUIVALENT-SERIES-RESISTANCE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Combination resistor example figure widescreen cap
+
+- Figure 9.11.5: reduce the combination-circuit illustration to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `COMBINATION-RESISTOR-EXAMPLE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Fuse and circuit-breaker figure display size
+
+- Figure 9.12.2: enlarge the fuse/circuit-breaker illustration to a 350 px screen width cap, constrained to available width, with automatic height and no height cap, so component labels are closer to caption size.
+- Correction record: `FUSE-CIRCUIT-BREAKER-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Fuse circuit schematic figure widescreen cap
+
+- Figure 9.12.3: reduce the fuse-circuit schematic to a 175 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FUSE-CIRCUIT-SCHEMATIC-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Electric shock effects figure widescreen cap
+
+- Figure 9.12.4: reduce the electric-shock effects illustration to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ELECTRIC-SHOCK-EFFECTS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Shock sensitivity graph widescreen cap
+
+- Figure 9.12.5: reduce the shock-sensitivity graph to a 375 px screen width cap, constrained to available width and preserving its aspect ratio, so axis and curve labels are closer to caption size.
+- Correction record: `SHOCK-SENSITIVITY-GRAPH-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Battery and bulb open-circuit figure widescreen cap
+
+- Figure 9.E.1: reduce the battery-and-bulb illustration to a 600 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BATTERY-BULB-OPEN-CIRCUIT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Magnet shapes figure widescreen cap
+
+- Figure 10.2.1: reduce the magnet-shapes illustration to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, bringing pole labels closer to caption size.
+- Correction record: `MAGNET-SHAPES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Earth magnetic poles figure widescreen cap
+
+- Figure 10.2.2: reduce the Earth-and-magnet illustration to a 325 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `EARTH-MAGNETIC-POLES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Iron-core electromagnet figure widescreen cap
+
+- Figure 10.3.5: reduce the iron-core electromagnet illustration to a 100 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `IRON-CORE-ELECTROMAGNET-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Magnetic recording figure widescreen cap
+
+- Figure 10.3.6: reduce the magnetic recording panels to a 400 px screen width cap, constrained to available width and preserving their aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MAGNETIC-RECORDING-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Electron magnetism models figure widescreen cap
+
+- Figure 10.3.7: reduce the electron magnetism models to a 550 px screen width cap, constrained to available width and preserving their aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ELECTRON-MAGNETISM-MODELS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Magnetic force on a wire figure widescreen cap
+
+- Figure 10.6.1: reduce the current-carrying wire diagram to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MAGNETIC-FORCE-ON-WIRE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Magnetohydrodynamic pump figure widescreen cap
+
+- Figure 10.6.3: reduce the magnetohydrodynamic pump diagram to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MAGNETOHYDRODYNAMIC-PUMP-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — MHD propulsion figure widescreen cap
+
+- Figure 10.6.4: reduce the MHD propulsion diagram to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded annotations are closer to caption size.
+- Correction record: `MHD-PROPULSION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Current-loop torque figure widescreen cap
+
+- Figure 10.7.1: reduce the current-loop torque diagram to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CURRENT-LOOP-TORQUE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Motor brushes figure widescreen cap
+
+- Figure 10.7.2: reduce the motor-and-brushes diagram to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MOTOR-BRUSHES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Moving-coil meter figure widescreen cap
+
+- Figure 10.7.3: reduce the moving-coil meter diagram to a 325 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MOVING-COIL-METER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Faraday apparatus figure widescreen cap
+
+- Figure 10.9.1: reduce Faraday’s apparatus diagram to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FARADAY-APPARATUS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Magnetic flux components figure widescreen cap
+
+- Figure 10.9.4: reduce the magnetic-flux diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MAGNETIC-FLUX-COMPONENTS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Power distribution figure widescreen cap
+
+- Figure 10.11.2: reduce the power-distribution diagram to a 650 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `POWER-DISTRIBUTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Transformer construction figure widescreen cap
+
+- Figure 10.11.3: reduce the transformer construction diagram to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `TRANSFORMER-CONSTRUCTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — AC and DC graphs figure widescreen cap
+
+- Figure 10.12.1: reduce the AC/DC voltage-and-current graphs to a 225 px screen width cap, constrained to available width and preserving their aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `AC-DC-GRAPHS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — AC circuit and waveform figure widescreen cap
+
+- Figure 10.12.2: reduce the AC circuit-and-waveform diagram to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `AC-CIRCUIT-WAVEFORM-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — AC power graph figure widescreen cap
+
+- Figure 10.12.3: reduce the AC power graph to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `AC-POWER-GRAPH-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Magnetic force direction exercise figure widescreen cap
+
+- Figure 10.E.2: reduce the magnetic-force direction exercise diagram to a 425 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MAGNETIC-FORCE-DIRECTION-EXERCISE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Force and velocity exercise figure widescreen cap
+
+- Figure 10.E.3: reduce the force-and-velocity exercise diagram to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FORCE-VELOCITY-EXERCISE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Stretched coil exercise figure widescreen cap
+
+- Figure 10.E.5: reduce the stretched-coil exercise diagram to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `STRETCHED-COIL-EXERCISE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Hertz apparatus figure widescreen cap
+
+- Figure 11.2.2: reduce the Hertz apparatus diagram to a 550 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `HERTZ-APPARATUS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Antenna electric and magnetic fields figure widescreen cap
+
+- Figure 11.3.2: reduce the antenna-and-fields diagram to a 650 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ANTENNA-ELECTRIC-MAGNETIC-FIELDS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Electromagnetic wave figure widescreen cap
+
+- Figure 11.3.3: reduce the electromagnetic-wave diagram to a 450 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ELECTROMAGNETIC-WAVE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Electromagnetic wave momentum figure widescreen cap
+
+- Figure 11.3.4: reduce the electromagnetic-wave momentum diagram to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ELECTROMAGNETIC-WAVE-MOMENTUM-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Radiation pressure apparatus figure widescreen cap
+
+- Figure 11.3.5: reduce the radiation-pressure apparatus diagram to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `RADIATION-PRESSURE-APPARATUS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Submarine ELF radio wave figure widescreen cap
+
+- Figure 11.5.3: reduce the submarine radio-wave diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so its embedded label is closer to caption size.
+- Correction record: `SUBMARINE-ELF-RADIO-WAVE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — AM modulation figure widescreen cap
+
+- Figure 11.5.4: reduce the AM modulation diagram to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `AM-MODULATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Nuclear materials figure widescreen cap
+
+- Figure 14.4.1: reduce the coal, uranium, and cesium panels to a 675 px screen width cap, constrained to available width and preserving their aspect ratio, so embedded panel labels are closer to caption size.
+- Correction record: `NUCLEAR-MATERIALS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — FM modulation figure widescreen cap
+
+- Figure 11.5.5: reduce the FM modulation diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FM-MODULATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Antenna towers figure widescreen cap
+
+- Figure 11.5.6: reduce the antenna-tower photos to a 300 px screen width cap, constrained to available width and preserving their aspect ratio, so embedded panel labels are closer to caption size.
+- Correction record: `ANTENNA-TOWERS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Visible spectrum figure widescreen cap
+
+- Figure 11.5.8: reduce the visible-spectrum diagram to a 575 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `VISIBLE-SPECTRUM-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Law of reflection figure widescreen cap
+
+- Figure 11.6.1: reduce the law-of-reflection diagram to a 225 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `LAW-OF-REFLECTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Diffuse reflection figure widescreen cap
+
+- Figure 11.6.2: reduce the diffuse-reflection diagram to a 470 px screen width cap, approximately 75 percent of its previous 627 px width at the 380 px height cap, constrained to available width and preserving its aspect ratio.
+- Correction record: `DIFFUSE-REFLECTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Paper diffuse reflection figure widescreen cap
+
+- Figure 11.6.3: reduce the flashlight-and-paper illustration to a 410 px screen width cap, approximately 75 percent of its previous 547 px width at the 380 px height cap, constrained to available width and preserving its aspect ratio.
+- Correction record: `PAPER-DIFFUSE-REFLECTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Mirror reflection figure width match
+
+- Figure 11.6.4: set the mirror-reflection illustration to a 410 px screen width cap, matching Figure 11.6.3 above, constrained to available width and preserving its aspect ratio.
+- Correction record: `MIRROR-REFLECTION-FIGURE-WIDTH-MATCH`.
+- Pending preview refresh.
+
+### 2026-10-17 — Rotating mirror light speed figure widescreen cap
+
+- Figure 11.7.2: reduce the rotating-mirror diagram to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ROTATING-MIRROR-LIGHT-SPEED-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Lawn-mower refraction figure widescreen cap
+
+- Figure 11.7.3: reduce the lawn-mower refraction analogy to a 575 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `LAWN-MOWER-REFRACTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Dispersion visible spectrum figure widescreen cap
+
+- Figure 11.8.2: reduce the visible-spectrum diagram to a 575 px screen width cap, matching Figure 11.5.8, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `DISPERSION-VISIBLE-SPECTRUM-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Water-droplet rainbow figure widescreen cap
+
+- Figure 11.8.4: reduce the water-droplet rainbow diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `WATER-DROPLET-RAINBOW-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Converging lens refraction figure widescreen cap
+
+- Figure 11.9.1: reduce the converging-lens refraction diagram to a 500 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CONVERGING-LENS-REFRACTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Diverging lens refraction figure widescreen cap
+
+- Figure 11.9.3: reduce the diverging-lens refraction diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `DIVERGING-LENS-REFRACTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Light source at lens focus figure widescreen cap
+
+- Figure 11.9.4: reduce the light-bulb and lens illustration to a 430 px screen width cap, approximately 75 percent of its previous 573 px width at the 380 px height cap, constrained to available width and preserving its aspect ratio.
+- Correction record: `LIGHT-SOURCE-LENS-FOCUS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Lens ray-tracing steps figure widescreen cap
+
+- Figure 11.9.7: reduce the ray-tracing steps diagram from 350 px to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `LENS-RAY-TRACING-STEPS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Diverging lens ray-tracing figure widescreen cap
+
+- Figure 11.9.13: reduce the diverging-lens ray-tracing diagram to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `DIVERGING-LENS-RAY-TRACING-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Virtual image ray-tracing figure widescreen cap
+
+- Figure 11.9.11: reduce the virtual-image ray-tracing diagram from 350 px to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `VIRTUAL-IMAGE-RAY-TRACING-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Bulb and screen ray diagram figure widescreen cap
+
+- Figure 11.9.9: reduce the bulb-and-screen ray diagram to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BULB-SCREEN-RAY-DIAGRAM-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Spherical mirror focus figure widescreen cap
+
+- Figure 11.10.2: reduce the spherical-mirror focus diagram to a 550 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SPHERICAL-MIRROR-FOCUS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Concave mirror real image figure widescreen cap
+
+- Figure 11.10.4: reduce the concave-mirror real-image ray diagram to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CONCAVE-MIRROR-REAL-IMAGE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Concave mirror virtual image figure widescreen cap
+
+- Figure 11.10.6: reduce the concave-mirror virtual-image figure to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CONCAVE-MIRROR-VIRTUAL-IMAGE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Convex mirror image figure widescreen cap
+
+- Figure 11.10.7: reduce the convex-mirror image figure to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CONVEX-MIRROR-IMAGE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Polarization glare comparison figure widescreen cap
+
+- Figure 11.11.1: reduce the polarization comparison photos to a 550 px screen width cap, constrained to available width and preserving their aspect ratio, so panel labels are closer to caption size.
+- Correction record: `POLARIZATION-GLARE-PHOTOS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Polarization direction figure widescreen cap
+
+- Figure 11.11.2: reduce the polarization-direction diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `POLARIZATION-DIRECTION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Rope polarization figure widescreen cap
+
+- Figure 11.11.3: reduce the rope-polarization diagram to a 600 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ROPE-POLARIZATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Random polarization figure widescreen cap
+
+- Figure 11.11.4: reduce the random-polarization diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `RANDOM-POLARIZATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Polarizing filter figure widescreen cap
+
+- Figure 11.11.5: reduce the polarizing-filter diagram to a 475 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `POLARIZING-FILTER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Polarization component figure widescreen cap
+
+- Figure 11.11.7: reduce the polarization-component diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `POLARIZATION-COMPONENT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Scattering polarization figure widescreen cap
+
+- Figure 11.11.11: reduce the scattering-polarization diagram to a 375 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SCATTERING-POLARIZATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — LCD polarization figure display size
+
+- Figure 11.11.12: enlarge the LCD polarization diagram to a 300 px screen width, constrained to available width and preserving its aspect ratio, with the height cap removed so embedded labels are closer to caption size.
+- Correction record: `LCD-POLARIZATION-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Optical activity figure widescreen cap
+
+- Figure 11.11.13: reduce the optical-activity diagram to a 425 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `OPTICAL-ACTIVITY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Birefringence figure widescreen cap
+
+- Figure 11.11.15: reduce the birefringence diagram to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BIREFRINGENCE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Atom and nucleus introduction figure widescreen cap
+
+- Figure 12.1.2: reduce the atom-and-nucleus illustration to a 477 px screen width cap, approximately 60 percent of its previous 795 px width at the 380 px height cap, constrained to available width and preserving its aspect ratio.
+- Correction record: `ATOM-NUCLEUS-INTRO-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Flashlight photons figure widescreen cap
+
+- Figure 12.3.3: reduce the flashlight-and-photons diagram to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FLASHLIGHT-PHOTONS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Photoelectron energy graph figure widescreen cap
+
+- Figure 12.3.4: reduce the photoelectron-energy graph to a 225 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `PHOTOELECTRON-ENERGY-GRAPH-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Crossed-fields CRT figure widescreen cap
+
+- Figure 12.6.4: reduce the crossed-fields CRT diagram to a 575 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `CROSSED-FIELDS-CRT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Thomson CRT figure widescreen cap
+
+- Figure 12.6.3: reduce the Thomson CRT diagram to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so charge symbols are closer to caption size.
+- Correction record: `THOMSON-CRT-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Rutherford scattering figure widescreen cap
+
+- Figure 12.6.5: reduce the Rutherford scattering diagram to a 600 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `RUTHERFORD-SCATTERING-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Gold foil atoms figure widescreen cap
+
+- Figure 12.6.6: reduce the gold-foil atom diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so its scale label is closer to caption size.
+- Correction record: `GOLD-FOIL-ATOMS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Planetary atom model figure widescreen cap
+
+- Figure 12.6.7: reduce the planetary atom diagram to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `PLANETARY-ATOM-MODEL-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Hydrogen spectrum series figure widescreen cap
+
+- Figure 12.7.3: reduce the hydrogen-spectrum diagram to a 600 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `HYDROGEN-SPECTRUM-SERIES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Bohr energy transition figure widescreen cap
+
+- Figure 12.7.4: reduce the Bohr transition diagram to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BOHR-ENERGY-TRANSITION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Hydrogen energy levels figure display size
+
+- Figure 12.7.6: enlarge the hydrogen energy-level diagram to a 350 px screen width, constrained to available width and preserving its aspect ratio, with the height cap removed so embedded labels are closer to caption size.
+- Correction record: `HYDROGEN-ENERGY-LEVELS-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Standing-wave electron orbits figure widescreen cap
+
+- Figure 12.8.1: reduce the standing-wave orbit diagram to a 575 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `STANDING-WAVE-ELECTRON-ORBITS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Quantized orbit wavelengths figure widescreen cap
+
+- Figure 12.8.2: reduce the quantized-orbit wavelength diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `QUANTIZED-ORBIT-WAVELENGTHS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Hydrogen probability cloud figure widescreen cap
+
+- Figure 12.8.3: reduce the hydrogen probability-cloud diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `HYDROGEN-PROBABILITY-CLOUD-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Moving charged particle figure widescreen cap
+
+- Figure 13.4.4: reduce the moving charged-particle field diagram to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MOVING-CHARGED-PARTICLE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Spaceship laser velocities figure widescreen cap
+
+- Figure 13.5.4: reduce the spaceship-and-laser diagram to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SPACESHIP-LASER-VELOCITIES-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Relativistic momentum graph widescreen cap
+
+- Figure 13.6.2: reduce the relativistic-momentum graph to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `RELATIVISTIC-MOMENTUM-GRAPH-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Sun and nuclear power station figure display size
+
+- Figure 13.7.2: enlarge the Sun-and-power-station figure to a 375 px screen width, constrained to available width and preserving its aspect ratio, so panel labels are closer to caption size.
+- Correction record: `SUN-NUCLEAR-POWER-STATION-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Relativistic kinetic energy graph widescreen cap
+
+- Figure 13.7.3: reduce the relativistic and classical kinetic-energy graph to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `RELATIVISTIC-KINETIC-ENERGY-GRAPH-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Matter substructure figure widescreen cap
+
+- Figure 14.1.2: reduce the matter-substructure diagram to a 650 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `MATTER-SUBSTRUCTURE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Pocket dosimeter figure widescreen cap
+
+- Figure 14.2.3: reduce the pocket-dosimeter figure to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so panel labels are closer to caption size.
+- Correction record: `POCKET-DOSIMETER-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Geiger counter figure display size
+
+- Figure 14.3.2: enlarge the Geiger-counter figure to a 475 px screen width, constrained to available width and preserving its aspect ratio, so diagram labels are closer to caption size.
+- Correction record: `GEIGER-COUNTER-FIGURE-DISPLAY-SIZE`.
+- Pending preview refresh.
+
+### 2026-10-17 — Nuclear stability chart widescreen cap
+
+- Figure 14.4.3: reduce the nuclear-stability chart from full available width to a 425 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `NUCLEAR-STABILITY-CHART-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Nuclear decay chain figure widescreen cap
+
+- Reduce the nuclear-decay chain chart (media `import-auto-id1825282`) from full available width to a 450 px screen width cap, constrained to available width and preserving its aspect ratio, so isotope and half-life labels are closer to caption size.
+- Correction record: `NUCLEAR-DECAY-CHAIN-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Alpha decay figure widescreen cap
+
+- Figure 14.5.2: reduce the alpha-decay diagram to a 300 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `ALPHA-DECAY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Beta-minus decay figure widescreen cap
+
+- Figure 14.5.4: reduce the beta-minus decay diagram to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BETA-MINUS-DECAY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Beta-plus decay figure widescreen cap
+
+- Figure 14.5.5: reduce the beta-plus decay diagram to a 275 px screen width cap, matching the beta-minus diagram, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `BETA-PLUS-DECAY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Gamma camera figure widescreen cap
+
+- Figure 14.7.2: reduce the gamma-camera diagram to a 425 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `GAMMA-CAMERA-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Ionization density figure widescreen cap
+
+- Figure 14.8.1: reduce the ionization-density diagram to a 600 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `IONIZATION-DENSITY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Dental X-ray shielding figure widescreen cap
+
+- Figure 14.8.2: reduce the dental X-ray shielding diagram to a 325 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `DENTAL-XRAY-SHIELDING-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Fusion potential energy figure widescreen cap
+
+- Figure 14.9.3: reduce the fusion potential-energy graph to a 325 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FUSION-POTENTIAL-ENERGY-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Fusion collisions figure widescreen cap
+
+- Figure 14.9.4: reduce the fusion-collision diagram to a 550 px screen width cap, constrained to available width and preserving its aspect ratio, so panel labels are closer to caption size.
+- Correction record: `FUSION-COLLISIONS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Solar fusion figure widescreen cap
+
+- Figure 14.9.5: reduce the solar-fusion diagram to a 275 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `SOLAR-FUSION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Figure 14.11.1 widescreen cap
+
+- Figure 14.11.1: reduce the image to a 350 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `NUCLEAR-WEAPONS-INTRO-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Figure 14.11.5 widescreen cap
+
+- Figure 14.11.5: reduce the image from 350 px to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `NUCLEAR-WEAPONS-FIGURE-14-11-5-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Energy output charts widescreen cap
+
+- Figure 14.11.6: reduce the image from 350 px to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so chart labels are closer to caption size.
+- Correction record: `ENERGY-OUTPUT-CHARTS-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Virtual photon exchange figure widescreen cap
+
+- Figure 14.12.1: reduce the virtual-photon exchange figure to a 400 px screen width cap, constrained to available width and preserving its aspect ratio, so panel labels are closer to caption size.
+- Correction record: `VIRTUAL-PHOTON-EXCHANGE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Feynman photon exchange figure widescreen cap
+
+- Figure 14.12.2: reduce the Feynman diagram to a 225 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FEYNMAN-PHOTON-EXCHANGE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Feynman pion exchange figure widescreen cap
+
+- Figure 14.12.3: reduce the pion-exchange diagram to a 225 px screen width cap, matching the photon-exchange diagram, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FEYNMAN-PION-EXCHANGE-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Particle annihilation figure widescreen cap
+
+- Figure 14.13.2: reduce the particle-annihilation diagram to a 225 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `PARTICLE-ANNIHILATION-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Particle table rest-mass header layout
+
+- Table 14.13.1: place the rest-mass unit on a second line below the heading so the column can narrow. Preserve all table values and units.
+- Correction record: `PARTICLE-TABLE-REST-MASS-HEADER-LAYOUT`.
+- Pending preview refresh.
+
+### 2026-10-17 — Weak-force Feynman figure widescreen cap
+
+- Figure 14.14.1: reduce the weak-force Feynman diagram to a 250 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `WEAK-FORCE-FEYNMAN-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Gluon states panel (a) widescreen cap
+
+- Figure 14.14.2(a): reduce the gluon-states panel from full available width to a 600 px width cap, constrained to available width and preserving its aspect ratio, so main labels are closer to caption size.
+- Correction record: `GLUON-STATES-PANEL-A-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Gluon exchange panel (b) widescreen cap
+
+- Figure 14.14.2(b): reduce the panel viewport from 450 px to 300 px, constrained to available width, preserving its existing crop and aspect ratio so labels are closer to caption size.
+- Correction record: `GLUON-EXCHANGE-PANEL-B-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Force unification graph widescreen cap
+
+- Figure 14.14.4: reduce the force-unification graph to a 450 px screen width cap, constrained to available width and preserving its aspect ratio, so embedded labels are closer to caption size.
+- Correction record: `FORCE-UNIFICATION-GRAPH-FIGURE-WIDESCREEN-CAP`.
+- Pending preview refresh.
+
+### 2026-10-17 — Preview 182 published; website review checkpoint
+
+- Published all queued website layout corrections since preview 181, including responsive figure sizing and the particle-table rest-mass header. Supersedes pending-preview notes in this batch.
+- Both course and CNX builds passed: 6441 mathematical expressions, no reported issues, 2413 adaptations; search passages 8435/8608. Export: 757 files, 131725625 bytes.
+- Sites source commit: `4195284975e9758b05ef590aa7ca8612eb481f1b`. Version: `appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_0474a71c77108191b92e50d2ed1ebad1`. Deployment: `appgdep_6ad40eeb5318819184eeeffd72c9b559` (succeeded).
+- Archive SHA-256: `2f4a591daf5d4e761ce89451c4a48f8b76bd2ca672cf1a41dfcac25f1ade8074`.
+- Refreshed the maintainer's existing live preview tab successfully. Final visual acceptance remains the maintainer's last preview pass.
+- Main remaining work: PDF layout and production, followed by v1.1 release metadata, packaging and archival bookkeeping. Published v1.0 remains frozen.

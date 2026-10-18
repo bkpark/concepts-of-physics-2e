@@ -4,8 +4,9 @@
   <md:content-id>m67130</md:content-id>
   <md:title>Current</md:title>
   <md:abstract><list>
-<item>Define electric current, ampere, and drift velocity</item>
+<item>Define electric current and the ampere.</item>
 <item>Describe the direction of charge flow in conventional current.</item>
+<item>Calculate electric current, charge transferred, or elapsed time using the definition of electric current.</item>
 </list></md:abstract>
   <md:uuid>a3740031-6169-4740-8991-c66a946d61a3</md:uuid>
 </metadata>
@@ -123,10 +124,10 @@
                             </m:mrow>
                             <m:mrow>
                               <m:mn>0.300</m:mn>
-                              <m:mi>×</m:mi>
+                              <m:mo>×</m:mo>
 
 <m:msup>
-                                <m:mtext> 10</m:mtext>
+                                <m:mn> 10</m:mn>
                         
 <m:mrow>
                                       <m:mo stretchy="false">−</m:mo>
@@ -146,10 +147,10 @@
 <m:mtd>
                   <m:mrow>
                     <m:mrow />
-                    <m:mtext> 3.33 </m:mtext>
-                    <m:mi>×</m:mi>
+                    <m:mn> 3.33 </m:mn>
+                    <m:mo>×</m:mo>
                     <m:msup>
-                      <m:mtext> 10</m:mtext>
+                      <m:mn> 10</m:mn>
                       
                         <m:mrow>
                           <m:mn>3</m:mn>
@@ -223,16 +224,16 @@ electrons
 ×
           </m:mo>
           <m:msup>
-           <m:mtext>
+           <m:mn>
 10
-           </m:mtext>
+           </m:mn>
            <m:mrow>
              <m:mrow>
               <m:mrow>
                <m:mrow>
-                <m:mo stretchy="false">
+                <m:mn stretchy="false">
 −3
-                </m:mo>
+                </m:mn>
                </m:mrow>
               </m:mrow>
              </m:mrow><m:mspace width="0.25em"/>
@@ -246,13 +247,11 @@ C/s
        </m:mrow>
      </m:mrow>
     </m:semantics>
-   </m:math>  .Since each electron <m:math>
+   </m:math>. Since each electron (<m:math>
     <m:semantics>
      <m:mrow>
       <m:mrow>
-       <m:mo stretchy="false">
-(
-       </m:mo>
+       
        <m:mrow>
          <m:mrow>
           <m:mrow>
@@ -276,18 +275,16 @@ e
           </m:mrow>
          </m:mrow>
        </m:mrow>
-       <m:mo stretchy="false">
-)
-       </m:mo>
+       
       </m:mrow>
      </m:mrow>
     </m:semantics>
-   </m:math> has a charge of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>−1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>60</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we can convert the current in coulombs per second to electrons per second.</para><para id="import-auto-id2688410">
+   </m:math>) has a charge of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>−1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>60</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>19</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we can convert the current in coulombs per second to electrons per second.</para><para id="import-auto-id2688410">
       <emphasis>Solution</emphasis>
     </para>
     <para id="import-auto-id2016267">Starting with the definition of current, we have</para>
     
-    <equation id="eip-414" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>electrons</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi></m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>electrons</m:mtext></m:msub></m:mrow><m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>−0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>300 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em" /></m:mrow><m:mtext> C</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  {  {ΔQ}  over  {Δt} }  =  {  {0 "." "300 " times " 10" rSup { size 8{ - 3} } " C"}  over  {"s"} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3064541">We divide this by the charge per electron, so that</para><equation id="eip-199" class="unnumbered"><m:math>
+    <equation id="eip-414" class="unnumbered"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>electrons</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi></m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>electrons</m:mtext></m:msub></m:mrow><m:mrow><m:mrow><m:mi mathvariant="normal">Δ</m:mi></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>−0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>300 </m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mn> 10</m:mn><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em" /></m:mrow><m:mtext> C</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow /></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  {  {ΔQ}  over  {Δt} }  =  {  {0 "." "300 " times " 10" rSup { size 8{ - 3} } " C"}  over  {"s"} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3064541">We divide this by the charge per electron, so that</para><equation id="eip-199" class="unnumbered"><m:math>
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -297,7 +294,7 @@ e
                              <m:mrow>
                               <m:msup>
                                <m:mi>e</m:mi>
-                               <m:mtext>−</m:mtext>
+                               <m:mo>−</m:mo>
                               </m:msup>
                              </m:mrow>
                              <m:mtext>s</m:mtext>
@@ -312,12 +309,10 @@ e
 
                             <m:mfrac>
                               <m:mrow>
-                                <m:mn>−0</m:mn>
-                                <m:mtext>.</m:mtext>
-                                <m:mtext>300 </m:mtext>
-                                <m:mi>×</m:mi>
+                                <m:mn>−0.300</m:mn>
+                                <m:mo>×</m:mo>
                                 <m:msup>
-                                  <m:mtext> 10</m:mtext>
+                                  <m:mn> 10</m:mn>
                                   
                                     <m:mrow>
                                       <m:mrow>
@@ -332,26 +327,26 @@ e
                               <m:mtext>s</m:mtext>
                             </m:mfrac>
                           </m:mrow>
-                          <m:mi>×</m:mi>
+                          <m:mo>×</m:mo>
                           <m:mfrac>
                             <m:mrow>
-                              <m:mtext>1</m:mtext><m:mspace width="0.25em"/>
+                              <m:mn>1</m:mn><m:mspace width="0.25em"/>
                               <m:msup>
                                <m:mi>e</m:mi>
-                               <m:mtext>−</m:mtext>
+                               <m:mo>−</m:mo>
                               </m:msup>
                             </m:mrow>
                             <m:mrow>
                               <m:mn>−1</m:mn>
                               <m:mtext>.60 </m:mtext>
-                              <m:mi>×</m:mi>
+                              <m:mo>×</m:mo>
                               <m:msup>
-                                <m:mtext> 10</m:mtext>
+                                <m:mn> 10</m:mn>
                                 
                                   <m:mrow>
                                     <m:mrow>
                                       <m:mo stretchy="false">−</m:mo>
-                                      <m:mtext>19</m:mtext>
+                                      <m:mn>19</m:mn>
                                     </m:mrow>
                                   </m:mrow>
                                 
@@ -367,13 +362,13 @@ e
 <m:mtd>   <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
                   <m:mrow>
-                    <m:mtext>1.88 </m:mtext>
-                    <m:mi>×</m:mi>
+                    <m:mn>1.88 </m:mn>
+                    <m:mo>×</m:mo>
                     <m:msup>
-                      <m:mtext> 10</m:mtext>
+                      <m:mn> 10</m:mn>
                       
                         <m:mrow>
-                          <m:mtext>15</m:mtext>
+                          <m:mn>15</m:mn>
                         </m:mrow>
                       
                     </m:msup><m:mspace width="0.25em"/>
@@ -381,7 +376,7 @@ e
                      <m:mrow>
                       <m:msup>
                        <m:mi>e</m:mi>
-                       <m:mtext>−</m:mtext>
+                       <m:mo>−</m:mo>
                       </m:msup>
                      </m:mrow>
                      <m:mtext>s</m:mtext>
@@ -423,7 +418,7 @@ e
     
 </content>
   <glossary>
-    <definition id="import-auto-id1471961"><term>electric current</term> <meaning id="fs-id1596416">the rate at which charge flows, <emphasis effect="italics">I</emphasis> = Δ<emphasis effect="italics">Q</emphasis>/Δ<emphasis effect="italics">t</emphasis></meaning></definition>
+    <definition id="import-auto-id1471961"><term>electric current</term> <meaning id="fs-id1596416">the rate of flow of electric charge through a surface or past a point</meaning></definition>
     <definition id="import-auto-id1585907"><term>ampere</term><meaning id="fs-id3158363">(amp) the SI unit for current; 1 A = 1 C/s</meaning></definition>
   </glossary>
 </document>

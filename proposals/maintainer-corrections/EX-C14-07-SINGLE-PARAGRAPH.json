@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-07-SINGLE-PARAGRAPH",
+  "status": "approved",
+  "description": "Combine Exercise 7 into one paragraph; preserve wording, math, and anchor IDs.",
+  "changes": [
+    {
+      "path": "maintained/modules/m76584/index.cnxml",
+      "before_sha256": "01c7881e09e28debb394fcb757e98a0cad36665a96ac483950da23d3d31f5ff7",
+      "after_sha256": "3e0354796f32ac03b8dbdaaa6a15a1e83c2051b4b8a00f2e8f10b809dada81be",
+      "before": "<exercise id=\"c14-mom-a1\" type=\"conceptual-questions\"><problem id=\"c14-mom-a1-problem\"><para id=\"c14-mom-a1-p1\">For each source below, suggest a suitable shielding material and explain your choice:</para><para id=\"c14-mom-a1-p2\">(a) a source of <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>α</m:mi></m:math> particles,</para><para id=\"c14-mom-a1-p3\">(b) a source of <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> particles, and</para><para id=\"c14-mom-a1-p4\">(c) a source of <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays. Why must the particle energy and shield thickness also be considered?</para></problem></exercise>",
+      "after": "<exercise id=\"c14-mom-a1\" type=\"conceptual-questions\"><problem id=\"c14-mom-a1-problem\"><para id=\"c14-mom-a1-p1\">For each source below, suggest a suitable shielding material and explain your choice: <span id=\"c14-mom-a1-p2\"/>(a) a source of <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>α</m:mi></m:math> particles, <span id=\"c14-mom-a1-p3\"/>(b) a source of <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math> particles, and <span id=\"c14-mom-a1-p4\"/>(c) a source of <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays. Why must the particle energy and shield thickness also be considered?</para></problem></exercise>"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Outstanding items to mention at every chapter finalization
 
-- [ ] **Replace Figure 12.3.2 photoelectric-apparatus photograph.** Author will take a higher-resolution photo of their lab apparatus (plans to take it Monday and will set their own reminder). At every chapter finalization, remind the author while this remains open, even after Chapter 12. Stable target: m67251 figure import-auto-id1362766, media import-auto-id953716. Replace the photo, revise its alt text/caption as needed, and update the image credit together when the author supplies it. Current credit is P.P. Urone; keep it until the replacement is made. No scheduled notification requested. Mark complete only after the replacement and credit update are verified.
+- [x] **Replace Figure 12.3.2 photoelectric-apparatus photograph.** Completed 2026-10-12 with author photograph 20261012_134147.jpg, cropped and resized to 1200 × 691 pixels (101,929 bytes). Caption and alt text updated; photo credited to College of Alameda Physics Department and verified in desktop/mobile builds. Stable figure and media IDs retained. See reports/1.1/photoelectric-photo/.
 
 
 Prepared September 27, 2026 from the maintainer's fresh MyOpenMath export and the recovered exercise-curation audit. This is a proposal, not approval of individual question additions or removals.
@@ -630,7 +630,7 @@ Perform immediately after the current embedded-connector review. Policy: number 
 
 ### 2026-10-08 — Preview 91 refreshed
 
-Published the completed equation-numbering review and pending MathML corrections as Sites version 91 (commit fb1e978333f37b4cd49ea7612bde81cf9d7f4341). Publication succeeded. Body equations now have 255 retained numbers and 622 removed numbers; 96 summary displays reuse body labels and nine remain intentionally unnumbered. Both builds, full validation, summary-numbering regression tests, and audit verification passed before packaging. Receipt: reports/1.1/preview91-receipt.json. Resume review at Section 11.9, Image Formation by Lenses.
+Published the completed equation-numbering review and pending MathML corrections as Sites version 91 (commit fb1e978333f37b4cd49ea7611bde81cf9d7f4341). Publication succeeded. Body equations now have 255 retained numbers and 622 removed numbers; 96 summary displays reuse body labels and nine remain intentionally unnumbered. Both builds, full validation, summary-numbering regression tests, and audit verification passed before packaging. Receipt: reports/1.1/preview91-receipt.json. Resume review at Section 11.9, Image Formation by Lenses.
 
 
 ### 2026-10-08 — Equation display-style default
@@ -940,3 +940,227 @@ Completed the older textbook map from the preserved PDF outline (140 labeled mod
 ### 2026-10-12: Numbering and header review complete
 
 Previews 116–118 rename the alternate mode CNX-aligned, hide duplicate introduction entries in CNX-aligned contents, and center the header with both preference menus wrapping together. User approved the preview and requested committing these updates to GitHub. Course build, numbering checks across 141 sections, and header checks at 320–1600 px passed. Publication receipts and browser evidence are in reports/1.1/numbering-toggle/.
+
+### 2026-10-12: Figure 12.3.2 author photograph
+
+Replaced the deferred photoelectric-tube photograph with author photo 4. Applied a deterministic crop and resize, retained the full-resolution original in local references, and updated the caption and alt text, and removed the obsolete credit. Author selected photo credit to College of Alameda Physics Department. The author identified the yellow-wire connection as the photocathode and the circular wire as the anode; uncertain routing and design intent are omitted. Browser checks verify the image at 390 and 1200 px and both numbering labels. This closes the chapter-finalization photo reminder.
+
+### 2026-10-13: Radiation-name parentheses
+
+Moved parentheses around the initial alpha, beta, and gamma symbols in m76584/import-auto-id3422619 into prose, leaving only the Greek letters in MathML. Added the missing spaces after the names. XML and all three math contents verified. Queued for the next preview refresh.
+
+### 2026-10-13: Greek particle plurals
+
+Applied the approved α’s / β’s / γ’s convention across maintained source with ’s outside MathML, including captions, exercises, and the isotope appendix. Preserved “the α’s charge to mass ratio” as requested. Recorded the convention in docs/style-guide.md and the inventory in reports/1.1/greek-particle-plurals/applied.json. Queued for next preview refresh.
+
+### 2026-10-13: Redundant E italic attribute
+
+Removed the sole explicit italic MathML attribute in m76584 (E in import-auto-id1177617). Default mathematical italics and prose emphasis are unchanged. XML check passed; no explicit italic MathML attributes remain in the section. Queued for next preview refresh.
+
+### 2026-10-13: Substructure of the Nucleus italic cleanup
+
+Removed three explicit italic MathML attributes (A, m, N) in m52466. XML validation passed; no explicit italic MathML attributes remain in the section. Default variable italics retained. Queued for next preview refresh.
+
+### 2026-10-13: Decay-equation descriptions
+
+Moved the four parenthetical decay descriptions in m76603 (alpha, beta-minus, beta-plus, gamma) outside reaction MathML. Parentheses and the word decay are prose; particle symbols retain separate math. IDs and reactions retained; XML validation passed. Queued for next preview refresh.
+
+### 2026-10-13: Reaction-energy equation spacing
+
+Cleaned up m76603/eip-241: removed explicit spacing before equals, changed Delta from an operator to an upright identifier, grouped parentheses, and moved the sentence period outside MathML. Relationship and equation ID retained. XML valid. Queued for next preview refresh.
+
+### 2026-10-13: Nuclear decay italic cleanup
+
+Removed all 20 explicit italic MathML attributes in m76603, including the annotated Delta m. XML valid; no explicit italic MathML attributes remain in the section. Standard mathematical styling retained. Queued for next preview refresh.
+
+### 2026-10-13: Final-mass sum display
+
+Replaced over-wide inline mass sum in m76603/import-auto-id2684784 with three displayed lines. Corrected decimal/operator/unit tokenization and isotope grouping; numerical values unchanged. XML valid. Queued for next preview refresh.
+
+### 2026-10-13: Neutron-decay particle symbols
+
+Changed n and p in m76603/eip-828 from upright text to mathematical identifiers, following the particle-symbol style convention. Included in the pending preview refresh.
+
+### 2026-10-13: Final-mass punctuation placement
+
+Anchored the period to the final u in the three-line mass sum; the renderer separates it from copied math and aligns it to the last row. Thus now starts a new paragraph. Queued for next preview refresh.
+
+### 2026-10-13: Half-life calculations on two lines
+
+Split m52471/eip-15 and eip-806 into two aligned display rows each, placing the evaluated fraction and final count on the second row. Tokens and values retained; XML and row-count checks passed. Queued for next preview refresh.
+
+### 2026-10-13: Half-life and activity italic cleanup
+
+Removed all six explicit italic MathML attributes on N and t in m52471. XML validation and section rescan passed; normal mathematical styling preserved. Queued for next preview refresh.
+
+### 2026-10-13: Carbon activity calculations on two lines
+
+Split m52471/eip-999, eip-367, eip-515, and eip-403 into two aligned rows, with each final result on its own line. The 250 Bq conversion is included; the following curie conversion (eip-172) remains on one line. Values and punctuation preserved. Queued for next preview refresh.
+
+### 2026-10-16: Activity equation alignment
+
+Normalized MathML in m52471/eip-515 and eip-403: dedicated equality column, consistent relation spacing, decimal numbers as single tokens, multiplication operators, and separate upright units. Both retain two lines and unchanged values. Queued for preview refresh.
+
+### 2026-10-16: Radiation unit spacing and table wrapping
+
+Added explicit number-unit spacing in m68327/eip-810 and made the Bq-to-Ci table conversion wrap only after the approximation sign when necessary. Queued for preview refresh.
+
+### 2026-10-16: Proton-proton cycle energy annotations
+
+Replaced parenthetical energies throughout the fusion section, including all ten body equations with energy annotations and four repeated summary equations, with separate Q expressions and defined Q in prose. Preserved equation numbers; reaction and Q expressions wrap as separate units on narrow screens.
+
+### 2026-10-16: Fusion reaction-count conversion factor
+
+Changed the Avogadro factor in m52480/eip-812 to a stacked fraction over mol, retaining the single-line calculation and numerical values. Queued for preview refresh.
+
+### 2026-10-16: Fusion energy conversion factors
+
+Stacked complete factors over reaction and MeV in m52480/eip-817 and aligned the two equals signs. Preserved values and two-line layout.
+
+### 2026-10-16: Fusion power unit spacing
+
+Reduced the explicit number-unit gaps in m52480/eip-674 from 0.25em to 0.167em, consistently for J, s, W and MW. Queued for preview refresh.
+
+### 2026-10-16: Fission product mass multiplication
+
+Replaced parentheses around the neutron mass with explicit multiplication in m52479/eip-319. Values and two-line layout preserved. Queued for preview refresh.
+
+### 2026-10-16: Fission math styling and energy layout
+
+Removed five forced italic MathML attributes throughout m52479. Split eip-179 into three aligned lines, with the final 171.2 MeV result on its own line.
+
+### 2026-10-16: Fission percentage spacing
+
+Removed the extra space in 0.72% in m52479. Queued for preview refresh.
+
+### 2026-10-16: Fission energy fence spacing
+
+Set explicit zero spacing on parentheses and the unit slash in m52479/eip-179, retaining thin number-unit spaces and aligned equals signs. Queued for preview refresh.
+
+### 2026-10-16: Fission conservation sum spacing
+
+Normalized numeric tokens and infix operators in both sums in m52479/import-auto-id3081841. Values unchanged. Queued for preview refresh.
+
+### 2026-10-16: Separate breeding half-life annotations
+
+Separated half-lives from reactions in m52479/eip-890 and eip-412, using independent MathML expressions with a visible gap and responsive wrapping. Queued for preview refresh.
+
+### 2026-10-16: Fission atom-count conversion factor
+
+Stacked the complete number and uranium-235 numerator over mol in m52479/eip-689. Values and remaining layout preserved. Queued for preview refresh.
+
+### 2026-10-16: Approved operator audit D1
+
+Corrected specific-heat units and denominator grouping in m67135/eip-333. Two aligned rows, with the approximate 162 °C result on the second; explicit thin spaces before units. D2 remains awaiting review. Queued for preview refresh.
+
+### 2026-10-16: Approved operator audit D2
+
+Cubed the entire length-conversion factor in m52466/eip-317. The resulting 2.2908 × 10^17 kg/m³ agrees with the existing rounded 2.3 × 10^17 kg/m³. Queued for preview refresh.
+
+
+Operator audit (2026-10-16): maintainer-authorized typography pass repaired 611 expressions in 84 modules, preserving visible content and grouping. Reversal snapshots: proposals/maintainer-corrections/OPERATOR-AUDIT-STRAIGHTFORWARD.json. D3 isotope-placement question remains unchanged pending review; see reports/1.1/operator-audit/remaining-decisions.json.
+
+
+D3 approved and applied (2026-10-16): carbon-14 emission exercise now shows ²²²Ra → ᴬX + ¹⁴C, retaining the unknown nuclide.
+
+
+Antineutrino correction (2026-10-16): Eqs. 14.10.4–5 now use electron antineutrinos, with a brief reminder after the pair. Section 14.5 consistently calls the emitted particle an electron antineutrino and explains equal mass/spin, opposite nonzero electric charges, and neutral antiparticles with opposite electron family numbers.
+
+
+Beta-decay label audit: corrected cobalt-60 introductory word label and Latin v in fusion neutrino notation. Conflicting Section 14.5 conservation exercise left for maintainer judgment. See reports/1.1/beta-decay-audit/README.md.
+
+
+D4 applied: Section 14.5 exercise fs-id2460264 now consistently uses beta-plus decay, N+1, Z−1, and an electron neutrino. Approved correction to the current exercise only. This decision carries no weight in deciding whether to retain or remove the exercise in a later revision.
+
+
+Section 14.12: changed the force-table entry to “Gluons (experimentally established)” and removed the obsolete conjecture footnote. No glueball discussion added.
+
+
+Section 14.12: removed the inherited 1983 discovery footnote from the weak-force carrier entry; retained “(observed)” to match the photon entry.
+
+
+Section 14.13 particle table: names/categories left aligned, other columns centered; four notes relocated below with numbered references; short values kept together. Screen and portrait Letter/A4 print-width checks pass. Final PDF pagination remains a release check.
+
+Section 14.13: updated direct neutrino mass bounds to <4.5×10⁻⁷, <0.19, and <18.2 MeV/c²; removed leading zeros; added confidence levels, flavor/mass-state distinction, and separate oscillation mass-squared-difference note. All three neutrino lifetime entries now read “No decay observed,” as approved.
+
+Section 14.13: audited all 23 particle mass entries against PDG 2025 and the previously approved KATRIN result; W updated to 80.37×10³ MeV/c², other non-neutrino values retained at existing precision. Added missing overbars to charged Xi and Omega antiparticles; all nine antibaryon labels checked.
+
+Section 14.13: spelled out “zero” in “the total remains zero as it was before decay” to avoid ambiguity with the letter o. Pending next preview refresh.
+
+Section 14.13: standardized particle names to Electron Neutrino, Muon Neutrino, and Tau Neutrino, preserving note 3 markers. Pending next preview refresh.
+
+Section 14.13: grouped the four table notes and oscillation paragraph into a caption-style Table notes block below the table, with smaller sans-serif typography and an accessible table association. Pending preview refresh.
+
+Section 14.13: restored missing space between “muon family number” and its symbol. Pending next preview refresh.
+
+Section 14.14: removed newline-generated space after the opening parenthesis before the weak-force range. Pending next preview refresh.
+
+Chapter 14 glossary: corrected source “1g” to “1 g” with U+00A0 in the curie definition. Pending next preview refresh.
+
+Chapter 14 glossary: standardized electron neutrino and electron antineutrino names and changed the latter definition to “antiparticle of the electron neutrino.” Pending next preview refresh.
+
+Chapter 14: merged gluon glossary entries using identical current definitions in both sources; one combined entry preserves both sets of anchors. Section 14.14 prose remains unchanged pending review. Pending preview refresh.
+
+Section 14.14: applied approved gluon prose; corrected caption to explain two superpositions and explicitly flag misleading White label. Figure replacement design under discussion; image unchanged. Pending preview refresh.
+
+Figure 14.14.2: adopted approved color-state diagram as panel (a); preserved original panel (b) through layout cropping; updated caption and alt text.
+
+Section 14.14: updated Higgs glossary definition to established spin-0 particle associated with the Higgs field, discovered in 2012. Flagged inherited SSC-era prose and conceptual question fs-id1169738209354 for review; those remain unchanged. Pending preview refresh.
+
+Section 14.14: applied approved Higgs prose and conceptual-question revisions. Exercise identity and ordering preserved; no renumbering.
+
+Higgs glossary: changed "spin-0 particle" to "particle with zero spin" for readability. Pending next preview refresh.
+
+Chapter 14 glossary: renamed photomultiplier to photomultiplier tube and clarified faint-light conversion and successive electron multiplication. Existing entry anchors preserved. Pending next preview refresh.
+
+Section 14.14: applied approved Standard Model glossary, explanatory paragraph, and section-summary revisions. Clarified particle content, interactions, and limitations; removed proposed-gluon wording. Existing anchors preserved. Pending next preview refresh.
+
+Section 14.13: clarified strangeness definition, conservation rules and quark interpretation; added qualified Gell-Mann maxim; corrected kaon charge accounting and signed strangeness change. Example identity preserved.
+
+Section 14.13: applied approved antiproton storage explanation (electric and magnetic confinement, density and technical limitations) and matter-antimatter imbalance scope statement. Removed misleading magnetic-field power claim and later-chapter promise. Pending next preview refresh.
+
+Section 14.13: applied approved hadron-lepton distinction, defining composite hadrons and elementary leptons and clarifying that both participate in weak interactions. Existing term anchors preserved. Pending next preview refresh.
+
+Section 14.13: removed redundant zero or from boson integer-spin definition in prose and matching glossary entry; retained spin examples and markup. Pending next preview refresh.
+
+Section 14.13 only: standardized all electron, muon and tau family subscripts on lepton numbers and neutrinos to explicit italic styling. Other sections unchanged. Pending next preview refresh.
+
+Section 14.13: clarified that the name baryon derives from the Greek for heavy. Pending next preview refresh.
+
+Section 14.13: reframed meson/baryon decay patterns as evidence illustrating conservation rather than definitions. Kept quark introduction later and retained baryon-number discussion. Pending next preview refresh.
+
+Section 14.13: moved formal meson and baryon term anchors from initial decay discussion to new definitions after the quark introduction. Early mentions are plain text; glossary entries now define quark content. IDs preserved. Pending next preview refresh.
+
+Textbook glossary: applied approved canonical definitions and introduction points; distinguished lens power, polarized light and electric polarization; replaced duplicate glossary definitions with canonical cross-references while preserving previous anchors.
+
+G04: removed the vector addition glossary entry from Section 9.5. Section 1.3 vector coverage retained; no additional instruction or exercise changes. Pending next preview refresh.
+
+G06: removed redundant thermal agitation glossary and formal-term styling in 11.5; earlier random thermal motion coverage confirmed in energy and heat sections. Ordinary prose and term anchor retained. Pending preview refresh.
+
+G07: removed the double-slit interference glossary entry from Section 12.7. No prose or exercise changes. Pending next preview refresh.
+
+G08: removed decay equation glossary entry and formal-term styling in Section 14.5. Ordinary wording, equations and exercise numbering retained. Pending next preview refresh.
+
+G14/G15: removed eleven equation-label/procedural glossary entries and associated formal-term styling. Equations, explanations, prose anchors and exercise numbering retained. Pending preview refresh.
+
+G19: defined electromagnets with matching glossary in 10.3; defined electromagnetism broadly with matching glossary in 11.2 at Maxwell unification discussion. Existing anchors retained. Pending preview refresh.
+
+Glossary quality batch: applied focused definitions, canonical placements and prose consistency corrections from approved groups. G17 and G33 held for broader prose review. Equations and exercise numbering retained; pending preview refresh.
+
+Approved glossary batch follow-up: synchronized proper-time, curie-history and approximate vacuum-permeability prose; clarified activity versus finite detector counts. Exact proposals for 14 remaining groups plus held G17/G33 are in reports/1.1/glossary-wording-decisions.md.
+
+G20: applied approved qualitative Ampere/Biot-Savart prose and glossary definitions. Maxwell extension links to the section title using module m52443, without a section number. Pending preview refresh. After glossary review, scan hard-coded chapter/section references for renumbering resilience.
+
+G22: applied thermal-equilibrium temperature definition and simple absolute-zero lower-limit wording in Section 8.2 and glossary. Removed all-motion-ceases claim; no quantum caveat added. Pending preview refresh.
+
+G28: applied approved Feynman-diagram and gauge-boson explanations and glossary definitions in 14.12/14.13, retaining gauge field terminology. Anchors preserved; pending preview refresh.
+
+Applied all remaining approved glossary groups (G05, G17, G27, G29, G33, G34, G36, G39, G42, G46, G47, G49, G51), including five G51 removals. G49 experimental milestones unchanged. Preserved IDs and exercise numbering. Pending preview refresh. Next review: hard-coded chapter/section references before renumbering.
+
+Final glossary consistency pass synchronized quantum measurement discussion, entropy summaries/caption and model-dependent unification/proton-decay wording. No updated lifetime limit or fusion experimental milestone added. Next review remains hard-coded chapter/section references before renumbering.
+
+- Scanned all 141 maintained modules for hard-coded chapter/section references. Replaced the garden-hose momentum question’s “Chapter 2” reference with the linked title “Newton’s Third Law of Motion: Symmetry in Forces,” preserving its target and exercise number. Retained three section numbers citing external prescribing documents.
+
+- Chapter 14: applied the approved exercise review (19 keep, 44 revise, 132 remove), plus ten separate fixed MyOpenMath-aligned questions. Final 73 questions follow textbook topic order and, per the maintainer’s subsequent instruction, are renumbered 1–73. Eighteen optional extensions are marked. Body prose unchanged; internal crosswalk and provenance: reports/1.1/chapter14-structure/applied-question-set.json.
+
+- Chapter 14 exercises: standardized spelled-out radiation names to native MathML α, β⁻, β⁺ and γ in 16 questions; numbers, order and remaining wording preserved.

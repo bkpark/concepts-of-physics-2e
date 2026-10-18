@@ -1,0 +1,8 @@
+{
+  "id": "HOOKE-SUMMARY-EQUATION-SPACING",
+  "path": "prototype/style.css",
+  "before_sha256": "c52781c82577a17f3d8db1be48c15c14f2a9002500bfe5b507ae44a2f464d27a",
+  "after_sha256": "d2c2105e32a367b9213f60095dcb149fa8e20c4e6ed680eabdadd6490ed0ce38",
+  "added_css": "\n/* Keep the short Hooke's-law summary equation close to its sentence. */\n#m67045--696d706f72742d6175746f2d696433333835303436{margin:.4em 0}\n#m67045--696d706f72742d6175746f2d696433333835303436 + .para{margin-top:0}\n",
+  "reason": "Live browser inspection found standard 18px vertical equation margins and a following paragraph with 14.4px margins. Reduce only this short summary equation to 0.4em and remove the adjacent paragraph top margin so it cannot override the smaller gap."
+}

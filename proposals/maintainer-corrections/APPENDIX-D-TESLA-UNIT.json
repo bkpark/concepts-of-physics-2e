@@ -1,0 +1,14 @@
+{
+  "id": "APPENDIX-D-TESLA-UNIT",
+  "status": "approved",
+  "description": "Identify tesla explicitly as the SI unit of magnetic field strength B.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42709/index.cnxml",
+      "before_sha256": "e42d1898021a1e9ca04efc27ecfc636a91a522228863b2e415c922a6dcd16142",
+      "after_sha256": "21605debcf4174779b2b42a62176cb7dc469c692c33184bfd451c9ff00c42247",
+      "before": "tesla (magnetic field strength",
+      "after": "tesla (SI unit of magnetic field strength"
+    }
+  ]
+}

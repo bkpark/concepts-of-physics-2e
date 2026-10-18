@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-67-REMOVE-NEUTRON-MAGNETIC-MOMENT",
+  "status": "approved",
+  "description": "Remove Exercise 67 on the neutron magnetic moment at maintainer request; following exercises renumber automatically.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "b4bc0a686fb561fe9378d037452ceb61af4bd56785304a150da42b9d8caf9de6",
+      "after_sha256": "c4b4d5ff5bd2e50668d999511deea1a17040050046a98ecc7c88037e8134d304",
+      "before": "<exercise id=\"fs-id1169738138014\" type=\"conceptual-questions\"><problem id=\"fs-id1169738138014-revised-problem\"><para id=\"fs-id1169738138014-revised-p1\"><span id=\"fs-id1169738138014-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> A neutron has zero net electric charge but has a magnetic moment and interacts electromagnetically. How is this possible? Explain using its internal quark structure.</para></problem></exercise>",
+      "after": ""
+    }
+  ]
+}

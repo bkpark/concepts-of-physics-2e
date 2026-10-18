@@ -1,0 +1,49 @@
+{
+  "version": {
+    "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_97191c13c3fc81919fb9d96265698a6e",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "version_number": 140,
+    "source": {
+      "commit_sha": "ff7e946de3e5ef889174465b3aa9b18870bd7187"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000003ab481f885c26b2d6d46b3cc",
+      "content_hash": "sha256:476e1b339586963e59572e8f31edb49a2abe6e48065fc67e4a34fb82f0afa010",
+      "size_bytes": 131041280,
+      "file_count": 753
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ad2fc7af9c0819189dfe90d69626dde",
+    "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+    "title": "Introduction to Physics — 1.1 Preview",
+    "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_97191c13c3fc81919fb9d96265698a6e",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-17T04:41:41.399557+00:00"
+  },
+  "canonical_url": "https://intro-1-1.coaphys.xyz",
+  "exercise_count": 73,
+  "additions": 10,
+  "optional_extensions": 18,
+  "build": {
+    "issues": {},
+    "math": 6360,
+    "search_passages": 8431
+  },
+  "checks": {
+    "numbering": "1–73",
+    "topic_order": true,
+    "mobile_overflow": [],
+    "source_body_unchanged": true
+  }
+}

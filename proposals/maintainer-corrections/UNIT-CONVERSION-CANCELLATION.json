@@ -1,0 +1,12 @@
+{
+  "id": "UNIT-CONVERSION-CANCELLATION",
+  "changes": [
+    {
+      "path": "maintained/modules/m67032/index.cnxml",
+      "before_sha256": "57e861e032c5f7a778180778e4456103ad941edb0e941793e7b53fe4a95b0f86",
+      "after_sha256": "6768a7d40a09295a3379946ce8a6b30f262e46ea8ca263e5f67b66706e33906c",
+      "before": "<equation id=\"eip-442\" class=\"unnumbered\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>80</m:mn> <m:menclose notation=\"updiagonalstrike\"><m:mtext>m</m:mtext></m:menclose><m:mrow><m:mrow><m:mo stretchy=\"false\">\u00d7</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width=\"0.167em\" /><m:mtext>km</m:mtext></m:mrow><m:mrow><m:mn>1000</m:mn><m:menclose notation=\"updiagonalstrike\"><m:mtext>m</m:mtext></m:menclose></m:mrow></m:mfrac></m:mrow><m:mo stretchy=\"false\">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.080 km.</m:mtext></m:mrow></m:mrow><m:mrow /></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"80\"\" m\" times  {  {\"1 km\"}  over  {\"1000 m\"} } =0 \".\" \"080\"`\"km\"} {}</m:annotation></m:semantics></m:math></equation>",
+      "after": "<equation id=\"eip-442\" class=\"unnumbered\"><m:math><m:mrow><m:mn>80</m:mn><m:mspace width=\"0.167em\"/><m:menclose notation=\"updiagonalstrike\"><m:mtext>m</m:mtext></m:menclose><m:mo>\u00d7</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width=\"0.167em\"/><m:mtext>km</m:mtext></m:mrow><m:mrow><m:mn>1000</m:mn><m:mspace width=\"0.167em\"/><m:menclose notation=\"updiagonalstrike\"><m:mtext>m</m:mtext></m:menclose></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.080</m:mn><m:mspace width=\"0.167em\"/><m:mtext>km</m:mtext></m:mrow></m:math>.</equation>"
+    }
+  ]
+}

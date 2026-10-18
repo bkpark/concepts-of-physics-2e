@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-71-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label from the unified-forces correspondence question (preview Exercise 71, now 70).",
+  "changes": [
+    {
+      "path": "maintained/modules/m42680/index.cnxml",
+      "before_sha256": "775149b44443a6557915046f0c6fcb2668f8edbaaa5eee41a8d1ca261aec59f6",
+      "after_sha256": "14590a112d864cab0c1a200c7ea75f812aa0a9fa03fcce57fac30b0bb00ca391",
+      "before": "<exercise id=\"fs-id1169737846704\" type=\"conceptual-questions\"><problem id=\"fs-id1169737723774\"><para id=\"fs-id1169736659526\"><emphasis effect=\"bold\">Extension.</emphasis> If a deeper theory successfully unifies all four forces, it will still be correct to say that the orbit of the moon is determined by the gravitational force. Explain why.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169737846704\" type=\"conceptual-questions\"><problem id=\"fs-id1169737723774\"><para id=\"fs-id1169736659526\">If a deeper theory successfully unifies all four forces, it will still be correct to say that the orbit of the moon is determined by the gravitational force. Explain why.</para></problem></exercise>"
+    }
+  ]
+}

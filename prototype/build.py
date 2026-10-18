@@ -172,7 +172,8 @@ class Renderer:
                 if 'section-summary' in ancestor.get('class','').split() or (local(ancestor)=='section' and text(title).lower() in ('section summary','chapter summary')):
                     in_summary=True;break
             visible_label=label if not in_summary or obj.get('summary_original') else None
-            return f'<div class="equation"{aid}><div>{self.content(e)}</div><span class="eq-label">{("("+esc(visible_label)+")") if visible_label else ""}</span></div>'
+            extra_class=" reaction-energy" if "reaction-energy" in e.get("class", "").split() else ""
+            return f'<div class="equation{extra_class}"{aid}><div>{self.content(e)}</div><span class="eq-label">{("("+esc(visible_label)+")") if visible_label else ""}</span></div>'
         if tag in ('example','exercise','note'):
             heading=(tag.title()+' '+str(label)) if label else (tag.title() if tag!='note' else '')
             return f'<div class="{tag}"{aid}>'+ (f'<div class="object-title">{esc(heading)}</div>' if heading else '')+self.content(e)+'</div>'
@@ -208,7 +209,11 @@ class Renderer:
             heading=f'<caption>Table {esc(label or "(unnumbered)")}. {self.content(caption)}</caption>' if caption is not None else ''
             body=esc(e.text or '')+''.join(self.render(x)+esc(x.tail or '') for x in e if local(x) not in ('title','caption'))
             summary=f' aria-label="{esc(e.get("summary"))}"' if e.get('summary') else ''
-            return f'<div class="table-wrap"{aid}><table{summary}>{heading}{body}</table></div>'
+            notes=e.find('c:caption',NS) if e.find('c:title',NS) is not None else None
+            notes_id=anchor(mid,e.get('id'))+'-notes' if notes is not None else ''
+            description=f' aria-describedby="{notes_id}"' if notes is not None else ''
+            footer=f'<div class="table-notes" id="{notes_id}"><div class="table-notes-title">Table notes</div>{self.content(notes)}</div>' if notes is not None else ''
+            return f'<div class="table-wrap"{aid}><table{summary}{description}>{heading}{body}</table>{footer}</div>'
         if tag=='footnote':return f'<span class="footnote"{aid}> [Note: {self.content(e)}]</span>'
         if tag=='newline':return '<br>'
         tags={'para':'div','content':'div','section':'section','item':'li','term':'dfn','definition':'div','meaning':'div','glossary':'section','problem':'div','tgroup':'tbody','thead':'thead','tbody':'tbody','row':'tr','sub':'sub','sup':'sup','span':'span','div':'div','caption':'caption'}
@@ -251,10 +256,12 @@ def page(title,body,prefix='',website=True):
         site_links += ' · <a href="'+prefix+'search/index.html">Search</a>'
     if RELEASE:
         canonical=release['public_origin']+'/'
-        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
+        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><link rel="icon" type="image/svg+xml" href="'+prefix+'favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="'+prefix+'favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="'+prefix+'favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="'+prefix+'apple-touch-icon.png"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><link rel="icon" type="image/svg+xml" href="'+prefix+'favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="'+prefix+'favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="'+prefix+'favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="'+prefix+'apple-touch-icon.png"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
 
 OUT.mkdir(parents=True,exist_ok=True);shutil.copyfile(P/'style.css',OUT/'style.css');shutil.copyfile(P/'copy-math.js',OUT/'copy-math.js');shutil.copyfile(P/'theme.js',OUT/'theme.js')
+for icon in ('favicon.svg','favicon.ico','favicon-16.png','favicon-32.png','apple-touch-icon.png'):
+    shutil.copyfile(P/'assets'/icon,OUT/icon)
 book=[]
 for mid in IDS:
     source_dir=OUT/'source'/mid;source_dir.mkdir(parents=True,exist_ok=True)
@@ -305,6 +312,16 @@ if FULL and PROFILE=='course':
             body='<h1>Chapter '+esc(view['chapter_label'])+': '+esc(chapter_title)+' — Review and Exercises</h1><nav aria-label="Chapter review"><a href="#glossary">Glossary</a> · <a href="#summary">Section Summary</a> · <a href="#questions">Questions and Exercises</a></nav>'
             body+='<section id="glossary"><h2>Glossary</h2>'
             terms=[p for b in collected if b['kind']=='glossary' for p in b['parts']]
+            # Approved merger: retain both source anchors for the shared gluon definition.
+            if view['chapter_label']=='14':
+                gluons=[p for p in terms if p['term'].casefold()=='gluons']
+                if len(gluons)>1:
+                    normalized=lambda p:re.sub(r' id="[^"]*"','',p['html'])
+                    if all(normalized(p)==normalized(gluons[0]) for p in gluons[1:]):
+                        aliases=''.join('<span id="'+esc(i)+'"></span>' for p in gluons[1:] for i in re.findall(r' id="([^"]*)"',p['html']))
+                        terms=[p for p in terms if p not in gluons[1:]]
+                        first=terms.index(gluons[0])
+                        terms[first]={**gluons[0],'html':aliases+gluons[0]['html']}
             body+=''.join(p['html'] for p in sorted(terms,key=lambda p:p['term'].casefold()))+'</section>'
             for kind,title in [('summary','Section Summary'),('questions','Questions and Exercises')]:
                 body+='<section id="'+kind+'"><h2>'+title+'</h2>'

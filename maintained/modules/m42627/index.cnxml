@@ -39,40 +39,23 @@
 <section id="fs-id2969225" class="section-summary"><title>Section Summary</title><list id="fs-id1587135">
         <item>Radiation detectors are based directly or indirectly upon the ionization created by radiation, as are the effects of radiation on living and inert materials.</item>
         </list>
-        </section><section id="fs-id2042988" class="conceptual-questions" type="conceptual-questions">
-            <title>Questions and Exercises</title>
-            <exercise id="fs-id1517480" type="conceptual-questions"><problem id="fs-id1446888">
-<para id="import-auto-id1568371"> Is it possible for light emitted by a scintillator to be too low in frequency to be used in a photomultiplier tube? Explain.</para>
+        </section><section id="fs-id2042988" class="conceptual-questions" type="conceptual-questions"><title>Questions and Exercises</title>
+<exercise id="eip-144" type="conceptual-questions"><problem id="eip-144-revised-problem"><para id="eip-144-revised-p1">What does it mean to ionize an atom or molecule? Explain how ionizing radiation can damage living cells even when the incident radiation is electrically neutral.</para></problem></exercise>
+<exercise id="c14-mom-a3" type="conceptual-questions"><problem id="c14-mom-a3-problem"><para id="c14-mom-a3-p1">Explain why ionizing radiation can damage living cells. In your answer, describe what ionization does to an atom or molecule and how this can affect DNA or other cell structures. Does the radiation itself need to carry an electric charge to cause this damage?</para></problem></exercise>
+<exercise id="fs-id2437827" type="conceptual-questions"><problem id="fs-id2437827-revised-problem"><para id="fs-id2437827-revised-p1"><span id="fs-id2437827-extension"/>A gas detector requires an average of 30 eV of deposited energy per ion pair produced. A particle deposits 0.60 MeV in the gas. Estimate the number of ion pairs produced. Use <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mn>1</m:mn><m:mspace width="0.167em"/><m:mtext>MeV</m:mtext><m:mo>=</m:mo><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>eV</m:mtext></m:mrow></m:math>.</para></problem></exercise>
+<exercise id="fs-id1517480" type="conceptual-questions"><problem id="fs-id1446888">
+<para id="import-auto-id1568371">Is it possible for light emitted by a scintillator to be too low in frequency to be used in a photomultiplier tube? Explain.</para>
 </problem></exercise>
 </section>
         
-        <section id="fs-id1967602" type="problems-exercises" class="problems-exercises">
-            <title>Questions and Exercises</title>
-            <exercise id="fs-id2437827" type="problems-exercises">
-            <problem id="fs-id1549236">   
-            <para id="import-auto-id1823725">The energy of 30.0 <m:math><m:semantics><m:mrow><m:mtext>eV</m:mtext></m:mrow></m:semantics></m:math> is required to ionize a molecule of the gas inside a Geiger tube, thereby producing an ion pair. Suppose a particle of ionizing radiation deposits 0.500 MeV of energy in this Geiger tube. What maximum number of ion pairs can it create?</para></problem>
-
-        </exercise>
-            
-            <exercise id="eip-144" type="problems-exercises"><problem id="eip-573">
-  <para id="eip-437">A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geiger tube as it passes through. What minimum energy was deposited, if 30.0 <m:math><m:semantics><m:mrow><m:mtext>eV</m:mtext></m:mrow></m:semantics></m:math>  is required to create each ion pair?
-  </para></problem>
-
-</exercise><exercise id="eip-811" type="problems-exercises"><problem id="eip-572">
-  <para id="eip-588">(a) Repeat <link target-id="eip-144"/>, and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its temperature increase, assuming <m:math><m:semantics><m:mrow><m:mtext>50.0 c</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math>  of ideal gas at 0.250-atm pressure? (The small answer is consistent with the fact that the energy is large on a quantum mechanical scale but small on a macroscopic scale.)
-  </para></problem>
-
-</exercise><exercise id="eip-405" type="problems-exercises"><problem id="eip-351">
-  <para id="eip-691">Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger tube, all of which goes to creating ion pairs. Each ion pair requires 30.0 eV of energy. (a) The applied voltage sweeps the ions out of the gas in  <m:math><m:semantics><m:mrow><m:mtext>1.00</m:mtext><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:semantics></m:math>. What is the current? (b) This current is smaller than the actual current since the applied voltage in the Geiger tube accelerates the separated ions, which then create other ion pairs in subsequent collisions. What is the current if this last effect multiplies the number of ion pairs by 900?</para></problem>
-
-</exercise></section>
+        
         
     </content>
     <glossary>
-        <definition id="import-auto-id3037273"><term>Geiger tube</term> <meaning id="fs-id3379134">a very common radiation detector that usually gives an audio output</meaning></definition>
-        <definition id="import-auto-id2681604"><term>photomultiplier</term> <meaning id="fs-id3079793">a device that converts light into electrical signals</meaning></definition>
-        <definition id="import-auto-id2672640"><term>radiation detector</term> <meaning id="fs-id3079442">a device that is used to detect and track the radiation from a radioactive reaction</meaning></definition>
-        <definition id="import-auto-id1828262"><term>scintillators</term> <meaning id="fs-id1842845">a radiation detection method that  records light produced when radiation interacts with materials</meaning></definition>
+        <definition id="import-auto-id3037273"><term>Geiger tube</term> <meaning id="fs-id3379134">a gas-filled radiation detector in which ionizing radiation triggers an electrical discharge that can be registered as a count</meaning></definition>
+        <definition id="import-auto-id2681604"><term>photomultiplier tube</term> <meaning id="fs-id3079793">a device that converts faint light into an electrical signal and amplifies it through successive stages of electron multiplication</meaning></definition>
+        <definition id="import-auto-id2672640"><term>radiation detector</term> <meaning id="fs-id3079442">a device that registers radiation through its interaction with matter</meaning></definition>
+        <definition id="import-auto-id1828262"><term>scintillators</term> <meaning id="fs-id1842845">materials that emit brief flashes of light when they absorb energy from ionizing radiation</meaning></definition>
         <definition id="import-auto-id1401769"><term>solid-state radiation detectors</term> <meaning id="fs-id1848799">semiconductors fabricated to directly convert incident radiation into electrical current</meaning></definition>
     </glossary>
 </document>

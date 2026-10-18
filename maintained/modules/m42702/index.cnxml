@@ -8,7 +8,8 @@
 </metadata>
 
 <content class="appendix">
-    <para id="import-auto-id2205639">Decay modes are <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math>, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>, electron capture (EC) and isomeric transition (IT). EC results in the same daughter nucleus as would <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> decay. IT is a transition from a metastable excited state. Energies for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ +- {}} } } {}</m:annotation></m:semantics></m:math> decays are the maxima; average energies are roughly one-half the maxima. </para>
+    <para id="import-auto-id2205639">This table lists selected emissions. Decay modes are alpha decay (α), beta-minus decay (β−), positron emission (β+), electron capture (EC), and isomeric transition (IT). The suffix m identifies a metastable nuclear state. Alpha energies are the kinetic energies of the emitted particles, excluding daughter-nucleus recoil. Beta energies are spectrum endpoints; the mean energy depends on the spectrum and is not generally half the endpoint. EC and IT have no particle energy listed in that column.</para>
+<para id="appendix-b-yield-conventions">Particle yields are emitted particles per 100 decays of the listed isotope; entries beside EC or IT give decays through that mode per 100 decays. Photon yields are gamma photons per 100 parent decays, including the indicated daughter de-excitations, rather than probabilities for transitions that can also produce conversion electrons. Daughter isomers can delay photon emission. The left and right entries on the same line are independent lists, not necessarily coincident emissions. Only selected emissions are shown; yields need not sum to 100. X-rays, conversion electrons, annihilation photons, and later radioactive-daughter emissions are omitted, except for the listed Ba-137m and Mn-52m transitions following Cs-137 and Fe-52 decay.</para>
     <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1923293" summary="Table_B_01"><title>Selected Radioactive Isotopes</title>
 <tgroup cols="8"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -19,22 +20,8 @@
         <colspec colnum="7" colname="c7"/>
         <colspec colnum="8" colname="c8"/>
 
-        <thead>
-          <row>
-            <entry align="center">Isotope</entry>
-            <entry align="center">
-            <emphasis effect="italics">t</emphasis> <sub>1/2</sub>
-            </entry>
-            <entry align="center">DecayMode(s)</entry>
-            <entry align="center">Energy(MeV)</entry>
-            <entry align="center">Percent</entry>
-            <entry/>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>-Ray Energy(MeV)</entry>
-            <entry align="center">Percent</entry>
-          </row>
-</thead><tbody>
-          <row>
-            <entry align="center">
+        <thead><row><entry align="center">Isotope</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:msub></m:math></entry><entry align="center">Decay mode</entry><entry align="center">Particle energy (MeV)</entry><entry align="center">Per 100 decays</entry><entry align="center">Photon</entry><entry align="center">Photon energy (MeV)</entry><entry align="center">Photons per 100 decays</entry></row></thead><tbody>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -47,20 +34,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 3 {}} }H} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">12.33 y</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">0.0186</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">12.32(2) y</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.0186</entry><entry align="center">100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -73,41 +51,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 6 {}} }Li} {}</m:annotation>
+
 </m:semantics>
 </m:math>
 
-            </entry>
-            <entry align="center">5730 y</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.156</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>5.70(3)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.1565</entry><entry align="center">100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -120,40 +69,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 13 {}} }N} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">9.96 min</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">+</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.20</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">9.965(4) min</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>+</m:mo></m:msup></m:math></entry><entry align="center">1.198</entry><entry align="center">99.8</entry><entry/><entry/><entry/></row>
+<row><entry/><entry/><entry align="center">EC</entry><entry/><entry align="center">0.197</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -166,52 +87,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 6 {}} }Li} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">2.602 y</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">+</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.55</entry>
-            <entry align="center">90%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.27</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">2.6019(6) y</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>+</m:mo></m:msup></m:math></entry><entry align="center">0.5464</entry><entry align="center">90.3</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.275</entry><entry align="center">99.9</entry></row>
+<row id="appendix-b-na-22-capture"><entry/><entry/><entry align="center">EC</entry><entry/><entry align="center">9.64</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -224,40 +105,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 32 {}} }P} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">14.28 d</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.71</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">14.269(7) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">1.711</entry><entry align="center">100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -270,20 +122,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 35 {}} }S} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">87.4 d</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">0.167</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">87.37(4) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.1673</entry><entry align="center">100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -296,66 +139,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 36 {}} }Cl} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>3</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>00</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>5</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "00" times "10" rSup { size 8{5} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.710</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>3.013(15)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.7095</entry><entry align="center">98.1</entry><entry/><entry/><entry/></row>
+<row id="appendix-b-cl-36-capture"><entry/><entry/><entry align="center">EC</entry><entry/><entry align="center">1.9</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -368,66 +157,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 40 {}} }K} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>1</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>28</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>9</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "28" times "10" rSup { size 8{9} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.31</entry>
-            <entry align="center">89%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>1.248(3)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">1.311</entry><entry align="center">89.6</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.461</entry><entry align="center">10.3</entry></row>
+<row id="appendix-b-k-40-capture"><entry/><entry/><entry align="center">EC</entry><entry/><entry align="center">10.4</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -440,64 +175,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 43 {}} }K} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">22.3 h</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.827</entry>
-            <entry align="center">87%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                    <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.373</entry>
-            <entry align="center">87%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.618</entry>
-            <entry align="center">87%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">22.3(1) h</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.827</entry><entry align="center">92.2</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3728</entry><entry align="center">87.3</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.6175</entry><entry align="center">80.5</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -510,20 +193,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 6 {}} }Li} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">165 d</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">0.257</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">162.61(9) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.2580</entry><entry align="center">≈100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -536,32 +210,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 51 {}} }Cr} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">27.70 d</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.320</entry>
-            <entry align="center">10%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">27.7015(11) d</entry><entry align="center">EC</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3201</entry><entry align="center">9.89</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -574,64 +227,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 52 {}} }Mn} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">5.59d</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">+</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">3.69</entry>
-            <entry align="center">28%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                    <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.33</entry>
-            <entry align="center">28%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">1.43</entry>
-            <entry align="center">28%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">5.591(3) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>+</m:mo></m:msup></m:math></entry><entry align="center">0.576</entry><entry align="center">30.9</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.334</entry><entry align="center">5.08</entry></row>
+<row><entry/><entry/><entry align="center">EC</entry><entry/><entry align="center">≈69</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.434</entry><entry align="center">≈100</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -644,50 +245,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 52 {}} }Fe} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">8.27 h</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">+</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.80</entry>
-            <entry align="center">43%</entry>
-            <entry/>
-            <entry align="center">0.169</entry>
-            <entry align="center">43%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.378</entry>
-            <entry align="center">43%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">8.275(8) h</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>+</m:mo></m:msup></m:math></entry><entry align="center">0.807</entry><entry align="center">56.1</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1687</entry><entry align="center">99.1</entry></row>
+<row><entry/><entry/><entry align="center">EC</entry><entry/><entry align="center">43.9</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3777</entry><entry align="center">1.64</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -700,67 +263,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 59 {}} }Fe} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">44.6 d</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:msup>
-                          <m:mi>β</m:mi>
-                          <m:mrow>
-                            <m:mrow>
-                              <m:mo stretchy="false">−</m:mo>
-                              <m:mrow/>
-                            </m:mrow>
-                          </m:mrow>
-                        </m:msup>
-                        <m:mtext>s</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } s} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.273</entry>
-            <entry align="center">45%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                  <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.10</entry>
-            <entry align="center">57%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.466</entry>
-            <entry align="center">55%</entry>
-            <entry/>
-            <entry align="center">1.29</entry>
-            <entry align="center">43%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">44.500(12) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.2734</entry><entry align="center">45.2</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.099</entry><entry align="center">56.5</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.4657</entry><entry align="center">53.3</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.292</entry><entry align="center">43.2</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -773,44 +281,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 60 {}} }Co} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">5.271 y</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">0.318</entry>
-            <entry align="center">100%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.17</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">1.33</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">5.2714(6) y</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.3173</entry><entry align="center">99.9</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.173</entry><entry align="center">99.9</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.332</entry><entry align="center">≈100</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -823,31 +299,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 65 {}} }Zn} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">244.1 d</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.12</entry>
-            <entry align="center">51%</entry>
-</row><row>
-         <entry align="center">
+            </entry><entry align="center">243.94(4) d</entry><entry align="center">EC</entry><entry/><entry align="center">98.6</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.116</entry><entry align="center">50.2</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>+</m:mo></m:msup></m:math></entry><entry align="center">0.3299</entry><entry align="center">1.42</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -860,64 +317,13 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 67 {}} }Ga} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">78.3 h</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.0933</entry>
-            <entry align="center">70%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.185</entry>
-            <entry align="center">35%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.300</entry>
-            <entry align="center">19%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">3.2617(4) d</entry><entry align="center">EC</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.09331</entry><entry align="center">38.1</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1846</entry><entry align="center">21.0</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3002</entry><entry align="center">16.6</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -930,74 +336,14 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 75 {}} }Se} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">118.5 d</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.121</entry>
-            <entry align="center">20%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.136</entry>
-            <entry align="center">65%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.265</entry>
-            <entry align="center">68%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.280</entry>
-            <entry align="center">20%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">119.78(3) d</entry><entry align="center">EC</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1211</entry><entry align="center">16.9</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1360</entry><entry align="center">57.7</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.2647</entry><entry align="center">58.8</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.2795</entry><entry align="center">24.9</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1010,65 +356,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 86 {}} }Rb} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">18.8 d</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:msup>
-                          <m:mi>β</m:mi>
-                          <m:mrow>
-                            <m:mrow>
-                              <m:mo stretchy="false">−</m:mo>
-                              <m:mrow/>
-                            </m:mrow>
-                          </m:mrow>
-                        </m:msup>
-                        <m:mtext>s</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } s} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.69</entry>
-            <entry align="center">9%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.08</entry>
-            <entry align="center">9%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">1.77</entry>
-            <entry align="center">91%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">18.645(8) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.698</entry><entry align="center">8.71</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">1.077</entry><entry align="center">8.71</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">1.774</entry><entry align="center">91.3</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1081,32 +374,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 85 {}} }Sr} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">64.8 d</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.514</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">64.846(6) d</entry><entry align="center">EC</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.5140</entry><entry align="center">98.5</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1119,20 +391,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 90 {}} }Sr} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">28.8 y</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">0.546</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">28.91(3) y</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.546</entry><entry align="center">100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1145,20 +408,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 90 {}} }Y} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">64.1 h</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">2.28</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">64.05(5) h</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">2.279</entry><entry align="center">≈100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1171,32 +425,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 99m {}} }Tc} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">6.02 h</entry>
-            <entry align="center">IT</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.142</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">6.0066(2) h</entry><entry align="center">IT</entry><entry/><entry align="center">≈100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1405</entry><entry align="center">88.5</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1209,32 +442,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 113m {}} }In} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">99.5 min</entry>
-            <entry align="center">IT</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.392</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">1.6579(4) h</entry><entry align="center">IT</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3917</entry><entry align="center">65.0</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1247,48 +459,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 123 {}} }I} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">13.0 h</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.159</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mrow/>
-                        <m:mtext>≈100%</m:mtext>
-                        <m:mtext/>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{ approx "100"%} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">13.2232(15) h</entry><entry align="center">EC</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1590</entry><entry align="center">83.3</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1301,77 +476,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 131 {}} }I} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">8.040 d</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:msup>
-                          <m:mi>β</m:mi>
-                          <m:mrow>
-                            <m:mrow>
-                              <m:mo stretchy="false">−</m:mo>
-                              <m:mrow/>
-                            </m:mrow>
-                          </m:mrow>
-                        </m:msup>
-                        <m:mtext>s</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } s} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.248</entry>
-            <entry align="center">7%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.364</entry>
-            <entry align="center">85%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.607</entry>
-            <entry align="center">93%</entry>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">8.0249(6) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.2479</entry><entry align="center">2.13</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3645</entry><entry align="center">81.2</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.6063</entry><entry align="center">89.4</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1384,64 +494,13 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 129 {}} }Cs} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">32.3 h</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.0400</entry>
-            <entry align="center">35%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.372</entry>
-            <entry align="center">32%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.411</entry>
-            <entry align="center">25%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">32.06(6) h</entry><entry align="center">EC</entry><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.03958</entry><entry align="center">2.97</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.3719</entry><entry align="center">30.6</entry></row>
+<row><entry/><entry/><entry/><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.4115</entry><entry align="center">22.3</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1454,42 +513,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 137 {}} }Cs} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">30.17 y</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } s} {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">0.511</entry>
-            <entry align="center">95%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.662</entry>
-            <entry align="center">95%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">1.17</entry>
-            <entry align="center">5%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">30.04(4) y</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.5140</entry><entry align="center">94.6</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.6617</entry><entry align="center">85.0</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">1.176</entry><entry align="center">5.43</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1502,100 +531,13 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 140 {}} }Ba} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">12.79 d</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>β</m:mi>
-                        <m:mrow>
-                          <m:mrow>
-                            <m:mo stretchy="false">−</m:mo>
-                            <m:mrow/>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:msup>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">1.035</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mrow/>
-                          <m:mtext>≈100%</m:mtext>
-                          <m:mtext/>
-                        </m:mrow>
-                      </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{ approx "100"%} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.030</entry>
-            <entry align="center">25%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.044</entry>
-            <entry align="center">65%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">0.537</entry>
-            <entry align="center">24%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">12.7534(21) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.467</entry><entry align="center">24.9</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.02996</entry><entry align="center">14.4</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">1.004</entry><entry align="center">35.6</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1627</entry><entry align="center">6.49</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">1.018</entry><entry align="center">25.6</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.5373</entry><entry align="center">24.6</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1608,64 +550,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 198 {}} }Au} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">2.696 d</entry>
-            <entry align="center"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> ­</entry>
-            <entry align="center">1.161</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mrow/>
-                          <m:mtext>≈100%</m:mtext>
-                          <m:mtext/>
-                        </m:mrow>
-                      </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{ approx "100"%} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.412</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mrow/>
-                        <m:mtext>≈100%</m:mtext>
-                        <m:mtext/>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{ approx "100"%} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">2.69464(14) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msup><m:mi>β</m:mi><m:mo>−</m:mo></m:msup></m:math></entry><entry align="center">0.9610</entry><entry align="center">99.0</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.4118</entry><entry align="center">95.6</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1678,32 +567,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 197 {}} }Hg} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">64.1 h</entry>
-            <entry align="center">EC</entry>
-            <entry/>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.0733</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">64.93(7) h</entry><entry align="center">EC</entry><entry/><entry align="center">100</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.07735</entry><entry align="center">18.8</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1716,34 +584,11 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 210 {}} }Po} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">138.38 d</entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi>α</m:mi>
-                        </m:mrow>
-                        <m:mrow/>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">5.41</entry>
-            <entry align="center">100%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center">138.376(2) d</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.304</entry><entry align="center">≈100</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1756,83 +601,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 226 {}} }Ra} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>1</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>60</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>3</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "60" times "10" rSup { size 8{3} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi fontstyle="italic">α</m:mi>
-<m:mtext>s</m:mtext>
-                        </m:mrow>
-                        <m:mrow/>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">4.68</entry>
-            <entry align="center">5%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.186</entry>
-            <entry align="center">100%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">4.87</entry>
-            <entry align="center">95%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>1.600(7)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.601</entry><entry align="center">5.95</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1862</entry><entry align="center">3.56</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.784</entry><entry align="center">94.0</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1845,90 +619,13 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 6 {}} }Li} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>7</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>038</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>8</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." "038" times "10" rSup { size 8{8} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi>α</m:mi>
-                        </m:mrow>
-                        <m:mrow/>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">4.68</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mrow/>
-                          <m:mtext>≈100%</m:mtext>
-                          <m:mtext/>
-                        </m:mrow>
-                      </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{ approx "100"%} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                     <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">numerous</entry>
-            <entry align="center">&lt;0.400%</entry>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>7.04(1)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.215</entry><entry align="center">5.95</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1438</entry><entry align="center">10.9</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.366</entry><entry align="center">18.8</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1634</entry><entry align="center">5.08</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.398</entry><entry align="center">57.2</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.1857</entry><entry align="center">57.0</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -1941,84 +638,12 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 6 {}} }Li} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>4</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>468</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>9</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{4 "." "468" times "10" rSup { size 8{9} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi fontstyle="italic">α</m:mi>
-                        </m:mrow>
-<m:mtext>s</m:mtext>
-                        <m:mrow/>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">4.22</entry>
-            <entry align="center">23%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi>γ</m:mi>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.050</entry>
-            <entry align="center">23%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">4.27</entry>
-            <entry align="center">77%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-
-          </row>
-    <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>4.463(3)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.151</entry><entry align="center">22.3</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.04955</entry><entry align="center">0.0697</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.198</entry><entry align="center">77.5</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -2031,87 +656,13 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 237 {}} }Np} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>2</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>14</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>6</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{2 "." "14" times "10" rSup { size 8{6} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi fontstyle="italic">α</m:mi>
-                        </m:mrow>
-
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">numerous</entry>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                      <m:mspace width="0.10em"/>
-
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">numerous</entry>
-            <entry align="center">&lt;0.250%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">4.96 (max.)</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>2.144(7)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.767</entry><entry align="center">9.5</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.02937</entry><entry align="center">14.3</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.771</entry><entry align="center">23.0</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.08648</entry><entry align="center">12.3</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">4.788</entry><entry align="center">47.6</entry><entry/><entry/><entry/></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -2124,134 +675,13 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 239 {}} }Pu} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>2</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>41</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>4</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{2 "." "41" times "10" rSup { size 8{4} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi fontstyle="italic">α</m:mi>
-                        </m:mrow>
-
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">5.19</entry>
-            <entry align="center">11%</entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                   <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                         <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>7</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mn>5</m:mn>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mrow>
-                                <m:mo stretchy="false">−</m:mo>
-                                <m:mn>5</m:mn>
-                              </m:mrow>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." 5 times "10" rSup { size 8{ - 5} } } {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">73%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">5.23</entry>
-            <entry align="center">15%</entry>
-            <entry/>
-            <entry align="center">0.013</entry>
-            <entry align="center">15%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">5.24</entry>
-            <entry align="center">73%</entry>
-            <entry/>
-            <entry align="center">0.052</entry>
-            <entry align="center">10%</entry>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry align="center">
+            </entry><entry align="center"><m:math><m:mrow><m:mn>2.411(3)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.106</entry><entry align="center">11.9</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mn>7.65</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−5</m:mn></m:msup></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mo>≈</m:mo><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:math></entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.144</entry><entry align="center">17.1</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.01298</entry><entry align="center">0.0341</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.157</entry><entry align="center">70.8</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.05162</entry><entry align="center">0.0269</entry></row>
+<row><entry align="center">
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
 <m:semantics>
 <m:mrow>
@@ -2264,106 +694,16 @@
 </m:mrow>
 </m:mmultiscripts><m:mrow />
 </m:mrow>
-<m:annotation encoding="StarMath 5.0"> size 12{rSup { size 8{ 243 {}} }Am} {}</m:annotation>
+
 </m:semantics>
 </m:math>
-            </entry>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mrow>
-                        <m:mn>7</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mrow>
-                          <m:mtext>37</m:mtext>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>3</m:mn>
-                            </m:mrow>
-                          </m:msup>
-                        </m:mrow>
-                        <m:mtext>y</m:mtext>
-                      </m:mrow>
-                    </m:mrow>
-                    <m:mrow/>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." "37" times "10" rSup { size 8{3} } y} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">
-
-                  <m:math>
-                    <m:semantics>
-                      <m:mrow>
-                        <m:mrow>
-                          <m:mi fontstyle="italic">α</m:mi>
-                        </m:mrow>
-
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                      </m:mrow>
-                      <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
-                    </m:semantics>
-                  </m:math>
-
-            </entry>
-            <entry align="center">Max. 5.44</entry>
-            <entry/>
-            <entry align="center">
-              <m:math>
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mi fontstyle="italic">γ</m:mi>
-                    </m:mrow>
-                  <m:mspace width="0.10em"/>
-                    <m:mrow/>
-                          <m:mtext>s</m:mtext>
-                  </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{γs} {}</m:annotation>
-                </m:semantics>
-              </m:math>
-            </entry>
-            <entry align="center">0.075</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">5.37</entry>
-            <entry align="center">88%</entry>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">5.32</entry>
-            <entry align="center">11%</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry align="center">others</entry>
-            <entry/>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-        </tbody>
+            </entry><entry align="center"><m:math><m:mrow><m:mn>7.350(9)</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.167em"/><m:mtext>y</m:mtext></m:mrow></m:math></entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.233</entry><entry align="center">11.5</entry><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>γ</m:mi></m:math></entry><entry align="center">0.07466</entry><entry align="center">67.2</entry></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.275</entry><entry align="center">86.7</entry><entry/><entry/><entry/></row>
+<row><entry/><entry/><entry align="center"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math></entry><entry align="center">5.349</entry><entry align="center">0.240</entry><entry/><entry/><entry/></row>
+</tbody>
 
 </tgroup>
-</table></content>
+</table>
+<para id="appendix-b-half-life-source">Half-lives follow <link url="https://doi.org/10.1088/1674-1137/abddae">NUBASE2020</link>, consistent with Appendix A. Parentheses give uncertainty in the last quoted digits. Emission data are rounded selections from the sources below; they may use a different evaluation of branching fractions from NUBASE2020.</para>
+<para id="appendix-b-emission-sources">Radiation energies and yields follow the <link url="https://www.lnhb.fr/home/nuclear-data/nuclear-data-table/">DDEP evaluated tables</link>, except for potassium-43, rubidium-86, indium-113m, and mercury-197 (<link url="https://www.lnhb.fr/Laraweb/">LNHB Nucléide-Lara</link>) and cesium-129 (<link url="https://mirdsoft.org/products/MIRDspecs/MIRDspecs_HTMLs/Cs-129.htm">ICRP Publication 107 data reproduced by MIRDspecs</link>). Potassium-43 and rubidium-86 beta endpoints are calculated from the LNHB decay-scheme energy differences. Sodium-22 and potassium-40 branching fractions follow DDEP consistently with their emission data. The sources provide full decay schemes, evaluation dates, and uncertainties. These selected, rounded data are intended for teaching.</para></content>
 </document>

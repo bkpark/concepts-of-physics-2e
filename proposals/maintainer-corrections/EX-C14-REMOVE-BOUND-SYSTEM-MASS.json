@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-REMOVE-BOUND-SYSTEM-MASS",
+  "status": "approved",
+  "description": "Remove published Exercise 35 about bound-system mass and bricks; renumber remaining exercises.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52471/index.cnxml",
+      "before_sha256": "9f4dcde16460326978e1ab599996d071f529474a9d6ef825678398e17d6b272d",
+      "after_sha256": "e9c37471b131ae2f8c50ea3814e41ecf87866b4e2bfb79d31a0de22a358d95c6",
+      "before": "<exercise id=\"fs-id1562211\" type=\"conceptual-questions\"><problem id=\"fs-id3174481\">\n    <para id=\"import-auto-id1980763\"><emphasis effect=\"bold\">Extension.</emphasis> Explain how a bound system can have less mass than its components. Why is this not observed classically, say for a building made of bricks?</para>\n    </problem></exercise>",
+      "after": ""
+    }
+  ]
+}

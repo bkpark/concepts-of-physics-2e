@@ -1,0 +1,127 @@
+{
+  "status": "approved",
+  "reason": "Maintainer approved removing equation-label and procedural glossary entries. Equations, explanatory wording and prose anchors retained; formal term styling removed. No source links target removed glossary IDs.",
+  "changes": [
+    {
+      "source": "maintained/modules/m52420/index.cnxml",
+      "before_sha256": "74c476b64ac183e59b171dc2eeaac81e3e3f58aeb9c232229ebd9888d6a30e80",
+      "after_sha256": "636379791c58a84a876ab542c4c5eefa94aefccbfddc06f5efa0830da2de9839",
+      "edits": [
+        {
+          "before": "<definition id=\"fs-id2426811\"><term>magnetic field strength (magnitude) produced by a long straight current-carrying wire</term><meaning id=\"fs-id1376401\">defined as <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:semantics></m:math> is the current, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the shortest distance to the wire, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> is the permeability of free space</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<definition id=\"fs-id3032371\"><term>magnetic field strength at the center of a circular loop</term><meaning id=\"fs-id1996502\">defined as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy=\"false\">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the radius of the loop</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<definition id=\"fs-id1556787\"><term>magnetic field strength inside a solenoid</term><meaning id=\"fs-id2264814\">defined as <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow /></m:mrow></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the number of loops per unit length of the solenoid (<m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mo lspace=\"0\" rspace=\"0\">/</m:mo><m:mi>l</m:mi></m:math>, with <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:semantics></m:math> being the number of loops and <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:semantics></m:math> the length)</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<term id=\"import-auto-id1166991858913\">magnetic field strength (magnitude) produced by a long straight current-carrying wire</term>",
+          "after": "<span id=\"import-auto-id1166991858913\">magnetic field strength (magnitude) produced by a long straight current-carrying wire</span>"
+        },
+        {
+          "before": "<term id=\"import-auto-id1166991833945\">magnetic field strength at the center of a circular loop</term>",
+          "after": "<span id=\"import-auto-id1166991833945\">magnetic field strength at the center of a circular loop</span>"
+        },
+        {
+          "before": "<term id=\"import-auto-id1166991865464\">magnetic field strength inside a solenoid</term>",
+          "after": "<span id=\"import-auto-id1166991865464\">magnetic field strength inside a solenoid</span>"
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m52466/index.cnxml",
+      "before_sha256": "7b4ae0215f6cb5bb67315745d531e40fa97b2b47d1c69e6464e42e203dc8047f",
+      "after_sha256": "6a1279290abf02fc2dc227fa07e10349c303218dd0912a0023b1cea2bc97d4a4",
+      "edits": [
+        {
+          "before": "<definition id=\"import-auto-id2459265\"><term>radius of a nucleus</term> <meaning id=\"fs-id1434610\">the radius of a nucleus is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>r</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msup><m:mi>A</m:mi><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy=\"false\" lspace=\"0\" rspace=\"0\">/</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{r=r rSub { size 8{0} } A rSup { size 8{1/3} } } {}</m:annotation></m:semantics></m:math></meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<term id=\"import-auto-id2597921\">radius of a nucleus</term>",
+          "after": "<span id=\"import-auto-id2597921\">radius of a nucleus</span>"
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m67807/index.cnxml",
+      "before_sha256": "3413ee8942f94c875ddd00bcb9ca3731e21672355ab5972009538ec15e86d403",
+      "after_sha256": "3072fb4af7a582f61d5b230cfab9df85b6cff6ec40db6f6ac6cd629b8303aae5",
+      "edits": [
+        {
+          "before": "<definition id=\"import-auto-id2617166\"><term>hydrogen spectrum wavelengths</term> <meaning id=\"fs-id1828825\">the wavelengths of visible light from hydrogen; can be calculated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo stretchy=\"false\">=</m:mo><m:mi>R</m:mi></m:mrow><m:mfenced open=\"(\" close=\")\"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msubsup><m:mi>n</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mfrac><m:mo stretchy=\"false\">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msubsup><m:mi>n</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{ {  {1}  over  {λ} } =R left ( {  {1}  over  {n rSub { size 8{f} }  rSup { size 8{2} } } }  -  {  {1}  over  {n rSub { size 8{i} }  rSup { size 8{2} } } }  right )} {}</m:annotation></m:semantics></m:math></meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<definition id=\"fs-id1623429\"><term>energies of hydrogen-like atoms</term><meaning id=\"fs-id1623432\">the allowed electron energies in the Bohr model of a one-electron atom or ion: <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>…</m:mo></m:mrow></m:math>), where <m:math><m:mrow><m:mi>Z</m:mi></m:mrow></m:math> is the nuclear charge number and <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>13.6</m:mn><m:mspace width=\"0.167em\"/><m:mtext>eV</m:mtext></m:mrow></m:math></meaning></definition>",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m71409/index.cnxml",
+      "before_sha256": "8f7de7f4a14db313bbf0ffb4629ccfd6e87853026ba23eacad939bb331d5b427",
+      "after_sha256": "f60ba48648874cc42819b2acaf5977a987aff248b6cee24e15582a67bbeb4c92",
+      "edits": [
+        {
+          "before": "<definition id=\"import-auto-id1165298540975\"><term>magnitude of static friction</term> <meaning id=\"fs-id1522740\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub><m:mo stretchy=\"false\">≤</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub></m:mrow><m:mspace width=\"0.25em\"/><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{f rSub { size 8{s} }  &lt;= μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the coefficient of static friction and <m:math><m:semantics><m:mi>N</m:mi></m:semantics></m:math> is the magnitude of the normal force</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<definition id=\"import-auto-id1165298541210\"><term>magnitude of kinetic friction</term><meaning id=\"fs-id1791136\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub><m:mo stretchy=\"false\">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> is the coefficient of kinetic friction</meaning></definition>",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m71583/index.cnxml",
+      "before_sha256": "90ad8252cf37d5c3a3ca2f6906a5db107a69c8715c2540255b32152b936f22d5",
+      "after_sha256": "a2245ef1755c7eb248fa1cc4cb1519d2d41afab182342f4441747e7fb407e615",
+      "edits": [
+        {
+          "before": "<definition id=\"import-auto-id1320719\"><term>change in momentum</term> <meaning id=\"fs-id1685333\">the difference between the final and initial momentum; the mass times the change in velocity</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<term>change in momentum</term>",
+          "after": "change in momentum"
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m71592/index.cnxml",
+      "before_sha256": "aacbce2122461cbf88b06325116653a9cdb2563c9eaabf14bbafcd9b2da4953e",
+      "after_sha256": "a96942e3d0d7c5451a77317c2f24ed436a5a984f780c9313cc150fcf559f3a0e",
+      "edits": [
+        {
+          "before": "<definition id=\"import-auto-id3224451\"><term>change in angular velocity</term> <meaning id=\"fs-id1930201\"> the difference between final and initial values of angular velocity</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<term id=\"import-auto-id3406201\">change in angular velocity</term>",
+          "after": "<span id=\"import-auto-id3406201\">change in angular velocity</span>"
+        }
+      ]
+    },
+    {
+      "source": "maintained/modules/m76603/index.cnxml",
+      "before_sha256": "df74f00eb9786ba61366e3c9783651ebee919994ff1367c37cb14ff43c810adb",
+      "after_sha256": "ea2b6131e8377f68c2ed13393011492a314c675db3bee3cc2f9141bd11769126",
+      "edits": [
+        {
+          "before": "<definition id=\"import-auto-id3175197\"><term>electron capture equation</term> <meaning id=\"fs-id3054581\">equation representing the electron capture</meaning></definition>",
+          "after": ""
+        },
+        {
+          "before": "<term id=\"import-auto-id3137718\">electron capture equation</term>",
+          "after": "<span id=\"import-auto-id3137718\">electron capture equation</span>"
+        }
+      ]
+    }
+  ]
+}

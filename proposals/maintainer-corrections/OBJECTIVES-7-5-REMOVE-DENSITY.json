@@ -1,0 +1,14 @@
+{
+  "id": "OBJECTIVES-7-5-REMOVE-DENSITY",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m71623/index.cnxml",
+      "before_sha256": "58e43e9254869fb326e80dedff63da460076f5c5f8366678637fb7b2e655a695",
+      "after_sha256": "85b0228312e2252731ec38eeaef9fc4d4d275653660caa83bc9df51ebdc37fdc",
+      "before": "<item>Calculate density given pressure and altitude.</item>\n",
+      "after": ""
+    }
+  ],
+  "validation": "CNXML parses; first two objectives and all section content preserved."
+}

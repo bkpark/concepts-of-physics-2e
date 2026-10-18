@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> - NUCL&Eacute;IDE-LARA on the web (2024)</TITLE>
+<LINK REL="SHORTCUT ICON" HREF="favicon_new.ico">
+<LINK REL="stylesheet" HREF="styles/Lara.css" TYPE="text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<SCRIPT language="javascript">
+var snd = new Audio("beep.wav");
+var snd2 = new Audio("bip.wav");
+
+function beep(id)
+{
+		if (id == 2)
+			snd2.play();
+		else
+			snd.play();			
+}
+
+function chg_title(id, title)
+{
+	if (document.getElementById)
+	{
+		obj = document.getElementById(id);
+		orig_title = obj.value;
+		obj.value = title; 
+		setTimeout(function(){obj.value = orig_title;}, 500); 
+	}
+}
+
+function show(id)
+{
+	if (document.getElementById)
+	{
+		obj = document.getElementById(id);
+		if (obj.style.display == "none")
+		{
+			obj.style.display = "";
+		}
+	}
+}
+
+function hide(id)
+{
+	if (document.getElementById)
+	{
+		obj = document.getElementById(id);
+		if (obj.style.display == "")
+		{
+			obj.style.display = "none";
+		}
+	}
+}
+
+function show_hide(id1, id2)
+{
+	if (document.getElementById)
+	{
+		obj1 = document.getElementById(id1);
+		obj2 = document.getElementById(id2);
+		if (obj1.style.display == "")
+		{
+			obj1.style.display = "none";
+			obj2.style.background = '#999999';
+		}
+		else if (obj1.style.display == "none")
+		{
+			obj1.style.display = "";
+			obj2.style.background = '#41ACE9';
+		}
+	}
+}
+
+function acti_d(Act_p, t, lambda_p, lambda_d, P_d)
+{
+	return Act_p * P_d * lambda_d / (lambda_d - lambda_p) * (Math.exp(-lambda_p * t) - Math.exp(-lambda_d * t));
+}
+
+function seuil(myval)
+{
+	if (myval > 1E-30)
+		return myval;
+	else
+		return 0;
+}
+
+function t_reverse(Act_p, Act_d, lambda_p, lambda_d, P_d)
+{
+	t_max = (Math.log(lambda_d) - Math.log(lambda_p)) / (lambda_d - lambda_p);
+	Act_d_max = acti_d(Act_p, t_max, lambda_p, lambda_d, P_d);
+	if (Act_d > Act_d_max)
+	{
+		return 0;
+	}
+	else
+	{
+		var t = t_max / 2;
+		var t_step = t_max / 4;
+		var i = 0;
+		Act_d_tmp = acti_d(Act_p, t, lambda_p, lambda_d, P_d);
+		Act_gap = Math.abs(Act_d_tmp - Act_d) / Act_d;
+		while ((i < 25) && (Act_gap > 0.0001))		
+		{
+			t = (Act_d_tmp < Act_d) ? t + t_step : t - t_step;
+			t_step = t_step / 2;
+			i = i + 1;
+			Act_d_tmp = acti_d(Act_p, t, lambda_p, lambda_d, P_d);
+			Act_gap = Math.abs(Act_d_tmp - Act_d) / Act_d;
+		}
+		return t;
+	}
+}
+
+function Bateman(lambdas, t)
+{
+	if (t == 0)
+		Result = 0;
+	else
+	{
+		var K_lambda = [];
+		n = lambdas.length - 1;
+		P_lambda = 1;
+		Result = 0;
+		for (i = 2 ; i <= n ; i++)
+			P_lambda = P_lambda * lambdas[i];
+		for (j = 1 ; j <= n ; j++)
+		{
+			K_lambda[j] = P_lambda;
+			for (i = 1 ; i <= n ; i++)
+			{
+				if (i != j) 
+					K_lambda[j] = K_lambda[j] / (lambdas[i] - lambdas[j]);
+			}
+		}
+		for (k = 1 ; k <= n ; k++)
+			Result += K_lambda[k] * Math.exp(-lambdas[k] * t);
+	}
+	return Result;
+}
+
+{// Fonction "Recalc_JS" obsolète, remplacée par "Recalc_emi_JS" 
+// function Recalc_JS(t1, t2, t_unit, t_steps, array_JS, array_act_JS, nuc_idx, time_mode, delta_date, chaine_radioactive)
+// {
+	// var chaine = '';
+
+// if (time_mode == 'Date_mode')
+// {
+	// t1 = 0;
+	// t2 = delta_date;
+	// t_unit = 86400;
+// }
+
+	// if (t1 != 0)																								// Affichage des valeurs pour t=0 si t1<>0
+	// {
+		// show('Act_Tools_' + nuc_idx + '_t1');																	// on affiche la 1ère zone si t1!=0
+		// chaine = SepDec((0).toExponential(4).toUpperCase()) + '\t';												// Affichage de t=0
+		// act_pere = Number(array_act_JS[0]);																		// Activité du père à t=0
+		// chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité du père à t=0
+		// act_totale = act_pere;																					// Initialisation de l'activité totale de toute la chaîne à t=0
+		// for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		// {																										// ... (idx_1=0 -> Père, idx_1>=1 -> fils successifs)
+			// act_fils = Number(array_act_JS[idx_1]);																// Activité du fils à t=0 (dépendant de son activité initiale)
+			// chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité du fils à t=0
+			// act_T = act_fils;																					// Incrémentation de l'activité totale de toute la chaîne à t=0
+			// act_T_rel = act_T / act_pere;																		// Activité totale relative du fils à t
+			// chaine += SepDec((0).toExponential(4).toUpperCase()) + '\t';										// Affichage de l'activité du fils due à la désintégration du père à t=0 donc 0
+			// chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité totale du fils à t=0
+			// chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale relative du fils à t=0
+			// act_totale += act_T;																				// Incrémentation de l'activité totale de toute la chaîne
+		// }
+		// if (chaine_radioactive)																					// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+		// {
+			// chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale de toute la chaîne
+			// chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activité totale relative de toute la chaîne
+		// }
+		// chaine += '\n';
+	// }
+	// else if (chaine_radioactive)																				// Si on a une chaîne radioactive, on cache la 1ère zone si t1=0
+	// {
+		// hide('Act_Tools_' + nuc_idx + '_t1');
+	// }
+	
+	// for (t_step = 0 ; t_step <= t_steps ; t_step++)																// Boucle sur le temps
+	// {
+		// t = t1 + t_step * (t2 - t1) / t_steps; 
+		// chaine += SepDec(seuil(t).toExponential(4).toUpperCase()) + '\t';										// Affichage de t, dans l'unité de temps choisie
+		// act_pere = array_act_JS[0] * Math.exp(-array_JS[0][1] * t * t_unit);									// Calcul de l'activité du père à t (t en s)
+		// chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité du père à t
+		// act_totale = act_pere;																					// Initialisation de l'activité totale de toute la chaîne
+		// for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		// {																										// ... (idx_1=0 -> Père, idx_1>=1 -> fils successifs)
+			// act_fils = array_act_JS[idx_1] * Math.exp(-array_JS[idx_1][1] * t * t_unit);						// Activité du fils à t (dépendant de son activité initiale)
+			// chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité du fils à t
+			// act_d = 0;
+			// for (idx_2 = 0 ; idx_2 < array_JS[idx_1][2].length ; idx_2++)										// Boucle sur les chemins possibles...
+			// {																									// ... pour atteindre les fils successifs
+				// act_d += array_JS[idx_1][2][idx_2] * Bateman(array_JS[idx_1][3][idx_2], t * t_unit);			// array_JS[idx_1][2][idx_2] = Prod_Pk pour...
+			// }																									// ... le fils idx_1, suivant le chemin idx_2
+			// act_d *= array_act_JS[0];																			// Activité du fils due à la désintégration du père à t
+			// act_T = act_fils + act_d;																			// Somme des activités du fils à t
+			// act_T_rel = act_T / act_pere;																		// Activité totale relative du fils à t
+			// chaine += SepDec(seuil(act_d).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité du fils due à la désintégration du père à t
+			// chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité totale du fils à t
+			// chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale relative du fils à t
+			// act_totale += act_T;																				// Incrémentation de l'activité totale de toute la chaîne
+		// }
+		// if (chaine_radioactive)																					// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+		// {
+			// chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale de toute la chaîne
+			// chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activité totale relative de toute la chaîne
+		// }
+		// chaine += '\n';
+	// }
+	// beep();
+	// return chaine;
+// }
+}
+
+function Recalc_emi_JS(t1, t2, t_unit, t_steps, array_JS, array_act_JS, array_emi_JS, nuc_idx, time_mode, delta_date, chaine_titres, chaine_radioactive, affiche_emissions)
+{
+	var chaine = '';
+	var idx_t = Number(0);
+	if (chaine_radioactive)																						// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+	{
+		var array_time_weights = new Array(array_JS.length);
+		for (var i = 0; i < array_time_weights.length; i++)
+		{
+		  array_time_weights[i] = new Array(t_steps);
+		}
+	}
+	
+	if (time_mode == 'Date_mode')
+	{
+		t1 = 0;
+		t2 = delta_date;
+		t_unit = 86400;
+	}
+
+	if (t1 != 0)																								// Affichage des valeurs pour t=0 si t1<>0
+	{
+		idx_t = Number(1);
+		show('Act_Tools_' + nuc_idx + '_t1');																	// on affiche la 1ère zone si t1!=0
+		if (chaine_radioactive)																					// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+			array_time_weights[0][0] = 0;
+		chaine = SepDec((0).toExponential(4).toUpperCase()) + '\t';												// Affichage de t=0
+		act_pere = Number(array_act_JS[0]);																		// Activité du père à t=0
+		chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité du père à t=0
+		act_totale = act_pere;																					// Initialisation de l'activité totale de toute la chaîne à t=0
+		for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		{																										// ... (idx_1=0 -> Père, idx_1>=1 -> fils successifs)
+			act_fils = Number(array_act_JS[idx_1]);																// Activité du fils à t=0 (dépendant de son activité initiale)
+			chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité du fils à t=0
+			act_T = act_fils;																					// Incrémentation de l'activité totale de toute la chaîne à t=0
+			act_T_rel = act_T / act_pere;																		// Activité totale relative du fils à t=0
+			if (chaine_radioactive)																				// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+				array_time_weights[idx_1][0] = act_T_rel;														// ... ou poids pour le calcul des intensités d'émission à t=0
+			chaine += SepDec((0).toExponential(4).toUpperCase()) + '\t';										// Affichage de l'activité du fils due à la désintégration du père à t=0 donc 0
+			chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité totale du fils à t=0
+			chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale relative du fils à t=0
+			act_totale += act_T;																				// Incrémentation de l'activité totale de toute la chaîne
+		}
+		if (chaine_radioactive)																					// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+		{
+			chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale de toute la chaîne
+			chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activité totale relative de toute la chaîne
+		}
+		chaine += '\n';
+	}
+	else if (chaine_radioactive)																				// Si on a une chaîne radioactive, on cache la 1ère zone si t1=0
+		hide('Act_Tools_' + nuc_idx + '_t1');
+
+	for (t_step = 0 ; t_step <= t_steps ; t_step++)																// Boucle sur le temps
+	{
+		t = t1 + t_step * (t2 - t1) / t_steps; 
+		if (chaine_radioactive)																					// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+			array_time_weights[0][t_step + idx_t] = t;
+		chaine += SepDec(seuil(t).toExponential(4).toUpperCase()) + '\t';										// Affichage de t, dans l'unité de temps choisie
+		act_pere = array_act_JS[0] * Math.exp(-array_JS[0][1] * t * t_unit);									// Calcul de l'activité du père à t (t en s)
+		chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité du père à t
+		act_totale = act_pere;																					// Initialisation de l'activité totale de toute la chaîne
+		for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		{																										// ... (idx_1=0 -> Père, idx_1>=1 -> fils successifs)
+			act_fils = array_act_JS[idx_1] * Math.exp(-array_JS[idx_1][1] * t * t_unit);						// Activité du fils à t (dépendant de son activité initiale)
+			chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité du fils à t
+			act_d = 0;
+			for (idx_2 = 0 ; idx_2 < array_JS[idx_1][2].length ; idx_2++)										// Boucle sur les chemins possibles...
+			{																									// ... pour atteindre les fils successifs
+				act_d += array_JS[idx_1][2][idx_2] * Bateman(array_JS[idx_1][3][idx_2], t * t_unit);			// array_JS[idx_1][2][idx_2] = Prod_Pk pour...
+			}																									// ... le fils idx_1, suivant le chemin idx_2
+			act_d *= array_act_JS[0];																			// Activité du fils due à la désintégration du père à t
+			act_T = act_fils + act_d;																			// Somme des activités du fils à t
+			act_T_rel = act_T / act_pere;																		// Activité totale relative du fils à t...
+			if (chaine_radioactive)																				// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+				array_time_weights[idx_1][t_step + idx_t] = act_T_rel;											// ... ou poids pour le calcul des intensités d'émission
+			chaine += SepDec(seuil(act_d).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité du fils due à la désintégration du père à t
+			chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activité totale du fils à t
+			chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale relative du fils à t
+			act_totale += act_T;																				// Incrémentation de l'activité totale de toute la chaîne
+		}
+		if (chaine_radioactive)																					// Si on a une chaîne radioactive (i.e. nb père + fils radioactifs > 2 )
+		{
+			chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activité totale de toute la chaîne
+			chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activité totale relative de toute la chaîne
+		}
+		chaine += '\n';
+	}
+	
+
+// Affichage des émissions de tous les fils en fonction du temps
+	if (affiche_emissions)																						// Si on a une chaîne radioactive et qu'on veut les émissions des fils
+	{
+		chaine += '\n';
+		chaine += chaine_titres;																				// Affichage des titres des colonnes
+		for (idx = 0 ; idx <= (Number(t_steps) + Number(idx_t)) ; idx++)										// Boucle sur le temps
+		{
+			chaine += SepDec(array_time_weights[0][idx].toExponential(4).toUpperCase());						// Affichage du temps
+			if (idx < (Number(t_steps) + Number(idx_t)))
+				chaine += '\t';	
+		}
+		chaine += '\n';
+		idx_fils = 0;																							// Initialisation de l'index du fils dans le tableau des émissions
+		for (idx_1 = 0 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		{																										// ... (idx_1=0 -> Père, idx_1>=1 -> fils successifs)
+			if (array_JS[idx_1][0] == array_emi_JS[idx_fils][0])
+			{
+				for (idx_2 = 0 ; idx_2 < Number(array_emi_JS[idx_fils].length / 4) ; idx_2++)					// Boucle sur toutes les émissions du fils courant
+				{
+					idx_nuc = 0;																				// Dans le cas où on ne trie pas par fils, on cherche l'index du bon fils dans la table array_JS
+					while (array_JS[idx_nuc][0] != array_emi_JS[idx_fils][idx_2 * 4])							// Sinon (tri par fils) idx_nuc = idx_1
+						idx_nuc++;
+					chaine += array_emi_JS[idx_fils][idx_2 * 4] + '\t';											// Affichage du nucléide
+					chaine += array_emi_JS[idx_fils][idx_2 * 4 + 1] + '\t';										// Affichage du type d'émission
+					chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 2]).toString()) + '\t';			// Affichage de l'énergie de l'émission
+					chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 3]).toString()) + '\t';			// Affichage de l'intensité de l'émission
+																												// (Tous les nucléides supposés à 100 %)
+					chaine += 'Int. (%) \u2192' + '\t';															// Flèche droite en caractère Unicode
+					for (idx = 0 ; idx <= (Number(t_steps) + Number(idx_t)) ; idx++)							// Boucle sur le temps
+					{
+						if (idx_nuc == 0)																		// (Ré)Affichage de l'intensité de l'émission du père
+							chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 3]).toExponential(4).toUpperCase());
+						else																					// Affichage de l'intensité de l'émission du fils en tenant compte du temps
+							chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 3] * array_time_weights[idx_nuc][idx]).toExponential(4).toUpperCase());
+						if (idx < (Number(t_steps) + Number(idx_t)))
+							chaine += '\t';	
+					}
+					chaine += '\n';	
+				}
+				if (idx_fils < array_emi_JS.length - 1)															// On passe au fils suivant, s'il en reste 
+					idx_fils++;
+			}
+		}
+	}
+	// beep(2); // Bip court, plus aigu
+	beep();		// Boup, plutôt que bip...
+	return chaine;
+}
+
+function Modif_chaine0(chaine, time_mode)
+{
+	if (time_mode == 'Date_mode')
+		chaine = chaine.replace("t1", "d1").replace("t2", "d2");
+	return chaine;
+}
+
+function Modif_chaine1(chaine, num, date, time_mode)
+{
+	if (time_mode == 'Date_mode')
+		chaine = 'd' + num + ' =\t' + date + '\t';
+	return chaine;
+}
+
+function Modif_chaine4(chaine, unite_per, time_mode)
+{
+	if (time_mode == 'Date_mode')
+	{
+		chaine = chaine.replace("(s)", "(d)");
+		chaine = chaine.replace("(min)", "(d)");
+		chaine = chaine.replace("(h)", "(d)");
+		chaine = chaine.replace("(a)", "(d)");
+		chaine = chaine.replace("t (", "Δt (");
+	}
+	else
+	{
+		chaine = chaine.replace("(s)", "(" + unite_per + ")");
+		chaine = chaine.replace("(min)", "(" + unite_per + ")");
+		chaine = chaine.replace("(d)", "(" + unite_per + ")");
+		chaine = chaine.replace("(h)", "(" + unite_per + ")");
+		chaine = chaine.replace("(a)", "(" + unite_per + ")");
+	}
+	return chaine;
+}
+
+function copy_array(id)
+{
+	document.getElementById(id).select();
+	document.execCommand('copy');
+}
+
+function set_focus(id)
+{
+	document.getElementById(id).focus();
+}
+
+function SepDec(chaine)
+{
+	var Langue = "ENG";
+    if (Langue == "FRA")
+		chaine = chaine.replace(".", ",");
+    return chaine;
+}
+
+function HL_Unit(index)
+{
+	switch(index)
+	{
+		case 0:
+			unit = 'a';
+			break;
+		case 1:
+			unit = 'd';
+			break;
+		case 2:
+			unit = 'h';
+			break;
+		case 3:
+			unit = 'min';
+			break;
+		case 4:
+			unit = 's';
+			break;
+	}
+	return unit;
+}
+
+function HL_Unit_to_s(index)
+{
+	switch(index)
+	{
+		case 0:
+			unit_per_num = 31556926;
+			break;
+		case 1:
+			unit_per_num = 86400;
+			break;
+		case 2:
+			unit_per_num = 3600;
+			break;
+		case 3:
+			unit_per_num = 60;
+			break;
+		case 4:
+			unit_per_num = 1;
+			break;
+	}
+	return unit_per_num;
+}
+</SCRIPT>
+
+<!-- Scripts pour le tracé des chaînes radioactives -->
+<SCRIPT language="javascript">
+function Centre_bloc(id, bloc_size, nucS)
+{
+	groupElement = document.querySelector("#group_text_" + id);
+	bboxGroup = groupElement.getBBox();
+	Nuc_S_Text = document.querySelector("#Nuc_S_" + id);
+	Nuc_A_Text = document.querySelector("#Nuc_A_" + id);
+	Nuc_Z_Text = document.querySelector("#Nuc_Z_" + id);
+	// Nuc_T12_Text = document.querySelector("#Nuc_T12_" + id);
+	
+	Delta_X = (bloc_size - bboxGroup.width) / 2 - bboxGroup.x;
+	Delta_Y = (bloc_size - bboxGroup.height) / 2 - bboxGroup.y - 6;
+
+	Nuc_S_Text.setAttribute("x", Number(Nuc_S_Text.getAttribute("x")) + Delta_X);
+	Nuc_A_Text.setAttribute("x", Number(Nuc_A_Text.getAttribute("x")) + Delta_X);
+	Nuc_Z_Text.setAttribute("x", Number(Nuc_Z_Text.getAttribute("x")) + Delta_X);
+	Nuc_S_Text.setAttribute("y", Number(Nuc_S_Text.getAttribute("y")) + Delta_Y);
+	Nuc_A_Text.setAttribute("y", Number(Nuc_A_Text.getAttribute("y")) + Delta_Y);
+	Nuc_Z_Text.setAttribute("y", Number(Nuc_Z_Text.getAttribute("y")) + Delta_Y);
+	// Nuc_T12_Text.setAttribute("y", Number(Nuc_T12_Text.getAttribute("y")) + Delta_Y + 5);
+
+// Bidouille pour obtenir les positions des éléments en fonction du nucléide
+// Nuc_A_Text.removeChild(Nuc_A_Text.firstChild);
+// Nuc_A_Text.appendChild(document.createTextNode(";"+Math.round(10*Number(Nuc_S_Text.getAttribute("x")))/10+";"));
+// Fin Bidouille pour obtenir les positions des éléments en fonction du nucléide
+}
+</SCRIPT>
+</HEAD>
+
+<BODY>
+<table border="1" cellspacing="0" cellpadding="0">				<!-- Infos, outils et émissions de 129Cs -->
+	<tr><td align="center">
+		<br><b class="semi">&nbsp;&nbsp;Nuclide not found!&nbsp;&nbsp;<br>Please try again.</b><br><br>
+	</td></tr>
+</table>
+</BODY>
+
+</HTML>

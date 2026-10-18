@@ -1,0 +1,827 @@
+[
+  {
+    "isotope": "H-3",
+    "charged": [
+      [
+        "bm",
+        "0.0186",
+        "100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "Endpoint agrees at textbook precision; DDEP emission endpoint 18.564 keV.",
+    "source": "https://www.lnhb.fr/nuclides/H-3_tables.pdf"
+  },
+  {
+    "isotope": "C-14",
+    "charged": [
+      [
+        "bm",
+        "0.1565",
+        "100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "156.476 keV endpoint; beta mean energy is 49.16 keV, not half the endpoint.",
+    "source": "https://www.lnhb.fr/nuclides/C-14_tables.pdf"
+  },
+  {
+    "isotope": "N-13",
+    "charged": [
+      [
+        "bp",
+        "1.198",
+        "99.8"
+      ],
+      [
+        "EC",
+        "",
+        "0.197"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "1198.47 keV; 99.803% positrons and 0.197% EC. Annihilation photons remain outside the selected photon list.",
+    "source": "https://www.lnhb.fr/nuclides/N-13_tables.pdf"
+  },
+  {
+    "isotope": "Na-22",
+    "charged": [
+      [
+        "bp",
+        "0.5464",
+        "90.3"
+      ],
+      [
+        "EC",
+        "",
+        "9.64"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.275",
+        "99.9"
+      ]
+    ],
+    "audit_note": "DDEP 546.44 keV at 90.30%; 1274.537 keV photons at 99.94%. Selected positron branch excludes the 0.055% high-energy branch. EC combines 9.64% and 0.00098%; approved DDEP convention supersedes the interim NUBASE fractions.",
+    "source": "https://www.lnhb.fr/nuclides/Na-22_tables.pdf"
+  },
+  {
+    "isotope": "P-32",
+    "charged": [
+      [
+        "bm",
+        "1.711",
+        "100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "1710.661 keV endpoint.",
+    "source": "https://www.lnhb.fr/nuclides/P-32_tables.pdf"
+  },
+  {
+    "isotope": "S-35",
+    "charged": [
+      [
+        "bm",
+        "0.1673",
+        "100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "167.33 keV endpoint.",
+    "source": "https://www.lnhb.fr/nuclides/S-35_tables.pdf"
+  },
+  {
+    "isotope": "Cl-36",
+    "charged": [
+      [
+        "bm",
+        "0.7095",
+        "98.1"
+      ],
+      [
+        "EC",
+        "",
+        "1.9"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "DDEP distinguishes EC from the 0.00157% positron branch, below the principal-mode cutoff.",
+    "source": "https://www.lnhb.fr/nuclides/Cl-36_tables.pdf"
+  },
+  {
+    "isotope": "K-40",
+    "charged": [
+      [
+        "bm",
+        "1.311",
+        "89.6"
+      ],
+      [
+        "EC",
+        "",
+        "10.4"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.461",
+        "10.3"
+      ]
+    ],
+    "audit_note": "DDEP: 1310.91 keV beta endpoint at 89.56%; EC 10.34% to excited state plus 0.098% to ground state; 1460.822 keV gamma at 10.34%. Positrons 0.00103% omitted. Approved DDEP convention supersedes interim NUBASE fractions.",
+    "source": "https://www.lnhb.fr/nuclides/K-40_tables.pdf"
+  },
+  {
+    "isotope": "K-43",
+    "charged": [
+      [
+        "bm",
+        "0.827",
+        "92.2"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.3728",
+        "87.3"
+      ],
+      [
+        "0.6175",
+        "80.5"
+      ]
+    ],
+    "audit_note": "LNHB LARA scheme: 92.2% beta feeding to the 990.3 keV level; endpoint approximately 1817-990.3=826.7 keV. Gamma yields 87.3% and 80.5% are not both 87%.",
+    "source": "https://www.lnhb.fr/Laraweb/"
+  },
+  {
+    "isotope": "Ca-45",
+    "charged": [
+      [
+        "bm",
+        "0.2580",
+        "≈100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "258.0 keV at 99.9980%; rare beta branch omitted.",
+    "source": "https://www.lnhb.fr/nuclides/Ca-45_tables.pdf"
+  },
+  {
+    "isotope": "Cr-51",
+    "charged": [
+      [
+        "EC",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.3201",
+        "9.89"
+      ]
+    ],
+    "audit_note": "320.0835 keV photons at 9.89%.",
+    "source": "https://www.lnhb.fr/nuclides/Cr-51_tables.pdf"
+  },
+  {
+    "isotope": "Mn-52",
+    "charged": [
+      [
+        "bp",
+        "0.576",
+        "30.9"
+      ],
+      [
+        "EC",
+        "",
+        "≈69"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.334",
+        "5.08"
+      ],
+      [
+        "1.434",
+        "≈100"
+      ]
+    ],
+    "audit_note": "Old 3.69 MeV is not an identified populated beta branch; replace with dominant 576.1(19) keV branch at 30.85%. EC total approximately 68.9%. Retain identifiable 1333.614 keV (5.079%) and 1434.060 keV (99.9866%) photons.",
+    "source": "https://www.lnhb.fr/nuclides/Mn-52_tables.pdf"
+  },
+  {
+    "isotope": "Fe-52",
+    "charged": [
+      [
+        "bp",
+        "0.807",
+        "56.1"
+      ],
+      [
+        "EC",
+        "",
+        "43.9"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.1687",
+        "99.1"
+      ],
+      [
+        "0.3777",
+        "1.64"
+      ]
+    ],
+    "audit_note": "Correct dominant endpoint 807(6) keV, not 1.80 MeV. EC total 43.895%. DDEP photon yields 99.1% and 1.64%; 377.749 keV is from daughter Mn-52m IT.",
+    "source": "https://www.lnhb.fr/nuclides/Fe-52_tables.pdf"
+  },
+  {
+    "isotope": "Fe-59",
+    "charged": [
+      [
+        "bm",
+        "0.2734",
+        "45.2"
+      ],
+      [
+        "bm",
+        "0.4657",
+        "53.3"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.099",
+        "56.5"
+      ],
+      [
+        "1.292",
+        "43.2"
+      ]
+    ],
+    "audit_note": "DDEP 45.19% and 53.30% beta branches; photons 56.51% and 43.23%. Selected branches do not sum to 100%.",
+    "source": "https://www.lnhb.fr/nuclides/Fe-59_tables.pdf"
+  },
+  {
+    "isotope": "Co-60",
+    "charged": [
+      [
+        "bm",
+        "0.3173",
+        "99.9"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.173",
+        "99.9"
+      ],
+      [
+        "1.332",
+        "≈100"
+      ]
+    ],
+    "audit_note": "317.32 keV at 99.88%; photons 1173.228 keV at 99.85% and 1332.492 keV at 99.9826%.",
+    "source": "https://www.lnhb.fr/nuclides/Co-60_tables.pdf"
+  },
+  {
+    "isotope": "Zn-65",
+    "charged": [
+      [
+        "EC",
+        "",
+        "98.6"
+      ],
+      [
+        "bp",
+        "0.3299",
+        "1.42"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.116",
+        "50.2"
+      ]
+    ],
+    "audit_note": "DDEP EC 50.23+48.35%; positrons 329.9 keV at 1.421%; principal positron branch was missing. Gamma 1115.539 keV at 50.22%.",
+    "source": "https://www.lnhb.fr/nuclides/Zn-65_tables.pdf"
+  },
+  {
+    "isotope": "Ga-67",
+    "charged": [
+      [
+        "EC",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.09331",
+        "38.1"
+      ],
+      [
+        "0.1846",
+        "21.0"
+      ],
+      [
+        "0.3002",
+        "16.6"
+      ]
+    ],
+    "audit_note": "Correct photon yields 38.1%, 20.96%, 16.60%; old 70%,35%,19% are not these photon yields.",
+    "source": "https://www.lnhb.fr/nuclides/Ga-67_tables.pdf"
+  },
+  {
+    "isotope": "Se-75",
+    "charged": [
+      [
+        "EC",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.1211",
+        "16.9"
+      ],
+      [
+        "0.1360",
+        "57.7"
+      ],
+      [
+        "0.2647",
+        "58.8"
+      ],
+      [
+        "0.2795",
+        "24.9"
+      ]
+    ],
+    "audit_note": "DDEP photon yields 16.86%,57.7%,58.75%,24.89%.",
+    "source": "https://www.lnhb.fr/nuclides/Se-75_tables.pdf"
+  },
+  {
+    "isotope": "Rb-86",
+    "charged": [
+      [
+        "bm",
+        "0.698",
+        "8.71"
+      ],
+      [
+        "bm",
+        "1.774",
+        "91.3"
+      ]
+    ],
+    "gamma": [
+      [
+        "1.077",
+        "8.71"
+      ]
+    ],
+    "audit_note": "LNHB LARA: Q=1774.3 keV, level1076.78 keV => endpoint697.52 keV; beta feeding8.71%,91.29%; gamma1076.78keV at8.71%. EC0.0052% omitted.",
+    "source": "https://www.lnhb.fr/Laraweb/"
+  },
+  {
+    "isotope": "Sr-85",
+    "charged": [
+      [
+        "EC",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.5140",
+        "98.5"
+      ]
+    ],
+    "audit_note": "514.0048 keV photons at98.5%.",
+    "source": "https://www.lnhb.fr/nuclides/Sr-85_tables.pdf"
+  },
+  {
+    "isotope": "Sr-90",
+    "charged": [
+      [
+        "bm",
+        "0.546",
+        "100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "545.9(14) keV endpoint; daughter Y-90 listed separately.",
+    "source": "https://www.lnhb.fr/nuclides/Sr-90_tables.pdf"
+  },
+  {
+    "isotope": "Y-90",
+    "charged": [
+      [
+        "bm",
+        "2.279",
+        "≈100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "2278.7(16) keV endpoint at99.983%; very weak additional branches omitted.",
+    "source": "https://www.lnhb.fr/nuclides/Y-90_tables.pdf"
+  },
+  {
+    "isotope": "Tc-99m",
+    "charged": [
+      [
+        "IT",
+        "",
+        "≈100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.1405",
+        "88.5"
+      ]
+    ],
+    "audit_note": "Old0.142MeV100% conflates isomer excitation with principal photon. Dominant gamma140.511keV at88.5%; distinct142.683keV photon only0.023%. Replace ambiguous entry with dominant line, as approved.",
+    "source": "https://www.lnhb.fr/nuclides/Tc-99m_tables.pdf"
+  },
+  {
+    "isotope": "In-113m",
+    "charged": [
+      [
+        "IT",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.3917",
+        "65.0"
+      ]
+    ],
+    "audit_note": "LNHB LARA gamma391.698keV at64.97%, not100%.",
+    "source": "https://www.lnhb.fr/Laraweb/"
+  },
+  {
+    "isotope": "I-123",
+    "charged": [
+      [
+        "EC",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.1590",
+        "83.3"
+      ]
+    ],
+    "audit_note": "158.97keV photons at83.25%, not approximately100%.",
+    "source": "https://www.lnhb.fr/nuclides/I-123_tables.pdf"
+  },
+  {
+    "isotope": "I-131",
+    "charged": [
+      [
+        "bm",
+        "0.2479",
+        "2.13"
+      ],
+      [
+        "bm",
+        "0.6063",
+        "89.4"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.3645",
+        "81.2"
+      ]
+    ],
+    "audit_note": "Retain identifiable endpoints247.9keV and606.3keV, correct fractions2.130% and89.4%; old7% belongs near333.8keV branch. Photon364.489keV at81.2%.",
+    "source": "https://www.lnhb.fr/nuclides/I-131_tables.pdf"
+  },
+  {
+    "isotope": "Cs-129",
+    "charged": [
+      [
+        "EC",
+        "",
+        ""
+      ]
+    ],
+    "gamma": [
+      [
+        "0.03958",
+        "2.97"
+      ],
+      [
+        "0.3719",
+        "30.6"
+      ],
+      [
+        "0.4115",
+        "22.3"
+      ]
+    ],
+    "audit_note": "ICRP107 via MIRDspecs:39.578keV at2.968%,371.918keV at30.60%,411.490keV at22.31%. Old40keV35% is not the photon yield. EC fraction not newly inferred.",
+    "source": "https://mirdsoft.org/products/MIRDspecs/MIRDspecs_HTMLs/Cs-129.htm"
+  },
+  {
+    "isotope": "Cs-137",
+    "charged": [
+      [
+        "bm",
+        "0.5140",
+        "94.6"
+      ],
+      [
+        "bm",
+        "1.176",
+        "5.43"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.6617",
+        "85.0"
+      ]
+    ],
+    "audit_note": "DDEP beta endpoints513.97keV at94.57%,1175.63keV at5.43%; gamma661.655keV at85.01%, not95%; daughter Ba-137m transition.",
+    "source": "https://www.lnhb.fr/nuclides/Cs-137_tables.pdf"
+  },
+  {
+    "isotope": "Ba-140",
+    "charged": [
+      [
+        "bm",
+        "0.467",
+        "24.9"
+      ],
+      [
+        "bm",
+        "1.004",
+        "35.6"
+      ],
+      [
+        "bm",
+        "1.018",
+        "25.6"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.02996",
+        "14.4"
+      ],
+      [
+        "0.1627",
+        "6.49"
+      ],
+      [
+        "0.5373",
+        "24.6"
+      ]
+    ],
+    "audit_note": "Replace unidentifiable1.035MeV≈100% with three dominant beta endpoints; replace unidentified44keV65% photon with evaluated162.6591keV6.49%. Keep29.9641keV14.4%,537.261keV24.6%.",
+    "source": "https://www.lnhb.fr/nuclides/Ba-140_tables.pdf"
+  },
+  {
+    "isotope": "Au-198",
+    "charged": [
+      [
+        "bm",
+        "0.9610",
+        "99.0"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.4118",
+        "95.6"
+      ]
+    ],
+    "audit_note": "Replace incorrect1.161MeV with dominant961.0keV endpoint98.99%;411.80205keV gamma95.62%.",
+    "source": "https://www.lnhb.fr/nuclides/Au-198_tables.pdf"
+  },
+  {
+    "isotope": "Hg-197",
+    "charged": [
+      [
+        "EC",
+        "",
+        "100"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.07735",
+        "18.8"
+      ]
+    ],
+    "audit_note": "LNHB LARA principal77.352keV gamma at18.8%; old73.3keV100% not identifiable.",
+    "source": "https://www.lnhb.fr/Laraweb/"
+  },
+  {
+    "isotope": "Po-210",
+    "charged": [
+      [
+        "a",
+        "5.304",
+        "≈100"
+      ]
+    ],
+    "gamma": [],
+    "audit_note": "Alpha particle5304.33keV at99.99876%; old5.41MeV is close to total transition energy including recoil.",
+    "source": "https://www.lnhb.fr/nuclides/Po-210_tables.pdf"
+  },
+  {
+    "isotope": "Ra-226",
+    "charged": [
+      [
+        "a",
+        "4.601",
+        "5.95"
+      ],
+      [
+        "a",
+        "4.784",
+        "94.0"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.1862",
+        "3.56"
+      ]
+    ],
+    "audit_note": "Use emitted alpha energies4601keV and4784.34keV rather than transition energies4684.41/4870.62keV. Gamma186.211keV yield3.555%, not100%.",
+    "source": "https://www.lnhb.fr/nuclides/Ra-226_tables.pdf"
+  },
+  {
+    "isotope": "U-235",
+    "charged": [
+      [
+        "a",
+        "4.215",
+        "5.95"
+      ],
+      [
+        "a",
+        "4.366",
+        "18.8"
+      ],
+      [
+        "a",
+        "4.398",
+        "57.2"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.1438",
+        "10.9"
+      ],
+      [
+        "0.1634",
+        "5.08"
+      ],
+      [
+        "0.1857",
+        "57.0"
+      ]
+    ],
+    "audit_note": "Replace4.68MeV≈100% with three dominant alpha lines4214.7,4366.1,4397.8keV. Replace numerous/<0.400% with three strong photons143.767,163.356,185.720keV.",
+    "source": "https://www.lnhb.fr/nuclides/U-235_tables.pdf"
+  },
+  {
+    "isotope": "U-238",
+    "charged": [
+      [
+        "a",
+        "4.151",
+        "22.3"
+      ],
+      [
+        "a",
+        "4.198",
+        "77.5"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.04955",
+        "0.0697"
+      ]
+    ],
+    "audit_note": "Alpha particle4151(5),4198(3)keV, not transition energies4.22/4.27MeV. Gamma49.55keV at0.0697%, not23%.",
+    "source": "https://www.lnhb.fr/nuclides/U-238_tables.pdf"
+  },
+  {
+    "isotope": "Np-237",
+    "charged": [
+      [
+        "a",
+        "4.767",
+        "9.5"
+      ],
+      [
+        "a",
+        "4.771",
+        "23.0"
+      ],
+      [
+        "a",
+        "4.788",
+        "47.6"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.02937",
+        "14.3"
+      ],
+      [
+        "0.08648",
+        "12.3"
+      ]
+    ],
+    "audit_note": "Replace vague numerous/max4.96MeV and gamma<0.250% with dominant alpha4766.5,4771.4,4788.0keV and photons29.374,86.477keV.",
+    "source": "https://www.lnhb.fr/nuclides/Np-237_tables.pdf"
+  },
+  {
+    "isotope": "Pu-239",
+    "charged": [
+      [
+        "a",
+        "5.106",
+        "11.9"
+      ],
+      [
+        "a",
+        "5.144",
+        "17.1"
+      ],
+      [
+        "a",
+        "5.157",
+        "70.8"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.0000765",
+        "≈0.00000001"
+      ],
+      [
+        "0.01298",
+        "0.0341"
+      ],
+      [
+        "0.05162",
+        "0.0269"
+      ]
+    ],
+    "audit_note": "Correct emitted alpha energies5105.81,5143.82,5156.59keV; yields11.87,17.14,70.79%. Retain identifiable gamma0.0765,12.975,51.624keV, but yields approximately1e-8,0.0341,0.02694 per100 decays, not73%,15%,10%.",
+    "source": "https://www.lnhb.fr/nuclides/Pu-239_tables.pdf"
+  },
+  {
+    "isotope": "Am-243",
+    "charged": [
+      [
+        "a",
+        "5.233",
+        "11.5"
+      ],
+      [
+        "a",
+        "5.275",
+        "86.7"
+      ],
+      [
+        "a",
+        "5.349",
+        "0.240"
+      ]
+    ],
+    "gamma": [
+      [
+        "0.07466",
+        "67.2"
+      ]
+    ],
+    "audit_note": "Use particle5233.3,5275.3,5349.4keV (last is maximum) instead of total transition energies5.32,5.37,5.44MeV. Gamma74.66keV67.2%.",
+    "source": "https://www.lnhb.fr/nuclides/Am-243_tables.pdf"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-08-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove the Extension label from Exercise 8; retain the supplied transmission rule and question unchanged.",
+  "changes": [
+    {
+      "path": "maintained/modules/m76584/index.cnxml",
+      "before_sha256": "3e0354796f32ac03b8dbdaaa6a15a1e83c2051b4b8a00f2e8f10b809dada81be",
+      "after_sha256": "5cbe00a39fda35b47c6259e98edf0efefa51f3b95d5ff06373e021f28e5ebafd",
+      "before": "<exercise id=\"fs-id2453339\" type=\"conceptual-questions\"><problem id=\"fs-id2453339-revised-problem\"><para id=\"fs-id2453339-revised-p1\"><span id=\"fs-id2453339-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> In an idealized narrow-beam measurement, each 1.50-cm layer of lead transmits 10.0% of the <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays incident on that layer. What percentage of the original beam remains after two layers? After three? What total thickness leaves 0.100%?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id2453339\" type=\"conceptual-questions\"><problem id=\"fs-id2453339-revised-problem\"><para id=\"fs-id2453339-revised-p1\"><span id=\"fs-id2453339-extension\"/>In an idealized narrow-beam measurement, each 1.50-cm layer of lead transmits 10.0% of the <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays incident on that layer. What percentage of the original beam remains after two layers? After three? What total thickness leaves 0.100%?</para></problem></exercise>"
+    }
+  ]
+}

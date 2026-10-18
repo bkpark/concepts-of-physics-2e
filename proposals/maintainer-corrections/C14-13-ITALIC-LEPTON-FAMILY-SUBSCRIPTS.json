@@ -1,0 +1,150 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m42674/index.cnxml",
+  "before_sha256": "67903095f73cf9d5ba22a4466ce82393752ac6d65a87d2fb7d6b339b7f8a597f",
+  "after_sha256": "f0e0fe5762c200d331abde5f5e70dd4f7e0c7a4673c4b5e0417818931760191f",
+  "edits": [
+    {
+      "before": "<m:msub>\r\n                          <m:mi>L</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"normal\">e</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mi>L</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">e</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mi>L</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"normal\">μ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mi>L</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">μ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mi>L</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"normal\">τ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mi>L</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">τ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mi>ν</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mrow>\r\n                                <m:mi>e</m:mi>\r\n                                <m:mrow />\r\n                              </m:mrow>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mi>ν</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mrow>\r\n                                <m:mi mathvariant=\"italic\">e</m:mi>\r\n                                <m:mrow />\r\n                              </m:mrow>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mover accent=\"true\">\r\n                            <m:mi>ν</m:mi>\r\n                            <m:mo stretchy=\"true\">¯</m:mo>\r\n                          </m:mover>\r\n\r\n                            <m:mrow>\r\n                              <m:mi>e</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mover accent=\"true\">\r\n                            <m:mi>ν</m:mi>\r\n                            <m:mo stretchy=\"true\">¯</m:mo>\r\n                          </m:mover>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">e</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mi>ν</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi>μ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mi>ν</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">μ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mover accent=\"true\">\r\n                            <m:mi>ν</m:mi>\r\n                            <m:mo stretchy=\"true\">¯</m:mo>\r\n                          </m:mover>\r\n\r\n                            <m:mrow>\r\n                              <m:mi>μ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mover accent=\"true\">\r\n                            <m:mi>ν</m:mi>\r\n                            <m:mo stretchy=\"true\">¯</m:mo>\r\n                          </m:mover>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">μ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mi>ν</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi>τ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mi>ν</m:mi>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">τ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub>\r\n                          <m:mover accent=\"true\">\r\n                            <m:mi>ν</m:mi>\r\n                            <m:mo stretchy=\"true\">¯</m:mo>\r\n                          </m:mover>\r\n\r\n                            <m:mrow>\r\n                              <m:mi>τ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>",
+      "after": "<m:msub>\r\n                          <m:mover accent=\"true\">\r\n                            <m:mi>ν</m:mi>\r\n                            <m:mo stretchy=\"true\">¯</m:mo>\r\n                          </m:mover>\r\n\r\n                            <m:mrow>\r\n                              <m:mi mathvariant=\"italic\">τ</m:mi>\r\n                            </m:mrow>\r\n\r\n                        </m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>τ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">τ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">τ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">τ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"normal\">τ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>L</m:mi><m:mrow><m:mi mathvariant=\"italic\">τ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">&#x00AF;</m:mo></m:mover><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">&#x00AF;</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">¯</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">e</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mi>ν</m:mi><m:mrow><m:mi mathvariant=\"italic\">μ</m:mi></m:mrow></m:msub>"
+    },
+    {
+      "before": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">&#x00AF;</m:mo></m:mover><m:mrow><m:mi>τ</m:mi></m:mrow></m:msub>",
+      "after": "<m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo stretchy=\"true\">&#x00AF;</m:mo></m:mover><m:mrow><m:mi mathvariant=\"italic\">τ</m:mi></m:mrow></m:msub>"
+    }
+  ],
+  "verified_family_subscripts": 35,
+  "reason": "Maintainer requested italic electron, muon and tau family labels throughout Section 14.13 only. Standalone particle symbols and other sections unchanged."
+}

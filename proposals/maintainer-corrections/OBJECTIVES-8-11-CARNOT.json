@@ -1,0 +1,22 @@
+{
+  "id": "OBJECTIVES-8-11-CARNOT",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m42235/index.cnxml",
+      "before_sha256": "c47ab8476ff6007dcc078baa6774423d4bb7a252894ddec4615e16b6cc1b1e74",
+      "after_sha256": "8eb2e0d0c36510a78a54dc87a64f6b76a126f2d48ebe60f74385d3eb558fdea8",
+      "before": [
+        "Identify a Carnot cycle.",
+        "Calculate maximum theoretical efficiency of a nuclear reactor.",
+        "Explain how dissipative processes affect the ideal Carnot engine."
+      ],
+      "after": [
+        "Identify a Carnot cycle.",
+        "Calculate the maximum theoretical efficiency of a heat engine from its hot and cold reservoir temperatures.",
+        "Explain conceptually why an ideal Carnot engine cannot achieve 100% efficiency."
+      ]
+    }
+  ],
+  "validation": "CNXML parses; changes confined to objectives 2 and 3."
+}

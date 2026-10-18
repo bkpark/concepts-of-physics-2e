@@ -1,0 +1,18 @@
+{
+  "id": "ANGULAR-VELOCITY-CHAINED-EQUALITIES",
+  "path": "maintained\\modules\\m71592\\index.cnxml",
+  "before_sha256": "a96942e3d0d7c5451a77317c2f24ed436a5a984f780c9313cc150fcf559f3a0e",
+  "after_sha256": "62865f8a8013c7ab004cec406ed74a7e3ee1608dfdb234a9a9ee2fd2b7211496",
+  "changes": [
+    {
+      "id": "eip-121",
+      "before": "<equation id=\"eip-121\"><m:math><m:apply><m:eq/><m:ci>v</m:ci><m:apply><m:eq/><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>s</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply><m:apply><m:divide/><m:apply><m:times/><m:cn>2</m:cn><m:ci>π</m:ci><m:ci>r</m:ci></m:apply><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply></m:apply><m:mtext>,</m:mtext></m:math></equation>",
+      "after": "<equation id=\"eip-121\"><m:math><m:apply><m:eq/><m:ci>v</m:ci><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>s</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply><m:apply><m:divide/><m:apply><m:times/><m:cn>2</m:cn><m:ci>π</m:ci><m:ci>r</m:ci></m:apply><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply><m:mtext>,</m:mtext></m:math></equation>"
+    },
+    {
+      "id": "eip-582",
+      "before": "<equation id=\"eip-582\"><m:math><m:apply><m:eq/><m:ci>ω</m:ci><m:apply><m:eq/><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>θ</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply><m:apply><m:divide/><m:apply><m:times/><m:cn>2</m:cn><m:ci>π</m:ci></m:apply><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply></m:apply><m:mtext>,</m:mtext></m:math></equation>",
+      "after": "<equation id=\"eip-582\"><m:math><m:apply><m:eq/><m:ci>ω</m:ci><m:apply><m:divide/><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>θ</m:ci></m:mrow><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply><m:apply><m:divide/><m:apply><m:times/><m:cn>2</m:cn><m:ci>π</m:ci></m:apply><m:mrow><m:csymbol>Δ</m:csymbol><m:ci>t</m:ci></m:mrow></m:apply></m:apply><m:mtext>,</m:mtext></m:math></equation>"
+    }
+  ]
+}

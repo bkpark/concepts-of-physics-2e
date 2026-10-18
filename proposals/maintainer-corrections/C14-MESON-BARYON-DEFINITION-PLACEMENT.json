@@ -1,0 +1,29 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m42674/index.cnxml",
+  "before_sha256": "ebcb4a5e44126f48f979bd23f392191472dabbe0f330220ded42f6b1dfa8d1ee",
+  "after_sha256": "a5d0a987ed6af27bc6157d27d3984b189237c3306cdad6d2d7c18313f4f07e0f",
+  "edits": [
+    {
+      "before": "<term id=\"import-auto-id1169737819849\">Mesons</term>",
+      "after": "Mesons"
+    },
+    {
+      "before": "<term id=\"import-auto-id1169737804482\">baryons</term>",
+      "after": "baryons"
+    },
+    {
+      "before": "<para id=\"import-auto-id1169737784242\">There are hundreds of particles, all hadrons, not listed in <link target-id=\"import-auto-id1169736657305\"/>, most of which have shorter lifetimes. The systematics of those particle lifetimes, their production probabilities, and decay products are completely consistent with the conservation laws noted for lepton families, baryon number, and strangeness, but they also imply other quantum numbers and conservation laws. There are a finite, and in fact relatively small, number of these conserved quantities, however, implying a finite set of substructures. Additionally, some of these short-lived particles resemble the excited states of other particles, implying an internal structure. All of this jigsaw puzzle can be tied together and explained relatively simply by the existence of fundamental substructures. Leptons seem to be fundamental structures. Hadrons seem to have a substructure called quarks. We have so far discovered six quarks in three generations: up and down quarks, charm and strange quarks, and top and bottom quarks.</para>",
+      "after": "<para id=\"import-auto-id1169737784242\">There are hundreds of particles, all hadrons, not listed in <link target-id=\"import-auto-id1169736657305\"/>, most of which have shorter lifetimes. The systematics of those particle lifetimes, their production probabilities, and decay products are completely consistent with the conservation laws noted for lepton families, baryon number, and strangeness, but they also imply other quantum numbers and conservation laws. There are a finite, and in fact relatively small, number of these conserved quantities, however, implying a finite set of substructures. Additionally, some of these short-lived particles resemble the excited states of other particles, implying an internal structure. All of this jigsaw puzzle can be tied together and explained relatively simply by the existence of fundamental substructures. Leptons seem to be fundamental structures. Hadrons seem to have a substructure called quarks. We have so far discovered six quarks in three generations: up and down quarks, charm and strange quarks, and top and bottom quarks.</para><para id=\"meson-baryon-quark-definitions\">The quark model explains the distinction between the two groups of hadrons introduced earlier. In the simplest quark model, <term id=\"import-auto-id1169737819849\">mesons</term> are bound states of a quark and an antiquark, while <term id=\"import-auto-id1169737804482\">baryons</term> are bound states of three quarks. Antibaryons consist of three antiquarks. Pions and kaons are examples of mesons; protons and neutrons are examples of baryons.</para>"
+    },
+    {
+      "before": "<definition id=\"import-auto-id1169737795788\"><term>meson</term> <meaning id=\"fs-id1169738043315\">hadrons that can decay to leptons and leave no hadrons</meaning></definition>",
+      "after": "<definition id=\"import-auto-id1169737795788\"><term>meson</term> <meaning id=\"fs-id1169738043315\">a hadron whose simplest quark structure consists of a quark and an antiquark bound together</meaning></definition>"
+    },
+    {
+      "before": "<definition id=\"import-auto-id1169737906148\"><term>baryons</term> <meaning id=\"fs-id1169738082648\">hadrons that always decay to another baryon</meaning></definition>",
+      "after": "<definition id=\"import-auto-id1169737906148\"><term>baryons</term> <meaning id=\"fs-id1169738082648\">hadrons whose simplest quark structure consists of three quarks bound together; antibaryons consist of three antiquarks</meaning></definition>"
+    }
+  ],
+  "reason": "Maintainer requested plain early mentions and formal definitions after quark introduction. Moved existing term anchors to new quark-model paragraph and synchronized glossary definitions; retained glossary IDs and exercise numbering."
+}

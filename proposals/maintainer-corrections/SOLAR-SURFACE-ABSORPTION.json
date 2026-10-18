@@ -1,0 +1,17 @@
+{
+  "id": "SOLAR-SURFACE-ABSORPTION",
+  "status": "approved",
+  "description": "Distinguish surface absorption from total Earth-system absorption.",
+  "sources": [
+    "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/"
+  ],
+  "changes": [
+    {
+      "path": "maintained/modules/m67133/index.cnxml",
+      "before_sha256": "6e0f4dd27317bc1713a1a1253cdbddfbbb573d2312ceb1df45aed08081657743",
+      "after_sha256": "ab564bf0964847b99e8463cfb364bae6b51d612b77842be81c5353971b45236e",
+      "before": "On average, 50 percent of the incident solar energy is absorbed by the Earth.",
+      "after": "On average, about half of the solar energy arriving at the top of the atmosphere is absorbed by Earth’s surface."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-13-PLAIN-ARTICLES-CORE",
+  "status": "approved",
+  "description": "Restore both articles A to plain text and remove the Extension label from Exercise 13.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42627/index.cnxml",
+      "before_sha256": "15acaaededff4f7e65b6082205f3ab63083db7b2682b99ca5d558a366124a67a",
+      "after_sha256": "c6540aa7f83099176b51304dec8e00a5dcff22c013c3fc99a4595e59e2457294",
+      "before": "<exercise id=\"fs-id2437827\" type=\"conceptual-questions\"><problem id=\"fs-id2437827-revised-problem\"><para id=\"fs-id2437827-revised-p1\"><span id=\"fs-id2437827-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> gas detector requires an average of 30 eV of deposited energy per ion pair produced. <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> particle deposits 0.60 MeV in the gas. Estimate the number of ion pairs produced. Use <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>1</m:mn><m:mspace width=\"0.167em\"/><m:mtext>MeV</m:mtext><m:mo>=</m:mo><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>eV</m:mtext></m:mrow></m:math>.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id2437827\" type=\"conceptual-questions\"><problem id=\"fs-id2437827-revised-problem\"><para id=\"fs-id2437827-revised-p1\"><span id=\"fs-id2437827-extension\"/>A gas detector requires an average of 30 eV of deposited energy per ion pair produced. A particle deposits 0.60 MeV in the gas. Estimate the number of ion pairs produced. Use <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mn>1</m:mn><m:mspace width=\"0.167em\"/><m:mtext>MeV</m:mtext><m:mo>=</m:mo><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width=\"0.167em\"/><m:mtext>eV</m:mtext></m:mrow></m:math>.</para></problem></exercise>"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "SOLAR-COLOR-AND-MAGNETIC-CONFINEMENT",
+  "status": "approved",
+  "sources": [
+    "https://science.gsfc.nasa.gov/attic/eclipse2017.gsfc.nasa.gov/what-color-sun.html",
+    "https://www.iter.org/node/20687/searching-perfect-shape"
+  ],
+  "changes": [
+    {
+      "path": "maintained/modules/m67133/index.cnxml",
+      "before_sha256": "ab564bf0964847b99e8463cfb364bae6b51d612b77842be81c5353971b45236e",
+      "after_sha256": "bc32aea14566e811de2bd734e8c80627e195a425c3606115817d41fc7580e953",
+      "before": "<para id=\"import-auto-id1169738209327\">Red light has the lowest frequencies and longest wavelengths, while violet has the highest frequencies and shortest wavelengths. Blackbody radiation from the Sun peaks in the visible part of the spectrum but is more intense in the red than in the violet, making the Sun yellowish in appearance. </para>",
+      "after": "<para id=\"import-auto-id1169738209327\">Within the visible spectrum, red light has the lowest frequencies and longest wavelengths, while violet has the highest frequencies and shortest wavelengths. Sunlight contains a broad mixture of visible wavelengths that together appear white. When sunlight passes through Earth’s atmosphere, shorter wavelengths are scattered more strongly, which can make the Sun appear yellow, orange, or red, especially near the horizon.</para>"
+    },
+    {
+      "path": "maintained/modules/m52420/index.cnxml",
+      "before_sha256": "05756b4988733e72d02068adc31b5a6b579591b73f4991df16154c24752620e3",
+      "after_sha256": "9ece4bba9a0ec7dfb313e3ca428e93285566fa60b51a714662c8840b93b89453",
+      "before": "<para id=\"import-auto-id1166991830052\">There are interesting variations of the flat coil and solenoid. For example, the toroidal coil used to confine the reactive particles in tokamaks is much like a solenoid bent into a circle. The field inside a toroid is very strong but circular. Charged particles travel in circles, following the field lines, and collide with one another, perhaps inducing fusion. But the charged particles do not cross field lines and escape the toroid. A whole range of coil shapes are used to produce all sorts of magnetic field shapes. Adding ferromagnetic materials produces greater field strengths and can have a significant effect on the shape of the field. Ferromagnetic materials tend to trap magnetic fields (the field lines bend into the ferromagnetic material, leaving weaker fields outside it) and are used as shields for devices that are adversely affected by magnetic fields, including the Earth’s magnetic field.</para>",
+      "after": "<para id=\"import-auto-id1166991830052\">There are interesting variations of the flat coil and solenoid. A toroid is much like a solenoid bent into a circle, with magnetic field lines forming closed loops inside it. Tokamaks use magnetic fields around a ring-shaped chamber to help confine charged particles for fusion. The particles spiral around magnetic field lines while moving along them. A simple toroidal field does not provide complete confinement: particles can drift across the field, so tokamaks combine magnetic fields in different directions to improve confinement. A whole range of coil shapes are used to produce different magnetic field shapes. Adding ferromagnetic materials can strengthen and reshape the field. These materials can also redirect magnetic fields around a protected region and are used as shields for devices sensitive to external magnetic fields, including Earth’s magnetic field.</para>"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "OBJECTIVES-13-3-SIMULTANEITY-TIME",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m42531/index.cnxml",
+      "before_sha256": "3389e755b0bde65886e9cfc59b05659f84d57cd1b807dd08918bd465cd70dbbe",
+      "after_sha256": "26da5b6c4aa687519a04e823178e5f44f5704e0dc12556e883403c8569015c36",
+      "before": "\r\n<item>Describe simultaneity.</item>\r\n<item>Describe time dilation.</item>\r\n<item>Calculate <m:math><m:mi>γ</m:mi></m:math>.</item>\r\n<item>Compare proper time and the observer’s measured time.</item>\r\n<item>Explain why the twin paradox is a false paradox.</item>\r\n",
+      "after": "\r\n<item>Explain the relativity of simultaneity.</item>\r\n<item>Read a space-time diagram to identify events, worldlines, and light-signal paths.</item>\r\n<item>Describe time dilation and calculate <m:math><m:mi>γ</m:mi></m:math> to compare proper time and lab frame time.</item>\r\n<item>Explain the resolution of the \"twin paradox\".</item>\r\n"
+    }
+  ],
+  "validation": "CNXML parses; only objectives changed. Order matches Simultaneity, Reading a Space-Time Diagram, Time Dilation, The Twin Paradox. Gamma retains MathML notation."
+}

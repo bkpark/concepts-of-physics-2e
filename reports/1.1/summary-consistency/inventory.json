@@ -1,0 +1,602 @@
+[
+  {
+    "module": "m42235",
+    "title": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+    "summary": "Section SummaryThe Carnot cycle is a theoretical cycle that is the most efficient cyclical process possible. Any engine using the Carnot cycle, which uses only reversible processes (adiabatic and isothermal), is known as a Carnot engine.\n    Any engine that uses the Carnot cycle enjoys the maximum theoretical efficiency.\n    While Carnot engines are ideal engines, in reality, no engine achieves Carnot’s theoretical maximum efficiency, since dissipative processes, such as friction, play a role. Carnot efficiency approaches 100% as the cold-reservoir temperature approaches absolute zero, but absolute zero cannot be attained."
+  },
+  {
+    "module": "m42236",
+    "title": "Applications of Thermodynamics: Heat Pumps and Refrigerators",
+    "summary": "Section SummaryAn artifact of the second law of thermodynamics is the ability to heat an interior space using a heat pump. Heat pumps compress cold ambient air and, in so doing, heat it to room temperature without violation of conservation principles.\n    To calculate the heat pump’s coefficient of performance, use the equation COPhp=QhW.\n    A refrigerator is a heat pump; it takes warm ambient air and expands it to chill it."
+  },
+  {
+    "module": "m42238",
+    "title": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+    "summary": "Section SummaryFor equally likely microstates, a macrostate compatible with more microstates is more probable and has greater entropy.\n\nThe entropy of a system in a given state (a macrostate) can be written as S=kBlnW,\nwhere\n\nkB=1.38×10−23J/K  is Boltzmann’s constant, and lnW is the natural logarithm of the number of microstates W  corresponding to the given macrostate."
+  },
+  {
+    "module": "m42356",
+    "title": "Resistors in Series and Parallel",
+    "summary": "Section SummaryThe total resistance of an electrical circuit with resistors wired in a series is the sum of the individual resistances: Rs=R1+R2+R3+....\n    Each resistor in a series circuit has the same amount of current flowing through it.\nThe voltage drop, or power dissipation, across each individual resistor in a series is different, and their combined total adds up to the power source input.\n    The total resistance of an electrical circuit with resistors wired in parallel is less than the lowest resistance of any of the components and can be determined using the formula:\n    1Rp=1R1+1R2+1R3+⋯.\n    Each resistor in a parallel circuit has the same full voltage of the source applied to it.\n    The current flowing through each resistor in a parallel circuit is different, depending on the resistance.\n    If a more complex connection of resistors is a combination of series and parallel, it can be reduced to a single equivalent resistance by identifying its various parts as series or parallel, reducing each to its equivalent, and continuing until a single resistance is eventually reached."
+  },
+  {
+    "module": "m42528",
+    "title": "Einstein’s Postulates",
+    "summary": "Section SummaryRelativity is the study of how different observers measure the same event.\n                Special relativity begins with two postulates. Their consequences require us to revise familiar assumptions about space and time, rather than change the postulates to fit those assumptions.\n                An inertial frame of reference is one in which an object remains at rest or moves at constant velocity when the net external force on it is zero.\n                The first postulate of special relativity states that the laws of physics have the same form in all inertial frames, although observers can measure different values for quantities such as velocity and kinetic energy. The second postulate states that light in a vacuum travels at the same speed c in every inertial frame, regardless of the motion of its source or the observer.\n                The Michelson-Morley experiment found no change in light travel times of the size expected from the Earth’s motion through a stationary light-carrying medium."
+  },
+  {
+    "module": "m42531",
+    "title": "Simultaneity And Time Dilation",
+    "summary": "Section SummaryTwo events are defined to be simultaneous if an observer measures them as occurring at the same time. They are not necessarily simultaneous to all observers—simultaneity is not absolute.\n    Time dilation means that, in an inertial frame, a moving clock records less time between its ticks than the elapsed time measured in that frame. Each clock measures time normally in its own rest frame.\n    Observers moving at a relative velocity v do not measure the same elapsed time for an event. Proper time Δt0 is the time interval measured by a clock present at both events. For the inertial clock considered here, the events occur at the same position in its rest frame. Proper time is related to the time Δt measured by an Earth-bound observer by the equation\n   Δt=Δt01−v2c2=γΔt0,where\nγ=11−v2c2.\n    The equation relating proper time and time measured by an Earth-bound observer implies that relative velocity cannot exceed the speed of light.\n    The twin paradox asks why a twin traveling at a relativistic speed away and then back towards the Earth ages less than the Earth-bound twin. Although time dilation is reciprocal during each constant-velocity leg, the traveling twin changes inertial frames to return. Special relativity accounts for the different elapsed times along the twins’ paths.\n    Time dilation is usually negligible at low relative velocities, but it does occur, and it has been verified by experiment."
+  },
+  {
+    "module": "m42535",
+    "title": "Length Contraction",
+    "summary": "Summary\n    All observers agree upon relative speed.\n    Distance depends on an observer’s motion. Proper length L0  is the distance between two points measured by an observer who is at rest relative to both of the points. Earth-bound observers measure proper length when measuring the distance between two points that are stationary relative to the Earth.\n\n    Length contraction L is the shortening of the measured length of an object moving relative to the observer’s frame:L=L01−v2c2=L0γ."
+  },
+  {
+    "module": "m42540",
+    "title": "Relativistic Addition of Velocities",
+    "summary": "Section SummaryWith classical velocity addition, velocities add like regular numbers in one-dimensional motion: u=v+u′, where v is the velocity between two observers, \n\nu is the velocity of an object relative to one observer, and u′ is the velocity relative to the other observer.\n    Velocities cannot add to be greater than the speed of light. Relativistic velocity addition describes the velocities of an object moving at a relativistic speed:\n\n        \n          \n            \n              \n                \n                  \n                    \n                      u=\n                    \n                  \n                  \n                      \n                        v+u′\n                      \n                    \n                      1\n                      +\n                      \n                        \n                          v\n                            \n                              u′\n                            \n                        \n                        \n                          c\n                          \n                            \n                              2\n                            \n                          \n                        \n                      \n                    \n                  \n                \n              \n          \n        \n      \n    An observer of electromagnetic radiation sees relativistic Doppler effects if the source of the radiation is moving relative to the observer. The wavelength of the radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer. The shifted wavelength is described by the equation\n    \n        \n          \n            \n              \n                \n                  \n                    λ\n                    \n                      \n                        obs\n                      \n                    \n                  \n                  \n                    \n                      \n                        =λ\n                        \n                          \n                            s\n                          \n                        \n                      \n                    \n                  \n                  \n                    \n                      \n                        1\n                        +\n                        \n                          u\n                          c\n                        \n                      \n                      \n                        1\n                        −\n                        \n                          u\n                          c\n                        \n                      \n                    \n                  \n                \n              \n            \n            \n          \n          \n       \n   λobs is the observed wavelength, λs is the source wavelength, and u is the relative velocity of the source to the observer."
+  },
+  {
+    "module": "m42542",
+    "title": "Relativistic Momentum",
+    "summary": "Section Summary\n     The law of conservation of momentum is valid whenever the net external force is zero and for relativistic momentum. Relativistic momentum p is classical momentum multiplied by the relativistic factor γ.\n    p=γmu, where m is the rest mass of the object, u is its velocity relative to an observer, and the relativistic factor γ=11−u2c2.\n    At low velocities, relativistic momentum is equivalent to classical momentum.\n    Relativistic momentum approaches infinity as u approaches c. This implies that an object with mass cannot reach the speed of light.\n    Relativistic momentum is conserved, just as classical momentum is conserved."
+  },
+  {
+    "module": "m42546",
+    "title": "Relativistic Energy",
+    "summary": "Section SummaryRelativistic energy is conserved as long as we define it to include the possibility of mass changing to energy.\n    Total Energy is defined as:\nE=γmc2, where\n\nγ=11−v2c2.\n    Rest energy is\nE0=mc2,  meaning that mass is a form of energy. If energy is stored in an object, its mass increases. Mass can be destroyed to release energy.\n    We do not ordinarily notice the increase or decrease in mass of an object because the change in mass is so small for a large increase in energy.\n    The relativistic work-energy theorem is Wnet=E−E0=γmc2−mc2=γ−1mc2.\nRelativistically,\nWnet=KErel ,\nwhere  KErel is the relativistic kinetic energy.\n    Relativistic kinetic energy is KErel=γ−1mc2, where γ=11−v2c2. At low velocities, relativistic kinetic energy reduces to classical kinetic energy.\n    No object with mass can attain the speed of light because an infinite amount of work and an infinite amount of energy input is required to accelerate a mass to the speed of light.\n    The equation E2=(pc)2+(mc2)2 relates the relativistic total energy\n\nE and the relativistic momentum\np. At extremely high velocities, the rest energy\nmc2 becomes negligible, and\nE=pc."
+  },
+  {
+    "module": "m42627",
+    "title": "Radiation Detection and Detectors",
+    "summary": "Section Summary\n        Radiation detectors are based directly or indirectly upon the ionization created by radiation, as are the effects of radiation on living and inert materials."
+  },
+  {
+    "module": "m42649",
+    "title": "Medical Imaging and Diagnostics",
+    "summary": "Section SummaryRadiopharmaceuticals are compounds that are used for medical imaging and therapeutics.\n    The process of attaching a radioactive substance is called tagging.\n     lists selected diagnostic uses of radiopharmaceuticals, with named preparations and adult activity ranges.\n    One common imaging device is the Anger camera, which consists of a lead collimator, radiation detectors, and an analysis computer.\n    Tomography performed with γ-emitting radiopharmaceuticals is called SPECT and has the advantages of x-ray CT scans coupled with organ- and function-specific drugs.\n    PET is a similar technique that uses β+ emitters and detects the two annihilation γ rays, which aid to localize the source."
+  },
+  {
+    "module": "m42665",
+    "title": "Nuclear Weapons",
+    "summary": "Section Summary\n    There are two types of nuclear weapons—fission bombs use fission alone, whereas thermonuclear bombs use fission to ignite fusion.\n    Both types of weapons produce huge numbers of nuclear reactions in a very short time.\n    Energy yields are measured in kilotons or megatons of equivalent conventional explosives and range from 0.1 kT to more than 20 MT.\n    Nuclear bombs are characterized by far more thermal output and nuclear radiation output than conventional explosives."
+  },
+  {
+    "module": "m42671",
+    "title": "The Four Basic Forces",
+    "summary": "Summary\n    The four basic forces and their carrier particles are summarized in the .\n    Feynman diagrams are graphs of time versus position and are highly useful pictorial representations of particle processes. \n    The theory of electromagnetism on the particle scale is called quantum electrodynamics (QED)."
+  },
+  {
+    "module": "m42674",
+    "title": "Particles, Patterns, and Conservation Laws",
+    "summary": "Summary\n    All particles of matter have an antimatter counterpart that has the opposite charge and certain other quantum numbers as seen in . These matter-antimatter pairs are otherwise very similar but will annihilate when brought together. Known particles can be divided into three major groups—leptons, hadrons, and carrier particles (gauge bosons). \n        Leptons do not feel the strong nuclear force and are further divided into three groups—electron family designated by electron family number Le; muon family designated by muon family number Lμ; and tau family designated by tau family number Lτ. The family numbers are not universally conserved due to neutrino oscillations.\n            Hadrons are particles that feel the strong nuclear force and are divided into baryons, with the baryon family number B being conserved, and mesons."
+  },
+  {
+    "module": "m42680",
+    "title": "GUTs: The Unification of Forces",
+    "summary": "Summary\n    \n    Electroweak theory unifies the electromagnetic and weak interactions. Grand unified theories propose a further unification with the strong interaction. \n        Eight types of gluons carry the strong interaction described by quantum chromodynamics (QCD). QCD and electroweak theory together form the Standard Model, which describes elementary particles and their strong, weak, and electromagnetic interactions.\n            Unification of the strong force is expected at such high energies that it cannot be directly tested, but it may have observable consequences in the as-yet unobserved decay of the proton and topics to be discussed in the next chapter. Although unification of forces is generally anticipated, much remains to be done to prove its validity."
+  },
+  {
+    "module": "m52310",
+    "title": "Physics: An Introduction",
+    "summary": "Summary\n            \n                Science seeks to discover and describe the underlying order and simplicity in nature.\n                Physics is the most basic of the sciences, concerning itself with energy, matter, space and time, and their interactions.\n                Scientific laws and theories express the general truths of nature and the body of knowledge they encompass. These laws of nature are rules that all natural processes appear to follow."
+  },
+  {
+    "module": "m52314",
+    "title": "Displacement",
+    "summary": "Section SummaryKinematics is the study of motion without considering its causes. In this chapter, it is limited to motion along a straight line, called one-dimensional motion. \n      Displacement is the change in position of an object.\n      In symbols, displacement Δx is defined to be\n      Δx=xf−x0,\nwhere x0 is the initial position and xf is the final position. In this text, the Greek letter Δ (delta) always means “change in” whatever quantity follows it. The SI unit for displacement is the meter (m). Displacement has a direction as well as a magnitude. \n      When you start a problem, assign which direction will be positive.\n      Distance is the magnitude of displacement between two positions.\n      Distance traveled is the total length of the path traveled between two positions."
+  },
+  {
+    "module": "m52316",
+    "title": "Vectors, Scalars, and Coordinate Systems",
+    "summary": "Section Summary\n    A vector is any quantity that has magnitude and direction.\n    A scalar is any quantity that has magnitude but no direction. \n    Displacement and velocity are vectors, whereas distance and speed are scalars. \n    In one-dimensional motion, direction is specified by a plus or minus sign to signify left or right, up or down, and the like."
+  },
+  {
+    "module": "m52325",
+    "title": "Newton’s First Law of Motion: Inertia",
+    "summary": "Section SummaryNewton’s first law of motion states that a body at rest remains at rest, or, if in motion, remains in motion at a constant velocity unless acted on by a net external force. This is also known as the law of inertia.\n        Inertia is the tendency of an object to remain at rest or remain in motion. Inertia is related to an object’s mass.\n        Mass is the quantity of matter in a substance."
+  },
+  {
+    "module": "m52364",
+    "title": "Temperature",
+    "summary": "Section SummaryTemperature is the quantity measured by a thermometer.\nTemperature is related to the average kinetic energy of atoms and molecules in a system.\nAbsolute zero is the temperature at which there is no molecular motion.\nThere are three main temperature scales: Celsius, Fahrenheit, and Kelvin.\nThe Kelvin and Celsius scales have equally sized temperature intervals, but their zero points differ by 273.15 degrees. A temperature in degrees Celsius converts to kelvins as TK=T°C+273.15.\nSystems are in thermal equilibrium when they have the same temperature.\nThermal equilibrium occurs when two bodies are in contact with each other and can freely exchange energy.\nThe zeroth law of thermodynamics states that when two systems, A and B, are in thermal equilibrium with each other, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C."
+  },
+  {
+    "module": "m52368",
+    "title": "Heat",
+    "summary": "Summary\nHeat and work are the two distinct methods of energy transfer.\n        Heat is energy transferred solely due to a temperature difference.\n            Any energy unit can be used for heat transfer, and the most common are kilocalorie (kcal) and joule (J).\n                Kilocalorie is defined to be the energy needed to change the temperature of 1.00 kg of water between 14.5°C and 15.5°C.\n                    The mechanical equivalent of this heat transfer is 1.00 kcal=4184 J."
+  },
+  {
+    "module": "m52381",
+    "title": "Static Electricity and Charge: Conservation of Charge",
+    "summary": "Section SummaryThere are only two types of charge, which we call positive and negative.\n            Like charges repel, unlike charges attract, and the force between charges decreases with the square of the distance.\n            The vast majority of positive charge in nature is carried by protons, while the vast majority of negative charge is carried by electrons.\n            The electric charge of one electron is equal in magnitude and opposite in sign to the charge of one proton.\n            An ion is an atom or molecule that has nonzero total charge due to having unequal numbers of electrons and protons.\n            The SI unit for charge is the coulomb (C), with protons and electrons having charges of opposite sign but equal magnitude; the magnitude of this basic charge |qe| is\n           |qe|=1.60×10−19C.\n            Whenever charge is created or destroyed, equal amounts of positive and negative are involved.\n            Most often, existing charges are separated from neutral objects to obtain some net charge.\n            Both positive and negative charges exist in neutral objects and can be separated by rubbing one object with another. For macroscopic objects, negatively charged means an excess of electrons and positively charged means a depletion of electrons.\n            The law of conservation of charge ensures that whenever a charge is created, an equal charge of the opposite sign is created at the same time."
+  },
+  {
+    "module": "m52384",
+    "title": "Coulomb’s Law",
+    "summary": "Section SummaryFrenchman Charles Coulomb was the first to publish the mathematical equation that describes the electrostatic force between two objects.\n                Coulomb’s law gives the magnitude of the force between point charges. It is\n                F=k|q1q2|r2, where q1 and q2 are two point charges separated by a distance r, and \nk≈8.99×109 N·m2/C2\n                This Coulomb force is extremely basic, since most charges are due to point-like particles. It is responsible for all electrostatic effects and underlies most macroscopic forces.\n                The Coulomb force is extraordinarily strong compared with the gravitational force, another basic force—but unlike gravitational force it can cancel, since it can be either attractive or repulsive.\n                The electrostatic force between two subatomic particles is far greater than the gravitational force between the same two particles."
+  },
+  {
+    "module": "m52385",
+    "title": "Electric Field: Concept of a Field Revisited",
+    "summary": "Section SummaryThe electrostatic force field surrounding a charged object extends out into space in all directions.\n        The electrostatic force exerted by a point charge on a test charge at a distance r depends on the charge of both charges, as well as the distance between the two.\n            The electric field E is defined to be\n    \n        \n          \n            \n              \n                \n                  E\n                  =\n                  \n                    F\n                    \n                      q\n                      \n                    \n                  \n                \n              \n            \n          \n          \n        \n      , \n    where F is the Coulomb or electrostatic force exerted on a small positive test charge q. E has units of N/C.\n    The magnitude of the electric field E created by a point charge Q is\n    \n        \n          \n            \n              \n                \n                  \n                    E\n                    =\n                    k\n                  \n\n                  \n                    |Q|\n                    \n                      r\n                      \n                        \n                          2\n                        \n                      \n                    \n                  \n                \n              \n            \n            \n.\n          \n          \n        \n       \n    where r is the distance from Q. The electric field E is a vector and fields due to multiple charges add like vectors."
+  },
+  {
+    "module": "m52401",
+    "title": "Ohm’s Law: Resistance and Simple Circuits",
+    "summary": "Section SummaryA simple circuit is one in which there is a single voltage source and a single resistance.\n\n        One statement of Ohm’s law gives the relationship between current \n\n \n  I \n \n, \nvoltage \n\n \n  V \n \n, \nand resistance \n\n \n  R \n \n\nin a simple circuit to be \nI=VR.\n\n        Resistance has units of ohms (\n \n  Ω \n \n), related to volts and amperes by 1Ω=1V/A.\n\n        There is a voltage or IR drop across a resistor, caused by the current flowing through it, given by V=IR."
+  },
+  {
+    "module": "m52402",
+    "title": "Electric Power and Energy",
+    "summary": "Section SummaryElectric power P is the rate (in watts) that energy is supplied by a source or dissipated by a device.\n    Three expressions for electrical power are\n    \n    P=IV,P=V2R, \n    \n    and\n    P=I2R.\n    \n    The energy used by a device with a power P over a time t is E=Pt."
+  },
+  {
+    "module": "m52406",
+    "title": "Electric Hazards and the Human Body",
+    "summary": "Section SummaryThe two types of electric hazards are thermal (excessive power) and shock (current through a person).\n    Shock severity is determined by current, path, duration, and AC frequency.\n     lists shock hazards as a function of current.\n     graphs the threshold current for two hazards as a function of frequency."
+  },
+  {
+    "module": "m52410",
+    "title": "Ferromagnets and Electromagnets",
+    "summary": "Section Summary\n      Magnetic poles always occur in pairs of north and south—it is not possible to isolate north and south poles. \n      All magnetism is created by electric current.\n      Ferromagnetic materials, such as iron, are those that exhibit strong magnetic effects. \n      The atoms in ferromagnetic materials act like small magnets (due to currents within the atoms) and can be aligned, usually in millimeter-sized regions called domains. \n      Domains can grow and align on a larger scale, producing permanent magnets. Such a material is magnetized, or induced to be magnetic. \n      Above a material’s Curie temperature, thermal agitation destroys the alignment of atoms, and ferromagnetism disappears. \n      Electromagnets employ electric currents to make magnetic fields, often aided by induced fields in ferromagnetic materials."
+  },
+  {
+    "module": "m52412",
+    "title": "Magnets",
+    "summary": "Section SummaryMagnetism is a subject that includes the properties of magnets, the effect of the magnetic force on moving charges and currents, and the creation of magnetic fields by currents.\nThere are two types of magnetic poles, called the north magnetic pole and south magnetic pole.\nNorth magnetic poles are those that are attracted toward the Earth’s geographic north pole.\nLike poles repel and unlike poles attract.\nMagnetic poles always occur in pairs of north and south—it is not possible to isolate north and south poles."
+  },
+  {
+    "module": "m52413",
+    "title": "Magnetic Fields and Magnetic Field Lines",
+    "summary": "Section SummaryMagnetic fields can be pictorially represented by magnetic field lines, the properties of which are as follows:The field is tangent to the magnetic field line.\n    Field strength is proportional to the line density.\n    Field lines cannot cross.\n    Field lines are continuous loops."
+  },
+  {
+    "module": "m52414",
+    "title": "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+    "summary": "Section SummaryThe maximum force a magnetic field can exert on a moving charge is\nF=qvB\n\n      The SI unit for magnetic field strength B is the tesla (T), which is related to other units by\n    1T=1NC⋅m/s=1NA⋅m.\n    \n      The direction of the force on a moving charge is given by right hand rule 1 (RHR-1): Point the thumb of the right hand in the direction of v, the fingers in the direction of B, and a perpendicular to the palm points in the direction of F.\n      The force is perpendicular to the plane formed by v and B. Since the force is zero if v is parallel to B, charged particles often follow magnetic field lines rather than cross them."
+  },
+  {
+    "module": "m52416",
+    "title": "Magnetic Force on a Current-Carrying Conductor",
+    "summary": "Section SummaryThe magnetic force on current-carrying conductors (when current direction and magnetic field direction are perpendicular)  is given by\nF=IlB,\n\nwhere I is the current, l is the length of a straight conductor in a uniform magnetic field B, and I⊥B. The force follows RHR-1 with the thumb in the direction of I."
+  },
+  {
+    "module": "m52420",
+    "title": "Magnetic Fields Produced by Currents: Ampere’s Law",
+    "summary": "Section SummaryThe strength of the magnetic field created by current in a long straight wire is given by\n    \n        \n          \n            \n              \n                \n                  B\n                  =\n                  \n                    \n                      \n                        μ\n                        \n                          0\n                        \n                      \n                      I\n                    \n                    2πr\n                  \n                \n                \n              \n            \n          \n        \n       (long straight wire),\n    \nwhere I is the current, r is the shortest distance to the wire, and the constant μ0=4π×10−7T⋅m/A is the permeability of free space.    \nThe direction of the magnetic field created by a long straight wire is given by right hand rule 2 (RHR-2): Point the thumb of the right hand in the direction of current, and the fingers curl in the direction of the magnetic field loops created by it.\n    The magnetic field created by current following any path is the sum (or integral) of the fields due to segments along the path (magnitude and direction as for a straight wire), resulting in a general relationship between current and field known as Ampere’s law.\n    The magnetic field strength at the center of a circular loop is given by\n    \n        \n          \n            \n              \n                \n                  B\n                  =\n                  \n                    \n                      \n                        μ\n                        \n                          0\n                        \n                      \n                      I\n                    \n                    2R\n                  \n                \n                \n                \n              \n            \n            \n          \n          \n        \n       (at center of loop),\n    \nwhere R is the radius of the loop. This equation becomes B=μ0nI/(2R) for a flat coil of N loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.    \n    The magnetic field strength inside a solenoid is\n    \n        \n          \n            \n              \n                \n                  B\n                  =\n                  \n                    μ\n                    \n                      0\n                    \n                  \n                \n                \n                  \n                    nI\n                  \n                \n               \n              \n            \n            \n          \n          \n        \n       (inside a solenoid),\n    \nwhere n is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction."
+  },
+  {
+    "module": "m52427",
+    "title": "Transformers",
+    "summary": "Section SummaryTransformers use induction to transform voltages from one value to another.\n    For a transformer, the voltages across the primary and secondary coils are related by\n    VsVp=NsNp,\n    \nwhere Vp and Vs are the voltages across primary and secondary coils having Np and Ns turns.\n    The currents Ip and Is in the primary and secondary coils are related by IsIp=NpNs.\n    A step-up transformer increases voltage and decreases current, whereas a step-down transformer decreases voltage and increases current."
+  },
+  {
+    "module": "m52443",
+    "title": "Maxwell’s Equations: Electromagnetic Waves Predicted and Observed",
+    "summary": "Section SummaryElectromagnetic waves consist of oscillating electric and magnetic fields and propagate at the speed of light \n \n  c \n \n. They were predicted by Maxwell, who also showed that\n        \n            Maxwell’s prediction of electromagnetic waves resulted from his formulation of a complete and symmetric theory of electricity and magnetism, known as Maxwell’s equations. \n        These four equations are paraphrased in this text, rather than presented numerically, and encompass the major laws of electricity and magnetism. First is Gauss’s law for electricity, second is Gauss’s law for magnetism, third is Faraday’s law of induction, including Lenz’s law, and fourth is Ampere’s law in a symmetric formulation that adds another source of magnetism—changing electric fields."
+  },
+  {
+    "module": "m52450",
+    "title": "Reflection",
+    "summary": "Section Summary\n    The angle of reflection equals the angle of incidence.\n    A mirror has a smooth surface and reflects light at specific angles.\n    Light is diffused when it reflects from a rough surface.\n    Mirror images can be photographed and videotaped by instruments."
+  },
+  {
+    "module": "m52454",
+    "title": "Refraction",
+    "summary": "Section SummaryThe changing of a light ray’s direction when it passes through variations in matter is called refraction.\n                The speed of light in vacuum c=2.99792458×108 m/s≈3.00×108 m/s.\n\n                Index of refraction n=cv, where v is the speed of light in the material, c is the speed of light in vacuum, and n is the index of refraction."
+  },
+  {
+    "module": "m52455",
+    "title": "Dispersion: The Rainbow and Prisms",
+    "summary": "Section SummaryThe spreading of white light into its full spectrum of wavelengths is called dispersion. \n    Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors.\n    Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+  },
+  {
+    "module": "m52456",
+    "title": "Polarization",
+    "summary": "Section SummaryPolarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave.\n    EM waves are transverse waves that may be polarized.\n\n    The direction of polarization is defined to be the direction parallel to the electric field of the EM wave.\n\n    Unpolarized light is composed of many rays having random polarization directions.\n\n    Light can be polarized by passing it through a polarizing filter or other polarizing material. \n\nThe intensity of polarized light after passing through a polarizing filter depends on the direction of polarization and the axis of the filter.\n\n    Polarization is also produced by reflection.\n\n    \n    Polarization can also be produced by scattering.\n    There are a number of types of optically active substances that rotate the direction of polarization of light passing through them."
+  },
+  {
+    "module": "m52466",
+    "title": "Substructure of the Nucleus",
+    "summary": "Section SummaryTwo particles, both called nucleons, are found inside nuclei. The two types of nucleons are protons and neutrons; they are very similar, except that the proton is positively charged while the neutron is neutral. Some of their characteristics are given in  and compared with those of the electron. A mass unit convenient to atomic and nuclear processes is the unified atomic mass unit (u), defined to be\n    \n        \n          \n            \n              \n                \n                  1u\n                  \n                    =\n                    1.6605\n                    ×\n                    \n                      10\n                      \n                        \n                          \n                            −\n                            27\n                          \n                        \n                    \n                     kg\n                    =\n                    931.5MeV\n                    /\n                    \n                      c\n                      \n                        \n                          2\n                        \n                      \n                    \n                  \n.\n                \n              \n            \n          \n        \n       \n \n    A nuclide is a specific combination of protons and neutrons, denoted by\n      XNZA or simply XA, where Z is the number of protons or atomic number, X is the symbol for the element, N is the number of neutrons, and A is the mass number or the total number of protons and neutrons,\n      A=N+Z.\n    Nuclides having the same Z but different N are isotopes of the same element.\n    The radius of a nucleus, r, is approximately\n      r=r0A1/3,\nwhere r0=1.2fm. Nuclear volumes are proportional to A. There are two nuclear forces, the weak and the strong. Systematics in nuclear stability seen on the chart of the nuclides indicate that there are shell closures in nuclei for values of Z and N equal to the magic numbers, which correspond to highly stable nuclei."
+  },
+  {
+    "module": "m52471",
+    "title": "Half-Life and Activity",
+    "summary": "Section SummaryHalf-life t1/2 is the time in which there is a 50% chance that a nucleus will decay. The number of nuclei N as a function of time isN=N0e−λt,\n\nwhere N0 is the number present at t=0, and λ is the decay constant, related to the half-life by\nλ=\n\nln(2)\n\nt1/2\n\n\n\n≈\n0.693t1/2.\n    One of the applications of radioactive decay is radioactive dating, in which the age of a material is determined by the amount of radioactive decay that occurs. The rate of decay is called the activity R:R=\n\n\n  \n    Δ\n    N\n  \n  \n    Δ\n    t\n  \n\n\n.\n    The SI unit for R is the becquerel (Bq), defined by1Bq=1 decay/s.\n    R is also expressed in terms of curies (Ci), where\n\n1Ci=3.70×1010 Bq.\n    The activity R of a source is related to N and t1/2 byR=0.693Nt1/2.\n    Since N has an exponential behavior as in the equation N=N0e−λt, the activity also has an exponential behavior, given byR=R0e−λt,\nwhere R0 is the activity at t=0."
+  },
+  {
+    "module": "m52479",
+    "title": "Fission",
+    "summary": "Section SummaryNuclear fission is a reaction in which a nucleus is split.\n      Fission releases energy when heavy nuclei are split into medium-mass nuclei.\n      Self-sustained fission is possible, because neutron-induced fission also produces neutrons that can induce other fissions, n+AX→FF1+FF2+xn, where FF1 and FF2 are the two daughter nuclei, or fission fragments, and x is the number of neutrons produced. \n      A minimum mass, called the critical mass, should be present to achieve criticality.\n      More than a critical mass can produce supercriticality.\n      The production of new or different isotopes (especially \n        \n          \n            \n              \n                \n                  \n                      Pu\n                    \n                        239\n                      \n                    \n                  \n                \n              \n            \n            \n          \n         \n        \n       \n    ) by nuclear transformation is called breeding, and reactors designed for this purpose are called breeder reactors."
+  },
+  {
+    "module": "m52480",
+    "title": "Fusion",
+    "summary": "Section Summary\n    Nuclear fusion is a reaction in which two nuclei are combined to form a larger nucleus. It releases energy when light nuclei are fused to form medium-mass nuclei. \n    Fusion is the source of energy in stars, with the proton-proton cycle,\n    H 1+1H →H2+e++νeQ=0.42MeVH1+2H→He 3+γQ=5.49MeVHe 3+3He→He4+1H+1H Q=12.86MeVbeing the principal sequence of energy-producing reactions in our Sun. \n    The overall effect of the proton-proton cycle is\n    2e−+4H1→He4+2νe+6γQ=26.7MeV,where the 26.7 MeV includes the energy of the positrons emitted and annihilated. \n    Attempts to utilize controlled fusion as an energy source on Earth are related to deuterium and tritium, and the reactions play important roles.\n    Ignition is the condition under which controlled fusion is self-sustaining; it has not yet been achieved. Break-even, in which the fusion energy output is as great as the external energy input, has nearly been achieved.\n    Magnetic confinement and inertial confinement are the two methods being developed for heating fuel to sufficiently high temperatures, at sufficient density, and for sufficiently long times to achieve ignition. The first method uses magnetic fields and the second method uses the momentum of impinging laser beams for confinement."
+  },
+  {
+    "module": "m67032",
+    "title": "Physical Quantities and Units",
+    "summary": "Summary\n    Physical quantities are a characteristic or property of an object that can be measured or calculated from other measurements.\n\tUnits are standards for expressing and comparing the measurement of physical quantities. All units can be expressed as combinations of four fundamental units.\n\tThe four fundamental units we will use in this text are the meter (for length), the kilogram (for mass), the second (for time), and the ampere (for electric current). These units are part of the metric system, which uses powers of 10 to relate quantities over the vast ranges encountered in nature.\n\tThe four fundamental units are abbreviated as follows: meter, m; kilogram, kg; second, s; and ampere, A. The metric system also uses a standard set of prefixes to denote each order of magnitude greater than or lesser than the fundamental unit itself.\n\tUnit conversions involve changing a value expressed in one type of unit to another type of unit. This is done by using conversion factors, which are ratios relating equal quantities of different units."
+  },
+  {
+    "module": "m67033",
+    "title": "Acceleration",
+    "summary": "Section SummaryAcceleration is the rate at which velocity changes. In symbols, average acceleration a¯ is\n      \n          \n            \n              \n                \n                  \n                    \n                      \n                        a\n                        ¯\n                      \n                      =\n                      \n                        Δ\n                          v\n                      \n                     Δ t\n                    \n                    \n                    =\n                    \n                      \n                        \n                          v\n                          \n                            f\n                          \n                        \n                        −\n                        \n                          v\n                          \n                            0\n                          \n                        \n                      \n                      \n                        \n                          t\n                          \n                            f\n                          \n                        \n                        −\n                        \n                          t\n                          \n                            0\n                          \n                        \n                      \n                    \n                  \n                  .\n                \n              \n              \n            \n            \n          \n        \n      \n      The SI unit for acceleration is m/s2.\n      Acceleration is a vector, and thus has a both a magnitude and direction. \n      Acceleration can be caused by either a change in the magnitude or the direction of the velocity.\n      Instantaneous acceleration a is the acceleration at a specific instant in time. \n      When an acceleration is in a direction opposite to that of the velocity of an object, the object slows down."
+  },
+  {
+    "module": "m67034",
+    "title": "Motion Equations for Constant Acceleration in One Dimension",
+    "summary": "Section Summary\n    To simplify calculations we take acceleration to be constant, so that a¯=a at all times. \n    We also take initial time to be zero. \n    Initial position and velocity are given a subscript 0; final values have no subscript. Thus,\n    \n        \n          \n            Δt\n                  =\n\n              \n                \n                  t\n                \n              \n            \n             Δx\n =\n\n                  \n                    x\n                    −\n                    \n                      x\n                        0\n                    \n              \n            \n             Δv\n=\n\n              \n                    v\n                    −\n                    \n                      v\n                        0\n                    \n              \n            \n          \n\n\n        \n      \n    \n    The following kinematic equations for motion with constant a are useful:\n    \n      \n        \n          \n            \n              \n                \n                  x\n                  =\n                  \n                    \n                      x\n                      \n                        0\n                      \n                    \n                    +\n                    \n                      v\n                      ¯\n                    \n                  \n                \n                t\n              \n            \n            \n          \n          \n        \n      \n    \n    \n      \n        \n          \n            \n              \n                \n                  v\n                  ¯\n                \n                =\n                \n                  \n                    \n                      v\n                      \n                        0\n                      \n                    \n                    +\n                    v\n                  \n                  2\n                \n              \n            \n            \n          \n          \n        \n      \n    \n    \n      \n        \n          \n            \n              \n                v\n                =\n                \n                  \n                    v\n                    \n                      0\n                    \n                  \n                  +\n                  \n                    \n                      at\n                    \n                  \n                \n              \n            \n            \n          \n          \n        \n      \n    \n    \n        \n          \n            \n              \n                \n                  x\n                  =\n                  \n                    \n                      x\n                      \n                        0\n                      \n                    \n                    +\n                    \n                      v\n                      \n                        0\n                      \n                    \n                  \n                \n                \n                  t\n                  +\n                  \n                    1\n                    2\n                  \n                \n                \n                  \n                    at2\n                  \n                \n              \n            \n            \n          \n          \n        \n      \n    \n        \n          \n            \n              \n                \n                  \n                    v\n                    \n                      2\n                    \n                  \n                  =\n                  \n                    \n                      v\n                      \n                        0\n                      \n                      \n                        2\n                      \n                    \n                    +\n                    2a\n                  \n                \n                \n                  \n                    x\n                    −\n                    \n                      x\n                      \n                        0\n                      \n                    \n                  \n                \n              \n            \n            \n          \n          \n        \n      \n    \n    In vertical motion, y is substituted for x."
+  },
+  {
+    "module": "m67035",
+    "title": "Centripetal Acceleration",
+    "summary": "Section SummaryCentripetal acceleration ac is the acceleration experienced while in uniform circular motion. It always points toward the center of rotation. It is perpendicular to the linear velocity v and has the magnitude\n    \n        \n          \n            \n              \n                \n                  \n                    \n                      a\n                      \n                        \n                          c\n                        \n                      \n                    \n                    =\n                    \n                      \n                        v\n                        \n                          \n                            2\n                          \n                        \n                      \n                      r\n                    \n                  \n                  \n                \n                  \n            \n.\n          \n          \n        \n       \n    \n    The unit of centripetal acceleration is m/s2."
+  },
+  {
+    "module": "m67036",
+    "title": "Centripetal Force",
+    "summary": "Section SummaryCentripetal force Fc is any force causing uniform circular motion. It is a “center-seeking” force that always points toward the center of rotation. It is perpendicular to linear velocity v and has magnitude\n    Fc=mac,which can also be expressed as \n    \n        \n          \n            \n              \n                \n                  \n                    \n                      F\n                      \n                        \n                          c\n                        \n                      \n                    \n                    =\n                    m\n                  \n                  \n                    \n                      v\n                      \n                        \n                          2\n                        \n                      \n                    \n                    r\n                  \n                ."
+  },
+  {
+    "module": "m67037",
+    "title": "Conservative Forces, Potential Energy, and Conservation of Energy",
+    "summary": "Section SummaryA conservative force is one for which work depends only on the starting and ending points of a motion, not on the path taken.\n    We can define potential energy (PE) for any conservative force, just as we defined PEg for the gravitational force. \n\n    \n    Mechanical energy is defined to be KE + PE for a conservative force.\n    When only conservative forces act on and within a system, the total mechanical energy is conserved, ΔKEΔPE0.\n\nThe law of conservation of energy states that the total energy, including the mechanical energy and other forms of energy, is constant in any process. Energy may change in form or be transferred from one system to another, but the total remains the same.\n    Commonly encountered forms of energy include electric energy, chemical energy, radiant energy, nuclear energy, and thermal energy."
+  },
+  {
+    "module": "m67038",
+    "title": "Projectile Motion",
+    "summary": "SummaryProjectile motion is the motion of an object through the air that is subject only to the acceleration of gravity.\nThe most important fact regarding projectile motion is that motions along vertical direction and the horizontal direction are independent.\nThe maximum horizontal distance traveled by a projectile is called the range. The range R of a projectile on level ground launched at an angle θ0 above the horizontal with initial speed v0 is given by\n  R=v02sin2θ0g."
+  },
+  {
+    "module": "m67039",
+    "title": "Conservation of Momentum",
+    "summary": "Section SummaryThe conservation of momentum principle says that the total momentum is conserved, or constant, in the absence of a net external force, as a direct consequence of Newton’s third law.\n    During projectile motion and where air resistance is negligible, momentum is conserved in the horizontal direction because horizontal forces are zero."
+  },
+  {
+    "module": "m67042",
+    "title": "Elastic Collisions in One Dimension",
+    "summary": "Section SummaryAn elastic collision is one that conserves total kinetic energy.\n    Conservation of kinetic energy and momentum together allow the final velocities to be calculated in terms of initial velocities and masses in one dimensional two-body collisions."
+  },
+  {
+    "module": "m67043",
+    "title": "Inelastic Collisions in One Dimension",
+    "summary": "Section SummaryAn inelastic collision is one in which the total kinetic energy changes (it is not conserved).\n    A collision in which the objects stick together is sometimes called perfectly inelastic because it reduces total kinetic energy as much as possible while conserving total momentum."
+  },
+  {
+    "module": "m67044",
+    "title": "Spring Force: Hooke’s Law",
+    "summary": "Section SummaryAn oscillation is a back and forth motion of an object between two points of deformation.\n      An oscillation may create a wave, which is a disturbance that propagates from where it was created.\n      The simplest type of oscillations and waves are related to systems that can be described by Hooke’s law:\n    F=−kx,\n    where F is the restoring force, x is the displacement from equilibrium or deformation, and k is the spring constant of the system."
+  },
+  {
+    "module": "m67045",
+    "title": "Spring Potential Energy",
+    "summary": "Section SummaryHooke’s law describes force exerted by a spring being deformed,\n    F=−kx,\n    where F is the restoring force, x is the displacement from equilibrium or deformation, and k is the force constant of the system. \n        \n        Elastic potential energy PEel stored in the deformation of a system that can be described by Hooke’s law is given by\n    PEel=12kx2."
+  },
+  {
+    "module": "m67046",
+    "title": "Rotational Kinetic Energy",
+    "summary": "Section SummaryThe rotational kinetic energy KErot for an object with a moment of inertia I and an angular velocity ω is given by\nKErot=12Iω2.\n    Helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades.\n    Work and energy in rotational motion are completely analogous to work and energy in translational motion."
+  },
+  {
+    "module": "m67122",
+    "title": "The Ideal Gas Law",
+    "summary": "Section SummaryThe ideal gas law relates the pressure and volume of a gas to the number of gas molecules and the temperature of the gas.\n    The ideal gas law can be written in terms of the number of molecules of gas:\n    PV=NkBT,\nwhere P is pressure, V is volume, T is temperature, N is number of molecules, and kB is the Boltzmann constant\n    kB=1.38×10−23 J/K.\n    The ideal gas law is generally valid at temperatures well above the boiling temperature."
+  },
+  {
+    "module": "m67123",
+    "title": "Heat Transfer Methods",
+    "summary": "Summary\n        Heat is transferred by three different methods: conduction, convection, and radiation."
+  },
+  {
+    "module": "m67124",
+    "title": "Phase Change and Latent Heat",
+    "summary": "Summary\n    Most substances can exist either in solid, liquid, and gas forms, which are referred to as “phases”.\n    Phase changes occur at fixed temperatures for a given substance at a given pressure, and these temperatures are called boiling and freezing (or melting) points.\n    During phase changes, heat absorbed or released is given by:\n    Q=mL,where L is the latent heat coefficient."
+  },
+  {
+    "module": "m67125",
+    "title": "The First Law of Thermodynamics",
+    "summary": "Section SummaryThe first law of thermodynamics is given as ΔU=Q−W, where ΔU is the change in internal energy of a system, Q is the net heat transfer (the sum of all heat transfer into and out of the system), and W is the net work done (the sum of all work done on or by the system).\n    Both Q and W are energy in transit; only ΔU represents an independent quantity capable of being stored.\n    The internal energy U of a system depends only on the state of the system and not how it reached that state."
+  },
+  {
+    "module": "m67126",
+    "title": "The First Law of Thermodynamics and Heat Engine Processes",
+    "summary": "Section SummaryOne of the important implications of the first law of thermodynamics is that machines can be harnessed to do work that humans previously did by hand or by external energy supplies such as running water or the heat of the Sun. A machine that uses heat transfer to do work is known as a heat engine.\n    There are several simple processes, used by heat engines, that flow from the first law of thermodynamics. Among them are the isobaric, isochoric, isothermal and adiabatic processes.\n    These processes differ from one another based on how they affect pressure, volume, temperature, and heat transfer.\n    If the work done is performed on the outside environment, work (W) will be a positive value. If the work done is done to the heat engine system, work (W) will be a negative value.\n    Some thermodynamic processes, including isothermal and adiabatic processes, are reversible in theory; that is, both the thermodynamic system and the environment can be returned to their initial states. However, because of loss of energy owing to the second law of thermodynamics, complete reversibility does not work in practice."
+  },
+  {
+    "module": "m67127",
+    "title": "Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+    "summary": "Section SummaryThe two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible for a system operating in a cycle to have as its sole result the absorption of heat from a single reservoir and the conversion of all that heat into work. These expressions describe the direction of irreversible processes that occur in nature.\n\n    Cyclical processes are processes that return to their original state at the end of every cycle.\n\n    In a cyclical process, such as a heat engine, the net work done by the system equals the net heat transfer into the system, or \n\n \n  \n   W\n   =\n   \n    Q\n    h\n   \n   −\n   \n    Q\n    c\n   \n  \n \n , where  \n \n  \n   \n    Q\n    h\n   \n  \n \n is the heat transfer from the hot object (hot reservoir), and  \n \n  \n   \n    Q\n    c\n   \n  \n \n is the heat transfer into the cold object (cold reservoir).\nEfficiency can be expressed as \n\nEff=WQh,\n\n the ratio of work output divided by the amount of energy input.\n    The four-stroke gasoline engine is often explained in terms of the Otto cycle, which is a repeating sequence of processes that convert heat into work."
+  },
+  {
+    "module": "m67128",
+    "title": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+    "summary": "Section SummaryEntropy helps determine the energy available to do work.\n    Another form of the second law of thermodynamics states that the total entropy of an isolated system either increases or remains constant; it never decreases.\n    The total entropy change of the system and its surroundings is zero in a reversible process; it increases in an irreversible process.\n    Entropy is also associated with the tendency toward disorder in an isolated system."
+  },
+  {
+    "module": "m67130",
+    "title": "Current",
+    "summary": "Section SummaryElectric current I is the rate at which charge flows, given by\n\nI=ΔQΔt\n,\n\n    where ΔQ is the amount of charge passing through an area in time Δt.\n    The direction of conventional current is taken as the direction in which positive charge moves.\n    The SI unit for current is the ampere (A), where 1A=1C/s.\n    Current is the flow of free charges, such as electrons and ions."
+  },
+  {
+    "module": "m67131",
+    "title": "Alternating Current versus Direct Current",
+    "summary": "Section SummaryOhm’s law for AC is Irms=VrmsR.\n\n    Expressions for the average power of an AC circuit  are Pavg=\nIrms\nVrms, \n\nPavg\n=\n\nVrms2R, and \n\nPavg=\nIrms2R, analogous to the expressions for DC circuits."
+  },
+  {
+    "module": "m67132",
+    "title": "The Electromagnetic Spectrum: an Overview",
+    "summary": "Section SummaryThe relationship among the speed of propagation, wavelength, and frequency for any wave is given by vW=fλ, so that for electromagnetic waves,\n        c=fλ,where f is the frequency, λ is the wavelength, and c is the speed of light.\n                The electromagnetic spectrum is separated into many categories and subcategories, based on the frequency and wavelength, source, and uses of the electromagnetic waves."
+  },
+  {
+    "module": "m67133",
+    "title": "The Electromagnetic Spectrum: Application Notes",
+    "summary": "Section SummaryThe electromagnetic spectrum is separated into many categories and subcategories, based on the frequency and wavelength, source, and uses of the electromagnetic waves. \n                    Radio waves occupy the lowest-frequency region of the electromagnetic spectrum and can be produced by oscillating currents in antennas. Radio waves are divided into many types, depending on their applications, ranging up to microwaves at their highest frequencies.\n                        Infrared radiation lies below visible light in frequency and is produced by thermal motion and the vibration and rotation of atoms and molecules. Infrared’s lower frequencies overlap with the highest-frequency microwaves. \n                            Visible light is largely produced by electronic transitions in atoms and molecules, and is defined as being detectable by the human eye. Its colors vary with frequency, from red at the lowest to violet at the highest. \n                                Ultraviolet radiation starts with frequencies just above violet in the visible range and is produced primarily by electronic transitions in atoms and molecules. \n                                    X-rays can be produced when energetic electrons are deflected by atomic nuclei or when electrons fill vacancies in inner atomic shells. Their lowest frequencies overlap the ultraviolet range but extend to much higher values, overlapping at the high end with gamma rays. \n                                        Gamma rays are emitted in nuclear processes and other high-energy processes. Their frequencies overlap those of X-rays and extend to the highest-frequency region of the electromagnetic spectrum."
+  },
+  {
+    "module": "m67134",
+    "title": "Image Formation by Lenses",
+    "summary": "Section SummaryLight rays entering a converging lens parallel to its axis cross one another at a single point on the opposite side.\n    For a converging lens, the focal point is the point at which converging light rays cross; for a diverging lens, the focal point is the point from which diverging light rays appear to originate.\n    The distance from the center of the lens to its focal point is called the focal length f.\n    Power P of a lens is defined to be the inverse of its focal length, P=1f.\n    A lens that causes the light rays to bend away from its axis is called a diverging lens.\n    Ray tracing is the technique of graphically determining the paths that light rays take.\n    The image in which light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye is called a real image.\n    Thin lens equations are 1do+1di=1f and hiho=−dido=m (magnification).\n    The distance of the image from the center of the lens is called image distance.\n    An image that is on the same side of the lens as the object and cannot be projected on a screen is called a virtual image."
+  },
+  {
+    "module": "m67135",
+    "title": "Image Formation by Mirrors",
+    "summary": "Section SummaryThe characteristics of an image formed by a flat mirror are: (a) The image and object are the same distance from the mirror, (b) The image is a virtual image, and (c) The image is situated behind the mirror.\n      Image length is half the radius of curvature. f=R2\n    A convex mirror is a diverging mirror and forms only one type of image, namely a virtual image."
+  },
+  {
+    "module": "m67250",
+    "title": "Blackbody Radiation",
+    "summary": "Section SummaryThe first indication that energy is sometimes quantized came from blackbody radiation, which is the emission of EM radiation by an object that absorbs all radiation incident on it. \nThe failure of classical theory to successfully explain blackbody radiation is called “ultraviolet catastrophe”, after the large intensity of short-wavelength radiation incorrectly predicted.\nPlanck derived the Planck Law by assuming that energy of oscillators is quantized and can change only by amount ΔEhf, where h, Planck’s constant is, h=6.626× 10−34 J ⋅ s."
+  },
+  {
+    "module": "m67251",
+    "title": "The Photoelectric Effect",
+    "summary": "Section SummaryThe photoelectric effect is the process in which EM radiation ejects electrons from a material. \n    Einstein proposed photons to be quanta of EM radiation having energy E=hf, where f is the frequency of the radiation.\n    All EM radiation is composed of photons. As Einstein explained, all characteristics of the photoelectric effect are due to the interaction of individual photons with individual electrons. \n    The maximum kinetic energy KEe of ejected electrons (photoelectrons) is given by KE e=hf − BE, where hf is the photon energy and BE is the binding energy (or work function) of the electron to the particular material."
+  },
+  {
+    "module": "m67530",
+    "title": "Newton’s Second Law of Motion: Force and Acceleration",
+    "summary": "Section SummaryAcceleration, a, is defined as a rate of change in velocity, resulting from a change in the magnitude and/or the direction of the velocity.\n      An external force is one acting on a system from outside the system, as opposed to internal forces, which act between components within the system.\n      Newton’s second law of motion states that the acceleration of a system is directly proportional to and in the same direction as the net external force acting on the system, and inversely proportional to its mass.  \n      In equation form, Newton’s second law of motion is aFnetm, often written in the more familiar form: Fnetma.\n      The weight w of an object is defined as the force of gravity acting on an object of mass m. Given acceleration due to gravity g, the magnitude of weight is:\nwmg"
+  },
+  {
+    "module": "m67539",
+    "title": "Work: The Scientific Definition",
+    "summary": "Section SummaryWork is the transfer of energy by a force acting on an object as it is displaced.\n    \n The work W that a force F does on an object is the product of the magnitude F of the force parallel to the motion, times the magnitude d of the displacement. In symbols,\nW=Fd.\n\n\n\n    The SI unit for work and energy is the joule (J), where 1J=1N⋅m=1kg⋅m2/s2.\nThe work done by a force is zero if the displacement is either zero or perpendicular to the force.\n    The work done is positive if the force and displacement have the same direction, and negative if they have opposite direction."
+  },
+  {
+    "module": "m67622",
+    "title": "Temperature Change and Heat Capacity",
+    "summary": "Summary\nThe transfer of heat Q that leads to a change ΔT in the temperature of a body with mass m is Q=mcΔT, where c is the specific heat of the material. This relationship can also be considered as the definition of specific heat."
+  },
+  {
+    "module": "m67803",
+    "title": "The Wave Nature of Matter",
+    "summary": "Section SummaryParticles of matter also have a wavelength, called the de Broglie wavelength, given by λ=hp, where p is momentum.\nThe de Broglie relationship between wavelength and momentum is universally applicable to all particles and waves.\n    Matter is found to have the same interference characteristics as any other wave."
+  },
+  {
+    "module": "m67804",
+    "title": "Uncertainty Principle",
+    "summary": "Section SummaryMatter is found to have the same interference characteristics as any other wave.\n    There is now a probability distribution for the location of a particle rather than a definite position.\n    Another consequence of the wave character of all particles is the Heisenberg uncertainty principle, which limits the precision with which certain physical quantities can be known simultaneously. For position and momentum, the uncertainty principle is ΔxΔp≥h4π, where Δx is the uncertainty in position and Δp is the uncertainty in momentum.\n    These small limits are fundamentally important on the quantum-mechanical scale."
+  },
+  {
+    "module": "m67805",
+    "title": "Discovery of the Atomic Nucleus",
+    "summary": "Section Summary\nAtoms are composed of negatively charged electrons, first proved to exist in cathode-ray-tube experiments, and a positively charged nucleus.\n    All electrons are identical and have a charge-to-mass ratio of\n    \n        \n          \n                \n                    \n                      \n                        q\n                            e\n                      \n                      \n                        m\n                            e\n                      \n                    \n                    =\n                      −\n\n                    1.76\n                    ×\n                    \n                      10\n                          11\n                    \n                   C/kg.\n              \n            \n          \n          \n       \n    \n    The positive charge in the nuclei is carried by particles called protons, which have a charge-to-mass ratio of\n    \n        \n          \n            \n              \n                \n                  \n                    \n                      \n                        q\n                        \n                          \n                            p\n                          \n                        \n                      \n                      \n                        m\n                        \n                          \n                            p\n                          \n                        \n                      \n                    \n                    =\n                    9\n                  \n                  .\n                  \n                    58\n                    ×\n                    \n                      10\n                      \n                        \n                          7\n                        \n                      \n                    \n                  \n                   C/kg\n                  .\n                \n              \n            \n            \n          \n          \n        \n       \n    \n    Mass of electron,\n    \n        \n          \n            \n              \n                \n                  \n                    \n                      m\n                      \n                        \n                          e\n                        \n                      \n                    \n                    =\n                    9\n                  \n                  .\n                  \n                    11\n                    ×\n                    \n                      10\n                      \n                        \n                          \n                            −\n                            31\n                          \n                        \n                      \n                    \n                  \n                   kg\n                  .\n                \n              \n            \n            \n          \n          \n       \n    \n    Mass of proton,\n    \n        \n          \n            \n              \n                \n                  \n                    \n                      m\n                      \n                        \n                          p\n                        \n                      \n                    \n                    =\n                    1\n                  \n                  .\n                  \n                    67\n                    ×\n                    \n                      10\n                      \n                        \n                          \n                            −\n                            27\n                          \n                        \n                      \n                    \n                  \n                   kg.\n                \n              \n            \n            \n          \n          \n       \n    \n    The planetary model of the atom pictures electrons orbiting the nucleus in the same way that planets orbit the sun."
+  },
+  {
+    "module": "m67807",
+    "title": "Bohr’s Theory of the Hydrogen Atom",
+    "summary": "Section SummaryThe planetary model of the atom pictures electrons orbiting the nucleus in the way that planets orbit the sun. Bohr used the planetary model to develop the first reasonable theory of hydrogen, the simplest atom. Atomic and molecular spectra are quantized, with hydrogen spectrum wavelengths given by the formula\n      1λ=R1nf2−1ni2,\n    where λ is the wavelength of the emitted EM radiation and R is the Rydberg constant, which has the value\n    \n        \n          \n            \n              \n                \n                  \n                    R\n                    =\n                    1.097\n                    ×\n                    \n                      10\n                      \n                        \n                          7\n                        \n                      \n                    \n                  \n                \n                   m\n                  −1\n                \n                  .\n                \n              \n            \n          \n        \n       \n    \n    The constants ni and nf are positive integers, and ni must be greater than nf.\n    Bohr correctly proposed that the energy and radii of the orbits of electrons in atoms are quantized, with energy for transitions between orbits given by\n      ΔE=hf=Ei−Ef,where ΔE is the change in energy between the initial and final orbits and hf is the energy of an absorbed or emitted photon. It is useful to plot orbital energies on a vertical graph called an energy-level diagram.\n    Bohr proposed that the allowed orbits are circular and must have quantized orbital angular momentum given by L=nℏ,where L is the orbital angular momentum, n is a positive integer, and ℏ=h2π is the reduced Planck constant.\n    Additional quantized orbital quantities—orbital radius, orbital speed, and orbital energy—can be derived starting from Bohr’s assumption, and they yield predictions consistent with the experimental Rydberg formula.\n    While Bohr’s semiclassical model of the atom does not account for all experimental facts about the atom, it is an important stepping stone to fully-quantum-mechanical models of the atom."
+  },
+  {
+    "module": "m67808",
+    "title": "The Wave Nature of Matter Causes Quantization",
+    "summary": "Section SummaryQuantization of orbital energy is caused by the wave nature of matter. Allowed orbits in atoms occur for constructive interference of electrons in the orbit, requiring an integral number of wavelengths to fit in an orbit’s circumference; that is,\n    \n          \n              \n                \n                  nλ\n                        n\n                      \n                  \n                  =\n                  2πrn\n\n                  \n                \n              \n            \n          \n           (n=1,2,3,…),where λn is the electron’s de Broglie wavelength.\nOwing to the wave nature of electrons and the Heisenberg uncertainty principle, there are no well-defined orbits; rather, there are clouds of probability.\n    Bohr correctly proposed that the energy and radii of the orbits of electrons in atoms are quantized, with energy for transitions between orbits given by\n    ΔE=hf=Ei−Ef,\nwhere ΔE is the change in energy between the initial and final orbits and hf is the energy of an absorbed or emitted photon.\nIt is useful to plot orbit energies on a vertical graph called an energy-level diagram.\n    The allowed orbits are circular, Bohr proposed, and must have quantized orbital angular momentum given by\n    L=mevrn=nh2π=nℏ (n=1,2,3,…),where L is the orbital angular momentum, rn is the radius of orbit n, and ℏ=h2π is the reduced Planck constant."
+  },
+  {
+    "module": "m67819",
+    "title": "Doppler Effect and Sonic Booms",
+    "summary": "Section SummaryThe Doppler shift is change in observed frequency of a wave (for example, a sound wave) due to relative motion of the source and the observer, with approaching source and/or observer increasing the observed frequency and receding source and/or observer decreasing the observed frequency.\nA sonic boom is constructive interference of sound created by an object moving faster than sound.\nA shock wave is a type of bow wake created when any wave source moves faster than the wave propagation speed."
+  },
+  {
+    "module": "m68327",
+    "title": "Biological Effects of Ionizing Radiation",
+    "summary": "Section SummaryThe biological effects of ionizing radiation are due to two effects it has on cells: interference with cell reproduction, and destruction of cell function.\n    A radiation dose unit called the rad is defined in terms of the ionizing energy deposited per kilogram of tissue:\n1rad=0.01J/kg.\n    The SI unit for radiation dose is the gray (Gy), which is defined to be 1 Gy = 1 J/kg = 100 rad.\n    To account for radiation type in radiation protection, we use the radiation weighting factors in . For one radiation type, equivalent dose H is average absorbed dose D to the organ or tissue multiplied by its radiation weighting factor:H=wRD\n    Effective dose also accounts for the different sensitivities of organs and tissues by applying tissue weighting factors to their equivalent doses and adding the results. Equivalent and effective doses are measured in sieverts (Sv) or rem:1Sv=100rem.\n    For X-rays and gamma rays, absorbed doses below 0.1 Gy are called low, those from 0.1 to 1 Gy moderate, and those above 1 Gy high. Some effects of acute whole-body radiation exposure are given in . The linear hypothesis assumes that cancer risk is proportional to dose. The estimated additional lifetime risk of dying from radiation-induced cancer is about 300 in a million per rem of whole-body exposure, within an order of magnitude. Heritable effects have not been demonstrated in the offspring of Hiroshima and Nagasaki survivors. Background radiation doses and sources are given in . World-wide average annual effective dose from natural sources, including radon, is about 3 mSv, or 300 mrem. Radiation protection utilizes time, distance, and shielding to limit exposure."
+  },
+  {
+    "module": "m68329",
+    "title": "Normal Force and Tension",
+    "summary": "Section SummaryWhen objects rest on a surface, the surface applies a force to the object that supports the weight of the object. This supporting force acts perpendicular to and away from the surface. It is called a normal force, and it also goes by the name “apparent weight”.\nWhen objects rest on a non-accelerating horizontal surface, the magnitude of the normal force is equal to the weight of the object:\nN=mg.\n\nThe pulling force that acts along a stretched flexible connector, such as a rope or cable, is called tension, T. When a rope supports the weight of an object that is at rest, the tension in the rope is equal to the weight of the object:\n      T=mg."
+  },
+  {
+    "module": "m68330",
+    "title": "Newton’s Third Law of Motion: Symmetry in Forces",
+    "summary": "Section SummaryNewton’s third law of motion represents a basic symmetry in nature. It states: Whenever one body exerts a force on a second body, the first body experiences a force that is equal in magnitude and opposite in direction to the force that the first body exerts.\n  A thrust is a reaction force that pushes a body forward in response to a backward force. Rockets, airplanes, and cars are pushed forward by a thrust reaction force."
+  },
+  {
+    "module": "m68876",
+    "title": "Falling Objects",
+    "summary": "Section SummaryAn object in free-fall experiences constant acceleration if air resistance is negligible.\n\nOn Earth, all free-falling objects have an acceleration due to gravity g, which averages\n    g=9.80m/s2.\n\nWhether the acceleration a should be taken as +g or −g is determined by your choice of coordinate system. If you choose the upward direction as positive, a=−g=−9.80m/s2 is negative. In the opposite case, a=+g=9.80m/s2 is positive. Since acceleration is constant, the kinematic equations above can be applied with the appropriate +g or \n−g substituted for a.\n    For objects in free-fall, up is normally taken as positive for displacement, velocity, and acceleration."
+  },
+  {
+    "module": "m70739",
+    "title": "Electric Field Lines",
+    "summary": "Section Summary\n        Drawings of electric field lines are useful visual tools. The properties of electric field lines for any charge distribution are that:\n        Field lines must begin on positive charges and terminate on negative charges, or at infinity in the hypothetical case of isolated charges.\n        The number of field lines leaving a positive charge or entering a negative charge is proportional to the magnitude of the charge.\n        The strength of the field is proportional to the closeness of the field lines—more precisely, it is proportional to the number of lines per unit area perpendicular to the lines.\n        The direction of the electric field is tangent to the field line at any point in space.\n        Field lines can never cross."
+  },
+  {
+    "module": "m70743",
+    "title": "Induced Voltage and Magnetic Flux",
+    "summary": "Section Summary\nThe crucial quantity in induction is magnetic flux Φ, defined to be Φ=B⊥A, where B⊥ is the magnetic field strength perpendicular to the area A.\n\n        Units of magnetic flux Φ are T⋅m2.\n        Any change in magnetic flux Φ induces a voltage—the process is defined to be electromagnetic induction."
+  },
+  {
+    "module": "m70744",
+    "title": "Faraday’s Law of Induction: Lenz’s Law",
+    "summary": "Section SummaryFaraday’s law of induction states that the voltage induced by a change in magnetic flux is\n    V=−NΔΦΔtwhen flux changes by ΔΦ in a time Δt.\n    \n    If voltage is induced in a coil,  \n \n  N \n \n is its number of turns.\n    The minus sign means that the induced voltage creates a current I and magnetic field B that oppose the change in flux ΔΦ —this opposition is known as Lenz’s law."
+  },
+  {
+    "module": "m71407",
+    "title": "Time, Velocity, and Speed",
+    "summary": "Section SummaryTime is measured in terms of change, and its SI unit is the second (s). Elapsed time for an event is\n    Δt=tf−t0,\nwhere tf is the final time and t0 is the initial time. \n\n    Average velocity v¯ is defined as displacement divided by the travel time. In symbols, average velocity is\n    \n        \n          \n            \n              \n                \n                  \n                    \n                      v\n                      ¯\n                    \n                    =\n                    \n                      Δx\n                      Δt\n                    \n                  \n                  =\n                  \n                    \n                      \n                        x\n                        \n                          f\n                        \n                      \n                      −\n                      \n                        x\n                        \n                          0\n                        \n                      \n                    \n                    \n                      \n                        t\n                        \n                          f\n                        \n                      \n                      −\n                      \n                        t\n                        \n                          0\n                        \n                      \n                    \n                  \n                \n                .\n              \n            \n            \n          \n          \n        \n      \n    \n    The SI unit for velocity is m/s. \n    Velocity is a vector and thus has a direction. \n    Instantaneous velocity v is the velocity at a specific instant or the average velocity for an infinitesimal interval. \n    Instantaneous speed is the magnitude of the instantaneous velocity.\n    Instantaneous speed is a scalar quantity, as it has no direction specified.\n    Average speed is the total distance traveled divided by the elapsed time. (Average speed is not the magnitude of the average velocity.) Speed is a scalar quantity; it has no direction associated with it."
+  },
+  {
+    "module": "m71409",
+    "title": "Friction",
+    "summary": "Section SummaryFriction is a contact force between systems that opposes the motion or attempted motion between them. Simple friction is proportional to the normal force N pushing the systems together. (A normal force is always perpendicular to the contact surface between systems.) Friction depends on both of the materials involved. The magnitude of static frictionfs between systems stationary relative to one another is given by\nfs≤μsN,\nwhere μs is the coefficient of static friction, which depends on both of the materials.\nThe kinetic friction force fk between systems moving relative to one another is given by\n\n            \n              \n                \n                  \n                    \n                      \n                        \n                          f\n                          \n                            \n                              k\n                            \n                          \n                        \n                        =\n                        \n                          μ\n                          \n                            \n                              k\n                            \n                          \n                        \n                      \n                      N\n                    ,\n                  \n                \n                \n              \n              \n            \n           \n   \nwhere μk is the coefficient of kinetic friction, which also depends on both materials."
+  },
+  {
+    "module": "m71410",
+    "title": "Newton’s Universal Law of Gravitation",
+    "summary": "Section Summary\n    Newton’s universal law of gravitation: Every particle in the universe attracts every other particle with a force along a line joining them. The force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. In equation form, this is\n    F=GmMr2,where F is the magnitude of the gravitational force. G is the gravitational constant, given by G=6.674×10−11N⋅m2/kg2.\n    Newton’s law of gravitation applies universally."
+  },
+  {
+    "module": "m71411",
+    "title": "Kinetic Energy and the Work-Energy Theorem",
+    "summary": "Section SummaryThe net work Wnet is the work done by the net force acting on an object.\n    Work done on an object transfers energy to the object.\n    The translational kinetic energy of an object of mass m moving at speed v is KE=12mv2.\n     The work-energy theorem states that the net work \n\nWnet\n\non a system changes its kinetic energy, \n\nWnet\n=ΔKE=12mv2−12mv02."
+  },
+  {
+    "module": "m71414",
+    "title": "Gravitational Potential Energy",
+    "summary": "Section SummaryWork done against gravity in lifting an object becomes potential energy of the object-Earth system.\n    The change in gravitational potential energy, ΔPEg, is ΔPEg=mgΔh, with Δh being the change in height and g the acceleration due to gravity. \n    The gravitational potential energy of an object near Earth’s surface is due to its position in the mass-Earth system. Only differences in gravitational potential energy, ΔPEg, have physical significance.\n    As an object descends without friction, its gravitational potential energy changes into kinetic energy corresponding to increasing speed, so that ΔKE=−ΔPEg."
+  },
+  {
+    "module": "m71415",
+    "title": "Power",
+    "summary": "Section SummaryPower is the rate at which work is done, or in equation form, for the average power P for work W done over a time t, P=W/t.\n\nThe SI unit for power is the watt  (W), where 1W=1J/s.\nThe power of many devices such as electric motors is also often expressed in horsepower (hp), where 1 hp =746W."
+  },
+  {
+    "module": "m71582",
+    "title": "Linear Momentum and Force",
+    "summary": "Section SummaryLinear momentum (momentum for brevity) is defined as the product of a system’s mass multiplied by its velocity.\n    In symbols, linear momentum p is defined to be\n    pmv,\n    where m is the mass of the system and v is its velocity. \n    The SI unit for momentum is kg·m/s.\n    Newton’s second law of motion in terms of momentum states that the net external force equals the change in momentum of a system divided by the time over which it changes. \n    In symbols, Newton’s second law of motion is defined to be\n    FnetΔpΔt,where Fnet is the net external force, Δp is the change in momentum, and Δt is the change time."
+  },
+  {
+    "module": "m71583",
+    "title": "Impulse",
+    "summary": "Section SummaryImpulse is force times duration, and the net impulse, equal to the net external force multiplied by duration, gives the change in momentum:\n\nΔpFnetΔt.\n    For non-constant net external force, you need to use time-averaged net external force to calculate the impulse over the duration."
+  },
+  {
+    "module": "m71584",
+    "title": "Period and Frequency in Oscillations",
+    "summary": "Section Summary\n        Periodic motion is a repetitious oscillation.\n        The time for one oscillation is the period T.\n        The number of oscillations per unit time is the frequency f.\n                These quantities are related by\n    \n        \n          \n            \n              \n                \n                  f\n                  =\n                  \n                    1\n                    T\n                  \n                \n              \n            \n            ."
+  },
+  {
+    "module": "m71585",
+    "title": "Simple Harmonic Motion: A Special Periodic Motion",
+    "summary": "Section SummarySimple harmonic motion is oscillatory motion for a system that can be described only by Hooke’s law. Such a system is also called a simple harmonic oscillator. \n\n    Maximum displacement is the amplitude X. The period T and frequency f of a simple harmonic oscillator are given by\n    T=2πmk and f=12πkm, where m is the mass of the system. \n    Displacement, velocity, and acceleration in simple harmonic motion as a function of time are represented by sinusoidal functions in time, that is functions that are similar to sint and cost."
+  },
+  {
+    "module": "m71586",
+    "title": "Forced Oscillations and Resonance",
+    "summary": "Section SummaryA system’s natural frequency is the frequency at which the system will oscillate if not affected by driving or damping forces.\n                A periodic force driving a harmonic oscillator at its natural frequency produces resonance. The system is said to resonate.\n                The less damping a system has, the higher the amplitude of the forced oscillations near resonance. The more damping a system has, the broader response it has to varying driving frequencies."
+  },
+  {
+    "module": "m71587",
+    "title": "Waves",
+    "summary": "Section SummaryA wave is a disturbance that moves from the point of creation with a wave velocity vw.\n    A wave has a wavelength λ, which is the distance between adjacent identical parts of the wave.\n    Wave velocity and wavelength are related to the wave’s frequency and period by \n        \n          \n            \n              \n                \n\n                  v\n\n                        w\n                      \n\n\n                  \n                    \n                      \n                    \n                    =\n                    \n                      λ\n                      T\n                    \n                  \n                \n              \n            \n            \n          \n          \n        \n       or \n        \n          \n            \n              \n                \n\n                  v\n\n                        w\n                      \n\n\n                  \n                    \n                      \n                    \n                    =\n                    fλ\n                  \n                \n              \n            .\n            \n          \n          \n        \n       However, wave velocity is a property of the medium and remains constant as wavelength or frequency changes. \n\n    A transverse wave has a disturbance perpendicular to its direction of propagation, whereas a longitudinal wave has a disturbance parallel to its direction of propagation."
+  },
+  {
+    "module": "m71588",
+    "title": "Wave Interference: Standing Waves and Beats",
+    "summary": "Section SummarySuperposition is the combination of two waves at the same location.\n    Constructive interference occurs when two waves are superimposed in phase (both disturbances in the same direction).\n    Destructive interference occurs when two waves are superimposed exactly out of phase (two disturbances in opposite directions).\n    A standing wave is one in which two waves superimpose to produce a wave that forms a standing pattern of nodes and antinodes, locations of no displacement and of maximum displacement.\n    Standing waves form at specific resonance frequencies, with the lowest frequency being the fundamental frequency, and higher frequencies being called overtones or harmonics.\n    Beats occur when waves of similar frequencies f1 and f2 are superimposed. The resulting amplitude oscillates with a beat frequency given by\n    \n        \n          \n            \n              \n                \n                  \n                    f\n                    \n                      \n                        B\n                      \n                    \n                  \n                  =\n                  \n                    |\n                    \n                      \n                        f\n                        \n                          \n                            1\n                          \n                        \n                      \n                      −\n                      \n                        f\n                        \n                          \n                            2\n                          \n                        \n                      \n                    \n                    |\n                  \n                \n              \n            ."
+  },
+  {
+    "module": "m71589",
+    "title": "Speed of Sound, Frequency, and Wavelength",
+    "summary": "Section SummaryThe relationship of the speed of sound vw, its frequency f, and its wavelength λ is given byvw=fλ,which is the same relationship given for all waves.\n    In air, the speed of sound is related to air temperature T by\n    vw=331m/sT273K.vw is the same for all frequencies and wavelengths."
+  },
+  {
+    "module": "m71590",
+    "title": "Sound",
+    "summary": "Section Summary\n        Sound is a disturbance of matter that is transmitted from its source outward.\n        Sound is one type of wave. \n        Hearing is the perception of sound."
+  },
+  {
+    "module": "m71592",
+    "title": "Angular Acceleration",
+    "summary": "Section SummaryUniform circular motion is the motion with a constant angular velocity ω=ΔθΔt.\n    In non-uniform circular motion, the velocity changes with time and the rate of change of angular velocity (i.e. angular acceleration) is α=ΔωΔt.\n        Linear or tangential acceleration refers to changes in the magnitude of velocity but not its direction, given as at=ΔvΔt.\nLinear or tangential motion variables x, v, and at are proportional to the rotational quantities θ, ω, and α. They are also proportional to the radius r of the rotational motion."
+  },
+  {
+    "module": "m71593",
+    "title": "Dynamics of Rotational Motion: Rotational Inertia",
+    "summary": "Section SummaryThe farther the force is applied from the pivot, the greater is the angular acceleration; angular acceleration is inversely proportional to mass.\nThe torque applied on an object is given by lever arm times the applied force: τrF.\nUsing the torque, we can discover the rotational version of Newton’s Second Law. It says τIα, where I is rotational inertia, defined for a point mass moving in a circle of radius r as Imr2.\nThe formula for rotational inertia of an extended body can be complicated. But they are all proportional to the mass of the object and proportional to the square of the size of the object."
+  },
+  {
+    "module": "m71594",
+    "title": "Angular Momentum and Its Conservation",
+    "summary": "Section SummaryEvery rotational phenomenon has a direct translational analog , likewise angular momentum L can be defined as L=Iω.\n    This equation is an analog to the definition of linear momentum as p=mv. The relationship between torque and angular momentum is net τ=\nΔ\nL\n\n\nΔ\nt\n.\n    \n    Angular momentum, like energy and linear momentum, is conserved. This universally applicable law is another sign of underlying unity in physical laws. Angular momentum is conserved when net external torque is zero, just as linear momentum is conserved when the net external force is zero."
+  },
+  {
+    "module": "m71595",
+    "title": "Gyroscopic Effects: Vector Aspects of Angular Momentum",
+    "summary": "Section SummaryTorque is perpendicular to the plane formed by r and F and is the direction your right thumb would point if you curled the fingers of your right hand in the direction of F . The direction of the torque is thus the same as that of the change in angular momentum it produces.\n        The gyroscope precesses around a vertical axis, since the torque is always horizontal and perpendicular to L . If the gyroscope is not spinning, it acquires angular momentum in the direction of the torque (L =ΔL ), and it rotates about a horizontal axis, falling over just as we would expect.\n        Earth itself acts like a gigantic gyroscope. Its angular momentum is along its axis and points at Polaris, the North Star."
+  },
+  {
+    "module": "m71613",
+    "title": "Density",
+    "summary": "Section SummaryDensity is the mass per unit volume of a substance or object. In equation form, density is defined as\n        ρ=mV.\n            The SI unit of density is kg/m3."
+  },
+  {
+    "module": "m71614",
+    "title": "What Is a Fluid?",
+    "summary": "Section SummaryA fluid is a state of matter that yields to sideways or shearing forces. Liquids and gases are both fluids. Fluid statics is the physics of stationary fluids."
+  },
+  {
+    "module": "m71615",
+    "title": "Pressure",
+    "summary": "Section SummaryPressure is the force per unit perpendicular area over which the force is applied. In equation form, pressure is defined as\n    \n        \n          \n            \n              \n                \n                  \n                    P\n                    =\n                    \n                      F\n                      A\n                    \n                  \n                  .\n                \n                        \n          \n        \n       \n    \n    The SI unit of pressure is pascal and 1Pa=1N/m2."
+  },
+  {
+    "module": "m71623",
+    "title": "Pressure Due to the Weight of Fluid",
+    "summary": "Section Summary\n    Pressure is the weight of the fluid mg divided by the area A supporting it (the area of the bottom of the container):\n    P=mgA.\n    Pressure due to the weight of a liquid is given by\n    P=ρgh,where P is the pressure, ρ is the density of the liquid, g is the acceleration due to gravity, and h is the height of the liquid."
+  },
+  {
+    "module": "m71624",
+    "title": "Archimedes’ Principle",
+    "summary": "Section SummaryBuoyant force is the net upward force on an object immersed in a fluid at rest. If the buoyant force is greater than the object’s weight, the object will rise to the surface and float. If the buoyant force is less than the object’s weight, the object will sink. If the buoyant force equals the object’s weight, the object will remain suspended at that depth. The buoyant force is always present whether the object floats, sinks, or is suspended in a fluid.\n        Archimedes’ principle states that the buoyant force on an object equals the weight of the fluid it displaces.\n        Specific gravity is the ratio of the density of an object to a fluid (usually water)."
+  },
+  {
+    "module": "m71625",
+    "title": "Flow Rate and Its Relation to Velocity",
+    "summary": "Section SummaryFlow rate Q is defined to be the volume V flowing past a point in time\n\nt, or\n\nQ=Vt where\nV is volume and\n\nt is time.\n        The SI unit of volume is\nm3.\n        Another common unit is the liter (L), which is 10−3m3.\n        Flow rate and velocity are related by\nQ=A\n\n v\n ¯\n where A is the cross-sectional area of the flow and\n\n\n\n v\n ¯\n is its average velocity.\n        For incompressible fluids, flow rate at various points is constant. That is,\n        \n          \n\n              \n                \n                  \n\n\n                    \n                      \n                        \n                          \n                            \n                              \n                                Q\n\n                                  \n                                    1\n                                  \n\n                              \n                              =\n                              \n                                Q\n\n                                  \n                                    2\n                                  \n\n                              \n                            \n                            \n                          \n                        \n                      \n                      \n                        \n                          \n                            \n                              A\n\n                                \n                                  1\n                                \n\n                            \n                            \n                              \n\n\n v\n ¯\n\n\n                                  \n                                    1\n                                  \n\n                              \n                              =\n                              \n                                A\n\n                                  \n                                    2\n                                  \n\n                              \n                            \n                            \n\n\n v\n ¯\n\n\n                                \n                                  2\n                                \n\n                            \n                            \n                          \n                        \n                      \n                      \n                        \n                          \n                            \n                              n\n\n                                \n                                  1\n                                \n\n                            \n                            \n                              A\n\n                                \n                                  1\n                                \n\n                            \n                            \n                              \n\n\n v\n ¯\n\n\n                                  \n                                    1\n                                  \n\n                              \n                              =\n                              \n                                n\n\n                                  \n                                    2\n                                  \n\n                              \n                            \n                            \n                              A\n\n                                \n                                  2\n                                \n\n                            \n                            \n\n\n v\n ¯\n\n\n                                \n                                  2\n                                \n\n                            \n                          \n                        \n                      \n                    \n\n                    \n                  \n                  ."
+  },
+  {
+    "module": "m71626",
+    "title": "Bernoulli’s Equation",
+    "summary": "SummaryBernoulli’s equation states that the sum on each side of the following equation is constant, or the same at any two points in an incompressible frictionless fluid:\nP1+12ρv12+ρgh1=P2+12ρv22+ρgh2.\nBernoulli’s principle is Bernoulli’s equation applied to situations in which depth is constant. The terms involving depth (or height h ) subtract out, yielding\nP1+12ρv12=P2+12ρv22.\nBernoulli’s principle has many applications, including entrainment, wings and sails, and velocity measurement."
+  },
+  {
+    "module": "m75427",
+    "title": "Electric Potential and Potential Energy",
+    "summary": "Section SummaryElectric potential is potential energy per unit charge.\n    The potential difference between points A and B, VB−VA, defined to be the change in potential energy of a charge q moved from A to B, is equal to the change in potential energy divided by the charge, Potential difference is commonly called voltage, represented by the symbol  \nΔV.ΔV=ΔPEq and ΔPE=qΔV. \n    \n    \n\n    An electron volt is the energy given to a fundamental charge accelerated through a potential difference of 1 V. In equation form,\n    1eV=(1.60×10−19C)(1V)=(1.60×10−19C)(1J/C)=1.60×10−19J.\n    Mechanical energy is the sum of the kinetic energy and potential energy of a system, that is, KE+PE. This sum is constant when only conservative forces do work."
+  },
+  {
+    "module": "m75428",
+    "title": "Conductors and Applications of Electrostatics",
+    "summary": "Section SummaryThe electrical forces around a conductor will cause free charges to move around inside the conductor until static equilibrium is reached.\nAny excess charge will collect along the surface of a conductor.\nConductors with sharp corners or points will collect more charge at those points.\nA lightning rod is a conductor with sharply pointed ends that collect excess charge on the building caused by an electrical storm and allow it to dissipate back into the air.\nA Faraday cage acts like a shield around an object, preventing electric charge from penetrating inside.\nIn addition to research using equipment such as a Van de Graaff generator, many practical applications of electrostatics exist, including photocopiers, laser printers, ink-jet printers and electrostatic air filters."
+  },
+  {
+    "module": "m75429",
+    "title": "Production and Properties of Electromagnetic Waves",
+    "summary": "Section SummaryElectromagnetic waves are created by oscillating charges (which radiate whenever accelerated) and have the same frequency as the oscillation.\nSince the electric and magnetic fields in most electromagnetic waves are perpendicular to the direction in which the wave moves, it is ordinarily a transverse wave.\nElectromagnetic waves carry momentum and exert radiation pressure.\nThe momentum of an electromagnetic wave is directly proportional to its energy."
+  },
+  {
+    "module": "m76584",
+    "title": "Nuclear Radioactivity",
+    "summary": "Section SummarySome nuclei are radioactive—they spontaneously decay destroying some part of their mass and emitting energetic rays, a process called nuclear radioactivity.\n    Nuclear radiation, like X-rays, is ionizing radiation, because energy sufficient to ionize matter is emitted in each decay.\n    The range (or distance traveled in a material) of ionizing radiation is affected by the charge of the emitted particle and its energy. Greater electric charge and lower energy lead to shorter ranges; less electric charge and higher energy lead to longer ranges.\n    Radiation detectors are based directly or indirectly upon the ionization created by radiation, as are the effects of radiation on living and inert materials."
+  },
+  {
+    "module": "m76603",
+    "title": "Nuclear Decay and Conservation Laws",
+    "summary": "Section SummaryWhen a parent nucleus decays, it produces a daughter nucleus following rules and conservation laws. There are three major types of nuclear decay, called alpha α, beta β, and gamma γ. The α  decay equation is XNZA→YN−2Z−2A−4+24He2.\n    Nuclear decay releases an amount of energy E related to the mass destroyed Δm byE=(Δm)c2.\n    There are three forms of beta decay. The β−decay equation is\nXNZA→YN−1Z+1A+β−+ν¯e.\n    The β+ decay equation is XNZA→YN+1Z−1A+β++νe.\n    The electron capture equation is XNZA+e−→YN+1Z−1A+νe.\n    β− is an electron, β+ is an antielectron or positron, νe represents an electron’s neutrino, and  ν¯e is an electron’s antineutrino. In addition to all previously known conservation laws, two new ones arise— conservation of electron family number  and conservation of the total number of nucleons.  The γ decay equation is \n        \n          \n            \n              \n                X\n                  \n                    N\n                  \n                  *\n                \n                    Z\n                  \n                  \n                    A\n                  \n                →\n                \n                  \n                    \n                      X\n                        \n                          N\n                        \n                      \n                    Z\n                  \n                  \n                    A\n                  \n                +\n                      \n                        γ\n                        \n                          1\n                        \n                      \n                    \n                    +\n                    \n                      γ\n                      \n                        2\n                      \n                    \n                  \n                  +\n                  ⋯\n                \n              \n            \n            \n          \n          \n        \n      \n    γ is a high-energy photon originating in a nucleus."
+  },
+  {
+    "module": "m78923",
+    "title": "Development of Force Concept",
+    "summary": "Section SummaryDynamics is the study of how forces affect the motion of objects. \n            Force is a push or pull that can be defined in terms of various standards, and it is a vector having both magnitude and direction."
+  }
+]

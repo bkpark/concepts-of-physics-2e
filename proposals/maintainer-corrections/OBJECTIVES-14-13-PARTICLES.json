@@ -1,0 +1,14 @@
+{
+  "id": "OBJECTIVES-14-13-PARTICLES",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "13531135c604173b6a999ff7bfd12cfffcb701844aab83bd015e4da3dc5b1120",
+      "after_sha256": "da7f9aabe8ee1c47c75f01979e34947dda9cb5f3b1107edb580edbb5e2f340ed",
+      "before": "<item>State the differences between mesons and baryons.</item>",
+      "after": "<item>Distinguish mesons and baryons by their general quark structure.</item>\r\n<item>Use the particle tables to check electric charge, baryon number, and lepton-family numbers in the decay reactions considered here.</item>"
+    }
+  ],
+  "validation": "CNXML parses; first two objectives retained, quark-structure objective revised, conservation objective added; proposed final objective omitted."
+}

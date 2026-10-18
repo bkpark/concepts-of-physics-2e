@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-REMOVE-DETECTOR-EFFICIENCY",
+  "status": "approved",
+  "description": "Remove current Exercise 34 on detector efficiency and counts-per-minute conversion; renumber subsequent exercises.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52471/index.cnxml",
+      "before_sha256": "d41affb7ac93395d6a9e16dc490d18ec88141cc8d9ba6895de5a58d03d7a9bf0",
+      "after_sha256": "9f4dcde16460326978e1ab599996d071f529474a9d6ef825678398e17d6b272d",
+      "before": "<exercise id=\"fs-id2935919\" type=\"conceptual-questions\"><problem id=\"fs-id2935919-revised-problem\"><para id=\"fs-id2935919-revised-p1\"><span id=\"fs-id2935919-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> A source has an activity of 100 Bq. A detector records an average of 1200 counts per minute above background. What fraction of the decays produces a recorded count? Give two reasons why a detector may register only some of a source’s decays.</para></problem></exercise>",
+      "after": ""
+    }
+  ]
+}

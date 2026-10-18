@@ -1,0 +1,536 @@
+
+G01
+hertz [11.2 maintained/modules/m52443/index.cnxml]: an SI unit denoting the frequency of an electromagnetic wave, in cycles per second
+
+G02
+standing wave [11.3 maintained/modules/m75429/index.cnxml]: a wave that oscillates in place, with nodes where no motion happens
+PROSE import-auto-id1169737806743: Instead of the AC generator, the antenna can also be driven by an AC circuit. In fact, charges radiate whenever they are accelerated. But while a current in a circuit needs a complete path, an antenna has a varying charge distribution forming a standing wave, driven by the AC. The dimensions of the antenna are critical for determining the frequency of the radiated electromagnetic waves. This is a resonant phenomenon and when we tune radios or TV, we vary electrical properties to achieve appropriate resonant conditions in the antenna. 
+
+G03
+resonant [11.3 maintained/modules/m75429/index.cnxml]: a system that displays enhanced oscillation when subjected to a periodic disturbance of the same frequency as its natural frequency
+PROSE import-auto-id1169737806743: Instead of the AC generator, the antenna can also be driven by an AC circuit. In fact, charges radiate whenever they are accelerated. But while a current in a circuit needs a complete path, an antenna has a varying charge distribution forming a standing wave, driven by the AC. The dimensions of the antenna are critical for determining the frequency of the radiated electromagnetic waves. This is a resonant phenomenon and when we tune radios or TV, we vary electrical properties to achieve appropriate resonant conditions in the antenna. 
+resonate [5.4 maintained/modules/m71586/index.cnxml]: a system being driven at its natural frequency
+PROSE import-auto-id2962800: Most of us have played with toys involving an object supported on an elastic band, something like the paddle ball suspended from a finger in . Imagine the finger in the figure is your finger. At first you hold your finger steady, and the ball bounces up and down with a small amount of damping. If you move your finger up and down slowly, the ball will follow along without bouncing much on its own. As you increase the frequency at which you move your finger up and down, the ball will respond by oscillating with increasing amplitude. When you drive the ball at its natural frequency, the ball’s oscillations increase in amplitude with each oscillation for as long as you drive it. The phenomenon of driving a system with a frequency equal to its natural frequency is called resonance. A system being driven at its natural frequency is said to resonate. As the driving frequency gets progressively higher than the resonant or natural frequency, the amplitude of the oscillations becomes smaller, until the oscillations nearly disappear and your finger simply moves up and down with little effect on the ball.
+resonance [5.4 maintained/modules/m71586/index.cnxml]: the phenomenon of driving a system with a frequency equal to the system’s natural frequency
+PROSE import-auto-id2962800: Most of us have played with toys involving an object supported on an elastic band, something like the paddle ball suspended from a finger in . Imagine the finger in the figure is your finger. At first you hold your finger steady, and the ball bounces up and down with a small amount of damping. If you move your finger up and down slowly, the ball will follow along without bouncing much on its own. As you increase the frequency at which you move your finger up and down, the ball will respond by oscillating with increasing amplitude. When you drive the ball at its natural frequency, the ball’s oscillations increase in amplitude with each oscillation for as long as you drive it. The phenomenon of driving a system with a frequency equal to its natural frequency is called resonance. A system being driven at its natural frequency is said to resonate. As the driving frequency gets progressively higher than the resonant or natural frequency, the amplitude of the oscillations becomes smaller, until the oscillations nearly disappear and your finger simply moves up and down with little effect on the ball.
+
+G10
+current [9.11 maintained/modules/m42356/index.cnxml]: the flow of charge through an electric circuit past a given point of measurement
+PROSE import-auto-id774739: When are resistors in series? Resistors are in series whenever the flow of charge, called the current, must flow through devices sequentially. For example, if current flows through a person holding a screwdriver and into the Earth, then R1 in (a) could be the resistance of the screwdriver’s shaft, R2 the resistance of its handle, R3 the person’s body resistance, and R4 the resistance of her shoes.
+electric current [9.8 maintained/modules/m67130/index.cnxml]: the rate at which charge flows, I = ΔQ/Δt
+PROSE import-auto-id1907197: Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time. In equation form, electric current I is defined to be
+voltage [9.11 maintained/modules/m42356/index.cnxml]: the electrical potential energy per unit charge; electric pressure created by a power source, such as a battery
+PROSE import-auto-id3105653:  shows resistors in series connected to a voltage source. It seems reasonable that the total resistance is the sum of the individual resistances, considering that the current has to pass through each resistor in sequence. (This fact would be an advantage to a person wishing to avoid an electrical shock, who could reduce the current by wearing high-resistance rubber-soled shoes. It could be a disadvantage if one of the resistances were a faulty high-resistance cord to an appliance that would reduce the operating current.)
+potential difference (or voltage) [9.6 maintained/modules/m75427/index.cnxml]: change in potential energy of a charge moved from one point to another, divided by the charge; units of potential difference are joules per coulomb, known as volt
+
+G11
+proton [9.2 maintained/modules/m52381/index.cnxml]: a particle in the nucleus of an atom and carrying a positive charge equal in magnitude and opposite in sign to the amount of negative charge carried by an electron
+protons [14.4 maintained/modules/m52466/index.cnxml]: the positively charged nucleons found in a nucleus
+PROSE import-auto-id3004537: We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0) that has nearly the same mass and intrinsic spin as the proton.  compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me and mn=1839me.
+
+G12
+second law of motion [4.2 maintained/modules/m71582/index.cnxml]: physical law that states that the net external force equals the change in momentum of a system divided by the time over which it changes
+PROSE import-auto-id1498551: The importance of momentum, unlike the importance of energy, was recognized early in the development of classical physics. Momentum was deemed so important that it was called the “quantity of motion”. Newton actually stated his second law of motion in terms of momentum: The net external force equals the change in momentum of a system divided by the time over which it changes. Using symbols, this law is
+Newton’s second law of motion [2.4 maintained/modules/m67530/index.cnxml]: The acceleration of a system is directly proportional to and in the same direction as the net external force acting on the system, and inversely proportional to its mass.
+PROSE import-auto-id2055489: Newton’s second law of motion is closely related to Newton’s first law of motion. It mathematically states the cause and effect relationship between force and changes in motion. Newton’s second law of motion is more quantitative and is used extensively to calculate what happens in situations involving a force. Before we can write down Newton’s second law as a simple equation giving the exact relationship of force, mass, and acceleration, we need to sharpen some ideas that have already been mentioned.
+
+G13
+activity [14.6 maintained/modules/m52471/index.cnxml]: the rate of decay for radioactive nuclides
+PROSE import-auto-id3158830: What do we mean when we say a source is highly radioactive? Generally, this means the number of decays per unit time is very high. We define activity  R to be the rate of decay expressed in decays per unit time. In equation form, this is
+rate of decay [14.6 maintained/modules/m52471/index.cnxml]: the number of radioactive events per unit time
+PROSE import-auto-id3158830: What do we mean when we say a source is highly radioactive? Generally, this means the number of decays per unit time is very high. We define activity  R to be the rate of decay expressed in decays per unit time. In equation form, this is
+
+G16
+normal force [2.6 maintained/modules/m68329/index.cnxml]: the force that a surface applies to an object to support the weight of the object; acts perpendicular to the surface on which the object rests
+PROSE import-auto-id2659946: We must conclude that whatever supports a load, be it animate or not, must supply an upward force equal to the weight of the load, as we assumed in a few of the previous examples. If the force supporting a load is perpendicular to the surface of contact between the load and its support, this force is called a normal force, often indicated with symbol N (Please do not confuse this with the abbreviation for newton, the unit of force, N). The word normal means perpendicular to a surface. The normal force is not always equal to the object’s weight, if there are other forces acting on the object, or if the object is accelerating, so that the net force is not zero.
+
+G17
+lever arm [6.3 maintained/modules/m71593/index.cnxml]: the perpendicular distance between the center of rotation and the point at which force is being applied
+PROSE import-auto-id1940935: The turning effectiveness of force is called torque. Intuitively, torque increases with a larger lever arm, or the perpendicular distance between the center of rotation and the point at which force is being applied (think of a see-saw; to balance the weight of a heavier child on one side with a lighter child on the other side, the lighter child needs to sit farther from the pivot point). So, torque is given by τ=rF. So, if we multiply both sides of the equation above by r, we get torque on the left-hand side. That is,
+
+
+
+
+G18
+voltage drop [9.11 maintained/modules/m42356/index.cnxml]: the loss of electrical power as a current travels through a resistor, wire or other component
+PROSE import-auto-id2990467: To verify that resistances in series do indeed add, let us consider the loss of electrical power, called a voltage drop, in each resistor in .
+Joule’s law [9.11 maintained/modules/m42356/index.cnxml]: the relationship between potential electrical power, voltage, and resistance in an electrical circuit, given by: Pe=IV
+PROSE fs-id2670805: The easiest way to calculate power in watts (W) dissipated by a resistor in a DC circuit is to use Joule’s law, P=IV, where P is electric power. In this case, each resistor has the same full current flowing through it. By substituting Ohm’s law V=IR into Joule’s law, we get the power dissipated by the first resistor as
+
+G21
+Faraday cage [9.7 maintained/modules/m75428/index.cnxml]: a metal shield which prevents electric charge from penetrating its surface
+PROSE import-auto-id3119606: Another device that makes use of some of these principles is a Faraday cage. This is a metal shield that encloses a volume. All electrical charges will reside on the outside surface of this shield, and there will be no electrical field inside. A Faraday cage is used to prohibit stray electrical fields in the environment from interfering with sensitive measurements, such as the electrical signals inside a nerve cell.
+electrostatic equilibrium [9.7 maintained/modules/m75428/index.cnxml]: an electrostatically balanced state in which all free electrical charges have stopped moving about
+PROSE import-auto-id3081522: Conductors contain free charges that move easily. When excess charge is placed on a conductor or the conductor is put into a static electric field, charges in the conductor quickly respond to reach a steady state called electrostatic equilibrium.
+
+G23
+superposition [5.6 maintained/modules/m71588/index.cnxml]: the phenomenon that occurs when two or more waves arrive at the same point
+PROSE import-auto-id3047262: When two or more waves arrive at the same point, they superimpose themselves on one another. More specifically, the disturbances of waves are superimposed when they come together—a phenomenon called superposition. For the waves considered here, the resulting disturbance at each point is the sum of the disturbances that the individual waves would produce there. Disturbances in the same direction reinforce one another; disturbances in opposite directions partially or completely cancel.  and  illustrate superposition in two special cases, both of which produce simple results.
+overtones [5.6 maintained/modules/m71588/index.cnxml]: multiples of the fundamental frequency of a sound
+PROSE import-auto-id765484: The lowest frequency, called the fundamental frequency, is thus for the longest wavelength, which is seen to be λ1=2L. Therefore, the fundamental frequency is f1=vw/λ1=vw/(2L). In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in , the first overtone can easily be calculated since λ2=L. Thus, f2=vw/λ2=vw/L=2f1. Similarly, f3=3f1, and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater vw is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.
+constructive interference [5.6 maintained/modules/m71588/index.cnxml]: when two waves arrive at the same point exactly in phase; that is, the crests of the two waves are precisely aligned, as are the troughs
+PROSE import-auto-id2424083:  shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. This superposition produces pure constructive interference. Because the disturbances add, pure constructive interference produces a wave that has twice the amplitude of the individual waves, but has the same wavelength.
+destructive interference [5.6 maintained/modules/m71588/index.cnxml]: when two identical waves arrive at the same point exactly out of phase; that is, precisely aligned crest to trough
+PROSE import-auto-id3385592:  shows two identical waves that arrive exactly out of phase—that is, precisely aligned crest to trough—producing pure destructive interference. Because the disturbances are in the opposite direction for this superposition, the resulting amplitude is zero for pure destructive interference—the waves completely cancel.
+
+G24
+SI units [0.3 maintained/modules/m67032/index.cnxml]: the international system of units that scientists in most countries have agreed to use; includes units such as meters, liters, and grams
+PROSE import-auto-id1284944: There are two major systems of units used in the world: SI units (also known as the metric system) and English units (also known as the customary or imperial system). English units were historically used in nations once ruled by the British Empire and are still widely used in the United States. Virtually every other country in the world now uses SI units as the standard; the metric system is also the standard system agreed upon by scientists and mathematicians. The acronym “SI” is derived from the French Système International.
+fundamental units [0.3 maintained/modules/m67032/index.cnxml]: units that can only be expressed relative to the procedure used to measure them
+PROSE import-auto-id2729047: It is an intriguing fact that some physical quantities are more fundamental than others and that the most fundamental physical quantities can be defined only in terms of the procedure used to measure them. The units in which they are measured are thus called fundamental units. In this textbook, the fundamental physical quantities are taken to be length, mass, time, and electric current. (Note that electric current will not be introduced until much later in this text.) All other physical quantities, such as force and electric charge, can be expressed as algebraic combinations of length, mass, time, and current (for example, speed is length divided by time); these units are called derived units.
+metric system [0.3 maintained/modules/m67032/index.cnxml]: a system in which values can be calculated in factors of 10
+PROSE import-auto-id2789715: SI units are part of the metric system. The metric system is convenient for scientific and engineering calculations because the units are categorized by factors of 10.  gives metric prefixes and symbols used to denote various factors of 10.
+
+G25
+atomic mass [14.4 maintained/modules/m52466/index.cnxml]: the total mass of the protons, neutrons, and electrons in a single atom
+PROSE import-auto-id3384891:  also gives masses in terms of mass units that are more convenient than kilograms on the atomic and nuclear scale. The first of these is the unified atomic mass unit (u), defined as
+nuclear reaction energy [14.5 maintained/modules/m76603/index.cnxml]: the energy created in a nuclear reaction
+PROSE import-auto-id3181645: Here, E is the nuclear reaction energy (the reaction can be nuclear decay or any other reaction), and Δm is the difference in mass between initial and final products. When the final products have less total mass, Δm is positive, and the reaction releases energy (is exothermic). When the products have greater total mass, the reaction is endothermic (Δm is negative) and must be induced with an energy input. For α decay to be spontaneous, the decay products must have smaller mass than the parent.
+
+G26
+hadrons [14.13 maintained/modules/m42674/index.cnxml]: particles that feel the strong nuclear force
+PROSE import-auto-id1169738045956: Particles can also be revealingly grouped according to what forces they feel between them. All particles (even those that are massless) are affected by gravity, since gravity affects the space and time in which particles exist. All charged particles are affected by the electromagnetic force, as are neutral particles that have an internal distribution of charge (such as the neutron with its magnetic moment). Hadrons are composite particles whose constituents are bound by the strong interaction. Protons, neutrons, and pions are examples. Leptons are elementary particles that do not participate in the strong interaction; examples include electrons, muons, neutrinos, and their antiparticles. Both hadrons and leptons participate in weak interactions, so the weak interaction does not distinguish these two groups.
+leptons [14.13 maintained/modules/m42674/index.cnxml]: particles that do not feel the strong nuclear force
+PROSE import-auto-id1169738045956: Particles can also be revealingly grouped according to what forces they feel between them. All particles (even those that are massless) are affected by gravity, since gravity affects the space and time in which particles exist. All charged particles are affected by the electromagnetic force, as are neutral particles that have an internal distribution of charge (such as the neutron with its magnetic moment). Hadrons are composite particles whose constituents are bound by the strong interaction. Protons, neutrons, and pions are examples. Leptons are elementary particles that do not participate in the strong interaction; examples include electrons, muons, neutrinos, and their antiparticles. Both hadrons and leptons participate in weak interactions, so the weak interaction does not distinguish these two groups.
+
+G30
+positron [14.5 maintained/modules/m76603/index.cnxml]: the particle that results from positive beta decay; also known as an antielectron
+PROSE eip-310: The antielectron is often represented by the symbol e+, but in beta decay it is written as β+ to indicate the antielectron was emitted in a nuclear decay. Antielectrons are the antimatter counterpart to electrons, being nearly identical, having the same mass, spin, and so on, but having a positive charge and an electron family number of −1. When a positron encounters an electron, there is a mutual annihilation in which all the mass of the antielectron-electron pair is converted into pure photon energy. (The reaction, e++e−→γ+γ, conserves electron family number as well as all other conserved quantities.) If a nuclide XNZA is known to β+ decay, then its β+decay equation is
+electron neutrino [14.5 maintained/modules/m76603/index.cnxml]: a subatomic elementary particle which has no net electric charge
+neutrino [14.5 maintained/modules/m76603/index.cnxml]: an electrically neutral, weakly interacting elementary subatomic particle
+PROSE import-auto-id3037465: The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that their first unambiguous detection was not achieved until 1956. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Because they have no electric charge, they do not interact through the electromagnetic force in the way charged particles do. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see ). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiment
+antielectron [14.5 maintained/modules/m76603/index.cnxml]: another term for positron
+PROSE import-auto-id3063962: The second type of beta decay is less common than the first. It is β+decay. Certain nuclides decay by the emission of a positive electron. This is antielectron or positron decay (see ).
+
+
+        
+      
+    
+  β+ decay is the emission of a positron that eventually finds an electron to annihilate, characteristically producing γ’s in opposite directions.
+
+G31
+beta ray [14.2 maintained/modules/m76584/index.cnxml]: a component of nuclear radioactivity; consists of an electron
+radioactivity [14.2 maintained/modules/m76584/index.cnxml]: the emission of rays from the nuclei of atoms
+PROSE import-auto-id1177617: In 1896, the French physicist Antoine Henri Becquerel (1852–1908) accidentally found that a uranium salt emits invisible, penetrating rays that can darken a photographic plate enclosed in an opaque envelope. The rays therefore carry energy; but amazingly, the salt emits them continuously without any energy input. This is an apparent violation of the law of conservation of energy, one that we now understand is due to the conversion of a small amount of mass into energy, as related in Einstein’s famous equation E=mc2. It was soon evident that Becquerel’s rays originate in the nuclei of the atoms and have other unique characteristics. The emission of these rays is called nuclear radioactivity or simply radioactivity. The rays themselves are called nuclear radiation. A nucleus that spontaneously destroys part of its mass to emit radiation is said to decay (a term also used to describe the emission of radiation by atoms in excited states). A substance or object that emits nuclear radiation is said to be radioactive.
+decay [14.5 maintained/modules/m76603/index.cnxml]: the process by which an atomic nucleus of an unstable atom loses mass and energy by emitting ionizing particles
+PROSE import-auto-id3035108: Nuclear decay has provided an amazing window into the realm of the very small. Nuclear decay gave the first indication of the connection between mass and energy, and it revealed the existence of two of the four basic forces in nature. In this section, we explore the major modes of nuclear decay; and, like those who first explored them, we will discover evidence of previously unknown particles and conservation laws.
+gamma decay [14.5 maintained/modules/m76603/index.cnxml]: type of radioactive decay in which an atomic nucleus emits a gamma particle
+PROSE import-auto-id2928558: Gamma decay is the simplest form of nuclear decay—it is the emission of energetic photons by nuclei left in an excited state by some earlier process. Protons and neutrons in an excited nucleus are in higher orbitals, and they fall to lower levels by photon emission (analogous to electrons in excited atoms). Nuclear excited states have lifetimes typically of only about 10−14 s, an indication of the great strength of the forces pulling the nucleons to lower states. The γ decay equation is simply
+
+G32
+scintillators [14.3 maintained/modules/m42627/index.cnxml]: a radiation detection method that records light produced when radiation interacts with materials
+PROSE import-auto-id2679588: Another radiation detection method records light produced when radiation interacts with materials. The energy of the radiation is sufficient to excite atoms in a material that may fluoresce, such as the phosphor used by Rutherford’s group. Materials called scintillators use a more complex collaborative process to convert radiation energy into light. Scintillators may be liquid or solid, and they can be very efficient. Their light output can provide information about the energy, charge, and type of radiation. Scintillator light flashes are very brief in duration, enabling the detection of a huge number of particles in short periods of time. Scintillator detectors are used in a variety of research and diagnostic applications. Among these are the detection by satellite-mounted equipment of the radiation from distant galaxies, the analysis of radiation from a person indicating body burdens, and the detection of exotic particles in accelerator laboratories.
+Geiger tube [14.3 maintained/modules/m42627/index.cnxml]: a very common radiation detector that usually gives an audio output
+PROSE import-auto-id2056101: Another very common radiation detector is the Geiger tube. The clicking and buzzing sound we hear in dramatizations and documentaries, as well as in our own physics labs, is usually an audio output of events detected by a Geiger counter. These relatively inexpensive radiation detectors are based on the simple and sturdy Geiger tube, shown schematically in (b). A conducting cylinder with a wire along its axis is filled with an insulating gas so that a voltage applied between the cylinder and wire produces almost no current. Ionizing radiation passing through the tube produces free ion pairs (each pair consisting of one positively charged particle and one negatively charged particle) that are attracted to the wire and cylinder, forming a current that is detected as a count. The word count implies that there is no information on energy, charge, or type of radiation with a simple Geiger counter. They do not detect every particle, since some radiation can pass through without producing enough ionization to be detected. However, Geiger counters are very useful in producing a prompt output that reveals the existence and relative intensity of ionizing radiation.
+radiation detector [14.3 maintained/modules/m42627/index.cnxml]: a device that is used to detect and track the radiation from a radioactive reaction
+PROSE import-auto-id2056101: Another very common radiation detector is the Geiger tube. The clicking and buzzing sound we hear in dramatizations and documentaries, as well as in our own physics labs, is usually an audio output of events detected by a Geiger counter. These relatively inexpensive radiation detectors are based on the simple and sturdy Geiger tube, shown schematically in (b). A conducting cylinder with a wire along its axis is filled with an insulating gas so that a voltage applied between the cylinder and wire produces almost no current. Ionizing radiation passing through the tube produces free ion pairs (each pair consisting of one positively charged particle and one negatively charged particle) that are attracted to the wire and cylinder, forming a current that is detected as a count. The word count implies that there is no information on energy, charge, or type of radiation with a simple Geiger counter. They do not detect every particle, since some radiation can pass through without producing enough ionization to be detected. However, Geiger counters are very useful in producing a prompt output that reveals the existence and relative intensity of ionizing radiation.
+
+G33
+breeder reactors [14.10 maintained/modules/m52479/index.cnxml]: reactors that are designed specifically to make plutonium
+PROSE import-auto-id1574891: Plutonium-239 builds up in reactor fuel at a rate that depends on the probability of neutron capture by 
+        
+          
+            
+              
+                
+                  U
+                
+                        238
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+     (all reactor fuel contains more 
+        
+          
+            
+              
+                
+                  U
+                
+                        238
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+     than 
+        
+          
+            
+              
+                
+                  U
+                
+                        235
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+    ). Reactors designed specifically to make plutonium are called breeder reactors. They seem to be inherently more hazardous than conventional reactors, but it remains unknown whether their hazards can be made economically acceptable. The four reactors at Chernobyl, including the one that was destroyed, were built to breed plutonium and produce electricity. These reactors had a design that was significantly different from the pressurized water reactor illustrated above.
+breeding [14.10 maintained/modules/m52479/index.cnxml]: reaction process that produces 239Pu
+PROSE import-auto-id2438390: One nuclide already mentioned is 
+        
+          
+            
+              
+                
+                  
+                    
+                    
+                      
+                        239
+                      
+                    
+                  
+                  
+                    
+                      Pu
+                    
+                  
+                
+              
+            
+            
+          
+          
+        
+       
+    , which has a 24,120-y half-life and does not exist in nature. Plutonium-239 is manufactured from 
+        
+          
+            
+              
+                
+                  U
+                
+                        238
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+     in reactors, and it provides an opportunity to utilize the other 99% of natural uranium as an energy source. The following reaction sequence, called breeding, produces 
+        
+          
+            
+              
+                
+                  
+                    
+                    
+                      
+                        239
+                      
+                    
+                  
+                  
+                    
+                      Pu
+                    
+                  
+                
+              
+            
+            
+          
+          
+        
+       
+    . Breeding begins with neutron capture by 
+        
+          
+            
+              
+                
+                  U
+                
+                        238
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+    :
+criticality [14.10 maintained/modules/m52479/index.cnxml]: condition in which a chain reaction easily becomes self-sustaining
+PROSE import-auto-id3356531: Control rods containing nuclides that very strongly absorb neutrons are used to adjust neutron flux. To produce large power, reactors contain hundreds to thousands of critical masses, and the chain reaction easily becomes self-sustaining, a condition called criticality. Neutron flux should be carefully regulated to avoid an exponential increase in fissions, a condition called supercriticality. Control rods help prevent overheating, perhaps even a meltdown or explosive disassembly. The water that is used to thermalize neutrons, necessary to get them to induce fission in 
+        
+          
+            
+              
+                
+                  U
+                
+                        235
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+    , and achieve criticality, provides a negative feedback for temperature increases. In case the reactor overheats and boils the water to steam or is breached, the absence of water kills the chain reaction. Considerable heat, however, can still be generated by the reactor’s radioactive fission products. Other safety features, thus, need to be incorporated in the event of a loss of coolant accident, including auxiliary cooling water and pumps.
+supercriticality [14.10 maintained/modules/m52479/index.cnxml]: an exponential increase in fissions
+PROSE import-auto-id3356531: Control rods containing nuclides that very strongly absorb neutrons are used to adjust neutron flux. To produce large power, reactors contain hundreds to thousands of critical masses, and the chain reaction easily becomes self-sustaining, a condition called criticality. Neutron flux should be carefully regulated to avoid an exponential increase in fissions, a condition called supercriticality. Control rods help prevent overheating, perhaps even a meltdown or explosive disassembly. The water that is used to thermalize neutrons, necessary to get them to induce fission in 
+        
+          
+            
+              
+                
+                  U
+                
+                        235
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+    , and achieve criticality, provides a negative feedback for temperature increases. In case the reactor overheats and boils the water to steam or is breached, the absence of water kills the chain reaction. Considerable heat, however, can still be generated by the reactor’s radioactive fission products. Other safety features, thus, need to be incorporated in the event of a loss of coolant accident, including auxiliary cooling water and pumps.
+critical mass [14.10 maintained/modules/m52479/index.cnxml]: minimum amount necessary for self-sustained fission of a given nuclide
+PROSE import-auto-id2671079: Not every neutron produced by fission induces fission. Some neutrons escape the fissionable material, while others interact with a nucleus without making it fission. We can enhance the number of fissions produced by neutrons by having a large amount of fissionable material. The minimum amount necessary for self-sustained fission of a given nuclide is called its critical mass. Some nuclides, such as 
+        
+          
+            
+              
+                
+                  
+                    
+                    
+                      
+                        239
+                      
+                    
+                  
+                  
+                    
+                      Pu
+                    
+                  
+                
+              
+            
+            
+          
+          
+        
+       
+    , produce more neutrons per fission than others, such as 
+        
+          
+            
+              
+                
+                  U
+                
+                        235
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+    . Additionally, some nuclides are easier to make fission than others. In particular, 
+        
+          
+            
+              
+                
+                  U
+                
+                        235
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+     and 
+        
+          
+            
+              
+                
+                  
+                    
+                    
+                      
+                        239
+                      
+                    
+                  
+       
+
+G35
+time dilation [13.3 maintained/modules/m42531/index.cnxml]: the phenomenon of time passing slower to an observer who is moving relative to another observer
+PROSE import-auto-id1310519: Time dilation is the phenomenon of time passing slower for an observer who is moving relative to another observer.
+proper time [13.3 maintained/modules/m42531/index.cnxml]: Δt0. the time measured by an observer at rest relative to the event being observed: Δt=Δt01−v2c2=γΔt0, where γ=11−v2c2
+relativistic Doppler effects [13.5 maintained/modules/m42540/index.cnxml]: a change in wavelength of radiation that is moving relative to the observer; the wavelength of the radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer; the shifted wavelength is described by the equation λ obs =λ s 1 + u c 1 − u c where λobs is the observed wavelength, λs is the source wavelength, and u is the velocity of the source to the observer
+
+G37
+distance [1.2 maintained/modules/m52314/index.cnxml]: the magnitude of displacement between two positions
+PROSE import-auto-id3580245: Although displacement is described in terms of direction, distance is not. Distance is defined to be the magnitude or size of displacement between two positions. Note that the distance between two positions is not the same as the distance traveled between them. Distance traveled is the total length of the path traveled between two positions. Distance has no direction and, thus, no sign. For example, the distance the professor walks is 2.0 m. The distance the airplane passenger walks is 4.0 m. 
+range [1.8 maintained/modules/m67038/index.cnxml]: the maximum horizontal distance that a projectile travels
+PROSE import-auto-id1532818: One of the conceptual aspects of projectile motion we can discuss without a detailed analysis is the range. On level ground, we define range to be the horizontal distance R traveled by a projectile. The range of projectiles describes everyday phenomena such as how far a football can be thrown or kicked. Also, investigating the range of projectiles can shed light on other interesting phenomena, such as the orbits of satellites around the Earth. Let us consider projectile range further.
+trajectory [1.8 maintained/modules/m67038/index.cnxml]: the path of a projectile through the air
+PROSE import-auto-id1846742: Projectile motion is the motion of an object thrown or projected into the air, subject to only the acceleration of gravity. The object is called a projectile, and its path is called its trajectory. The motion of falling objects is a simple one-dimensional type of projectile motion in which there is no horizontal movement. In this section, we consider two-dimensional projectile motion, such as that of a football or other object for which air resistance is negligible.
+motion [1.8 maintained/modules/m67038/index.cnxml]: displacement of an object as a function of time
+PROSE import-auto-id1846742: Projectile motion is the motion of an object thrown or projected into the air, subject to only the acceleration of gravity. The object is called a projectile, and its path is called its trajectory. The motion of falling objects is a simple one-dimensional type of projectile motion in which there is no horizontal movement. In this section, we consider two-dimensional projectile motion, such as that of a football or other object for which air resistance is negligible.
+centripetal acceleration [1.9 maintained/modules/m67035/index.cnxml]: the acceleration of an object moving in a circle, directed toward the center
+PROSE import-auto-id2422195:  shows an object moving in a circular path at constant speed, called uniform circular motion. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration(ac); centripetal means “toward the center” or “center seeking”. 
+centripetal force [2.10 maintained/modules/m67036/index.cnxml]: any net force causing uniform circular motion
+PROSE import-auto-id3025916: Any net force causing uniform circular motion is called a centripetal force. The direction of a centripetal force is toward the center of curvature, the same as the direction of centripetal acceleration. According to Newton’s second law of motion, net force is mass times acceleration: Fnetma. For uniform circular motion, the acceleration is the centripetal acceleration— a=ac. Thus, the magnitude of centripetal force Fc is
+
+G38
+deformation [2.7 maintained/modules/m67044/index.cnxml]: displacement from equilibrium
+PROSE import-auto-id2991446: Here, F is the restoring force, x is the displacement from equilibrium or deformation, and k is a constant related to the difficulty in deforming the system. The minus sign indicates the restoring force is in the direction opposite to the displacement. 
+restoring force [2.7 maintained/modules/m67044/index.cnxml]: force acting in opposition to the force caused by a deformation
+PROSE import-auto-id2655079: Newton’s first law implies that an object oscillating back and forth is experiencing forces. Without force, the object would move in a straight line at a constant speed rather than oscillate. Consider, for example, plucking a plastic ruler to the left as shown in . The deformation of the ruler creates a force in the opposite direction, known as a restoring force. Once released, the restoring force causes the ruler to move back toward its stable equilibrium position, where the net force on it is zero. However, by the time the ruler gets there, it gains momentum and continues to move to the right, producing the opposite deformation. It is then forced to the left, back through equilibrium, and the process is repeated until dissipative forces dampen the motion. These forces remove mechanical energy from the system, gradually reducing the motion until the ruler comes to rest.
+spring constant [2.7 maintained/modules/m67044/index.cnxml]: a constant related to the rigidity of a system: the larger the spring constant, the more rigid the system; the spring constant is represented by k
+PROSE import-auto-id1426952: The spring constant k is related to the rigidity (or stiffness) of a system—the larger the spring constant, the greater the restoring force, and the stiffer the system. The units of k are newtons per meter (N/m).  shows a graph of the absolute value of the restoring force versus the displacement for a system that can be described by Hooke’s law—a simple spring in this case. The slope of the graph equals the spring constant k in newtons per meter.
+static friction [2.8 maintained/modules/m71409/index.cnxml]: a force that opposes the motion of two systems that are in contact and are not moving relative to one another
+PROSE import-auto-id1165298642426: One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the systems relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, static friction can act between them; the static friction is usually greater than the kinetic friction between the surfaces.
+
+G40
+pressure [7.4 maintained/modules/m71615/index.cnxml]: the force per unit area perpendicular to the force, over which the force acts
+PROSE import-auto-id3108381: You have no doubt heard the word pressure being used in relation to blood (high or low blood pressure) and in relation to the weather (high- and low-pressure weather systems). These are only two of many examples of pressures in fluids. Pressure P is defined as
+buoyant force [7.6 maintained/modules/m71624/index.cnxml]: the net upward force on any object in any fluid
+PROSE import-auto-id1072148: Answers to all these questions, and many others, are based on the fact that pressure increases with depth in a fluid. This means that the upward force on the bottom of an object in a fluid is greater than the downward force on the top of the object. There is a net upward, or buoyant force on any object in any fluid. (See .) If the buoyant force is greater than the object’s weight, the object will rise to the surface and float. If the buoyant force is less than the object’s weight, the object will sink. If the buoyant force equals the object’s weight, the object will remain suspended at that depth. The buoyant force is always present whether the object floats, sinks, or is suspended in a fluid.
+Bernoulli’s equation [7.8 maintained/modules/m71626/index.cnxml]: the equation resulting from applying conservation of energy to an incompressible frictionless fluid: P+12ρv2+ρgh=constant, through the fluid
+PROSE import-auto-id2437726: The relationship between pressure and velocity in fluids is described quantitatively by Bernoulli’s equation, named after its discoverer, the Swiss scientist Daniel Bernoulli (1700–1782). Bernoulli’s equation states that for an incompressible, frictionless fluid, the following sum is constant:
+Bernoulli’s principle [7.8 maintained/modules/m71626/index.cnxml]: Bernoulli’s equation applied at constant depth: P1+12ρv12=P2+12ρv22
+PROSE import-auto-id3006575: Situations in which fluid flows at a constant depth are so important that this equation is often called Bernoulli’s principle. It is Bernoulli’s equation for fluids at constant depth. (Note again that this applies to a small volume of fluid as we follow it along its path.) As we have just discussed, pressure drops as speed increases in a moving fluid. We can see this from Bernoulli’s principle. For example, if v2 is greater than v1 in the equation, then P2 must be less than P1 for the equality to hold.
+
+G41
+heat of sublimation [8.7 maintained/modules/m67124/index.cnxml]: the energy required to change a substance from the solid phase to the vapor phase
+PROSE import-auto-id3008925: All phase transitions involve heat. In the case of direct solid-vapor transitions, the energy required is given by the equation Q=mLs, where Ls is the heat of sublimation, which is the energy required to change 1.00 kg of a substance from the solid phase to the vapor phase. Ls is analogous to Lf and Lv, and its value depends on the substance. Sublimation requires energy input, so that dry ice is an effective coolant, whereas the reverse process (i.e., frosting) releases energy. The amount of energy required for sublimation is of the same order of magnitude as that for other phase transitions.
+latent heat coefficient [8.7 maintained/modules/m67124/index.cnxml]: a physical constant equal to the amount of heat transferred for every 1 kg of a substance during the change in phase of the substance
+specific heat [8.6 maintained/modules/m67622/index.cnxml]: the amount of heat necessary to change the temperature of 1.00 kg of a substance by 1.00 °C
+PROSE import-auto-id3400307: where Q is the symbol for heat transfer, m is the mass of the substance, and ΔT is the change in temperature. The symbol c stands for specific heat and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by 1.00°C. The specific heat c is a property of the substance; its SI unit is J/(kg·K) or J/(kg·°C). Recall that the temperature change (ΔT) is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then the unit of specific heat is kcal/(kg·°C).
+isobaric process [8.9 maintained/modules/m67126/index.cnxml]: constant-pressure process in which a gas does work
+PROSE import-auto-id1169737795645: A process by which a gas does work on a piston at constant pressure is called an isobaric process. Since the pressure is constant, the force exerted is constant and the work done is given as
+PROSE eip-474: We introduced the isobaric process above in discussing work done by a gas. Isobaric process is an example of a thermodynamic process. A thermodynamic process describes a change that happens to a gas, which results in change in its pressure (P), volume (V), and/or temperature (T). An isobaric process is a thermodynamic process that takes place under constant pressure (so the volume and temperature of the gas may change in an isobaric process).
+reversible process [8.9 maintained/modules/m67126/index.cnxml]: a process in which both the heat engine system and the external environment theoretically can be returned to their original states
+PROSE import-auto-id1169737770282: Both isothermal and adiabatic processes such as shown in  are reversible in principle. A reversible process is one in which both the system and its environment can return to exactly the states they were in by following the reverse path. The reverse isothermal and adiabatic paths are BA and CA, respectively. Real macroscopic processes are never exactly reversible. In the previous examples, our system is a gas (like that in ), and its environment is the piston, cylinder, and the rest of the universe. If there are any energy-dissipating mechanisms, such as friction or turbulence, then heat transfer to the environment occurs for either direction of the piston. So, for example, if the path BA is followed and there is friction, then the gas will be returned to its original state but the environment will not—it will have been heated in both directions. Reversibility requires the direction of heat transfer to reverse for the reverse path. Since dissipative mechanisms cannot be completely eliminated, real processes cannot be reversible.
+
+G43
+field [9.4 maintained/modules/m52385/index.cnxml]: a map of the amount and direction of a force acting on other objects, extending out into space
+point charge [9.4 maintained/modules/m52385/index.cnxml]: A charged particle, designated Q, generating an electric field
+PROSE import-auto-id3408279: In the same way, the Coulomb force field surrounding any charge extends throughout space. Using Coulomb’s law, F=k|q1q2|/r2, its magnitude is given by the equation 
+
+F=k|qQ|/r2, for a point charge (a particle having a charge Q) acting on a test charge q at a distance r (see ). Both the magnitude and direction of the Coulomb force field depend on Q and the test charge q.
+test charge [9.4 maintained/modules/m52385/index.cnxml]: A particle (designated q) with either a positive or negative charge set down within an electric field generated by a point charge
+electric charge [9.2 maintained/modules/m52381/index.cnxml]: a physical property of an object that causes it to be attracted toward or repelled from another charged object; each charged object generates and is influenced by a force called an electromagnetic force
+PROSE import-auto-id1840146: How do we know there are two types of electric charge? When various materials are rubbed together in controlled ways, certain combinations of materials always produce one type of charge on one material and the opposite type on the other. By convention, we call one type of charge “positive”, and the other type “negative”. For example, when glass is rubbed with silk, the glass becomes positively charged and the silk negatively charged. Since the glass and silk have opposite charges, they attract one another like clothes that have rubbed together in a dryer. Two glass rods rubbed with silk in this manner will repel one another, since each rod has positive charge on it. Similarly, two silk cloths so rubbed will repel, since both cloths have negative charge.  shows how these simple materials can be used to explore the nature of the force between charges.
+law of conservation of charge [9.2 maintained/modules/m52381/index.cnxml]: states that whenever a charge is created, an equal amount of charge with the opposite sign is created simultaneously
+PROSE import-auto-id1343013: No charge is actually created or destroyed when charges are separated as we have been discussing. Rather, existing charges are moved about. In fact, in all situations the total amount of charge is always constant. This universally obeyed law of nature is called the law of conservation of charge.
+electron [9.2 maintained/modules/m52381/index.cnxml]: a particle orbiting the nucleus of an atom and carrying the smallest unit of negative charge
+
+G44
+Curie temperature [10.3 maintained/modules/m52410/index.cnxml]: the temperature above which a ferromagnetic material cannot be magnetized
+PROSE import-auto-id2040665: Conversely, a permanent magnet can be demagnetized by hard blows or by heating it in the absence of another magnet. Increased thermal motion at higher temperature can disrupt and randomize the orientation and the size of the domains. There is a well-defined temperature for ferromagnetic materials, which is called the Curie temperature, above which they cannot be magnetized. The Curie temperature for iron is 1043 K (770°C), which is well above room temperature. There are several elements and alloys that have Curie temperatures much lower than room temperature and are ferromagnetic only below those temperatures.
+permeability of free space [10.8 maintained/modules/m52420/index.cnxml]: the measure of the ability of a material, in this case free space, to support a magnetic field; the constant μ0=4π×10−7T⋅m/A
+PROSE import-auto-id1166991828100: where I is the current, r is the shortest distance to the wire, and the constant μ0=4π×10−7T⋅m/A is the permeability of free space. 
+(μ0 is one of the basic constants in nature. We will see later that μ0 is related to the speed of light.) Since the wire is very long, the magnitude of the field depends only on distance from the wire r, not on position along the wire.
+Lenz’s law [10.10 maintained/modules/m70744/index.cnxml]: the minus sign in Faraday’s law, signifying that the voltage induced in a coil opposes the change in magnetic flux
+AC voltage [10.12 maintained/modules/m67131/index.cnxml]: voltage that fluctuates sinusoidally with time.
+AC current [10.12 maintained/modules/m67131/index.cnxml]: current that fluctuates sinusoidally with time.
+
+G45
+dispersion [11.8 maintained/modules/m52455/index.cnxml]: spreading of white light into its full spectrum of wavelengths
+PROSE import-auto-id1590516: We see about six colors in a rainbow—red, orange, yellow, green, blue, and violet; sometimes indigo is listed, too. Those colors are associated with different wavelengths of light, as shown in . When our eye receives pure-wavelength light, we tend to see only one of the six colors, depending on wavelength. The thousands of other hues we can sense in other situations are our eye’s response to various mixtures of wavelengths. White light, in particular, is a fairly uniform mixture of all visible wavelengths. Sunlight, considered to be white, actually appears to be a bit yellow because of its mixture of wavelengths, but it does contain all visible wavelengths. The sequence of colors in rainbows is the same sequence as the colors plotted versus wavelength in . What this implies is that white light is spread out according to wavelength in a rainbow. Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength. Dispersion, as a general phenomenon, can occur for any type of wave and always involves wavelength-dependent processes.
+focal point [11.9 maintained/modules/m67134/index.cnxml]: for a converging lens or mirror, the point at which converging light rays cross; for a diverging lens or mirror, the point from which diverging light rays appear to originate
+PROSE import-auto-id1726936: The word lens derives from the Latin word for a lentil bean, the shape of which is similar to the convex lens in . The convex lens shown has been shaped so that all light rays that enter it parallel to its axis cross one another at a single point on the opposite side of the lens. (The axis is defined to be a line normal to the lens at its center, as shown in .) Such a lens is called a converging (or convex) lens for the converging effect it has on light rays. An expanded view of the path of one ray through the lens is shown, to illustrate how the ray changes direction both as it enters and as it leaves the lens. Since the index of refraction of the lens is greater than that of air, the ray moves towards the perpendicular as it enters and away from the perpendicular as it leaves. (This is in accordance with the law of refraction.) Due to the lens’s shape, light is thus bent toward the axis at both surfaces. The point at which the rays cross is defined to be the focal point F of the lens. The distance from the center of the lens to its focal point is defined to be the focal lengthf of the lens.  shows how a converging lens, such as that in a magnifying glass, can converge the nearly parallel light rays from the sun to a small spot.
+focal length [11.9 maintained/modules/m67134/index.cnxml]: distance from the center of a lens or curved mirror to its focal point
+PROSE import-auto-id1726936: The word lens derives from the Latin word for a lentil bean, the shape of which is similar to the convex lens in . The convex lens shown has been shaped so that all light rays that enter it parallel to its axis cross one another at a single point on the opposite side of the lens. (The axis is defined to be a line normal to the lens at its center, as shown in .) Such a lens is called a converging (or convex) lens for the converging effect it has on light rays. An expanded view of the path of one ray through the lens is shown, to illustrate how the ray changes direction both as it enters and as it leaves the lens. Since the index of refraction of the lens is greater than that of air, the ray moves towards the perpendicular as it enters and away from the perpendicular as it leaves. (This is in accordance with the law of refraction.) Due to the lens’s shape, light is thus bent toward the axis at both surfaces. The point at which the rays cross is defined to be the focal point F of the lens. The distance from the center of the lens to its focal point is defined to be the focal lengthf of the lens.  shows how a converging lens, such as that in a magnifying glass, can converge the nearly parallel light rays from the sun to a small spot.
+converging lens [11.9 maintained/modules/m67134/index.cnxml]: a convex lens in which light rays that enter it parallel to its axis converge at a single point on the opposite side
+diverging lens [11.9 maintained/modules/m67134/index.cnxml]: a concave lens in which light rays that enter it parallel to its axis bend away (diverge) from its axis
+PROSE import-auto-id1356532:  shows a concave lens and the effect it has on rays of light that enter it parallel to its axis (the path taken by ray 2 in the figure is the axis of the lens). The concave lens is a diverging lens, because it causes the light rays to bend away (diverge) from its axis. In this case, the lens has been shaped so that all light rays entering it parallel to its axis appear to originate from the same point, F, defined to be the focal point of a diverging lens. The distance from the center of the lens to the focal point is again called the focal length f of the lens. Note that the focal length and power of a diverging lens are defined to be negative. For example, if the distance to F in  is 5.00 cm, then the focal length is f=−5.00 cm and the power of the lens is P=−20 D. An expanded view of the path of one ray through the lens is shown in the figure to illustrate how the shape of the lens, together with the law of refraction, causes the ray to follow its particular path and be diverged.
+converging mirror [11.10 maintained/modules/m67135/index.cnxml]: a concave mirror in which light rays that strike it parallel to its axis converge at one or more points along the axis
+real image [11.9 maintained/modules/m67134/index.cnxml]: image that can be projected
+PROSE import-auto-id890041: The image formed in  is a real image, meaning that it can be projected. That is, light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye, for example.  shows how such an image would be projected onto film by a camera lens. This figure also shows how a real image is projected onto the retina by the lens of an eye. Note that the image is there whether it is projected onto a screen or not.
+virtual image [11.9 maintained/modules/m67134/index.cnxml]: image that cannot be projected
+PROSE import-auto-id2609048:  uses ray tracing to show how an image is formed when an object is held closer to a converging lens than its focal length. Rays coming from a common point on the object continue to diverge after passing through the lens, but all appear to originate from a point at the location of the image. The image is on the same side of the lens as the object and is farther away from the lens than the object. This image, like all case 2 images, cannot be projected and, hence, is called a virtual image. Light rays only appear to originate at a virtual image; they do not actually pass through that location in space. A screen placed at the location of a virtual image will receive only diffuse light from the object, not focused rays from the lens. Additionally, a screen placed on the opposite side of the lens will receive rays that are still diverging, and so no image will be projected on it. We can see the magnified image with our eyes, because the lens of the eye converges the rays into a real image projected on our retina. Finally, we note that a virtual image is upright and larger than the object, meaning that the magnification is positive and greater than 1.
+
+G48
+decay constant [14.6 maintained/modules/m52471/index.cnxml]: quantity that is inversely proportional to the half-life and that is used in equation for number of nuclei as a function of time
+PROSE import-auto-id2979246: where e=2.71828... is the base of the natural logarithm, and λ is the decay constant for the nuclide. The shorter the half-life, the larger is the value of λ, and the faster the exponential e−λt decreases with time. The relationship between the decay constant λ and the half-life t1/2 is
+curie [14.6 maintained/modules/m52471/index.cnxml]: the activity of 1 g of Ra 226 , equal to 3.70 × 10 10 Bq
+PROSE import-auto-id2931533: Activity R is often expressed in other units, such as decays per minute or decays per year. One of the most common units for activity is the curie (Ci), defined to be the activity of 1 g of Ra226, in honor of Marie Curie’s work with radium. The definition of curie is
+radiopharmaceutical [14.7 maintained/modules/m42649/index.cnxml]: compound used for medical imaging
+PROSE import-auto-id2625834: A host of medical imaging techniques employ nuclear radiation. What makes nuclear radiation so useful? First, γ radiation can easily penetrate tissue; hence, it is a useful probe to monitor conditions inside the body. Second, nuclear radiation depends on the nuclide and not on the chemical compound it is in, so that a radioactive nuclide can be put into a compound designed for specific purposes. The compound is said to be tagged. A tagged compound used for medical purposes is called a radiopharmaceutical. Radiation detectors external to the body can determine the location and concentration of a radiopharmaceutical to yield medically useful information. For example, certain drugs are concentrated in inflamed regions of the body, and this information can aid diagnosis and treatment as seen in . Another application utilizes a radiopharmaceutical which the body sends to bone cells, particularly those that are most active, to detect cancerous tumors or healing points. Images can then be produced of such bone scans. Radioisotopes are also used to determine the functioning of body organs, such as blood flow, heart muscle activity, and iodine uptake in the thyroid gland.
+fission fragments [14.10 maintained/modules/m52479/index.cnxml]: a daughter nuclei
+PROSE import-auto-id1933065: where FF1 and FF2 are the two daughter nuclei, called fission fragments, and x is the number of neutrons produced. Most often, the masses of the fission fragments are not the same. Most of the released energy goes into the kinetic energy of the fission fragments, with the remainder going into the neutrons and excited states of the fragments. Since neutrons can induce fission, a self-sustaining chain reaction is possible, provided more than one neutron is produced on average — that is, if x>1 in n+AX→FF1+FF2+xn. This can also be seen in .
+liquid drop model [14.10 maintained/modules/m52479/index.cnxml]: a model of nucleus (only to understand some of its features) in which nucleons in a nucleus act like atoms in a drop
+PROSE import-auto-id3053411: Spontaneous fission can occur, but this is usually not the most common decay mode for a given nuclide. For example, 
+        
+          
+            
+              
+                
+                  U
+                
+                        238
+                      
+                    
+                  
+              
+            
+            
+          
+          
+        
+       
+     can spontaneously fission, but it decays mostly by α emission. Neutron-induced fission is crucial as seen in . Being chargeless, even low-energy neutrons can strike a nucleus and be absorbed once they feel the attractive nuclear force. Large nuclei are described by a liquid drop model with surface tension and oscillation modes, because the large number of nucleons act like atoms in a drop. The neutron is attracted and thus, deposits energy, causing the nucleus to deform as a liquid drop. If stretched enough, the nucleus narrows in the middle. The number of nucleons in contact and the strength of the nuclear force binding the nucleus together are reduced. Coulomb repulsion between the two ends then succeeds in fissioning the nucleus, which pops like a water drop into two large pieces and a few neutrons. Neutron-induced fission can be written as
+nucleons [14.4 maintained/modules/m52466/index.cnxml]: the particles found inside nuclei
+PROSE import-auto-id3004537: We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0) that has nearly the same mass and intrinsic spin as the proton.  compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me and mn=1839me.
+neutron [14.4 maintained/modules/m52466/index.cnxml]: a neutral particle that is found in a nucleus
+PROSE import-auto-id3004537: We have already identified protons as the particles that carry positive charge in the nuclei. However, there are actually two types of particles in the nuclei—the proton and the neutron, referred to collectively as nucleons, the constituents of nuclei. As its name implies, the neutron is a neutral particle (q=0) that has nearly the same mass and intrinsic spin as the proton.  compares the masses of protons, neutrons, and electrons. Note how close the proton and neutron masses are, but the neutron is slightly more massive once you look past the third digit. Both nucleons are much more massive than an electron. In fact, mp=1836me and mn=1839me.
+
+G50
+baryon number [14.13 maintained/modules/m42674/index.cnxml]: a conserved physical quantity that is zero for mesons and leptons and ±1 for baryons and antibaryons, respectively
+PROSE import-auto-id1169737723792: Now, note that the hadrons in the table given above are divided into two subgroups, called mesons (originally for medium mass) and baryons (the name derives from the Greek for “heavy”). The distinction between these groups reflects their internal structure, which we will discuss later in this section, rather than their masses. Their observed decay patterns helped physicists recognize the distinction. Mesons can decay entirely into particles that are not hadrons, so the number of mesons need not be conserved. In observed decays of unstable baryons, the products include another baryon. These patterns illustrate the conservation rule introduced below. A new physical quantity called baryon number B seems to always be conserved in nature and is listed for the various particles in the table given above. Mesons and leptons have B=0 so that they can decay to other particles with B=0. But baryons have B=+1 if they are matter, and B=−1 if they are antimatter. The conservation of total baryon number is a more general rule than first noted in nuclear physics, where it was observed that the total number of nucleons was always conserved in nuclear reactions and decays. That rule in nuclear physics is just one consequence of the conservation of the total baryon number.
+conservation of total baryon number [14.13 maintained/modules/m42674/index.cnxml]: a general rule based on the observation that the total number of nucleons was always conserved in nuclear reactions and decays
+PROSE import-auto-id1169737723792: Now, note that the hadrons in the table given above are divided into two subgroups, called mesons (originally for medium mass) and baryons (the name derives from the Greek for “heavy”). The distinction between these groups reflects their internal structure, which we will discuss later in this section, rather than their masses. Their observed decay patterns helped physicists recognize the distinction. Mesons can decay entirely into particles that are not hadrons, so the number of mesons need not be conserved. In observed decays of unstable baryons, the products include another baryon. These patterns illustrate the conservation rule introduced below. A new physical quantity called baryon number B seems to always be conserved in nature and is listed for the various particles in the table given above. Mesons and leptons have B=0 so that they can decay to other particles with B=0. But baryons have B=+1 if they are matter, and B=−1 if they are antimatter. The conservation of total baryon number is a more general rule than first noted in nuclear physics, where it was observed that the total number of nucleons was always conserved in nuclear reactions and decays. That rule in nuclear physics is just one consequence of the conservation of the total baryon number.

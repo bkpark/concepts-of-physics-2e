@@ -1,0 +1,18 @@
+{
+  "id": "APPENDIX-D-WR-ALIGNMENT",
+  "status": "approved",
+  "description": "Center the namespaced radiation-weighting-factor row missed by the original plain-row match; verify every body symbol cell.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42709/index.cnxml",
+      "before_sha256": "dab7bab27be32e4d0bb0570307a74c016e723330e32287310d22b5b9bb07d3c1",
+      "after_sha256": "e42d1898021a1e9ca04efc27ecfc636a91a522228863b2e415c922a6dcd16142",
+      "fragments": [
+        {
+          "before": "<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><entry><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msub><m:mi>w</m:mi><m:mi mathvariant=\"normal\">R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row>",
+          "after": "<row xmlns=\"http://cnx.rice.edu/cnxml\" xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><entry align=\"center\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:msub><m:mi>w</m:mi><m:mi mathvariant=\"normal\">R</m:mi></m:msub></m:math></entry><entry>radiation weighting factor</entry></row>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1209 @@
+{
+  "scope": "Consistency audit; no textbook edits. Radiation energies and photon yields are not validated by this half-life/decay-mode comparison.",
+  "source_sha256": "249ab7a3a34fea78a1fceacac841b9161064c65fe8c25396dac47dede73ac722",
+  "source": "maintained/modules/m42702/index.cnxml",
+  "reference": "https://amdc.impcas.ac.cn/masstables/Ame2020/nubase_4.mas20",
+  "records": [
+    {
+      "isotope": "H-3",
+      "appendix_b_half_life": "12.33 y",
+      "evaluated_half_life": "12.32 y",
+      "evaluated_uncertainty": "0.02",
+      "evaluated_in_b_units": "12.32 y",
+      "uncertainty_in_b_units": "0.02 y",
+      "status": "update central value",
+      "appendix_a_half_life": "12.32(2) y",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "H 3",
+        "12.33 y",
+        "β^− ",
+        "0.0186",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "C-14",
+      "appendix_b_half_life": "5730 y",
+      "evaluated_half_life": "5.70 ky",
+      "evaluated_uncertainty": "0.03",
+      "evaluated_in_b_units": "5.7E+3 y",
+      "uncertainty_in_b_units": "3E+1 y",
+      "status": "update central value",
+      "appendix_a_half_life": "5.70(3)×10^3y",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "C 14",
+        "5730 y",
+        "β^ −",
+        "0.156",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "N-13",
+      "appendix_b_half_life": "9.96 min",
+      "evaluated_half_life": "9.965 m",
+      "evaluated_uncertainty": "0.004",
+      "evaluated_in_b_units": "9.965 min",
+      "uncertainty_in_b_units": "0.004 min",
+      "status": "update central value",
+      "appendix_a_half_life": "9.965(4) min",
+      "appendix_a_modes": "EC/β^+",
+      "nubase_modes": "B+=100",
+      "original_cells": [
+        "N 13",
+        "9.96 min",
+        "β^ +",
+        "1.20",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Na-22",
+      "appendix_b_half_life": "2.602 y",
+      "evaluated_half_life": "2.6019 y",
+      "evaluated_uncertainty": "0.0006",
+      "evaluated_in_b_units": "2.6019 y",
+      "uncertainty_in_b_units": "0.0006 y",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "2.6019(6) y",
+      "appendix_a_modes": "β^+, EC",
+      "nubase_modes": "B+=100;e+=90.57 8;EC=9.43 6",
+      "original_cells": [
+        "Na 22",
+        "2.602 y",
+        "β^ +",
+        "0.55",
+        "90%",
+        "γ",
+        "1.27",
+        "100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "P-32",
+      "appendix_b_half_life": "14.28 d",
+      "evaluated_half_life": "14.269 d",
+      "evaluated_uncertainty": "0.007",
+      "evaluated_in_b_units": "14.269 d",
+      "uncertainty_in_b_units": "0.007 d",
+      "status": "update central value",
+      "appendix_a_half_life": "14.269(7) d",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "P 32",
+        "14.28 d",
+        "β^ −",
+        "1.71",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "S-35",
+      "appendix_b_half_life": "87.4 d",
+      "evaluated_half_life": "87.37 d",
+      "evaluated_uncertainty": "0.04",
+      "evaluated_in_b_units": "87.37 d",
+      "uncertainty_in_b_units": "0.04 d",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "87.37(4) d",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "S 35",
+        "87.4 d",
+        "β^− ",
+        "0.167",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Cl-36",
+      "appendix_b_half_life": "3 . 00 × 10^ 5 y",
+      "evaluated_half_life": "301.3 ky",
+      "evaluated_uncertainty": "1.5",
+      "evaluated_in_b_units": "3.013E+5 y",
+      "uncertainty_in_b_units": "1.5E+3 y",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-=98.1 1;B+=1.9 1",
+      "original_cells": [
+        "Cl 36",
+        "3 . 00 × 10^ 5 y",
+        "β^ −",
+        "0.710",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "K-40",
+      "appendix_b_half_life": "1 . 28 × 10^ 9 y",
+      "evaluated_half_life": "1.248 Gy",
+      "evaluated_uncertainty": "0.003",
+      "evaluated_in_b_units": "1.248E+9 y",
+      "uncertainty_in_b_units": "3E+6 y",
+      "status": "update central value",
+      "appendix_a_half_life": "1.248(3)×10^9y",
+      "appendix_a_modes": "0.0117(1)%, β^−, EC/β^+",
+      "nubase_modes": "IS=0.0117 1;B-=89.28 13;B+=10.72 13",
+      "original_cells": [
+        "K 40",
+        "1 . 28 × 10^ 9 y",
+        "β^ −",
+        "1.31",
+        "89%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "K-43",
+      "appendix_b_half_life": "22.3 h",
+      "evaluated_half_life": "22.3 h",
+      "evaluated_uncertainty": "0.1",
+      "evaluated_in_b_units": "22.3 h",
+      "uncertainty_in_b_units": "0.1 h",
+      "status": "same central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "K 43",
+        "22.3 h",
+        "β^ −",
+        "0.827",
+        "87%",
+        "γ’s",
+        "0.373",
+        "87%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.618",
+          "87%"
+        ]
+      ]
+    },
+    {
+      "isotope": "Ca-45",
+      "appendix_b_half_life": "165 d",
+      "evaluated_half_life": "162.61 d",
+      "evaluated_uncertainty": "0.09",
+      "evaluated_in_b_units": "162.61 d",
+      "uncertainty_in_b_units": "0.09 d",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Ca 45",
+        "165 d",
+        "β^− ",
+        "0.257",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Cr-51",
+      "appendix_b_half_life": "27.70 d",
+      "evaluated_half_life": "27.7015 d",
+      "evaluated_uncertainty": "0.0011",
+      "evaluated_in_b_units": "27.7015 d",
+      "uncertainty_in_b_units": "0.0011 d",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "EC=100",
+      "original_cells": [
+        "Cr 51",
+        "27.70 d",
+        "EC",
+        "",
+        "",
+        "γ",
+        "0.320",
+        "10%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Mn-52",
+      "appendix_b_half_life": "5.59d",
+      "evaluated_half_life": "5.591 d",
+      "evaluated_uncertainty": "0.003",
+      "evaluated_in_b_units": "5.591 d",
+      "uncertainty_in_b_units": "0.003 d",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B+=100",
+      "original_cells": [
+        "Mn 52",
+        "5.59d",
+        "β^ +",
+        "3.69",
+        "28%",
+        "γ’s",
+        "1.33",
+        "28%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1.43",
+          "28%"
+        ]
+      ]
+    },
+    {
+      "isotope": "Fe-52",
+      "appendix_b_half_life": "8.27 h",
+      "evaluated_half_life": "8.275 h",
+      "evaluated_uncertainty": "0.008",
+      "evaluated_in_b_units": "8.275 h",
+      "uncertainty_in_b_units": "0.008 h",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B+=100",
+      "original_cells": [
+        "Fe 52",
+        "8.27 h",
+        "β^ +",
+        "1.80",
+        "43%",
+        "",
+        "0.169",
+        "43%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.378",
+          "43%"
+        ]
+      ]
+    },
+    {
+      "isotope": "Fe-59",
+      "appendix_b_half_life": "44.6 d",
+      "evaluated_half_life": "44.500 d",
+      "evaluated_uncertainty": "0.012",
+      "evaluated_in_b_units": "44.5 d",
+      "uncertainty_in_b_units": "0.012 d",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Fe 59",
+        "44.6 d",
+        "β^ − s",
+        "0.273",
+        "45%",
+        "γ’s",
+        "1.10",
+        "57%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "0.466",
+          "55%",
+          "",
+          "1.29",
+          "43%"
+        ]
+      ]
+    },
+    {
+      "isotope": "Co-60",
+      "appendix_b_half_life": "5.271 y",
+      "evaluated_half_life": "5.2714 y",
+      "evaluated_uncertainty": "0.0006",
+      "evaluated_in_b_units": "5.2714 y",
+      "uncertainty_in_b_units": "0.0006 y",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "5.2714(6) y",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Co 60",
+        "5.271 y",
+        "β^− ",
+        "0.318",
+        "100%",
+        "γ’s",
+        "1.17",
+        "100%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1.33",
+          "100%"
+        ]
+      ]
+    },
+    {
+      "isotope": "Zn-65",
+      "appendix_b_half_life": "244.1 d",
+      "evaluated_half_life": "243.94 d",
+      "evaluated_uncertainty": "0.04",
+      "evaluated_in_b_units": "243.94 d",
+      "uncertainty_in_b_units": "0.04 d",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B+=100",
+      "original_cells": [
+        "Zn 65",
+        "244.1 d",
+        "EC",
+        "",
+        "",
+        "γ",
+        "1.12",
+        "51%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Ga-67",
+      "appendix_b_half_life": "78.3 h",
+      "evaluated_half_life": "3.2617 d",
+      "evaluated_uncertainty": "0.0004",
+      "evaluated_in_b_units": "78.2808 h",
+      "uncertainty_in_b_units": "0.0096 h",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "EC=100",
+      "original_cells": [
+        "Ga 67",
+        "78.3 h",
+        "EC",
+        "",
+        "",
+        "γ’s",
+        "0.0933",
+        "70%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.185",
+          "35%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.300",
+          "19%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "others",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Se-75",
+      "appendix_b_half_life": "118.5 d",
+      "evaluated_half_life": "119.78 d",
+      "evaluated_uncertainty": "0.03",
+      "evaluated_in_b_units": "119.78 d",
+      "uncertainty_in_b_units": "0.03 d",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "EC=100",
+      "original_cells": [
+        "Se 75",
+        "118.5 d",
+        "EC",
+        "",
+        "",
+        "γ’s",
+        "0.121",
+        "20%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.136",
+          "65%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.265",
+          "68%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.280",
+          "20%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "others",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Rb-86",
+      "appendix_b_half_life": "18.8 d",
+      "evaluated_half_life": "18.645 d",
+      "evaluated_uncertainty": "0.008",
+      "evaluated_in_b_units": "18.645 d",
+      "uncertainty_in_b_units": "0.008 d",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-~100;EC=0.0052 5",
+      "original_cells": [
+        "Rb 86",
+        "18.8 d",
+        "β^ − s",
+        "0.69",
+        "9%",
+        "γ",
+        "1.08",
+        "9%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "1.77",
+          "91%",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Sr-85",
+      "appendix_b_half_life": "64.8 d",
+      "evaluated_half_life": "64.846 d",
+      "evaluated_uncertainty": "0.006",
+      "evaluated_in_b_units": "64.846 d",
+      "uncertainty_in_b_units": "0.006 d",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "EC=100",
+      "original_cells": [
+        "Sr 85",
+        "64.8 d",
+        "EC",
+        "",
+        "",
+        "γ",
+        "0.514",
+        "100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Sr-90",
+      "appendix_b_half_life": "28.8 y",
+      "evaluated_half_life": "28.91 y",
+      "evaluated_uncertainty": "0.03",
+      "evaluated_in_b_units": "28.91 y",
+      "uncertainty_in_b_units": "0.03 y",
+      "status": "update central value",
+      "appendix_a_half_life": "28.91(3) y",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Sr 90",
+        "28.8 y",
+        "β^− ",
+        "0.546",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Y-90",
+      "appendix_b_half_life": "64.1 h",
+      "evaluated_half_life": "64.05 h",
+      "evaluated_uncertainty": "0.05",
+      "evaluated_in_b_units": "64.05 h",
+      "uncertainty_in_b_units": "0.05 h",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "64.05(5) h",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Y 90",
+        "64.1 h",
+        "β^− ",
+        "2.28",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Tc-99m",
+      "appendix_b_half_life": "6.02 h",
+      "evaluated_half_life": "6.0066 h",
+      "evaluated_uncertainty": "0.0002",
+      "evaluated_in_b_units": "6.0066 h",
+      "uncertainty_in_b_units": "0.0002 h",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "IT~100;B-=0.0037 6",
+      "original_cells": [
+        "Tc 99m",
+        "6.02 h",
+        "IT",
+        "",
+        "",
+        "γ",
+        "0.142",
+        "100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "In-113m",
+      "appendix_b_half_life": "99.5 min",
+      "evaluated_half_life": "1.6579 h",
+      "evaluated_uncertainty": "0.0004",
+      "evaluated_in_b_units": "99.474 min",
+      "uncertainty_in_b_units": "0.024 min",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "IT=100",
+      "original_cells": [
+        "In 113m",
+        "99.5 min",
+        "IT",
+        "",
+        "",
+        "γ",
+        "0.392",
+        "100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "I-123",
+      "appendix_b_half_life": "13.0 h",
+      "evaluated_half_life": "13.2232 h",
+      "evaluated_uncertainty": "0.0015",
+      "evaluated_in_b_units": "13.2232 h",
+      "uncertainty_in_b_units": "0.0015 h",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B+=100",
+      "original_cells": [
+        "I 123",
+        "13.0 h",
+        "EC",
+        "",
+        "",
+        "γ",
+        "0.159",
+        "≈100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "I-131",
+      "appendix_b_half_life": "8.040 d",
+      "evaluated_half_life": "8.0249 d",
+      "evaluated_uncertainty": "0.0006",
+      "evaluated_in_b_units": "8.0249 d",
+      "uncertainty_in_b_units": "0.0006 d",
+      "status": "update central value",
+      "appendix_a_half_life": "8.0249(6) d",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "I 131",
+        "8.040 d",
+        "β^ − s",
+        "0.248",
+        "7%",
+        "γ’s",
+        "0.364",
+        "85%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "0.607",
+          "93%",
+          "",
+          "others",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "others",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Cs-129",
+      "appendix_b_half_life": "32.3 h",
+      "evaluated_half_life": "32.06 h",
+      "evaluated_uncertainty": "0.06",
+      "evaluated_in_b_units": "32.06 h",
+      "uncertainty_in_b_units": "0.06 h",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B+=100",
+      "original_cells": [
+        "Cs 129",
+        "32.3 h",
+        "EC",
+        "",
+        "",
+        "γ’s",
+        "0.0400",
+        "35%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.372",
+          "32%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.411",
+          "25%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "others",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Cs-137",
+      "appendix_b_half_life": "30.17 y",
+      "evaluated_half_life": "30.04 y",
+      "evaluated_uncertainty": "0.04",
+      "evaluated_in_b_units": "30.04 y",
+      "uncertainty_in_b_units": "0.04 y",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Cs 137",
+        "30.17 y",
+        "β^−s ",
+        "0.511",
+        "95%",
+        "γ",
+        "0.662",
+        "95%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "1.17",
+          "5%",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Ba-140",
+      "appendix_b_half_life": "12.79 d",
+      "evaluated_half_life": "12.7534 d",
+      "evaluated_uncertainty": "0.0021",
+      "evaluated_in_b_units": "12.7534 d",
+      "uncertainty_in_b_units": "0.0021 d",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Ba 140",
+        "12.79 d",
+        "β^ −",
+        "1.035",
+        "≈100%",
+        "γ’s",
+        "0.030",
+        "25%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.044",
+          "65%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.537",
+          "24%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "others",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Au-198",
+      "appendix_b_half_life": "2.696 d",
+      "evaluated_half_life": "2.69464 d",
+      "evaluated_uncertainty": "0.00014",
+      "evaluated_in_b_units": "2.69464 d",
+      "uncertainty_in_b_units": "0.00014 d",
+      "status": "update central value",
+      "appendix_a_half_life": "2.69464(14) d",
+      "appendix_a_modes": "β^−",
+      "nubase_modes": "B-=100",
+      "original_cells": [
+        "Au 198",
+        "2.696 d",
+        "β^− ",
+        "1.161",
+        "≈100%",
+        "γ",
+        "0.412",
+        "≈100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Hg-197",
+      "appendix_b_half_life": "64.1 h",
+      "evaluated_half_life": "64.93 h",
+      "evaluated_uncertainty": "0.07",
+      "evaluated_in_b_units": "64.93 h",
+      "uncertainty_in_b_units": "0.07 h",
+      "status": "update central value",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "EC=100",
+      "original_cells": [
+        "Hg 197",
+        "64.1 h",
+        "EC",
+        "",
+        "",
+        "γ",
+        "0.0733",
+        "100%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Po-210",
+      "appendix_b_half_life": "138.38 d",
+      "evaluated_half_life": "138.376 d",
+      "evaluated_uncertainty": "0.002",
+      "evaluated_in_b_units": "138.376 d",
+      "uncertainty_in_b_units": "0.002 d",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "138.376(2) d",
+      "appendix_a_modes": "α",
+      "nubase_modes": "A=100",
+      "original_cells": [
+        "Po 210",
+        "138.38 d",
+        "α",
+        "5.41",
+        "100%",
+        "",
+        "",
+        ""
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "Ra-226",
+      "appendix_b_half_life": "1 . 60 × 10^ 3 y",
+      "evaluated_half_life": "1.600 ky",
+      "evaluated_uncertainty": "0.007",
+      "evaluated_in_b_units": "1.6E+3 y",
+      "uncertainty_in_b_units": "7 y",
+      "status": "same central value",
+      "appendix_a_half_life": "1.600(7)×10^3y",
+      "appendix_a_modes": "α",
+      "nubase_modes": "A=100;14C=2.6e-9 6;2B- ?",
+      "original_cells": [
+        "Ra 226",
+        "1 . 60 × 10^ 3 y",
+        "α’s",
+        "4.68",
+        "5%",
+        "γ",
+        "0.186",
+        "100%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "4.87",
+          "95%",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "U-235",
+      "appendix_b_half_life": "7 . 038 × 10^ 8 y",
+      "evaluated_half_life": "704 My",
+      "evaluated_uncertainty": "1",
+      "evaluated_in_b_units": "7.04E+8 y",
+      "uncertainty_in_b_units": "1E+6 y",
+      "status": "update central value",
+      "appendix_a_half_life": "7.04(1)×10^8y",
+      "appendix_a_modes": "0.7204(6)%, α",
+      "nubase_modes": "IS=0.7204 6;A=100;SF=7e-9 2;20Ne=8e-10 4;25Ne~8e-10;28Mg=8e-10",
+      "original_cells": [
+        "U 235",
+        "7 . 038 × 10^ 8 y",
+        "α",
+        "4.68",
+        "≈100%",
+        "γ’s",
+        "numerous",
+        "<0.400%"
+      ],
+      "continuation_rows": []
+    },
+    {
+      "isotope": "U-238",
+      "appendix_b_half_life": "4 . 468 × 10^ 9 y",
+      "evaluated_half_life": "4.463 Gy",
+      "evaluated_uncertainty": "0.003",
+      "evaluated_in_b_units": "4.463E+9 y",
+      "uncertainty_in_b_units": "3E+6 y",
+      "status": "update central value",
+      "appendix_a_half_life": "4.463(3)×10^9y",
+      "appendix_a_modes": "99.2742(10)%, α",
+      "nubase_modes": "IS=99.2742 10;A=100;SF=5.44e-5 7;2B-=2.2e-10 3",
+      "original_cells": [
+        "U 238",
+        "4 . 468 × 10^ 9 y",
+        "α’s",
+        "4.22",
+        "23%",
+        "γ",
+        "0.050",
+        "23%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "4.27",
+          "77%",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Np-237",
+      "appendix_b_half_life": "2 . 14 × 10^ 6 y",
+      "evaluated_half_life": "2.144 My",
+      "evaluated_uncertainty": "0.007",
+      "evaluated_in_b_units": "2.144E+6 y",
+      "uncertainty_in_b_units": "7E+3 y",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "",
+      "appendix_a_modes": "",
+      "nubase_modes": "A=100;SF<2e-10;30Mg<4e-12",
+      "original_cells": [
+        "Np 237",
+        "2 . 14 × 10^ 6 y",
+        "α’s",
+        "numerous",
+        "",
+        "γ’s",
+        "numerous",
+        "<0.250%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "4.96 (max.)",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Pu-239",
+      "appendix_b_half_life": "2 . 41 × 10^ 4 y",
+      "evaluated_half_life": "24.11 ky",
+      "evaluated_uncertainty": "0.03",
+      "evaluated_in_b_units": "2.411E+4 y",
+      "uncertainty_in_b_units": "3E+1 y",
+      "status": "consistent rounding",
+      "appendix_a_half_life": "2.411(3)×10^4y",
+      "appendix_a_modes": "α",
+      "nubase_modes": "A=100;SF=3.1e-10 6",
+      "original_cells": [
+        "Pu 239",
+        "2 . 41 × 10^ 4 y",
+        "α’s",
+        "5.19",
+        "11%",
+        "γ’s",
+        "7 . 5 × 10^ − 5",
+        "73%"
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "5.23",
+          "15%",
+          "",
+          "0.013",
+          "15%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "5.24",
+          "73%",
+          "",
+          "0.052",
+          "10%"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "others",
+          ""
+        ]
+      ]
+    },
+    {
+      "isotope": "Am-243",
+      "appendix_b_half_life": "7 . 37 × 10^ 3 y",
+      "evaluated_half_life": "7.350 ky",
+      "evaluated_uncertainty": "0.009",
+      "evaluated_in_b_units": "7.35E+3 y",
+      "uncertainty_in_b_units": "9 y",
+      "status": "update central value",
+      "appendix_a_half_life": "7.350(9)×10^3y",
+      "appendix_a_modes": "α",
+      "nubase_modes": "A=100;SF=3.7e-9 9",
+      "original_cells": [
+        "Am 243",
+        "7 . 37 × 10^ 3 y",
+        "α’s",
+        "Max. 5.44",
+        "",
+        "γ’s",
+        "0.075",
+        ""
+      ],
+      "continuation_rows": [
+        [
+          "",
+          "",
+          "",
+          "5.37",
+          "88%",
+          "",
+          "others",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "5.32",
+          "11%",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "others",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

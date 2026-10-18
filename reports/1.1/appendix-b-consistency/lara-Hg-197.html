@@ -1,0 +1,1816 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> - NUCL&Eacute;IDE-LARA on the web (2024)</TITLE>
+<LINK REL="SHORTCUT ICON" HREF="favicon_new.ico">
+<LINK REL="stylesheet" HREF="styles/Lara.css" TYPE="text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<SCRIPT language="javascript">
+var snd = new Audio("beep.wav");
+var snd2 = new Audio("bip.wav");
+
+function beep(id)
+{
+		if (id == 2)
+			snd2.play();
+		else
+			snd.play();			
+}
+
+function chg_title(id, title)
+{
+	if (document.getElementById)
+	{
+		obj = document.getElementById(id);
+		orig_title = obj.value;
+		obj.value = title; 
+		setTimeout(function(){obj.value = orig_title;}, 500); 
+	}
+}
+
+function show(id)
+{
+	if (document.getElementById)
+	{
+		obj = document.getElementById(id);
+		if (obj.style.display == "none")
+		{
+			obj.style.display = "";
+		}
+	}
+}
+
+function hide(id)
+{
+	if (document.getElementById)
+	{
+		obj = document.getElementById(id);
+		if (obj.style.display == "")
+		{
+			obj.style.display = "none";
+		}
+	}
+}
+
+function show_hide(id1, id2)
+{
+	if (document.getElementById)
+	{
+		obj1 = document.getElementById(id1);
+		obj2 = document.getElementById(id2);
+		if (obj1.style.display == "")
+		{
+			obj1.style.display = "none";
+			obj2.style.background = '#999999';
+		}
+		else if (obj1.style.display == "none")
+		{
+			obj1.style.display = "";
+			obj2.style.background = '#41ACE9';
+		}
+	}
+}
+
+function acti_d(Act_p, t, lambda_p, lambda_d, P_d)
+{
+	return Act_p * P_d * lambda_d / (lambda_d - lambda_p) * (Math.exp(-lambda_p * t) - Math.exp(-lambda_d * t));
+}
+
+function seuil(myval)
+{
+	if (myval > 1E-30)
+		return myval;
+	else
+		return 0;
+}
+
+function t_reverse(Act_p, Act_d, lambda_p, lambda_d, P_d)
+{
+	t_max = (Math.log(lambda_d) - Math.log(lambda_p)) / (lambda_d - lambda_p);
+	Act_d_max = acti_d(Act_p, t_max, lambda_p, lambda_d, P_d);
+	if (Act_d > Act_d_max)
+	{
+		return 0;
+	}
+	else
+	{
+		var t = t_max / 2;
+		var t_step = t_max / 4;
+		var i = 0;
+		Act_d_tmp = acti_d(Act_p, t, lambda_p, lambda_d, P_d);
+		Act_gap = Math.abs(Act_d_tmp - Act_d) / Act_d;
+		while ((i < 25) && (Act_gap > 0.0001))		
+		{
+			t = (Act_d_tmp < Act_d) ? t + t_step : t - t_step;
+			t_step = t_step / 2;
+			i = i + 1;
+			Act_d_tmp = acti_d(Act_p, t, lambda_p, lambda_d, P_d);
+			Act_gap = Math.abs(Act_d_tmp - Act_d) / Act_d;
+		}
+		return t;
+	}
+}
+
+function Bateman(lambdas, t)
+{
+	if (t == 0)
+		Result = 0;
+	else
+	{
+		var K_lambda = [];
+		n = lambdas.length - 1;
+		P_lambda = 1;
+		Result = 0;
+		for (i = 2 ; i <= n ; i++)
+			P_lambda = P_lambda * lambdas[i];
+		for (j = 1 ; j <= n ; j++)
+		{
+			K_lambda[j] = P_lambda;
+			for (i = 1 ; i <= n ; i++)
+			{
+				if (i != j) 
+					K_lambda[j] = K_lambda[j] / (lambdas[i] - lambdas[j]);
+			}
+		}
+		for (k = 1 ; k <= n ; k++)
+			Result += K_lambda[k] * Math.exp(-lambdas[k] * t);
+	}
+	return Result;
+}
+
+{// Fonction "Recalc_JS" obsolÃ¨te, remplacÃ©e par "Recalc_emi_JS" 
+// function Recalc_JS(t1, t2, t_unit, t_steps, array_JS, array_act_JS, nuc_idx, time_mode, delta_date, chaine_radioactive)
+// {
+	// var chaine = '';
+
+// if (time_mode == 'Date_mode')
+// {
+	// t1 = 0;
+	// t2 = delta_date;
+	// t_unit = 86400;
+// }
+
+	// if (t1 != 0)																								// Affichage des valeurs pour t=0 si t1<>0
+	// {
+		// show('Act_Tools_' + nuc_idx + '_t1');																	// on affiche la 1Ã¨re zone si t1!=0
+		// chaine = SepDec((0).toExponential(4).toUpperCase()) + '\t';												// Affichage de t=0
+		// act_pere = Number(array_act_JS[0]);																		// ActivitÃ© du pÃ¨re Ã  t=0
+		// chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© du pÃ¨re Ã  t=0
+		// act_totale = act_pere;																					// Initialisation de l'activitÃ© totale de toute la chaÃ®ne Ã  t=0
+		// for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		// {																										// ... (idx_1=0 -> PÃ¨re, idx_1>=1 -> fils successifs)
+			// act_fils = Number(array_act_JS[idx_1]);																// ActivitÃ© du fils Ã  t=0 (dÃ©pendant de son activitÃ© initiale)
+			// chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© du fils Ã  t=0
+			// act_T = act_fils;																					// IncrÃ©mentation de l'activitÃ© totale de toute la chaÃ®ne Ã  t=0
+			// act_T_rel = act_T / act_pere;																		// ActivitÃ© totale relative du fils Ã  t
+			// chaine += SepDec((0).toExponential(4).toUpperCase()) + '\t';										// Affichage de l'activitÃ© du fils due Ã  la dÃ©sintÃ©gration du pÃ¨re Ã  t=0 donc 0
+			// chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© totale du fils Ã  t=0
+			// chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale relative du fils Ã  t=0
+			// act_totale += act_T;																				// IncrÃ©mentation de l'activitÃ© totale de toute la chaÃ®ne
+		// }
+		// if (chaine_radioactive)																					// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+		// {
+			// chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale de toute la chaÃ®ne
+			// chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activitÃ© totale relative de toute la chaÃ®ne
+		// }
+		// chaine += '\n';
+	// }
+	// else if (chaine_radioactive)																				// Si on a une chaÃ®ne radioactive, on cache la 1Ã¨re zone si t1=0
+	// {
+		// hide('Act_Tools_' + nuc_idx + '_t1');
+	// }
+	
+	// for (t_step = 0 ; t_step <= t_steps ; t_step++)																// Boucle sur le temps
+	// {
+		// t = t1 + t_step * (t2 - t1) / t_steps; 
+		// chaine += SepDec(seuil(t).toExponential(4).toUpperCase()) + '\t';										// Affichage de t, dans l'unitÃ© de temps choisie
+		// act_pere = array_act_JS[0] * Math.exp(-array_JS[0][1] * t * t_unit);									// Calcul de l'activitÃ© du pÃ¨re Ã  t (t en s)
+		// chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© du pÃ¨re Ã  t
+		// act_totale = act_pere;																					// Initialisation de l'activitÃ© totale de toute la chaÃ®ne
+		// for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		// {																										// ... (idx_1=0 -> PÃ¨re, idx_1>=1 -> fils successifs)
+			// act_fils = array_act_JS[idx_1] * Math.exp(-array_JS[idx_1][1] * t * t_unit);						// ActivitÃ© du fils Ã  t (dÃ©pendant de son activitÃ© initiale)
+			// chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© du fils Ã  t
+			// act_d = 0;
+			// for (idx_2 = 0 ; idx_2 < array_JS[idx_1][2].length ; idx_2++)										// Boucle sur les chemins possibles...
+			// {																									// ... pour atteindre les fils successifs
+				// act_d += array_JS[idx_1][2][idx_2] * Bateman(array_JS[idx_1][3][idx_2], t * t_unit);			// array_JS[idx_1][2][idx_2] = Prod_Pk pour...
+			// }																									// ... le fils idx_1, suivant le chemin idx_2
+			// act_d *= array_act_JS[0];																			// ActivitÃ© du fils due Ã  la dÃ©sintÃ©gration du pÃ¨re Ã  t
+			// act_T = act_fils + act_d;																			// Somme des activitÃ©s du fils Ã  t
+			// act_T_rel = act_T / act_pere;																		// ActivitÃ© totale relative du fils Ã  t
+			// chaine += SepDec(seuil(act_d).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© du fils due Ã  la dÃ©sintÃ©gration du pÃ¨re Ã  t
+			// chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© totale du fils Ã  t
+			// chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale relative du fils Ã  t
+			// act_totale += act_T;																				// IncrÃ©mentation de l'activitÃ© totale de toute la chaÃ®ne
+		// }
+		// if (chaine_radioactive)																					// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+		// {
+			// chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale de toute la chaÃ®ne
+			// chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activitÃ© totale relative de toute la chaÃ®ne
+		// }
+		// chaine += '\n';
+	// }
+	// beep();
+	// return chaine;
+// }
+}
+
+function Recalc_emi_JS(t1, t2, t_unit, t_steps, array_JS, array_act_JS, array_emi_JS, nuc_idx, time_mode, delta_date, chaine_titres, chaine_radioactive, affiche_emissions)
+{
+	var chaine = '';
+	var idx_t = Number(0);
+	if (chaine_radioactive)																						// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+	{
+		var array_time_weights = new Array(array_JS.length);
+		for (var i = 0; i < array_time_weights.length; i++)
+		{
+		  array_time_weights[i] = new Array(t_steps);
+		}
+	}
+	
+	if (time_mode == 'Date_mode')
+	{
+		t1 = 0;
+		t2 = delta_date;
+		t_unit = 86400;
+	}
+
+	if (t1 != 0)																								// Affichage des valeurs pour t=0 si t1<>0
+	{
+		idx_t = Number(1);
+		show('Act_Tools_' + nuc_idx + '_t1');																	// on affiche la 1Ã¨re zone si t1!=0
+		if (chaine_radioactive)																					// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+			array_time_weights[0][0] = 0;
+		chaine = SepDec((0).toExponential(4).toUpperCase()) + '\t';												// Affichage de t=0
+		act_pere = Number(array_act_JS[0]);																		// ActivitÃ© du pÃ¨re Ã  t=0
+		chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© du pÃ¨re Ã  t=0
+		act_totale = act_pere;																					// Initialisation de l'activitÃ© totale de toute la chaÃ®ne Ã  t=0
+		for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		{																										// ... (idx_1=0 -> PÃ¨re, idx_1>=1 -> fils successifs)
+			act_fils = Number(array_act_JS[idx_1]);																// ActivitÃ© du fils Ã  t=0 (dÃ©pendant de son activitÃ© initiale)
+			chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© du fils Ã  t=0
+			act_T = act_fils;																					// IncrÃ©mentation de l'activitÃ© totale de toute la chaÃ®ne Ã  t=0
+			act_T_rel = act_T / act_pere;																		// ActivitÃ© totale relative du fils Ã  t=0
+			if (chaine_radioactive)																				// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+				array_time_weights[idx_1][0] = act_T_rel;														// ... ou poids pour le calcul des intensitÃ©s d'Ã©mission Ã  t=0
+			chaine += SepDec((0).toExponential(4).toUpperCase()) + '\t';										// Affichage de l'activitÃ© du fils due Ã  la dÃ©sintÃ©gration du pÃ¨re Ã  t=0 donc 0
+			chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© totale du fils Ã  t=0
+			chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale relative du fils Ã  t=0
+			act_totale += act_T;																				// IncrÃ©mentation de l'activitÃ© totale de toute la chaÃ®ne
+		}
+		if (chaine_radioactive)																					// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+		{
+			chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale de toute la chaÃ®ne
+			chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activitÃ© totale relative de toute la chaÃ®ne
+		}
+		chaine += '\n';
+	}
+	else if (chaine_radioactive)																				// Si on a une chaÃ®ne radioactive, on cache la 1Ã¨re zone si t1=0
+		hide('Act_Tools_' + nuc_idx + '_t1');
+
+	for (t_step = 0 ; t_step <= t_steps ; t_step++)																// Boucle sur le temps
+	{
+		t = t1 + t_step * (t2 - t1) / t_steps; 
+		if (chaine_radioactive)																					// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+			array_time_weights[0][t_step + idx_t] = t;
+		chaine += SepDec(seuil(t).toExponential(4).toUpperCase()) + '\t';										// Affichage de t, dans l'unitÃ© de temps choisie
+		act_pere = array_act_JS[0] * Math.exp(-array_JS[0][1] * t * t_unit);									// Calcul de l'activitÃ© du pÃ¨re Ã  t (t en s)
+		chaine += SepDec(seuil(act_pere).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© du pÃ¨re Ã  t
+		act_totale = act_pere;																					// Initialisation de l'activitÃ© totale de toute la chaÃ®ne
+		for (idx_1 = 1 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		{																										// ... (idx_1=0 -> PÃ¨re, idx_1>=1 -> fils successifs)
+			act_fils = array_act_JS[idx_1] * Math.exp(-array_JS[idx_1][1] * t * t_unit);						// ActivitÃ© du fils Ã  t (dÃ©pendant de son activitÃ© initiale)
+			chaine += SepDec(seuil(act_fils).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© du fils Ã  t
+			act_d = 0;
+			for (idx_2 = 0 ; idx_2 < array_JS[idx_1][2].length ; idx_2++)										// Boucle sur les chemins possibles...
+			{																									// ... pour atteindre les fils successifs
+				act_d += array_JS[idx_1][2][idx_2] * Bateman(array_JS[idx_1][3][idx_2], t * t_unit);			// array_JS[idx_1][2][idx_2] = Prod_Pk pour...
+			}																									// ... le fils idx_1, suivant le chemin idx_2
+			act_d *= array_act_JS[0];																			// ActivitÃ© du fils due Ã  la dÃ©sintÃ©gration du pÃ¨re Ã  t
+			act_T = act_fils + act_d;																			// Somme des activitÃ©s du fils Ã  t
+			act_T_rel = act_T / act_pere;																		// ActivitÃ© totale relative du fils Ã  t...
+			if (chaine_radioactive)																				// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+				array_time_weights[idx_1][t_step + idx_t] = act_T_rel;											// ... ou poids pour le calcul des intensitÃ©s d'Ã©mission
+			chaine += SepDec(seuil(act_d).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© du fils due Ã  la dÃ©sintÃ©gration du pÃ¨re Ã  t
+			chaine += SepDec(seuil(act_T).toExponential(4).toUpperCase()) + '\t';								// Affichage de l'activitÃ© totale du fils Ã  t
+			chaine += SepDec(seuil(act_T_rel).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale relative du fils Ã  t
+			act_totale += act_T;																				// IncrÃ©mentation de l'activitÃ© totale de toute la chaÃ®ne
+		}
+		if (chaine_radioactive)																					// Si on a une chaÃ®ne radioactive (i.e. nb pÃ¨re + fils radioactifs > 2 )
+		{
+			chaine += SepDec(seuil(act_totale).toExponential(4).toUpperCase()) + '\t';							// Affichage de l'activitÃ© totale de toute la chaÃ®ne
+			chaine += SepDec(seuil(act_totale / act_pere).toExponential(4).toUpperCase());						// Affichage de l'activitÃ© totale relative de toute la chaÃ®ne
+		}
+		chaine += '\n';
+	}
+	
+
+// Affichage des Ã©missions de tous les fils en fonction du temps
+	if (affiche_emissions)																						// Si on a une chaÃ®ne radioactive et qu'on veut les Ã©missions des fils
+	{
+		chaine += '\n';
+		chaine += chaine_titres;																				// Affichage des titres des colonnes
+		for (idx = 0 ; idx <= (Number(t_steps) + Number(idx_t)) ; idx++)										// Boucle sur le temps
+		{
+			chaine += SepDec(array_time_weights[0][idx].toExponential(4).toUpperCase());						// Affichage du temps
+			if (idx < (Number(t_steps) + Number(idx_t)))
+				chaine += '\t';	
+		}
+		chaine += '\n';
+		idx_fils = 0;																							// Initialisation de l'index du fils dans le tableau des Ã©missions
+		for (idx_1 = 0 ; idx_1 < array_JS.length - 1 ; idx_1++)													// Boucle sur les fils successifs... 
+		{																										// ... (idx_1=0 -> PÃ¨re, idx_1>=1 -> fils successifs)
+			if (array_JS[idx_1][0] == array_emi_JS[idx_fils][0])
+			{
+				for (idx_2 = 0 ; idx_2 < Number(array_emi_JS[idx_fils].length / 4) ; idx_2++)					// Boucle sur toutes les Ã©missions du fils courant
+				{
+					idx_nuc = 0;																				// Dans le cas oÃ¹ on ne trie pas par fils, on cherche l'index du bon fils dans la table array_JS
+					while (array_JS[idx_nuc][0] != array_emi_JS[idx_fils][idx_2 * 4])							// Sinon (tri par fils) idx_nuc = idx_1
+						idx_nuc++;
+					chaine += array_emi_JS[idx_fils][idx_2 * 4] + '\t';											// Affichage du nuclÃ©ide
+					chaine += array_emi_JS[idx_fils][idx_2 * 4 + 1] + '\t';										// Affichage du type d'Ã©mission
+					chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 2]).toString()) + '\t';			// Affichage de l'Ã©nergie de l'Ã©mission
+					chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 3]).toString()) + '\t';			// Affichage de l'intensitÃ© de l'Ã©mission
+																												// (Tous les nuclÃ©ides supposÃ©s Ã  100 %)
+					chaine += 'Int. (%) \u2192' + '\t';															// FlÃ¨che droite en caractÃ¨re Unicode
+					for (idx = 0 ; idx <= (Number(t_steps) + Number(idx_t)) ; idx++)							// Boucle sur le temps
+					{
+						if (idx_nuc == 0)																		// (RÃ©)Affichage de l'intensitÃ© de l'Ã©mission du pÃ¨re
+							chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 3]).toExponential(4).toUpperCase());
+						else																					// Affichage de l'intensitÃ© de l'Ã©mission du fils en tenant compte du temps
+							chaine += SepDec(seuil(array_emi_JS[idx_fils][idx_2 * 4 + 3] * array_time_weights[idx_nuc][idx]).toExponential(4).toUpperCase());
+						if (idx < (Number(t_steps) + Number(idx_t)))
+							chaine += '\t';	
+					}
+					chaine += '\n';	
+				}
+				if (idx_fils < array_emi_JS.length - 1)															// On passe au fils suivant, s'il en reste 
+					idx_fils++;
+			}
+		}
+	}
+	// beep(2); // Bip court, plus aigu
+	beep();		// Boup, plutÃ´t que bip...
+	return chaine;
+}
+
+function Modif_chaine0(chaine, time_mode)
+{
+	if (time_mode == 'Date_mode')
+		chaine = chaine.replace("t1", "d1").replace("t2", "d2");
+	return chaine;
+}
+
+function Modif_chaine1(chaine, num, date, time_mode)
+{
+	if (time_mode == 'Date_mode')
+		chaine = 'd' + num + ' =\t' + date + '\t';
+	return chaine;
+}
+
+function Modif_chaine4(chaine, unite_per, time_mode)
+{
+	if (time_mode == 'Date_mode')
+	{
+		chaine = chaine.replace("(s)", "(d)");
+		chaine = chaine.replace("(min)", "(d)");
+		chaine = chaine.replace("(h)", "(d)");
+		chaine = chaine.replace("(a)", "(d)");
+		chaine = chaine.replace("t (", "Ît (");
+	}
+	else
+	{
+		chaine = chaine.replace("(s)", "(" + unite_per + ")");
+		chaine = chaine.replace("(min)", "(" + unite_per + ")");
+		chaine = chaine.replace("(d)", "(" + unite_per + ")");
+		chaine = chaine.replace("(h)", "(" + unite_per + ")");
+		chaine = chaine.replace("(a)", "(" + unite_per + ")");
+	}
+	return chaine;
+}
+
+function copy_array(id)
+{
+	document.getElementById(id).select();
+	document.execCommand('copy');
+}
+
+function set_focus(id)
+{
+	document.getElementById(id).focus();
+}
+
+function SepDec(chaine)
+{
+	var Langue = "ENG";
+    if (Langue == "FRA")
+		chaine = chaine.replace(".", ",");
+    return chaine;
+}
+
+function HL_Unit(index)
+{
+	switch(index)
+	{
+		case 0:
+			unit = 'a';
+			break;
+		case 1:
+			unit = 'd';
+			break;
+		case 2:
+			unit = 'h';
+			break;
+		case 3:
+			unit = 'min';
+			break;
+		case 4:
+			unit = 's';
+			break;
+	}
+	return unit;
+}
+
+function HL_Unit_to_s(index)
+{
+	switch(index)
+	{
+		case 0:
+			unit_per_num = 31556926;
+			break;
+		case 1:
+			unit_per_num = 86400;
+			break;
+		case 2:
+			unit_per_num = 3600;
+			break;
+		case 3:
+			unit_per_num = 60;
+			break;
+		case 4:
+			unit_per_num = 1;
+			break;
+	}
+	return unit_per_num;
+}
+</SCRIPT>
+
+<!-- Scripts pour le tracÃ© des chaÃ®nes radioactives -->
+<SCRIPT language="javascript">
+function Centre_bloc(id, bloc_size, nucS)
+{
+	groupElement = document.querySelector("#group_text_" + id);
+	bboxGroup = groupElement.getBBox();
+	Nuc_S_Text = document.querySelector("#Nuc_S_" + id);
+	Nuc_A_Text = document.querySelector("#Nuc_A_" + id);
+	Nuc_Z_Text = document.querySelector("#Nuc_Z_" + id);
+	// Nuc_T12_Text = document.querySelector("#Nuc_T12_" + id);
+	
+	Delta_X = (bloc_size - bboxGroup.width) / 2 - bboxGroup.x;
+	Delta_Y = (bloc_size - bboxGroup.height) / 2 - bboxGroup.y - 6;
+
+	Nuc_S_Text.setAttribute("x", Number(Nuc_S_Text.getAttribute("x")) + Delta_X);
+	Nuc_A_Text.setAttribute("x", Number(Nuc_A_Text.getAttribute("x")) + Delta_X);
+	Nuc_Z_Text.setAttribute("x", Number(Nuc_Z_Text.getAttribute("x")) + Delta_X);
+	Nuc_S_Text.setAttribute("y", Number(Nuc_S_Text.getAttribute("y")) + Delta_Y);
+	Nuc_A_Text.setAttribute("y", Number(Nuc_A_Text.getAttribute("y")) + Delta_Y);
+	Nuc_Z_Text.setAttribute("y", Number(Nuc_Z_Text.getAttribute("y")) + Delta_Y);
+	// Nuc_T12_Text.setAttribute("y", Number(Nuc_T12_Text.getAttribute("y")) + Delta_Y + 5);
+
+// Bidouille pour obtenir les positions des Ã©lÃ©ments en fonction du nuclÃ©ide
+// Nuc_A_Text.removeChild(Nuc_A_Text.firstChild);
+// Nuc_A_Text.appendChild(document.createTextNode(";"+Math.round(10*Number(Nuc_S_Text.getAttribute("x")))/10+";"));
+// Fin Bidouille pour obtenir les positions des Ã©lÃ©ments en fonction du nuclÃ©ide
+}
+</SCRIPT>
+</HEAD>
+
+<BODY>
+<table border="1" cellspacing="0" cellpadding="0">				<!-- Infos, outils et Ã©missions de 197Hg -->
+	<tr bgcolor=white>
+		<td style="padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+			<h2><sup>197</sup>Hg - Decay data<sub>&nbsp;</sub></h2>
+		</td>
+	</tr>
+	<tr><td style="padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+		<INPUT id="Button_Data_1" Title="Hide/show data" class="button2" type="button" value="Data" 
+								onclick="javascript:show_hide('Table_Data_1','Button_Data_1');">
+		<INPUT id="Button_Emissions_1" Title="Hide/show emissions" class="button2" type="button" value="Emissions" 
+								onclick="javascript:show_hide('Table_Emissions_1','Button_Emissions_1');">
+		<INPUT id="Button_Tools_1" Title="Hide/show decay tools" class="button2" type="button" value="Tools" 
+								onclick="javascript:show_hide('Table_Tools_1','Button_Tools_1');">
+		<INPUT id="Button_Chain_1" Title="Hide/show radioactive chain" class="button2" type="button" value="Radioactive chain" 
+								onclick="javascript:show_hide('Chain_1','Button_Chain_1');">
+		<INPUT id="Button_Scheme_1" Title="Hide/show decay scheme" class="button2" type="button" value="Scheme" 
+								onclick="javascript:show_hide('Scheme_1','Button_Scheme_1');">
+	</td></tr>
+	<tr id="Table_Data_1">
+		<td style="padding-left: 5px; padding-right: 5px;">
+			<INPUT Title="Hide data" class="button3" type="button" value="Data" onclick="javascript:show_hide('Table_Data_1','Button_Data_1');">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<tr><td style="padding-top: 3px;">Element: <b class="semi">Mercury</b> (Z=<b class="semi">80</b>)</td></tr>
+				<tr><td>Daughter(s): <b class="semi">Au-197</b> (&epsilon;, 100%)<sup> </sup></td></tr>
+				<tr><td><i>Q</i><sup>+</sup>: <b class="semi">600 keV</b><sup> </sup></td></tr>
+				<tr><td>Possible parent(s): <FORM action="Result_Lara2.php" method="POST">
+					<INPUT type="hidden" name="Nrj_thd"     		value="">
+					<INPUT type="hidden" name="Nrj_thd_hi"  		value="">
+					<INPUT type="hidden" name="Int_thd"     		value="">
+					<INPUT type="hidden" name="Nrj1_min"    		value="">
+					<INPUT type="hidden" name="Nrj1_max"    		value="">
+					<INPUT type="hidden" name="Nrj2_min"   		value="">
+					<INPUT type="hidden" name="Nrj2_max"   		value="">
+					<INPUT type="hidden" name="Nrj3_min"   		value="">
+					<INPUT type="hidden" name="Nrj3_max"    		value="">
+					<INPUT type="hidden" name="Int_min"    		value="">
+					<INPUT type="hidden" name="Int_max"    		value="">
+					<INPUT type="hidden" name="Coinc_thd"   		value="10">
+					<INPUT type="hidden" name="Coinc_show" 		value="">
+					<INPUT type="hidden" name="Sort_by_Int"  	value="">
+					<INPUT type="hidden" name="Dtr_emi_show"  	value="">
+					<INPUT type="hidden" name="Sort_by_Nuc"  	value="">
+					<INPUT type="hidden" name="Data_show"   		value="1">
+					<INPUT type="hidden" name="Emi_show"    		value="1">
+					<INPUT type="hidden" name="Tools_show"  		value="">
+					<INPUT type="hidden" name="Chain_show" 		value="">
+					<INPUT type="hidden" name="Chain_scale" 		value="1">
+					<INPUT type="hidden" name="Reduced_chain" 	value="">
+					<INPUT type="hidden" name="Chain_thd" 		value="1">
+					<INPUT type="hidden" name="Scheme_show" 		value="">
+					<INPUT type="hidden" name="Sc_nrj_show" 		value="">
+					<INPUT type="hidden" name="X_emission"  		value="">
+					<INPUT type="hidden" name="G_emission"  		value="1">
+					<INPUT type="hidden" name="A_emission"  		value="">
+					<INPUT type="hidden" name="Langue"		 	value="ENG">
+					<INPUT type="hidden" name="Nuclide2" value="Hg-197m">
+					<INPUT type="submit" class="button" value="Hg-197m"> (I.T., 93%)
+				</FORM><sup> </sup></td></tr>
+				<tr><td>Half-life (T<font size="-2">&frac12;</font>): <b class="semi">2.671 (8) d</b> &equiv; <b class="semi">230.8 (7) 10<sup>3</sup> s</b><sup> </sup></td></tr>
+				<tr><td>Decay constant (&lambda;): <b class="semi">3.004 (9) 10<sup>-6</sup> s<sup>-1</sup></b><sup> </sup></td></tr>
+				<tr><td>Specific activity (A<font size="-2">m</font>): <b class="semi">9.182 (28) 10<sup>15</sup> Bq.g<sup>-1</sup></b><sup> </sup></td></tr>
+				<tr><td>Reference: <b class="semi">CEA/LNE-LNHB - 1998</b><sup> </sup></td></tr>
+				<tr><td><hr style="background-color:#FFF; height:1px; border:0;"></td></tr>
+				<tr><td style="padding-bottom: 5px;">Data and emissions file (ASCII text format): <a href="Results/Hg-197_@08.lara.txt" target="blank"><u>Hg-197.lara.txt</u></a></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr id="Table_Emissions_1">
+		<td style="padding-left: 5px; padding-right: 5px; padding-bottom: 5px;">
+			<INPUT Title="Hide emissions" class="button3" type="button" value="Emissions" onclick="javascript:show_hide('Table_Emissions_1','Button_Emissions_1');">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<tr><td style="padding-top: 2px; padding-bottom: 2px;">Gamma emissions (<b class="semi">3</b> lines) sorted by increasing energy</td></tr>
+			</table>
+			<table border="1" frame="hsides" rules="groups" cellspacing="0" bgcolor="#F0F0F0" width="100%">
+				<thead>
+					<tr>
+						<th align="center" rowspan="2">&nbsp;<b class="semi">Energy (keV)</b><sup>&nbsp;</sup></th>
+						<th align="center" rowspan="2">&nbsp;<b class="semi">Intensity (%)</b><sup>&nbsp;</sup></th>
+						<th align="center" rowspan="2">&nbsp;<b class="semi">Type</b><sup>&nbsp;</sup></th>
+						<th align="center" rowspan="2">&nbsp;<b class="semi"><abbr lang="ENG" title="Parent nuclide for alpha emissions.
+Daughter nuclide for X & gamma emissions and long range alpha.">Origin</abbr></b><sup>*</sup></th>
+						<th align="center" colspan="2">&nbsp;<b class="semi">&nbsp;Levels&nbsp;</b>&nbsp;</th>
+					</tr>
+					<tr>
+						<th align="center">&nbsp;<b class="semi"><abbr lang="ENG" title="Starting level.
+0 is the fundamental level of parent.
+-1 indicates an unplaced transition.">Start</abbr></b><sup>*</sup></th>
+						<th align="center">&nbsp;&nbsp;<b class="semi"><abbr lang="ENG" title="Ending level.
+0 is the fundamental level of daughter.">End</abbr></b><sup>*</sup>&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr bgcolor=white>
+						<td><font size="-2" face="Droid Sans Mono, Courier">&nbsp;&nbsp;&nbsp;&nbsp;77.352 (2)</font></td>
+						<td><font size="-2" face="Droid Sans Mono, Courier">&nbsp;&nbsp;&nbsp;&nbsp;18.8 (3)</font></td>
+						<td align="center"><font size="-2">&nbsp;&gamma;<sub> </sub>&nbsp;</font></td>
+						<td align="center"><font size="-2">&nbsp;Au-197&nbsp;</font></td>
+						<td align="center"><font size="-2" face="Droid Sans Mono, Courier">&nbsp;1&nbsp;</font></td>
+						<td align="center"><font size="-2" face="Droid Sans Mono, Courier">&nbsp;0&nbsp;</font></td>
+					</tr>
+					<tr bgcolor=#F0F0F0>
+						<td><font size="-2" face="Droid Sans Mono, Courier">&nbsp;&nbsp;&nbsp;191.364 (15)</font></td>
+						<td><font size="-2" face="Droid Sans Mono, Courier">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.58 (14)</font></td>
+						<td align="center"><font size="-2">&nbsp;&gamma;<sub> </sub>&nbsp;</font></td>
+						<td align="center"><font size="-2">&nbsp;Au-197&nbsp;</font></td>
+						<td align="center"><font size="-2" face="Droid Sans Mono, Courier">&nbsp;2&nbsp;</font></td>
+						<td align="center"><font size="-2" face="Droid Sans Mono, Courier">&nbsp;1&nbsp;</font></td>
+					</tr>
+					<tr bgcolor=white>
+						<td><font size="-2" face="Droid Sans Mono, Courier">&nbsp;&nbsp;&nbsp;268.71 (3)</font></td>
+						<td><font size="-2" face="Droid Sans Mono, Courier">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.04 (2)</font></td>
+						<td align="center"><font size="-2">&nbsp;&gamma;<sub> </sub>&nbsp;</font></td>
+						<td align="center"><font size="-2">&nbsp;Au-197&nbsp;</font></td>
+						<td align="center"><font size="-2" face="Droid Sans Mono, Courier">&nbsp;2&nbsp;</font></td>
+						<td align="center"><font size="-2" face="Droid Sans Mono, Courier">&nbsp;0&nbsp;</font></td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr id="Table_Tools_1">
+		<td style="padding-left: 5px; padding-right: 5px; padding-bottom: 5px;">
+			<INPUT Title="Hide decay tools" class="button3" type="button" value="Tools" onclick="javascript:show_hide('Table_Tools_1','Button_Tools_1');"><br>
+			<b class="semi">Activity</b><font size="2">&nbsp;&#8644;&nbsp;</font><b class="semi">Mass</b> conversion:&nbsp;
+			<input id="txt_Acti_1" size="9" type="text" value="1000" onChange="javascript: getElementById('txt_Mass_1').value = (this.value/9.181689361783E+15).toExponential(3).toUpperCase();">&nbsp;Bq<font size="2">&nbsp;&#8644&nbsp;</font>
+			<input id="txt_Mass_1" size="9" type="text" value="1.089E-13" onChange="javascript: getElementById('txt_Acti_1').value = (this.value*9.181689361783E+15).toExponential(3).toUpperCase();">&nbsp;g
+			<hr style="background-color:#FFF; height:2px; border:0;">
+			<table border="0">					<!-- Ligne de titre : Decay Calc t1 -> t2 with t_steps -->
+				<tr>
+					<td colspan="4"><b class="semi">Decay</b> calculation:&nbsp;
+					<input id="t_steps_1" size="3" type="text" value="1" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);"> calculation step(s)</td>
+				</tr>
+				<tr>
+					<td><sub><input id="radio_time_1" type="radio" value="Time_mode" name="time_date_1" CHECKED onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);"></sub>:</td>
+					<td align="center"><label for="radio_time_1"><b class="semi">t<sub>1</sub> &rarr; t<sub>2</sub></b></label></td>
+					<td>=</td>
+					<td><input id="t1_1" size="8" type="text" value="2.671E0" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+					<b class="semi">&rarr;</b>
+					<input id="t2_1" size="8" type="text" value="1.87E1" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+					<SELECT id="unit_1" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<OPTION  value="31556926">a</OPTION>
+						<OPTION SELECTED value="86400">d</OPTION>
+						<OPTION  value="3600">h</OPTION>
+						<OPTION  value="60">min</OPTION>
+						<OPTION  value="1">s</OPTION>
+					</SELECT>
+					</td>
+				</tr>
+				<tr>
+					<td><sub><input id="radio_date_1" type="radio" value="Date_mode" name="time_date_1" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);"></sub>:</td>
+					<td align="center"><label for="radio_date_1"><b class="semi">d<sub>1</sub> &rarr; d<sub>2</sub></b></label></td>
+					<td>=</td>
+					<td>
+						<input id="m_date1_1" size="1" type="text" title="Month" value="10" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<input id="d_date1_1" size="1" type="text" title="Day" value="17" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<input id="Y_date1_1" size="3" type="text" title="Year" value="2026" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<input id="h_date1_1" size="6" type="text" title="Time" value="07:16:08" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+					<b class="semi">&rarr;</b>
+						<input id="m_date2_1" size="1" type="text" title="Month" value="10" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<input id="d_date2_1" size="1" type="text" title="Day" value="18" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<input id="Y_date2_1" size="3" type="text" title="Year" value="2026" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+						<input id="h_date2_1" size="6" type="text" title="Time" value="07:16:08" onChange="javascript:
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);">
+					</td>
+				</tr>
+			</table>
+			<table id="Act_Tools_1_t1" border="0">			<!-- DÃ©tail des activitÃ©s pour un pas de temps -->
+				<tr>
+					<td align="center" valign="bottom" style="border-bottom:1pt solid #42ADEA;"><sub>&nbsp;</sub><b class="semi">Nuclide</b></td>
+					<td align="center" valign="bottom" style="border-bottom:1pt solid #42ADEA;"><sub>&nbsp;</sub>(T<font size="-2">&frac12;</font>)</td>
+					<td align="center" valign="bottom" style="border-bottom:1pt solid #42ADEA;"><b class="semi">A<sub>0</sub></b></td>
+					<td style="border-bottom:1pt solid #42ADEA;"><sub>&nbsp;</sub></td>
+					<td align="center" valign="bottom" style="border-bottom:1pt solid #42ADEA;"><b id="Etiq_A_t1_1" class="semi">A(t<sub>1</sub>)</b></td>
+					<td style="border-bottom:1pt solid #42ADEA;"><sub>&nbsp;</sub></td>
+					<td align="center" valign="bottom" style="border-bottom:1pt solid #42ADEA;"><b class="semi">A(t<sub>2</sub>)</b></td>
+					<td style="border-bottom:1pt solid #42ADEA;"><sub>&nbsp;</sub></td>
+				</tr>
+				<tr>
+					<td align="center" ><b class="semi"><sup>197</sup>Hg </b></td>
+					<td align="center" ><sub>&nbsp;</sub>(2.671 d)<sup>&nbsp;</sup></td>
+					<td align="center"><input id="A_t1_1_s0" size="7" type="text" value="1000" onChange="javascript:
+						getElementById('A_t1_1_s1').value = this.value;
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);"></td>
+					<td><sub>&nbsp;</sub></td>
+					<td align="center"><input id="A_t2_1_s0" size="7" type="text" value="500" onChange="javascript:
+						getElementById('t1_1').value = (Math.log(A_t1_1_s0.value/this.value)/3.0035705024472E-6/unit_1.value).toExponential(4).toUpperCase();
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);"></td>
+					<td align="center"><input id="A_t1_1_s1" size="7" type="text" value="1000" hidden></td>
+					<td align="center"><input id="A_t2_1_s1" size="7" type="text" value="7.8125" onChange="javascript:
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var duree_s    = Math.log(A_t1_1_s1.value/this.value)/3.0035705024472E-6;
+							var date_1     = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							if (isNaN(date_1.getDay()))
+								var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var h_date_1   = date_1.getUTCHours();
+							var min_date_1 = date_1.getUTCMinutes();
+							var s_date_1   = date_1.getUTCSeconds();
+							var date_2     = new Date(Date.UTC(Y_date1_1.value, m_date1_1.value - 1, d_date1_1.value, h_date_1, min_date_1, s_date_1 + duree_s));
+							var Y_date_2   = date_2.getUTCFullYear();
+							var m_date_2   = date_2.getUTCMonth() + 1;
+							var d_date_2   = date_2.getUTCDate();
+							var h_date_2   = date_2.getUTCHours();
+							var min_date_2 = date_2.getUTCMinutes();
+							var s_date_2   = date_2.getUTCSeconds();
+							getElementById('Y_date2_1').value = Y_date_2;
+							getElementById('m_date2_1').value = ('0' + m_date_2).slice(-2);
+							getElementById('d_date2_1').value = ('0' + d_date_2).slice(-2);
+							getElementById('h_date2_1').value = date_2.toLocaleTimeString('fr-FR', {timeZone: 'UTC'});
+						}
+						else
+							getElementById('t2_1').value = (Math.log(A_t1_1_s1.value/this.value)/3.0035705024472E-6/unit_1.value).toExponential(4).toUpperCase();
+						var date_1 = new Date(m_date1_1.value + ' ' + d_date1_1.value + ' ' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+						var date_2 = new Date(m_date2_1.value + ' ' + d_date2_1.value + ' ' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						if (isNaN(date_1.getDay()))
+						{
+							var date_1 = new Date(m_date1_1.value + '-' + d_date1_1.value + '-' + Y_date1_1.value + ' ' + h_date1_1.value + ' GMT');
+							var date_2 = new Date(m_date2_1.value + '-' + d_date2_1.value + '-' + Y_date2_1.value + ' ' + h_date2_1.value + ' GMT');
+						}
+						var duree = (date_2 - date_1) / 1000 / 86400;
+						var time_date = document.querySelector('input[name=time_date_1]:checked').value;
+						if (time_date == 'Date_mode')
+						{
+							var t1 = 0;
+							var t2 = duree;
+							var unit_t = 86400;
+						}
+						else
+						{
+							var t1 = Number(t1_1.value);
+							var t2 = Number(t2_1.value);
+							var unit_t = Number(unit_1.value);
+						}
+						if (t1 == 0)
+						{
+							hide('A_t2_1_s0');
+							hide('Etiq_A_t1_1');
+						}
+						else
+						{
+							show('A_t2_1_s0');
+							show('Etiq_A_t1_1');
+						}
+						var Langue = 'ENG';
+						if (Langue == 'FRA')
+						{
+							var date1 = d_date1_1.value + '/' + m_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = d_date2_1.value + '/' + m_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						else
+						{
+							var date1 = m_date1_1.value + '/' + d_date1_1.value + '/' + Y_date1_1.value + ' ' + h_date1_1.value;
+							var date2 = m_date2_1.value + '/' + d_date2_1.value + '/' + Y_date2_1.value + ' ' + h_date2_1.value;
+						}
+						getElementById('A_t1_1_s0').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s0').value = (A_t1_1_s0.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 0 / 1))).toExponential(3).toUpperCase();
+						getElementById('A_t1_1_s1').value = A_t1_1_s0.value;
+						getElementById('A_t2_1_s1').value = (A_t1_1_s1.value * Math.exp(-Number(3.0035705024472E-6 * unit_t) * (t1 + (t2 - t1) * 1 / 1))).toExponential(3).toUpperCase();
+						getElementById('array_results_1').value = Modif_chaine0('Decay calculation (t1 &rarr; t2) for Hg-197 ', time_date) + '\n' + Modif_chaine1('t1 =	' + SepDec(t1_1.value) + '	', 1, date1, time_date) + ' &rarr; 	' + Modif_chaine1('t2 =	' + SepDec(t2_1.value) + '	' + HL_Unit(unit_1.selectedIndex), 2, date2, time_date) + '	' + t_steps_1.value + '	' + 'calculation step(s)' + '\n' + 'Nuclide &rarr;	Hg-197 	' + '\n' + '(T&frac12;) &rarr;	(2.671 d)	' + '\n' + Modif_chaine4('t (d) &darr;	A(t) &darr;', HL_Unit(unit_1.selectedIndex), time_date) + '\n' + Recalc_emi_JS(t1, t2, HL_Unit_to_s(unit_1.selectedIndex), t_steps_1.value, [['Hg-197', 3.0035705024472E-6, [1], [[0, 3.0035705024472E-6]]], ['Au-197', 0, [1], [[0, 3.0035705024472E-6, 0]]]], [A_t1_1_s0.value], [['Hg-197', 'Gamma', 77.352, 18.8, 'Hg-197', 'Gamma', 191.364, 0.58, 'Hg-197', 'Gamma', 268.71, 0.04]], 1, time_date, duree, 'Table of emission intensities versus time' + '\n' + 'Nuclide &darr;' + '	' + 'Type &darr;' + '	' + 'E. (keV) &darr;' + '	' + 'Int. (%) &darr;' + '	' + 't (' + HL_Unit(unit_1.selectedIndex) +') &rarr;' + '	', 0, 0) + '\n' + 't or &Delta;t (d) = time or elapsed time in days since beginning date\nA(t) = nuclide activity (parent or daughter) at time t';
+						if ((time_date == 'Date_mode') && (m_date2_1.value == '10') && (d_date2_1.value == '26') && (Y_date2_1.value == '1985'))
+							getElementById('debug_1').value = 'OUTATIME!';
+						else
+							getElementById('debug_1').value = (Math.round(duree * 100) / 100).toFixed(2);"></td>
+					<td >Bq&nbsp;&nbsp;&nbsp;</td>
+				</tr>
+			</table>
+			<table width="100%" border="0">							<!-- Boutons pour export Excel et graphiques -->
+				<tr>
+					<td style="border-top:1pt solid #42ADEA;">(<b class="semi">d<sub>2</sub> - d<sub>1</sub></b> = <input class="input2" id="debug_1" size="8" type="text" value="" readonly> d)</td>
+					<td align="center" valign="bottom" height="20px" style="border-top:1pt solid #42ADEA;">
+						<INPUT id="copy_button_1" class="button4" type="button" value="Copy activity table to clipboard" onclick="javascript:beep();copy_array('array_results_1');chg_title(this.id, 'Table copied to clipboard');set_focus(this.id);">
+						<textarea id="array_results_1" style="height:0px;width:0px;border:none;resize:none;background-color:transparent;" readonly>Decay calculation (t1 &rarr; t2) for Hg-197 
+t1 =	2.671	 &rarr; 	t2 =	18.697	d	1	calculation step(s)
+Nuclide &rarr;	Hg-197 
+(T&frac12;) &rarr;	(2.671 d)
+t (d) &darr;	A(t) &darr;
+0	1E3
+2.671E0	5E2
+1.8697E1	7.8125E0
+
+t or &Delta;t (d) = time or elapsed time in days since beginning date
+A(t) = nuclide activity (parent or daughter) at time t</textarea>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<div id="Chain_1" style="display:screen; border:1px solid #1786C5; padding:0px 5px 5px 5px; background-color:white; position:relative; width:231.9px; height:205px; left:0px; top:0px">
+	<INPUT Title="Hide radioactive chain" class="button3" type="button" value="Radioactive chain" onclick="javascript:show_hide('Chain_1','Button_Chain_1');">&nbsp;&nbsp;&nbsp;
+	<INPUT id="Button_Chain_Legend_1" Title="Show/hide legend" class="button3" type="button" value="Legend" onclick="javascript:show_hide('Chain_Legend_1','Button_Chain_Legend_1');"><br>
+	<svg width="229.9" height="189" viewBox="0 0 229.9 189" xmlns="https://www.w3.org/2000/svg">
+
+		<title>Hg-197 decay chain
+
+Click, or right-click and select "Save target as..." 
+to save the decay chain as an SVG file. </title>
+
+		<defs>
+			<clipPath id="hex_mask_beta_1"><polygon id="polygon_mask_beta" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" transform="rotate(30, 50, 50)"/></clipPath>
+			<clipPath id="hex_mask_al_1"><polygon id="polygon_mask_al" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" transform="rotate(0, 50, 50)"/></clipPath>
+			<clipPath id="hex_mask_beta_meta_1"><polygon id="polygon_mask_beta_meta" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 71.65,87.5 28.35,87.5 6.7,75" transform="rotate(0, 50, 50)"/></clipPath>
+			<clipPath id="hex_mask_it_meta_1"><polygon id="polygon_mask_it_meta" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 71.65,87.5 28.35,87.5 6.7,75" transform="rotate(-90, 50, 50)"/></clipPath>
+			<clipPath id="hex_mask_al_meta_1"><polygon id="polygon_mask_al_meta" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 71.65,87.5 28.35,87.5 6.7,75" transform="rotate(30, 50, 50)"/></clipPath>
+		</defs>
+
+			<a href="Chains/Hg-197_chain.svg" download>
+		<rect id="Rect_197Hg" x="2.7" y="3.0" width="224.5" height="183.0" stroke="#000000" stroke-width="0.5" fill="#FFFFFF"/>
+
+			</a>
+		<g id="Hexa-n-Texts_197Hg_0_79">
+			<polygon id="Hexa_197Hg_0_79" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="0.1" stroke="#999999" transform="translate(43.3 7.0)"/>
+			<g id="Texts_197Hg_0_79" transform="translate(43.3 7.0)">
+				<text id="Nuc_S_197Hg_0_79" x="38.5" y="54.5" font-size="30.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#EEEEEE" text-anchor="left">Hg</text>
+				<text id="Nuc_A_197Hg_0_79" x="38.5" y="32.6" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#EEEEEE" text-anchor="end">198</text>
+				<text id="Nuc_Z_197Hg_0_79" x="38.5" y="64" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#EEEEEE" text-anchor="end">80</text>
+				<text id="Nuc_T12_197Hg_0_79" x="50" y="77.6" font-size="8.6" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="#EEEEEE" text-anchor="middle">Mercury</text>
+			</g>
+		</g>
+
+		<g id="Hexa-n-Texts_197Hg_0_80">
+			<polygon id="Hexa_197Hg_0_80" fill="#EEEEEE" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="1.0" stroke="#555555" transform="translate(0.0 82.0)"/>
+			<polygon id="Hexa_197Hg_0_80" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="1.0" stroke="#555555" transform="translate(0.0 82.0)"/>
+			<g id="Texts_197Hg_0_80" transform="translate(0.0 82.0)">
+				<text id="Nuc_etat_197Hg_0_80" x="50" y="16" font-size="10" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="middle">S</text>
+				<text id="Nuc_S_197Hg_0_80" x="38.4" y="54.5" font-size="30.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="left">Au</text>
+				<text id="Nuc_A_197Hg_0_80" x="38.4" y="32.6" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="end">197</text>
+				<text id="Nuc_Z_197Hg_0_80" x="38.4" y="64" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="end">79</text>
+				<text id="Nuc_T12_197Hg_0_80" x="50" y="77.6" font-size="8.6" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="#000000" text-anchor="middle">stable</text>
+			</g>
+		</g>
+
+		<g id="Hexa-n-Texts_197Hg_1_79">
+			<polygon id="Hexa_197Hg_1_79" fill="#F49C9C" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="1.0" stroke="#555555" transform="translate(129.9 7.0)"/>
+			<polygon id="Hexa_197Hg_1_79" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(129.9 7.0)"/>
+			<g id="Texts_197Hg_1_79" transform="translate(129.9 7.0)">
+				<text id="Nuc_etat_197Hg_1_79" x="50" y="16" font-size="10" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="middle">L</text>
+				<text id="Nuc_S_197Hg_1_79" x="38.5" y="54.5" font-size="30.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="left">Hg</text>
+				<text id="Nuc_A_197Hg_1_79" x="38.5" y="32.6" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="end">197</text>
+				<text id="Nuc_Z_197Hg_1_79" x="38.5" y="64" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#000000" text-anchor="end">80</text>
+				<text id="Nuc_T12_197Hg_1_79" x="50" y="77.6" font-size="8.6" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="#000000" text-anchor="middle">2.671 (8) d</text>
+			</g>
+		</g>
+
+		<g id="Hexa-n-Texts_197Hg_1_80">
+			<polygon id="Hexa_197Hg_1_80" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="0.1" stroke="#999999" transform="translate(86.6 82.0)"/>
+			<g id="Texts_197Hg_1_80" transform="translate(86.6 82.0)">
+				<text id="Nuc_S_197Hg_1_80" x="38.4" y="54.5" font-size="30.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#EEEEEE" text-anchor="left">Au</text>
+				<text id="Nuc_A_197Hg_1_80" x="38.4" y="32.6" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#EEEEEE" text-anchor="end">196</text>
+				<text id="Nuc_Z_197Hg_1_80" x="38.4" y="64" font-size="11.4" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="#EEEEEE" text-anchor="end">79</text>
+				<text id="Nuc_T12_197Hg_1_80" x="50" y="77.6" font-size="8.6" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="#EEEEEE" text-anchor="middle">Gold</text>
+			</g>
+		</g>
+
+		<g id="Arrows_197Hg_1_79">
+			<g id="BP_197Hg_1_79" transform="translate(129.9 7.0) rotate(150, 50, 50)" >
+				<line x1="100" y1="50" x2="139.3" y2="50" stroke-width="2.0" stroke="#E43232"/>
+				<polygon id="Arr_bp_197Hg_1_79" points="148,50 139.3,45 139.3,55" stroke-width="1.0" stroke="#E43232" fill="#E43232"/>
+				<circle cx="100" cy="50" r="4" stroke-width="1.0" stroke="#E43232" fill="#E43232"/>
+				<text id="Bp_197Hg_1_79" x="122" y="45" transform="rotate(-180, 122, 45)" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" font-size="20" stroke-width="3.0" stroke="#FFFFFF" stroke-linejoin="round" paint-order="stroke" fill="#E43232" text-anchor="middle">&#x03B5;</text>
+				<text id="Bp_int_197Hg_1_79" x="125" y="63" transform="rotate(180, 125, 63)" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="#E43232" font-size="10" text-anchor="middle">100%</text>
+				<text id="Bp_Q_197Hg_1_79"   x="125" y="31" transform="rotate(180, 125, 31)" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="#E43232" font-size="10" text-anchor="middle">600 keV</text>
+			</g>
+		</g>
+
+		<g id="Chain_Legend_1">
+			<rect x="1.2" y="3.0" width="227.5" height="135.0" stroke="#000000" stroke-width="0.5" fill="#FFFFFF" fill-opacity="0.95"/>
+
+			<g transform="scale(0.40)">
+				<text x="92" y="48" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">Main</text>
+				<text x="92" y="73" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">disintegration</text>
+				<text x="92" y="98" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">mode</text>
+				<polygon id="Hexa_leg_bp_197Hg_1_80-m" fill="#F49C9C" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(174 18)"/>
+				<text x="224" y="78" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">&#x03B5;, &#x03B2;<tspan dx="-1" dy="-10" font-size="24">+</tspan></text>
+				<polygon id="Hexa_leg_bm_197Hg_1_80-m" fill="#9AE29A" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(272 18)"/>
+				<text x="322" y="78" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">&#x03B2;<tspan dx="-1" dy="-10" font-size="24">-</tspan></text>
+				<polygon id="Hexa_leg_al_197Hg_1_80-m" fill="#91CAFF" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(370 18)"/>
+				<text x="420" y="78" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">&#x03B1;</text>
+				<polygon id="Hexa_leg_it_197Hg_1_80-m" fill="#FFE691" points="6.7,25 50,0 93.3,25 93.3,75 71.65,87.5 28.35,87.5 6.7,75" stroke-width="2.0" stroke="#555555" stroke-dasharray="5 3" transform="translate(468 18)"/>
+				<text x="518" y="78" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">T.I.</text>
+				<text x="92" y="169" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">Selected</text>
+				<text x="92" y="194" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">nuclide</text>
+				<polygon id="Hexa_leg_1_197Hg_1_80-m" fill="#91CAFF" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="4.0" stroke="#555555" transform="translate(174 128)"/>
+				<text x="224" y="144" font-size="12" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">S</text>
+				<text x="284" y="144" font-size="14" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">S</text>
+				<text x="305" y="144" font-size="14" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">=</text>
+				<text x="320" y="144" font-size="14" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">State (Solid, Liquid or Gas)</text>
+				<text x="212" y="181" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="left">Xx</text>
+				<text x="284" y="177" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">Xx</text>
+				<text x="305" y="177" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">=</text>
+				<text x="320" y="177" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">nuclide symbol</text>
+				<text x="211" y="161" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">A</text>
+				<text x="284" y="161" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">A</text>
+				<text x="305" y="161" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">=</text>
+				<text x="320" y="161" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">atomic mass</text>
+				<text x="211" y="193" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">Z</text>
+				<text x="284" y="193" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">Z</text>
+				<text x="305" y="193" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">=</text>
+				<text x="320" y="193" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">atomic number</text>
+				<text x="224" y="209" font-size="12" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="middle">T&frac12;</text>
+				<text x="284" y="209" font-size="14" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">T&frac12;</text>
+				<text x="305" y="209" font-size="14" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">=</text>
+				<text x="320" y="209" font-size="14" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="left">half-life</text>
+				<text x="92" y="258" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">Colored surfaces</text>
+				<text x="92" y="283" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">proportional</text>
+				<text x="92" y="308" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">to branching</text>
+				<text x="92" y="333" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="middle">ratios</text>
+				<polygon id="Hexa_leg_2_197Hg_1_80-m" fill="#F49C9C" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(174 238)"/>
+				<path d="M82.0 11.6 A 50 50 0 0 1 82.0 88.4 L 50 50 Z" fill="#9AE29A" opacity="1" clip-path="url(#hex_mask_beta_1)" transform="translate(174 238) rotate(-30, 50, 50)"/>
+				<polygon id="Hexa_leg_3_197Hg_1_80-m" fill="none" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(174 238)"/>
+				<text x="212" y="293" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="left">Yy</text>
+				<text x="211" y="273" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">A</text>
+				<text x="211" y="305" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">Z</text>
+				<text x="224" y="321" font-size="12" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="middle">Stable</text>
+				<text x="468" y="293" font-size="20" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">Stable daughter</text>
+				<polygon id="Hexa_leg_4_197Hg_1_80-m" fill="#EEEEEE" points="6.7,25 50,0 93.3,25 93.3,75 50,100 6.7,75" stroke-width="2.0" stroke="#555555" transform="translate(468 238)"/>
+				<text x="506" y="291" font-size="28" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="left">Zz</text>
+				<text x="505" y="271" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">A</text>
+				<text x="505" y="303" font-size="16" font-family="Google Sans Flex, Helvetica, Arial" font-weight="600" fill="black" text-anchor="end">Z</text>
+				<text x="518" y="319" font-size="12" font-family="Google Sans Flex, Helvetica, Arial" font-weight="400" fill="black" text-anchor="middle">stable</text>
+			</g>
+		</g>
+	</svg>
+</div>
+
+	</svg>
+<div id="Scheme_1" style="display:screen; border:1px solid #1786C5; padding:0px 5px 5px 5px; background-color:white; position:relative; width:313px; height:242px; left:0px; top:0px">
+	<INPUT Title="Hide decay scheme" class="button3" type="button" value="Scheme" onclick="javascript:show_hide('Scheme_1','Button_Scheme_1');"><br>
+	<svg width="309" height="230" xmlns="https://www.w3.org/2000/svg">
+		<title>Hg-197 decay scheme - EC, Beta+ branching
+
+Click, or right-click and select "Save target as..." 
+to save this branch of the scheme as an SVG file. </title>
+		<style type="text/css">.hilit {pointer-events: all;} .hilit:hover {fill: rgb(234,244,252);}</style>
+		<g transform="scale(1)">
+			<a href="Schemes/Hg-197_BP.svg" download>
+			<rect class="hilit" stroke-width="1.0" stroke="rgb(0,128,255)" fill="rgb(255,255,255)" x="2" y="2" width="305" height="222"></rect>
+			</a>
+			<rect stroke-width="1.0" stroke="rgb(0,128,255)" fill="none" x="2" y="2" width="45" height="30"></rect>
+			<text x="24.5" y="16.2" font-size="12" font-weight="bold" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve">&epsilon;</text>
+			<text x="24.5" y="28.2" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve">100%</text>
+			<text x="240" y="32" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve"><tspan dx="-1" dy="-10">197</tspan></text>
+			<text x="240" y="32" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Hg</text>
+			<text x="240" y="32" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve"><tspan dx="-1" dy="3">80</tspan></text>
+			<text x="199" y="43" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">2.671 (8) d</text>
+			<line stroke-width="2.0" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="209" y1="40" x2="279" y2="40"/>
+			<text x="279" y="37" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">0</text>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="0.0" fill="rgb(228,50,50)" text-anchor="left" x="209" y="60"> &epsilon; (%)</text>
+			<line stroke-width="1.0" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(228,50,50)" x1="209" y1="40" x2="189" y2="60"/>
+			<path stroke-width="1.0" stroke="rgb(228,50,50)" fill="rgb(228,50,50)" transform="rotate(45,189,60)" d="m189,60 l -2,-8 l2,2 l2,-2 z"/>
+			<text x="70" y="167" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">0</text>
+			<text x="70" y="172" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">Stable  </text>
+			<text x="189" y="167" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">0 </text>
+			<line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="70" y1="170" x2="189" y2="170"/>
+			<line stroke-width="1.5" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="70" y1="170" x2="110" y2="170"/>
+			<line stroke-width="1.5" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="174" y1="170" x2="189" y2="170"/>
+			<text x="70" y="142" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">77.352</text>
+			<text x="70" y="147" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">1.9 ns  </text>
+			<text x="189" y="142" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">1 </text>
+			<line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="70" y1="145" x2="189" y2="145"/>
+			<line stroke-width="1.5" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="70" y1="145" x2="110" y2="145"/>
+			<line stroke-width="1.5" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="174" y1="145" x2="189" y2="145"/>
+			<text x="70" y="117" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">268.71</text>
+			<text x="70" y="122" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">  </text>
+			<text x="189" y="117" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve">2 </text>
+			<line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="70" y1="120" x2="189" y2="120"/>
+			<line stroke-width="1.5" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="70" y1="120" x2="110" y2="120"/>
+			<line stroke-width="1.5" stroke="rgb(0,0,0)" stroke-linecap="null" stroke-linejoin="null" x1="174" y1="120" x2="189" y2="120"/>
+			<text x="70" y="101" font-size="9" font-style="italic" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">(keV)</text>
+			<text x="127.5" y="196" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve"><tspan dx="-1" dy="-10">197</tspan></text>
+			<text x="127.5" y="196" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Au</text>
+			<text x="127.5" y="196" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="end" xml:space="preserve"><tspan dx="-1" dy="3">79</tspan></text>
+			<text x="129.5" y="214" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve">Q<tspan dy="-3" font-size="8">+</tspan><tspan dy="3" font-size="9"> = 600 keV</tspan></text>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="3.0" stroke-linejoin="round" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" text-anchor="left" transform="rotate(-60, 123, 120)" x="126" y="120">0.04</text>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="0.0" fill="rgb(0,0,0)" text-anchor="left" transform="rotate(-60, 123, 120)" x="126" y="120">0.04</text>
+			<line stroke-width="2.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" x1="123" y1="121" x2="123" y2="162"/>
+			<line stroke-width="0.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(0,0,0)" x1="123" y1="120" x2="123" y2="170"/>
+			<path stroke-width="0.5" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" d="m123,170 l -2,-8 l2,2 l2,-2 z"/>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="3.0" stroke-linejoin="round" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" text-anchor="left" transform="rotate(-60, 136, 120)" x="139" y="120">0.58</text>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="0.0" fill="rgb(0,0,0)" text-anchor="left" transform="rotate(-60, 136, 120)" x="139" y="120">0.58</text>
+			<line stroke-width="2.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" x1="136" y1="121" x2="136" y2="137"/>
+			<line stroke-width="0.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(0,0,0)" x1="136" y1="120" x2="136" y2="145"/>
+			<path stroke-width="0.5" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" d="m136,145 l -2,-8 l2,2 l2,-2 z"/>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="3.0" stroke-linejoin="round" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" text-anchor="left" transform="rotate(-60, 149, 145)" x="152" y="145">18.8</text>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="0.0" font-weight="bold" fill="rgb(0,0,0)" text-anchor="left" transform="rotate(-60, 149, 145)" x="152" y="145">18.8</text>
+			<line stroke-width="2.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" x1="149" y1="146" x2="149" y2="162"/>
+			<line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(0,0,0)" x1="149" y1="145" x2="149" y2="170"/>
+			<path stroke-width="1.0" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" d="m149,170 l -2,-8 l2,2 l2,-2 z"/>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="0.0" font-weight="bold" fill="rgb(228,50,50)" text-anchor="left" x="209" y="128"> 98.7</text>
+			<line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(228,50,50)" x1="209" y1="125" x2="189" y2="145"/>
+			<path stroke-width="1.0" stroke="rgb(228,50,50)" fill="rgb(228,50,50)" transform="rotate(45,189,145)" d="m189,145 l -2,-8 l2,2 l2,-2 z"/>
+			<text font-size="10" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" stroke-width="0.0" fill="rgb(228,50,50)" text-anchor="left" x="209" y="103"> 1.3</text>
+			<line stroke-width="1.0" stroke-linecap="null" stroke-linejoin="null" stroke="rgb(228,50,50)" x1="209" y1="100" x2="189" y2="120"/>
+			<path stroke-width="1.0" stroke="rgb(228,50,50)" fill="rgb(228,50,50)" transform="rotate(45,189,120)" d="m189,120 l -2,-8 l2,2 l2,-2 z"/>
+		</g>
+	</svg>
+</div>
+
+<script type="text/javascript"> show_hide('Table_Tools_1','Button_Tools_1'); </script>
+<script type="text/javascript"> show_hide('Chain_1','Button_Chain_1'); </script>
+<script type="text/javascript"> show_hide('Chain_Legend_1','Button_Chain_Legend_1'); </script>
+<script type="text/javascript"> show_hide('Scheme_1','Button_Scheme_1'); </script>
+<hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
+</BODY>
+
+</HTML>

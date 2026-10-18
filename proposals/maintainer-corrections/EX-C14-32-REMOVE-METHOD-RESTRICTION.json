@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-32-REMOVE-METHOD-RESTRICTION",
+  "status": "approved",
+  "description": "Remove the prescribed sequence-of-halvings method and restriction on logarithms from Exercise 32.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52471/index.cnxml",
+      "before_sha256": "f3078dedf5d710237bb2283f04bee2a42588e29d6a6d9d9b598a77a640501a35",
+      "after_sha256": "4dd5b3f42071ff1552e5c4cc1ac3509c8e64b3d43441914bb9c5b66e18651c8e",
+      "before": " Show your reasoning as a sequence of halvings rather than using logarithms.",
+      "after": ""
+    }
+  ]
+}

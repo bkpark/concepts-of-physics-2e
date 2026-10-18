@@ -1,0 +1,18 @@
+{
+  "id": "ANGULAR-MOMENTUM-CONSERVATION-CONDITIONS",
+  "path": "maintained\\modules\\m71594\\index.cnxml",
+  "before_sha256": "4f498a576291ae355767cf83ea1d421cc92ef7072db37100a3672ec9ae1f3801",
+  "after_sha256": "47c2c3c17bf2229df18bd389503acc97944863f1d461779b5b8d31e906587d1f",
+  "changes": [
+    {
+      "id": "eip-10",
+      "before": "<equation id=\"eip-10\"><m:math>\n        <m:semantics>\n          <m:mrow>\n              <m:mrow>\n                <m:mrow>\n                  <m:mrow>\n                    <m:mi>L</m:mi>\n                    <m:mo stretchy=\"false\">=</m:mo>\n                    <m:mtext>constant  </m:mtext>\n<m:mspace width=\"0.25em\"/>\n                  </m:mrow>\n                  <m:mfenced open=\"(\" close=\")\">\n                    <m:mrow>\n                      <m:mtext>net </m:mtext>\n<m:mspace width=\"0.25em\"/>\n                      <m:mrow>\n                        <m:mi>τ</m:mi>\n                        <m:mo stretchy=\"false\">=</m:mo>\n                        <m:mn>0</m:mn>\n                      </m:mrow>\n                    </m:mrow>\n                  </m:mfenced>\n                </m:mrow>\n              </m:mrow>\n            <m:mrow/>\n          </m:mrow>\n          <m:annotation encoding=\"StarMath 5.0\"> size 12{L=\"constant  \" left (\"net \"τ=0 right )} {}</m:annotation>\n        </m:semantics>\n      </m:math>\n    </equation>",
+      "after": "<equation id=\"eip-10\"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:math>&#x2003;(<m:math><m:mrow><m:mtext>net</m:mtext><m:mspace width=\"0.25em\"/><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>)</equation>"
+    },
+    {
+      "id": "eip-67",
+      "before": "<equation id=\"eip-67\"><m:math>\n        <m:semantics>\n          <m:mrow>\n            <m:mrow>\n              <m:mrow>\n                <m:mrow>\n                  <m:mi>L</m:mi>\n                  <m:mo stretchy=\"false\">=</m:mo>\n                  <m:mi>L</m:mi>\n                </m:mrow>\n                <m:mo>′</m:mo>\n                <m:mtext/>\n                <m:mfenced open=\"(\" close=\")\">\n                  <m:mrow>\n                    <m:mtext>net </m:mtext>\n                    <m:mrow>\n                      <m:mi>τ</m:mi>\n                      <m:mo stretchy=\"false\">=</m:mo>\n                      <m:mn>0</m:mn>\n                    </m:mrow>\n                  </m:mrow>\n                </m:mfenced>\n              </m:mrow><m:mo>.</m:mo>\n            </m:mrow>\n            <m:mrow/>\n          </m:mrow>\n          <m:annotation encoding=\"StarMath 5.0\"> size 12{L=L'\"  \" left (\"net \"τ=0 right )} {}</m:annotation>\n        </m:semantics>\n      </m:math>\n    </equation>",
+      "after": "<equation id=\"eip-67\"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>′</m:mo></m:mrow></m:math>&#x2003;(<m:math><m:mrow><m:mtext>net</m:mtext><m:mspace width=\"0.25em\"/><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>).</equation>"
+    }
+  ]
+}

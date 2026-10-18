@@ -1,0 +1,12 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m42674/index.cnxml",
+  "before_sha256": "ca4f60b0c4ecb4a27edeaf5528ea36d98faabbfa8f43c475d8548ace3515b9f7",
+  "after_sha256": "dab44881e3995256adb9f8d561ba595a5c480df7f5c54cb93386e47a8a240583",
+  "before": "Special names are given to particles that feel the strong and weak nuclear forces. <term id=\"import-auto-id1169737918101\">Hadrons</term> are particles that feel the strong nuclear force, whereas <term id=\"import-auto-id1169738185698\">leptons</term> are particles that do not. The proton, neutron, and the pions are examples of hadrons. The electron, positron, muons, and neutrinos are examples of leptons, the name meaning low mass. Leptons feel the weak nuclear force. In fact, all particles feel the weak nuclear force. This means that hadrons are distinguished by being able to feel both the strong and weak nuclear forces.</para>",
+  "after": "<term id=\"import-auto-id1169737918101\">Hadrons</term> are composite particles whose constituents are bound by the strong interaction. Protons, neutrons, and pions are examples. <term id=\"import-auto-id1169738185698\">Leptons</term> are elementary particles that do not participate in the strong interaction; examples include electrons, muons, neutrinos, and their antiparticles. Both hadrons and leptons participate in weak interactions, so the weak interaction does not distinguish these two groups.</para>",
+  "sources": [
+    "https://wwwcompass.cern.ch/compass/wwwsmc/target/fundamentalparticles.html"
+  ],
+  "reason": "Maintainer approved distinction between composite hadrons and elementary leptons, removing the overbroad claim that all particles feel the weak force. Existing term anchors and preceding paragraph text preserved."
+}

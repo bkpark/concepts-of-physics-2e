@@ -1,0 +1,14 @@
+{
+  "id": "MECHANICAL-ENERGY-DEFINITION-SUMMARY",
+  "path": "maintained/modules/m67037/index.cnxml",
+  "before_sha256": "f67c8b2b33de8cbf3d148c520cfddb71f723b32db4d1ac3a968bf680521a648b",
+  "after_sha256": "6bf48599d686fd1827974e0382e9afa5327366f3df02c60d693cd96d1b364f22",
+  "changes": [
+    {
+      "list": "fs-id1337667",
+      "before": "<item>Mechanical energy is defined to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>KE </m:mtext><m:mo stretchy=\"false\">+</m:mo><m:mtext> PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"KE \"+\" PE\"} {}</m:annotation></m:semantics></m:math> for a conservative force.</item>",
+      "after": "<item>Mechanical energy is the sum of kinetic and potential energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>KE </m:mtext><m:mo stretchy=\"false\">+</m:mo><m:mtext> PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding=\"StarMath 5.0\"> size 12{\"KE \"+\" PE\"} {}</m:annotation></m:semantics></m:math>.</item>"
+    }
+  ],
+  "review": "The section body already defines mechanical energy as total kinetic plus potential energy without restricting the definition to conservative forces. The glossary agrees. No corresponding prose change needed."
+}

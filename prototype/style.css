@@ -146,3 +146,602 @@ mtable[columnalign="right center left"] > mtr > mtd:nth-child(3){text-align:left
  :root[data-theme="dark"] :is(math,#book-search *,#search-more):focus-visible{outline-color:#8ac9d6}
  :root[data-theme="dark"] ::selection{background:#346678;color:#fff}
 }
+
+/* Keep each reaction and its energy release intact while allowing wrapping. */
+.equation.reaction-energy > div{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.6em 1.8em}
+.equation.reaction-energy > div > [data-math-key]{flex:0 0 auto}
+
+/* Selected particle characteristics: consistent column alignment and compact print layout. */
+#m42674--696d706f72742d6175746f2d696431313639373336363537333035 td, #m42674--696d706f72742d6175746f2d696431313639373336363537333035 th{vertical-align:top;padding-left:6px;padding-right:6px}
+#m42674--696d706f72742d6175746f2d696431313639373336363537333035 [style="text-align:center"]{white-space:nowrap;min-width:2.5em}
+#m42674--696d706f72742d6175746f2d696431313639373336363537333035 sup{font-size:.7em}
+@media print{#m42674--696d706f72742d6175746f2d696431313639373336363537333035 thead{display:table-header-group} #m42674--696d706f72742d6175746f2d696431313639373336363537333035 tr{break-inside:avoid} #m42674--696d706f72742d6175746f2d696431313639373336363537333035 td, #m42674--696d706f72742d6175746f2d696431313639373336363537333035 th{padding-left:4px;padding-right:4px}}
+
+/* Captions accompanying table titles form a distinct notes block below. */
+.table-notes{font:0.8rem/1.5 Arial,sans-serif;padding:12px 14px;border:1px solid #bdcccc;border-top:0;margin-bottom:1.5rem;text-align:left}
+.table-notes-title{font-weight:700;margin-bottom:.5em}
+.table-notes .para{margin:.5em 0}
+.table-notes .para:last-child{margin-bottom:0}
+@media print{.table-notes{font-size:8.5pt;padding:8px 10px}.table-notes-title{break-after:avoid}}
+
+/* Revised gluon panel (a); retain original panel (b) pixels via a layout viewport. */
+#m42680--676c756f6e2d7374617465732d70616e656c2d61 img{width:600px;max-width:100%!important;max-height:none;height:auto;margin:0 auto}
+#m42680--676c756f6e2d70616e656c2d612d6c6162656c{text-align:center;margin:.25em 0 1em;font:16px Arial,sans-serif}
+#m42680--696d706f72742d6175746f2d696431313639373338323537323739{width:100%;max-width:300px;margin:0 auto;overflow:hidden}
+#m42680--696d706f72742d6175746f2d696431313639373338323537323739 img{width:222.222222%;max-width:none!important;max-height:none;height:auto;margin:0 0 0 -122.222222%}
+
+/* Native MathML engines may omit menclose strike notation. Preserve its
+   semantics for copying and paint the requested cancellation in currentColor. */
+math menclose[notation="updiagonalstrike"]{background-image:linear-gradient(to bottom right,transparent calc(50% - .65px),currentColor calc(50% - .65px),currentColor calc(50% + .65px),transparent calc(50% + .65px));}
+
+/* The three stacked motion graphs need width-based sizing for readable labels. */
+@media screen{#m71407--696d706f72742d6175746f2d696431383130373935 img{width:300px;max-height:none;}}
+
+/* Stacked train position, velocity, and acceleration graphs. */
+@media screen{#m67033--696d706f72742d6175746f2d696432353936393339 img{width:350px;max-height:none;}}
+
+/* Hooke law graph and spring diagram: retain the intended source width. */
+@media screen{#m67044--696d706f72742d6175746f2d696432343034343733 img{width:375px;max-height:none;}}
+
+/* Stacked centripetal-force diagrams: keep labels readable on screen. */
+@media screen{#m67036--696d706f72742d6175746f2d696431353831313935 img{width:350px;max-height:none;}}
+
+/* Keep the short Hooke's-law summary equation close to its sentence. */
+#m67045--696d706f72742d6175746f2d696433333835303436{margin:.4em 0}
+#m67045--696d706f72742d6175746f2d696433333835303436 + .para{margin-top:0}
+
+/* Match the fundamental and overtone panels at the available figure width. */
+@media screen{#m71588--696d706f72742d6175746f2d696432363533373831 img,#m71588--696d706f72742d6175746f2d696431393935393136 img{width:100%;max-height:none;}}
+
+/* Rotational-inertia reference panel: use the available figure width. */
+@media screen{#m71593--66732d696431363535373639 img{width:100%;max-height:none;}}
+
+/* Tall temperature-range chart: keep labels readable without a height cap. */
+@media screen{#m52364--696d706f72742d6175746f2d696431393631343234 img{width:350px;max-height:none;}}
+
+/* Tall piston-cycle diagram: enlarge labels without a screen height cap. */
+@media screen{#m67126--696d706f72742d6175746f2d696431313639373337383935303334 img{width:350px;max-height:none;}}
+
+/* Paired thermodynamic-process plots: keep axes and curve labels readable. */
+@media screen{#m67126--696d706f72742d6175746f2d696431313639373337383035343938 img{width:350px;max-height:none;}}
+
+/* Van de Graaff schematic: show labels near the source image resolution. */
+@media screen{#m75428--696d706f72742d6175746f2d696431393131323238 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Battery and circuit schematic: keep both panels and labels readable. */
+@media screen{#m67130--696d706f72742d6175746f2d696432363131333738 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Parallel circuits and house wiring: use the available figure width. */
+@media screen{#m42356--696d706f72742d6175746f2d696431393236383232 img{width:100%;max-height:none;}}
+
+/* Magnetic recording diagram: use the available figure width for labels. */
+@media screen{#m52410--696d706f72742d6175746f2d696431353335363231 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Straight-wire field and right-hand rule: enlarge the two-panel diagram. */
+@media screen{#m52420--696d706f72742d6175746f2d696431313636393931383533303736 img{width:350px;max-height:none;}}
+
+/* Michelson rotating-mirror diagram: use available width for small labels. */
+@media screen{#m52454--696d706f72742d6175746f2d696431313635323939303033393439 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Rainbow formation panels: enlarge labels without a screen height cap. */
+@media screen{#m52455--696d706f72742d6175746f2d696432353936303630 img{width:350px;max-height:none;}}
+
+/* Thin-lens ray-tracing panels: enlarge labels without a screen height cap. */
+@media screen{#m67134--696d706f72742d6175746f2d696432393835343336 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Converging-lens virtual-image panels: enlarge labels without a height cap. */
+@media screen{#m67134--696d706f72742d6175746f2d696431333632353939 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Diverging-lens ray-tracing panels: use available width for labels. */
+@media screen{#m67134--696d706f72742d6175746f2d696431393531373331 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Magnifying mirror panels: use available figure width for ray labels. */
+@media screen{#m67135--696d706f72742d6175746f2d696431333531353639 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Convex mirror panels: use available figure width for ray labels. */
+@media screen{#m67135--696d706f72742d6175746f2d696433303838353637 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Photomultiplier diagram: enlarge component labels without a height cap. */
+@media screen{#m42627--696d706f72742d6175746f2d696432303531353734 img{width:350px;max-height:none;}}
+
+/* Chart of nuclides: use available figure width for dense axis labels. */
+@media screen{#m52466--696d706f72742d6175746f2d696432363030343530 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Uranium decay series: use available figure width for nuclide labels. */
+@media screen{#m76603--696d706f72742d6175746f2d696431383235323832 img{width:450px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Figure 14.11.5: enlarge the existing illustration without a height cap. */
+@media screen{#m42665--696d706f72742d6175746f2d696433313036303033 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Figure 14.11.6: enlarge the chart labels without a screen height cap. */
+@media screen{#m42665--696d706f72742d6175746f2d696432333833383730 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Falling-object comparison: keep embedded labels near caption size on wide screens. */
+@media screen{#m68876--696d706f72742d6175746f2d696432353533383134 img{width:450px;max-width:100%!important;height:auto;}}
+
+/* Falling-rock graphs: size axis labels near caption text without a height cap. */
+@media screen{#m68876--696d706f72742d6175746f2d696434303634303536 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Upward/downward rock throws: enlarge small labels with a widescreen cap. */
+@media screen{#m68876--696d706f72742d6175746f2d696434313733343431 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Falling-ball table and graphs: enlarge small labels with a widescreen cap. */
+@media screen{#m68876--696d706f72742d6175746f2d696434303937323535 img{width:650px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Projectile-motion components: enlarge vector labels with a widescreen cap. */
+@media screen{#m67038--696d706f72742d6175746f2d696432323735333131 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Newton second-law wagon diagrams: enlarge force labels with a widescreen cap. */
+@media screen{#m67530--696d706f72742d6175746f2d696431343131343733 img{width:650px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Rocket-sled diagram: bring force labels closer to caption size. */
+@media screen{#m67530--66732d696432393638343737 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Normal-force comparison: bring force labels closer to caption size. */
+@media screen{#m68329--696d706f72742d6175746f2d696432363338363633 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Friction surface diagram: keep embedded labels near caption size on wide screens. */
+@media screen{#m71409--696d706f72742d6175746f2d696431313635323938373935313134 img{width:450px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Surface contact comparison: keep normal-force labels near caption size. */
+@media screen{#m71409--696d706f72742d6175746f2d696431313635323938373133343433 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Earth radius diagram: keep embedded labels near caption size. */
+@media screen{#m71410--696d706f72742d6175746f2d696431343735333036 img{width:375px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Lunar tide diagram: keep embedded labels near caption size. */
+@media screen{#m71410--696d706f72742d6175746f2d696432303032373939 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Impulse force-time graph: keep embedded labels near caption size. */
+@media screen{#m71583--696d706f72742d6175746f2d696431353433393134 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Spring recording diagram: keep embedded labels near caption size. */
+@media screen{#m71585--696d706f72742d6175746f2d696432333931383631 img{width:180px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Harmonic-motion graphs: enlarge small labels without a height cap. */
+@media screen{#m71585--696d706f72742d6175746f2d696432343034323538 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Transverse-wave illustration: keep the amplitude label near caption size. */
+@media screen{#m71587--696d706f72742d6175746f2d696431353735323932 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Longitudinal-wave illustration: match the transverse-wave figure width. */
+@media screen{#m71587--696d706f72742d6175746f2d696431333339343539 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Fundamental standing wave: keep embedded labels near caption size. */
+@media screen{#m71588--696d706f72742d6175746f2d696432363533373831 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Standing-wave overtones: match the fundamental-mode figure width. */
+@media screen{#m71588--696d706f72742d6175746f2d696431393935393136 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Vibrating-string compression: keep embedded labels near caption size. */
+@media screen{#m71590--696d706f72742d6175746f2d696432343336323939 img{width:200px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Left-moving vibrating string: match the preceding compression figure width. */
+@media screen{#m71590--696d706f72742d6175746f2d696432363831363333 img{width:200px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Speaker frequency comparison: keep embedded labels near caption size. */
+@media screen{#m71589--696d706f72742d6175746f2d696433333939313038 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Stationary sound source: keep observer labels near caption size. */
+@media screen{#m67819--696d706f72742d6175746f2d696432353931313735 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Moving sound source: keep wavefront and observer labels near caption size. */
+@media screen{#m67819--696d706f72742d6175746f2d696431343237303433 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Moving sound observers: keep observer labels near caption size. */
+@media screen{#m67819--696d706f72742d6175746f2d696433303835333431 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Sonic-boom wavefronts: keep embedded labels near caption size. */
+@media screen{#m67819--696d706f72742d6175746f2d696432343239363234 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Circular acceleration components: keep embedded labels near caption size. */
+@media screen{#m71592--696d706f72742d6175746f2d696432363438303733 img{width:200px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Bike-wheel angular acceleration: keep embedded labels near caption size. */
+@media screen{#m71593--696d706f72742d6175746f2d696431353631353139 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Rotating mass on a tabletop: keep embedded labels near caption size. */
+@media screen{#m71593--696d706f72742d6175746f2d696431383439313037 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Angular-momentum right-hand rule: keep embedded labels near caption size. */
+@media screen{#m71595--696d706f72742d6175746f2d696431333839353335 img{width:375px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Torque direction diagram: keep embedded labels near caption size. */
+@media screen{#m71595--696d706f72742d6175746f2d696433333533313436 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Pressure and contact area: keep embedded labels near caption size. */
+@media screen{#m71615--696d706f72742d6175746f2d696431343837303736 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Atmospheric air column: keep embedded labels near caption size. */
+@media screen{#m71623--696d706f72742d6175746f2d696433313439373232 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Hydrometer scale: keep numerals near caption size. */
+@media screen{#m71624--696d706f72742d6175746f2d696433303232383033 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Flow-rate diagram: keep embedded labels and equations near caption size. */
+@media screen{#m71625--696d706f72742d6175746f2d696433313831383330 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Continuity in a narrowing tube: keep embedded labels near caption size. */
+@media screen{#m71625--66732d696433333939373234 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Airflow between vehicles: keep pressure and speed labels near caption size. */
+@media screen{#m71626--696d706f72742d6175746f2d696431393934343637 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Entrainment devices: keep embedded labels near caption size. */
+@media screen{#m71626--66732d696432363830373234 img{width:625px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Levee and sandbags: keep embedded labels near caption size. */
+@media screen{#m71623--696d706f72742d6175746f2d696433333538393338 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Venturi constriction: keep embedded labels near caption size. */
+@media screen{#m71626--696d706f72742d6175746f2d696432363339303130 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* First-law energy transfers: keep embedded labels near caption size. */
+@media screen{#m67125--696d706f72742d6175746f2d696431313639373337383133303733 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Entropy paths: keep embedded labels near caption size. */
+@media screen{#m67128--696d706f72742d6175746f2d696431313639373338323038323439 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Melting and entropy: keep embedded labels near caption size. */
+@media screen{#m67128--696d706f72742d6175746f2d696431313639373337383131383636 img{width:375px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Charge separation in amber and cloth: keep embedded labels near caption size. */
+@media screen{#m52381--696d706f72742d6175746f2d696431383535333737 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Pair creation and annihilation: enlarge labels without a height cap. */
+@media screen{#m52381--696d706f72742d6175746f2d696431393636353838 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Coulomb force pairs: keep embedded labels near caption size. */
+@media screen{#m52384--696d706f72742d6175746f2d696432363533393936 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Test-charge forces: keep embedded labels near caption size. */
+@media screen{#m52385--696d706f72742d6175746f2d696432353834333038 img{width:175px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Electric-field representations: keep embedded labels near caption size. */
+@media screen{#m70739--66732d696432363739303034 img{width:450px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Two positive charges: keep field-vector labels near caption size. */
+@media screen{#m70739--696d706f72742d6175746f2d696433313633373633 img{width:200px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Negative and opposite charge fields: enlarge labels without a height cap. */
+@media screen{#m70739--696d706f72742d6175746f2d696431333938343833 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Electric and gravitational potential energy: keep labels near caption size. */
+@media screen{#m75427--696d706f72742d6175746f2d696431393335373336 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Battery and headlight: keep embedded labels near caption size. */
+@media screen{#m75427--696d706f72742d6175746f2d696431353934353930 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Polarized spherical conductor: keep charge symbols near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696431393836333839 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Parallel charged plates: keep charge symbols near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696431383432383630 img{width:450px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Uneven conductor surfaces: keep embedded labels near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696432363137373739 img{width:650px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Lightning rod and Van de Graaff photos: keep panel labels near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696431333938363735 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Xerography stages: keep embedded labels near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696432333932343731 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Laser printer: keep embedded labels near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696432363732303932 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Inkjet printer: keep embedded labels near caption size. */
+@media screen{#m75428--696d706f72742d6175746f2d696431393232363736 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Current as charge flow: keep embedded labels near caption size. */
+@media screen{#m67130--696d706f72742d6175746f2d696431353935393031 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Ohm law circuit: keep embedded labels near caption size. */
+@media screen{#m52401--696d706f72742d6175746f2d696431313730363134303635343230 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Resistor voltage measurement: keep embedded labels near caption size. */
+@media screen{#m52401--696d706f72742d6175746f2d696431313730363134303434393134 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Series and parallel resistors: keep embedded labels near caption size. */
+@media screen{#m42356--696d706f72742d6175746f2d696431393137303431 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Equivalent series resistance: keep embedded labels near caption size. */
+@media screen{#m42356--696d706f72742d6175746f2d696433303737323637 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Combination resistor example: keep embedded labels near caption size. */
+@media screen{#m42356--696d706f72742d6175746f2d696433303835383238 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Fuse and circuit breaker: enlarge component labels without a height cap. */
+@media screen{#m52406--696d706f72742d6175746f2d696433313737373338 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Fuse circuit schematic: keep embedded labels near caption size. */
+@media screen{#m52406--696d706f72742d6175746f2d696431383633383236 img{width:175px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Electric shock effects: keep embedded labels near caption size. */
+@media screen{#m52406--696d706f72742d6175746f2d696432363033393437 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Shock sensitivity graph: keep axis and curve labels near caption size. */
+@media screen{#m52406--696d706f72742d6175746f2d696431393431323938 img{width:375px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Battery and bulb open circuit: keep embedded labels near caption size. */
+@media screen{#m67130--6d656469612d63392d626174746572792d62756c622d6f70656e2d63697263756974 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Magnet shapes: reduce the illustration and pole labels on wide screens. */
+@media screen{#m52412--696d706f72742d6175746f2d696431373034343937 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Earth magnetic poles: keep embedded labels near caption size. */
+@media screen{#m52412--696d706f72742d6175746f2d696431363435343239 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Iron-core electromagnet: keep embedded labels near caption size. */
+@media screen{#m52410--696d706f72742d6175746f2d696432333238353038 img{width:100px;max-width:100%!important;max-height:none;height:auto;}}
+
+
+/* Electron magnetism models: keep embedded labels near caption size. */
+@media screen{#m52410--696d706f72742d6175746f2d696432303936373032 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Magnetic force on a wire: keep embedded labels near caption size. */
+@media screen{#m52416--696d706f72742d6175746f2d696431313636393931383430333636 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Magnetohydrodynamic pump: keep embedded labels near caption size. */
+@media screen{#m52416--696d706f72742d6175746f2d696431313636393931383632303538 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* MHD propulsion: keep embedded annotations near caption size. */
+@media screen{#m52416--696d706f72742d6175746f2d696431313636393931383338343437 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Current-loop torque: keep embedded labels near caption size. */
+@media screen{#m52417--696d706f72742d6175746f2d696432343839363238 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Motor brushes: keep embedded labels near caption size. */
+@media screen{#m52417--696d706f72742d6175746f2d696431353033313137 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Moving-coil meter: keep embedded labels near caption size. */
+@media screen{#m52417--696d706f72742d6175746f2d696431353033303730 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Faraday apparatus: keep embedded labels near caption size. */
+@media screen{#m70743--696d706f72742d6175746f2d696431313639373338313436393135 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Magnetic flux components: keep embedded labels near caption size. */
+@media screen{#m70743--696d706f72742d6175746f2d696431313639373337383034343135 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Power distribution: keep embedded labels near caption size. */
+@media screen{#m52427--696d706f72742d6175746f2d696431313639373337393933333637 img{width:650px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Transformer construction: keep embedded labels near caption size. */
+@media screen{#m52427--696d706f72742d6175746f2d696431313639373336353831373435 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* AC and DC graphs: keep embedded labels near caption size. */
+@media screen{#m67131--696d706f72742d6175746f2d696433313339343633 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* AC circuit and waveform: keep embedded labels near caption size. */
+@media screen{#m67131--696d706f72742d6175746f2d696432363532383539 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* AC power graph: keep embedded labels near caption size. */
+@media screen{#m67131--696d706f72742d6175746f2d696433343933373133 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Magnetic force direction exercise: keep embedded labels near caption size. */
+@media screen{#m52414--696d706f72742d6175746f2d696431383836363337 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Force and velocity exercise: keep embedded labels near caption size. */
+@media screen{#m52414--696d706f72742d6175746f2d696431343836313932 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Stretched coil exercise: keep embedded labels near caption size. */
+@media screen{#m70743--696d706f72742d6175746f2d696431313639373338323038303330 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Hertz apparatus: keep embedded labels near caption size. */
+@media screen{#m52443--696d706f72742d6175746f2d696431313639373338323439373733 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Antenna electric and magnetic fields: keep embedded labels near caption size. */
+@media screen{#m75429--696d706f72742d6175746f2d696431313639373337373838313334 img{width:650px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Electromagnetic wave: keep embedded labels near caption size. */
+@media screen{#m75429--696d706f72742d6175746f2d696431313639373336363234313231 img{width:450px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Electromagnetic wave momentum: keep embedded labels near caption size. */
+@media screen{#m75429--66732d696431313731323432343437343034 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Radiation pressure apparatus: keep embedded labels near caption size. */
+@media screen{#m75429--66732d696431313731323430323431373933 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Submarine ELF radio wave: keep embedded label near caption size. */
+@media screen{#m67133--696d706f72742d6175746f2d696431313639373338323437313432 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* AM modulation: keep embedded labels near caption size. */
+@media screen{#m67133--696d706f72742d6175746f2d696431313639373337393234303434 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Nuclear materials panels: keep embedded labels near caption size. */
+@media screen{#m52466--696d706f72742d6175746f2d696432393931303634 img{width:675px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* FM modulation: keep embedded labels near caption size. */
+@media screen{#m67133--696d706f72742d6175746f2d696431313639373337393838393239 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Antenna towers: keep embedded panel labels near caption size. */
+@media screen{#m67133--696d706f72742d6175746f2d696431313639373337373839363732 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Visible spectrum: keep embedded labels near caption size. */
+@media screen{#m67133--696d706f72742d6175746f2d696431313639373338303638383436 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Law of reflection: keep embedded labels near caption size. */
+@media screen{#m52450--696d706f72742d6175746f2d696431333438303536 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Diffuse reflection: approximately 75 percent of the previous display size. */
+@media screen{#m52450--696d706f72742d6175746f2d696431323830323436 img{width:470px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Paper diffuse reflection: approximately 75 percent of the previous display size. */
+@media screen{#m52450--696d706f72742d6175746f2d696431333534373532 img{width:410px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Mirror reflection: match the paper reflection illustration above. */
+@media screen{#m52450--696d706f72742d6175746f2d696431393436333330 img{width:410px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Lawn-mower refraction analogy: keep embedded labels near caption size. */
+@media screen{#m52454--6569702d696432323531363239 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Dispersion visible spectrum: match the spectrum illustration in section 11.5. */
+@media screen{#m52455--696d706f72742d6175746f2d696432363035353834 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Water-droplet rainbow: keep embedded labels near caption size. */
+@media screen{#m52455--696d706f72742d6175746f2d696432353131383638 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Converging lens refraction: keep embedded labels near caption size. */
+@media screen{#m67134--696d706f72742d6175746f2d696431353338383837 img{width:500px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Diverging lens refraction: keep embedded labels near caption size. */
+@media screen{#m67134--696d706f72742d6175746f2d696431363235313139 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Light source at lens focus: approximately 75 percent of the previous display size. */
+@media screen{#m67134--696d706f72742d6175746f2d696431363336373039 img{width:430px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Bulb and screen ray diagram: keep embedded labels near caption size. */
+@media screen{#m67134--696d706f72742d6175746f2d696431313735313036 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Spherical mirror focus: keep embedded labels near caption size. */
+@media screen{#m67135--696d706f72742d6175746f2d696432363032373935 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Concave mirror real image: keep embedded labels near caption size. */
+@media screen{#m67135--696d706f72742d6175746f2d696431333632373239 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Polarization glare comparison: keep panel labels near caption size. */
+@media screen{#m52456--66732d696431313639373337373635343536 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Polarization direction: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373337303137383930 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Rope polarization: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373337393536323339 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Random polarization: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373338303131323936 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Polarizing filter: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373337373831353832 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Polarization component: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373336363039333333 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Polarization by scattering: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373336363334313132 img{width:375px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* LCD polarization: enlarge labels to near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373337393635333031 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Optical activity: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373337373333343732 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Birefringence: keep embedded labels near caption size. */
+@media screen{#m52456--696d706f72742d6175746f2d696431313639373337373133373831 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Atom and nucleus: approximately 60 percent of the previous display size. */
+@media screen{#m67139--696d706f72742d6175746f2d696431363031343139 img{width:477px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Flashlight photons: keep embedded labels near caption size. */
+@media screen{#m67251--696d706f72742d6175746f2d696431343334343436 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Photoelectron energy graph: keep embedded labels near caption size. */
+@media screen{#m67251--696d706f72742d6175746f2d696431353532363234 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Crossed-fields CRT: keep embedded labels near caption size. */
+@media screen{#m67805--66732d696431383438303131 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Thomson CRT: keep charge symbols near caption size. */
+@media screen{#m67805--66732d696431313532323431 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Rutherford scattering: keep embedded labels near caption size. */
+@media screen{#m67805--696d706f72742d6175746f2d696433313931393030 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Gold foil atoms: keep the scale label near caption size. */
+@media screen{#m67805--696d706f72742d6175746f2d696432363831333436 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Planetary atom model: keep embedded labels near caption size. */
+@media screen{#m67805--696d706f72742d6175746f2d696433313632383035 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Hydrogen spectrum series: keep embedded labels near caption size. */
+@media screen{#m67807--696d706f72742d6175746f2d696433303133363432 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Bohr energy transition: keep embedded labels near caption size. */
+@media screen{#m67807--696d706f72742d6175746f2d696431343031393630 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Hydrogen energy levels: enlarge labels to near caption size. */
+@media screen{#m67807--696d706f72742d6175746f2d696433313838383030 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Standing-wave electron orbits: keep embedded labels near caption size. */
+@media screen{#m67808--696d706f72742d6175746f2d696433303333363735 img{width:575px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Quantized orbit wavelengths: keep embedded labels near caption size. */
+@media screen{#m67808--696d706f72742d6175746f2d696431333937393136 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Hydrogen probability cloud: keep embedded labels near caption size. */
+@media screen{#m67808--696d706f72742d6175746f2d696432393331303935 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Moving charged particle: keep embedded labels near caption size. */
+@media screen{#m42535--696d706f72742d6175746f2d696431323834333937 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Spaceship laser velocities: keep embedded labels near caption size. */
+@media screen{#m42540--66732d696432363736353236 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Relativistic momentum graph: keep embedded labels near caption size. */
+@media screen{#m42542--66732d696432383232343538 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Sun and nuclear power station: enlarge panel labels toward caption size. */
+@media screen{#m42546--696d706f72742d6175746f2d696432303035323139 img{width:375px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Relativistic kinetic energy graph: keep embedded labels near caption size. */
+@media screen{#m42546--696d706f72742d6175746f2d696433313336333439 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Matter substructure: keep embedded labels near caption size. */
+@media screen{#m68325--696d706f72742d6175746f2d696431313639373337393130373239 img{width:650px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Pocket dosimeter: keep panel labels near caption size. */
+@media screen{#m76584--696d706f72742d6175746f2d696431383731333835 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Geiger counter: enlarge diagram labels toward caption size. */
+@media screen{#m42627--696d706f72742d6175746f2d696432343533393539 img{width:475px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Alpha decay: keep embedded labels near caption size. */
+@media screen{#m76603--696d706f72742d6175746f2d696431333836303735 img{width:300px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Beta-minus decay: keep embedded labels near caption size. */
+@media screen{#m76603--696d706f72742d6175746f2d696432323039383837 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Beta-plus decay: match beta-minus diagram sizing and keep labels near caption size. */
+@media screen{#m76603--696d706f72742d6175746f2d696433323530303238 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Gamma camera: keep embedded labels near caption size. */
+@media screen{#m42649--696d706f72742d6175746f2d696431343438353031 img{width:425px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Ionization density in cells: keep embedded labels near caption size. */
+@media screen{#m68327--696d706f72742d6175746f2d696433303932303535 img{width:600px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Dental X-ray shielding: keep embedded labels near caption size. */
+@media screen{#m68327--696d706f72742d6175746f2d696432393632353537 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Fusion potential energy: keep embedded labels near caption size. */
+@media screen{#m52480--696d706f72742d6175746f2d696432393633353132 img{width:325px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Fusion collisions: keep panel labels near caption size. */
+@media screen{#m52480--696d706f72742d6175746f2d696433303333333538 img{width:550px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Solar fusion: keep embedded labels near caption size. */
+@media screen{#m52480--696d706f72742d6175746f2d696432363638313933 img{width:275px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Figure 14.11.1: keep embedded labels near caption size. */
+@media screen{#m42665--696d706f72742d6175746f2d696433303333303330 img{width:350px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Virtual photon exchange: keep panel labels near caption size. */
+@media screen{#m42671--696d706f72742d6175746f2d696431313639373337393131353232 img{width:400px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Feynman photon exchange diagram: keep embedded labels near caption size. */
+@media screen{#m42671--696d706f72742d6175746f2d696431313639373338303131333937 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Feynman pion exchange diagram: match photon exchange sizing. */
+@media screen{#m42671--696d706f72742d6175746f2d696431313639373337383231343139 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Particle annihilation: keep embedded labels near caption size. */
+@media screen{#m42674--696d706f72742d6175746f2d696431313639373338323334373637 img{width:225px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Particle characteristics: place the rest-mass unit below its heading. */
+#m42674--696d706f72742d6175746f2d696431313639373336363537333035 thead th:nth-child(5) > strong{display:block;}
+
+/* Weak-force Feynman diagram: keep embedded labels near caption size. */
+@media screen{#m42680--696d706f72742d6175746f2d696431313639373337393932303439 img{width:250px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Force unification graph: keep embedded labels near caption size. */
+@media screen{#m42680--696d706f72742d6175746f2d696431313639373338323439363730 img{width:450px;max-width:100%!important;max-height:none;height:auto;}}

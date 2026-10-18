@@ -1,0 +1,17 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m67133/index.cnxml",
+  "before_sha256": "4ef7447f3cd33f021d9aa489608b892ab72a0cfce7b45308367f5f6d0bd315d9",
+  "after_sha256": "6bc52fc73486d795cde9492d688877259a373496660b7794224d72ed058081c3",
+  "edits": [
+    {
+      "before": "<definition id=\"import-auto-id1169737768419\"><term>thermal agitation</term> <meaning id=\"fs-id1169738136735\">the random motion of atoms and molecules associated with temperature</meaning></definition>",
+      "after": ""
+    },
+    {
+      "before": "<term id=\"import-auto-id1169737778944\">thermal agitation</term>",
+      "after": "<span id=\"import-auto-id1169737778944\">thermal agitation</span>"
+    }
+  ],
+  "reason": "Remove redundant glossary and formal-term styling; retain ordinary prose and its anchor. Earlier thermal motion covered in m67037 eip-740 and m52368 import-auto-id1594121. No source links target removed glossary IDs."
+}

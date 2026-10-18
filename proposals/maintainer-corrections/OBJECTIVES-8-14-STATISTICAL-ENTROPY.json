@@ -1,0 +1,14 @@
+{
+  "id": "OBJECTIVES-8-14-STATISTICAL-ENTROPY",
+  "status": "approved and applied",
+  "changes": [
+    {
+      "path": "maintained/modules/m42238/index.cnxml",
+      "before_sha256": "66d0c3d991f62c624bedc77efb39be6d93febe93095cc2ede7e61096ba771fe3",
+      "after_sha256": "450d5bcfbe07003d4fdfc507512ca444c798343f18ae7f04af0de33ff78817b1",
+      "before": "\n<item>Identify probabilities in entropy.</item>\n<item>Analyze statistical probabilities in entropic systems.</item>\n",
+      "after": "\n<item>Distinguish microstates from macrostates using the coin-toss and gas examples.</item>\n<item>Compare macrostate probabilities by counting equally probable microstates.</item>\n<item>Explain how microstates account for entropy and the tendency of isolated systems toward higher entropy.</item>\n"
+    }
+  ],
+  "validation": "CNXML parses; only objective list changed."
+}

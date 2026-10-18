@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-12-ARTICLE-A-TEXT",
+  "status": "approved",
+  "description": "Correct opening article A incorrectly marked as a math variable in Exercise 12.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42627/index.cnxml",
+      "before_sha256": "0f0aad3fc1ed04f8935b1bc07ac55a462e64517e77a1235b2479468001ce957f",
+      "after_sha256": "5868a3f459ba5efc660c17c1a7d0e2dd744cf33aa04adb79bdc2d12608071a7f",
+      "before": "<exercise id=\"c14-mom-a3\" type=\"conceptual-questions\"><problem id=\"c14-mom-a3-problem\"><para id=\"c14-mom-a3-p1\"><m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> student says, “<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays cannot ionize matter because photons have no electric charge.” Another says, “All radiation damages cells in the same way.” Explain what is wrong with each statement, using the energy transferred in an interaction.</para></problem></exercise>",
+      "after": "<exercise id=\"c14-mom-a3\" type=\"conceptual-questions\"><problem id=\"c14-mom-a3-problem\"><para id=\"c14-mom-a3-p1\">A student says, “<m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mi>γ</m:mi></m:math> rays cannot ionize matter because photons have no electric charge.” Another says, “All radiation damages cells in the same way.” Explain what is wrong with each statement, using the energy transferred in an interaction.</para></problem></exercise>"
+    }
+  ]
+}

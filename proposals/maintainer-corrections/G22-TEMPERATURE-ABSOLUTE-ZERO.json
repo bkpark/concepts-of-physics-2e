@@ -1,0 +1,29 @@
+{
+  "status": "approved",
+  "source": "maintained/modules/m52364/index.cnxml",
+  "before_sha256": "b803b96015b68e6aa290bda718e235fb0d5734ed326a5894b31f76d0ea457680",
+  "after_sha256": "4d8d27dc1b3b5328e1a1b02bc09af080e571581521e7e0f3523d9a37dc5c56d9",
+  "edits": [
+    {
+      "before": "<term id=\"import-auto-id1426896\">Temperature</term> is operationally defined to be what we measure with a thermometer. <emphasis effect=\"italics\"/>(Many physical quantities are defined solely in terms of how they are measured. We shall see later how temperature is related to the kinetic energies of atoms and molecules, a more physical explanation.)",
+      "after": "<term id=\"import-auto-id1426896\">Temperature</term> describes a system’s thermal state. Systems in thermal equilibrium have the same temperature. When systems at different temperatures can exchange energy as heat, the net transfer is from higher to lower temperature. A thermometer measures temperature by reaching thermal equilibrium with the system being measured."
+    },
+    {
+      "before": " Again, temperature is the quantity measured by a thermometer.",
+      "after": ""
+    },
+    {
+      "before": "It is an <emphasis effect=\"italics\">absolute temperature</emphasis> scale defined to have 0 K at the lowest possible temperature, called <term id=\"import-auto-id1218210\">absolute zero</term>.",
+      "after": "<term id=\"import-auto-id1218210\">Absolute zero</term>, 0 K, is the lower limit of the Kelvin temperature scale."
+    },
+    {
+      "before": "<meaning id=\"fs-id1806180\">the quantity measured by a thermometer</meaning>",
+      "after": "<meaning id=\"fs-id1806180\">a quantity describing thermal state; equal temperatures characterize thermal equilibrium, and temperature differences determine the direction of spontaneous heat transfer</meaning>"
+    },
+    {
+      "before": "<meaning id=\"fs-id1798486\">the lowest possible temperature; the temperature at which all molecular motion ceases</meaning>",
+      "after": "<meaning id=\"fs-id1798486\">0 K, the lower limit of the Kelvin temperature scale</meaning>"
+    }
+  ],
+  "reason": "Maintainer approved proposed thermal-equilibrium temperature definition and simpler absolute-zero wording; no quantum caveat. Preserved illustrative examples and source IDs."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-THEORY-PREDICTIONS-BETA-DECAY",
+  "status": "approved",
+  "description": "Replace the general theoretical-predictions question (preview Exercise 68, now 67) with the approved beta-decay evidence question.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "c4b4d5ff5bd2e50668d999511deea1a17040050046a98ecc7c88037e8134d304",
+      "after_sha256": "8b57bf81a4392668e0a019a20197c25c8e6129a0b6dd8c73f80293ea6e4a54a4",
+      "before": "<exercise id=\"fs-id1169737918057\" type=\"conceptual-questions\"><problem id=\"fs-id1169738092970\"><para id=\"fs-id1169738092971\">Theorists have had spectacular success in predicting previously unknown particles. Considering past theoretical triumphs, why should we bother to perform experiments?</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169737918057\" type=\"conceptual-questions\"><problem id=\"fs-id1169738092970\"><para id=\"fs-id1169738092971\">Measurements of beta decay showed that the daughter nucleus and emitted electron did not account for all the initial energy and momentum. Explain how an additional, electrically neutral particle could account for these observations. Why was the missing energy and momentum evidence for such a particle, but not by itself conclusive proof of its existence?</para></problem></exercise>"
+    }
+  ]
+}

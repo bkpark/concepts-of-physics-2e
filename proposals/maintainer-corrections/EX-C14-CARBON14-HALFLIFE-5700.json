@@ -1,0 +1,24 @@
+{
+  "id": "EX-C14-CARBON14-HALFLIFE-5700",
+  "status": "approved",
+  "description": "Use 5700 years in Exercises 31 and 32; change two-half-life interval to 11,400 years. Three-half-life answers become 17,100 years.",
+  "changes": [
+    {
+      "path": "maintained/modules/m52471/index.cnxml",
+      "before_sha256": "e9c37471b131ae2f8c50ea3814e41ecf87866b4e2bfb79d31a0de22a358d95c6",
+      "after_sha256": "8b5f6410f174740dab69f1da2e2e61e476994527347753796165e13103252eec",
+      "exercises": [
+        {
+          "id": "fs-id2391582",
+          "before": "<exercise id=\"fs-id2391582\" type=\"conceptual-questions\"><problem id=\"fs-id2391582-revised-problem\"><para id=\"fs-id2391582-revised-p1\">Carbon-14 has a half-life of 5730 years. Assume a closed sample initially contained 8000 carbon-14 atoms and now contains about 1000. How many half-lives have passed, and what age does this suggest? Explain why this is an estimate rather than an exact clock for each atom.</para></problem></exercise>",
+          "after": "<exercise id=\"fs-id2391582\" type=\"conceptual-questions\"><problem id=\"fs-id2391582-revised-problem\"><para id=\"fs-id2391582-revised-p1\">Carbon-14 has a half-life of 5700 years. Assume a closed sample initially contained 8000 carbon-14 atoms and now contains about 1000. How many half-lives have passed, and what age does this suggest? Explain why this is an estimate rather than an exact clock for each atom.</para></problem></exercise>"
+        },
+        {
+          "id": "c14-mom-a10",
+          "before": "<exercise id=\"c14-mom-a10\" type=\"conceptual-questions\"><problem id=\"c14-mom-a10-problem\"><para id=\"c14-mom-a10-p1\">Carbon-14 has a half-life of 5730 years. Assume that a closed sample initially contains 1600 carbon-14 atoms.</para><para id=\"c14-mom-a10-p2\">(a) About how many remain after 11,460 years?</para><para id=\"c14-mom-a10-p3\">(b) If about 200 remain, how much time has passed?</para></problem></exercise>",
+          "after": "<exercise id=\"c14-mom-a10\" type=\"conceptual-questions\"><problem id=\"c14-mom-a10-problem\"><para id=\"c14-mom-a10-p1\">Carbon-14 has a half-life of 5700 years. Assume that a closed sample initially contains 1600 carbon-14 atoms.</para><para id=\"c14-mom-a10-p2\">(a) About how many remain after 11,400 years?</para><para id=\"c14-mom-a10-p3\">(b) If about 200 remain, how much time has passed?</para></problem></exercise>"
+        }
+      ]
+    }
+  ]
+}

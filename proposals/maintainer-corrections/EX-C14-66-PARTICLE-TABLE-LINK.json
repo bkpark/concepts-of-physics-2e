@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-66-PARTICLE-TABLE-LINK",
+  "status": "approved",
+  "description": "Link Exercise 66 particle-table reference to Selected Particle Characteristics using its stable source ID.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "97ec9129f00d2857f7def337d6045331255ad763ec5bc03bb0a650b8c70edeba",
+      "after_sha256": "b4bc0a686fb561fe9378d037452ceb61af4bd56785304a150da42b9d8caf9de6",
+      "before": "Using the particle table and the quark model, classify each of these",
+      "after": "Using the <link document=\"m42674\" target-id=\"import-auto-id1169736657305\">particle table</link> and the quark model, classify each of these"
+    }
+  ]
+}

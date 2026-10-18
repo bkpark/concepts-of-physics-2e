@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-62-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label from Exercise 62 on conservation in muon decay.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42674/index.cnxml",
+      "before_sha256": "838132b7ef0f0e8b6db6405efdf0b73a4e8a716e1eaf41ba5b83538fd03bdad9",
+      "after_sha256": "1d17795b42e50662d609e6902e7eac254ef98362d1887f003735d91a0f547634",
+      "before": "<exercise id=\"fs-id1169738163628\" type=\"conceptual-questions\"><problem id=\"fs-id1169738163628-revised-problem\"><para id=\"fs-id1169738163628-revised-p1\"><span id=\"fs-id1169738163628-extension\"/><emphasis effect=\"bold\">Extension.</emphasis> In <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msup><m:mi>μ</m:mi><m:mo>−</m:mo></m:msup><m:mo>→</m:mo><m:msup><m:mi>e</m:mi><m:mo>−</m:mo></m:msup><m:mo>+</m:mo><m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo>¯</m:mo></m:mover><m:mi mathvariant=\"italic\">e</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>ν</m:mi><m:mi mathvariant=\"italic\">μ</m:mi></m:msub></m:mrow></m:math>, check electric charge, electron-family number, and muon-family number. Use +1 for a lepton in its family, −1 for its antiparticle, and zero for particles outside that family.</para></problem></exercise>",
+      "after": "<exercise id=\"fs-id1169738163628\" type=\"conceptual-questions\"><problem id=\"fs-id1169738163628-revised-problem\"><para id=\"fs-id1169738163628-revised-p1\"><span id=\"fs-id1169738163628-extension\"/>In <m:math xmlns:m=\"http://www.w3.org/1998/Math/MathML\"><m:mrow><m:msup><m:mi>μ</m:mi><m:mo>−</m:mo></m:msup><m:mo>→</m:mo><m:msup><m:mi>e</m:mi><m:mo>−</m:mo></m:msup><m:mo>+</m:mo><m:msub><m:mover accent=\"true\"><m:mi>ν</m:mi><m:mo>¯</m:mo></m:mover><m:mi mathvariant=\"italic\">e</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>ν</m:mi><m:mi mathvariant=\"italic\">μ</m:mi></m:msub></m:mrow></m:math>, check electric charge, electron-family number, and muon-family number. Use +1 for a lepton in its family, −1 for its antiparticle, and zero for particles outside that family.</para></problem></exercise>"
+    }
+  ]
+}

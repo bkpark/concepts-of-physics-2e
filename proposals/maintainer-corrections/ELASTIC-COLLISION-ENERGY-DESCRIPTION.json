@@ -1,0 +1,16 @@
+{
+  "id": "ELASTIC-COLLISION-ENERGY-DESCRIPTION",
+  "path": "maintained/modules/m67042/index.cnxml",
+  "before_sha256": "16af73bd25fc153cc51980bb360de7e153b84150639bb0346bb021abb7b3f252",
+  "after_sha256": "bef96ee11d3997bae133adbb6e24b485e944bd36cd7cb495a4f61bee4371a9cf",
+  "changes": [
+    {
+      "before": "<equation id=\"eip-940\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msup><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mo stretchy=\"false\">+</m:mo>\n<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mrow>\n<m:msup><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup>\n<m:mo stretchy=\"false\">=</m:mo>\n<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow>\n<m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub>\n<m:msup><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup>\n<m:mo stretchy=\"false\">+</m:mo>\n<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow>\n<m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>\n<m:msup><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mspace width=\"0.25em\"/><m:mspace width=\"0.25em\"/></m:mrow></m:mrow></m:semantics></m:math> (two-object elastic collision) </equation>",
+      "after": "<equation id=\"eip-940\"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msup><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mo stretchy=\"false\">+</m:mo>\n<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mrow>\n<m:msup><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup>\n<m:mo stretchy=\"false\">=</m:mo>\n<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow>\n<m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub>\n<m:msup><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup>\n<m:mo stretchy=\"false\">+</m:mo>\n<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow>\n<m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>\n<m:msup><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:semantics></m:math></equation>"
+    },
+    {
+      "before": "<para id=\"import-auto-id1704032\">expresses the equation for conservation of total kinetic energy in a one-dimensional collision.</para>",
+      "after": "<para id=\"import-auto-id1704032\">This equation expresses conservation of total kinetic energy in a one-dimensional elastic collision between two objects.</para>"
+    }
+  ]
+}

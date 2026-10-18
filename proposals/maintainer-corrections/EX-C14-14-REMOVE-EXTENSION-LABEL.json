@@ -1,0 +1,14 @@
+{
+  "id": "EX-C14-14-REMOVE-EXTENSION-LABEL",
+  "status": "approved",
+  "description": "Remove Extension label: threshold frequency is explained in The Photoelectric Effect (m67251), and detector prose explicitly connects photomultiplier tubes to that effect.",
+  "changes": [
+    {
+      "path": "maintained/modules/m42627/index.cnxml",
+      "before_sha256": "c6540aa7f83099176b51304dec8e00a5dcff22c013c3fc99a4595e59e2457294",
+      "after_sha256": "b2692e54bf2ed35c7bb1a364f68754fdcd3e6647528910efa92805959f3b5d3a",
+      "before": "<para id=\"import-auto-id1568371\"><emphasis effect=\"bold\">Extension.</emphasis>  Is it possible for light emitted by a scintillator to be too low in frequency to be used in a photomultiplier tube? Explain.</para>",
+      "after": "<para id=\"import-auto-id1568371\">Is it possible for light emitted by a scintillator to be too low in frequency to be used in a photomultiplier tube? Explain.</para>"
+    }
+  ]
+}
