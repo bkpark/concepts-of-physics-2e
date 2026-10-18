@@ -1,6 +1,6 @@
 # Introduction to Physics
 
-[Read the textbook](https://intro.coaphys.xyz/) · [Download cp2e-ver1.0 PDF](https://intro.coaphys.xyz/cp2e-ver1.0.pdf) · [Full contents](https://intro.coaphys.xyz/contents/)
+[Read the textbook](https://intro.coaphys.xyz/) · [Download version 1.1 PDF](https://github.com/bkpark/concepts-of-physics-2e/releases/download/cp2e-ver1.1/cp2e-ver1.1.pdf) · [Full contents](https://intro.coaphys.xyz/contents/)
 
 Maintained publishing source for **Introduction to Physics**, recovered from CNX
 collection **col25183**, legacy identifier **WPust2k9@12.1**. The repository name
@@ -12,16 +12,15 @@ The recovered Introduction to Physics source is preserved alongside the maintain
 source, with original module identifiers and provenance retained for comparison.
 
 The complete PDF and static website are generated from `maintained/`. The published
-`cp2e-ver1.0` uses **Lecture-aligned numbering (July 2026)**, matching the recorded
+`cp2e-ver1.1` uses **Lecture-aligned numbering (July 2026)**, matching the recorded
 lectures for Physics 10 at College of Alameda. Stable section URLs and object IDs
-are independent of displayed numbering. Exercise revision is deferred; known
-numbering limitations are documented in the release assessment.
+are independent of displayed numbering. Version 1.1 includes 648 revised chapter-end exercises.
 
 Start with [the maintained-source guide](maintained/README.md) and
-[release/build instructions](docs/release-candidate-cp2e-ver1.0.md).
+[release/build instructions](docs/release-cp2e-ver1.1.md).
 The [recovery assessment](docs/recovery-assessment.md) records the original inventory.
 Earlier milestone documents describe the project at their respective stages;
-the [final 1.0 archival record](docs/release-cp2e-ver1.0.md) is authoritative for publication status.
+the [version 1.1 release record](docs/release-cp2e-ver1.1.md) describes the current publication.
 
 ## Preservation
 

@@ -2,7 +2,7 @@
 
 ## Final release
 
-The maintainer has approved the complete 654-page book and its screen-optimized edition. The approved release is published on the existing Sites project at https://intro-1-1.coaphys.xyz. The later intro.coaphys.xyz DNS migration is separate; the previous web host is retained by the maintainer as a backup. Publication receipts record the completed deployment and GitHub release.
+The maintainer has approved the complete 654-page book and its screen-optimized edition. The approved release is published on the existing Sites project at https://intro.coaphys.xyz. Publication receipts record the completed deployment and GitHub release.
 
 The default website download is `cp2e-ver1.1.pdf`, the approved 68.7 MB screen-optimized PDF. The approved 123.7 MB original is `cp2e-ver1.1-print-quality.pdf`, a GitHub-release-only asset. It is excluded from the website folder and ZIP, and the website contains no print-quality download link. Both PDFs preserve the same pagination, links, and bookmarks.
 
