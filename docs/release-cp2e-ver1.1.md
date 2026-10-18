@@ -64,3 +64,7 @@ Live visual review found incorrectly encoded middle dots and dashes in the HTML 
 ## Main-domain canonical URLs
 
 Sites version 186 sets all 174 canonical URLs to `https://intro.coaphys.xyz`. The self-hosting ZIP includes the same update. Both domains returned all 174 pages successfully, with the expected canonical URLs; navigation, search and the screen-PDF link passed on each domain. `intro-1-1.coaphys.xyz` remains a working alias. The PDFs are unchanged.
+
+## Theme asset cache update
+
+Sites version 187 adds content hashes to stylesheet and theme-script URLs, including in the self-hosting ZIP. This bypasses stale assets cached before the hosting migration. A simulated stale stylesheet reproduced the reported light-only appearance and the versioned URLs corrected it. Mobile Chrome emulation passed Light/Dark switching, reload persistence and navigation on both domains; the exact cause on the physical phone remains unconfirmed. The PDFs are unchanged.

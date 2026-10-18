@@ -175,7 +175,7 @@
     "cp2e-ver1.1.pdf": "36e2e246a6a70f2a63d1918970b71a3a0578f7443de58bec5e4a2fa8fcb7b9fb",
     "cp2e-ver1.1-print-quality.pdf": "5d1e33fc028039f41860cd70783289f770d0eaf0a435772c03de1a1ba5555caf"
   },
-  "website_package_sha256": "fa4fbecaeb9882b49ee9d6bbd63bf586586724e05b986df6f14fdbbb44840577",
+  "website_package_sha256": "1a1fe00a6e24d3fb28bcd61bfb7474c77028ce31fe8f57a27c2cdf30d27a4218",
   "website_pdf_policy": "Only the approved screen-optimized PDF is included. Print-quality original is staged separately for GitHub release.",
   "pending_publication_steps": [],
   "validation": "release-checks.json",
@@ -291,6 +291,68 @@
         }
       ],
       "failures": []
+    }
+  },
+  "theme_cache_update": {
+    "version": {
+      "id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_50015a71c7d88191a7aaccc8e0b1b64b",
+      "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+      "version_number": 187,
+      "source": {
+        "commit_sha": "fdd69a6e837b53545a1f169e5ed9dc4db19e32e5"
+      },
+      "archive_storage": {
+        "archive_format": "tar",
+        "sediment_file_id": "file_00000000d94881f58c3a91c1054ed6af",
+        "content_hash": "sha256:080ed7847ede368b490743bbaafbf14f797d54efb70e5c4f8515f8f191587989",
+        "size_bytes": 133498880,
+        "file_count": 878
+      },
+      "screenshot_url": null,
+      "deployment_id": null
+    },
+    "deployment": {
+      "id": "appgdep_6ad4ebd925008191b7952ddb8300ff13",
+      "project_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33",
+      "title": "Introduction to Physics \u00e2\u20ac\u201d Version 1.1",
+      "version_id": "appgprj_6ab9a2afbb1c8191bf74ed20b035ce33~appgver_50015a71c7d88191a7aaccc8e0b1b64b",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://introduction-to-physics-1-1-preview.bkpark.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6ab9a2afbb1c8191bf74ed20b035ce33",
+      "failure_message": null,
+      "env_set_revision": 0,
+      "updated_at": "2026-10-18T15:55:19.025000+00:00"
+    },
+    "reason": "Version stylesheet and theme script URLs to bypass stale cached assets after hosting migration; phone-specific cause remains unconfirmed.",
+    "verification": {
+      "device": "Desktop Chrome with Pixel 7 emulation; physical phone confirmation pending",
+      "simulatedStaleStylesheetReproduced": true,
+      "versionedAssetsBypassStaleStylesheet": true,
+      "live": [
+        {
+          "origin": "https://intro.coaphys.xyz",
+          "assets": [
+            "https://intro.coaphys.xyz/style.css?v=6f8d5d4de7fe",
+            "https://intro.coaphys.xyz/theme.js?v=d8a8790ca7b1"
+          ],
+          "themeSwitching": true,
+          "reload": true,
+          "navigation": true
+        },
+        {
+          "origin": "https://intro-1-1.coaphys.xyz",
+          "assets": [
+            "https://intro-1-1.coaphys.xyz/style.css?v=6f8d5d4de7fe",
+            "https://intro-1-1.coaphys.xyz/theme.js?v=d8a8790ca7b1"
+          ],
+          "themeSwitching": true,
+          "reload": true,
+          "navigation": true
+        }
+      ]
     }
   }
 }
