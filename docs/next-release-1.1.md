@@ -1,5 +1,23 @@
 # cp2e-ver1.1 planning
 
+## October 18, 2026 - Publication authorized
+
+The maintainer authorized final source archival, GitHub release with both PDFs, and publication on the existing public Sites project at intro-1-1.coaphys.xyz. Keep intro.coaphys.xyz DNS unchanged until the later migration. The prior host will become the maintainer's intro-backup. Sites rejects the 68.7 MB PDF as a source object; the live website therefore links to the exact screen PDF on GitHub Releases. The self-hosting ZIP retains the local PDF. Final receipts record verified publication results.
+
+## October 18, 2026 - Release package prepared
+
+The maintainer has approved the full book and screen-optimized PDF. Content, appendices, front/end matter and PDF review are complete. Earlier open review checkboxes below are historical and superseded by this checkpoint.
+
+- Website package: `output/releases/cp2e-ver1.1/cp2e-ver1.1-static-html.zip`; default download is the approved screen PDF (`cp2e-ver1.1.pdf`, 68.7 MB).
+- Original PDF is staged as `cp2e-ver1.1-print-quality.pdf` for GitHub release only, excluded from the website and ZIP.
+- Both numbering builds, 36 tests, immutable baseline verification, all-page desktop/mobile browser checks, search/copy/theme/numbering interactions, source/anchor coverage, sequential exercise numbering, ZIP integrity and file hashes pass.
+- Restored three source link IDs omitted by the HTML renderer; no visible prose or approved PDF changes.
+- Version 1.0 ledger replay cannot process later multi-file/maintainer ledger schemas. This limitation is documented; exact current source is checked against both builds and the package. No complete historical ledger replay is claimed.
+- Release metadata now identifies 1.1 as an unfrozen candidate, with no publication date. Version 1.0 outputs and archival metadata are untouched.
+- Remaining: final source commit/tag and archival asset, GitHub release, website deployment, and live verification. No deployment, tag, or GitHub release was performed in this preparation.
+- Details: `docs/release-cp2e-ver1.1.md`; machine-readable checks, hashes and upload instructions are beside the ZIP.
+
+
 ## October 16, 2026 — current review checkpoint
 
 - Chapter 14 content and exercise review is finalized by the maintainer; 70 exercises remain.
@@ -3050,3 +3068,371 @@ Set Figure 1.8.1 to 550 px wide on screen with no height cap, shrinking to fit n
 - Published the queued image sizing and alt-text corrections to https://intro-1-1.coaphys.xyz/; Sites deployment succeeded for version 183.
 - Verified the corrected fundamental and overtone image descriptions in the live browser accessibility tree. Both full build profiles pass.
 - Cover/title-page and publication-credits generators and the two-column thermodynamics trial are checkpointed for continued PDF authoring.
+
+### 2026-10-17 — Chapter 0 print-layout proof
+
+- User approved the publication/credits draft and selected two-column US Letter layout, developed one chapter at a time.
+- Print rules: chapters start on recto; Section 1 is a single-page chapter opener with chapter image and compact contents; Section 2 begins on its verso; remaining sections start on fresh pages. Prefer figures at column tops and wide tables at page tops.
+- Three-ring-binder margins: mirrored 1-inch inner and 0.65-inch outer margins; duplex long-edge printing. Main text 10.5 pt; opener prose 9.7 pt.
+- Generated `output/pdf/v1.1-chapter-0.pdf` (18 pages) with `prototype/tools/render-chapter-zero.cjs`. Section starts: 0.1 page 1, 0.2 page 2, 0.3 page 9; review page 15; source credits page 18.
+- All 18 images preserved; block-text and MathML preservation checks pass; no detected layout overflow or broken images. Canonical textbook source is unchanged. This proof awaits author review; section-ending white space and figure sizing remain adjustable.
+
+### 2026-10-17 — Chapter 0 revised print proof and layout lessons
+
+- Supersedes the one-page opener rule: retain the normal-size chapter image, float compact chapter contents in a corner, and let single-column introduction prose continue onto the next page. Section 0.2 begins below its end on the same page when space permits. No learning objectives belong in the chapter introduction. Later sections retain fresh-page starts.
+- Schedule figures by their first prose reference, allowing modest look-ahead to place them on the same page. Prefer column corners and distribute illustrations across pages; aim to leave at least half the regular page available for prose and equations. Large tables are exceptions.
+- Treat substantial optional boxes as floats. In this proof the Scientific Method occupies a full-width, single-column box atop page 7; the main prose continues uninterrupted at its former location. Keep Check Your Understanding in the prose sequence.
+- Revised proof: `output/pdf/v1.1-chapter-0-revised.pdf`, 18 pages. The original proof remains available separately. Figures 0.2.3 and 0.2.4 now share page 3 with their first reference; Figures 0.2.5 and 0.2.6 occupy opposite columns on page 4.
+- Verified all block text, unchanged MathML, all 18 images, Letter geometry, mirrored binder margins, and no content beyond margins. Visually reviewed all pages. This remains an author-review proof; the generated PDF and its layout do not change canonical web content.
+
+### 2026-10-17 — Chapter 0 print punctuation and table-note revision
+
+- Restored web inline-MathML and punctuation-group CSS in the separate print renderer. The paginator now treats these groups as indivisible when splitting paragraphs, so parentheses and trailing punctuation cannot detach at column or page boundaries. Carry this rule into subsequent chapter renderers.
+- Moved table-header footnotes intact beneath their tables in 7.5 pt type. Table 0.3.2 now has a compact Value heading; the Appendix A note is below the table. Canonical web source is unchanged.
+- Regenerated `output/pdf/v1.1-chapter-0-revised.pdf` (18 pages). Visually checked all pages and the three annotated cases on pages 11–12. Text, MathML, punctuation-group preservation, images, and mirrored margin checks pass. Awaiting author final acceptance before Chapter 1.
+
+### 2026-10-17 — Chapter 0 aligned conversion and reference wrapping
+- Combined the two conversion equations in maintained m67032 into an equals-aligned derivation with one Average speed label and inline m/s in the result; retained the old result anchor.
+- Shared HTML rendering keeps reference labels with their numbers; web and Chapter 0 print CSS prevent wrapping, and print splitting respects these groups.
+- Added print alignment for two-column MathML tables and remeasured terminal punctuation after pagination.
+- Full course build: 6,440 math expressions, no issues. Chapter 0 remains 18 Letter pages, with no layout/content failures, missing images, or characters outside binding margins. Visually checked the changed reference and equation in PDF and the equation in local web output. Web preview has not been published for this pass.
+
+### 2026-10-17 — Chapter 1 first print review
+- Chapter 0 accepted by author. Chapter 1 proof uses Letter paper, mirrored 1-inch inner/.65-inch outer margins, 10.5pt body text, two columns, single-column introduction with corner contents and chapter image, and fresh-page section starts.
+- Chapter 1 starts at book page 19; 39-page proof ends at 57. Reserve blank verso 58 before the next chapter in the assembled book.
+- Added render-chapter-one.cjs. Preserves all 45 images and source math; chapter review contains section summaries once. Four wide equations use 8.5–9pt print sizing; two tall graph figures are enlarged to 3 inches. Source content unchanged.
+- Improved print splitting between complete equation/figure blocks, kept captions with figures, retained punctuation and cross-reference rules, and recomputed punctuation positions after pagination.
+- QA: no horizontal/vertical overflows, detached captions, content failures, missing images, or out-of-margin characters. 39 Letter pages. Chapter 1 awaits author review; Chapter 0 proof unchanged.
+
+### 2026-10-17 — Chapter 1 readability revision
+- Fixed column/page splitting to break only on ordinary whitespace, preserving NBSP and narrow NBSP groups. Added protected-word-group audit. Applied splitter correction to Chapter 0 renderer without regenerating its approved PDF.
+- Enlarged flagged Figures 1.4.4, 1.5.5, 1.5.6, 1.5.9, 1.7.3, 1.7.5, 1.7.6, 1.8.1, and 1.8.2. Tall figures use individual widths rather than a shared height cap; four dense figures span columns at intermediate widths. Worked-example figures and captions move intact, with nearby prose below.
+- Regenerated stable Chapter 1 PDF: 42 Letter pages, book pages 19–60. Next chapter can start at page 61. This supersedes the first-proof page range and blank-verso plan.
+- Visual review of all pages plus detailed checks of revised figures. All 45 images preserved; mathematics, content, nonbreaking word groups, and captions pass validation. No horizontal/vertical overflows or out-of-margin characters. Source images and prose unchanged. Awaiting author review.
+
+### 2026-10-17 — Unit 1 heading and Chapter 2 first proof
+- Author accepted the Chapter 1 readability revision. Added Unit 1: Mechanics I — Motion and Forces above its chapter title, with no separate divider page. Chapter 1 remains 42 pages, book pages 19–60.
+- Added render-chapter-two.cjs and generated Chapter 2: Dynamics with the same Letter, duplex binder-margin, two-column conventions. This first proof has 44 pages, book pages 61–104; the next chapter can start at 105.
+- The single-column introduction retains both illustrations and its concluding note. Enlarged detailed Figures 2.2.1, 2.4.1, and 2.7.3 across columns, with nearby prose below. One wide equation uses 9pt print sizing. Source content and images unchanged.
+- QA: all 35 images present; content, math, punctuation groups and nonbreaking word groups preserved; no horizontal/vertical overflows, detached captions, or out-of-margin PDF characters. Reviewed rendered pages and revised figure placements. Chapter 2 awaits author review.
+
+### 2026-10-17 - Chapter 2 heading correction and Chapter 3 proof
+- Chapter 2 accepted subject to keeping headings with following content. Updated its pagination to carry trailing headings across column/page breaks, including intervening empty elements. Verified 2.8: Friction now starts the right column with Exercise 28 on book page 101. Pagination remains 61-104 (44 pages).
+- Added render-chapter-three.cjs using the corrected conventions. Chapter 3: Work and Energy begins Unit 2 with the unit heading on its opener; 28 Letter pages, book pages 105-132. The next chapter can begin at 133.
+- Allowed prose inside equation containers to wrap in print, fixing an out-of-margin sentence in Example 3.2.1 without changing source mathematics or prose.
+- Both PDFs pass content, math, punctuation, protected-word, image, stranded-heading, and horizontal/vertical overflow checks. PDF character bounds stay within mirrored margins. All 35 Chapter 2 and 16 Chapter 3 images retained. Rendered pages inspected; Chapter 3 awaits author review.
+
+### 2026-10-17 - Chapter 3 review corrections and Chapters 0-2 layout audit
+- Applied print-only fixes across all four chapter renderers: honor left-aligned MathML tables; insert real whitespace between glossary terms and meanings; place learning objectives first beneath section titles; reserve the opening left column for objectives and prose. Figures float to the right column, and wide figures wait for a later page rather than intervene between title and objectives.
+- Chapter 3 Equation 3.5.2 now places its conservative-forces qualifier on a separate line. The source equation and mathematical tokens remain unchanged. Added explicit objective-placement and equation-label-collision audits.
+- Propagated the heading/empty-element keep-together correction to earlier renderers. Chapter starts now derive from the preceding chapter report, with blank versos supplied when required.
+- Regenerated all four PDFs. Chapters 0 and 1 remain pages 1-18 and 19-60. Chapter 2 is pages 61-106 (45 content pages plus blank verso 106); Chapter 3 is pages 107-134. Next chapter starts at 135. These ranges supersede the earlier proof ranges.
+- QA: visually inspected every section opening, chapter review/glossary openings, and the flagged Chapter 3 equations. All 114 images retained; content, mathematics, and punctuation preserved. No objective-placement failures, equation-label collisions, reported overflows, or out-of-margin PDF characters. All pages are Letter size with mirrored binder margins. Revised PDFs await author review.
+
+### 2026-10-17 - Bottom wide figures and Chapter 4 first proof
+- Wide floats now try the remaining space beneath both columns at the end of a section before being deferred. Figure 2.2.1 and its caption fit at the bottom of book page 63, with objectives still immediately below the section title.
+- Regenerated Chapter 2: 44 pages, book pages 61-104, no blank verso. Regenerated Chapter 3: 28 pages, book pages 105-132. These supersede the previous ranges.
+- Prepared Chapter 4: Impulse and Momentum, using the established Letter/two-column/binder-margin rules. 19 content pages, book pages 133-151, followed by blank verso 152. Next chapter begins at 153.
+- Enlarged the goalie diagram (Figure 4.6.2) across columns near its example. Three long calculations use 8.5pt print mathematics; the given-value list in Example 4.5.1 wraps between complete expressions. Source mathematics and prose unchanged.
+- QA: all 8 Chapter 4 images retained; text, mathematics, punctuation groups and protected word groups preserved. No overflow, detached captions, stranded headings, objective placement failures, equation-label collisions, or out-of-margin characters. Rendered Chapter 4 pages reviewed, including the final modified example layouts. Chapter 4 awaits author review.
+
+
+### 2026-10-17 - Chapter 4 final corrections and Chapter 5 first proof
+- Added the missing sentence-ending period to source equation eip-844 in m71582 and rebuilt the course output. The source change is one line; Chapter 4 retains its accepted equation sizing.
+- Blank verso pages now retain the running header and folio in the Chapter 4 and Chapter 5 renderers. Chapter 4 remains book pages 133-152, including the numbered blank page 152.
+- Added render-chapter-five.cjs and generated Chapter 5: Oscillations and Waves with the established Letter, duplex binder margins, intro, objectives, and two-column conventions. The review proof is 36 pages, book pages 153-188 (35 content pages and a numbered blank verso). Chapter 6 can start at 189.
+- Figures 5.3.1 and 5.6.5 use intermediate widths across columns; tall Figure 5.3.4 has an individual width without the general height cap. Multiple small floats can share a column, and remaining figures try available space below prose before a new page, reducing isolated figure pages.
+- QA: all 39 Chapter 5 images retained; content, mathematics, punctuation groups, and nonbreaking word groups preserved. No horizontal/vertical overflow, detached captions, stranded headings, objective-placement failures, equation-label collisions, or out-of-margin PDF characters in either PDF. All pages are Letter size. Rendered page layouts and enlarged diagrams reviewed. Chapter 5 awaits author review.
+
+
+### 2026-10-17 - Chapter 5 image reductions and Chapter 6 first proof
+- Reduced Figures 5.3.3, 5.6.4, 5.7.2, 5.7.3, and 5.8.4 using individual print widths. Caption sizes are unchanged; wave labels match the preceding figure more closely, and the vibrating-string heights are comparable. Chapter 5 remains 36 pages, book pages 153-188.
+- Prepared Chapter 6: Rotation, 28 Letter pages, book pages 189-216. Section 6.2 follows the intro continuation on page 190. Chapter 7 can begin at 217.
+- Enlarged the rotational-inertia chart across columns near its first discussion, with no empty continuation box. Three slightly over-wide calculations use 9.5pt print mathematics. Reduced two oversized diagram labels through individual image sizing. No source content changes.
+- QA: 39 Chapter 5 images and 25 Chapter 6 images retained. Content, math, punctuation and protected word groups preserved. No reported overflow, equation-label collisions, detached captions, stranded headings, objective-placement failures, or out-of-margin PDF characters. Rendered pages and revised figures inspected. Both PDFs await author review.
+
+
+### 2026-10-17 - Chapter 6 compact table revision
+- Table 6.2.1 now fits one column at the top right of book page 193 beside its prose reference. Removed the separate table page. Subsequent sections move one page earlier; content ends at 215, followed by numbered blank verso 216. Chapter 7 still begins at 217.
+- Regenerated Chapter 6 and inspected the table and repaginated pages. All 25 images, source text, mathematics, punctuation groups, and protected word groups retained. No overflow, margin violations, detached captions, stranded headings, objective-placement failures, or equation-label collisions.
+
+
+### 2026-10-17 - Chapter 7 first proof, completing Unit 2
+- Prepared Chapter 7: Fluids with the established Letter, mirrored binder margins, two-column layout, and intro conventions. Section 7.2 begins below the short introduction on page 217. The PDF has 30 pages, book pages 217-246, including numbered blank verso 246. Unit 3 and Chapter 8 can begin at 247.
+- Figures 7.6.7, 7.8.2, and 7.8.4 use wider print layouts for readable labels. Figure 7.7.1 has a smaller individual width. Equations 7.6.5 and 7.6.6 use 9pt text to clear their equation numbers. The chapter-review source note uses compact print styling to avoid an otherwise empty continuation page. Source content unchanged.
+- QA: all 27 images retained; text, math, punctuation groups, and protected word groups preserved. No overflow, equation-label collisions, detached captions, stranded headings, objective-placement failures, or out-of-margin characters. Rendered pages inspected. Chapter 7 awaits author review.
+
+
+### 2026-10-17 - Chapter 7 review revisions
+- Section 7.2 starts on page 218: a one-page introduction always gets its own page. It continues on 219. Intro continuation pages may still share space with Section 2.
+- Summary lists now split between whole list items, keeping equations with their original bullet. Glossary emphasized inline expressions stay together, including Q = V/t. Reduced Figure 7.E.3 to match body-text label sizing.
+- Figure 7.8.4 follows 7.8.3 and sits across the bottom of page 240 with the Velocity measurement discussion above it. Reserved bottom space avoids a separate figure-only page.
+- Chapter 7 remains 30 pages, book pages 217-246; the previous blank verso is now used by content. Chapter 8 can still start at 247. All 27 images and source text/math preserved; layout and PDF margin checks pass. Rendered revision reviewed; awaiting author review.
+
+
+### 2026-10-17 - Chapter 7 Connections sidebar trial
+- Tried the Section 7.2 Connections box as a 1.7-inch right-floating sidebar below the objectives, with prose wrapping alongside and beneath it. Text size and content unchanged. Narrower and wider trials also did not eliminate the continuation page.
+- The retained trial reduces the spill to four lines on page 219, but Section 7.2 still occupies two pages. Chapter 7 remains pages 217-246. No other layout rules changed. Content, image, math, overflow and PDF margin checks passed; sidebar page and continuation inspected.
+
+### 2026-10-17 - Shorter caption for Figure 7.2.1
+- Shortened the maintained source caption to three panel descriptions, retaining the spring analogy and removing explanations repeated in the prose. Rebuilt web and Chapter 7 PDF.
+- With the Connections sidebar retained, Section 7.2 now fits on page 218. Section 7.3 begins on 219; sources move to 245, with the usual blank verso on 246. Chapter range remains 217-246. Rendered page inspected and layout/content checks passed.
+
+### 2026-10-17 - Chapter 7 accepted and Chapter 8 print proof
+- Author accepted Chapter 7 with the normal full-column Connections box and shortened source caption. Section 7.2 fits page 218; Chapter 7 remains pages 217-246.
+- Prepared Chapter 8: Thermal Physics, starting Unit 3 on page 247. The proof has 62 Letter pages, ending with numbered blank verso 308; Chapter 9 can start at 309. Uses the current objectives, margins, reference/punctuation, heading, list-splitting, and figure-placement conventions.
+- Four wide equations use print-only math sizing (8-9.5pt); source mathematics and prose are unchanged. Existing multiline equations retained. Tall temperature and process diagrams enlarged individually; Otto-cycle and reactor diagrams span columns at intermediate widths. Opener contents use concise labels.
+- All 54 images and 47 sequential exercises retained. Content, math, punctuation, protected-word, heading, objective, equation-label and overflow checks pass. PDF Letter geometry and mirrored margins verified. Page layouts and changed equations/figures visually reviewed. Chapter 8 awaits author review, including print readability of the longest calculation on book page 262.
+
+### 2026-10-17 - Chapter 8 accepted and Chapter 9 print proof
+- Chapter 8 accepted after reducing Figure 8.13.2 to 2.45 inches. Chapter 8 remains pages 247-308.
+- Prepared Chapter 9: Electricity, 56 Letter pages, book pages 309-364, including numbered blank verso 364. Chapter 10 can start at 365. Established layout conventions retained; source text and mathematics unchanged.
+- Two Coulomb-law calculations use 9.5pt and 8.5pt print math. Xerography and parallel-circuit diagrams use intermediate widths across columns; the Van de Graaff diagram is enlarged and several oversized labels reduced through individual image sizing. Tightened paragraph/equation spacing in Example 9.6.3 to avoid a three-line continuation page, retaining body font size.
+- All 50 images and 55 sequential exercises retained. Content, math, punctuation, protected-word, heading, objective, equation-label and overflow checks pass; PDF Letter geometry and mirrored margins verified. Rendered layouts and changed equations/figures inspected. Chapter 9 awaits author review.
+
+### 2026-10-17 - Chapter 9 review revision
+- Started Section 9.2 on page 311; subsequent sections through 9.7 retain their starts. Reduced Figures 9.4.1, 9.5.3, 9.8.1, and 9.11.1; enlarged 9.5.4 to coordinate charge labels. Captions unchanged.
+- Corrected six padded variable tokens and the combined minus-W token in maintained m75427. Audited all ten W occurrences; rebuilt web output with no build issues.
+- Deferred the full-column Misconception box in 9.7 so following prose fills earlier gaps, retaining figure order and no side wrapping. Chapter 9 now has 54 pages, book pages 309-362.
+- All 50 images and 55 sequential exercises retained; layout/content/math checks and PDF margin checks pass. Changed layouts visually inspected. Revised proof awaits author review.
+
+
+### 2026-10-18 - Chapter 9 accepted and Chapter 10 print proof
+- Author accepted the revised Chapter 9, pages 309-362. Prepared Chapter 10: Magnetism, continuing Unit 3 on page 363. The proof has 38 Letter pages through 400, including a numbered blank verso; Chapter 11 can begin on 401.
+- Retained established section starts, objectives placement, mirrored margins, figure placement, and math/punctuation conventions. Existing multiline equations fit without additional math shrinking; source text and mathematics unchanged. Moved the exercise source note into Sources and adaptations to avoid an isolated provenance page.
+- All 45 images and 46 sequential exercises retained. Content, math, punctuation, protected-word, heading, objective, equation-label and overflow checks pass. PDF Letter geometry and mirrored margins verified; rendered page layouts and calculation detail inspected. Chapter 10 awaits author review.
+
+
+### 2026-10-18 - Chapter 10 review revision
+- Started Section 10.2 below the introduction on page 364 and reduced its four figures; the section now ends on 365 and Section 10.3 begins on 366.
+- Reduced Figures 10.12.1-3 for label sizing and Figures 10.E.2-3 to coordinate with 10.E.1. Captions and source content unchanged.
+- Revised proof is 36 pages, book pages 363-398, with no blank final verso. All 45 images and 46 sequential exercises retained; layout, content, math and PDF margin checks pass. Changed figure layouts visually inspected; awaiting author review.
+
+
+### 2026-10-18 - Chapter 10 accepted and Chapter 11 print proof
+- Author accepted Chapter 10, pages 363-398. Prepared Chapter 11: Light, the last chapter of Unit 3, beginning on page 399. The proof has 66 Letter pages through numbered blank verso 464; Chapter 12 can begin on 465.
+- Retained established objectives, margins, heading, list, punctuation, and intro-continuation conventions. Spectrum charts span both columns; selected dense ray diagrams are enlarged and oversized diagram labels reduced with individual print sizing. Two equations use print-only sizing at 8.5pt and 9.5pt. Source text, mathematics, and captions unchanged.
+- All 75 images and 57 sequential exercises retained. Content, math, punctuation, protected-word, heading, objective, equation-label and overflow checks pass; PDF Letter geometry and mirrored margins verified. Rendered page layouts, spectrum charts, and adjusted equations reviewed. Chapter 11 awaits author review.
+
+
+### 2026-10-18 - Chapter 11 review revision
+- Table 11.7.1 now fits one column. Enlarged Figure 11.8.5; reduced Figures 11.9.3 and 11.9.4 with coordinated lens scale. Captions unchanged.
+- Reserved bottom space on page 438 for Table 11.9.1 and reflowed the last lens page, modestly tightening equation/paragraph spacing in Example 11.9.4 while retaining its font sizes. The experiment box also fits, removing the isolated table page.
+- Figure 11.11.6 now spans both columns. Adjusted the polarization float queue and note splitting to retain figure order and let text use available space.
+- Revised proof: 64 pages, book pages 399-462, including numbered blank verso 462. All 75 images and 57 exercises retained. Content, math, layout and PDF margin checks pass; revised tables, diagrams and polarization flow visually reviewed. Awaiting author review.
+
+
+### 2026-10-18 - Chapter 11 second review revision
+- Reduced Figure 11.5.10 and allowed its note to split, keeping the image and caption at the bottom left of page 417. Example 11.7.1 now begins on page 423 before the independently placed table. Shortened the maintained Figure 11.7.3 caption to preserve the lawnmower analogy, bending directions and reversibility without repeating the prose; web build passed (6440 math expressions, no issues). Refraction still ends on 425 with the take-home experiment.
+- Enlarged Figure 11.8.5 to a 5.5-inch height limit and placed the remaining prose at the top of the right column below the table.
+- Reserved the opening polarization page bottom-right for Figure 11.11.3. Stacked Figures 11.11.4 and 11.11.5 at the next page upper-left and reduced Figure 11.11.4. Main narrative flows ahead of the independent atomic-explanation box; its Figures 11.11.9-10 remain with the box, which now follows the main section prose.
+- Revised proof remains 64 pages, book pages 399-462, with numbered blank verso 462. All 75 images and 57 exercises retained. Content, math, layout and PDF margin checks pass; affected layouts visually reviewed. Awaiting author review.
+
+
+### 2026-10-18 - Chapter 11 third review revision
+- Placed Figure 11.7.3 below the one-column refraction table with a 2.4-inch image width limit. All remaining Refraction prose and the take-home experiment now fit on page 424; Section 11.8 begins on 425.
+- Liquid Crystals and Other Polarization Effects in Materials starts on a new page (447), following the figures at its top. The atomic-explanation box starts in the right column of page 448 below Figure 11.11.15 and continues on 449.
+- Revised proof: 62 pages, book pages 399-460. All 75 images and 57 sequential exercises retained. Content, math, layout, Letter geometry and mirrored-margin checks pass; affected layouts visually reviewed. Awaiting author review.
+
+
+### 2026-10-18 - Chapter 11 final polarization revision
+- On page 446 (PDF page 48), reserved the right column below wide Figure 11.11.6 for Figures 11.11.7 and 11.11.8 in that order. Reduced Figure 11.11.7 to a 2.2-inch width limit. Remaining prose and the complete take-home experiment fit on the left; later figures stay on subsequent pages.
+- Full revised chapter remains 62 pages, book pages 399-460. All 75 images and 57 sequential exercises retained. Content, mathematics, layout, page geometry and margin checks passed; revised page and subsequent flow visually reviewed. User requested finalization with this change.
+
+
+### 2026-10-18 - Chapter 11 accepted and Chapter 12 print proof
+- Author accepted Chapter 11, book pages 399-460. Added render-chapter-twelve.cjs and prepared Chapter 12: Quantum Mechanics with the Unit 4 Modern Physics heading on its opener. Proof: 34 Letter pages, book pages 461-494, including numbered blank verso 494; Chapter 13 can begin at 495.
+- Preserved the established duplex margins, objectives, introduction, punctuation, math splitting and review conventions. Blackbody Radiation starts on a fresh page after the two-page introduction. One wide blackbody calculation uses 9.5pt print math. Source text and mathematics unchanged.
+- Enlarged the SEM, Rutherford-scattering, hydrogen-spectrum and matter-wave diagrams across columns at individual widths. Kept figure order while allowing prose to flow beneath wide figures. Adjusted selected Bohr diagrams and the probability-cloud figure; placed the Bohr summary table in one column and slightly tightened paragraph/equation spacing in that section, retaining font sizes and eliminating an isolated final paragraph page.
+- All 29 images and 56 sequential exercises retained. Content, math, punctuation, protected-word, heading, objective, equation-label and overflow checks passed. PDF Letter geometry and mirrored margins verified; page layouts and adjusted figures, table and equations visually reviewed. Chapter 12 awaits author review.
+
+
+### 2026-10-18 - Chapter 12 figure revision and Chapter 13 print proof
+- Rebuilt Chapter 12 with Figures 12.3.4, 12.6.6 and 12.8.2 limited to 2.5-inch widths. Captions unchanged. Pagination remains 34 pages, book pages 461-494, and every section start is unchanged. All 29 images and 56 sequential exercises retained; adjusted pages visually reviewed and full checks passed.
+- Added render-chapter-thirteen.cjs and prepared Chapter 13: Special Relativity, continuing Unit 4 without a repeated unit heading. Proof: 38 Letter pages, book pages 495-532, including numbered blank verso 532. Chapter 14 can begin at 533.
+- Retained established duplex margins, objectives, introduction flow, math/punctuation protection and figure-order conventions. Enlarged the space-time diagram within its column and the light-clock and muon length-contraction diagrams across columns for label readability. Existing multiline mathematics fit without extra print font reductions. Source text and mathematics unchanged.
+- All 24 images and 39 sequential exercises retained. Content, math, punctuation, protected-word, heading, objective, equation-label and overflow checks passed. PDF Letter geometry and mirrored margins verified. Chapter 13 layouts and adjusted diagrams visually reviewed; awaiting author review.
+
+
+### 2026-10-18 - Chapters 12 and 13 accepted; Chapter 14 print proof
+- Author accepted Chapters 12 and 13. Added render-chapter-fourteen.cjs and prepared Chapter 14: Nuclear and Particle Physics, continuing Unit 4. Proof: 76 Letter pages, book pages 533-608, including numbered blank verso 608. Whole-book assembly remains separate.
+- Retained duplex margins, objectives, figure order, review conventions and protected math/punctuation. Enlarged selected nuclear charts and diagrams for readability, used wide figures where needed, and placed compact radiation tables in one column. Adjusted the particle table spacing to retain all notes and modestly tightened Fusion/Fission paragraph spacing.
+- Moved the electron-capture prose qualifier onto its own print line and reduced selected long calculations to fit their columns. Source text and mathematics unchanged.
+- All 59 images and 70 sequential exercises retained. Content, mathematics, punctuation, protected-word, heading, objective, equation-label and overflow checks passed. PDF Letter geometry and mirrored margins verified; rendered layouts and corrected equations visually reviewed. Chapter 14 awaits author review.
+
+
+### 2026-10-18 - Chapter 14 beta-decay figure pairing
+- Scheduled Figure 14.5.5 together with Figure 14.5.4, placing it immediately below that figure in the right column of book page 547. Figure sizes and captions unchanged.
+- Rebuilt proof: 74 pages, book pages 533-606. Content and math checks, PDF margins, and all 70 exercise numbers pass. Paired diagrams visually reviewed; author review continues.
+
+
+### 2026-10-18 - Chapter 14 embedded-figure paragraph repair
+- Fixed print flattening of paragraphs containing figures: the previous child-element traversal discarded plain text nodes while retaining formatted terms. The beta-plus paragraph on page 548 is restored in full. Applied the text-preserving extraction to all such Chapter 14 paragraphs and added an explicit text-integrity assertion before pagination; prior content audits began too late to detect this loss.
+- Rebuilt proof: 76 pages, book pages 533-608. Beta-decay figure pairing retained. Rendered restored paragraph reviewed; content/math checks, PDF margins and all 70 exercise numbers pass.
+
+
+### 2026-10-18 - Whole-book embedded-figure prose audit
+- Audited all 15 chapter print outputs (Chapters 0-14) against current book and review sources. Checked 33 embedded-figure paragraph occurrences and 60 adjacent paragraphs, reassembling split print blocks by audit key to avoid false positives from intervening floats. No additional missing prose found. Only the previously repaired Chapter 14 beta-plus paragraph contains prose outside its embedded figure; all other embedded-figure wrappers contain figures alone.
+- Applied the text-preserving embedded-figure extraction and pre-pagination integrity assertion to all earlier chapter renderers and the Chapter 10 flow-trial renderer. No earlier PDF rebuild was needed: the affected structure has no surrounding prose in those sources, so their existing output is unchanged.
+- Added audit_embedded_figure_prose.py and check-embedded-figure-prose.cjs. Browser regression checks passed for all 16 renderers, each using the 31 current source wrappers plus a two-figure fixture with plain and formatted prose before, between and after the figures. Reports: reports/1.1/embedded-figure-prose-audit.json and embedded-figure-regression.json.
+
+
+### 2026-10-18 - Chapter 14 Example 14.5.2 continuation
+- Allowed the split-point search for Example 14.5.2 to continue beyond a heading candidate that fits geometrically, rather than prematurely treating that heading as the column height limit. The full Solution now follows Strategy and Concept in the left column of page 548; Discussion and Implications begins at the top right.
+- Section 14.5 ends one page earlier, on 549; Section 14.6 begins on 550. Revised chapter: 74 pages, book pages 533-606, with the previously blank final verso no longer needed. Source content unchanged. Rendered example reviewed; content, math, layout, margin and 70-exercise sequence checks pass.
+
+
+### 2026-10-18 - Chapter 14 acute-exposure table placement
+- Floated Table 14.8.3 to the top of the right column on book page 561, above the continuing paragraph. The prose now runs continuously below the table. Content, captions and table dimensions unchanged.
+- Chapter remains 74 pages, book pages 533-606. Content, mathematics and layout checks pass; revised page visually reviewed and PDF margins checked.
+
+
+### 2026-10-18 - Chapter 14 diagnostic-dose table and reaction-energy spacing
+- Moved Table 14.8.5 to the upper-right column of book page 564, allowing Risk versus Benefit to finish uninterrupted on the left.
+- Added a 12pt gap between reaction equations and their separate Q values through the reaction-energy print class, including all ten fusion reactions, repeated review equations and the two matching fission equations. Long pairs can wrap the Q value to a second line without changing mathematics or font sizes.
+- Rebuilt proof remains 74 pages, book pages 533-606. Revised table and fusion pages visually reviewed; content/math, overflow, equation-label, margin and 70-exercise sequence checks pass.
+
+
+### 2026-10-18 - Chapter 14 energy-output chart enlargement
+- Increased Figure 14.11.6's print height limit from 4 to 6.4 inches within its existing column, bringing its internal labels closer to body-text size. Caption unchanged; following prose reflows onto the next page.
+- Chapter remains 74 pages, book pages 533-606. Enlarged chart visually reviewed; content/math/layout checks and affected PDF page margins pass.
+
+
+### 2026-10-18 - Chapter 14 annihilation diagram reduction
+- Limited Figure 14.13.2 to 2.4 inches wide, bringing its internal labels close to body-text size. Caption unchanged. Revised figure on page 583 visually reviewed.
+- Chapter remains 74 pages, book pages 533-606. Content, math and layout checks pass; affected section PDF margins checked.
+
+
+### 2026-10-18 - Chapter 14 particle-table page
+- Reserved book page 584 for Table 14.13.1 and its notes. The short prose continuation previously below the table now starts on page 585, with subsequent text flowing normally.
+- Chapter remains 74 pages, book pages 533-606. Table and following page visually reviewed; content/math/layout checks and affected PDF margins pass.
+
+
+### 2026-10-18 - Chapter 14 revised gluon figure assembly
+- Restored the existing web-layout viewport crop in the Chapter 14 print CSS so Figure 14.14.2 shows only panel (b) of the old image. The old panel (a) is no longer visible; original image pixels remain intact.
+- Reduced replacement panel (a) from 5.8 to 4 inches wide, centered its separate label, and set the cropped panel (b) viewport to 2.6 inches wide. Caption unchanged.
+- Figure assembly on book page 589 visually reviewed. Chapter remains 74 pages, book pages 533-606; content/math/layout checks and affected PDF margins pass.
+
+
+### 2026-10-18 - Chapter 14 final review rebuild
+- Replaced the three mfenced decay-symbol expressions in maintained m76603 with explicit non-stretching parentheses. Grouped the signed +1 in all three matching baryon-number expressions in maintained m42674. Recorded source snapshots and hashes in CH14-INLINE-MATH-SPACING proposals; no values or prose changed.
+- Full course build passed: 6440 math expressions, zero issues. Rebuilt Chapter 14 with all accumulated figure, table, flow, spacing and source corrections: 74 pages, book pages 533-606; 59 images and 70 sequential exercises retained.
+- Full layout/content/math checks, Letter geometry, mirrored PDF margins and exercise sequence passed. Re-ran the whole-book embedded-figure audit: no missing prose in 33 embedded-figure paragraphs or 60 adjacent paragraphs. Corrected source expressions visually reviewed in the final PDF. Delivered for final author acceptance.
+
+
+### 2026-10-18 - Book-wide definition styling and activity-unit source corrections
+- Added bold, upright dfn styling to all chapter print renderers (including the Chapter 10 trial), matching the web treatment. Rebuilt Chapters 0-14 in order; Chapter 0 retains its established v1.1-chapter-0-revised.pdf output. Ordinary emphasis markup remains unchanged.
+- Normalized the Bq definition (body and review) and MBq-to-microcuries conversion in maintained m52471: explicit numbers, upright units including microcurie prefix, consistent number-unit spacing and relation spacing. Saved before/after source snapshots and hashes in CH14-ACTIVITY-UNIT-SPACING-m52471.json. Full course build: 6440 expressions, zero issues.
+- All chapter page counts and section starts remain unchanged. Chapter 14 remains 74 pages, book pages 533-606. All 15 PDFs pass layout, content/math, page geometry, mirrored-margin and exercise-sequence checks. Whole-book embedded-figure audit again passes. Representative term styling and the revised activity expressions visually reviewed; no earlier-chapter author re-review required by these checks.
+- Reports: definition-style-before.json, definition-style-pagination.json and definition-style-pdf-check.json under reports/1.1. Chapter 14 review continues.
+
+
+### 2026-10-18 - Chapter 14 boson-list punctuation spacing
+- Corrected the source MathML comma between W-plus and W-minus from an identifier to a separator with zero leading space and 0.25em trailing space; removed the empty identifier. Saved source snapshots/hashes in CH14-BOSON-LIST-SPACING-m42680.json.
+- Full course build passed with 6440 expressions and zero issues. Rebuilt Chapter 14 remains 74 pages, book pages 533-606. Corrected list on page 588 visually reviewed; content/math/layout checks and affected PDF margins pass.
+
+## October 18, 2026 - Appendix A print proof
+
+- Added `prototype/tools/render-appendix-a.cjs`, using the current maintained Atomic Masses module (m42699) from the full course build.
+- Produced `output/pdf/v1.1-appendix-a.pdf`: six Letter pages, book pages 607-612, following the accepted Chapter 14 pagination.
+- Full-width table repeats its caption/header; all 161 isotope/state rows remain in order and all 110 element groups stay together. No scientific data or source prose changed.
+- Table notes and source attribution remain on the final page. Existing chapter credits and chapter pagination are unchanged.
+- Checked all six rendered pages visually. DOM comparison preserves every table row; cell overflow checks and PDF mirrored-margin checks pass. Reports: `reports/1.1/appendix-a-print/layout.json` and `pdf-check.json`.
+- Status: Appendix A PDF ready for user review; whole-book assembly and remaining appendices are separate work.
+
+## October 18, 2026 - Appendix B print proof
+
+- Appendix A accepted by the user.
+- Added `prototype/tools/render-appendix-b.cjs` using maintained module m42702 from the current full course build.
+- Produced `output/pdf/v1.1-appendix-b.pdf`: content on book pages 613-615, with a blank verso at 616 to keep Appendix C on a recto.
+- Preserved all 70 emission rows for 38 isotopes, all introductory prose, source notes, attribution, and table MathML. Isotope groups stay together and table headers repeat.
+- Visually checked all four pages. Cell overflow, Letter geometry, mirrored margins, source-prose preservation, and table MathML comparisons pass. Reports: `reports/1.1/appendix-b-print/layout.json` and `pdf-check.json`.
+- Ready for user review; earlier PDFs and scientific source data unchanged.
+
+### Appendix B beta-sign correction
+
+- Replaced baseline beta-minus and positron-emission signs in the introductory paragraph with MathML superscripts in maintained module m42702. Source snapshot and hashes: `reports/1.1/appendix-b-print/beta-signs-source.json`.
+- Full course build passed (6,442 expressions, no issues); rebuilt Appendix B and visually verified the corrected first page. Pagination and row distribution unchanged: pages 613-616, 70 rows in 38 intact groups.
+
+## October 18, 2026 - Appendix C print proof
+
+- Appendix B accepted by the user after the beta-sign correction.
+- Added `prototype/tools/render-appendix-c.cjs`, using maintained module m78798 from the current full course build.
+- Produced `output/pdf/v1.1-appendix-c.pdf`: content on book pages 617-621, blank verso at 622. All nine reference tables remain intact; Useful Formulae and source attribution share the final content page.
+- Preserved all 98 table body rows, all source prose, notes, and MathML. No scientific source edits.
+- Visually reviewed the rendered layout; cell-overflow, source-content, MathML, Letter geometry, and mirrored-margin checks pass. Reports: `reports/1.1/appendix-c-print/layout.json` and `pdf-check.json`.
+- Ready for user review. Earlier PDF pagination remains unchanged.
+
+## October 18, 2026 - Appendix D print proof
+
+- Appendix C accepted by the user.
+- Added `prototype/tools/render-appendix-d.cjs`, using maintained symbol glossary module m42709 from the current full course build.
+- Produced `output/pdf/v1.1-appendix-d.pdf`: content on book pages 623-631, blank verso at 632. Repeated column headers; all 273 entries remain intact and in source order. Source credits fit on the final content page.
+- Preserved table content, MathML, introductory prose, and attribution. No scientific source edits.
+- Visually checked all ten pages; cell overflow, source preservation, MathML, Letter geometry, and mirrored-margin checks pass. Reports: `reports/1.1/appendix-d-print/layout.json` and `pdf-check.json`.
+- Ready for user review; earlier PDF pagination unchanged.
+
+## October 18, 2026 - Subject index print proof
+
+- Appendix D accepted by the user.
+- Built `output/pdf/v1.1-index.pdf`: eight pages, book pages 633-640. Earlier accepted PDFs are unchanged.
+- Index contains 624 alphabetized entries: marked key terms, all 498 unique chapter glossary terms, major section topics, appendix reference tables, and 16 explicit see cross-references. Straightforward variants are consolidated through the reviewable `prototype/tools/print-index-editorial.json` mapping. Definitions themselves are not repeated.
+- Page references derive from accepted explicit-page print HTML, with matching folios and PDF page counts checked across all 632 source pages. Every source term/reference string was independently found on its assigned PDF page; zero unresolved glossary terms or page-text mismatches.
+- Standalone page links use relative PDF GoToR destinations to the adjacent chapter/appendix files. Keep those files together to use the links. The whole-book assembly must convert these to internal destinations using `reports/1.1/index-print/link-manifest.json`; it must also adjust the index's standalone-specific introductory sentence. This is not yet a whole-book assembly.
+- Tools: `build-print-index.py`, `render-print-index.cjs`, `link-print-index.py`, `check-print-index.py` in `prototype/tools/`.
+- Visually reviewed all eight pages. Verified all 624 rendered entries, 1,109 page-link destinations, 18 internal cross-reference annotation rectangles (16 cross-references, two wrapped), mirrored margins, and Letter geometry. Evidence in `reports/1.1/index-print/`.
+- Ready for user review. Next end-matter item remains book-wide licensing/attribution; retain existing chapter credits as agreed.
+
+## October 18, 2026 - Book-wide licensing and attribution proof
+
+- Index accepted by the user.
+- Added `prototype/print-content/book-wide-licensing.html` and `prototype/tools/render-book-licensing.cjs`; produced `output/pdf/v1.1-licensing-attribution.pdf`, book pages 641-642.
+- Explicit copyright notice: Copyright 2018-2026 Andrew Park, covering the collection and original adaptations and revisions; upstream copyright notices retained. Book-wide CC BY 4.0 statement, reuse summary, suggested attribution, item-specific credit guidance, and source/adaptation history included.
+- User clarified that omitting self-credit concerns item-level credit such as images, not book-wide authorship/copyright. Updated the scope and authorization text in `metadata/public-attribution.json`; retained its existing item-level omission list. Do not omit Andrew Park from book-wide copyright or adaptation attribution.
+- Sources: current preface, public-attribution metadata, publication policy, license-source audit, and pinned CC BY reference documentation. License summary checked against the official CC BY 4.0 deed. No blanket claim is made about differently licensed individual items.
+- Existing chapter and appendix credits and pagination unchanged. Source history includes OpenStax/Rice University, Bobby Bailey, James Rittenbach, Andrew Park, and the credited University Physics Carnot passage.
+- Both pages visually reviewed; source-to-PDF text, mirrored margins, and six link annotations pass. Reports in `reports/1.1/book-licensing-print/`. Ready for user review; full-book assembly remains pending.
+
+## October 18, 2026 - Copyright page proof
+
+- Added `prototype/print-content/copyright-page.html` and `prototype/tools/render-copyright-page.cjs`; generated `output/pdf/v1.1-copyright-page.pdf`.
+- One page, designed for the verso after the existing title page, without a visible folio. Final front-matter numbering is deferred to assembly.
+- Reuses the approved 2018-2026 Andrew Park copyright assertion, CC BY 4.0 statement, and upstream attribution; includes website/repository links and a reference to detailed licensing on book pages 641-642.
+- Existing cover/title PDF, approved chapters, appendices, index, and end-matter pagination unchanged.
+- Rendered and visually checked. Full source text, Letter geometry, verso margins, and three link annotations pass; evidence in `reports/1.1/copyright-page-print/`. Ready for user review.
+
+## October 18, 2026 - Contents and preface proof
+
+- Copyright page accepted. User authorized laying out TOC and preface together and iterating their Roman pagination.
+- Produced `output/pdf/v1.1-toc-and-preface.pdf`: eight pages, TOC iii-viii and preface ix-x. Title and copyright count as i-ii with suppressed folios; cover excluded. Body remains Arabic 1-642.
+- Preface uses maintained m67030 wording unchanged: Version 1.1 introduction on ix; historical prefaces, About OpenStax College, and source credit together on x. Historical page uses 10-point text to retain the credits on the same page.
+- TOC includes all 15 chapters, 166 section/review/credit rows, appendices A-D, index, and licensing. Units preserved. All 166 section titles verified against their target PDF pages. Pagination stabilized after two passes.
+- Tools: `build-front-matter-data.py`, `render-front-matter.cjs`, `link-front-matter.py`, and `check-front-matter.py` in `prototype/tools/`.
+- Verified 187 body-page link annotations, five internal preface links, nine external links, full source-text preservation, Letter geometry, and mirrored margins. All eight pages visually reviewed; reports in `reports/1.1/front-matter-print/`.
+- Standalone proof links to adjacent PDFs. Assembly must convert GoToR actions to internal destinations using `link-manifest.json` and retain internal preface destinations. Full-book assembly is still pending; no accepted PDF components were changed.
+- Ready for user review.
+
+### Preface section links for whole-book assembly
+
+- User confirmed that the five section titles in the Version 1.1 preface must become internal full-book links.
+- Verified source anchors: Einstein's Postulate `#m42528` -> body page 496; Biological Effects of Ionizing Radiation `#m68327` -> 559; Uncertainty Principle `#m67804` -> 472; Statistical Interpretation of Entropy `#m42238` -> 294; GUTs: The Unification of Forces `#m42680` -> 588.
+- These fragment targets are outside the standalone TOC/preface document, so Chrome omits their PDF annotations. During assembly, explicitly create their internal link annotations from the preface DOM link rectangles (or render them first as resolvable body placeholders and remap). Converting existing GoToR links alone is insufficient. Verify all five in the assembled PDF.
+
+## October 18, 2026 - Complete book review PDF
+
+- User approved the contents and preface and authorized full-book assembly.
+- Produced `output/pdf/v1.1-complete-book.pdf`: 654 physical pages, including cover and blank cover verso, Roman i-x, and Arabic 1-642. Title/copyright folios remain suppressed. The blank cover verso preserves recto/verso parity.
+- Added 202 hierarchical bookmarks and 2,615 internal link annotations (2,455 logical source links), including contents, index, cross-chapter references, and all five requested preface section links. Retained 775 external link annotations. No unresolved source links or remote-PDF actions remain.
+- Approved chapter and appendix PDFs were reused. All 653 imported pages retain identical content streams and extracted text to their assembly components; the additional page is blank. The assembled index alone uses a revised introductory sentence describing within-book navigation, with unchanged pagination.
+- Reopened the saved PDF and verified all link and bookmark destinations and Roman/Arabic page labels. Rendered and visually checked cover/title, copyright, TOC, both preface pages, body opening, index opening, and both licensing pages.
+- Assembly tools: `prepare-book-assembly.py`, `extract-book-links.cjs`, and `assemble-full-book.py`. `render-print-index.cjs` supports a separate BOOK_ASSEMBLY variant without replacing the approved standalone index.
+- Evidence: `reports/1.1/full-book/components.json`, `assembly-check.json`, `saved-pdf-check.json`, DOM link geometry, and rendered review samples. Full-book proof is ready for user review; no publication or commit performed.
+
+## October 18, 2026 - Screen-optimized complete PDF
+
+- User approved the complete book and requested a separate smaller PDF suitable for screen reading through 200% zoom, retaining the original.
+- Created `output/pdf/v1.1-complete-book-screen.pdf`: 68,732,028 bytes (68.7 MB), down from 123,666,314 bytes (123.7 MB), a 44.4% reduction. The full-resolution original is unchanged (SHA-256 verified).
+- Conservative image-only optimization: preserve every image's pixel dimensions; use lossless PNG prediction or high-quality JPEG without chroma subsampling when smaller. Strict decoded-pixel error bounds for diagrams and mixed figures; separately reviewed photographic images use a photographic threshold. Keep original image streams when candidates do not qualify. No downsampling, text rasterization, repagination, or source edits.
+- Text/vector page content streams, all link annotations, bookmark hierarchy, page labels and page geometry match the original across all 654 pages.
+- Rendered 12 representative/worst-error/large-savings sample pages at 192 dpi (200% at 96-dpi screen scale) and visually compared image crops, including fine lines, small labels, photos, quantum orbit diagrams and the gluon figure. No conspicuous additional loss observed in these samples; ready for user review.
+- Tools: `prototype/tools/optimize-screen-pdf.py`, `prototype/tools/check-screen-pdf.py`. Evidence and comparisons: `reports/1.1/screen-pdf/`. This remains a review candidate, not a published replacement.

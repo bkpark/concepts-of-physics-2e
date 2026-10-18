@@ -763,3 +763,6 @@ math menclose[notation="updiagonalstrike"]{background-image:linear-gradient(to b
 
 /* Tangential acceleration: match the following acceleration-vector diagram. */
 @media screen{#m71592--696d706f72742d6175746f2d696431343439383534 img{width:200px;max-width:100%!important;max-height:none;height:auto;}}
+
+/* Cross-reference labels travel with their numbers. */
+.reference-label { white-space: nowrap; }

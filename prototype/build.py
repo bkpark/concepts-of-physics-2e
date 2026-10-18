@@ -30,7 +30,7 @@ registry={s['module_id']:s for s in sections}
 if FULL:IDS=list(registry)
 SCOPE=f'{len(IDS)}-module review build'
 PUBLIC_NUMBERING='Lecture-aligned numbering (July 2026)' if PROFILE=='course' else 'CNX numbering'
-NUMBERING_NOTE='This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF, except that the appendices use the original CNX letters A–D. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.'
+NUMBERING_NOTE='This edition uses the LibreTexts chapter and section numbering preserved in the July 7, 2026 course PDF, except that the appendices use the original CNX letters Aâ€“D. It matches the numbering called &ldquo;new LibreTexts chapter and section numbers&rdquo; in the recorded lectures for Physics 10 at College of Alameda. LibreTexts subsequently changed its numbering on September 17, 2026, so its current numbering may differ.'
 attributions={a['module_id']:a for a in load('references/cnx-12.1-module-attributions.json')['modules']}
 roots={s['module_id']:ET.parse(ROOT/s['source']).getroot() for s in sections}
 parents={mid:{child:parent for parent in r.iter() for child in parent} for mid,r in roots.items()}
@@ -129,7 +129,9 @@ class Renderer:
         if tag=='link':
             doc=e.get('document',mid); target=e.get('target-id'); url=e.get('url'); obj=objects.get((doc,target),{})
             body=self.content(e) or (f'{obj.get("kind","reference").title()} {obj.get("label") or ""}'.strip())
-            if url:return f'<a href="{esc(url)}">{body}</a>'
+            # Keep each cross-reference label and number together in every output.
+            body=re.sub(r'\b(Figure|Table|Equation|Section|Chapter|Example|Exercise|Appendix|Fig\.)\s+([A-Z]?(?:\d+(?:\.\d+)*|[A-Z])\b)', r'<span class="reference-label">\1&#160;\2</span>', body)
+            if url:return f'<a{aid} href="{esc(url)}">{body}</a>'
             if doc not in IDS or (target and not obj):
                 if not self.book and not self.projection:issues.append({'kind':('reference-outside-book' if FULL else 'reference-outside-prototype') if doc not in IDS else 'source-reference-unresolved','module':mid,'document':doc,'target':target})
                 reason=('outside recovered book' if FULL else 'outside preview') if doc not in IDS else 'source target unresolved'
@@ -142,7 +144,7 @@ class Renderer:
                 while chain[-1] in parents[doc]:chain.append(parents[doc][chain[-1]])
                 is_collected=doc in review_modules and any(local(x)=='glossary' or set(x.get('class','').split()).intersection(('section-summary','conceptual-questions','problems-exercises')) for x in chain)
                 href=('../../exercises/'+review_modules[doc] if is_collected else '../../sections/'+registry[doc]['candidate_slug'])+'/index.html#'+frag
-            return f'<a href="{href}">{body}</a>'
+            return f'<a{aid} href="{href}">{body}</a>'
         if tag=='image':
             src=(ROOT/registry[mid]['source']).parent/e.get('src'); dest=OUT/'media'/src.name;dest.parent.mkdir(parents=True,exist_ok=True)
             shutil.copyfile(src,dest)
@@ -251,13 +253,13 @@ class Renderer:
 from search_index import build_search_index, SEARCH_BODY
 
 def page(title,body,prefix='',website=True):
-    site_links=('<a href="'+prefix+'index.html">Introduction to Physics · Home</a> · <a href="'+prefix+'contents/index.html">Full contents</a>') if FULL and website else ''
+    site_links=('<a href="'+prefix+'index.html">Introduction to Physics Â· Home</a> Â· <a href="'+prefix+'contents/index.html">Full contents</a>') if FULL and website else ''
     if FULL and website:
-        site_links += ' · <a href="'+prefix+'search/index.html">Search</a>'
+        site_links += ' Â· <a href="'+prefix+'search/index.html">Search</a>'
     if RELEASE:
         canonical=release['public_origin']+'/'
-        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' — sample','').replace(' — prototype',''))+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><link rel="icon" type="image/svg+xml" href="'+prefix+'favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="'+prefix+'favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="'+prefix+'favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="'+prefix+'apple-touch-icon.png"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Contents</a>')+' · <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><link rel="icon" type="image/svg+xml" href="'+prefix+'favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="'+prefix+'favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="'+prefix+'favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="'+prefix+'apple-touch-icon.png"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics · Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
+        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="book-release" content="'+esc(release['release_id'])+'"><title>'+esc(title.replace(' â€” sample','').replace(' â€” prototype',''))+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><link rel="icon" type="image/svg+xml" href="'+prefix+'favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="'+prefix+'favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="'+prefix+'favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="'+prefix+'apple-touch-icon.png"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav aria-label="Book navigation">'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics Â· Contents</a>')+' Â· <a href="'+prefix+release['pdf_filename']+'">Download PDF</a></nav><main>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><script src="'+prefix+'theme.js"></script><link rel="stylesheet" href="'+prefix+'style.css"><link rel="icon" type="image/svg+xml" href="'+prefix+'favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="'+prefix+'favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="'+prefix+'favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="'+prefix+'apple-touch-icon.png"><script defer src="'+prefix+'copy-math.js"></script></head><body><nav>'+(site_links or '<a href="'+prefix+'index.html">Introduction to Physics Â· Fidelity prototype</a>')+'</nav><div class="prototype-notice">'+esc(SCOPE)+'. Section labels follow the selected reference; object numbers are experimental. Highlighted expressions need review.</div><main>'+body+'</main></body></html>'
 
 OUT.mkdir(parents=True,exist_ok=True);shutil.copyfile(P/'style.css',OUT/'style.css');shutil.copyfile(P/'copy-math.js',OUT/'copy-math.js');shutil.copyfile(P/'theme.js',OUT/'theme.js')
 for icon in ('favicon.svg','favicon.ico','favicon-16.png','favicon-32.png','apple-touch-icon.png'):
@@ -309,7 +311,7 @@ if FULL and PROFILE=='course':
         if view['chapter_label'] in review_chapters:
             collected=[b for b in chapter_relocated if b['review_slug']==view['slug']]
             chapter_title=view['title'].removesuffix(' (Exercise)').removesuffix(' (Exercises)')
-            body='<h1>Chapter '+esc(view['chapter_label'])+': '+esc(chapter_title)+' — Review and Exercises</h1><nav aria-label="Chapter review"><a href="#glossary">Glossary</a> · <a href="#summary">Section Summary</a> · <a href="#questions">Questions and Exercises</a></nav>'
+            body='<h1>Chapter '+esc(view['chapter_label'])+': '+esc(chapter_title)+' â€” Review and Exercises</h1><nav aria-label="Chapter review"><a href="#glossary">Glossary</a> Â· <a href="#summary">Section Summary</a> Â· <a href="#questions">Questions and Exercises</a></nav>'
             body+='<section id="glossary"><h2>Glossary</h2>'
             terms=[p for b in collected if b['kind']=='glossary' for p in b['parts']]
             # Approved merger: retain both source anchors for the shared gluon definition.
@@ -335,7 +337,7 @@ if FULL and PROFILE=='course':
             body+='<p>Source sections: '+', '.join('<a href="../../sections/'+registry[mid]['candidate_slug']+'/index.html">'+esc(registry[mid]['title'])+'</a>' for mid in dict.fromkeys(b['module'] for b in collected))+'. Credits and licenses appear with each source section.</p>'
         body=body.replace('</h1>', '</h1>'+nav.review_navigation(view['chapter_label']), 1)
         body=nav.previous_next('exercises:'+view['slug'],'top')+body+nav.previous_next('exercises:'+view['slug'],'bottom')
-        page_title = ('Chapter ' + view['chapter_label'] + ': ' + view['title'].removesuffix(' (Exercise)').removesuffix(' (Exercises)') + ' — Review and Exercises') if view['chapter_label'] in review_chapters else view['title']
+        page_title = ('Chapter ' + view['chapter_label'] + ': ' + view['title'].removesuffix(' (Exercise)').removesuffix(' (Exercises)') + ' â€” Review and Exercises') if view['chapter_label'] in review_chapters else view['title']
         (target/'index.html').write_text(page(page_title,body,'../../'),encoding='utf-8',newline='\n')
         exercise_manifest.append({**view,'blocks':blocks})
     dump(OUT/'exercise-views.json',exercise_manifest)
@@ -344,13 +346,13 @@ intro='<header><p class="eyebrow">'+esc(PUBLIC_NUMBERING)+'</p><h1>Introduction 
 intro+=nav.overview() if FULL else '<ul>'+''.join('<li>'+nav.link(registry[m])+'</li>' for m in IDS)+'</ul>'
 if FULL:
     contents=OUT/'contents';contents.mkdir(exist_ok=True)
-    (contents/'index.html').write_text(page('Full table of contents — Introduction to Physics','<h1>Full table of contents</h1>'+nav.overview(full=True,prefix='../'),'../'),encoding='utf-8',newline='\n')
+    (contents/'index.html').write_text(page('Full table of contents â€” Introduction to Physics','<h1>Full table of contents</h1>'+nav.overview(full=True,prefix='../'),'../'),encoding='utf-8',newline='\n')
 if not RELEASE:intro+='<p>Historical source remains unchanged. Math source XML and issue logs are included beside the build. The other numbering profile uses exactly the same section paths and anchors.</p>'
-if not RELEASE:intro+='<p><a href="review.html">Review flagged expressions and references</a> · <a href="book.html">Complete printable sample</a></p>'
-(OUT/'index.html').write_text(page('Introduction to Physics — prototype',intro),encoding='utf-8',newline='\n')
-(OUT/'book.html').write_text(page('Introduction to Physics — sample', '<div class="cover"><h1>Introduction to Physics</h1><h2>Fidelity prototype</h2><p>'+esc(str(len(IDS)))+' modules · '+PROFILE+' profile</p><p>Provisional object numbering. Not a student edition.</p><p>Adaptation by Andrew Park; underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits are retained.</p></div>'+''.join(book),website=False),encoding='utf-8',newline='\n')
+if not RELEASE:intro+='<p><a href="review.html">Review flagged expressions and references</a> Â· <a href="book.html">Complete printable sample</a></p>'
+(OUT/'index.html').write_text(page('Introduction to Physics â€” prototype',intro),encoding='utf-8',newline='\n')
+(OUT/'book.html').write_text(page('Introduction to Physics â€” sample', '<div class="cover"><h1>Introduction to Physics</h1><h2>Fidelity prototype</h2><p>'+esc(str(len(IDS)))+' modules Â· '+PROFILE+' profile</p><p>Provisional object numbering. Not a student edition.</p><p>Adaptation by Andrew Park; underlying content by Bobby Bailey, Andrew Park, OpenStax and James Rittenbach. Historical collection: CC BY 4.0. Original figure credits are retained.</p></div>'+''.join(book),website=False),encoding='utf-8',newline='\n')
 dump(OUT/'object-labels.json',{m+'#'+ident:obj for (m,ident),obj in objects.items() if m in IDS});dump(OUT/'math-source.json',math_sources);dump(OUT/'issues.json',issues);dump(OUT/'adaptations.json',adaptations)
-review='<h1>Fidelity review</h1><p>The maintained source includes approved repairs R1–R4. Any remaining findings are listed below.</p>'
+review='<h1>Fidelity review</h1><p>The maintained source includes approved repairs R1â€“R4. Any remaining findings are listed below.</p>'
 for item in issues:
     review+='<section><h2>'+esc(item.get('key',item['module']))+'</h2><p>'+esc(item.get('detail',str(item)))+'</p>'
     if item.get('key'):
@@ -364,7 +366,7 @@ print(json.dumps({'profile':PROFILE,'math':len(math_sources),'issues':dict(colle
 
 if FULL:
     search_dir=OUT/'search';search_dir.mkdir(exist_ok=True)
-    (search_dir/'index.html').write_text(page('Search — Introduction to Physics', SEARCH_BODY, '../'),encoding='utf-8',newline='\n')
+    (search_dir/'index.html').write_text(page('Search â€” Introduction to Physics', SEARCH_BODY, '../'),encoding='utf-8',newline='\n')
     shutil.copyfile(P/'search.js',OUT/'search.js')
     print(json.dumps({'search_passages':build_search_index(OUT)}))
     from chapter_permalinks import apply_chapter_permalinks

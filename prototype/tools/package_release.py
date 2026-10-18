@@ -6,8 +6,11 @@ from urllib.parse import urlsplit,unquote
 root=Path(__file__).resolve().parents[2];rel=json.loads((root/'metadata/release.json').read_text(encoding='utf-8'))
 if rel.get('artifacts_frozen'):raise SystemExit('Release artifacts are frozen. Prepare a new release ID before packaging.')
 base=root/'output/releases'/rel['release_id'];src=base/'site';public=base/'public';public.mkdir(exist_ok=True)
-allowed=['index.html','style.css','copy-math.js']
-allowed += [p.relative_to(src).as_posix() for folder in ('sections','exercises','media','source','contents') for p in (src/folder).rglob('*') if p.is_file()]
+allowed=['index.html','style.css','copy-math.js','theme.js','search.js','search-index.json','numbering-data.js','numbering-toggle.js','favicon.svg','favicon.ico','favicon-16.png','favicon-32.png','apple-touch-icon.png']
+allowed += [p.relative_to(src).as_posix() for folder in ('sections','exercises','media','source','contents','chapters','search') for p in (src/folder).rglob('*') if p.is_file()]
+expected=set(allowed+[rel['pdf_filename'],'robots.txt','release.json'])
+stale=[p for p in public.rglob('*') if p.is_file() and p.relative_to(public).as_posix() not in expected]
+if stale:raise SystemExit('Unexpected files in public staging: '+str(stale))
 for name in allowed:
  p=src/name;target=public/name;target.parent.mkdir(parents=True,exist_ok=True)
  if p.suffix=='.html':
@@ -25,14 +28,15 @@ robot_policy=RobotFileParser();robot_policy.parse(robots.splitlines())
 assert not robot_policy.can_fetch('ExampleCrawler',rel['public_origin']+'/'+rel['pdf_filename'])
 assert robot_policy.can_fetch('ExampleCrawler',rel['public_origin']+'/sections/gravitation/')
 (base/'UPLOAD-INSTRUCTIONS.txt').write_text(
- 'Introduction to Physics — '+rel['release_id']+'\n\n'
- 'Extract '+rel['site_archive_filename']+' directly into the webroot for intro.coaphys.xyz.\n'
+ 'Introduction to Physics â€” '+rel['release_id']+'\n\n'
+ 'Extract '+rel['site_archive_filename']+' directly into the webroot for '+rel['public_origin']+'.\n'
  'Alternatively, extract locally and upload all extracted files and folders, keeping their structure.\n'
  'index.html and robots.txt must be directly in the webroot, not inside a release folder.\n'
  'The ZIP itself and this instruction file do not need to be uploaded.\n\n'
  'This is a static site: no PHP, build tools, database, URL rewrites, or custom .htaccess are required.\n'
  'Standard Apache DirectoryIndex index.html and PDF MIME handling are sufficient.\n'
- 'Download PDF in the navigation, including on the home page, links to '+rel['pdf_filename']+'.\n\n'
+ 'Download PDF links to the approved screen-optimized '+rel['pdf_filename']+'.\n'
+ 'The print-quality PDF is a GitHub-release-only asset. Do not upload it to the webroot.\n\n'
  'After uploading, check:\n'
  '  '+rel['public_origin']+'/\n'
  '  '+rel['public_origin']+'/contents/\n'
@@ -72,6 +76,6 @@ with zipfile.ZipFile(base/rel['site_archive_filename'],'w',zipfile.ZIP_DEFLATED)
   if p.is_file():
    info=zipfile.ZipInfo(p.relative_to(public).as_posix(),date_time=(1980,1,1,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,p.read_bytes())
  info=zipfile.ZipInfo('artifact-manifest.json',date_time=(1980,1,1,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,(base/'artifact-manifest.json').read_bytes())
-(root/'reports/release-package-validation.json').write_text(json.dumps({k:v for k,v in manifest.items() if k!='files'},indent=2)+'\n',encoding='utf-8',newline='\n')
-(base/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256((base/name).read_bytes()).hexdigest()+'  '+name+'\n' for name in [rel['pdf_filename'],rel['site_archive_filename'],'artifact-manifest.json']),encoding='utf-8',newline='\n')
+(base/'package-validation.json').write_text(json.dumps({k:v for k,v in manifest.items() if k!='files'},indent=2)+'\n',encoding='utf-8',newline='\n')
+(base/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256((base/name).read_bytes()).hexdigest()+'  '+name+'\n' for name in [rel['pdf_filename'],rel['print_pdf_filename'],rel['site_archive_filename'],'artifact-manifest.json']),encoding='utf-8',newline='\n')
 print(json.dumps({'pages':len(pages),'links':checked,'pdf':str(base/rel['pdf_filename']),'archive':str(base/rel['site_archive_filename'])}))

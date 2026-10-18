@@ -1,0 +1,945 @@
+{
+  "parts": [
+    {
+      "key": "cover",
+      "pdf": "output/pdf/v1.1-cover-and-title-page.pdf",
+      "select": [
+        0
+      ],
+      "pages": 1,
+      "offset": 0,
+      "sha256": "ff461ca159c42105a2163eb977ab17b68a12369a450460992caaefeab51e107b"
+    },
+    {
+      "key": "cover-verso",
+      "pages": 1,
+      "offset": 1
+    },
+    {
+      "key": "title",
+      "pdf": "output/pdf/v1.1-cover-and-title-page.pdf",
+      "select": [
+        1
+      ],
+      "pages": 1,
+      "offset": 2,
+      "sha256": "ff461ca159c42105a2163eb977ab17b68a12369a450460992caaefeab51e107b"
+    },
+    {
+      "key": "copyright",
+      "pdf": "output/pdf/v1.1-copyright-page.pdf",
+      "html": "copyright-page-print.html",
+      "pages": 1,
+      "offset": 3,
+      "sha256": "358d72518ebd93d92146eb8d123df42ccc1203d9f57f77bd240dc91757b4cd68"
+    },
+    {
+      "key": "front",
+      "pdf": "output/pdf/v1.1-toc-and-preface.pdf",
+      "html": "toc-preface-print.html",
+      "pages": 8,
+      "offset": 4,
+      "sha256": "e8309b620e5a77139455c8cfdc5cc1dfd74ed42cef9f1de37bb22c62f6c7c81f"
+    },
+    {
+      "key": "chapter-0",
+      "pdf": "output/pdf/v1.1-chapter-0-revised.pdf",
+      "html": "chapter-zero-print.html",
+      "pages": 18,
+      "startPage": 1,
+      "offset": 12,
+      "sha256": "4a9e9bc4df73c75fea202624b10dc0cc21f2c352979ea811e8151d0889cb3d16"
+    },
+    {
+      "key": "chapter-1",
+      "pdf": "output/pdf/v1.1-chapter-1.pdf",
+      "html": "chapter-one-print.html",
+      "pages": 42,
+      "startPage": 19,
+      "offset": 30,
+      "sha256": "45db8acb7b578a42450563dcf976d9dce7ee45449daa675f8f4b64cb5527d416"
+    },
+    {
+      "key": "chapter-2",
+      "pdf": "output/pdf/v1.1-chapter-2.pdf",
+      "html": "chapter-two-print.html",
+      "pages": 44,
+      "startPage": 61,
+      "offset": 72,
+      "sha256": "12b07e82f6240491d8d38f4a6b682e10a978d0b82aaf4386cc398bbeea53186e"
+    },
+    {
+      "key": "chapter-3",
+      "pdf": "output/pdf/v1.1-chapter-3.pdf",
+      "html": "chapter-three-print.html",
+      "pages": 28,
+      "startPage": 105,
+      "offset": 116,
+      "sha256": "ce0942404fab12dc770783b1dc19066cbbceb0c88a68d2595d9d889209efc112"
+    },
+    {
+      "key": "chapter-4",
+      "pdf": "output/pdf/v1.1-chapter-4.pdf",
+      "html": "chapter-four-print.html",
+      "pages": 20,
+      "startPage": 133,
+      "offset": 144,
+      "sha256": "d0be16c8477b713eab36f520441cdbf2107db3e4d031c69f02da7fcb1995679c"
+    },
+    {
+      "key": "chapter-5",
+      "pdf": "output/pdf/v1.1-chapter-5.pdf",
+      "html": "chapter-five-print.html",
+      "pages": 36,
+      "startPage": 153,
+      "offset": 164,
+      "sha256": "0a45098c5005883f8e9fa36b9c1b969b5daca2415cda1bf6f7a9f58346d2b9e2"
+    },
+    {
+      "key": "chapter-6",
+      "pdf": "output/pdf/v1.1-chapter-6.pdf",
+      "html": "chapter-six-print.html",
+      "pages": 28,
+      "startPage": 189,
+      "offset": 200,
+      "sha256": "e1ceea1c13be9c4a34014865d73d0d360f10e136485d39aa727f18d3f68785c3"
+    },
+    {
+      "key": "chapter-7",
+      "pdf": "output/pdf/v1.1-chapter-7.pdf",
+      "html": "chapter-seven-print.html",
+      "pages": 30,
+      "startPage": 217,
+      "offset": 228,
+      "sha256": "ebc8f56f9b7b3f33e92affd7497e254bff8279e14f3c891fdad4da4365d589aa"
+    },
+    {
+      "key": "chapter-8",
+      "pdf": "output/pdf/v1.1-chapter-8.pdf",
+      "html": "chapter-eight-print.html",
+      "pages": 62,
+      "startPage": 247,
+      "offset": 258,
+      "sha256": "a5cf918a32ec1e7ec80d5d770afbd769d081c2dc477089499ebe3d13bc7f7b15"
+    },
+    {
+      "key": "chapter-9",
+      "pdf": "output/pdf/v1.1-chapter-9.pdf",
+      "html": "chapter-nine-print.html",
+      "pages": 54,
+      "startPage": 309,
+      "offset": 320,
+      "sha256": "93039cf3666dd09d630662639fb401b5e6a108ab366408feddcdcdfee0c0e11e"
+    },
+    {
+      "key": "chapter-10",
+      "pdf": "output/pdf/v1.1-chapter-10.pdf",
+      "html": "chapter-ten-print.html",
+      "pages": 36,
+      "startPage": 363,
+      "offset": 374,
+      "sha256": "723f8c906d960eb819de94621f975cf12387f7653dadd5b7984222ad845f4cc3"
+    },
+    {
+      "key": "chapter-11",
+      "pdf": "output/pdf/v1.1-chapter-11.pdf",
+      "html": "chapter-eleven-print.html",
+      "pages": 62,
+      "startPage": 399,
+      "offset": 410,
+      "sha256": "ecff851405ee65952bd34151618017abc22e0b851ed455688258389338adbd4e"
+    },
+    {
+      "key": "chapter-12",
+      "pdf": "output/pdf/v1.1-chapter-12.pdf",
+      "html": "chapter-twelve-print.html",
+      "pages": 34,
+      "startPage": 461,
+      "offset": 472,
+      "sha256": "f58b60f6b08cd30ff4db57590e41e77edc994f236798d8cfc009890e1c9d68b0"
+    },
+    {
+      "key": "chapter-13",
+      "pdf": "output/pdf/v1.1-chapter-13.pdf",
+      "html": "chapter-thirteen-print.html",
+      "pages": 38,
+      "startPage": 495,
+      "offset": 506,
+      "sha256": "2374ed7e8086cfd7b23e41b91a9946213dadb06eea21cf6d48dc9300b22475ac"
+    },
+    {
+      "key": "chapter-14",
+      "pdf": "output/pdf/v1.1-chapter-14.pdf",
+      "html": "chapter-fourteen-print.html",
+      "pages": 74,
+      "startPage": 533,
+      "offset": 544,
+      "sha256": "bb6df61168a8376ff20da72dda560bc40fb146bdcc58b5589d0299111385663d"
+    },
+    {
+      "key": "appendix-a",
+      "pdf": "output/pdf/v1.1-appendix-a.pdf",
+      "html": "appendix-a-print.html",
+      "pages": 6,
+      "startPage": 607,
+      "offset": 618,
+      "sha256": "85325c972474ec10b499fa86db1a691a2b178abc0b2166b3eee49f5cf9c73838"
+    },
+    {
+      "key": "appendix-b",
+      "pdf": "output/pdf/v1.1-appendix-b.pdf",
+      "html": "appendix-b-print.html",
+      "pages": 4,
+      "startPage": 613,
+      "offset": 624,
+      "sha256": "420776d4b2eedeb38f73328678d6ca010dc6a94baa882c5f7c6f0262c41c8766"
+    },
+    {
+      "key": "appendix-c",
+      "pdf": "output/pdf/v1.1-appendix-c.pdf",
+      "html": "appendix-c-print.html",
+      "pages": 6,
+      "startPage": 617,
+      "offset": 628,
+      "sha256": "a6155fa504876a5b690c6a665c092bef5ce28768db8a413e96f465227f497432"
+    },
+    {
+      "key": "appendix-d",
+      "pdf": "output/pdf/v1.1-appendix-d.pdf",
+      "html": "appendix-d-print.html",
+      "pages": 10,
+      "startPage": 623,
+      "offset": 634,
+      "sha256": "374d24a94ae60f8171fa13fb5f500e0b4ca16ae3c46c34bf37b3cf1783b3fcb1"
+    },
+    {
+      "key": "index",
+      "pdf": "reports/1.1/index-print/index-assembled.pdf",
+      "html": "index-assembled-print.html",
+      "pages": 8,
+      "startPage": 633,
+      "offset": 644,
+      "sha256": "99f41952c8f59e3d7a12a1e5256d28c44454259ba08830d43ce1ee0eb3fa3a32"
+    },
+    {
+      "key": "licensing",
+      "pdf": "output/pdf/v1.1-licensing-attribution.pdf",
+      "html": "licensing-attribution-print.html",
+      "pages": 2,
+      "startPage": 641,
+      "offset": 652,
+      "sha256": "807f7bf0190760758925526109c940227cb9355426a6fc399eb8146983ad71a5"
+    }
+  ],
+  "pages": 654,
+  "bodyOffset": 12,
+  "modules": {
+    "m67030": {
+      "page": 10,
+      "y": 750
+    },
+    "m52309": {
+      "page": 12,
+      "y": 750
+    },
+    "m52310": {
+      "page": 13,
+      "y": 750
+    },
+    "m67032": {
+      "page": 20,
+      "y": 750
+    },
+    "m52313": {
+      "page": 30,
+      "y": 750
+    },
+    "m52314": {
+      "page": 31,
+      "y": 750
+    },
+    "m52316": {
+      "page": 34,
+      "y": 750
+    },
+    "m71407": {
+      "page": 36,
+      "y": 750
+    },
+    "m67033": {
+      "page": 40,
+      "y": 750
+    },
+    "m67034": {
+      "page": 47,
+      "y": 750
+    },
+    "m68876": {
+      "page": 55,
+      "y": 750
+    },
+    "m67038": {
+      "page": 62,
+      "y": 750
+    },
+    "m67035": {
+      "page": 64,
+      "y": 750
+    },
+    "m52322": {
+      "page": 72,
+      "y": 750
+    },
+    "m78923": {
+      "page": 74,
+      "y": 750
+    },
+    "m52325": {
+      "page": 75,
+      "y": 750
+    },
+    "m67530": {
+      "page": 77,
+      "y": 750
+    },
+    "m68330": {
+      "page": 84,
+      "y": 750
+    },
+    "m68329": {
+      "page": 88,
+      "y": 750
+    },
+    "m67044": {
+      "page": 92,
+      "y": 750
+    },
+    "m71409": {
+      "page": 95,
+      "y": 750
+    },
+    "m71410": {
+      "page": 100,
+      "y": 750
+    },
+    "m67036": {
+      "page": 105,
+      "y": 750
+    },
+    "m52337": {
+      "page": 116,
+      "y": 750
+    },
+    "m67539": {
+      "page": 117,
+      "y": 750
+    },
+    "m71411": {
+      "page": 120,
+      "y": 750
+    },
+    "m71414": {
+      "page": 124,
+      "y": 750
+    },
+    "m67037": {
+      "page": 129,
+      "y": 750
+    },
+    "m67045": {
+      "page": 133,
+      "y": 750
+    },
+    "m71415": {
+      "page": 135,
+      "y": 750
+    },
+    "m42155": {
+      "page": 144,
+      "y": 750
+    },
+    "m71582": {
+      "page": 145,
+      "y": 750
+    },
+    "m71583": {
+      "page": 148,
+      "y": 750
+    },
+    "m67039": {
+      "page": 150,
+      "y": 750
+    },
+    "m67042": {
+      "page": 153,
+      "y": 750
+    },
+    "m67043": {
+      "page": 156,
+      "y": 750
+    },
+    "m52431": {
+      "page": 164,
+      "y": 750
+    },
+    "m71584": {
+      "page": 165,
+      "y": 750
+    },
+    "m71585": {
+      "page": 167,
+      "y": 750
+    },
+    "m71586": {
+      "page": 171,
+      "y": 750
+    },
+    "m71587": {
+      "page": 174,
+      "y": 750
+    },
+    "m71588": {
+      "page": 177,
+      "y": 750
+    },
+    "m71590": {
+      "page": 182,
+      "y": 750
+    },
+    "m71589": {
+      "page": 184,
+      "y": 750
+    },
+    "m67819": {
+      "page": 188,
+      "y": 750
+    },
+    "m42176": {
+      "page": 200,
+      "y": 750
+    },
+    "m71592": {
+      "page": 201,
+      "y": 750
+    },
+    "m71593": {
+      "page": 205,
+      "y": 750
+    },
+    "m67046": {
+      "page": 208,
+      "y": 750
+    },
+    "m71594": {
+      "page": 213,
+      "y": 750
+    },
+    "m71595": {
+      "page": 218,
+      "y": 750
+    },
+    "m67047": {
+      "page": 228,
+      "y": 750
+    },
+    "m71614": {
+      "page": 229,
+      "y": 750
+    },
+    "m71613": {
+      "page": 230,
+      "y": 750
+    },
+    "m71615": {
+      "page": 233,
+      "y": 750
+    },
+    "m71623": {
+      "page": 235,
+      "y": 750
+    },
+    "m71624": {
+      "page": 238,
+      "y": 750
+    },
+    "m71625": {
+      "page": 244,
+      "y": 750
+    },
+    "m71626": {
+      "page": 247,
+      "y": 750
+    },
+    "m67121": {
+      "page": 258,
+      "y": 750
+    },
+    "m52364": {
+      "page": 259,
+      "y": 750
+    },
+    "m67122": {
+      "page": 264,
+      "y": 750
+    },
+    "m52368": {
+      "page": 267,
+      "y": 750
+    },
+    "m67123": {
+      "page": 269,
+      "y": 750
+    },
+    "m67622": {
+      "page": 270,
+      "y": 750
+    },
+    "m67124": {
+      "page": 276,
+      "y": 750
+    },
+    "m67125": {
+      "page": 282,
+      "y": 750
+    },
+    "m67126": {
+      "page": 284,
+      "y": 750
+    },
+    "m67127": {
+      "page": 288,
+      "y": 750
+    },
+    "m42235": {
+      "page": 293,
+      "y": 750
+    },
+    "m42236": {
+      "page": 297,
+      "y": 750
+    },
+    "m67128": {
+      "page": 301,
+      "y": 750
+    },
+    "m42238": {
+      "page": 305,
+      "y": 750
+    },
+    "m67129": {
+      "page": 320,
+      "y": 750
+    },
+    "m52381": {
+      "page": 322,
+      "y": 750
+    },
+    "m52384": {
+      "page": 326,
+      "y": 750
+    },
+    "m52385": {
+      "page": 328,
+      "y": 750
+    },
+    "m70739": {
+      "page": 330,
+      "y": 750
+    },
+    "m75427": {
+      "page": 332,
+      "y": 750
+    },
+    "m75428": {
+      "page": 337,
+      "y": 750
+    },
+    "m67130": {
+      "page": 343,
+      "y": 750
+    },
+    "m52401": {
+      "page": 346,
+      "y": 750
+    },
+    "m52402": {
+      "page": 348,
+      "y": 750
+    },
+    "m42356": {
+      "page": 351,
+      "y": 750
+    },
+    "m52406": {
+      "page": 359,
+      "y": 750
+    },
+    "m52408": {
+      "page": 374,
+      "y": 750
+    },
+    "m52412": {
+      "page": 375,
+      "y": 750
+    },
+    "m52410": {
+      "page": 377,
+      "y": 750
+    },
+    "m52413": {
+      "page": 380,
+      "y": 750
+    },
+    "m52414": {
+      "page": 382,
+      "y": 750
+    },
+    "m52416": {
+      "page": 384,
+      "y": 750
+    },
+    "m52417": {
+      "page": 386,
+      "y": 750
+    },
+    "m52420": {
+      "page": 387,
+      "y": 750
+    },
+    "m70743": {
+      "page": 390,
+      "y": 750
+    },
+    "m70744": {
+      "page": 392,
+      "y": 750
+    },
+    "m52427": {
+      "page": 394,
+      "y": 750
+    },
+    "m67131": {
+      "page": 397,
+      "y": 750
+    },
+    "m67031": {
+      "page": 410,
+      "y": 750
+    },
+    "m52443": {
+      "page": 411,
+      "y": 750
+    },
+    "m75429": {
+      "page": 414,
+      "y": 750
+    },
+    "m67132": {
+      "page": 418,
+      "y": 750
+    },
+    "m67133": {
+      "page": 420,
+      "y": 750
+    },
+    "m52450": {
+      "page": 431,
+      "y": 750
+    },
+    "m52454": {
+      "page": 433,
+      "y": 750
+    },
+    "m52455": {
+      "page": 436,
+      "y": 750
+    },
+    "m67134": {
+      "page": 439,
+      "y": 750
+    },
+    "m67135": {
+      "page": 449,
+      "y": 750
+    },
+    "m52456": {
+      "page": 455,
+      "y": 750
+    },
+    "m67139": {
+      "page": 472,
+      "y": 750
+    },
+    "m67250": {
+      "page": 474,
+      "y": 750
+    },
+    "m67251": {
+      "page": 476,
+      "y": 750
+    },
+    "m67803": {
+      "page": 480,
+      "y": 750
+    },
+    "m67804": {
+      "page": 483,
+      "y": 750
+    },
+    "m67805": {
+      "page": 486,
+      "y": 750
+    },
+    "m67807": {
+      "page": 491,
+      "y": 750
+    },
+    "m67808": {
+      "page": 495,
+      "y": 750
+    },
+    "m42525": {
+      "page": 506,
+      "y": 750
+    },
+    "m42528": {
+      "page": 507,
+      "y": 750
+    },
+    "m42531": {
+      "page": 510,
+      "y": 750
+    },
+    "m42535": {
+      "page": 517,
+      "y": 750
+    },
+    "m42540": {
+      "page": 521,
+      "y": 750
+    },
+    "m42542": {
+      "page": 526,
+      "y": 750
+    },
+    "m42546": {
+      "page": 528,
+      "y": 750
+    },
+    "m68325": {
+      "page": 544,
+      "y": 750
+    },
+    "m76584": {
+      "page": 545,
+      "y": 750
+    },
+    "m42627": {
+      "page": 549,
+      "y": 750
+    },
+    "m52466": {
+      "page": 551,
+      "y": 750
+    },
+    "m76603": {
+      "page": 555,
+      "y": 750
+    },
+    "m52471": {
+      "page": 561,
+      "y": 750
+    },
+    "m42649": {
+      "page": 567,
+      "y": 750
+    },
+    "m68327": {
+      "page": 570,
+      "y": 750
+    },
+    "m52480": {
+      "page": 576,
+      "y": 750
+    },
+    "m52479": {
+      "page": 582,
+      "y": 750
+    },
+    "m42665": {
+      "page": 587,
+      "y": 750
+    },
+    "m42671": {
+      "page": 591,
+      "y": 750
+    },
+    "m42674": {
+      "page": 593,
+      "y": 750
+    },
+    "m42680": {
+      "page": 599,
+      "y": 750
+    },
+    "m42699": {
+      "page": 618,
+      "y": 750
+    },
+    "m42702": {
+      "page": 624,
+      "y": 750
+    },
+    "m78798": {
+      "page": 628,
+      "y": 750
+    },
+    "m42709": {
+      "page": 634,
+      "y": 750
+    }
+  },
+  "slugs": {
+    "preface": "m67030",
+    "science-and-the-realm-of-physics-physical-quantities-and-units": "m52309",
+    "physics-an-introduction": "m52310",
+    "physical-quantities-and-units": "m67032",
+    "introduction-to-one-dimensional-kinematics": "m52313",
+    "displacement": "m52314",
+    "vectors-scalars-and-coordinate-systems": "m52316",
+    "time-velocity-and-speed": "m71407",
+    "acceleration": "m67033",
+    "motion-equations-for-constant-acceleration-in-one-dimension": "m67034",
+    "falling-objects": "m68876",
+    "projectile-motion": "m67038",
+    "centripetal-acceleration": "m67035",
+    "introduction-to-dynamics-newtons-laws-of-motion": "m52322",
+    "development-of-force-concept": "m78923",
+    "newtons-first-law-of-motion-inertia": "m52325",
+    "newton-s-second-law-of-motion-force-and-acceleration": "m67530",
+    "newtons-third-law-of-motion-symmetry-in-forces": "m68330",
+    "normal-force-and-tension": "m68329",
+    "spring-force-hookes-law": "m67044",
+    "friction": "m71409",
+    "newtons-universal-law-of-gravitation": "m71410",
+    "centripetal-force": "m67036",
+    "introduction-to-work-and-energy": "m52337",
+    "work-the-scientific-definition": "m67539",
+    "kinetic-energy-and-the-work-energy-theorem": "m71411",
+    "gravitational-potential-energy": "m71414",
+    "conservative-forces-potential-energy-and-conservation-of-energy": "m67037",
+    "spring-potential-energy": "m67045",
+    "power": "m71415",
+    "introduction-to-linear-momentum-and-collisions": "m42155",
+    "linear-momentum-and-force": "m71582",
+    "impulse": "m71583",
+    "conservation-of-momentum": "m67039",
+    "elastic-collisions-in-one-dimension": "m67042",
+    "inelastic-collisions-in-one-dimension": "m67043",
+    "introduction-to-oscillatory-motion-and-waves": "m52431",
+    "period-and-frequency-in-oscillations": "m71584",
+    "simple-harmonic-motion-a-special-periodic-motion": "m71585",
+    "forced-oscillations-and-resonance": "m71586",
+    "waves": "m71587",
+    "wave-interference-standing-waves-and-beats": "m71588",
+    "sound": "m71590",
+    "speed-of-sound-frequency-and-wavelength": "m71589",
+    "doppler-effect-and-sonic-booms": "m67819",
+    "introduction-to-rotational-motion-and-angular-momentum": "m42176",
+    "angular-acceleration": "m71592",
+    "dynamics-of-rotational-motion-rotational-inertia": "m71593",
+    "rotational-kinetic-energy": "m67046",
+    "angular-momentum-and-its-conservation": "m71594",
+    "gyroscopic-effects-vector-aspects-of-angular-momentum": "m71595",
+    "introduction-to-fluids": "m67047",
+    "what-is-a-fluid": "m71614",
+    "density": "m71613",
+    "pressure": "m71615",
+    "pressure-due-to-the-weight-of-fluid": "m71623",
+    "archimedes-principle": "m71624",
+    "flow-rate-and-its-relation-to-velocity": "m71625",
+    "bernoullis-equation": "m71626",
+    "introduction-to-thermal-physics": "m67121",
+    "temperature": "m52364",
+    "the-ideal-gas-law": "m67122",
+    "heat": "m52368",
+    "heat-transfer-methods": "m67123",
+    "temperature-change-and-heat-capacity": "m67622",
+    "phase-change-and-latent-heat": "m67124",
+    "the-first-law-of-thermodynamics": "m67125",
+    "the-first-law-of-thermodynamics-and-heat-engine-processes": "m67126",
+    "introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency": "m67127",
+    "carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated": "m42235",
+    "applications-of-thermodynamics-heat-pumps-and-refrigerators": "m42236",
+    "entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy": "m67128",
+    "statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation": "m42238",
+    "introduction-to-electricity": "m67129",
+    "static-electricity-and-charge-conservation-of-charge": "m52381",
+    "coulombs-law": "m52384",
+    "electric-field-concept-of-a-field-revisited": "m52385",
+    "electric-field-lines": "m70739",
+    "electric-potential-and-potential-energy": "m75427",
+    "conductors-and-applications-of-electrostatics": "m75428",
+    "current": "m67130",
+    "ohms-law-resistance-and-simple-circuits": "m52401",
+    "electric-power-and-energy": "m52402",
+    "resistors-in-series-and-parallel": "m42356",
+    "electric-hazards-and-the-human-body": "m52406",
+    "introduction-to-magnetism": "m52408",
+    "magnets": "m52412",
+    "ferromagnets-and-electromagnets": "m52410",
+    "magnetic-fields-and-magnetic-field-lines": "m52413",
+    "magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field": "m52414",
+    "magnetic-force-on-a-current-carrying-conductor": "m52416",
+    "motors-and-meters": "m52417",
+    "magnetic-fields-produced-by-currents-amperes-law": "m52420",
+    "induced-voltage-and-magnetic-flux": "m70743",
+    "faradays-law-of-induction-lenzs-law": "m70744",
+    "transformers": "m52427",
+    "alternating-current-versus-direct-current": "m67131",
+    "introduction-to-light": "m67031",
+    "maxwells-equations-electromagnetic-waves-predicted-and-observed": "m52443",
+    "production-and-properties-of-electromagnetic-waves": "m75429",
+    "the-electromagnetic-spectrum-an-overview": "m67132",
+    "the-electromagnetic-spectrum-application-notes": "m67133",
+    "reflection": "m52450",
+    "refraction": "m52454",
+    "dispersion-the-rainbow-and-prisms": "m52455",
+    "image-formation-by-lenses": "m67134",
+    "image-formation-by-mirrors": "m67135",
+    "polarization": "m52456",
+    "introduction-to-quantum-mechanics": "m67139",
+    "blackbody-radiation": "m67250",
+    "the-photoelectric-effect": "m67251",
+    "the-wave-nature-of-matter": "m67803",
+    "uncertainty-principle": "m67804",
+    "discovery-of-the-atomic-nucleus": "m67805",
+    "bohrs-theory-of-the-hydrogen-atom": "m67807",
+    "the-wave-nature-of-matter-causes-quantization": "m67808",
+    "introduction-to-special-relativity": "m42525",
+    "einsteins-postulates": "m42528",
+    "simultaneity-and-time-dilation": "m42531",
+    "length-contraction": "m42535",
+    "relativistic-addition-of-velocities": "m42540",
+    "relativistic-momentum": "m42542",
+    "relativistic-energy": "m42546",
+    "introduction-to-nuclear-and-particle-physics": "m68325",
+    "nuclear-radioactivity": "m76584",
+    "radiation-detection-and-detectors": "m42627",
+    "substructure-of-the-nucleus": "m52466",
+    "nuclear-decay-and-conservation-laws": "m76603",
+    "half-life-and-activity": "m52471",
+    "medical-imaging-and-diagnostics": "m42649",
+    "biological-effects-of-ionizing-radiation": "m68327",
+    "fusion": "m52480",
+    "fission": "m52479",
+    "nuclear-weapons": "m42665",
+    "the-four-basic-forces": "m42671",
+    "particles-patterns-and-conservation-laws": "m42674",
+    "guts-the-unification-of-forces": "m42680",
+    "atomic-masses": "m42699",
+    "selected-radioactive-isotopes": "m42702",
+    "useful-information": "m78798",
+    "glossary-of-key-symbols-and-notation": "m42709"
+  }
+}
