@@ -67,4 +67,12 @@ Sites version 186 sets all 174 canonical URLs to `https://intro.coaphys.xyz`. Th
 
 ## Theme asset cache update
 
-Sites version 187 adds content hashes to stylesheet and theme-script URLs, including in the self-hosting ZIP. This bypasses stale assets cached before the hosting migration. A simulated stale stylesheet reproduced the reported light-only appearance and the versioned URLs corrected it. Mobile Chrome emulation passed Light/Dark switching, reload persistence and navigation on both domains; the exact cause on the physical phone remains unconfirmed. The PDFs are unchanged.
+Sites version 187 adds content hashes to stylesheet and theme-script URLs, including in the self-hosting ZIP. This bypasses stale assets cached before the hosting migration. A simulated stale stylesheet reproduced the reported light-only appearance and the versioned URLs corrected it. Mobile Chrome emulation passed Light/Dark switching, reload persistence and navigation on both domains. The maintainer subsequently confirmed that the phone issue was a stale stylesheet and that the update resolved it. The PDFs are unchanged.
+
+## Closeout and version 1.2 starting point
+
+The final closeout audit confirmed that the maintained branch is pushed, all 19 assets listed in the version 1.1 checksum manifest match the published GitHub digests, and the version 1.0 release notes include the archived PDF link while its original assets remain unchanged. The maintainer reports that the printed book through Unit 3 looks good; detailed reading and markup will inform version 1.2. This does not constitute a full print review of the remaining units.
+
+Start version 1.2 from the current `maintained` branch, which includes the post-tag HTML punctuation correction, main-domain metadata, canonical URLs, versioned theme assets, and updated READMEs. The latest implementation/documentation commit before this closeout is `a00c9a6373c806aa7ef1aafffb4d4f303c13f0a1`. Preserve the `cp2e-ver1.1` tag, approved PDFs, source archives, and published release assets. Use a separate development branch or worktree for 1.2, keep outputs separate, and retain the live 1.1 site until a new publication is authorized.
+
+The local untracked `reports-objectives-overview.txt` is an objectives/headings inventory. It has been retained without modification and is not part of the release.
